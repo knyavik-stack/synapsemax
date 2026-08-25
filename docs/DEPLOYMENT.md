@@ -4,7 +4,7 @@
 
 ### Root cause
 
-The Cloudflare deploy command was `npx wrangler versions upload`, but Wrangler had no Worker entry point and no static-assets directory. The build log explicitly reports: `Missing entry-point to Worker script or to assets directory`. fileciteturn57file0
+The Cloudflare deploy command was `npx wrangler versions upload`, but Wrangler had no Worker entry point and no static-assets directory. The build log explicitly reports: `Missing entry-point to Worker script or to assets directory`.
 
 ### Fix in repository
 
