@@ -1,0 +1,130 @@
+/* SynapseMax DEX v1 — HUD primitives
+ * Intentionally additive. This stylesheet is not yet wired into index.html.
+ * It becomes the migration target for the current inline CSS during DEX-01.
+ */
+
+.sm-hud-panel {
+  position: relative;
+  border: 1px solid var(--sm-line);
+  background: var(--sm-surface);
+  border-radius: var(--sm-radius-lg);
+  box-shadow: var(--sm-shadow);
+  overflow: hidden;
+}
+
+.sm-hud-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, transparent 0 8%, rgba(0,215,255,.07) 8.1% 8.2%, transparent 8.3% 91.7%, rgba(215,68,255,.05) 91.8% 91.9%, transparent 92%),
+    linear-gradient(180deg, rgba(255,255,255,.035), transparent 22%);
+}
+
+.sm-hud-corner {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  pointer-events: none;
+}
+.sm-hud-corner::before,
+.sm-hud-corner::after {
+  content: "";
+  position: absolute;
+  background: var(--sm-cyan);
+  opacity: .72;
+}
+.sm-hud-corner::before { width: 100%; height: 1px; }
+.sm-hud-corner::after { width: 1px; height: 100%; }
+.sm-hud-corner.tl { top: 0; left: 0; }
+.sm-hud-corner.tr { top: 0; right: 0; transform: scaleX(-1); }
+.sm-hud-corner.bl { bottom: 0; left: 0; transform: scaleY(-1); }
+.sm-hud-corner.br { bottom: 0; right: 0; transform: scale(-1); }
+
+.sm-hud-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  line-height: 1;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #7fdcff;
+}
+.sm-hud-kicker::before {
+  content: "";
+  width: 18px;
+  height: 1px;
+  background: var(--sm-gradient);
+  box-shadow: 0 0 12px rgba(0,215,255,.45);
+}
+
+.sm-neural-node {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e9fcff;
+  box-shadow:
+    0 0 5px var(--sm-cyan),
+    0 0 14px rgba(0,215,255,.65),
+    0 0 24px rgba(138,44,255,.32);
+  animation: sm-node-pulse 2.8s var(--sm-ease) infinite;
+}
+
+.sm-data-rail {
+  height: 1px;
+  position: relative;
+  background: linear-gradient(90deg, transparent, rgba(0,215,255,.38), rgba(138,44,255,.32), transparent);
+  overflow: hidden;
+}
+.sm-data-rail::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 -18%;
+  width: 18%;
+  background: linear-gradient(90deg, transparent, #eaffff, transparent);
+  box-shadow: 0 0 12px rgba(0,215,255,.75);
+  animation: sm-rail-flow 2.6s linear infinite;
+}
+
+.sm-orbit {
+  position: relative;
+  border: 1px solid rgba(0,215,255,.11);
+  border-radius: 50%;
+  box-shadow: inset 0 0 55px rgba(0,102,255,.045), 0 0 45px rgba(71,43,255,.035);
+}
+.sm-orbit::before {
+  content: "";
+  position: absolute;
+  inset: 9%;
+  border: 1px dashed rgba(138,44,255,.14);
+  border-radius: inherit;
+  animation: sm-orbit-spin 22s linear infinite;
+}
+
+.sm-scan-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,215,255,.5), transparent);
+  box-shadow: 0 0 14px rgba(0,215,255,.25);
+  pointer-events: none;
+  animation: sm-scan 5.5s ease-in-out infinite;
+}
+
+@keyframes sm-node-pulse {
+  0%,100% { transform: scale(.75); opacity: .65; }
+  50% { transform: scale(1.25); opacity: 1; }
+}
+@keyframes sm-rail-flow { to { transform: translateX(650%); } }
+@keyframes sm-orbit-spin { to { transform: rotate(360deg); } }
+@keyframes sm-scan { 0%,100% { transform: translateY(-30px); opacity: 0; } 15%,85% { opacity: .7; } 50% { transform: translateY(260px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .sm-neural-node,
+  .sm-data-rail::after,
+  .sm-orbit::before,
+  .sm-scan-line { animation: none; }
+}
