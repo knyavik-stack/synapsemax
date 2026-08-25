@@ -1,10 +1,12 @@
 {
+  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "synapsemax",
-  "compatibility_date": "2026-08-25",
+  "compatibility_date": "2026-08-22",
   "assets": {
-    "directory": "./public"
+    "directory": ".",
+    "binding": "ASSETS"
   },
-  "build": {
-    "command": "node scripts/build-site.mjs"
+  "observability": {
+    "enabled": true
   }
 }
