@@ -1,34 +1,19 @@
 #!/usr/bin/env node
 
 /**
- * SynapseMax static-site build.
- * DEX v3 is the current experience prototype. Older versions remain
- * available for visual regression comparison.
+ * SynapseMax H1 build. Immediate is the current product experience;
+ * historical DEX files remain available for visual regression.
  */
 import { cpSync, existsSync, mkdirSync, rmSync } from 'node:fs';
 import { resolve } from 'node:path';
-
 const root = process.cwd();
 const dist = resolve(root, 'dist');
-const required = ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'assets'];
+const required = ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'dex-immediate.html', 'assets'];
 const missing = required.filter((entry) => !existsSync(resolve(root, entry)));
-
-if (missing.length) {
-  console.error('SynapseMax static build: FAILED');
-  console.error('Missing required source entries: ' + missing.join(', '));
-  process.exit(1);
-}
-
-// Always rebuild dist from scratch so stale deployment files cannot survive.
+if (missing.length) { console.error('SynapseMax build: FAILED'); console.error('Missing: ' + missing.join(', ')); process.exit(1); }
 rmSync(dist, { recursive: true, force: true });
 mkdirSync(dist, { recursive: true });
-
-for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html']) {
-  cpSync(resolve(root, file), resolve(dist, file));
-}
+for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'dex-immediate.html']) cpSync(resolve(root, file), resolve(dist, file));
 cpSync(resolve(root, 'assets'), resolve(dist, 'assets'), { recursive: true });
-
-console.log('SynapseMax static build: PASS');
-console.log('Current experience: dist/dex-v3.html');
-console.log('Accepted baseline: dist/index.html');
-console.log('Previous DEX versions retained for comparison.');
+console.log('SynapseMax build: PASS');
+console.log('Current experience: dist/dex-immediate.html');
