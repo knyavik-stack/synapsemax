@@ -2,42 +2,33 @@
 
 /**
  * SynapseMax static-site build.
- *
- * Cloudflare Workers Builds executes this command before Wrangler deployment.
- * We create a clean `dist/` deployment artifact so Wrangler always receives
- * an explicit, reproducible assets directory.
- *
- * `index.html` remains the accepted front baseline. The current visual
- * experience is `dex-v2.html`; older DEX versions remain available for
- * regression comparison.
+ * DEX v3 is the current experience prototype. Older versions remain
+ * available for visual regression comparison.
  */
-
 import { cpSync, existsSync, mkdirSync, rmSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const root = process.cwd();
 const dist = resolve(root, 'dist');
-const required = ['index.html', 'dex-v1.html', 'dex-v2.html', 'assets'];
+const required = ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'assets'];
 const missing = required.filter((entry) => !existsSync(resolve(root, entry)));
 
-if (missing.length > 0) {
+if (missing.length) {
   console.error('SynapseMax static build: FAILED');
-  console.error(`Missing required source entries: ${missing.join(', ')}`);
+  console.error('Missing required source entries: ' + missing.join(', '));
   process.exit(1);
 }
 
-// Rebuild the deployment artifact from scratch to prevent stale files.
+// Always rebuild dist from scratch so stale deployment files cannot survive.
 rmSync(dist, { recursive: true, force: true });
 mkdirSync(dist, { recursive: true });
 
-cpSync(resolve(root, 'index.html'), resolve(dist, 'index.html'));
-cpSync(resolve(root, 'dex-v1.html'), resolve(dist, 'dex-v1.html'));
-cpSync(resolve(root, 'dex-v2.html'), resolve(dist, 'dex-v2.html'));
+for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html']) {
+  cpSync(resolve(root, file), resolve(dist, file));
+}
 cpSync(resolve(root, 'assets'), resolve(dist, 'assets'), { recursive: true });
 
 console.log('SynapseMax static build: PASS');
-console.log('- output: ./dist');
-console.log('- entry: ./dist/index.html');
-console.log('- experience: ./dist/dex-v2.html');
-console.log('- regression baseline: ./dist/dex-v1.html');
-console.log('- assets: ./dist/assets/');
+console.log('Current experience: dist/dex-v3.html');
+console.log('Accepted baseline: dist/index.html');
+console.log('Previous DEX versions retained for comparison.');
