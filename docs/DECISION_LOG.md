@@ -17,6 +17,8 @@
 | D-013 | Accepted | DEX v2 was rejected as too simplified: insufficient content density, weak business meaning and generic visual reduction. |
 | D-014 | Accepted | DEX v3 restores the full business-transformation narrative, semantic content blocks, solution icons, richer approach visualization and Russian section hierarchy. |
 | D-015 | Accepted | Python is reserved for visual QA, regression analysis, asset processing and future data/AI services; it is not required to render the frontend itself. |
+| D-016 | Accepted | Immediate is rebaselined around the Transformation Intelligence Platform strategy: the primary product surface is now the transformation journey and Transformation Assessment, not a generic marketing landing page. |
+| D-017 | Accepted | Experience Layer and API edge remain separable from future Intelligence/Business Logic/Data layers. Immediate API logic is deterministic and replaceable; it must not be mistaken for the final Intelligence Layer. |
 
 ## Revisit rule
 
