@@ -5,7 +5,11 @@
  *
  * Cloudflare Workers Builds executes this command before Wrangler deployment.
  * We create a clean `dist/` deployment artifact so Wrangler always receives
- * an explicit, real assets directory instead of relying on the repository root.
+ * an explicit, reproducible assets directory.
+ *
+ * The repository keeps the accepted front prototype in `index.html` while
+ * the current Digital Experience Architecture prototype lives in
+ * `dex-v1.html`. The thin Worker selects which experience is served.
  */
 
 import { cpSync, existsSync, mkdirSync, rmSync } from 'node:fs';
@@ -13,7 +17,7 @@ import { resolve } from 'node:path';
 
 const root = process.cwd();
 const dist = resolve(root, 'dist');
-const required = ['index.html', 'assets'];
+const required = ['index.html', 'dex-v1.html', 'assets'];
 const missing = required.filter((entry) => !existsSync(resolve(root, entry)));
 
 if (missing.length > 0) {
@@ -27,9 +31,11 @@ rmSync(dist, { recursive: true, force: true });
 mkdirSync(dist, { recursive: true });
 
 cpSync(resolve(root, 'index.html'), resolve(dist, 'index.html'));
+cpSync(resolve(root, 'dex-v1.html'), resolve(dist, 'dex-v1.html'));
 cpSync(resolve(root, 'assets'), resolve(dist, 'assets'), { recursive: true });
 
 console.log('SynapseMax static build: PASS');
 console.log('- output: ./dist');
 console.log('- entry: ./dist/index.html');
+console.log('- experience: ./dist/dex-v1.html');
 console.log('- assets: ./dist/assets/');
