@@ -1,0 +1,6 @@
+# Cloudflare public-asset boundary.
+# Only the public site entry point and browser assets are exposed.
+*
+!index.html
+!assets/
+!assets/**
