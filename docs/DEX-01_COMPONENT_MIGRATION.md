@@ -4,7 +4,7 @@
 
 ### Baseline
 
-The existing prototype uses an inline `.card` rule inside `index.html`. It combines layout, visual treatment, hover interaction and card-specific typography in one global selector.
+The accepted prototype uses an inline `.card` rule inside `index.html`. It combines layout, visual treatment, hover interaction and card-specific typography in one global selector.
 
 ### Target
 
@@ -18,21 +18,26 @@ The existing prototype uses an inline `.card` rule inside `index.html`. It combi
 
 ### Why this extraction exists
 
-The card pattern is a reusable visual primitive across Services, Cases and future AI-facing UI. Naming the child roles explicitly prevents accidental coupling to generic HTML selectors during the migration.
+The card pattern is a reusable visual primitive across Services, Cases and future AI-facing UI. Naming the child roles explicitly prevents accidental coupling to generic HTML selectors during migration.
 
-### Migration rule
+### Controlled preview
 
-The new component is intentionally **not wired into production yet**. DEX-01 requires visual parity before replacing the legacy selector. This avoids changing architecture and design simultaneously.
+`preview/dex-card.html` mounts three representative cards against the DEX token/HUD layers only. It deliberately does not import the production `index.html` stylesheet. This isolates component behavior from legacy cascade conflicts.
 
-### Acceptance criteria
+### Current acceptance state
 
-- Desktop geometry remains equivalent to the accepted prototype.
-- Mobile card remains readable and touch-friendly.
-- Hover glow remains restrained.
-- Reduced-motion mode removes non-essential transitions.
-- No global selector collision.
-- Component uses DEX tokens rather than duplicating canonical values.
+- [x] Desktop structure exists.
+- [x] Mobile layout rule exists.
+- [x] Hover glow is restrained.
+- [x] Reduced-motion fallback exists.
+- [x] No generic `.card` selector is used by the component.
+- [x] DEX tokens are used for canonical values.
+- [x] Preview is isolated from production.
+- [ ] Visual parity against the accepted prototype confirmed by human review.
+- [ ] Runtime preview verified through Cloudflare.
+- [ ] Legacy `.card` instances migrated.
+- [ ] Legacy card CSS removed.
 
 ### Next action
 
-Create a controlled preview branch/commit that mounts one representative card using `.sm-card`, compare it with the legacy card, then migrate the remaining card instances only after parity is confirmed.
+Review the isolated preview first. If the visual direction is accepted, mount one real production card using `.sm-card`, verify the Cloudflare preview, then migrate the remaining instances. Do not promote the component to production before those checks pass.
