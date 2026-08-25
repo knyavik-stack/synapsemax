@@ -12,11 +12,11 @@
 | D-008 | Accepted | Non-production branch builds are enabled for preview work. |
 | D-009 | Accepted | The commercial website is the first interface of a future Transformation Intelligence Platform. |
 | D-010 | Rejected | Direct coupling to a single LLM provider. |
-| D-011 | Accepted | DEX v1 uses semantic HUD objects to explain transformation rather than decorative animation. |
-| D-012 | Accepted | The accepted front prototype remains the baseline; DEX v1 is layered as the next experience prototype rather than replacing the canonical brand foundation. |
-| D-013 | Accepted | DEX v2 becomes the current visual prototype after user review identified weak section rhythm, generic typography, missing solution icons, English section labels, weak animation semantics and excessive empty space. |
-| D-014 | Accepted | The canonical wordmark asset is used in navigation; web fonts are for interface text only and must not imitate the brand wordmark. |
-| D-015 | Accepted | The «Подход» animation must communicate a causal transformation from complexity to system, not merely provide motion. |
+| D-011 | Accepted | DEX prototypes use semantic HUD objects to explain transformation rather than decorative animation. |
+| D-012 | Accepted | The accepted front prototype remains the baseline; DEX is layered as the next experience prototype rather than replacing the canonical brand foundation. |
+| D-013 | Accepted | DEX v2 was rejected as too simplified: insufficient content density, weak business meaning and generic visual reduction. |
+| D-014 | Accepted | DEX v3 restores the full business-transformation narrative, semantic content blocks, solution icons, richer approach visualization and Russian section hierarchy. |
+| D-015 | Accepted | Python is reserved for visual QA, regression analysis, asset processing and future data/AI services; it is not required to render the frontend itself. |
 
 ## Revisit rule
 
