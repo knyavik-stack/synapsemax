@@ -1,0 +1,6 @@
+# Cloudflare public-asset boundary.
+# Keep only the production site entry point and its browser assets public.
+*
+!index.html
+!assets/
+!assets/**
