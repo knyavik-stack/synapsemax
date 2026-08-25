@@ -1,0 +1,42 @@
+:root {
+  /* SynapseMax DEX v1 — canonical visual tokens */
+  --sm-bg: #02040b;
+  --sm-bg-2: #050916;
+  --sm-surface: rgba(10, 16, 31, .72);
+  --sm-surface-solid: rgba(8, 12, 24, .92);
+  --sm-text: #f5f8ff;
+  --sm-text-soft: #b8c3d7;
+  --sm-text-muted: #8792a7;
+  --sm-line: rgba(255, 255, 255, .09);
+
+  --sm-cyan: #00d7ff;
+  --sm-blue: #1970ff;
+  --sm-violet: #8a2cff;
+  --sm-magenta: #d744ff;
+  --sm-gradient: linear-gradient(110deg, var(--sm-cyan), #2b72ff 42%, var(--sm-violet) 78%, var(--sm-magenta));
+
+  --sm-space-1: 4px;
+  --sm-space-2: 8px;
+  --sm-space-3: 12px;
+  --sm-space-4: 16px;
+  --sm-space-5: 24px;
+  --sm-space-6: 32px;
+  --sm-space-7: 48px;
+  --sm-space-8: 64px;
+  --sm-space-9: 96px;
+
+  --sm-radius-sm: 10px;
+  --sm-radius-md: 14px;
+  --sm-radius-lg: 18px;
+  --sm-radius-xl: 24px;
+
+  --sm-ease: cubic-bezier(.22, .72, .18, 1);
+  --sm-shadow: 0 24px 90px rgba(0, 0, 0, .42);
+  --sm-content-max: 1240px;
+}
+
+/*
+ * This file is the canonical source for DEX v1 tokens.
+ * Migration is intentionally incremental; the accepted prototype remains stable
+ * until each token/component extraction has passed the preview quality gate.
+ */
