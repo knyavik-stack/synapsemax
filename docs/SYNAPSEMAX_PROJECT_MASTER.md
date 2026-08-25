@@ -1,17 +1,24 @@
 # SYNAPSEMAX — PROJECT MASTER CONTEXT
 
-**Version:** 1.0  
-**Status:** Active / Architecture phase
+**Version:** 1.1  
+**Date:** 2026-08-25  
+**Status:** Active / Digital Experience Architecture v1
 
-## North Star
+## Canonical identity
+
+- Domain: **https://synapsemax.ru**
+- Primary email: **hello@synapsemax.ru**
+- Registrar: REG.RU
+- DNS/security: Cloudflare
+- Repository: `knyavik-stack/synapsemax`
+
+Any `.ai`, `.com` or other domain/email reference is incorrect unless explicitly approved in the Decision Log.
+
+## Strategic North Star
 
 SynapseMax is an AI-driven automation and digital-transformation company for Russian businesses.
 
-Long-term trajectory:
-
-**AI Automation → Digital Transformation → Transformation Intelligence Platform → Automated Business Transformation Ecosystem**
-
-Core idea:
+Long-term ambition: evolve from a transformation company into a **Transformation Intelligence Platform** and ultimately an automated business-transformation ecosystem.
 
 > **SynapseMax turns business complexity into intelligent, connected systems.**
 
@@ -21,43 +28,39 @@ Strategic journey:
 
 ## Positioning
 
-SynapseMax is not “AI for the sake of AI”. The proposition combines AI, automation, digital transformation, systems architecture, data, integration, governance and measurable business outcomes.
+SynapseMax is not “AI for the sake of AI”. It combines AI, automation, digital transformation, systems architecture, data, integration, governance and measurable business outcomes.
 
-The long-term target is not a generic AI consultancy, chatbot studio or collection of one-off automations. The direction is:
+The long-term target is:
 
 **diagnose → design → simulate → automate → monitor**
 
-## Brand
+## Brand / logo
 
-### Logo
+The canonical S mark consists of two intact complementary parts with a central synaptic interface. The S components must not be visually cut apart.
 
-Canonical mark: stylized S made from two intact complementary parts with a central synaptic interface.
+Accepted motion:
+- slow continuous loop;
+- electrical/neural points on the surrounding elliptical/circular field;
+- central energy exchange;
+- no forced fan-shaped synapse animation that fails to follow the S geometry.
 
-Rules:
-- S components remain intact.
-- Do not visually cut the S in half.
-- Motion belongs to the central synaptic relationship and surrounding neural/electrical environment.
-- Final accepted animation uses slow continuous electrical/neural points on the surrounding elliptical/circular field.
-- The rejected fan-shaped animation is not to be reintroduced.
-- The approved SynapseMax wordmark is canonical; do not replace it with a generic techno font.
+The approved SynapseMax wordmark is canonical and must not be replaced by a generic techno font.
 
-### Visual language
+## Visual language
 
-**HUD Futuristic / FUI-inspired**, but proprietary rather than copied from references.
+**HUD Futuristic / FUI-inspired**, but proprietary to SynapseMax rather than copied from references.
 
-Use:
-- radial/circular modules
-- technical callouts
-- thin illuminated lines
-- micro-grid
-- scanning rings
-- telemetry/status indicators
-- controlled neon glow
-- depth layers
-- modular panels
-- intelligent transitions
-
-Rule:
+Visual grammar:
+- radial/circular modules;
+- technical callouts;
+- thin illuminated lines;
+- micro-grid;
+- scanning rings;
+- telemetry/status indicators;
+- controlled neon glow;
+- depth layers;
+- modular panels;
+- intelligent transitions.
 
 > HUD is a visual system, not decoration.
 
@@ -65,20 +68,20 @@ Rule:
 
 1. Content hierarchy beats decoration.
 2. Animation must explain a system or create orientation.
-3. Typography remains readable; never shrink useful text for style.
-4. Sections have intentional rhythm and spacing.
-5. Icons communicate function immediately.
-6. Neon is an accent, not a flood.
-7. Desktop and mobile are compositions, not simple scaling.
-8. Performance and accessibility are part of design.
-9. The site should feel like an interface to an intelligent transformation system.
+3. Typography remains readable.
+4. Never shrink useful text merely to preserve style.
+5. Sections need intentional rhythm and spacing.
+6. Icons communicate function immediately.
+7. Neon is an accent, not a flood.
+8. Desktop and mobile are separate compositions.
+9. Performance and accessibility are part of design.
+10. The site should feel like an interface to an intelligent transformation system, not a cyberpunk showcase.
 
 ## Site narrative
 
 **Complex business → SynapseMax understands it → System map → AI/automation opportunities → Architecture → Implementation → Measurable outcome**
 
-Planned core sections:
-
+Core sections:
 1. Hero
 2. Transformation thesis
 3. What we transform
@@ -96,15 +99,12 @@ Planned core sections:
 ## Product evolution
 
 ### H1 — 0–1 year
-
 Commercial transformation site and lead-generation/assessment layer.
 
 ### H2 — 1–5 years
-
 Digital entry point to a transformation platform: business diagnostic, roadmap, architecture simulation, ROI analysis, personalized recommendations, customer workspace and integrations.
 
 ### H3 — 5–50 years
-
 Transformation Intelligence Platform / automated business-transformation ecosystem.
 
 Architecture must survive model replacement, interface changes, cloud-provider changes, regulation and enterprise software changes.
@@ -122,32 +122,29 @@ Non-production branch builds: enabled
 
 Frontend and future backend/API remain logically separable.
 
-Target logical layers:
-
+Target layers:
 - Experience
 - Intelligence
 - Business Logic
 - Integration
 - Governance
 
-Critical rule:
+Critical rule: do not tightly couple business logic or frontend to a single LLM provider.
 
-> Do not tightly couple business logic or frontend to a single LLM provider.
+## Current development phase
 
-## Current status
-
-The existing frontend prototype is accepted as the visual foundation. The next phase is **Digital Experience Architecture v1**.
+The initial frontend prototype is **accepted**. We are now entering **Digital Experience Architecture v1**.
 
 Priority:
-
-1. information architecture
-2. user journeys
-3. conversion architecture
-4. content architecture
-5. design system
-6. technical architecture
-7. implementation
-8. AI layer
+1. information architecture;
+2. user journeys;
+3. conversion architecture;
+4. content architecture;
+5. design tokens;
+6. HUD primitives;
+7. reusable component architecture;
+8. implementation;
+9. AI layer.
 
 ## Rejected decisions
 
@@ -159,7 +156,8 @@ Priority:
 - Very fast synapse animation — destroys premium feel.
 - Meaningless decorative animation — animation must communicate system behavior.
 - Excessively tiny typography — readability has priority.
-- Empty case cards — cases need meaningful system objects.
+- Empty case cards — cases need meaningful transformation objects.
+- Unverified outcome metrics presented as facts — unacceptable for B2B trust.
 
 ## Decision Log
 
@@ -170,7 +168,7 @@ Priority:
 **ACCEPTED** — current S mark is the visual identity.
 
 ### D-003 — Logo animation
-**ACCEPTED** — no cutting of S parts; motion belongs to central synaptic zone and surrounding neural/electrical field.
+**ACCEPTED** — no cutting of S parts; motion belongs to the central synaptic zone and surrounding neural/electrical field.
 
 ### D-004 — HUD Futuristic
 **ACCEPTED** — HUD/FUI is the visual grammar, not a template to copy.
@@ -181,8 +179,8 @@ Priority:
 ### D-006 — Deployment
 **ACCEPTED** — GitHub + Cloudflare Workers Builds.
 
-### D-007 — Domain
-**ACCEPTED** — domain remains at REG.RU; DNS/security via Cloudflare.
+### D-007 — Domain and email
+**ACCEPTED** — canonical domain is `synapsemax.ru`; primary public email is `hello@synapsemax.ru`.
 
 ### D-008 — Preview workflow
 **ACCEPTED** — non-production branch builds are enabled.
@@ -195,6 +193,12 @@ Priority:
 
 ### D-011 — Proprietary HUD language
 **ACCEPTED** — external HUD references are inspiration only; SynapseMax must develop its own reusable HUD primitives.
+
+### D-012 — Quality gate
+**ACCEPTED** — every significant change must be checked for code correctness, links/assets, responsive behavior, runtime errors, deployment health and visual regressions before completion.
+
+### D-013 — Canonical domain consistency
+**ACCEPTED** — all site, SEO, CTA, contact, metadata and documentation references must use `synapsemax.ru` / `hello@synapsemax.ru` unless explicitly approved otherwise.
 
 ## Open questions
 
@@ -212,83 +216,70 @@ Priority:
 ## Next tasks
 
 ### Immediate
-
-- audit current code and live Worker
-- establish project structure
-- establish design tokens
-- establish reusable components
-- freeze logo assets
-- freeze typography rules
-- create sitemap and user journeys
-- define conversion architecture
-- define content model
+- audit current frontend and live Worker;
+- remove domain/email inconsistencies;
+- establish design tokens;
+- establish HUD primitives;
+- establish reusable components;
+- freeze logo assets;
+- freeze typography rules;
+- create sitemap and user journeys;
+- define conversion/content architecture.
 
 ### Then
-
-- rebuild sections around the architecture
-- add meaningful HUD data visualizations
-- replace placeholder case cards with clearly labelled illustrative/demo scenarios until real cases exist
-- make the “complexity → system” visualization semantically explicit
-- implement responsive desktop/mobile system
-- define animation performance budget
-- add accessibility baseline
-- add analytics
-- validate production domain
+- rebuild sections around the new architecture;
+- add meaningful HUD data visualizations;
+- replace placeholder case cards with clearly labelled illustrative/demo scenarios until real cases exist;
+- make the complexity → system visualization semantically explicit;
+- implement responsive desktop/mobile system;
+- define animation performance budget;
+- add accessibility baseline;
+- add analytics;
+- validate production deployment.
 
 ### Later
-
-- AI Transformation Assessment
-- ROI calculator
-- AI Consultant
-- client portal
-- integration layer
+- AI Transformation Assessment;
+- ROI calculator;
+- AI Consultant;
+- client portal;
+- integration layer.
 
 ## Definition of Done
 
 A release is not complete merely because it looks futuristic.
 
 ### Brand
-- canonical logo and wordmark preserved
-- recognizable at small sizes
+- canonical logo and wordmark preserved;
+- recognizable at small sizes.
 
 ### UX
-- value proposition understood quickly
-- primary CTA obvious
-- navigation clear
-- hierarchy readable
+- value proposition understood quickly;
+- primary CTA obvious;
+- navigation clear;
+- hierarchy readable.
 
 ### Technology
-- smooth animation
-- no unnecessary GPU-heavy effects
-- mobile performant
-- reduced-motion fallback
+- smooth animation;
+- no unnecessary GPU-heavy effects;
+- mobile performant;
+- reduced-motion fallback.
 
 ### Product
-- every section communicates a business concept
-- cases demonstrate transformation logic
-- Approach demonstrates complexity → system
-- future AI functions have defined entry points
+- every section communicates a business concept;
+- cases demonstrate transformation logic;
+- Approach demonstrates complexity → system;
+- future AI functions have defined entry points.
 
 ### Architecture
-- reusable components
-- content separated from presentation
-- AI provider abstracted
-- reproducible deployment
-- preview/production separation
+- reusable components;
+- content separated from presentation;
+- AI provider abstracted;
+- reproducible deployment;
+- preview/production separation.
 
 ## Governance
 
-Every significant decision must record:
-
-- Decision
-- Date
-- Status
-- Context
-- Options considered
-- Decision
-- Reason
-- Consequences
-- Revisit condition
+Every major decision must record: Decision, Date, Status, Context, Options, Decision, Reason, Consequences, Revisit condition.
 
 ## Working agreement
 
@@ -302,3 +293,13 @@ Every significant decision must record:
 8. Do not copy HUD references; create a proprietary SynapseMax visual system.
 9. Do not replace the canonical logo/wordmark without a Decision Log entry.
 10. Treat the website as the first interface of the future automated transformation ecosystem.
+11. Verify the result of every significant implementation before declaring it complete.
+12. Verify all public domain/email references against the canonical `.ru` identity before release.
+
+## North Star
+
+> **SYNAPSEMAX**
+>
+> From business complexity
+> to intelligent systems
+> to automated transformation.
