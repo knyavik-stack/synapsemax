@@ -75,7 +75,13 @@ x = 10;
 
 Не использовать вымышленные клиентские результаты как подтверждённые факты. До появления подтверждённых кейсов метрики должны быть явно обозначены как `SIMULATION`, `ILLUSTRATIVE SCENARIO` или эквивалент.
 
-## 8. Definition of Done
+## 8. Cloudflare deployment invariant
+
+Cloudflare Workers Builds выполняет отдельный build command перед deploy command, но Wrangler также поддерживает собственный `[build]` command. Для SynapseMax `wrangler.jsonc` должен содержать build command, который создаёт `./public` перед `versions upload`. Это защищает deployment от ситуации, когда внешний Cloudflare build hook не был применён к trigger.
+
+Preview deploy должен использовать `npx wrangler versions upload`; production deploy — `npx wrangler deploy`. В обоих случаях источник статических assets — `./public`.
+
+## 9. Definition of Done
 
 Этап можно закрыть только когда:
 
@@ -84,4 +90,5 @@ x = 10;
 - принятое UX/brand поведение сохранено или изменение явно одобрено;
 - новые primitives используются там, где они действительно нужны;
 - legacy-слой не накапливается без причины;
+- deployment подтверждён фактическим успешным build/deploy, а не только наличием конфигурации;
 - результат проверен настолько, насколько позволяют доступные инструменты.
