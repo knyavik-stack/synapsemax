@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import { assess, calculateRoi } from '../src/immediate-logic.js';
+const assessment = assess({ complexity: 80, manualWork: 70, dataFragmentation: 60, errorRate: 30 });
+assert.equal(assessment.score, 60);
+assert.ok(assessment.automationPotential >= 60);
+const roi = calculateRoi({ monthlyCost: 1000000, automationShare: 35, expectedEfficiency: 25, implementationCost: 1500000 });
+assert.equal(roi.monthlySaving, 87500);
+assert.equal(roi.annualSaving, 1050000);
+assert.equal(roi.roiPercent, -30);
+console.log('Immediate smoke tests: PASS');
