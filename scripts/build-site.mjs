@@ -7,9 +7,9 @@
  * We create a clean `dist/` deployment artifact so Wrangler always receives
  * an explicit, reproducible assets directory.
  *
- * The repository keeps the accepted front prototype in `index.html` while
- * the current Digital Experience Architecture prototype lives in
- * `dex-v1.html`. The thin Worker selects which experience is served.
+ * `index.html` remains the accepted front baseline. The current visual
+ * experience is `dex-v2.html`; older DEX versions remain available for
+ * regression comparison.
  */
 
 import { cpSync, existsSync, mkdirSync, rmSync } from 'node:fs';
@@ -17,7 +17,7 @@ import { resolve } from 'node:path';
 
 const root = process.cwd();
 const dist = resolve(root, 'dist');
-const required = ['index.html', 'dex-v1.html', 'assets'];
+const required = ['index.html', 'dex-v1.html', 'dex-v2.html', 'assets'];
 const missing = required.filter((entry) => !existsSync(resolve(root, entry)));
 
 if (missing.length > 0) {
@@ -32,10 +32,12 @@ mkdirSync(dist, { recursive: true });
 
 cpSync(resolve(root, 'index.html'), resolve(dist, 'index.html'));
 cpSync(resolve(root, 'dex-v1.html'), resolve(dist, 'dex-v1.html'));
+cpSync(resolve(root, 'dex-v2.html'), resolve(dist, 'dex-v2.html'));
 cpSync(resolve(root, 'assets'), resolve(dist, 'assets'), { recursive: true });
 
 console.log('SynapseMax static build: PASS');
 console.log('- output: ./dist');
 console.log('- entry: ./dist/index.html');
-console.log('- experience: ./dist/dex-v1.html');
+console.log('- experience: ./dist/dex-v2.html');
+console.log('- regression baseline: ./dist/dex-v1.html');
 console.log('- assets: ./dist/assets/');
