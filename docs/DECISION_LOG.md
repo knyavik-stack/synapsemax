@@ -14,6 +14,9 @@
 | D-010 | Rejected | Direct coupling to a single LLM provider. |
 | D-011 | Accepted | DEX v1 uses semantic HUD objects to explain transformation rather than decorative animation. |
 | D-012 | Accepted | The accepted front prototype remains the baseline; DEX v1 is layered as the next experience prototype rather than replacing the canonical brand foundation. |
+| D-013 | Accepted | DEX v2 becomes the current visual prototype after user review identified weak section rhythm, generic typography, missing solution icons, English section labels, weak animation semantics and excessive empty space. |
+| D-014 | Accepted | The canonical wordmark asset is used in navigation; web fonts are for interface text only and must not imitate the brand wordmark. |
+| D-015 | Accepted | The «Подход» animation must communicate a causal transformation from complexity to system, not merely provide motion. |
 
 ## Revisit rule
 
