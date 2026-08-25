@@ -1,34 +1,35 @@
 #!/usr/bin/env node
 
 /**
- * SynapseMax static-site build guard.
+ * SynapseMax static-site build.
  *
- * Cloudflare Workers Builds runs this command before Wrangler deployment.
- * The current site is intentionally deployed from the repository root with
- * `.assetsignore` defining the public boundary, so this script does not copy
- * files into a temporary `public/` directory.
- *
- * Its job is to fail early when the deployable frontend is incomplete.
+ * Cloudflare Workers Builds executes this command before Wrangler deployment.
+ * We create a clean `dist/` deployment artifact so Wrangler always receives
+ * an explicit, real assets directory instead of relying on the repository root.
  */
 
-import { existsSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, rmSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const root = process.cwd();
-const required = [
-  'index.html',
-  'assets',
-];
-
+const dist = resolve(root, 'dist');
+const required = ['index.html', 'assets'];
 const missing = required.filter((entry) => !existsSync(resolve(root, entry)));
 
 if (missing.length > 0) {
   console.error('SynapseMax static build: FAILED');
-  console.error(`Missing required deployment entries: ${missing.join(', ')}`);
+  console.error(`Missing required source entries: ${missing.join(', ')}`);
   process.exit(1);
 }
 
+// Rebuild the deployment artifact from scratch to prevent stale files.
+rmSync(dist, { recursive: true, force: true });
+mkdirSync(dist, { recursive: true });
+
+cpSync(resolve(root, 'index.html'), resolve(dist, 'index.html'));
+cpSync(resolve(root, 'assets'), resolve(dist, 'assets'), { recursive: true });
+
 console.log('SynapseMax static build: PASS');
-console.log('- entry: ./index.html');
-console.log('- assets: ./assets/');
-console.log('- deployment boundary: .assetsignore');
+console.log('- output: ./dist');
+console.log('- entry: ./dist/index.html');
+console.log('- assets: ./dist/assets/');
