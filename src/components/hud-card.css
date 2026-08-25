@@ -1,0 +1,94 @@
+/*
+ * SynapseMax DEX v1 — HUD Card
+ *
+ * Migration target for the current inline `.card` pattern.
+ * Keep this component visually conservative during DEX-01: the first goal is
+ * structural reuse, not a redesign. The visual baseline should remain stable
+ * until the Foundation Preview is approved.
+ */
+
+.sm-card {
+  position: relative;
+  min-height: 236px;
+  padding: 24px;
+  border: 1px solid var(--sm-line);
+  border-radius: var(--sm-radius-md);
+  background: linear-gradient(160deg, rgba(255,255,255,.034), rgba(255,255,255,.012));
+  overflow: hidden;
+  transition: transform .46s var(--sm-ease), border-color .46s var(--sm-ease), box-shadow .46s var(--sm-ease);
+}
+
+/* Pointer glow is driven by --sm-mx/--sm-my when the runtime interaction layer
+ * is attached. The fallback keeps the component attractive without JS. */
+.sm-card::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  pointer-events: none;
+  background: radial-gradient(260px 180px at var(--sm-mx, 50%) var(--sm-my, 10%), rgba(0,215,255,.13), transparent 66%);
+  opacity: 0;
+  transition: opacity .4s var(--sm-ease);
+}
+
+.sm-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(0,215,255,.22);
+  box-shadow: 0 26px 70px rgba(0,0,0,.32);
+}
+.sm-card:hover::before { opacity: 1; }
+
+.sm-card > * { position: relative; z-index: 1; }
+
+.sm-card__icon {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 34px;
+  border: 1px solid rgba(0,215,255,.22);
+  border-radius: 11px;
+  background: rgba(0,215,255,.045);
+  box-shadow: inset 0 0 22px rgba(0,215,255,.025);
+}
+
+.sm-card__icon svg {
+  width: 20px;
+  height: 20px;
+  overflow: visible;
+}
+
+.sm-card__title {
+  margin: 0 0 8px;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -.03em;
+}
+
+.sm-card__text {
+  max-width: 235px;
+  margin: 0;
+  color: var(--sm-muted);
+  font-size: 13px;
+}
+
+.sm-card__arrow {
+  position: absolute;
+  right: 19px;
+  bottom: 18px;
+  color: #88d9ff;
+  font-size: 18px;
+  transition: transform .35s var(--sm-ease);
+}
+.sm-card:hover .sm-card__arrow { transform: translate(3px, -3px); }
+
+@media (max-width: 720px) {
+  .sm-card { min-height: 210px; padding: 20px; }
+  .sm-card__icon { margin-bottom: 26px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sm-card,
+  .sm-card::before,
+  .sm-card__arrow { transition: none; }
+  .sm-card:hover { transform: none; }
+}
