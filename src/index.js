@@ -9,6 +9,14 @@ function json(data, status = 200) {
   return new Response(JSON.stringify(data), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
 }
 
+async function immediateAsset(env, request) {
+  const asset = await env.ASSETS.fetch(new Request(new URL('/dex-immediate.html', request.url), request));
+  const headers = new Headers(asset.headers);
+  headers.set('cache-control', 'no-store');
+  headers.set('x-synapsemax-experience', 'immediate');
+  return new Response(asset.body, { status: asset.status, statusText: asset.statusText, headers });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -21,9 +29,7 @@ export default {
       try { return json({ ok: true, result: calculateRoi(await request.json()) }); }
       catch { return json({ ok: false, error: 'Invalid JSON' }, 400); }
     }
-    if (url.pathname === '/' || url.pathname === '/index.html') {
-      return env.ASSETS.fetch(new Request(new URL('/dex-immediate.html', request.url), request));
-    }
+    if (url.pathname === '/' || url.pathname === '/index.html') return immediateAsset(env, request);
     return env.ASSETS.fetch(request);
   },
 };
