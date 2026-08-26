@@ -5,7 +5,8 @@
   "scripts":{
     "build":"node scripts/build-site.mjs",
     "test:immediate":"node scripts/test-immediate.mjs",
-    "deploy:cloudflare":"npm run build && npx wrangler versions upload"
+    "deploy:cloudflare":"npm run build && npx wrangler deploy",
+    "preview:cloudflare":"npm run build && npx wrangler versions upload"
   },
   "devDependencies":{
     "wrangler":"^4.126.0"
