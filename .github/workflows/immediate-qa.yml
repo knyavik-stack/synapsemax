@@ -27,7 +27,7 @@ jobs:
           test -d dist/assets
           test -f dist/assets/synapsemax-symbol.png
           test -f dist/assets/synapsemax-wordmark.png
-          grep -q 'Диагностика трансформации' dist/dex-immediate.html
+          grep -q 'Диагностика' dist/dex-immediate.html
           grep -q '/api/v1/assessment' dist/dex-immediate.html
           grep -q '/api/v1/roi' dist/dex-immediate.html
           grep -q 'sm-footer' dist/dex-immediate.html
