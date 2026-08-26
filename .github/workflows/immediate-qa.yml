@@ -15,6 +15,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
 
       - run: npm run build
       - run: npm run test:immediate
@@ -32,6 +33,22 @@ jobs:
           grep -q 'hello@synapsemax.ru' dist/dex-immediate.html
           grep -q 'Данные → интеллект → действие → результат' dist/dex-immediate.html
           echo 'Production artifact verification: PASS'
+
+      - name: Check artifact size budget
+        run: |
+          total_kb=$(du -sk dist | cut -f1)
+          html_kb=$(du -k dist/dex-immediate.html | cut -f1)
+          echo "dist total: ${total_kb} KB"
+          echo "Immediate HTML: ${html_kb} KB"
+          test "$total_kb" -le 8192
+          test "$html_kb" -le 512
+          echo 'Performance budget: PASS'
+
+      - name: Validate Wrangler configuration
+        run: npx --yes wrangler@4 check
+
+      - name: Validate deployment graph
+        run: npx --yes wrangler@4 deploy --dry-run
 
       - name: Upload production artifact
         uses: actions/upload-artifact@v4
