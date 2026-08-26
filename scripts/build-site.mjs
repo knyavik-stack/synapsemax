@@ -94,12 +94,13 @@ let immediate = immediateSource
   .replaceAll('TRANSFORMATION SYSTEM // READY', 'ТРАНСФОРМАЦИЯ // ГОТОВА')
   .replaceAll('separable система', 'архитектура, которую можно развивать по слоям');
 
-immediate = immediate.replace(/<footer[\s\S]*?<\/footer>/i, footer);
-if (immediate === immediateSource) {
+const materialized = immediate.replace(/<footer[\s\S]*?<\/footer>/i, footer);
+if (materialized === immediate) {
   console.error('SynapseMax build: FAILED');
   console.error('dex-immediate.html does not contain a footer placeholder');
   process.exit(1);
 }
+immediate = materialized;
 writeFileSync(resolve(dist, 'dex-immediate.html'), immediate);
 
 for (const file of runtimeAssets) {
