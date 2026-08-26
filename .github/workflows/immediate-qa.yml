@@ -28,6 +28,9 @@ jobs:
           grep -q 'Transformation Assessment' dist/dex-immediate.html
           grep -q '/api/v1/assessment' dist/dex-immediate.html
           grep -q '/api/v1/roi' dist/dex-immediate.html
+          grep -q 'sm-footer' dist/dex-immediate.html
+          grep -q 'hello@synapsemax.ru' dist/dex-immediate.html
+          grep -q 'Данные → интеллект → действие → результат' dist/dex-immediate.html
           echo 'Production artifact verification: PASS'
 
       - name: Upload production artifact
