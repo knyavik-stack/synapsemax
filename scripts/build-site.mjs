@@ -4,20 +4,22 @@
  * SynapseMax H1 build. Immediate is the current product experience;
  * historical DEX files remain available for visual regression.
  *
- * The Immediate source keeps presentation simple; this build step materializes
- * the production footer so the deployed artifact has one canonical contact /
- * navigation surface without duplicating it across HTML.
+ * Only runtime assets are copied to dist. Large brand/reference images stay
+ * in the repository for design/QA work and must never inflate production.
  */
 import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const root = process.cwd();
 const dist = resolve(root, 'dist');
+const runtimeAssets = ['synapsemax-symbol.png', 'synapsemax-wordmark.png'];
 const required = ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'dex-immediate.html', 'assets'];
 const missing = required.filter((entry) => !existsSync(resolve(root, entry)));
-if (missing.length) {
+const missingAssets = runtimeAssets.filter((entry) => !existsSync(resolve(root, 'assets', entry)));
+if (missing.length || missingAssets.length) {
   console.error('SynapseMax build: FAILED');
-  console.error('Missing: ' + missing.join(', '));
+  if (missing.length) console.error('Missing: ' + missing.join(', '));
+  if (missingAssets.length) console.error('Missing runtime assets: ' + missingAssets.join(', '));
   process.exit(1);
 }
 
@@ -66,7 +68,7 @@ const footer = `
 </style>`;
 
 rmSync(dist, { recursive: true, force: true });
-mkdirSync(dist, { recursive: true });
+mkdirSync(resolve(dist, 'assets'), { recursive: true });
 for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html']) {
   cpSync(resolve(root, file), resolve(dist, file));
 }
@@ -80,7 +82,10 @@ if (immediate === immediateSource) {
 }
 writeFileSync(resolve(dist, 'dex-immediate.html'), immediate);
 
-cpSync(resolve(root, 'assets'), resolve(dist, 'assets'), { recursive: true });
+for (const file of runtimeAssets) {
+  cpSync(resolve(root, 'assets', file), resolve(dist, 'assets', file));
+}
 console.log('SynapseMax build: PASS');
 console.log('Current experience: dist/dex-immediate.html');
 console.log('Immediate footer: materialized');
+console.log('Runtime assets: ' + runtimeAssets.join(', '));
