@@ -17,6 +17,11 @@
 | D-013 | Accepted | DEX v2 was rejected as too simplified: insufficient content density, weak business meaning and generic visual reduction. |
 | D-014 | Accepted | DEX v3 restores the full business-transformation narrative, semantic content blocks, solution icons, richer approach visualization and Russian section hierarchy. |
 | D-015 | Accepted | Python is reserved for visual QA, regression analysis, asset processing and future data/AI services; it is not required to render the frontend itself. |
+| D-016 | Accepted | Production UI readability takes precedence over ultra-small HUD typography. Body copy, labels, metrics, navigation and architecture descriptions must remain comfortably readable on desktop and mobile. |
+| D-017 | Accepted | Section rhythm is intentionally compacted after production QA identified excessive vertical gaps. Desktop and mobile spacing must preserve information density without creating empty screens. |
+| D-018 | Accepted | Architecture cards collapse to content-driven height on mobile; fixed decorative heights are not allowed when they create empty space. |
+| D-019 | Accepted | Canonical wordmark assets are used directly in header and footer. The wordmark must remain visually legible across browsers; no substitute web font is used. |
+| D-020 | Accepted | Primary navigation uses a visible hover/focus underline, and desktop pointer interaction includes a restrained circular cursor indicator. Both disappear for coarse pointers and reduced-motion users. |
 
 ## Revisit rule
 
