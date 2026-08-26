@@ -16,8 +16,8 @@ jobs:
         with:
           node-version: 22
 
-      - run: npm run test:immediate
       - run: npm run build
+      - run: npm run test:immediate
 
       - name: Verify production artifact
         run: |
