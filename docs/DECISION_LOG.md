@@ -29,6 +29,7 @@
 | D-025 | Accepted | Responsive spacing is content-led. Architecture layers, process stages and other cards must not retain decorative minimum heights on small screens when those heights create empty visual fields. |
 | D-026 | Accepted | `npx wrangler deploy` is the canonical production deployment command; `npx wrangler versions upload` is reserved for preview/version inspection and must not be treated as production promotion. |
 | D-027 | Accepted | User-facing Immediate terminology is Russian at build output level; technical API paths and necessary technical terms may remain English. |
+| D-028 | Accepted | Asset routing is Worker-first for the production experience. `run_worker_first` is enabled globally so `/` cannot fall through to the static `dist/index.html` legacy baseline before `src/index.js` can serve Immediate. |
 
 ## Revisit rule
 
