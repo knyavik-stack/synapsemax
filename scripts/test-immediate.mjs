@@ -10,10 +10,32 @@ const assessment = assess({ complexity: 80, manualWork: 70, dataFragmentation: 6
 assert.equal(assessment.score, 60);
 assert.ok(assessment.automationPotential >= 60);
 
+// Boundary behavior: user-entered scores must stay deterministic and bounded.
+const bounded = assess({ complexity: -20, manualWork: 140, dataFragmentation: 'not-a-number', errorRate: 50 });
+assert.deepEqual(bounded.profile, { complexity: 0, manualWork: 100, dataFragmentation: 0, errorRate: 50 });
+assert.equal(bounded.score, 38);
+assert.equal(bounded.priority, 'Средний');
+
+const defaults = assess({});
+assert.deepEqual(defaults.profile, { complexity: 58, manualWork: 52, dataFragmentation: 61, errorRate: 28 });
+assert.ok(defaults.aiReadiness >= 0 && defaults.aiReadiness <= 100);
+assert.ok(defaults.automationPotential >= 0 && defaults.automationPotential <= 100);
+
 const roi = calculateRoi({ monthlyCost: 1000000, automationShare: 35, expectedEfficiency: 25, implementationCost: 1500000 });
 assert.equal(roi.monthlySaving, 87500);
 assert.equal(roi.annualSaving, 1050000);
 assert.equal(roi.roiPercent, -30);
+assert.equal(roi.paybackMonths, 17.1);
+
+// ROI boundaries: clamp user inputs and avoid division-by-zero failures.
+const roiBounded = calculateRoi({ monthlyCost: -1, automationShare: 200, expectedEfficiency: 200, implementationCost: 0 });
+assert.deepEqual(roiBounded, { monthlySaving: 720000, annualSaving: 8640000, roiPercent: 0, paybackMonths: 0 });
+
+const roiZeroSaving = calculateRoi({ monthlyCost: 100000, automationShare: 0, expectedEfficiency: 25, implementationCost: 500000 });
+assert.equal(roiZeroSaving.monthlySaving, 0);
+assert.equal(roiZeroSaving.annualSaving, 0);
+assert.equal(roiZeroSaving.roiPercent, -100);
+assert.equal(roiZeroSaving.paybackMonths, null);
 
 // Production artifact contract. Build first, then validate the actual dist output.
 const artifact = resolve(root, 'dist/dex-immediate.html');
