@@ -9,8 +9,14 @@ function json(data, status = 200) {
   return new Response(JSON.stringify(data), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
 }
 
+/**
+ * Fetch the canonical Immediate asset through its clean asset URL.
+ * Cloudflare Workers Assets can canonicalize *.html requests to extensionless
+ * URLs. Using /dex-immediate here lets the Worker keep the public request at /
+ * instead of accidentally returning the asset layer's redirect response.
+ */
 async function immediateAsset(env, request) {
-  const asset = await env.ASSETS.fetch(new Request(new URL('/dex-immediate.html', request.url), request));
+  const asset = await env.ASSETS.fetch(new Request(new URL('/dex-immediate', request.url), request));
   const headers = new Headers(asset.headers);
   headers.set('cache-control', 'no-store');
   headers.set('x-synapsemax-experience', 'immediate');
