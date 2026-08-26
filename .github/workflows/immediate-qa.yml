@@ -2,7 +2,7 @@ name: Immediate QA
 
 on:
   push:
-    branches: ['rebase/immediate-product']
+    branches: ['main', 'rebase/immediate-product']
   pull_request:
     branches: ['main']
 
@@ -27,13 +27,21 @@ jobs:
           test -d dist/assets
           test -f dist/assets/synapsemax-symbol.png
           test -f dist/assets/synapsemax-wordmark.png
-          grep -q 'Transformation Assessment' dist/dex-immediate.html
+          grep -q 'Диагностика трансформации' dist/dex-immediate.html
           grep -q '/api/v1/assessment' dist/dex-immediate.html
           grep -q '/api/v1/roi' dist/dex-immediate.html
           grep -q 'sm-footer' dist/dex-immediate.html
           grep -q 'hello@synapsemax.ru' dist/dex-immediate.html
           grep -q 'Данные → интеллект → действие → результат' dist/dex-immediate.html
           echo 'Production artifact verification: PASS'
+
+      - name: Validate root routing contract
+        run: |
+          grep -q 'run_worker_first' wrangler.jsonc
+          grep -q '"run_worker_first": true' wrangler.jsonc
+          grep -q "ASSETS.fetch('/dex-immediate'" src/index.js
+          ! grep -q 'ASSETS.fetch.*dex-immediate.html' src/index.js
+          echo 'Root routing contract: PASS'
 
       - name: Check artifact size budget
         run: |
