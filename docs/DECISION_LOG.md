@@ -30,6 +30,7 @@
 | D-026 | Accepted | `npx wrangler deploy` is the canonical production deployment command; `npx wrangler versions upload` is reserved for preview/version inspection and must not be treated as production promotion. |
 | D-027 | Accepted | User-facing Immediate terminology is Russian at build output level; technical API paths and necessary technical terms may remain English. |
 | D-028 | Accepted | Asset routing is Worker-first for the production experience. `run_worker_first` is enabled globally so `/` cannot fall through to the static `dist/index.html` legacy baseline before `src/index.js` can serve Immediate. |
+| D-029 | Accepted | Interaction QA must be implemented end-to-end: navigation hover underline, cursor enlargement and responsive density need both behavior and visible CSS states. A JS-only state without a corresponding visual rule is considered incomplete. |
 
 ## Revisit rule
 
