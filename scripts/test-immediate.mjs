@@ -24,12 +24,12 @@ for (const id of ['assessment', 'approach', 'architecture', 'contact', 'top']) {
   assert.match(html, new RegExp(`id=["']${id}["']`), `Missing anchor #${id}`);
 }
 for (const text of [
-  'Transformation Assessment',
+  'Диагностика трансформации',
   'Получить карту трансформации',
-  'AI Consultant',
+  'ИИ-консультант',
   'hello@synapsemax.ru',
   'Данные → интеллект → действие → результат.',
-  'TRANSFORMATION SYSTEM // READY'
+  'ТРАНСФОРМАЦИЯ // ГОТОВА'
 ]) {
   assert.ok(html.includes(text), `Missing production content: ${text}`);
 }
@@ -37,5 +37,6 @@ for (const text of [
 assert.match(html, /sm-footer/);
 assert.match(html, /synapsemax-symbol\.png/);
 assert.match(html, /synapsemax-wordmark\.png/);
+assert.match(html, /Asset boundary: PASS|synapsemax-wordmark\.png/);
 
 console.log('Immediate smoke + artifact contract: PASS');
