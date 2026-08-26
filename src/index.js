@@ -5,8 +5,25 @@
  */
 import { assess, calculateRoi } from './immediate-logic.js';
 
+const SECURITY_HEADERS = {
+  'x-content-type-options': 'nosniff',
+  'referrer-policy': 'strict-origin-when-cross-origin',
+  'permissions-policy': 'camera=(), microphone=(), geolocation=()',
+  'x-frame-options': 'DENY',
+};
+
+function withSecurityHeaders(response) {
+  const headers = new Headers(response.headers);
+  for (const [name, value] of Object.entries(SECURITY_HEADERS)) headers.set(name, value);
+  return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+}
+
 function json(data, status = 200) {
-  return new Response(JSON.stringify(data), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
+  const response = new Response(JSON.stringify(data), {
+    status,
+    headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
+  });
+  return withSecurityHeaders(response);
 }
 
 /**
@@ -20,6 +37,7 @@ async function immediateAsset(env, request) {
   const headers = new Headers(asset.headers);
   headers.set('cache-control', 'no-store');
   headers.set('x-synapsemax-experience', 'immediate');
+  for (const [name, value] of Object.entries(SECURITY_HEADERS)) headers.set(name, value);
   return new Response(asset.body, { status: asset.status, statusText: asset.statusText, headers });
 }
 
@@ -36,6 +54,6 @@ export default {
       catch { return json({ ok: false, error: 'Invalid JSON' }, 400); }
     }
     if (url.pathname === '/' || url.pathname === '/index.html') return immediateAsset(env, request);
-    return env.ASSETS.fetch(request);
+    return withSecurityHeaders(await env.ASSETS.fetch(request));
   },
 };
