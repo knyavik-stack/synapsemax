@@ -22,6 +22,8 @@
 | D-018 | Accepted | Architecture cards collapse to content-driven height on mobile; fixed decorative heights are not allowed when they create empty space. |
 | D-019 | Accepted | Canonical wordmark assets are used directly in header and footer. The wordmark must remain visually legible across browsers; no substitute web font is used. |
 | D-020 | Accepted | Primary navigation uses a visible hover/focus underline, and desktop pointer interaction includes a restrained circular cursor indicator. Both disappear for coarse pointers and reduced-motion users. |
+| D-021 | Accepted | The production build pipeline owns the Immediate footer materialization. Footer branding, links and typography are therefore tested at build output level rather than relying only on the source HTML placeholder. |
+| D-022 | Accepted | Cross-browser brand rendering uses the canonical wordmark asset with a normalized responsive layout box; the asset itself is never redrawn or replaced with a web font. |
 
 ## Revisit rule
 
