@@ -35,6 +35,7 @@ const roiZeroSaving = calculateRoi({ monthlyCost: 100000, automationShare: 0, ex
 assert.equal(roiZeroSaving.monthlySaving, 0);
 assert.equal(roiZeroSaving.annualSaving, 0);
 assert.equal(roiZeroSaving.roiPercent, -100);
+// No savings means payback is undefined, not zero months.
 assert.equal(roiZeroSaving.paybackMonths, null);
 
 // Production artifact contract. Build first, then validate the actual dist output.
