@@ -12,10 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Build/test do not need installed packages. Avoid setup-node npm cache
+      # until a package-lock.json is committed; otherwise setup-node fails.
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
 
       - run: npm run build
       - run: npm run test:immediate
