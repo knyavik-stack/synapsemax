@@ -1,0 +1,13 @@
+{
+  "name":"synapsemax",
+  "private":true,
+  "type":"module",
+  "scripts":{
+    "build":"node scripts/build-site.mjs",
+    "test:immediate":"node scripts/test-immediate.mjs",
+    "deploy:cloudflare":"npm run build && npx wrangler versions upload"
+  },
+  "devDependencies":{
+    "wrangler":"^4.126.0"
+  }
+}
