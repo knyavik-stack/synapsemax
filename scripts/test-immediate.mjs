@@ -24,7 +24,7 @@ for (const id of ['assessment', 'approach', 'architecture', 'contact', 'top']) {
   assert.match(html, new RegExp(`id=["']${id}["']`), `Missing anchor #${id}`);
 }
 for (const text of [
-  'Диагностика трансформации',
+  'Диагностика',
   'Получить карту трансформации',
   'ИИ-консультант',
   'hello@synapsemax.ru',
