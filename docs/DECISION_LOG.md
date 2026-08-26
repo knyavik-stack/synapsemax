@@ -24,6 +24,9 @@
 | D-020 | Accepted | Primary navigation uses a visible hover/focus underline, and desktop pointer interaction includes a restrained circular cursor indicator. Both disappear for coarse pointers and reduced-motion users. |
 | D-021 | Accepted | The production build pipeline owns the Immediate footer materialization. Footer branding, links and typography are therefore tested at build output level rather than relying only on the source HTML placeholder. |
 | D-022 | Accepted | Cross-browser brand rendering uses the canonical wordmark asset with a normalized responsive layout box; the asset itself is never redrawn or replaced with a web font. |
+| D-023 | Accepted | The canonical root URL `/` serves the Immediate experience directly; it must not depend on an HTTP redirect to `/dex-immediate`. The Worker adds explicit no-store semantics to prevent stale redirect caching from masking the current production experience. |
+| D-024 | Accepted | The production build fails closed if any asset other than the two approved runtime brand assets enters `dist/assets`. Reference/design material must never become deployable runtime content. |
+| D-025 | Accepted | Responsive spacing is content-led. Architecture layers, process stages and other cards must not retain decorative minimum heights on small screens when those heights create empty visual fields. |
 
 ## Revisit rule
 
