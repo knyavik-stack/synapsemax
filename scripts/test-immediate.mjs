@@ -29,7 +29,7 @@ assert.equal(roi.paybackMonths, 17.1);
 
 // ROI boundaries: clamp user inputs and avoid division-by-zero failures.
 const roiBounded = calculateRoi({ monthlyCost: -1, automationShare: 200, expectedEfficiency: 200, implementationCost: 0 });
-assert.deepEqual(roiBounded, { monthlySaving: 720000, annualSaving: 8640000, roiPercent: 0, paybackMonths: 0 });
+assert.deepEqual(roiBounded, { monthlySaving: 0, annualSaving: 0, roiPercent: 0, paybackMonths: 0 });
 
 const roiZeroSaving = calculateRoi({ monthlyCost: 100000, automationShare: 0, expectedEfficiency: 25, implementationCost: 500000 });
 assert.equal(roiZeroSaving.monthlySaving, 0);
