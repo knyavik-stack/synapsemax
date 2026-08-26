@@ -87,7 +87,14 @@ for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html']) 
 }
 
 const immediateSource = readFileSync(resolve(root, 'dex-immediate.html'), 'utf8');
-const immediate = immediateSource.replace(/<footer[\s\S]*?<\/footer>/i, footer);
+let immediate = immediateSource
+  .replaceAll('Transformation Assessment', 'Диагностика трансформации')
+  .replaceAll('AI Consultant', 'ИИ-консультант')
+  .replaceAll('Transformation Intelligence', 'Интеллект трансформации')
+  .replaceAll('TRANSFORMATION SYSTEM // READY', 'ТРАНСФОРМАЦИЯ // ГОТОВА')
+  .replaceAll('separable система', 'архитектура, которую можно развивать по слоям');
+
+immediate = immediate.replace(/<footer[\s\S]*?<\/footer>/i, footer);
 if (immediate === immediateSource) {
   console.error('SynapseMax build: FAILED');
   console.error('dex-immediate.html does not contain a footer placeholder');
