@@ -57,9 +57,19 @@ for (const text of [
   assert.ok(html.includes(text), `Missing production content: ${text}`);
 }
 
+// Static UX/accessibility contract: cheap checks that belong in every CI run.
+assert.match(html, /<html[^>]+lang=["']ru["']/i, 'Document language must be Russian');
+assert.match(html, /:focus-visible\s*\{/i, 'Keyboard focus-visible contract missing');
+assert.match(html, /prefers-reduced-motion\s*:\s*reduce/i, 'Reduced-motion contract missing');
+for (const field of ['complexity', 'manualWork', 'dataFragmentation', 'errorRate']) {
+  assert.match(html, new RegExp(`<label[^>]*for=["']${field}["']`, 'i'), `Missing accessible label for ${field}`);
+}
+assert.match(html, /@media\s*\(\s*pointer\s*:\s*fine\s*\)/i, 'Fine-pointer boundary missing for pointer enhancement');
+assert.match(html, /aria-(?:label|describedby|live|atomic)\s*=/i, 'No ARIA attribute found in production artifact');
+
 assert.match(html, /sm-footer/);
 assert.match(html, /synapsemax-symbol\.png/);
 assert.match(html, /synapsemax-wordmark\.png/);
 assert.match(html, /Asset boundary: PASS|synapsemax-wordmark\.png/);
 
-console.log('Immediate smoke + artifact contract: PASS');
+console.log('Immediate smoke + artifact + static UX contract: PASS');
