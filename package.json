@@ -5,6 +5,7 @@
   "scripts":{
     "build":"node scripts/build-site.mjs",
     "test:immediate":"node scripts/test-immediate.mjs",
+    "verify:production":"node scripts/verify-production.mjs",
     "deploy:cloudflare":"npm run build && npx wrangler deploy",
     "preview:cloudflare":"npm run build && npx wrangler versions upload"
   },
