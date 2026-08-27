@@ -61,8 +61,12 @@ for (const text of [
 assert.match(html, /<html[^>]+lang=["']ru["']/i, 'Document language must be Russian');
 assert.match(html, /:focus-visible\s*\{/i, 'Keyboard focus-visible contract missing');
 assert.match(html, /prefers-reduced-motion\s*:\s*reduce/i, 'Reduced-motion contract missing');
+
+// Accept both valid native label associations: explicit for/id or a wrapping label.
 for (const field of ['complexity', 'manualWork', 'dataFragmentation', 'errorRate']) {
-  assert.match(html, new RegExp(`<label[^>]*for=["']${field}["']`, 'i'), `Missing accessible label for ${field}`);
+  const explicit = new RegExp(`<label[^>]*for=["']${field}["']`, 'i');
+  const wrapped = new RegExp(`<label[^>]*>[\\s\\S]{0,1200}<input[^>]*id=["']${field}["']`, 'i');
+  assert.ok(explicit.test(html) || wrapped.test(html), `Missing accessible label association for ${field}`);
 }
 assert.match(html, /@media\s*\(\s*pointer\s*:\s*fine\s*\)/i, 'Fine-pointer boundary missing for pointer enhancement');
 assert.match(html, /aria-(?:label|describedby|live|atomic)\s*=/i, 'No ARIA attribute found in production artifact');
