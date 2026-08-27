@@ -22,10 +22,6 @@ if (missing.length || missingAssets.length) {
   process.exit(1);
 }
 
-/*
- * The footer is materialized during build so the production page has one
- * canonical brand/footer implementation. Keep brand assets untouched.
- */
 const footer = `
 <footer class="sm-footer">
   <div class="sm-footer-grid">
@@ -65,16 +61,16 @@ const footer = `
 header .brand img:last-child{width:190px!important;height:auto!important;display:block!important;object-fit:contain!important}
 /* H1 accessibility baseline: preserve a visible keyboard focus indicator. */
 :where(a,button,input,select,textarea):focus-visible{outline:2px solid #00e1ff;outline-offset:3px}
+/* Native accessible labels materialized for controls whose source markup has no stable association. */
+.sm-sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
 .sm-footer{max-width:1240px;margin:0 auto;padding:0 0 34px;color:#74839a;font-size:12px}
 .sm-footer-grid{border-top:1px solid rgba(111,167,255,.14);padding:38px 0 30px;display:grid;grid-template-columns:1.6fr 1fr 1.15fr 1fr;gap:34px}
 .sm-footer-logo{display:flex;align-items:center;gap:10px;margin-bottom:16px}.sm-footer-logo img:first-child{width:30px;height:30px;flex:0 0 auto}.sm-footer-logo img:last-child{width:190px;height:auto;display:block;flex:0 0 auto;object-fit:contain}
 .sm-footer-brand p{max-width:330px;color:#8d9bb0;line-height:1.7;margin:0 0 16px}.sm-footer-status{font:600 9px/1.4 Orbitron,sans-serif;letter-spacing:.08em;color:#63738a}.sm-footer-status i{display:inline-block;width:6px;height:6px;border-radius:50%;background:#55f5c0;box-shadow:0 0 10px rgba(85,245,192,.7);margin-right:7px}
 .sm-footer-label{font:700 10px/1.4 Orbitron,sans-serif;letter-spacing:.14em;color:#b8c6d9;text-transform:uppercase;margin-bottom:13px}.sm-footer a,.sm-footer-grid span{display:block;color:#7d8ca1;margin:0 0 10px}.sm-footer a:hover{color:#e9f5ff}.sm-footer-bottom{border-top:1px solid rgba(111,167,255,.09);padding-top:17px;display:flex;justify-content:space-between;gap:20px;color:#617087;font-size:10px;line-height:1.5}
-/* Responsive density: reduce empty space instead of shrinking content. */
 @media(max-width:1100px){.wrap{width:min(1160px,calc(100% - 36px))}.navlinks{gap:20px;font-size:14px}.hero{padding-bottom:44px}section{padding-top:54px}.section-head{gap:28px}.solution{min-height:250px}.layer{min-height:150px}}
 @media(max-width:760px){header .brand img:last-child{width:175px!important}.navlinks{font-size:14px;gap:18px}.navlinks a{padding:11px 0}.sm-footer{width:calc(100% - 30px)}.sm-footer-grid{grid-template-columns:1fr 1fr;gap:28px}.sm-footer-brand{grid-column:1/-1}.sm-footer-logo img:last-child{width:175px}.sm-footer-bottom{flex-direction:column;gap:6px}section{padding-top:46px}.section-head{margin-bottom:16px}.copy,.assess-copy,.form,.report,.roi-box,.process{padding:24px}.solution{padding:22px}.layer{padding:18px;min-height:0}.layer p{font-size:13px;line-height:1.55}.field label{font-size:11px}.field input{min-height:46px}.form button,.roi-box .btn{margin-top:24px;min-height:46px}}
 @media(max-width:560px){header .brand img:last-child{width:165px!important}.wrap{width:calc(100% - 30px)}.form-grid,.flow,.architecture,.report-grid{grid-template-columns:1fr}.process-row{grid-template-columns:1fr}.connector{transform:rotate(90deg);margin:2px 0}.tele{display:none}.hero{min-height:auto;padding-top:105px;padding-bottom:24px}.hero-visual{height:310px}.hero-visual img{width:245px}.orb{width:300px;height:300px}.halo{width:290px;height:290px}section{padding:34px 0 0}.section-head{gap:10px;margin-bottom:14px}.section-head h2{font-size:30px}.section-head p{font-size:14px;line-height:1.6}.lead{font-size:16px;line-height:1.6}.actions{margin:20px 0}.brand img:first-child{width:28px;height:28px}.brand img:last-child{width:154px}.form button,.roi-box .btn{width:100%;margin-top:26px}.assessment .assess-copy,.assessment .form,.assessment .report,.roi-box{padding:22px}.architecture .layer{min-height:0;padding:18px}.architecture .layer b{font-size:13px}.architecture .layer p{font-size:13px;line-height:1.55}.solutions .solution{padding:20px;min-height:0}.stage{min-height:0;padding:18px}.stage h3{font-size:17px}.stage p{font-size:13px}.cta{margin:42px 0 18px;padding:30px 22px}.sm-footer-grid{grid-template-columns:1fr;gap:22px}.sm-footer-brand{grid-column:auto}.sm-footer{padding-bottom:24px}.sm-footer-logo img:first-child{width:28px;height:28px}.sm-footer-logo img:last-child{width:165px}.sm-footer-bottom{line-height:1.6}.navlinks{font-size:14px}}
-/* Cursor state was previously wired in JS but had no visual hover rule. */
 .cursor-dot.is-hover{width:26px!important;height:26px!important;border-color:rgba(0,225,255,.95)!important;background:rgba(0,225,255,.04)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.orb,.core,.map .active{animation:none}.cursor-dot{display:none}body.cursor-ready{cursor:auto}}
 @media(pointer:coarse){.cursor-dot{display:none}body.cursor-ready{cursor:auto}}
@@ -102,8 +98,8 @@ let immediate = readFileSync(resolve(root, 'dex-immediate.html'), 'utf8')
   .replaceAll('TRANSFORMATION SYSTEM // READY', 'ТРАНСФОРМАЦИЯ // ГОТОВА')
   .replaceAll('separable система', 'архитектура, которую можно развивать по слоям');
 
-// Materialize accessible names for the four existing Assessment controls without
-// rewriting the monolithic source HTML. Do not overwrite an explicit ARIA name.
+// Materialize explicit native label associations for the four Assessment controls.
+// This is done in the build layer to avoid destructive edits to the monolithic source page.
 const assessmentLabels = {
   complexity: 'Сложность процессов',
   manualWork: 'Доля ручной работы',
@@ -111,8 +107,8 @@ const assessmentLabels = {
   errorRate: 'Уровень ошибок'
 };
 for (const [name, label] of Object.entries(assessmentLabels)) {
-  const pattern = new RegExp(`(<input\\b(?![^>]*\\baria-label\\s*=)[^>]*\\bname=["']${name}["'][^>]*)>`, 'i');
-  immediate = immediate.replace(pattern, `$1 aria-label="${label}">`);
+  const pattern = new RegExp(`<input\\b(?![^>]*\\bid=["']${name}["'])([^>]*\\bname=["']${name}["'][^>]*)>`, 'i');
+  immediate = immediate.replace(pattern, `<label class="sm-sr-only" for="${name}">${label}</label><input id="${name}"$1>`);
 }
 
 const materialized = immediate.replace(/<footer[\s\S]*?<\/footer>/i, footer);
