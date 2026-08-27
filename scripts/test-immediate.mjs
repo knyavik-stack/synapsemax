@@ -68,7 +68,15 @@ for (const field of ['complexity', 'manualWork', 'dataFragmentation', 'errorRate
   const wrapped = new RegExp(`<label[^>]*>[\\s\\S]{0,1200}<input[^>]*id=["']${field}["']`, 'i');
   assert.ok(explicit.test(html) || wrapped.test(html), `Missing accessible label association for ${field}`);
 }
-assert.match(html, /@media\s*\(\s*pointer\s*:\s*fine\s*\)/i, 'Fine-pointer boundary missing for pointer enhancement');
+
+// Pointer enhancement may be implemented in CSS, JS, or both. Verify the
+// actual capability boundary instead of prescribing one implementation.
+const hasFinePointerCss = /@media\s*\(\s*pointer\s*:\s*fine\s*\)/i.test(html);
+const hasFinePointerJs = /matchMedia\(\s*['"]\(pointer:fine\)['"]\s*\)/i.test(html);
+const hasCoarsePointerCss = /@media\s*\(\s*pointer\s*:\s*coarse\s*\)/i.test(html);
+assert.ok(hasFinePointerCss || hasFinePointerJs, 'Fine-pointer enhancement boundary missing');
+assert.ok(hasCoarsePointerCss || hasFinePointerJs, 'Pointer capability boundary missing');
+
 assert.match(html, /aria-(?:label|describedby|live|atomic)\s*=/i, 'No ARIA attribute found in production artifact');
 
 assert.match(html, /sm-footer/);
