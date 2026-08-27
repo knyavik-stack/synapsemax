@@ -102,6 +102,19 @@ let immediate = readFileSync(resolve(root, 'dex-immediate.html'), 'utf8')
   .replaceAll('TRANSFORMATION SYSTEM // READY', 'ТРАНСФОРМАЦИЯ // ГОТОВА')
   .replaceAll('separable система', 'архитектура, которую можно развивать по слоям');
 
+// Materialize accessible names for the four existing Assessment controls without
+// rewriting the monolithic source HTML. Do not overwrite an explicit ARIA name.
+const assessmentLabels = {
+  complexity: 'Сложность процессов',
+  manualWork: 'Доля ручной работы',
+  dataFragmentation: 'Фрагментация данных',
+  errorRate: 'Уровень ошибок'
+};
+for (const [name, label] of Object.entries(assessmentLabels)) {
+  const pattern = new RegExp(`(<input\\b(?![^>]*\\baria-label\\s*=)[^>]*\\bname=["']${name}["'][^>]*)>`, 'i');
+  immediate = immediate.replace(pattern, `$1 aria-label="${label}">`);
+}
+
 const materialized = immediate.replace(/<footer[\s\S]*?<\/footer>/i, footer);
 if (materialized === immediate) {
   console.error('SynapseMax build: FAILED');
