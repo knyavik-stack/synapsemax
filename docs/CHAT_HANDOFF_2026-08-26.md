@@ -1,41 +1,51 @@
 # SynapseMax — CONTEXT HANDOFF
 
-Дата: 2026-08-26
+Дата: 2026-08-26 (continuation update: 2026-08-28)
 Репозиторий: https://github.com/knyavik-stack/synapsemax
 Домен production: https://synapsemax.ru/
 Публичная почта: hello@synapsemax.ru
 
+## 0. ОБЯЗАТЕЛЬНО ПЕРЕД ПРОДОЛЖЕНИЕМ
+
+Новый чат НЕ начинает проект заново.
+
+Сначала прочитать:
+1. `docs/CHAT_HANDOFF_2026-08-26.md` — этот файл, текущая точка и история.
+2. `docs/DECISION_LOG.md` — архитектурные и продуктовые решения.
+3. `docs/PRODUCTIZATION_PASS.md` — H1 productization contract.
+4. `docs/DEX_V3.md` — утверждённая концепция DEX v3.
+5. `docs/DEX_V1.md` — историческая спецификация, только для контекста.
+6. `docs/SYNAPSEMAX_PROJECT_MASTER.md` или актуальный master strategic document, если он присутствует в `docs/`.
+7. `package.json`, `wrangler.jsonc`, `scripts/build-site.mjs`, `src/index.js`, `src/immediate-logic.js`, `scripts/browser-qa.spec.mjs`, `.github/workflows/*`.
+
+После чтения обязательно проверить `main`, последние commits и фактические GitHub Actions runs. Никогда не считать commit доказательством deployment или runtime.
+
 ## 1. РОЛЬ И ЦЕЛЬ ПРОЕКТА
 
-SynapseMax — серьёзная B2B technology ecosystem / будущая SaaS-платформа для цифровой трансформации российских компаний через ИИ, данные и автоматизацию.
+SynapseMax — серьёзная B2B technology ecosystem / будущая SaaS-платформа для цифровой трансформации компаний через ИИ, данные и автоматизацию.
 
 Главная смысловая цепочка:
 Сложность бизнеса → данные / процессы / системы → Synapse → интеллект → ИИ + автоматизация → управляемая система → бизнес-результат.
 
-Это НЕ просто красивый futuristic landing page. Сайт должен быть первым интерфейсом будущей Transformation Intelligence Platform.
+Это НЕ просто futuristic landing page. Сайт должен быть первым интерфейсом будущей Transformation Intelligence Platform.
 
-## 2. КАНОНИЧЕСКИЙ БРЕНД
+Главный язык для клиента: финансовая диагностика потерь прибыли, ROI и влияние на рентабельность. Автоматизация/агенты — способы закрытия найденных проблем, а не самоцель.
+
+## 2. КАНОНИЧЕСКИЙ БРЕНД И ВИЗУАЛ
 
 - Текущий S-знак утверждён.
 - Части S никогда не разрезаются.
-- Синаптическая активность находится в центральной зоне и окружающей нейронной/электрической среде.
-- Wordmark SynapseMax использует канонический asset.
-- Нельзя имитировать wordmark обычным web-шрифтом.
+- Центральная зона — synaptic activity; вокруг может быть neural/electrical environment.
+- Wordmark SynapseMax использует канонический asset; нельзя имитировать его обычным web-шрифтом.
+- HUD/FUI — функциональный визуальный язык, не cyberpunk-декорация.
+- Каждая анимация должна объяснять сигнал → связь → интеллект → действие → система → результат.
+- Контент, readability и business meaning выше visual effects.
 
-## 3. ВИЗУАЛ
+## 3. DEX V3 — ТЕКУЩАЯ КОНЦЕПЦИЯ
 
-HUD / Futuristic Interface / FUI.
-Но не cyberpunk ради cyberpunk.
-Каждая анимация должна иметь смысл:
-сигнал → связь → интеллект → действие → система → результат.
+DEX v2 отклонён: слишком упрощён, снизил смысловую нагрузку, ослабил иконки/анимации, создал generic futuristic landing.
 
-Нужна высокая информационная плотность, сильный B2B technology platform, нормальная типографика, иконки как часть визуальной системы, содержательные анимации.
-
-## 4. DEX V3
-
-DEX v2 отклонён: слишком упростил сайт, снизил смысловую нагрузку, создал пустые пространства, ослабил иконки/анимации, generic futuristic landing page, английские названия разделов, недостаточно ясно объяснял digital transformation через AI.
-
-DEX v3 — НЕ упрощение, а восстановление первоначальной концепции.
+DEX v3 — восстановление первоначальной концепции, а не упрощение.
 
 Структура:
 1. Hero
@@ -46,190 +56,216 @@ DEX v3 — НЕ упрощение, а восстановление первон
 6. Архитектура
 7. CTA
 
-Разделы должны называться по-русски.
-Не уменьшать содержательность без причины.
-Не делать generic landing page.
-Не превращать сайт в cyberpunk-декорацию.
-Не делать чрезмерные пустые пространства.
+Разделы русские. Не уменьшать содержательность без причины. Не выдумывать клиентские кейсы: неподтверждённое маркировать как сценарий/гипотезу.
 
-## 5. ПРОДУКТОВАЯ ЛОГИКА
+## 4. PRODUCTIZATION CONTRACT
 
-Зафиксированный Productization Pass:
-
-Complexity → Understanding → System → Automation → Outcome
+Каноническая логика:
+`Complexity → Understanding → System → Automation → Outcome`
 
 Коммерческий цикл:
-Diagnose → Design → Simulate → Automate → Monitor
+`Diagnose → Design → Simulate → Automate → Monitor`
 
-Каждый блок сайта должен быть частью единой причинно-следственной цепочки, а не отдельной красивой карточкой.
+Каждый основной блок должен отвечать:
+1. Что SynapseMax получает/понимает?
+2. Что система делает с этим контекстом?
+3. Какой следующий измеримый результат получает клиент?
 
-Assessment должен вести:
-данные бизнеса → диагностика → профиль сложности → узкие места → гипотезы автоматизации → следующий шаг.
+H1 = коммерческий терминал: позиционирование → доверие → диагностика → результат → заявка.
+H1 НЕ должен притворяться H2/H3 SaaS.
 
-ROI:
-конкретный процесс → текущая стоимость → потенциал автоматизации → инвестиция → эффект → окупаемость.
+H2/H3 future scope: Customer Workspace, Process Mining, Simulation, Personalized Roadmap, deep ROI, Integrations.
 
-Architecture:
-данные → контекст → интеллект → действие → governance.
+ROI: конкретный процесс → текущая стоимость → потенциал улучшения → инвестиция → эффект → окупаемость.
 
-Не придумывать клиентские кейсы. Если нет подтверждённых кейсов — маркировать сценарий как сценарий/гипотезу.
+Architecture: данные → контекст → интеллект → действие → governance.
 
-H1 не должен притворяться H2. H1 = коммерческий шоукейс/терминал: позиционирование → доверие → диагностика → демонстрация результата → заявка. H2 — Customer Workspace, Process Mining, Simulation, ROI, Personalized Roadmap, Integrations.
+Integrations показывать как классы и направление обмена, не обещая несуществующие коннекторы.
 
-## 6. ТЕХНИЧЕСКАЯ АРХИТЕКТУРА
+Security: только подтверждаемая архитектурой; не делать неподтверждённых юридических обещаний.
+
+Полный контракт: `docs/PRODUCTIZATION_PASS.md`.
+
+## 5. ТЕХНИЧЕСКАЯ АРХИТЕКТУРА
 
 Deployment:
 GitHub → Cloudflare Workers Builds → dist → Wrangler → Cloudflare.
 
-Принятые файлы:
-- index.html — Front baseline
-- dex-v1.html — историческая версия
-- dex-v2.html — отклонённая
-- dex-v3.html — текущая концепция
-- dex-immediate.html — актуальный Immediate production experience
-- scripts/build-site.mjs — build
-- src/index.js — Worker
-- wrangler.jsonc — Cloudflare config
-- docs/DECISION_LOG.md — решения
-- docs/DEX_V3.md — DEX v3
-- docs/DEX_V1.md — историческая спецификация
+Ключевые файлы:
+- `index.html` — Front baseline
+- `dex-v1.html` — историческая версия
+- `dex-v2.html` — отклонённая
+- `dex-v3.html` — текущая концепция
+- `dex-immediate.html` — актуальный Immediate production experience
+- `scripts/build-site.mjs` — build/materialization
+- `src/index.js` — Worker/API/runtime
+- `src/immediate-logic.js` — deterministic business logic
+- `wrangler.jsonc` — Cloudflare config
+- `scripts/browser-qa.spec.mjs` — browser-level H1 gate
+- `.github/workflows/immediate-qa.yml` — Immediate QA
+- `.github/workflows/production-smoke.yml` — production smoke
+- `docs/DECISION_LOG.md` — decisions
+- `docs/PRODUCTIZATION_PASS.md` — productization
+- `docs/DEX_V3.md` — DEX v3
 
-## 7. ROUTING — СЕЙЧАС ЗАКРЫТО
+Frontend не должен содержать будущую business logic или зависимость от конкретного LLM provider. Experience / Intelligence / Business Logic / Integration / Governance должны оставаться разделимыми.
 
-Production:
-https://synapsemax.ru/
+## 6. ROUTING / PRODUCTION
 
-Сейчас root `/` работает корректно и остаётся на `/`. Это production source of truth.
+Production source of truth: `https://synapsemax.ru/`.
 
-Важно: `2228a7a8-synapsemax.knyavik.workers.dev` больше НЕ считать эталоном production; это version/preview endpoint и он мог показывать другое поведение.
+Root `/` должен работать непосредственно через Worker и не зависеть от redirect на `/dex-immediate`.
 
-В Worker root обслуживает Immediate. Текущая реализация использует internal asset route `/dex-immediate`, а не `/dex-immediate.html`, чтобы не получать canonical asset redirect.
+Worker-first routing (`run_worker_first: true`) принят.
 
-`wrangler.jsonc` был изменён на `run_worker_first: true`, чтобы Worker имел приоритет над static asset routing.
+`/dex-immediate` — internal asset route. Не использовать старый `/dex-immediate.html` как canonical production route.
 
-Последний известный routing-fix commit: `e073dda251f5c68d76bf3bd34c51366df19e5b91`.
+`2228a7a8-synapsemax.knyavik.workers.dev` не считать production source of truth; version/preview endpoint может отличаться.
 
-## 8. DEPLOYMENT
+Cloudflare production command:
+`npm run deploy:cloudflare` → `npm run build && npx wrangler deploy`.
 
-Production-команда в GitHub:
-`npm run deploy:cloudflare`
-которая выполняет:
-`npm run build && npx wrangler deploy`
+Cloudflare deployment был фактически подтверждён логом с `Executing user deploy command: npm run deploy:cloudflare`, затем `npm run build` и `npx wrangler deploy` с успешной публикацией Worker. Повторная проверка production status всё равно обязательна после дальнейших commits.
 
-Cloudflare deployment был фактически подтверждён логом с `Executing user deploy command: npm run deploy:cloudflare`, затем `npm run build` и `npx wrangler deploy` с успешной публикацией Worker.
+## 7. QA: ЧТО УЖЕ ДОКАЗАНО / ЧТО НЕТ
 
-Не считать Build PASS доказательством production. DoD = build + deploy + smoke test + production verification.
+Static Immediate QA был усилен и ранее проходил полный baseline.
 
-## 9. QA / REGRESSION
+Browser gate существует и запускает реальный Chromium. Это обязательный release gate, но его PASS должен подтверждаться фактическим GitHub Actions run, а не наличием workflow.
 
-QA должен запускаться для main и проверять:
-- production build
-- русские тексты
-- footer
-- runtime assets
-- API endpoints
-- artifact size
-- Wrangler config
-- deployment graph
-- root routing contract
-- `/` через Worker
-- использование `/dex-immediate`, а не старого `/dex-immediate.html`
-
-Real-browser gate добавлен в Immediate QA и является обязательным release gate. Workflow устанавливает browser test runner и Chromium, запускает `scripts/browser-qa.spec.mjs` на локальном Worker и проверяет критический Assessment → Result → CTA путь, keyboard interaction, mobile overflow и reduced-motion behavior.
-
-Принцип: commit ≠ proof of working. Проверять build/runtime/visual result.
-
-## 10. PRODUCTIZATION
-
-Создан документ:
-`docs/PRODUCTIZATION_PASS.md`
-commit:
-`3e97746521a5f1f7c71920ad96c0dd81e8963f2c`
-
-Он фиксирует продуктовую причинно-следственную модель и следующий этап развития.
-
-H1 release path зафиксирован как:
-Assessment → deterministic result → economic interpretation → next-step CTA.
-
-H1 не должен превращаться в H2. Business logic остаётся в Worker/domain layer, Experience Layer потребляет API contract.
-
-## 11. UI / INTERACTION
-
-Был найден недоделанный cursor hover: JS добавлял `cursor-dot.is-hover`, но CSS-визуального состояния не хватало.
-
-Исправлено. Зафиксировано D-029: интерактивное состояние считается реализованным только при наличии и JS-поведения, и визуального CSS-состояния.
-
-Основной commit:
-`ba1ccb92ef5405b2932222924a39643869cc11d`
-
-Decision Log update:
-`67fbfebb47c42a284c203a681ecf802af45b5f11`
-
-## 12. ASSESSMENT / BROWSER QA HISTORY
+Browser test должен проверять минимум:
+- landing;
+- Assessment availability;
+- 4 inputs + labels;
+- заполнение;
+- submit;
+- Result visibility;
+- CTA;
+- keyboard interaction;
+- mobile viewport;
+- отсутствие horizontal overflow;
+- reduced motion.
 
 Browser gate первоначально выявил инфраструктурную проблему: тест импортировал Playwright без установленного npm package. Runner был добавлен в QA workflow.
 
 Затем browser QA выявил реальный продуктовый defect в Assessment → Result: report оставался hidden после submit.
 
-При source-level анализе обнаружилась duplicate Assessment runtime injection: client handler существовал в Immediate HTML и второй handler инжектировался Worker. Это признано архитектурным дефектом и устранено.
+Source-level анализ обнаружил duplicate Assessment runtime injection: client handler существовал в Immediate HTML и второй handler инжектировался Worker. Это устранено commit `8aefb247` (`fix: remove duplicate injected assessment runtime`).
 
-Последний material fix:
-`8aefb247` — `fix: remove duplicate injected assessment runtime`
+После `8aefb247` browser gate должен считаться открытым до фактического PASS. Не ослаблять assertion ради зелёного CI.
 
-После него browser gate должен считаться открытым до фактического PASS; наличие теста само по себе не является proof.
+## 8. CRITICAL H1 FLOW
 
-## 13. РАНЕЕ НАЙДЕННЫЕ VISUAL QA ПРОБЛЕМЫ
+Целевой путь:
+Visitor → понимает проблему → узнаёт собственную сложность → проходит Assessment → получает Complexity Profile → видит финансовый/ROI смысл → понимает приоритет → видит следующий шаг → CTA/contact.
 
-Пользователь обнаружил:
-- logo/wordmark плохо отображался в top и footer, особенно в Yandex Browser;
-- слишком большие расстояния между секциями desktop/mobile;
-- Architecture cards на mobile слишком большие и пустые;
-- в некоторых блоках слишком маленький текст;
-- кнопка «Проверить гипотезу» прилипала к input;
-- меню слишком мелкое;
-- пропала подсветка нижней линии меню при hover;
-- отсутствовал cursor-circle;
-- footer ранее был пустым/недоделанным.
+Canonical technical flow:
+Assessment UI → POST `/api/v1/assessment` → `assess()` в `src/immediate-logic.js` → result state → report visible → CTA.
 
-Эти пункты являются обязательным visual QA checklist. Проверять desktop + mobile + Yandex Browser + другие Chromium.
+Не переносить business calculation из `src/immediate-logic.js` в HTML только ради теста.
 
-## 14. СЛЕДУЮЩИЙ ЭТАП
+## 9. ИСТОРИЯ ПОСЛЕДНИХ ВАЖНЫХ ИЗМЕНЕНИЙ
 
-НЕ начинать DEX v4 до visual approval DEX v3.
+- `e073dda251f5c68d76bf3bd34c51366df19e5b91` — routing fix / Worker-first root.
+- `c154f86cb371f063cfb1a43a024b15c2b29b67e0` — Immediate QA trigger/русская терминология.
+- `3e97746521a5f1f7c71920ad96c0dd81e8963f2c` — Productization Pass.
+- `ba1ccb92ef5405b2932222924a39643869cc11d` — cursor hover interaction fix; D-029.
+- `f9e12f4f` — Assessment → Result → CTA productization pass.
+- `0f52bae2` — browser runner dependency fix.
+- `efb8674d` — Assessment result state wiring.
+- `8aefb247` — removal of duplicate injected Assessment runtime.
+- `4ddc623a` — Decision Log: H1 release/productization and development-history rules.
+- `ffe16d46` — handoff/history preservation update.
 
-Сначала:
-1. Production smoke test.
-2. Полный visual QA production.
-3. Python-based regression testing.
-4. Desktop/mobile/cross-browser.
-5. Проверка размеров блоков, вертикального ритма, typography, icons, footer, menu, cursor.
-6. Проверка productization: каждый блок должен объяснять путь от проблемы к результату.
-7. Проверка performance/accessibility.
-8. Real-browser Quality Gate.
-9. H1 Release Candidate.
+ВАЖНО: список — история ключевых изменений, не утверждение, что каждый commit production-deployed. Deployment подтверждать GitHub Actions/Cloudflare evidence.
 
-Только после утверждения DEX v3:
-DEX v4 = интерактивность + scroll-linked transformation + richer HUD telemetry + responsive motion + AI transformation assessment.
+## 10. DEVELOPMENT HISTORY — НЕ ТЕРЯТЬ
 
-## 15. DEVELOPMENT HISTORY
+История разработки поддерживается в `docs/DECISION_LOG.md` и этом handoff. Каждый существенный дефект/решение документируется:
+`обнаружение → причина → исправление → verification → Decision Log/Handoff`.
 
-Development history is maintained continuously in `docs/DECISION_LOG.md` and this handoff. Material implementation changes, discovered defects, verification results and release decisions must be recorded so work can continue across chats without reconstructing state from memory.
+Недавние решения:
+- D-030 — H1 Assessment = коммерческий диагностический терминал; путь Assessment → deterministic result → economic interpretation → CTA.
+- D-031 — real-browser QA = release gate.
+- D-032 — duplicate Assessment runtime injection запрещена.
+- D-033 — история разработки должна непрерывно сохраняться.
 
-Recent recorded decisions:
-- D-030 — H1 Assessment is a commercial diagnostic terminal; release path is Assessment → deterministic result → economic interpretation → CTA.
-- D-031 — real-browser QA is a release gate.
-- D-032 — duplicate Assessment runtime injection is prohibited.
-- D-033 — development history must be maintained continuously in Decision Log and handoff.
+## 11. VISUAL QA CHECKLIST
 
-## 16. КАК НАЧИНАТЬ НОВЫЙ ЧАТ
+Обязательные реальные проверки:
+- canonical logo/wordmark в header/footer;
+- Yandex Browser и Chromium;
+- desktop + mobile;
+- вертикальный ритм без пустых экранов;
+- architecture cards content-driven на mobile;
+- body/metric/navigation typography читаемы;
+- CTA/input spacing;
+- navigation hover/focus underline;
+- cursor-circle на fine pointer, отсутствие для coarse/reduced motion;
+- footer не пустой;
+- HUD elements содержательны;
+- no horizontal overflow;
+- reduced motion;
+- performance.
 
-Первым делом:
-1. Прочитать этот файл `docs/CHAT_HANDOFF_2026-08-26.md`.
-2. Затем прочитать актуальные `docs/DECISION_LOG.md`, `docs/DEX_V3.md`, `docs/PRODUCTIZATION_PASS.md`.
-3. Проверить GitHub main и последние commits.
-4. Не предполагать, что commit = deployment.
-5. Проверить текущий Cloudflare deployment status, если доступны инструменты.
-6. Только после этого продолжать разработку.
+## 12. CURRENT RELEASE TARGET
+
+Главная цель: **H1 Release Candidate**, не DEX v4.
+
+RC acceptance:
+1. Positioning понятно примерно за 15 секунд.
+2. Assessment принимает 4 входных параметра.
+3. Deterministic result появляется после валидного submit.
+4. Result содержит экономически понятный смысл.
+5. CTA связан с результатом.
+6. Browser gate PASS.
+7. Mobile PASS.
+8. Accessibility/reduced-motion PASS.
+9. Production smoke PASS.
+10. No P0/P1 defects.
+11. Productization Pass DoD закрыт.
+12. Deployment reproducible.
+
+После этого: visual QA → cross-browser → Python regression → performance/accessibility → Quality Gate → visual approval DEX v3 → только затем DEX v4.
+
+## 13. ЧТО НЕ ДЕЛАТЬ
+
+- Не начинать DEX v4 до visual approval DEX v3.
+- Не начинать проект заново.
+- Не делать generic futuristic/cyberpunk landing.
+- Не уменьшать смысловую плотность без причины.
+- Не заменять реальные функции fake dashboards.
+- Не придумывать client cases.
+- Не считать commit доказательством runtime/deployment.
+- Не ослаблять browser assertions ради зелёного CI.
+- Не зашивать будущую business logic/LLM dependency в UI.
+- Не делать автоматизацию/агентов центральной ценностью вместо business outcome.
+
+## 14. ЕСЛИ НОВОМУ ЧАТУ НУЖНО ПОПРОСИТЬ ПОЛЬЗОВАТЕЛЯ О ДЕЙСТВИИ
+
+По умолчанию от пользователя ничего не требовать.
+
+Если нужен внешний шаг (Cloudflare setting, production browser verification, DNS, credential/permission), написать точную пошаговую инструкцию:
+1. Где открыть.
+2. Что нажать.
+3. Что установить/изменить.
+4. Какое значение поставить.
+5. Что прислать обратно как evidence.
+
+Не говорить просто «проверьте Cloudflare» или «нужен лог».
+
+## 15. START COMMAND ДЛЯ НОВОГО ЧАТА
+
+Продолжить с текущей точки, не начинать заново.
+
+Первое действие нового чата:
+1. Прочитать этот handoff.
+2. Прочитать `docs/DECISION_LOG.md`, `docs/PRODUCTIZATION_PASS.md`, `docs/DEX_V3.md`.
+3. Проверить `main`, последние commits и GitHub Actions.
+4. Получить фактический статус browser gate и production smoke.
+5. Если browser gate красный — исправить конкретный product/runtime defect.
+6. Если browser gate зелёный — переходить к visual/cross-browser/performance release gates.
+7. После существенного изменения обновить историю здесь.
 
 Ключевая фраза проекта:
 **SynapseMax — не сайт про технологии. Это первый интерфейс системы трансформации бизнеса.**
