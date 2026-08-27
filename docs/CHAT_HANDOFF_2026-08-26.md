@@ -109,40 +109,20 @@ https://synapsemax.ru/
 
 Последний известный routing-fix commit: `e073dda251f5c68d76bf3bd34c51366df19e5b91`.
 
-## 8. КРИТИЧЕСКИЙ DEPLOYMENT ISSUE
+## 8. DEPLOYMENT
 
-Последний предоставленный Cloudflare log показал фактическую команду:
-`Executing user deploy command: npx wrangler versions upload`
-
-и ошибку:
-`Cannot use assets with a binding in an assets-only Worker.`
-
-Это означает, что Cloudflare Build фактически использовал preview/version upload вместо production deploy.
-
-В GitHub package.json production-команда уже определена как:
+Production-команда в GitHub:
 `npm run deploy:cloudflare`
 которая выполняет:
 `npm run build && npx wrangler deploy`
 
-В Cloudflare Build Settings нужно установить Deploy command:
-`npm run deploy:cloudflare`
-
-После сохранения нужно повторить Production deployment.
-
-Правильный log должен содержать:
-`Executing user deploy command: npm run deploy:cloudflare`
-затем `npm run build`, затем `npx wrangler deploy`, затем успешную публикацию Worker.
+Cloudflare deployment был фактически подтверждён логом с `Executing user deploy command: npm run deploy:cloudflare`, затем `npm run build` и `npx wrangler deploy` с успешной публикацией Worker.
 
 Не считать Build PASS доказательством production. DoD = build + deploy + smoke test + production verification.
 
 ## 9. QA / REGRESSION
 
-Ранее automatic Immediate QA был слабым: workflow не контролировал обычный push в main и содержал устаревшую проверку английской строки `Transformation Assessment`, хотя актуальный текст русский `Диагностика трансформации`.
-
-Это исправлено в commit:
-`c154f86cb371f063cfb1a43a024b15c2b29b67e0`
-
-QA должен запускаться для main и rebase/immediate-product и проверять:
+QA должен запускаться для main и проверять:
 - production build
 - русские тексты
 - footer
@@ -155,9 +135,11 @@ QA должен запускаться для main и rebase/immediate-product �
 - `/` через Worker
 - использование `/dex-immediate`, а не старого `/dex-immediate.html`
 
+Real-browser gate добавлен в Immediate QA и является обязательным release gate. Workflow устанавливает browser test runner и Chromium, запускает `scripts/browser-qa.spec.mjs` на локальном Worker и проверяет критический Assessment → Result → CTA путь, keyboard interaction, mobile overflow и reduced-motion behavior.
+
 Принцип: commit ≠ proof of working. Проверять build/runtime/visual result.
 
-## 10. ПОСЛЕДНИЕ PRODUCTIZATION-РЕШЕНИЯ
+## 10. PRODUCTIZATION
 
 Создан документ:
 `docs/PRODUCTIZATION_PASS.md`
@@ -166,7 +148,12 @@ commit:
 
 Он фиксирует продуктовую причинно-следственную модель и следующий этап развития.
 
-## 11. ПОСЛЕДНИЙ UI/INTERACTION FIX
+H1 release path зафиксирован как:
+Assessment → deterministic result → economic interpretation → next-step CTA.
+
+H1 не должен превращаться в H2. Business logic остаётся в Worker/domain layer, Experience Layer потребляет API contract.
+
+## 11. UI / INTERACTION
 
 Был найден недоделанный cursor hover: JS добавлял `cursor-dot.is-hover`, но CSS-визуального состояния не хватало.
 
@@ -178,7 +165,20 @@ commit:
 Decision Log update:
 `67fbfebb47c42a284c203a681ecf802af45b5f11`
 
-## 12. РАНЕЕ НАЙДЕННЫЕ VISUAL QA ПРОБЛЕМЫ
+## 12. ASSESSMENT / BROWSER QA HISTORY
+
+Browser gate первоначально выявил инфраструктурную проблему: тест импортировал Playwright без установленного npm package. Runner был добавлен в QA workflow.
+
+Затем browser QA выявил реальный продуктовый defect в Assessment → Result: report оставался hidden после submit.
+
+При source-level анализе обнаружилась duplicate Assessment runtime injection: client handler существовал в Immediate HTML и второй handler инжектировался Worker. Это признано архитектурным дефектом и устранено.
+
+Последний material fix:
+`8aefb247` — `fix: remove duplicate injected assessment runtime`
+
+После него browser gate должен считаться открытым до фактического PASS; наличие теста само по себе не является proof.
+
+## 13. РАНЕЕ НАЙДЕННЫЕ VISUAL QA ПРОБЛЕМЫ
 
 Пользователь обнаружил:
 - logo/wordmark плохо отображался в top и footer, особенно в Yandex Browser;
@@ -193,52 +193,33 @@ Decision Log update:
 
 Эти пункты являются обязательным visual QA checklist. Проверять desktop + mobile + Yandex Browser + другие Chromium.
 
-## 13. СЛЕДУЮЩИЙ ЭТАП
+## 14. СЛЕДУЮЩИЙ ЭТАП
 
 НЕ начинать DEX v4 до visual approval DEX v3.
 
 Сначала:
-1. Исправить/подтвердить Cloudflare production deploy command.
-2. Production smoke test.
-3. Полный visual QA production.
-4. Python-based regression testing.
-5. Desktop/mobile/cross-browser.
-6. Проверка размеров блоков, вертикального ритма, typography, icons, footer, menu, cursor.
-7. Проверка productization: каждый блок должен объяснять путь от проблемы к результату.
-8. Проверка performance/accessibility.
-9. Quality Gate.
+1. Production smoke test.
+2. Полный visual QA production.
+3. Python-based regression testing.
+4. Desktop/mobile/cross-browser.
+5. Проверка размеров блоков, вертикального ритма, typography, icons, footer, menu, cursor.
+6. Проверка productization: каждый блок должен объяснять путь от проблемы к результату.
+7. Проверка performance/accessibility.
+8. Real-browser Quality Gate.
+9. H1 Release Candidate.
 
 Только после утверждения DEX v3:
 DEX v4 = интерактивность + scroll-linked transformation + richer HUD telemetry + responsive motion + AI transformation assessment.
 
-## 14. ПРИНЦИПЫ РАБОТЫ
+## 15. DEVELOPMENT HISTORY
 
-- Не начинать новую концепцию с нуля.
-- Не упрощать дизайн.
-- Не заменять реальные продуктовые функции fake dashboards.
-- Не придумывать кейсы.
-- Не использовать generic futuristic/cyberpunk декорации.
-- HUD должен объяснять процессы.
-- Иконки — часть системы.
-- Анимация должна иметь смысл.
-- Долгосрочная robust architecture важнее короткой скорости.
-- Минимальные затраты на обслуживание и поддержку.
-- Перспективная автономность.
-- Документировать архитектурные решения.
-- Комментировать нетривиальный код.
-- Каждый deploy проверять фактически.
+Development history is maintained continuously in `docs/DECISION_LOG.md` and this handoff. Material implementation changes, discovered defects, verification results and release decisions must be recorded so work can continue across chats without reconstructing state from memory.
 
-## 15. ТЕКУЩАЯ ТОЧКА ПЕРЕД ПЕРЕХОДОМ В НОВЫЙ ЧАТ
-
-Production root подтверждён пользователем как работающий:
-`https://synapsemax.ru/` открывается нормально.
-
-Последняя незакрытая техническая задача:
-Cloudflare всё ещё необходимо проверить/исправить так, чтобы Deploy command реально выполнял `npm run deploy:cloudflare`, а не `npx wrangler versions upload`.
-
-После этого не возвращаться к routing без фактических доказательств.
-
-Следующий большой фокус: production visual QA + productization + regression.
+Recent recorded decisions:
+- D-030 — H1 Assessment is a commercial diagnostic terminal; release path is Assessment → deterministic result → economic interpretation → CTA.
+- D-031 — real-browser QA is a release gate.
+- D-032 — duplicate Assessment runtime injection is prohibited.
+- D-033 — development history must be maintained continuously in Decision Log and handoff.
 
 ## 16. КАК НАЧИНАТЬ НОВЫЙ ЧАТ
 
