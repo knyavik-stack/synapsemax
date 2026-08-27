@@ -66,13 +66,16 @@ jobs:
           done
           curl -fsS http://127.0.0.1:8788/ >/dev/null
 
+      - name: Install browser test runner
+        run: npm install --no-save --ignore-scripts @playwright/test@1.55.0
+
       - name: Install Chromium for browser QA
-        run: npx --yes playwright@1.55.0 install --with-deps chromium
+        run: npx playwright install --with-deps chromium
 
       - name: Run real browser UX gate
         env:
           SYNAPSEMAX_BROWSER_URL: http://127.0.0.1:8788
-        run: npx --yes -p playwright@1.55.0 playwright test scripts/browser-qa.spec.mjs --reporter=line
+        run: npx playwright test scripts/browser-qa.spec.mjs --reporter=line
 
       - name: Upload production artifact
         uses: actions/upload-artifact@v4
