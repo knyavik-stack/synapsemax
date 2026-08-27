@@ -31,6 +31,10 @@
 | D-027 | Accepted | User-facing Immediate terminology is Russian at build output level; technical API paths and necessary technical terms may remain English. |
 | D-028 | Accepted | Asset routing is Worker-first for the production experience. `run_worker_first` is enabled globally so `/` cannot fall through to the static `dist/index.html` legacy baseline before `src/index.js` can serve Immediate. |
 | D-029 | Accepted | Interaction QA must be implemented end-to-end: navigation hover underline, cursor enlargement and responsive density need both behavior and visible CSS states. A JS-only state without a corresponding visual rule is considered incomplete. |
+| D-030 | Accepted | H1 Assessment is a commercial diagnostic terminal, not an H2 simulation platform. Its measurable release path is Assessment → deterministic result → economic interpretation → next-step CTA. Business logic remains in the Worker/domain layer; the Experience layer consumes the API contract. |
+| D-031 | Accepted | Real-browser QA is a release gate, not an advisory test. Static QA passing cannot close H1; Chromium must verify the critical Assessment → Result → CTA path, keyboard interaction, mobile layout and reduced-motion behavior. |
+| D-032 | Accepted | Duplicate Assessment runtime injection is prohibited. A single authoritative client handler owns the Assessment interaction; the Worker must not inject a second submit handler that can race with the Experience Layer. |
+| D-033 | Accepted | Development history is maintained continuously in the Decision Log and handoff documentation. Each material implementation change, discovered defect, verification result and release decision must be recorded so work can continue across chats without reconstructing state from memory. |
 
 ## Revisit rule
 
