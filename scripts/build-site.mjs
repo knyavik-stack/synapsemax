@@ -63,6 +63,8 @@ const footer = `
 <style>
 /* Brand normalization: never redraw or alter the canonical wordmark asset. */
 header .brand img:last-child{width:190px!important;height:auto!important;display:block!important;object-fit:contain!important}
+/* H1 accessibility baseline: preserve a visible keyboard focus indicator. */
+:where(a,button,input,select,textarea):focus-visible{outline:2px solid #00e1ff;outline-offset:3px}
 .sm-footer{max-width:1240px;margin:0 auto;padding:0 0 34px;color:#74839a;font-size:12px}
 .sm-footer-grid{border-top:1px solid rgba(111,167,255,.14);padding:38px 0 30px;display:grid;grid-template-columns:1.6fr 1fr 1.15fr 1fr;gap:34px}
 .sm-footer-logo{display:flex;align-items:center;gap:10px;margin-bottom:16px}.sm-footer-logo img:first-child{width:30px;height:30px;flex:0 0 auto}.sm-footer-logo img:last-child{width:190px;height:auto;display:block;flex:0 0 auto;object-fit:contain}
