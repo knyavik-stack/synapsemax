@@ -12,8 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Build/test do not need installed packages. Avoid setup-node npm cache
-      # until a package-lock.json is committed; otherwise setup-node fails.
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -58,6 +56,23 @@ jobs:
 
       - name: Validate deployment graph
         run: npx --yes wrangler@4 deploy --dry-run
+
+      - name: Start local Worker for browser QA
+        run: |
+          nohup npx --yes wrangler@4 dev --local --port 8788 > /tmp/synapsemax-worker.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8788/ >/dev/null; then break; fi
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:8788/ >/dev/null
+
+      - name: Install Chromium for browser QA
+        run: npx --yes playwright@1.55.0 install --with-deps chromium
+
+      - name: Run real browser UX gate
+        env:
+          SYNAPSEMAX_BROWSER_URL: http://127.0.0.1:8788
+        run: npx --yes -p playwright@1.55.0 playwright test scripts/browser-qa.spec.mjs --reporter=line
 
       - name: Upload production artifact
         uses: actions/upload-artifact@v4
