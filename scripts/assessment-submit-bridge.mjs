@@ -14,9 +14,16 @@ const bridge = `<script data-synapsemax="assessment-submit-bridge">
     const button = container.querySelector('button[type="submit"], button');
     if (!button || button.dataset.smSubmitBridge === '1') return;
     button.dataset.smSubmitBridge = '1';
-    button.addEventListener('click', (event) => {
+    const submit = () => {
       if (button.disabled) return;
       container.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+    };
+    button.addEventListener('click', submit);
+    button.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        submit();
+      }
     });
   };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true });
