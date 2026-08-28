@@ -12,22 +12,34 @@ if (!existsSync(source) || !existsSync(target)) throw new Error('Immediate build
 const sourceHtml = readFileSync(source, 'utf8');
 const targetHtml = readFileSync(target, 'utf8');
 
-const runtimeMatch = sourceHtml.match(/<script>\s*\(\(\) => \{\s*const boot = \(\) => \{/i);
+// Extract the complete authoritative runtime by its unique ownership marker.
+// Do not depend on formatting around the boot function: the served artifact
+// must remain stable if harmless source formatting changes.
+const runtimeMatch = sourceHtml.match(/<script>[\s\S]*?window\.__SYNAPSEMAX_RUNTIME__\s*=\s*true;[\s\S]*?<\/script>/i);
 if (!runtimeMatch) throw new Error('Authoritative Immediate runtime not found in build output');
-const start = runtimeMatch.index;
-const end = sourceHtml.indexOf('</script>', start);
-if (end < 0) throw new Error('Authoritative Immediate runtime script is incomplete');
-const runtime = sourceHtml.slice(start, end + '</script>'.length);
+const runtime = runtimeMatch[0];
 
-const stripped = targetHtml.replace(/<script>\s*\(\(\) => \{\s*const boot = \(\) => \{/gi, (match, offset, whole) => {
-  const scriptEnd = whole.indexOf('</script>', offset);
-  return scriptEnd < 0 ? match : '';
-});
-const cleaned = stripped.replace(/<script>\s*\(\(\) => \{[\s\S]*?window\.__SYNAPSEMAX_RUNTIME__\s*=\s*true;[\s\S]*?<\/script>/gi, '');
+// Remove any existing authoritative runtime from the served page, then append
+// exactly the runtime produced by the authoritative build owner.
+const cleaned = targetHtml.replace(/<script>[\s\S]*?window\.__SYNAPSEMAX_RUNTIME__\s*=\s*true;[\s\S]*?<\/script>/gi, '');
 const materialized = cleaned.replace(/<\/body>/i, `${runtime}\n</body>`);
 
-if ((materialized.match(/window\.__SYNAPSEMAX_RUNTIME__\s*=\s*true;/g) || []).length !== 1) {
-  throw new Error('Immediate runtime materialization invariant failed');
+const marker = 'window.__SYNAPSEMAX_RUNTIME__ = true;';
+const markerCount = materialized.split(marker).length - 1;
+if (markerCount !== 1) throw new Error(`Immediate runtime materialization invariant failed: ${markerCount} runtime owners`);
+
+if (!materialized.includes("document.querySelector('#assessment .form')")) {
+  throw new Error('Immediate runtime materialization invariant failed: assessment form selector missing');
 }
+if (!materialized.includes("fetch('/api/v1/assessment'")) {
+  throw new Error('Immediate runtime materialization invariant failed: assessment endpoint missing');
+}
+if (!materialized.includes("fetch('/api/v1/roi'")) {
+  throw new Error('Immediate runtime materialization invariant failed: ROI endpoint missing');
+}
+if (!materialized.includes('report.hidden = false') || !materialized.includes("report.removeAttribute('hidden')")) {
+  throw new Error('Immediate runtime materialization invariant failed: result visibility contract missing');
+}
+
 writeFileSync(target, materialized);
 console.log('Immediate runtime materialization: PASS');
