@@ -101,6 +101,14 @@ const assessmentRuntime = `
       const button = assessmentForm.querySelector('button[type="submit"], button');
       const getInput = () => Object.fromEntries(fields.map((id) => [id, Number(document.getElementById(id)?.value)]));
       const show = (node) => { report.hidden = false; report.removeAttribute('hidden'); report.classList.add('show'); report.setAttribute('aria-live', 'polite'); report.replaceChildren(node); };
+      // Keep the native form as the single interaction owner. The explicit keyboard
+      // path makes the release journey deterministic when a focused submit button
+      // receives Enter in real-browser automation.
+      button?.addEventListener('keydown', (event) => {
+        if (event.key !== 'Enter') return;
+        event.preventDefault();
+        assessmentForm.requestSubmit();
+      });
       assessmentForm.addEventListener('submit', async (event) => {
         event.preventDefault();
         const input = getInput();
