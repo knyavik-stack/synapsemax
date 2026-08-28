@@ -35,6 +35,7 @@
 | D-031 | Accepted | Real-browser QA is a release gate, not an advisory test. Static QA passing cannot close H1; Chromium must verify the critical Assessment → Result → CTA path, keyboard interaction, mobile layout and reduced-motion behavior. |
 | D-032 | Accepted | Duplicate Assessment runtime injection is prohibited. A single authoritative client handler owns the Assessment interaction; the Worker must not inject a second submit handler that can race with the Experience Layer. |
 | D-033 | Accepted | Development history is maintained continuously in the Decision Log and handoff documentation. Each material implementation change, discovered defect, verification result and release decision must be recorded so work can continue across chats without reconstructing state from memory. |
+| D-034 | Accepted | Browser QA on commit `2f2108a` reproduced a real H1 runtime defect: Chromium submitted Assessment but `#assessment-report` remained hidden. Static build, API contract and mobile overflow tests passed, so the failure was classified as a runtime-layer defect. The remediation keeps one authoritative client handler and adds a deterministic post-build runtime materialization/validation step rather than weakening the browser assertion. |
 
 ## Revisit rule
 
