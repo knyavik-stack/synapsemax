@@ -89,99 +89,97 @@ const assessmentRuntime = `
 <script>
 (() => {
   const boot = () => {
-    if (window.__SYNAPSEMAX_ASSESSMENT_RUNTIME__) return;
-    const form = document.querySelector('#assessment .form');
+    if (window.__SYNAPSEMAX_RUNTIME__) return;
+    const assessmentForm = document.querySelector('#assessment .form');
     const report = document.querySelector('#assessment-report');
-    if (!form || !report) return;
-    window.__SYNAPSEMAX_ASSESSMENT_RUNTIME__ = true;
-    const fields = ['complexity', 'manualWork', 'dataFragmentation', 'errorRate'];
-    const button = form.querySelector('button[type="submit"], button');
-    const getInput = () => Object.fromEntries(fields.map((id) => [id, Number(document.getElementById(id)?.value)]));
-    const show = (node) => {
-      report.classList.add('show');
-      report.setAttribute('aria-live', 'polite');
-      report.replaceChildren(node);
-    };
-    const run = async (event) => {
-      event?.preventDefault();
-      const input = getInput();
-      if (fields.some((id) => !Number.isFinite(input[id]) || input[id] < 0 || input[id] > 100)) {
-        const p = document.createElement('p');
-        p.textContent = 'Введите значения от 0 до 100 для всех показателей.';
-        show(p);
-        return;
-      }
-      const original = button?.textContent || 'Рассчитать профиль';
-      if (button) { button.disabled = true; button.textContent = 'Расчёт…'; }
-      try {
-        const response = await fetch('/api/v1/assessment', {
-          method: 'POST',
-          headers: { 'content-type': 'application/json' },
-          body: JSON.stringify(input),
-        });
-        if (!response.ok) throw new Error('assessment_failed');
-        const payload = await response.json();
-        if (!payload.ok || !payload.result) throw new Error('invalid_result');
-        const r = payload.result;
-        const fragment = document.createDocumentFragment();
-        const title = document.createElement('h3');
-        title.textContent = 'Результат диагностики';
-        fragment.append(title);
-        const grid = document.createElement('div');
-        grid.className = 'report-grid';
-        [['score', r.score, 'Индекс сложности'], ['automation', r.automationPotential, 'Потенциал автоматизации'], ['ai', r.aiReadiness, 'Готовность к ИИ'], ['priority', r.priority, 'Приоритет']].forEach(([key, value, label]) => {
-          const card = document.createElement('div');
-          card.className = 'metric';
-          card.dataset.metric = key;
-          const b = document.createElement('b');
-          b.textContent = typeof value === 'number' ? String(Math.round(value)) : value;
-          const s = document.createElement('span');
-          s.textContent = label;
-          card.append(b, s);
-          grid.append(card);
-        });
-        fragment.append(grid);
-        const p = document.createElement('p');
-        p.textContent = r.priority === 'Высокий'
-          ? 'Есть заметный потенциал снижения операционной нагрузки. Следующий шаг — разобрать процессы и уточнить экономический эффект.'
-          : r.priority === 'Средний'
-            ? 'Есть измеримый потенциал улучшения. Следующий шаг — определить процессы с наибольшей стоимостью ручной работы и ошибок.'
-            : 'Потенциал трансформации пока умеренный. Следующий шаг — уточнить структуру процессов и точки потерь.';
-        fragment.append(p);
-        const actions = document.createElement('div');
-        actions.className = 'actions';
-        const cta = document.createElement('a');
-        cta.className = 'btn primary';
-        cta.href = '#contact';
-        cta.textContent = 'Обсудить результат';
-        actions.append(cta);
-        fragment.append(actions);
-        show(fragment);
-        report.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
-      } catch {
-        const wrap = document.createElement('div');
-        const h = document.createElement('h3');
-        h.textContent = 'Диагностика временно недоступна';
-        const p = document.createElement('p');
-        p.textContent = 'Не удалось получить расчёт. Повторите попытку.';
-        wrap.append(h, p);
-        show(wrap);
-      } finally {
-        if (button) { button.disabled = false; button.textContent = original; }
-      }
-    };
-    form.addEventListener('submit', run);
+    const roiBox = document.querySelector('.roi-box');
+    if (!assessmentForm && !roiBox) return;
+    window.__SYNAPSEMAX_RUNTIME__ = true;
+
+    if (assessmentForm && report) {
+      const fields = ['complexity', 'manualWork', 'dataFragmentation', 'errorRate'];
+      const button = assessmentForm.querySelector('button[type="submit"], button');
+      const getInput = () => Object.fromEntries(fields.map((id) => [id, Number(document.getElementById(id)?.value)]));
+      const show = (node) => { report.classList.add('show'); report.setAttribute('aria-live', 'polite'); report.replaceChildren(node); };
+      assessmentForm.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const input = getInput();
+        if (fields.some((id) => !Number.isFinite(input[id]) || input[id] < 0 || input[id] > 100)) {
+          const p = document.createElement('p'); p.textContent = 'Введите значения от 0 до 100 для всех показателей.'; show(p); return;
+        }
+        const original = button?.textContent || 'Рассчитать профиль';
+        if (button) { button.disabled = true; button.textContent = 'Расчёт…'; }
+        try {
+          const response = await fetch('/api/v1/assessment', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(input) });
+          if (!response.ok) throw new Error('assessment_failed');
+          const payload = await response.json();
+          if (!payload.ok || !payload.result) throw new Error('invalid_result');
+          const r = payload.result;
+          const fragment = document.createDocumentFragment();
+          const title = document.createElement('h3'); title.textContent = 'Результат диагностики'; fragment.append(title);
+          const grid = document.createElement('div'); grid.className = 'report-grid';
+          [['score', r.score, 'Индекс сложности'], ['automation', r.automationPotential, 'Потенциал автоматизации'], ['ai', r.aiReadiness, 'Готовность к ИИ'], ['priority', r.priority, 'Приоритет']].forEach(([key, value, label]) => {
+            const card = document.createElement('div'); card.className = 'metric'; card.dataset.metric = key;
+            const b = document.createElement('b'); b.textContent = typeof value === 'number' ? String(Math.round(value)) : value;
+            const s = document.createElement('span'); s.textContent = label; card.append(b, s); grid.append(card);
+          });
+          fragment.append(grid);
+          const p = document.createElement('p');
+          p.textContent = r.priority === 'Высокий' ? 'Есть заметный потенциал снижения операционной нагрузки. Следующий шаг — разобрать процессы и уточнить экономический эффект.' : r.priority === 'Средний' ? 'Есть измеримый потенциал улучшения. Следующий шаг — определить процессы с наибольшей стоимостью ручной работы и ошибок.' : 'Потенциал трансформации пока умеренный. Следующий шаг — уточнить структуру процессов и точки потерь.';
+          fragment.append(p);
+          const actions = document.createElement('div'); actions.className = 'actions';
+          const cta = document.createElement('a'); cta.className = 'btn primary'; cta.href = '#contact'; cta.textContent = 'Обсудить результат'; actions.append(cta); fragment.append(actions);
+          show(fragment);
+          report.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
+        } catch {
+          const wrap = document.createElement('div'); const h = document.createElement('h3'); h.textContent = 'Диагностика временно недоступна'; const p = document.createElement('p'); p.textContent = 'Не удалось получить расчёт. Повторите попытку.'; wrap.append(h, p); show(wrap);
+        } finally { if (button) { button.disabled = false; button.textContent = original; } }
+      });
+    }
+
+    if (roiBox) {
+      const ids = ['monthlyCost', 'automationShare', 'expectedEfficiency', 'implementationCost'];
+      const button = roiBox.querySelector('button, .btn');
+      const result = roiBox.querySelector('.roi-result');
+      const getInput = () => Object.fromEntries(ids.map((id) => [id, Number(document.getElementById(id)?.value)]));
+      const render = (r) => {
+        if (!result) return;
+        const values = [
+          ['monthlySaving', r.monthlySaving, 'Экономия в месяц'],
+          ['annualSaving', r.annualSaving, 'Экономия в год'],
+          ['roiPercent', r.roiPercent, 'ROI'],
+          ['paybackMonths', r.paybackMonths, 'Окупаемость, мес.'],
+        ];
+        result.replaceChildren(...values.map(([key, value, label]) => {
+          const card = document.createElement('div'); card.className = 'metric'; card.dataset.metric = key;
+          const b = document.createElement('b'); b.textContent = value == null ? '—' : String(value);
+          const s = document.createElement('span'); s.textContent = label; card.append(b, s); return card;
+        }));
+      };
+      const run = async (event) => {
+        event?.preventDefault();
+        const input = getInput();
+        if (ids.some((id) => !Number.isFinite(input[id]) || input[id] < 0)) return;
+        const original = button?.textContent || 'Рассчитать ROI';
+        if (button) { button.disabled = true; button.textContent = 'Расчёт…'; }
+        try {
+          const response = await fetch('/api/v1/roi', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(input) });
+          if (!response.ok) throw new Error('roi_failed');
+          const payload = await response.json();
+          if (!payload.ok || !payload.result) throw new Error('invalid_roi');
+          render(payload.result);
+        } finally { if (button) { button.disabled = false; button.textContent = original; } }
+      };
+      button?.addEventListener('click', run);
+    }
   };
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true });
-  else boot();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true }); else boot();
 })();
 </script>`;
 
 rmSync(dist, { recursive: true, force: true });
 mkdirSync(resolve(dist, 'assets'), { recursive: true });
-for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html']) {
-  cpSync(resolve(root, file), resolve(dist, file));
-}
+for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html']) cpSync(resolve(root, file), resolve(dist, file));
 
 let immediate = readFileSync(resolve(root, 'dex-immediate.html'), 'utf8')
   .replaceAll('Transformation Assessment', 'Диагностика трансформации')
@@ -190,18 +188,11 @@ let immediate = readFileSync(resolve(root, 'dex-immediate.html'), 'utf8')
   .replaceAll('TRANSFORMATION SYSTEM // READY', 'ТРАНСФОРМАЦИЯ // ГОТОВА')
   .replaceAll('separable система', 'архитектура, которую можно развивать по слоям');
 
-// Remove any legacy Assessment runtime from the source page. The build owns one
-// authoritative client handler so Worker injection and source-page handlers cannot race.
-immediate = immediate.replace(/<script\b[^>]*>[\s\S]*?\/api\/v1\/assessment[\s\S]*?<\/script>/gi, '');
+// Remove any legacy Assessment/ROI runtime from the source page. The build owns
+// one authoritative client handler so Worker injection and source-page handlers cannot race.
+immediate = immediate.replace(/<script\b[^>]*>[\s\S]*?\/api\/v1\/(?:assessment|roi)[\s\S]*?<\/script>/gi, '');
 
-// Materialize explicit native label associations for the four Assessment controls.
-// This is done in the build layer to avoid destructive edits to the monolithic source page.
-const assessmentLabels = {
-  complexity: 'Сложность процессов',
-  manualWork: 'Доля ручной работы',
-  dataFragmentation: 'Фрагментация данных',
-  errorRate: 'Уровень ошибок'
-};
+const assessmentLabels = { complexity: 'Сложность процессов', manualWork: 'Доля ручной работы', dataFragmentation: 'Фрагментация данных', errorRate: 'Уровень ошибок' };
 for (const [name, label] of Object.entries(assessmentLabels)) {
   const pattern = new RegExp(`<input\\b(?![^>]*\\bid=["']${name}["'])([^>]*\\bname=["']${name}["'][^>]*)>`, 'i');
   immediate = immediate.replace(pattern, `<label class="sm-sr-only" for="${name}">${label}</label><input id="${name}"$1>`);
@@ -216,7 +207,6 @@ if (materialized === immediate) {
 writeFileSync(resolve(dist, 'dex-immediate.html'), materialized);
 
 for (const file of runtimeAssets) cpSync(resolve(root, 'assets', file), resolve(dist, 'assets', file));
-
 const deployedAssets = readdirSync(resolve(dist, 'assets')).sort();
 const unexpectedAssets = deployedAssets.filter((file) => !runtimeAssets.includes(file));
 if (unexpectedAssets.length) {
@@ -229,5 +219,5 @@ console.log('SynapseMax build: PASS');
 console.log('Current experience: dist/dex-immediate.html');
 console.log('Immediate footer: materialized');
 console.log('Runtime assets: ' + runtimeAssets.join(', '));
-console.log('Assessment runtime: authoritative build-owned handler');
+console.log('Assessment + ROI runtime: authoritative build-owned handler');
 console.log('Asset boundary: PASS');
