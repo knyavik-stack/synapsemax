@@ -1,22 +1,46 @@
 #!/usr/bin/env node
 
-import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
+/**
+ * The H1 runtime is materialized by scripts/build-site.mjs.
+ * This step is intentionally validation-only: it must never replace the
+ * build-owned handler with a second implementation.
+ */
 const file = resolve(process.cwd(), 'dist', 'dex-immediate.html');
 if (!existsSync(file)) throw new Error('dist/dex-immediate.html is missing');
 
 const html = readFileSync(file, 'utf8');
+const required = [
+  'window.__SYNAPSEMAX_RUNTIME__ = true;',
+  "document.querySelector('#assessment .form')",
+  "fetch('/api/v1/assessment'",
+  "fetch('/api/v1/roi'",
+  'const fields = [\'complexity\', \'manualWork\', \'dataFragmentation\', \'errorRate\'];',
+  'id="complexity"',
+  'id="manualWork"',
+  'id="dataFragmentation"',
+  'id="errorRate"',
+];
+
+const missing = required.filter((token) => !html.includes(token));
+if (missing.length) {
+  throw new Error(`Authoritative H1 runtime validation failed; missing: ${missing.join(' | ')}`);
+}
+
 const marker = 'window.__SYNAPSEMAX_RUNTIME__ = true;';
 const markerCount = html.split(marker).length - 1;
-if (markerCount !== 1) throw new Error(`Expected exactly one authoritative runtime assignment, found ${markerCount}`);
+if (markerCount !== 1) {
+  throw new Error(`Expected exactly one authoritative runtime assignment, found ${markerCount}`);
+}
 
-const runtime = `<script>\n(() => {\n  const boot = () => {\n    if (window.__SYNAPSEMAX_RUNTIME__) return;\n    const form = document.querySelector('#assessment .form, #assessment-form');\n    const report = document.querySelector('#assessment-report');\n    if (!form || !report) return;\n    window.__SYNAPSEMAX_RUNTIME__ = true;\n\n    const fields = ['complexity', 'manualWork', 'dataFragmentation', 'errorRate'];\n    const button = form.querySelector('button[type="submit"], button');\n    const input = () => Object.fromEntries(fields.map((id) => [id, Number(document.getElementById(id)?.value)]));\n    const show = (node) => {\n      report.hidden = false;\n      report.style.display = 'block';\n      report.classList.add('show');\n      report.setAttribute('aria-live', 'polite');\n      report.replaceChildren(node);\n    };\n    form.addEventListener('submit', async (event) => {\n      event.preventDefault();\n      const values = input();\n      if (fields.some((id) => !Number.isFinite(values[id]) || values[id] < 0 || values[id] > 100)) {\n        const p = document.createElement('p'); p.textContent = 'Введите значения от 0 до 100 для всех показателей.'; show(p); return;\n      }\n      const original = button?.textContent || 'Рассчитать профиль';\n      if (button) { button.disabled = true; button.textContent = 'Расчёт…'; }\n      try {\n        const response = await fetch('/api/v1/assessment', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(values) });\n        if (!response.ok) throw new Error('assessment_failed');\n        const payload = await response.json(); if (!payload.ok || !payload.result) throw new Error('invalid_result');\n        const r = payload.result; const fragment = document.createDocumentFragment();\n        const title = document.createElement('h3'); title.textContent = 'Результат диагностики'; fragment.append(title);\n        const grid = document.createElement('div'); grid.className = 'report-grid';\n        [['score', r.score, 'Индекс сложности'], ['automation', r.automationPotential, 'Потенциал автоматизации'], ['ai', r.aiReadiness, 'Готовность к ИИ'], ['priority', r.priority, 'Приоритет']].forEach(([key, value, label]) => {\n          const card = document.createElement('div'); card.className = 'metric'; card.dataset.metric = key;\n          const b = document.createElement('b'); b.textContent = typeof value === 'number' ? String(Math.round(value)) : value;\n          const s = document.createElement('span'); s.textContent = label; card.append(b, s); grid.append(card);\n        });\n        fragment.append(grid);\n        const p = document.createElement('p'); p.textContent = r.priority === 'Высокий' ? 'Есть заметный потенциал снижения операционной нагрузки. Следующий шаг — разобрать процессы и уточнить экономический эффект.' : r.priority === 'Средний' ? 'Есть измеримый потенциал улучшения. Следующий шаг — определить процессы с наибольшей стоимостью ручной работы и ошибок.' : 'Потенциал трансформации пока умеренный. Следующий шаг — уточнить структуру процессов и точки потерь.'; fragment.append(p);\n        const actions = document.createElement('div'); actions.className = 'actions'; const cta = document.createElement('a'); cta.className = 'btn primary'; cta.href = '#contact'; cta.textContent = 'Обсудить результат'; actions.append(cta); fragment.append(actions);\n        show(fragment); report.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });\n      } catch {\n        const wrap = document.createElement('div'); const h = document.createElement('h3'); h.textContent = 'Диагностика временно недоступна'; const p = document.createElement('p'); p.textContent = 'Не удалось получить расчёт. Повторите попытку.'; wrap.append(h, p); show(wrap);\n      } finally { if (button) { button.disabled = false; button.textContent = original; } }\n    });\n\n    const roiBox = document.querySelector('.roi-box');\n    if (roiBox) {\n      const roiButton = document.querySelector('#roi-btn'); const result = roiBox.querySelector('.roi-result'); const fmt = (value) => new Intl.NumberFormat('ru-RU').format(value) + ' ₽';\n      roiButton?.addEventListener('click', async (event) => {\n        event.preventDefault();\n        const values = { monthlyCost: Math.max(0, Number(document.getElementById('cost')?.value) || 0), automationShare: Math.max(0, Number(document.getElementById('share')?.value) || 0), expectedEfficiency: Math.max(0, Number(document.getElementById('eff')?.value) || 0), implementationCost: Math.max(0, Number(document.getElementById('impl')?.value) || 0) };\n        const original = roiButton.textContent; roiButton.disabled = true; roiButton.textContent = 'Расчёт…';\n        try {\n          const response = await fetch('/api/v1/roi', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(values) });\n          if (!response.ok) throw new Error('roi_failed'); const payload = await response.json(); if (!payload.ok || !payload.result) throw new Error('invalid_roi');\n          const r = payload.result;\n          if (result) { const items = [['monthly', fmt(r.monthlySaving)], ['annual', fmt(r.annualSaving)], ['roi', String(r.roiPercent) + '%'], ['payback', r.paybackMonths == null ? '—' : String(r.paybackMonths) + ' мес.']]; for (const [id, value] of items) { const node = document.getElementById(id); if (node) node.textContent = value; } }\n        } finally { roiButton.disabled = false; roiButton.textContent = original; }\n      });\n    }\n  };\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot, { once: true }); else boot();\n})();\n</script>`;
+const assessmentEndpointCount = (html.match(/fetch\('\/api\/v1\/assessment'/g) || []).length;
+const roiEndpointCount = (html.match(/fetch\('\/api\/v1\/roi'/g) || []).length;
+if (assessmentEndpointCount !== 1 || roiEndpointCount !== 1) {
+  throw new Error(`Expected one assessment and one ROI client endpoint; found assessment=${assessmentEndpointCount}, roi=${roiEndpointCount}`);
+}
 
-const pattern = /<script>\s*\(\(\) => \{\s*const boot = \(\) => \{\s*if \(window\.__SYNAPSEMAX_RUNTIME__\)[\s\S]*?<\/script>/;
-if (!pattern.test(html)) throw new Error('Authoritative H1 runtime block not found');
-
-const patched = html.replace(pattern, runtime);
-if ((patched.split(marker).length - 1) !== 1) throw new Error('Runtime assignment invariant failed after patch');
-writeFileSync(file, patched);
-console.log('Immediate runtime patch: PASS');
+console.log('Immediate runtime validation: PASS');
+console.log('Runtime owner: scripts/build-site.mjs');
+console.log('No post-build runtime mutation performed.');
