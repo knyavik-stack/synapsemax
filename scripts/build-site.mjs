@@ -100,7 +100,7 @@ const assessmentRuntime = `
       const fields = ['complexity', 'manualWork', 'dataFragmentation', 'errorRate'];
       const button = assessmentForm.querySelector('button[type="submit"], button');
       const getInput = () => Object.fromEntries(fields.map((id) => [id, Number(document.getElementById(id)?.value)]));
-      const show = (node) => { report.classList.add('show'); report.setAttribute('aria-live', 'polite'); report.replaceChildren(node); };
+      const show = (node) => { report.hidden = false; report.removeAttribute('hidden'); report.classList.add('show'); report.setAttribute('aria-live', 'polite'); report.replaceChildren(node); };
       assessmentForm.addEventListener('submit', async (event) => {
         event.preventDefault();
         const input = getInput();
