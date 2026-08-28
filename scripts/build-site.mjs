@@ -205,9 +205,9 @@ let immediate = readFileSync(resolve(root, 'dex-immediate.html'), 'utf8')
 immediate = immediate.replace(/<script\b[^>]*>[\s\S]*?\/api\/v1\/(?:assessment|roi)[\s\S]*?<\/script>/gi, '');
 
 const assessmentLabels = { complexity: 'Сложность процессов', manualWork: 'Доля ручной работы', dataFragmentation: 'Фрагментация данных', errorRate: 'Уровень ошибок' };
-for (const [name, label] of Object.entries(assessmentLabels)) {
+for (const [name] of Object.entries(assessmentLabels)) {
   const pattern = new RegExp(`<input\\b(?![^>]*\\bid=["']${name}["'])([^>]*\\bname=["']${name}["'][^>]*)>`, 'i');
-  immediate = immediate.replace(pattern, `<label class="sm-sr-only" for="${name}">${label}</label><input id="${name}"$1>`);
+  immediate = immediate.replace(pattern, `<input id="${name}"$1>`);
 }
 
 const materialized = immediate.replace(/<footer[\s\S]*?<\/footer>/i, footer).replace(/<\/body>/i, `${assessmentRuntime}\n</body>`);
