@@ -121,6 +121,17 @@ const assessmentRuntime = `
         event.preventDefault();
         assessmentForm.requestSubmit();
       });
+      // The browser release journey focuses the submit control and sends Enter.
+      // Capture it at the form level as well so delegated or rebuilt controls
+      // cannot bypass the authoritative submit handler.
+      assessmentForm.addEventListener('keydown', (event) => {
+        if (event.key !== 'Enter') return;
+        const target = event.target;
+        if (target && (target.matches?.('button[type="submit"], button') || target.closest?.('button[type="submit"], button'))) {
+          event.preventDefault();
+          assessmentForm.requestSubmit();
+        }
+      });
       assessmentForm.addEventListener('submit', async (event) => {
         event.preventDefault();
         const input = getInput();
