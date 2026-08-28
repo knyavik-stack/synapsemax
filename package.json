@@ -3,7 +3,7 @@
   "private":true,
   "type":"module",
   "scripts":{
-    "build":"node scripts/build-site.mjs && node scripts/patch-immediate-runtime.mjs",
+    "build":"node scripts/build-site.mjs",
     "test:immediate":"node scripts/test-immediate.mjs",
     "verify:production":"node scripts/verify-production.mjs",
     "deploy:cloudflare":"npm run build && npx wrangler deploy",
