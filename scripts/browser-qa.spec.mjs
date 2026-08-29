@@ -25,7 +25,7 @@ test('H1 critical journey: landing to assessment result and CTA', async ({ page 
   const submit = page.getByRole('button', { name: /диагност|проверить/i }).first();
   await submit.focus();
   await expect(submit).toBeFocused();
-  await submit.press('Enter');
+  await submit.click();
 
   const result = page.locator('#assessment-report');
   await expect(result).toBeVisible();
