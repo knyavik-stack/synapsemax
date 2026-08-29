@@ -103,7 +103,7 @@ const assessmentRuntime = `
         if (input) { input.id = id; const label = input.closest('.field')?.querySelector('label'); if (label) label.htmlFor = id; }
       });
       const button = assessmentForm.querySelector('button[type="submit"], button');
-      const getInput = () => Object.fromEntries(fields.map((id) => [id, Number(document.getElementById(id)?.value)]));
+      const getInput = () => Object.fromEntries(fields.map((id) => [id, Number(assessmentForm.querySelector('[name="' + id + '"]')?.value)]));
       const show = (node) => {
         report.hidden = false;
         report.removeAttribute('hidden');
