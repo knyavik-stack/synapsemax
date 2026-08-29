@@ -36,7 +36,7 @@ if (!html.includes('window.__SYNAPSEMAX_RUNTIME__')) {
   console.error('Assessment bridge: FAILED — authoritative runtime missing');
   process.exit(1);
 }
-if (!html.includes('<div class="form')) {
+if (!html.includes('<form class="form" id="assessment-form">')) {
   console.error('Assessment bridge: FAILED — assessment container missing');
   process.exit(1);
 }
