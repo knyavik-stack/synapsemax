@@ -27,7 +27,7 @@ test('H1 critical journey: landing to assessment result and CTA', async ({ page 
   await expect(submit).toBeFocused();
   await submit.press('Enter');
 
-  const result = page.locator('[aria-live="polite"]').first();
+  const result = page.locator('#assessment-report');
   await expect(result).toBeVisible();
   await expect(page.locator('body')).toContainText(/60/);
 
