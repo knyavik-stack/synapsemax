@@ -5,7 +5,10 @@ const baseURL = process.env.SYNAPSEMAX_BROWSER_URL || 'http://127.0.0.1:8788';
 test.use({ baseURL, reducedMotion: 'reduce' });
 
 test('H1 critical journey: landing to assessment result and CTA', async ({ page }) => {
+  const pageErrors = [];
+  page.on('pageerror', error => pageErrors.push(error.message));
   await page.goto('/', { waitUntil: 'networkidle' });
+  expect(pageErrors).toEqual([]);
 
   await expect(page.locator('html')).toHaveAttribute('lang', 'ru');
   await expect(page.getByRole('heading', { name: /Диагностика/i })).toBeVisible();
