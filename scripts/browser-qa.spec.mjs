@@ -9,6 +9,7 @@ test('H1 critical journey: landing to assessment result and CTA', async ({ page 
   page.on('pageerror', error => pageErrors.push(error.message));
   await page.goto('/', { waitUntil: 'networkidle' });
   expect(pageErrors).toEqual([]);
+  await expect.poll(() => page.evaluate(() => window.__SYNAPSEMAX_RUNTIME__ === true)).toBe(true);
 
   await expect(page.locator('html')).toHaveAttribute('lang', 'ru');
   await expect(page.getByRole('heading', { name: /Диагностика/i })).toBeVisible();
