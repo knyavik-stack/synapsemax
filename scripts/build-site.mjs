@@ -140,6 +140,25 @@ const assessmentRuntime = `
         }
         const original = button?.textContent || 'Рассчитать профиль';
         if (button) { button.disabled = true; button.textContent = 'Расчёт…'; }
+
+        // Render a deterministic local profile first. The API remains authoritative for
+        // enrichment, but the user must never lose the result because of transport latency.
+        const localScore = Math.round(fields.reduce((sum, id) => sum + input[id], 0) / fields.length);
+        const localPriority = localScore >= 67 ? 'Высокий' : localScore >= 34 ? 'Средний' : 'Низкий';
+        const local = document.createDocumentFragment();
+        const localTitle = document.createElement('h3'); localTitle.textContent = 'Результат диагностики'; local.append(localTitle);
+        const localGrid = document.createElement('div'); localGrid.className = 'report-grid';
+        [['score', localScore, 'Индекс сложности'], ['automation', Math.round((input.manualWork + input.dataFragmentation) / 2), 'Потенциал автоматизации'], ['ai', Math.max(0, Math.min(100, 100 - Math.round((input.complexity + input.dataFragmentation) / 2))), 'Готовность к ИИ'], ['priority', localPriority, 'Приоритет']].forEach(([key, value, label]) => {
+          const card = document.createElement('div'); card.className = 'metric'; card.dataset.metric = key;
+          const b = document.createElement('b'); b.textContent = String(value); const span = document.createElement('span'); span.textContent = label; card.append(b, span); localGrid.append(card);
+        });
+        local.append(localGrid);
+        const localP = document.createElement('p'); localP.textContent = 'Первичный профиль рассчитан. Следующий шаг — разобрать источники потерь и уточнить экономический эффект.'; local.append(localP);
+        const localActions = document.createElement('div'); localActions.className = 'actions';
+        const localCta = document.createElement('a'); localCta.className = 'btn primary'; localCta.href = '#contact'; localCta.textContent = 'Обсудить результат'; localActions.append(localCta); local.append(localActions);
+        show(local);
+        report.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
+
         try {
           const response = await fetch('/api/v1/assessment', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(input) });
           if (!response.ok) throw new Error('assessment_failed');
