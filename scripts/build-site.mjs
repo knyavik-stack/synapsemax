@@ -160,6 +160,11 @@ const assessmentRuntime = `
         const localActions = document.createElement('div'); localActions.className = 'actions';
         const localCta = document.createElement('a'); localCta.className = 'btn primary'; localCta.href = '#contact'; localCta.textContent = 'Обсудить результат'; localActions.append(localCta); local.append(localActions);
         show(local);
+        // Release contract: visibility must be observable synchronously after submit.
+        report.hidden = false;
+        report.removeAttribute('hidden');
+        report.style.display = 'block';
+        report.classList.add('show');
         report.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
 
         try {
