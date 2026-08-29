@@ -252,17 +252,8 @@ for (const [name] of Object.entries(assessmentLabels)) {
 // This removes the synthetic submit bridge and makes Enter follow native browser semantics.
 const assessmentStart = immediate.indexOf('<section id="assessment"');
 const assessmentEnd = immediate.indexOf('</section>', assessmentStart);
-if (assessmentStart >= 0 && assessmentEnd >= 0) {
-  const before = immediate.slice(0, assessmentStart);
-  let section = immediate.slice(assessmentStart, assessmentEnd + '</section>'.length);
-  const formOpen = section.match(/<div class="form([^"]*)">/i);
-  if (formOpen) {
-    section = section.replace(formOpen[0], '<form class="form' + formOpen[1] + '">');
-    const formClose = section.indexOf('</div>', section.indexOf(formOpen[0].replace('<div','<form')));
-    if (formClose >= 0) section = section.slice(0, formClose) + '</form>' + section.slice(formClose + 6);
-  }
-  immediate = before + section + immediate.slice(assessmentEnd + '</section>'.length);
-}
+// Source markup owns #assessment-form as a native <form>. No structural rewrite here:
+// rewriting nested HTML by string offsets can corrupt the DOM and silently detach runtime behavior.
 
 const materialized = immediate.replace(/<footer[\s\S]*?<\/footer>/i, footer).replace(/<\/body>/i, `${assessmentRuntime}\n</body>`);
 if (materialized === immediate) {
