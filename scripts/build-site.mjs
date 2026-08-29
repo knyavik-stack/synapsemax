@@ -92,6 +92,9 @@ const assessmentRuntime = `
     if (window.__SYNAPSEMAX_RUNTIME__) return;
     const assessmentForm = document.querySelector('#assessment-form');
     const report = document.querySelector('#assessment-report');
+    // Authoritative release contract: the report may contain fallback markup, but it
+    // must start hidden until the user submits the assessment.
+    if (report) report.hidden = true;
     const roiBox = document.querySelector('.roi-box');
     if (!assessmentForm && !roiBox) return;
     window.__SYNAPSEMAX_RUNTIME__ = true;
