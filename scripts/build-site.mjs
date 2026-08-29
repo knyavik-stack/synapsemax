@@ -90,7 +90,7 @@ const assessmentRuntime = `
 (() => {
   const boot = () => {
     if (window.__SYNAPSEMAX_RUNTIME__) return;
-    const assessmentForm = document.querySelector('#assessment .form');
+    const assessmentForm = document.querySelector('#assessment-form');
     const report = document.querySelector('#assessment-report');
     const roiBox = document.querySelector('.roi-box');
     if (!assessmentForm && !roiBox) return;
