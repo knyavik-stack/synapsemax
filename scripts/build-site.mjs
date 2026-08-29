@@ -87,6 +87,7 @@ header .brand img:last-child{width:190px!important;height:auto!important;display
 
 const assessmentRuntime = `
 <script>
+console.log('[SynapseMax] assessment runtime injected');
 (() => {
   const boot = () => {
     if (window.__SYNAPSEMAX_RUNTIME__) return;
