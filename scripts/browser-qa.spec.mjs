@@ -26,7 +26,7 @@ test('H1 critical journey: landing to assessment result and CTA', async ({ page 
   await page.locator('#dataFragmentation').fill('60');
   await page.locator('#errorRate').fill('30');
 
-  const submit = page.getByRole('button', { name: /диагност|проверить/i }).first();
+  const submit = assessment.locator('button[type="submit"]');
   await submit.focus();
   await expect(submit).toBeFocused();
   await submit.click();
