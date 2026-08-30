@@ -1,4 +1,4 @@
-import { assess, calculateRoi } from './immediate-logic.js';
+import { assess, calculateRoi, diagnoseProfitLeakage } from './immediate-logic.js';
 
 const SECURITY_HEADERS = {
   'x-content-type-options': 'nosniff',
