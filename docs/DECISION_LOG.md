@@ -40,3 +40,5 @@
 ## Revisit rule
 
 A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
+
+| D-035 | Accepted | QA run #97 on `2e95b18` passed all build, artifact, routing, budget, Worker, Chromium critical-journey and mobile gates. The Assessment runtime is VERIFIED in Chromium. Root cause of the earlier repeated hidden-report failures was an incorrect browser-QA submit selector, not the Assessment business/runtime logic. After verification, the obsolete `assessment-submit-bridge.mjs` defense layer was removed from the production build to restore one authoritative Assessment runtime path. |
