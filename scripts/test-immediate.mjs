@@ -94,4 +94,14 @@ assert.match(html, /synapsemax-symbol\.png/);
 assert.match(html, /synapsemax-wordmark\.png/);
 assert.match(html, /Asset boundary: PASS|synapsemax-wordmark\.png/);
 
+const leakageModule = await import('../src/immediate-logic.js');
+const diagnostic = leakageModule.diagnoseProfitLeakage({ monthlyLaborCost: 1000000, manualWorkShare: 50, recoverableManualShare: 40, monthlyErrorCost: 100000, monthlyDelayCost: 50000, implementationCost: 1500000 });
+assert.equal(diagnostic.manualLeakage, 500000);
+assert.equal(diagnostic.recoverableManualLeakage, 200000);
+assert.equal(diagnostic.totalMonthlyLeakage, 650000);
+assert.equal(diagnostic.recoverableMonthlyValue, 350000);
+assert.equal(diagnostic.annualRecoverableValue, 4200000);
+assert.equal(diagnostic.paybackMonths, 4.3);
+assert.equal(diagnostic.roiPercent, 180);
+
 console.log('Immediate smoke + artifact + static UX contract: PASS');

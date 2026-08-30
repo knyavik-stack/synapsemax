@@ -14,3 +14,33 @@ export function calculateRoi(input = {}) {
   const annualSaving = monthlySaving * 12;
   return { monthlySaving: Math.round(monthlySaving), annualSaving: Math.round(annualSaving), roiPercent: implementation ? Math.round(((annualSaving - implementation) / implementation) * 100) : 0, paybackMonths: monthlySaving ? Math.round((implementation / monthlySaving) * 10) / 10 : null };
 }
+
+export function diagnoseProfitLeakage(input = {}) {
+  const money = (v) => Math.max(0, Number(v) || 0);
+  const percent = (v) => Math.min(100, Math.max(0, Number(v) || 0)) / 100;
+  const monthlyLaborCost = money(input.monthlyLaborCost ?? input.monthlyCost ?? 0);
+  const monthlyErrorCost = money(input.monthlyErrorCost ?? 0);
+  const monthlyDelayCost = money(input.monthlyDelayCost ?? 0);
+  const manualWorkShare = percent(input.manualWorkShare ?? input.automationShare ?? 0);
+  const recoverableManualShare = percent(input.recoverableManualShare ?? input.expectedEfficiency ?? 0);
+  const implementationCost = money(input.implementationCost ?? 0);
+  const manualLeakage = monthlyLaborCost * manualWorkShare;
+  const recoverableManualLeakage = manualLeakage * recoverableManualShare;
+  const totalMonthlyLeakage = manualLeakage + monthlyErrorCost + monthlyDelayCost;
+  const recoverableMonthlyValue = recoverableManualLeakage + monthlyErrorCost + monthlyDelayCost;
+  const annualRecoverableValue = recoverableMonthlyValue * 12;
+  const roiPercent = implementationCost ? ((annualRecoverableValue - implementationCost) / implementationCost) * 100 : null;
+  const paybackMonths = recoverableMonthlyValue ? implementationCost / recoverableMonthlyValue : null;
+  return {
+    manualLeakage: Math.round(manualLeakage),
+    recoverableManualLeakage: Math.round(recoverableManualLeakage),
+    errorLeakage: Math.round(monthlyErrorCost),
+    delayLeakage: Math.round(monthlyDelayCost),
+    totalMonthlyLeakage: Math.round(totalMonthlyLeakage),
+    recoverableMonthlyValue: Math.round(recoverableMonthlyValue),
+    annualRecoverableValue: Math.round(annualRecoverableValue),
+    roiPercent: roiPercent == null ? null : Math.round(roiPercent),
+    paybackMonths: paybackMonths == null ? null : Math.round(paybackMonths * 10) / 10,
+    assumptions: ['Ошибки и задержки считаются полностью устранимыми только как сценарная гипотеза; перед инвестиционным решением требуется верификация по данным клиента.']
+  };
+}
