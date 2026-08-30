@@ -145,14 +145,16 @@ console.log('[SynapseMax] assessment runtime injected');
         const original = button?.textContent || 'Рассчитать профиль';
         if (button) { button.disabled = true; button.textContent = 'Расчёт…'; }
 
-        // Render a deterministic local profile first. The API remains authoritative for
-        // enrichment, but the user must never lose the result because of transport latency.
+        // Resilience fallback mirrors src/immediate-logic.js exactly. Keep this
+        // block formula-for-formula aligned with the domain contract and covered by CI.
         const localScore = Math.round(fields.reduce((sum, id) => sum + input[id], 0) / fields.length);
-        const localPriority = localScore >= 67 ? 'Высокий' : localScore >= 34 ? 'Средний' : 'Низкий';
+        const localAutomationPotential = Math.round(input.manualWork * .42 + input.dataFragmentation * .18 + input.errorRate * .22 + input.complexity * .18);
+        const localAiReadiness = Math.round((100 - input.dataFragmentation) * .25 + (100 - input.manualWork) * .2 + (100 - input.errorRate) * .15 + input.complexity * .4);
+        const localPriority = localAutomationPotential >= 70 ? 'Высокий' : localAutomationPotential >= 45 ? 'Средний' : 'Низкий';
         const local = document.createDocumentFragment();
         const localTitle = document.createElement('h3'); localTitle.textContent = 'Результат диагностики'; local.append(localTitle);
         const localGrid = document.createElement('div'); localGrid.className = 'report-grid';
-        [['score', localScore, 'Индекс сложности'], ['automation', Math.round((input.manualWork + input.dataFragmentation) / 2), 'Потенциал автоматизации'], ['ai', Math.max(0, Math.min(100, 100 - Math.round((input.complexity + input.dataFragmentation) / 2))), 'Готовность к ИИ'], ['priority', localPriority, 'Приоритет']].forEach(([key, value, label]) => {
+        [['score', localScore, 'Индекс сложности'], ['automation', localAutomationPotential, 'Потенциал автоматизации'], ['ai', localAiReadiness, 'Готовность к ИИ'], ['priority', localPriority, 'Приоритет']].forEach(([key, value, label]) => {
           const card = document.createElement('div'); card.className = 'metric'; card.dataset.metric = key;
           const b = document.createElement('b'); b.textContent = String(value); const span = document.createElement('span'); span.textContent = label; card.append(b, span); localGrid.append(card);
         });

@@ -57,6 +57,16 @@ for (const text of [
   assert.ok(html.includes(text), `Missing production content: ${text}`);
 }
 
+
+// Build-runtime fallback must remain formula-equivalent to the canonical domain logic.
+for (const snippet of [
+  'input.manualWork * .42 + input.dataFragmentation * .18 + input.errorRate * .22 + input.complexity * .18',
+  '(100 - input.dataFragmentation) * .25 + (100 - input.manualWork) * .2 + (100 - input.errorRate) * .15 + input.complexity * .4',
+  "localAutomationPotential >= 70 ? 'Высокий' : localAutomationPotential >= 45 ? 'Средний' : 'Низкий'",
+]) {
+  assert.ok(html.includes(snippet), 'Assessment resilience fallback drifted from domain contract: ' + snippet);
+}
+
 // Static UX/accessibility contract: cheap checks that belong in every CI run.
 assert.match(html, /<html[^>]+lang=["']ru["']/i, 'Document language must be Russian');
 assert.match(html, /:focus-visible\s*\{/i, 'Keyboard focus-visible contract missing');
