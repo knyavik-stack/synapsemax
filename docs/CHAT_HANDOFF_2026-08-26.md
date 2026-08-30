@@ -279,3 +279,12 @@ RC acceptance:
 - Root cause of repeated hidden-report failures: browser QA selected a non-canonical button instead of `#assessment button[type="submit"]`.
 - Cleanup started: obsolete `assessment-submit-bridge.mjs` removed and then removed from the build pipeline; D-032 single authoritative runtime rule restored structurally.
 - Next required evidence before final RC declaration: clean QA on the post-cleanup main SHA and fresh production smoke for that SHA. Do not call RELEASED from the prior QA run alone.
+
+
+## 17. 2026-08-30 POST-CLEANUP QA
+
+- Immediate QA run #101 on post-cleanup main SHA `cf5d2f54b677828ca25b8a655d8d5fd5682537bc`: **SUCCESS**.
+- The obsolete bridge is absent from the repository and no longer part of `npm run build`.
+- Chromium critical journey, mobile QA, build, artifact, routing, budget, Wrangler and deployment-graph gates passed after cleanup.
+- Honest state: **IMPLEMENTED + VERIFIED** for post-cleanup main; **RELEASED** remains pending fresh production smoke against the deployed revision.
+- DEX v4 remains blocked until DEX v3 visual approval.
