@@ -269,3 +269,13 @@ RC acceptance:
 
 Ключевая фраза проекта:
 **SynapseMax — не сайт про технологии. Это первый интерфейс системы трансформации бизнеса.**
+
+
+## 16. 2026-08-30 RC EVIDENCE UPDATE
+
+- Immediate QA run #97 on commit `2e95b18b07eab5cdfd232050f36fd2b7afa3f309`: **SUCCESS**.
+- Verified gates: build, static tests, production artifact, root routing, size budget, Wrangler configuration, deployment graph, real Chromium critical journey, mobile overflow/usability.
+- Runtime boot marker verified; no browser page errors; Assessment → Result → CTA verified.
+- Root cause of repeated hidden-report failures: browser QA selected a non-canonical button instead of `#assessment button[type="submit"]`.
+- Cleanup started: obsolete `assessment-submit-bridge.mjs` removed and then removed from the build pipeline; D-032 single authoritative runtime rule restored structurally.
+- Next required evidence before final RC declaration: clean QA on the post-cleanup main SHA and fresh production smoke for that SHA. Do not call RELEASED from the prior QA run alone.
