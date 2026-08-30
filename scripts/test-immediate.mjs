@@ -104,4 +104,8 @@ assert.equal(diagnostic.annualRecoverableValue, 4200000);
 assert.equal(diagnostic.paybackMonths, 4.3);
 assert.equal(diagnostic.roiPercent, 180);
 
+assert.ok(html.includes('profit-leakage-btn'), 'Profit leakage diagnostic control missing from production artifact');
+assert.ok(html.includes('/api/v1/profit-leakage'), 'Profit leakage API contract missing from production artifact');
+assert.ok(html.includes('Сначала — где теряется прибыль'), 'Financial-first positioning missing from production artifact');
+
 console.log('Immediate smoke + artifact + static UX contract: PASS');
