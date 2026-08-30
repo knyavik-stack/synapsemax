@@ -38,6 +38,7 @@ test('H1 critical journey: landing to assessment result and CTA', async ({ page 
   const cta = page.getByRole('link', { name: /обсудить результат|получить карту трансформации/i }).first();
   await expect(cta).toBeVisible();
 
+  await submit.focus();
   const focusRing = await submit.evaluate((el) => {
     const s = getComputedStyle(el);
     return s.outlineStyle !== 'none' || s.boxShadow !== 'none';
