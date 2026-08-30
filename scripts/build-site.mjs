@@ -198,6 +198,41 @@ console.log('[SynapseMax] assessment runtime injected');
       });
     }
 
+    const profitLeakageButton = document.getElementById('profit-leakage-btn');
+    if (profitLeakageButton) {
+      const ids = ['leak-labor', 'leak-manual', 'leak-recoverable', 'leak-errors', 'leak-delays', 'leak-impl'];
+      const money = (value) => new Intl.NumberFormat('ru-RU', { maximumFractionDigits: 0 }).format(Math.round(value)) + ' ₽';
+      profitLeakageButton.addEventListener('click', async () => {
+        const values = Object.fromEntries(ids.map((id) => [id, Number(document.getElementById(id)?.value)]));
+        if (Object.values(values).some((value) => !Number.isFinite(value) || value < 0) || values['leak-manual'] > 100 || values['leak-recoverable'] > 100) {
+          document.getElementById('profit-leakage-note').textContent = 'Проверьте значения: денежные показатели не могут быть отрицательными, проценты — от 0 до 100.';
+          return;
+        }
+        const input = { monthlyLaborCost: values['leak-labor'], manualWorkShare: values['leak-manual'], recoverableManualShare: values['leak-recoverable'], monthlyErrorCost: values['leak-errors'], monthlyDelayCost: values['leak-delays'], implementationCost: values['leak-impl'] };
+        const manualLeakage = input.monthlyLaborCost * input.manualWorkShare / 100;
+        const recoverableManualLeakage = manualLeakage * input.recoverableManualShare / 100;
+        const fallback = {
+          totalMonthlyLeakage: Math.round(manualLeakage + input.monthlyErrorCost + input.monthlyDelayCost),
+          recoverableMonthlyValue: Math.round(recoverableManualLeakage + input.monthlyErrorCost + input.monthlyDelayCost),
+          annualRecoverableValue: Math.round((recoverableManualLeakage + input.monthlyErrorCost + input.monthlyDelayCost) * 12)
+        };
+        fallback.roiPercent = input.implementationCost ? Math.round(((fallback.annualRecoverableValue - input.implementationCost) / input.implementationCost) * 100) : null;
+        fallback.paybackMonths = fallback.recoverableMonthlyValue ? Math.round(input.implementationCost / fallback.recoverableMonthlyValue * 10) / 10 : null;
+        let result = fallback;
+        try {
+          const response = await fetch('/api/v1/profit-leakage', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(input) });
+          const payload = await response.json();
+          if (response.ok && payload.ok && payload.result) result = payload.result;
+        } catch {}
+        document.getElementById('leak-total').textContent = money(result.totalMonthlyLeakage);
+        document.getElementById('leak-recoverable-value').textContent = money(result.recoverableMonthlyValue);
+        document.getElementById('leak-annual').textContent = money(result.annualRecoverableValue);
+        document.getElementById('leak-roi').textContent = result.roiPercent == null ? '—' : result.roiPercent + '%';
+        document.getElementById('leak-payback').textContent = result.paybackMonths == null ? '—' : result.paybackMonths + ' мес.';
+        document.getElementById('profit-leakage-note').textContent = 'Это сценарная оценка по введённым данным. Перед инвестиционным решением источники потерь и достижимость эффекта должны быть подтверждены данными клиента.';
+      });
+    }
+
     if (roiBox) {
       const ids = ['monthlyCost', 'automationShare', 'expectedEfficiency', 'implementationCost'];
       const button = roiBox.querySelector('button, .btn');
