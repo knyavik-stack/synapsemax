@@ -2,7 +2,7 @@ name: Intily AI News Publisher
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '1-59/5 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -47,14 +47,23 @@ jobs:
           def translate(text):
               text=re.sub(r'\s+',' ',text or '').strip()
               if not text: return ''
+              last=None
+              for attempt in range(3):
+                  try:
+                      q=urllib.parse.urlencode({'client':'gtx','sl':'auto','tl':'ru','dt':'t','q':text[:4500]})
+                      data=json.loads(get('https://translate.googleapis.com/translate_a/single?'+q,15).decode('utf-8'))
+                      out=''.join(x[0] for x in data[0] if x and x[0]).strip()
+                      if out: return out
+                  except Exception as e:
+                      last=e; print('translation retry',attempt+1,e); time.sleep(2*(attempt+1))
               try:
-                  q=urllib.parse.urlencode({'client':'gtx','sl':'auto','tl':'ru','dt':'t','q':text[:4500]})
-                  data=json.loads(get('https://translate.googleapis.com/translate_a/single?'+q,15).decode('utf-8'))
-                  out=''.join(x[0] for x in data[0] if x and x[0])
-                  return out.strip() or text
+                  q=urllib.parse.urlencode({'q':text[:4500],'langpair':'en|ru'})
+                  data=json.loads(get('https://api.mymemory.translated.net/get?'+q,20).decode('utf-8'))
+                  out=((data.get('responseData') or {}).get('translatedText') or '').strip()
+                  if out and out.lower()!=text.lower(): return out
               except Exception as e:
-                  print('translation error:', e)
-                  return None
+                  print('fallback translation error:',e)
+              return None
 
           def clean_ru(text):
               text=re.sub(r'\s+',' ',text or '').strip()
@@ -161,9 +170,15 @@ jobs:
               require_russian(final_text_for_check, 'post')
               payload=json.dumps({'chat_id':os.environ['TELEGRAM_CHAT_ID'],'text':msg,'parse_mode':'HTML','disable_web_page_preview':True}).encode()
               req=urllib.request.Request('https://api.telegram.org/bot'+os.environ['TELEGRAM_BOT_TOKEN']+'/sendMessage',data=payload,headers={'Content-Type':'application/json'})
-              with urllib.request.urlopen(req,timeout=20) as r: data=json.loads(r.read().decode())
-              if not data.get('ok'): raise RuntimeError(data)
-              return ru_title
+              last=None
+              for attempt in range(3):
+                  try:
+                      with urllib.request.urlopen(req,timeout=20) as r: data=json.loads(r.read().decode())
+                      if not data.get('ok'): raise RuntimeError(data)
+                      return ru_title
+                  except Exception as e:
+                      last=e; print('telegram retry',attempt+1,e); time.sleep(2*(attempt+1))
+              raise last
 
           for c in batch:
               try:
