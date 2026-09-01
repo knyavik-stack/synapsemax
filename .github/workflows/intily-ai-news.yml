@@ -1,0 +1,65 @@
+name: Intily AI News Publisher
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: intily-ai-news
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Publish important AI news
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: '@intilyshop'
+        run: |
+          python3 - <<'PY'
+          import hashlib, html, json, os, re, subprocess, sys, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+          STATE='data/intily-ai-news-state.json'
+          os.makedirs('data', exist_ok=True)
+          try:
+              with open(STATE,encoding='utf-8') as f: state=json.load(f)
+          except Exception: state={'published':[]}
+          published=set(state.get('published',[])); candidates=[]
+          for region,q in [('WORLD','AI artificial intelligence OpenAI Anthropic Google DeepMind NVIDIA Meta Microsoft'),('RUSSIA','ИИ искусственный интеллект нейросети Яндекс Сбер VK МТС')]:
+              url='https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':q,'hl':'ru-RU' if region=='RUSSIA' else 'en-US','gl':'RU' if region=='RUSSIA' else 'US','ceid':'RU:ru' if region=='RUSSIA' else 'US:en'})
+              try: root=ET.fromstring(urllib.request.urlopen(url,timeout=15).read())
+              except Exception as e: print('feed error',region,e); continue
+              for item in root.findall('./channel/item')[:20]:
+                  title=(item.findtext('title') or '').strip(); link=(item.findtext('link') or '').strip(); desc=html.unescape(re.sub('<[^>]+>',' ',item.findtext('description') or '')).strip(); pub=(item.findtext('pubDate') or '').strip(); src=item.find('source'); source=(src.text or '').strip() if src is not None else ''
+                  if not title or not link: continue
+                  key=hashlib.sha256((title.lower()+'|'+link.split('&')[0]).encode()).hexdigest()
+                  if key in published: continue
+                  text=(title+' '+desc).lower(); score=0
+                  for term,pts in [('launch',5),('released',5),('release',4),('model',3),('gpt',4),('claude',4),('gemini',4),('openai',4),('anthropic',4),('deepmind',4),('nvidia',4),('billion',4),('regulation',4),('law',4),('закон',5),('регулир',5),('млрд',4),('модель',3),('нейросет',3),('инвести',4),('сделк',4),('исследован',3),('research',3),('security',4),('безопасн',4),('agent',4),('агент',4),('breakthrough',5),('прорыв',5)]:
+                      if term in text: score+=pts
+                  if source.lower() in {'reuters','associated press','the verge','techcrunch','bloomberg','financial times'}: score+=3
+                  if region=='RUSSIA' and any(x in text for x in ['россия','рф','россий','яндекс','сбер','vk ','мтс']): score+=3
+                  candidates.append({'region':region,'title':title,'link':link,'desc':desc,'pub':pub,'source':source,'key':key,'score':score})
+          if not candidates: print('No new candidates'); sys.exit(0)
+          candidates.sort(key=lambda x:(x['score'],x['pub']),reverse=True); item=candidates[0]
+          if item['score']<5: print('No sufficiently important new AI news; top score:',item['score']); sys.exit(0)
+          desc=re.sub(r'\s+',' ',item['desc']).strip(); desc=(desc[:417].rsplit(' ',1)[0]+'…') if len(desc)>420 else desc
+          flag='🌍' if item['region']=='WORLD' else '🇷🇺'; source=item['source'] or 'Источник'
+          msg=f"{flag} <b>{html.escape(item['title'])}</b>\n\n{html.escape(desc)}\n\n<b>Почему важно:</b> новость прошла автоматический фильтр значимости AI-редактора по влиянию на модели, компании, инфраструктуру, регулирование или рынок.\n\n📰 {html.escape(source)}\n🔗 {html.escape(item['link'])}"
+          payload=json.dumps({'chat_id':os.environ['TELEGRAM_CHAT_ID'],'text':msg,'parse_mode':'HTML'}).encode(); req=urllib.request.Request('https://api.telegram.org/bot'+os.environ['TELEGRAM_BOT_TOKEN']+'/sendMessage',data=payload,headers={'Content-Type':'application/json'}); response=json.loads(urllib.request.urlopen(req,timeout=20).read())
+          if not response.get('ok'): raise SystemExit('Telegram error: '+json.dumps(response,ensure_ascii=False))
+          print('Published:',item['title']); published.add(item['key']); state['published']=list(published)[-500:]
+          with open(STATE,'w',encoding='utf-8') as f: json.dump(state,f,ensure_ascii=False,indent=2)
+          subprocess.run(['git','config','user.name','github-actions[bot]'],check=True); subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],check=True); subprocess.run(['git','add',STATE],check=True)
+          if os.system('git diff --cached --quiet') != 0: subprocess.run(['git','commit','-m','chore(automation): update AI news dedup state'],check=True); subprocess.run(['git','push'],check=True)
+          PY
