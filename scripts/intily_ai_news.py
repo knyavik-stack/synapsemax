@@ -7,6 +7,7 @@ LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=5; MAX_QUEUE=100; JOKE_RA
 STATE_FILE=os.environ.get('STATE_FILE','data/intily-ai-news-state.json')
 GROQ_MODEL='llama-3.1-8b-instant'; GROQ_URL='https://api.groq.com/openai/v1/chat/completions'
 OPENAI_MODEL='gpt-4o-mini'; OPENAI_URL='https://api.openai.com/v1/chat/completions'
+GEMINI_MODEL='gemini-2.5-flash-lite'; GEMINI_URL='https://generativelanguage.googleapis.com/v1beta/models/'+GEMINI_MODEL+':generateContent'
 TG_URL='https://api.telegram.org/bot{}/sendMessage'
 QUERIES=[('WORLD','AI artificial intelligence OpenAI Anthropic Google DeepMind Microsoft Meta Nvidia'),('WORLD','AI model launch release agent robotics chips regulation safety research'),('WORLD','artificial intelligence breakthrough investment acquisition security AI agents'),('RUSSIA','ИИ искусственный интеллект нейросети Россия Яндекс Сбер VK'),('RUSSIA','ИИ нейросети регулирование закон инвестиции технологии Россия')]
 WEIGHTS={'launch':5,'release':5,'model':4,'agent':5,'breakthrough':7,'research':3,'security':5,'safety':5,'regulation':5,'law':5,'investment':4,'billion':5,'acquisition':5,'chip':4,'gpu':4,'openai':4,'anthropic':4,'google':3,'deepmind':4,'nvidia':4,'microsoft':3,'yandex':4,'sber':4,'закон':6,'регулир':5,'миллиард':5,'запуст':5,'выпуст':5,'агент':5,'модель':4,'нейросет':4,'исследован':3}
@@ -88,6 +89,14 @@ def chat(url,model,token,prompt,provider):
         except Exception as e:last=e;time.sleep(min(2**attempt*3,15))
     raise last or RuntimeError(provider+'_FAILED')
 
+
+def gemini_chat(prompt,token):
+    body=json.dumps({'contents':[{'parts':[{'text':'Ты профессиональный редактор русского Telegram-канала об AI. Всегда отвечай только валидным JSON.\n'+prompt}]}],'generationConfig':{'temperature':0.25,'maxOutputTokens':900,'responseMimeType':'application/json'}}).encode()
+    req=urllib.request.Request(GEMINI_URL+'?key='+urllib.parse.quote(token),data=body,headers={'Content-Type':'application/json'})
+    with urllib.request.urlopen(req,timeout=20) as r:
+        d=json.loads(r.read().decode())
+    return d['candidates'][0]['content']['parts'][0]['text']
+
 def ai(prompt):
     errors=[]
     providers=[('GROQ',GROQ_URL,GROQ_MODEL,os.environ.get('GROQ_API_KEY')),('OPENAI',OPENAI_URL,OPENAI_MODEL,os.environ.get('OPENAI_API_KEY'))]
@@ -105,6 +114,19 @@ def ai(prompt):
         except Exception as ex:
             errors.append(name+': '+str(ex)[:180])
             print('AI_PROVIDER_FAILED',name,str(ex)[:180])
+    g=os.environ.get('GEMINI_API_KEY')
+    if g:
+        try:
+            print('AI_PROVIDER_ATTEMPT','GEMINI')
+            result=gemini_chat(prompt,g)
+            if result and len(result.strip())>20:
+                print('AI_PROVIDER_OK','GEMINI')
+                return result
+            raise RuntimeError('EMPTY_RESPONSE')
+        except Exception as ex:
+            errors.append('GEMINI: '+str(ex)[:180]);print('AI_PROVIDER_FAILED','GEMINI',str(ex)[:180])
+    else:
+        print('GEMINI_SKIPPED_NO_KEY')
     raise RuntimeError('AI_PROVIDERS_UNAVAILABLE | '+' | '.join(errors))
 
 def russian_ok(text):
