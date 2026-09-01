@@ -3,7 +3,8 @@
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788261333,
     "2ef8d948ff8a488b13ada31e923d04bb6b8f4faadc201cf47303658fd94fe12d": 1788261333,
     "90ffca46a5722be4cfc8cc40b173ce59d0d7711acba7eb8074e256ab8a2c60db": 1788261333,
-    "96107b6ce77d04e31cdedc45a326c6d72c4a9d51dcafd0d22f01e60cd9b1bf43": 1788267278
+    "96107b6ce77d04e31cdedc45a326c6d72c4a9d51dcafd0d22f01e60cd9b1bf43": 1788267278,
+    "8c3e9329a7a0fd323c914f33d9b32675bdcc009a2efcd1ae89e700103e071540": 1788270054
   },
   "known": {
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788257231.9162014,
@@ -23,20 +24,10 @@
     "76c3c082186a7ceaf1135ca4bdd19a42181fecad2e0298fc72b34c86e236c382": 1788257658.7178972,
     "2ef8d948ff8a488b13ada31e923d04bb6b8f4faadc201cf47303658fd94fe12d": 1788260726.4261858,
     "9370808855437e5853342cfdee87eb4c0a4462403ad3ed35e3f009238533e408": 1788260726.4261858,
-    "3132fc310f2e84134f09f274fcbcb8ac7400a28abcf8ce440a4f9c63b8bdc9b2": 1788260726.4261858
+    "3132fc310f2e84134f09f274fcbcb8ac7400a28abcf8ce440a4f9c63b8bdc9b2": 1788260726.4261858,
+    "f54f82d45d360e2b1a032d08fa301b430ac7b1e699358673957e83e54697679c": 1788270054.8217483
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Может ли ИИ сам взломать компанию и зачем хакерам автономные агенты - SecurityLab.ru",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1ZllLM0lhRDdZSUs2RWtYWmJkNnlvWlRSZmwzSlIwbEdzOU5ZeF9QOXdfbkd5LVBRTDZiYlRWOXBMTUxvdGN5MGFXNFdIYWIzeENkNXRES0R3UURpZHhFUnlKMUZWS3oxMzJoZUdUR0QtUQ?oc=5",
-      "desc": "Может ли ИИ сам взломать компанию и зачем хакерам автономные агенты SecurityLab.ru",
-      "source": "SecurityLab.ru",
-      "time": 1788245405.0,
-      "score": 10,
-      "key": "8c3e9329a7a0fd323c914f33d9b32675bdcc009a2efcd1ae89e700103e071540",
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Квантовый компьютер в мессенджере, безопасность для корпоративных ИИ-агентов — и ещё 8 российских стартапов. Спецнабор - habr.com",
@@ -127,6 +118,17 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Закон о криптовалюте в России: что изменится с 1 сентября 2026 года - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTS1keE9nYWh5Zmk4ZTZXemxJanc3Q0hUTEZ0THdkd3Frd2lCWWdxWHNRMzRNMnNqSnZ4VTlZYU1oZHRpbzI2elZiSnpJZjhsUkhKbUpFemQ4aEFWWGU5RDNTWllpTF9SN1doclB3c083b291UzRUaXZqUjQtNktvV3MtNWVyME9QRmNMNWFLcWVjOW1IaFp2RUxNV0NpSTFubXRuRTVCNEltcDdQWV9wYWIxcw?oc=5",
+      "desc": "Закон о криптовалюте в России: что изменится с 1 сентября 2026 года prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788228726.0,
+      "score": 6,
+      "key": "f54f82d45d360e2b1a032d08fa301b430ac7b1e699358673957e83e54697679c",
+      "tier": "B"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Как конвейеры телеметрии помогают контролировать расходы на ИИ-агентов - itweek.ru",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fUzBYMlFaUW9VTl95RzVERDFWTHZfM3NJV0cwSnBwdGlza1p5ZUlrOFlDbk5mbzY2RDNGMl9XcEZUakRaVEpYVENieE5zRFVCM1BEeG1uYkViTVBrc3c?oc=5",
       "desc": "Как конвейеры телеметрии помогают контролировать расходы на ИИ-агентов itweek.ru",
@@ -181,13 +183,13 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T12:54:51.641166+00:00",
+  "last_run": "2026-09-01T13:41:09.698331+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788267278.0899343,
+    "last_start_ts": 1788270054.8217483,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788267278.0899343,
+    "last_success_ts": 1788270054.8217483,
     "consecutive_failures": 0
   }
 }
