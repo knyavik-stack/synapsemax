@@ -3,7 +3,8 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
-LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=5; MAX_QUEUE=100; JOKE_RATE=0.80; HEARTBEAT_MAX_SECONDS=900; FAILURE_ALERT_THRESHOLD=3
+LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=5; MAX_QUEUE=100; JOKE_RATE=0.8
+SHOW_QUEUE_COUNT=True  # TEMP_QUEUE_COUNT: remove when Boss requests removal0; HEARTBEAT_MAX_SECONDS=900; FAILURE_ALERT_THRESHOLD=3
 STATE_FILE=os.environ.get('STATE_FILE','data/intily-ai-news-state.json')
 GROQ_MODEL='llama-3.1-8b-instant'; GROQ_URL='https://api.groq.com/openai/v1/chat/completions'
 OPENAI_MODEL='gpt-4o-mini'; OPENAI_URL='https://api.openai.com/v1/chat/completions'
@@ -199,8 +200,12 @@ def main():
     for idx,x in enumerate(q):
         if x.get('score',0)<MIN_SCORE: continue
         try:
-            post=edit(x);telegram(post);s['published'][x['key']]=int(now);published=1
-            remaining.pop(idx);print('PUBLISHED',x['title']);break
+            post=edit(x)
+            # TEMP_QUEUE_COUNT: remove this block when Boss requests removal.
+            queue_after_send=max(0,len(remaining)-1)
+            if SHOW_QUEUE_COUNT: post += f'\n\n\U0001f4ca \u0412 \u043e\u0447\u0435\u0440\u0435\u0434\u0438: {queue_after_send} \u043d\u043e\u0432\u043e\u0441\u0442\u0435\u0439'
+            telegram(post);s['published'][x['key']]=int(now);published=1
+            remaining.pop(idx);print('PUBLISHED',x['title'],'QUEUE_AFTER',queue_after_send);break
         except Exception as e:
             print('ITEM_FAILED',x['title'],str(e)[:240])
             # Keep failed item in durable queue; try it again on a later cycle.
