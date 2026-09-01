@@ -1,7 +1,152 @@
 {
   "published": {},
-  "known": {},
-  "queue": [],
-  "last_run": "2026-09-01T10:06:38.533895+00:00",
+  "known": {
+    "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788257231.9162014,
+    "90ffca46a5722be4cfc8cc40b173ce59d0d7711acba7eb8074e256ab8a2c60db": 1788257231.9162014,
+    "96107b6ce77d04e31cdedc45a326c6d72c4a9d51dcafd0d22f01e60cd9b1bf43": 1788257231.9162014,
+    "8c3e9329a7a0fd323c914f33d9b32675bdcc009a2efcd1ae89e700103e071540": 1788257231.9162014,
+    "771160be410489d81735790d8db12f27a8ea539cfc5a4d2e9acda8b5f775887b": 1788257231.9162014,
+    "98e46600bfedbca911949ba7b5645072cf789731c81c2c4dc5b0bfc850d893cf": 1788257231.9162014,
+    "b4721a6a12e4888bfa5c9a669a22c4ec158357d3fb7ab866eb8c130e48aef4ea": 1788257231.9162014,
+    "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2": 1788257231.9162014,
+    "a3802ab2350492ac1f8e7cf21722d9a6d00aacc60b0f95d9a0b3ba076b25acea": 1788257231.9162014,
+    "223a0dc4cb8781bfee6d3a440a101172308595709d9fddee8dabe96f9498bf15": 1788257231.9162014,
+    "5565a4747b789180198a3ee2c7286818401927145415e99fe0dff3d2449c6a31": 1788257231.9162014,
+    "b29fbc78fa233578d25605131361a88ba10e5b7410dae6d5621f25eb1e2d579a": 1788257231.9162014,
+    "9bb0b1667536ad371a65d5df3813762040af616127ebbb241354e7adb8668f54": 1788257231.9162014
+  },
+  "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Nvidia покупает Hugging Face за 12,9 миллиарда долларов - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR0RMa0tzNDZRdzBINXNkRS1rSnp4dW5LVEhubkUtNk5NVU9HMkhuTDluaTRWWXd2Um9wd1QtUENPb1A4YnAtbmhtQ3pFTHZYVno1Z29BMGozTGhvSFZhdHMwNDVXZXh5VDRQNkVySUU1N2dIMTFLWTRncUsyY29GME9FUEJweDJ0eXJTb0JvRlhrRE1SNGFEdVoxUDQ?oc=5",
+      "desc": "Nvidia покупает Hugging Face за 12,9 миллиарда долларов prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788212326.0,
+      "score": 13,
+      "key": "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "AI-агенты удаляют базы данных за секунды: безопасность не поспевает - Techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5rRVhzZmFJNEVTcmdlLVpOSGZIUWNsS0FSQmU3NlpjMGEycThsaktQUzRxcy0xaWRwMFpsaHpjWnU2VmNsSjVCazBtRkVPa2Q2TUx3dF9CaGUxeUZXakU3NGFPWWRWbnNyNEtCMHFxbGJKNG8?oc=5",
+      "desc": "AI-агенты удаляют базы данных за секунды: безопасность не поспевает Techora.ru",
+      "source": "Techora.ru",
+      "time": 1788255592.0,
+      "score": 12,
+      "key": "90ffca46a5722be4cfc8cc40b173ce59d0d7711acba7eb8074e256ab8a2c60db"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "«ИИ может стать дьяволом»: медиабизнес обсудил в ОП регулирование нейросетей - Ведомости",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUdveG1OYzlpZkVEcm9TT28tdGVRam1HSTRpNU5GWkZQLTIteDZHTVZCWnY1SmVyS0VIWXEzbEhqbEpaTVdCeUZYdnpacWNjM3JVdEJIUXZVbUZ1cm1na0hISk1sNGc0OWVDY2dCN0E0Y1BINmQyeWxaN3kxZG1VWWhNOF9oMGtkeUZYeEdCWU1sYWRkNFE?oc=5",
+      "desc": "«ИИ может стать дьяволом»: медиабизнес обсудил в ОП регулирование нейросетей Ведомости",
+      "source": "Ведомости",
+      "time": 1788184290.0,
+      "score": 11,
+      "key": "96107b6ce77d04e31cdedc45a326c6d72c4a9d51dcafd0d22f01e60cd9b1bf43"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Может ли ИИ сам взломать компанию и зачем хакерам автономные агенты - SecurityLab.ru",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1ZllLM0lhRDdZSUs2RWtYWmJkNnlvWlRSZmwzSlIwbEdzOU5ZeF9QOXdfbkd5LVBRTDZiYlRWOXBMTUxvdGN5MGFXNFdIYWIzeENkNXRES0R3UURpZHhFUnlKMUZWS3oxMzJoZUdUR0QtUQ?oc=5",
+      "desc": "Может ли ИИ сам взломать компанию и зачем хакерам автономные агенты SecurityLab.ru",
+      "source": "SecurityLab.ru",
+      "time": 1788245405.0,
+      "score": 10,
+      "key": "8c3e9329a7a0fd323c914f33d9b32675bdcc009a2efcd1ae89e700103e071540"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Квантовый компьютер в мессенджере, безопасность для корпоративных ИИ-агентов — и ещё 8 российских стартапов. Спецнабор - habr.com",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80OG1sclZ3ZnREOEZmTEN6eGhrdzVDejA5ZS0zeXppZ01NQXdHS3pUUGlaRUhzanlOLUZTc2NDNFRoZlR3eUxRV3REMFRMVWlxTEJ2VkNNWTPSAVhBVV95cUxPNDhtbHJWd2Z0RDhGZkxDenhoa3c1Q3owOWUtM3l6aWdNTUF3R0t6VFBpWkVIc2p5Ti1GU3NjQzRUaGZUd3lMUVd0RDBUTFVpcUxCdlZDTVkz?oc=5",
+      "desc": "Квантовый компьютер в мессенджере, безопасность для корпоративных ИИ-агентов — и ещё 8 российских стартапов. Спецнабор habr.com",
+      "source": "habr.com",
+      "time": 1788241510.0,
+      "score": 10,
+      "key": "771160be410489d81735790d8db12f27a8ea539cfc5a4d2e9acda8b5f775887b"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "OpenClaw обновился до версии 2.0 — запуск ИИ-агентов стал проще, а управлять ими теперь могут сразу несколько человек - Мировое обозрение",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNU0tpekpUajJHN2c1SEg5aG10aVRueHA2RkZqRFl5N1JLeVZfYWVLZ09mSTdVVmRORUl4SzBUQXpFZm9jVjlkYUp2LTE5ektEVERHakl1TnZfNUFBNGx2ZFpsVVpDOWdLU0p4YmpaaWNJLTdudGdzazZaaVk1VDJkcndRSXBXRGI3YUVpeHZtUlBCTFBzMFNISGVRUFRLR2dzSUItbnFjMEVyMFM1MXBoejdXbEdIcTFkZVRVMzlUTS1JYzZRRGdyYkQ4blc0OEQ0N0p0X3lFT0p1TDNkV25WdVN4YmZ2QQ?oc=5",
+      "desc": "OpenClaw обновился до версии 2.0 — запуск ИИ-агентов стал проще, а управлять ими теперь могут сразу несколько человек Мировое обозрение",
+      "source": "Мировое обозрение",
+      "time": 1788218642.0,
+      "score": 10,
+      "key": "98e46600bfedbca911949ba7b5645072cf789731c81c2c4dc5b0bfc850d893cf"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Anthropic представила стандарт подключения ИИ-агентов к реальным устройствам - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSTIwUjJCUTR4bDFJNm1mZmpDaWw4aUxKdW1EM3lDNVJmZll3UnBKel9iX21iRER5cEFiRnIzeEV3elN1ZzBSNUp2bE1tQkpmV2V4QUNNeFBqd05wN3dPN19hU2tQWUlBOWk1dkxXazlucFN4WG41ZHM5b2x2RXZGc1FZRERCb1RCbE54MWFlQTdMU1lENVRLNEw2UjlWS3Jrc00xbXJTamQtcG1UMEEtVTFjS3gtSTlwRXRN?oc=5",
+      "desc": "Anthropic представила стандарт подключения ИИ-агентов к реальным устройствам prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788224021.0,
+      "score": 9,
+      "key": "b4721a6a12e4888bfa5c9a669a22c4ec158357d3fb7ab866eb8c130e48aef4ea"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Гайд по ИИ-агентам: какие бывают, как запустить своего и чем вы рискуете - Rozetked.me",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSmxONmRxRTB2MFF0b3pXNEo3d2VlSl9Fa2d2cWtvZUFGcWF0NmZ4NUp1M2R3Z2tnZTBPQTR6eGs4TklINEJUdnhuSlNlNjNRSkN1NGpkR1EyMWF5dWlPOE1EZm1JbUZvX3d1cmhPWXZneDZJWThnR1ozS0Mtc2F4VU5qYzczN2dfRjVDdkFWN3c3dXpEOEVmemZ0QXhNZTJ5cVdRZ1hJMTRQQQ?oc=5",
+      "desc": "Гайд по ИИ-агентам: какие бывают, как запустить своего и чем вы рискуете Rozetked.me",
+      "source": "Rozetked.me",
+      "time": 1788192000.0,
+      "score": 9,
+      "key": "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Nvidia покупает Hugging Face за $12,9 млрд — почти втрое дороже оценки 2023 года - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdVo3RVcxMVRTY0t0b2JBLXZ0VXN1eEEzbjFxbEJvRi03amZYR04ybFRIZGlnbGQxNWltSXZyUUs0MjFCZlNLWjJvWUVwOFBZbjQ1MmRsM21HRk9abzU3MVlheEU5N000WDFUTWs3bm1ncVdSLTgxS3dHWnYtaFhtb0xPRlZlLV9JYTVnU2Y3akVnajJKUWREU21EOHBmN0lFSUUtQTczNDlSUkVobW5Ha1VZWWNBVXJ3eUt3aA?oc=5",
+      "desc": "Nvidia покупает Hugging Face за $12,9 млрд — почти втрое дороже оценки 2023 года prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788194582.0,
+      "score": 8,
+      "key": "a3802ab2350492ac1f8e7cf21722d9a6d00aacc60b0f95d9a0b3ba076b25acea"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Специальный закон о семейном предпринимательстве будет принят в Российской Федерации - Ведомости",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMG5SRnd1bFVYSzRFdWdCZEgxZFZMLTQxaDFaY1didGdyRXk0cFg3ZXo1eGNzUllrSGc2VHAyQlVqQWRKYUNGN1ZVT3BUbk1ZY1VsbjVjTG1tQjF2NEZJbTM5U3o2Qkp5MDFZTjdxS3EtSTljSGlYYUd5aVFPY0drYVpwVUVmMXZINVRuX2RnQzVJNzJoRk11a0ZMbTBjYVhDZTV4YXBZZkFDNzJWUU5hWThIMkJXd1dib2p4eVp0VEpnTEhBcUpDVlJ4ZnpRZDZBaVE?oc=5",
+      "desc": "Специальный закон о семейном предпринимательстве будет принят в Российской Федерации Ведомости",
+      "source": "Ведомости",
+      "time": 1788190147.0,
+      "score": 8,
+      "key": "223a0dc4cb8781bfee6d3a440a101172308595709d9fddee8dabe96f9498bf15"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Как конвейеры телеметрии помогают контролировать расходы на ИИ-агентов - itweek.ru",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fUzBYMlFaUW9VTl95RzVERDFWTHZfM3NJV0cwSnBwdGlza1p5ZUlrOFlDbk5mbzY2RDNGMl9XcEZUakRaVEpYVENieE5zRFVCM1BEeG1uYkViTVBrc3c?oc=5",
+      "desc": "Как конвейеры телеметрии помогают контролировать расходы на ИИ-агентов itweek.ru",
+      "source": "itweek.ru",
+      "time": 1788247809.0,
+      "score": 5,
+      "key": "5565a4747b789180198a3ee2c7286818401927145415e99fe0dff3d2449c6a31"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "«2ГИС» запустил сервис логистики - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pa1E0MWdQMzQ4MjVNamdtbHplNFhFQjhmNVJEN1ZRVnN1bE9fUlRqME9DOUdyWElxNjdsdWlKYWF6blNRbGEwOEI5dTRPLTFGemg1cl92OUZ5Y3ZoZXczWnh5S216ZHBYRWxaMnA0YnBYYmk4Z3djaEpCaVg?oc=5",
+      "desc": "«2ГИС» запустил сервис логистики prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788215003.0,
+      "score": 5,
+      "key": "b29fbc78fa233578d25605131361a88ba10e5b7410dae6d5621f25eb1e2d579a"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Закон об ИИ, цифровой рубль и самозапрет на азартные игры - realnoevremya.ru",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM241RndaanltMjh6ajdBUXN1dmV0QlBEb3lUaUVjdmU1T1lfaXYzWXNmSndlVnZJbWp4a0gtTzA1cG43ZFY0UkdtdGpBUnpSZlM2djE2RHN1bEdxSld2OV9MdHhmSGFxRUd4cHdMelhpUkhJZ0ZRUmlXdktYTndiWUZtb2x6TEZRVUk0SQ?oc=5",
+      "desc": "Закон об ИИ, цифровой рубль и самозапрет на азартные игры realnoevremya.ru",
+      "source": "realnoevremya.ru",
+      "time": 1788210000.0,
+      "score": 5,
+      "key": "9bb0b1667536ad371a65d5df3813762040af616127ebbb241354e7adb8668f54"
+    }
+  ],
+  "last_run": "2026-09-01T10:07:15.663392+00:00",
   "last_published": 0
 }
