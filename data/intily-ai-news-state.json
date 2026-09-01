@@ -11,7 +11,8 @@
     "98e46600bfedbca911949ba7b5645072cf789731c81c2c4dc5b0bfc850d893cf": 1788278329,
     "b4721a6a12e4888bfa5c9a669a22c4ec158357d3fb7ab866eb8c130e48aef4ea": 1788288322,
     "f54f82d45d360e2b1a032d08fa301b430ac7b1e699358673957e83e54697679c": 1788288507,
-    "5565a4747b789180198a3ee2c7286818401927145415e99fe0dff3d2449c6a31": 1788288621
+    "5565a4747b789180198a3ee2c7286818401927145415e99fe0dff3d2449c6a31": 1788288621,
+    "b29fbc78fa233578d25605131361a88ba10e5b7410dae6d5621f25eb1e2d579a": 1788288927
   },
   "known": {
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788257231.9162014,
@@ -39,17 +40,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "«2ГИС» запустил сервис логистики - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pa1E0MWdQMzQ4MjVNamdtbHplNFhFQjhmNVJEN1ZRVnN1bE9fUlRqME9DOUdyWElxNjdsdWlKYWF6blNRbGEwOEI5dTRPLTFGemg1cl92OUZ5Y3ZoZXczWnh5S216ZHBYRWxaMnA0YnBYYmk4Z3djaEpCaVg?oc=5",
-      "desc": "«2ГИС» запустил сервис логистики prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788215003.0,
-      "score": 5,
-      "key": "b29fbc78fa233578d25605131361a88ba10e5b7410dae6d5621f25eb1e2d579a",
-      "tier": "B"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Закон об ИИ, цифровой рубль и самозапрет на азартные игры - realnoevremya.ru",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM241RndaanltMjh6ajdBUXN1dmV0QlBEb3lUaUVjdmU1T1lfaXYzWXNmSndlVnZJbWp4a0gtTzA1cG43ZFY0UkdtdGpBUnpSZlM2djE2RHN1bEdxSld2OV9MdHhmSGFxRUd4cHdMelhpUkhJZ0ZRUmlXdktYTndiWUZtb2x6TEZRVUk0SQ?oc=5",
       "desc": "Закон об ИИ, цифровой рубль и самозапрет на азартные игры realnoevremya.ru",
@@ -71,20 +61,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T18:50:37.330888+00:00",
+  "last_run": "2026-09-01T18:55:33.036529+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788288621.026602,
+    "last_start_ts": 1788288927.7356641,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788288621.026602,
+    "last_success_ts": 1788288927.7356641,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788288636.8704534
+      "updated_at": 1788288932.4891927
     }
   }
 }
