@@ -15,7 +15,8 @@
     "b29fbc78fa233578d25605131361a88ba10e5b7410dae6d5621f25eb1e2d579a": 1788288927,
     "9bb0b1667536ad371a65d5df3813762040af616127ebbb241354e7adb8668f54": 1788289219,
     "76c3c082186a7ceaf1135ca4bdd19a42181fecad2e0298fc72b34c86e236c382": 1788289526,
-    "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122
+    "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122,
+    "de5a3ea176edf083e58e9f09401b2f40f39ba5ba25dbc486c3651eea571179eb": 1788302421
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -109,20 +110,11 @@
     "1460ed8d54edcdae58641f0625ae10b63ec845909e31b8d522e688637ec11bbc": 1788302122.5477576,
     "09aa9fd5d1a192366f024cf4a7e39a544b7a710d3e903d14b673b615d1d928d0": 1788302122.5477576,
     "feb30aae3ff1a02e2132644067b2ca609c9984336ac52070c10f21c8b8fb0d31": 1788302122.5477576,
-    "b418ff232dd4a541d8f4be41c73e7c7b85a318a9ac048155a11eee557b803d8a": 1788302122.5477576
+    "b418ff232dd4a541d8f4be41c73e7c7b85a318a9ac048155a11eee557b803d8a": 1788302122.5477576,
+    "54b7026565a8824216a9983d48fcde548616119b7d48c191706344961df375e8": 1788302421.326896,
+    "e434f90a293e4663eec66e1dd8bb1a70753ae1e2453faf93321f59f6024682ca": 1788302421.326896
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Cambridge University spinout launches AI model \"competitive\" with OpenAI and Anthropic - Tech.eu",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3RNRDZXbExPTGZObHNUa1FhTV9lakgzMjEwcS05aS1vR2M1QW1ZemRPaGIzbC1DZzltRmZFRWdINEFVa0pkVU1JZml3QWc1SlNDNmpaR09DdnM4a25xWUd0OU9URmY2cHlUd045al9oazd5OEhFelVGTDZNQmpoOW04RnVmWG40MWdiVk9SbW0zNzZjWVFkWHJvRHdGTWhEV2xmTXYwQl9ZTGRsc1J6bWdn?oc=5",
-      "desc": "Cambridge University spinout launches AI model \"competitive\" with OpenAI and Anthropic Tech.eu",
-      "source": "Tech.eu",
-      "time": 1788263002.0,
-      "score": 17,
-      "key": "de5a3ea176edf083e58e9f09401b2f40f39ba5ba25dbc486c3651eea571179eb",
-      "tier": "S"
-    },
     {
       "region": "WORLD",
       "title": "Anthropic R&D Slowdown Shows Need for Heightened AI Agent Security - aibusiness.com",
@@ -440,17 +432,6 @@
       "time": 1788239100.0,
       "score": 9,
       "key": "43d7052712c237d8ab1275ffb7987816ca26195ba828391c801853235dce9b16",
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Artificial intelligence agents going rogue fuel calls for regulation - pbs.org",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSE9hTXBoWmFpN2lXTnlNSWRMYmpJYnV0cWhZcWxVWEVWQmdENkFFVE1QdXh2LXNHRnJwWVlwQk1wQVhNUWFlb29oN0NpaTVNaWhXcUpGVDdVbzFtMFliZ3h1TkRmUDE3R1J1bVhMMmJiM0UtSTNzZmwzLU5nVUtOUkNHaW03aFdzT2ZMZGN4a3lvczRmdGtmaUowVUU5ODFhcUhlcg?oc=5",
-      "desc": "Artificial intelligence agents going rogue fuel calls for regulation pbs.org",
-      "source": "pbs.org",
-      "time": 1788216011.0,
-      "score": 9,
-      "key": "e440815e67c105708a135eccd639e5828229b40feef24fa55aeb08004dfd3f2f",
       "tier": "A"
     },
     {
@@ -917,6 +898,17 @@
     },
     {
       "region": "WORLD",
+      "title": "DataAgent Emerges From Stealth With $10M Pre-Seed to Build Self-Healing Cloud Infrastructure - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYUhxVVhUbmVZQmt2TlFSbXZyU3BlVUlvR0d1V3BTZGU3RDFmTHotb1Vxel94eF82d0RJNzV5d3BmUjRCdWRtRVRfSkxJS3FZYmlfRUJwd25Venc4UzZkN0xDSDk3cC1hdFhjWk1jLWszb2h2U19ROEthNXJ1a3NBTmZPbUdTaUp3UXYwVUcya0dfLU5yQkI1NXNLdTk4bmsxR3FvX3FxaUJ1b2J6aHlEN19Raw?oc=5",
+      "desc": "DataAgent Emerges From Stealth With $10M Pre-Seed to Build Self-Healing Cloud Infrastructure Unite.AI",
+      "source": "Unite.AI",
+      "time": 1788280492.0,
+      "score": 5,
+      "key": "54b7026565a8824216a9983d48fcde548616119b7d48c191706344961df375e8",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "Vanguard-bound Altruist expands AI platform with financial planning agent By Investing.com - Investing.com South Africa",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOazB3UzlkNUR4NGFPTkRZeEZDYWx5ZHNhdnExdnFLZVBQQXgwTWF5X05ydU9XR2ZnQkE1b0FoYUFVTVRGSkxrOTk1RFpjQnNpSkRVeWpMekwyRlpLbmF2OTg2aW1FVVdoeXRydHZwSlk3QXVuYUFrRHc1T3N1V25fcnFVbWNoaklZN1hDU2d4WW00RzQ3MjVCT0luMDZLSjM1bHBiaGVYU0VWYk83dDJKeXpYU1hmRThUSy1Ka2JsVW5IWWtSMFJB?oc=5",
       "desc": "Vanguard-bound Altruist expands AI platform with financial planning agent By Investing.com Investing.com South Africa",
@@ -1112,22 +1104,33 @@
       "score": 5,
       "key": "b418ff232dd4a541d8f4be41c73e7c7b85a318a9ac048155a11eee557b803d8a",
       "tier": "B"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Какие изменения в законах ждут ивановцев с сентября 2026: финансы, пенсии, ипотека - Известно.ру",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVGhMaGowZUl4bVBKVk5JaHEyeF81TWhSVV9tNjVNbE44Z3hGZHpva3M2MVZaYkluVlZiakFOQVphTDIyZk81UEIwb0xPVjV2dlE0T1pJV0I2WWFYLTdkYjNwNWI3WXF1S0QtbHVnMnd2OVlqdWdtVV81ajB0UFJtcktFVl9oeTFpQlJ3eVlaUGFrRmotTEhsRG1vLThiWWg0c1pQdEFtZlhRWkpDMUFwUXUyMFRMOW0ybFBJ?oc=5",
+      "desc": "Какие изменения в законах ждут ивановцев с сентября 2026: финансы, пенсии, ипотека Известно.ру",
+      "source": "Известно.ру",
+      "time": 1788249743.0,
+      "score": 5,
+      "key": "e434f90a293e4663eec66e1dd8bb1a70753ae1e2453faf93321f59f6024682ca",
+      "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T22:35:37.463596+00:00",
+  "last_run": "2026-09-01T22:40:33.581461+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788302122.5477576,
+    "last_start_ts": 1788302421.326896,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788302122.5477576,
+    "last_success_ts": 1788302421.326896,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788302137.140436
+      "updated_at": 1788302433.2072532
     }
   },
   "stories": {
@@ -1136,6 +1139,13 @@
       "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work - The Verge",
       "desc": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work The Verge",
       "source": "The Verge",
+      "region": "WORLD"
+    },
+    "de5a3ea176edf083e58e9f09401b2f40f39ba5ba25dbc486c3651eea571179eb": {
+      "time": 1788302421,
+      "title": "Cambridge University spinout launches AI model \"competitive\" with OpenAI and Anthropic - Tech.eu",
+      "desc": "Cambridge University spinout launches AI model \"competitive\" with OpenAI and Anthropic Tech.eu",
+      "source": "Tech.eu",
       "region": "WORLD"
     }
   }
