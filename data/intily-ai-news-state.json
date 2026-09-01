@@ -18,7 +18,8 @@
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122,
     "de5a3ea176edf083e58e9f09401b2f40f39ba5ba25dbc486c3651eea571179eb": 1788302421,
     "c967643c51fec634f2096cd4e57172caaf46b5c64d5abdb1f6fe1f7d597fc15b": 1788303023,
-    "046dff280ec97855744ebf1c24b7c69233cf2f7f73d32a3d695166f2a270759d": 1788303321
+    "046dff280ec97855744ebf1c24b7c69233cf2f7f73d32a3d695166f2a270759d": 1788303321,
+    "8bdeb54b16b6c162ad8ef0fa5581dc9fde654e35975980a2367280ccdddece15": 1788303620
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -131,20 +132,12 @@
     "dc8834ecbcb953692ba996f4e3e3b01d83c7273cf340a85cdc431b82845a3581": 1788303023.3840215,
     "f7130163cb266753467cdac9588b9086ec84bb30231454e7a5aa3a2c237bc4b5": 1788303023.3840215,
     "872a25241637ee9ae469654a2368cd980a681557961f1c5f80eca6f4c6fba39e": 1788303321.526575,
-    "e233e8bec130c6605369a5f479f2797099b847bd959a6bf70e8a72586941f2f8": 1788303321.526575
+    "e233e8bec130c6605369a5f479f2797099b847bd959a6bf70e8a72586941f2f8": 1788303321.526575,
+    "fddc17a362f708c5a794524ae120e7c8954214b54cee120213fabbceee3d71a5": 1788303620.9081814,
+    "9d75b0179b356069a9f23c56d41c793291ae39246d71213a68f248e15e55d0bc": 1788303620.9081814,
+    "3f6c029db420591d3b5b3893dd0ab074917489328cdea90538008be826876624": 1788303620.9081814
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "OpenAI to launch new model with ‘stronger safeguards’ after hack - BNN Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVzFzQzg3a0F2eEZxa2g5STFGM3JxXzhLMzYxSWdWdHhWaEVSTFRDRk9hZGxoZ0tJckFKWlB0V2djNEl0aXJ6ZlhNelViQTR2VDZYQUxsT25rLUVXVnkxUmN2SVZEejNtc1JkTHNySFRWUGd3UVA0aXlJck9FNWlmcVFVX2ZVMUFzNFhZUno1a2d0d0dsZ05JZG13ZW11SzM3dGRjbWphTnRQcWVoaUpSM3EtZGdFeGNIbzdFZk5zY0czWXpNckZicHdCb3ZNOWVp?oc=5",
-      "desc": "OpenAI to launch new model with ‘stronger safeguards’ after hack BNN Bloomberg",
-      "source": "BNN Bloomberg",
-      "time": 1788297511.0,
-      "score": 15,
-      "key": "8bdeb54b16b6c162ad8ef0fa5581dc9fde654e35975980a2367280ccdddece15",
-      "tier": "S"
-    },
     {
       "region": "WORLD",
       "title": "Anthropic signs $35 billion cloud deal with Nvidia-backed Lambda, source says - Reuters",
@@ -319,6 +312,17 @@
       "time": 1788294928.0,
       "score": 10,
       "key": "146e9fcd480ad693fc861ccc854d5475a79f2220b8914a06547ddee5979fe013",
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Agents Are a Cybersecurity Nightmare That’s Only Just Begun - CNET",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTWlKYTFfcFJnSlJtLUoxby1PQVNHZ2paR09DMzFjb1lyZzVsd2cxUVhtX3NzX0pyY0QtVWIzMXE1MWo4a3pSVzJPRWxCTnVDNGszM1hrVmpOdGo0Tm9jUlc4RDdDcFZoZTNhRGlHMGo0cW5vNVNJLWlTX2lEalNPaWE5MUZ3UkdBYjdUVDNGR0RaS3dkMy01YlJzQXN6ZENVVHRZTXZKQWl2LThnLWk4?oc=5",
+      "desc": "AI Agents Are a Cybersecurity Nightmare That’s Only Just Begun CNET",
+      "source": "CNET",
+      "time": 1788291660.0,
+      "score": 10,
+      "key": "fddc17a362f708c5a794524ae120e7c8954214b54cee120213fabbceee3d71a5",
       "tier": "A"
     },
     {
@@ -785,6 +789,17 @@
     },
     {
       "region": "WORLD",
+      "title": "Google Deepmind's new chief says frontier AI leadership is the only thing that matters - the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcDhIaDBVa1pOLU9CYXBhc3VaTXBhWHhzRlpCS3VnVm1ndHJ5cGdHbzA3Wk45U2VzZFNWNVFuSUNhVmM1MXZvaE9CdVpoVWV6YVR4aE5ZYkllZHUyQzYtYlRmcm9jUTVFcXlBa0prRUJRenNkWnJCa1R6T1RqZjZhZnFWS3QtYjhKVVVjdDMtV29WNHhzc2l2bGVDVkJxY1FscWpuajFWWnp2T3IwamJr?oc=5",
+      "desc": "Google Deepmind's new chief says frontier AI leadership is the only thing that matters the-decoder.com",
+      "source": "the-decoder.com",
+      "time": 1788281708.0,
+      "score": 7,
+      "key": "9d75b0179b356069a9f23c56d41c793291ae39246d71213a68f248e15e55d0bc",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "WellWithAll Announces Judges for $1 Million Prize Competition to Accelerate Breakthrough AI-Powered Health Solutions - PR Newswire",
       "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQY0t6NmI2Q2Q4TGdBbXBETW9TYzV0U0lQSjJTTHBFLXl4V0FMeVZwVWUwR044R2Y3bkRnTlVKOTVQRkJsM3FsVzN3cDBlVUVEY25zcGlvTEdOVTdmdWFuVTkzaFh6QjRORE05NVlzLW5nN3B3YTBvSUtPcTlxR0ZJQThQalE1cVVJT3hRWFNjVWJNTlF3aHRfMkJHZENTODhVQjlHaUQxbGNhZmcwOGVHcDY0VU54RS1XVGc3MDdGak85YjRKMzdSc1NveEZ5Y0JOT3VsQndXdzI2S3k2N1dzTHhKdTRkS2VNN2VyS293YVIzNzU4cEE4NVRNODJfblBQ?oc=5",
       "desc": "WellWithAll Announces Judges for $1 Million Prize Competition to Accelerate Breakthrough AI-Powered Health Solutions PR Newswire",
@@ -1222,33 +1237,22 @@
       "score": 5,
       "key": "4f4e5625ce6491866b024ccbd60a1d87c48c4dccdbab47d45047cb57c7c4eb31",
       "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "EU Hits ChatGPT With Toughest Digital Safety Rules - TechJuice",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE85b3ZRcXN6QUV0NjlYR2JqUmZpUTgwQlZHZGIzVmtvYXcycWN4RzFXVFdUZV9qWF9pOW9KYnY2amU1c3ZESHNfU25XcklMU3Q0RlhqQ3ZQSld4LW1wUDYyN0RQWjhmRHFEa1pB?oc=5",
-      "desc": "EU Hits ChatGPT With Toughest Digital Safety Rules TechJuice",
-      "source": "TechJuice",
-      "time": 1788263192.0,
-      "score": 5,
-      "key": "1460ed8d54edcdae58641f0625ae10b63ec845909e31b8d522e688637ec11bbc",
-      "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T22:55:33.195426+00:00",
+  "last_run": "2026-09-01T23:00:36.122385+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788303321.526575,
+    "last_start_ts": 1788303620.9081814,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788303321.526575,
+    "last_success_ts": 1788303620.9081814,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788303332.7564297
+      "updated_at": 1788303635.693599
     }
   },
   "stories": {
@@ -1278,6 +1282,13 @@
       "title": "Anthropic Claude Fable 5.1 Launch September 2026: New AI Model vs Fable 5, Smarter Coding & Research, Lower Costs; Check Features, Pricing & Mythos 5.1 - The Sunday Guardian",
       "desc": "Anthropic Claude Fable 5.1 Launch September 2026: New AI Model vs Fable 5, Smarter Coding & Research, Lower Costs; Check Features, Pricing & Mythos 5.1 The Sunday Guardian",
       "source": "The Sunday Guardian",
+      "region": "WORLD"
+    },
+    "8bdeb54b16b6c162ad8ef0fa5581dc9fde654e35975980a2367280ccdddece15": {
+      "time": 1788303620,
+      "title": "OpenAI to launch new model with ‘stronger safeguards’ after hack - BNN Bloomberg",
+      "desc": "OpenAI to launch new model with ‘stronger safeguards’ after hack BNN Bloomberg",
+      "source": "BNN Bloomberg",
       "region": "WORLD"
     }
   }
