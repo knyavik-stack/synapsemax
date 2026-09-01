@@ -15,7 +15,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 5
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,77 +28,143 @@ jobs:
           TELEGRAM_CHAT_ID: '@intilyshop'
         run: |
           python3 - <<'PY'
-          import hashlib, html, json, os, re, subprocess, sys, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+          import hashlib, html, json, os, re, subprocess, sys, time
+          import urllib.parse, urllib.request, xml.etree.ElementTree as ET
+          from datetime import datetime, timezone, timedelta
+
           STATE='data/intily-ai-news-state.json'
           os.makedirs('data', exist_ok=True)
           try:
-              with open(STATE,encoding='utf-8') as f: state=json.load(f)
-          except Exception: state={'published':[]}
-          published=set(state.get('published',[])); candidates=[]
+              with open(STATE, encoding='utf-8') as f: state=json.load(f)
+          except Exception:
+              state={'published':[]}
+          published=set(state.get('published',[]))
+
+          def get(url, timeout=20):
+              req=urllib.request.Request(url, headers={'User-Agent':'IntilyAI-NewsBot/2.0'})
+              with urllib.request.urlopen(req, timeout=timeout) as r: return r.read()
 
           def translate(text):
               text=re.sub(r'\s+',' ',text or '').strip()
               if not text: return ''
-              # Google Translate's public web endpoint is used only as a translation layer; editorial wording is handled below.
               try:
-                  q=urllib.parse.urlencode({'client':'gtx','sl':'auto','tl':'ru','dt':'t','q':text[:1800]})
-                  data=json.loads(urllib.request.urlopen('https://translate.googleapis.com/translate_a/single?'+q,timeout=15).read())
-                  return ''.join(x[0] for x in data[0] if x and x[0]).strip()
+                  q=urllib.parse.urlencode({'client':'gtx','sl':'auto','tl':'ru','dt':'t','q':text[:4500]})
+                  data=json.loads(get('https://translate.googleapis.com/translate_a/single?'+q,15).decode('utf-8'))
+                  out=''.join(x[0] for x in data[0] if x and x[0])
+                  return out.strip() or text
               except Exception:
                   return text
 
-          def clean_human(text):
-              text=re.sub(r'\s+',' ',text).strip()
-              text=re.sub(r'\b(по словам компании|согласно сообщению|как сообщается)\b', '', text, flags=re.I)
-              text=re.sub(r'\b(является важным шагом|важная веха|революционный|беспрецедентный)\b', '', text, flags=re.I)
-              return re.sub(r'\s{2,}',' ',text).strip(' .—-')
+          def clean_ru(text):
+              text=re.sub(r'\s+',' ',text or '').strip()
+              text=re.sub(r'\b(согласно|отмечается|в свою очередь|таким образом),?\s*','',text,flags=re.I)
+              return text.strip(' .—-')
 
-          for region,q in [('WORLD','AI artificial intelligence OpenAI Anthropic Google DeepMind NVIDIA Meta Microsoft'),('RUSSIA','ИИ искусственный интеллект нейросети Яндекс Сбер VK МТС')]:
-              url='https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':q,'hl':'ru-RU' if region=='RUSSIA' else 'en-US','gl':'RU' if region=='RUSSIA' else 'US','ceid':'RU:ru' if region=='RUSSIA' else 'US:en'})
-              try: root=ET.fromstring(urllib.request.urlopen(url,timeout=15).read())
-              except Exception as e: print('feed error',region,e); continue
-              for item in root.findall('./channel/item')[:20]:
-                  title=(item.findtext('title') or '').strip(); link=(item.findtext('link') or '').strip(); desc=html.unescape(re.sub('<[^>]+>',' ',item.findtext('description') or '')).strip(); pub=(item.findtext('pubDate') or '').strip(); src=item.find('source'); source=(src.text or '').strip() if src is not None else ''
-                  if not title or not link: continue
-                  key=hashlib.sha256((re.sub(r'\W+',' ',title.lower())+'|'+link.split('&')[0]).encode()).hexdigest()
-                  if key in published: continue
-                  text=(title+' '+desc).lower(); score=0
-                  for term,pts in [('launch',5),('released',5),('release',4),('model',3),('gpt',4),('claude',4),('gemini',4),('openai',4),('anthropic',4),('deepmind',4),('nvidia',4),('billion',4),('regulation',4),('law',4),('закон',5),('регулир',5),('млрд',4),('модель',3),('нейросет',3),('инвести',4),('сделк',4),('исследован',3),('research',3),('security',4),('безопасн',4),('agent',4),('агент',4),('breakthrough',5),('прорыв',5)]:
-                      if term in text: score+=pts
-                  if source.lower() in {'reuters','associated press','the verge','techcrunch','bloomberg','financial times'}: score+=3
-                  if region=='RUSSIA' and any(x in text for x in ['россия','рф','россий','яндекс','сбер','vk ','мтс']): score+=3
-                  candidates.append({'region':region,'title':title,'link':link,'desc':desc,'pub':pub,'source':source,'key':key,'score':score})
+          def parse_dt(value):
+              if not value: return None
+              try:
+                  from email.utils import parsedate_to_datetime
+                  d=parsedate_to_datetime(value)
+                  return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+              except Exception: return None
 
-          if not candidates: print('No new candidates'); sys.exit(0)
-          candidates.sort(key=lambda x:(x['score'],x['pub']),reverse=True); item=candidates[0]
-          if item['score']<5: print('No sufficiently important new AI news; top score:',item['score']); sys.exit(0)
+          now=datetime.now(timezone.utc)
+          cutoff=now-timedelta(hours=24)
+          candidates=[]
+          queries=[
+            ('WORLD','AI artificial intelligence OpenAI Anthropic Google DeepMind Microsoft Meta Nvidia'),
+            ('WORLD','AI model launch release agent robotics chips regulation safety'),
+            ('RUSSIA','ИИ искусственный интеллект нейросети Россия Яндекс Сбер VK'),
+            ('RUSSIA','ИИ нейросети регулирование технологии инвестиции разработка Россия')
+          ]
 
-          ru_title=clean_human(translate(item['title']))
-          ru_desc=clean_human(translate(item['desc']))
-          if len(ru_desc)>650: ru_desc=ru_desc[:650].rsplit(' ',1)[0]+'…'
-          flag='🌍' if item['region']=='WORLD' else '🇷🇺'
-          # Editorial conclusion is deliberately short and concrete, based on the type of event detected.
-          low=(item['title']+' '+item['desc']).lower()
-          if any(x in low for x in ['launch','released','release','model','gpt','claude','gemini','модель','релиз','запуст']): conclusion='Если это решение действительно работает так, как заявлено, следующий вопрос — кто первым превратит его в массовый продукт.'
-          elif any(x in low for x in ['regulation','law','закон','регулир']): conclusion='Вывод: правила игры для AI становятся жёстче. Для компаний это уже не теория, а прямые требования к продуктам и процессам.'
-          elif any(x in low for x in ['billion','investment','funding','инвести','млрд','сделк']): conclusion='Вывод: деньги идут туда, где рынок видит реальный коммерческий потенциал. Конкуренция за AI-инфраструктуру только усиливается.'
-          elif any(x in low for x in ['security','безопасн','agent','агент']): conclusion='Вывод: чем самостоятельнее становятся AI-системы, тем важнее контроль, безопасность и понятные границы их действий.'
-          else: conclusion='Вывод: событие стоит отслеживать — оно может повлиять на рынок AI, продукты или правила работы с технологиями.'
+          for region,q in queries:
+              for start in (0,10,20,30):
+                  params={'q':q,'hl':'ru-RU','gl':'RU' if region=='RUSSIA' else 'US','ceid':'RU:ru' if region=='RUSSIA' else 'US:en'}
+                  url='https://news.google.com/rss/search?'+urllib.parse.urlencode(params)+'&when=1d&start='+str(start)
+                  try: root=ET.fromstring(get(url,20))
+                  except Exception as e:
+                      print('feed error',region,start,e); continue
+                  items=root.findall('./channel/item')
+                  if not items: break
+                  for it in items:
+                      title=(it.findtext('title') or '').strip()
+                      link=(it.findtext('link') or '').strip()
+                      desc=html.unescape(re.sub(r'<[^>]+>',' ',it.findtext('description') or '')).strip()
+                      pub=it.findtext('pubDate') or ''
+                      dt=parse_dt(pub)
+                      if not title or not link or not dt or dt < cutoff: continue
+                      source_el=it.find('source'); source=(source_el.text or '').strip() if source_el is not None else ''
+                      key=hashlib.sha256((re.sub(r'\W+',' ',title.lower())+'|'+link.split('&')[0]).encode()).hexdigest()
+                      if key in published: continue
+                      blob=(title+' '+desc+' '+source).lower()
+                      score=0
+                      weights=[('launch',6),('released',5),('release',5),('model',4),('agent',5),('breakthrough',7),('research',3),('security',5),('safety',5),('regulation',5),('law',5),('investment',4),('billion',5),('acquisition',5),('chip',4),('gpu',4),('openai',4),('anthropic',4),('google',3),('deepmind',4),('nvidia',4),('microsoft',3),('yandex',4),('sber',4),('сбер',4),('яндекс',4),('закон',6),('регулир',5),('миллиард',5),('запуст',5),('выпуст',5),('агент',5),('модель',4),('нейросет',4),('исследован',3)]
+                      for term,pts in weights:
+                          if term in blob: score+=pts
+                      if source.lower() in {'reuters','associated press','the verge','techcrunch','bloomberg','financial times','tass','interfax','рбк','коммерсантъ'}: score+=3
+                      age_hours=max(0,(now-dt).total_seconds()/3600)
+                      if age_hours <= 2: score+=2
+                      if age_hours > 12: score-=1
+                      candidates.append({'region':region,'title':title,'desc':desc,'link':link,'source':source,'pub':dt.isoformat(),'key':key,'score':score})
 
-          humor=''
-          if item['score']>=9 and any(x in low for x in ['launch','released','release','gpt','claude','gemini','модель','релиз']): humor='\n\n🙂 Похоже, гонка AI снова ускорилась. Передышку отменяем.'
-          msg=(f"{flag} <b>{html.escape(ru_title or item['title'])}</b>\n\n"
-               f"{html.escape(ru_desc or translate(item['desc'])[:650])}\n\n"
-               f"<b>Что это значит:</b> {html.escape(conclusion)}{html.escape(humor)}\n\n"
-               f"📰 {html.escape(item['source'] or 'Источник')}\n"
-               f"🔗 <a href=\"{html.escape(item['link'], quote=True)}\">Подробнее</a>")
-          payload=json.dumps({'chat_id':os.environ['TELEGRAM_CHAT_ID'],'text':msg,'parse_mode':'HTML','disable_web_page_preview':True}).encode()
-          req=urllib.request.Request('https://api.telegram.org/bot'+os.environ['TELEGRAM_BOT_TOKEN']+'/sendMessage',data=payload,headers={'Content-Type':'application/json'})
-          response=json.loads(urllib.request.urlopen(req,timeout=20).read())
-          if not response.get('ok'): raise SystemExit('Telegram error: '+json.dumps(response,ensure_ascii=False))
-          print('Published:',ru_title or item['title'])
-          published.add(item['key']); state['published']=list(published)[-500:]
+          candidates.sort(key=lambda x:(x['score'],x['pub']),reverse=True)
+          unique=[]; seen_titles=[]
+          for c in candidates:
+              norm=re.sub(r'[^a-zа-я0-9]+',' ',c['title'].lower()).strip()
+              if any(norm==s or (len(norm)>35 and (norm in s or s in norm)) for s in seen_titles): continue
+              seen_titles.append(norm); unique.append(c)
+
+          important=[c for c in unique if c['score']>=8]
+          batch=important[:5]
+          if not batch:
+              print('No important unseen AI news in rolling 24h window')
+              sys.exit(0)
+
+          def conclusion(c):
+              b=(c['title']+' '+c['desc']).lower()
+              if any(x in b for x in ['launch','released','release','model','выпуст','запуст','модель']): return 'Вывод: технология вышла на новый этап, поэтому её влияние стоит оценивать не по громкости анонса, а по тому, что теперь реально смогут делать пользователи и компании.'
+              if any(x in b for x in ['regulation','law','закон','регулир']): return 'Вывод: правила игры для AI становятся жёстче. Для компаний это означает дополнительные требования к продуктам, данным и процессам.'
+              if any(x in b for x in ['investment','billion','инвестиц','миллиард']): return 'Вывод: деньги продолжают идти в AI, а значит конкуренция за вычисления, модели и талант будет только усиливаться.'
+              if any(x in b for x in ['security','safety','безопас','агент']): return 'Вывод: чем самостоятельнее становятся AI-системы, тем важнее контроль, безопасность и понятные границы их действий.'
+              return 'Вывод: событие показывает, куда сейчас движется AI-рынок и какие технологии могут стать значимыми уже в ближайшее время.'
+
+          def send(c):
+              ru_title=clean_ru(translate(c['title']))
+              ru_desc=clean_ru(translate(c['desc']))
+              if not ru_desc: ru_desc='Подробности события и его последствия раскрыты в материале источника.'
+              if len(ru_desc)>900: ru_desc=ru_desc[:900].rsplit(' ',1)[0]+'…'
+              flag='🌍' if c['region']=='WORLD' else '🇷🇺'
+              joke=''
+              if c['score']>=12 and any(x in (c['title']+' '+c['desc']).lower() for x in ['launch','released','выпуст','запуст']): joke='\n\n😏 Похоже, AI снова решил не ждать понедельника.'
+              msg=(f'{flag} <b>{html.escape(ru_title)}</b>\n\n'
+                   f'{html.escape(ru_desc)}\n\n'
+                   f'<b>Что это значит:</b> {html.escape(conclusion(c))}'
+                   f'{joke}\n\n'
+                   f'📰 {html.escape(c["source"] or "Источник")} · {c["pub"][:16].replace("T"," ")} UTC\n'
+                   f'🔗 <a href="{html.escape(c["link"], quote=True)}">Подробнее</a>')
+              payload=json.dumps({'chat_id':os.environ['TELEGRAM_CHAT_ID'],'text':msg,'parse_mode':'HTML','disable_web_page_preview':True}).encode()
+              req=urllib.request.Request('https://api.telegram.org/bot'+os.environ['TELEGRAM_BOT_TOKEN']+'/sendMessage',data=payload,headers={'Content-Type':'application/json'})
+              with urllib.request.urlopen(req,timeout=20) as r: data=json.loads(r.read().decode())
+              if not data.get('ok'): raise RuntimeError(data)
+              return ru_title
+
+          for c in batch:
+              try:
+                  print('Publishing:',c['title'],'score=',c['score'],'published=',c['pub'])
+                  print('RU:',send(c))
+                  published.add(c['key'])
+                  time.sleep(2)
+              except Exception as e:
+                  print('publish error',e)
+                  break
+
+          state['published']=list(published)[-1000:]
           with open(STATE,'w',encoding='utf-8') as f: json.dump(state,f,ensure_ascii=False,indent=2)
-          subprocess.run(['git','config','user.name','github-actions[bot]'],check=True); subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],check=True); subprocess.run(['git','add',STATE],check=True)
-          if os.system('git diff --cached --quiet') != 0: subprocess.run(['git','commit','-m','chore(automation): update AI news dedup state'],check=True); subprocess.run(['git','push'],check=True)
+          subprocess.run(['git','config','user.name','github-actions[bot]'],check=True)
+          subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],check=True)
+          subprocess.run(['git','add',STATE],check=True)
+          if subprocess.run(['git','diff','--cached','--quiet']).returncode!=0:
+              subprocess.run(['git','commit','-m','chore(automation): update Intily AI news dedup state'],check=True)
+              subprocess.run(['git','push'],check=True)
           PY
