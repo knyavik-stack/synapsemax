@@ -17,7 +17,8 @@
     "76c3c082186a7ceaf1135ca4bdd19a42181fecad2e0298fc72b34c86e236c382": 1788289526,
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122,
     "de5a3ea176edf083e58e9f09401b2f40f39ba5ba25dbc486c3651eea571179eb": 1788302421,
-    "c967643c51fec634f2096cd4e57172caaf46b5c64d5abdb1f6fe1f7d597fc15b": 1788303023
+    "c967643c51fec634f2096cd4e57172caaf46b5c64d5abdb1f6fe1f7d597fc15b": 1788303023,
+    "046dff280ec97855744ebf1c24b7c69233cf2f7f73d32a3d695166f2a270759d": 1788303321
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -128,20 +129,11 @@
     "f2950ff6f9b9f497ba4dd556cea1441eae58c046f437c4e3ec29143b0e6da47e": 1788303023.3840215,
     "3c9517ce35a08713f9ac894a69669a23eae11b99b9ccc92077803b887e6c0d43": 1788303023.3840215,
     "dc8834ecbcb953692ba996f4e3e3b01d83c7273cf340a85cdc431b82845a3581": 1788303023.3840215,
-    "f7130163cb266753467cdac9588b9086ec84bb30231454e7a5aa3a2c237bc4b5": 1788303023.3840215
+    "f7130163cb266753467cdac9588b9086ec84bb30231454e7a5aa3a2c237bc4b5": 1788303023.3840215,
+    "872a25241637ee9ae469654a2368cd980a681557961f1c5f80eca6f4c6fba39e": 1788303321.526575,
+    "e233e8bec130c6605369a5f479f2797099b847bd959a6bf70e8a72586941f2f8": 1788303321.526575
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Anthropic Claude Fable 5.1 Launch September 2026: New AI Model vs Fable 5, Smarter Coding & Research, Lower Costs; Check Features, Pricing & Mythos 5.1 - The Sunday Guardian",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOQ1djTThKbEJjMkJwR0ttMDF1UlUzLVpIT21kam04aktfZlZrRDJBYUJwS192RGh1Mkd4bHNIMGtIYkJKT2FIeC1JanlkWllOdUF3X3dIWG5md2JMbDdWd2ZNeUZob29LeUxQaHpuRkVQMjBCUFc0X2tnMllVV09oOUsxUGVaMFJYZm5SWGd6Q0J4dVZ4RncyQllmZV9CbkpMODVWQWd6cU8tTWY5cjJoejFaT1JRdFo2dDN5eDdQY25pWDV2TTJ0OVMxOVV2UTlUUFl1R1VOTDV6V3hlemkxbEhYOXE2aXk1c2V0WDAtV0owNUUtalk1OXRPZmxiTmtkZFE3N1FaQVhWNzEwcG1QZXF1MEJrRzd1ZTdDa0p30gGeAkFVX3lxTE5DV2NNOEpsQmMyQnBHS20wMXVSVTMtWkhPbWRqbThqS19mVmtEMkFhQnBLX3ZEaHUyR3hsc0gwa0hiQkpPYUh4LUlqeWRaWU51QXdfd0hYbmZ3YkxsN1Z3Zk15Rmhvb0t5TFBoem5GRVAyMEJQVzRfa2cyWVVXT2g5SzFQZVowUlhmblJYZ3pDQnh1VnhGdzJCWWZlX0JuSkw4NVZBZ3pxTy1NZjlyMmh6MVpPUlF0WjZ0M3l4N1BjbmlYNXZNMnQ5UzE5VXZROVRQWXVHVU5MNXpXeGV6aTFsSFg5cTZpeTVzZXRYMC1XSjA1RS1qWTU5dE9mbGJOa2RkUTc3UVpBWFY3MTBwbVBlcXUwQmtHN3VlN0NrSnc?oc=5",
-      "desc": "Anthropic Claude Fable 5.1 Launch September 2026: New AI Model vs Fable 5, Smarter Coding & Research, Lower Costs; Check Features, Pricing & Mythos 5.1 The Sunday Guardian",
-      "source": "The Sunday Guardian",
-      "time": 1788288828.0,
-      "score": 16,
-      "key": "046dff280ec97855744ebf1c24b7c69233cf2f7f73d32a3d695166f2a270759d",
-      "tier": "S"
-    },
     {
       "region": "WORLD",
       "title": "OpenAI to launch new model with ‘stronger safeguards’ after hack - BNN Bloomberg",
@@ -969,6 +961,17 @@
     },
     {
       "region": "WORLD",
+      "title": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape - Epstein Becker Green",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRjZuaU9aTk5pbDgxYkNIaFI5ZHdDbnlSZDEyX3hpVklrVDFwV0hLcEE4cjh2ZjFVUUY4RXZtVDN3eHd6YUN1aEQ3SXJhMWtlTzIwdUdsUnpWWksxOTlBNU4wY0dvbTJlQjlTeUtCS3JkX3VFMjJPYzZlR18tV3NUWHRkQl8xUDN3NnJVMzlPeExpdVppRWIyUHJOR2hGa0YteFA2OVJFMGl5dnYzaGhrZm84ZUJ3U3JPZWhqOHNrTWsyMC1GeS02RWlrYnU?oc=5",
+      "desc": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape Epstein Becker Green",
+      "source": "Epstein Becker Green",
+      "time": 1788296060.0,
+      "score": 5,
+      "key": "872a25241637ee9ae469654a2368cd980a681557961f1c5f80eca6f4c6fba39e",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "Colorado’s Revamped AI Law Charts a New Course, Reaching Both Developers and Deployers Alike - The National Law Review",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU09WM2NWdzVVaVVPdF9ycDVDTEpoZmhiSm9FNUFxaXhsTC1ZRTh5cXEtNVBybjhaanV4ekZJdVdQQTI0d1hLZjBwLTVvUDZCVFZsM1JTS0lYSlJfZHcwOFp2QTZUVzFaS2pKT2Q1QkozUDhfTVl4bkMyejhGd0pNQ0xucnB5cV9iTXBBUEVWRnI5Q2M1bFllck9OeW9vaHJZeHJRQkMzbTJzVGJZWkN6bVZreEtCOVZpTG5Z0gG7AUFVX3lxTFBTT1YzY1Z3NVVpVU90X3JwNUNMSmhmaGJKb0U1QXFpeGxMLVlFOHlxcS01UHJuOFpqdXh6Rkl1V1BBMjR3WEtmMHAtNW9QNkJUVmwzUlNLSVhKUl9kdzA4WnZBNlRXMVpLakpPZDVCSjNQOF9NWXhuQzJ6OEZ3Sk1DTG5ycHlxX2JNcEFQRVZGcjlDYzVsWWVyT055b29ocll4clFCQzNtMnNUYllaQ3ptVmt4S0I5VmlMblk?oc=5",
       "desc": "Colorado’s Revamped AI Law Charts a New Course, Reaching Both Developers and Deployers Alike The National Law Review",
@@ -1232,20 +1235,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T22:51:08.077232+00:00",
+  "last_run": "2026-09-01T22:55:33.195426+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788303023.3840215,
+    "last_start_ts": 1788303321.526575,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788303023.3840215,
+    "last_success_ts": 1788303321.526575,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788303067.5832212
+      "updated_at": 1788303332.7564297
     }
   },
   "stories": {
@@ -1268,6 +1271,13 @@
       "title": "Anthropic R&D Slowdown Shows Need for Heightened AI Agent Security - aibusiness.com",
       "desc": "Anthropic R&D Slowdown Shows Need for Heightened AI Agent Security aibusiness.com",
       "source": "aibusiness.com",
+      "region": "WORLD"
+    },
+    "046dff280ec97855744ebf1c24b7c69233cf2f7f73d32a3d695166f2a270759d": {
+      "time": 1788303321,
+      "title": "Anthropic Claude Fable 5.1 Launch September 2026: New AI Model vs Fable 5, Smarter Coding & Research, Lower Costs; Check Features, Pricing & Mythos 5.1 - The Sunday Guardian",
+      "desc": "Anthropic Claude Fable 5.1 Launch September 2026: New AI Model vs Fable 5, Smarter Coding & Research, Lower Costs; Check Features, Pricing & Mythos 5.1 The Sunday Guardian",
+      "source": "The Sunday Guardian",
       "region": "WORLD"
     }
   }
