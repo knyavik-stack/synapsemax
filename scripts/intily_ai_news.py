@@ -5,7 +5,7 @@ from xml.etree import ElementTree as ET
 
 LOOKBACK=timedelta(hours=24); MAX_PUBLISH=5; MIN_SCORE=7; MAX_QUEUE=100
 STATE_FILE=os.getenv('STATE_FILE','data/intily-ai-news-state.json')
-MODEL='openai/gpt-4o-mini'; AI_URL='https://models.github.ai/inference/chat/completions'
+MODEL='gpt-5.6-luna'; AI_URL='https://api.openai.com/v1/chat/completions'
 TG_URL='https://api.telegram.org/bot{}/sendMessage'
 QUERIES=[('WORLD','AI artificial intelligence OpenAI Anthropic Google DeepMind Microsoft Meta Nvidia'),('WORLD','AI model launch release agent robotics chips regulation safety research'),('WORLD','artificial intelligence breakthrough investment acquisition security AI agents'),('RUSSIA','ИИ искусственный интеллект нейросети Россия Яндекс Сбер VK'),('RUSSIA','ИИ нейросети регулирование закон инвестиции технологии Россия'),('RUSSIA','искусственный интеллект российские компании разработка модели агент')]
 WEIGHTS={'launch':5,'release':5,'model':4,'agent':5,'breakthrough':7,'research':3,'security':5,'safety':5,'regulation':5,'law':5,'investment':4,'billion':5,'acquisition':5,'chip':4,'gpu':4,'openai':4,'anthropic':4,'google':3,'deepmind':4,'nvidia':4,'microsoft':3,'yandex':4,'sber':4,'закон':6,'регулир':5,'миллиард':5,'запуст':5,'выпуст':5,'агент':5,'модель':4,'нейросет':4,'исследован':3,'инвести':4,'покуп':5,'сделк':4,'безопасност':5}
@@ -77,7 +77,7 @@ def collect():
 
 def ai(prompt):
     body=json.dumps({'model':MODEL,'messages':[{'role':'system','content':'Ты профессиональный русскоязычный редактор Telegram-канала об AI. Отвечай только JSON.'},{'role':'user','content':prompt}],'temperature':0.35,'max_tokens':900}).encode()
-    req=urllib.request.Request(AI_URL,data=body,headers={'Authorization':'Bearer '+os.environ['GITHUB_TOKEN'],'Content-Type':'application/json','Accept':'application/vnd.github+json'})
+    req=urllib.request.Request(AI_URL,data=body,headers={'Authorization':'Bearer '+os.environ['OPENAI_API_KEY'],'Content-Type':'application/json'})
     with urllib.request.urlopen(req,timeout=60) as r:data=json.loads(r.read().decode())
     return data['choices'][0]['message']['content']
 
