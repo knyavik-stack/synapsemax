@@ -23,7 +23,8 @@
     "29a90cb53aa4a1f2af92df94041763b62d8b938fde17fc4322176032ccc4757e": 1788303921,
     "738d77cdab92b21737613df0a984175738878b42a45815fa7f01c279d8a51de8": 1788304221,
     "e4cbd1d40b41cf11962715e92a19149cf6f82fe5b320913efac8a1ffc6bef5d9": 1788304519,
-    "1ce6a341a2350a23a1a329e674944142553ec1584fe2c8b815ba3c5f1dbaee3c": 1788304822
+    "1ce6a341a2350a23a1a329e674944142553ec1584fe2c8b815ba3c5f1dbaee3c": 1788304822,
+    "031b7129e26d07743374a17c9f27bf185159dc63afc979faba51f45888fe40a1": 1788305119
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -148,20 +149,10 @@
     "e4cbd1d40b41cf11962715e92a19149cf6f82fe5b320913efac8a1ffc6bef5d9": 1788304519.9402683,
     "c02e987f90076ecb658f85775318900c3d95a961b52a2eb0cef5733f9ebfc448": 1788304822.0731568,
     "8e8b40a52ddd195fbd35ec1f1fd028ab01b797e276d67bb28ab7d79ff5168d4d": 1788304822.0731568,
-    "d6eea97e64bb59394de0abcd3d6a4cbcd39cd7e56a76eba07072073944d3f294": 1788304822.0731568
+    "d6eea97e64bb59394de0abcd3d6a4cbcd39cd7e56a76eba07072073944d3f294": 1788304822.0731568,
+    "bd726763e8f61eee341705867d06a01f169217b4c78b8c5791fa49301a967408": 1788305119.846747
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Anthropic tightens security on its training environment after Claude agents went rogue 3 times - Business Insider",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX1FjSV9WRm9pZkxPcEVpSmZqZHBmYTZZOXYxd3JKVnprcm85Qjk3THdKWUJKcWtWeXVQcEotNkQ3NVo4c0x4UG9JV3ItNDgxVS1PalFTbjFnZG5qS2Z2bnI4am1jX2hjdEhxclQzczBTdHlFM0NWVS1zazN0TkZMdGZrQ282U0RHOTA0ZjNvc1ktNmVOX2F3UDYxWmFmQmlqTnRDbTBERXJwdw?oc=5",
-      "desc": "Anthropic tightens security on its training environment after Claude agents went rogue 3 times Business Insider",
-      "source": "Business Insider",
-      "time": 1788228300.0,
-      "score": 13,
-      "key": "031b7129e26d07743374a17c9f27bf185159dc63afc979faba51f45888fe40a1",
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "NVIDIA RISC-V for NVIDIA GPUs at Hot Chips 2026 - servethehome.com",
@@ -933,6 +924,17 @@
       "tier": "B"
     },
     {
+      "region": "WORLD",
+      "title": "Nvidia Shareholders Should Brace Themselves for 1 Particular Thing in the Months to Come. Here’s What It Means for the Long-term Picture. - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNaGsxRzVHRktBQ3RKT1RfM3Z1c3l1TkxVOFNMMDREcGNBNGVBSFc3bFFJaERraUlzeUZRS1BpWUZUUmNmTHhKRS0xV1dpbjM1MU4zSk5RTmhiVzVnQnhoUjVia3RVRjJGRWFHNFB2UmtLV21aQ1lodFltd1ZZODR6REJKbTN0QzU5TGlwZ1NKdkJuY1hRWG5wd0dMZ3ZBZkoxV3BPcGhMb3ptY2xGcFVTWkVHRlgzay1XSC1QcWxPTEQtb19tZ2lUMmUtUEdudEZsYkt3dzE5VVVFLUY2RFRYVTVHSFU2SlhkTzRWUHpjTkM4Mmw5aFBkYlRqd1RST2U1dkF1a0lneUZKeVVvNjFVbTVKRHphbkZHZGtfQkJISm55cG9tTEdmRFhDTzZTV2pSd3YwRTdNOWtqNHBHa2VCNGNHYw?oc=5",
+      "desc": "Nvidia Shareholders Should Brace Themselves for 1 Particular Thing in the Months to Come. Here’s What It Means for the Long-term Picture. The Globe and Mail",
+      "source": "The Globe and Mail",
+      "time": 1788301844.0,
+      "score": 6,
+      "key": "bd726763e8f61eee341705867d06a01f169217b4c78b8c5791fa49301a967408",
+      "tier": "B"
+    },
+    {
       "region": "RUSSIA",
       "title": "ИИ как фактор войны: почему борьба за нейросети стала важнее танков и границы стерлись - news.rambler.ua",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRGVpVWRVWlFxUE5sRlpXN2VmN242aE1XckFVWXIzR1ZvYV9nMjNkcnlnTVh4Yk1nS1dNblk4SXd2YjBKb19vSDRiaG1qZ0ROSHJaUXV4S3FrWmNHWl93NFA4bXdMRE14OTNQaHRGRDFuZGFleHFSTEVzUk9NVU0yVUFJSmwyYTJRdUFaTERKV09kWHd0VzJnc1E5VC0xcmt5ekZpTkwtMlN3WGZXa0pCN2N4LWM4UDdzS3FKQW9oRG9EV3R1Q1BOTNIByAFBVV95cUxNRGVpVWRVWlFxUE5sRlpXN2VmN242aE1XckFVWXIzR1ZvYV9nMjNkcnlnTVh4Yk1nS1dNblk4SXd2YjBKb19vSDRiaG1qZ0ROSHJaUXV4S3FrWmNHWl93NFA4bXdMRE14OTNQaHRGRDFuZGFleHFSTEVzUk9NVU0yVUFJSmwyYTJRdUFaTERKV09kWHd0VzJnc1E5VC0xcmt5ekZpTkwtMlN3WGZXa0pCN2N4LWM4UDdzS3FKQW9oRG9EV3R1Q1BOTA?oc=5",
@@ -1252,20 +1254,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T23:20:36.833118+00:00",
+  "last_run": "2026-09-01T23:25:32.038215+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788304822.0731568,
+    "last_start_ts": 1788305119.846747,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788304822.0731568,
+    "last_success_ts": 1788305119.846747,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788304836.2433455
+      "updated_at": 1788305131.6394851
     }
   },
   "stories": {
@@ -1330,6 +1332,13 @@
       "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities - WIRED",
       "desc": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities WIRED",
       "source": "WIRED",
+      "region": "WORLD"
+    },
+    "031b7129e26d07743374a17c9f27bf185159dc63afc979faba51f45888fe40a1": {
+      "time": 1788305119,
+      "title": "Anthropic tightens security on its training environment after Claude agents went rogue 3 times - Business Insider",
+      "desc": "Anthropic tightens security on its training environment after Claude agents went rogue 3 times Business Insider",
+      "source": "Business Insider",
       "region": "WORLD"
     }
   }
