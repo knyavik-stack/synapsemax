@@ -47,28 +47,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Гайд по ИИ-агентам: какие бывают, как запустить своего и чем вы рискуете - Rozetked.me",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSmxONmRxRTB2MFF0b3pXNEo3d2VlSl9Fa2d2cWtvZUFGcWF0NmZ4NUp1M2R3Z2tnZTBPQTR6eGs4TklINEJUdnhuSlNlNjNRSkN1NGpkR1EyMWF5dWlPOE1EZm1JbUZvX3d1cmhPWXZneDZJWThnR1ozS0Mtc2F4VU5qYzczN2dfRjVDdkFWN3c3dXpEOEVmemZ0QXhNZTJ5cVdRZ1hJMTRQQQ?oc=5",
-      "desc": "Гайд по ИИ-агентам: какие бывают, как запустить своего и чем вы рискуете Rozetked.me",
-      "source": "Rozetked.me",
-      "time": 1788192000.0,
-      "score": 9,
-      "key": "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2",
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Nvidia покупает Hugging Face за $12,9 млрд — почти втрое дороже оценки 2023 года - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdVo3RVcxMVRTY0t0b2JBLXZ0VXN1eEEzbjFxbEJvRi03amZYR04ybFRIZGlnbGQxNWltSXZyUUs0MjFCZlNLWjJvWUVwOFBZbjQ1MmRsM21HRk9abzU3MVlheEU5N000WDFUTWs3bm1ncVdSLTgxS3dHWnYtaFhtb0xPRlZlLV9JYTVnU2Y3akVnajJKUWREU21EOHBmN0lFSUUtQTczNDlSUkVobW5Ha1VZWWNBVXJ3eUt3aA?oc=5",
-      "desc": "Nvidia покупает Hugging Face за $12,9 млрд — почти втрое дороже оценки 2023 года prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788194582.0,
-      "score": 8,
-      "key": "a3802ab2350492ac1f8e7cf21722d9a6d00aacc60b0f95d9a0b3ba076b25acea",
-      "tier": "B"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Компания Itglobal.com запустила новый защитный модуль корпоративных данных в рамках сервиса AIaaS - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQS1BoX0l0UWpWNnhzNmliaVI5dmowOHdhVlJZcUJXTVdqclB6YmJXbUFUVkhfRTRtT1J4NXJ4MGhTa3g1MEdiUTJETE5UeDV5Y0hMZlVyLWJHYmJ1MDU1cHZicDRsendDQy0xU2VFRldvUko0SmxfOHVPS1MyVURVMGpMaTBKVGg3VGFLN3RlUzl2M2Iwb0diZk1DekVSRUZpX0tfdkplUjBNSmZDaDFHUkxiZTdvYk9qOF8zVDhRVC1xZGlmVkdGaEVyeE5pOGNONGt3RHlaVQ?oc=5",
       "desc": "Компания Itglobal.com запустила новый защитный модуль корпоративных данных в рамках сервиса AIaaS prospect.com.ru",
@@ -134,14 +112,14 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T15:58:54.782754+00:00",
-  "last_published": 1,
+  "last_run": "2026-09-01T17:25:35.522459+00:00",
+  "last_published": 0,
   "health": {
-    "last_start_ts": 1788278329.0533106,
-    "last_status": "OK",
-    "last_error": "",
+    "last_start_ts": 1788283518.7997015,
+    "last_status": "FAILED_NO_PUBLISH",
+    "last_error": "candidates exist but Telegram received zero posts",
     "last_success_ts": 1788278329.0533106,
-    "consecutive_failures": 0
+    "consecutive_failures": 1
   },
   "providers": {}
 }
