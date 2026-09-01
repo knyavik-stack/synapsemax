@@ -47,22 +47,35 @@ jobs:
           def translate(text):
               text=re.sub(r'\s+',' ',text or '').strip()
               if not text: return ''
-              last=None
-              for attempt in range(3):
+              # Russian sources do not need translation; this also removes an avoidable external dependency.
+              cyr=len(re.findall(r'[А-Яа-яЁё]',text))
+              lat=len(re.findall(r'[A-Za-z]',text))
+              if cyr >= 20 and cyr >= max(1, lat*1.2):
+                  return text
+              # Primary translator with retry, then independent public fallbacks.
+              for attempt in range(2):
                   try:
                       q=urllib.parse.urlencode({'client':'gtx','sl':'auto','tl':'ru','dt':'t','q':text[:4500]})
                       data=json.loads(get('https://translate.googleapis.com/translate_a/single?'+q,15).decode('utf-8'))
                       out=''.join(x[0] for x in data[0] if x and x[0]).strip()
                       if out: return out
                   except Exception as e:
-                      last=e; print('translation retry',attempt+1,e); time.sleep(2*(attempt+1))
+                      print('google translation retry',attempt+1,e); time.sleep(3*(attempt+1))
+              for host in ['https://lingva.ml','https://translate.thedaviddelta.com','https://lingva.garudalinux.org']:
+                  try:
+                      path='/api/v1/en/ru/'+urllib.parse.quote(text[:3500],safe='')
+                      data=json.loads(get(host+path,20).decode('utf-8'))
+                      out=(data.get('translation') or '').strip()
+                      if out: return out
+                  except Exception as e:
+                      print('lingva fallback error',host,e)
               try:
-                  q=urllib.parse.urlencode({'q':text[:4500],'langpair':'en|ru'})
+                  q=urllib.parse.urlencode({'q':text[:3500],'langpair':'en|ru'})
                   data=json.loads(get('https://api.mymemory.translated.net/get?'+q,20).decode('utf-8'))
                   out=((data.get('responseData') or {}).get('translatedText') or '').strip()
                   if out and out.lower()!=text.lower(): return out
               except Exception as e:
-                  print('fallback translation error:',e)
+                  print('mymemory fallback error:',e)
               return None
 
           def clean_ru(text):
