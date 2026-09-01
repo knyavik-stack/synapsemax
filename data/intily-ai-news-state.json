@@ -2,7 +2,8 @@
   "published": {
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788261333,
     "2ef8d948ff8a488b13ada31e923d04bb6b8f4faadc201cf47303658fd94fe12d": 1788261333,
-    "90ffca46a5722be4cfc8cc40b173ce59d0d7711acba7eb8074e256ab8a2c60db": 1788261333
+    "90ffca46a5722be4cfc8cc40b173ce59d0d7711acba7eb8074e256ab8a2c60db": 1788261333,
+    "96107b6ce77d04e31cdedc45a326c6d72c4a9d51dcafd0d22f01e60cd9b1bf43": 1788267278
   },
   "known": {
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788257231.9162014,
@@ -25,17 +26,6 @@
     "3132fc310f2e84134f09f274fcbcb8ac7400a28abcf8ce440a4f9c63b8bdc9b2": 1788260726.4261858
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "«ИИ может стать дьяволом»: медиабизнес обсудил в ОП регулирование нейросетей - Ведомости",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUdveG1OYzlpZkVEcm9TT28tdGVRam1HSTRpNU5GWkZQLTIteDZHTVZCWnY1SmVyS0VIWXEzbEhqbEpaTVdCeUZYdnpacWNjM3JVdEJIUXZVbUZ1cm1na0hISk1sNGc0OWVDY2dCN0E0Y1BINmQyeWxaN3kxZG1VWWhNOF9oMGtkeUZYeEdCWU1sYWRkNFE?oc=5",
-      "desc": "«ИИ может стать дьяволом»: медиабизнес обсудил в ОП регулирование нейросетей Ведомости",
-      "source": "Ведомости",
-      "time": 1788184290.0,
-      "score": 11,
-      "key": "96107b6ce77d04e31cdedc45a326c6d72c4a9d51dcafd0d22f01e60cd9b1bf43",
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Может ли ИИ сам взломать компанию и зачем хакерам автономные агенты - SecurityLab.ru",
@@ -191,13 +181,13 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T12:53:24.197491+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-01T12:54:51.641166+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788267153.2484128,
+    "last_start_ts": 1788267278.0899343,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788267153.2484128,
+    "last_success_ts": 1788267278.0899343,
     "consecutive_failures": 0
   }
 }
