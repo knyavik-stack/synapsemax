@@ -61,6 +61,14 @@ jobs:
               text=re.sub(r'\b(согласно|отмечается|в свою очередь|таким образом),?\s*','',text,flags=re.I)
               return text.strip(' .—-')
 
+          def require_russian(text, field):
+              text=re.sub(r'https?://\S+','',text or '')
+              cyr=len(re.findall(r'[А-Яа-яЁё]',text))
+              lat=len(re.findall(r'[A-Za-z]',text))
+              if cyr < 8 or cyr < max(1, lat*0.8):
+                  raise RuntimeError(f'Russian {field} validation failed; publication blocked')
+              return text
+
           def parse_dt(value):
               if not value: return None
               try:
@@ -124,19 +132,19 @@ jobs:
 
           def conclusion(c):
               b=(c['title']+' '+c['desc']).lower()
-              if any(x in b for x in ['launch','released','release','model','выпуст','запуст','модель']): return 'Вывод: технология вышла на новый этап, поэтому её влияние стоит оценивать не по громкости анонса, а по тому, что теперь реально смогут делать пользователи и компании.'
-              if any(x in b for x in ['regulation','law','закон','регулир']): return 'Вывод: правила игры для AI становятся жёстче. Для компаний это означает дополнительные требования к продуктам, данным и процессам.'
-              if any(x in b for x in ['investment','billion','инвестиц','миллиард']): return 'Вывод: деньги продолжают идти в AI, а значит конкуренция за вычисления, модели и талант будет только усиливаться.'
-              if any(x in b for x in ['security','safety','безопас','агент']): return 'Вывод: чем самостоятельнее становятся AI-системы, тем важнее контроль, безопасность и понятные границы их действий.'
-              return 'Вывод: событие показывает, куда сейчас движется AI-рынок и какие технологии могут стать значимыми уже в ближайшее время.'
+              if any(x in b for x in ['launch','released','release','model','выпуст','запуст','модель']): return 'Технология вышла на новый этап, поэтому её влияние стоит оценивать не по громкости анонса, а по тому, что теперь реально смогут делать пользователи и компании.'
+              if any(x in b for x in ['regulation','law','закон','регулир']): return 'Правила игры для AI становятся жёстче. Для компаний это означает дополнительные требования к продуктам, данным и процессам.'
+              if any(x in b for x in ['investment','billion','инвестиц','миллиард']): return 'Деньги продолжают идти в AI, а значит конкуренция за вычисления, модели и талант будет только усиливаться.'
+              if any(x in b for x in ['security','safety','безопас','агент']): return 'Чем самостоятельнее становятся AI-системы, тем важнее контроль, безопасность и понятные границы их действий.'
+              return 'Событие показывает, куда сейчас движется AI-рынок и какие технологии могут стать значимыми уже в ближайшее время.'
 
           def send(c):
               translated_title=translate(c['title'])
               translated_desc=translate(c['desc'])
               if not translated_title or not translated_desc:
                   raise RuntimeError('Russian translation unavailable; publication blocked')
-              ru_title=clean_ru(translated_title)
-              ru_desc=clean_ru(translated_desc)
+              ru_title=require_russian(clean_ru(translated_title), 'title')
+              ru_desc=require_russian(clean_ru(translated_desc), 'body')
               if not ru_title or not ru_desc:
                   raise RuntimeError('Russian editorial text incomplete; publication blocked')
               if len(ru_desc)>900: ru_desc=ru_desc[:900].rsplit(' ',1)[0]+'…'
@@ -149,6 +157,8 @@ jobs:
                    f'{joke}\n\n'
                    f'📰 {html.escape(c["source"] or "Источник")} · {c["pub"][:16].replace("T"," ")} UTC\n'
                    f'🔗 <a href="{html.escape(c["link"], quote=True)}">Подробнее</a>')
+              final_text_for_check=re.sub(r'<[^>]+>',' ',msg)
+              require_russian(final_text_for_check, 'post')
               payload=json.dumps({'chat_id':os.environ['TELEGRAM_CHAT_ID'],'text':msg,'parse_mode':'HTML','disable_web_page_preview':True}).encode()
               req=urllib.request.Request('https://api.telegram.org/bot'+os.environ['TELEGRAM_BOT_TOKEN']+'/sendMessage',data=payload,headers={'Content-Type':'application/json'})
               with urllib.request.urlopen(req,timeout=20) as r: data=json.loads(r.read().decode())
