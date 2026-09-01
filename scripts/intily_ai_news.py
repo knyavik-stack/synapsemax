@@ -31,14 +31,17 @@ def get(url,timeout=25,headers=None):
     with urllib.request.urlopen(req,timeout=timeout) as r:return r.read()
 
 def rss(region,q):
-    p=urllib.parse.urlencode({'q':q,'hl':'ru-RU','gl':'RU' if region=='RUSSIA' else 'US','ceid':'RU:ru' if region=='RUSSIA' else 'US:en','when':'1d'})
-    root=ET.fromstring(get('https://news.google.com/rss/search?'+p));out=[]
+    cutoff_date=(datetime.now(timezone.utc)-LOOKBACK).date().isoformat(); q_live=f'{q} after:{cutoff_date}'; p=urllib.parse.urlencode({'q':q_live,'hl':'ru-RU','gl':'RU' if region=='RUSSIA' else 'US','ceid':'RU:ru' if region=='RUSSIA' else 'US:en'})
+    root=ET.fromstring(get('https://news.google.com/rss/search?'+p));out=[]; raw_count=0
     for it in root.findall('.//item'):
         title=html.unescape((it.findtext('title') or '').strip());link=(it.findtext('link') or '').strip();desc=re.sub(r'<[^>]+>',' ',it.findtext('description') or '');desc=re.sub(r'\s+',' ',html.unescape(desc)).strip();source=(it.findtext('source') or '').strip();raw=it.findtext('pubDate') or ''
         try:dt=datetime.strptime(raw,'%a, %d %b %Y %H:%M:%S %z')
         except Exception:continue
-        if not title or not link or datetime.now(timezone.utc)-dt>LOOKBACK:continue
+        if not title or not link:continue
+        raw_count+=1
+        if datetime.now(timezone.utc)-dt>LOOKBACK:continue
         out.append({'region':region,'title':title,'link':link,'desc':desc,'source':source,'time':dt.timestamp()})
+    print('feed_ok',region,'raw',raw_count,'fresh',len(out))
     return out
 
 def normalize(t):return ' '.join(re.sub(r'[^a-zа-я0-9 ]',' ',t.lower().replace('ё','е')).split())
