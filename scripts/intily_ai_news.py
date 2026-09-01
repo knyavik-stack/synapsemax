@@ -3,7 +3,7 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
-LOOKBACK=timedelta(hours=24); MAX_PUBLISH=5; MIN_SCORE=7; MAX_QUEUE=100
+LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=7; MAX_QUEUE=100
 STATE_FILE=os.getenv('STATE_FILE','data/intily-ai-news-state.json')
 MODEL='gpt-5.6-luna'; AI_URL='https://api.openai.com/v1/chat/completions'
 TG_URL='https://api.telegram.org/bot{}/sendMessage'
@@ -77,9 +77,25 @@ def collect():
 
 def ai(prompt):
     body=json.dumps({'model':MODEL,'messages':[{'role':'system','content':'Ты профессиональный русскоязычный редактор Telegram-канала об AI. Отвечай только JSON.'},{'role':'user','content':prompt}],'temperature':0.35,'max_tokens':900}).encode()
-    req=urllib.request.Request(AI_URL,data=body,headers={'Authorization':'Bearer '+os.environ['OPENAI_API_KEY'],'Content-Type':'application/json'})
-    with urllib.request.urlopen(req,timeout=60) as r:data=json.loads(r.read().decode())
-    return data['choices'][0]['message']['content']
+    last=None
+    for attempt in range(5):
+        req=urllib.request.Request(AI_URL,data=body,headers={'Authorization':'Bearer '+os.environ['OPENAI_API_KEY'],'Content-Type':'application/json'})
+        try:
+            with urllib.request.urlopen(req,timeout=60) as r:data=json.loads(r.read().decode())
+            return data['choices'][0]['message']['content']
+        except urllib.error.HTTPError as e:
+            raw=e.read().decode('utf-8','replace')
+            last=RuntimeError(f'OPENAI_HTTP_{e.code}: {raw[:500]}')
+            if e.code != 429: raise last
+            try:
+                retry=max(1,min(int(e.headers.get('Retry-After','5')),60))
+            except Exception: retry=min(5*(2**attempt),60)
+            print('OPENAI_429 retry_in',retry,'attempt',attempt+1)
+            time.sleep(retry)
+        except Exception as e:
+            last=e
+            time.sleep(min(2**attempt,30))
+    raise last
 
 def russian_ok(text):
     clean=re.sub(r'https?://\S+|<[^>]+>','',text);c=len(re.findall(r'[А-Яа-яЁё]',clean));l=len(re.findall(r'[A-Za-z]',clean))
@@ -124,5 +140,7 @@ def main():
     for k,v in list(state['known'].items()):
         if v<now-30*86400:del state['known'][k]
     state['last_run']=datetime.now(timezone.utc).isoformat();state['last_published']=published;save_state(state);print(json.dumps({'candidates':len(candidates),'published':published,'queue':len(state['queue'])},ensure_ascii=False))
+    if candidates and published == 0:
+        raise RuntimeError('NO_PUBLISH: candidates exist but Telegram received zero posts')
 
 if __name__=='__main__':main()
