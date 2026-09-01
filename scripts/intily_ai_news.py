@@ -1,3 +1,4 @@
+````python
 import os
 import re
 import json
@@ -15,28 +16,40 @@ from xml.etree import ElementTree as ET
 
 # ============================================================
 # INTILY AI NEWS PUBLISHER
-# Production failover / queue / watchdog revision
+# Production queue / failover / watchdog / editorial QA
 # ============================================================
 
 LOOKBACK = timedelta(hours=24)
+
 MAX_PUBLISH = 1
 MIN_SCORE = 5
 MAX_QUEUE = 100
+
 JOKE_RATE = 0.80
 
-# TEMP_QUEUE_COUNT: remove this flag and the marked block below
-# when Boss requests removal.
+# Temporary queue counter.
+# Set False when Boss requests removal.
 SHOW_QUEUE_COUNT = True
 
 HEARTBEAT_MAX_SECONDS = 900
 FAILURE_ALERT_THRESHOLD = 3
+
+# Maximum number of queued items attempted in one run.
+MAX_ATTEMPTS_PER_RUN = 5
+
+# Maximum editorial regeneration attempts for one item.
+MAX_EDIT_ATTEMPTS = 2
 
 STATE_FILE = os.environ.get(
     'STATE_FILE',
     'data/intily-ai-news-state.json'
 )
 
+
+# ------------------------------------------------------------
 # Provider models
+# ------------------------------------------------------------
+
 GROQ_MODEL = 'llama-3.1-8b-instant'
 GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions'
 
@@ -51,6 +64,11 @@ GEMINI_URL = (
 )
 
 TG_URL = 'https://api.telegram.org/bot{}/sendMessage'
+
+
+# ------------------------------------------------------------
+# Sources
+# ------------------------------------------------------------
 
 QUERIES = [
     (
@@ -77,6 +95,7 @@ QUERIES = [
         'ИИ нейросети регулирование закон инвестиции технологии Россия'
     )
 ]
+
 
 WEIGHTS = {
     'launch': 5,
@@ -113,6 +132,7 @@ WEIGHTS = {
     'исследован': 3
 }
 
+
 TRUSTED = {
     'reuters',
     'bloomberg',
@@ -140,6 +160,7 @@ def load_state():
     try:
         with open(STATE_FILE, encoding='utf-8') as f:
             s = json.load(f)
+
     except Exception:
         s = {}
 
@@ -188,7 +209,7 @@ def get(url, timeout=12, headers=None):
     req = urllib.request.Request(
         url,
         headers=headers or {
-            'User-Agent': 'IntilyAI-News/6.0'
+            'User-Agent': 'IntilyAI-News/7.0'
         }
     )
 
@@ -337,6 +358,7 @@ def score(x):
 
     if age < 2:
         n += 2
+
     elif age > 12:
         n -= 1
 
@@ -429,12 +451,15 @@ PROVIDER_COOLDOWN = {
 
 def provider_blocked(s, name):
     p = s['providers'].get(name, {})
+
     until = float(
         p.get('disabled_until', 0) or 0
     )
 
     if until > time.time():
-        remaining = int(until - time.time())
+        remaining = int(
+            until - time.time()
+        )
 
         print(
             'AI_PROVIDER_BLOCKED',
@@ -470,12 +495,11 @@ def block_provider(s, name, reason):
 
 
 def clear_provider(s, name):
-    if name in s['providers']:
-        s['providers'][name] = {
-            'disabled_until': 0,
-            'reason': '',
-            'updated_at': time.time()
-        }
+    s['providers'][name] = {
+        'disabled_until': 0,
+        'reason': '',
+        'updated_at': time.time()
+    }
 
 
 # ------------------------------------------------------------
@@ -519,8 +543,10 @@ def chat(
                 url,
                 data=body,
                 headers={
-                    'Authorization': 'Bearer ' + token,
-                    'Content-Type': 'application/json'
+                    'Authorization':
+                        'Bearer ' + token,
+                    'Content-Type':
+                        'application/json'
                 }
             )
 
@@ -548,15 +574,12 @@ def chat(
                 f'{raw[:300]}'
             )
 
-            # No-credit OpenAI:
-            # don't waste two more attempts.
             if (
                 provider == 'OPENAI'
                 and e.code == 429
             ):
                 raise last
 
-            # Groq 1010/403 is not transient.
             if (
                 provider == 'GROQ'
                 and e.code == 403
@@ -695,7 +718,6 @@ def gemini_chat(prompt, token):
                 f'{raw[:300]}'
             )
 
-            # 503 = transient service capacity.
             if e.code in (
                 500,
                 502,
@@ -799,6 +821,7 @@ def ai(prompt, s):
                     prompt,
                     token
                 )
+
             else:
                 result = chat(
                     url,
@@ -844,7 +867,6 @@ def ai(prompt, s):
                 message[:180]
             )
 
-            # Permanent-ish failures.
             if (
                 name == 'OPENAI'
                 and (
@@ -942,7 +964,27 @@ def forbidden_style(text):
     )
 
 
-def edit(x, s):
+def parse_editor_json(raw):
+    cleaned = raw.strip()
+
+    cleaned = re.sub(
+        r'^```(?:json)?\s*',
+        '',
+        cleaned,
+        flags=re.I
+    )
+
+    cleaned = re.sub(
+        r'\s*```$',
+        '',
+        cleaned,
+        flags=re.I
+    )
+
+    return json.loads(cleaned)
+
+
+def build_edit_prompt(x, retry=False, previous_error=''):
     want_joke = (
         random.random()
         < JOKE_RATE
@@ -954,13 +996,31 @@ def edit(x, s):
         else 'не нужна'
     )
 
-    prompt = (
+    retry_instruction = ''
+
+    if retry:
+        retry_instruction = (
+            '\nПредыдущая версия не прошла '
+            'редакторскую проверку. '
+            'Сделай текст проще, естественнее '
+            'и полностью на русском языке. '
+            'Не повторяй проблемную конструкцию.'
+        )
+
+        if previous_error:
+            retry_instruction += (
+                '\nПричина предыдущего отказа: '
+                + previous_error[:180]
+            )
+
+    return (
         'Подготовь готовый Telegram-пост '
         'ЦЕЛИКОМ на естественном русском языке. '
         'Не делай дословный перевод: перескажи '
-        'человеческим языком. Обязательно раскрой: '
-        'что произошло, кто участники, почему это '
-        'важно и практический вывод. '
+        'человеческим языком. '
+        'Обязательно раскрой: что произошло, '
+        'кто участники, почему это важно '
+        'и практический вывод. '
         'Не выдумывай факты. '
         'Весь результат на русском; названия компаний, '
         'продуктов и моделей можно оставлять '
@@ -973,135 +1033,200 @@ def edit(x, s):
         'инцидент — шутка запрещена независимо '
         'от этого флага. '
         'Не используй речевые штампы ИИ. '
+        'Не используй канцелярит. '
+        'Не начинай текст с шаблонных фраз. '
         'Верни JSON строго с полями '
         'title, body, meaning, joke. '
         'joke может быть пустой строкой.\n'
+        '%s'
+        '\n'
         'Источник: %s\n'
         'Заголовок: %s\n'
         'Описание: %s'
     ) % (
         joke_instruction,
+        retry_instruction,
         x['source'],
         x['title'],
         x['desc']
     )
 
-    raw = ai(prompt, s)
 
-    raw = re.sub(
-        r'^```(?:json)?|```$',
-        '',
-        raw.strip(),
-        flags=re.I | re.M
-    )
+def edit(x, s):
+    last_error = ''
 
-    j = json.loads(raw)
-
-    title = str(
-        j.get('title', '')
-    ).strip()
-
-    body = str(
-        j.get('body', '')
-    ).strip()
-
-    meaning = str(
-        j.get('meaning', '')
-    ).strip()
-
-    joke = str(
-        j.get('joke', '')
-    ).strip()
-
-    full = ' '.join([
-        title,
-        body,
-        meaning,
-        joke
-    ])
-
-    if (
-        not title
-        or not body
-        or not meaning
-        or not russian_ok(full)
-        or forbidden_style(full)
+    for attempt in range(
+        MAX_EDIT_ATTEMPTS
     ):
-        raise RuntimeError(
-            'RU_QA_FAILED'
-        )
+        try:
+            prompt = build_edit_prompt(
+                x,
+                retry=attempt > 0,
+                previous_error=last_error
+            )
 
-    sensitive = any(
-        k in (
-            x['title']
-            + ' '
-            + x['desc']
-        ).lower()
-        for k in (
-            'security',
-            'safety',
-            'regulation',
-            'law',
-            'breach',
-            'утеч',
-            'безопас',
-            'регулир',
-            'закон',
-            'авар'
-        )
-    )
+            raw = ai(
+                prompt,
+                s
+            )
 
-    if sensitive:
-        joke = ''
+            j = parse_editor_json(raw)
 
-    elif want_joke and not joke:
-        raise RuntimeError(
-            'JOKE_QA_FAILED'
-        )
+            title = str(
+                j.get('title', '')
+            ).strip()
 
-    elif not want_joke:
-        joke = ''
+            body = str(
+                j.get('body', '')
+            ).strip()
 
-    x['tier'] = tier(x)
+            meaning = str(
+                j.get('meaning', '')
+            ).strip()
 
-    esc = lambda value: html.escape(
-        str(value),
-        quote=True
-    )
+            joke = str(
+                j.get('joke', '')
+            ).strip()
 
-    flag = (
-        '🇷🇺'
-        if x['region'] == 'RUSSIA'
-        else '🌍'
-    )
+            full = ' '.join([
+                title,
+                body,
+                meaning,
+                joke
+            ])
 
-    dt = datetime.fromtimestamp(
-        x['time'],
-        timezone.utc
-    ).astimezone(
-        timezone(timedelta(hours=3))
-    )
+            if not title:
+                raise RuntimeError(
+                    'RU_QA_TITLE_EMPTY'
+                )
 
-    jb = (
-        '\n\n😏 '
-        + esc(joke)
-        if joke
-        else ''
-    )
+            if not body:
+                raise RuntimeError(
+                    'RU_QA_BODY_EMPTY'
+                )
 
-    return (
-        f'{flag} '
-        f'<b>{esc(title)}</b>\n\n'
-        f'{esc(body)}\n\n'
-        f'<b>Вывод:</b> '
-        f'{esc(meaning)}'
-        f'{jb}\n\n'
-        f'📰 {esc(x["source"] or "Источник")} '
-        f'· {dt:%d.%m.%Y %H:%M} МСК\n'
-        f'🔗 <a href="'
-        f'{html.escape(x["link"], quote=True)}'
-        f'">Подробнее</a>'
-    )
+            if not meaning:
+                raise RuntimeError(
+                    'RU_QA_MEANING_EMPTY'
+                )
+
+            if not russian_ok(full):
+                raise RuntimeError(
+                    'RU_QA_RUSSIAN_LANGUAGE'
+                )
+
+            if forbidden_style(full):
+                raise RuntimeError(
+                    'RU_QA_FORBIDDEN_STYLE'
+                )
+
+            sensitive = any(
+                k in (
+                    x['title']
+                    + ' '
+                    + x['desc']
+                ).lower()
+                for k in (
+                    'security',
+                    'safety',
+                    'regulation',
+                    'law',
+                    'breach',
+                    'утеч',
+                    'безопас',
+                    'регулир',
+                    'закон',
+                    'авар'
+                )
+            )
+
+            if sensitive:
+                joke = ''
+
+            elif (
+                attempt == 0
+                and want_joke_from_text(
+                    joke,
+                    s
+                )
+                is False
+            ):
+                # Do not reject a usable publication merely
+                # because the joke was weak or absent.
+                joke = ''
+
+            x['tier'] = tier(x)
+
+            esc = lambda value: html.escape(
+                str(value),
+                quote=True
+            )
+
+            flag = (
+                '🇷🇺'
+                if x['region'] == 'RUSSIA'
+                else '🌍'
+            )
+
+            dt = datetime.fromtimestamp(
+                x['time'],
+                timezone.utc
+            ).astimezone(
+                timezone(timedelta(hours=3))
+            )
+
+            jb = (
+                '\n\n😏 '
+                + esc(joke)
+                if joke
+                else ''
+            )
+
+            post = (
+                f'{flag} '
+                f'<b>{esc(title)}</b>\n\n'
+                f'{esc(body)}\n\n'
+                f'<b>Вывод:</b> '
+                f'{esc(meaning)}'
+                f'{jb}\n\n'
+                f'📰 {esc(x["source"] or "Источник")} '
+                f'· {dt:%d.%m.%Y %H:%M} МСК\n'
+                f'🔗 <a href="'
+                f'{html.escape(x["link"], quote=True)}'
+                f'">Подробнее</a>'
+            )
+
+            print(
+                'EDITORIAL_QA_OK',
+                x['title']
+            )
+
+            return post
+
+        except Exception as e:
+            last_error = str(e)
+
+            print(
+                'EDITORIAL_QA_FAILED',
+                x['title'],
+                last_error[:240],
+                'attempt',
+                attempt + 1
+            )
+
+            if attempt < MAX_EDIT_ATTEMPTS - 1:
+                continue
+
+            raise RuntimeError(
+                last_error
+            )
+
+
+def want_joke_from_text(joke, s):
+    # The final joke requirement is deliberately soft.
+    # A valid news publication must never be blocked solely
+    # because the model omitted a joke.
+    return bool(joke.strip())
 
 
 # ------------------------------------------------------------
@@ -1177,6 +1302,7 @@ def telegram(text):
 
             try:
                 data = json.loads(raw)
+
                 retry_after = (
                     data.get(
                         'parameters',
@@ -1185,6 +1311,7 @@ def telegram(text):
                         'retry_after'
                     )
                 )
+
             except Exception:
                 pass
 
@@ -1214,6 +1341,11 @@ def telegram(text):
             wait = min(
                 2 ** attempt * 2,
                 10
+            )
+
+            print(
+                'TELEGRAM_RETRY_EXCEPTION',
+                wait
             )
 
             time.sleep(wait)
@@ -1326,22 +1458,40 @@ def main():
     )
 
     published = 0
+
+    # --------------------------------------------------------
+    # IMPORTANT:
+    #
+    # Never use "break" on a failed item.
+    #
+    # A bad candidate must not block the queue.
+    # --------------------------------------------------------
+
     remaining = list(queue)
 
-    # --------------------------------------------------------
-    # One publication per cycle.
-    # --------------------------------------------------------
+    attempts = 0
 
-    for idx, x in enumerate(queue):
+    for x in list(queue):
+
+        if attempts >= MAX_ATTEMPTS_PER_RUN:
+            print(
+                'QUEUE_ATTEMPT_LIMIT',
+                MAX_ATTEMPTS_PER_RUN
+            )
+            break
 
         if x.get('score', 0) < MIN_SCORE:
             continue
 
-        try:
-            post = edit(x, s)
+        attempts += 1
 
-            # TEMP_QUEUE_COUNT:
-            # remove this block when Boss requests removal.
+        try:
+            post = edit(
+                x,
+                s
+            )
+
+            # Current queue count before removing item.
             queue_after_send = max(
                 0,
                 len(remaining) - 1
@@ -1364,7 +1514,8 @@ def main():
 
             # Remove exactly the successfully
             # published item.
-            remaining.pop(idx)
+            if x in remaining:
+                remaining.remove(x)
 
             print(
                 'PUBLISHED',
@@ -1380,15 +1531,32 @@ def main():
 
         except Exception as e:
 
+            reason = str(e)[:300]
+
             print(
                 'ITEM_FAILED',
                 x['title'],
-                str(e)[:300]
+                reason
             )
 
-            # Durable queue:
-            # failed item remains for next cycle.
-            break
+            # ------------------------------------------------
+            # Critical queue behavior:
+            #
+            # Remove failed item from the current working
+            # list so the next candidate can be attempted.
+            #
+            # The item is NOT published and therefore remains
+            # durable in the queue for a future run.
+            # ------------------------------------------------
+
+            if x in remaining:
+                remaining.remove(x)
+
+            # Save diagnostic information.
+            x['last_failed_at'] = int(now)
+            x['last_failure'] = reason
+
+            continue
 
     s['queue'] = (
         remaining[:MAX_QUEUE]
@@ -1417,30 +1585,25 @@ def main():
     s['last_published'] = published
 
     # --------------------------------------------------------
-    # Correct heartbeat semantics.
-    #
-    # IMPORTANT:
-    # last_success_ts is updated ONLY when:
-    # - there were no candidates, OR
-    # - at least one publication succeeded.
-    #
-    # This prevents a failed AI cycle from falsely
-    # refreshing the heartbeat.
+    # Heartbeat semantics
     # --------------------------------------------------------
 
-    if not candidates:
+    if published > 0:
+
         health['last_status'] = 'OK'
         health['consecutive_failures'] = 0
         health['last_error'] = ''
         health['last_success_ts'] = now
 
-    elif published > 0:
+    elif not candidates:
+
         health['last_status'] = 'OK'
         health['consecutive_failures'] = 0
         health['last_error'] = ''
         health['last_success_ts'] = now
 
     else:
+
         health['last_status'] = (
             'FAILED_NO_PUBLISH'
         )
@@ -1481,18 +1644,14 @@ def main():
                 'published': published,
                 'queue': len(
                     s['queue']
-                )
+                ),
+                'attempts': attempts
             },
             ensure_ascii=False
         )
     )
 
-    # Do NOT crash the workflow merely because
-    # AI providers are temporarily unavailable.
-    #
-    # The item is durable in the queue and will be
-    # retried on the next scheduled cycle.
-
 
 if __name__ == '__main__':
     main()
+````
