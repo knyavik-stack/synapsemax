@@ -25,7 +25,7 @@ def load_state():
 def save_state(s):
     with open(STATE_FILE,'w',encoding='utf-8') as f:json.dump(s,f,ensure_ascii=False,indent=2)
 
-def get(url,timeout=25,headers=None):
+def get(url,timeout=12,headers=None):
     req=urllib.request.Request(url,headers=headers or {'User-Agent':'IntilyAI-News/5.1'})
     with urllib.request.urlopen(req,timeout=timeout) as r:return r.read()
 
@@ -64,7 +64,9 @@ def collect():
     all=[]
     for region,q in QUERIES:
         try:
+            started=time.time()
             for x in rss(region,q):x['score']=score(x);x['key']=key(x);all.append(x)
+            if time.time()-started>15: raise TimeoutError('FEED_BUDGET_EXCEEDED')
         except Exception as e:print('FEED_ERROR',region,str(e)[:180])
     all.sort(key=lambda x:(x['score'],x['time']),reverse=True);out=[]
     for x in all:
@@ -76,9 +78,9 @@ def collect():
 def chat(url,model,token,prompt,provider):
     body=json.dumps({'model':model,'messages':[{'role':'system','content':'Ты профессиональный редактор русского Telegram-канала об AI. Всегда отвечай только валидным JSON.'},{'role':'user','content':prompt}],'temperature':0.25,'max_tokens':900}).encode()
     last=None
-    for attempt in range(3):
+    for attempt in range(2):
         try:
-            r=urllib.request.urlopen(urllib.request.Request(url,data=body,headers={'Authorization':'Bearer '+token,'Content-Type':'application/json'}),timeout=60);d=json.loads(r.read().decode());return d['choices'][0]['message']['content']
+            r=urllib.request.urlopen(urllib.request.Request(url,data=body,headers={'Authorization':'Bearer '+token,'Content-Type':'application/json'}),timeout=20);d=json.loads(r.read().decode());return d['choices'][0]['message']['content']
         except urllib.error.HTTPError as e:
             raw=e.read().decode('utf-8','replace');last=RuntimeError(f'{provider}_HTTP_{e.code}: {raw[:300]}')
             if e.code not in (429,500,502,503,504):raise last
@@ -135,14 +137,14 @@ def edit(x):
 
 def telegram(text):
     token=os.environ['TELEGRAM_BOT_TOKEN'];chat_id=os.environ.get('TELEGRAM_CHAT_ID','@intilyshop');payload=json.dumps({'chat_id':chat_id,'text':text,'parse_mode':'HTML','disable_web_page_preview':True}).encode();last=None
-    for attempt in range(4):
+    for attempt in range(3):
         try:
-            r=urllib.request.urlopen(urllib.request.Request(TG_URL.format(token),data=payload,headers={'Content-Type':'application/json'}),timeout=30);d=json.loads(r.read().decode())
+            r=urllib.request.urlopen(urllib.request.Request(TG_URL.format(token),data=payload,headers={'Content-Type':'application/json'}),timeout=15);d=json.loads(r.read().decode())
             if d.get('ok'):print('TELEGRAM_SENT',d.get('result',{}).get('message_id'));return
             last=RuntimeError(str(d))
         except urllib.error.HTTPError as e:
-            raw=e.read().decode('utf-8','replace');last=RuntimeError(raw);wait=min(60,2**attempt*2);time.sleep(wait)
-        except Exception as e:last=e;time.sleep(min(30,2**attempt*2))
+            raw=e.read().decode('utf-8','replace');last=RuntimeError(raw);wait=min(15,2**attempt*2);time.sleep(wait)
+        except Exception as e:last=e;time.sleep(min(8,2**attempt*2))
     raise last or RuntimeError('TELEGRAM_FAILED')
 
 def main():
