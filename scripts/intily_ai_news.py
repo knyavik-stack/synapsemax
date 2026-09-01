@@ -3,6 +3,7 @@ import re
 import json
 import time
 import hashlib
+from difflib import SequenceMatcher
 import html
 import urllib.parse
 import urllib.request
@@ -177,6 +178,12 @@ def load_state():
 
     if not isinstance(s.get('providers'), dict):
         s['providers'] = {}
+
+    # Semantic story memory: recent story fingerprints are stored separately
+    # from URL/title dedup so paraphrased reports of the same event are not
+    # republished as new stories.
+    if not isinstance(s.get('stories'), dict):
+        s['stories'] = {}
 
     return s
 
@@ -364,23 +371,101 @@ def score(x):
     return max(0, min(n, 30))
 
 
+STORY_LOOKBACK_SECONDS = 72 * 3600
+STORY_TITLE_THRESHOLD = 0.58
+STORY_BODY_THRESHOLD = 0.28
+STORY_COMBINED_THRESHOLD = 0.44
+
+# Common Russian/English glue words add noise to semantic comparison.
+STORY_STOPWORDS = {
+    'это', 'как', 'что', 'для', 'при', 'после', 'перед', 'через',
+    'новый', 'новая', 'новое', 'новые', 'который', 'которая', 'которые',
+    'может', 'могут', 'более', 'также', 'уже', 'ещё', 'еще', 'свой',
+    'the', 'and', 'for', 'with', 'from', 'this', 'that', 'new', 'news'
+}
+
+
+def token_set(text):
+    return {
+        w for w in normalize(text).split()
+        if len(w) >= 4 and w not in STORY_STOPWORDS
+    }
+
+
+def jaccard(a, b):
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a | b)
+
+
+def story_similarity(a, b):
+    # Use both word overlap and character-level similarity. Russian headlines
+    # often change word forms (представил/представила, России/российский),
+    # so token-only Jaccard is too brittle for paraphrase detection.
+    at = normalize(a.get('title', ''))
+    bt = normalize(b.get('title', ''))
+    ac = normalize(
+        a.get('title', '') + ' ' + a.get('desc', '')
+    )
+    bc = normalize(
+        b.get('title', '') + ' ' + b.get('desc', '')
+    )
+
+    title_tokens = jaccard(
+        token_set(at),
+        token_set(bt)
+    )
+    title_seq = SequenceMatcher(
+        None, at, bt
+    ).ratio()
+    combined_seq = SequenceMatcher(
+        None, ac, bc
+    ).ratio()
+
+    # Character 3-gram overlap catches inflectional changes without needing
+    # a heavyweight NLP dependency.
+    ag = at.replace(' ', '')
+    bg = bt.replace(' ', '')
+    A = {ag[i:i+3] for i in range(max(0, len(ag) - 2))}
+    B = {bg[i:i+3] for i in range(max(0, len(bg) - 2))}
+    title_grams = (
+        len(A & B) / len(A | B)
+        if A and B else 0.0
+    )
+
+    # Conservative gates: one strong title match, or a strong paraphrase
+    # supported by similarity of the full event description.
+    if title_seq >= 0.76:
+        return title_seq
+
+    if (
+        title_seq >= 0.66
+        and combined_seq >= 0.58
+        and (
+            title_tokens >= 0.18
+            or title_grams >= 0.40
+        )
+    ):
+        return (
+            title_seq * 0.55
+            + combined_seq * 0.30
+            + max(title_tokens, title_grams) * 0.15
+        )
+
+    return max(
+        title_tokens,
+        title_grams * 0.9,
+        title_seq * 0.8
+    )
+
+
 def similarity(a, b):
-    A = {
-        w
-        for w in normalize(a).split()
-        if len(w) > 2
-    }
+    # Backward-compatible title similarity used by existing callers/tests.
+    return jaccard(token_set(a), token_set(b))
 
-    B = {
-        w
-        for w in normalize(b).split()
-        if len(w) > 2
-    }
 
-    if not A or not B:
-        return 0
-
-    return len(A & B) / len(A | B)
+def same_story(a, b):
+    return story_similarity(a, b) >= STORY_COMBINED_THRESHOLD
 
 
 def collect():
@@ -424,10 +509,7 @@ def collect():
             continue
 
         if any(
-            similarity(
-                x['title'],
-                y['title']
-            ) >= 0.72
+            same_story(x, y)
             for y in out
         ):
             continue
@@ -1398,26 +1480,45 @@ def main():
         for x in queue
     }
 
+    # Drop stale semantic memories before comparing new candidates.
+    stories = {
+        k: v
+        for k, v in s['stories'].items()
+        if float(v.get('time', 0) or 0) >= now - STORY_LOOKBACK_SECONDS
+    }
+    s['stories'] = stories
+
+    recent_stories = list(stories.values())
+
     for x in candidates:
 
         if (
-            x['key']
-            not in s['published']
-            and x['key']
-            not in s['known']
-            and x['key']
-            not in queue_keys
+            x['key'] in s['published']
+            or x['key'] in s['known']
+            or x['key'] in queue_keys
         ):
-            x['tier'] = tier(x)
+            continue
 
-            s['known'][
-                x['key']
-            ] = now
+        # Semantic dedup against already queued or recently published stories.
+        # This is intentionally separate from URL/title hash dedup.
+        if any(same_story(x, y) for y in queue):
+            print('STORY_DEDUP_QUEUE', x['title'])
+            continue
 
-            queue.append(x)
-            queue_keys.add(
-                x['key']
-            )
+        if any(same_story(x, y) for y in recent_stories):
+            print('STORY_DEDUP_HISTORY', x['title'])
+            continue
+
+        x['tier'] = tier(x)
+
+        s['known'][
+            x['key']
+        ] = now
+
+        queue.append(x)
+        queue_keys.add(
+            x['key']
+        )
 
     # Remove expired/published items.
     queue = [
@@ -1509,6 +1610,19 @@ def main():
                 x['key']
             ] = int(now)
 
+            # Persist the event representation used for semantic dedup.
+            # Keep it for 72h: enough to suppress recycled/paraphrased stories
+            # without permanently blocking legitimate follow-up developments.
+            s['stories'][
+                x['key']
+            ] = {
+                'time': int(now),
+                'title': x.get('title', ''),
+                'desc': x.get('desc', ''),
+                'source': x.get('source', ''),
+                'region': x.get('region', '')
+            }
+
             published = 1
 
             # Remove exactly the successfully
@@ -1573,6 +1687,13 @@ def main():
         for k, v
         in s['known'].items()
         if v >= cut
+    }
+
+    s['stories'] = {
+        k: v
+        for k, v
+        in s['stories'].items()
+        if float(v.get('time', 0) or 0) >= now - STORY_LOOKBACK_SECONDS
     }
 
     s['last_run'] = (
