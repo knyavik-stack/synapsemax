@@ -37,8 +37,37 @@ jobs:
             echo 'No state changes.'
             exit 0
           fi
+
           git config user.name 'intily-ai-news[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/intily-ai-news-state.json
-          git commit -m 'chore(news): persist publisher state' || true
-          git push
+
+          # State is a production artifact, while docs/code may be pushed to
+          # main independently during the run. Preserve the generated state,
+          # rebase it onto the newest main, and retry the push to avoid losing
+          # state on a normal fast-forward race.
+          cp data/intily-ai-news-state.json /tmp/intily-ai-news-state.json
+
+          for attempt in 1 2 3; do
+            echo "Persist attempt $attempt"
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/intily-ai-news-state.json data/intily-ai-news-state.json
+
+            if git diff --quiet -- data/intily-ai-news-state.json; then
+              echo 'State already matches origin/main.'
+              exit 0
+            fi
+
+            git add data/intily-ai-news-state.json
+            git commit -m 'chore(news): persist publisher state' || true
+
+            if git push origin main; then
+              echo 'State persisted.'
+              exit 0
+            fi
+
+            sleep 2
+          done
+
+          echo 'State persistence failed after retries.'
+          exit 1
