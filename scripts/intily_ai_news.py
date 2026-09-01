@@ -160,10 +160,10 @@ def edit(x):
     elif want_joke and not joke: raise RuntimeError('JOKE_QA_FAILED')
     elif not want_joke: joke=''
     x['tier']=tier(x)
-    esc=lambda s:html.escape(s,quote=True)
+    esc=lambda s:html.escape(str(s),quote=True)
     flag='🇷🇺' if x['region']=='RUSSIA' else '🌍';dt=datetime.fromtimestamp(x['time'],timezone.utc).astimezone(timezone(timedelta(hours=3)))
     jb=('\n\n😏 '+esc(joke)) if joke else ''
-    return f'{flag} <b>{esc(title)}</b>\n\n{esc(body)}\n\n<b>Вывод:</b> {esc(meaning)}{jb}\n\n📰 {esc(x["source"] or "Источник")} · {dt:%d.%m.%Y %H:%M} МСК\n🔗 <a href="{esc(x["link"],quote=True)}">Подробнее</a>'
+    return f'{flag} <b>{esc(title)}</b>\n\n{esc(body)}\n\n<b>Вывод:</b> {esc(meaning)}{jb}\n\n📰 {esc(x["source"] or "Источник")} · {dt:%d.%m.%Y %H:%M} МСК\n🔗 <a href="{html.escape(x["link"],quote=True)}">Подробнее</a>'
 
 def telegram(text):
     token=os.environ['TELEGRAM_BOT_TOKEN'];chat_id=os.environ.get('TELEGRAM_CHAT_ID','@intilyshop');payload=json.dumps({'chat_id':chat_id,'text':text,'parse_mode':'HTML','disable_web_page_preview':True}).encode();last=None
