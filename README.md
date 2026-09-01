@@ -9,4 +9,13 @@
 - Сохранены адаптивная разметка, бренд-ассеты, кейсы, подход, AI Lab и mobile navigation.
 
 ## Запуск
+
 Открыть `index.html` в браузере.
+
+## Project operating system
+
+- [`docs/PROJECT_OPERATING_SYSTEM.md`](docs/PROJECT_OPERATING_SYSTEM.md) — состав проекта, каноническая архитектура, production-контуры, правила продолжения и критерии готовности.
+- [`docs/INTILY_OPERATIONS.md`](docs/INTILY_OPERATIONS.md) — discovery, память, очередь, AI failover, публикация, runtime verification и GREEN/YELLOW/RED статус Intily.
+- [`docs/DECISION_LOG.md`](docs/DECISION_LOG.md) — принятые архитектурные решения и история изменений.
+- [`docs/STRATEGIC_REBASELINE.md`](docs/STRATEGIC_REBASELINE.md) — стратегическая рамка продукта.
+- [`docs/UX_QUALITY_CONTRACT.md`](docs/UX_QUALITY_CONTRACT.md) — UX/QA контракт.

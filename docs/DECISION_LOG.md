@@ -45,3 +45,4 @@ A major decision can be reopened only when new evidence, a material business req
 
 
 | D-036 | Accepted | Post-cleanup main SHA `cf5d2f54b677828ca25b8a655d8d5fd5682537bc` completed Immediate QA run #101 with SUCCESS after the obsolete Assessment bridge was removed from both repository and build pipeline. All release gates passed again, confirming cleanup did not regress H1. Status: IMPLEMENTED + VERIFIED for the post-cleanup product line. RELEASED still requires fresh production smoke against the deployed revision. |
+| D-040 | Accepted | Production verification on 2026-09-01 22:40 UTC confirmed Google News discovery is active: 337 RSS items fetched, 92 candidates after scoring/dedup, 2 new queue admissions, 1 publication, queue=91, heartbeat OK and failures=0. This closes the suspected source-starvation incident; remaining work is backlog pressure and multi-cycle stability observation. |
