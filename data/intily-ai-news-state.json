@@ -13,7 +13,8 @@
     "f54f82d45d360e2b1a032d08fa301b430ac7b1e699358673957e83e54697679c": 1788288507,
     "5565a4747b789180198a3ee2c7286818401927145415e99fe0dff3d2449c6a31": 1788288621,
     "b29fbc78fa233578d25605131361a88ba10e5b7410dae6d5621f25eb1e2d579a": 1788288927,
-    "9bb0b1667536ad371a65d5df3813762040af616127ebbb241354e7adb8668f54": 1788289219
+    "9bb0b1667536ad371a65d5df3813762040af616127ebbb241354e7adb8668f54": 1788289219,
+    "76c3c082186a7ceaf1135ca4bdd19a42181fecad2e0298fc72b34c86e236c382": 1788289526
   },
   "known": {
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788257231.9162014,
@@ -38,33 +39,21 @@
     "1435c5a7e91d6f9581b13ecffe92bbd2c9d792aa7aed4498f7adf6b8894e0f21": 1788273898.1556146,
     "d5983b3afd1a9c3a9e871f3a0baf5f30e284fd9d323b12fba567862a8f86cc26": 1788275326.3628182
   },
-  "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Закон об ИИ, цифровой рубль и самозапрет на азартные игры - Реальное время",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNM241RndaanltMjh6ajdBUXN1dmV0QlBEb3lUaUVjdmU1T1lfaXYzWXNmSndlVnZJbWp4a0gtTzA1cG43ZFY0UkdtdGpBUnpSZlM2djE2RHN1bEdxSld2OV9MdHhmSGFxRUd4cHdMelhpUkhJZ0ZRUmlXdktYTndiWUZtb2x6TEZRVUk0SQ?oc=5",
-      "desc": "Закон об ИИ, цифровой рубль и самозапрет на азартные игры Реальное время",
-      "source": "Реальное время",
-      "time": 1788210000.0,
-      "score": 5,
-      "key": "76c3c082186a7ceaf1135ca4bdd19a42181fecad2e0298fc72b34c86e236c382",
-      "tier": "B"
-    }
-  ],
-  "last_run": "2026-09-01T19:00:24.932288+00:00",
+  "queue": [],
+  "last_run": "2026-09-01T19:05:49.531884+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788289219.8588657,
+    "last_start_ts": 1788289526.8817608,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788289219.8588657,
+    "last_success_ts": 1788289526.8817608,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788289224.5920067
+      "updated_at": 1788289548.9040964
     }
   }
 }
