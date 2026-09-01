@@ -8,7 +8,8 @@
     "771160be410489d81735790d8db12f27a8ea539cfc5a4d2e9acda8b5f775887b": 1788272368,
     "1435c5a7e91d6f9581b13ecffe92bbd2c9d792aa7aed4498f7adf6b8894e0f21": 1788274805,
     "a1c09129f28f657fa03a7a21df11a8b7cbdcd4c8346acfd6bd2cb363cd652efe": 1788275326,
-    "98e46600bfedbca911949ba7b5645072cf789731c81c2c4dc5b0bfc850d893cf": 1788278329
+    "98e46600bfedbca911949ba7b5645072cf789731c81c2c4dc5b0bfc850d893cf": 1788278329,
+    "b4721a6a12e4888bfa5c9a669a22c4ec158357d3fb7ab866eb8c130e48aef4ea": 1788288322
   },
   "known": {
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788257231.9162014,
@@ -34,17 +35,6 @@
     "d5983b3afd1a9c3a9e871f3a0baf5f30e284fd9d323b12fba567862a8f86cc26": 1788275326.3628182
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Anthropic представила стандарт подключения ИИ-агентов к реальным устройствам - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSTIwUjJCUTR4bDFJNm1mZmpDaWw4aUxKdW1EM3lDNVJmZll3UnBKel9iX21iRER5cEFiRnIzeEV3elN1ZzBSNUp2bE1tQkpmV2V4QUNNeFBqd05wN3dPN19hU2tQWUlBOWk1dkxXazlucFN4WG41ZHM5b2x2RXZGc1FZRERCb1RCbE54MWFlQTdMU1lENVRLNEw2UjlWS3Jrc00xbXJTamQtcG1UMEEtVTFjS3gtSTlwRXRN?oc=5",
-      "desc": "Anthropic представила стандарт подключения ИИ-агентов к реальным устройствам prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788224021.0,
-      "score": 9,
-      "key": "b4721a6a12e4888bfa5c9a669a22c4ec158357d3fb7ab866eb8c130e48aef4ea",
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Компания Itglobal.com запустила новый защитный модуль корпоративных данных в рамках сервиса AIaaS - prospect.com.ru",
@@ -112,14 +102,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T18:30:27.172299+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-01T18:45:29.412798+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788287423.2313256,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788278329.0533106,
-    "consecutive_failures": 5
+    "last_start_ts": 1788288322.0276194,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788288322.0276194,
+    "consecutive_failures": 0
   },
-  "providers": {}
+  "providers": {
+    "GEMINI": {
+      "disabled_until": 0,
+      "reason": "",
+      "updated_at": 1788288328.8239644
+    }
+  }
 }
