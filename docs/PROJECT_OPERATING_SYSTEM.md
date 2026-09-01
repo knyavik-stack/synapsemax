@@ -72,3 +72,8 @@ Production-ready — это не только успешный build. Должн
 ## 8. Правило продолжения
 
 Новые изменения сверяются с этим документом и Decision Log. После существенного изменения обновляются код, verification и документация. GitHub должен оставаться источником истины, позволяющим продолжить проект без восстановления состояния из памяти чата.
+
+
+## Latest reliability change
+
+Commit `8b34a9130b182a65164ba36b5e3ed0f1e9ccf4fd` separates queue retention from discovery freshness: queued stories are retained for 7 days, while discovery remains 24h. Failed queue items now receive exponential retry backoff from 5 minutes up to 6 hours.
