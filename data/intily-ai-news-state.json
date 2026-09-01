@@ -10,7 +10,8 @@
     "a1c09129f28f657fa03a7a21df11a8b7cbdcd4c8346acfd6bd2cb363cd652efe": 1788275326,
     "98e46600bfedbca911949ba7b5645072cf789731c81c2c4dc5b0bfc850d893cf": 1788278329,
     "b4721a6a12e4888bfa5c9a669a22c4ec158357d3fb7ab866eb8c130e48aef4ea": 1788288322,
-    "f54f82d45d360e2b1a032d08fa301b430ac7b1e699358673957e83e54697679c": 1788288507
+    "f54f82d45d360e2b1a032d08fa301b430ac7b1e699358673957e83e54697679c": 1788288507,
+    "5565a4747b789180198a3ee2c7286818401927145415e99fe0dff3d2449c6a31": 1788288621
   },
   "known": {
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788257231.9162014,
@@ -36,17 +37,6 @@
     "d5983b3afd1a9c3a9e871f3a0baf5f30e284fd9d323b12fba567862a8f86cc26": 1788275326.3628182
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Как конвейеры телеметрии помогают контролировать расходы на ИИ-агентов - itweek.ru",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fUzBYMlFaUW9VTl95RzVERDFWTHZfM3NJV0cwSnBwdGlza1p5ZUlrOFlDbk5mbzY2RDNGMl9XcEZUakRaVEpYVENieE5zRFVCM1BEeG1uYkViTVBrc3c?oc=5",
-      "desc": "Как конвейеры телеметрии помогают контролировать расходы на ИИ-агентов itweek.ru",
-      "source": "itweek.ru",
-      "time": 1788247809.0,
-      "score": 5,
-      "key": "5565a4747b789180198a3ee2c7286818401927145415e99fe0dff3d2449c6a31",
-      "tier": "B"
-    },
     {
       "region": "RUSSIA",
       "title": "«2ГИС» запустил сервис логистики - prospect.com.ru",
@@ -81,20 +71,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T18:48:36.999237+00:00",
+  "last_run": "2026-09-01T18:50:37.330888+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788288507.8602846,
+    "last_start_ts": 1788288621.026602,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788288507.8602846,
+    "last_success_ts": 1788288621.026602,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788288516.4578607
+      "updated_at": 1788288636.8704534
     }
   }
 }
