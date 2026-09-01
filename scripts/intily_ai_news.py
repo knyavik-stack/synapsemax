@@ -87,15 +87,23 @@ def chat(url,model,token,prompt,provider):
     raise last or RuntimeError(provider+'_FAILED')
 
 def ai(prompt):
-    g=os.environ.get('GROQ_API_KEY')
-    if g:
-        try:return chat(GROQ_URL,GROQ_MODEL,g,prompt,'GROQ')
-        except Exception as e:print('GROQ_FAILED',e)
-    o=os.environ.get('OPENAI_API_KEY')
-    if o:
-        try:return chat(OPENAI_URL,OPENAI_MODEL,o,prompt,'OPENAI')
-        except Exception as e:print('OPENAI_FAILED',e)
-    raise RuntimeError('AI_PROVIDERS_UNAVAILABLE')
+    errors=[]
+    providers=[('GROQ',GROQ_URL,GROQ_MODEL,os.environ.get('GROQ_API_KEY')),('OPENAI',OPENAI_URL,OPENAI_MODEL,os.environ.get('OPENAI_API_KEY'))]
+    for name,url,model,token in providers:
+        if not token:
+            print(name+'_SKIPPED_NO_KEY')
+            continue
+        try:
+            print('AI_PROVIDER_ATTEMPT',name)
+            result=chat(url,model,token,prompt,name)
+            if result and len(result.strip())>20:
+                print('AI_PROVIDER_OK',name)
+                return result
+            raise RuntimeError('EMPTY_RESPONSE')
+        except Exception as ex:
+            errors.append(name+': '+str(ex)[:180])
+            print('AI_PROVIDER_FAILED',name,str(ex)[:180])
+    raise RuntimeError('AI_PROVIDERS_UNAVAILABLE | '+' | '.join(errors))
 
 def russian_ok(text):
     clean=re.sub(r'https?://\S+|<[^>]+>',' ',text); c=len(re.findall(r'[А-Яа-яЁё]',clean)); l=len(re.findall(r'[A-Za-z]',clean)); words=len(clean.split())
