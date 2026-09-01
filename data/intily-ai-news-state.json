@@ -1,5 +1,9 @@
 {
-  "published": {},
+  "published": {
+    "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788261333,
+    "2ef8d948ff8a488b13ada31e923d04bb6b8f4faadc201cf47303658fd94fe12d": 1788261333,
+    "90ffca46a5722be4cfc8cc40b173ce59d0d7711acba7eb8074e256ab8a2c60db": 1788261333
+  },
   "known": {
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788257231.9162014,
     "90ffca46a5722be4cfc8cc40b173ce59d0d7711acba7eb8074e256ab8a2c60db": 1788257231.9162014,
@@ -21,36 +25,6 @@
     "3132fc310f2e84134f09f274fcbcb8ac7400a28abcf8ce440a4f9c63b8bdc9b2": 1788260726.4261858
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Nvidia покупает Hugging Face за 12,9 миллиарда долларов - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR0RMa0tzNDZRdzBINXNkRS1rSnp4dW5LVEhubkUtNk5NVU9HMkhuTDluaTRWWXd2Um9wd1QtUENPb1A4YnAtbmhtQ3pFTHZYVno1Z29BMGozTGhvSFZhdHMwNDVXZXh5VDRQNkVySUU1N2dIMTFLWTRncUsyY29GME9FUEJweDJ0eXJTb0JvRlhrRE1SNGFEdVoxUDQ?oc=5",
-      "desc": "Nvidia покупает Hugging Face за 12,9 миллиарда долларов prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788212326.0,
-      "score": 13,
-      "key": "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Сбер запустил бесплатные курсы по агентной разработке - Компьютерра",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWlFuYWZkZ3NrUVM2MmlQTmEwVjBVbllkOGMxZFR4M3VJakJCUF9DbWVYX2JpdzU1RGEwdWlscE4zNTVweU5pVEY3enBqN0F6VmxhbHBJbFZfNXRxM0ZXTzdZd2tQek41cnJzSXd0RDlhYjBHdHNtQUozQnR1QTZ6VlRXdDFSNmVyV1BEWWZJSkZZaE9QVmxzbFM1czB4SWJ4RFFYSHp3MU5NVUkxVXc?oc=5",
-      "desc": "Сбер запустил бесплатные курсы по агентной разработке Компьютерра",
-      "source": "Компьютерра",
-      "time": 1788258044.0,
-      "score": 12,
-      "key": "2ef8d948ff8a488b13ada31e923d04bb6b8f4faadc201cf47303658fd94fe12d"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "AI-агенты удаляют базы данных за секунды: безопасность не поспевает - Techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5rRVhzZmFJNEVTcmdlLVpOSGZIUWNsS0FSQmU3NlpjMGEycThsaktQUzRxcy0xaWRwMFpsaHpjWnU2VmNsSjVCazBtRkVPa2Q2TUx3dF9CaGUxeUZXakU3NGFPWWRWbnNyNEtCMHFxbGJKNG8?oc=5",
-      "desc": "AI-агенты удаляют базы данных за секунды: безопасность не поспевает Techora.ru",
-      "source": "Techora.ru",
-      "time": 1788255592.0,
-      "score": 12,
-      "key": "90ffca46a5722be4cfc8cc40b173ce59d0d7711acba7eb8074e256ab8a2c60db"
-    },
     {
       "region": "RUSSIA",
       "title": "«ИИ может стать дьяволом»: медиабизнес обсудил в ОП регулирование нейросетей - Ведомости",
@@ -202,6 +176,6 @@
       "key": "3132fc310f2e84134f09f274fcbcb8ac7400a28abcf8ce440a4f9c63b8bdc9b2"
     }
   ],
-  "last_run": "2026-09-01T11:07:21.217589+00:00",
-  "last_published": 0
+  "last_run": "2026-09-01T11:16:04.159887+00:00",
+  "last_published": 3
 }
