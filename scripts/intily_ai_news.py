@@ -1,5 +1,6 @@
 import os, re, json, time, hashlib, html, urllib.parse, urllib.request
 from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
 LOOKBACK=timedelta(hours=24); MAX_PUBLISH=5; MIN_SCORE=7; MAX_QUEUE=100
@@ -35,8 +36,9 @@ def rss(region,q):
     root=ET.fromstring(get('https://news.google.com/rss/search?'+p));out=[]; raw_count=0
     for it in root.findall('.//item'):
         title=html.unescape((it.findtext('title') or '').strip());link=(it.findtext('link') or '').strip();desc=re.sub(r'<[^>]+>',' ',it.findtext('description') or '');desc=re.sub(r'\s+',' ',html.unescape(desc)).strip();source=(it.findtext('source') or '').strip();raw=it.findtext('pubDate') or ''
-        try:dt=datetime.strptime(raw,'%a, %d %b %Y %H:%M:%S %z')
+        try:dt=parsedate_to_datetime(raw)
         except Exception:continue
+        if dt.tzinfo is None:dt=dt.replace(tzinfo=timezone.utc)
         if not title or not link:continue
         raw_count+=1
         if datetime.now(timezone.utc)-dt>LOOKBACK:continue
