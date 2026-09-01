@@ -5,7 +5,7 @@ from xml.etree import ElementTree as ET
 
 LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=7; MAX_QUEUE=100
 STATE_FILE=os.getenv('STATE_FILE','data/intily-ai-news-state.json')
-MODEL='gpt-5.6-luna'; AI_URL='https://api.openai.com/v1/chat/completions'
+GROQ_MODEL='openai/gpt-oss-120b'; GROQ_URL='https://api.groq.com/openai/v1/chat/completions'; OPENAI_MODEL='gpt-4o-mini'; OPENAI_URL='https://api.openai.com/v1/chat/completions'
 TG_URL='https://api.telegram.org/bot{}/sendMessage'
 QUERIES=[('WORLD','AI artificial intelligence OpenAI Anthropic Google DeepMind Microsoft Meta Nvidia'),('WORLD','AI model launch release agent robotics chips regulation safety research'),('WORLD','artificial intelligence breakthrough investment acquisition security AI agents'),('RUSSIA','ИИ искусственный интеллект нейросети Россия Яндекс Сбер VK'),('RUSSIA','ИИ нейросети регулирование закон инвестиции технологии Россия'),('RUSSIA','искусственный интеллект российские компании разработка модели агент')]
 WEIGHTS={'launch':5,'release':5,'model':4,'agent':5,'breakthrough':7,'research':3,'security':5,'safety':5,'regulation':5,'law':5,'investment':4,'billion':5,'acquisition':5,'chip':4,'gpu':4,'openai':4,'anthropic':4,'google':3,'deepmind':4,'nvidia':4,'microsoft':3,'yandex':4,'sber':4,'закон':6,'регулир':5,'миллиард':5,'запуст':5,'выпуст':5,'агент':5,'модель':4,'нейросет':4,'исследован':3,'инвести':4,'покуп':5,'сделк':4,'безопасност':5}
@@ -75,27 +75,38 @@ def collect():
         out.append(x)
     return out
 
-def ai(prompt):
-    body=json.dumps({'model':MODEL,'messages':[{'role':'system','content':'Ты профессиональный русскоязычный редактор Telegram-канала об AI. Отвечай только JSON.'},{'role':'user','content':prompt}],'temperature':0.35,'max_tokens':900}).encode()
+def _chat(url, model, token, prompt, provider):
+    body=json.dumps({'model':model,'messages':[{'role':'system','content':'Ты профессиональный русскоязычный редактор Telegram-канала об AI. Отвечай только JSON.'},{'role':'user','content':prompt}],'temperature':0.35,'max_tokens':900}).encode()
     last=None
     for attempt in range(5):
-        req=urllib.request.Request(AI_URL,data=body,headers={'Authorization':'Bearer '+os.environ['OPENAI_API_KEY'],'Content-Type':'application/json'})
+        req=urllib.request.Request(url,data=body,headers={'Authorization':'Bearer '+token,'Content-Type':'application/json'})
         try:
             with urllib.request.urlopen(req,timeout=60) as r:data=json.loads(r.read().decode())
-            return data['choices'][0]['message']['content']
+            content=data['choices'][0]['message']['content']
+            print('AI_OK',provider,'attempt',attempt+1)
+            return content
         except urllib.error.HTTPError as e:
             raw=e.read().decode('utf-8','replace')
-            last=RuntimeError(f'OPENAI_HTTP_{e.code}: {raw[:500]}')
-            if e.code != 429: raise last
-            try:
-                retry=max(1,min(int(e.headers.get('Retry-After','5')),60))
-            except Exception: retry=min(5*(2**attempt),60)
-            print('OPENAI_429 retry_in',retry,'attempt',attempt+1)
-            time.sleep(retry)
+            last=RuntimeError(f'{provider}_HTTP_{e.code}: {raw[:500]}')
+            if e.code not in (429,500,502,503,504): raise last
+            retry=2**attempt
+            try: retry=max(retry,min(int(e.headers.get('Retry-After','2')),60))
+            except Exception: pass
+            print(provider+'_RETRY',e.code,'retry_in',retry,'attempt',attempt+1)
+            time.sleep(min(retry,60))
         except Exception as e:
-            last=e
-            time.sleep(min(2**attempt,30))
+            last=e;time.sleep(min(2**attempt,30))
     raise last
+
+def ai(prompt):
+    groq=os.environ.get('GROQ_API_KEY')
+    if groq:
+        try:return _chat(GROQ_URL,GROQ_MODEL,groq,prompt,'GROQ')
+        except Exception as e:print('GROQ_FAILED',e)
+    openai=os.environ.get('OPENAI_API_KEY')
+    if openai:
+        return _chat(OPENAI_URL,OPENAI_MODEL,openai,prompt,'OPENAI_FALLBACK')
+    raise RuntimeError('AI_PROVIDER_UNAVAILABLE: GROQ_API_KEY and OPENAI_API_KEY are missing or unavailable')
 
 def russian_ok(text):
     clean=re.sub(r'https?://\S+|<[^>]+>','',text);c=len(re.findall(r'[А-Яа-яЁё]',clean));l=len(re.findall(r'[A-Za-z]',clean))
