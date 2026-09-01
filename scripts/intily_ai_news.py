@@ -164,12 +164,17 @@ def main():
     for x in q: x['tier']=x.get('tier') or tier(x)
     tier_rank={'S':3,'A':2,'B':1}
     q.sort(key=lambda x:(tier_rank.get(x.get('tier','B'),1),x.get('score',0),x.get('time',0)),reverse=True)
-    published=0;remaining=[]
-    for x in q:
-        if published>=MAX_PUBLISH or x.get('score',0)<MIN_SCORE:remaining.append(x);continue
+    published=0;remaining=list(q)
+    # One AI edit + one Telegram delivery per 5-minute cycle keeps the cycle bounded.
+    for idx,x in enumerate(q):
+        if x.get('score',0)<MIN_SCORE: continue
         try:
-            post=edit(x);telegram(post);s['published'][x['key']]=int(now);published+=1;print('PUBLISHED',x['title'])
-        except Exception as e:print('ITEM_FAILED',x['title'],str(e)[:240]);remaining.append(x)
+            post=edit(x);telegram(post);s['published'][x['key']]=int(now);published=1
+            remaining.pop(idx);print('PUBLISHED',x['title']);break
+        except Exception as e:
+            print('ITEM_FAILED',x['title'],str(e)[:240])
+            # Keep failed item in durable queue; try it again on a later cycle.
+            break
     s['queue']=remaining[:MAX_QUEUE]
     s['published']={k:v for k,v in s['published'].items() if v>=cut};s['known']={k:v for k,v in s['known'].items() if v>=cut};s['last_run']=datetime.now(timezone.utc).isoformat();s['last_published']=published
     health['last_success_ts']=now
