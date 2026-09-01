@@ -1,8 +1,6 @@
 name: Intily AI News Publisher
 
 on:
-  schedule:
-    - cron: '1-59/5 * * * *'
   workflow_dispatch:
 
 permissions:
