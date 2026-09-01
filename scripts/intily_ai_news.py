@@ -24,6 +24,9 @@ LOOKBACK = timedelta(hours=24)
 MAX_PUBLISH = 1
 MIN_SCORE = 5
 MAX_QUEUE = 100
+QUEUE_RETENTION = timedelta(days=7)
+QUEUE_RETRY_BASE_SECONDS = 300
+QUEUE_RETRY_MAX_SECONDS = 6 * 3600
 
 JOKE_RATE = 0.80
 
@@ -1532,15 +1535,17 @@ def main():
           'queue_total', len(queue))
 
     # Remove expired/published items.
+    # Discovery freshness is 24h, but queued stories need a separate
+    # retention window because publication is intentionally slower than
+    # discovery. Never discard a valid backlog merely because it is older
+    # than the discovery window.
     queue = [
         x
         for x in queue
         if (
             x.get('time', 0)
-            >= now
-            - LOOKBACK.total_seconds()
-            and x.get('key')
-            not in s['published']
+            >= now - QUEUE_RETENTION.total_seconds()
+            and x.get('key') not in s['published']
         )
     ]
 
@@ -1592,6 +1597,11 @@ def main():
             break
 
         if x.get('score', 0) < MIN_SCORE:
+            continue
+
+        next_retry_at = float(x.get('next_retry_at', 0) or 0)
+        if next_retry_at > now:
+            print('QUEUE_RETRY_WAIT', x['title'], int(next_retry_at - now))
             continue
 
         attempts += 1
@@ -1678,6 +1688,12 @@ def main():
             x['last_failed_at'] = int(now)
             x['last_failure'] = reason
             x['failure_count'] = int(x.get('failure_count', 0) or 0) + 1
+            retry_delay = min(
+                QUEUE_RETRY_MAX_SECONDS,
+                QUEUE_RETRY_BASE_SECONDS * (2 ** max(0, x['failure_count'] - 1))
+            )
+            x['next_retry_at'] = int(now + retry_delay)
+            print('QUEUE_RETRY_SCHEDULED', x['title'], retry_delay)
 
             continue
 
