@@ -108,3 +108,8 @@ failures: 0
 ## Operational rule
 
 Обычный production workflow не запускается вручную. Канонический production trigger — Cloudflare Worker. Ручные/diagnostic executions используются только для согласованной диагностики.
+
+
+## Latest reliability change
+
+2026-09-01: queue retention was separated from discovery freshness and set to 7 days. Failed items receive durable exponential retry scheduling from 5 minutes up to 6 hours.
