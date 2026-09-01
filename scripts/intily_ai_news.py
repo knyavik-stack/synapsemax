@@ -45,6 +45,11 @@ STATE_FILE = os.environ.get(
     'data/intily-ai-news-state.json'
 )
 
+# Exact RSS-item memory is only an ingestion guard. It must never act as a
+# 30-day tombstone for an unpublished story. Semantic published history is kept
+# separately in stories.
+KNOWN_LOOKBACK_SECONDS = 6 * 3600
+
 
 # ------------------------------------------------------------
 # Provider models
@@ -71,29 +76,18 @@ TG_URL = 'https://api.telegram.org/bot{}/sendMessage'
 # ------------------------------------------------------------
 
 QUERIES = [
-    (
-        'WORLD',
-        'AI artificial intelligence OpenAI Anthropic Google DeepMind '
-        'Microsoft Meta Nvidia'
-    ),
-    (
-        'WORLD',
-        'AI model launch release agent robotics chips regulation '
-        'safety research'
-    ),
-    (
-        'WORLD',
-        'artificial intelligence breakthrough investment acquisition '
-        'security AI agents'
-    ),
-    (
-        'RUSSIA',
-        'ИИ искусственный интеллект нейросети Россия Яндекс Сбер VK'
-    ),
-    (
-        'RUSSIA',
-        'ИИ нейросети регулирование закон инвестиции технологии Россия'
-    )
+    ('WORLD', 'AI artificial intelligence'),
+    ('WORLD', 'OpenAI AI news model agent'),
+    ('WORLD', 'Anthropic Claude AI news'),
+    ('WORLD', 'Google DeepMind Gemini AI news'),
+    ('WORLD', 'AI agents robotics'),
+    ('WORLD', 'AI chips Nvidia GPU'),
+    ('WORLD', 'AI regulation safety law'),
+    ('WORLD', 'AI investment acquisition funding'),
+    ('WORLD', 'artificial intelligence research breakthrough'),
+    ('RUSSIA', 'ИИ искусственный интеллект нейросети Россия'),
+    ('RUSSIA', 'Яндекс Сбер VK ИИ нейросети'),
+    ('RUSSIA', 'ИИ регулирование закон инвестиции технологии Россия')
 ]
 
 
@@ -470,52 +464,49 @@ def same_story(a, b):
 
 def collect():
     all_items = []
+    raw_total = 0
+    scored_out = 0
+    story_dupes = 0
 
     for region, q in QUERIES:
-
         try:
             started = time.time()
+            items = rss(region, q)
+            raw_total += len(items)
 
-            for x in rss(region, q):
+            for x in items:
                 x['score'] = score(x)
                 x['key'] = key(x)
                 all_items.append(x)
 
+            print('RSS_QUERY', region, 'raw', len(items), q[:80])
+
             if time.time() - started > 15:
-                raise TimeoutError(
-                    'FEED_BUDGET_EXCEEDED'
-                )
+                raise TimeoutError('FEED_BUDGET_EXCEEDED')
 
         except Exception as e:
-            print(
-                'FEED_ERROR',
-                region,
-                str(e)[:180]
-            )
+            print('FEED_ERROR', region, str(e)[:180])
 
     all_items.sort(
-        key=lambda x: (
-            x['score'],
-            x['time']
-        ),
+        key=lambda x: (x['score'], x['time']),
         reverse=True
     )
 
     out = []
-
     for x in all_items:
-
         if x['score'] < MIN_SCORE:
+            scored_out += 1
             continue
 
-        if any(
-            same_story(x, y)
-            for y in out
-        ):
+        if any(same_story(x, y) for y in out):
+            story_dupes += 1
             continue
 
         out.append(x)
 
+    print('INGEST_SUMMARY', 'raw', raw_total, 'all', len(all_items),
+          'score_filtered', scored_out, 'story_dedup', story_dupes,
+          'candidates', len(out))
     return out
 
 
@@ -1490,35 +1481,55 @@ def main():
 
     recent_stories = list(stories.values())
 
+    # Short-lived exact-item memory. Long-lived story suppression is handled by
+    # published/story memory, not by known.
+    s['known'] = {
+        k: v for k, v in s['known'].items()
+        if float(v or 0) >= now - KNOWN_LOOKBACK_SECONDS
+    }
+
+    admission = {
+        'published_key': 0,
+        'known_recent': 0,
+        'already_queued': 0,
+        'story_queue': 0,
+        'story_history': 0,
+        'added': 0
+    }
+
     for x in candidates:
-
-        if (
-            x['key'] in s['published']
-            or x['key'] in s['known']
-            or x['key'] in queue_keys
-        ):
+        if x['key'] in s['published']:
+            admission['published_key'] += 1
             continue
-
-        # Semantic dedup against already queued or recently published stories.
-        # This is intentionally separate from URL/title hash dedup.
+        if x['key'] in queue_keys:
+            admission['already_queued'] += 1
+            continue
+        if x['key'] in s['known']:
+            admission['known_recent'] += 1
+            continue
         if any(same_story(x, y) for y in queue):
+            admission['story_queue'] += 1
             print('STORY_DEDUP_QUEUE', x['title'])
             continue
-
         if any(same_story(x, y) for y in recent_stories):
+            admission['story_history'] += 1
             print('STORY_DEDUP_HISTORY', x['title'])
             continue
 
         x['tier'] = tier(x)
-
-        s['known'][
-            x['key']
-        ] = now
-
+        s['known'][x['key']] = now
         queue.append(x)
-        queue_keys.add(
-            x['key']
-        )
+        queue_keys.add(x['key'])
+        admission['added'] += 1
+
+    print('QUEUE_INGEST', 'candidates', len(candidates),
+          'added', admission['added'],
+          'published_key', admission['published_key'],
+          'known_recent', admission['known_recent'],
+          'already_queued', admission['already_queued'],
+          'story_queue', admission['story_queue'],
+          'story_history', admission['story_history'],
+          'queue_total', len(queue))
 
     # Remove expired/published items.
     queue = [
@@ -1662,12 +1673,11 @@ def main():
             # durable in the queue for a future run.
             # ------------------------------------------------
 
-            if x in remaining:
-                remaining.remove(x)
-
-            # Save diagnostic information.
+            # Keep failed item in the durable queue. Continue to another item
+            # this cycle, but do not silently drop the failed story.
             x['last_failed_at'] = int(now)
             x['last_failure'] = reason
+            x['failure_count'] = int(x.get('failure_count', 0) or 0) + 1
 
             continue
 
@@ -1684,9 +1694,8 @@ def main():
 
     s['known'] = {
         k: v
-        for k, v
-        in s['known'].items()
-        if v >= cut
+        for k, v in s['known'].items()
+        if float(v or 0) >= now - KNOWN_LOOKBACK_SECONDS
     }
 
     s['stories'] = {
