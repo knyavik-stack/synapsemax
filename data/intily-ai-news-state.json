@@ -4,7 +4,8 @@
     "2ef8d948ff8a488b13ada31e923d04bb6b8f4faadc201cf47303658fd94fe12d": 1788261333,
     "90ffca46a5722be4cfc8cc40b173ce59d0d7711acba7eb8074e256ab8a2c60db": 1788261333,
     "96107b6ce77d04e31cdedc45a326c6d72c4a9d51dcafd0d22f01e60cd9b1bf43": 1788267278,
-    "8c3e9329a7a0fd323c914f33d9b32675bdcc009a2efcd1ae89e700103e071540": 1788270054
+    "8c3e9329a7a0fd323c914f33d9b32675bdcc009a2efcd1ae89e700103e071540": 1788270054,
+    "771160be410489d81735790d8db12f27a8ea539cfc5a4d2e9acda8b5f775887b": 1788272368
   },
   "known": {
     "caf5741bad82c4a4328553564e90c91518bc3508c5c0d39cfc4a06e534335ed3": 1788257231.9162014,
@@ -28,17 +29,6 @@
     "f54f82d45d360e2b1a032d08fa301b430ac7b1e699358673957e83e54697679c": 1788270054.8217483
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Квантовый компьютер в мессенджере, безопасность для корпоративных ИИ-агентов — и ещё 8 российских стартапов. Спецнабор - habr.com",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80OG1sclZ3ZnREOEZmTEN6eGhrdzVDejA5ZS0zeXppZ01NQXdHS3pUUGlaRUhzanlOLUZTc2NDNFRoZlR3eUxRV3REMFRMVWlxTEJ2VkNNWTPSAVhBVV95cUxPNDhtbHJWd2Z0RDhGZkxDenhoa3c1Q3owOWUtM3l6aWdNTUF3R0t6VFBpWkVIc2p5Ti1GU3NjQzRUaGZUd3lMUVd0RDBUTFVpcUxCdlZDTVkz?oc=5",
-      "desc": "Квантовый компьютер в мессенджере, безопасность для корпоративных ИИ-агентов — и ещё 8 российских стартапов. Спецнабор habr.com",
-      "source": "habr.com",
-      "time": 1788241510.0,
-      "score": 10,
-      "key": "771160be410489d81735790d8db12f27a8ea539cfc5a4d2e9acda8b5f775887b",
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Квантовый компьютер в мессенджере, безопасность для корпоративных ИИ-агентов — и ещё 8 российских стартапов. Спецнабор - Хабр",
@@ -103,17 +93,6 @@
       "time": 1788190147.0,
       "score": 8,
       "key": "223a0dc4cb8781bfee6d3a440a101172308595709d9fddee8dabe96f9498bf15",
-      "tier": "B"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "«ИИ может стать дьяволом»: медиабизнес обсудил в ОП регулирование нейросетей - vedomosti.ru",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUdveG1OYzlpZkVEcm9TT28tdGVRam1HSTRpNU5GWkZQLTIteDZHTVZCWnY1SmVyS0VIWXEzbEhqbEpaTVdCeUZYdnpacWNjM3JVdEJIUXZVbUZ1cm1na0hISk1sNGc0OWVDY2dCN0E0Y1BINmQyeWxaN3kxZG1VWWhNOF9oMGtkeUZYeEdCWU1sYWRkNFE?oc=5",
-      "desc": "«ИИ может стать дьяволом»: медиабизнес обсудил в ОП регулирование нейросетей vedomosti.ru",
-      "source": "vedomosti.ru",
-      "time": 1788184290.0,
-      "score": 8,
-      "key": "9370808855437e5853342cfdee87eb4c0a4462403ad3ed35e3f009238533e408",
       "tier": "B"
     },
     {
@@ -183,13 +162,13 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T13:41:09.698331+00:00",
+  "last_run": "2026-09-01T14:19:42.947915+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788270054.8217483,
+    "last_start_ts": 1788272368.2400494,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788270054.8217483,
+    "last_success_ts": 1788272368.2400494,
     "consecutive_failures": 0
   }
 }
