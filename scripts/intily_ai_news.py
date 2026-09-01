@@ -3,7 +3,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
-LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=5; MAX_QUEUE=100; JOKE_RATE=0.80
+LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=5; MAX_QUEUE=100; JOKE_RATE=0.80; HEARTBEAT_MAX_SECONDS=900; FAILURE_ALERT_THRESHOLD=3
 STATE_FILE=os.environ.get('STATE_FILE','data/intily-ai-news-state.json')
 GROQ_MODEL='llama-3.1-8b-instant'; GROQ_URL='https://api.groq.com/openai/v1/chat/completions'
 OPENAI_MODEL='gpt-4o-mini'; OPENAI_URL='https://api.openai.com/v1/chat/completions'
@@ -18,7 +18,7 @@ def load_state():
     try:
         with open(STATE_FILE,encoding='utf-8') as f:s=json.load(f)
     except Exception:s={}
-    for k,v in [('published',{}),('known',{}),('queue',[])]:
+    for k,v in [('published',{}),('known',{}),('queue',[]),('health',{})]:
         if not isinstance(s.get(k),dict if k!='queue' else list): s[k]={} if k!='queue' else []
     return s
 
@@ -139,6 +139,13 @@ def telegram(text):
 
 def main():
     s=load_state();now=time.time();cut=now-30*86400
+    health=s.setdefault('health',{})
+    prev=float(health.get('last_success_ts',0) or 0)
+    if prev and now-prev>HEARTBEAT_MAX_SECONDS:
+        print('WATCHDOG_MISSED_HEARTBEAT',int(now-prev))
+    health['last_start_ts']=now
+    health['last_status']='RUNNING'
+    health['last_error']=''
     candidates=collect();q=s['queue'];qkeys={x.get('key') for x in q}
     for x in candidates:
         if x['key'] not in s['published'] and x['key'] not in s['known'] and x['key'] not in qkeys:
@@ -154,7 +161,16 @@ def main():
             post=edit(x);telegram(post);s['published'][x['key']]=int(now);published+=1;print('PUBLISHED',x['title'])
         except Exception as e:print('ITEM_FAILED',x['title'],str(e)[:240]);remaining.append(x)
     s['queue']=remaining[:MAX_QUEUE]
-    s['published']={k:v for k,v in s['published'].items() if v>=cut};s['known']={k:v for k,v in s['known'].items() if v>=cut};s['last_run']=datetime.now(timezone.utc).isoformat();s['last_published']=published;save_state(s)
+    s['published']={k:v for k,v in s['published'].items() if v>=cut};s['known']={k:v for k,v in s['known'].items() if v>=cut};s['last_run']=datetime.now(timezone.utc).isoformat();s['last_published']=published
+    health['last_success_ts']=now
+    health['last_status']='OK' if (not candidates or published>0) else 'FAILED_NO_PUBLISH'
+    if health['last_status']=='FAILED_NO_PUBLISH':
+        health['consecutive_failures']=int(health.get('consecutive_failures',0))+1
+        health['last_error']='candidates exist but Telegram received zero posts'
+    else:
+        health['consecutive_failures']=0;health['last_error']=''
+    save_state(s)
+    print('HEARTBEAT',health['last_status'],'queue',len(s['queue']),'failures',health['consecutive_failures'])
     print(json.dumps({'candidates':len(candidates),'published':published,'queue':len(s['queue'])},ensure_ascii=False))
     if candidates and published==0:raise RuntimeError('NO_PUBLISH: candidates exist but Telegram received zero posts')
 
