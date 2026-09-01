@@ -52,8 +52,9 @@ jobs:
                   data=json.loads(get('https://translate.googleapis.com/translate_a/single?'+q,15).decode('utf-8'))
                   out=''.join(x[0] for x in data[0] if x and x[0])
                   return out.strip() or text
-              except Exception:
-                  return text
+              except Exception as e:
+                  print('translation error:', e)
+                  return None
 
           def clean_ru(text):
               text=re.sub(r'\s+',' ',text or '').strip()
@@ -130,9 +131,14 @@ jobs:
               return 'Вывод: событие показывает, куда сейчас движется AI-рынок и какие технологии могут стать значимыми уже в ближайшее время.'
 
           def send(c):
-              ru_title=clean_ru(translate(c['title']))
-              ru_desc=clean_ru(translate(c['desc']))
-              if not ru_desc: ru_desc='Подробности события и его последствия раскрыты в материале источника.'
+              translated_title=translate(c['title'])
+              translated_desc=translate(c['desc'])
+              if not translated_title or not translated_desc:
+                  raise RuntimeError('Russian translation unavailable; publication blocked')
+              ru_title=clean_ru(translated_title)
+              ru_desc=clean_ru(translated_desc)
+              if not ru_title or not ru_desc:
+                  raise RuntimeError('Russian editorial text incomplete; publication blocked')
               if len(ru_desc)>900: ru_desc=ru_desc[:900].rsplit(' ',1)[0]+'…'
               flag='🌍' if c['region']=='WORLD' else '🇷🇺'
               joke=''
