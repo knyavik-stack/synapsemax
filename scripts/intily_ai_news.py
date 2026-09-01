@@ -6,13 +6,7 @@ LOOKBACK=timedelta(hours=24); MAX_PUBLISH=5; MIN_SCORE=7; MAX_QUEUE=100
 STATE_FILE=os.getenv('STATE_FILE','data/intily-ai-news-state.json')
 MODEL='openai/gpt-4o-mini'; AI_URL='https://models.github.ai/inference/chat/completions'
 TG_URL='https://api.telegram.org/bot{}/sendMessage'
-QUERIES=[
- ('WORLD','AI artificial intelligence OpenAI Anthropic Google DeepMind Microsoft Meta Nvidia'),
- ('WORLD','AI model launch release agent robotics chips regulation safety research'),
- ('WORLD','artificial intelligence breakthrough investment acquisition security AI agents'),
- ('RUSSIA','ИИ искусственный интеллект нейросети Россия Яндекс Сбер VK'),
- ('RUSSIA','ИИ нейросети регулирование закон инвестиции технологии Россия'),
- ('RUSSIA','искусственный интеллект российские компании разработка модели агент')]
+QUERIES=[('WORLD','AI artificial intelligence OpenAI Anthropic Google DeepMind Microsoft Meta Nvidia'),('WORLD','AI model launch release agent robotics chips regulation safety research'),('WORLD','artificial intelligence breakthrough investment acquisition security AI agents'),('RUSSIA','ИИ искусственный интеллект нейросети Россия Яндекс Сбер VK'),('RUSSIA','ИИ нейросети регулирование закон инвестиции технологии Россия'),('RUSSIA','искусственный интеллект российские компании разработка модели агент')]
 WEIGHTS={'launch':5,'release':5,'model':4,'agent':5,'breakthrough':7,'research':3,'security':5,'safety':5,'regulation':5,'law':5,'investment':4,'billion':5,'acquisition':5,'chip':4,'gpu':4,'openai':4,'anthropic':4,'google':3,'deepmind':4,'nvidia':4,'microsoft':3,'yandex':4,'sber':4,'закон':6,'регулир':5,'миллиард':5,'запуст':5,'выпуст':5,'агент':5,'модель':4,'нейросет':4,'исследован':3,'инвести':4,'покуп':5,'сделк':4,'безопасност':5}
 TRUSTED={'reuters','bloomberg','financial times','the verge','techcrunch','tass','interfax','рбк','коммерсантъ','ведомости'}
 
@@ -21,7 +15,13 @@ def load_state():
     try:
         with open(STATE_FILE,encoding='utf-8') as f:s=json.load(f)
     except Exception:s={}
-    return {'published':s.get('published',{}),'known':s.get('known',{}),'queue':s.get('queue',[]),'last_run':s.get('last_run'),'last_published':s.get('last_published',0)}
+    published=s.get('published',{})
+    if isinstance(published,list): published={str(x):0 for x in published}
+    known=s.get('known',{})
+    if isinstance(known,list): known={str(x):0 for x in known}
+    queue=s.get('queue',[])
+    if not isinstance(queue,list): queue=[]
+    return {'published':published,'known':known,'queue':queue,'last_run':s.get('last_run'),'last_published':s.get('last_published',0)}
 
 def save_state(s):
     with open(STATE_FILE,'w',encoding='utf-8') as f:json.dump(s,f,ensure_ascii=False,indent=2)
@@ -34,9 +34,7 @@ def rss(region,q):
     p=urllib.parse.urlencode({'q':q,'hl':'ru-RU','gl':'RU' if region=='RUSSIA' else 'US','ceid':'RU:ru' if region=='RUSSIA' else 'US:en','when':'1d'})
     root=ET.fromstring(get('https://news.google.com/rss/search?'+p));out=[]
     for it in root.findall('.//item'):
-        title=html.unescape((it.findtext('title') or '').strip());link=(it.findtext('link') or '').strip()
-        desc=re.sub(r'<[^>]+>',' ',it.findtext('description') or '');desc=re.sub(r'\s+',' ',html.unescape(desc)).strip()
-        source=(it.findtext('source') or '').strip();raw=it.findtext('pubDate') or ''
+        title=html.unescape((it.findtext('title') or '').strip());link=(it.findtext('link') or '').strip();desc=re.sub(r'<[^>]+>',' ',it.findtext('description') or '');desc=re.sub(r'\s+',' ',html.unescape(desc)).strip();source=(it.findtext('source') or '').strip();raw=it.findtext('pubDate') or ''
         try:dt=datetime.strptime(raw,'%a, %d %b %Y %H:%M:%S %z')
         except Exception:continue
         if not title or not link or datetime.now(timezone.utc)-dt>LOOKBACK:continue
@@ -87,13 +85,10 @@ def edit(x):
 Источник: {x['source']}
 Заголовок: {x['title']}
 Описание: {x['desc']}'''
-    raw=ai(prompt);raw=re.sub(r'^```json\s*|\s*```$','',raw.strip(),flags=re.I);j=json.loads(raw)
-    title=str(j.get('title','')).strip();body=str(j.get('body','')).strip();meaning=str(j.get('meaning','')).strip();joke=str(j.get('joke','')).strip();full=' '.join([title,body,meaning,joke])
+    raw=ai(prompt);raw=re.sub(r'^```json\s*|\s*```$','',raw.strip(),flags=re.I);j=json.loads(raw);title=str(j.get('title','')).strip();body=str(j.get('body','')).strip();meaning=str(j.get('meaning','')).strip();joke=str(j.get('joke','')).strip();full=' '.join([title,body,meaning,joke])
     if not title or not body or not meaning or not russian_ok(full):raise RuntimeError('RU_QA_FAILED')
-    bad=['таким образом','в свою очередь','данное событие','важный шаг','следует отметить']
-    if any(p in full.lower() for p in bad):raise RuntimeError('AI_STYLE_QA_FAILED')
-    flag='🇷🇺' if x['region']=='RUSSIA' else '🌍';joke_block=('\n\n😏 '+html.escape(joke)) if joke else '';source=html.escape(x['source'] or 'Источник')
-    dt=datetime.fromtimestamp(x['time'],timezone.utc).astimezone(timezone(timedelta(hours=3))).strftime('%d.%m.%Y %H:%M МСК')
+    if any(p in full.lower() for p in ['таким образом','в свою очередь','данное событие','важный шаг','следует отметить']):raise RuntimeError('AI_STYLE_QA_FAILED')
+    flag='🇷🇺' if x['region']=='RUSSIA' else '🌍';joke_block=('\n\n😏 '+html.escape(joke)) if joke else '';source=html.escape(x['source'] or 'Источник');dt=datetime.fromtimestamp(x['time'],timezone.utc).astimezone(timezone(timedelta(hours=3))).strftime('%d.%m.%Y %H:%M МСК')
     return f'{flag} <b>{html.escape(title)}</b>\n\n{html.escape(body)}\n\n<b>Что это значит:</b> {html.escape(meaning)}{joke_block}\n\n📰 {source} · {dt}\n🔗 <a href="{html.escape(x["link"],quote=True)}">Подробнее</a>'
 
 def telegram(text):
@@ -123,7 +118,6 @@ def main():
         if v<now-30*86400:del state['published'][k]
     for k,v in list(state['known'].items()):
         if v<now-30*86400:del state['known'][k]
-    state['last_run']=datetime.now(timezone.utc).isoformat();state['last_published']=published;save_state(state)
-    print(json.dumps({'candidates':len(candidates),'published':published,'queue':len(state['queue'])},ensure_ascii=False))
+    state['last_run']=datetime.now(timezone.utc).isoformat();state['last_published']=published;save_state(state);print(json.dumps({'candidates':len(candidates),'published':published,'queue':len(state['queue'])},ensure_ascii=False))
 
 if __name__=='__main__':main()
