@@ -4,7 +4,9 @@ from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
 LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=5; MAX_QUEUE=100; JOKE_RATE=0.8
-SHOW_QUEUE_COUNT=True  # TEMP_QUEUE_COUNT: remove when Boss requests removal0; HEARTBEAT_MAX_SECONDS=900; FAILURE_ALERT_THRESHOLD=3
+SHOW_QUEUE_COUNT=True  # TEMP_QUEUE_COUNT: remove when Boss requests removal
+HEARTBEAT_MAX_SECONDS=900
+FAILURE_ALERT_THRESHOLD=3
 STATE_FILE=os.environ.get('STATE_FILE','data/intily-ai-news-state.json')
 GROQ_MODEL='llama-3.1-8b-instant'; GROQ_URL='https://api.groq.com/openai/v1/chat/completions'
 OPENAI_MODEL='gpt-4o-mini'; OPENAI_URL='https://api.openai.com/v1/chat/completions'
