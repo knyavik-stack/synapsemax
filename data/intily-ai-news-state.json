@@ -22,7 +22,8 @@
     "8bdeb54b16b6c162ad8ef0fa5581dc9fde654e35975980a2367280ccdddece15": 1788303620,
     "29a90cb53aa4a1f2af92df94041763b62d8b938fde17fc4322176032ccc4757e": 1788303921,
     "738d77cdab92b21737613df0a984175738878b42a45815fa7f01c279d8a51de8": 1788304221,
-    "e4cbd1d40b41cf11962715e92a19149cf6f82fe5b320913efac8a1ffc6bef5d9": 1788304519
+    "e4cbd1d40b41cf11962715e92a19149cf6f82fe5b320913efac8a1ffc6bef5d9": 1788304519,
+    "1ce6a341a2350a23a1a329e674944142553ec1584fe2c8b815ba3c5f1dbaee3c": 1788304822
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -144,20 +145,12 @@
     "061e9d734d8d0c4d9db3199f19381e10ce8df82c43a3dc48d85c74db91f83227": 1788304221.772562,
     "cebf00f6ff94b8191fd7e8f0959fe878fc2696df78a5b647a6569e7f9e0a1f5e": 1788304221.772562,
     "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788304221.772562,
-    "e4cbd1d40b41cf11962715e92a19149cf6f82fe5b320913efac8a1ffc6bef5d9": 1788304519.9402683
+    "e4cbd1d40b41cf11962715e92a19149cf6f82fe5b320913efac8a1ffc6bef5d9": 1788304519.9402683,
+    "c02e987f90076ecb658f85775318900c3d95a961b52a2eb0cef5733f9ebfc448": 1788304822.0731568,
+    "8e8b40a52ddd195fbd35ec1f1fd028ab01b797e276d67bb28ab7d79ff5168d4d": 1788304822.0731568,
+    "d6eea97e64bb59394de0abcd3d6a4cbcd39cd7e56a76eba07072073944d3f294": 1788304822.0731568
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities - WIRED",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSFE3NkFwdlQ2WktBelBib0paY3NRUVhCZkRuZF9laks5ZVd5MFhCd0JHWjlqYjF5a1F0WC1GbE5NalgyVEh4REhiRG91TVZFZWs4cUVsWkZBM1hKbnlXRXV1c05NSHVIaGlJUTg4eHpLRTN5QlpXVnpUM2tXY2Z1SWhLSWVzOTROWldMUHdzQQ?oc=5",
-      "desc": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities WIRED",
-      "source": "WIRED",
-      "time": 1788292800.0,
-      "score": 13,
-      "key": "1ce6a341a2350a23a1a329e674944142553ec1584fe2c8b815ba3c5f1dbaee3c",
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Anthropic tightens security on its training environment after Claude agents went rogue 3 times - Business Insider",
@@ -930,6 +923,28 @@
     },
     {
       "region": "WORLD",
+      "title": "AI Data Center Investment Mania Goes Exponential as Money Gets Thrown at Hurdles & Shortages - Wolf Street",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeHFPYkRJalJ2Tm10aG1PVVhEOHAwTlJaSG9MVkJLQXl2YUZhci0tSUxINGZISEgwOGlrLWd0dEEwX2F0b3JndGJDZW14Q3N1aVRTV3N4WjlESFlWNVhKVzNvTGh1N1RXdFBkb000dDcyamNmSndHaEdFaWZnTGQyVTE4UEtQeTFqdWxQU21qYnBzOE43VzllSnpPM3BCUFdJd2E2T1JkRU45UUYzOFdHdXpaWkU3U25UcF9vOGs0TGRIdk0?oc=5",
+      "desc": "AI Data Center Investment Mania Goes Exponential as Money Gets Thrown at Hurdles & Shortages Wolf Street",
+      "source": "Wolf Street",
+      "time": 1788302499.0,
+      "score": 6,
+      "key": "c02e987f90076ecb658f85775318900c3d95a961b52a2eb0cef5733f9ebfc448",
+      "tier": "B"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ как фактор войны: почему борьба за нейросети стала важнее танков и границы стерлись - news.rambler.ua",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRGVpVWRVWlFxUE5sRlpXN2VmN242aE1XckFVWXIzR1ZvYV9nMjNkcnlnTVh4Yk1nS1dNblk4SXd2YjBKb19vSDRiaG1qZ0ROSHJaUXV4S3FrWmNHWl93NFA4bXdMRE14OTNQaHRGRDFuZGFleHFSTEVzUk9NVU0yVUFJSmwyYTJRdUFaTERKV09kWHd0VzJnc1E5VC0xcmt5ekZpTkwtMlN3WGZXa0pCN2N4LWM4UDdzS3FKQW9oRG9EV3R1Q1BOTNIByAFBVV95cUxNRGVpVWRVWlFxUE5sRlpXN2VmN242aE1XckFVWXIzR1ZvYV9nMjNkcnlnTVh4Yk1nS1dNblk4SXd2YjBKb19vSDRiaG1qZ0ROSHJaUXV4S3FrWmNHWl93NFA4bXdMRE14OTNQaHRGRDFuZGFleHFSTEVzUk9NVU0yVUFJSmwyYTJRdUFaTERKV09kWHd0VzJnc1E5VC0xcmt5ekZpTkwtMlN3WGZXa0pCN2N4LWM4UDdzS3FKQW9oRG9EV3R1Q1BOTA?oc=5",
+      "desc": "ИИ как фактор войны: почему борьба за нейросети стала важнее танков и границы стерлись news.rambler.ua",
+      "source": "news.rambler.ua",
+      "time": 1788298308.0,
+      "score": 6,
+      "key": "8e8b40a52ddd195fbd35ec1f1fd028ab01b797e276d67bb28ab7d79ff5168d4d",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "The AI Boom Has A Power Problem — And It Could Create The Next Big Investment Opportunity #finance Cia Show (dzjc52MpmT) - Mshale",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzUGtwSzhlVlpBcEpaaVNPNDk1WDhKd3dicldXU0JIdWxkbTFseFhvdExwUWgwYjkxaEJIX0ZjeXdJclBsU2dPSkFVd0t5empvY09LWUY1SGJSWEU?oc=5",
       "desc": "The AI Boom Has A Power Problem — And It Could Create The Next Big Investment Opportunity #finance Cia Show (dzjc52MpmT) Mshale",
@@ -1106,6 +1121,17 @@
     },
     {
       "region": "WORLD",
+      "title": "University of Chicago Launches New Master’s in Applied Artificial Intelligence | Newswise - Newswise",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYWw2X2NldHh3RGRVVnAtckdtU2Z2TlFlcXZteWlqMTBDTHQySy1MS1VGR0pCbXIxaC1YNjFUdW96YmdOVFdDRmJDcjU1S3U0N0NXU2hxUG5WY2VrdFRQa1BiS1dEZHhBZU5LbGhUdXdqUUd6MFVXVUptODFDT2RSQnN4SThlYlFXRFd2UHQtYk90ZkhjWDRyYkd2eElhSzVzeURjUHFQTlNmQ2tFcDJDcXN30gGyAUFVX3lxTE9hbDZfY2V0eHdEZFVWcC1yR21TZnZOUWVxdm15aWoxMENMdDJLLUxLVUZHSkJtcjFoLVg2MVR1b3piZ05UV0NGYkNyNTVLdTQ3Q1dTaHFQblZjZWt0VFBrUGJLV0RkeEFlTktsaFR1d2pRR3owVVdVSm04MUNPZFJCc3hJOGViUVdEV3ZQdC1iT3RmSGNYNHJiR3Z4SWFLNXN5RGNQcVBOU2ZDa0VwMkNxc3c?oc=5",
+      "desc": "University of Chicago Launches New Master’s in Applied Artificial Intelligence | Newswise Newswise",
+      "source": "Newswise",
+      "time": 1788282000.0,
+      "score": 5,
+      "key": "d6eea97e64bb59394de0abcd3d6a4cbcd39cd7e56a76eba07072073944d3f294",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "DataAgent Emerges From Stealth With $10M Pre-Seed to Build Self-Healing Cloud Infrastructure - Unite.AI",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYUhxVVhUbmVZQmt2TlFSbXZyU3BlVUlvR0d1V3BTZGU3RDFmTHotb1Vxel94eF82d0RJNzV5d3BmUjRCdWRtRVRfSkxJS3FZYmlfRUJwd25Venc4UzZkN0xDSDk3cC1hdFhjWk1jLWszb2h2U19ROEthNXJ1a3NBTmZPbUdTaUp3UXYwVUcya0dfLU5yQkI1NXNLdTk4bmsxR3FvX3FxaUJ1b2J6aHlEN19Raw?oc=5",
       "desc": "DataAgent Emerges From Stealth With $10M Pre-Seed to Build Self-Healing Cloud Infrastructure Unite.AI",
@@ -1224,44 +1250,22 @@
       "score": 5,
       "key": "7aa125acde9eed35f452ad2d3504db84463989c76035d6975e7a55a39344cdda",
       "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI Agents Now Discover Zero-Days to Escape Virtual Machines, Trail of Bits Proves - Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSEcyVWxvb0d5alB6dlM5eHduTFcwQVZEeUtyODNfTTZtTmtZX245VXQwM0oyZnotd3VETlBPQmZRMVBjSTVfSXRaZDJtb3E0ZGZIQmZQNGExUTdreFZwaWQwb2UxZ29YSzVMWF9YS2lsQUkxY214U1RfMzNuakhkZThBdlprMTVTbk9SakQ0QzI0a2U5WHJxcmpqdGctUURaSnYtVTFqWElkUlU3Z0JDZlItVFVXZDVLMG5DMW1BVVQ1dnBGcDFsNw?oc=5",
-      "desc": "AI Agents Now Discover Zero-Days to Escape Virtual Machines, Trail of Bits Proves Tech Times",
-      "source": "Tech Times",
-      "time": 1788266881.0,
-      "score": 5,
-      "key": "b842e7121d501cd71e0643073d24619c208725ce9fa39233518fccd4437921d3",
-      "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "From voice command to robotic arm: how agentic AI on the edge is changing the factory floor - t.co",
-      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5IYjlUeHFMcWt2VXBDZ2I2VGUzRm91QnNwZlRsWWdXbUp6MU5walFkYTduYjRyd3lKcmU4?oc=5",
-      "desc": "From voice command to robotic arm: how agentic AI on the edge is changing the factory floor t.co",
-      "source": "t.co",
-      "time": 1788266677.0,
-      "score": 5,
-      "key": "48efec0f7aa5ebc8ee651afa18d5d1dbd01858e9a41a19a35f391518f98b929d",
-      "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T23:15:32.138282+00:00",
+  "last_run": "2026-09-01T23:20:36.833118+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788304519.9402683,
+    "last_start_ts": 1788304822.0731568,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788304519.9402683,
+    "last_success_ts": 1788304822.0731568,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788304531.735858
+      "updated_at": 1788304836.2433455
     }
   },
   "stories": {
@@ -1319,6 +1323,13 @@
       "title": "OpenAI says upcoming model is so capable it requires stronger guardrails - Reuters",
       "desc": "OpenAI says upcoming model is so capable it requires stronger guardrails Reuters",
       "source": "Reuters",
+      "region": "WORLD"
+    },
+    "1ce6a341a2350a23a1a329e674944142553ec1584fe2c8b815ba3c5f1dbaee3c": {
+      "time": 1788304822,
+      "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities - WIRED",
+      "desc": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities WIRED",
+      "source": "WIRED",
       "region": "WORLD"
     }
   }
