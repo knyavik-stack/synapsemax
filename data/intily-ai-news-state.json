@@ -20,7 +20,8 @@
     "c967643c51fec634f2096cd4e57172caaf46b5c64d5abdb1f6fe1f7d597fc15b": 1788303023,
     "046dff280ec97855744ebf1c24b7c69233cf2f7f73d32a3d695166f2a270759d": 1788303321,
     "8bdeb54b16b6c162ad8ef0fa5581dc9fde654e35975980a2367280ccdddece15": 1788303620,
-    "29a90cb53aa4a1f2af92df94041763b62d8b938fde17fc4322176032ccc4757e": 1788303921
+    "29a90cb53aa4a1f2af92df94041763b62d8b938fde17fc4322176032ccc4757e": 1788303921,
+    "738d77cdab92b21737613df0a984175738878b42a45815fa7f01c279d8a51de8": 1788304221
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -138,20 +139,12 @@
     "9d75b0179b356069a9f23c56d41c793291ae39246d71213a68f248e15e55d0bc": 1788303620.9081814,
     "3f6c029db420591d3b5b3893dd0ab074917489328cdea90538008be826876624": 1788303620.9081814,
     "0586b6268a93baff183a773cec456ac92dfa7410cf1912f609e251440df08e9c": 1788303921.4028296,
-    "84e3486b73b03f9bcbc5de15e371fb46d687520d74e7cbb17fe7bd3579464ee3": 1788303921.4028296
+    "84e3486b73b03f9bcbc5de15e371fb46d687520d74e7cbb17fe7bd3579464ee3": 1788303921.4028296,
+    "061e9d734d8d0c4d9db3199f19381e10ce8df82c43a3dc48d85c74db91f83227": 1788304221.772562,
+    "cebf00f6ff94b8191fd7e8f0959fe878fc2696df78a5b647a6569e7f9e0a1f5e": 1788304221.772562,
+    "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788304221.772562
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "OpenAI Model Escaped a Virtual Machine Three Times, Trail of Bits Finds, as Salesforce Auto-Enables AI Agents for All Customers - t.co",
-      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9XSmt0QXpZaXNVbjh2Y216NHhzaG9NdVVYMVo0REdJcm0tcFV1bXRZTEEwQUszd1JpRXJV?oc=5",
-      "desc": "OpenAI Model Escaped a Virtual Machine Three Times, Trail of Bits Finds, as Salesforce Auto-Enables AI Agents for All Customers t.co",
-      "source": "t.co",
-      "time": 1788294354.0,
-      "score": 13,
-      "key": "738d77cdab92b21737613df0a984175738878b42a45815fa7f01c279d8a51de8",
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities - WIRED",
@@ -550,6 +543,17 @@
     },
     {
       "region": "WORLD",
+      "title": "OpenAI to limit access to Astra model’s advanced cyber features due to hacking concerns - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVDd4bFMzMm1oeFc0Slp0S1ZKMVZEd2Z6azJMTFRqTFl0S056WE51dWk5OTRUYWFsWE5nZVVORXprR2pub3JiRmRUQ3hlc1l2SFVpVlprdGFDX2JpV1RBZGJlLTZ4NEhITTJIU1M1bTJubWhYVV8wWURteG5sejU3OXkzYkVjLUs0aEFwR1NUbFZHbjhhN3FrcF9UbE5Gb3hCRkNLek96NWE?oc=5",
+      "desc": "OpenAI to limit access to Astra model’s advanced cyber features due to hacking concerns Fortune",
+      "source": "Fortune",
+      "time": 1788292800.0,
+      "score": 8,
+      "key": "061e9d734d8d0c4d9db3199f19381e10ce8df82c43a3dc48d85c74db91f83227",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "Anthropic upgrades Claude with new Fable 5.1 model, details here - 9to5Mac",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONUQwdFFySGIxY0F3aFFFX0RVaG5lS09UeDZ6WkpiZ0NIOUE1RzFZczlrQS0xalY3bFBXRVZhQy15SjVUdWNqeHBMT2dZOXR0dWJPTzhqT0hXSkhCcXRZMnhhNDFtRjNWV0pBeXBmdzdfNjZqM284WlBkNjFZenJnT0xZcTY2cXFUR2FmLUt0cmJZTzdsSVVueGJBUQ?oc=5",
       "desc": "Anthropic upgrades Claude with new Fable 5.1 model, details here 9to5Mac",
@@ -623,6 +627,17 @@
       "time": 1788257402.0,
       "score": 8,
       "key": "2ea3d723eea989a5352c9eb075ec71bb2fb72909da86de13c643110f2b1d0492",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
+      "title": "Sony Music Publishing and Warner Chappell sue Anthropic in multi-billion-dollar AI copyright case - RouteNote",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTRxNFdoSkJZNC1kWmZqeXBOOGppQU02SGZtMTNpNmRHbTdDcmNTeXJHT3pvdXVZS3RHLW5mR2xVNHhPbkdzZzdoUEhKQkdFU0lnR1ZVQi1GSTRaTWM3dXJGM1ZsNGJiLWVRUlFJY3I1UXZsRVduTTRBaWRhaGFoWVh3bWJZMktnYTdBeFJKZXdmN3RTSkNudTZLY3ZKMzQzeThIWURmSV9iOXhQcGxyaUd6blU4dC1RaWdwOVpCZ0k2ZDQ?oc=5",
+      "desc": "Sony Music Publishing and Warner Chappell sue Anthropic in multi-billion-dollar AI copyright case RouteNote",
+      "source": "RouteNote",
+      "time": 1788255999.0,
+      "score": 8,
+      "key": "cebf00f6ff94b8191fd7e8f0959fe878fc2696df78a5b647a6569e7f9e0a1f5e",
       "tier": "B"
     },
     {
@@ -788,6 +803,17 @@
       "time": 1788296842.0,
       "score": 7,
       "key": "1a9e8abcca4b2d7b1b6197daec47e5dc41bc796c52b4a4ec5cd2878b0d8d4365",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
+      "title": "Exclusive | New Google AI Model Said to Narrow Gap on Coding Ability - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPemN2WTNNcVZ4QnRJT2IzQzNqZXR4NGlhY3R4UXhvbEptNDcxcUJ5X3hrbnRkcjRaalNkQmVuN3N3MXFjQzRkN2pXSU83OThtT0xPOU81aEIxaWlxUTlZX1Y3eFpFX2IyWU5sM0I3ajF1d0pmSTBfTGFvbGpzUmxXdDZMR25hekZFbjlLQmhNenZrcV9yRmVBZA?oc=5",
+      "desc": "Exclusive | New Google AI Model Said to Narrow Gap on Coding Ability WSJ",
+      "source": "WSJ",
+      "time": 1788296700.0,
+      "score": 7,
+      "key": "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94",
       "tier": "B"
     },
     {
@@ -1218,44 +1244,22 @@
       "score": 5,
       "key": "48efec0f7aa5ebc8ee651afa18d5d1dbd01858e9a41a19a35f391518f98b929d",
       "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "Michael Watson: AI Bills Now Rival Client Acquisition Costs, Requiring Hedge Fund Discipline - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4Zmp0WWpyU0VVSUZidjhPMGFvZGVra243SUdKTVNESWFlajVOb1g5YVhQUmNDNkZ0S2RpUDE2UEU4SUxUUkdnc3g5Slg5Qnl3ME9MQXBoZXI4NjQ?oc=5",
-      "desc": "Michael Watson: AI Bills Now Rival Client Acquisition Costs, Requiring Hedge Fund Discipline finance.biggo.com",
-      "source": "finance.biggo.com",
-      "time": 1788264540.0,
-      "score": 5,
-      "key": "907649a9b794e7d047d64a6fe360329b5af65a3009cf0b6e94e42bb61089a0aa",
-      "tier": "B"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Сбербанк запускает криптовалютные платежи на фоне регулирования цифровых валют в России - Cryptopolitan",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1RTlhFdVVvM1V2ZDZ1SlRJYVl4eTZsd1Bja1NYVkVFRWdvZXFVbmx0Tm1JS2FJbEJtYk9SYm1NZjRJbld5ZDEtOXY0SkRnTFRZWmFGQmZ5a1h0dl84ME5fOGcxb2xCbUd5U19NdmVnV0FzOHVlUl9uNW1iWWdOLUE?oc=5",
-      "desc": "Сбербанк запускает криптовалютные платежи на фоне регулирования цифровых валют в России Cryptopolitan",
-      "source": "Cryptopolitan",
-      "time": 1788263821.0,
-      "score": 5,
-      "key": "a1683cf928ec76d40d20d7da2e09548ccfa473647afae677735ebc312f5f5876",
-      "tier": "B"
     }
   ],
-  "last_run": "2026-09-01T23:05:34.411240+00:00",
+  "last_run": "2026-09-01T23:10:34.449021+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788303921.4028296,
+    "last_start_ts": 1788304221.772562,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788303921.4028296,
+    "last_success_ts": 1788304221.772562,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788303934.0436966
+      "updated_at": 1788304234.0160449
     }
   },
   "stories": {
@@ -1299,6 +1303,13 @@
       "title": "Anthropic signs $35 billion cloud deal with Nvidia-backed Lambda, source says - Reuters",
       "desc": "Anthropic signs $35 billion cloud deal with Nvidia-backed Lambda, source says Reuters",
       "source": "Reuters",
+      "region": "WORLD"
+    },
+    "738d77cdab92b21737613df0a984175738878b42a45815fa7f01c279d8a51de8": {
+      "time": 1788304221,
+      "title": "OpenAI Model Escaped a Virtual Machine Three Times, Trail of Bits Finds, as Salesforce Auto-Enables AI Agents for All Customers - t.co",
+      "desc": "OpenAI Model Escaped a Virtual Machine Three Times, Trail of Bits Finds, as Salesforce Auto-Enables AI Agents for All Customers t.co",
+      "source": "t.co",
       "region": "WORLD"
     }
   }
