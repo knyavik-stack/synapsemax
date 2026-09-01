@@ -1,9 +1,9 @@
-import os, re, json, time, hashlib, html, urllib.parse, urllib.request
+import os, re, json, time, hashlib, html, urllib.parse, urllib.request, random
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
-LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=5; MAX_QUEUE=100
+LOOKBACK=timedelta(hours=24); MAX_PUBLISH=3; MIN_SCORE=5; MAX_QUEUE=100; JOKE_RATE=0.80
 STATE_FILE=os.environ.get('STATE_FILE','data/intily-ai-news-state.json')
 GROQ_MODEL='llama-3.1-8b-instant'; GROQ_URL='https://api.groq.com/openai/v1/chat/completions'
 OPENAI_MODEL='gpt-4o-mini'; OPENAI_URL='https://api.openai.com/v1/chat/completions'
@@ -44,6 +44,12 @@ def rss(region,q):
 
 def normalize(t):return ' '.join(re.sub(r'[^a-zа-яё0-9]+',' ',t.lower()).split())
 def key(x):return hashlib.sha256((normalize(x['title'])+'|'+normalize(x['source'])).encode()).hexdigest()
+def tier(x):
+    s=x.get('score',0)
+    if s>=14:return 'S'
+    if s>=9:return 'A'
+    return 'B'
+
 def score(x):
     b=(x['title']+' '+x['desc']+' '+x['source']).lower(); n=sum(v for k,v in WEIGHTS.items() if k in b); age=(datetime.now(timezone.utc).timestamp()-x['time'])/3600
     if x['source'].lower().strip() in TRUSTED:n+=3
@@ -99,11 +105,11 @@ def forbidden_style(text):
     low=text.lower(); return any(x in low for x in ('таким образом','в свою очередь','данное событие','важный шаг','что это значит:'))
 
 def edit(x):
-    prompt='''Подготовь готовый Telegram-пост ЦЕЛИКОМ на естественном русском языке. Не делай дословный перевод: перескажи человеческим языком. Обязательно раскрой: что произошло, кто участники, почему это важно и практический вывод. Не выдумывай факты. Весь результат на русском; названия компаний, продуктов и моделей можно оставлять в оригинальном написании. 1-3 уместных эмодзи. Юмор допустим только для лёгких тем; для безопасности, регулирования, происшествий и рисков юмор запрещён. Не используй речевые штампы ИИ. Верни JSON строго с полями title, body, meaning, joke. joke может быть пустой строкой.
-
-Источник: %s
-Заголовок: %s
-Описание: %s'''%(x['source'],x['title'],x['desc'])
+    want_joke=(random.random()<JOKE_RATE)
+    joke_instruction=('нужна' if want_joke else 'не нужна')
+    prompt=('Подготовь готовый Telegram-пост ЦЕЛИКОМ на естественном русском языке. Не делай дословный перевод: перескажи человеческим языком. Обязательно раскрой: что произошло, кто участники, почему это важно и практический вывод. Не выдумывай факты. Весь результат на русском; названия компаний, продуктов и моделей можно оставлять в оригинальном написании.\n'
+             'Юмор: стремимся добавлять лёгкую человеческую шутку примерно в 80%% подходящих публикаций. В этой публикации шутка %s. Если тема про безопасность, регулирование, закон, утечку, аварию, вред или серьёзный инцидент — шутка запрещена независимо от этого флага. Не используй речевые штампы ИИ. Верни JSON строго с полями title, body, meaning, joke. joke может быть пустой строкой.\n'
+             'Источник: %s\nЗаголовок: %s\nОписание: %s') % (joke_instruction,x['source'],x['title'],x['desc'])
     try:raw=ai(prompt);raw=re.sub(r'^```(?:json)?|```$','',raw.strip(),flags=re.I|re.M);j=json.loads(raw)
     except Exception as e:print('AI_EDITOR_FAILED',str(e)[:200]);raise
     title=str(j.get('title','')).strip();body=str(j.get('body','')).strip();meaning=str(j.get('meaning','')).strip();joke=str(j.get('joke','')).strip()
@@ -111,6 +117,9 @@ def edit(x):
     if not title or not body or not meaning or not russian_ok(full) or forbidden_style(full):raise RuntimeError('RU_QA_FAILED')
     sensitive=any(k in (x['title']+' '+x['desc']).lower() for k in ('security','safety','regulation','law','breach','утеч','безопас','регулир','закон','авар'))
     if sensitive:joke=''
+    elif want_joke and not joke: raise RuntimeError('JOKE_QA_FAILED')
+    elif not want_joke: joke=''
+    x['tier']=tier(x)
     esc=lambda s:html.escape(s,quote=True)
     flag='🇷🇺' if x['region']=='RUSSIA' else '🌍';dt=datetime.fromtimestamp(x['time'],timezone.utc).astimezone(timezone(timedelta(hours=3)))
     jb=('\n\n😏 '+esc(joke)) if joke else ''
@@ -132,8 +141,12 @@ def main():
     s=load_state();now=time.time();cut=now-30*86400
     candidates=collect();q=s['queue'];qkeys={x.get('key') for x in q}
     for x in candidates:
-        if x['key'] not in s['published'] and x['key'] not in s['known'] and x['key'] not in qkeys:s['known'][x['key']]=now;q.append(x);qkeys.add(x['key'])
-    q=[x for x in q if x.get('time',0)>=now-LOOKBACK.total_seconds() and x.get('key') not in s['published']];q.sort(key=lambda x:(x.get('score',0),x.get('time',0)),reverse=True)
+        if x['key'] not in s['published'] and x['key'] not in s['known'] and x['key'] not in qkeys:
+            x['tier']=tier(x); s['known'][x['key']]=now; q.append(x); qkeys.add(x['key'])
+    q=[x for x in q if x.get('time',0)>=now-LOOKBACK.total_seconds() and x.get('key') not in s['published']]
+    for x in q: x['tier']=x.get('tier') or tier(x)
+    tier_rank={'S':3,'A':2,'B':1}
+    q.sort(key=lambda x:(tier_rank.get(x.get('tier','B'),1),x.get('score',0),x.get('time',0)),reverse=True)
     published=0;remaining=[]
     for x in q:
         if published>=MAX_PUBLISH or x.get('score',0)<MIN_SCORE:remaining.append(x);continue
