@@ -97,6 +97,14 @@ def gemini_chat(prompt,token):
         d=json.loads(r.read().decode())
     return d['candidates'][0]['content']['parts'][0]['text']
 
+
+def gemini_chat(prompt,token):
+    body=json.dumps({'systemInstruction':{'parts':[{'text':'Ты профессиональный редактор русского Telegram-канала об AI. Всегда отвечай только валидным JSON.'}]},'contents':[{'role':'user','parts':[{'text':prompt}]}],'generationConfig':{'temperature':0.25,'maxOutputTokens':900,'responseMimeType':'application/json'}}).encode()
+    url=GEMINI_URL+'?key='+urllib.parse.quote(token,safe='')
+    r=urllib.request.urlopen(urllib.request.Request(url,data=body,headers={'Content-Type':'application/json'}),timeout=20)
+    d=json.loads(r.read().decode())
+    return d['candidates'][0]['content']['parts'][0]['text']
+
 def ai(prompt):
     errors=[]
     providers=[('GROQ',GROQ_URL,GROQ_MODEL,os.environ.get('GROQ_API_KEY')),('OPENAI',OPENAI_URL,OPENAI_MODEL,os.environ.get('OPENAI_API_KEY'))]
@@ -106,7 +114,7 @@ def ai(prompt):
             continue
         try:
             print('AI_PROVIDER_ATTEMPT',name)
-            result=chat(url,model,token,prompt,name)
+            result=gemini_chat(prompt,token) if name=='GEMINI' else chat(url,model,token,prompt,name)
             if result and len(result.strip())>20:
                 print('AI_PROVIDER_OK',name)
                 return result
