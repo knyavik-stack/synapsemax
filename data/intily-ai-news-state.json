@@ -134,12 +134,9 @@
     "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248,
     "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265,
     "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788349516,
-    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788352142
+    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788353153
   },
   "known": {
-    "7fa859fe35e31cad73e84778eba6eb71d4d30f85d71a8aa5dda4cd459389bde3": 1788330675.8108013,
-    "d7242ac0bf87e4da008ec715b7a567eeced8e8530823bae49d7566db9a9c9253": 1788330970.335027,
-    "52f3e9f4b72c519dbbe8a9abb4487cbbd3a307650edc047192f2a4253eca422b": 1788330970.335027,
     "f3a47977daec1b8b38c11522aa2156fbbfff0ee511f65cd9e8fbf1d0670c0461": 1788331571.1883783,
     "1437e71c6116a18af814f7c1b5b911399c8b77543146f12917e0cec776782d56": 1788331571.1883783,
     "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373.118473,
@@ -195,10 +192,15 @@
     "d6f81d12789a1bee0d6a57eec1e5bf8ce607f781c9fffdce5359ee55ee85b9d3": 1788349516.069073,
     "69f9c5a1e87ab67d899bc9dfaf3cb9d79d121030f42143b2f0b309eb7c34640b": 1788349516.069073,
     "e2abf78e4265e5dbeda2ae720fba129e7e954181d60ecf8f02e34a6de08fb9fd": 1788349516.069073,
-    "2a0b2591b348895714a2c1d56710e8f6942507151e086b25e93fda598ae9232c": 1788352142.0632133,
-    "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d": 1788352142.0632133,
-    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788352142.0632133,
-    "3658284c70bad04f82fa9ef54eb717fe7fc42d00c38a797fa60eca66da513417": 1788352142.0632133
+    "789457f5d5302d06fc11131ce83a3ab9781ebd4e028661f1c5ebd0ba859f0f56": 1788353153.4663217,
+    "2a0b2591b348895714a2c1d56710e8f6942507151e086b25e93fda598ae9232c": 1788353153.4663217,
+    "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d": 1788353153.4663217,
+    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788353153.4663217,
+    "3658284c70bad04f82fa9ef54eb717fe7fc42d00c38a797fa60eca66da513417": 1788353153.4663217,
+    "29c6f3f8cada850cbe51b5108fe35e390530f149c6905d5f88bb2af138c1f3df": 1788353153.4663217,
+    "bdc23eaf938515377ed58b0339ed8141be72264ca8304a0664c671e40639b79a": 1788353153.4663217,
+    "f185d2f8b7687363761557a1af5865e63cef3c668775e853b3d7a10cc23b41d1": 1788353153.4663217,
+    "b399030c263771c9b02037c9b54506a9c88a75a0eb22c113b0d4eb1ffbae1113": 1788353153.4663217
   },
   "queue": [
     {
@@ -282,6 +284,22 @@
     },
     {
       "region": "WORLD",
+      "title": "Google DeepMind Says Gemini Is Evolving From Chatbot To AI Agent - Search Engine Journal",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYmpWQlRmSE5xZTU2S2N2MnQwRUxSR2REQXdrWFhZV3BtV1M4RlB2Ql9NMXM4Zm5ScEFMN3VhNGVfSFhvSlRsVEJmbnFPc1VpN3lVSGtmaldVb2d0UXBYTklpaDhoNkl3RVAwaFNaZFlPSjNiSXV2SEFFOHM4TDc4MjVPTlMtMzFGaTdBM2Q3QUxaQWJua1l0aWsxbjJtZmF5SEc5dnR2ZzgzbllH?oc=5",
+      "desc": "Google DeepMind Says Gemini Is Evolving From Chatbot To AI Agent Search Engine Journal",
+      "source": "Search Engine Journal",
+      "time": 1788348240.0,
+      "score": 17,
+      "key": "789457f5d5302d06fc11131ce83a3ab9781ebd4e028661f1c5ebd0ba859f0f56",
+      "editorial_value": 20,
+      "topics": [
+        "agents",
+        "models"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
       "title": "When AI agents go rogue, the law doesn’t disappear - techradar.com",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOS1ueUZmMlMtbWJSUTB1X1BkNktXNnFPLWU0aFNFZ01TbWhqbXEyZnZfSHB1SHpBaWlYUzZQeG42YmVYaURwRU5BSEhqbldwUk5YQzNOdkUtVG82cXdtX0N6akxHa0xlR1BsdENUZV8yMTl5VjdPdGRtRUFkb3U3YS1ublg?oc=5",
       "desc": "When AI agents go rogue, the law doesn’t disappear techradar.com",
@@ -310,6 +328,37 @@
         "models"
       ],
       "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era - Infosecurity Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUluUExlekhDLXJaT00xVy02NzF1N2k4eVdVY0ZiMXdSNEhsTDRaM3JEcl9MWERmdjZBQ1czQUM2bk9HTHJLZnR6UG1VNWE1MHlYZ0daWDhPdXM1eUx1aEctVVM1dTFzclFnem1lZnRYSlNObDZMSHJyOXRWTnNLclNlX3l0MzJlNkFSOA?oc=5",
+      "desc": "How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era Infosecurity Magazine",
+      "source": "Infosecurity Magazine",
+      "time": 1788352200.0,
+      "score": 12,
+      "key": "bdc23eaf938515377ed58b0339ed8141be72264ca8304a0664c671e40639b79a",
+      "editorial_value": 20,
+      "topics": [
+        "security_regulation",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "NTT DATA to launch AI factory lab in Riyadh to accelerate regional enterprise adoption - ibsintelligence.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUUtDZzlzUEVRZ0ZYM2dHamRjeDJIYm5ta0gweUJmYUthd3RtSlh1SFExY0E0SWVCdFBzY2JVQU9KdnB4YkRFUVl6MTd6RGlsaHg3QlNJYktacVVaS3FMaWo2aWNQemwybEVhNUNlNzNFLVlKWlk2Mjd1c29iVWg2d0tBc213N2ZBaVprZW1BekJSWHdoLVk4RmpTai1MZXNRXzdjTnhiZi1VR1RHckFRY20zOVlDclI3SG5KTmRtSmk0VTg?oc=5",
+      "desc": "NTT DATA to launch AI factory lab in Riyadh to accelerate regional enterprise adoption ibsintelligence.com",
+      "source": "ibsintelligence.com",
+      "time": 1788350132.0,
+      "score": 12,
+      "key": "f185d2f8b7687363761557a1af5865e63cef3c668775e853b3d7a10cc23b41d1",
+      "editorial_value": 20,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -464,59 +513,13 @@
     },
     {
       "region": "WORLD",
-      "title": "Anthropic Launches Claude Fable 5.1 to Handle Long, Complex Work - Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbVdlbURzWmI1Qk9SU255TElDNjBnN0lpMjZ4Q3RIdHA2YS0xMFBiR28wWUx6b04zVXNJVjQ4dHd2cmhLS2NicFJjV1hQQkpKLVIwOUJrc1RGU0dsOXBlRmtIRE1sejlqQXpPSWN4czB3NXN2QXhwZDc1MWdxeExmc2xENkJrYUl3anNuU1h1QlVEbWV6RXVrWDcwWGJrTXRoU2fSAa8BQVVfeXFMTWlySVZudnlWenkzWl9xQTZtQ1h3UXg3NTdqUkp2cnVRNlpmX3ZsdmtadDVmRlU4R0l0TGFXVjFOYlh1amFlWW5neVpraV80Q3NRS0o1MFhkbnF3blpCSXdnRW5Xa3lJSm1XYmZFal8tWDB4YTN1WHpNbXN3ckdsMEtSelE3ZXBDeEh6TWw0LVN1ZkZjR2JmamVhX1lJSl8zSFVCNjBxNHRhUTl0cF9QVQ?oc=5",
-      "desc": "Anthropic Launches Claude Fable 5.1 to Handle Long, Complex Work Analytics Insight",
-      "source": "Analytics Insight",
-      "time": 1788334200.0,
+      "title": "Anthropic’s Cheaper AI Release Loosens the Guardrails - slguardian.org",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOU28yZW16RUttQmlwM19WRGxKQ1pELXk3amdtNG1QdzQ1TUZGdDZydTFwd3NYV3ByQ3R6UkQwZV9KTmtXc3ZKaDJkc1lmajhNaldicDF6M3NIQklIYUl5N0tWcnQtSlhQWV9WRVVUQ29ybXA4SGZSNEExRF9WSjBRSVB3?oc=5",
+      "desc": "Anthropic’s Cheaper AI Release Loosens the Guardrails slguardian.org",
+      "source": "slguardian.org",
+      "time": 1788338642.0,
       "score": 13,
-      "key": "26b1e0d03107e427b5907134cd91e1c6d707a79b43682d6ddcecae09965a8f13",
-      "editorial_value": 16,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Saudi Arabia’s new tourism platform brings licensing, investment and AI services under one roof - Gulf Business",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObTAyU2NoSS05VjkyVExUb2FreTlMaEVCeGpJcEUzUmNhU0NNcWh6MTVhWVRCV014RXVBVV94T2thUGVPWVhpWU4zdXJPQ1M4X3BFWHgwVDNLTTVXMmtoWUJmYzAwVDJBZWlLQjhhemROckdJdzdtWlRacVc4bzIwWnZYaVdZWXJaeExnVG15eFIzY1pmb2U4TXhtRGg2ZmJ1d3NnMFRubU5RYjUwMXgxYmN1emxraE5sQzVxWm85Y1pweC1vM3BfdFpzZXpVbnBCSVc5OUZkZw?oc=5",
-      "desc": "Saudi Arabia’s new tourism platform brings licensing, investment and AI services under one roof Gulf Business",
-      "source": "Gulf Business",
-      "time": 1788337367.0,
-      "score": 11,
-      "key": "5aeb3b0d4a538974c66bc4ee37f33299e383ed1bfd87883556a88b1053a56abb",
-      "editorial_value": 16,
-      "topics": [
-        "business",
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "How to Work with AI Coding Agents - Towards Data Science",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5ZlB4Umw0dFR6LWlJZGhqallIenFqMFdGUUJaajd2RWtxUjBPYjZRQmN5dHc4d3paZVpKdm1aMHV0UlA5aWZWQk5YM3V6RG03M0tuWm82bUFxb0xWWDh3RWhHV1A5VFA0U09RSXlnYWxRZFU?oc=5",
-      "desc": "How to Work with AI Coding Agents Towards Data Science",
-      "source": "Towards Data Science",
-      "time": 1788334672.0,
-      "score": 11,
-      "key": "b3537015e3790b0b8d78b4fbae1d09cec5d866123fdd3b385ad3ffb211a5eec3",
-      "editorial_value": 16,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "NTT DATA Launches AI Factory Lab In Riyadh To Drive MEA AI Adoption - CIO Africa",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmRuSTdlSFlfV0xzQm9NVEhLc05GMGdiaG1zX081djlYcUx5XzBWb2VBZ1Zmb2kxNkZNM0pjMXVuZTZCWHhzZF9Yam5Sc2RDZVhzb0ZtZmxDY0tkWlJhTzdtY0FBN1k2VEhaR2g0MFVPOXpyanBJSlVXWkZLUnJGRzJZeElGREdkSkd3endIMkpKV1U?oc=5",
-      "desc": "NTT DATA Launches AI Factory Lab In Riyadh To Drive MEA AI Adoption CIO Africa",
-      "source": "CIO Africa",
-      "time": 1788342336.0,
-      "score": 10,
-      "key": "7b88b93ddbc052d088ea7f57e140fed5925c13a20bfc181a3308314de2427c64",
+      "key": "29c6f3f8cada850cbe51b5108fe35e390530f149c6905d5f88bb2af138c1f3df",
       "editorial_value": 16,
       "topics": [],
       "tier": "A"
@@ -553,20 +556,20 @@
       "tier": "A"
     }
   ],
-  "last_run": "2026-09-02T12:29:23.531334+00:00",
+  "last_run": "2026-09-02T12:46:11.737513+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788352142.0632133,
+    "last_start_ts": 1788353153.4663217,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788352142.0632133,
+    "last_success_ts": 1788353153.4663217,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788352162.8798416
+      "updated_at": 1788353170.9956143
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1414,7 +1417,7 @@
       "region": "RUSSIA"
     },
     "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": {
-      "time": 1788352142,
+      "time": 1788353153,
       "title": "NVIDIA испытала систему, где ИИ-агенты сами атакуют и защищаются одновременно - Компьютерра",
       "desc": "NVIDIA испытала систему, где ИИ-агенты сами атакуют и защищаются одновременно Компьютерра",
       "source": "Компьютерра",
