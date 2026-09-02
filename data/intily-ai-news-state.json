@@ -131,10 +131,10 @@
     "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": 1788345043,
     "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345648,
     "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345944,
-    "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248
+    "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248,
+    "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265
   },
   "known": {
-    "a7814c52e46ef1f024cac6f178533b24bb394c7f2cc6b274a9f1956d3b31d5ab": 1788325573.2761714,
     "6ce0c5163589fcbd4355918196107fef1e8dc997f7dbff5b60087b2a230bc64d": 1788325871.1723397,
     "189a5d1d51f314f71266a5fcfba1e780802fe9588007d24453bae3e8f8d715d8": 1788325871.1723397,
     "ad7603f7223eec20cf4b72d26dfa2758bc31518e659e3096298e6c0d7cf3689f": 1788326472.2605171,
@@ -180,23 +180,385 @@
     "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": 1788345043.9418838,
     "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345043.9418838,
     "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345648.5054953,
-    "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248.4243684
+    "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248.4243684,
+    "352572fc5a83b728b3a8a50a6443651dc539d4c5488f8a7e3286c5d924f79bcf": 1788347265.2698512,
+    "e2ec09d05ac01dcd95a7fd0fb4056140d3d3bd0c69264ac87733bc4c13e396bc": 1788347265.2698512,
+    "d069063539ef13db3657880ac0f44c2cea7f9662bb780a9e997ce92c308f709b": 1788347265.2698512,
+    "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788347265.2698512,
+    "4bdaf2b416d86527bf1e8704f6707c1fd8fa95657ae639886652c4caa42519df": 1788347265.2698512,
+    "60f0e119cdfb6cadaf917e85c72785eb15d314f5af88efdfd3108425ca682bfd": 1788347265.2698512,
+    "5bd8e6185df38390e0ea84d447b83334f83f23271a4d45c5e19632281bdcb434": 1788347265.2698512,
+    "0bd24f11fb34adc010d0d823900a12d5470f7db19ec87a1b42da341d62fafad1": 1788347265.2698512,
+    "21c142edd8163235ab1ce9412d15a9c4dcc88bf5aba1bed711c0ca91c6dfb468": 1788347265.2698512,
+    "5764bc26c8a9eabca3dc4a1074a29bfc504fa05a2359ac62043d209306c327d5": 1788347265.2698512,
+    "26b1e0d03107e427b5907134cd91e1c6d707a79b43682d6ddcecae09965a8f13": 1788347265.2698512,
+    "a12c6c2fd1c752bfbb2d0b0e44f2aa738fc7cadda60f8aec4b484701a9931510": 1788347265.2698512,
+    "a29baa6aeaba5e8248553e8c88a39f502cd496adab5e9fd5d8b64338c392a849": 1788347265.2698512,
+    "45f14f87ca3ea418a1c81ee1c50c79fb249f79cbde579baa7ab6b10de8cc9f05": 1788347265.2698512,
+    "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265.2698512,
+    "1de0b51aaf8f0876e9b99a2f45513d2b92123239623f32f82863d368b76495e4": 1788347265.2698512,
+    "5aeb3b0d4a538974c66bc4ee37f33299e383ed1bfd87883556a88b1053a56abb": 1788347265.2698512,
+    "b3537015e3790b0b8d78b4fbae1d09cec5d866123fdd3b385ad3ffb211a5eec3": 1788347265.2698512,
+    "7b88b93ddbc052d088ea7f57e140fed5925c13a20bfc181a3308314de2427c64": 1788347265.2698512,
+    "7986b89f52ea2a23d198cc966777e7e77e2a2a01bb3e013bcef965deb4240438": 1788347265.2698512,
+    "4517176bbead454baadb481ce47744e9d5eb1d9005ab174aeea2a35c20f86944": 1788347265.2698512,
+    "e60cc6d1c8b584c2870d17aff81f24b3003b5981b447c428f8ffd6cf8c9ec2b9": 1788347265.2698512,
+    "6353e48b817f048d505e8c15cd1eccf03457d7b1ee0c368e3d7b7e042a075fbd": 1788347265.2698512
   },
-  "queue": [],
-  "last_run": "2026-09-02T11:05:51.146084+00:00",
-  "last_published": 0,
+  "queue": [
+    {
+      "region": "WORLD",
+      "title": "Claude Fable 5.1 and Mythos 5.1 launched: What is new and how Anthropic is handling security - News9live",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONUNDSk5IU01EdHljT2JhOUhpbVdwdDFSbmh4Qm90RkxIU01QOVRYcVZfYTJsNXoyVGZMWlhGanR0SHlGS0RFeFNvRWY1SHczWEYwckFOUDhZU3N1Z1VjUUY5bE9DWDc0LU44VHR6T0tESTdKWldtMkJhRzBQNjRHU3Vjbm82ajZiQ3VuNlBoRkNhMFVNeDN3ZEF6Q0MwM0VHQWlaQ2VoRHd4OFZkNTF5LWdaa05tQjFfU0lFR2FvYXBVZ9IBxwFBVV95cUxNT2xaNWRoS0xlOFFsdU5QZ0ZPWkR4LUlLdjhDb3lJQzAteTU1bl9peGdOQllyaFhpdjQ5WUhGb3hRd25mRElRdlRBMTZQeFhxdFJMbDZNTWRfLUx1ZjV4Z0dlTlFLVDNjZmllMnZTOFMyeXA4RjFfY2xYcTJDWGkwX0hQUGNHWGRIdUdQQVVjcEZSd2gxNXUtam5GeTZ3bVRPQ0JtdTExMjBIU3Q2Q0h4MmlwUUlrSlVURUw2elNaQm13MDU0ajFn?oc=5",
+      "desc": "Claude Fable 5.1 and Mythos 5.1 launched: What is new and how Anthropic is handling security News9live",
+      "source": "News9live",
+      "time": 1788332472.0,
+      "score": 20,
+      "key": "352572fc5a83b728b3a8a50a6443651dc539d4c5488f8a7e3286c5d924f79bcf",
+      "editorial_value": 26,
+      "topics": [
+        "models",
+        "security_regulation"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 with improved coding, research capabilities and lower... - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOaTM3azVWemlqYXVyRXZKSDlWV2VqMEppVTN6YUxKWjVsYzhVMGxrNDhWVk5yeVRFd1VSNXItMTA0MnBEN2hlQ0lHQ0tmc3ZqSm1ZTjdTUVlkVVpsRjVKUmV3eGRhNTBLZ2NONHZDSlp5b0dSbGVhQTZxX0pxSnptb2k4SWpydHdXcnZXdERSQnl3OW51cVBQZEM0cmpXNW5aazJlbjNwOWhZWWs2bDVfX3hNb3dvcHVmcVVrbkwzWGkxaFE1a29neDBlN2t1THMzc1FpQ2poOGZsWlh6c2k2T2VHb3gyVTdSLUhDMTh0WVZ5ZENFTW5OaG1OUnVUQmpubmVV0gGIAkFVX3lxTE9ValpMRG1tVHdJS0NPZ1hqcHVYM29SNDVCWTVpRDZHQ2dwYktkS3NwV25hRGg3T1F4bHlWc1MxQTcycHRtZ3NfM3dLUVlNRDMyRk9pYWlzTjBEVlc4T0N4ZXdWUm8tdTRHZVcyZTY2enVOUVNEUzRyYW9zQm9QSUo5Zno4OVdvaG5hUERFdDlqel8wOE5ZRXZWcjVRRzVReUNBVXJETUEwc0hjMVFqbk5tQi1aUnVnQ2lPeVNxWkhRTDR1YkgzZlBmRzNTa0xaWDFxZlUwSFFHUXlfZFlPX1loeXRPT2dUOS1GelFEa2dWM3pvUTFUWkJuV0lWNHR4THd3V0kxNGptcw?oc=5",
+      "desc": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 with improved coding, research capabilities and lower... Moneycontrol.com",
+      "source": "Moneycontrol.com",
+      "time": 1788340864.0,
+      "score": 18,
+      "key": "e2ec09d05ac01dcd95a7fd0fb4056140d3d3bd0c69264ac87733bc4c13e396bc",
+      "editorial_value": 24,
+      "topics": [
+        "models",
+        "research"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic launches Claude Fable 5.1, Mythos 5.1 for coding and knowledge work - ET Enterprise AI",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNa2k4alhpUC1mN2Rfb2ItUFR3ZTU0LXBNVVVnQmY3ek5jR1dtenYzYkZpaGRBZ0o4Z09IV2R2NmZqcUgzWTBDaUFVRTVTMXVDbmtiUjRJNWF5amlSakdVYk0wVlZmNkhZOVBnRU9scTliT1kzd1h3aTlaTk1COGlZYWR5aU5DSzdSVklZT2ZTbDRaVU5PR2lhTDNDbWl2aUVKRVBidEh4ZVFEcF9iRGRvTFE1R05NUkpXdU5aY1k5SXQzcXZweWlob1pUMFZ6WTRVUDU5Vk9rM1NkbkItaFFJdzNwX3lvek4xbHfSAeoBQVVfeXFMTWtpOGpYaVAtZjdkX29iLVBUd2U1NC1wTVVVZ0JmN3pOY0dXbXp2M2JGaWhkQWdKOGdPSFdkdjZmanFIM1kwQ2lBVUU1UzF1Q25rYlI0STVheWppUmpHVWJNMFZWZjZIWTlQZ0VPbHE5Yk9ZM3dYd2k5Wk5NQjhpWWFkeWlOQ0s3UlZJWU9mU2w0WlVOT0dpYUwzQ21pdmlFSkVQYnRIeGVRRHBfYkRkb0xRNUdOTVJKV3VOWmNZOUl0M3F2cHlpaG9aVDBWelk0VVA1OVZPazNTZG5CLWhRSXczcF95b3pOMWx3?oc=5",
+      "desc": "Anthropic launches Claude Fable 5.1, Mythos 5.1 for coding and knowledge work ET Enterprise AI",
+      "source": "ET Enterprise AI",
+      "time": 1788336901.0,
+      "score": 16,
+      "key": "d069063539ef13db3657880ac0f44c2cea7f9662bb780a9e997ce92c308f709b",
+      "editorial_value": 21,
+      "topics": [
+        "business",
+        "models"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia In Talks To Acquire AI Platform Hugging Face For $14 Billion - Whalesbook",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMWpkVVMtYUpaYlZQakpRaGJPS2ZWd2tvTE5UVUNrNldOVUQtRTdPeVFZbjlLdkx4UmE1aHNVRTlwNkVydDRCSnRvU1Fna1MtdFZDN3BMcEVqT2VWYWx3b09mTUpVSEJOR1Z6RHcwRWRQTlVPeklGdGFzNjc3RzBPUDE5U0p2LV94YkM5QlUzUHM0N09YUEp1Z092NlFsampNSEhWcDA2WXZWN21Vb3ZueE54Ni1PRFE3ZnpVZmpMQWhLSjlqQ2hzNjAtNUpBVnh2cVJjcXNKREpmUms1cUN0ZktR?oc=5",
+      "desc": "Nvidia In Talks To Acquire AI Platform Hugging Face For $14 Billion Whalesbook",
+      "source": "Whalesbook",
+      "time": 1788333257.0,
+      "score": 14,
+      "key": "5bd8e6185df38390e0ea84d447b83334f83f23271a4d45c5e19632281bdcb434",
+      "editorial_value": 21,
+      "topics": [
+        "chips",
+        "tools"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "$21+ Billion Business Process Management Market Outlook 2026-2035 | AI and Automation Drive the Next Wave of BPM Growth - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSW1zSGJ6TS1mTVA2UmI2YkJxcm1zU0lFNmpLbDJQa2ppWU9sZmtLNGtacy1yQjJ4aGdodDA0dnN1cWUzNXJaV2I3ZVlyRDBYdWc4ZDJDREhzVjRhcTVNSldmTjF0cWFZeEtjaVJoZ25xWVFjZXZMREhwX2tkcEtZdnY4TlVya3pJdUVDN2VjdW16ZFU5SGQ4WXFuejRBSkx5TGFSeA?oc=5",
+      "desc": "$21+ Billion Business Process Management Market Outlook 2026-2035 | AI and Automation Drive the Next Wave of BPM Growth Yahoo Finance",
+      "source": "Yahoo Finance",
+      "time": 1788344880.0,
+      "score": 13,
+      "key": "0bd24f11fb34adc010d0d823900a12d5470f7db19ec87a1b42da341d62fafad1",
+      "editorial_value": 21,
+      "topics": [
+        "applications",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "OpenClaw обновили: ИИ-агент стал проще в установке и получил режим совместной работы - knews.kg",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcUFtZWU2NGFhX2dpU29PTENWMko1R2N1dGRoWU9obC1HZHhmbWJvVlFUTl9ma3dMSHhnanZhUDQtUzBUOXpuR0p1emp2eGtZZHFnSWFxdEVlQWhZM05TaDl1LTBoSDBIOEx4OGtIX2dhYWtXYWJhTTV6QWhhUjBYSkZFWFZBWjZmMVc1R2w4Mjl5elhXSXNsSDNMMU0tY3IzSGtKSlExaEdNZ3QxRDRNUUhadHdnRjA?oc=5",
+      "desc": "OpenClaw обновили: ИИ-агент стал проще в установке и получил режим совместной работы knews.kg",
+      "source": "knews.kg",
+      "time": 1788334740.0,
+      "score": 16,
+      "key": "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7",
+      "editorial_value": 19,
+      "topics": [
+        "agents",
+        "security_regulation"
+      ],
+      "tier": "S",
+      "last_failed_at": 1788347265,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788347565
+    },
+    {
+      "region": "WORLD",
+      "title": "Gemini introduces 'Agentic Video Understanding,' a video analysis tool that automates video analysis, generating detailed and inexpensive answers by repeatedly transcribing and re-checking long videos. - GIGAZINE",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2WElvQXhGcWRhbmtEazhzRkNNTF82QkZTNDBhWndtWVVoSTVGZnJXX2JJSUhfQkxvdVVlMkpieGRkY3ptTVVxLUhOX3dLM1NzZXdta284czd1MnJmbzdGV2NxSHNDUGxKOWx6UXNYRlY?oc=5",
+      "desc": "Gemini introduces 'Agentic Video Understanding,' a video analysis tool that automates video analysis, generating detailed and inexpensive answers by repeatedly transcribing and re-checking long videos. GIGAZINE",
+      "source": "GIGAZINE",
+      "time": 1788337513.0,
+      "score": 13,
+      "key": "5764bc26c8a9eabca3dc4a1074a29bfc504fa05a2359ac62043d209306c327d5",
+      "editorial_value": 19,
+      "topics": [
+        "agents",
+        "models",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "NTT DATA AI Factory Lab to launch in Riyadh and accelerate enterprise AI adoption across Middle East and Africa - Zawya",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZHFjNllCcVcwaEh3RklQVnVtSGh2Wi1ESV8xRXhJd1FzbDY3Qml0Q3lDXzdpTkcxanBHNFVQa2ZvNkNrMEFCZ1JXWk5pc25LMldabWdqa0x0X1VqcnJLYWZwNlFIbGxWTy1TN1JWQS0wLUNxMzc4bkd2UjBFNThrZkpjaWRYb0tsMzJ1aUlJTFZwNVFubVh2d3VqMk5aMkpoYkNFNFd6OE0xNEdVRFhKNURFTnhyU3hJRUJlYTlwUzdBbmZ5RGhQQUN2X1hjdE9uSnU4czl5VkswLXhCSHk0VnVGdVF0aS1CWU9tOFNrOTlSU0kwc0x6aEtPLWszUGpKRnc?oc=5",
+      "desc": "NTT DATA AI Factory Lab to launch in Riyadh and accelerate enterprise AI adoption across Middle East and Africa Zawya",
+      "source": "Zawya",
+      "time": 1788340200.0,
+      "score": 11,
+      "key": "1de0b51aaf8f0876e9b99a2f45513d2b92123239623f32f82863d368b76495e4",
+      "editorial_value": 19,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Ex-Google engineer booked for stealing secret AI chip technology for Chinese startup - Business Today",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeEdyY3B6Y3lCZ2ZaN21oTGJDMWFjQU94LVBKeWFIbnRoTkJoSlpIWnVQank4cmljRFlUQ0hJZkRTTTQxcTdNbkdpaDN3NnlLVnNUeUt5YmFqWHdCYTBjWUo0X0p6LTVDNklwU1hvSVNYd0g0R25aUmp3ZWtoMGRoYzUwQ25QRlBYN09DMUVXbXNveGNOaWl3ZkJRMUdQY2FnYXREeThMa19zTTV3TDZ5RGcxTTh6Smd5NGJ1cHF6S2F0OTZIa3V1SS1zWXYwdHJDSXdnMWgwQXY3Wlo3QVpLQ0tlQzRzdTdT0gHuAUFVX3lxTE9sa3R0TmM5X0Q4UFdBYjEyUDlDbjVLOVRPUW82RVFVWC1kN25UQS02WGtUZzJFblM3UUhWVTY0OXM2LXBKQUlESHo2SkNUdnJvZ2dqY3QtWGhjY0lHelNUM3pPWFdXTjlfNk1oOUY2QTkybkdqYXNmSUQzTFFNck1wT0x5UDl1YXdtN1FkNEJyRXlzVkIwOXVkNDE0WDhYd084RVNYSGQwcG5xcDFudXBZdGNwM09tbmNNczZ6ZmszR0o3dHJpeXdXMkQ3STJ0NHlSd1NhTk5aSWZMd2RVUHdVcEd3UmZHM2xzOTdkOWc?oc=5",
+      "desc": "Ex-Google engineer booked for stealing secret AI chip technology for Chinese startup Business Today",
+      "source": "Business Today",
+      "time": 1788341497.0,
+      "score": 13,
+      "key": "21c142edd8163235ab1ce9412d15a9c4dcc88bf5aba1bed711c0ca91c6dfb468",
+      "editorial_value": 18,
+      "topics": [
+        "business",
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Dell Technologies Reports Record $47 Billion Revenue as AI Demand Drives Growth - TechAfrica News",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZXA1VV9sanJURFdnYXltR0d6NUNKcGVlbkFSRWFZSTB2Y2FwQ05SYmExV1dpaTRKMXlFQXJ2RTYweUtVMmZxSF91TGxhTVZYM0U1OVhVYVVFY21CTW80OHJMV3VRcWk2NGtNYzBrSFNRSHo1UDh6QWEyTlNzWGF3UHduRkYyYlB0cFVFdGtkeWhqWUxLMGZZ?oc=5",
+      "desc": "Dell Technologies Reports Record $47 Billion Revenue as AI Demand Drives Growth TechAfrica News",
+      "source": "TechAfrica News",
+      "time": 1788336682.0,
+      "score": 10,
+      "key": "4517176bbead454baadb481ce47744e9d5eb1d9005ab174aeea2a35c20f86944",
+      "editorial_value": 18,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection - MarkTechPost",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ3FqZnczc19ZZXhjaHBjSVFvd1FLWG5aRXBqaF9LTG1GX1lWMDB2VFc3V0JfVVpESGpoOG5wQk9JdWdLNnZyYWFKTVJ3LTdQZkhQR21iQXBrN1hucDNRVmNUd2IyX2R3a2R4U3QwbW9aTlY1TUZ5VWdzSEtGUDBSRktjbEdHQ0NmYkFxVkNn0gGTAUFVX3lxTE1Tb2lKUXZENmszeU9HdUxnZkFwNGlGSG92UzdwRFRQZUpuSFhzX1lHSTByTnFuYUIyUWJ1OEdXYV9YUF9NVG5SVUFrZklnTFd1Q3RRNVVweENnX0REdmtzNEhTTW9GVmFIemFZZWJsTDVEYXBRNFR0aUJ0RzVDSjVuS1YyOEVBRlB4cUlLdHFPMi1uNA?oc=5",
+      "desc": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection MarkTechPost",
+      "source": "MarkTechPost",
+      "time": 1788334698.0,
+      "score": 9,
+      "key": "e60cc6d1c8b584c2870d17aff81f24b3003b5981b447c428f8ffd6cf8c9ec2b9",
+      "editorial_value": 18,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google’s New Gemini AI Could Beat OpenAI, Anthropic in Coding - thehansindia.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdFc1UWxPTDlvYzBSMlpWcFJtVjUxZ0FzXzVTZVdXbk8wNHpZRHQyS3h5MjctU2cxcUh3dGE5bG0xSUpNRFhsVUhCeHl1TkZhS21jZWo0eWpONms2NnVtUVRKUlo1NDdfUkszdjg0ZXY5bFEwbmlUUS1HVV9OZU5TY1BpQXJmNWQyZTdRa19MRnJSSXR0OTdDbXVwZUl5M0V6b3JYM3Mzekp3azZWWU53ZV9Ya0pRVUoz0gG-AUFVX3lxTE1qTzZMMTBVUU55V0g1bTNFNzhVOVpobzhycG1rbE1DYzNFZmRJLU4zZkgtdjNtTVFqMkJua05qeUxRSEVsUlZVX1VGTWgtNFh2S1pXWUxwS2hKNVJGNjVaOTlsLXZRMHc5T25vYVRuTnEzN3NSQndhUHpGV0FUV1hjdm9haFJwWEhYYnlRWTFOT0ltMTNfb2tlLUdsV2s0RXoxUWtMYzJHSUhTZmktSERYWDQ2bkJNakpHRVBzdlE?oc=5",
+      "desc": "Google’s New Gemini AI Could Beat OpenAI, Anthropic in Coding thehansindia.com",
+      "source": "thehansindia.com",
+      "time": 1788338266.0,
+      "score": 15,
+      "key": "4bdaf2b416d86527bf1e8704f6707c1fd8fa95657ae639886652c4caa42519df",
+      "editorial_value": 17,
+      "topics": [
+        "models"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic Unveils \"Claude Fable 5.1\"... Introduces Mythos Model with Enhanced Safeguards - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0dFQtaXM3RmFuT19pMDlTdFJkX3Vfdnpxc0szQ1hoek1nVjFTV2NJSDJ2ZUZFeTlmQThhNGw5V0ZNVWMtQzNrNGZVT203X3hNQ1RSVjNhdFBoRnNsaHc1SVlkNFc3aGlBa2ZoNTNZUQ?oc=5",
+      "desc": "Anthropic Unveils \"Claude Fable 5.1\"... Introduces Mythos Model with Enhanced Safeguards 아시아경제",
+      "source": "아시아경제",
+      "time": 1788334533.0,
+      "score": 14,
+      "key": "60f0e119cdfb6cadaf917e85c72785eb15d314f5af88efdfd3108425ca682bfd",
+      "editorial_value": 17,
+      "topics": [
+        "models"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "Agentic AI could improve corporate cash forecast accuracy to 90%: EY - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRXg5QWNPS1dfS2pndUstWC0tQ0NwdHAtakRoVmlubTdLcnNIYjBLYVRvcXdCdklzeTl5emdaOTBUeHBZUWxwMlN3VGlud3RlMVhpa3dfTUhGVU9kMzdGc1BCdkExVXQ3RGZDMnRlWnZoRzBHQnBVNmZzUURtTVQ1WFhoZlYwUVdWODdUVEdwXzJDSkJSMXhKSl9QamFseUpQTFlna0ZFZUdTTWczTmdkc2xHMmlTanNQZnhFU214UjRrR3QwNFQ1T3VHVXlUUEhlVG9z0gHYAUFVX3lxTE14OG5tVG9LYlFWSFpSZ0dIMm5GcnJmQ0d2bzVLSk4yNjNJejNkN1JFZVpjUFNJUnFRWFZaMFE2cFBkNER3UlBTTktLOVpsN3h6aW56Sk55dlR6Ulhrd0lFMGRIV014ZXN5YUlremI0MjUtT09sdHp5VGU4R0l2bWg1TmhjZnN1S3NtM0FWWlNoU1ZtQm9ndTMwY1RVaWxVNHdHdS1ZREY4eWU2Nm13VklYMWFMeE5IekMwUS1jUV9UMm5sc2FEX05ocVN5NmdlOWtpWWJIb3VlUg?oc=5",
+      "desc": "Agentic AI could improve corporate cash forecast accuracy to 90%: EY Business Standard",
+      "source": "Business Standard",
+      "time": 1788345134.0,
+      "score": 12,
+      "key": "a12c6c2fd1c752bfbb2d0b0e44f2aa738fc7cadda60f8aec4b484701a9931510",
+      "editorial_value": 17,
+      "topics": [
+        "agents",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic Launches Claude Fable 5.1 to Handle Long, Complex Work - Analytics Insight",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbVdlbURzWmI1Qk9SU255TElDNjBnN0lpMjZ4Q3RIdHA2YS0xMFBiR28wWUx6b04zVXNJVjQ4dHd2cmhLS2NicFJjV1hQQkpKLVIwOUJrc1RGU0dsOXBlRmtIRE1sejlqQXpPSWN4czB3NXN2QXhwZDc1MWdxeExmc2xENkJrYUl3anNuU1h1QlVEbWV6RXVrWDcwWGJrTXRoU2fSAa8BQVVfeXFMTWlySVZudnlWenkzWl9xQTZtQ1h3UXg3NTdqUkp2cnVRNlpmX3ZsdmtadDVmRlU4R0l0TGFXVjFOYlh1amFlWW5neVpraV80Q3NRS0o1MFhkbnF3blpCSXdnRW5Xa3lJSm1XYmZFal8tWDB4YTN1WHpNbXN3ckdsMEtSelE3ZXBDeEh6TWw0LVN1ZkZjR2JmamVhX1lJSl8zSFVCNjBxNHRhUTl0cF9QVQ?oc=5",
+      "desc": "Anthropic Launches Claude Fable 5.1 to Handle Long, Complex Work Analytics Insight",
+      "source": "Analytics Insight",
+      "time": 1788334200.0,
+      "score": 13,
+      "key": "26b1e0d03107e427b5907134cd91e1c6d707a79b43682d6ddcecae09965a8f13",
+      "editorial_value": 16,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Saudi Arabia’s new tourism platform brings licensing, investment and AI services under one roof - Gulf Business",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObTAyU2NoSS05VjkyVExUb2FreTlMaEVCeGpJcEUzUmNhU0NNcWh6MTVhWVRCV014RXVBVV94T2thUGVPWVhpWU4zdXJPQ1M4X3BFWHgwVDNLTTVXMmtoWUJmYzAwVDJBZWlLQjhhemROckdJdzdtWlRacVc4bzIwWnZYaVdZWXJaeExnVG15eFIzY1pmb2U4TXhtRGg2ZmJ1d3NnMFRubU5RYjUwMXgxYmN1emxraE5sQzVxWm85Y1pweC1vM3BfdFpzZXpVbnBCSVc5OUZkZw?oc=5",
+      "desc": "Saudi Arabia’s new tourism platform brings licensing, investment and AI services under one roof Gulf Business",
+      "source": "Gulf Business",
+      "time": 1788337367.0,
+      "score": 11,
+      "key": "5aeb3b0d4a538974c66bc4ee37f33299e383ed1bfd87883556a88b1053a56abb",
+      "editorial_value": 16,
+      "topics": [
+        "business",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "How to Work with AI Coding Agents - Towards Data Science",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5ZlB4Umw0dFR6LWlJZGhqallIenFqMFdGUUJaajd2RWtxUjBPYjZRQmN5dHc4d3paZVpKdm1aMHV0UlA5aWZWQk5YM3V6RG03M0tuWm82bUFxb0xWWDh3RWhHV1A5VFA0U09RSXlnYWxRZFU?oc=5",
+      "desc": "How to Work with AI Coding Agents Towards Data Science",
+      "source": "Towards Data Science",
+      "time": 1788334672.0,
+      "score": 11,
+      "key": "b3537015e3790b0b8d78b4fbae1d09cec5d866123fdd3b385ad3ffb211a5eec3",
+      "editorial_value": 16,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "NTT DATA Launches AI Factory Lab In Riyadh To Drive MEA AI Adoption - CIO Africa",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmRuSTdlSFlfV0xzQm9NVEhLc05GMGdiaG1zX081djlYcUx5XzBWb2VBZ1Zmb2kxNkZNM0pjMXVuZTZCWHhzZF9Yam5Sc2RDZVhzb0ZtZmxDY0tkWlJhTzdtY0FBN1k2VEhaR2g0MFVPOXpyanBJSlVXWkZLUnJGRzJZeElGREdkSkd3endIMkpKV1U?oc=5",
+      "desc": "NTT DATA Launches AI Factory Lab In Riyadh To Drive MEA AI Adoption CIO Africa",
+      "source": "CIO Africa",
+      "time": 1788342336.0,
+      "score": 10,
+      "key": "7b88b93ddbc052d088ea7f57e140fed5925c13a20bfc181a3308314de2427c64",
+      "editorial_value": 16,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Explained: Why Nvidia wants Hugging Face—and what Jensen Huang sees in open AI models - Fortune India",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTW5lZGF5RnB5TDBhRHJfeUhvSW1pUWNLeEx5Ykg1RnVodC1ZWXJwUGtlZHhZcjZWUWJGaENYdGc1eVFqS0tsQTEyZmdLTkJJbGtXcHI4anQ5M0UzcGU2LTIxTi1CY0x5cF9fb3pkUjJFcnJaQnZlQzktc05qOXpoZ2M3LWw3ZlJBNW9LbUhYRGUxMm5kU21GamFEODRrN3NvX0ZFWkRfLV9iTWFXRVQyZmEzWWFTY2U3X3hIOW9FMTlSWldEdU1idnM2UzRpaURwMWZVWVJUONIB1wFBVV95cUxPTW5lZGF5RnB5TDBhRHJfeUhvSW1pUWNLeEx5Ykg1RnVodC1ZWXJwUGtlZHhZcjZWUWJGaENYdGc1eVFqS0tsQTEyZmdLTkJJbGtXcHI4anQ5M0UzcGU2LTIxTi1CY0x5cF9fb3pkUjJFcnJaQnZlQzktc05qOXpoZ2M3LWw3ZlJBNW9LbUhYRGUxMm5kU21GamFEODRrN3NvX0ZFWkRfLV9iTWFXRVQyZmEzWWFTY2U3X3hIOW9FMTlSWldEdU1idnM2UzRpaURwMWZVWVJUOA?oc=5",
+      "desc": "Explained: Why Nvidia wants Hugging Face—and what Jensen Huang sees in open AI models Fortune India",
+      "source": "Fortune India",
+      "time": 1788332620.0,
+      "score": 12,
+      "key": "a29baa6aeaba5e8248553e8c88a39f502cd496adab5e9fd5d8b64338c392a849",
+      "editorial_value": 15,
+      "topics": [
+        "chips",
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Tim Cook sold 3.1 billion iPhones.. but did he make a mistake in the AI race? - آي-فون إسلام",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc09HRzIzOHNXWE5SSnBpRGxXS0gzYlNSNk0xRmJKR014QWpvdUNzazVaajl4Q0dxZWdCQkZaY1JodzhPb1FzR2xZWHREUmc1Zk9wNEI1QnY3V3VDdmVqRFpQakFjY2I1YkphTC1mbzZtZ3FMRTd3ZzI2a084ZHBYWDhrMkk5c09PNUtOSExfWlYwaWVSNVA3QlBOazhsV2NoY05BbUdJcldOb29QS1QwTFhQUkxxVXNiM3h4Ny1QaTBOS1k?oc=5",
+      "desc": "Tim Cook sold 3.1 billion iPhones.. but did he make a mistake in the AI race? آي-فون إسلام",
+      "source": "آي-فون إسلام",
+      "time": 1788339058.0,
+      "score": 10,
+      "key": "7986b89f52ea2a23d198cc966777e7e77e2a2a01bb3e013bcef965deb4240438",
+      "editorial_value": 15,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Александр Ведяхин: ИИ-агенты изменят структуру цифровой экономики и сделают рынок честнее - tvtambov.ru",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcmtVV3ZwYnNZYmF5VHQ4ejRoSTJ5Y3J6T0dUN21uckplSEw4WC05V0pYUmJidGpLakJ1WVpha281U1IxaTVvS2RNbXlMOU0xNnEyeFJuVVlQcjRVTUJpY1FxTGRnN1hoVEE0QURIR3A4andOM0dMdzFBYlhTcUU0Wkp5eGVfd3BxaTZxc21FTUl6YTlkclgwMWN5Sm9UTldYbno1NlJ0NWYwRHpNLTlmMDZTZGhSME90VmpwTmpBb0c1a2M1QUxXbE40Y0NpRjA?oc=5",
+      "desc": "Александр Ведяхин: ИИ-агенты изменят структуру цифровой экономики и сделают рынок честнее tvtambov.ru",
+      "source": "tvtambov.ru",
+      "time": 1788345916.0,
+      "score": 11,
+      "key": "45f14f87ca3ea418a1c81ee1c50c79fb249f79cbde579baa7ab6b10de8cc9f05",
+      "editorial_value": 14,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Why Did Dell Stock Fall After Earnings? Despite 130 Billion in AI Server Orders - MEXC",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdGVnSi1FQXZzNmhyLTRmc2dFa044RW92SjVvWlhOU1FuTnh6Yk5wSTJ1azFvQ1pOQ0RreWhWODRObXA2MGR0RC1hVzI4UGlwLTVRdU02TG1ucDlSZG84NmFSbzI0ZFIzMkMtMUlYa09IS0ZpU3VNS1ZyTWtYclVzdmRWMXNMcWNXRE1tdTNLYW9VQm5MaWpPWk53czRuQVhvU0drUXZ0VWExOE1HNFBKcjZsQUw3NGhtVW81Y0VHbHNOdmRsb3c?oc=5",
+      "desc": "Why Did Dell Stock Fall After Earnings? Despite 130 Billion in AI Server Orders MEXC",
+      "source": "MEXC",
+      "time": 1788332428.0,
+      "score": 9,
+      "key": "6353e48b817f048d505e8c15cd1eccf03457d7b1ee0c368e3d7b7e042a075fbd",
+      "editorial_value": 14,
+      "topics": [],
+      "tier": "A"
+    }
+  ],
+  "last_run": "2026-09-02T11:08:05.277493+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788347144.2623878,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788346248.4243684,
-    "consecutive_failures": 3
+    "last_start_ts": 1788347265.2698512,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788347265.2698512,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788346260.199682
+      "updated_at": 1788347284.6868465
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1028,10 +1390,16 @@
       "desc": "Keralam: CUSAT Researchers Develop AI Model To Aid Early Detection Of Brain Aneurysms ETV Bharat",
       "source": "ETV Bharat",
       "region": "WORLD"
+    },
+    "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": {
+      "time": 1788347265,
+      "title": "Лейла Шамузова: В онлайн-торговле власть платформ может перейти ИИ-агентам 02.09.2026 - Юг Times",
+      "desc": "Лейла Шамузова: В онлайн-торговле власть платформ может перейти ИИ-агентам 02.09.2026 Юг Times",
+      "source": "Юг Times",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1050,6 +1418,7 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ]
 }
