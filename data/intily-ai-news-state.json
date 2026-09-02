@@ -44,7 +44,8 @@
     "2de8f6b8a90936281e806780fc3d097ff8a1ff335ccc71f991aa027fa2513b06": 1788311169,
     "fd92044314653dd1dd8951d47c9cd9e09f0f8e44a520031b24120b63e9ed3b03": 1788311471,
     "c32ad6f054e83758384613400c8859a76a034256132433660bcf8544cbaaf20c": 1788311770,
-    "80ee4424364918f3a6c4e117aee4a2fefedc42631a85b2f1238eba5a7fafdff8": 1788312071
+    "80ee4424364918f3a6c4e117aee4a2fefedc42631a85b2f1238eba5a7fafdff8": 1788312071,
+    "3af2ca5b6f082ee422e3fa0b7686d28280a1017ed5210b3e56d5725d3b6d826b": 1788312669
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -274,24 +275,13 @@
     "c4f79d4358304d1f283893a45e2b2c84699ef12672cf75a50784ec5575d54891": 1788311471.3783507,
     "e67703a0a53723d2c45a0ceb37d89839c51282bfa8004a8c9089be30df8293b0": 1788311471.3783507,
     "80ee4424364918f3a6c4e117aee4a2fefedc42631a85b2f1238eba5a7fafdff8": 1788312071.8087237,
-    "b6c73623df26c93b8e77558be00cd486cf0daa609071742dced1bb058020cb3a": 1788312071.8087237
+    "b6c73623df26c93b8e77558be00cd486cf0daa609071742dced1bb058020cb3a": 1788312071.8087237,
+    "ccff88b4d108dbcecbfc8b0c9daf75929158a85f761747957f71f228d79cddb8": 1788312669.8344204,
+    "aa69c27ef11524f8fab538511c64a2c1cd676f9cadaee77154ea42f5288c40aa": 1788312669.8344204,
+    "9a98dab17f80833977c5af143fcb25d9e4bf6daa8feee860e62b62af26b109ea": 1788312669.8344204,
+    "ac711102d9c0bfc50e84f00e39270a46ca891911658833965fa1ab9ca8620fef": 1788312669.8344204
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "CrowdStrike launches frontier AI models for cybersecurity in partnership with Nvidia - Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObVRhaVYxSHZjV2ZtaFJ0MHBJSEVNRFZUSmJDdER3T0V4dzFldzQxMUZqME5JRWFqcDVCbXdoT3RKVG95YkRZOG4td09CMGgtMEpPS05HTEZpa01WSmY4ckpDQUk3Qjctem5PQ01MYk9JaXNtXzRWSEZlQ0RXZ3BYZEh3?oc=5",
-      "desc": "CrowdStrike launches frontier AI models for cybersecurity in partnership with Nvidia Crypto Briefing",
-      "source": "Crypto Briefing",
-      "time": 1788281259.0,
-      "score": 18,
-      "key": "3af2ca5b6f082ee422e3fa0b7686d28280a1017ed5210b3e56d5725d3b6d826b",
-      "tier": "S",
-      "last_failed_at": 1788310269,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 4,
-      "next_retry_at": 1788312669
-    },
     {
       "region": "WORLD",
       "title": "Is Nvidia’s $35 Billion Anthropic Pact the Ultimate Circular Financing Play? - 24/7 Wall St.",
@@ -780,6 +770,17 @@
     },
     {
       "region": "WORLD",
+      "title": "EU Machinery Regulation 2027: The Cybersecurity Shift That Will Redefine Industrial Compliance - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeTdfcFpRcExCdnJDRTk5TV9OU2docGVEVmxGWE1kLTBseG5IcDVNYi1tYUwtdldoUHZtS3EwM3ZKNUlwWnhMeWZYeVNqdElJNWpWU0tHNUM2N09mTFZTSTkwQkdraXlXWlEwakJwSDl1QnVyT3h0dERCRUpDUHlnak8wNHFJSFByb2RxYy1BbFhNcmtTWG9Fa040cjZfMTZCaVNFRXhqLXJxbFA5VWhaQmlfb083WHg0VDhYYlVOSU5uVXQwcUc1T21tbGR5TVM5ZG16MWhCX2ZQTkE?oc=5",
+      "desc": "EU Machinery Regulation 2027: The Cybersecurity Shift That Will Redefine Industrial Compliance AD HOC NEWS",
+      "source": "AD HOC NEWS",
+      "time": 1788261887.0,
+      "score": 9,
+      "key": "ccff88b4d108dbcecbfc8b0c9daf75929158a85f761747957f71f228d79cddb8",
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "OpenAI report turns the Hugging Face breach into an AI safety test - inews.zoombangla.com",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54cE9sLVRvRDNIUTJDZ3JGUTZKS0I1SlJpN0VveWtCQ2NHa29CbDI1a2J1blphQV9sMjBXS0RuOXdYejFzaGZGMDNOcXQtUG9oQnl0V1JsREpXaEVkOTJqbjY4eFNZRXJMVGV5d3ZUbURONGtPV2tuSzFZSE8zdw?oc=5",
       "desc": "OpenAI report turns the Hugging Face breach into an AI safety test inews.zoombangla.com",
@@ -974,6 +975,17 @@
       "time": 1788282147.0,
       "score": 8,
       "key": "372089e1d2fa3fd21179ccd5983075a9379557c40c863f04d4a80b70b4548100",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
+      "title": "John Deere launched an AI chatbot for farmers - The Verge",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNjFFRnA2cEg3eHpxa2ktX2JFamhBeGxVazFTaFVzd2ljZml2b3h3ZWdoQXhhOTVNWlFod0hNQk5kOVZrR29UN1MyeTRSUDZjNXBsRDdwbFNEUFlJVktBMXNpNWdoV2pJZzR2ekJVbHYtc08tMVZIN21KcjdfeFZQMkcwelo2OWhtaXY4?oc=5",
+      "desc": "John Deere launched an AI chatbot for farmers The Verge",
+      "source": "The Verge",
+      "time": 1788278452.0,
+      "score": 8,
+      "key": "aa69c27ef11524f8fab538511c64a2c1cd676f9cadaee77154ea42f5288c40aa",
       "tier": "B"
     },
     {
@@ -1393,33 +1405,22 @@
       "score": 7,
       "key": "3aa0e644e4f7b7cbc2987f40825c4c3b4eef7e71cfd7d6d3bf50adcbde95a926",
       "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "NVIDIA Invests USD 3.5B in MediaTek: AI Chip Push Expands - analyticsinsight.net",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOXlLUjdFQVEwelAybXc5aEFFcDd1XzNWZ3NHME1DQS0tWFQ1dk9SQW5PQ3ZVc2gxSHRVYUw3VG5NWHNJMy05R3VoVV90Ul94YzhIWlZ4VTl2aXRxWmhzeU1tdXYtWW5lMWptYV80a2Z5azlEb1NEUWlEY2I2ZWJKMXl3c3ZIdHVOU1oxWmt3MjdkdTdZa1FpVtIBpgFBVV95cUxNc092OXd0V2FFZ1hXSXItaFlEajRXY3NWZWhQQ09UV2w5SkRXS2JyS3A1RHNNVHdwTGtlRjJpMmp1cjg2SnlIQXFOUVA4OEY5WUdEemZRU3RmTWhWWDd6RUJMbjhEMS1oSUpSMVNuNVhCN1pTdE9QSW11ZHFrY1MtSHdib2VkZGZlTWo2eDNka05uVlBrNS1kQjdWb3p3cWk4am1hb0ZB?oc=5",
-      "desc": "NVIDIA Invests USD 3.5B in MediaTek: AI Chip Push Expands analyticsinsight.net",
-      "source": "analyticsinsight.net",
-      "time": 1788256197.0,
-      "score": 7,
-      "key": "7346699eb80a2aacb39a3f376e4ef4ba5926e5879f0ebcb44f44802c0d6e6e82",
-      "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T01:27:41.848744+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T01:31:25.606421+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788312368.5251951,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788312071.8087237,
-    "consecutive_failures": 1
+    "last_start_ts": 1788312669.8344204,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788312669.8344204,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
-      "disabled_until": 1788312581.8484101,
-      "reason": "TEMPORARY_SERVICE_ERROR",
-      "updated_at": 1788312461.8484128
+      "disabled_until": 0,
+      "reason": "",
+      "updated_at": 1788312685.2654004
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1641,6 +1642,13 @@
       "title": "Secret Technique Behind OpenAI’s ‘Astra’ Model Sparks Security Concerns - The Information",
       "desc": "Secret Technique Behind OpenAI’s ‘Astra’ Model Sparks Security Concerns The Information",
       "source": "The Information",
+      "region": "WORLD"
+    },
+    "3af2ca5b6f082ee422e3fa0b7686d28280a1017ed5210b3e56d5725d3b6d826b": {
+      "time": 1788312669,
+      "title": "CrowdStrike launches frontier AI models for cybersecurity in partnership with Nvidia - Crypto Briefing",
+      "desc": "CrowdStrike launches frontier AI models for cybersecurity in partnership with Nvidia Crypto Briefing",
+      "source": "Crypto Briefing",
       "region": "WORLD"
     }
   }
