@@ -89,10 +89,10 @@
     "350f3306d35176b9700676a433887f07decab5efce8309f514b2edcceeeeff3c": 1788325573,
     "6ce0c5163589fcbd4355918196107fef1e8dc997f7dbff5b60087b2a230bc64d": 1788325871,
     "189a5d1d51f314f71266a5fcfba1e780802fe9588007d24453bae3e8f8d715d8": 1788326171,
-    "ad7603f7223eec20cf4b72d26dfa2758bc31518e659e3096298e6c0d7cf3689f": 1788326472
+    "ad7603f7223eec20cf4b72d26dfa2758bc31518e659e3096298e6c0d7cf3689f": 1788326472,
+    "077a6374baa07104e87304796c0e03365cae6b07250f3e0af362cf0cf1a65725": 1788326772
   },
   "known": {
-    "bd726763e8f61eee341705867d06a01f169217b4c78b8c5791fa49301a967408": 1788305119.846747,
     "2de8f6b8a90936281e806780fc3d097ff8a1ff335ccc71f991aa027fa2513b06": 1788305420.3213289,
     "50a82703665bd10625c5751de9f5d6d09285b932269b10d55b5ec531fb1cfb6c": 1788306072.5872788,
     "23a5d564f30a93878ac4c5e932966c2a48b34512233f157b2498c57e1fe0f4be": 1788306372.5694413,
@@ -283,21 +283,6 @@
     "97c8442e48f05d948bb7d12973d3ae1490ddb974276f5a9ba23e0ff3cd3a3061": 1788326472.2605171
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Anthropic releases new models, cost structures and safeguards - Axios",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2phY0R2b1N5eTVJRXNMM21ubUlFYUhaWjZCY0VDb3pFMXJsSWlxOWhsQ0RXRmVVM0RTejN0OVp4TEtVRm02SlRydW5yS2YzV1dtbVNGeVZocDNaeTIwYzNVSnBST1hSbGZvR25Ba3IwaWowTklveUhyZHo0M21HSEI3V1Mtbk1kdkgwYWwtamt5UzYtenZfVQ?oc=5",
-      "desc": "Anthropic releases new models, cost structures and safeguards Axios",
-      "source": "Axios",
-      "time": 1788296258.0,
-      "score": 18,
-      "key": "077a6374baa07104e87304796c0e03365cae6b07250f3e0af362cf0cf1a65725",
-      "editorial_value": 21,
-      "topics": [
-        "models"
-      ],
-      "tier": "S"
-    },
     {
       "region": "WORLD",
       "title": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay - Stocktwits",
@@ -801,20 +786,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T05:21:23.544920+00:00",
+  "last_run": "2026-09-02T05:26:22.197552+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788326472.2605171,
+    "last_start_ts": 1788326772.8525891,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788326472.2605171,
+    "last_success_ts": 1788326772.8525891,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788326482.999898
+      "updated_at": 1788326781.7535536
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1352,9 +1337,17 @@
       "desc": "Anthropic Reportedly Rolls Back Data Retention Policy After Customer Pushback — It Also Launches New Claude Models Stocktwits",
       "source": "Stocktwits",
       "region": "WORLD"
+    },
+    "077a6374baa07104e87304796c0e03365cae6b07250f3e0af362cf0cf1a65725": {
+      "time": 1788326772,
+      "title": "Anthropic releases new models, cost structures and safeguards - Axios",
+      "desc": "Anthropic releases new models, cost structures and safeguards Axios",
+      "source": "Axios",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
+    "WORLD",
     "WORLD"
   ]
 }
