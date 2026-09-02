@@ -66,7 +66,8 @@
     "a87ab09a305fccda590302d56985fa56eb8bc672e469d6e7b2fc5ef6a8371bd8": 1788318372,
     "9721bf3bb2b3c7a4ac397873ceb427af0403690a306218eee5f0a33a561f1360": 1788318669,
     "5083bc82cd39d884dd519d4ab8e3d5350f99d592e65cef0d25958226c527206f": 1788318971,
-    "a4cb071ee10ac0f29f062727482ea9db5cff4cb2c8d18fe2efecb06a2b6c5d27": 1788319271
+    "a4cb071ee10ac0f29f062727482ea9db5cff4cb2c8d18fe2efecb06a2b6c5d27": 1788319271,
+    "22bfdbf5e0cbf644f9a9f8e2a1b897f9f3d678f33ee85a90304cbf613518c8a1": 1788319568
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -328,7 +329,11 @@
     "43b7500edd0d8542a9677eda47d371de3c58e2d2cec54653d49d4ea4dbaccc4a": 1788318669.1483605,
     "6565938551d6285e1b4f2f1e6f16c8a681b1f1f862218a05d356d489fcecdd8a": 1788318669.1483605,
     "d3e4429153e5f36483dd8acb0f9ea854b4926310dbd84d4e032a01fb3a05b720": 1788319271.5223627,
-    "3cf38ec41bac08e7b9429561552b1c25c59ad53bfd3421a75a3d8d4278c97f92": 1788319271.5223627
+    "3cf38ec41bac08e7b9429561552b1c25c59ad53bfd3421a75a3d8d4278c97f92": 1788319271.5223627,
+    "22bfdbf5e0cbf644f9a9f8e2a1b897f9f3d678f33ee85a90304cbf613518c8a1": 1788319568.6677265,
+    "7991e8d25edc76514c769308b889791453422ce23343ce9c76a4fc3b0e7c7271": 1788319568.6677265,
+    "eae2c7fd41fc3d3ba1a607409e6e8752e12737aa38e8c6e1bcc15b961d323fa5": 1788319568.6677265,
+    "a4d4474a2df56fc5ecfa58bc6efdc9d6e2652d01db00a1b00fc7c743d416d3f5": 1788319568.6677265
   },
   "queue": [
     {
@@ -865,6 +870,17 @@
     },
     {
       "region": "WORLD",
+      "title": "OpenAI: ChatGPT Ads business hits $1 billion milestone - Mass Market Retailers",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV3MxVnc1bkZ0N1ptVVQzQzBZVzJuMVczNWdQSWRLb3NGYVhTVzNkc0twN2pRaERrQ1Y3R21BbGF0MTlkYTJqcVFwbzJKdVUteVliQjNWOFE3d1FqMmpISDBxV29FdkM5eXhyMEFkVEVyQ19WRkNZTEMteFFxYjBaTEhJbHJzNzVoUVo4aWpB?oc=5",
+      "desc": "OpenAI: ChatGPT Ads business hits $1 billion milestone Mass Market Retailers",
+      "source": "Mass Market Retailers",
+      "time": 1788271792.0,
+      "score": 8,
+      "key": "7991e8d25edc76514c769308b889791453422ce23343ce9c76a4fc3b0e7c7271",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "Nvidia Just Invested $3.5B in a Major Qualcomm Rival's AI Chips. Here's What Traders Need to Know. - Barchart.com",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQnRmenBtYzJxNkRCRTlqc2tZTXRLNDM2dTAtMUFxT1M1YlRFUEdETHBqVmRHUlRfZ01jbTJpeGVQRFF0UzBBVDJkSC1USmc2eUtQckJ0M1llQ3RRa2lIbGVNNUpKazFFZHcybzJKdnVKNS1tYmpEaGVzc0xzdWRucHhpQjlyMVJxYXRWTkRGRlc2dUJSenk4Uzd0a2hUU1NCSnMtUFBzYTZWazFjUnJTaFJIc0dzVnJOblhzTTBxdERuMmp5YTgxcU0xNVJIQ3ZMNU02anBR?oc=5",
       "desc": "Nvidia Just Invested $3.5B in a Major Qualcomm Rival's AI Chips. Here's What Traders Need to Know. Barchart.com",
@@ -1118,6 +1134,17 @@
     },
     {
       "region": "WORLD",
+      "title": "Sonos 27 with AI control, redesigned app, Beam Ultra soundbar and Ace Ultra headphones announced; Sonos Play launches in India on September 8 - FoneArena.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU3BMSkVyQmxHY0JvNTgzS2ZRZFlfeVdibWUwelhnWkxQTmR6TGRLd21yd0tBa1AzMU0tWF9xeW4yaDFScU5yOGRKUlN0Z0d2RF9LazlTZzJXNExJYklEVHNXRGozRlE1dUlRazBYY1RURVV1dEh2OVJud3dZZGlWSWJsZElvTjRjcTg2aTJOUk_SAZYBQVVfeXFMT1NfLU90dDZQMnJDeEtVX0NrRUhJSVl4cm9MdFZJLTU2Z3hFR3M3MDh0WjFhOGZHWXRWT1ViV0FqcWIzY2Q2ZzBhZkJrZG1ZcU5ta3B6NHp0Z2RXaHY4Y3Q0SDdBaE5iVkwySTJ2YTI1T196Y1JveE52ZmNMa29aTlc5cmxTeDdDR2c4Nzh1VTU0OWFjcERB?oc=5",
+      "desc": "Sonos 27 with AI control, redesigned app, Beam Ultra soundbar and Ace Ultra headphones announced; Sonos Play launches in India on September 8 FoneArena.com",
+      "source": "FoneArena.com",
+      "time": 1788319015.0,
+      "score": 7,
+      "key": "eae2c7fd41fc3d3ba1a607409e6e8752e12737aa38e8c6e1bcc15b961d323fa5",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion - finance.biggo.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNVYzckRLa3FlSER0bFZzX1d1dWhPd0UtbENGbnczeGZmUlV5eXFsMVVnS3hEbUluSWtpaWU2MXhLN1AySFVza0xxdEJhUUlBWVNUcVFwNmJoUWprcWVBMTIwYXBFTjR3VFpmSU9ZbThzNkkyeVE?oc=5",
       "desc": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion finance.biggo.com",
@@ -1337,6 +1364,17 @@
       "tier": "B"
     },
     {
+      "region": "WORLD",
+      "title": "Anthropic's Claude Fable 5.1 claims world's best in coding, knowledge tasks; cites Venus map as proof - CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcmg5OEpOZV9NMzU4SlVQUFBxYUlhQzU5SHVndEZjVjR4YmRpbmpTbVV3S0F3cEtMSWdZNzk0MlY5b2FKd0FWdHZtMWprS01WNF85ODJ2Y2pqbTJMcTdJVnhNNnRLWmYxc2xabl9xRE5fZmZpdV9VWDFvU1ZQT2VjeGFsWC1heHhoaWJLREVjUUlWSjlVbTNzV0duT1JRbHEyQkUtM3hQanRtMGlkU0xJZEtnY1loQ3BLWmZpYklxelVFVjdLaXBCbGhNVVBUVkVYRlVxdFVFY3hpc29HZ0ZJ0gHkAUFVX3lxTFBrcllSVWw0UV9ySFNGWEFVMjFLUHRJOVBMLXpvMUdVeXNNb0VkRGtGcWhJOE9pNWxoV1RUUW8xQklqenl3LXExV29SVldMMkViY3ViQzZtY1liYVdoYi0tbTFZU1pZY3Q2alpjNXRGeFVGbjJWV1g3aHc1d3hRbmctLXN2WV9JYXgxWVdJT1otT2V1ZWlSWTZNcVhaMlhIZ0MzNEZ6Tkt6SjAxSGZ3VlNHeVA1VUdnOHZhbUZfN3Y2SEZpR0sxdkZvZHQ2T0dRYmFjbjhqUWJ3dndzbE42eEJqRTVPTQ?oc=5",
+      "desc": "Anthropic's Claude Fable 5.1 claims world's best in coding, knowledge tasks; cites Venus map as proof CNBC TV18",
+      "source": "CNBC TV18",
+      "time": 1788317798.0,
+      "score": 6,
+      "key": "a4d4474a2df56fc5ecfa58bc6efdc9d6e2652d01db00a1b00fc7c743d416d3f5",
+      "tier": "B"
+    },
+    {
       "region": "RUSSIA",
       "title": "Ученые создали цифровой «паспорт» для микропластика в Арктике — нейросети теперь отличают полиэтилен от полипропилена с точностью 96% - RuNews24",
       "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQRzFNQ0l2VjRXMTh3b1NsQ1p6REJQSWRfaG81d1lJZ2tKUzJTMGZXQk9lT2tqZkRFdng3RWtSdWU5bTA5Z1hXTXkyUDBBeDNCbFBETFFqdDB3QUNieEkzSkRUNG13VEdxbERaM0I1c0NlLVEwSTlCdjVRck1sWXdrbzRNMkVBcHZiZk9iUmpaQUlpN1ZYTHFnWl94YTRpRHlpWm5qMzRnaDExUXJ3Mk5XNWpkcmNublBPN2F5RVBva0UtSS1mOGFYRlBFWXN3eS1qVEtwSkxJN2cxUXNicFdxZmladmhCZ1Z3S3AtX3ZTX1FNUmQxUHFxUnB2TzhmTndtX0tN?oc=5",
@@ -1401,44 +1439,22 @@
       "score": 5,
       "key": "c18a111d6f4e1e0e8fb790705cf0deecf998b3ede1dbf8e2c72ba0c2b11fb2f5",
       "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "Wafer turns down acquisition offers from multiple cloud providers after raising $40M at 50x valuation jump - cryptobriefing.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ua1Rqb1M2ckNXSGlLeFdxVUVmekRaWFQ5Y3V4ZjFnU0s5LUlhY3FJRlo3bExhWXpaOXFTRldmWHBONGR5VWNVV0FFOGQwXzA3NGVGQS16WGx0aS1NUktQSFFESnh0cEhRUzB2Smx6RnNKekJuelpB?oc=5",
-      "desc": "Wafer turns down acquisition offers from multiple cloud providers after raising $40M at 50x valuation jump cryptobriefing.com",
-      "source": "cryptobriefing.com",
-      "time": 1788291517.0,
-      "score": 5,
-      "key": "14640c44dc73ed4a6fffa1cc3c47ce00466ede17f79ea4817200fd58a5c093ac",
-      "tier": "B"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Какие изменения в законах ждут ивановцев с сентября 2026: финансы, пенсии, ипотека - i3vestno.ru",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVGhMaGowZUl4bVBKVk5JaHEyeF81TWhSVV9tNjVNbE44Z3hGZHpva3M2MVZaYkluVlZiakFOQVphTDIyZk81UEIwb0xPVjV2dlE0T1pJV0I2WWFYLTdkYjNwNWI3WXF1S0QtbHVnMnd2OVlqdWdtVV81ajB0UFJtcktFVl9oeTFpQlJ3eVlaUGFrRmotTEhsRG1vLThiWWg0c1pQdEFtZlhRWkpDMUFwUXUyMFRMOW0ybFBJ?oc=5",
-      "desc": "Какие изменения в законах ждут ивановцев с сентября 2026: финансы, пенсии, ипотека i3vestno.ru",
-      "source": "i3vestno.ru",
-      "time": 1788249743.0,
-      "score": 5,
-      "key": "6565938551d6285e1b4f2f1e6f16c8a681b1f1f862218a05d356d489fcecdd8a",
-      "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T03:21:55.195110+00:00",
+  "last_run": "2026-09-02T03:26:23.851605+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788319271.5223627,
+    "last_start_ts": 1788319568.6677265,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788319271.5223627,
+    "last_success_ts": 1788319568.6677265,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788319314.771704
+      "updated_at": 1788319583.49494
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1815,6 +1831,13 @@
       "desc": "Вступил в силу закон о регулировании обращения цифровых валют prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "22bfdbf5e0cbf644f9a9f8e2a1b897f9f3d678f33ee85a90304cbf613518c8a1": {
+      "time": 1788319568,
+      "title": "Anthropic Slashes Cache Pricing 75% to Make Claude Fable 5.1 Viable for Long-Running Agents - finance.biggo.com",
+      "desc": "Anthropic Slashes Cache Pricing 75% to Make Claude Fable 5.1 Viable for Long-Running Agents finance.biggo.com",
+      "source": "finance.biggo.com",
+      "region": "WORLD"
     }
   }
 }
