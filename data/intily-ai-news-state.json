@@ -94,11 +94,10 @@
     "ce87e875e98084165d3f7b034ae78dd580a8ddb6d5be3dadf0fe390d106fa52c": 1788327077,
     "cfe66b1c7d4670160e871c1b464f78d266389f193e361b3aacfb4d3b3ea48092": 1788327369,
     "39ed18f70345ef93a928a9c8153467bdddc1139abe40a7662ae7467e9448994c": 1788327673,
-    "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970
+    "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970,
+    "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": 1788328270
   },
   "known": {
-    "23a5d564f30a93878ac4c5e932966c2a48b34512233f157b2498c57e1fe0f4be": 1788306372.5694413,
-    "c5e54384c1e75149a3f92009bf514a494d88d095fa7a6b7aecb5fe0d294a1081": 1788306372.5694413,
     "b950fb51d94b5a6eee5e002d65fbcadb00df41a7828c05e0d1535dd593396679": 1788306967.7025893,
     "3af2ca5b6f082ee422e3fa0b7686d28280a1017ed5210b3e56d5725d3b6d826b": 1788307276.6180673,
     "4031bff6f48861fdb82aaa227c6d196da37eaf7e3bddf159e5d964296eae31c2": 1788307276.6180673,
@@ -284,7 +283,8 @@
     "71b166722d56995c0ca5a8134033985028a52a5059deb314faec3566633b2be8": 1788326472.2605171,
     "97c8442e48f05d948bb7d12973d3ae1490ddb974276f5a9ba23e0ff3cd3a3061": 1788326472.2605171,
     "cfe66b1c7d4670160e871c1b464f78d266389f193e361b3aacfb4d3b3ea48092": 1788327369.1821887,
-    "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970.5963094
+    "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970.5963094,
+    "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": 1788328270.6989605
   },
   "queue": [
     {
@@ -564,22 +564,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Google Says Gemini 3.7 Flash Is At The Frontier Of Accuracy And Cost At Agentic Video Understanding - OfficeChai",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSXAzcGZwdjFrVllLeklqa3B6NmswZUxTTEI4Tjdmdl81R3ZRdDdfM1l6cEE3cTJJR2hSZDBCOVhMcVEtbWV5bUhQZDdWdXQ2R1B5dW4yY2hhaHZ0bUMtWFBZNmRVTnlfZE56WDRVNkxWM1lCTUNBTGttOUFPZG1lekhMS05CV255TXhWNkh2TW03NTM5OU00Qk1oUTlqS2tfZk5Gbm00b0lWY1RHZmp6S2sxZXNBVzI1NXJjOENqcFZ4OFB0?oc=5",
-      "desc": "Google Says Gemini 3.7 Flash Is At The Frontier Of Accuracy And Cost At Agentic Video Understanding OfficeChai",
-      "source": "OfficeChai",
-      "time": 1788285027.0,
-      "score": 8,
-      "key": "94a75b64f47cfdece51f4adddf2cd75d190fb6fc9ac4293194b46c919af47c5e",
-      "tier": "B",
-      "editorial_value": 11,
-      "topics": [
-        "agents",
-        "models"
-      ]
-    },
-    {
-      "region": "WORLD",
       "title": "Musk, Zuckerberg Oppose AI Regulation at G20 - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORGcyd09GQkItbkN4T2hMVHl1V2tNbnRqNDhrZXg0WWEyMDdFOHdOZEtCLWU1N2o2TlVHRzFHa3VKZ09PU0pfbDI5MUtnQzBmVTEwRXJFNVN1MTRGYzUtSTJHVmlUQ19jVFEzZnd6MEN4WmVFS0FWNjJQRzlyTDIzMUNJS0FyaTU4?oc=5",
       "desc": "Musk, Zuckerberg Oppose AI Regulation at G20 조선일보",
@@ -749,20 +733,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T05:46:20.407346+00:00",
+  "last_run": "2026-09-02T05:51:39.827507+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788327970.5963094,
+    "last_start_ts": 1788328270.6989605,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788327970.5963094,
+    "last_success_ts": 1788328270.6989605,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788327979.9669566
+      "updated_at": 1788328299.2795472
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1335,9 +1319,17 @@
       "desc": "Exclusive | New Google AI Model Said to Narrow Gap on Coding Ability WSJ",
       "source": "WSJ",
       "region": "WORLD"
+    },
+    "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": {
+      "time": 1788328270,
+      "title": "Anthropic's new Mythos and Fable models come with a new enterprise data retention policy - thestack.technology",
+      "desc": "Anthropic's new Mythos and Fable models come with a new enterprise data retention policy thestack.technology",
+      "source": "thestack.technology",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
