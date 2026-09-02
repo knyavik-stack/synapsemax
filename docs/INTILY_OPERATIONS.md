@@ -159,3 +159,11 @@ Correction:
 - `QUEUE_REBALANCE_FILTER` exposes how many items were removed for expiry or quality.
 
 This keeps durable memory without allowing obsolete backlog rules to contaminate current editorial output.
+
+## Live status update — 2026-09-02
+
+После durable queue revalidation live state был повторно проверен: queue=1, published=129, stories=114, known=61. Это означает, что прежний backlog около 100 материалов больше не является текущим production backlog: legacy low-quality entries очищены по действующей editorial policy.
+
+Один последующий cycle завершился с FAILED_NO_PUBLISH и consecutive_failures=1, хотя сам workflow завершился успешно и state был сохранён. Причина publication-level failure остаётся под наблюдением следующих Cloudflare-triggered cycles; queue и память не потеряны.
+
+Также исправлен browser QA: focus-visible теперь проверяется через реальную Tab-навигацию, а не через programmatic focus, который не обязан активировать keyboard focus ring.

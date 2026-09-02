@@ -81,3 +81,17 @@ Commit `8b34a9130b182a65164ba36b5e3ed0f1e9ccf4fd` separates queue retention from
 ## Latest production correction — 2026-09-02
 
 Durable queue state is not trusted blindly across scoring-policy revisions. Each cycle revalidates queued items using the current AI relevance, score and editorial-quality gates before regional rebalance and publication. This preserves durable memory while automatically purging legacy backlog that no longer meets the live editorial standard.
+
+## Live verification after queue-policy correction — 2026-09-02
+
+После применения revalidation durable queue фактический state сократился до queue=1, published=129, stories=114, known=61; в очереди оставалась одна WORLD-история со score 12. Это подтверждает, что legacy backlog около 100 материалов очищен и ranked/revalidation policy работает.
+
+Последний зафиксированный run в этот момент имел FAILED_NO_PUBLISH и consecutive_failures=1: кандидаты существовали, но Telegram получил ноль публикаций в конкретном cycle. Workflow при этом завершился технически успешно и сохранил state; это остаётся предметом наблюдения следующих production cycles, а не поводом возвращать backlog policy.
+
+### QA correction
+
+Immediate QA выявил не продуктовый дефект, а некорректную проверку accessibility: тест использовал programmatic HTMLElement.focus(), хотя H1 intentionally показывает ring через focus-visible, который зависит от keyboard modality. Browser gate переведён на реальную keyboard navigation через Tab и проверяет тот же computed focus indicator после фактического клавиатурного фокуса.
+
+### Current status update
+
+Queue-pressure issue из предыдущего YELLOW статуса закрыт фактической проверкой (queue=1 после revalidation). Остаются: наблюдение нескольких cycles после quality correction, исторический semantic-memory gap для старых публикаций и плановое обновление GitHub Actions dependency chain из-за Node 20 deprecation warning.

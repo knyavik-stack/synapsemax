@@ -38,7 +38,21 @@ test('H1 critical journey: landing to assessment result and CTA', async ({ page 
   const cta = page.getByRole('link', { name: /обсудить результат|получить карту трансформации/i }).first();
   await expect(cta).toBeVisible();
 
-  await submit.focus();
+  // Verify the real keyboard path rather than programmatic focus().
+  // focus-visible intentionally follows keyboard modality and is not
+  // guaranteed to match after HTMLElement.focus().
+  await page.evaluate(() => {
+    if (document.activeElement instanceof HTMLElement) document.activeElement.blur();
+  });
+
+  let keyboardFocused = false;
+  for (let step = 0; step < 120; step += 1) {
+    await page.keyboard.press('Tab');
+    keyboardFocused = await submit.evaluate((el) => document.activeElement === el);
+    if (keyboardFocused) break;
+  }
+  expect(keyboardFocused).toBeTruthy();
+
   const focusRing = await submit.evaluate((el) => {
     const s = getComputedStyle(el);
     return s.outlineStyle !== 'none' || s.boxShadow !== 'none';
