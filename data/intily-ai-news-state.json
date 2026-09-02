@@ -96,7 +96,8 @@
     "39ed18f70345ef93a928a9c8153467bdddc1139abe40a7662ae7467e9448994c": 1788327673,
     "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970,
     "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": 1788328270,
-    "af19a6e2fd4c38abdca10623ee273bb091b7270d7760d1f0975dde468d818bf1": 1788328573
+    "af19a6e2fd4c38abdca10623ee273bb091b7270d7760d1f0975dde468d818bf1": 1788328573,
+    "c48fa299d91a0a138b5c8a4d9fa1502a978ae75a7e713128cc299d165d54892d": 1788328876
   },
   "known": {
     "3af2ca5b6f082ee422e3fa0b7686d28280a1017ed5210b3e56d5725d3b6d826b": 1788307276.6180673,
@@ -310,22 +311,6 @@
     },
     {
       "region": "WORLD",
-      "title": "NVIDIA, CrowdStrike Debut Agentic Cyber Defense - The Tech Buzz",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdHl6S05VWjc2a0JXeTNJbV9YRXB6X1NYdFRKLUVLMXFGYzF6RV9lVlRpaWNDRXk4dHNXTDhPbjRrQmZnaXFKS2FBSVB1WHBVTm9ZT0x6ODBETnNTSFItY00wVGpRSE0tYWJGNkJZMHdycm83R2laaElseDhOZm5jSU9fdk50UQ?oc=5",
-      "desc": "NVIDIA, CrowdStrike Debut Agentic Cyber Defense The Tech Buzz",
-      "source": "The Tech Buzz",
-      "time": 1788301080.0,
-      "score": 12,
-      "key": "c48fa299d91a0a138b5c8a4d9fa1502a978ae75a7e713128cc299d165d54892d",
-      "editorial_value": 15,
-      "topics": [
-        "agents",
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "OneAdvanced launches AI risk platform in Australia - IT Brief New Zealand",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeW9hcmNnbUUzelNpcTc1UzMyQkZ6d2pjMVNDOWhhalpxOXNpbGpDNjZJVjlOQW0zOHBsVGh3NF9WOWpfdFNSN2o4Uy0zZmExUU1RdWhxTjFXSXF0djBvUHYyQ1lVQUJ5dU0yeTlHQVJsWEV4c0ozT3JTbnB2ejd6TU5GWGU?oc=5",
       "desc": "OneAdvanced launches AI risk platform in Australia IT Brief New Zealand",
@@ -352,21 +337,6 @@
       "editorial_value": 14,
       "topics": [
         "security_regulation"
-      ]
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic Says New Fable AI Model Is Cheaper, Better at Coding - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNU3g1eFNCNGd1ZlFka19DSDl3Y0pfdDJudFFfaTZzdHkySlB6WDhvMTlPbkVCLXVWMDdqYjNCWGk5UGEwTGZ4MTBNUkFBdTFfVndrbzY0bHN3VzhzWEV2N1RPYml2ZnAyOE5mQ3JPSWdhb0NFWFg3WGdoVnNEZmRlMEEtTTdtWlpuaHdGVk9tUGhoTEx6V2NsUnRlazFkZE1idlBCMmRyam9MWS05aTJDUTdhWUZINVE?oc=5",
-      "desc": "Anthropic Says New Fable AI Model Is Cheaper, Better at Coding Bloomberg.com",
-      "source": "Bloomberg.com",
-      "time": 1788285662.0,
-      "score": 8,
-      "key": "2951706decfd146f97d4af9457a34ff13ab5e3b4dff29912f9f1a998c0e267b5",
-      "tier": "B",
-      "editorial_value": 13,
-      "topics": [
-        "models"
       ]
     },
     {
@@ -549,22 +519,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Montana AG, 15 others probe OpenAI after experimental AI model data breach, hacks - NBC Montana",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQclk0cHFTaWEtN19meU91aWRTczVFRE1GaVJRNWNOMjRpQzNNSURVeFUtOUdobWZKUVYwQ00za2FBUHRQQlpneWJwVXNfWjNoVk5FamJ4VXoxSFNfNE12dU51ZldraENZYklOQkFIRWhmVkJJY2l2WUdYMW9wOUtmOTYyWEZCMVc2am1oSFdndElNVjU4Q0pzT2xOWlBkaDhVM0JKQnF3a2FMOUlXRUJCRGR0OA?oc=5",
-      "desc": "Montana AG, 15 others probe OpenAI after experimental AI model data breach, hacks NBC Montana",
-      "source": "NBC Montana",
-      "time": 1788285656.0,
-      "score": 8,
-      "key": "ef1476c2870e199091bbe4ead75e4db7a66859fae8c50f0b56519aed9bbb71d2",
-      "tier": "B",
-      "editorial_value": 11,
-      "topics": [
-        "models",
-        "security_regulation"
-      ]
-    },
-    {
-      "region": "WORLD",
       "title": "Musk, Zuckerberg Oppose AI Regulation at G20 - 조선일보",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORGcyd09GQkItbkN4T2hMVHl1V2tNbnRqNDhrZXg0WWEyMDdFOHdOZEtCLWU1N2o2TlVHRzFHa3VKZ09PU0pfbDI5MUtnQzBmVTEwRXJFNVN1MTRGYzUtSTJHVmlUQ19jVFEzZnd6MEN4WmVFS0FWNjJQRzlyTDIzMUNJS0FyaTU4?oc=5",
       "desc": "Musk, Zuckerberg Oppose AI Regulation at G20 조선일보",
@@ -734,20 +688,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T05:56:39.222378+00:00",
+  "last_run": "2026-09-02T06:01:26.364721+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788328573.3656628,
+    "last_start_ts": 1788328876.2339437,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788328573.3656628,
+    "last_success_ts": 1788328876.2339437,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788328598.608903
+      "updated_at": 1788328886.0126479
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1334,9 +1288,17 @@
       "desc": "Nvidia Nears $14 Billion Hugging Face Deal This Week Bloomberg.com",
       "source": "Bloomberg.com",
       "region": "WORLD"
+    },
+    "c48fa299d91a0a138b5c8a4d9fa1502a978ae75a7e713128cc299d165d54892d": {
+      "time": 1788328876,
+      "title": "NVIDIA, CrowdStrike Debut Agentic Cyber Defense - The Tech Buzz",
+      "desc": "NVIDIA, CrowdStrike Debut Agentic Cyber Defense The Tech Buzz",
+      "source": "The Tech Buzz",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
