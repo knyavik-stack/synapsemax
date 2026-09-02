@@ -77,3 +77,7 @@ Production-ready — это не только успешный build. Должн
 ## Latest reliability change
 
 Commit `8b34a9130b182a65164ba36b5e3ed0f1e9ccf4fd` separates queue retention from discovery freshness: queued stories are retained for 7 days, while discovery remains 24h. Failed queue items now receive exponential retry backoff from 5 minutes up to 6 hours.
+
+## Latest production correction — 2026-09-02
+
+Durable queue state is not trusted blindly across scoring-policy revisions. Each cycle revalidates queued items using the current AI relevance, score and editorial-quality gates before regional rebalance and publication. This preserves durable memory while automatically purging legacy backlog that no longer meets the live editorial standard.

@@ -139,6 +139,21 @@ LOW_SIGNAL_TERMS = {
     'мнение читателей', 'реклама', 'промокод', 'гороскоп'
 }
 
+# A query match alone is not enough: Google News can return adjacent
+# technology/business stories that contain one broad query term but are not
+# substantively about AI or an allowed AI-adjacent technology.
+AI_RELEVANCE_TOKENS = {
+    'ai', 'llm', 'openai', 'anthropic', 'claude', 'gemini', 'deepmind',
+    'copilot', 'chatgpt', 'nvidia', 'gpu', 'ии'
+}
+
+AI_RELEVANCE_STEMS = (
+    'artificial intelligence', 'machine learning', 'generative ai',
+    'language model', 'neural network', 'искусственн интеллект',
+    'машинн обуч', 'генератив', 'нейросет', 'нейронн',
+    'робот', 'автономн', 'агент', 'полупровод', 'чип'
+)
+
 WEIGHTS = {
     'launch': 5,
     'release': 5,
@@ -435,7 +450,23 @@ def topic_tags(x):
     return sorted(tag for tag, terms in groups.items() if any(term in blob for term in terms))
 
 
+def ai_relevant(x):
+    text = normalize(x.get('title', '') + ' ' + x.get('desc', ''))
+    tokens = set(text.split())
+
+    if tokens & AI_RELEVANCE_TOKENS:
+        return True
+
+    return any(stem in text for stem in AI_RELEVANCE_STEMS)
+
+
 def candidate_quality(x):
+    if x.get('score', 0) < MIN_SCORE:
+        return False
+
+    if not ai_relevant(x):
+        return False
+
     x['editorial_value'] = editorial_value(x)
     x['topics'] = topic_tags(x)
     return x['editorial_value'] >= 14
@@ -1528,7 +1559,32 @@ def region_counts(items):
 
 
 def rebalance_queue(items, now):
-    fresh = [x for x in items if x.get('time', 0) >= now - LOOKBACK.total_seconds()]
+    fresh = []
+    dropped_expired = 0
+    dropped_quality = 0
+
+    for x in items:
+        if x.get('time', 0) < now - LOOKBACK.total_seconds():
+            dropped_expired += 1
+            continue
+
+        # Revalidate durable state on every cycle. This prevents legacy
+        # low-score or off-topic items from surviving forever after scoring
+        # rules are tightened.
+        if not candidate_quality(x):
+            dropped_quality += 1
+            continue
+
+        fresh.append(x)
+
+    if dropped_expired or dropped_quality:
+        print(
+            'QUEUE_REBALANCE_FILTER',
+            'expired', dropped_expired,
+            'quality', dropped_quality,
+            'kept', len(fresh)
+        )
+
     fresh.sort(key=lambda x: (
         x.get('editorial_value', x.get('score', 0)),
         x.get('score', 0), x.get('time', 0)

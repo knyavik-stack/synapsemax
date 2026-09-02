@@ -146,3 +146,16 @@ Production metrics:
 QUEUE_INGEST ... world N russia N
 
 Финальный run JSON содержит world_queue и russia_queue.
+
+## Latest production correction — 2026-09-02
+
+Live state inspection found that the queue policy was working (`queue=17`, `WORLD=11`, `RUSSIA=6`, publication history `17/3`), but several legacy B-tier items with scores below the current `MIN_SCORE=9` were still present because durable queue entries were admitted under older rules and rebalance did not revalidate them.
+
+Correction:
+
+- every durable queue item is revalidated against the current score, AI relevance and editorial gate on every rebalance;
+- stale low-score/off-topic legacy entries are removed automatically;
+- an explicit AI relevance gate prevents broad Google News query leakage from unrelated technology/business stories;
+- `QUEUE_REBALANCE_FILTER` exposes how many items were removed for expiry or quality.
+
+This keeps durable memory without allowing obsolete backlog rules to contaminate current editorial output.
