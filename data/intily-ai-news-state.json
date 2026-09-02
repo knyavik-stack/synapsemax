@@ -43,7 +43,8 @@
     "6f5fa7e3ee27caa1d7ac44b214c935dac5b6db38aad39cd2516bc05567080988": 1788310873,
     "2de8f6b8a90936281e806780fc3d097ff8a1ff335ccc71f991aa027fa2513b06": 1788311169,
     "fd92044314653dd1dd8951d47c9cd9e09f0f8e44a520031b24120b63e9ed3b03": 1788311471,
-    "c32ad6f054e83758384613400c8859a76a034256132433660bcf8544cbaaf20c": 1788311770
+    "c32ad6f054e83758384613400c8859a76a034256132433660bcf8544cbaaf20c": 1788311770,
+    "80ee4424364918f3a6c4e117aee4a2fefedc42631a85b2f1238eba5a7fafdff8": 1788312071
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -271,7 +272,9 @@
     "e1ee0f23e8a89e1ea302bb2b9ff2cfeb02a6a9b4bddc981cfefed34ce13ff071": 1788310873.5293548,
     "fd92044314653dd1dd8951d47c9cd9e09f0f8e44a520031b24120b63e9ed3b03": 1788311471.3783507,
     "c4f79d4358304d1f283893a45e2b2c84699ef12672cf75a50784ec5575d54891": 1788311471.3783507,
-    "e67703a0a53723d2c45a0ceb37d89839c51282bfa8004a8c9089be30df8293b0": 1788311471.3783507
+    "e67703a0a53723d2c45a0ceb37d89839c51282bfa8004a8c9089be30df8293b0": 1788311471.3783507,
+    "80ee4424364918f3a6c4e117aee4a2fefedc42631a85b2f1238eba5a7fafdff8": 1788312071.8087237,
+    "b6c73623df26c93b8e77558be00cd486cf0daa609071742dced1bb058020cb3a": 1788312071.8087237
   },
   "queue": [
     {
@@ -845,6 +848,17 @@
     },
     {
       "region": "WORLD",
+      "title": "Anthropic's AI models attacked real companies as part of tests - Root-Nation.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYUNkWFZaSkpyLWpGenJsVlBtZ0hqY3piN1MydElVcEVhM2xMRDA0MWxmMEpDOGxNcFRTUHo1SnhpTVh1aXdQVEEtc2JqWEtqam5PdGxWTW5rUWQ5dzI1bWJwMXVYaERRU0FGWjV2ZDJkaU1PS2NOSTNZTHdiQkM3UkJKdW5BRnZZdHR3M0lEMmVCRjJpQXVWWA?oc=5",
+      "desc": "Anthropic's AI models attacked real companies as part of tests Root-Nation.com",
+      "source": "Root-Nation.com",
+      "time": 1788290056.0,
+      "score": 8,
+      "key": "b6c73623df26c93b8e77558be00cd486cf0daa609071742dced1bb058020cb3a",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "Elon Musk criticizes AI regulations at G20 tech meeting - Reuters",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBReHBhUV91N3VybGJWd242V213QXBLS2RyTWJPd3BzVm13SEFVZGhVQUQ0SWJBckxXcWVlY2t3ay1FSUhJTjF5aWpUUElnTS1zTEtVX1FNLXI1bXMxcW9CajRsc0g4aXJfSEFhZ2pmVFdxZm9wRlA3ZnJTV0U?oc=5",
       "desc": "Elon Musk criticizes AI regulations at G20 tech meeting Reuters",
@@ -1372,20 +1386,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T01:16:27.180777+00:00",
+  "last_run": "2026-09-02T01:21:28.201204+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788311770.412241,
+    "last_start_ts": 1788312071.8087237,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788311770.412241,
+    "last_success_ts": 1788312071.8087237,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788311786.626673
+      "updated_at": 1788312087.6631045
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1600,6 +1614,13 @@
       "title": "Anthropic's Claude 5.1 Slashes Agentic AI Costs 45% - The Tech Buzz",
       "desc": "Anthropic's Claude 5.1 Slashes Agentic AI Costs 45% The Tech Buzz",
       "source": "The Tech Buzz",
+      "region": "WORLD"
+    },
+    "80ee4424364918f3a6c4e117aee4a2fefedc42631a85b2f1238eba5a7fafdff8": {
+      "time": 1788312071,
+      "title": "Secret Technique Behind OpenAI’s ‘Astra’ Model Sparks Security Concerns - The Information",
+      "desc": "Secret Technique Behind OpenAI’s ‘Astra’ Model Sparks Security Concerns The Information",
+      "source": "The Information",
       "region": "WORLD"
     }
   }
