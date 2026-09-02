@@ -220,7 +220,7 @@ A queue value of zero does not mean historical memory was lost. Published and st
 The canonical current status is docs/PROJECT_STATUS_2026-09-02.md. Earlier sections above preserve historical recovery evidence and may contain superseded values such as 12-hour freshness, 5-minute cadence or 80/20 regional mix. Current production policy is:
 
 - discovery freshness: **6 hours**;
-- Cloudflare cadence: **every 6 minutes** (*/6 * * * *);
+- Cloudflare cadence: **every 11 minutes** (*/11 * * * *);
 - regional target: **60% WORLD / 40% RUSSIA**;
 - target queue: **24**; hard cap **30**;
 - MIN_SCORE=9; MAX_PUBLISH=1;
