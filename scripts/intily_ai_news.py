@@ -1562,11 +1562,11 @@ def publication_region_boost(s, region):
         return 0
     ru_share = history.count('RUSSIA') / len(history)
     if region == 'RUSSIA' and ru_share < RUSSIA_TARGET_SHARE:
-        return 8
+        return 50
     if region == 'WORLD' and ru_share < RUSSIA_TARGET_SHARE:
-        return -2
+        return -10
     if region == 'RUSSIA' and ru_share > 0.35:
-        return -4
+        return -50
     return 0
 
 
