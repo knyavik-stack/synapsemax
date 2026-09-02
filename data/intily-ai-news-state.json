@@ -135,12 +135,10 @@
     "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265,
     "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788349516,
     "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788353346,
-    "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2": 1788356493
+    "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2": 1788356493,
+    "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": 1788358555
   },
   "known": {
-    "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171.3303025,
-    "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370.3834765,
-    "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685.5118265,
     "587e073fb67a156a88e23cad9d9ee04a8267f1d42774192cfe5567a8bba7b55b": 1788336971.858376,
     "996dc45511b30182016a60f74df185dae9e6c41581bb0579c66317d29b9d0e46": 1788337242.6649766,
     "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": 1788337242.6649766,
@@ -209,7 +207,14 @@
     "e42ce8d678ad38bd1d8e712fe9fcfb6821beddecabe027efaafd5b4c32854c61": 1788356493.6585639,
     "88557d2b1968551095361823f21b271964c6f69f7a0cef58d0e894d0865497a6": 1788356493.6585639,
     "814d5639074b6e13d687901d9c498c40ee57b83b2059913dd13df042239a1b95": 1788356493.6585639,
-    "d806b5fceda26ec1ad08fcc3b0b9dbc77d0fdaae223411f3d89f4ef1ec778db1": 1788356493.6585639
+    "d806b5fceda26ec1ad08fcc3b0b9dbc77d0fdaae223411f3d89f4ef1ec778db1": 1788356493.6585639,
+    "789457f5d5302d06fc11131ce83a3ab9781ebd4e028661f1c5ebd0ba859f0f56": 1788358555.0412698,
+    "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d": 1788358555.0412698,
+    "19f70ba1b8d2f74e98350908045769aaa64a73c8d14e7c3a2542cfacf07d5969": 1788358555.0412698,
+    "0a3ea92ed7e0f43893cbf558d35d225843aa77dd7b773b4e310f5789a1747f57": 1788358555.0412698,
+    "dad555e378f2233c9e901a88b40357bc6e8886c53624584a258fff9c8252847d": 1788358555.0412698,
+    "55a6f24d9d8365638e72dfc6b8834200d0254b66e73efd0bafc92a9571931472": 1788358555.0412698,
+    "e6af479802a840b13023c12a267ce01031c29b3bd0857d0ef853dfdd0954051a": 1788358555.0412698
   },
   "queue": [
     {
@@ -244,6 +249,22 @@
     },
     {
       "region": "WORLD",
+      "title": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards - SecurityWeek",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeFhKNW5MSk9KLXBIb2c4Y2RzbF9qdG05YnZ0cEdXWThENHRRQnU5bVQ3UVNaQnJ6VGUtNlFTRS1UbGxnNWQ4a1BjZ19KUGpERWlzWFR6VC1XdENoeTRKXzRnV2xLS0pER0JUd19TX25seEtkajlwUkllSUg0NGxwWjRxd0xQdWo4YjN1dDNDSHZKdDBFaVNTOUVSODVwU01ETHdFODNia25TQ1NHNGZxUmFB0gGyAUFVX3lxTE94WEo1bkxKT0otcEhvZzhjZHNsX2p0bTlidnRwR1dZOEQ0dFFCdTltVDdRU1pCcnpUZS02UVNFLVRsbGc1ZDhrUGNnX0pQakRFaXNYVHpULVd0Q2h5NEpfNGdXbEtLSkRHQlR3X1Nfbmx4S2RqOXBSSWVJSDQ0bHBaNHF3TFB1ajhiM3V0M0NIdkp0MEVpU1M5RVI4NXBTTURMd0U4M2JrblNDU0c0ZnFSYUE?oc=5",
+      "desc": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards SecurityWeek",
+      "source": "SecurityWeek",
+      "time": 1788350236.0,
+      "score": 15,
+      "key": "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d",
+      "editorial_value": 23,
+      "topics": [
+        "business",
+        "security_regulation"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
       "title": "$21+ Billion Business Process Management Market Outlook 2026-2035 | AI and Automation Drive the Next Wave of BPM Growth - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSW1zSGJ6TS1mTVA2UmI2YkJxcm1zU0lFNmpLbDJQa2ppWU9sZmtLNGtacy1yQjJ4aGdodDA0dnN1cWUzNXJaV2I3ZVlyRDBYdWc4ZDJDREhzVjRhcTVNSldmTjF0cWFZeEtjaVJoZ25xWVFjZXZMREhwX2tkcEtZdnY4TlVya3pJdUVDN2VjdW16ZFU5SGQ4WXFuejRBSkx5TGFSeA?oc=5",
       "desc": "$21+ Billion Business Process Management Market Outlook 2026-2035 | AI and Automation Drive the Next Wave of BPM Growth Yahoo Finance",
@@ -260,6 +281,22 @@
     },
     {
       "region": "WORLD",
+      "title": "Google DeepMind Says Gemini Is Evolving From Chatbot To AI Agent - Search Engine Journal",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYmpWQlRmSE5xZTU2S2N2MnQwRUxSR2REQXdrWFhZV3BtV1M4RlB2Ql9NMXM4Zm5ScEFMN3VhNGVfSFhvSlRsVEJmbnFPc1VpN3lVSGtmaldVb2d0UXBYTklpaDhoNkl3RVAwaFNaZFlPSjNiSXV2SEFFOHM4TDc4MjVPTlMtMzFGaTdBM2Q3QUxaQWJua1l0aWsxbjJtZmF5SEc5dnR2ZzgzbllH?oc=5",
+      "desc": "Google DeepMind Says Gemini Is Evolving From Chatbot To AI Agent Search Engine Journal",
+      "source": "Search Engine Journal",
+      "time": 1788348240.0,
+      "score": 17,
+      "key": "789457f5d5302d06fc11131ce83a3ab9781ebd4e028661f1c5ebd0ba859f0f56",
+      "editorial_value": 20,
+      "topics": [
+        "agents",
+        "models"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
       "title": "When AI agents go rogue, the law doesn’t disappear - TechRadar",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOS1ueUZmMlMtbWJSUTB1X1BkNktXNnFPLWU0aFNFZ01TbWhqbXEyZnZfSHB1SHpBaWlYUzZQeG42YmVYaURwRU5BSEhqbldwUk5YQzNOdkUtVG82cXdtX0N6akxHa0xlR1BsdENUZV8yMTl5VjdPdGRtRUFkb3U3YS1ublg?oc=5",
       "desc": "When AI agents go rogue, the law doesn’t disappear TechRadar",
@@ -270,21 +307,6 @@
       "editorial_value": 20,
       "topics": [
         "agents",
-        "security_regulation"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "В России вступил в силу закон о господдержке и регулировании ИИ - blackfoxnews.ru",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa2ZLRVRSZFZqZHFPUHd2ZUhEZ09DYXV3NHlMdThuUVFRWTRBSGVseThmYXpiek1jZEI5WEVYc25mNENOcDluVlo5YUk0OXV6Z2pxMnZISDk4N0p6OENWd2RGZm4yNFA2WlRSdHd2cVBJWFNiS0VxcUVOeHl2N29jLXB2NURTOF81QnRaUG95NnpmSl9fQVVxRw?oc=5",
-      "desc": "В России вступил в силу закон о господдержке и регулировании ИИ blackfoxnews.ru",
-      "source": "blackfoxnews.ru",
-      "time": 1788342760.0,
-      "score": 17,
-      "key": "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424",
-      "editorial_value": 20,
-      "topics": [
         "security_regulation"
       ],
       "tier": "S"
@@ -319,6 +341,22 @@
         "models"
       ],
       "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Helps Integrated Tools Take on Security Threats, ISG Says - Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUjRYa2Z5NVdmUTdJenhVNFJYRTBadDV2N2thNml5U3dqZU5CY0FPaU4yRFBYbmM3UHJqS3J3YWtnbmQ2YjFCNDVGSlRNNk5QMmM3WkI0NVVSRUNhMUctT0dzVWpkeTByQkFuRTI2MnVLd3J3VkkybjVhVndtUzJyUnN5VWpTNzE2aE40?oc=5",
+      "desc": "AI Helps Integrated Tools Take on Security Threats, ISG Says Yahoo! Finance Canada",
+      "source": "Yahoo! Finance Canada",
+      "time": 1788357600.0,
+      "score": 12,
+      "key": "dad555e378f2233c9e901a88b40357bc6e8886c53624584a258fff9c8252847d",
+      "editorial_value": 20,
+      "topics": [
+        "security_regulation",
+        "tools"
+      ],
+      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -366,6 +404,22 @@
     },
     {
       "region": "WORLD",
+      "title": "Anthropic Unveils Claude Fable 5.1 and Mythos 5.1 With Powerful Cybersecurity Capabilities - gbhackers.com",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oa016cElPUTFCOFZVeERpcHdTQWxhS0R5bXVwZ3VIZXU3Mk9FTEQ3LUJCZEVtQTA4NExMWm0xT2lPczhFSk1jNC0xdzFvZGE5dkRzMmVLWGF5TnFQTTdFY2hGR0FYR29Rd1dMbmtnVF9maUVmR3Y2V282blHSAYIBQVVfeXFMT2hpeVAtSzJXR1FXbFNEWHRDaDlxUC1zaG5pckRlUUlJeDJtcmg5OUlqYlQ5T0MzU05yOC1NS3ZIdVJETHB4R2N0b3lOekRKQTdmYUk0Smg4VHVlamEtNFNPdnl1Tl9yOEdmNC1vUWhwSTYwd1FPYUVNZnJIZUdTMTY4Zw?oc=5",
+      "desc": "Anthropic Unveils Claude Fable 5.1 and Mythos 5.1 With Powerful Cybersecurity Capabilities gbhackers.com",
+      "source": "gbhackers.com",
+      "time": 1788337694.0,
+      "score": 13,
+      "key": "0a3ea92ed7e0f43893cbf558d35d225843aa77dd7b773b4e310f5789a1747f57",
+      "editorial_value": 19,
+      "topics": [
+        "models",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Gemini introduces 'Agentic Video Understanding,' a video analysis tool that automates video analysis, generating detailed and inexpensive answers by repeatedly transcribing and re-checking long videos. - GIGAZINE",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2WElvQXhGcWRhbmtEazhzRkNNTF82QkZTNDBhWndtWVVoSTVGZnJXX2JJSUhfQkxvdVVlMkpieGRkY3ptTVVxLUhOX3dLM1NzZXdta284czd1MnJmbzdGV2NxSHNDUGxKOWx6UXNYRlY?oc=5",
       "desc": "Gemini introduces 'Agentic Video Understanding,' a video analysis tool that automates video analysis, generating detailed and inexpensive answers by repeatedly transcribing and re-checking long videos. GIGAZINE",
@@ -398,6 +452,19 @@
     },
     {
       "region": "WORLD",
+      "title": "AI startup Wonderful valued at $5 billion in latest funding round - The Economic Times",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaU5TSXdkNDQ5d0YwWGt2d1pNaW9USnVFNlBxcUpMTUtDWW45Q20tNUgwa19DWHQ0V0tqcDlRT1pnMUdZMGlaeUxfenNzR0cxOTN0clY1OURvcjRQUTRFTklhUjRUalVqdlFKSlExdE1zR2luVmNKY3pXbGh4OF9ldnZyQ3dhUjdMblFGYmk0Q2dXYlpWOFdXcC15WXdfb2g1U3RVQmowSHRaeUoxdTRTUU9USjVUdkIwYUdBdHp2bHVJeFNNYkxfM3lJZ1nSAdIBQVVfeXFMTno4LUdzOENzUVBqTHdKYnZ6Smh6X3pmYUVhbV9Na0NSY25TaXZDRFE3bGt5Wkh0VnUxS3l0YnRQMTE2RGVROHJBNm8xUm9EUHlya0I0akpLVEwyclB4UWY4R05NSVhUQlpDXy02Y3dqMUpjUHlaYUVEenFUejFNSzBqODlpYkd0NjhNZEFTZkd1RU5PZGlHNlhYZHFidzd2elg1OE5xRHlocXNSdU9ya2pQdEJMdXV1eFJCRDlFZ0NEZmhWdnhsM21lcU1VYUx2eWhn?oc=5",
+      "desc": "AI startup Wonderful valued at $5 billion in latest funding round The Economic Times",
+      "source": "The Economic Times",
+      "time": 1788357425.0,
+      "score": 13,
+      "key": "19f70ba1b8d2f74e98350908045769aaa64a73c8d14e7c3a2542cfacf07d5969",
+      "editorial_value": 18,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Google Gemini 3.8 Flash coding AI model expected this week - tech.yahoo.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVTY3MFlTSVJuU1BLWkVPVF9fVlZQUDA5OUpIR3MwMXZRaXo2a0RlTlE2UWI5dlJQc1NzQUFTRFhTWVZOUHYtd1o4aXdtZ09UWVlZSkFNU0RYRzFXVWZZUjZFb2pYWUJYUS1IWG1zMG5za1pGWlpGN0I5TGZZUXJ5RF9uZkYyNVE?oc=5",
       "desc": "Google Gemini 3.8 Flash coding AI model expected this week tech.yahoo.com",
@@ -424,66 +491,6 @@
       "topics": [
         "business",
         "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Ex-Google engineer booked for stealing secret AI chip technology for Chinese startup - Business Today",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeEdyY3B6Y3lCZ2ZaN21oTGJDMWFjQU94LVBKeWFIbnRoTkJoSlpIWnVQank4cmljRFlUQ0hJZkRTTTQxcTdNbkdpaDN3NnlLVnNUeUt5YmFqWHdCYTBjWUo0X0p6LTVDNklwU1hvSVNYd0g0R25aUmp3ZWtoMGRoYzUwQ25QRlBYN09DMUVXbXNveGNOaWl3ZkJRMUdQY2FnYXREeThMa19zTTV3TDZ5RGcxTTh6Smd5NGJ1cHF6S2F0OTZIa3V1SS1zWXYwdHJDSXdnMWgwQXY3Wlo3QVpLQ0tlQzRzdTdT0gHuAUFVX3lxTE9sa3R0TmM5X0Q4UFdBYjEyUDlDbjVLOVRPUW82RVFVWC1kN25UQS02WGtUZzJFblM3UUhWVTY0OXM2LXBKQUlESHo2SkNUdnJvZ2dqY3QtWGhjY0lHelNUM3pPWFdXTjlfNk1oOUY2QTkybkdqYXNmSUQzTFFNck1wT0x5UDl1YXdtN1FkNEJyRXlzVkIwOXVkNDE0WDhYd084RVNYSGQwcG5xcDFudXBZdGNwM09tbmNNczZ6ZmszR0o3dHJpeXdXMkQ3STJ0NHlSd1NhTk5aSWZMd2RVUHdVcEd3UmZHM2xzOTdkOWc?oc=5",
-      "desc": "Ex-Google engineer booked for stealing secret AI chip technology for Chinese startup Business Today",
-      "source": "Business Today",
-      "time": 1788341497.0,
-      "score": 13,
-      "key": "21c142edd8163235ab1ce9412d15a9c4dcc88bf5aba1bed711c0ca91c6dfb468",
-      "editorial_value": 18,
-      "topics": [
-        "business",
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Dell Technologies Reports Record $47 Billion Revenue as AI Demand Drives Growth - TechAfrica News",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZXA1VV9sanJURFdnYXltR0d6NUNKcGVlbkFSRWFZSTB2Y2FwQ05SYmExV1dpaTRKMXlFQXJ2RTYweUtVMmZxSF91TGxhTVZYM0U1OVhVYVVFY21CTW80OHJMV3VRcWk2NGtNYzBrSFNRSHo1UDh6QWEyTlNzWGF3UHduRkYyYlB0cFVFdGtkeWhqWUxLMGZZ?oc=5",
-      "desc": "Dell Technologies Reports Record $47 Billion Revenue as AI Demand Drives Growth TechAfrica News",
-      "source": "TechAfrica News",
-      "time": 1788336682.0,
-      "score": 10,
-      "key": "4517176bbead454baadb481ce47744e9d5eb1d9005ab174aeea2a35c20f86944",
-      "editorial_value": 18,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Google’s New Gemini AI Could Beat OpenAI, Anthropic in Coding - thehansindia.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdFc1UWxPTDlvYzBSMlpWcFJtVjUxZ0FzXzVTZVdXbk8wNHpZRHQyS3h5MjctU2cxcUh3dGE5bG0xSUpNRFhsVUhCeHl1TkZhS21jZWo0eWpONms2NnVtUVRKUlo1NDdfUkszdjg0ZXY5bFEwbmlUUS1HVV9OZU5TY1BpQXJmNWQyZTdRa19MRnJSSXR0OTdDbXVwZUl5M0V6b3JYM3Mzekp3azZWWU53ZV9Ya0pRVUoz0gG-AUFVX3lxTE1qTzZMMTBVUU55V0g1bTNFNzhVOVpobzhycG1rbE1DYzNFZmRJLU4zZkgtdjNtTVFqMkJua05qeUxRSEVsUlZVX1VGTWgtNFh2S1pXWUxwS2hKNVJGNjVaOTlsLXZRMHc5T25vYVRuTnEzN3NSQndhUHpGV0FUV1hjdm9haFJwWEhYYnlRWTFOT0ltMTNfb2tlLUdsV2s0RXoxUWtMYzJHSUhTZmktSERYWDQ2bkJNakpHRVBzdlE?oc=5",
-      "desc": "Google’s New Gemini AI Could Beat OpenAI, Anthropic in Coding thehansindia.com",
-      "source": "thehansindia.com",
-      "time": 1788338266.0,
-      "score": 15,
-      "key": "4bdaf2b416d86527bf1e8704f6707c1fd8fa95657ae639886652c4caa42519df",
-      "editorial_value": 17,
-      "topics": [
-        "models"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "Test Phenom AI Agents for Hiring, Development and Retention at HR’s Biggest Fall Events - Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd2ZJN0FQUHQ0dXo1dWhlZ1IyNkJiMV9talZnT09qWC1yNmVrQmZhQl9QOElTR0NNM3p4N3RvWWZkd3dMWENWcFY0aHJvZzNuaFRlZkFyM2pvc1Rpa2pJUGdtZm5WMk4wNXhld3VoQnBlY3pnVmVtbm5HSjl2LUMxRGdEYjd1cVd0RkNKMHNTelNpelB5dkVRSGU2Tzl0SlZtMnJOY0J4VGRyTnlYSkxzZENqZGRjVlJVa0otOXBJX1hDTGlvTmFIeFpBMXFUZW9WdDlxaXNBeHFvZw?oc=5",
-      "desc": "Test Phenom AI Agents for Hiring, Development and Retention at HR’s Biggest Fall Events Business Wire",
-      "source": "Business Wire",
-      "time": 1788355800.0,
-      "score": 12,
-      "key": "2096cf6e080976586c59fe01a6fd3c017097f0d354d60937d8d29d4ea6fac246",
-      "editorial_value": 17,
-      "topics": [
-        "agents",
-        "business"
       ],
       "tier": "A"
     },
@@ -532,17 +539,16 @@
     },
     {
       "region": "RUSSIA",
-      "title": "ИИ-агенты в бизнесе: что проверить до масштабирования - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40MHVhWHlONnJwU18xd0ttVE02bTVXX19rNElVUjBuZjZLN3dzQ2tMQlNuaXdIdGk0V21iMGZEVU9jLVVVRjRTU180S1lyMjJaN1JYVkV0elhuYUhTQlVTTjFLYTF0Z0N4ZjIwQUtXYXZlbE9FOVlQVDRNQdIBe0FVX3lxTE40MHVhWHlONnJwU18xd0ttVE02bTVXX19rNElVUjBuZjZLN3dzQ2tMQlNuaXdIdGk0V21iMGZEVU9jLVVVRjRTU180S1lyMjJaN1JYVkV0elhuYUhTQlVTTjFLYTF0Z0N4ZjIwQUtXYXZlbE9FOVlQVDRNQQ?oc=5",
-      "desc": "ИИ-агенты в бизнесе: что проверить до масштабирования companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788335397.0,
-      "score": 10,
-      "key": "e2abf78e4265e5dbeda2ae720fba129e7e954181d60ecf8f02e34a6de08fb9fd",
-      "editorial_value": 15,
+      "title": "Александр Ведяхин: Сотрудники Сбера экономят 80% времени благодаря ИИ-агентам - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZFNISWpBcHhab0RuaWpLRmV1dm55amZUWENaLVBKbVRJMUZ6MEJLREVlVGhMUjZkcVl5ZTBXZVM1WHEzaVVTREdEUktCcDJxR1lidHhXdnl0UVA1MElvWVpwX1V2am5JTE5VTzVvNmNkajlib0JFcVduanZJUzdJUEp5alJ2VW9nYXhYdlRNOTFMR2xJMGVhZW1KS3Fic1B4SkttNm9lVHVTUUwxYmhHLWU3OTdIN0JEU09N?oc=5",
+      "desc": "Александр Ведяхин: Сотрудники Сбера экономят 80% времени благодаря ИИ-агентам prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788356672.0,
+      "score": 11,
+      "key": "55a6f24d9d8365638e72dfc6b8834200d0254b66e73efd0bafc92a9571931472",
+      "editorial_value": 14,
       "topics": [
-        "agents",
-        "business"
+        "agents"
       ],
       "tier": "A"
     },
@@ -562,20 +568,20 @@
       "tier": "A"
     }
   ],
-  "last_run": "2026-09-02T13:41:54.502205+00:00",
+  "last_run": "2026-09-02T14:16:16.463717+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788356493.6585639,
+    "last_start_ts": 1788358555.0412698,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788356493.6585639,
+    "last_success_ts": 1788358555.0412698,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788356513.6186006
+      "updated_at": 1788358575.8859372
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1435,12 +1441,18 @@
       "desc": "Гайд по ИИ-агентам: какие бывают, как запустить своего и чем вы рискуете Rozetked.me",
       "source": "Rozetked.me",
       "region": "RUSSIA"
+    },
+    "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": {
+      "time": 1788358555,
+      "title": "В России вступил в силу закон о господдержке и регулировании ИИ - blackfoxnews.ru",
+      "desc": "В России вступил в силу закон о господдержке и регулировании ИИ blackfoxnews.ru",
+      "source": "blackfoxnews.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1454,6 +1466,7 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
