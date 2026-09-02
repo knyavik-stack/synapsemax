@@ -167,3 +167,19 @@ This keeps durable memory without allowing obsolete backlog rules to contaminate
 Один последующий cycle завершился с FAILED_NO_PUBLISH и consecutive_failures=1, хотя сам workflow завершился успешно и state был сохранён. Причина publication-level failure остаётся под наблюдением следующих Cloudflare-triggered cycles; queue и память не потеряны.
 
 Также исправлен browser QA: focus-visible теперь проверяется через реальную Tab-навигацию, а не через programmatic focus, который не обязан активировать keyboard focus ring.
+
+## Verification closure — 2026-09-02
+
+Следующий Cloudflare-triggered cycle после единичного FAILED_NO_PUBLISH восстановился штатно:
+
+- RSS raw items: 169;
+- candidates: 19;
+- Gemini: OK;
+- Editorial QA: OK;
+- Telegram message_id: 138;
+- published: 1;
+- queue_after: 0;
+- heartbeat: OK;
+- consecutive failures: 0.
+
+Таким образом queue-pressure correction подтверждён не только state inspection, но и последующим реальным production publish. CI modernization также завершён: workflows используют actions/checkout@v6 и actions/setup-node@v6, а полный Immediate QA с Chromium browser gate прошёл SUCCESS.

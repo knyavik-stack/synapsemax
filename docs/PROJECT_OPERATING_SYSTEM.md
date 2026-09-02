@@ -94,4 +94,10 @@ Immediate QA выявил не продуктовый дефект, а неко�
 
 ### Current status update
 
-Queue-pressure issue из предыдущего YELLOW статуса закрыт фактической проверкой (queue=1 после revalidation). Остаются: наблюдение нескольких cycles после quality correction, исторический semantic-memory gap для старых публикаций и плановое обновление GitHub Actions dependency chain из-за Node 20 deprecation warning.
+Queue-pressure issue из предыдущего YELLOW статуса закрыт фактической проверкой (queue=1 после revalidation). Остаются: наблюдение нескольких cycles после quality correction, исторический semantic-memory gap для старых публикаций и CI runtime modernization выполнена: workflows переведены на actions/checkout@v6 и actions/setup-node@v6, Immediate QA прошёл полностью.
+
+## Verification closure — 2026-09-02
+
+Следующий Cloudflare-triggered production cycle подтвердил восстановление после единичного FAILED_NO_PUBLISH: ingestion получил 169 RSS items, сформировал 19 candidates, Gemini успешно прошёл editorial generation, Telegram отправил message_id=138, published=1, queue_after=0, heartbeat=OK, failures=0.
+
+Immediate QA после исправления keyboard focus и обновления CI action runtimes завершился SUCCESS: build, runtime tests, routing, artifact budget, Wrangler, deployment graph, local Worker, Chromium browser UX gate и artifact upload прошли полностью.
