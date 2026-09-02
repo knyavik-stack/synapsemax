@@ -112,12 +112,10 @@
     "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370,
     "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685,
     "587e073fb67a156a88e23cad9d9ee04a8267f1d42774192cfe5567a8bba7b55b": 1788336971,
-    "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": 1788337242
+    "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": 1788337242,
+    "996dc45511b30182016a60f74df185dae9e6c41581bb0579c66317d29b9d0e46": 1788337546
   },
   "known": {
-    "34bc6d5b8374bf60d6d94cbc50d52d5873d54b556434b3d940e9d7cbeef0bbf0": 1788315672.8815992,
-    "8eedf88808568d170dfcb116f47811b18b1080fbab45f4b1b8c6464bbec3d6e9": 1788315672.8815992,
-    "07b41c82b56ae250e6aca1c473654566a511714646dfa36dbfc738914ed1c306": 1788315672.8815992,
     "2e234fabeab50d9e679742be32c39aee4c397790dd68585df2fc65b36c219ea0": 1788315968.870629,
     "ebb0f8143794f0ee3fb3cb8172c5f4926b42b0331a5ad958e21f99a30743f2ba": 1788315968.870629,
     "ada723d80686f59f1a76350760a8f0c36f22fc3cad96a3040bca0d0eee641972": 1788315968.870629,
@@ -205,19 +203,6 @@
     "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": 1788337242.6649766
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "SEAM@InnoHK Launches at Science Park to Boost R&D - Bisinfotech",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSWVYejctNDI5ZjBvcDd6M0RZQUt3RC1aakk5OFcwZ0ItQlZoQzhpUHRJSkVNRmFWVWdxNmRLWmw1UElFc0laWGItSmtMTmtROWdtTDUyZXdtRTg3TUdtaXdwTFE5eEVkMk9aYWd5eGNFS09IRHpoMXFiaWY3VC1HX0YtUUVySll1WHBKWDE3QjVUWUhB?oc=5",
-      "desc": "SEAM@InnoHK Launches at Science Park to Boost R&D Bisinfotech",
-      "source": "Bisinfotech",
-      "time": 1788327148.0,
-      "score": 11,
-      "key": "996dc45511b30182016a60f74df185dae9e6c41581bb0579c66317d29b9d0e46",
-      "editorial_value": 16,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Singapore banks back $5b data-centre acquisition - Singapore Business Review",
@@ -475,20 +460,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T08:20:53.135050+00:00",
+  "last_run": "2026-09-02T08:25:57.833635+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788337242.6649766,
+    "last_start_ts": 1788337546.3817575,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788337242.6649766,
+    "last_success_ts": 1788337546.3817575,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788337252.5910861
+      "updated_at": 1788337557.3891604
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1187,6 +1172,13 @@
       "desc": "Правительство РФ утвердило план дальнейшего регулирования цифровых платформ prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "996dc45511b30182016a60f74df185dae9e6c41581bb0579c66317d29b9d0e46": {
+      "time": 1788337546,
+      "title": "SEAM@InnoHK Launches at Science Park to Boost R&D - Bisinfotech",
+      "desc": "SEAM@InnoHK Launches at Science Park to Boost R&D Bisinfotech",
+      "source": "Bisinfotech",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1201,7 +1193,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1209,6 +1200,7 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ]
 }
