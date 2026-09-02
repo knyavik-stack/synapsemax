@@ -204,3 +204,10 @@ This keeps durable memory without allowing obsolete backlog rules to contaminate
 
 ### Queue interpretation
 A queue value of zero does not mean historical memory was lost. Published and story history remain persisted separately. Queue contains only currently publishable, fresh, unique candidates. The previous zero occurred after stale queued candidates were pruned and the current candidate set was rejected by duplicate/history gates. The gates are now narrower to avoid treating unrelated stories about the same company as duplicates.
+
+
+### Follow-up hardening — duplicate queue cleanup
+- Added a second-pass event dedup during queue rebalance so duplicate stories restored from state or arriving through multiple search queries cannot survive as separate queue entries.
+- Added title-bigram event matching to catch the same model/product launch reported with different wording.
+- Added targeted Russian-source discovery queries to improve the availability of fresh Russia candidates while preserving the editorial quality gates.
+- The 60/40 ratio remains a target, not fabricated content: when fewer qualifying Russian stories exist in the active 6-hour window, the system publishes fewer rather than filling the quota with irrelevant material.

@@ -111,7 +111,12 @@ QUERIES = [
     ('RUSSIA', 'ИИ безопасность уязвимость утечка проблемы Россия'),
     ('RUSSIA', 'ИИ робототехника чипы исследования Россия'),
     ('RUSSIA', 'ИИ регулирование закон инвестиции технологии Россия'),
-    ('RUSSIA', 'российский ИИ стартап продукт платформа обзор')
+    ('RUSSIA', 'российский ИИ стартап продукт платформа обзор'),
+    ('RUSSIA', 'site:yandex.ru/company/news ИИ искусственный интеллект'),
+    ('RUSSIA', 'site:sberbank.ru ИИ искусственный интеллект технологии'),
+    ('RUSSIA', 'site:rbc.ru ИИ внедрение бизнес технологии'),
+    ('RUSSIA', 'site:kommersant.ru ИИ технологии бизнес Россия'),
+    ('RUSSIA', 'site:vc.ru ИИ бизнес внедрение автоматизация')
 ]
 
 
@@ -620,17 +625,39 @@ def story_anchor_tokens(x):
     }
 
 
+def title_bigrams(text):
+    words = [
+        w for w in normalize(text).split()
+        if len(w) >= 3 and w not in STORY_STOPWORDS
+    ]
+    return {
+        ' '.join(words[i:i + 2])
+        for i in range(len(words) - 1)
+    }
+
+
 def same_story(a, b):
     # A shared company name alone is not enough to classify two events as the same story.
     sim = story_similarity(a, b)
     shared_anchors = story_anchor_tokens(a) & story_anchor_tokens(b)
+    bigrams_a = title_bigrams(a.get('title', ''))
+    bigrams_b = title_bigrams(b.get('title', ''))
+    shared_bigrams = bigrams_a & bigrams_b
 
     if sim >= 0.70:
         return True
+
+    # Two distinctive title bigrams identify the same event even when the
+    # publisher changes the surrounding wording.
+    if len(shared_bigrams) >= 2 and sim >= 0.42:
+        return True
+
     if sim >= 0.58 and shared_anchors:
         return True
+
     if any(any(ch.isdigit() for ch in token) for token in shared_anchors):
         return sim >= 0.54
+
     return False
 
 
@@ -1636,6 +1663,23 @@ def rebalance_queue(items, now):
         x.get('editorial_value', x.get('score', 0)),
         x.get('score', 0), x.get('time', 0)
     ), reverse=True)
+
+    # Defensive second-pass event dedup. Collection can receive the same event
+    # through several Google News queries, and a queue restored from state may
+    # predate the latest dedup rules.
+    unique = []
+    dropped_story = 0
+    for x in fresh:
+        if any(same_story(x, y) for y in unique):
+            dropped_story += 1
+            print('QUEUE_REBALANCE_DUPLICATE', x.get('title', '')[:140])
+            continue
+        unique.append(x)
+
+    if dropped_story:
+        print('QUEUE_REBALANCE_STORY_DEDUP', dropped_story)
+
+    fresh = unique
 
     target_ru = max(RUSSIA_MIN_QUEUE_SLOTS, round(TARGET_QUEUE_SIZE * RUSSIA_TARGET_SHARE))
     target_world = TARGET_QUEUE_SIZE - target_ru
