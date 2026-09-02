@@ -45,7 +45,8 @@
     "fd92044314653dd1dd8951d47c9cd9e09f0f8e44a520031b24120b63e9ed3b03": 1788311471,
     "c32ad6f054e83758384613400c8859a76a034256132433660bcf8544cbaaf20c": 1788311770,
     "80ee4424364918f3a6c4e117aee4a2fefedc42631a85b2f1238eba5a7fafdff8": 1788312071,
-    "3af2ca5b6f082ee422e3fa0b7686d28280a1017ed5210b3e56d5725d3b6d826b": 1788312669
+    "3af2ca5b6f082ee422e3fa0b7686d28280a1017ed5210b3e56d5725d3b6d826b": 1788312669,
+    "17228aadea7970d6ebcbea0998bc219c5d465bfea29f45d774ff076439fb2247": 1788312970
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -279,7 +280,9 @@
     "ccff88b4d108dbcecbfc8b0c9daf75929158a85f761747957f71f228d79cddb8": 1788312669.8344204,
     "aa69c27ef11524f8fab538511c64a2c1cd676f9cadaee77154ea42f5288c40aa": 1788312669.8344204,
     "9a98dab17f80833977c5af143fcb25d9e4bf6daa8feee860e62b62af26b109ea": 1788312669.8344204,
-    "ac711102d9c0bfc50e84f00e39270a46ca891911658833965fa1ab9ca8620fef": 1788312669.8344204
+    "ac711102d9c0bfc50e84f00e39270a46ca891911658833965fa1ab9ca8620fef": 1788312669.8344204,
+    "f407b1d5cdf9819fbd77a01619b942b51fead9513022c9b52baf589231136cdf": 1788312970.1951678,
+    "1f8c9a9ed0190a65e2e9e3d707ebd52ff73d3a08faaf48b01541e8b0567a5eea": 1788312970.1951678
   },
   "queue": [
     {
@@ -292,25 +295,10 @@
       "score": 13,
       "key": "baab21cb3c108e1d1d1a8497e37e63d5ea9537ba03fe94a42028932dcf30c4cb",
       "tier": "A",
-      "last_failed_at": 1788310569,
+      "last_failed_at": 1788312970,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 4,
-      "next_retry_at": 1788312969
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI reports disturbing behavior from AI agents - americanthinker.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNnBhMjc2SjBOdEFUUzBlT29EWVItTk5vZFpBeGlDNmM3VW5mQm12SGhnMzJXN3NvQ2NRZjlKQ0ZrYkpHNTJnMnQzS2R3NXZIUW03a2VlNy1LX1JPTlRYTmRzcHFDNWZWV2NvX3lTUGIzeExzM3Y4M2lxb3BfdzZ1b3ZKUzl0WkZjTW1ySWdwc05zaFhNWTlXOHdINA?oc=5",
-      "desc": "OpenAI reports disturbing behavior from AI agents americanthinker.com",
-      "source": "americanthinker.com",
-      "time": 1788296496.0,
-      "score": 11,
-      "key": "17228aadea7970d6ebcbea0998bc219c5d465bfea29f45d774ff076439fb2247",
-      "tier": "A",
-      "last_failed_at": 1788312368,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 1,
-      "next_retry_at": 1788312668
+      "failure_count": 5,
+      "next_retry_at": 1788317770
     },
     {
       "region": "WORLD",
@@ -403,6 +391,17 @@
       "time": 1788294928.0,
       "score": 10,
       "key": "146e9fcd480ad693fc861ccc854d5475a79f2220b8914a06547ddee5979fe013",
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Dropbox Security Breach: Hackers Access Accounts Through Authentication Flaw - Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTWUprQTA0bHBfakRuVzhIS2ZHX3VlRzhVT2I3NGRJZG5Vdm56eTMtMWpFbHFKNEJJcXJEeWJPRUhVNGFIalBCRUtRVEozQW55eEVseDhtaXVSUWhIbVHSAWZBVV95cUxOOW9WNHJwTENyTC1nUW83UE5rbS1JbS1SUTRLWlplcnVVUlF6d3FXQVBkd3ZQNDBJUk9Md2xZT1hlZ2h3NE9kMVdHeEoycmNQUl9zRDlNV0ZlQXUweDh0ZnZ2RXJoYmc?oc=5",
+      "desc": "Dropbox Security Breach: Hackers Access Accounts Through Authentication Flaw Decrypt",
+      "source": "Decrypt",
+      "time": 1788292865.0,
+      "score": 10,
+      "key": "f407b1d5cdf9819fbd77a01619b942b51fead9513022c9b52baf589231136cdf",
       "tier": "A"
     },
     {
@@ -1407,20 +1406,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T01:31:25.606421+00:00",
+  "last_run": "2026-09-02T01:36:59.908913+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788312669.8344204,
+    "last_start_ts": 1788312970.1951678,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788312669.8344204,
+    "last_success_ts": 1788312970.1951678,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788312685.2654004
+      "updated_at": 1788313019.4686315
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1649,6 +1648,13 @@
       "title": "CrowdStrike launches frontier AI models for cybersecurity in partnership with Nvidia - Crypto Briefing",
       "desc": "CrowdStrike launches frontier AI models for cybersecurity in partnership with Nvidia Crypto Briefing",
       "source": "Crypto Briefing",
+      "region": "WORLD"
+    },
+    "17228aadea7970d6ebcbea0998bc219c5d465bfea29f45d774ff076439fb2247": {
+      "time": 1788312970,
+      "title": "OpenAI reports disturbing behavior from AI agents - americanthinker.com",
+      "desc": "OpenAI reports disturbing behavior from AI agents americanthinker.com",
+      "source": "americanthinker.com",
       "region": "WORLD"
     }
   }
