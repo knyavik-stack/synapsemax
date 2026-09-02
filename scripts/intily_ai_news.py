@@ -19,11 +19,18 @@ from xml.etree import ElementTree as ET
 # Production queue / failover / watchdog / editorial QA
 # ============================================================
 
-LOOKBACK = timedelta(hours=24)
+# Discovery freshness is intentionally short. Old items should not occupy
+# queue capacity when the channel publishes one story every five minutes.
+LOOKBACK = timedelta(hours=12)
 
 MAX_PUBLISH = 1
-MIN_SCORE = 5
-MAX_QUEUE = 100
+MIN_SCORE = 9
+MAX_QUEUE = 48
+TARGET_QUEUE_SIZE = 36
+WORLD_TARGET_SHARE = 0.80
+RUSSIA_TARGET_SHARE = 0.20
+REGION_HISTORY_SIZE = 20
+RUSSIA_MIN_QUEUE_SLOTS = 6
 QUEUE_RETENTION = timedelta(days=7)
 QUEUE_RETRY_BASE_SECONDS = 300
 QUEUE_RETRY_MAX_SECONDS = 6 * 3600
@@ -79,20 +86,58 @@ TG_URL = 'https://api.telegram.org/bot{}/sendMessage'
 # ------------------------------------------------------------
 
 QUERIES = [
-    ('WORLD', 'AI artificial intelligence'),
-    ('WORLD', 'OpenAI AI news model agent'),
-    ('WORLD', 'Anthropic Claude AI news'),
-    ('WORLD', 'Google DeepMind Gemini AI news'),
-    ('WORLD', 'AI agents robotics'),
-    ('WORLD', 'AI chips Nvidia GPU'),
-    ('WORLD', 'AI regulation safety law'),
-    ('WORLD', 'AI investment acquisition funding'),
-    ('WORLD', 'artificial intelligence research breakthrough'),
-    ('RUSSIA', 'ИИ искусственный интеллект нейросети Россия'),
-    ('RUSSIA', 'Яндекс Сбер VK ИИ нейросети'),
+    ('WORLD', 'AI artificial intelligence major technology news'),
+    ('WORLD', 'OpenAI model launch agent product'),
+    ('WORLD', 'Anthropic Claude model enterprise'),
+    ('WORLD', 'Google DeepMind Gemini AI technology'),
+    ('WORLD', 'Microsoft Meta Apple AI product technology'),
+    ('WORLD', 'Nvidia AI chips GPU semiconductor'),
+    ('WORLD', 'AI agents robotics autonomous systems'),
+    ('WORLD', 'artificial intelligence research breakthrough science'),
+    ('WORLD', 'AI application business enterprise productivity automation'),
+    ('WORLD', 'AI software tool platform feature review'),
+    ('WORLD', 'generative AI developer coding cybersecurity technology'),
+    ('WORLD', 'AI healthcare education science industrial application'),
+    ('WORLD', 'AI startup funding acquisition investment technology'),
+    ('RUSSIA', 'ИИ искусственный интеллект нейросети Россия технологии'),
+    ('RUSSIA', 'Яндекс Сбер VK ИИ продукт технология'),
+    ('RUSSIA', 'российские компании внедрение ИИ бизнес'),
+    ('RUSSIA', 'ИИ робототехника чипы исследования Россия'),
     ('RUSSIA', 'ИИ регулирование закон инвестиции технологии Россия')
 ]
 
+
+QUALITY_TRUSTED = {
+    'reuters', 'bloomberg', 'financial times', 'the verge',
+    'techcrunch', 'wired', 'mit technology review', 'arstechnica',
+    'venturebeat', 'tass', 'interfax', 'рбк', 'коммерсантъ',
+    'ведомости', 'forbes'
+}
+
+HIGH_IMPACT_TERMS = {
+    'launch', 'released', 'release', 'introduces', 'introduced',
+    'model', 'agent', 'robot', 'robotics', 'breakthrough',
+    'acquisition', 'funding', 'investment', 'billion', 'chip',
+    'gpu', 'security', 'breach', 'regulation', 'law',
+    'запуст', 'выпуст', 'представ', 'модель', 'агент', 'робот',
+    'прорыв', 'инвестиц', 'миллиард', 'поглощ', 'чип', 'утеч',
+    'регулир', 'закон'
+}
+
+APPLICATION_TERMS = {
+    'enterprise', 'business', 'productivity', 'automation',
+    'developer', 'coding', 'software', 'platform', 'tool',
+    'healthcare', 'education', 'science', 'industrial', 'application',
+    'внедрен', 'бизнес', 'автоматизац', 'разработч', 'программ',
+    'платформ', 'инструмент', 'здравоохран', 'образован',
+    'производств', 'применен'
+}
+
+LOW_SIGNAL_TERMS = {
+    'opinion', 'sponsored', 'advertisement', 'coupon',
+    'horoscope', 'giveaway', 'stocks', 'stock price',
+    'мнение читателей', 'реклама', 'промокод', 'гороскоп'
+}
 
 WEIGHTS = {
     'launch': 5,
@@ -181,6 +226,9 @@ def load_state():
     # republished as new stories.
     if not isinstance(s.get('stories'), dict):
         s['stories'] = {}
+
+    if not isinstance(s.get('publication_regions'), list):
+        s['publication_regions'] = []
 
     return s
 
@@ -337,35 +385,61 @@ def tier(x):
 
 
 def score(x):
-    blob = (
-        x['title']
-        + ' '
-        + x['desc']
-        + ' '
-        + x['source']
-    ).lower()
+    blob = x['title'] + ' ' + x['desc'] + ' ' + x['source']
+    blob = blob.lower()
+    age = (datetime.now(timezone.utc).timestamp() - x['time']) / 3600
+    if age < -0.5 or age > LOOKBACK.total_seconds() / 3600:
+        return 0
 
-    n = sum(
-        v
-        for k, v in WEIGHTS.items()
-        if k in blob
-    )
+    base = sum(v for k, v in WEIGHTS.items() if k in blob)
+    impact = sum(2 for term in HIGH_IMPACT_TERMS if term in blob)
+    application = sum(1 for term in APPLICATION_TERMS if term in blob)
+    source = x.get('source', '').lower().strip()
+    trust = 4 if source in QUALITY_TRUSTED else (2 if source in TRUSTED else 0)
+    freshness = 4 if age <= 1 else 3 if age <= 3 else 2 if age <= 6 else 1 if age <= 9 else 0
+    penalty = 6 if any(term in blob for term in LOW_SIGNAL_TERMS) else 0
+    n = base + min(8, impact) + min(5, application) + trust + freshness - penalty
+    return max(0, min(n, 40))
 
-    age = (
-        datetime.now(timezone.utc).timestamp()
-        - x['time']
-    ) / 3600
 
-    if x['source'].lower().strip() in TRUSTED:
-        n += 3
+def editorial_value(x):
+    blob = (x['title'] + ' ' + x['desc']).lower()
+    source = x.get('source', '').lower().strip()
+    value = x.get('score', 0)
+    if source in QUALITY_TRUSTED:
+        value += 3
+    if any(term in blob for term in HIGH_IMPACT_TERMS):
+        value += 3
+    if any(term in blob for term in APPLICATION_TERMS):
+        value += 2
+    if len(normalize(x.get('desc', ''))) < 35:
+        value -= 3
+    if any(term in blob for term in LOW_SIGNAL_TERMS):
+        value -= 8
+    return max(0, min(value, 50))
 
-    if age < 2:
-        n += 2
 
-    elif age > 12:
-        n -= 1
+def topic_tags(x):
+    blob = (x.get('title', '') + ' ' + x.get('desc', '')).lower()
+    groups = {
+        'models': ('model', 'claude', 'gemini', 'gpt', 'модель'),
+        'agents': ('agent', 'agents', 'агент'),
+        'robotics': ('robot', 'robotics', 'робот'),
+        'chips': ('chip', 'gpu', 'nvidia', 'чип', 'полупровод'),
+        'research': ('research', 'breakthrough', 'исследован', 'прорыв'),
+        'business': ('enterprise', 'business', 'investment', 'внедрен', 'бизнес', 'инвестиц'),
+        'applications': ('application', 'automation', 'healthcare', 'education', 'применен', 'автоматизац', 'здравоохран', 'образован'),
+        'tools': ('tool', 'platform', 'software', 'feature', 'инструмент', 'платформ', 'программ'),
+        'security_regulation': ('security', 'breach', 'regulation', 'law', 'утеч', 'безопас', 'регулир', 'закон')
+    }
+    return sorted(tag for tag, terms in groups.items() if any(term in blob for term in terms))
 
-    return max(0, min(n, 30))
+
+def candidate_quality(x):
+    x['editorial_value'] = editorial_value(x)
+    x['topics'] = topic_tags(x)
+    return x['editorial_value'] >= 14
+
 
 
 STORY_LOOKBACK_SECONDS = 72 * 3600
@@ -461,14 +535,32 @@ def similarity(a, b):
     return jaccard(token_set(a), token_set(b))
 
 
+def story_anchor_tokens(x):
+    text = normalize(x.get('title', '') + ' ' + x.get('desc', ''))
+    tokens = token_set(text)
+    return {
+        w for w in tokens
+        if w in {
+            'openai', 'anthropic', 'google', 'deepmind', 'gemini',
+            'claude', 'nvidia', 'microsoft', 'meta', 'apple',
+            'yandex', 'сбер', 'sber', 'россия', 'россии'
+        } or any(ch.isdigit() for ch in w)
+    }
+
+
 def same_story(a, b):
-    return story_similarity(a, b) >= STORY_COMBINED_THRESHOLD
+    sim = story_similarity(a, b)
+    shared_anchors = story_anchor_tokens(a) & story_anchor_tokens(b)
+    if sim >= 0.40 and shared_anchors:
+        return True
+    return sim >= 0.52
 
 
 def collect():
     all_items = []
     raw_total = 0
     scored_out = 0
+    quality_out = 0
     story_dupes = 0
 
     for region, q in QUERIES:
@@ -476,41 +568,35 @@ def collect():
             started = time.time()
             items = rss(region, q)
             raw_total += len(items)
-
             for x in items:
                 x['score'] = score(x)
                 x['key'] = key(x)
                 all_items.append(x)
-
             print('RSS_QUERY', region, 'raw', len(items), q[:80])
-
             if time.time() - started > 15:
                 raise TimeoutError('FEED_BUDGET_EXCEEDED')
-
         except Exception as e:
             print('FEED_ERROR', region, str(e)[:180])
 
-    all_items.sort(
-        key=lambda x: (x['score'], x['time']),
-        reverse=True
-    )
-
+    all_items.sort(key=lambda x: (x['score'], x['time']), reverse=True)
     out = []
     for x in all_items:
         if x['score'] < MIN_SCORE:
             scored_out += 1
             continue
-
+        if not candidate_quality(x):
+            quality_out += 1
+            continue
         if any(same_story(x, y) for y in out):
             story_dupes += 1
             continue
-
         out.append(x)
 
     print('INGEST_SUMMARY', 'raw', raw_total, 'all', len(all_items),
-          'score_filtered', scored_out, 'story_dedup', story_dupes,
-          'candidates', len(out))
+          'score_filtered', scored_out, 'quality_filtered', quality_out,
+          'story_dedup', story_dupes, 'candidates', len(out))
     return out
+
 
 
 # ------------------------------------------------------------
@@ -1431,6 +1517,66 @@ def telegram(text):
 
 
 # ------------------------------------------------------------
+# Editorial queue policy
+# ------------------------------------------------------------
+
+def region_counts(items):
+    return {
+        'WORLD': sum(1 for x in items if x.get('region') == 'WORLD'),
+        'RUSSIA': sum(1 for x in items if x.get('region') == 'RUSSIA')
+    }
+
+
+def rebalance_queue(items, now):
+    fresh = [x for x in items if x.get('time', 0) >= now - LOOKBACK.total_seconds()]
+    fresh.sort(key=lambda x: (
+        x.get('editorial_value', x.get('score', 0)),
+        x.get('score', 0), x.get('time', 0)
+    ), reverse=True)
+
+    target_ru = max(RUSSIA_MIN_QUEUE_SLOTS, round(TARGET_QUEUE_SIZE * RUSSIA_TARGET_SHARE))
+    target_world = TARGET_QUEUE_SIZE - target_ru
+    ru = [x for x in fresh if x.get('region') == 'RUSSIA']
+    world = [x for x in fresh if x.get('region') != 'RUSSIA']
+    selected = ru[:target_ru] + world[:target_world]
+    selected_keys = {x.get('key') for x in selected}
+
+    for x in fresh:
+        if len(selected) >= TARGET_QUEUE_SIZE:
+            break
+        if x.get('key') not in selected_keys:
+            selected.append(x)
+            selected_keys.add(x.get('key'))
+
+    selected = selected[:MAX_QUEUE]
+    selected.sort(key=lambda x: (
+        x.get('editorial_value', x.get('score', 0)),
+        x.get('score', 0), x.get('time', 0)
+    ), reverse=True)
+    return selected
+
+
+def publication_region_boost(s, region):
+    history = s.get('publication_regions', [])[-REGION_HISTORY_SIZE:]
+    if not history:
+        return 0
+    ru_share = history.count('RUSSIA') / len(history)
+    if region == 'RUSSIA' and ru_share < RUSSIA_TARGET_SHARE:
+        return 8
+    if region == 'WORLD' and ru_share < RUSSIA_TARGET_SHARE:
+        return -2
+    if region == 'RUSSIA' and ru_share > 0.35:
+        return -4
+    return 0
+
+
+def publication_priority(s, x):
+    return x.get('editorial_value', x.get('score', 0)) + publication_region_boost(
+        s, x.get('region', 'WORLD')
+    )
+
+
+# ------------------------------------------------------------
 # Main production loop
 # ------------------------------------------------------------
 
@@ -1467,37 +1613,30 @@ def main():
 
     candidates = collect()
 
-    queue = s['queue']
+    queue = [
+        x for x in s['queue']
+        if (
+            x.get('time', 0) >= now - LOOKBACK.total_seconds()
+            and x.get('key') not in s['published']
+        )
+    ]
+    queue_keys = {x.get('key') for x in queue}
 
-    queue_keys = {
-        x.get('key')
-        for x in queue
-    }
-
-    # Drop stale semantic memories before comparing new candidates.
     stories = {
-        k: v
-        for k, v in s['stories'].items()
+        k: v for k, v in s['stories'].items()
         if float(v.get('time', 0) or 0) >= now - STORY_LOOKBACK_SECONDS
     }
     s['stories'] = stories
-
     recent_stories = list(stories.values())
 
-    # Short-lived exact-item memory. Long-lived story suppression is handled by
-    # published/story memory, not by known.
     s['known'] = {
         k: v for k, v in s['known'].items()
         if float(v or 0) >= now - KNOWN_LOOKBACK_SECONDS
     }
 
     admission = {
-        'published_key': 0,
-        'known_recent': 0,
-        'already_queued': 0,
-        'story_queue': 0,
-        'story_history': 0,
-        'added': 0
+        'published_key': 0, 'known_recent': 0, 'already_queued': 0,
+        'story_queue': 0, 'story_history': 0, 'added': 0
     }
 
     for x in candidates:
@@ -1518,12 +1657,15 @@ def main():
             admission['story_history'] += 1
             print('STORY_DEDUP_HISTORY', x['title'])
             continue
-
         x['tier'] = tier(x)
         s['known'][x['key']] = now
         queue.append(x)
         queue_keys.add(x['key'])
         admission['added'] += 1
+
+    before_rebalance = len(queue)
+    queue = rebalance_queue(queue, now)
+    counts = region_counts(queue)
 
     print('QUEUE_INGEST', 'candidates', len(candidates),
           'added', admission['added'],
@@ -1532,46 +1674,18 @@ def main():
           'already_queued', admission['already_queued'],
           'story_queue', admission['story_queue'],
           'story_history', admission['story_history'],
-          'queue_total', len(queue))
-
-    # Remove expired/published items.
-    # Discovery freshness is 24h, but queued stories need a separate
-    # retention window because publication is intentionally slower than
-    # discovery. Never discard a valid backlog merely because it is older
-    # than the discovery window.
-    queue = [
-        x
-        for x in queue
-        if (
-            x.get('time', 0)
-            >= now - QUEUE_RETENTION.total_seconds()
-            and x.get('key') not in s['published']
-        )
-    ]
+          'before_rebalance', before_rebalance,
+          'queue_total', len(queue),
+          'world', counts['WORLD'], 'russia', counts['RUSSIA'])
 
     for x in queue:
-        x['tier'] = (
-            x.get('tier')
-            or tier(x)
-        )
+        x['tier'] = x.get('tier') or tier(x)
+        x['editorial_value'] = x.get('editorial_value') or editorial_value(x)
+        x['topics'] = x.get('topics') or topic_tags(x)
 
-    tier_rank = {
-        'S': 3,
-        'A': 2,
-        'B': 1
-    }
-
-    queue.sort(
-        key=lambda x: (
-            tier_rank.get(
-                x.get('tier', 'B'),
-                1
-            ),
-            x.get('score', 0),
-            x.get('time', 0)
-        ),
-        reverse=True
-    )
+    queue.sort(key=lambda x: (
+        publication_priority(s, x), x.get('score', 0), x.get('time', 0)
+    ), reverse=True)
 
     published = 0
 
@@ -1646,6 +1760,13 @@ def main():
 
             published = 1
 
+            s['publication_regions'].append(
+                x.get('region', 'WORLD')
+            )
+            s['publication_regions'] = (
+                s['publication_regions'][-REGION_HISTORY_SIZE:]
+            )
+
             # Remove exactly the successfully
             # published item.
             if x in remaining:
@@ -1697,8 +1818,9 @@ def main():
 
             continue
 
-    s['queue'] = (
-        remaining[:MAX_QUEUE]
+    s['queue'] = rebalance_queue(
+        remaining,
+        now
     )
 
     s['published'] = {
@@ -1790,7 +1912,9 @@ def main():
                 'queue': len(
                     s['queue']
                 ),
-                'attempts': attempts
+                'attempts': attempts,
+                'world_queue': region_counts(s['queue'])['WORLD'],
+                'russia_queue': region_counts(s['queue'])['RUSSIA']
             },
             ensure_ascii=False
         )

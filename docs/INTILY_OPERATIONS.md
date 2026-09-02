@@ -1,6 +1,6 @@
 # Intily — AI News Publisher Operations
 
-Дата актуализации: 2026-09-01
+Дата актуализации: 2026-09-02
 
 ## Production objective
 
@@ -22,9 +22,19 @@ QUEUE_INGEST ...
 
 ## Freshness and memory
 
-Discovery использует rolling lookback 24 часа. Exact RSS-item memory `known` имеет TTL 6 часов. `known` не является архивом публикаций.
+Discovery использует rolling lookback 12 часов. Exact RSS-item memory `known` имеет TTL 6 часов. `known` не является архивом публикаций.
 
 Долговременная защита от повторов выполняется через `published` и semantic `stories`.
+
+## Content quality and regional policy
+
+Целевой редакционный состав: **примерно 80% WORLD / 20% RUSSIA**.
+
+Это не механическая блокировка: если за период нет достаточного количества качественных российских материалов, свободные слоты получает WORLD. Но Россия имеет reserved queue capacity и publication boost, если её фактическая доля в последних публикациях падает ниже 20%.
+
+Тематика расширена: business adoption, automation, AI tools/platforms, developer/coding, cybersecurity, healthcare, education, science, industrial applications и technology reviews.
+
+Очередь больше не является складом на 100 материалов. Рабочая цель — около 36 лучших свежих историй, hard cap — 48. При queue pressure применяется ranked rebalance.
 
 ## Filtering pipeline
 
@@ -113,3 +123,26 @@ failures: 0
 ## Latest reliability change
 
 2026-09-01: queue retention was separated from discovery freshness and set to 7 days. Failed items receive durable exponential retry scheduling from 5 minutes up to 6 hours.
+
+
+## Quality optimization — 2026-09-02
+
+- Freshness: **12 hours**.
+- MIN_SCORE повышен.
+- Добавлен второй редакционный gate editorial_value.
+- Trusted sources получают отдельный bonus.
+- High-impact events получают bonus.
+- Applied AI / technology / tools / enterprise use cases получают bonus.
+- Low-signal материалы получают penalty.
+- Semantic dedup усилен named-anchor matching и более строгим threshold.
+- Target queue: **36**.
+- Hard queue cap: **48**.
+- Regional target: **80% WORLD / 20% RUSSIA**.
+- Russian stories имеют reserved queue capacity и publication deficit boost.
+- Queue pressure решается ranked rebalance, а не FIFO truncation.
+
+Production metrics:
+
+QUEUE_INGEST ... world N russia N
+
+Финальный run JSON содержит world_queue и russia_queue.
