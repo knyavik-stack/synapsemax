@@ -129,11 +129,10 @@
     "908616a936144f83b89d7195143c6eb8010e316059c6c3e28706f5b1fadc7ded": 1788343545,
     "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": 1788344146,
     "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": 1788345043,
-    "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345648
+    "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345648,
+    "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345944
   },
   "known": {
-    "6af2030bd48f9773993d8f04340a5391e3e3ff64ac2b04e1ed08c828ef522dbd": 1788324073.318947,
-    "e434f90a293e4663eec66e1dd8bb1a70753ae1e2453faf93321f59f6024682ca": 1788324073.318947,
     "5ae35f4be4ebc84027d22ed800791ec8cf926b5ad587f0b03292a8ad4d72b23c": 1788324373.3873003,
     "53f8536f46087c237b454687c7f804e0d4c62cbfa05a31f1634f6e8d1260f8b1": 1788324675.429915,
     "3c9517ce35a08713f9ac894a69669a23eae11b99b9ccc92077803b887e6c0d43": 1788324675.429915,
@@ -189,35 +188,21 @@
     "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345043.9418838,
     "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345648.5054953
   },
-  "queue": [
-    {
-      "region": "WORLD",
-      "title": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNVYzckRLa3FlSER0bFZzX1d1dWhPd0UtbENGbnczeGZmUlV5eXFsMVVnS3hEbUluSWtpaWU2MXhLN1AySFVza0xxdEJhUUlBWVNUcVFwNmJoUWprcWVBMTIwYXBFTjR3VFpmSU9ZbThzNkkyeVE?oc=5",
-      "desc": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion finance.biggo.com",
-      "source": "finance.biggo.com",
-      "time": 1788316330.0,
-      "score": 11,
-      "key": "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666",
-      "editorial_value": 16,
-      "topics": [],
-      "tier": "A"
-    }
-  ],
-  "last_run": "2026-09-02T10:40:59.554344+00:00",
+  "queue": [],
+  "last_run": "2026-09-02T10:45:53.263809+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788345648.5054953,
+    "last_start_ts": 1788345944.63316,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788345648.5054953,
+    "last_success_ts": 1788345944.63316,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788345658.9288354
+      "updated_at": 1788345952.9079251
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1035,11 +1020,17 @@
       "desc": "Business News | Coforge Launches Open-weight AI Launchpad for Enterprise Deployments LatestLY",
       "source": "LatestLY",
       "region": "WORLD"
+    },
+    "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": {
+      "time": 1788345944,
+      "title": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion - finance.biggo.com",
+      "desc": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion finance.biggo.com",
+      "source": "finance.biggo.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1049,6 +1040,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
