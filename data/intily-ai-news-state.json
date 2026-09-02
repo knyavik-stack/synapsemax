@@ -80,11 +80,10 @@
     "8914f146bf6ca44750f78bde160aeda78a8d5ebff83327881e182b07cdcf9ba9": 1788322872,
     "98987aea98644c85b2bbc0778d46d7f6e003c5b352e529647d6bb149cfe30c64": 1788323167,
     "823199f82cce0e78a91b8f9d4f8926925615149cba6e93bed0fa59cbd1646af3": 1788323476,
-    "0bc9ffb76d6bffe75d2662b1d36653ee91562ea4040ad7b3887878a9bd58a320": 1788323772
+    "0bc9ffb76d6bffe75d2662b1d36653ee91562ea4040ad7b3887878a9bd58a320": 1788323772,
+    "535a6a576178991a82a73c09cfb88f976b0d4547ac44fb579e2f1a207ea5b847": 1788324073
   },
   "known": {
-    "54b7026565a8824216a9983d48fcde548616119b7d48c191706344961df375e8": 1788302421.326896,
-    "e434f90a293e4663eec66e1dd8bb1a70753ae1e2453faf93321f59f6024682ca": 1788302421.326896,
     "1ce6a341a2350a23a1a329e674944142553ec1584fe2c8b815ba3c5f1dbaee3c": 1788303023.3840215,
     "c32ad6f054e83758384613400c8859a76a034256132433660bcf8544cbaaf20c": 1788303023.3840215,
     "17228aadea7970d6ebcbea0998bc219c5d465bfea29f45d774ff076439fb2247": 1788303023.3840215,
@@ -281,7 +280,9 @@
     "f6b2cd823c7c35e4d2ef0da89bef3a3dd6c1ab15fe73756fddb74146fcb9a44f": 1788323772.1433625,
     "bd986f4b13176fdb699d2e49866bb7c31fa2492763c43698c91390c50775fd53": 1788323772.1433625,
     "d4201c2f54875b4ff5d0520472feee3b20d9f2f673aaade23b4048dd5166d661": 1788323772.1433625,
-    "1460ed8d54edcdae58641f0625ae10b63ec845909e31b8d522e688637ec11bbc": 1788323772.1433625
+    "1460ed8d54edcdae58641f0625ae10b63ec845909e31b8d522e688637ec11bbc": 1788323772.1433625,
+    "6af2030bd48f9773993d8f04340a5391e3e3ff64ac2b04e1ed08c828ef522dbd": 1788324073.318947,
+    "e434f90a293e4663eec66e1dd8bb1a70753ae1e2453faf93321f59f6024682ca": 1788324073.318947
   },
   "queue": [
     {
@@ -298,17 +299,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 6,
       "next_retry_at": 1788327370
-    },
-    {
-      "region": "WORLD",
-      "title": "Taiwanese Hardware Makers Sell Out NVIDIA RTX Spark Laptop Stock Ahead of Launch - TechPowerUp",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFZSMmdISzljSDl1N1ZIYmd4Ry0wVTJ3VWlaWHFmZEF6dXpqeHJOaFNlc2Y3WUZEMHo3bUNQT0lTRk51R2NFbzVqU2FfZGdMbi1fcUhPVE54b01iZUxudTdCcjVmRENsNTBiLVQ3RDBqajItdDJMOFdzZXg1TGpzQnhJMlZTTWl1cXptTXhlUVRyaF9UdkpjWUgxSmhTWjBuRlFrS3gtM0xtWlJUSWtsaWNRcWN6NDZDMnlN0gG7AUFVX3lxTE40VlIyZ0hLOWNIOXU3VkhiZ3hHLTBVMndVaVpYcWZkQXp1emp4ck5oU2VzZjdZRkQwejdtQ1BPSVNGTnVHY0VvNWpTYV9kZ0xuLV9xSE9UTnhvTWJlTG51N0JyNWZEQ2w1MGItVDdEMGpqMi10Mkw4V3NleDVManNCeEkyVlNNaXVxem1NeGVRVHJoX1R2SmNZSDFKaFNaMG5GUWtLeC0zTG1aUlRJa2xpY1FxY3o0NkMyeU0?oc=5",
-      "desc": "Taiwanese Hardware Makers Sell Out NVIDIA RTX Spark Laptop Stock Ahead of Launch TechPowerUp",
-      "source": "TechPowerUp",
-      "time": 1788289925.0,
-      "score": 9,
-      "key": "535a6a576178991a82a73c09cfb88f976b0d4547ac44fb579e2f1a207ea5b847",
-      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -583,6 +573,17 @@
       "time": 1788303876.0,
       "score": 8,
       "key": "c5d49f15a33aa8d25b153b6564f3022a44726d77dfdf3d995ce70b7ce08be12c",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia's yearly AI chip is a refresh. New architectures take two years. - Voronoi by Visual Capitalist",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOU1VudElhY0ZJLWNtWjFkMngxOWpmWkJDaTI2ZmVuLUl1SHBFWERDdERRZ3M4NzZ5bi1xYmstOVE4dnBLZjNVTnZ2SXA0X1NRN0JrTGVtSmpZMVA3ak5LNDE2N3ozekd2bzZYOUhBQTVHRmhFeFFYVl92Ymt0Y01pZ2hiZkV5M05ZMW9GXzE5bmg3b3k2a0p0Ty1fQ0pEeUlzRDYyaTMxWmJiZGFwWlptVg?oc=5",
+      "desc": "Nvidia's yearly AI chip is a refresh. New architectures take two years. Voronoi by Visual Capitalist",
+      "source": "Voronoi by Visual Capitalist",
+      "time": 1788298014.0,
+      "score": 8,
+      "key": "6af2030bd48f9773993d8f04340a5391e3e3ff64ac2b04e1ed08c828ef522dbd",
       "tier": "B"
     },
     {
@@ -1389,20 +1390,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T04:36:27.930028+00:00",
+  "last_run": "2026-09-02T04:41:29.909524+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788323772.1433625,
+    "last_start_ts": 1788324073.318947,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788323772.1433625,
+    "last_success_ts": 1788324073.318947,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788323787.3419964
+      "updated_at": 1788324089.4054105
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1876,6 +1877,13 @@
       "title": "OpenAI update shows new safeguards would have cut off 700 rogue AI agent swam 24 hours faster - CryptoSlate",
       "desc": "OpenAI update shows new safeguards would have cut off 700 rogue AI agent swam 24 hours faster CryptoSlate",
       "source": "CryptoSlate",
+      "region": "WORLD"
+    },
+    "535a6a576178991a82a73c09cfb88f976b0d4547ac44fb579e2f1a207ea5b847": {
+      "time": 1788324073,
+      "title": "Taiwanese Hardware Makers Sell Out NVIDIA RTX Spark Laptop Stock Ahead of Launch - TechPowerUp",
+      "desc": "Taiwanese Hardware Makers Sell Out NVIDIA RTX Spark Laptop Stock Ahead of Launch TechPowerUp",
+      "source": "TechPowerUp",
       "region": "WORLD"
     }
   }
