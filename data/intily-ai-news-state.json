@@ -108,11 +108,10 @@
     "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373,
     "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": 1788333973,
     "f3a47977daec1b8b38c11522aa2156fbbfff0ee511f65cd9e8fbf1d0670c0461": 1788334277,
-    "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171
+    "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171,
+    "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370
   },
   "known": {
-    "dbe27f0ea9e76f1c9aa00b912ea0b46498dbb7da911a0cc7be22fc63e34bc0b9": 1788314770.1234634,
-    "67a772de5472128417002044c192078872bf861d005d98947d2d3f234a2951da": 1788314770.1234634,
     "11ecfb5e6c149a489a2aa438ac41f43fb82d44a56c06423f5fc0345cb5b7cf8b": 1788315069.4332478,
     "14640c44dc73ed4a6fffa1cc3c47ce00466ede17f79ea4817200fd58a5c093ac": 1788315069.4332478,
     "34bc6d5b8374bf60d6d94cbc50d52d5873d54b556434b3d940e9d7cbeef0bbf0": 1788315672.8815992,
@@ -197,7 +196,8 @@
     "1437e71c6116a18af814f7c1b5b911399c8b77543146f12917e0cec776782d56": 1788331571.1883783,
     "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373.118473,
     "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": 1788333973.3417337,
-    "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171.3303025
+    "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171.3303025,
+    "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370.3834765
   },
   "queue": [
     {
@@ -457,20 +457,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T08:03:27.672425+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T08:06:20.084380+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788336081.2653544,
+    "last_start_ts": 1788336370.3834765,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788336081.2653544,
+    "last_success_ts": 1788336370.3834765,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788335179.7624812
+      "updated_at": 1788336379.6379268
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1141,6 +1141,13 @@
       "desc": "Kylian Mbappé-Backed Healthtech Unicorn Alan Makes First African Acquisition Launch Base Africa",
       "source": "Launch Base Africa",
       "region": "WORLD"
+    },
+    "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": {
+      "time": 1788336370,
+      "title": "Top 10: Agentic AI Platforms in Life Sciences - Healthcare Digital",
+      "desc": "Top 10: Agentic AI Platforms in Life Sciences Healthcare Digital",
+      "source": "Healthcare Digital",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1159,9 +1166,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
+    "RUSSIA",
     "WORLD",
-    "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD"
   ]
