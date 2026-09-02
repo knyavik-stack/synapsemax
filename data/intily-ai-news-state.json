@@ -126,7 +126,8 @@
     "592fabc8febe3a25ae0a86bf8ea9290033656fe15ecc025b0c653d5ae24964cb": 1788342346,
     "2392a412fa96ac4836bb713f3f5b2d3ac712548ef6333574256f7e2d8cf19565": 1788342946,
     "a297dd96c6430b3c8af076a20e2d3bc76c26ac952f6853184d946e191ccd440b": 1788343245,
-    "908616a936144f83b89d7195143c6eb8010e316059c6c3e28706f5b1fadc7ded": 1788343545
+    "908616a936144f83b89d7195143c6eb8010e316059c6c3e28706f5b1fadc7ded": 1788343545,
+    "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": 1788344146
   },
   "known": {
     "7ba1ea77ecf62c2dafe0957b8fa64b2f3d8d8146fe70c052c0812a920a57690e": 1788322577.8159125,
@@ -193,7 +194,8 @@
     "592fabc8febe3a25ae0a86bf8ea9290033656fe15ecc025b0c653d5ae24964cb": 1788342346.6116998,
     "2392a412fa96ac4836bb713f3f5b2d3ac712548ef6333574256f7e2d8cf19565": 1788342946.938898,
     "a297dd96c6430b3c8af076a20e2d3bc76c26ac952f6853184d946e191ccd440b": 1788343245.0981288,
-    "908616a936144f83b89d7195143c6eb8010e316059c6c3e28706f5b1fadc7ded": 1788343545.5544531
+    "908616a936144f83b89d7195143c6eb8010e316059c6c3e28706f5b1fadc7ded": 1788343545.5544531,
+    "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": 1788344146.422171
   },
   "queue": [
     {
@@ -425,20 +427,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T10:10:55.670077+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T10:15:56.884265+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788343847.2694805,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788343545.5544531,
-    "consecutive_failures": 1
+    "last_start_ts": 1788344146.422171,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788344146.422171,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788343555.9976945
+      "updated_at": 1788344156.233802
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1235,6 +1237,13 @@
       "desc": "Synup launches Sydekick, an autonomous AI agent for local marketing MediaBrief",
       "source": "MediaBrief",
       "region": "WORLD"
+    },
+    "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": {
+      "time": 1788344146,
+      "title": "Did OpenAI’s rogue agents form a ‘civilization’? The AI industry can’t agree - NBC News",
+      "desc": "Did OpenAI’s rogue agents form a ‘civilization’? The AI industry can’t agree NBC News",
+      "source": "NBC News",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1242,7 +1251,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1252,6 +1260,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
