@@ -93,7 +93,8 @@
     "077a6374baa07104e87304796c0e03365cae6b07250f3e0af362cf0cf1a65725": 1788326772,
     "ce87e875e98084165d3f7b034ae78dd580a8ddb6d5be3dadf0fe390d106fa52c": 1788327077,
     "cfe66b1c7d4670160e871c1b464f78d266389f193e361b3aacfb4d3b3ea48092": 1788327369,
-    "39ed18f70345ef93a928a9c8153467bdddc1139abe40a7662ae7467e9448994c": 1788327673
+    "39ed18f70345ef93a928a9c8153467bdddc1139abe40a7662ae7467e9448994c": 1788327673,
+    "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970
   },
   "known": {
     "23a5d564f30a93878ac4c5e932966c2a48b34512233f157b2498c57e1fe0f4be": 1788306372.5694413,
@@ -282,7 +283,8 @@
     "39ed18f70345ef93a928a9c8153467bdddc1139abe40a7662ae7467e9448994c": 1788326472.2605171,
     "71b166722d56995c0ca5a8134033985028a52a5059deb314faec3566633b2be8": 1788326472.2605171,
     "97c8442e48f05d948bb7d12973d3ae1490ddb974276f5a9ba23e0ff3cd3a3061": 1788326472.2605171,
-    "cfe66b1c7d4670160e871c1b464f78d266389f193e361b3aacfb4d3b3ea48092": 1788327369.1821887
+    "cfe66b1c7d4670160e871c1b464f78d266389f193e361b3aacfb4d3b3ea48092": 1788327369.1821887,
+    "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970.5963094
   },
   "queue": [
     {
@@ -747,20 +749,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T05:41:25.288806+00:00",
+  "last_run": "2026-09-02T05:46:20.407346+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788327673.9154716,
+    "last_start_ts": 1788327970.5963094,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788327673.9154716,
+    "last_success_ts": 1788327970.5963094,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788327684.790983
+      "updated_at": 1788327979.9669566
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1326,9 +1328,17 @@
       "desc": "Thread launches marketing intelligence platform in ANZ ecommercenews.com.au",
       "source": "ecommercenews.com.au",
       "region": "WORLD"
+    },
+    "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": {
+      "time": 1788327970,
+      "title": "Exclusive | New Google AI Model Said to Narrow Gap on Coding Ability - WSJ",
+      "desc": "Exclusive | New Google AI Model Said to Narrow Gap on Coding Ability WSJ",
+      "source": "WSJ",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
