@@ -83,11 +83,10 @@
     "0bc9ffb76d6bffe75d2662b1d36653ee91562ea4040ad7b3887878a9bd58a320": 1788323772,
     "535a6a576178991a82a73c09cfb88f976b0d4547ac44fb579e2f1a207ea5b847": 1788324073,
     "be6c0a776fdb65b0286016703f9d039c42e957aa40ba0d72f9b29acd6e62395b": 1788324373,
-    "53f8536f46087c237b454687c7f804e0d4c62cbfa05a31f1634f6e8d1260f8b1": 1788324675
+    "53f8536f46087c237b454687c7f804e0d4c62cbfa05a31f1634f6e8d1260f8b1": 1788324675,
+    "98a6c37d2679230e570e9d19302bc453b9002dbf9e98399001f0a4762a2989d7": 1788324968
   },
   "known": {
-    "872a25241637ee9ae469654a2368cd980a681557961f1c5f80eca6f4c6fba39e": 1788303321.526575,
-    "e233e8bec130c6605369a5f479f2797099b847bd959a6bf70e8a72586941f2f8": 1788303321.526575,
     "fddc17a362f708c5a794524ae120e7c8954214b54cee120213fabbceee3d71a5": 1788303620.9081814,
     "9d75b0179b356069a9f23c56d41c793291ae39246d71213a68f248e15e55d0bc": 1788303620.9081814,
     "3f6c029db420591d3b5b3893dd0ab074917489328cdea90538008be826876624": 1788303620.9081814,
@@ -273,7 +272,9 @@
     "5ae35f4be4ebc84027d22ed800791ec8cf926b5ad587f0b03292a8ad4d72b23c": 1788324373.3873003,
     "53f8536f46087c237b454687c7f804e0d4c62cbfa05a31f1634f6e8d1260f8b1": 1788324675.429915,
     "3c9517ce35a08713f9ac894a69669a23eae11b99b9ccc92077803b887e6c0d43": 1788324675.429915,
-    "f7130163cb266753467cdac9588b9086ec84bb30231454e7a5aa3a2c237bc4b5": 1788324675.429915
+    "f7130163cb266753467cdac9588b9086ec84bb30231454e7a5aa3a2c237bc4b5": 1788324675.429915,
+    "98a6c37d2679230e570e9d19302bc453b9002dbf9e98399001f0a4762a2989d7": 1788324968.1029863,
+    "679f7e0535eb7b85a0779ef574ca9a4e127b5a20ff5a45ef1a4a4543798b473e": 1788324968.1029863
   },
   "queue": [
     {
@@ -1385,20 +1386,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T04:51:30.190481+00:00",
+  "last_run": "2026-09-02T04:56:22.764620+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788324675.429915,
+    "last_start_ts": 1788324968.1029863,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788324675.429915,
+    "last_success_ts": 1788324968.1029863,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788324689.6411052
+      "updated_at": 1788324982.367952
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1893,6 +1894,13 @@
       "title": "Claude Fable 5.1 and the Cache-Read Cut: How Anthropic Repriced the Agent Loop - fourweekmba.com",
       "desc": "Claude Fable 5.1 and the Cache-Read Cut: How Anthropic Repriced the Agent Loop fourweekmba.com",
       "source": "fourweekmba.com",
+      "region": "WORLD"
+    },
+    "98a6c37d2679230e570e9d19302bc453b9002dbf9e98399001f0a4762a2989d7": {
+      "time": 1788324968,
+      "title": "Google almost ready to launch new Gemini AI model, may beat Anthropic and OpenAI in coding this time - India Today",
+      "desc": "Google almost ready to launch new Gemini AI model, may beat Anthropic and OpenAI in coding this time India Today",
+      "source": "India Today",
       "region": "WORLD"
     }
   }
