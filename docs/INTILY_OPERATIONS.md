@@ -199,7 +199,7 @@ This keeps durable memory without allowing obsolete backlog rules to contaminate
 
 ### Scheduler
 - Cloudflare Worker intily-ai-news is the canonical scheduler.
-- Its cron is */6 * * * *.
+- Its cron is */11 * * * *.
 - Duplicate cron on intily-news-trigger is disabled.
 
 ### Queue interpretation
