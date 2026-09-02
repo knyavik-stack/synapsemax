@@ -30,7 +30,7 @@ Discovery использует rolling lookback 12 часов. Exact RSS-item me
 
 Целевой редакционный состав: **примерно 80% WORLD / 20% RUSSIA**.
 
-Это не механическая блокировка: если за период нет достаточного количества качественных российских материалов, свободные слоты получает WORLD. Но Россия имеет reserved queue capacity и publication boost, если её фактическая доля в последних публикациях падает ниже 20%.
+Это не механическая блокировка: если за период нет достаточного количества качественных российских материалов, свободные слоты получает WORLD. Но Россия имеет reserved queue capacity и publication boost, который принудительно выбирает российскую публикацию при недоборе квоты, если её фактическая доля в последних публикациях падает ниже 20%.
 
 Тематика расширена: business adoption, automation, AI tools/platforms, developer/coding, cybersecurity, healthcare, education, science, industrial applications и technology reviews.
 
