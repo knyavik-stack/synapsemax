@@ -134,11 +134,10 @@
     "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248,
     "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265,
     "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788349516,
-    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788353346
+    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788353346,
+    "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2": 1788356493
   },
   "known": {
-    "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373.118473,
-    "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": 1788333973.3417337,
     "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171.3303025,
     "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370.3834765,
     "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685.5118265,
@@ -197,7 +196,20 @@
     "d2f114b181c659f65f561122b7f415bc47d69850746b80099cec21bc79ee8369": 1788353346.6187575,
     "6f410929b0e6b68afc26f1033b15737b5276b3d22e8dc53cce3fe2c8bcf57c02": 1788353346.6187575,
     "6251b0b5e8b84a214911c434e78ccd655ae8c3addf9ca39e57a789da03ecb4a1": 1788353346.6187575,
-    "16b60de09357a58da4a746f1633f84c04a876482dc4de76c0c639cf3fce62e09": 1788353346.6187575
+    "16b60de09357a58da4a746f1633f84c04a876482dc4de76c0c639cf3fce62e09": 1788353346.6187575,
+    "7b455fe97b2747a62a23dd8861edb1af50c1ef42168f0f5bdc90977230891bd2": 1788356493.6585639,
+    "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2": 1788356493.6585639,
+    "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": 1788356493.6585639,
+    "5c96fbcf438fc1a5ad12951af048d43162399f9781c0ff7a60c02a1dbdbc4eb0": 1788356493.6585639,
+    "ce60c5aa5f91577f6960785f0d28b21c345e9198a632a920b947bdc5a67163fe": 1788356493.6585639,
+    "8e669fbfa1f34eae5a84309bea0e42d489a350dc085da6c135a5d653d85b68c9": 1788356493.6585639,
+    "2d21bd8b89cb4b093113e8b6952c71758ede883ce019a0fc0911c7d6f6910243": 1788356493.6585639,
+    "a18c745cbd6e4a371a23f92c58b7b4e584b8c9a35672b66e8f562de5bc8b57ee": 1788356493.6585639,
+    "2096cf6e080976586c59fe01a6fd3c017097f0d354d60937d8d29d4ea6fac246": 1788356493.6585639,
+    "e42ce8d678ad38bd1d8e712fe9fcfb6821beddecabe027efaafd5b4c32854c61": 1788356493.6585639,
+    "88557d2b1968551095361823f21b271964c6f69f7a0cef58d0e894d0865497a6": 1788356493.6585639,
+    "814d5639074b6e13d687901d9c498c40ee57b83b2059913dd13df042239a1b95": 1788356493.6585639,
+    "d806b5fceda26ec1ad08fcc3b0b9dbc77d0fdaae223411f3d89f4ef1ec778db1": 1788356493.6585639
   },
   "queue": [
     {
@@ -217,33 +229,16 @@
     },
     {
       "region": "WORLD",
-      "title": "Claude Fable 5.1 and Mythos 5.1 launched: What is new and how Anthropic is handling security - News9live",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONUNDSk5IU01EdHljT2JhOUhpbVdwdDFSbmh4Qm90RkxIU01QOVRYcVZfYTJsNXoyVGZMWlhGanR0SHlGS0RFeFNvRWY1SHczWEYwckFOUDhZU3N1Z1VjUUY5bE9DWDc0LU44VHR6T0tESTdKWldtMkJhRzBQNjRHU3Vjbm82ajZiQ3VuNlBoRkNhMFVNeDN3ZEF6Q0MwM0VHQWlaQ2VoRHd4OFZkNTF5LWdaa05tQjFfU0lFR2FvYXBVZ9IBxwFBVV95cUxNT2xaNWRoS0xlOFFsdU5QZ0ZPWkR4LUlLdjhDb3lJQzAteTU1bl9peGdOQllyaFhpdjQ5WUhGb3hRd25mRElRdlRBMTZQeFhxdFJMbDZNTWRfLUx1ZjV4Z0dlTlFLVDNjZmllMnZTOFMyeXA4RjFfY2xYcTJDWGkwX0hQUGNHWGRIdUdQQVVjcEZSd2gxNXUtam5GeTZ3bVRPQ0JtdTExMjBIU3Q2Q0h4MmlwUUlrSlVURUw2elNaQm13MDU0ajFn?oc=5",
-      "desc": "Claude Fable 5.1 and Mythos 5.1 launched: What is new and how Anthropic is handling security News9live",
-      "source": "News9live",
-      "time": 1788332472.0,
-      "score": 20,
-      "key": "352572fc5a83b728b3a8a50a6443651dc539d4c5488f8a7e3286c5d924f79bcf",
-      "editorial_value": 26,
+      "title": "Zoho launches Catalyst 3.0 with Agent Skills, MCP support and AI IDE integrations - FoneArena.com",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BMERnY2toOEJvd1ZWeVZTaU16T0FLSEpVZ1RFMy1yWTlvLVhmOUJrWDN6ZzR0S2NEMkt0SFRWdENqUHcteHhCWlRSTWtCaWVGRy01WURncXlaZ3F0VzZsVjJMNm00MXlDSkh4dzY5aTVOaWVTZ2dwT9IBfkFVX3lxTE9tN3NfaFVCR082ZXhLQVBLbXp0VTJlbHhXY1NMTG5hU3pqS3IyVzVTWGd4Y0lGTlpnQl9KWmpVckRmRXpHZ2NPNmRlLXFPNGZEUnN4YzFNLWlfNDhPR2NIMDdaT3VZcDJ1bVhHNXVfOWNZOVRpa1Y3VnFEMlIxQQ?oc=5",
+      "desc": "Zoho launches Catalyst 3.0 with Agent Skills, MCP support and AI IDE integrations FoneArena.com",
+      "source": "FoneArena.com",
+      "time": 1788353935.0,
+      "score": 18,
+      "key": "7b455fe97b2747a62a23dd8861edb1af50c1ef42168f0f5bdc90977230891bd2",
+      "editorial_value": 24,
       "topics": [
-        "models",
-        "security_regulation"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "Nvidia In Talks To Acquire AI Platform Hugging Face For $14 Billion - Whalesbook",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMWpkVVMtYUpaYlZQakpRaGJPS2ZWd2tvTE5UVUNrNldOVUQtRTdPeVFZbjlLdkx4UmE1aHNVRTlwNkVydDRCSnRvU1Fna1MtdFZDN3BMcEVqT2VWYWx3b09mTUpVSEJOR1Z6RHcwRWRQTlVPeklGdGFzNjc3RzBPUDE5U0p2LV94YkM5QlUzUHM0N09YUEp1Z092NlFsampNSEhWcDA2WXZWN21Vb3ZueE54Ni1PRFE3ZnpVZmpMQWhLSjlqQ2hzNjAtNUpBVnh2cVJjcXNKREpmUms1cUN0ZktR?oc=5",
-      "desc": "Nvidia In Talks To Acquire AI Platform Hugging Face For $14 Billion Whalesbook",
-      "source": "Whalesbook",
-      "time": 1788333257.0,
-      "score": 14,
-      "key": "5bd8e6185df38390e0ea84d447b83334f83f23271a4d45c5e19632281bdcb434",
-      "editorial_value": 21,
-      "topics": [
-        "chips",
-        "tools"
+        "agents"
       ],
       "tier": "S"
     },
@@ -276,6 +271,37 @@
       "topics": [
         "agents",
         "security_regulation"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В России вступил в силу закон о господдержке и регулировании ИИ - blackfoxnews.ru",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa2ZLRVRSZFZqZHFPUHd2ZUhEZ09DYXV3NHlMdThuUVFRWTRBSGVseThmYXpiek1jZEI5WEVYc25mNENOcDluVlo5YUk0OXV6Z2pxMnZISDk4N0p6OENWd2RGZm4yNFA2WlRSdHd2cVBJWFNiS0VxcUVOeHl2N29jLXB2NURTOF81QnRaUG95NnpmSl9fQVVxRw?oc=5",
+      "desc": "В России вступил в силу закон о господдержке и регулировании ИИ blackfoxnews.ru",
+      "source": "blackfoxnews.ru",
+      "time": 1788342760.0,
+      "score": 17,
+      "key": "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424",
+      "editorial_value": 20,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic Discounted Its Priciest Model Without Cutting the Price - Business Model Analyst",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkcHJzdGNDMXdMMkw5OERxRnZ2dDNtQUhIekhMeEwyMGZOejh4dWdXOGg5ZHFLQ0NkM1M0ZG5tVHpwMU54cG9jdjdnU0Y0T2J0enFFMjY1ZXotMy1rZlVBWExxZFlIMXUteTcwbzJzZ0xnQVd6REdfcUVfMTY3MVE?oc=5",
+      "desc": "Anthropic Discounted Its Priciest Model Without Cutting the Price Business Model Analyst",
+      "source": "Business Model Analyst",
+      "time": 1788353776.0,
+      "score": 15,
+      "key": "5c96fbcf438fc1a5ad12951af048d43162399f9781c0ff7a60c02a1dbdbc4eb0",
+      "editorial_value": 20,
+      "topics": [
+        "business",
+        "models"
       ],
       "tier": "S"
     },
@@ -372,6 +398,21 @@
     },
     {
       "region": "WORLD",
+      "title": "Google Gemini 3.8 Flash coding AI model expected this week - tech.yahoo.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVTY3MFlTSVJuU1BLWkVPVF9fVlZQUDA5OUpIR3MwMXZRaXo2a0RlTlE2UWI5dlJQc1NzQUFTRFhTWVZOUHYtd1o4aXdtZ09UWVlZSkFNU0RYRzFXVWZZUjZFb2pYWUJYUS1IWG1zMG5za1pGWlpGN0I5TGZZUXJ5RF9uZkYyNVE?oc=5",
+      "desc": "Google Gemini 3.8 Flash coding AI model expected this week tech.yahoo.com",
+      "source": "tech.yahoo.com",
+      "time": 1788352743.0,
+      "score": 13,
+      "key": "8e669fbfa1f34eae5a84309bea0e42d489a350dc085da6c135a5d653d85b68c9",
+      "editorial_value": 18,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "MIPS Launches Workload-Native Platforms for Physical AI - Business Wire",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLWtNN0ZvbEthbEZpaTlVcGNkazNWbG1IUDdvOGNLRkQ3Z0szM21UeWEyN3pNUHZDdl9Vc1VTNlUwQ2ZVRTBJUUdpRkJMY0FFVnJnMUZKRjlLbms3VDJmcTNYNUJiMi1KTml4NWIzZ3IyTmY4Z3ppYVBQOXBBZzJDSk9lNFhTS214X3B3d2N2SHN2Szg1ajlKekY1V0JfMjllQ21MUTF3QzgzRWFyN3ptaFNR?oc=5",
       "desc": "MIPS Launches Workload-Native Platforms for Physical AI Business Wire",
@@ -417,21 +458,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection - MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ3FqZnczc19ZZXhjaHBjSVFvd1FLWG5aRXBqaF9LTG1GX1lWMDB2VFc3V0JfVVpESGpoOG5wQk9JdWdLNnZyYWFKTVJ3LTdQZkhQR21iQXBrN1hucDNRVmNUd2IyX2R3a2R4U3QwbW9aTlY1TUZ5VWdzSEtGUDBSRktjbEdHQ0NmYkFxVkNn0gGTAUFVX3lxTE1Tb2lKUXZENmszeU9HdUxnZkFwNGlGSG92UzdwRFRQZUpuSFhzX1lHSTByTnFuYUIyUWJ1OEdXYV9YUF9NVG5SVUFrZklnTFd1Q3RRNVVweENnX0REdmtzNEhTTW9GVmFIemFZZWJsTDVEYXBRNFR0aUJ0RzVDSjVuS1YyOEVBRlB4cUlLdHFPMi1uNA?oc=5",
-      "desc": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection MarkTechPost",
-      "source": "MarkTechPost",
-      "time": 1788334698.0,
-      "score": 9,
-      "key": "e60cc6d1c8b584c2870d17aff81f24b3003b5981b447c428f8ffd6cf8c9ec2b9",
-      "editorial_value": 18,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Google’s New Gemini AI Could Beat OpenAI, Anthropic in Coding - thehansindia.com",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdFc1UWxPTDlvYzBSMlpWcFJtVjUxZ0FzXzVTZVdXbk8wNHpZRHQyS3h5MjctU2cxcUh3dGE5bG0xSUpNRFhsVUhCeHl1TkZhS21jZWo0eWpONms2NnVtUVRKUlo1NDdfUkszdjg0ZXY5bFEwbmlUUS1HVV9OZU5TY1BpQXJmNWQyZTdRa19MRnJSSXR0OTdDbXVwZUl5M0V6b3JYM3Mzekp3azZWWU53ZV9Ya0pRVUoz0gG-AUFVX3lxTE1qTzZMMTBVUU55V0g1bTNFNzhVOVpobzhycG1rbE1DYzNFZmRJLU4zZkgtdjNtTVFqMkJua05qeUxRSEVsUlZVX1VGTWgtNFh2S1pXWUxwS2hKNVJGNjVaOTlsLXZRMHc5T25vYVRuTnEzN3NSQndhUHpGV0FUV1hjdm9haFJwWEhYYnlRWTFOT0ltMTNfb2tlLUdsV2s0RXoxUWtMYzJHSUhTZmktSERYWDQ2bkJNakpHRVBzdlE?oc=5",
       "desc": "Google’s New Gemini AI Could Beat OpenAI, Anthropic in Coding thehansindia.com",
@@ -447,28 +473,13 @@
     },
     {
       "region": "WORLD",
-      "title": "Anthropic Unveils \"Claude Fable 5.1\"... Introduces Mythos Model with Enhanced Safeguards - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0dFQtaXM3RmFuT19pMDlTdFJkX3Vfdnpxc0szQ1hoek1nVjFTV2NJSDJ2ZUZFeTlmQThhNGw5V0ZNVWMtQzNrNGZVT203X3hNQ1RSVjNhdFBoRnNsaHc1SVlkNFc3aGlBa2ZoNTNZUQ?oc=5",
-      "desc": "Anthropic Unveils \"Claude Fable 5.1\"... Introduces Mythos Model with Enhanced Safeguards 아시아경제",
-      "source": "아시아경제",
-      "time": 1788334533.0,
-      "score": 14,
-      "key": "60f0e119cdfb6cadaf917e85c72785eb15d314f5af88efdfd3108425ca682bfd",
-      "editorial_value": 17,
-      "topics": [
-        "models"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "Agentic AI could improve corporate cash forecast accuracy to 90%: EY - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRXg5QWNPS1dfS2pndUstWC0tQ0NwdHAtakRoVmlubTdLcnNIYjBLYVRvcXdCdklzeTl5emdaOTBUeHBZUWxwMlN3VGlud3RlMVhpa3dfTUhGVU9kMzdGc1BCdkExVXQ3RGZDMnRlWnZoRzBHQnBVNmZzUURtTVQ1WFhoZlYwUVdWODdUVEdwXzJDSkJSMXhKSl9QamFseUpQTFlna0ZFZUdTTWczTmdkc2xHMmlTanNQZnhFU214UjRrR3QwNFQ1T3VHVXlUUEhlVG9z0gHYAUFVX3lxTE14OG5tVG9LYlFWSFpSZ0dIMm5GcnJmQ0d2bzVLSk4yNjNJejNkN1JFZVpjUFNJUnFRWFZaMFE2cFBkNER3UlBTTktLOVpsN3h6aW56Sk55dlR6Ulhrd0lFMGRIV014ZXN5YUlremI0MjUtT09sdHp5VGU4R0l2bWg1TmhjZnN1S3NtM0FWWlNoU1ZtQm9ndTMwY1RVaWxVNHdHdS1ZREY4eWU2Nm13VklYMWFMeE5IekMwUS1jUV9UMm5sc2FEX05ocVN5NmdlOWtpWWJIb3VlUg?oc=5",
-      "desc": "Agentic AI could improve corporate cash forecast accuracy to 90%: EY Business Standard",
-      "source": "Business Standard",
-      "time": 1788345134.0,
+      "title": "Test Phenom AI Agents for Hiring, Development and Retention at HR’s Biggest Fall Events - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd2ZJN0FQUHQ0dXo1dWhlZ1IyNkJiMV9talZnT09qWC1yNmVrQmZhQl9QOElTR0NNM3p4N3RvWWZkd3dMWENWcFY0aHJvZzNuaFRlZkFyM2pvc1Rpa2pJUGdtZm5WMk4wNXhld3VoQnBlY3pnVmVtbm5HSjl2LUMxRGdEYjd1cVd0RkNKMHNTelNpelB5dkVRSGU2Tzl0SlZtMnJOY0J4VGRyTnlYSkxzZENqZGRjVlJVa0otOXBJX1hDTGlvTmFIeFpBMXFUZW9WdDlxaXNBeHFvZw?oc=5",
+      "desc": "Test Phenom AI Agents for Hiring, Development and Retention at HR’s Biggest Fall Events Business Wire",
+      "source": "Business Wire",
+      "time": 1788355800.0,
       "score": 12,
-      "key": "a12c6c2fd1c752bfbb2d0b0e44f2aa738fc7cadda60f8aec4b484701a9931510",
+      "key": "2096cf6e080976586c59fe01a6fd3c017097f0d354d60937d8d29d4ea6fac246",
       "editorial_value": 17,
       "topics": [
         "agents",
@@ -492,34 +503,31 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Anthropic Launches Claude Fable 5.1 to Handle Long, Complex Work - Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbVdlbURzWmI1Qk9SU255TElDNjBnN0lpMjZ4Q3RIdHA2YS0xMFBiR28wWUx6b04zVXNJVjQ4dHd2cmhLS2NicFJjV1hQQkpKLVIwOUJrc1RGU0dsOXBlRmtIRE1sejlqQXpPSWN4czB3NXN2QXhwZDc1MWdxeExmc2xENkJrYUl3anNuU1h1QlVEbWV6RXVrWDcwWGJrTXRoU2fSAa8BQVVfeXFMTWlySVZudnlWenkzWl9xQTZtQ1h3UXg3NTdqUkp2cnVRNlpmX3ZsdmtadDVmRlU4R0l0TGFXVjFOYlh1amFlWW5neVpraV80Q3NRS0o1MFhkbnF3blpCSXdnRW5Xa3lJSm1XYmZFal8tWDB4YTN1WHpNbXN3ckdsMEtSelE3ZXBDeEh6TWw0LVN1ZkZjR2JmamVhX1lJSl8zSFVCNjBxNHRhUTl0cF9QVQ?oc=5",
-      "desc": "Anthropic Launches Claude Fable 5.1 to Handle Long, Complex Work Analytics Insight",
-      "source": "Analytics Insight",
-      "time": 1788334200.0,
+      "region": "RUSSIA",
+      "title": "CrowdStrike представили агентную систему SafeMind - ForkLog",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa3E5V29lVG5udURhRm9BMFh0ZHpJTFRXNTUwLTByaDBRd0FSWWhRQkpUWUxYZFplTHVNY2F3ZkVlWnJWLWZaWkQzTWhHRTdDTFBqVE9lWHN1RGVOcjdJY0hqM1cxM0hRTFJicFlIZFBKaU1GY3NSQjdEMi14TmRmd0VPSGc?oc=5",
+      "desc": "CrowdStrike представили агентную систему SafeMind ForkLog",
+      "source": "ForkLog",
+      "time": 1788356096.0,
       "score": 13,
-      "key": "26b1e0d03107e427b5907134cd91e1c6d707a79b43682d6ddcecae09965a8f13",
+      "key": "ce60c5aa5f91577f6960785f0d28b21c345e9198a632a920b947bdc5a67163fe",
       "editorial_value": 16,
       "topics": [
-        "models"
+        "agents"
       ],
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "From seats to usage: AI's growing impact on software pricing models (AIQ:NASDAQ) - Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaUowbm45WVhNMERVczNDWW1TVkdCYmtiSGowZ2lDa3RYUGItd1I0TFlXcTRLOVJyblJ4MWRnejNSVXM0X3VHSkx5NUUtUHlyVTdac3RUVUZuQ2tfRHZ1OEhzamZzaE5BOEVGaWZ5QXdNaGZ2bXFWOGFpM1R3ekFzWGZ4aXJxdFdhU0g2NzQzelVuUUd1UEVHRUxjMnJtUzI3eXJKU2JR?oc=5",
-      "desc": "From seats to usage: AI's growing impact on software pricing models (AIQ:NASDAQ) Seeking Alpha",
-      "source": "Seeking Alpha",
-      "time": 1788352806.0,
-      "score": 11,
-      "key": "6f410929b0e6b68afc26f1033b15737b5276b3d22e8dc53cce3fe2c8bcf57c02",
+      "region": "RUSSIA",
+      "title": "Google запустила ИИ-сервис Pics для создания и редактирования изображений - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IZEZpM0tiVEpUdlRnMVhHdFFGbVczNVZvdjYzX1JJWUtwYlZyVGdvYVY5ZDh6STlCZThvRGpaSl9XcmxsV0pPczFsVWRSQQ?oc=5",
+      "desc": "Google запустила ИИ-сервис Pics для создания и редактирования изображений kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788352569.0,
+      "score": 13,
+      "key": "2d21bd8b89cb4b093113e8b6952c71758ede883ce019a0fc0911c7d6f6910243",
       "editorial_value": 16,
-      "topics": [
-        "models",
-        "tools"
-      ],
+      "topics": [],
       "tier": "A"
     },
     {
@@ -554,20 +562,20 @@
       "tier": "A"
     }
   ],
-  "last_run": "2026-09-02T12:49:30.148111+00:00",
+  "last_run": "2026-09-02T13:41:54.502205+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788353346.6187575,
+    "last_start_ts": 1788356493.6585639,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788353346.6187575,
+    "last_success_ts": 1788356493.6585639,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788353369.545865
+      "updated_at": 1788356513.6186006
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1420,13 +1428,19 @@
       "desc": "NVIDIA испытала систему, где ИИ-агенты сами атакуют и защищаются одновременно Компьютерра",
       "source": "Компьютерра",
       "region": "RUSSIA"
+    },
+    "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2": {
+      "time": 1788356493,
+      "title": "Гайд по ИИ-агентам: какие бывают, как запустить своего и чем вы рискуете - Rozetked.me",
+      "desc": "Гайд по ИИ-агентам: какие бывают, как запустить своего и чем вы рискуете Rozetked.me",
+      "source": "Rozetked.me",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1440,6 +1454,7 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA"
