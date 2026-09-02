@@ -116,7 +116,8 @@
     "996dc45511b30182016a60f74df185dae9e6c41581bb0579c66317d29b9d0e46": 1788337546,
     "f0ff75dfa630d110674bdf5afa96f585899a8034939c9fe23baebda163d5ee61": 1788338743,
     "e3479ca66a104e930034a786b0636771933b94f63549f92e7e30b9e40e6d2c5e": 1788339044,
-    "4c21324c89c3332eead3e4f5a5ff09e11b4382a69324adbb414a8272b28afede": 1788339346
+    "4c21324c89c3332eead3e4f5a5ff09e11b4382a69324adbb414a8272b28afede": 1788339346,
+    "2a66d7f26c196c287fef4ddc16098ddc85e0b21c1bce873a8d29754203977584": 1788339945
   },
   "known": {
     "22e98c5f51b3fa41f763050ba1a037eb7092b7467382067b435893d5aac1ce50": 1788318372.351865,
@@ -197,7 +198,8 @@
     "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": 1788337242.6649766,
     "f0ff75dfa630d110674bdf5afa96f585899a8034939c9fe23baebda163d5ee61": 1788338743.7995994,
     "e3479ca66a104e930034a786b0636771933b94f63549f92e7e30b9e40e6d2c5e": 1788339044.2659903,
-    "4c21324c89c3332eead3e4f5a5ff09e11b4382a69324adbb414a8272b28afede": 1788339346.171776
+    "4c21324c89c3332eead3e4f5a5ff09e11b4382a69324adbb414a8272b28afede": 1788339346.171776,
+    "2a66d7f26c196c287fef4ddc16098ddc85e0b21c1bce873a8d29754203977584": 1788339945.9016674
   },
   "queue": [
     {
@@ -457,20 +459,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T09:00:51.724083+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T09:05:59.525653+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788339644.774389,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788339346.171776,
-    "consecutive_failures": 1
+    "last_start_ts": 1788339945.9016674,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788339945.9016674,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788339360.4132605
+      "updated_at": 1788339959.0726986
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1197,6 +1199,13 @@
       "desc": "Qualcomm & ASUS Launch Pharmacy AI Agent for Drug Safety ASUS Pressroom",
       "source": "ASUS Pressroom",
       "region": "WORLD"
+    },
+    "2a66d7f26c196c287fef4ddc16098ddc85e0b21c1bce873a8d29754203977584": {
+      "time": 1788339945,
+      "title": "Dyson launches AI camera toothbrush in UAE, Saudi Arabia - Gulf Business",
+      "desc": "Dyson launches AI camera toothbrush in UAE, Saudi Arabia Gulf Business",
+      "source": "Gulf Business",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1207,7 +1216,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1216,6 +1224,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
