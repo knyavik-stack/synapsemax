@@ -128,15 +128,10 @@
     "a297dd96c6430b3c8af076a20e2d3bc76c26ac952f6853184d946e191ccd440b": 1788343245,
     "908616a936144f83b89d7195143c6eb8010e316059c6c3e28706f5b1fadc7ded": 1788343545,
     "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": 1788344146,
-    "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": 1788345043
+    "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": 1788345043,
+    "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345648
   },
   "known": {
-    "e9bfb7c008ddee1524b25737c34eb9a062dc397417cf0bd90e619e8c0c56aa3f": 1788323772.1433625,
-    "717bacb65719e7db3f02f36cb305314c34c0fa66ce051e435c9136f8031cd5b8": 1788323772.1433625,
-    "f6b2cd823c7c35e4d2ef0da89bef3a3dd6c1ab15fe73756fddb74146fcb9a44f": 1788323772.1433625,
-    "bd986f4b13176fdb699d2e49866bb7c31fa2492763c43698c91390c50775fd53": 1788323772.1433625,
-    "d4201c2f54875b4ff5d0520472feee3b20d9f2f673aaade23b4048dd5166d661": 1788323772.1433625,
-    "1460ed8d54edcdae58641f0625ae10b63ec845909e31b8d522e688637ec11bbc": 1788323772.1433625,
     "6af2030bd48f9773993d8f04340a5391e3e3ff64ac2b04e1ed08c828ef522dbd": 1788324073.318947,
     "e434f90a293e4663eec66e1dd8bb1a70753ae1e2453faf93321f59f6024682ca": 1788324073.318947,
     "5ae35f4be4ebc84027d22ed800791ec8cf926b5ad587f0b03292a8ad4d72b23c": 1788324373.3873003,
@@ -191,43 +186,38 @@
     "908616a936144f83b89d7195143c6eb8010e316059c6c3e28706f5b1fadc7ded": 1788343545.5544531,
     "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": 1788344146.422171,
     "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": 1788345043.9418838,
-    "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345043.9418838
+    "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345043.9418838,
+    "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345648.5054953
   },
   "queue": [
     {
       "region": "WORLD",
-      "title": "Business News | Coforge Launches Open-weight AI Launchpad for Enterprise Deployments - LatestLY",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ00tb2ppS3B6TXJ1MXoybXVSSkJra1M3ODY4X2RZbDkySFFLdnc2a21mTkhZaDJMSFNhTW9IYXp2b25IRlZfdy1yTjhPWHUyTDJSa1doSU5kaXpHYnE3SlRIVHBLVWtmT1FtUUk5OEV0RXQzTmVERWRReTBSSUV2cll2VG5VeTNPT3hHRE9LU3cyQkdCWGhVSE9TdXdhWGhtb1pVOUh1dmRzdV9UdEU5RUpfMlhPcnNkYmZSaEo5ZEdCSXhrWm5ieWNaa07SAdIBQVVfeXFMTmFnY2UtVDNzOXVmRFg1NXRIbUtrUDV1WjFacW9sOFJ4XzUyaHJQRjlFN1lMRXNtM01vUXRLdzJiYVFlZzZxbmtidkFlWmh2QUpxa0ZuTWhmUnpaR1ZqZUtZV29CejQtYWdkSkVueHV6dkNIaWw0SGRKNXdyWWNseHhUMHlGUGtTN3djem56Z21VejhIdzZ1M0dkMzJFb0hYNXF5aUcyY0hYX0RvTkgzdVlxZ2ZxVWhkQ1lNRUNPY1FNbk84enhYZzctd2kydHZkUVpR?oc=5",
-      "desc": "Business News | Coforge Launches Open-weight AI Launchpad for Enterprise Deployments LatestLY",
-      "source": "LatestLY",
-      "time": 1788340103.0,
-      "score": 12,
-      "key": "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236",
-      "editorial_value": 17,
-      "topics": [
-        "business"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788345344,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788345644
+      "title": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNVYzckRLa3FlSER0bFZzX1d1dWhPd0UtbENGbnczeGZmUlV5eXFsMVVnS3hEbUluSWtpaWU2MXhLN1AySFVza0xxdEJhUUlBWVNUcVFwNmJoUWprcWVBMTIwYXBFTjR3VFpmSU9ZbThzNkkyeVE?oc=5",
+      "desc": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion finance.biggo.com",
+      "source": "finance.biggo.com",
+      "time": 1788316330.0,
+      "score": 11,
+      "key": "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666",
+      "editorial_value": 16,
+      "topics": [],
+      "tier": "A"
     }
   ],
-  "last_run": "2026-09-02T10:35:54.582053+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T10:40:59.554344+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788345344.5570207,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788345043.9418838,
-    "consecutive_failures": 1
+    "last_start_ts": 1788345648.5054953,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788345648.5054953,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788345354.5816734
+      "updated_at": 1788345658.9288354
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1038,12 +1028,18 @@
       "desc": "Ex-Googler’s Guickly Launches With $4.2M to Evaluate AI’s ROI citybiz",
       "source": "citybiz",
       "region": "WORLD"
+    },
+    "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": {
+      "time": 1788345648,
+      "title": "Business News | Coforge Launches Open-weight AI Launchpad for Enterprise Deployments - LatestLY",
+      "desc": "Business News | Coforge Launches Open-weight AI Launchpad for Enterprise Deployments LatestLY",
+      "source": "LatestLY",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1053,6 +1049,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
