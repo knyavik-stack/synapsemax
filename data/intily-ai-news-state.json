@@ -122,17 +122,10 @@
     "29b128d8ab433a6bb50051b5d36641481333cffe681f0beda5f110779195cb2b": 1788340545,
     "253c0bd5eef47d5120c15d5201cf6165fe62bfea76b8d1a3cb5078cb09c4f6f2": 1788340843,
     "ce82690aab9d1901c2cef982613ff0292a38411f6cda4cc2dc07c2e5d958c561": 1788341143,
-    "4e829e5b7f111640c2a46592a69c3a80d1ec145c8b543fb6b84c387e9579f8ac": 1788341744
+    "4e829e5b7f111640c2a46592a69c3a80d1ec145c8b543fb6b84c387e9579f8ac": 1788341744,
+    "592fabc8febe3a25ae0a86bf8ea9290033656fe15ecc025b0c653d5ae24964cb": 1788342346
   },
   "known": {
-    "11c9bb6cc2cc6fc4ce7b7ba454f2fc9ac6a4b2adc4b4cc3eed371155cc7d20e0": 1788320472.7608676,
-    "734c06b2b287cc735e8b822c063dfe53b732297e1fb7bc86699745d6e5d56a43": 1788320472.7608676,
-    "f23f74b351634ce4d2be3a97d5e459876128a0e57cea18f93b233fa4ccd0661b": 1788320472.7608676,
-    "823199f82cce0e78a91b8f9d4f8926925615149cba6e93bed0fa59cbd1646af3": 1788320472.7608676,
-    "4056eed5de2303adade31fa91c67bcbfff5e46e8700f77bf191a29ede1683b6c": 1788320472.7608676,
-    "4ef0607a406c509e7b50e8ce1dd39b6dc27ac74d7f08b996a1051a80ee1a9ca9": 1788320472.7608676,
-    "cf31ef05a4ead9eee9f57db8c085b56dcbf9afb64f1ce58ba5847ee08dee1f19": 1788320472.7608676,
-    "2c6ee1a6930242ea1867c948b280c3f3b527effd3c01a6b6f858284788099b2a": 1788320472.7608676,
     "fe09ff0b2e39e4999b41c0586b44020e3345c4c55484aa223405a3b4e69b8556": 1788320771.544497,
     "6ecde07c823aaaa62e4deff1058d707b174a760a52be00d23496834c081bc0b9": 1788321070.822305,
     "b6f710603f5f82815fbacd70131650a2bad3bc424d0b901f815077d827e9ee77": 1788321370.708288,
@@ -198,7 +191,8 @@
     "ce82690aab9d1901c2cef982613ff0292a38411f6cda4cc2dc07c2e5d958c561": 1788340245.236414,
     "29b128d8ab433a6bb50051b5d36641481333cffe681f0beda5f110779195cb2b": 1788340545.4863362,
     "253c0bd5eef47d5120c15d5201cf6165fe62bfea76b8d1a3cb5078cb09c4f6f2": 1788340843.9721189,
-    "4e829e5b7f111640c2a46592a69c3a80d1ec145c8b543fb6b84c387e9579f8ac": 1788341443.8111463
+    "4e829e5b7f111640c2a46592a69c3a80d1ec145c8b543fb6b84c387e9579f8ac": 1788341443.8111463,
+    "592fabc8febe3a25ae0a86bf8ea9290033656fe15ecc025b0c653d5ae24964cb": 1788342346.6116998
   },
   "queue": [
     {
@@ -430,20 +424,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T09:40:55.439571+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T09:46:00.240681+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788342047.411019,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788341744.2933776,
-    "consecutive_failures": 1
+    "last_start_ts": 1788342346.6116998,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788342346.6116998,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788341753.650247
+      "updated_at": 1788342359.785458
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1212,11 +1206,17 @@
       "desc": "Anthropic Launches Claude 3.5 Fable 5.1 Pre-$2T IPO: Top All Benchmark Leaderboards, 45% Total Cost Cut, & New Anti-Distillation Mechanism Goes Live eu.36kr.com",
       "source": "eu.36kr.com",
       "region": "WORLD"
+    },
+    "592fabc8febe3a25ae0a86bf8ea9290033656fe15ecc025b0c653d5ae24964cb": {
+      "time": 1788342346,
+      "title": "CrowdStrike And Nvidia Pair Offensive And Defensive AI Models In New Agentic Cybersecurity System - SMBtech",
+      "desc": "CrowdStrike And Nvidia Pair Offensive And Defensive AI Models In New Agentic Cybersecurity System SMBtech",
+      "source": "SMBtech",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1233,6 +1233,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ]
