@@ -211,3 +211,19 @@ A queue value of zero does not mean historical memory was lost. Published and st
 - Added title-bigram event matching to catch the same model/product launch reported with different wording.
 - Added targeted Russian-source discovery queries to improve the availability of fresh Russia candidates while preserving the editorial quality gates.
 - The 60/40 ratio remains a target, not fabricated content: when fewer qualifying Russian stories exist in the active 6-hour window, the system publishes fewer rather than filling the quota with irrelevant material.
+
+
+---
+
+## Current canonical status — 2026-09-02 11:25 UTC
+
+The canonical current status is docs/PROJECT_STATUS_2026-09-02.md. Earlier sections above preserve historical recovery evidence and may contain superseded values such as 12-hour freshness, 5-minute cadence or 80/20 regional mix. Current production policy is:
+
+- discovery freshness: **6 hours**;
+- Cloudflare cadence: **every 6 minutes** (*/6 * * * *);
+- regional target: **60% WORLD / 40% RUSSIA**;
+- target queue: **24**; hard cap **30**;
+- MIN_SCORE=9; MAX_PUBLISH=1;
+- story memory: **24 hours**; known-item memory: **6 hours**.
+
+Cloudflare cleanup completed: duplicate Worker intily-news-trigger was deleted after verification that it had no schedules and no routes. The canonical Worker is intily-ai-news.
