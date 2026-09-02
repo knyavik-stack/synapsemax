@@ -52,7 +52,8 @@
     "631c5067dd2a0ddf2af565a47599ddfd43efd160218c21c2426eccab26293dc9": 1788313873,
     "ff2fe429afad09dee160ea2b583f7fd4ed8d4c26c4044a195a7609acf86e8a45": 1788314168,
     "84e3486b73b03f9bcbc5de15e371fb46d687520d74e7cbb17fe7bd3579464ee3": 1788314477,
-    "80f206773c2b0116d13f9e1d092d8181a0ded41fe580dc911dd8f0581bd125f8": 1788314770
+    "80f206773c2b0116d13f9e1d092d8181a0ded41fe580dc911dd8f0581bd125f8": 1788314770,
+    "d4bab423eb6f59928589f79c0454dcde5b3633f1a3a005f16574ccc450d94c00": 1788315069
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -294,7 +295,9 @@
     "ff2fe429afad09dee160ea2b583f7fd4ed8d4c26c4044a195a7609acf86e8a45": 1788313873.4835567,
     "c18a111d6f4e1e0e8fb790705cf0deecf998b3ede1dbf8e2c72ba0c2b11fb2f5": 1788314168.8178632,
     "dbe27f0ea9e76f1c9aa00b912ea0b46498dbb7da911a0cc7be22fc63e34bc0b9": 1788314770.1234634,
-    "67a772de5472128417002044c192078872bf861d005d98947d2d3f234a2951da": 1788314770.1234634
+    "67a772de5472128417002044c192078872bf861d005d98947d2d3f234a2951da": 1788314770.1234634,
+    "11ecfb5e6c149a489a2aa438ac41f43fb82d44a56c06423f5fc0345cb5b7cf8b": 1788315069.4332478,
+    "14640c44dc73ed4a6fffa1cc3c47ce00466ede17f79ea4817200fd58a5c093ac": 1788315069.4332478
   },
   "queue": [
     {
@@ -311,17 +314,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 5,
       "next_retry_at": 1788317770
-    },
-    {
-      "region": "WORLD",
-      "title": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape - ebglaw.com",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRjZuaU9aTk5pbDgxYkNIaFI5ZHdDbnlSZDEyX3hpVklrVDFwV0hLcEE4cjh2ZjFVUUY4RXZtVDN3eHd6YUN1aEQ3SXJhMWtlTzIwdUdsUnpWWksxOTlBNU4wY0dvbTJlQjlTeUtCS3JkX3VFMjJPYzZlR18tV3NUWHRkQl8xUDN3NnJVMzlPeExpdVppRWIyUHJOR2hGa0YteFA2OVJFMGl5dnYzaGhrZm84ZUJ3U3JPZWhqOHNrTWsyMC1GeS02RWlrYnU?oc=5",
-      "desc": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape ebglaw.com",
-      "source": "ebglaw.com",
-      "time": 1788296060.0,
-      "score": 10,
-      "key": "d4bab423eb6f59928589f79c0454dcde5b3633f1a3a005f16574ccc450d94c00",
-      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -1369,6 +1361,17 @@
       "tier": "B"
     },
     {
+      "region": "RUSSIA",
+      "title": "Ученые создали цифровой «паспорт» для микропластика в Арктике — нейросети теперь отличают полиэтилен от полипропилена с точностью 96% - RuNews24",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQRzFNQ0l2VjRXMTh3b1NsQ1p6REJQSWRfaG81d1lJZ2tKUzJTMGZXQk9lT2tqZkRFdng3RWtSdWU5bTA5Z1hXTXkyUDBBeDNCbFBETFFqdDB3QUNieEkzSkRUNG13VEdxbERaM0I1c0NlLVEwSTlCdjVRck1sWXdrbzRNMkVBcHZiZk9iUmpaQUlpN1ZYTHFnWl94YTRpRHlpWm5qMzRnaDExUXJ3Mk5XNWpkcmNublBPN2F5RVBva0UtSS1mOGFYRlBFWXN3eS1qVEtwSkxJN2cxUXNicFdxZmladmhCZ1Z3S3AtX3ZTX1FNUmQxUHFxUnB2TzhmTndtX0tN?oc=5",
+      "desc": "Ученые создали цифровой «паспорт» для микропластика в Арктике — нейросети теперь отличают полиэтилен от полипропилена с точностью 96% RuNews24",
+      "source": "RuNews24",
+      "time": 1788310628.0,
+      "score": 6,
+      "key": "11ecfb5e6c149a489a2aa438ac41f43fb82d44a56c06423f5fc0345cb5b7cf8b",
+      "tier": "B"
+    },
+    {
       "region": "WORLD",
       "title": "Europe’s Next Tech Target: Child Safety - Center for European Policy Analysis (CEPA)",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoNjJTLVhFbW1XeU9xbWRJM1BlekwtZFRWLWI2YTRORFFNenlPWkhlTjRaODdTeFQ0clpWTVNwbFk5eXY2N0NueUtsZHhLVWdoNk9zWFlGQ3VIeF9ZVjhfZVpDTHBVZ0Y0WkR3RmQ1bEU?oc=5",
@@ -1381,6 +1384,17 @@
     },
     {
       "region": "WORLD",
+      "title": "Wafer turns down acquisition offers from multiple cloud providers after raising $40M at 50x valuation jump - cryptobriefing.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ua1Rqb1M2ckNXSGlLeFdxVUVmekRaWFQ5Y3V4ZjFnU0s5LUlhY3FJRlo3bExhWXpaOXFTRldmWHBONGR5VWNVV0FFOGQwXzA3NGVGQS16WGx0aS1NUktQSFFESnh0cEhRUzB2Smx6RnNKekJuelpB?oc=5",
+      "desc": "Wafer turns down acquisition offers from multiple cloud providers after raising $40M at 50x valuation jump cryptobriefing.com",
+      "source": "cryptobriefing.com",
+      "time": 1788291517.0,
+      "score": 5,
+      "key": "14640c44dc73ed4a6fffa1cc3c47ce00466ede17f79ea4817200fd58a5c093ac",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "Public Storage stock gains on PS Canada acquisition and valuation call - AD HOC NEWS",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR3ZldWdsZXAyUThpN21XR185N0pwNVRCMXJOVFpYUkRrb2puV3AxTmd5TEMtYUk2Y1Z5WHNWbTlXcmVSbVp1R09EbzFyOUhjNFk5OGJ2TnhJTGlhWXVSejVCQXhYRUtGNmFpQkptVlB2a1lZSG5DeGcwWjlva1BZc3RhQnd6Z0VHOXRBb2ptRTlCbFVrZ1RpVXJCbkVnQ3hDeS1ZWjEtdURILWQzdVVOcldwNUZ1amZ2ZG1ZMXZtSEtpUzBDRV9JSGNINmZpZw?oc=5",
       "desc": "Public Storage stock gains on PS Canada acquisition and valuation call AD HOC NEWS",
@@ -1389,33 +1403,22 @@
       "score": 5,
       "key": "cf22cae7dc7805a03025327ef6eb87daf25cb4232ca420933bcc0f9bd55702ea",
       "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "Amazon stock falls on FTC lawsuit but analysts bullish despite near-term pressure - Invezz",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbEVYYjBhc3NYXzJHRE9waHJmWFFsU3l4YS1MMi04elpmSVBZT2xIWXlLc3hwTkkweHU4XzdOcTF4ckVYazhjRHBKeEU3ajFHXzdqU1RxTHYwbWVVcUl4X2VNYVJkTzJTZndRTXdoSDdfRkFKYVU1dmptWkRYTW5oNEhHZ211SFlrNnJiNU1VS2RuZW1NZ0dBSkdxRGtQTkhRMUpoVm1jd1lodXI1MGpXeHJENE42aGEzaWMxQQ?oc=5",
-      "desc": "Amazon stock falls on FTC lawsuit but analysts bullish despite near-term pressure Invezz",
-      "source": "Invezz",
-      "time": 1788271249.0,
-      "score": 5,
-      "key": "bcf84b9edc60b17dcc0f8189c070323bfcd12be0f5ea215fdb3fab4826e0eb26",
-      "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T02:06:22.062948+00:00",
+  "last_run": "2026-09-02T02:11:32.284904+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788314770.1234634,
+    "last_start_ts": 1788315069.4332478,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788314770.1234634,
+    "last_success_ts": 1788315069.4332478,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788314781.7209685
+      "updated_at": 1788315091.8619435
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1693,6 +1696,13 @@
       "title": "Federal judge pauses mifepristone lawsuit amid FDA safety review - WSET",
       "desc": "Federal judge pauses mifepristone lawsuit amid FDA safety review WSET",
       "source": "WSET",
+      "region": "WORLD"
+    },
+    "d4bab423eb6f59928589f79c0454dcde5b3633f1a3a005f16574ccc450d94c00": {
+      "time": 1788315069,
+      "title": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape - ebglaw.com",
+      "desc": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape ebglaw.com",
+      "source": "ebglaw.com",
       "region": "WORLD"
     }
   }
