@@ -378,7 +378,11 @@
       "time": 1788295800.0,
       "score": 9,
       "key": "6bd6b643750a1d4ae0c85567ca98e3b579c5d020bc0f64d89eb495bffbec4283",
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788321677,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788321977
     },
     {
       "region": "WORLD",
@@ -389,7 +393,11 @@
       "time": 1788295050.0,
       "score": 9,
       "key": "8914f146bf6ca44750f78bde160aeda78a8d5ebff83327881e182b07cdcf9ba9",
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788321677,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788321977
     },
     {
       "region": "WORLD",
@@ -400,7 +408,11 @@
       "time": 1788294621.0,
       "score": 9,
       "key": "98987aea98644c85b2bbc0778d46d7f6e003c5b352e529647d6bb149cfe30c64",
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788321677,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788321977
     },
     {
       "region": "WORLD",
@@ -411,7 +423,11 @@
       "time": 1788293115.0,
       "score": 9,
       "key": "823199f82cce0e78a91b8f9d4f8926925615149cba6e93bed0fa59cbd1646af3",
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788321677,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788321977
     },
     {
       "region": "WORLD",
@@ -422,7 +438,11 @@
       "time": 1788291021.0,
       "score": 9,
       "key": "0bc9ffb76d6bffe75d2662b1d36653ee91562ea4040ad7b3887878a9bd58a320",
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788321677,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788321977
     },
     {
       "region": "WORLD",
@@ -1459,20 +1479,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T03:56:25.213836+00:00",
-  "last_published": 1,
+  "last_run": "2026-09-02T04:02:12.145534+00:00",
+  "last_published": 0,
   "health": {
-    "last_start_ts": 1788321370.708288,
-    "last_status": "OK",
-    "last_error": "",
+    "last_start_ts": 1788321677.8027322,
+    "last_status": "FAILED_NO_PUBLISH",
+    "last_error": "candidates exist but Telegram received zero posts",
     "last_success_ts": 1788321370.708288,
-    "consecutive_failures": 0
+    "consecutive_failures": 1
   },
   "providers": {
     "GEMINI": {
-      "disabled_until": 0,
-      "reason": "",
-      "updated_at": 1788321384.6825078
+      "disabled_until": 1788321852.1450827,
+      "reason": "TEMPORARY_SERVICE_ERROR",
+      "updated_at": 1788321732.1450849
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
