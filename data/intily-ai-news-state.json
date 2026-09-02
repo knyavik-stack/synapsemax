@@ -69,7 +69,8 @@
     "a4cb071ee10ac0f29f062727482ea9db5cff4cb2c8d18fe2efecb06a2b6c5d27": 1788319271,
     "22bfdbf5e0cbf644f9a9f8e2a1b897f9f3d678f33ee85a90304cbf613518c8a1": 1788319568,
     "ebb0f8143794f0ee3fb3cb8172c5f4926b42b0331a5ad958e21f99a30743f2ba": 1788319871,
-    "16360690727017dd2d2e2c034a7170093fc46d591dd1675ddf1e6ae306694efa": 1788320167
+    "16360690727017dd2d2e2c034a7170093fc46d591dd1675ddf1e6ae306694efa": 1788320167,
+    "11c9bb6cc2cc6fc4ce7b7ba454f2fc9ac6a4b2adc4b4cc3eed371155cc7d20e0": 1788320472
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -336,7 +337,15 @@
     "7991e8d25edc76514c769308b889791453422ce23343ce9c76a4fc3b0e7c7271": 1788319568.6677265,
     "eae2c7fd41fc3d3ba1a607409e6e8752e12737aa38e8c6e1bcc15b961d323fa5": 1788319568.6677265,
     "a4d4474a2df56fc5ecfa58bc6efdc9d6e2652d01db00a1b00fc7c743d416d3f5": 1788319568.6677265,
-    "589030594f9e4a2da5e2016e74585b132c345db06f5391d58591f0081815a214": 1788319871.716403
+    "589030594f9e4a2da5e2016e74585b132c345db06f5391d58591f0081815a214": 1788319871.716403,
+    "11c9bb6cc2cc6fc4ce7b7ba454f2fc9ac6a4b2adc4b4cc3eed371155cc7d20e0": 1788320472.7608676,
+    "734c06b2b287cc735e8b822c063dfe53b732297e1fb7bc86699745d6e5d56a43": 1788320472.7608676,
+    "f23f74b351634ce4d2be3a97d5e459876128a0e57cea18f93b233fa4ccd0661b": 1788320472.7608676,
+    "823199f82cce0e78a91b8f9d4f8926925615149cba6e93bed0fa59cbd1646af3": 1788320472.7608676,
+    "4056eed5de2303adade31fa91c67bcbfff5e46e8700f77bf191a29ede1683b6c": 1788320472.7608676,
+    "4ef0607a406c509e7b50e8ce1dd39b6dc27ac74d7f08b996a1051a80ee1a9ca9": 1788320472.7608676,
+    "cf31ef05a4ead9eee9f57db8c085b56dcbf9afb64f1ce58ba5847ee08dee1f19": 1788320472.7608676,
+    "2c6ee1a6930242ea1867c948b280c3f3b527effd3c01a6b6f858284788099b2a": 1788320472.7608676
   },
   "queue": [
     {
@@ -353,6 +362,28 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 6,
       "next_retry_at": 1788327370
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic: Attackers Using Infostealers to Hijack Claude Sessions - Security Boulevard",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOXzV4Ykl5MkYyY0ZnWGJzOGJGNHRtVlJ1b0NQRVZLc0pMVGVrY01obWc1cGtGODZ1VFh5dEVERmpnUjRuQ0ZLOFFsT2hlVldncTdVaFpBUWFqVThWNmRONlhmNENYU3Z2cllSVjZWU3g1UkFyTHhtVEZ3VW04WHlWSUgxQllKeXUtZjVIRE0zdjBIODJZM2F6WFlTYkhIanNTSjFuY0dR?oc=5",
+      "desc": "Anthropic: Attackers Using Infostealers to Hijack Claude Sessions Security Boulevard",
+      "source": "Security Boulevard",
+      "time": 1788319350.0,
+      "score": 11,
+      "key": "734c06b2b287cc735e8b822c063dfe53b732297e1fb7bc86699745d6e5d56a43",
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia’s $3.5B Investment in MediaTek Signals AI Chip Strategy - RS Web Solutions",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTHNCM3NqbHBYQWswTHA1T1ZwcU9hY1ZvNEkxcGdwX2hsamxTSHIzWlI5c2R6czVGTEZUZmI5dnp6ZXhWcmNveTAzbGdfMzlFN3gyVlJnTDFjVWZXRzFmV2syekNPdWVCcHpxZE1DQUwwdTVTcTFSdGxZOHh3WlZGcjFUVzl0RjA1OV96LTNXNC1FUTNQWml2TDlMT1VDNEJ3bDllNUc2TmdCZXVud1JjYU03bjJTSThyOG5JNmtsc3l3RzdqM1BnbTJteGJkTVk?oc=5",
+      "desc": "Nvidia’s $3.5B Investment in MediaTek Signals AI Chip Strategy RS Web Solutions",
+      "source": "RS Web Solutions",
+      "time": 1788260400.0,
+      "score": 11,
+      "key": "f23f74b351634ce4d2be3a97d5e459876128a0e57cea18f93b233fa4ccd0661b",
+      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -396,6 +427,17 @@
       "time": 1788294621.0,
       "score": 9,
       "key": "98987aea98644c85b2bbc0778d46d7f6e003c5b352e529647d6bb149cfe30c64",
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "PayPal's Agent Authorization Model Explained - startuphub.ai",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdmNOemJPQjJXNktBeW5jV1lUT0ZvTlBfdTRMdDc1VWJoMDVyMUg5bkJiRjRoTHhwanZDRzdmaUdrVGM2XzdxeTE3WjhxaDlLbGNKM1NfUHFPSjZ1V0JjMjdLWDAtUE9scC03SWplU2cxMG9aaHU1bmxhVXZJS2pZNFRTaW56VkR5X2JZS2VNc3NPcHdGSVFoZk5mUjA0OXFnazFEVF9hVGVfbW8?oc=5",
+      "desc": "PayPal's Agent Authorization Model Explained startuphub.ai",
+      "source": "startuphub.ai",
+      "time": 1788293115.0,
+      "score": 9,
+      "key": "823199f82cce0e78a91b8f9d4f8926925615149cba6e93bed0fa59cbd1646af3",
       "tier": "A"
     },
     {
@@ -1126,6 +1168,17 @@
     },
     {
       "region": "WORLD",
+      "title": "US urges G20 to adopt lighter AI regulation as tech leaders warn against restrictions - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNDRtMzdHMV9FcEo2TUlxYVo3Wi1MMzBBX3V0OTI4amxwVE11RXRueHZOVGs3TFdENDliTVVCMm05Rm0zRHB0T0lrdUdYdTc4RTZOSnhnMVh3Q0NRQVhHN0g4ZXFNVW1uNG4wSzdDVUVNVzJ3MTJHSDVQcWt0TzdPX3lUSWZfYkd6bEZaM0J5d0dHUkV3TGVhOFhSUW9scVZ4NHZ4Vnd5bUhLQTl0ckVFOTNPTGdKMnJ3eGIyVlQ5QdIBxgFBVV95cUxOdXlkZWJoNmZrQWttT19CWEw1VEtHWjVNMTNtNk50MGVxLWhuNC1fUkU3YjVtN1RmMzlLNGZLdXJKTkptQ2lWQ0JJQkxnN01Nb3JSOUVQSmdqUmEyS0xJQUlzSzE2VlE1VUxXUVlOQXdhbFJzbU90ck5XTW1PLWJHa05DS3JaWU9ON3dONXJJNWY0bzBuU1ZCLVM5NnVPRVkyRGFMX3JVX1FTcW1fRV85TFRxS2pPUG0tQ1llZGFnd29lc19DWnc?oc=5",
+      "desc": "US urges G20 to adopt lighter AI regulation as tech leaders warn against restrictions The Indian Express",
+      "source": "The Indian Express",
+      "time": 1788318175.0,
+      "score": 7,
+      "key": "4056eed5de2303adade31fa91c67bcbfff5e46e8700f77bf191a29ede1683b6c",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion - finance.biggo.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tNVYzckRLa3FlSER0bFZzX1d1dWhPd0UtbENGbnczeGZmUlV5eXFsMVVnS3hEbUluSWtpaWU2MXhLN1AySFVza0xxdEJhUUlBWVNUcVFwNmJoUWprcWVBMTIwYXBFTjR3VFpmSU9ZbThzNkkyeVE?oc=5",
       "desc": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion finance.biggo.com",
@@ -1313,6 +1366,17 @@
     },
     {
       "region": "WORLD",
+      "title": "NVIDIA Moves Deeper Into Broadcom Territory — Without Building The Chip - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTkFtSHlqZmdpR1liNXljbUE0X1BNWkVabldJRkpDNnRwamdHUUQ5cmNqdVB5V0RIbnRNcnBUVGRaZm1pTERwY21kZk8tX3ZQNEZXcjgweE9DRFZtenJfYlhEa3B6NldUeFhxc1BMRWdrckJlWVBicTFZYnR1UTNGVmFhTTBWdkZvZkRfX0RtM2hvMFdWTGkwR0lNUTRXbHczSl9lQzdLMHk5ZTZZejdjbmk0OGtMWTU3RkZINVdvdmtia3dvQUhj?oc=5",
+      "desc": "NVIDIA Moves Deeper Into Broadcom Territory — Without Building The Chip TradingView",
+      "source": "TradingView",
+      "time": 1788255989.0,
+      "score": 7,
+      "key": "4ef0607a406c509e7b50e8ce1dd39b6dc27ac74d7f08b996a1051a80ee1a9ca9",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "OpenAI and Anthropic are risky for different reasons than their Chinese AI rivals - businessinsider.com",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSVFEVDlhME54Y0gyazllcTUyS3h5eENWVkplSWxaTFJjRFJzWUFzcnZtcXpoNm9OU3RETE81bEQ3Q2VWNkY2RHFraXVPZGtSRmdsUHVkaE53U0pYckw2aEdZaGNCMzhVV01XMGxVb2NMbWR3WkN6NmcwQmtvTzkzM1V4U0w3c0J2dndhOGRjRl9KWGp1UmJaWlhsVUk?oc=5",
       "desc": "OpenAI and Anthropic are risky for different reasons than their Chinese AI rivals businessinsider.com",
@@ -1331,6 +1395,17 @@
       "time": 1788253239.0,
       "score": 7,
       "key": "3cf38ec41bac08e7b9429561552b1c25c59ad53bfd3421a75a3d8d4278c97f92",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
+      "title": "MediaTek Expands Partnership with Nvidia for Custom AI Chips - Intellectia AI",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTUNKMmI3VWJCUlVlU3V0MjZQNWJWN2w2NzJ6aUVzaGFUWXJWWjZHU1l5bXc1Wmotb1dqb0tpZVFrUmJaOVM3bWwwX2hodllaVUdSRHJLWE5tYllhaGNEamRnTEZ1aHkyUEsyX3hGdlhBRVdMT0p1cVU5a1NjeTUwMGJzSWhxSUFsVGNMLTVFdUJHRWF6Wnlzb193?oc=5",
+      "desc": "MediaTek Expands Partnership with Nvidia for Custom AI Chips Intellectia AI",
+      "source": "Intellectia AI",
+      "time": 1788252714.0,
+      "score": 7,
+      "key": "cf31ef05a4ead9eee9f57db8c085b56dcbf9afb64f1ce58ba5847ee08dee1f19",
       "tier": "B"
     },
     {
@@ -1376,77 +1451,22 @@
       "score": 6,
       "key": "11ecfb5e6c149a489a2aa438ac41f43fb82d44a56c06423f5fc0345cb5b7cf8b",
       "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI's Astra Hits Critical Cyber Threshold, Finds Zero-Days Alone - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbjkybXFaa2VUYm1faGpwX1NESkFXQWEwMThjcWlhdDM3cVduaU9WUmw0cmZieFdVZTIwRm5iZktsbEhNWGNMV0NxVnFSSW5mbV9PZWk5WXgyZFI0YWtyQjBpNGdzaEI1WTZ0WGhIbjgwYnlsSHBuTXRoR010MHl1SG15c25VUVZs?oc=5",
-      "desc": "OpenAI's Astra Hits Critical Cyber Threshold, Finds Zero-Days Alone Pasquale Pillitteri",
-      "source": "Pasquale Pillitteri",
-      "time": 1788309565.0,
-      "score": 6,
-      "key": "3420278313fb04dfc70ebeb56efe6f4cda06878c1308bb490aa6dda87e6ac925",
-      "tier": "B"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Закон о продлении «гаражной амнистии» вступил в силу - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ0NSRnJpNExRbk1Na0dES0Rpc1M0TzEwTFVzS1JoM0ZMS05Rc3pSY29aQW15Z0xUQ2l6RDhBN0Q4dzVNSU5ZeFp4NUU2cWk5bFJhMTlwbE1LaG1qVE01enpPNl96Mld3T0xTZ1JOeURGUy1PdzN1cThzUU5TSngzOXJ2ZW5OdnBMQVRWQk9STDdqUFZwTGlF?oc=5",
-      "desc": "Закон о продлении «гаражной амнистии» вступил в силу prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788277434.0,
-      "score": 6,
-      "key": "34bc6d5b8374bf60d6d94cbc50d52d5873d54b556434b3d940e9d7cbeef0bbf0",
-      "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "IBM's Balancing Act: Quantum Breakthroughs, AI Momentum, and a Cloud of Skepticism - ad-hoc-news.de",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcTdIdkFwd1RyWV9ua0lGTHpRcmRncEFIR3lMM01ZTG1BbERHbzFZNEdMem1remVOeGlJenhELXpXVy1MWEpHNzdqMWdIM1BTdkpONkNjYkZHSXlwdXVJNmx0YUxFSmw3S0ZmNk4tRVVVMWhZN21PcWJmWmhMZTRwcWlIVHJEVTlCSmc1TlFRN2ZRU3pZQjhtOUhoMTlocUZweXBzSVFQZzgyLUhkQW56RlREaUNWeTIyMXVDSEl3cHZmbE1sSWFqWGg2Q2p1Q0gtY0hyVDdOcw?oc=5",
-      "desc": "IBM's Balancing Act: Quantum Breakthroughs, AI Momentum, and a Cloud of Skepticism ad-hoc-news.de",
-      "source": "ad-hoc-news.de",
-      "time": 1788258735.0,
-      "score": 6,
-      "key": "b658a4d2f1746ee20b03d8ecf912906d7aa82c1e1a326f9d1ded73939a20f735",
-      "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "Hackers Steal Claude Login Sessions With Infostealer Malware to Hijack Accounts - cybersecuritynews.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNU05CX2xvNnNRZElrTTFIMWRPRUxrOW8tb3V5SUhQcFRJeGVyUW9rUktVWlJZcmEzZzZoVlhPeXVPS0N6YWFnZUtNUVd4QXQ5NmRSYUZoWm5CMXJHaFhNV1dDQmdUVU4xZEJvYXpRR1BIckRP0gF6QVVfeXFMTWRVLWNVdkpTN3pmWnpVNTU0c3NsQndhblA1clVlN19VclJTZjBVczFRcDFuODZRaXNXbzBoS1JlZmVsZUFmR0lsRy1GTUNVRndnSnR0cENLMi1CYjgxRHNoM0xkX1BoTldJelBHdl9WNnV0dWYwZmY4dGc?oc=5",
-      "desc": "Hackers Steal Claude Login Sessions With Infostealer Malware to Hijack Accounts cybersecuritynews.com",
-      "source": "cybersecuritynews.com",
-      "time": 1788309449.0,
-      "score": 5,
-      "key": "43b7500edd0d8542a9677eda47d371de3c58e2d2cec54653d49d4ea4dbaccc4a",
-      "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "Europe’s Next Tech Target: Child Safety - Center for European Policy Analysis (CEPA)",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoNjJTLVhFbW1XeU9xbWRJM1BlekwtZFRWLWI2YTRORFFNenlPWkhlTjRaODdTeFQ0clpWTVNwbFk5eXY2N0NueUtsZHhLVWdoNk9zWFlGQ3VIeF9ZVjhfZVpDTHBVZ0Y0WkR3RmQ1bEU?oc=5",
-      "desc": "Europe’s Next Tech Target: Child Safety Center for European Policy Analysis (CEPA)",
-      "source": "Center for European Policy Analysis (CEPA)",
-      "time": 1788297797.0,
-      "score": 5,
-      "key": "c18a111d6f4e1e0e8fb790705cf0deecf998b3ede1dbf8e2c72ba0c2b11fb2f5",
-      "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T03:36:21.933498+00:00",
+  "last_run": "2026-09-02T03:41:28.712612+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788320167.8233173,
+    "last_start_ts": 1788320472.7608676,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788320167.8233173,
+    "last_success_ts": 1788320472.7608676,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788320181.5891304
+      "updated_at": 1788320488.1541595
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1843,6 +1863,13 @@
       "title": "Free AI Courses From OpenAI and Google, What They Are and How to Enroll in 2026 - Pasquale Pillitteri",
       "desc": "Free AI Courses From OpenAI and Google, What They Are and How to Enroll in 2026 Pasquale Pillitteri",
       "source": "Pasquale Pillitteri",
+      "region": "WORLD"
+    },
+    "11c9bb6cc2cc6fc4ce7b7ba454f2fc9ac6a4b2adc4b4cc3eed371155cc7d20e0": {
+      "time": 1788320472,
+      "title": "Nvidia Stock Gains After $3.5B MediaTek Investment – Jensen Huang Says Company Is ‘Not Intimidated’ By Custom AI Chips - Stocktwits",
+      "desc": "Nvidia Stock Gains After $3.5B MediaTek Investment – Jensen Huang Says Company Is ‘Not Intimidated’ By Custom AI Chips Stocktwits",
+      "source": "Stocktwits",
       "region": "WORLD"
     }
   }
