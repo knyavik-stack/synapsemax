@@ -33,7 +33,8 @@
     "8cda4e22a9412f74737dc0ac053068f811ad7b5572962d6a7152055414e4f740": 1788306967,
     "40fd01d611cf2d44bafa3aeccddaf50f408bde420336432ea5cb2bf4c327afbc": 1788307570,
     "4031bff6f48861fdb82aaa227c6d196da37eaf7e3bddf159e5d964296eae31c2": 1788307872,
-    "9879a81cc39d8c7db3a0dd89ffe71d4e0d9fc96b7edad574754c5761a4a8da68": 1788308468
+    "9879a81cc39d8c7db3a0dd89ffe71d4e0d9fc96b7edad574754c5761a4a8da68": 1788308468,
+    "922ef783cfc9b8e4ffdd7be3dd7a2e4569289dc523117118c0a748569c23e9e2": 1788309072
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -232,7 +233,16 @@
     "2427cf5c6c51443395b2211108143396699e931f20564a0be9e886c320e83b4a": 1788308468.220754,
     "e0fa224afeeb0616b1b3c78f43a996d337e0f88c44487432931cf9fb64b18326": 1788308468.220754,
     "d9b7202ea58ba3958b9d92506c7c603b1831ff58ef303a52709ccc36d72ea52a": 1788308770.0608478,
-    "a1189e16177c604e8daea3b31f55c9d6f8aba1afae885f96c4d486cfbac652e2": 1788308770.0608478
+    "a1189e16177c604e8daea3b31f55c9d6f8aba1afae885f96c4d486cfbac652e2": 1788308770.0608478,
+    "922ef783cfc9b8e4ffdd7be3dd7a2e4569289dc523117118c0a748569c23e9e2": 1788309072.7544997,
+    "d4bab423eb6f59928589f79c0454dcde5b3633f1a3a005f16574ccc450d94c00": 1788309072.7544997,
+    "190bc404be3a536074c0b3e8bc75fc398266de58c931fc03e3c136d1eaa89153": 1788309072.7544997,
+    "d76dc7786090643d9a4a82d3acd5a8109d80cce9f7f6dbfba685e77d3485f0fc": 1788309072.7544997,
+    "93c34ee6715773a92c57f0f6d3c9f5c5a955f87a009beed3683042c23adac9f4": 1788309072.7544997,
+    "7ba35da55a70ac0e7a508d1a4c5fefea1f87d6af60ac35160d28c4734a651802": 1788309072.7544997,
+    "f0e45ab403543623c08a200ae870dc846cb3f63ae5615cca11824892d990e9a2": 1788309072.7544997,
+    "70d2d7f98be4ae90f74ed06c5d15a06cdf29e7faa12c3511531c61b5021e44a2": 1788309072.7544997,
+    "775f6b6fbce22d72b055aa2bae3ddde29a57d1f4a6ecf4ec2ac69831757ad212": 1788309072.7544997
   },
   "queue": [
     {
@@ -275,10 +285,10 @@
       "score": 13,
       "key": "baab21cb3c108e1d1d1a8497e37e63d5ea9537ba03fe94a42028932dcf30c4cb",
       "tier": "A",
-      "last_failed_at": 1788308173,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788308773
+      "last_failed_at": 1788309072,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 3,
+      "next_retry_at": 1788310272
     },
     {
       "region": "WORLD",
@@ -419,6 +429,17 @@
       "time": 1788296977.0,
       "score": 10,
       "key": "80f206773c2b0116d13f9e1d092d8181a0ded41fe580dc911dd8f0581bd125f8",
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape - ebglaw.com",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRjZuaU9aTk5pbDgxYkNIaFI5ZHdDbnlSZDEyX3hpVklrVDFwV0hLcEE4cjh2ZjFVUUY4RXZtVDN3eHd6YUN1aEQ3SXJhMWtlTzIwdUdsUnpWWksxOTlBNU4wY0dvbTJlQjlTeUtCS3JkX3VFMjJPYzZlR18tV3NUWHRkQl8xUDN3NnJVMzlPeExpdVppRWIyUHJOR2hGa0YteFA2OVJFMGl5dnYzaGhrZm84ZUJ3U3JPZWhqOHNrTWsyMC1GeS02RWlrYnU?oc=5",
+      "desc": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape ebglaw.com",
+      "source": "ebglaw.com",
+      "time": 1788296060.0,
+      "score": 10,
+      "key": "d4bab423eb6f59928589f79c0454dcde5b3633f1a3a005f16574ccc450d94c00",
       "tier": "A"
     },
     {
@@ -661,6 +682,17 @@
       "time": 1788283140.0,
       "score": 9,
       "key": "7d24ed3ae773c9f68a9629be92e41404eeb0db1c8c2f6802d107aca175830446",
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI agents’ escape: How humans lost control - American Journal of Transportation",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3h1bHRVdzlHZW4yWWRlRGd1dnk5OWNxN1RscjZDN094X0R2M3JhTlhVcmtEcW9TRWp3RzRqN2pfcF84MDlKWDlkeVI5TmhIY2ZjMXotVFhaQmcxMVJ4bmlIaVZnOFB0ZWVzRExqMkhDeHgtSWRQTW9pQXNCMGFkVkFpTXVDR2pRVmc?oc=5",
+      "desc": "OpenAI agents’ escape: How humans lost control American Journal of Transportation",
+      "source": "American Journal of Transportation",
+      "time": 1788280620.0,
+      "score": 9,
+      "key": "190bc404be3a536074c0b3e8bc75fc398266de58c931fc03e3c136d1eaa89153",
       "tier": "A"
     },
     {
@@ -940,6 +972,17 @@
     },
     {
       "region": "WORLD",
+      "title": "OpenAI's AI Hack, AMD's Anthropic Bet & Apple's Next Macs | Bloomberg Tech 7/22/2026 Wigan Today (ztueWvf5OI) - Mshale",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBZzNrWHFLdkRhMHoteFNKQ2w1bjFLYWUtYVZiLWtHbDZHVUFTT250ZjdMSjJEd1I0NExCaGF6STM5dm5iTm1IVXVSXzNXRGd0OFBFWmJpOFlkLXBid1RKVw?oc=5",
+      "desc": "OpenAI's AI Hack, AMD's Anthropic Bet & Apple's Next Macs | Bloomberg Tech 7/22/2026 Wigan Today (ztueWvf5OI) Mshale",
+      "source": "Mshale",
+      "time": 1788274107.0,
+      "score": 8,
+      "key": "d76dc7786090643d9a4a82d3acd5a8109d80cce9f7f6dbfba685e77d3485f0fc",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "Nvidia Just Invested $3.5B in a Major Qualcomm Rival's AI Chips. Here's What Traders Need to Know. - Barchart.com",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQnRmenBtYzJxNkRCRTlqc2tZTXRLNDM2dTAtMUFxT1M1YlRFUEdETHBqVmRHUlRfZ01jbTJpeGVQRFF0UzBBVDJkSC1USmc2eUtQckJ0M1llQ3RRa2lIbGVNNUpKazFFZHcybzJKdnVKNS1tYmpEaGVzc0xzdWRucHhpQjlyMVJxYXRWTkRGRlc2dUJSenk4Uzd0a2hUU1NCSnMtUFBzYTZWazFjUnJTaFJIc0dzVnJOblhzTTBxdERuMmp5YTgxcU0xNVJIQ3ZMNU02anBR?oc=5",
       "desc": "Nvidia Just Invested $3.5B in a Major Qualcomm Rival's AI Chips. Here's What Traders Need to Know. Barchart.com",
@@ -969,6 +1012,17 @@
       "time": 1788264063.0,
       "score": 8,
       "key": "18a93ee53343cdb3d55980a21b56b532e4a3d045dfaa0beca41733544ed6ad0c",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
+      "title": "OneRail launches AI platform OmniSTAR with Nvidia to overhaul last-mile delivery for retailers - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iU3NIdlQxQXoyMzl4blYzc0VvdFRkNGt5Q0xNcExuekFVYldqeTNLalBqY1phT0hBMVpKMU00d3YzQnYtTVpNRmVpWjN6d21RRjNqd1U5UXBkaS1xMWlOZGE5b2I5RXBxa1UyVUVfVWo?oc=5",
+      "desc": "OneRail launches AI platform OmniSTAR with Nvidia to overhaul last-mile delivery for retailers Crypto Briefing",
+      "source": "Crypto Briefing",
+      "time": 1788261002.0,
+      "score": 8,
+      "key": "93c34ee6715773a92c57f0f6d3c9f5c5a955f87a009beed3683042c23adac9f4",
       "tier": "B"
     },
     {
@@ -1171,6 +1225,17 @@
     },
     {
       "region": "WORLD",
+      "title": "Ilya Sutskever Warns Neoclouds Lack Security to Stop a Rogue AI Takeover - Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbE03UmJUM19OMmxEZlM4dW4yUlFSbV9uOHRNa1BCTklTMmlJYndJYUYwZk1xUjJaMEpXdjExanJjZ2c1TWpQcHNnOW5GTExsZkR3WDMxWTl1LU5kNFlIVmhkMmUtNDJVTlU1RjNPc2ptZE5OUEw2b2hNc1JyZnVSRXpaOWNBY0h1ajFqNXBIYkdFaE1MWDlrbVVabExjdmc2SkE?oc=5",
+      "desc": "Ilya Sutskever Warns Neoclouds Lack Security to Stop a Rogue AI Takeover Startup Fortune",
+      "source": "Startup Fortune",
+      "time": 1788302837.0,
+      "score": 7,
+      "key": "7ba35da55a70ac0e7a508d1a4c5fefea1f87d6af60ac35160d28c4734a651802",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "Altruist Acquisition 'Rhymes With Vanguard's Mission': CEO Ramji - ThinkAdvisor",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbTgzbTc0OXNvNGdGTUNwNS1NdjBVZThqYTUtSnk1OWM5TGpjMVFDYzg5OF95TTRQM1A3cmpJYmNtc1hQYlVaeWpzRl9laG1sUFNITHp5dkUta19BTnM1U25HcDFCRW84TDJhQ3J1MFlXa1dMNXlKWGFTWkhtUlphcHJfbDBPb05nakI2ZGUwTHpHQmJyRnJlOHFjNUV3MlRhaG5v?oc=5",
       "desc": "Altruist Acquisition 'Rhymes With Vanguard's Mission': CEO Ramji ThinkAdvisor",
@@ -1311,77 +1376,22 @@
       "score": 7,
       "key": "29c20f0fc548ce7acccab7ec17ca022acfeb378b7bfaa3a65b933a31d38da3b3",
       "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic's Mythos Just Beat OpenAI's GPT-5.5 At Real Hacking Napoli Vs Bologna (TJ3CDt0Itl) - Mshale",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XM0UzYVZGTl9DeW9hWUttdjIyZ25lTUtUejJvZkdLX0ZSWjVNWU9FR1FuUTZYTk4tcEZwcF94LTRCdEtMLUNEWExhWGhsbnk5Q3JUSVl0MDVzMDdybTUwNQ?oc=5",
-      "desc": "Anthropic's Mythos Just Beat OpenAI's GPT-5.5 At Real Hacking Napoli Vs Bologna (TJ3CDt0Itl) Mshale",
-      "source": "Mshale",
-      "time": 1788237132.0,
-      "score": 7,
-      "key": "3db08324bde424c16af565659722d7f5b5ae274bd38c6d7c981cfb9fdca92cbf",
-      "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "Nvidia's Rubin CPX Back From the Dead? Ming-Chi Kuo Says AI Chip Back With Major Redesign - Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0VoZDFrNC1jNFhzWjcxWnBSZ2RTVTVJaDRybDdnaHRpT0hfSDZvdURQQWtzamRvUy0zTDFranZybjhNUUlXNGI3TTBJWmw1S3hIU2tCYV9UaW53MzFhSTJ4VlZjTEU5R1Y5bW1WQ0FZQ3lOWlBpTmZXSVdmVWlVNVZyd2dIX193ODhqTUZVX3V3STNTVmtvZkpUS0hyTTYtLVY1cHFNSTg?oc=5",
-      "desc": "Nvidia's Rubin CPX Back From the Dead? Ming-Chi Kuo Says AI Chip Back With Major Redesign Benzinga",
-      "source": "Benzinga",
-      "time": 1788236665.0,
-      "score": 7,
-      "key": "baf4d64bb550742cabb7d1ee0aaa5db70652869bbf43c006187363ea0555a24c",
-      "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI Tests Pay-Per-Result Model for AI Services - KuCoin",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYzRLY1ptOHBiN0t4UkhKcjVCVW1jYzdDVG9wS1p4dy1Qc1VnMlpjNVJJajZ4LUgtX2YtZkRFMGt0TDNVTUtIUzNhTlBhNVZvM1dsRzNVWllsMTVxcFV6WVBPZjQ2VldLLVJCY3hjbUJaOU5senB5ai1peG9LWi0ySXpnZ0QzTW8weWFkMg?oc=5",
-      "desc": "OpenAI Tests Pay-Per-Result Model for AI Services KuCoin",
-      "source": "KuCoin",
-      "time": 1788234622.0,
-      "score": 7,
-      "key": "6489b2229775edb0fb35b4ec89ee211cc1dee1a1d31933a7123f1988400389da",
-      "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "After Claude Hacked Company Systems, Anthropic Resumes Tests For AI Models - Times Now",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQU2FmQUM2Nm9sekhuSHdrbmdFV2U3am9zOHNHLWRZYnFrT09JSnlaeFMyZ2oxTDh0cHJwTHhaYjVLYXItQ0ZlN2NfOWZ5bkVGSTl6cWhyX2tINlZNV3dULWwxbUNyZVR2S3ZycTVVNm5TcDlNZ0ZLU09EWlpmMkxKdHZlU1FIM2ZHNnVaUWhoUWdfZk9OOHFZcWp0LXRUVjFNcENSa25VZmlQeWg4T0lKUTRBNGcteDBLZzNPb3A2Vk5xc0JnTkw0U0REQkNzZzJEOURVTS1R0gHbAUFVX3lxTFAtdG1GXzlyeTBleTF4NERZUTAtYVhFd3RTd0JhLUV3LWZrVXFpeFFPNkdZQmoycVA5MWRUQnl4SktzSHF1YWNxSXFjNk9PRjRzdUJZMVU0NkZ2N3oxY3ZObENRVHFtX1FUbmRwOEllS0pjTGJTekRxZDBLVTJtZzBqbFdfd2cyVVB1Rzl0Q2Q4cElCTWNpLWt6NXJlT0NacUhkaEE0aFY2VHFnZ1BLZG50VjhtQmFFSkxfazRsRDF3LXI1T25ZNXhGcm5nRmFEYzJIcGRIYmRDdV9RRQ?oc=5",
-      "desc": "After Claude Hacked Company Systems, Anthropic Resumes Tests For AI Models Times Now",
-      "source": "Times Now",
-      "time": 1788234440.0,
-      "score": 7,
-      "key": "9478e50d732a34b6ddf11c069ea952c4e47fe4d25c2f0f39d89bc8ef74b2727f",
-      "tier": "B"
-    },
-    {
-      "region": "WORLD",
-      "title": "Nvidia targets AI data centre war beyond GPU fight - 디지털투데이",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVWx0SjNXdGUtMFF2S24yVlpzY2VaRTd1T1dtRERGMUhrY2QzUmFXdTBYYS1XZ294MFBYLWNiSUVZVVI4V3dXV2kzWFlaVHFVOUhXa3c4N1dTUUNxcVlxMzZnZ1BWY3JUSVgtZ1l1RVRqNFVXOU9qZVNPQnoxQnVFRXFLajIzczA1TEhXTlRuNXpuU0NYbTl2bXk1Yw?oc=5",
-      "desc": "Nvidia targets AI data centre war beyond GPU fight 디지털투데이",
-      "source": "디지털투데이",
-      "time": 1788229074.0,
-      "score": 7,
-      "key": "b0527be22548048166bcb1841bdb34c0a89718c3b1a5fb60afd5665c0b1814d4",
-      "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T00:27:00.802291+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T00:31:38.701959+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788308770.0608478,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788308468.220754,
-    "consecutive_failures": 1
+    "last_start_ts": 1788309072.7544997,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788309072.7544997,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
-      "disabled_until": 1788308940.8019984,
-      "reason": "TEMPORARY_SERVICE_ERROR",
-      "updated_at": 1788308820.8020003
+      "disabled_until": 0,
+      "reason": "",
+      "updated_at": 1788309098.1696937
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1526,6 +1536,13 @@
       "title": "Tech Bytes: Nvidia’s US$3.5 billion MediaTek bet reveals its next move in the AI chip war - proactiveinvestors.com.au",
       "desc": "Tech Bytes: Nvidia’s US$3.5 billion MediaTek bet reveals its next move in the AI chip war proactiveinvestors.com.au",
       "source": "proactiveinvestors.com.au",
+      "region": "WORLD"
+    },
+    "922ef783cfc9b8e4ffdd7be3dd7a2e4569289dc523117118c0a748569c23e9e2": {
+      "time": 1788309072,
+      "title": "OpenAI, Anthropic roll out new AI models as open-source challengers close in - 디지털투데이",
+      "desc": "OpenAI, Anthropic roll out new AI models as open-source challengers close in 디지털투데이",
+      "source": "디지털투데이",
       "region": "WORLD"
     }
   }
