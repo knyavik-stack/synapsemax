@@ -107,9 +107,6 @@
     "1437e71c6116a18af814f7c1b5b911399c8b77543146f12917e0cec776782d56": 1788331571
   },
   "known": {
-    "7830104385a99acb6b57997e09b3f44babed03bc0041faa6afc37e73b95845e0": 1788310269.8595397,
-    "b5819b3f0d068f13c56bf95d8f5cb8541e9dda55622b9fb6b9b8590507552cda": 1788310269.8595397,
-    "adfc093059a10125e0402afc4d6b6dcd311850ab98c1fbb6538339e4d49bc288": 1788310269.8595397,
     "a4f2252b429cb8f80605ab886da0235699a037efb9cb003bb00aa510c6879c10": 1788310569.4336548,
     "a08a3e1893111a5124c2a8d2b02f47bc13bae87de5db456205bb18a1c9e3dec5": 1788310873.5293548,
     "9261e0e572b4085d14965df0d8529e5dce15eef5cbd67160326f1870ed68b36c": 1788310873.5293548,
@@ -550,14 +547,14 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T06:46:23.706050+00:00",
-  "last_published": 1,
+  "last_run": "2026-09-02T06:51:16.559367+00:00",
+  "last_published": 0,
   "health": {
-    "last_start_ts": 1788331571.1883783,
-    "last_status": "OK",
-    "last_error": "",
+    "last_start_ts": 1788331870.0823808,
+    "last_status": "FAILED_NO_PUBLISH",
+    "last_error": "candidates exist but Telegram received zero posts",
     "last_success_ts": 1788331571.1883783,
-    "consecutive_failures": 0
+    "consecutive_failures": 1
   },
   "providers": {
     "GEMINI": {
