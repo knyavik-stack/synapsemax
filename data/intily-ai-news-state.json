@@ -134,7 +134,7 @@
     "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248,
     "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265,
     "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788349516,
-    "a686a4583c7b33cb9497af5b656eb2ae090ac1a9f928b63abc8b25abf149b4fd": 1788353232
+    "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": 1788353264
   },
   "known": {
     "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373.118473,
@@ -190,15 +190,22 @@
     "d6f81d12789a1bee0d6a57eec1e5bf8ce607f781c9fffdce5359ee55ee85b9d3": 1788349516.069073,
     "69f9c5a1e87ab67d899bc9dfaf3cb9d79d121030f42143b2f0b309eb7c34640b": 1788349516.069073,
     "e2abf78e4265e5dbeda2ae720fba129e7e954181d60ecf8f02e34a6de08fb9fd": 1788349516.069073,
-    "5384825c03ce20ea29a3ae73b87b1257afa66beaee503c28b2800a0748fcfcd7": 1788353232.1265726,
-    "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d": 1788353232.1265726,
-    "a686a4583c7b33cb9497af5b656eb2ae090ac1a9f928b63abc8b25abf149b4fd": 1788353232.1265726,
-    "3658284c70bad04f82fa9ef54eb717fe7fc42d00c38a797fa60eca66da513417": 1788353232.1265726,
-    "094b5419cceae5edf1dd679248b51a96ac5594fde781688ea792bde75254c5e6": 1788353232.1265726,
-    "d2f114b181c659f65f561122b7f415bc47d69850746b80099cec21bc79ee8369": 1788353232.1265726,
-    "6f410929b0e6b68afc26f1033b15737b5276b3d22e8dc53cce3fe2c8bcf57c02": 1788353232.1265726,
-    "6251b0b5e8b84a214911c434e78ccd655ae8c3addf9ca39e57a789da03ecb4a1": 1788353232.1265726,
-    "16b60de09357a58da4a746f1633f84c04a876482dc4de76c0c639cf3fce62e09": 1788353232.1265726
+    "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": 1788353264.2041101,
+    "789457f5d5302d06fc11131ce83a3ab9781ebd4e028661f1c5ebd0ba859f0f56": 1788353264.2041101,
+    "2a0b2591b348895714a2c1d56710e8f6942507151e086b25e93fda598ae9232c": 1788353264.2041101,
+    "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d": 1788353264.2041101,
+    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788353264.2041101,
+    "3658284c70bad04f82fa9ef54eb717fe7fc42d00c38a797fa60eca66da513417": 1788353264.2041101,
+    "29c6f3f8cada850cbe51b5108fe35e390530f149c6905d5f88bb2af138c1f3df": 1788353264.2041101,
+    "bdc23eaf938515377ed58b0339ed8141be72264ca8304a0664c671e40639b79a": 1788353264.2041101,
+    "f185d2f8b7687363761557a1af5865e63cef3c668775e853b3d7a10cc23b41d1": 1788353264.2041101,
+    "2eea62d3f0fc53de4815eeb2b3cbba0a17bfd7d74a47d57f887153ba5230881f": 1788353264.2041101,
+    "6f410929b0e6b68afc26f1033b15737b5276b3d22e8dc53cce3fe2c8bcf57c02": 1788353264.2041101,
+    "b399030c263771c9b02037c9b54506a9c88a75a0eb22c113b0d4eb1ffbae1113": 1788353264.2041101,
+    "e6af479802a840b13023c12a267ce01031c29b3bd0857d0ef853dfdd0954051a": 1788353264.2041101,
+    "16b60de09357a58da4a746f1633f84c04a876482dc4de76c0c639cf3fce62e09": 1788353264.2041101,
+    "ca139cd9ebdda4d620e0eee5fc3026af0ef31fb23eef20832bfec6988bf33471": 1788353264.2041101,
+    "94b69fb5b9d6d01b00d72a5e0c49a2a68eddc63ad57d4bf6e6003896274426b5": 1788353264.2041101
   },
   "queue": [
     {
@@ -235,10 +242,10 @@
     {
       "region": "WORLD",
       "title": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards - SecurityWeek",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeFhKNW5MSk9KLXBIb2c4Y2RzbF9qdG05YnZ0cEdXWThENHRRQnU5bVQ3UVNaQnJ6VGUtNlFTRS1UbGxnNWQ4a1BjZ19KUGpERWlzWFR6VC1XdENoeTRKXzRnV2xLS0pER0JUd19TX25seEtkajlwUkllSUg0NGxwWjRxd0xQdWo4YjN1dDNDSHZKdDBFaVNTOUVSODVwU01ETHdFODNia25TQ1NHNGZxUmFB0gGyAUFVX3lxTE94WEo1bkxKT0otcEhvZzhjZHNsX2p0bTlidnRwR1dZOEQ0dFFCdTltVDdRU1pCcnpUZS02UVNFLVRsbGc1ZDhrUGNnX0pQakRFaXNYVHpULVd0Q2h5NEpfNGdXbEtLSkRHQlR3X1Nfbmx4S2RqOXBSSWVJSDQ0bHBaNHF3TFB1ajhiM3V0M0NIdkp0MEVpU1M5RVI4NXBTTURMd0U4M2JrblNDU0c0ZnFSYUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONWdTVVRKUlFOQWlzWFJEZEFyTFZPR050UnFRTjl5SVpOZTQzdVVPVDVVZGdVT1pGVllpVjhHQWlwQW9ZeDZHU0pUNVNXbW1jaFBHbUIwcndIb3ZHQnhvSE1vS1dKclV4SHAyXzk2ZnhOUEJCdnJHckktRWE5dFdFZlNtY3RmM1o1QllRR0hfUzBsc0ZFc19SOXhNZFpRZTZ2Y1RVaHI4TFZNMmtl0gGyAUFVX3lxTE94WEo1bkxKT0otcEhvZzhjZHNsX2p0bTlidnRwR1dZOEQ0dFFCdTltVDdRU1pCcnpUZS02UVNFLVRsbGc1ZDhrUGNnX0pQakRFaXNYVHpULVd0Q2h5NEpfNGdXbEtLSkRHQlR3X1Nfbmx4S2RqOXBSSWVJSDQ0bHBaNHF3TFB1ajhiM3V0M0NIdkp0MEVpU1M5RVI4NXBTTURMd0U4M2JrblNDU0c0ZnFSYUE?oc=5",
       "desc": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards SecurityWeek",
       "source": "SecurityWeek",
-      "time": 1788350236.0,
+      "time": 1788349711.0,
       "score": 16,
       "key": "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d",
       "editorial_value": 24,
@@ -282,13 +289,29 @@
     },
     {
       "region": "WORLD",
-      "title": "When AI agents go rogue, the law doesn’t disappear - TechRadar",
+      "title": "Google DeepMind Says Gemini Is Evolving From Chatbot To AI Agent - Search Engine Journal",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYmpWQlRmSE5xZTU2S2N2MnQwRUxSR2REQXdrWFhZV3BtV1M4RlB2Ql9NMXM4Zm5ScEFMN3VhNGVfSFhvSlRsVEJmbnFPc1VpN3lVSGtmaldVb2d0UXBYTklpaDhoNkl3RVAwaFNaZFlPSjNiSXV2SEFFOHM4TDc4MjVPTlMtMzFGaTdBM2Q3QUxaQWJua1l0aWsxbjJtZmF5SEc5dnR2ZzgzbllH?oc=5",
+      "desc": "Google DeepMind Says Gemini Is Evolving From Chatbot To AI Agent Search Engine Journal",
+      "source": "Search Engine Journal",
+      "time": 1788348240.0,
+      "score": 17,
+      "key": "789457f5d5302d06fc11131ce83a3ab9781ebd4e028661f1c5ebd0ba859f0f56",
+      "editorial_value": 20,
+      "topics": [
+        "agents",
+        "models"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "When AI agents go rogue, the law doesn’t disappear - techradar.com",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOS1ueUZmMlMtbWJSUTB1X1BkNktXNnFPLWU0aFNFZ01TbWhqbXEyZnZfSHB1SHpBaWlYUzZQeG42YmVYaURwRU5BSEhqbldwUk5YQzNOdkUtVG82cXdtX0N6akxHa0xlR1BsdENUZV8yMTl5VjdPdGRtRUFkb3U3YS1ublg?oc=5",
-      "desc": "When AI agents go rogue, the law doesn’t disappear TechRadar",
-      "source": "TechRadar",
+      "desc": "When AI agents go rogue, the law doesn’t disappear techradar.com",
+      "source": "techradar.com",
       "time": 1788347027.0,
       "score": 17,
-      "key": "5384825c03ce20ea29a3ae73b87b1257afa66beaee503c28b2800a0748fcfcd7",
+      "key": "2a0b2591b348895714a2c1d56710e8f6942507151e086b25e93fda598ae9232c",
       "editorial_value": 20,
       "topics": [
         "agents",
@@ -313,13 +336,13 @@
     },
     {
       "region": "WORLD",
-      "title": "How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era - infosecurity-magazine.com",
+      "title": "How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era - Infosecurity Magazine",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUluUExlekhDLXJaT00xVy02NzF1N2k4eVdVY0ZiMXdSNEhsTDRaM3JEcl9MWERmdjZBQ1czQUM2bk9HTHJLZnR6UG1VNWE1MHlYZ0daWDhPdXM1eUx1aEctVVM1dTFzclFnem1lZnRYSlNObDZMSHJyOXRWTnNLclNlX3l0MzJlNkFSOA?oc=5",
-      "desc": "How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era infosecurity-magazine.com",
-      "source": "infosecurity-magazine.com",
+      "desc": "How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era Infosecurity Magazine",
+      "source": "Infosecurity Magazine",
       "time": 1788352200.0,
       "score": 12,
-      "key": "094b5419cceae5edf1dd679248b51a96ac5594fde781688ea792bde75254c5e6",
+      "key": "bdc23eaf938515377ed58b0339ed8141be72264ca8304a0664c671e40639b79a",
       "editorial_value": 20,
       "topics": [
         "security_regulation",
@@ -329,13 +352,13 @@
     },
     {
       "region": "WORLD",
-      "title": "NTT DATA to launch AI factory lab in Riyadh to accelerate regional enterprise adoption - IBS Intelligence",
+      "title": "NTT DATA to launch AI factory lab in Riyadh to accelerate regional enterprise adoption - ibsintelligence.com",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUUtDZzlzUEVRZ0ZYM2dHamRjeDJIYm5ta0gweUJmYUthd3RtSlh1SFExY0E0SWVCdFBzY2JVQU9KdnB4YkRFUVl6MTd6RGlsaHg3QlNJYktacVVaS3FMaWo2aWNQemwybEVhNUNlNzNFLVlKWlk2Mjd1c29iVWg2d0tBc213N2ZBaVprZW1BekJSWHdoLVk4RmpTai1MZXNRXzdjTnhiZi1VR1RHckFRY20zOVlDclI3SG5KTmRtSmk0VTg?oc=5",
-      "desc": "NTT DATA to launch AI factory lab in Riyadh to accelerate regional enterprise adoption IBS Intelligence",
-      "source": "IBS Intelligence",
+      "desc": "NTT DATA to launch AI factory lab in Riyadh to accelerate regional enterprise adoption ibsintelligence.com",
+      "source": "ibsintelligence.com",
       "time": 1788350132.0,
       "score": 12,
-      "key": "d2f114b181c659f65f561122b7f415bc47d69850746b80099cec21bc79ee8369",
+      "key": "f185d2f8b7687363761557a1af5865e63cef3c668775e853b3d7a10cc23b41d1",
       "editorial_value": 20,
       "topics": [
         "business"
@@ -463,6 +486,22 @@
       "tier": "S"
     },
     {
+      "region": "RUSSIA",
+      "title": "NVIDIA испытала систему, где ИИ-агенты сами атакуют и защищаются одновременно - Компьютерра",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcEhoLWgydjVoTUdieWc3eVpsa2RrSW52d1A0NWZuLWVKV2ZVYmJjeGpNV3E3MEZrTnlVRGo2ODJ0Y3lYVEdRbnlqb0gta1VwcG5oeFROaHo5aGpjUmhTSWwya0t1RWFQTVZub1RKUEtKNFREQmdDRUQ5ZnhPMlE2NTQ4bHJqVFVwcnVtYVdwdk9XdFFTUWVqdnNaYUxXT01xRk5USEs1a3V2cEpKQ0FBTTQ1eTJyYm85?oc=5",
+      "desc": "NVIDIA испытала систему, где ИИ-агенты сами атакуют и защищаются одновременно Компьютерра",
+      "source": "Компьютерра",
+      "time": 1788344146.0,
+      "score": 14,
+      "key": "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293",
+      "editorial_value": 17,
+      "topics": [
+        "agents",
+        "chips"
+      ],
+      "tier": "S"
+    },
+    {
       "region": "WORLD",
       "title": "Anthropic Unveils \"Claude Fable 5.1\"... Introduces Mythos Model with Enhanced Safeguards - 아시아경제",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0dFQtaXM3RmFuT19pMDlTdFJkX3Vfdnpxc0szQ1hoek1nVjFTV2NJSDJ2ZUZFeTlmQThhNGw5V0ZNVWMtQzNrNGZVT203X3hNQ1RSVjNhdFBoRnNsaHc1SVlkNFc3aGlBa2ZoNTNZUQ?oc=5",
@@ -478,22 +517,6 @@
       "tier": "S"
     },
     {
-      "region": "WORLD",
-      "title": "Agentic AI could improve corporate cash forecast accuracy to 90%: EY - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRXg5QWNPS1dfS2pndUstWC0tQ0NwdHAtakRoVmlubTdLcnNIYjBLYVRvcXdCdklzeTl5emdaOTBUeHBZUWxwMlN3VGlud3RlMVhpa3dfTUhGVU9kMzdGc1BCdkExVXQ3RGZDMnRlWnZoRzBHQnBVNmZzUURtTVQ1WFhoZlYwUVdWODdUVEdwXzJDSkJSMXhKSl9QamFseUpQTFlna0ZFZUdTTWczTmdkc2xHMmlTanNQZnhFU214UjRrR3QwNFQ1T3VHVXlUUEhlVG9z0gHYAUFVX3lxTE14OG5tVG9LYlFWSFpSZ0dIMm5GcnJmQ0d2bzVLSk4yNjNJejNkN1JFZVpjUFNJUnFRWFZaMFE2cFBkNER3UlBTTktLOVpsN3h6aW56Sk55dlR6Ulhrd0lFMGRIV014ZXN5YUlremI0MjUtT09sdHp5VGU4R0l2bWg1TmhjZnN1S3NtM0FWWlNoU1ZtQm9ndTMwY1RVaWxVNHdHdS1ZREY4eWU2Nm13VklYMWFMeE5IekMwUS1jUV9UMm5sc2FEX05ocVN5NmdlOWtpWWJIb3VlUg?oc=5",
-      "desc": "Agentic AI could improve corporate cash forecast accuracy to 90%: EY Business Standard",
-      "source": "Business Standard",
-      "time": 1788345134.0,
-      "score": 12,
-      "key": "a12c6c2fd1c752bfbb2d0b0e44f2aa738fc7cadda60f8aec4b484701a9931510",
-      "editorial_value": 17,
-      "topics": [
-        "agents",
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Data-инфраструктура 20% компаний КИИ готова к требованиям закона об ИИ - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBxTDZaOWcwWkdTQ0xVM2tuN3RpeEJNMmEzTlN1SFFfbTV1bEs4YTAwNm0wbmJKTWpydVo3LUtGX0Y1bHE2YkdyRUhSNjJFMzhCeVZJTnlhUFhsbndNSGp4Wm1MN0c3cUJRVk9iT2lRd2tQUHhCd1cwUzFOWdIBe0FVX3lxTFBxTDZaOWcwWkdTQ0xVM2tuN3RpeEJNMmEzTlN1SFFfbTV1bEs4YTAwNm0wbmJKTWpydVo3LUtGX0Y1bHE2YkdyRUhSNjJFMzhCeVZJTnlhUFhsbndNSGp4Wm1MN0c3cUJRVk9iT2lRd2tQUHhCd1cwUzFOWQ?oc=5",
@@ -505,21 +528,6 @@
       "editorial_value": 17,
       "topics": [
         "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic Launches Claude Fable 5.1 to Handle Long, Complex Work - Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbVdlbURzWmI1Qk9SU255TElDNjBnN0lpMjZ4Q3RIdHA2YS0xMFBiR28wWUx6b04zVXNJVjQ4dHd2cmhLS2NicFJjV1hQQkpKLVIwOUJrc1RGU0dsOXBlRmtIRE1sejlqQXpPSWN4czB3NXN2QXhwZDc1MWdxeExmc2xENkJrYUl3anNuU1h1QlVEbWV6RXVrWDcwWGJrTXRoU2fSAa8BQVVfeXFMTWlySVZudnlWenkzWl9xQTZtQ1h3UXg3NTdqUkp2cnVRNlpmX3ZsdmtadDVmRlU4R0l0TGFXVjFOYlh1amFlWW5neVpraV80Q3NRS0o1MFhkbnF3blpCSXdnRW5Xa3lJSm1XYmZFal8tWDB4YTN1WHpNbXN3ckdsMEtSelE3ZXBDeEh6TWw0LVN1ZkZjR2JmamVhX1lJSl8zSFVCNjBxNHRhUTl0cF9QVQ?oc=5",
-      "desc": "Anthropic Launches Claude Fable 5.1 to Handle Long, Complex Work Analytics Insight",
-      "source": "Analytics Insight",
-      "time": 1788334200.0,
-      "score": 13,
-      "key": "26b1e0d03107e427b5907134cd91e1c6d707a79b43682d6ddcecae09965a8f13",
-      "editorial_value": 16,
-      "topics": [
-        "models"
       ],
       "tier": "A"
     },
@@ -555,20 +563,20 @@
       "tier": "A"
     }
   ],
-  "last_run": "2026-09-02T12:47:28.055531+00:00",
+  "last_run": "2026-09-02T12:48:02.771738+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788353232.1265726,
+    "last_start_ts": 1788353264.2041101,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788353232.1265726,
+    "last_success_ts": 1788353264.2041101,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788353247.4796946
+      "updated_at": 1788353281.9890995
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1415,11 +1423,11 @@
       "source": "knews.kg",
       "region": "RUSSIA"
     },
-    "a686a4583c7b33cb9497af5b656eb2ae090ac1a9f928b63abc8b25abf149b4fd": {
-      "time": 1788353232,
-      "title": "NVIDIA испытала систему, где ИИ-агенты сами атакуют и защищаются одновременно - computerra.ru",
-      "desc": "NVIDIA испытала систему, где ИИ-агенты сами атакуют и защищаются одновременно computerra.ru",
-      "source": "computerra.ru",
+    "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": {
+      "time": 1788353264,
+      "title": "В России вступил в силу закон о господдержке и регулировании ИИ - blackfoxnews.ru",
+      "desc": "В России вступил в силу закон о господдержке и регулировании ИИ blackfoxnews.ru",
+      "source": "blackfoxnews.ru",
       "region": "RUSSIA"
     }
   },
