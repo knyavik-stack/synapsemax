@@ -132,20 +132,10 @@
     "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345648,
     "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345944,
     "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248,
-    "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265
+    "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265,
+    "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788349516
   },
   "known": {
-    "6ce0c5163589fcbd4355918196107fef1e8dc997f7dbff5b60087b2a230bc64d": 1788325871.1723397,
-    "189a5d1d51f314f71266a5fcfba1e780802fe9588007d24453bae3e8f8d715d8": 1788325871.1723397,
-    "ad7603f7223eec20cf4b72d26dfa2758bc31518e659e3096298e6c0d7cf3689f": 1788326472.2605171,
-    "077a6374baa07104e87304796c0e03365cae6b07250f3e0af362cf0cf1a65725": 1788326472.2605171,
-    "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1": 1788326472.2605171,
-    "ce87e875e98084165d3f7b034ae78dd580a8ddb6d5be3dadf0fe390d106fa52c": 1788326472.2605171,
-    "c48fa299d91a0a138b5c8a4d9fa1502a978ae75a7e713128cc299d165d54892d": 1788326472.2605171,
-    "39ed18f70345ef93a928a9c8153467bdddc1139abe40a7662ae7467e9448994c": 1788326472.2605171,
-    "71b166722d56995c0ca5a8134033985028a52a5059deb314faec3566633b2be8": 1788326472.2605171,
-    "97c8442e48f05d948bb7d12973d3ae1490ddb974276f5a9ba23e0ff3cd3a3061": 1788326472.2605171,
-    "cfe66b1c7d4670160e871c1b464f78d266389f193e361b3aacfb4d3b3ea48092": 1788327369.1821887,
     "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970.5963094,
     "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": 1788328270.6989605,
     "af19a6e2fd4c38abdca10623ee273bb091b7270d7760d1f0975dde468d818bf1": 1788328573.3656628,
@@ -203,9 +193,28 @@
     "7986b89f52ea2a23d198cc966777e7e77e2a2a01bb3e013bcef965deb4240438": 1788347265.2698512,
     "4517176bbead454baadb481ce47744e9d5eb1d9005ab174aeea2a35c20f86944": 1788347265.2698512,
     "e60cc6d1c8b584c2870d17aff81f24b3003b5981b447c428f8ffd6cf8c9ec2b9": 1788347265.2698512,
-    "6353e48b817f048d505e8c15cd1eccf03457d7b1ee0c368e3d7b7e042a075fbd": 1788347265.2698512
+    "6353e48b817f048d505e8c15cd1eccf03457d7b1ee0c368e3d7b7e042a075fbd": 1788347265.2698512,
+    "b3851f5e2caad4694806f6e156d487d9a2e1a6ec1069db63a9a5f8afbda18782": 1788349516.069073,
+    "d6f81d12789a1bee0d6a57eec1e5bf8ce607f781c9fffdce5359ee55ee85b9d3": 1788349516.069073,
+    "69f9c5a1e87ab67d899bc9dfaf3cb9d79d121030f42143b2f0b309eb7c34640b": 1788349516.069073,
+    "e2abf78e4265e5dbeda2ae720fba129e7e954181d60ecf8f02e34a6de08fb9fd": 1788349516.069073
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "Sam Altman says OpenAI's next AI model is launching soon, says safety remains top priority - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNjFnQlk2OHFrcWIwbHZrM19ycmJXZVpaT25tQVB6NmJ6MUlPcjBqNTZSVXFxRTVFTFk1WFk0WWROT0VzdEFiSGw2X29EcUVQNWNSdGRCZFZXZjlWVXdTcnk3TzR2YzZfZFFTVmdhSldlSi1TRF91a2JqbWxRTDBzQXAxazBkV0d1SGVMUlRBcVBKUDlNa0FvRW1LLWNtYUdhdW4tWjdDd3lLQkNQNVlHNS1SY01neGdCSjJHYVZReW5Va2UxT1pGRC1mY05McU5OY3BQSzE5Zk5hTHdIRkhWaEFmY2JxUdIB6wFBVV95cUxObmQ2MThOQ2tFSUdBWktCTU56OTlxYUhTc3huSldDRHF4bzR3SU13dWFzT3loRXhIcnVkZ0pwT0RtNTBXTUQ5NG9HRWhQUWtQUGV2d3Q3SVRHLWZJS1hOMHZzZnV5MG94dnI2cUFQRENUclZ2WDB3TmppNmw1NzNRRThnZ1N6TkNjYUlOZ3hqTVVRZUppTldzNE9YMTFKa2Q4QllFbmRTUy04RElJYVkxWk9xVzQtVzQ3OXRtU3g1aEdHWV9LM2xvbmdMTzJCYTBFdEFUTVZraXNrQ0VKNnQ0OXY4WG40TVJBQXo0?oc=5",
+      "desc": "Sam Altman says OpenAI's next AI model is launching soon, says safety remains top priority Moneycontrol.com",
+      "source": "Moneycontrol.com",
+      "time": 1788347712.0,
+      "score": 26,
+      "key": "b3851f5e2caad4694806f6e156d487d9a2e1a6ec1069db63a9a5f8afbda18782",
+      "editorial_value": 29,
+      "topics": [
+        "models"
+      ],
+      "tier": "S"
+    },
     {
       "region": "WORLD",
       "title": "Claude Fable 5.1 and Mythos 5.1 launched: What is new and how Anthropic is handling security - News9live",
@@ -219,38 +228,6 @@
       "topics": [
         "models",
         "security_regulation"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 with improved coding, research capabilities and lower... - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOaTM3azVWemlqYXVyRXZKSDlWV2VqMEppVTN6YUxKWjVsYzhVMGxrNDhWVk5yeVRFd1VSNXItMTA0MnBEN2hlQ0lHQ0tmc3ZqSm1ZTjdTUVlkVVpsRjVKUmV3eGRhNTBLZ2NONHZDSlp5b0dSbGVhQTZxX0pxSnptb2k4SWpydHdXcnZXdERSQnl3OW51cVBQZEM0cmpXNW5aazJlbjNwOWhZWWs2bDVfX3hNb3dvcHVmcVVrbkwzWGkxaFE1a29neDBlN2t1THMzc1FpQ2poOGZsWlh6c2k2T2VHb3gyVTdSLUhDMTh0WVZ5ZENFTW5OaG1OUnVUQmpubmVV0gGIAkFVX3lxTE9ValpMRG1tVHdJS0NPZ1hqcHVYM29SNDVCWTVpRDZHQ2dwYktkS3NwV25hRGg3T1F4bHlWc1MxQTcycHRtZ3NfM3dLUVlNRDMyRk9pYWlzTjBEVlc4T0N4ZXdWUm8tdTRHZVcyZTY2enVOUVNEUzRyYW9zQm9QSUo5Zno4OVdvaG5hUERFdDlqel8wOE5ZRXZWcjVRRzVReUNBVXJETUEwc0hjMVFqbk5tQi1aUnVnQ2lPeVNxWkhRTDR1YkgzZlBmRzNTa0xaWDFxZlUwSFFHUXlfZFlPX1loeXRPT2dUOS1GelFEa2dWM3pvUTFUWkJuV0lWNHR4THd3V0kxNGptcw?oc=5",
-      "desc": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 with improved coding, research capabilities and lower... Moneycontrol.com",
-      "source": "Moneycontrol.com",
-      "time": 1788340864.0,
-      "score": 18,
-      "key": "e2ec09d05ac01dcd95a7fd0fb4056140d3d3bd0c69264ac87733bc4c13e396bc",
-      "editorial_value": 24,
-      "topics": [
-        "models",
-        "research"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic launches Claude Fable 5.1, Mythos 5.1 for coding and knowledge work - ET Enterprise AI",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNa2k4alhpUC1mN2Rfb2ItUFR3ZTU0LXBNVVVnQmY3ek5jR1dtenYzYkZpaGRBZ0o4Z09IV2R2NmZqcUgzWTBDaUFVRTVTMXVDbmtiUjRJNWF5amlSakdVYk0wVlZmNkhZOVBnRU9scTliT1kzd1h3aTlaTk1COGlZYWR5aU5DSzdSVklZT2ZTbDRaVU5PR2lhTDNDbWl2aUVKRVBidEh4ZVFEcF9iRGRvTFE1R05NUkpXdU5aY1k5SXQzcXZweWlob1pUMFZ6WTRVUDU5Vk9rM1NkbkItaFFJdzNwX3lvek4xbHfSAeoBQVVfeXFMTWtpOGpYaVAtZjdkX29iLVBUd2U1NC1wTVVVZ0JmN3pOY0dXbXp2M2JGaWhkQWdKOGdPSFdkdjZmanFIM1kwQ2lBVUU1UzF1Q25rYlI0STVheWppUmpHVWJNMFZWZjZIWTlQZ0VPbHE5Yk9ZM3dYd2k5Wk5NQjhpWWFkeWlOQ0s3UlZJWU9mU2w0WlVOT0dpYUwzQ21pdmlFSkVQYnRIeGVRRHBfYkRkb0xRNUdOTVJKV3VOWmNZOUl0M3F2cHlpaG9aVDBWelk0VVA1OVZPazNTZG5CLWhRSXczcF95b3pOMWx3?oc=5",
-      "desc": "Anthropic launches Claude Fable 5.1, Mythos 5.1 for coding and knowledge work ET Enterprise AI",
-      "source": "ET Enterprise AI",
-      "time": 1788336901.0,
-      "score": 16,
-      "key": "d069063539ef13db3657880ac0f44c2cea7f9662bb780a9e997ce92c308f709b",
-      "editorial_value": 21,
-      "topics": [
-        "business",
-        "models"
       ],
       "tier": "S"
     },
@@ -287,24 +264,32 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "OpenClaw обновили: ИИ-агент стал проще в установке и получил режим совместной работы - knews.kg",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcUFtZWU2NGFhX2dpU29PTENWMko1R2N1dGRoWU9obC1HZHhmbWJvVlFUTl9ma3dMSHhnanZhUDQtUzBUOXpuR0p1emp2eGtZZHFnSWFxdEVlQWhZM05TaDl1LTBoSDBIOEx4OGtIX2dhYWtXYWJhTTV6QWhhUjBYSkZFWFZBWjZmMVc1R2w4Mjl5elhXSXNsSDNMMU0tY3IzSGtKSlExaEdNZ3QxRDRNUUhadHdnRjA?oc=5",
-      "desc": "OpenClaw обновили: ИИ-агент стал проще в установке и получил режим совместной работы knews.kg",
-      "source": "knews.kg",
-      "time": 1788334740.0,
-      "score": 16,
-      "key": "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7",
-      "editorial_value": 19,
+      "region": "WORLD",
+      "title": "Frontier AI at a cost: what Anthropic’s Fable 5.1 means for US-China model race - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeGc3TXdfdXdxMTB1N2ZzWE42TzZKNFMyeUttSktKXzI0SWQzUHNWQWwzRmxnejlOUHZGdEpfcHR1MzhHNTJ2YXJCd3NxQ2RLbFJKcXZJQ0RER3RTTkxpWFRzcWpGOHpDQ1BUYVhWUFp1MlhfVERKTklUSFFHOXdueTNCVGFTaFhfTXdQOXNfZWhZZW1lZjN2aUljdVAyQzhxR0xmTWF6UC1IYmdlcjJzREVmcmdDZV9MZ0HSAboBQVVfeXFMTmFjeFA2Wi1Vck52QmFGeHI3ZExQUk03enpaZFdqV1hOX1FRR0RHdTA5NFhfMk9LLWNfUU1VTHZrRnZoNGlZSi1NTW1NdFh4MVNTbmR2ZkVhcTNMOEx1akdnUEJQNURqYlNpcFYtclBycUl3Mm14VjZMRUtiT0tRQ3lWZGNEUnNSU1dMR250V2VuT0JTQ2ZBenV3WW4yRnB4WHNtX1BVR2FhQ0xuRng2QXg3S0JTWHI3cWpB?oc=5",
+      "desc": "Frontier AI at a cost: what Anthropic’s Fable 5.1 means for US-China model race South China Morning Post",
+      "source": "South China Morning Post",
+      "time": 1788348606.0,
+      "score": 14,
+      "key": "69f9c5a1e87ab67d899bc9dfaf3cb9d79d121030f42143b2f0b309eb7c34640b",
+      "editorial_value": 20,
       "topics": [
-        "agents",
-        "security_regulation"
+        "models"
       ],
-      "tier": "S",
-      "last_failed_at": 1788347265,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788347565
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "Top Tech News Today: Semiconductor Cycle, Devin's $47B Push, Graduate Talent, Crypto Markets & Anthropic's AI Launch - Analytics Insight",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQXzJ1V1A5M2tIYWVyT3R6aUQ3ME1NeHkwTzVQdjlFSTVYMkdBWVozYVVsbkRKWUdxcVBCdlMzcVFYMHpwRTJOcndSaWs4ZkFfOTV1cjNEYlNDX3FTR29rY3VVdW9UMWJPRnF3WmtwOTMyVXpJNmE0aFBnZlRtQ0tFNldxZURGZVpvTTdLUVhkYS1yMTdoYUdjWUg2ZUZhVmg2MnVnTFlXaVh5WW0wT2lZWHZnY3NVRGZvWU82WHZ3Wlg2N1lIbEJWcGpjX0tBUXM2bFlXSmd4TEFFSTEwV3Y3YUhfQTbSAfIBQVVfeXFMTTQ3MXE1eFNZVU5SajBoNjI3VWpGZDVLUlN3eEZ0NWgzWHFJOFlWTWFFTG5LYmJZaEE4N1BDUlZmMnBFajd2cEFBRjhPMnlIandvZWZLbkdSaHFfZFZCLV94aEVlcUN2eGtIZjc2V1ZnUW5NekVBSkxoazE2dTZHcERodmZIbWxhdnVscWhodjB3VUNVLUJiLWd2WEQ2eHJoaWpyem9nMERWVzRhbExtZnZneWRraWhPV08ybncxdnRDOTJxMWJ6UFpNNGNPMjljcEtBQkxYU0pWd0VCa00yQUhnUE9XRjcxc3JSc3BlbEtLREE?oc=5",
+      "desc": "Top Tech News Today: Semiconductor Cycle, Devin's $47B Push, Graduate Talent, Crypto Markets & Anthropic's AI Launch Analytics Insight",
+      "source": "Analytics Insight",
+      "time": 1788347945.0,
+      "score": 15,
+      "key": "d6f81d12789a1bee0d6a57eec1e5bf8ce607f781c9fffdce5359ee55ee85b9d3",
+      "editorial_value": 19,
+      "topics": [],
+      "tier": "S"
     },
     {
       "region": "WORLD",
@@ -518,6 +503,22 @@
     },
     {
       "region": "RUSSIA",
+      "title": "ИИ-агенты в бизнесе: что проверить до масштабирования - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40MHVhWHlONnJwU18xd0ttVE02bTVXX19rNElVUjBuZjZLN3dzQ2tMQlNuaXdIdGk0V21iMGZEVU9jLVVVRjRTU180S1lyMjJaN1JYVkV0elhuYUhTQlVTTjFLYTF0Z0N4ZjIwQUtXYXZlbE9FOVlQVDRNQdIBe0FVX3lxTE40MHVhWHlONnJwU18xd0ttVE02bTVXX19rNElVUjBuZjZLN3dzQ2tMQlNuaXdIdGk0V21iMGZEVU9jLVVVRjRTU180S1lyMjJaN1JYVkV0elhuYUhTQlVTTjFLYTF0Z0N4ZjIwQUtXYXZlbE9FOVlQVDRNQQ?oc=5",
+      "desc": "ИИ-агенты в бизнесе: что проверить до масштабирования companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788335397.0,
+      "score": 10,
+      "key": "e2abf78e4265e5dbeda2ae720fba129e7e954181d60ecf8f02e34a6de08fb9fd",
+      "editorial_value": 15,
+      "topics": [
+        "agents",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Александр Ведяхин: ИИ-агенты изменят структуру цифровой экономики и сделают рынок честнее - tvtambov.ru",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcmtVV3ZwYnNZYmF5VHQ4ejRoSTJ5Y3J6T0dUN21uckplSEw4WC05V0pYUmJidGpLakJ1WVpha281U1IxaTVvS2RNbXlMOU0xNnEyeFJuVVlQcjRVTUJpY1FxTGRnN1hoVEE0QURIR3A4andOM0dMdzFBYlhTcUU0Wkp5eGVfd3BxaTZxc21FTUl6YTlkclgwMWN5Sm9UTldYbno1NlJ0NWYwRHpNLTlmMDZTZGhSME90VmpwTmpBb0c1a2M1QUxXbE40Y0NpRjA?oc=5",
       "desc": "Александр Ведяхин: ИИ-агенты изменят структуру цифровой экономики и сделают рынок честнее tvtambov.ru",
@@ -545,20 +546,20 @@
       "tier": "A"
     }
   ],
-  "last_run": "2026-09-02T11:08:05.277493+00:00",
+  "last_run": "2026-09-02T11:45:32.124341+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788347265.2698512,
+    "last_start_ts": 1788349516.069073,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788347265.2698512,
+    "last_success_ts": 1788349516.069073,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788347284.6868465
+      "updated_at": 1788349531.3015027
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1397,6 +1398,13 @@
       "desc": "Лейла Шамузова: В онлайн-торговле власть платформ может перейти ИИ-агентам 02.09.2026 Юг Times",
       "source": "Юг Times",
       "region": "RUSSIA"
+    },
+    "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": {
+      "time": 1788349516,
+      "title": "OpenClaw обновили: ИИ-агент стал проще в установке и получил режим совместной работы - knews.kg",
+      "desc": "OpenClaw обновили: ИИ-агент стал проще в установке и получил режим совместной работы knews.kg",
+      "source": "knews.kg",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1405,7 +1413,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1419,6 +1426,7 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ]
 }
