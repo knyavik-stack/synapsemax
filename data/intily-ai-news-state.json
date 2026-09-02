@@ -113,7 +113,8 @@
     "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685,
     "587e073fb67a156a88e23cad9d9ee04a8267f1d42774192cfe5567a8bba7b55b": 1788336971,
     "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": 1788337242,
-    "996dc45511b30182016a60f74df185dae9e6c41581bb0579c66317d29b9d0e46": 1788337546
+    "996dc45511b30182016a60f74df185dae9e6c41581bb0579c66317d29b9d0e46": 1788337546,
+    "f0ff75dfa630d110674bdf5afa96f585899a8034939c9fe23baebda163d5ee61": 1788338743
   },
   "known": {
     "b658a4d2f1746ee20b03d8ecf912906d7aa82c1e1a326f9d1ded73939a20f735": 1788317471.2976208,
@@ -192,7 +193,8 @@
     "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685.5118265,
     "587e073fb67a156a88e23cad9d9ee04a8267f1d42774192cfe5567a8bba7b55b": 1788336971.858376,
     "996dc45511b30182016a60f74df185dae9e6c41581bb0579c66317d29b9d0e46": 1788337242.6649766,
-    "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": 1788337242.6649766
+    "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": 1788337242.6649766,
+    "f0ff75dfa630d110674bdf5afa96f585899a8034939c9fe23baebda163d5ee61": 1788338743.7995994
   },
   "queue": [
     {
@@ -452,20 +454,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T08:40:51.144474+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T08:45:51.880637+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788338444.2922719,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788337546.3817575,
-    "consecutive_failures": 3
+    "last_start_ts": 1788338743.7995994,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788338743.7995994,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788337557.3891604
+      "updated_at": 1788338751.445604
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1171,6 +1173,13 @@
       "desc": "SEAM@InnoHK Launches at Science Park to Boost R&D Bisinfotech",
       "source": "Bisinfotech",
       "region": "WORLD"
+    },
+    "f0ff75dfa630d110674bdf5afa96f585899a8034939c9fe23baebda163d5ee61": {
+      "time": 1788338743,
+      "title": "Oslo-based Pistachio acquires Hugin.io to expand into cybersecurity compliance - EU-Startups",
+      "desc": "Oslo-based Pistachio acquires Hugin.io to expand into cybersecurity compliance EU-Startups",
+      "source": "EU-Startups",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1184,7 +1193,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1193,6 +1201,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ]
 }
