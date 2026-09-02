@@ -109,11 +109,10 @@
     "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": 1788333973,
     "f3a47977daec1b8b38c11522aa2156fbbfff0ee511f65cd9e8fbf1d0670c0461": 1788334277,
     "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171,
-    "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370
+    "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370,
+    "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685
   },
   "known": {
-    "11ecfb5e6c149a489a2aa438ac41f43fb82d44a56c06423f5fc0345cb5b7cf8b": 1788315069.4332478,
-    "14640c44dc73ed4a6fffa1cc3c47ce00466ede17f79ea4817200fd58a5c093ac": 1788315069.4332478,
     "34bc6d5b8374bf60d6d94cbc50d52d5873d54b556434b3d940e9d7cbeef0bbf0": 1788315672.8815992,
     "8eedf88808568d170dfcb116f47811b18b1080fbab45f4b1b8c6464bbec3d6e9": 1788315672.8815992,
     "07b41c82b56ae250e6aca1c473654566a511714646dfa36dbfc738914ed1c306": 1788315672.8815992,
@@ -197,7 +196,8 @@
     "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373.118473,
     "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": 1788333973.3417337,
     "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171.3303025,
-    "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370.3834765
+    "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370.3834765,
+    "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685.5118265
   },
   "queue": [
     {
@@ -457,20 +457,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T08:06:20.084380+00:00",
+  "last_run": "2026-09-02T08:11:53.365085+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788336370.3834765,
+    "last_start_ts": 1788336685.5118265,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788336370.3834765,
+    "last_success_ts": 1788336685.5118265,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788336379.6379268
+      "updated_at": 1788336712.696552
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1148,6 +1148,13 @@
       "desc": "Top 10: Agentic AI Platforms in Life Sciences Healthcare Digital",
       "source": "Healthcare Digital",
       "region": "WORLD"
+    },
+    "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": {
+      "time": 1788336685,
+      "title": "OpenAI to launch new AI model Astra soon; access to advanced cybersecurity features limited - 디지털투데이",
+      "desc": "OpenAI to launch new AI model Astra soon; access to advanced cybersecurity features limited 디지털투데이",
+      "source": "디지털투데이",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1165,9 +1172,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
+    "RUSSIA",
     "WORLD",
-    "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD"
