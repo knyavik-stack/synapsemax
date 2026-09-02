@@ -105,7 +105,8 @@
     "d7242ac0bf87e4da008ec715b7a567eeced8e8530823bae49d7566db9a9c9253": 1788330970,
     "52f3e9f4b72c519dbbe8a9abb4487cbbd3a307650edc047192f2a4253eca422b": 1788331274,
     "1437e71c6116a18af814f7c1b5b911399c8b77543146f12917e0cec776782d56": 1788331571,
-    "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373
+    "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373,
+    "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": 1788333973
   },
   "known": {
     "ccff88b4d108dbcecbfc8b0c9daf75929158a85f761747957f71f228d79cddb8": 1788312669.8344204,
@@ -202,7 +203,8 @@
     "52f3e9f4b72c519dbbe8a9abb4487cbbd3a307650edc047192f2a4253eca422b": 1788330970.335027,
     "f3a47977daec1b8b38c11522aa2156fbbfff0ee511f65cd9e8fbf1d0670c0461": 1788331571.1883783,
     "1437e71c6116a18af814f7c1b5b911399c8b77543146f12917e0cec776782d56": 1788331571.1883783,
-    "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373.118473
+    "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": 1788333373.118473,
+    "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": 1788333973.3417337
   },
   "queue": [
     {
@@ -495,20 +497,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T07:21:19.921237+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T07:26:22.334441+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788333672.84776,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788333373.118473,
-    "consecutive_failures": 1
+    "last_start_ts": 1788333973.3417337,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788333973.3417337,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788333384.3955262
+      "updated_at": 1788333981.5101163
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1158,6 +1160,13 @@
       "desc": "Экономика агентов: как развивается рынок китайских нейросетей forbes.ru",
       "source": "forbes.ru",
       "region": "RUSSIA"
+    },
+    "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": {
+      "time": 1788333973,
+      "title": "Международная конференция по искусственному интеллекту AI Journey пройдёт в Москве - Сибирское информационное агентство",
+      "desc": "Международная конференция по искусственному интеллекту AI Journey пройдёт в Москве Сибирское информационное агентство",
+      "source": "Сибирское информационное агентство",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1177,6 +1186,7 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ]
 }
