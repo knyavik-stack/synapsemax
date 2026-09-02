@@ -130,10 +130,10 @@
     "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": 1788344146,
     "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": 1788345043,
     "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345648,
-    "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345944
+    "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345944,
+    "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248
   },
   "known": {
-    "5ae35f4be4ebc84027d22ed800791ec8cf926b5ad587f0b03292a8ad4d72b23c": 1788324373.3873003,
     "53f8536f46087c237b454687c7f804e0d4c62cbfa05a31f1634f6e8d1260f8b1": 1788324675.429915,
     "3c9517ce35a08713f9ac894a69669a23eae11b99b9ccc92077803b887e6c0d43": 1788324675.429915,
     "f7130163cb266753467cdac9588b9086ec84bb30231454e7a5aa3a2c237bc4b5": 1788324675.429915,
@@ -186,23 +186,24 @@
     "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": 1788344146.422171,
     "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": 1788345043.9418838,
     "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345043.9418838,
-    "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345648.5054953
+    "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345648.5054953,
+    "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248.4243684
   },
   "queue": [],
-  "last_run": "2026-09-02T10:45:53.263809+00:00",
+  "last_run": "2026-09-02T10:51:00.681083+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788345944.63316,
+    "last_start_ts": 1788346248.4243684,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788345944.63316,
+    "last_success_ts": 1788346248.4243684,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788345952.9079251
+      "updated_at": 1788346260.199682
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1027,10 +1028,16 @@
       "desc": "AI coding newcomer Cognition's valuation surges 81% in three months as new funding round nears $1 billion finance.biggo.com",
       "source": "finance.biggo.com",
       "region": "WORLD"
+    },
+    "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": {
+      "time": 1788346248,
+      "title": "Keralam: CUSAT Researchers Develop AI Model To Aid Early Detection Of Brain Aneurysms - ETV Bharat",
+      "desc": "Keralam: CUSAT Researchers Develop AI Model To Aid Early Detection Of Brain Aneurysms ETV Bharat",
+      "source": "ETV Bharat",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1040,6 +1047,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
