@@ -32,7 +32,8 @@
     "420ea85f800a4fdb53279121c5250b52d73e3ee06270213b3e5007191eda0f5d": 1788306668,
     "8cda4e22a9412f74737dc0ac053068f811ad7b5572962d6a7152055414e4f740": 1788306967,
     "40fd01d611cf2d44bafa3aeccddaf50f408bde420336432ea5cb2bf4c327afbc": 1788307570,
-    "4031bff6f48861fdb82aaa227c6d196da37eaf7e3bddf159e5d964296eae31c2": 1788307872
+    "4031bff6f48861fdb82aaa227c6d196da37eaf7e3bddf159e5d964296eae31c2": 1788307872,
+    "9879a81cc39d8c7db3a0dd89ffe71d4e0d9fc96b7edad574754c5761a4a8da68": 1788308468
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -222,7 +223,14 @@
     "f4be512567d66bb7a8139682f2e2207fe10e3992b0eccbb775da6b91105b86e5": 1788307570.6424994,
     "1cd742a77df3bf5eb8c4fac2a913b4a75df80ffe08b6165a90bed49b6ae78a87": 1788307872.484898,
     "95350a8c335d07813dba06b35a3c241acecc5a9ef563c450fd592de463a4b4f4": 1788308173.0199497,
-    "62e407876ddca6c6bc5f05d32bd3dc55826bb38bba0d2c3422647989c3333d09": 1788308173.0199497
+    "62e407876ddca6c6bc5f05d32bd3dc55826bb38bba0d2c3422647989c3333d09": 1788308173.0199497,
+    "8914f146bf6ca44750f78bde160aeda78a8d5ebff83327881e182b07cdcf9ba9": 1788308468.220754,
+    "ccf590a9f13c3a9cf3d4e713a512e1d35103fd9ca2c7d3c63097e4d601f2c9cf": 1788308468.220754,
+    "b553b47e1c8014565a1ac8cf3c82ddc8128b916df34d579f48c7da60949e39fe": 1788308468.220754,
+    "eb2f73900c1559b0c196df20e23670738eac0b5380d065b57d8c11dc91da17fd": 1788308468.220754,
+    "339415075e3ddab3c80d915bd1ea413c699362a73d042abb53eef7cce97d481a": 1788308468.220754,
+    "2427cf5c6c51443395b2211108143396699e931f20564a0be9e886c320e83b4a": 1788308468.220754,
+    "e0fa224afeeb0616b1b3c78f43a996d337e0f88c44487432931cf9fb64b18326": 1788308468.220754
   },
   "queue": [
     {
@@ -314,17 +322,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
       "failure_count": 1,
       "next_retry_at": 1788308473
-    },
-    {
-      "region": "WORLD",
-      "title": "Tech Bytes: Nvidia’s US$3.5 billion MediaTek bet reveals its next move in the AI chip war - proactiveinvestors.com.au",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNUVfX0dNdW5OdVVjc0NhQ0l5cFotVURtb0xBXzNUNnV3SmlSM3d3dXYzb1IwZ21RUkdKRXNkemZqWjNUT2hoOVNtdEJJakZ0TjhaN3g4NFltV19RS1kxZjNTZksyeUtRb3gtUUc2cURfQ2Q2NTM1Ukh0N1JHVmsyaG5WUDlKSlBoXzl0LTJRTnNXSjVrT3ZXdE5SeXlDeXp3aGFIWWJpVlhScXdqbTRybVY4WFY1clY4RkxJREkzbGVsQi1NczhSWHh5U3lCQ3BwbFprMV9ZeDA4RDNwZXhtTzdwajF0VW9vcm1ONmx4azJUTnlC?oc=5",
-      "desc": "Tech Bytes: Nvidia’s US$3.5 billion MediaTek bet reveals its next move in the AI chip war proactiveinvestors.com.au",
-      "source": "proactiveinvestors.com.au",
-      "time": 1788225900.0,
-      "score": 12,
-      "key": "9879a81cc39d8c7db3a0dd89ffe71d4e0d9fc96b7edad574754c5761a4a8da68",
-      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -555,6 +552,17 @@
       "time": 1788295800.0,
       "score": 9,
       "key": "6bd6b643750a1d4ae0c85567ca98e3b579c5d020bc0f64d89eb495bffbec4283",
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Alexandros Washburn Proposes That AI Agents Can Become Model Citizens - www.chelseanewsny.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeXg2WXdVLVNKUjF6LUtheEZ1LXU0Q01RZWEza091V2s0MEVDUWl5RURKQVRkejJTQUY5dWE1Mjc3emxwbkhpQjJyNU9TSGRVR2p1WkFxUkdhdlh0Um8tU3Zrb3lkczJxZUlZamVjZTQwekNxVHRIVWZIUXFlajBmYmZYZlRtZ0tYRzh5TnUtcHBEek1XVW9yWWltRGFPWnRPS3plUUNkbkF1Z0g3cHphWEdROXQ?oc=5",
+      "desc": "Alexandros Washburn Proposes That AI Agents Can Become Model Citizens www.chelseanewsny.com",
+      "source": "www.chelseanewsny.com",
+      "time": 1788295050.0,
+      "score": 9,
+      "key": "8914f146bf6ca44750f78bde160aeda78a8d5ebff83327881e182b07cdcf9ba9",
       "tier": "A"
     },
     {
@@ -1350,20 +1358,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T00:17:49.363113+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-02T00:21:24.298579+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788308173.0199497,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788307872.484898,
-    "consecutive_failures": 1
+    "last_start_ts": 1788308468.220754,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788308468.220754,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
-      "disabled_until": 1788308389.3627646,
-      "reason": "TEMPORARY_SERVICE_ERROR",
-      "updated_at": 1788308269.3627667
+      "disabled_until": 0,
+      "reason": "",
+      "updated_at": 1788308483.9290664
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1501,6 +1509,13 @@
       "title": "Anthropic IPO odds climb to 90% as new Claude models launch - Crypto Briefing",
       "desc": "Anthropic IPO odds climb to 90% as new Claude models launch Crypto Briefing",
       "source": "Crypto Briefing",
+      "region": "WORLD"
+    },
+    "9879a81cc39d8c7db3a0dd89ffe71d4e0d9fc96b7edad574754c5761a4a8da68": {
+      "time": 1788308468,
+      "title": "Tech Bytes: Nvidia’s US$3.5 billion MediaTek bet reveals its next move in the AI chip war - proactiveinvestors.com.au",
+      "desc": "Tech Bytes: Nvidia’s US$3.5 billion MediaTek bet reveals its next move in the AI chip war proactiveinvestors.com.au",
+      "source": "proactiveinvestors.com.au",
       "region": "WORLD"
     }
   }
