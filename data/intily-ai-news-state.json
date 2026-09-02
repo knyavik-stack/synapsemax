@@ -95,10 +95,10 @@
     "cfe66b1c7d4670160e871c1b464f78d266389f193e361b3aacfb4d3b3ea48092": 1788327369,
     "39ed18f70345ef93a928a9c8153467bdddc1139abe40a7662ae7467e9448994c": 1788327673,
     "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970,
-    "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": 1788328270
+    "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": 1788328270,
+    "af19a6e2fd4c38abdca10623ee273bb091b7270d7760d1f0975dde468d818bf1": 1788328573
   },
   "known": {
-    "b950fb51d94b5a6eee5e002d65fbcadb00df41a7828c05e0d1535dd593396679": 1788306967.7025893,
     "3af2ca5b6f082ee422e3fa0b7686d28280a1017ed5210b3e56d5725d3b6d826b": 1788307276.6180673,
     "4031bff6f48861fdb82aaa227c6d196da37eaf7e3bddf159e5d964296eae31c2": 1788307276.6180673,
     "baab21cb3c108e1d1d1a8497e37e63d5ea9537ba03fe94a42028932dcf30c4cb": 1788307276.6180673,
@@ -284,7 +284,8 @@
     "97c8442e48f05d948bb7d12973d3ae1490ddb974276f5a9ba23e0ff3cd3a3061": 1788326472.2605171,
     "cfe66b1c7d4670160e871c1b464f78d266389f193e361b3aacfb4d3b3ea48092": 1788327369.1821887,
     "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970.5963094,
-    "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": 1788328270.6989605
+    "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": 1788328270.6989605,
+    "af19a6e2fd4c38abdca10623ee273bb091b7270d7760d1f0975dde468d818bf1": 1788328573.3656628
   },
   "queue": [
     {
@@ -302,10 +303,10 @@
         "tools"
       ],
       "tier": "S",
-      "last_failed_at": 1788327673,
+      "last_failed_at": 1788328573,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 2,
-      "next_retry_at": 1788328273
+      "failure_count": 3,
+      "next_retry_at": 1788329773
     },
     {
       "region": "WORLD",
@@ -733,20 +734,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T05:51:39.827507+00:00",
+  "last_run": "2026-09-02T05:56:39.222378+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788328270.6989605,
+    "last_start_ts": 1788328573.3656628,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788328270.6989605,
+    "last_success_ts": 1788328573.3656628,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788328299.2795472
+      "updated_at": 1788328598.608903
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1326,9 +1327,17 @@
       "desc": "Anthropic's new Mythos and Fable models come with a new enterprise data retention policy thestack.technology",
       "source": "thestack.technology",
       "region": "WORLD"
+    },
+    "af19a6e2fd4c38abdca10623ee273bb091b7270d7760d1f0975dde468d818bf1": {
+      "time": 1788328573,
+      "title": "Nvidia Nears $14 Billion Hugging Face Deal This Week - Bloomberg.com",
+      "desc": "Nvidia Nears $14 Billion Hugging Face Deal This Week Bloomberg.com",
+      "source": "Bloomberg.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
