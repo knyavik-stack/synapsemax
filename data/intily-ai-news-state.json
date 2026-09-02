@@ -133,13 +133,10 @@
     "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345944,
     "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248,
     "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265,
-    "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788349516
+    "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788349516,
+    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788352142
   },
   "known": {
-    "e9360893f34fa0704deef7b458ed8b7dbcb970f03243397a83ece07670f4da94": 1788327970.5963094,
-    "66a2342a7a4cb85326b07ecf12289ae420b25c7b34126c35e1b297073049c54b": 1788328270.6989605,
-    "af19a6e2fd4c38abdca10623ee273bb091b7270d7760d1f0975dde468d818bf1": 1788328573.3656628,
-    "e4cd81f737b3d3e932e4618b2aa4b6cdc9cb00a5b04976d0fa821b801c3e7b15": 1788329472.6678782,
     "7fa859fe35e31cad73e84778eba6eb71d4d30f85d71a8aa5dda4cd459389bde3": 1788330675.8108013,
     "d7242ac0bf87e4da008ec715b7a567eeced8e8530823bae49d7566db9a9c9253": 1788330970.335027,
     "52f3e9f4b72c519dbbe8a9abb4487cbbd3a307650edc047192f2a4253eca422b": 1788330970.335027,
@@ -197,7 +194,11 @@
     "b3851f5e2caad4694806f6e156d487d9a2e1a6ec1069db63a9a5f8afbda18782": 1788349516.069073,
     "d6f81d12789a1bee0d6a57eec1e5bf8ce607f781c9fffdce5359ee55ee85b9d3": 1788349516.069073,
     "69f9c5a1e87ab67d899bc9dfaf3cb9d79d121030f42143b2f0b309eb7c34640b": 1788349516.069073,
-    "e2abf78e4265e5dbeda2ae720fba129e7e954181d60ecf8f02e34a6de08fb9fd": 1788349516.069073
+    "e2abf78e4265e5dbeda2ae720fba129e7e954181d60ecf8f02e34a6de08fb9fd": 1788349516.069073,
+    "2a0b2591b348895714a2c1d56710e8f6942507151e086b25e93fda598ae9232c": 1788352142.0632133,
+    "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d": 1788352142.0632133,
+    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788352142.0632133,
+    "3658284c70bad04f82fa9ef54eb717fe7fc42d00c38a797fa60eca66da513417": 1788352142.0632133
   },
   "queue": [
     {
@@ -233,6 +234,22 @@
     },
     {
       "region": "WORLD",
+      "title": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards - SecurityWeek",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONWdTVVRKUlFOQWlzWFJEZEFyTFZPR050UnFRTjl5SVpOZTQzdVVPVDVVZGdVT1pGVllpVjhHQWlwQW9ZeDZHU0pUNVNXbW1jaFBHbUIwcndIb3ZHQnhvSE1vS1dKclV4SHAyXzk2ZnhOUEJCdnJHckktRWE5dFdFZlNtY3RmM1o1QllRR0hfUzBsc0ZFc19SOXhNZFpRZTZ2Y1RVaHI4TFZNMmtl0gGyAUFVX3lxTE94WEo1bkxKT0otcEhvZzhjZHNsX2p0bTlidnRwR1dZOEQ0dFFCdTltVDdRU1pCcnpUZS02UVNFLVRsbGc1ZDhrUGNnX0pQakRFaXNYVHpULVd0Q2h5NEpfNGdXbEtLSkRHQlR3X1Nfbmx4S2RqOXBSSWVJSDQ0bHBaNHF3TFB1ajhiM3V0M0NIdkp0MEVpU1M5RVI4NXBTTURMd0U4M2JrblNDU0c0ZnFSYUE?oc=5",
+      "desc": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards SecurityWeek",
+      "source": "SecurityWeek",
+      "time": 1788349711.0,
+      "score": 16,
+      "key": "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d",
+      "editorial_value": 24,
+      "topics": [
+        "business",
+        "security_regulation"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
       "title": "Nvidia In Talks To Acquire AI Platform Hugging Face For $14 Billion - Whalesbook",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNMWpkVVMtYUpaYlZQakpRaGJPS2ZWd2tvTE5UVUNrNldOVUQtRTdPeVFZbjlLdkx4UmE1aHNVRTlwNkVydDRCSnRvU1Fna1MtdFZDN3BMcEVqT2VWYWx3b09mTUpVSEJOR1Z6RHcwRWRQTlVPeklGdGFzNjc3RzBPUDE5U0p2LV94YkM5QlUzUHM0N09YUEp1Z092NlFsampNSEhWcDA2WXZWN21Vb3ZueE54Ni1PRFE3ZnpVZmpMQWhLSjlqQ2hzNjAtNUpBVnh2cVJjcXNKREpmUms1cUN0ZktR?oc=5",
       "desc": "Nvidia In Talks To Acquire AI Platform Hugging Face For $14 Billion Whalesbook",
@@ -262,6 +279,22 @@
         "business"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "When AI agents go rogue, the law doesn’t disappear - techradar.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOS1ueUZmMlMtbWJSUTB1X1BkNktXNnFPLWU0aFNFZ01TbWhqbXEyZnZfSHB1SHpBaWlYUzZQeG42YmVYaURwRU5BSEhqbldwUk5YQzNOdkUtVG82cXdtX0N6akxHa0xlR1BsdENUZV8yMTl5VjdPdGRtRUFkb3U3YS1ublg?oc=5",
+      "desc": "When AI agents go rogue, the law doesn’t disappear techradar.com",
+      "source": "techradar.com",
+      "time": 1788347027.0,
+      "score": 17,
+      "key": "2a0b2591b348895714a2c1d56710e8f6942507151e086b25e93fda598ae9232c",
+      "editorial_value": 20,
+      "topics": [
+        "agents",
+        "security_regulation"
+      ],
+      "tier": "S"
     },
     {
       "region": "WORLD",
@@ -320,6 +353,22 @@
       "editorial_value": 19,
       "topics": [
         "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "MIPS Launches Workload-Native Platforms for Physical AI - Business Wire",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLWtNN0ZvbEthbEZpaTlVcGNkazNWbG1IUDdvOGNLRkQ3Z0szM21UeWEyN3pNUHZDdl9Vc1VTNlUwQ2ZVRTBJUUdpRkJMY0FFVnJnMUZKRjlLbms3VDJmcTNYNUJiMi1KTml4NWIzZ3IyTmY4Z3ppYVBQOXBBZzJDSk9lNFhTS214X3B3d2N2SHN2Szg1ajlKekY1V0JfMjllQ21MUTF3QzgzRWFyN3ptaFNR?oc=5",
+      "desc": "MIPS Launches Workload-Native Platforms for Physical AI Business Wire",
+      "source": "Business Wire",
+      "time": 1788350400.0,
+      "score": 13,
+      "key": "3658284c70bad04f82fa9ef54eb717fe7fc42d00c38a797fa60eca66da513417",
+      "editorial_value": 18,
+      "topics": [
+        "business",
+        "tools"
       ],
       "tier": "A"
     },
@@ -473,35 +522,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Explained: Why Nvidia wants Hugging Face—and what Jensen Huang sees in open AI models - Fortune India",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTW5lZGF5RnB5TDBhRHJfeUhvSW1pUWNLeEx5Ykg1RnVodC1ZWXJwUGtlZHhZcjZWUWJGaENYdGc1eVFqS0tsQTEyZmdLTkJJbGtXcHI4anQ5M0UzcGU2LTIxTi1CY0x5cF9fb3pkUjJFcnJaQnZlQzktc05qOXpoZ2M3LWw3ZlJBNW9LbUhYRGUxMm5kU21GamFEODRrN3NvX0ZFWkRfLV9iTWFXRVQyZmEzWWFTY2U3X3hIOW9FMTlSWldEdU1idnM2UzRpaURwMWZVWVJUONIB1wFBVV95cUxPTW5lZGF5RnB5TDBhRHJfeUhvSW1pUWNLeEx5Ykg1RnVodC1ZWXJwUGtlZHhZcjZWUWJGaENYdGc1eVFqS0tsQTEyZmdLTkJJbGtXcHI4anQ5M0UzcGU2LTIxTi1CY0x5cF9fb3pkUjJFcnJaQnZlQzktc05qOXpoZ2M3LWw3ZlJBNW9LbUhYRGUxMm5kU21GamFEODRrN3NvX0ZFWkRfLV9iTWFXRVQyZmEzWWFTY2U3X3hIOW9FMTlSWldEdU1idnM2UzRpaURwMWZVWVJUOA?oc=5",
-      "desc": "Explained: Why Nvidia wants Hugging Face—and what Jensen Huang sees in open AI models Fortune India",
-      "source": "Fortune India",
-      "time": 1788332620.0,
-      "score": 12,
-      "key": "a29baa6aeaba5e8248553e8c88a39f502cd496adab5e9fd5d8b64338c392a849",
-      "editorial_value": 15,
-      "topics": [
-        "chips",
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Tim Cook sold 3.1 billion iPhones.. but did he make a mistake in the AI race? - آي-فون إسلام",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPc09HRzIzOHNXWE5SSnBpRGxXS0gzYlNSNk0xRmJKR014QWpvdUNzazVaajl4Q0dxZWdCQkZaY1JodzhPb1FzR2xZWHREUmc1Zk9wNEI1QnY3V3VDdmVqRFpQakFjY2I1YkphTC1mbzZtZ3FMRTd3ZzI2a084ZHBYWDhrMkk5c09PNUtOSExfWlYwaWVSNVA3QlBOazhsV2NoY05BbUdJcldOb29QS1QwTFhQUkxxVXNiM3h4Ny1QaTBOS1k?oc=5",
-      "desc": "Tim Cook sold 3.1 billion iPhones.. but did he make a mistake in the AI race? آي-فون إسلام",
-      "source": "آي-فون إسلام",
-      "time": 1788339058.0,
-      "score": 10,
-      "key": "7986b89f52ea2a23d198cc966777e7e77e2a2a01bb3e013bcef965deb4240438",
-      "editorial_value": 15,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "ИИ-агенты в бизнесе: что проверить до масштабирования - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40MHVhWHlONnJwU18xd0ttVE02bTVXX19rNElVUjBuZjZLN3dzQ2tMQlNuaXdIdGk0V21iMGZEVU9jLVVVRjRTU180S1lyMjJaN1JYVkV0elhuYUhTQlVTTjFLYTF0Z0N4ZjIwQUtXYXZlbE9FOVlQVDRNQdIBe0FVX3lxTE40MHVhWHlONnJwU18xd0ttVE02bTVXX19rNElVUjBuZjZLN3dzQ2tMQlNuaXdIdGk0V21iMGZEVU9jLVVVRjRTU180S1lyMjJaN1JYVkV0elhuYUhTQlVTTjFLYTF0Z0N4ZjIwQUtXYXZlbE9FOVlQVDRNQQ?oc=5",
@@ -531,35 +551,22 @@
         "agents"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Why Did Dell Stock Fall After Earnings? Despite 130 Billion in AI Server Orders - MEXC",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdGVnSi1FQXZzNmhyLTRmc2dFa044RW92SjVvWlhOU1FuTnh6Yk5wSTJ1azFvQ1pOQ0RreWhWODRObXA2MGR0RC1hVzI4UGlwLTVRdU02TG1ucDlSZG84NmFSbzI0ZFIzMkMtMUlYa09IS0ZpU3VNS1ZyTWtYclVzdmRWMXNMcWNXRE1tdTNLYW9VQm5MaWpPWk53czRuQVhvU0drUXZ0VWExOE1HNFBKcjZsQUw3NGhtVW81Y0VHbHNOdmRsb3c?oc=5",
-      "desc": "Why Did Dell Stock Fall After Earnings? Despite 130 Billion in AI Server Orders MEXC",
-      "source": "MEXC",
-      "time": 1788332428.0,
-      "score": 9,
-      "key": "6353e48b817f048d505e8c15cd1eccf03457d7b1ee0c368e3d7b7e042a075fbd",
-      "editorial_value": 14,
-      "topics": [],
-      "tier": "A"
     }
   ],
-  "last_run": "2026-09-02T11:45:32.124341+00:00",
+  "last_run": "2026-09-02T12:29:23.531334+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788349516.069073,
+    "last_start_ts": 1788352142.0632133,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788349516.069073,
+    "last_success_ts": 1788352142.0632133,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788349531.3015027
+      "updated_at": 1788352162.8798416
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1405,6 +1412,13 @@
       "desc": "OpenClaw обновили: ИИ-агент стал проще в установке и получил режим совместной работы knews.kg",
       "source": "knews.kg",
       "region": "RUSSIA"
+    },
+    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": {
+      "time": 1788352142,
+      "title": "NVIDIA испытала систему, где ИИ-агенты сами атакуют и защищаются одновременно - Компьютерра",
+      "desc": "NVIDIA испытала систему, где ИИ-агенты сами атакуют и защищаются одновременно Компьютерра",
+      "source": "Компьютерра",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1412,7 +1426,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1426,6 +1439,7 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ]
