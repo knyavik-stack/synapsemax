@@ -60,7 +60,8 @@
     "fddc17a362f708c5a794524ae120e7c8954214b54cee120213fabbceee3d71a5": 1788316271,
     "08ec5b7d7256a396803019ff9d0140e4f92e9f7313435f8d630e79c326dc407d": 1788316569,
     "46443d7a4ddd824cf96ac64930422edcfb07b65c5254d71bde086561cc393190": 1788316869,
-    "06206c95b8c26d7c3ec025df4be89e131ee46e07e8ac0bb8c5bf6973d47dfd54": 1788317171
+    "06206c95b8c26d7c3ec025df4be89e131ee46e07e8ac0bb8c5bf6973d47dfd54": 1788317171,
+    "0609de3acf821ea7d3026518e2be59b7c255746e21f57a16d766b4eeaeb76df8": 1788317471
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -315,7 +316,8 @@
     "64b8348bf674115167e0b619a2bf2e9fc4e4db41e9e96bd14e156f5422760ff2": 1788316271.945271,
     "294529ed1c5e40252c89f504a8ab0b8cf8a324263d3bee8052fd9f9782548033": 1788316271.945271,
     "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788316569.5806198,
-    "f3246b840aab9ae240bb0ad9dd11d40e32a21e00f88c1f8ca6c1b921c03e2da8": 1788316569.5806198
+    "f3246b840aab9ae240bb0ad9dd11d40e32a21e00f88c1f8ca6c1b921c03e2da8": 1788316569.5806198,
+    "b658a4d2f1746ee20b03d8ecf912906d7aa82c1e1a326f9d1ded73939a20f735": 1788317471.2976208
   },
   "queue": [
     {
@@ -332,21 +334,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 5,
       "next_retry_at": 1788317770
-    },
-    {
-      "region": "WORLD",
-      "title": "Scientists make potential breakthrough in search for dark matter - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORndMVjBxRC1YcGFYemZhWWZFUm5FNVhUVU12amVJWXFVTHNUS0s4emxoUGZFSlZ3NTV5RUxXREhZdFExSngybUppRE4tUVlkakw1OUdpWVYxaWhCNWU5VzB4WGxkNFcwbDRzaFNXTFZjSThVWklYRXo1M0R0MkVBOUgtbzFmMFZpUDNuU2VxN0JkcGF4WjVfa3hHVUJwQlZQUzFn?oc=5",
-      "desc": "Scientists make potential breakthrough in search for dark matter Reuters",
-      "source": "Reuters",
-      "time": 1788271642.0,
-      "score": 10,
-      "key": "0609de3acf821ea7d3026518e2be59b7c255746e21f57a16d766b4eeaeb76df8",
-      "tier": "A",
-      "last_failed_at": 1788317171,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788317471
     },
     {
       "region": "WORLD",
@@ -1384,6 +1371,17 @@
     },
     {
       "region": "WORLD",
+      "title": "IBM's Balancing Act: Quantum Breakthroughs, AI Momentum, and a Cloud of Skepticism - ad-hoc-news.de",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcTdIdkFwd1RyWV9ua0lGTHpRcmRncEFIR3lMM01ZTG1BbERHbzFZNEdMem1remVOeGlJenhELXpXVy1MWEpHNzdqMWdIM1BTdkpONkNjYkZHSXlwdXVJNmx0YUxFSmw3S0ZmNk4tRVVVMWhZN21PcWJmWmhMZTRwcWlIVHJEVTlCSmc1TlFRN2ZRU3pZQjhtOUhoMTlocUZweXBzSVFQZzgyLUhkQW56RlREaUNWeTIyMXVDSEl3cHZmbE1sSWFqWGg2Q2p1Q0gtY0hyVDdOcw?oc=5",
+      "desc": "IBM's Balancing Act: Quantum Breakthroughs, AI Momentum, and a Cloud of Skepticism ad-hoc-news.de",
+      "source": "ad-hoc-news.de",
+      "time": 1788258735.0,
+      "score": 6,
+      "key": "b658a4d2f1746ee20b03d8ecf912906d7aa82c1e1a326f9d1ded73939a20f735",
+      "tier": "B"
+    },
+    {
+      "region": "WORLD",
       "title": "Europe’s Next Tech Target: Child Safety - Center for European Policy Analysis (CEPA)",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoNjJTLVhFbW1XeU9xbWRJM1BlekwtZFRWLWI2YTRORFFNenlPWkhlTjRaODdTeFQ0clpWTVNwbFk5eXY2N0NueUtsZHhLVWdoNk9zWFlGQ3VIeF9ZVjhfZVpDTHBVZ0Y0WkR3RmQ1bEU?oc=5",
       "desc": "Europe’s Next Tech Target: Child Safety Center for European Policy Analysis (CEPA)",
@@ -1405,20 +1403,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T02:46:47.971139+00:00",
+  "last_run": "2026-09-02T02:51:24.517196+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788317171.4825013,
+    "last_start_ts": 1788317471.2976208,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788317171.4825013,
+    "last_success_ts": 1788317471.2976208,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788317207.4252055
+      "updated_at": 1788317484.0705624
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1752,6 +1750,13 @@
       "title": "SGS : Montenegro Issues New Toy Safety Regulations - marketscreener.com",
       "desc": "SGS : Montenegro Issues New Toy Safety Regulations marketscreener.com",
       "source": "marketscreener.com",
+      "region": "WORLD"
+    },
+    "0609de3acf821ea7d3026518e2be59b7c255746e21f57a16d766b4eeaeb76df8": {
+      "time": 1788317471,
+      "title": "Scientists make potential breakthrough in search for dark matter - Reuters",
+      "desc": "Scientists make potential breakthrough in search for dark matter Reuters",
+      "source": "Reuters",
       "region": "WORLD"
     }
   }
