@@ -620,7 +620,9 @@ def story_anchor_tokens(x):
         if w in {
             'openai', 'anthropic', 'google', 'deepmind', 'gemini',
             'claude', 'nvidia', 'microsoft', 'meta', 'apple',
-            'yandex', 'сбер', 'sber', 'россия', 'россии'
+            'yandex', 'сбер', 'sber', 'россия', 'россии',
+            'fable', 'mythos', 'astra', 'llama', 'kimi', 'copilot',
+            'chatgpt', 'openclaw', 'agentforce'
         } or any(ch.isdigit() for ch in w)
     }
 
@@ -649,7 +651,9 @@ def same_story(a, b):
 
     # Two distinctive title bigrams identify the same event even when the
     # publisher changes the surrounding wording.
-    if len(shared_bigrams) >= 2 and sim >= 0.42:
+    # Two distinctive title bigrams plus a product/company anchor are enough
+    # for syndicated launch headlines whose descriptions differ substantially.
+    if len(shared_bigrams) >= 2 and shared_anchors and sim >= 0.30:
         return True
 
     if sim >= 0.58 and shared_anchors:
