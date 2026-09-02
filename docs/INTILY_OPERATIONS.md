@@ -183,3 +183,24 @@ This keeps durable memory without allowing obsolete backlog rules to contaminate
 - consecutive failures: 0.
 
 Таким образом queue-pressure correction подтверждён не только state inspection, но и последующим реальным production publish. CI modernization также завершён: workflows используют actions/checkout@v6 и actions/setup-node@v6, а полный Immediate QA с Chromium browser gate прошёл SUCCESS.
+
+
+## Update 2026-09-02 — 6h freshness / 60:40 regional mix / practical AI expansion
+
+### GREEN
+- Discovery window reduced from 12 hours to 6 hours.
+- Editorial regional target changed to 60% WORLD / 40% RUSSIA.
+- Russian query coverage expanded to support the target.
+- Search coverage expanded toward AI implementation in business, practical workflows, sector adoption, technical deployment details, cost/reliability, security, incidents and operational problems.
+- Editorial scoring now explicitly rewards practical implementation, risks/problems and high-exclusivity developments.
+- Semantic duplicate detection was tightened: sharing a company name is no longer sufficient to classify two different events as the same story.
+- Published-story memory remains durable, but semantic event suppression now uses a 24-hour horizon rather than 72 hours so legitimate follow-up developments are not blocked.
+- Queue remains bounded and freshness-first; items outside the active window are intentionally dropped instead of accumulating indefinitely.
+
+### Scheduler
+- Cloudflare Worker intily-ai-news is the canonical scheduler.
+- Its cron is */6 * * * *.
+- Duplicate cron on intily-news-trigger is disabled.
+
+### Queue interpretation
+A queue value of zero does not mean historical memory was lost. Published and story history remain persisted separately. Queue contains only currently publishable, fresh, unique candidates. The previous zero occurred after stale queued candidates were pruned and the current candidate set was rejected by duplicate/history gates. The gates are now narrower to avoid treating unrelated stories about the same company as duplicates.

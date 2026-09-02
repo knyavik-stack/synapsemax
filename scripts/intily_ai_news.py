@@ -21,16 +21,16 @@ from xml.etree import ElementTree as ET
 
 # Discovery freshness is intentionally short. Old items should not occupy
 # queue capacity when the channel publishes one story every five minutes.
-LOOKBACK = timedelta(hours=12)
+LOOKBACK = timedelta(hours=6)
 
 MAX_PUBLISH = 1
 MIN_SCORE = 9
-MAX_QUEUE = 48
-TARGET_QUEUE_SIZE = 36
-WORLD_TARGET_SHARE = 0.80
-RUSSIA_TARGET_SHARE = 0.20
+MAX_QUEUE = 30
+TARGET_QUEUE_SIZE = 24
+WORLD_TARGET_SHARE = 0.60
+RUSSIA_TARGET_SHARE = 0.40
 REGION_HISTORY_SIZE = 20
-RUSSIA_MIN_QUEUE_SLOTS = 6
+RUSSIA_MIN_QUEUE_SLOTS = 10
 QUEUE_RETENTION = timedelta(days=7)
 QUEUE_RETRY_BASE_SECONDS = 300
 QUEUE_RETRY_MAX_SECONDS = 6 * 3600
@@ -94,16 +94,24 @@ QUERIES = [
     ('WORLD', 'Nvidia AI chips GPU semiconductor'),
     ('WORLD', 'AI agents robotics autonomous systems'),
     ('WORLD', 'artificial intelligence research breakthrough science'),
-    ('WORLD', 'AI application business enterprise productivity automation'),
-    ('WORLD', 'AI software tool platform feature review'),
-    ('WORLD', 'generative AI developer coding cybersecurity technology'),
-    ('WORLD', 'AI healthcare education science industrial application'),
-    ('WORLD', 'AI startup funding acquisition investment technology'),
+    ('WORLD', 'AI implementation business enterprise adoption automation'),
+    ('WORLD', 'AI practical application workflow productivity operations'),
+    ('WORLD', 'AI customer service sales marketing finance implementation'),
+    ('WORLD', 'AI healthcare education manufacturing logistics application'),
+    ('WORLD', 'AI software tool platform feature review developer coding'),
+    ('WORLD', 'AI deployment architecture inference cost reliability'),
+    ('WORLD', 'AI security vulnerability breach agent safety failure problem'),
+    ('WORLD', 'AI startup funding acquisition investment enterprise technology'),
     ('RUSSIA', 'ИИ искусственный интеллект нейросети Россия технологии'),
     ('RUSSIA', 'Яндекс Сбер VK ИИ продукт технология'),
-    ('RUSSIA', 'российские компании внедрение ИИ бизнес'),
+    ('RUSSIA', 'российские компании внедрение ИИ бизнес автоматизация'),
+    ('RUSSIA', 'ИИ применение практика бизнес кейс Россия'),
+    ('RUSSIA', 'ИИ финансы промышленность медицина образование логистика Россия'),
+    ('RUSSIA', 'ИИ разработка инфраструктура модели агенты Россия'),
+    ('RUSSIA', 'ИИ безопасность уязвимость утечка проблемы Россия'),
     ('RUSSIA', 'ИИ робототехника чипы исследования Россия'),
-    ('RUSSIA', 'ИИ регулирование закон инвестиции технологии Россия')
+    ('RUSSIA', 'ИИ регулирование закон инвестиции технологии Россия'),
+    ('RUSSIA', 'российский ИИ стартап продукт платформа обзор')
 ]
 
 
@@ -131,6 +139,30 @@ APPLICATION_TERMS = {
     'внедрен', 'бизнес', 'автоматизац', 'разработч', 'программ',
     'платформ', 'инструмент', 'здравоохран', 'образован',
     'производств', 'применен'
+}
+
+
+PRACTICAL_IMPLEMENTATION_TERMS = {
+    'deployment', 'adoption', 'implementation', 'workflow', 'operations',
+    'case study', 'customer', 'revenue', 'cost', 'roi', 'inference',
+    'reliability', 'latency', 'architecture', 'integration',
+    'внедрен', 'практик', 'кейс', 'выручк', 'затрат', 'окупаем',
+    'процесс', 'операц', 'интеграц', 'архитектур', 'инфраструктур',
+    'производительност', 'стоимост', 'задержк'
+}
+
+RISK_AND_PROBLEM_TERMS = {
+    'failure', 'outage', 'incident', 'vulnerability', 'exploit',
+    'hallucination', 'privacy', 'security', 'breach', 'misuse',
+    'problem', 'risk', 'attack', 'уязвим', 'сбой', 'инцидент',
+    'галлюцинац', 'конфиденц', 'безопас', 'утеч', 'проблем',
+    'риск', 'атака', 'вред'
+}
+
+EXCLUSIVITY_TERMS = {
+    'first', 'exclusive', 'unprecedented', 'largest', 'record',
+    'major', 'billion', 'first-ever', 'впервые', 'эксклюзив',
+    'крупнейш', 'рекорд', 'миллиард', 'первый'
 }
 
 LOW_SIGNAL_TERMS = {
@@ -421,13 +453,22 @@ def editorial_value(x):
     blob = (x['title'] + ' ' + x['desc']).lower()
     source = x.get('source', '').lower().strip()
     value = x.get('score', 0)
+
     if source in QUALITY_TRUSTED:
         value += 3
     if any(term in blob for term in HIGH_IMPACT_TERMS):
         value += 3
     if any(term in blob for term in APPLICATION_TERMS):
         value += 2
-    if len(normalize(x.get('desc', ''))) < 35:
+    if any(term in blob for term in PRACTICAL_IMPLEMENTATION_TERMS):
+        value += 3
+    if any(term in blob for term in RISK_AND_PROBLEM_TERMS):
+        value += 3
+    if any(term in blob for term in EXCLUSIVITY_TERMS):
+        value += 2
+    if len(normalize(x.get('desc', ''))) >= 120:
+        value += 1
+    elif len(normalize(x.get('desc', ''))) < 35:
         value -= 3
     if any(term in blob for term in LOW_SIGNAL_TERMS):
         value -= 8
@@ -473,7 +514,7 @@ def candidate_quality(x):
 
 
 
-STORY_LOOKBACK_SECONDS = 72 * 3600
+STORY_LOOKBACK_SECONDS = 24 * 3600
 STORY_TITLE_THRESHOLD = 0.58
 STORY_BODY_THRESHOLD = 0.28
 STORY_COMBINED_THRESHOLD = 0.44
@@ -580,11 +621,17 @@ def story_anchor_tokens(x):
 
 
 def same_story(a, b):
+    # A shared company name alone is not enough to classify two events as the same story.
     sim = story_similarity(a, b)
     shared_anchors = story_anchor_tokens(a) & story_anchor_tokens(b)
-    if sim >= 0.40 and shared_anchors:
+
+    if sim >= 0.70:
         return True
-    return sim >= 0.52
+    if sim >= 0.58 and shared_anchors:
+        return True
+    if any(any(ch.isdigit() for ch in token) for token in shared_anchors):
+        return sim >= 0.54
+    return False
 
 
 def collect():
@@ -1617,11 +1664,14 @@ def publication_region_boost(s, region):
     if not history:
         return 0
     ru_share = history.count('RUSSIA') / len(history)
-    if region == 'RUSSIA' and ru_share < RUSSIA_TARGET_SHARE:
+    tolerance = 0.08
+    if region == 'RUSSIA' and ru_share < RUSSIA_TARGET_SHARE - tolerance:
         return 50
-    if region == 'WORLD' and ru_share < RUSSIA_TARGET_SHARE:
-        return -10
-    if region == 'RUSSIA' and ru_share > 0.35:
+    if region == 'WORLD' and ru_share < RUSSIA_TARGET_SHARE - tolerance:
+        return -12
+    if region == 'WORLD' and ru_share > RUSSIA_TARGET_SHARE + tolerance:
+        return 20
+    if region == 'RUSSIA' and ru_share > RUSSIA_TARGET_SHARE + tolerance:
         return -50
     return 0
 
