@@ -65,7 +65,8 @@
     "2e41fd31557b1aa78c75a05a7841970b2681dd466e2df7e27da3484347842ed1": 1788318076,
     "a87ab09a305fccda590302d56985fa56eb8bc672e469d6e7b2fc5ef6a8371bd8": 1788318372,
     "9721bf3bb2b3c7a4ac397873ceb427af0403690a306218eee5f0a33a561f1360": 1788318669,
-    "5083bc82cd39d884dd519d4ab8e3d5350f99d592e65cef0d25958226c527206f": 1788318971
+    "5083bc82cd39d884dd519d4ab8e3d5350f99d592e65cef0d25958226c527206f": 1788318971,
+    "a4cb071ee10ac0f29f062727482ea9db5cff4cb2c8d18fe2efecb06a2b6c5d27": 1788319271
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -325,7 +326,9 @@
     "22e98c5f51b3fa41f763050ba1a037eb7092b7467382067b435893d5aac1ce50": 1788318372.351865,
     "67b10a8abfe6d20b688b9fc849cd75d3fae469e4df198d2e6b49af1855de4057": 1788318669.1483605,
     "43b7500edd0d8542a9677eda47d371de3c58e2d2cec54653d49d4ea4dbaccc4a": 1788318669.1483605,
-    "6565938551d6285e1b4f2f1e6f16c8a681b1f1f862218a05d356d489fcecdd8a": 1788318669.1483605
+    "6565938551d6285e1b4f2f1e6f16c8a681b1f1f862218a05d356d489fcecdd8a": 1788318669.1483605,
+    "d3e4429153e5f36483dd8acb0f9ea854b4926310dbd84d4e032a01fb3a05b720": 1788319271.5223627,
+    "3cf38ec41bac08e7b9429561552b1c25c59ad53bfd3421a75a3d8d4278c97f92": 1788319271.5223627
   },
   "queue": [
     {
@@ -342,17 +345,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 6,
       "next_retry_at": 1788327370
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Вступил в силу закон о регулировании обращения цифровых валют - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd2YyeER3X1BuU09lTUFxSlFzcnBkRFhQTGF0NzM3TFIwUWd1c05WYlhyMkpiRFczdlU2Q05qNnNNS3Z3LUdnSGpZVkpSTXBhNG9wYnBDZGdLOXpLelIzRVNIWnBfN0pEZ3dlWlRFZGI0d0JMcWpDcmI0OHJzbE93SFd3VUlfak9yR3MzeU93V3FmdDVRLXk4eWpyS3hNbzJyS2ZqbmNya19ySGNI?oc=5",
-      "desc": "Вступил в силу закон о регулировании обращения цифровых валют prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788216810.0,
-      "score": 10,
-      "key": "a4cb071ee10ac0f29f062727482ea9db5cff4cb2c8d18fe2efecb06a2b6c5d27",
-      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -694,6 +686,17 @@
       "score": 9,
       "key": "43d7052712c237d8ab1275ffb7987816ca26195ba828391c801853235dce9b16",
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Как новый закон превратил майнеров в подопытных кроликов - rosinvest.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZTRtMlNpZnozOEF4eTQtOFk1c19zX0hVWGRQcTVwWnc1MFU0TmJPZzlBME9GMmljVEVydFNzMjlWUGJwei03dFRld0ZVQnRwa1RMMXVYZ2FZM1AwRkQ5NUZaeEN5YUdMMzRYbFZIZkxPWllSVXUtd25wUUUtb21fMkVOYjR6MmlIZ3Jn?oc=5",
+      "desc": "Как новый закон превратил майнеров в подопытных кроликов rosinvest.com",
+      "source": "rosinvest.com",
+      "time": 1788318995.0,
+      "score": 8,
+      "key": "d3e4429153e5f36483dd8acb0f9ea854b4926310dbd84d4e032a01fb3a05b720",
+      "tier": "B"
     },
     {
       "region": "RUSSIA",
@@ -1312,6 +1315,17 @@
       "tier": "B"
     },
     {
+      "region": "WORLD",
+      "title": "Digital Science’s 2026 Catalyst Grant seeks agentic AI workflows - Research Information",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUTVLamZMdUpPQzhNUjU5OGFSTllkYUx6U2x6ZEJhQ3RDN24zMUJpUDZQQkMtSnpVWXFFZllOeU5mQ0lRQTBHTjlhOGlteUZ6OExnNVRMSnYtbkFJYjJkNzZ2Nm1XTFpZbE52VlhTSWR2ZzcyYUo2NFM0UmxBckQ2SURPRHEtU1VGbEs2Mm5OSWFfcHlHejIwdWVfN2ZhVklPb2NGTnFqdHMwUQ?oc=5",
+      "desc": "Digital Science’s 2026 Catalyst Grant seeks agentic AI workflows Research Information",
+      "source": "Research Information",
+      "time": 1788253239.0,
+      "score": 7,
+      "key": "3cf38ec41bac08e7b9429561552b1c25c59ad53bfd3421a75a3d8d4278c97f92",
+      "tier": "B"
+    },
+    {
       "region": "RUSSIA",
       "title": "В Кызыле Республики Тывы заработала нейросеть для поиска преступников с точностью распознавания лиц до 99,9% – Сибирский Новостной - sibirnews.ru",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZ081clZSdEZVLVdkSTlfQndlcXJoNUNNSmJJSXVJQkFvY3B5TndVeURtSW5wMnBVWHo5ZTZTdm5JTjloMEY4TjJhTG5wcTgtMm1rMko2WFhyVGd4VW0xWURoT2ZGaGRQWkpPTW5xTmNzSGViMXdUMDZXQjdfWmt1eWljN3R2SkdkX2FNeEM4dXEwRUhHOTcxT2RDLXVQWUZObzZ5NHhzVE5iVkFSclJZVWVCajM2UmE3VFdXdmx5MXlVdGMwYjVaWEMyb2pLN3VzLVVQTA?oc=5",
@@ -1411,20 +1425,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T03:16:25.236478+00:00",
+  "last_run": "2026-09-02T03:21:55.195110+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788318971.309069,
+    "last_start_ts": 1788319271.5223627,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788318971.309069,
+    "last_success_ts": 1788319271.5223627,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788318984.8807495
+      "updated_at": 1788319314.771704
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1794,6 +1808,13 @@
       "desc": "China's CXMT makes breakthrough in advanced memory chips: report (MU:NASDAQ) Seeking Alpha",
       "source": "Seeking Alpha",
       "region": "WORLD"
+    },
+    "a4cb071ee10ac0f29f062727482ea9db5cff4cb2c8d18fe2efecb06a2b6c5d27": {
+      "time": 1788319271,
+      "title": "Вступил в силу закон о регулировании обращения цифровых валют - prospect.com.ru",
+      "desc": "Вступил в силу закон о регулировании обращения цифровых валют prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   }
 }
