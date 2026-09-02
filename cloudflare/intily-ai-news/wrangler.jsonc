@@ -1,0 +1,11 @@
+{
+  "name": "intily-ai-news",
+  "main": "./worker.js",
+  "compatibility_date": "2026-09-01",
+  "triggers": {
+    "crons": ["*/6 * * * *"]
+  },
+  "secrets": {
+    "required": ["GITHUB_DISPATCH_TOKEN"]
+  }
+}
