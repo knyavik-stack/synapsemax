@@ -110,7 +110,8 @@
     "f3a47977daec1b8b38c11522aa2156fbbfff0ee511f65cd9e8fbf1d0670c0461": 1788334277,
     "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171,
     "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370,
-    "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685
+    "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685,
+    "587e073fb67a156a88e23cad9d9ee04a8267f1d42774192cfe5567a8bba7b55b": 1788336971
   },
   "known": {
     "34bc6d5b8374bf60d6d94cbc50d52d5873d54b556434b3d940e9d7cbeef0bbf0": 1788315672.8815992,
@@ -197,7 +198,8 @@
     "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": 1788333973.3417337,
     "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": 1788335171.3303025,
     "044d215a762287bf29c3dbcf2a496a567f78cb214fc5bb3ecc8ec41de7c360ca": 1788336370.3834765,
-    "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685.5118265
+    "e92b1bfcbba6e57469854243b295209eaa8dbe1012e4890dc6e79c6a70957f67": 1788336685.5118265,
+    "587e073fb67a156a88e23cad9d9ee04a8267f1d42774192cfe5567a8bba7b55b": 1788336971.858376
   },
   "queue": [
     {
@@ -457,20 +459,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T08:11:53.365085+00:00",
+  "last_run": "2026-09-02T08:16:26.402694+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788336685.5118265,
+    "last_start_ts": 1788336971.858376,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788336685.5118265,
+    "last_success_ts": 1788336971.858376,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788336712.696552
+      "updated_at": 1788336985.8582778
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1155,6 +1157,13 @@
       "desc": "OpenAI to launch new AI model Astra soon; access to advanced cybersecurity features limited 디지털투데이",
       "source": "디지털투데이",
       "region": "WORLD"
+    },
+    "587e073fb67a156a88e23cad9d9ee04a8267f1d42774192cfe5567a8bba7b55b": {
+      "time": 1788336971,
+      "title": "AI helps researchers make the next breakthrough - University of Helsinki",
+      "desc": "AI helps researchers make the next breakthrough University of Helsinki",
+      "source": "University of Helsinki",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1171,9 +1180,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
+    "RUSSIA",
     "WORLD",
-    "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
