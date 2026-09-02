@@ -1,33 +1,52 @@
-# Intily Cloudflare Trigger Incident — 2026-09-02
+# Intily Cloudflare Scheduler Incident — 2026-09-02
 
-## Finding
+## Canonical production finding
 
-The production Cloudflare Worker `intily-ai-news` was not running the canonical scheduler implementation. Its active quick-editor versions contained direct RSS/news-processing code (`NEWS_FEED_ERROR`, `RUN_COMPLETE`) instead of dispatching the GitHub Actions workflow.
+The production Worker `intily-ai-news` is a full direct publishing engine (approximately 1,000 lines), with Cloudflare AI, KV state and Telegram secret bindings. It is **not** a short GitHub-dispatch-only Worker.
 
-Cloudflare Observability proved the Worker itself was receiving Cron events. The active code then attempted WORLD/RUSSIA RSS fetches and received HTTP 503 responses, ending cycles with zero candidates/publications. No `GITHUB_DISPATCH` events were present in the preceding 24h.
+The active production version is:
 
-This means the primary failure was **Worker implementation drift**, not a missing Cloudflare Cron event.
+- Worker version: `16997614-81e0-4676-9a2c-40d4e250d8a1`
+- Version number: `14`
+- Full bindings preserved: `AI`, `STATE`, `TELEGRAM_BOT_TOKEN`, `GITHUB_DISPATCH_TOKEN`
+- Compatibility date: `2026-09-01`
 
-## Recovery actions
+Cloudflare version history provides an immutable rollback record for the production Worker.
 
-1. Restored the canonical Cron schedule to `*/6 * * * *` on `intily-ai-news`.
-2. Confirmed only one Intily Worker exists; the historical `intily-news-trigger` Worker is absent.
-3. Confirmed GitHub Actions workflow `Intily AI News Publisher` is active and manual `workflow_dispatch` execution succeeds.
-4. Added the canonical scheduler source to GitHub under `cloudflare/intily-ai-news/worker.js`.
-5. Added `cloudflare/intily-ai-news/wrangler.jsonc` with the production Cron and required `GITHUB_DISPATCH_TOKEN` declaration.
-6. The previous direct-news Worker version was restored temporarily after a rollback test to avoid leaving a no-op Worker active.
+## Root cause
 
-## Verification evidence
+The deployed Worker source defines:
 
-- GitHub manual production run succeeded at `2026-09-02T14:15:48Z`.
-- Cloudflare Cron was observed executing on the active Worker.
-- After schedule repair, Cloudflare reported a scheduled invocation on version `45a399bc-dc0c-4d06-8dbe-c2dd039c640f` at `2026-09-02T14:24:34Z`; that historical version was a no-op and was not retained as production.
-- Production was returned to the previous active version `16997614-81e0-4676-9a2c-40d4e250d8a1` while the canonical scheduler source is prepared in GitHub.
+```js
+const CRON = '*/11 * * * *';
+```
 
-## Required final deployment
+and its scheduled handler deliberately exits unless:
 
-The canonical `worker.js` must be deployed to Cloudflare Worker `intily-ai-news` using the existing `GITHUB_DISPATCH_TOKEN` secret binding, then verified by observing a `GITHUB_DISPATCH 204` event followed by a new GitHub Actions `workflow_dispatch` run.
+```js
+if (event.cron !== CRON) return;
+```
 
-## Operational rule
+During recovery, the Cloudflare schedule had been changed to `*/6 * * * *`. Cloudflare was successfully invoking the Worker, but every invocation was ignored by the guard because `*/6` did not equal `*/11`.
 
-Cloudflare is the only production scheduler. GitHub Actions must not have a `schedule` trigger. Worker source/configuration must be maintained from the GitHub-controlled canonical files above rather than edited independently in the Cloudflare Quick Editor.
+This was the direct cause of the apparent scheduler failure.
+
+## Minimal recovery
+
+The Worker source was not replaced and no bindings were modified.
+
+The Cloudflare schedule was restored to the exact production value:
+
+`*/11 * * * *`
+
+## Safety rule
+
+Do not replace the full production Worker with a simplified implementation. Any future change must first preserve the complete source and bindings, then make the smallest possible patch.
+
+## GitHub correction
+
+An earlier recovery attempt incorrectly added a short replacement Worker under `cloudflare/intily-ai-news/`. Those files were removed because they were not the canonical production implementation.
+
+## Remaining verification
+
+The next scheduled production cycle must be observed in Cloudflare logs for the full `publish()` path (`RUN_COMPLETE`, `PUBLISHED`, or a concrete feed/AI/Telegram error). No code change is required for this scheduler mismatch fix.
