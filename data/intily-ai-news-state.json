@@ -124,10 +124,10 @@
     "ce82690aab9d1901c2cef982613ff0292a38411f6cda4cc2dc07c2e5d958c561": 1788341143,
     "4e829e5b7f111640c2a46592a69c3a80d1ec145c8b543fb6b84c387e9579f8ac": 1788341744,
     "592fabc8febe3a25ae0a86bf8ea9290033656fe15ecc025b0c653d5ae24964cb": 1788342346,
-    "2392a412fa96ac4836bb713f3f5b2d3ac712548ef6333574256f7e2d8cf19565": 1788342946
+    "2392a412fa96ac4836bb713f3f5b2d3ac712548ef6333574256f7e2d8cf19565": 1788342946,
+    "a297dd96c6430b3c8af076a20e2d3bc76c26ac952f6853184d946e191ccd440b": 1788343245
   },
   "known": {
-    "b6f710603f5f82815fbacd70131650a2bad3bc424d0b901f815077d827e9ee77": 1788321370.708288,
     "f2e887d045bb8ceb4006bda5af6f321b4b8326c7f07996338ad73a6d4158621b": 1788321971.4576359,
     "4600f3399867dcf1cac3d744e52f7d07239971c840298c781bde71d301ae66b1": 1788321971.4576359,
     "7ba1ea77ecf62c2dafe0957b8fa64b2f3d8d8146fe70c052c0812a920a57690e": 1788322577.8159125,
@@ -192,7 +192,8 @@
     "253c0bd5eef47d5120c15d5201cf6165fe62bfea76b8d1a3cb5078cb09c4f6f2": 1788340843.9721189,
     "4e829e5b7f111640c2a46592a69c3a80d1ec145c8b543fb6b84c387e9579f8ac": 1788341443.8111463,
     "592fabc8febe3a25ae0a86bf8ea9290033656fe15ecc025b0c653d5ae24964cb": 1788342346.6116998,
-    "2392a412fa96ac4836bb713f3f5b2d3ac712548ef6333574256f7e2d8cf19565": 1788342946.938898
+    "2392a412fa96ac4836bb713f3f5b2d3ac712548ef6333574256f7e2d8cf19565": 1788342946.938898,
+    "a297dd96c6430b3c8af076a20e2d3bc76c26ac952f6853184d946e191ccd440b": 1788343245.0981288
   },
   "queue": [
     {
@@ -424,20 +425,20 @@
       "topics": []
     }
   ],
-  "last_run": "2026-09-02T09:55:56.052206+00:00",
+  "last_run": "2026-09-02T10:00:56.797111+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788342946.938898,
+    "last_start_ts": 1788343245.0981288,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788342946.938898,
+    "last_success_ts": 1788343245.0981288,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788342955.4922216
+      "updated_at": 1788343256.3009174
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1220,11 +1221,17 @@
       "desc": "OpenClaw updated: The AI agent has become easier to install and received a collaboration mode open.kg",
       "source": "open.kg",
       "region": "WORLD"
+    },
+    "a297dd96c6430b3c8af076a20e2d3bc76c26ac952f6853184d946e191ccd440b": {
+      "time": 1788343245,
+      "title": "Lyte, Founded by Ex-Apple Face ID Engineers, Triples Valuation to $1.6 Billion - Bloomberg.com",
+      "desc": "Lyte, Founded by Ex-Apple Face ID Engineers, Triples Valuation to $1.6 Billion Bloomberg.com",
+      "source": "Bloomberg.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1239,6 +1246,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
