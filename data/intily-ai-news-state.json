@@ -59,7 +59,8 @@
     "2e234fabeab50d9e679742be32c39aee4c397790dd68585df2fc65b36c219ea0": 1788315968,
     "fddc17a362f708c5a794524ae120e7c8954214b54cee120213fabbceee3d71a5": 1788316271,
     "08ec5b7d7256a396803019ff9d0140e4f92e9f7313435f8d630e79c326dc407d": 1788316569,
-    "46443d7a4ddd824cf96ac64930422edcfb07b65c5254d71bde086561cc393190": 1788316869
+    "46443d7a4ddd824cf96ac64930422edcfb07b65c5254d71bde086561cc393190": 1788316869,
+    "06206c95b8c26d7c3ec025df4be89e131ee46e07e8ac0bb8c5bf6973d47dfd54": 1788317171
   },
   "known": {
     "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": 1788302122.5477576,
@@ -341,18 +342,11 @@
       "time": 1788271642.0,
       "score": 10,
       "key": "0609de3acf821ea7d3026518e2be59b7c255746e21f57a16d766b4eeaeb76df8",
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "SGS : Montenegro Issues New Toy Safety Regulations - marketscreener.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ1lFT0VhdUIxME41SXhRQWJqczgyamxoWTFnWVl6RDVNai10SGNlNWc1ZmdOME5tdUk1VXZ0bDFTZTFmRWhMTzFrSC12dWR3V1E1ekNCck1mWXo4TDRnZFNWQXFUaWxkWVNmWlhZZ2E1NDBWd09XQThqamdNM2U4TlpnTUJVblJlb29LSXMtZGRob3k2a0pTWi0tQzItZ0NXYlc4?oc=5",
-      "desc": "SGS : Montenegro Issues New Toy Safety Regulations marketscreener.com",
-      "source": "marketscreener.com",
-      "time": 1788269661.0,
-      "score": 10,
-      "key": "06206c95b8c26d7c3ec025df4be89e131ee46e07e8ac0bb8c5bf6973d47dfd54",
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788317171,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788317471
     },
     {
       "region": "WORLD",
@@ -1411,20 +1405,20 @@
       "tier": "B"
     }
   ],
-  "last_run": "2026-09-02T02:41:30.104317+00:00",
+  "last_run": "2026-09-02T02:46:47.971139+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788316869.6782753,
+    "last_start_ts": 1788317171.4825013,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788316869.6782753,
+    "last_success_ts": 1788317171.4825013,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788316889.6294076
+      "updated_at": 1788317207.4252055
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1751,6 +1745,13 @@
       "title": "This 4.5%-Yielding Pipeline Stock Just Made a $4.4 Billion Acquisition. Here's What It Means for the Dividend. - The Motley Fool",
       "desc": "This 4.5%-Yielding Pipeline Stock Just Made a $4.4 Billion Acquisition. Here's What It Means for the Dividend. The Motley Fool",
       "source": "The Motley Fool",
+      "region": "WORLD"
+    },
+    "06206c95b8c26d7c3ec025df4be89e131ee46e07e8ac0bb8c5bf6973d47dfd54": {
+      "time": 1788317171,
+      "title": "SGS : Montenegro Issues New Toy Safety Regulations - marketscreener.com",
+      "desc": "SGS : Montenegro Issues New Toy Safety Regulations marketscreener.com",
+      "source": "marketscreener.com",
       "region": "WORLD"
     }
   }
