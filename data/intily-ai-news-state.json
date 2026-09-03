@@ -230,26 +230,26 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788427984,
+      "last_failed_at": 1788428342,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788428284
+      "failure_count": 2,
+      "next_retry_at": 1788428942
     }
   ],
-  "last_run": "2026-09-03T09:37:09.285431+00:00",
+  "last_run": "2026-09-03T09:39:18.231500+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788428221.0571668,
+    "last_start_ts": 1788428342.2844996,
     "last_status": "FAILED_NO_PUBLISH",
     "last_error": "candidates exist but Telegram received zero posts",
     "last_success_ts": 1788428102.4935105,
-    "consecutive_failures": 1
+    "consecutive_failures": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788428113.773844
+      "updated_at": 1788428358.2304354
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
