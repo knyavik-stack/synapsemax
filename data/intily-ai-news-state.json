@@ -79,7 +79,8 @@
     "df2e56da45776be34c67faa03c7de424e22477d15117439282c85495c97b20f8": 1788462010,
     "1eb4957568f8cb8ba9de6316982bd5810309ff7bc3148b19f0f86ed11cae71ba": 1788462371,
     "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5": 1788463089,
-    "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269
+    "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269,
+    "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821": 1788463451
   },
   "known": {
     "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788443111.2937322,
@@ -270,22 +271,6 @@
     "990316931a14df10ee097bca325d2ef15f32dd79c168f2703d88a68f4d30f19a": 1788463269.910863
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FfMUQ1dXBYcXVnWUlNVW5kd01IM2VnNW9FdTQtemgxamtIYnRLVWNlS1FkZVdlam1HYXJFRmpITnNTTlhtSi1NNXMzREVxVnhlTXh4MUFfNTREYWxieXNUYkV4MzFhT0EySm4zbkFISHFyQURHVDBKWEZaNDZiQmRKU1pPbG5xOXR5WExVVFJxOVlvbm84eVZMQ0ctT1oyaWRCWVlR?oc=5",
-      "desc": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release The Guardian",
-      "source": "The Guardian",
-      "time": 1788460320.0,
-      "score": 73,
-      "key": "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821",
-      "importance": 73,
-      "editorial_value": 50,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. - Fortune",
@@ -609,20 +594,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788463269.910863,
+    "last_start_ts": 1788463451.6359673,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788463269.910863,
-    "last_success_ts": 1788463269.910863,
-    "last_candidates": 103,
+    "last_run_ts": 1788463451.6359673,
+    "last_success_ts": 1788463451.6359673,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788463296.8899505
+      "updated_at": 1788463454.0482295
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1195,12 +1180,18 @@
       "desc": "GK Software launches retail AI framework GK Agentic ecommercenews.com.au",
       "source": "ecommercenews.com.au",
       "region": "WORLD"
+    },
+    "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821": {
+      "time": 1788463451,
+      "title": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release - The Guardian",
+      "desc": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release The Guardian",
+      "source": "The Guardian",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -1217,8 +1208,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788463269.910863,
-  "last_publish_ts": 1788463269.910863
+  "last_publish_ts": 1788463451.6359673
 }
