@@ -110,7 +110,8 @@
     "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895": 1788472493,
     "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": 1788472733,
     "eca56de0c2442750ffeea605d7c095f87f1ed21cb6f70e322c61230567a03d81": 1788472978,
-    "9f83e7c62a3530784b733e15f099461713c865711386a83123eccd90f2974859": 1788473213
+    "9f83e7c62a3530784b733e15f099461713c865711386a83123eccd90f2974859": 1788473213,
+    "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def": 1788473454
   },
   "known": {
     "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": 1788453558.9492462,
@@ -290,24 +291,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared - newscord.org",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQ29WNUxmWllDV1YtNHE0OGdOVklMSnpSWkVybmh1YXo2MTBYNDIyclpmaDJBNUtKTmlJT1llVHdBc21FR0NwYTJtT0RFbUZ1Mm1UdTlZT2FyMEtoSzk4dFN5MVFoTmJYVlF3dFp2RkM4MDk1NUNhWDd0N0FPUnVhRVdnNGtENEZXZTdsSW56R2w3S0JiWU1GZjcxcTNDU2NTSUNjSVpQQTBIdmdpN2hFT213QXdiSF85SWVJbXhyMm1valgxOHI4WmNObTNwcjZzLWhjd2N0MkN4U2RuNWx3eHBocTl1dllIZ0E?oc=5",
-      "desc": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared newscord.org",
-      "source": "newscord.org",
-      "time": 1788468460.0,
-      "score": 63.5,
-      "key": "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788470649,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788470949
-    },
-    {
-      "region": "WORLD",
       "title": "AI’s market boom faces a rougher road ahead - weeklyblitz.net",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYlU5aWxzNWJfbWliSUhMbWZOaW9rVGNuYWV3TUJrZUhLT3BpbUJxZ0dVb25uUGhOMzdrR1ExS0tNWHZ4Vjh2bEZ3N2txX1Y4b2xZMEF6cVBiWEYwRG9DLW1HbjFHSUpxQXJTSkxBV2ZZRUFBWlh0LVRIS3g0bVJLWVNndzY?oc=5",
       "desc": "AI’s market boom faces a rougher road ahead weeklyblitz.net",
@@ -481,20 +464,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788473213.0253959,
+    "last_start_ts": 1788473454.4012637,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788473213.0253959,
-    "last_success_ts": 1788473213.0253959,
+    "last_run_ts": 1788473454.4012637,
+    "last_success_ts": 1788473454.4012637,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788473217.498298
+      "updated_at": 1788473457.6435318
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1284,10 +1267,16 @@
       "desc": "Nvidia leads the AI rally among major tech companies again — MarketWatch UA.NEWS",
       "source": "UA.NEWS",
       "region": "WORLD"
+    },
+    "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def": {
+      "time": 1788473454,
+      "title": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared - newscord.org",
+      "desc": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared newscord.org",
+      "source": "newscord.org",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1295,6 +1284,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1309,5 +1299,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788472733.8932097,
-  "last_publish_ts": 1788473213.0253959
+  "last_publish_ts": 1788473454.4012637
 }
