@@ -1,7 +1,8 @@
 {
   "published": {
     "a8b45694dc9bd4c4feee26d9e1f425176aa1428303f2973a15c506fc2ae79270": 1788440800,
-    "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788440865
+    "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788440865,
+    "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788440984
   },
   "known": {
     "a8b45694dc9bd4c4feee26d9e1f425176aa1428303f2973a15c506fc2ae79270": 1788440800.426539,
@@ -29,23 +30,6 @@
     "936ede2b5558a37f1b7fdc9d44db1f23070c206721c5b6a94612702363c9c810": 1788440800.426539
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Автомакон Роботикс запустил сервисную модель роботизации складов - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaHQ0cllwX1lwWTFqNnRJNVU3bmdFazZZLUE1VFUzZ0cyZWhFa3pLLUJRaDhFa1dvNXF5Q2hpVU04TG9kb1loZGtNT2VUc3o5TERiLTlXMTY2dmxCS0pQd3p4UUc2WnVxTHUxSTQ0N3Q1NFBmb2VVRjJZWWdxUGl2a0YzQ294M0c1bUNUeXJ2ZHBDSzlYNVk3b0pUcHJaUklHTk9VNFd1c3lLWjDSAXtBVV95cUxOMDkyX1lSZ0dxcWpNRW5xY1A2d0ZrQ1lTclhiWE1KZFpFZ1h2VWJKTlYwdGt0YTVnUlpBQU1JSEt6X2RmMFdlZnB4cnJPVk9aeTJTMkNvUldnWEVIMmU2WkJqcXhqaXNRUHRYLVFVS0Zqc3ZacF9Wd3pjRWM?oc=5",
-      "desc": "Автомакон Роботикс запустил сервисную модель роботизации складов companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788420827.0,
-      "score": 70,
-      "key": "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3",
-      "importance": 70,
-      "editorial_value": 50,
-      "topics": [
-        "models",
-        "robotics"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Google eyes coding comeback with new Gemini 3.8 Flash model - varindia.com",
@@ -305,20 +289,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788440920.3457587,
+    "last_start_ts": 1788440984.5690398,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788440920.3457587,
-    "last_success_ts": 1788440920.3457587,
+    "last_run_ts": 1788440984.5690398,
+    "last_success_ts": 1788440984.5690398,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788440868.6023781
+      "updated_at": 1788440986.9716187
     }
   },
   "stories": {
@@ -335,12 +319,20 @@
       "desc": "В СФ выступили за налоговые льготы для разработчиков ИИ-моделей worldinform.ru",
       "source": "worldinform.ru",
       "region": "RUSSIA"
+    },
+    "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": {
+      "time": 1788440984,
+      "title": "Автомакон Роботикс запустил сервисную модель роботизации складов - companies.rbc.ru",
+      "desc": "Автомакон Роботикс запустил сервисную модель роботизации складов companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788440800.426539,
-  "last_publish_ts": 1788440865.5956485
+  "last_publish_ts": 1788440984.5690398
 }
