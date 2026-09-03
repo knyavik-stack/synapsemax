@@ -55,7 +55,8 @@
     "a11a4eaf671150dfd7d7a32de4927c06238dae5f18641ba1849d01b227e66938": 1788455352,
     "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612": 1788455712,
     "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84": 1788455899,
-    "d4001a2fa9d9f6b83033b69ae8ca3b444933dc33548974131eed3a0ec352b5c6": 1788456250
+    "d4001a2fa9d9f6b83033b69ae8ca3b444933dc33548974131eed3a0ec352b5c6": 1788456250,
+    "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5": 1788456431
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -266,23 +267,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд - theins.ru",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBReU1waHU5UllJZ1J1d0JlX3dUcXVtZkM4Rnhvc25oWmJVTTBVSGdCTV9TSUhRQTNuTm1IUzRQOGxoOTg?oc=5",
-      "desc": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд theins.ru",
-      "source": "theins.ru",
-      "time": 1788446135.0,
-      "score": 66,
-      "russia_weight_bonus": 5,
-      "key": "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkQyZE9ockRxazRHU0UzUDZXemFuX1hXMnNDNmp6NHZaVjI1Z0VIUjVjVktHNmpWdWZGalRmRW1QVzAxWVkwcEwxd3BLMHVuTWNrUHNidWhtMzFrbk5sY1pfamd1UzFkeXpDREYyQzBfY1h0b0ZOd0pyWkxoYmRVU19hWXJ3SjFYcHFOSFVydTZtVUQtUDJGdXZqYmxuTFk3OUZ2bEt1WnctNHY5WTdFWnE1akhDbE3SAXtBVV95cUxPN0U5MlFWelFpaFZjMUloWFJzZndNaF92a01XcGxrbkpBSjB4MTB2ajg4czRlaW15czBESjctSkZxbUlHcHRrMEY5eEJ5Rk9XVUFjRk5kcm1YWER6VzU1cFpJdmxySXV2ckE0NG1LTlY1eWZGYi1KWEN2alE?oc=5",
       "desc": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков companies.rbc.ru",
@@ -444,20 +428,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788456250.494093,
+    "last_start_ts": 1788456431.1018753,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788456250.494093,
-    "last_success_ts": 1788456250.494093,
+    "last_run_ts": 1788456431.1018753,
+    "last_success_ts": 1788456431.1018753,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788456252.4267159
+      "updated_at": 1788456441.021972
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -862,12 +846,18 @@
       "desc": "Google introduces WeatherNext 3 AI model as a new milestone in meteorology Zamin.uz",
       "source": "Zamin.uz",
       "region": "WORLD"
+    },
+    "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5": {
+      "time": 1788456431,
+      "title": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд - theins.ru",
+      "desc": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд theins.ru",
+      "source": "theins.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -884,8 +874,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788455531.428624,
-  "last_publish_ts": 1788456250.494093
+  "last_publish_ts": 1788456431.1018753
 }
