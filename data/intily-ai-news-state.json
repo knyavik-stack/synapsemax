@@ -80,7 +80,8 @@
     "1eb4957568f8cb8ba9de6316982bd5810309ff7bc3148b19f0f86ed11cae71ba": 1788462371,
     "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5": 1788463089,
     "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269,
-    "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821": 1788463451
+    "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821": 1788463451,
+    "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": 1788463812
   },
   "known": {
     "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788443111.2937322,
@@ -336,27 +337,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Правительство обсудит применение российского ИИ в обороне, выборах - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zaDZ5RDNhTGRiTkJ5QjVNaG42OG9DLXpCTGN3NTc1MmZJMWJJTkZLbFZ5bTNQLWdFVS1hY3VHM0tydnNxNW5JWDladURrQQ?oc=5",
-      "desc": "Правительство обсудит применение российского ИИ в обороне, выборах kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788456593.0,
-      "score": 68,
-      "russia_weight_bonus": 4,
-      "key": "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7",
-      "importance": 68,
-      "editorial_value": 50,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788462910,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788463510
-    },
-    {
       "region": "WORLD",
       "title": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free - 24/7 Wall St.",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNclBySFVkWDllLTZvS28tOFZyZlFzNTRBSGw5UTVyR3hwZ2NLallPeXFENzZwWVg4Nl9mNEl0SFg0MGtKUHZxbFJrYU1BWFVwR1RJV2hfM0V2d1FzMFBtYU9XR1RWV3hxSGdreU1ZNWsxek56bWZWdEFnRFllY0ZfMnJOM1loUWl4ZTdSa1BkUnIyaExWejJyMWRzMnNndG1raEhvRl9icDExdXF5RHhtcTBISUpFZWZFcTliVld2UDRxQQ?oc=5",
@@ -594,20 +574,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788463630.841019,
+    "last_start_ts": 1788463812.4288824,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788463630.841019,
-    "last_success_ts": 1788463630.841019,
+    "last_run_ts": 1788463812.4288824,
+    "last_success_ts": 1788463812.4288824,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788463454.0482295
+      "updated_at": 1788463815.4452422
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1187,11 +1167,17 @@
       "desc": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release The Guardian",
       "source": "The Guardian",
       "region": "WORLD"
+    },
+    "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": {
+      "time": 1788463812,
+      "title": "Правительство обсудит применение российского ИИ в обороне, выборах - kommersant.ru",
+      "desc": "Правительство обсудит применение российского ИИ в обороне, выборах kommersant.ru",
+      "source": "kommersant.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -1209,8 +1195,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788463269.910863,
-  "last_publish_ts": 1788463451.6359673
+  "last_publish_ts": 1788463812.4288824
 }
