@@ -1,1 +1,372 @@
-
+{
+  "published": {
+    "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220
+  },
+  "known": {
+    "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
+    "dfb412338da19126c5aa02674932cbe49f60c2eba7c12ea1c320bf154c73f902": 1788441220.4962823,
+    "e1caa0ee3a92ca5bebc142d1f6e72a5ccf35e0e38aefe80b62382288f8403901": 1788441220.4962823,
+    "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788441220.4962823,
+    "70f88db677452620741ee0c79cd061c74c42503b1583a416be221a6a78024a52": 1788441220.4962823,
+    "8631612be4bf01a14f7d8cd9a04e4d69d4091c0513f09d5bf96ae0106f23734b": 1788441220.4962823,
+    "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b": 1788441220.4962823,
+    "4cc8b0e431df57408e6ccc8bd1ca52ab790bb88cdc59c4216da89ea474677d17": 1788441220.4962823,
+    "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": 1788441220.4962823,
+    "c26b0145afee546a9c0b92d3b9c32a7cb4775cd8e81df5590824d4e2b0a26689": 1788441220.4962823,
+    "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d": 1788441220.4962823,
+    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788441220.4962823,
+    "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": 1788441220.4962823,
+    "e39fcb9ef3fc809f9ed49077811973f9646ac447cbb5bc7ac20cbc7636a016ce": 1788441220.4962823,
+    "d9597aedfea34e253166cbace9fb527d2e20a160a382081ee9c554f8a3d958f5": 1788441220.4962823,
+    "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": 1788441220.4962823,
+    "6f987a138b348377747d5d4d9a6f95777f10560723c5c86f699b8628ec2b5cbf": 1788441220.4962823,
+    "96e5553b3b21ae77bd635eea721265d18437a5bf03171180a61f504fa568baae": 1788441220.4962823,
+    "d947bc85e51fa54f88da1cb19dae86f04ef9a6423c71f1ebc59f9b258e6122ce": 1788441220.4962823,
+    "e0acea634ced1d8809f0e720ffe1e2be8068db2c13e38343cc4bf6f67c538fe8": 1788441220.4962823,
+    "8978f4dc7c1c3d4cb000de340079b0123a8f93f645c55e026714858fe211074a": 1788441220.4962823,
+    "afdefc0ffa385f73fbdf776053b93711c3f10c6ac83c4f6feb9063579cd2dcd8": 1788441220.4962823,
+    "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb": 1788441220.4962823,
+    "73c087c5972c1f4d443a4d9424dfffc09b9f313c2c7642049a263ac876b0a83d": 1788441220.4962823,
+    "0fc6a42d7996b46b554f568dbe37dde16836c84827d1839a50ec5860faa12e75": 1788441220.4962823,
+    "79bb05af59ef74733d5a39e02e2782db583f9a3c224c0b6ea59ae2e16c68fd37": 1788441220.4962823,
+    "1035e869b6667c9b7f7a5e6379378103f491fa3fcdd04ade55e9ccae5cc03fba": 1788441220.4962823,
+    "951e56ef181fe824c96ba7462c917ee84a23f21eeaf97d78733c9cc6d6a9e8bd": 1788441220.4962823,
+    "17c3235dcd27bc9fff9a33204834648493f7eaa8831a7b00b4b637210d1ff36e": 1788441220.4962823,
+    "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3": 1788441220.4962823,
+    "f93f419b7b2f3c334671b9e8c73da983261c0499065aeb97f9766589c3b3de50": 1788441220.4962823,
+    "2d748035b45daaf3ed685147e76a9cd30ef1063b2078149170dcefbac7582b8a": 1788441220.4962823,
+    "09094ba0efce4882fad10cc1a76043390ee55b597edcc6621183cfa253191da7": 1788441220.4962823,
+    "ab440e6340b912e40e8f5463699dfc257d0772627916db126157a2b753fb57b7": 1788441220.4962823
+  },
+  "queue": [
+    {
+      "region": "WORLD",
+      "title": "Anthropic Slashes AI Costs with Release of Claude Fable 5.1 for Enterprise Workflows - streamlinefeed.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVTkwdVl2T3d3cHlVdldscHdtT3BkWkJqc1VEU2JPbzhwRWk2OTBXM2p0Q0xYYXNkYVBGTnQtVmY2X0VlQ2ZvVndISW1TSmxUUUZKQk5obks2U0NEMGMyZ3M2M0JKYUIxZC1xMWhpTWhrSjM0YmExRG1PN1NDdUEyN0FsUjNlTFRtQnJwUUxWWUtDM0tOdlhsZkgzc0JfamV5SDM0S0FiZmNhQQ?oc=5",
+      "desc": "Anthropic Slashes AI Costs with Release of Claude Fable 5.1 for Enterprise Workflows streamlinefeed.co.ke",
+      "source": "streamlinefeed.co.ke",
+      "time": 1788431754.0,
+      "score": 72,
+      "key": "dfb412338da19126c5aa02674932cbe49f60c2eba7c12ea1c320bf154c73f902",
+      "importance": 72,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "YouLabs.ai Secures Major Commercial Agreement Targeting $20 Million Annual Physical AI Platform Deployment Across Mexico - EIN News",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOREwtdUQtMXduR1dFemdlNW93bVR2Vy1BQ1lLTHpVOTRmWUstUEw1cFVscHBONFd2OXlncTZXZ00wXzB0Mi1UclVGTVJFRVZTSTlwSEwzaVg4RGxRcDU2c2w4MFgyWDFBMm1IS3VrWUxZTEx6SVIwMjRLNUNSYUJqRWZsM2p0MjlrM2FVRmdTRVVnWHJhWjVQM3NmMzJMSDkzOE5hMEFNTmdaSHN0eHBWeG8tQTgyOUdzc1ZaemNtSm9lUDZteHRmbEVUMUhwZ3BqcDJ5QlU3SHBFTTVKcUFoOFZxcGhMeFZOc1RfWllxdzUzZ28?oc=5",
+      "desc": "YouLabs.ai Secures Major Commercial Agreement Targeting $20 Million Annual Physical AI Platform Deployment Across Mexico EIN News",
+      "source": "EIN News",
+      "time": 1788439500.0,
+      "score": 71,
+      "key": "e1caa0ee3a92ca5bebc142d1f6e72a5ccf35e0e38aefe80b62382288f8403901",
+      "importance": 71,
+      "editorial_value": 50,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Автомакон Роботикс запустил сервисную модель роботизации складов - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaHQ0cllwX1lwWTFqNnRJNVU3bmdFazZZLUE1VFUzZ0cyZWhFa3pLLUJRaDhFa1dvNXF5Q2hpVU04TG9kb1loZGtNT2VUc3o5TERiLTlXMTY2dmxCS0pQd3p4UUc2WnVxTHUxSTQ0N3Q1NFBmb2VVRjJZWWdxUGl2a0YzQ294M0c1bUNUeXJ2ZHBDSzlYNVk3b0pUcHJaUklHTk9VNFd1c3lLWjDSAXtBVV95cUxOMDkyX1lSZ0dxcWpNRW5xY1A2d0ZrQ1lTclhiWE1KZFpFZ1h2VWJKTlYwdGt0YTVnUlpBQU1JSEt6X2RmMFdlZnB4cnJPVk9aeTJTMkNvUldnWEVIMmU2WkJqcXhqaXNRUHRYLVFVS0Zqc3ZacF9Wd3pjRWM?oc=5",
+      "desc": "Автомакон Роботикс запустил сервисную модель роботизации складов companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788420827.0,
+      "score": 70,
+      "key": "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3",
+      "importance": 70,
+      "editorial_value": 50,
+      "topics": [
+        "models",
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Fable 5.1 System Card: Public AI Tops Restricted Model on Stealth, Gets Bioweapons Label - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQUVIZ2dGeDd3Rnptd2ZDZjNqSWZEMjEzWTlMZHVYVmlzZDJaSmVxREFfdnlaVjVzVGVWd09nWHc0a3ZYbmVjQUJlXzJjY2hpYkN5amVCQjJlZ004TW5YNmdYXzJ5WEx5ekdSempxTUVvOTRmUFVBN2luajN4NG51NW80a3U4cHh0MnJDbnI5Tk1wLTB3RGlYWDFVQzNCRjdzMEpIeDZ1QWNiZ1pvMkVWSHJiamx0WmxRTS15OWw2VzBmY3R4MTBxM0sxcDNaUHRFUW1j?oc=5",
+      "desc": "Fable 5.1 System Card: Public AI Tops Restricted Model on Stealth, Gets Bioweapons Label Tech Times",
+      "source": "Tech Times",
+      "time": 1788439346.0,
+      "score": 69,
+      "key": "70f88db677452620741ee0c79cd061c74c42503b1583a416be221a6a78024a52",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules - theprint.in",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUGp0ZWtkU2NFOEpoOFF6WmtockM2THBseXFLZjVSc1NMT1I4cXBRYjRKOUdvSlJYRGFabTQ5UTBrempsem55NkZVRk1pZ1pZS1ZPMWRVSXYxLXh0N3B2bUZna2V2OFlQZUF2clNtSjFjWEg2LUJMaWI1STlkZkVPeW1rRjNRMGVRVkZOSHpVcTQ4T05KWEhtX2hrejNhNkJVWFEyMUduYVFHWHB1elZMWmJ2SXZua24xR2NPOXJoR1VLZDdVSGJVX1hXSHpIQWvSAdQBQVVfeXFMT0luUHpyNUFCS3JaT3NiaS1hLVo5dW82NlhfTU5ITWl6Qk12NGdvcG5ubVJQSEJDQU13Mm96UVVnemx5amhaTTlhMzZSXzFDQ3d0NVhDNk8xSmQwMWVUaGtpTHNtZFYwMTgtYWJKNGpObjVOX3czWmpLWC10eWVXRW1sYThSNDJwNGZpWXVJZlpCYlAwNnNlZ211TWxteGZXUmszRndmWXpDVzlWaHUya1FYcDRWWllPU2ZSVlo1Uk1Ba01sM3F0TF91Q2RPS2JYcHo2d3I?oc=5",
+      "desc": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules theprint.in",
+      "source": "theprint.in",
+      "time": 1788434662.0,
+      "score": 69,
+      "key": "8631612be4bf01a14f7d8cd9a04e4d69d4091c0513f09d5bf96ae0106f23734b",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYUxYLVBhNHJEZlJTaldyeVVqaXBDSGpXU3BCaDFlYjMxWGNkMHFRd0habEQ5bjhHZ09VY2tZZHVxNEl4TmQ5REN5dU1ySTE1SEZQWjZyc0kzbGk4VXF4c3doQzdPVjFQYkc0dE55OTZUelF3cDhZSU5fYVUzMTB4S0EtdDB0SVJmNjN3X2V1Q0J5akpFR1paWm00c2dhNTEycjJjc1AteDVWTGJRdjRWV2ZPTDBvZkct0gF7QVVfeXFMTlpEczJsZFh1V1RHWGZLUEJQcTVWaVJzeElzc0c0MmJnbEhqQlRBX0F0LVZXOTdyUXdrM3p3bEViTnh2QVZ3aThnYzlScFpITEdCZ1lodEV1a0JmZGdYN1U5Z3BzUHNVOHE3TlNoY2lGZUw5SWFZQm9fOUI4?oc=5",
+      "desc": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788431041.0,
+      "score": 69,
+      "key": "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "agents",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "LEAP 2026: CNTXT CEO Abdullah Jarwan on turning AI compute into capability - Gulf Business",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYkF5ZjhiU1R2NGFIS2ZyVVVnV1BtRlFjeTMtbjdVYW0tWEtmY1NsNDFrLU4ydktKQWtublZlNVNPMU9lS3dISkxJankwbWtHMTNWR0VMR3ZkVl94SkFORFV5bGhRSm0tUU1TbzMtUjRqVXczUnJXdkEyY2UxdkdiSGVoMk9RYk44VWtTZzkyQmtRM2UyWlBsRDRFVk5tZ3llMEpacQ?oc=5",
+      "desc": "LEAP 2026: CNTXT CEO Abdullah Jarwan on turning AI compute into capability Gulf Business",
+      "source": "Gulf Business",
+      "time": 1788439644.0,
+      "score": 68,
+      "key": "4cc8b0e431df57408e6ccc8bd1ca52ab790bb88cdc59c4216da89ea474677d17",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcE9jSDIxV1VwSFdpTU43SmxjSVF4X3VweEpXdnFxMGlQV0EwejgzSnNhT0xGOFF1WUkyQmo1Q2JMQ1Q4bjdsR2plVGpfc2pLQ3I3eW1IZUk4ak1DZGZ0ODhBZGU2Y1hCVEVvVmkyRE1pVjl3czgwX1JnVG5YUjhueUs3cFJWRUdSY2dZdzlQeUR6VlY4WE1vWnlRNC1Nb1VXdVZIeg?oc=5",
+      "desc": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption openPR.com",
+      "source": "openPR.com",
+      "time": 1788421004.0,
+      "score": 68,
+      "key": "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Artificial Intelligence Market Projected to Hit USD 8,716.00 Billion at a 38.50% CAGR by 2035 - EIN Presswire",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNajNkZGMxUjBHMG4xSGlSRkhvZzdjRmJIYkoxMjZXODFwcDl4YThhTHp5MW90NUNiT3VVcE9vMHBRODlZbmNPWkp4UWNmeVZaeWNZSEo3eFRUMURoeC1ZTk5tbUV4d244MWZkQTVjOTlmR1RtMnJ6ZVVwNmNVTkNiTmpQUUNnYjZwMVZPdzhUY2dqUGhEeHh5ZEFSNVU0Sm5pSm91UUZDb3o5OGNKNm1KX1BUNDZhWDYzS1V3akR5UWVyZjhvbkFzZzVfeHVfZHNCa1pXTU13?oc=5",
+      "desc": "Artificial Intelligence Market Projected to Hit USD 8,716.00 Billion at a 38.50% CAGR by 2035 EIN Presswire",
+      "source": "EIN Presswire",
+      "time": 1788437100.0,
+      "score": 66,
+      "key": "c26b0145afee546a9c0b92d3b9c32a7cb4775cd8e81df5590824d4e2b0a26689",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdkNmN2xvLUV5ZmwxTUJ2dHV0dGtLT0VwcU1EZFRMWGhMTjNpbUNQeDBoTm5FMkh4SktTVnoyWXFLVk1VSzFSV2Mtd0xuYkd4ei03VVdsUlJEa0k4MlJjRlJYRmtiOHlrcDliRmF4MmJZcl9iRExOZUtxck9mYmVuWG5JWHRWbTd6dnBUcXpkeXNmLVpxTC12TmEtQ1duUmh6SnNpU1BuY0_SAa4BQVVfeXFMTjByalk1Q0lUekR1RXVHeWxTakJPZ2htN0syWlIzWHhHRU5hR2xycjhtSTktd19BTEJiX1hjdFA1RW9JdzhYcUwyempqcV9GcWRqNjVCQVBUMUhKS0xGSXE0NENVOEZHYmhlRWVndm9LTGVOd09sY2Vtc08xRi1mX2lJRVYxVGNXblJhV1ptRmNiVmMyUXJxSW9OZ2t1UDBsR1R4UG9DOTRrazYxZEhR?oc=5",
+      "desc": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC CNBC",
+      "source": "CNBC",
+      "time": 1788437066.0,
+      "score": 66,
+      "key": "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming - Fast Company Middle East",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUXFweFBhcGl3NVQwakZLWVREMFlXRF9uT3d4NXJtVFJEcVl4aWdpUmNHY21iUmk4TG0zNUFlVFU3NFAwRm82SWU1QzgwYzFCeDZXY2d6YXo3cUc5TzgxZEFGZ2VGeVFMbFgxUmdCSlk0TGFxQTRDQUlaaEpVaFc1MFIwOHhLQmJOT0MyOG0teTdLMjY1TC1icmJWQkpZcGxTekNFclZTTE1rZ2puaGtZYUxIa0s3S3NrYmc?oc=5",
+      "desc": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming Fast Company Middle East",
+      "source": "Fast Company Middle East",
+      "time": 1788424176.0,
+      "score": 66,
+      "key": "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic and OpenAI Launch Advanced AI Models Amid Cyber Risk Concerns - Readers.id",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5YaVRRc2I1N0dlN2J4WFdKUzZqQl9nQ0tETGFfVHdvOUFOajlPWExkU3BGdVdwRXZGX1JLSGh6MklXZUxWNFBRdXJiRzhDWGxOeVNTMHZMc2FkMTZicXhQTDAzVm9QV2czenppSFEzWHJIdXQxZHJ3?oc=5",
+      "desc": "Anthropic and OpenAI Launch Advanced AI Models Amid Cyber Risk Concerns Readers.id",
+      "source": "Readers.id",
+      "time": 1788419902.0,
+      "score": 66,
+      "key": "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "PlusAI to Go Public Through SPAC Merger With Texas Ventures III - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTVyMkJSVi1SWW41ZkhjX0lIc1VGeUsyeU1DXzg1SlJrSWZ0ZTZMVVFXVzZGZGVyOTRhU2YyYndKeFJGQ1R0RktwVU0zS0dpY2w2V2JtbXVTMmZXSVJieUtrU3ZOenYxaGhMUVBHblJzbkpQQkFNVTRwd3lMdHoxaWYzaTFJaUM3Mjl5MTdB?oc=5",
+      "desc": "PlusAI to Go Public Through SPAC Merger With Texas Ventures III Unite.AI",
+      "source": "Unite.AI",
+      "time": 1788440281.0,
+      "score": 65,
+      "key": "e39fcb9ef3fc809f9ed49077811973f9646ac447cbb5bc7ac20cbc7636a016ce",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Nvidia оснастит еще один дата-центр для Anthropic - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14YWNCSElmdnFtQUdEb3FocHhmQVRPODhWZTloT0tvS0tCWl9peTBUV19nSkx4VVVjbGQ5bGhVbmRTcVlPOExCYzFNMENWdw?oc=5",
+      "desc": "Nvidia оснастит еще один дата-центр для Anthropic kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788437798.0,
+      "score": 65,
+      "key": "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Нейросети для работы: топ ИИ-сервисов - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sMl8ybFQxckI4VExDaERxX0d5a3E2dWRXcGw4OWotSFFpMnBJV1c3RXVMeHF6VGk3akRwZ0ZVM3JuWkw4Zldjd0lwc2dkdlFpRFdwWjZYa2RkdzhJc2t5VDNzZHBmYnMwYUhQWW8tZ2o0dw?oc=5",
+      "desc": "Нейросети для работы: топ ИИ-сервисов rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788435353.0,
+      "score": 62,
+      "key": "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Как ИИ выравнивает возможности участников рынка недвижимости - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNTngtQWxYZzlaVlZaWTRWV1RLNmZ2Qm84a3hkT1dQanYzSlpoU2h2a1o2eTlVRnFRcG5ucDBrOExzMFhOWGJJUGl6QUdLVFpOQWo4R1pHcDlrZmh1Ty1Tb3dodEtJV2MzbXRGRGJsSDZzT2NqVkUzQnF5ONIBe0FVX3lxTFBNTngtQWxYZzlaVlZaWTRWV1RLNmZ2Qm84a3hkT1dQanYzSlpoU2h2a1o2eTlVRnFRcG5ucDBrOExzMFhOWGJJUGl6QUdLVFpOQWo4R1pHcDlrZmh1Ty1Tb3dodEtJV2MzbXRGRGJsSDZzT2NqVkUzQnF5OA?oc=5",
+      "desc": "Как ИИ выравнивает возможности участников рынка недвижимости companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788434890.0,
+      "score": 62,
+      "key": "73c087c5972c1f4d443a4d9424dfffc09b9f313c2c7642049a263ac876b0a83d",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52ZnVnc3RxZHNaWnkwX2YzUFEzdG5ic1RpbVd5dDBSVmgybE5uUW9hMEdFMFN2ZHpOOGYxc05ORzJQSmRzU3R6UWdnSHk0VTNxQ25vMUtBSlFnbmtaRHYxd2VaYkJPYzJuMk5hakR0cm1MZGdN0gF0QVVfeXFMTnZmdWdzdHFkc1paeTBfZjNQUTN0bmJzVGltV3l0MFJWaDJsTm5Rb2EwR0UwU3Zkek44ZjFzTk5HMlBKZHNTdHpRZ2dIeTRVM3FDbm8xS0FKUWdua1pEdjF3ZVpiQk9jMm4yTmFqRHRybUxkZ00?oc=5",
+      "desc": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788434142.0,
+      "score": 62,
+      "key": "0fc6a42d7996b46b554f568dbe37dde16836c84827d1839a50ec5860faa12e75",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXNpWFFrNmlZSDM0VkxMZVFIQ3BYZW5LUWRJMkNrcjhxaGE4RjZBZXROeEFBSExYWkJfdFZDOWs2TlctSGtEWGJ6TlpqOWlOcmVQOTY3N3pjMHpESDE5MHhoSHhrX0dFOThhd05iRzVYb0ZXZDdybFBLZm5IY1ZxWFVqMTVwUy1naWZpOEtRejdNbHNEMzNDRjZjdGlHZm5fNEdrV9IBe0FVX3lxTFBDM0g3MWRaemlTcWJIb0d6d1BjNWd0ZHVtVmlkai1pVHlqejl0X0ZUVlJjTnJIeGZ3aFBMZnR1MTE5Q3lsanU1ZkZLMXk4VWRzWjRnUVZSWGtCTW02TXBLdUplNENXZnBOQTNQYjJ5elVEYTBJaFhiM2pJdw?oc=5",
+      "desc": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788426004.0,
+      "score": 62,
+      "key": "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Попов: будущее бизнеса — в генеративном ИИ - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94QzNVYUJHTk1yVXRXSVF1LUNnTTBxRVg1MGFGODdXWHRKdVVRYUVSTGhReG01d1VRQ21EMmpwdXZMazJ4ZWxrbmx4cEZzZw?oc=5",
+      "desc": "Попов: будущее бизнеса — в генеративном ИИ kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788423746.0,
+      "score": 61,
+      "key": "ab440e6340b912e40e8f5463699dfc257d0772627916db126157a2b753fb57b7",
+      "importance": 61,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    }
+  ],
+  "health": {
+    "last_start_ts": 1788441220.4962823,
+    "last_status": "OK",
+    "last_error": "",
+    "last_run_ts": 1788441220.4962823,
+    "last_success_ts": 1788441220.4962823,
+    "last_candidates": 34,
+    "last_published": 1,
+    "queue_size": 19
+  },
+  "providers": {
+    "GEMINI": {
+      "disabled_until": 0,
+      "reason": "",
+      "updated_at": 1788441234.9777446
+    }
+  },
+  "stories": {
+    "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": {
+      "time": 1788441220,
+      "title": "Nvidia to buy Hugging Face for nearly $13 billion in big bet on open AI models - Reuters",
+      "desc": "Nvidia to buy Hugging Face for nearly $13 billion in big bet on open AI models Reuters",
+      "source": "Reuters",
+      "region": "WORLD"
+    }
+  },
+  "publication_regions": [
+    "WORLD"
+  ],
+  "last_search_ts": 1788441220.4962823,
+  "last_publish_ts": 1788441220.4962823
+}
