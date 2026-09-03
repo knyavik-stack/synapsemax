@@ -369,20 +369,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Major AI Outage: Grok Trouble Blamed on Outage at Memphis Data Center - PCMag",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWFN1REY2UXkwZTNualhrR2xSeWlfODRIOGRMaWJPSldJT1hSalR6NzdWejBRX2lPOW1tSmt6bU1fNk5GVDdOOFJrdk9BMVRZT0ZfV01IMXZUS2RiczZWY1lyOWg0cmZDMldGTW54Ty1hdjlrTmlFODhUOU1UcjJubFA0UkFkSFk?oc=5",
-      "desc": "Major AI Outage: Grok Trouble Blamed on Outage at Memphis Data Center PCMag",
-      "source": "PCMag",
-      "time": 1788467409.0,
-      "score": 63.5,
-      "key": "98fa59330dbaf1e4ad72b3de451e9734bc197d37dee5b68c433db997b2a70dfb",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование - Digital Russia",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmV1b2haRFJEaGRlM3dLMU9rWDVGdHo0UUE4SS1ZZnhCdVBoYk1ib0ZhTjFhNkJYeEh4MUF3dDVUMVd6OWZiZXBXVGlSRnNfTlpseFJrbl9rbFNTTzluX0xZakY5bnFBakttbXNKQWxVUGtwbjYyNGtsTUJJN1pRN1NPdHhWSEZyN1VsUGhPQVp6cVpwV3dvOWFOTHI2azhZbHV3cXFkVE5rVGdhdVdtcmt5NA?oc=5",
@@ -519,14 +505,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788478135.6628842,
+    "last_start_ts": 1788478255.0287285,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788478135.6628842,
-    "last_success_ts": 1788478135.6628842,
+    "last_run_ts": 1788478255.0287285,
+    "last_success_ts": 1788478255.0287285,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 15
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
