@@ -59,7 +59,8 @@
     "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5": 1788456431,
     "0f8c7e484f71a8e50457f8d3ded009d59c4e556824002857c7ffff4bfb09081f": 1788456611,
     "9459f5936486b2574ca5e98c12420cc9cc9354e148636cd04df44d15c3f3eed9": 1788456970,
-    "a8acd8efb96bd5c37e6b604db02ed18cf8fe43af394d57c250c074dadf8744c9": 1788457153
+    "a8acd8efb96bd5c37e6b604db02ed18cf8fe43af394d57c250c074dadf8744c9": 1788457153,
+    "8863f4adc9909941be37d8b471e1c98116f2f6b7d5bb57582a140d18f93062ef": 1788457511
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -222,23 +223,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkQyZE9ockRxazRHU0UzUDZXemFuX1hXMnNDNmp6NHZaVjI1Z0VIUjVjVktHNmpWdWZGalRmRW1QVzAxWVkwcEwxd3BLMHVuTWNrUHNidWhtMzFrbk5sY1pfamd1UzFkeXpDREYyQzBfY1h0b0ZOd0pyWkxoYmRVU19hWXJ3SjFYcHFOSFVydTZtVUQtUDJGdXZqYmxuTFk3OUZ2bEt1WnctNHY5WTdFWnE1akhDbE3SAXtBVV95cUxPN0U5MlFWelFpaFZjMUloWFJzZndNaF92a01XcGxrbkpBSjB4MTB2ajg4czRlaW15czBESjctSkZxbUlHcHRrMEY5eEJ5Rk9XVUFjRk5kcm1YWER6VzU1cFpJdmxySXV2ckE0NG1LTlY1eWZGYi1KWEN2alE?oc=5",
-      "desc": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788436644.0,
-      "score": 66,
-      "russia_weight_bonus": 5,
-      "key": "8863f4adc9909941be37d8b471e1c98116f2f6b7d5bb57582a140d18f93062ef",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Главный организационный вопрос внедрения AI - VC.ru",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LbXE3Q0E2X3U2Y1d2cVcxR1h4WDJJY3lDSTFmMGVJSkxTTWlFZmtRZk9CdFVPNl8wUkpMenBhajY1TXdwdDc3a29tQWNqaEZoZXkwclZ1TFJxSGkxc1VocF9wdEFBeTY5b3c2bjJpSGlHT1VNbnc?oc=5",
       "desc": "Главный организационный вопрос внедрения AI VC.ru",
@@ -383,20 +367,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788457331.220222,
+    "last_start_ts": 1788457511.8404827,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788457331.220222,
-    "last_success_ts": 1788457331.220222,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 10
+    "last_run_ts": 1788457511.8404827,
+    "last_success_ts": 1788457511.8404827,
+    "last_candidates": 17,
+    "last_published": 1,
+    "queue_size": 9
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788457158.2919118
+      "updated_at": 1788457547.5862164
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -829,10 +813,16 @@
       "desc": "OpenAI Rival Moonshot Makes Blockbuster $50 Billion Move TradingView",
       "source": "TradingView",
       "region": "WORLD"
+    },
+    "8863f4adc9909941be37d8b471e1c98116f2f6b7d5bb57582a140d18f93062ef": {
+      "time": 1788457511,
+      "title": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков - companies.rbc.ru",
+      "desc": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -851,8 +841,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
-  "last_search_ts": 1788455531.428624,
-  "last_publish_ts": 1788457153.0611556
+  "last_search_ts": 1788457511.8404827,
+  "last_publish_ts": 1788457511.8404827
 }
