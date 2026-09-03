@@ -82,7 +82,8 @@
     "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269,
     "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821": 1788463451,
     "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": 1788463812,
-    "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8": 1788464169
+    "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8": 1788464169,
+    "6b05f7462ceab4812366cf0b85fd6c63d4d920d853bed78fc91a196223fdd1a6": 1788464351
   },
   "known": {
     "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788443111.2937322,
@@ -369,25 +370,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "80 тысяч камер и штраф в 30 тысяч: нейросети начали генеральную уборку в Петербурге - gorodovoy.ru",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd2ctNmMtRHlhQ3lCa3VNNUpmOVVWd1QyZUNmRzZkcDFENUx5TVhYQ005TS1qcFZ6WmxtOG00cXNScUs2dVVTYm85b0otQ3NTRWRCNVk1ZDd6RTQwMGVwX0pRVXZoUXNjWTZFMFVrUXZ3LXljYWxyREFFMW56ZTdMQXpBaWs0VE5SeEhQMkFJNzFUT0toNm1KRmxQdWg2VDE4NUxPaFFBWWtrdjA1aVlERTFrekZoSWpBOWw0SVNzMFVoNkhUTWYtWDNTX3lxWkQ1dDd2MU80RQ?oc=5",
-      "desc": "80 тысяч камер и штраф в 30 тысяч: нейросети начали генеральную уборку в Петербурге gorodovoy.ru",
-      "source": "gorodovoy.ru",
-      "time": 1788460835.0,
-      "score": 65,
-      "russia_weight_bonus": 1,
-      "key": "6b05f7462ceab4812366cf0b85fd6c63d4d920d853bed78fc91a196223fdd1a6",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788462910,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788463510
-    },
-    {
-      "region": "RUSSIA",
       "title": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года - RB.ru",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMlhsT1hCdDFmcTFKNzRaNkhWTEotUWFzT0hobVJWVG9UMFUtekpDdVd2dGpCYVVJSGJFNHdwbUVTbmx5S1NsVUJPWi1JTWhsbW5qNjBmeTluZTh3VEZkYktPeFEzNmFRa0dhTUhZU05uLU5rX3FfaGRnbWIwaUtpdWI0VnhhMTdVbG9wRERuQW5Ibkx5a2lnVmpUSklBaFJ4QTlqR1ZCckotR3pldEE1RGJBSkp4bF9SU01aLWZtNnpUVlZieTNjSDhHQTlvNGxw?oc=5",
       "desc": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года RB.ru",
@@ -559,20 +541,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788464169.7351863,
+    "last_start_ts": 1788464351.6388319,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788464169.7351863,
-    "last_success_ts": 1788464169.7351863,
+    "last_run_ts": 1788464351.6388319,
+    "last_success_ts": 1788464351.6388319,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788464171.4826393
+      "updated_at": 1788464362.817271
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1166,10 +1148,16 @@
       "desc": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. Fortune",
       "source": "Fortune",
       "region": "WORLD"
+    },
+    "6b05f7462ceab4812366cf0b85fd6c63d4d920d853bed78fc91a196223fdd1a6": {
+      "time": 1788464351,
+      "title": "80 тысяч камер и штраф в 30 тысяч: нейросети начали генеральную уборку в Петербурге - gorodovoy.ru",
+      "desc": "80 тысяч камер и штраф в 30 тысяч: нейросети начали генеральную уборку в Петербурге gorodovoy.ru",
+      "source": "gorodovoy.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -1188,8 +1176,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788463269.910863,
-  "last_publish_ts": 1788464169.7351863
+  "last_publish_ts": 1788464351.6388319
 }
