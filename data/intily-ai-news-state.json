@@ -101,7 +101,8 @@
     "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2": 1788468673,
     "37e5968466a93a75428b1a41b34893e2b97891aa722b2e19202dbafe83019aa7": 1788469032,
     "558675885987d82b720f2099d5945d2764134960531c6cb8590358018f46b494": 1788469391,
-    "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532": 1788469751
+    "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532": 1788469751,
+    "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": 1788469932
   },
   "known": {
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450498.829142,
@@ -298,27 +299,6 @@
     "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": 1788468853.2378092
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "AI Company Launches 'Central Nervous System' To Unify Physical And Agentic AI - Automation World",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN0p4QUlGczBYVzEtRzNVQlp3Wmw1OUVZOG5CelF5R2VWbVM0MTR5QTgwSlpzek9oa3JpUW0yQnUtZFNRY29xVDh1aGFwSXd0cFBmT0NJSkhjSU85bF95RHZsZlFFNVFveWs5M3hEZHE1T3RDbTJZYjhQclJTUFZadFhhaHR5Nkh0T3loMi1PSFk1YkRsb3h1OXFsTGVaNTBpbnhhejI0Wk1yWDVHZTM0Tlhha3RSdDNVY2R4Q2RLa0ozSEpVOE1NY19KZw?oc=5",
-      "desc": "AI Company Launches 'Central Nervous System' To Unify Physical And Agentic AI Automation World",
-      "source": "Automation World",
-      "time": 1788467068.0,
-      "score": 76,
-      "key": "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f",
-      "importance": 76,
-      "editorial_value": 50,
-      "topics": [
-        "agents",
-        "applications"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788469751,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 3,
-      "next_retry_at": 1788470951
-    },
     {
       "region": "WORLD",
       "title": "AI & Tech Brief: The tech contracting shake-up - The Washington Post",
@@ -582,20 +562,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788469751.3686213,
+    "last_start_ts": 1788469932.9400756,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788469751.3686213,
-    "last_success_ts": 1788469751.3686213,
+    "last_run_ts": 1788469932.9400756,
+    "last_success_ts": 1788469932.9400756,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 17
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788469804.191488
+      "updated_at": 1788469937.1004384
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1322,10 +1302,16 @@
       "desc": "Physics Breakthrough May Boost AI Memory, Learning Mirage News",
       "source": "Mirage News",
       "region": "WORLD"
+    },
+    "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": {
+      "time": 1788469932,
+      "title": "AI Company Launches 'Central Nervous System' To Unify Physical And Agentic AI - Automation World",
+      "desc": "AI Company Launches 'Central Nervous System' To Unify Physical And Agentic AI Automation World",
+      "source": "Automation World",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1342,10 +1328,11 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788468853.2378092,
-  "last_publish_ts": 1788469751.3686213
+  "last_publish_ts": 1788469932.9400756
 }
