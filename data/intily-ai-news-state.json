@@ -193,7 +193,8 @@
     "118674a60488edb4fff79dfc397400e4da217fb97c11956de7137cd4aff0d2b8": 1788437559,
     "dfb412338da19126c5aa02674932cbe49f60c2eba7c12ea1c320bf154c73f902": 1788437686,
     "6f987a138b348377747d5d4d9a6f95777f10560723c5c86f699b8628ec2b5cbf": 1788437748,
-    "afdefc0ffa385f73fbdf776053b93711c3f10c6ac83c4f6feb9063579cd2dcd8": 1788437865
+    "afdefc0ffa385f73fbdf776053b93711c3f10c6ac83c4f6feb9063579cd2dcd8": 1788437865,
+    "6f4f232697367d24ab3c44bfaa54034aa92515043d130b9356c9e5710ee1f95c": 1788437981
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -342,10 +343,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788437865,
+      "last_failed_at": 1788437981,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 3,
-      "next_retry_at": 1788439065
+      "failure_count": 4,
+      "next_retry_at": 1788440381
     },
     {
       "region": "RUSSIA",
@@ -433,7 +434,11 @@
       "topics": [
         "business"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788437981,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788438281
     },
     {
       "region": "WORLD",
@@ -449,7 +454,11 @@
       "topics": [
         "applications"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788437981,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788438281
     },
     {
       "region": "WORLD",
@@ -467,24 +476,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788437439,
+      "last_failed_at": 1788437981,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788437739
-    },
-    {
-      "region": "WORLD",
-      "title": "The Illusion of Diversification in the Age of AI - Penn Mutual Asset Management",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNmhPTHlOUEFJeXRhTXN1RlF2S0pNOWkxNEEzM1VxYUM4eDdkcmx3VjBVdGoxU2lmSzF2REtIWS1Ca0loZVB0QzFpbk43RlhGdFdKSTdKeHVKWkZFY05ESjJoNHhGYjFVa2dSZF9YbEZlbDA1VV83bVpDTHUtdHd1WGJweXdjSG4tRmNJaTNIazBoakZSNnNrVjgtdXQ4YS1YSE5FWnkyR2p2dnFCYXk2VmFtblZ1NUw0dUdVVDd2b0MyamMyTWlEWVVWMkJGQQ?oc=5",
-      "desc": "The Illusion of Diversification in the Age of AI Penn Mutual Asset Management",
-      "source": "Penn Mutual Asset Management",
-      "time": 1788433441.0,
-      "score": 62,
-      "key": "6f4f232697367d24ab3c44bfaa54034aa92515043d130b9356c9e5710ee1f95c",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
+      "failure_count": 2,
+      "next_retry_at": 1788438581
     },
     {
       "region": "WORLD",
@@ -574,21 +569,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788437921.1869972,
+    "last_start_ts": 1788437981.309747,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788437921.1869972,
+    "last_success_ts": 1788437981.309747,
     "consecutive_failures": 1,
-    "queue_size": 17,
+    "queue_size": 16,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788437921.1869972
+    "last_published": 1,
+    "last_run_ts": 1788437981.309747
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788437872.2576876
+      "updated_at": 1788438076.8555398
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1021,12 +1016,18 @@
       "desc": "Moonshot AI Targets $3B Hong Kong IPO at $50B Valuation Blockonomi",
       "source": "Blockonomi",
       "region": "WORLD"
+    },
+    "6f4f232697367d24ab3c44bfaa54034aa92515043d130b9356c9e5710ee1f95c": {
+      "time": 1788437981,
+      "title": "The Illusion of Diversification in the Age of AI - Penn Mutual Asset Management",
+      "desc": "The Illusion of Diversification in the Age of AI Penn Mutual Asset Management",
+      "source": "Penn Mutual Asset Management",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1041,10 +1042,11 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788437619.555675,
-  "last_publish_ts": 1788437865.8426733
+  "last_publish_ts": 1788437981.309747
 }
