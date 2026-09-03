@@ -111,7 +111,8 @@
     "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": 1788472733,
     "eca56de0c2442750ffeea605d7c095f87f1ed21cb6f70e322c61230567a03d81": 1788472978,
     "9f83e7c62a3530784b733e15f099461713c865711386a83123eccd90f2974859": 1788473213,
-    "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def": 1788473454
+    "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def": 1788473454,
+    "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76": 1788473754
   },
   "known": {
     "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": 1788453558.9492462,
@@ -291,20 +292,6 @@
     },
     {
       "region": "WORLD",
-      "title": "AI’s market boom faces a rougher road ahead - weeklyblitz.net",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYlU5aWxzNWJfbWliSUhMbWZOaW9rVGNuYWV3TUJrZUhLT3BpbUJxZ0dVb25uUGhOMzdrR1ExS0tNWHZ4Vjh2bEZ3N2txX1Y4b2xZMEF6cVBiWEYwRG9DLW1HbjFHSUpxQXJTSkxBV2ZZRUFBWlh0LVRIS3g0bVJLWVNndzY?oc=5",
-      "desc": "AI’s market boom faces a rougher road ahead weeklyblitz.net",
-      "source": "weeklyblitz.net",
-      "time": 1788468243.0,
-      "score": 63.5,
-      "key": "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle - GeekWire",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRGlVV3NTeERsaUdBVVBuYmpGU3k1bkppNnZ6Y3p0LW1QejB2OURTREl6NWFENTBzQlNMajJOVEZwbTR3WFdITjJwLWNkaUdRV1djWmh2RXpqMnRxMzVONG51NkU0MEp6VnI3TlBLeEF6VkpGWHVzWDBhbFc4ZC01cjVLY0t4X0FDaWhqM2JaclNZaGJwRzAxcnM2dFVKU0gyLTFZcy01SGZ4TnBzdGZlcUdqVkNiakV3VmgxMU1kZUtvdw?oc=5",
       "desc": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle GeekWire",
@@ -450,20 +437,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788473574.3553138,
+    "last_start_ts": 1788473754.6302958,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788473574.3553138,
-    "last_success_ts": 1788473574.3553138,
+    "last_run_ts": 1788473754.6302958,
+    "last_success_ts": 1788473754.6302958,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 11
+    "last_published": 1,
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788473457.6435318
+      "updated_at": 1788473756.441901
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1260,10 +1247,16 @@
       "desc": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared newscord.org",
       "source": "newscord.org",
       "region": "WORLD"
+    },
+    "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76": {
+      "time": 1788473754,
+      "title": "AI’s market boom faces a rougher road ahead - weeklyblitz.net",
+      "desc": "AI’s market boom faces a rougher road ahead weeklyblitz.net",
+      "source": "weeklyblitz.net",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1282,8 +1275,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788472733.8932097,
-  "last_publish_ts": 1788473454.4012637
+  "last_publish_ts": 1788473754.6302958
 }
