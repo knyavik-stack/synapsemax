@@ -32,7 +32,8 @@
     "c6a1817d588e2d3bef106d680bba633e9a5f38d4176338d8bd0b895dfea049d4": 1788449232,
     "f33a87c3ac9705c6d5e085cccea2ead26c56796d6169b4596256bac37cda886f": 1788449413,
     "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c": 1788449769,
-    "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": 1788449952
+    "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": 1788449952,
+    "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": 1788450319
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -156,20 +157,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года - itweek.ru",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwakFFbGJTaHF1aVo4cUJ5cXdMRnNDN0ZhZWdBaEZaeGpUbkZRdkp5RGs2TUNBWGFycXpQRFF1ck5sY0xhSExReHRjaTdoS2I0c2pDZ1BnOHE4cTU0NkE?oc=5",
-      "desc": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года itweek.ru",
-      "source": "itweek.ru",
-      "time": 1788440349.0,
-      "score": 62,
-      "key": "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdnpqamp3SmNZMHVlb1o3TUVuLUlFUVRGc181Mkp4UDNzQlpSUDgxMzF0Z1BhNHFjaGV2eW9nYU9mb0RUd3IzWkxLOUZlNTlaaGVfeFVNY2ZhcVM3eFlpTzFtLUN6Y0hDcnNWTmpSQS0xeDVxRzJqMWVEcktYMERlLXVMTEpYX3psTm05TkdMWmNBeUNySzYwOEh5NHdDSE50anJGczE4SkRlbFR3Um5tcy12ZTlGTHlUbG5OUE5xMXk?oc=5",
       "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
@@ -244,20 +231,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788450131.282474,
+    "last_start_ts": 1788450319.6526396,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788450131.282474,
-    "last_success_ts": 1788450131.282474,
+    "last_run_ts": 1788450319.6526396,
+    "last_success_ts": 1788450319.6526396,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 9
+    "last_published": 1,
+    "queue_size": 8
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788450011.594367
+      "updated_at": 1788450327.263596
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -501,10 +488,16 @@
       "desc": "Meta, Google join the AI launch party The Rundown AI",
       "source": "The Rundown AI",
       "region": "WORLD"
+    },
+    "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": {
+      "time": 1788450319,
+      "title": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года - itweek.ru",
+      "desc": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года itweek.ru",
+      "source": "itweek.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -523,8 +516,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788448692.8999186,
-  "last_publish_ts": 1788449952.6143203
+  "last_publish_ts": 1788450319.6526396
 }
