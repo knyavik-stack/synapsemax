@@ -208,7 +208,8 @@
     "a101ef6b9a4f1a92e24ba064ae4c1d9a1fbee787bf484e393dd257133ee1c6ab": 1788439063,
     "958aa4c2a7bb1dca32f4cb766e2c78b5b66fde9644979eb622424e5d0e740fab": 1788439188,
     "5f88f9742669cbc49af1741e4b7336a3dee31c41297044910a00ac6a3bfc482d": 1788439301,
-    "a8b45694dc9bd4c4feee26d9e1f425176aa1428303f2973a15c506fc2ae79270": 1788439424
+    "a8b45694dc9bd4c4feee26d9e1f425176aa1428303f2973a15c506fc2ae79270": 1788439424,
+    "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe": 1788439487
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -336,22 +337,6 @@
     "12da18e71bcd8de9a25340906dcc64eb6bfd816010cc890bc2c8b456c2707dac": 1788439424.8644028
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Google eyes coding comeback with new Gemini 3.8 Flash model - varindia.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObzFfV2hVdDhIUHdsUVJwdk8xbmxtZHE4Q3Y1dkVFdWNjc1VTTW9WY0VIUmFrNE1seDZYdFJrVlBDbjFfUEJuMEc0Z1BtdGlYcGZ6dm84cnpNMTJSS0FHUWR2allRS200SjJXcV9oLXN2RUUwRFRGOHQxTFBvcFBmaldTNlpJM2NlbVVaSV9PdU5fMlE?oc=5",
-      "desc": "Google eyes coding comeback with new Gemini 3.8 Flash model varindia.com",
-      "source": "varindia.com",
-      "time": 1788436799.0,
-      "score": 72,
-      "key": "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe",
-      "importance": 72,
-      "editorial_value": 50,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules - ThePrint",
@@ -507,21 +492,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788439424.8644028,
+    "last_start_ts": 1788439487.2223148,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788439424.8644028,
+    "last_success_ts": 1788439487.2223148,
     "consecutive_failures": 1,
-    "queue_size": 11,
-    "last_candidates": 33,
+    "queue_size": 10,
+    "last_candidates": 0,
     "last_published": 1,
-    "last_run_ts": 1788439424.8644028
+    "last_run_ts": 1788439487.2223148
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788439438.9065218
+      "updated_at": 1788439494.2639396
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1059,10 +1044,16 @@
       "desc": "Google launches Gemini 3.8 Flash coding model, dodges AdX breakup Yahoo Finance",
       "source": "Yahoo Finance",
       "region": "WORLD"
+    },
+    "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe": {
+      "time": 1788439487,
+      "title": "Google eyes coding comeback with new Gemini 3.8 Flash model - varindia.com",
+      "desc": "Google eyes coding comeback with new Gemini 3.8 Flash model varindia.com",
+      "source": "varindia.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1080,9 +1071,10 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788439424.8644028,
-  "last_publish_ts": 1788439424.8644028
+  "last_publish_ts": 1788439487.2223148
 }
