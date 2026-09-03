@@ -49,7 +49,8 @@
     "2f0573b75f76a7be7c6c6166774937bc02457c1836e4abc6cea6a2d971504b4b": 1788453558,
     "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": 1788453913,
     "fd700f2017564779e5b5f62708e2322272fd9e63b05613d91f2fe5e4cf8377f6": 1788454269,
-    "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819": 1788454459
+    "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819": 1788454459,
+    "5d1178d9bcfea5f83b482b70bde9035e03008b98ae7d69dd641c06ba10ef7046": 1788454813
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -306,21 +307,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "«Ростелеком» предупреждает: кибермошенники вовлекают подростков в преступные схемы с помощью ИИ - РИА Калмыкия",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeFROQUE5ZUZOd2FsSFkxVDFGcldOdG1yNURvTVEtel9aV1NpWmp2eUpzOGRnTFlqRTBWUXZRNG9jVXU2cFYtS1hTNlBQdGJHODF2VGowQ0xWU3owVUZabXQxWmMzTENQaktLUEVsdTZsaGFBekUwenVxVDQ5YVBlcUhYRXpRV2Rid0tVUnlyeVVMcFAycWNrdmRyRy1lb1RFRHg1ZkNjOTJTallNTVRPWEtqV2hPOXZ3QTRZa2xCR0FJcFd1OU1GZHBvcGgxSGN2WnpJTi15Tk1Ma3M5TGpEbl9FVEhVUQ?oc=5",
-      "desc": "«Ростелеком» предупреждает: кибермошенники вовлекают подростков в преступные схемы с помощью ИИ РИА Калмыкия",
-      "source": "РИА Калмыкия",
-      "time": 1788444037.0,
-      "score": 67,
-      "key": "5d1178d9bcfea5f83b482b70bde9035e03008b98ae7d69dd641c06ba10ef7046",
-      "importance": 67,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "russia_weight_bonus": 5
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов - Компьютерра",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS1F5d0pOLW5KLWc0MFo3NkZjaWVoaDhNODBINWNrdEdxV0Uyd0RlUDNMbGplTzQwZXh4YnhtVFBtaFJPeEw2eG11TlJuWlhLN0J4OU1UcjhlN2tHVV9ULWlnWnlubWNrMmNKVWE1VUoyZVJtVlN5VDl6TDdzWnFDdlMxc3RxRkU5emZKejJXZmpNWTFIb3dHcEphQXQ4ZWUxZzVaV0x6amJYckRabzNvZjV1VU9yZGdSclNn?oc=5",
       "desc": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов Компьютерра",
@@ -468,20 +454,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788454630.8163154,
+    "last_start_ts": 1788454813.2921672,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788454630.8163154,
-    "last_success_ts": 1788454630.8163154,
+    "last_run_ts": 1788454813.2921672,
+    "last_success_ts": 1788454813.2921672,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788454464.1341248
+      "updated_at": 1788454830.4288228
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -844,10 +830,16 @@
       "desc": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts Межа. Новини України.",
       "source": "Межа. Новини України.",
       "region": "WORLD"
+    },
+    "5d1178d9bcfea5f83b482b70bde9035e03008b98ae7d69dd641c06ba10ef7046": {
+      "time": 1788454813,
+      "title": "«Ростелеком» предупреждает: кибермошенники вовлекают подростков в преступные схемы с помощью ИИ - РИА Калмыкия",
+      "desc": "«Ростелеком» предупреждает: кибермошенники вовлекают подростков в преступные схемы с помощью ИИ РИА Калмыкия",
+      "source": "РИА Калмыкия",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -866,8 +858,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788453558.9492462,
-  "last_publish_ts": 1788454459.140531
+  "last_publish_ts": 1788454813.2921672
 }
