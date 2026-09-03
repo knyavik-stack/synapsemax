@@ -37,7 +37,8 @@
     "f191a9d3a2d714da447ddc5841afdc646df222636affa0f63d8623899aca9b89": 1788450670,
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450851,
     "ff56ca85428e7e5ad63b9cf26d58918bd9e0ca775fe53e00c7c8958c552373e9": 1788451032,
-    "2b963ce9d33fb9519fdd59ec27db31536cba6761636a0a144dc7bc7e0ecfacf2": 1788451389
+    "2b963ce9d33fb9519fdd59ec27db31536cba6761636a0a144dc7bc7e0ecfacf2": 1788451389,
+    "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": 1788451571
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -140,9 +141,60 @@
     "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": 1788450498.829142,
     "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84": 1788450498.829142,
     "56461e8bf0060776349654fb1f30c0e4455ec85eccab272fffc496970a07cc4f": 1788450498.829142,
-    "e8e5136b9882542357b5954c67200bffa6ee7bbc04e8645335c90663af0507a4": 1788450498.829142
+    "e8e5136b9882542357b5954c67200bffa6ee7bbc04e8645335c90663af0507a4": 1788450498.829142,
+    "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": 1788451571.478552,
+    "de4d76498fe079f793645cb510a5fb3912adf9320ce30d745433599ae4825db9": 1788451571.478552,
+    "d3be58b2f693946a67cf1edf60b8f6d53fa1b8ca998a9913be4c9c04d5245b8c": 1788451571.478552,
+    "f3f9df884412cb4ac8bc9860916ed0bc515f96527dcc45f01ccdfd1dff66ba2c": 1788451571.478552,
+    "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5": 1788451571.478552,
+    "e0a22d14628fe23455b724231422c45f7538fe680e53131f391b17d2d9fe5dd3": 1788451571.478552,
+    "c693134e8e46e42349350f8f41bec8b33fcb189249b7a0c82f3b63969c757de0": 1788451571.478552,
+    "ceabecdb3b4324a0f5e9cc75fa51de0a653afce047944b7d9c92b8e65943f0bd": 1788451571.478552,
+    "0aa9bc8cf2ad79dec2d21a588d9f8eceb62bffb6e2dcaf12fe6e11fd6066a04e": 1788451571.478552,
+    "c4f952b8fd63d7393306aa29fa4a73c1807b580897422fc304d9d903688f01ae": 1788451571.478552,
+    "a346b6ecd7c194fcd61a1da672b2793d12bf264afc6ac3af6c9ca0379811d8e2": 1788451571.478552,
+    "1f48f3f2e33577a983748faa7001b0a06814a2e95a60f2317476d28ad0a5d491": 1788451571.478552,
+    "60364d67b41fea6cd20aa285b1c58733d124296d3cda715f4ae9c5adc083ecab": 1788451571.478552,
+    "816cbf57f162921b5985850454cbe0969e295a9925c0dd019d939fc3bab087cf": 1788451571.478552,
+    "4204465aca2eb3deda98fee5e2b856896f4b1f5e5aa0788bc7fda198ab03d3f6": 1788451571.478552,
+    "747f2893ba183e6b703ff0a0d331f19ea168757d4ce98a750cc02977caf6f367": 1788451571.478552,
+    "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b": 1788451571.478552
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "Agentic AI in Cybersecurity - Security Boulevard",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5oMlFGSEphSDZ2Y09HRHZaNlVzRV9RN243aUxtb1kya2Z0QVdoTVJnTjNyVzRKTlVGWG5EOUs1NGxfTnNtTHl1cFM5T25ITEQ4a1FmWC1nbndiS0d3SHNpeFB4UWEtTGRKN0VJYURrTHNYZlBW?oc=5",
+      "desc": "Agentic AI in Cybersecurity Security Boulevard",
+      "source": "Security Boulevard",
+      "time": 1788449108.0,
+      "score": 73,
+      "key": "d3be58b2f693946a67cf1edf60b8f6d53fa1b8ca998a9913be4c9c04d5245b8c",
+      "importance": 73,
+      "editorial_value": 50,
+      "topics": [
+        "agents",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Израильский стартап наймет сотни специалистов для внедрения ИИ у клиентов - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaTd0TGxvODdGRktTblY0NHY2bVJmU0YzZVg0NENjOTR0VFZtNzhoWnZOTmZIbGtnWmZLckZjZmhfV2IydmMwTF9TRHpkQVJfZ0ZhaGNpcHhKbnpwWE1hSU1IMUdkU1AxWG80NnZCTUNVR0ptSkc3bzZBdHhwb3VET2pINGZLQzRxNGlMclRqazNESWtRcWJibTNfNk9OdGZmNUdGOWE4a2h0OHhvaFlaYnljS24yemls?oc=5",
+      "desc": "Израильский стартап наймет сотни специалистов для внедрения ИИ у клиентов prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788451265.0,
+      "score": 72,
+      "russia_weight_bonus": 1,
+      "key": "de4d76498fe079f793645cb510a5fb3912adf9320ce30d745433599ae4825db9",
+      "importance": 72,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "Google says its AI weather model is getting better - The Verge",
@@ -194,6 +246,41 @@
       "tier": "A"
     },
     {
+      "region": "RUSSIA",
+      "title": "CEO Nvidia призвал G20 не регулировать «теоретические угрозы» ИИ - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRG1ESTlsejRmLUJlTE5VZHhaWmUySWpkRllWNGZtV0p6ajZhMjI4NGpPOElmZThUZWtodGlHSl9JMzdRaTVIWTg2dUJxdzhOckNCZ0dvX2kySUdHRmxxX1A2OTgyc3FJSlBnRkhRS29oRkxOU0ZPUTFzZEt6ZkFkN2REUUJwcE1LcC1uSGd5WTQwTUpNRzVjOHpvQ0xUZzNDYjNReTB6VQ?oc=5",
+      "desc": "CEO Nvidia призвал G20 не регулировать «теоретические угрозы» ИИ prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788451253.0,
+      "score": 69,
+      "russia_weight_bonus": 2,
+      "key": "f3f9df884412cb4ac8bc9860916ed0bc515f96527dcc45f01ccdfd1dff66ba2c",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "chips",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "«Агентная революция превратила каждого из нас в супергероя» - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RcUpFMnNlU05XYUllVlBRdXNUazVEenYtTF9ucU5qSWNzLUF2YzlxSEVlOTdvSVIyTF9hRy1pWFF6TVEyZDJ0cWczbnpZZw?oc=5",
+      "desc": "«Агентная революция превратила каждого из нас в супергероя» kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788449037.0,
+      "score": 69,
+      "russia_weight_bonus": 1,
+      "key": "e0a22d14628fe23455b724231422c45f7538fe680e53131f391b17d2d9fe5dd3",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "70% of Indian Banks Run AI in Production as Security Concerns Limit Scale: Zeta - FF News",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdENZSmstZ0FTVFh5b1Y5SzdUSjVHY2s4bUdQT05rTkYxdEs0QzBHcmZOYzlKbFp6OGMwVFh6YXcyb2M5aVhkM010cWJlaXVqZ19MSS04YnlJc1BTdllGSkk2TnFyVUJuZVdRUjFfVkdsR3VwZm1vbDdjNjFrLUo0TktZVHNpQTEyQXpuRVNad0RGSVRQY20xYnV1RFBHRlBjd2hmdnJ6ZnZrTFdqWDgwdXZlZw?oc=5",
@@ -206,6 +293,23 @@
       "editorial_value": 50,
       "topics": [
         "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Palo Alto Networks Acquires AI Startup Console for $500M to Boost Autonomous Security Platform - AI Insider",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON3Frbkw2c0hYa0k5YjZlaThRUnpNYU1NcFRVTGh2d3BNTkR5Y2JZTDVlMjEteXBHUmNTSWZlcmNJQWp1d2ZweE9jb01zeFg3MkdWR2REUk02eDROdmtKSE1YdV9hWDBfdDU4S1lpeFlTRndHelJuVTI1YmRtN0h5Q2hrUnMxbF9Xb09Zd3FERC03NmJqMllaYnBGQTZMUG91SDhSRk4tYkhKVUIzT3RIUzlQMUxoeU5OeVdqbVhSRVVYZFd2WFpWMGxqYw?oc=5",
+      "desc": "Palo Alto Networks Acquires AI Startup Console for $500M to Boost Autonomous Security Platform AI Insider",
+      "source": "AI Insider",
+      "time": 1788447528.0,
+      "score": 69,
+      "key": "c693134e8e46e42349350f8f41bec8b33fcb189249b7a0c82f3b63969c757de0",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "security_regulation",
+        "tools"
       ],
       "tier": "A"
     },
@@ -227,33 +331,20 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Nvidia (NVDA) Stock: Surge as $12.93B Hugging Face Acquisition Expands AI Dominance - blockonomi.com",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0xqdlNlNUpzVnhNQzdaMkw5Z2lZWXI4Z0ZnOUtTdnJINW1leU1nbzZpU0tFUmV3V1ZQODZvVjk2TEpLbDZHQWdIdGMwVjVJcWJMZFR4RkRGN1pqcFk3R05MQmtWM3hnV3ltMFRIV0FoQzdnV2k4OHM3ZE1Td205WDM4cEFrUDllWUYyQUQ0azZ3dWV5SC0zOG5NQkpSdlZ6TnBxWnFn?oc=5",
-      "desc": "Nvidia (NVDA) Stock: Surge as $12.93B Hugging Face Acquisition Expands AI Dominance blockonomi.com",
-      "source": "blockonomi.com",
-      "time": 1788443734.0,
+      "region": "RUSSIA",
+      "title": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд - theins.ru",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBReU1waHU5UllJZ1J1d0JlX3dUcXVtZkM4Rnhvc25oWmJVTTBVSGdCTV9TSUhRQTNuTm1IUzRQOGxoOTg?oc=5",
+      "desc": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд theins.ru",
+      "source": "theins.ru",
+      "time": 1788446135.0,
       "score": 66,
-      "key": "c3d2f0fd5469686aea27cf24f765ef417dfcae3664c7968780e7f5ea1bd7e666",
+      "russia_weight_bonus": 5,
+      "key": "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5",
       "importance": 66,
       "editorial_value": 50,
       "topics": [
         "chips"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Moonshot AI’s $3B Hong Kong IPO Filing Is Beijing’s Blueprint for Sovereign AI Capital - forkast.news",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNellsN2ZyaXZIc0poeUtEUzdBZjcxaWVCdXhUU0lPZk0zX0lWWDFmWmk1Ym9SUHJ0NU14RTJCX1BBejgtSjAtN3pxQlU1dkc0OG1jYjg1Y1o4RGhYYk1rVnYzRGx6V0xCUkt3S1dNZi03NE9zNlMtLWEzRWx5UHRfUDVIbHFGMTQxU1VGWUhVS0F3ZzhtQWJ3b1FoaHpmMnBqQXNFZFZpOEc?oc=5",
-      "desc": "Moonshot AI’s $3B Hong Kong IPO Filing Is Beijing’s Blueprint for Sovereign AI Capital forkast.news",
-      "source": "forkast.news",
-      "time": 1788450182.0,
-      "score": 65,
-      "key": "44eb0e20d9c2b5aaede1388fc513a5a82df6341f2fe4c36feec303e9c1984670",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -307,6 +398,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ - ФОНТАНКА.ру",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ONU1lb3REWUV4dnU1RzRLc1ZKT201MFBwYUc5UmhmV0pINEJyczJBX05PczhNY1E3YkNzdUxqOU5JNFhVbHo1STVKMVAxSl9MekRWVlpB?oc=5",
+      "desc": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ ФОНТАНКА.ру",
+      "source": "ФОНТАНКА.ру",
+      "time": 1788447607.0,
+      "score": 62,
+      "russia_weight_bonus": 3,
+      "key": "1f48f3f2e33577a983748faa7001b0a06814a2e95a60f2317476d28ad0a5d491",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "«Ростелеком» предупреждает: кибермошенники вовлекают подростков в преступные схемы с помощью ИИ - РИА Калмыкия",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQeFROQUE5ZUZOd2FsSFkxVDFGcldOdG1yNURvTVEtel9aV1NpWmp2eUpzOGRnTFlqRTBWUXZRNG9jVXU2cFYtS1hTNlBQdGJHODF2VGowQ0xWU3owVUZabXQxWmMzTENQaktLUEVsdTZsaGFBekUwenVxVDQ5YVBlcUhYRXpRV2Rid0tVUnlyeVVMcFAycWNrdmRyRy1lb1RFRHg1ZkNjOTJTallNTVRPWEtqV2hPOXZ3QTRZa2xCR0FJcFd1OU1GZHBvcGgxSGN2WnpJTi15Tk1Ma3M5TGpEbl9FVEhVUQ?oc=5",
       "desc": "«Ростелеком» предупреждает: кибермошенники вовлекают подростков в преступные схемы с помощью ИИ РИА Калмыкия",
@@ -335,6 +441,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Чипы обеспечили корейский бюджет - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pbjhCTUZTTDliQTBMOEZTcDlsZjNrSXBHdlpaRTQzVjdKWUY2YUc0Mzg2WmliTUNqUWJ0VTVNU1BSS09fajNpaXd0Ym4xZw?oc=5",
+      "desc": "Чипы обеспечили корейский бюджет kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788435866.0,
+      "score": 62,
+      "russia_weight_bonus": 3,
+      "key": "60364d67b41fea6cd20aa285b1c58733d124296d3cda715f4ae9c5adc083ecab",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdnpqamp3SmNZMHVlb1o3TUVuLUlFUVRGc181Mkp4UDNzQlpSUDgxMzF0Z1BhNHFjaGV2eW9nYU9mb0RUd3IzWkxLOUZlNTlaaGVfeFVNY2ZhcVM3eFlpTzFtLUN6Y0hDcnNWTmpSQS0xeDVxRzJqMWVEcktYMERlLXVMTEpYX3psTm05TkdMWmNBeUNySzYwOEh5NHdDSE50anJGczE4SkRlbFR3Um5tcy12ZTlGTHlUbG5OUE5xMXk?oc=5",
       "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
@@ -348,67 +471,23 @@
         "chips"
       ],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики - Журнал Эксперт-Урал",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYm1kM2VkLTBZV25EQTV3bzVXUERENTVOQWNsQ1VWQWhoT1l3OVMwM3pRRElad0VTRUtUdGRIdWJlMXY0UzFGY2Jrc3pKSTFKTDhiVWJJZ2poM003U1BFMnJZbDBLNlpBeWxtbm1MU0t0THpLU0FweGF6ZW5Dcy1XTjZoalhLZ2lYVWt1UmR5eTB5SjJWSkQwLWFhUWkyWUNEa1VVMjlnbzhRYzk2OWxlektaQml4MHVid29rc1JkeU1pZkJPVVlOWV9JYVVrams?oc=5",
-      "desc": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики Журнал Эксперт-Урал",
-      "source": "Журнал Эксперт-Урал",
-      "time": 1788435292.0,
-      "score": 62,
-      "key": "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Как ИИ выравнивает возможности участников рынка недвижимости - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNTngtQWxYZzlaVlZaWTRWV1RLNmZ2Qm84a3hkT1dQanYzSlpoU2h2a1o2eTlVRnFRcG5ucDBrOExzMFhOWGJJUGl6QUdLVFpOQWo4R1pHcDlrZmh1Ty1Tb3dodEtJV2MzbXRGRGJsSDZzT2NqVkUzQnF5ONIBe0FVX3lxTFBNTngtQWxYZzlaVlZaWTRWV1RLNmZ2Qm84a3hkT1dQanYzSlpoU2h2a1o2eTlVRnFRcG5ucDBrOExzMFhOWGJJUGl6QUdLVFpOQWo4R1pHcDlrZmh1Ty1Tb3dodEtJV2MzbXRGRGJsSDZzT2NqVkUzQnF5OA?oc=5",
-      "desc": "Как ИИ выравнивает возможности участников рынка недвижимости companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788434890.0,
-      "score": 62,
-      "key": "73c087c5972c1f4d443a4d9424dfffc09b9f313c2c7642049a263ac876b0a83d",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Александр Ведяхин: создать ИИ-агента сейчас может каждый - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2xOU3lpN1J1YzI3WkM3bzFKMjdvZU4wUWE0dzZMYTg4OWRKRmNydHhTQkpITUtFb1QtWEhHQUdGc3l3WTlxYXl0Z3BDNkpreVZLaTlxclFTUDJhSXVqWFFzMU9Fa2EyMmNPM2tGSWxDb1pMa1BsNWFONkZMaHpqQ19ZSzgxM3pxNXk4d29aRDBWdVZFbU5tT2RMejh2Zw?oc=5",
-      "desc": "Александр Ведяхин: создать ИИ-агента сейчас может каждый prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788434441.0,
-      "score": 62,
-      "key": "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788451389.485056,
+    "last_start_ts": 1788451571.478552,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788451389.485056,
-    "last_success_ts": 1788451389.485056,
-    "last_candidates": 0,
+    "last_run_ts": 1788451571.478552,
+    "last_success_ts": 1788451571.478552,
+    "last_candidates": 53,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788451401.5157394
+      "updated_at": 1788451595.5600846
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -687,10 +766,16 @@
       "desc": "Google’s latest AI weather model gives you no excuse to forget your umbrella TechCrunch",
       "source": "TechCrunch",
       "region": "WORLD"
+    },
+    "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": {
+      "time": 1788451571,
+      "title": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 - PR Newswire",
+      "desc": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 PR Newswire",
+      "source": "PR Newswire",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -708,9 +793,10 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 0,
-  "last_publish_ts": 1788451389.485056
+  "last_search_ts": 1788451571.478552,
+  "last_publish_ts": 1788451571.478552
 }
