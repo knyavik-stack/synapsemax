@@ -126,7 +126,8 @@
     "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788478503,
     "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796,
     "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": 1788479277,
-    "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": 1788479695
+    "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": 1788479695,
+    "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": 1788479936
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -276,23 +277,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Внедрение ИИ в бизнес: почему умной модели недостаточно - Т-Бизнес секреты",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GWnhIWTNyRm9OUW1ZWXUwanBkVE5LdlQ2UW5uZEROOGM1MjdfdkRpN3U4VVB3a3Vyel93NlFtMExNeUZ4ZHJjc2FnOHBsYTl6RXlvVk9WZ1laOUNNYW44TTV0Tzg5eFJBcWg3NWRoZw?oc=5",
-      "desc": "Внедрение ИИ в бизнес: почему умной модели недостаточно Т-Бизнес секреты",
-      "source": "Т-Бизнес секреты",
-      "time": 1788443749.0,
-      "score": 69.7,
-      "russia_weight_bonus": 3.7,
-      "key": "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3",
-      "importance": 69.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVUZ6QVRvSTY2QzBGbFdGUmhtaXZDMXBKTFV4ZUJKQklzc2RndlM5NjkxdWhGVE9KdmVzNUs0bjUxRHU1YUNvZlhQbndiWU42SjNhN25tUUw1b0hpc05Ld29XVkZucy1XRDhYc19mQXpKblBGRE1kcVlpU01RVFpxZU1tbWY5SG9YRXhacnRNU2g0YWtCcGRfdHNwbGVuY1pKZGRtcS12VkcwZnJFNE5ZMjA5b2w5VU8tZDNBUFA2R1FJc1pjUlhB?oc=5",
       "desc": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями prospect.com.ru",
@@ -428,22 +412,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Production workflows: From AI hype to practical impact - Jewellery Business",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVTBTOE5TX2pyX3JlODFJU2xUY051MzFZWDNoOC1BN1B4NUpfTDJBVG1KSmpTVHFDNW5EcEhyOG0yT0NSakR1LUZLYXIxcWlhSlA4bHo4RGhLRjZZOHFrYTZ6R1lWbHFMTkdVdVNUMnJOVDRQbGx3eExTM2ZHaGFQeVkyNzNidWU4Qld1enVxYTZEVUl0VlBLM0VlbnF5Zw?oc=5",
-      "desc": "Production workflows: From AI hype to practical impact Jewellery Business",
-      "source": "Jewellery Business",
-      "time": 1788458256.0,
-      "score": 62.0,
-      "key": "ceabecdb3b4324a0f5e9cc75fa51de0a653afce047944b7d9c92b8e65943f0bd",
-      "importance": 62.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Ученые НИУ ВШЭ научили нейросеть превращать 3D-модели в готовые техкарты - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcDh1V2drNXhCaGZaTWJwb0pIRkE1Smt4TTF4aUVhR05OeW1CakZFZDRYYWYzejR5Q3FLdjluSmpBQ2tOemp5TktvTXRlSm9YRl9YUDR6WjFqLTU0MmlBaGFDeDBCN2h4RmJtbS1fd1ZqYWtndFpMUy02Q1VfZjBTYVVBZzZPU0RGSVZHMXNaWE1uVGFpMl9KcXJZUGU0eXNUeC1aQkpTWFlsdktuQUwwR0JWS1RUbHE2Y3BrR9IBe0FVX3lxTE82VGFZYmFUeTJwX2lndXN4bkYwQXFNNG83VE1nUHZ1OURFMzFFRWhocXA1bm9qTjRpQzgyamZQdXAwbGVnbVluTGU2dHhiQm9OTE9zckpCMVVNWW91ZDl4WTZSdkxocm1JRUdxZmZUR1NtQ1lSbzFDdEM2VQ?oc=5",
@@ -493,20 +461,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788479695.3432288,
+    "last_start_ts": 1788479936.3550575,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788479695.3432288,
-    "last_success_ts": 1788479695.3432288,
+    "last_run_ts": 1788479936.3550575,
+    "last_success_ts": 1788479936.3550575,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 11
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788479701.4161851
+      "updated_at": 1788479939.6825478
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1408,6 +1376,13 @@
       "desc": "Amadeus Brings Travel Tech Into Claude Code, Cowork Skift",
       "source": "Skift",
       "region": "WORLD"
+    },
+    "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": {
+      "time": 1788479936,
+      "title": "Внедрение ИИ в бизнес: почему умной модели недостаточно - Т-Бизнес секреты",
+      "desc": "Внедрение ИИ в бизнес: почему умной модели недостаточно Т-Бизнес секреты",
+      "source": "Т-Бизнес секреты",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1420,7 +1395,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1430,8 +1404,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788478796.2150717,
-  "last_publish_ts": 1788479695.3432288
+  "last_publish_ts": 1788479936.3550575
 }
