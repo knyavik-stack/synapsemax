@@ -341,27 +341,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules - ThePrint",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUGp0ZWtkU2NFOEpoOFF6WmtockM2THBseXFLZjVSc1NMT1I4cXBRYjRKOUdvSlJYRGFabTQ5UTBrempsem55NkZVRk1pZ1pZS1ZPMWRVSXYxLXh0N3B2bUZna2V2OFlQZUF2clNtSjFjWEg2LUJMaWI1STlkZkVPeW1rRjNRMGVRVkZOSHpVcTQ4T05KWEhtX2hrejNhNkJVWFEyMUduYVFHWHB1elZMWmJ2SXZua24xR2NPOXJoR1VLZDdVSGJVX1hXSHpIQWvSAdQBQVVfeXFMT0luUHpyNUFCS3JaT3NiaS1hLVo5dW82NlhfTU5ITWl6Qk12NGdvcG5ubVJQSEJDQU13Mm96UVVnemx5amhaTTlhMzZSXzFDQ3d0NVhDNk8xSmQwMWVUaGtpTHNtZFYwMTgtYWJKNGpObjVOX3czWmpLWC10eWVXRW1sYThSNDJwNGZpWXVJZlpCYlAwNnNlZ211TWxteGZXUmszRndmWXpDVzlWaHUya1FYcDRWWllPU2ZSVlo1Uk1Ba01sM3F0TF91Q2RPS2JYcHo2d3I?oc=5",
-      "desc": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules ThePrint",
-      "source": "ThePrint",
-      "time": 1788434662.0,
-      "score": 72,
-      "key": "0522b665b47f28e40bf6660f381d48af0f84ba4a98bb8427b8f3701c61a68ac3",
-      "importance": 72,
-      "editorial_value": 50,
-      "topics": [
-        "business",
-        "models"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788439721,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 14,
-      "next_retry_at": 1788461321
-    },
-    {
-      "region": "WORLD",
       "title": "Meta, Google join the AI launch party - The Rundown AI",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1la0VUNG9KVFk3dG05ckdsWDVFWVJKN0lvYWFwNnh6a3lKM2czVjhtTXhsMkM4SU5GM2dsdlFFT096NldELUQ5OGs0UGU5U3Z2MkdSSWZXa1FFekxsbkJyMUlWNzJ0TE1Ka3JKbHdMODZQV0xwNVY5ZDJKVQ?oc=5",
       "desc": "Meta, Google join the AI launch party The Rundown AI",
