@@ -1674,7 +1674,14 @@ def main():
         print('PUBLISH_WAIT', int(PUBLISH_INTERVAL_SECONDS - (now - last_publish_ts)))
     else:
         attempts = 0
-        for x in list(queue):
+        queue_counts = region_counts(queue)
+        # Preserve the 50% RU invariant: while RU is at or below half, publish WORLD first.
+        if queue_counts['RUSSIA'] * 2 <= len(queue):
+            publish_candidates = [x for x in queue if x.get('region') != 'RUSSIA']
+        else:
+            publish_candidates = list(queue)
+        publish_candidates.sort(key=lambda x: (publication_priority(s, x), x.get('importance', x.get('score', 0)), x.get('time', 0)), reverse=True)
+        for x in publish_candidates:
             if attempts >= MAX_ATTEMPTS_PER_RUN:
                 break
             if x.get('importance', x.get('score', 0)) < IMPORTANCE_THRESHOLD:
