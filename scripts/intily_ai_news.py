@@ -349,6 +349,7 @@ def rss(region, q):
             'source': source,
             'time': dt.timestamp()
         })
+        normalize_item_text(out[-1])
 
     return out
 
@@ -356,6 +357,35 @@ def rss(region, q):
 # ------------------------------------------------------------
 # Scoring / dedup
 # ------------------------------------------------------------
+
+def repair_mojibake(text):
+    # Repair accidental UTF-8/Latin-1 double decoding in older RSS/state records.
+    value = str(text or '')
+    def badness(v):
+        return sum(v.count(t) for t in ('Ð', 'Ñ', 'Ã', 'Â', 'ð', 'â', '�'))
+    for _ in range(2):
+        try:
+            candidate = value.encode('latin1').decode('utf-8')
+        except UnicodeError:
+            break
+        if badness(candidate) < badness(value):
+            value = candidate
+        else:
+            break
+    return value
+
+
+def normalize_item_text(x):
+    old_key = x.get('key')
+    for field in ('title', 'desc', 'source'):
+        x[field] = repair_mojibake(x.get(field, ''))
+    if old_key:
+        new_key = key(x)
+        if new_key != old_key:
+            x['legacy_key'] = old_key
+            x['key'] = new_key
+    return x
+
 
 def normalize(t):
     # Unicode-aware normalization keeps Cyrillic terms intact for scoring/dedup.
@@ -456,6 +486,7 @@ def ai_relevant(x):
 
 
 def candidate_quality(x):
+    normalize_item_text(x)
     importance = int(x.get('importance', score(x)))
     x['score'] = importance
     x['importance'] = importance
@@ -1532,6 +1563,7 @@ def rebalance_queue(items, now):
     fresh = []
     dropped_expired = dropped_quality = 0
     for x in items:
+        normalize_item_text(x)
         if x.get('time', 0) < now - LOOKBACK.total_seconds():
             dropped_expired += 1
             continue
@@ -1619,7 +1651,7 @@ def main():
     health['last_status'] = 'RUNNING'
     health['last_error'] = ''
 
-    queue = [x for x in s['queue'] if x.get('time', 0) >= now - LOOKBACK.total_seconds() and x.get('key') not in s['published']]
+    queue = [x for x in s['queue'] if x.get('time', 0) >= now - LOOKBACK.total_seconds() and x.get('key') not in s['published'] and x.get('legacy_key') not in s['published']]
     urgent_search = len(queue) <= URGENT_SEARCH_QUEUE_THRESHOLD
     scheduled_search = (not s.get('last_search_ts') or now - float(s.get('last_search_ts', 0)) >= SEARCH_INTERVAL_SECONDS)
     should_search = urgent_search or scheduled_search
@@ -1639,7 +1671,7 @@ def main():
 
     admission = {'published_key': 0, 'known_recent': 0, 'already_queued': 0, 'story_queue': 0, 'story_history': 0, 'added': 0}
     for x in candidates:
-        if x['key'] in s['published']:
+        if x['key'] in s['published'] or x.get('legacy_key') in s['published']:
             admission['published_key'] += 1; continue
         if x['key'] in queue_keys:
             admission['already_queued'] += 1; continue
@@ -1691,6 +1723,8 @@ def main():
                 post = edit(x, s)
                 telegram(post)
                 s['published'][x['key']] = int(now)
+                if x.get('legacy_key'):
+                    s['published'][x['legacy_key']] = int(now)
                 s['stories'][x['key']] = {'time': int(now), 'title': x.get('title', ''), 'desc': x.get('desc', ''), 'source': x.get('source', ''), 'region': x.get('region', '')}
                 s['publication_regions'].append(x.get('region', 'WORLD'))
                 s['publication_regions'] = s['publication_regions'][-REGION_HISTORY_SIZE:]
