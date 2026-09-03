@@ -91,7 +91,8 @@
     "c9fb3fa963c6f103988263f2842c4806c66f9cf27556238770822ab7c2d955e9": 1788465971,
     "bf80d001cf8a4a5956f6af53260843ceda78fb6919eebf287df46aa4181d7d09": 1788466331,
     "944f9097ba077dadbbb0fe4cce0f3f2965869f2ba636075b64b5b0960e8a2d09": 1788466513,
-    "23cc6efb18b6935be5df6a89b48058bdf754541bfa0b42c1cc269e732df36ba3": 1788466869
+    "23cc6efb18b6935be5df6a89b48058bdf754541bfa0b42c1cc269e732df36ba3": 1788466869,
+    "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049
   },
   "known": {
     "432e252e30e5aedf73991d69572f2ee760abc7ddf25106f9f1e5494bf4ba0eb7": 1788446890.0145826,
@@ -279,7 +280,19 @@
     "f5e827bad93f8a36ac92957b96b969820b4880d0e3eb7a5af99a24c9bdfee67b": 1788465071.3605509,
     "3e575defe3909f850c7cd287809eb341e00e040ec147e6ed3bd8b90a094c62c1": 1788465071.3605509,
     "53c72bf410e18cef7284d3fe4d038b5824a6952d996471f099c0dce2f511e743": 1788465071.3605509,
-    "ca176075a6264fd685c7d4104a7539a5091735f77b15242d6bbd5560c58b70eb": 1788465071.3605509
+    "ca176075a6264fd685c7d4104a7539a5091735f77b15242d6bbd5560c58b70eb": 1788465071.3605509,
+    "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049.748359,
+    "f44d3b7105c1c9b32377fa315a8a1ef3505e1d7927298fb1757b2bf8be0e0a69": 1788467049.748359,
+    "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": 1788467049.748359,
+    "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": 1788467049.748359,
+    "38f9f630db3e8ee9087909472db1e3ef7d30fbba33ecbe213c320e52f2849e8a": 1788467049.748359,
+    "d6abdc9cf46eb6fc72d7ccfdeb14b90136fdb755da62454d0ce4434249f4bde6": 1788467049.748359,
+    "c2b89c5bfbf5dc782bdbc83f285fd6abfefcd2d50979bfe5486e5182c29f0377": 1788467049.748359,
+    "b2966e89948025be6fe45f9738bfd1d1cb07c4fbac60318edb7bfe5e58d32efd": 1788467049.748359,
+    "7e067c1c822bf614b2fe8f3e8fa18c6255bd02602f5992ad0009d9e59d81ff54": 1788467049.748359,
+    "042026896a9789a07ee28cde5714de1623e3cb79b5d776838395e526fbee7964": 1788467049.748359,
+    "049679854a9bb60fb76919f78914435917858c3053c3bc1c37025dbab708b82c": 1788467049.748359,
+    "744b5ea451d29219ba8170df3dda180f29e9f1269bfa32eb977d3c870a769d64": 1788467049.748359
   },
   "queue": [
     {
@@ -301,6 +314,36 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 1,
       "next_retry_at": 1788466813
+    },
+    {
+      "region": "WORLD",
+      "title": "Snowflake Results Show Enterprises’ Desire For Anthropic Buffer - The Information",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV0JuQkkxM2M0aUowVTNlUVZlNFVGcXRSVldlSnByWlJpX0xJRVJPWVJpQmxWRmJSRmRBdmM1YTRXYWl3WXh2UFdtb3dYb1poMTFWbGdsNWFFOFlsbU16cHFkeWNUaklmSGZjdGs4cU5jNmFWaVZQdXBwR1Q2OVVwaXNPUGduVTVFNkpaVFQ1X1A4OG9OOUJEWUtRNi1VRVBMemh2Ymo0b2hfcEZjLTBYX09n?oc=5",
+      "desc": "Snowflake Results Show Enterprises’ Desire For Anthropic Buffer The Information",
+      "source": "The Information",
+      "time": 1788466020.0,
+      "score": 68,
+      "key": "f44d3b7105c1c9b32377fa315a8a1ef3505e1d7927298fb1757b2bf8be0e0a69",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "The latest AI-powered martech news and releases - MarTech",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBra2tjM1Z6R0tQZmxSUHdPTFNsNlczNWdlUjRLVFFMUEtBMHlTSnJxTnJ5dUNPMFNFeXFzdkxDV25pX0l1eWp3bXJSOTZyRzlORm9CaU05S25iMVUzdVMxTHZzeGc5eFNOTDVHRHpxZVkwY09hWEtn?oc=5",
+      "desc": "The latest AI-powered martech news and releases MarTech",
+      "source": "MarTech",
+      "time": 1788462101.0,
+      "score": 66,
+      "key": "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -336,6 +379,20 @@
     },
     {
       "region": "WORLD",
+      "title": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle - GeekWire",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRGlVV3NTeERsaUdBVVBuYmpGU3k1bkppNnZ6Y3p0LW1QejB2OURTREl6NWFENTBzQlNMajJOVEZwbTR3WFdITjJwLWNkaUdRV1djWmh2RXpqMnRxMzVONG51NkU0MEp6VnI3TlBLeEF6VkpGWHVzWDBhbFc4ZC01cjVLY0t4X0FDaWhqM2JaclNZaGJwRzAxcnM2dFVKU0gyLTFZcy01SGZ4TnBzdGZlcUdqVkNiakV3VmgxMU1kZUtvdw?oc=5",
+      "desc": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle GeekWire",
+      "source": "GeekWire",
+      "time": 1788465252.0,
+      "score": 65,
+      "key": "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Nvidia's Broken AI Story: Fundamentals Run Away From Discounted Valuations (NASDAQ:NVDA) - Seeking Alpha",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQWRySXJtTHoyU1laZkpOS0ZVSlg0OXEzdE9SZDhKeXY1TmNXNUQ2NUNoSm5zako4bWxiNWVZMjVqRmtjT2J4VExvci15MTBTbzUyZ1lMUzhXdlJVd0tXc2hUX2lEQVFuano0WDNnaWZKUm0wamJQNTl1UWJneW5JVkY3WjZCV1pDQUJ5UE45em0wWnBEdWxVeDdkNWR2cGx4VkV4NEd5MThuMnp1MDZaeEpn?oc=5",
       "desc": "Nvidia's Broken AI Story: Fundamentals Run Away From Discounted Valuations (NASDAQ:NVDA) Seeking Alpha",
@@ -362,6 +419,36 @@
       "importance": 65,
       "editorial_value": 50,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI unveils Astra 6, the stars align - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMkQ5TXg0UjREaWlBVGplN2JvWjZ5cmlfT2xXREtFRlNGUTJLVTUzTTBYdnFiNUluejI0UVg1emV1U0xhdzNyaGpNb092SExEVkpvMDlPYTF1bUh5bWtUaUtyay0wUWVDaTFSdThCeUtJMU5ycEh2dE9fNzRZY1B6V2RYdw?oc=5",
+      "desc": "OpenAI unveils Astra 6, the stars align Pasquale Pillitteri",
+      "source": "Pasquale Pillitteri",
+      "time": 1788463782.0,
+      "score": 65,
+      "key": "38f9f630db3e8ee9087909472db1e3ef7d30fbba33ecbe213c320e52f2849e8a",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Egypt explores major data center, AI hub with US consortium - businesstodayegypt.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX2N1NzZzd1hNZ0RSZ2preHhXU2g5aVlmV2NnTlFUTkdsYk9tMkhKNmdWc3N5dHRldUNLM2Q5cDNmS0UxTHRIWkw0YmZkZzREVzFuMDV5VW9aQ2R3UnRqaFVRLWJmNmJMQXJuZGxjMnZob0I5UDdUNjNWOExKLUdlNk8wZ1UtY2c0Z2JUWklPOEZodnlKUktXY19fS1hTdkIwam80UHNVZVd4b2FK?oc=5",
+      "desc": "Egypt explores major data center, AI hub with US consortium businesstodayegypt.com",
+      "source": "businesstodayegypt.com",
+      "time": 1788459774.0,
+      "score": 65,
+      "key": "d6abdc9cf46eb6fc72d7ccfdeb14b90136fdb755da62454d0ce4434249f4bde6",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
       "tier": "A"
     },
     {
@@ -432,6 +519,23 @@
       "importance": 62,
       "editorial_value": 50,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI выпустила GPT-6-Astra, заявив о начале эры AGI - Techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kR0NjTTlhc0pjRFpoT0ZvNzllRC1xOWNYWlNDX25iOUREWF8yR2w0QnhVUDRzc2ppaTFmaFhLamlaR19RVzUyejZEQVlGS0hrNGFGckRRVHJ0Y2EwWEozY0FRWUF3MXFocXFwMlRVX1hYb3Zacmc?oc=5",
+      "desc": "OpenAI выпустила GPT-6-Astra, заявив о начале эры AGI Techora.ru",
+      "source": "Techora.ru",
+      "time": 1788449965.0,
+      "score": 62,
+      "russia_weight_bonus": 2,
+      "key": "7e067c1c822bf614b2fe8f3e8fa18c6255bd02602f5992ad0009d9e59d81ff54",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
       "tier": "A"
     },
     {
@@ -510,20 +614,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788466869.7057216,
+    "last_start_ts": 1788467049.748359,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788466869.7057216,
-    "last_success_ts": 1788466869.7057216,
-    "last_candidates": 0,
+    "last_run_ts": 1788467049.748359,
+    "last_success_ts": 1788467049.748359,
+    "last_candidates": 106,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788466871.40046
+      "updated_at": 1788467074.3666997
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1180,10 +1284,16 @@
       "desc": "Сбой зарубежных ИИ мог произойти из-за падения облачной платформы Рамблер",
       "source": "Рамблер",
       "region": "RUSSIA"
+    },
+    "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": {
+      "time": 1788467049,
+      "title": "Cross-Channel AI Agents: Ringg AI Preserves Customer Context Across Enterprise Workflows - trendhunter.com",
+      "desc": "Cross-Channel AI Agents: Ringg AI Preserves Customer Context Across Enterprise Workflows trendhunter.com",
+      "source": "trendhunter.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1202,8 +1312,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788465071.3605509,
-  "last_publish_ts": 1788466869.7057216
+  "last_search_ts": 1788467049.748359,
+  "last_publish_ts": 1788467049.748359
 }
