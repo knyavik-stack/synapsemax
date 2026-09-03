@@ -88,7 +88,8 @@
     "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": 1788465071,
     "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": 1788465259,
     "b44520755e58ed7ab860834d44786714b3d882449542747ad7e92d170883745f": 1788465612,
-    "c9fb3fa963c6f103988263f2842c4806c66f9cf27556238770822ab7c2d955e9": 1788465971
+    "c9fb3fa963c6f103988263f2842c4806c66f9cf27556238770822ab7c2d955e9": 1788465971,
+    "bf80d001cf8a4a5956f6af53260843ceda78fb6919eebf287df46aa4181d7d09": 1788466331
   },
   "known": {
     "f09fdc33e7929e5407420bc0aa9a159afd76ed2d872e4e44516089b4ecb44b62": 1788444920.0279398,
@@ -387,23 +388,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5MTWNVbDF3V0xSOVRtSXlOTXFHM0M3TVlQbjhwdWd1NFFhMFAzTmM0UlRBUmlkeEN0ZUxFblpxcnR3Yy10Ri1vWVJsYlJOdw?oc=5",
-      "desc": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788456630.0,
-      "score": 65,
-      "russia_weight_bonus": 1,
-      "key": "bf80d001cf8a4a5956f6af53260843ceda78fb6919eebf287df46aa4181d7d09",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Сбой зарубежных ИИ мог произойти из-за падения облачной платформы - Рамблер",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcDFqMnlkdFVDX3IxSzNBLWhiMFlvdWM2eV9QYVN0enJzMTNLWldDOUEzenlETDBSa2pmT1Z3aF96dGpnRTVqazU2OFFRaGhCZjBmc2U5d0k4N0tHMVJtMmZVaDU1MkEyX1loYUZiMGx3WjdLQkJQMXFpaVc0VVEwT3RyVVlPYkpObjlsY1piTFRpS0ExUm9HOUNNaW5yYTB2aWxad2FuMnpwZkXSAbABQVVfeXFMUEU0emlLMl9ydzMwNGVEQWxNRE5JNnU1ZzJOYUtHNm15RWkwWHgwR3lGQnpPcHhIdkY5dllhZllQODhiRkNFTXYzdVgxelNwdjIzX3lRZkMyZnNaRHFPdzBUNWNWV3p1c0NmaE5tV2RnUTF0RUN2Tzh0Snp0cEgzMXVya3dObHItY2lGTzJtVzVsNkJKVnNuc1l3aVVsUUN0ZmxhUW51WUJvQXp6MkJvUm8?oc=5",
       "desc": "Сбой зарубежных ИИ мог произойти из-за падения облачной платформы Рамблер",
@@ -569,20 +553,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788466149.983061,
+    "last_start_ts": 1788466331.904548,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788466149.983061,
-    "last_success_ts": 1788466149.983061,
+    "last_run_ts": 1788466331.904548,
+    "last_success_ts": 1788466331.904548,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788465973.5953183
+      "updated_at": 1788466333.3624144
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1218,11 +1202,17 @@
       "desc": "OpenAI launches GPT-6 Astra, its most powerful model yet and touts its ability to use your computer Fortune",
       "source": "Fortune",
       "region": "WORLD"
+    },
+    "bf80d001cf8a4a5956f6af53260843ceda78fb6919eebf287df46aa4181d7d09": {
+      "time": 1788466331,
+      "title": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах - kommersant.ru",
+      "desc": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах kommersant.ru",
+      "source": "kommersant.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1240,8 +1230,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788465071.3605509,
-  "last_publish_ts": 1788465971.4287415
+  "last_publish_ts": 1788466331.904548
 }
