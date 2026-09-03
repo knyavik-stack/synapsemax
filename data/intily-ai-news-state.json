@@ -105,39 +105,10 @@
     "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": 1788469932,
     "b82db89157ab3c6a560ae70b12b6d0afc978f492e063ae39ce1781c158cc1255": 1788470289,
     "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c": 1788470649,
-    "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843
+    "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843,
+    "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": 1788472149
   },
   "known": {
-    "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450498.829142,
-    "f191a9d3a2d714da447ddc5841afdc646df222636affa0f63d8623899aca9b89": 1788450498.829142,
-    "ff56ca85428e7e5ad63b9cf26d58918bd9e0ca775fe53e00c7c8958c552373e9": 1788450498.829142,
-    "2b963ce9d33fb9519fdd59ec27db31536cba6761636a0a144dc7bc7e0ecfacf2": 1788450498.829142,
-    "b8787c8126752eb4dbfdb543831727192e905480fab8515652b100b05dc2f7f7": 1788450498.829142,
-    "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612": 1788450498.829142,
-    "0f8c7e484f71a8e50457f8d3ded009d59c4e556824002857c7ffff4bfb09081f": 1788450498.829142,
-    "48ce78f1045fede3ccad77aa75212f22f3aeeff19bdbca67e4345ac52ec049e8": 1788450498.829142,
-    "65a5682885764bd3c6b82691d7b4132efbc3e63c8c691f9d77b98bc84caa1cf1": 1788450498.829142,
-    "c3d2f0fd5469686aea27cf24f765ef417dfcae3664c7968780e7f5ea1bd7e666": 1788450498.829142,
-    "44eb0e20d9c2b5aaede1388fc513a5a82df6341f2fe4c36feec303e9c1984670": 1788450498.829142,
-    "19a7f79d35d892e2b2ea365e576c6b6c79f69ac3a0ceac9db3ca3d138df329b3": 1788450498.829142,
-    "3b66adfbf15b87d6f37b5f630c71728561beec6fcc8143863951510251a3a1aa": 1788450498.829142,
-    "fd700f2017564779e5b5f62708e2322272fd9e63b05613d91f2fe5e4cf8377f6": 1788450498.829142,
-    "2188339664cea997b4d9869c310cb5a0581fe73569bd6e4e1eca0088f74de42c": 1788450498.829142,
-    "b2b3234e57aba31dd69b8edbb0bfee2bb48e936e47821dbb775d4b9469eff0a9": 1788450498.829142,
-    "f35b18174ab530d3ef2b7a2bea91fd17951386d6f9f4fe803bf504c231cb830b": 1788450498.829142,
-    "ea8f6f617bae594a6bb4266e4f0f7fb7970d044e91d5680fefa5aefc47cb6aca": 1788450498.829142,
-    "7fe6e99f2913a262ec7e717a17297c46211c838908883bc8af33115f40c06f07": 1788450498.829142,
-    "e8d553f0e3e27401dc50ebb2fc091c6224625d36242f10a0b1c2d5219cfd9bd0": 1788450498.829142,
-    "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788450498.829142,
-    "11c9400610e35397f4be118409236aa995cc5c2bd748bf6b585d444cdd527700": 1788450498.829142,
-    "955a6eaf7f91077f15a2c7b52fe906f04eeb1312a81b9d47b70f341096846987": 1788450498.829142,
-    "376b37b87652dba6f77364f37e77d027b1fecfe53e93f9d7b185461ea29318a5": 1788450498.829142,
-    "f6a2afa88984016f243eac422f2f9a7f5567996a253bdae67e857978af601855": 1788450498.829142,
-    "5d1178d9bcfea5f83b482b70bde9035e03008b98ae7d69dd641c06ba10ef7046": 1788450498.829142,
-    "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": 1788450498.829142,
-    "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84": 1788450498.829142,
-    "56461e8bf0060776349654fb1f30c0e4455ec85eccab272fffc496970a07cc4f": 1788450498.829142,
-    "e8e5136b9882542357b5954c67200bffa6ee7bbc04e8645335c90663af0507a4": 1788450498.829142,
     "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": 1788451571.478552,
     "de4d76498fe079f793645cb510a5fb3912adf9320ce30d745433599ae4825db9": 1788451571.478552,
     "d3be58b2f693946a67cf1edf60b8f6d53fa1b8ca998a9913be4c9c04d5245b8c": 1788451571.478552,
@@ -308,19 +279,18 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "OpenAI Astra is a mysterious new quantum math-solving model - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd3puSjBhcy1TRmloVzBfNlA4LWlsUEI5NEVzRk41SDFnVmdTS3Y0eWpuVkR5TkFGZ3N2cHYwYnN5WVVncjlhYWNXN1NmZ1ZIRGNTOWFQeHpmVGgxZGo4SGlLekF2MU5ZQUxDV2puZ3ZRY1dhUG5kSmlfYnBCTERRWkZn?oc=5",
-      "desc": "OpenAI Astra is a mysterious new quantum math-solving model Mashable",
-      "source": "Mashable",
-      "time": 1788467987.0,
-      "score": 69,
-      "key": "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [
-        "models"
-      ],
+      "region": "RUSSIA",
+      "title": "Новый ИИ от OpenAI может взламывать военные системы - Дзеркало тижня",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ1hfczhZUWJtZHlPWXNiSGZEWVhWekF6Y2pGZHcyajNOSUhfbTlVTGdXeFVwYmFNM2J2SHdYcEdvSXJjZHFoMV9zWnFQZkFtSW13VkR0MVNvSTA4ZEZuekdNWFRHM2FfdXZMN1h1LWwxeEdjaW13VVVjUWp6VFRtQkRCS09QUkRXaHhB0gGQAUFVX3lxTE5MTUp1T0xfajRreVpnc0pkVTdsZVhxTGJxZV9aVlZWRVUwckRaOGh0T2o4cEhwd0d0Z1lMMk9PSHQ2UW52OENndlY3R041UHFMb2pwcEZ3Q2lTSk1tM1pyQThZY28zSW9tNU05MUdqY0VFZm9FU1d6aGxjWERzVXRkZXNVZEZidHdaZ3FXbDRsZw?oc=5",
+      "desc": "Новый ИИ от OpenAI может взламывать военные системы Дзеркало тижня",
+      "source": "Дзеркало тижня",
+      "time": 1788466624.0,
+      "score": 68.5,
+      "russia_weight_bonus": 4.0,
+      "key": "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5",
+      "importance": 68.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -330,10 +300,10 @@
       "desc": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences PPC Land",
       "source": "PPC Land",
       "time": 1788469004.0,
-      "score": 65,
+      "score": 66.5,
       "key": "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895",
-      "importance": 65,
-      "editorial_value": 50,
+      "importance": 66.5,
+      "editorial_value": 50.0,
       "topics": [
         "models"
       ],
@@ -346,10 +316,10 @@
       "desc": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared newscord.org",
       "source": "newscord.org",
       "time": 1788468460.0,
-      "score": 65,
+      "score": 63.5,
       "key": "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def",
-      "importance": 65,
-      "editorial_value": 50,
+      "importance": 63.5,
+      "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
       "last_failed_at": 1788470649,
@@ -364,25 +334,10 @@
       "desc": "AI’s market boom faces a rougher road ahead weeklyblitz.net",
       "source": "weeklyblitz.net",
       "time": 1788468243.0,
-      "score": 65,
+      "score": 63.5,
       "key": "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Новый ИИ от OpenAI может взламывать военные системы - Дзеркало тижня",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ1hfczhZUWJtZHlPWXNiSGZEWVhWekF6Y2pGZHcyajNOSUhfbTlVTGdXeFVwYmFNM2J2SHdYcEdvSXJjZHFoMV9zWnFQZkFtSW13VkR0MVNvSTA4ZEZuekdNWFRHM2FfdXZMN1h1LWwxeEdjaW13VVVjUWp6VFRtQkRCS09QUkRXaHhB0gGQAUFVX3lxTE5MTUp1T0xfajRreVpnc0pkVTdsZVhxTGJxZV9aVlZWRVUwckRaOGh0T2o4cEhwd0d0Z1lMMk9PSHQ2UW52OENndlY3R041UHFMb2pwcEZ3Q2lTSk1tM1pyQThZY28zSW9tNU05MUdqY0VFZm9FU1d6aGxjWERzVXRkZXNVZEZidHdaZ3FXbDRsZw?oc=5",
-      "desc": "Новый ИИ от OpenAI может взламывать военные системы Дзеркало тижня",
-      "source": "Дзеркало тижня",
-      "time": 1788466624.0,
-      "score": 65,
-      "russia_weight_bonus": 4,
-      "key": "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5",
-      "importance": 65,
-      "editorial_value": 50,
+      "importance": 63.5,
+      "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
     },
@@ -393,10 +348,10 @@
       "desc": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle GeekWire",
       "source": "GeekWire",
       "time": 1788465252.0,
-      "score": 65,
+      "score": 63.5,
       "key": "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0",
-      "importance": 65,
-      "editorial_value": 50,
+      "importance": 63.5,
+      "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
     },
@@ -407,10 +362,10 @@
       "desc": "Nvidia's Broken AI Story: Fundamentals Run Away From Discounted Valuations (NASDAQ:NVDA) Seeking Alpha",
       "source": "Seeking Alpha",
       "time": 1788464713.0,
-      "score": 65,
+      "score": 63.5,
       "key": "5f531728ff05459c72f16caa1381e95becac2d35c178e6b55fd8db9e38d01c91",
-      "importance": 65,
-      "editorial_value": 50,
+      "importance": 63.5,
+      "editorial_value": 50.0,
       "topics": [
         "chips"
       ],
@@ -423,10 +378,10 @@
       "desc": "Top Tech Expert: Elon Musk Is Quietly Building Artificial Intelligence in Space. One Small Company May Be the Key. The Manila Times",
       "source": "The Manila Times",
       "time": 1788464655.0,
-      "score": 65,
+      "score": 63.5,
       "key": "174b1afc8eb35f469812b1b062756175aa92097b6ed12083e4ffc5de361a07ac",
-      "importance": 65,
-      "editorial_value": 50,
+      "importance": 63.5,
+      "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
     },
@@ -437,11 +392,11 @@
       "desc": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование Digital Russia",
       "source": "Digital Russia",
       "time": 1788446064.0,
-      "score": 65,
-      "russia_weight_bonus": 4,
+      "score": 63.0,
+      "russia_weight_bonus": 4.0,
       "key": "4110337c9b2c90c5bebad52851e25f3f5c5ab5975592dcac36d943d3db64142f",
-      "importance": 65,
-      "editorial_value": 50,
+      "importance": 63.0,
+      "editorial_value": 50.0,
       "topics": [
         "research"
       ],
@@ -450,23 +405,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
       "failure_count": 2,
       "next_retry_at": 1788463510
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Вакансия AI Research and Development (стажер) в г Москва - Сбербанк",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrUHNWSkVDMXZrTndGd0xxLXoxQlJUQTFBLVd1R0czUjNHTGtidFJubDFidUdVVUZmbXBjbVhQTmRvSnhDWTNZa0VlVWlQSzc3a2ZfSVVmRWRsRzVrUjZ5Z09KVGUwMWJPUTJsUHVtR3VqMHl3UUNra1NoNzlFcVU?oc=5",
-      "desc": "Вакансия AI Research and Development (стажер) в г Москва Сбербанк",
-      "source": "Сбербанк",
-      "time": 1788459322.0,
-      "score": 62,
-      "russia_weight_bonus": 3,
-      "key": "ce696d1e675baf8da4c04006c997e349a95d04635736422f683a849f952115fd",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [
-        "research"
-      ],
-      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -475,103 +413,14 @@
       "desc": "OpenAI’s new Astra model is finally here – why safety experts are worried ZDNET",
       "source": "ZDNET",
       "time": 1788458419.0,
-      "score": 62,
+      "score": 60.0,
       "key": "6997a002487646836ea649a555a2961a2d7f21af8e332d3cdeaca24ca540bfdc",
-      "importance": 62,
-      "editorial_value": 50,
+      "importance": 60.0,
+      "editorial_value": 50.0,
       "topics": [
         "models"
       ],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "OpenAI показывает Astra 6, звёзды почти сошлись - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yckdRRXYtWlp1X1BIYlZvbGhBYUR2TklySHYwY0N3VGZySkNfVFotWU9Ka0trMHNMdU9tSl9LcHE3ZzYwdU5wTXowOUJBZFl6cWppemNQRzhPOF80anNjLW5VaTkzMVFoanJiUFJ5M1BMQld5clk2WV92WFZTdw?oc=5",
-      "desc": "OpenAI показывает Astra 6, звёзды почти сошлись Pasquale Pillitteri",
-      "source": "Pasquale Pillitteri",
-      "time": 1788457736.0,
-      "score": 62,
-      "russia_weight_bonus": 3,
-      "key": "42746798e233b2cb0d78ee3c30cd574494af7ac4e72695337dfaa98874a5c74a",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "OpenAI выпустила GPT-6-Astra, заявив о начале эры AGI - Techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kR0NjTTlhc0pjRFpoT0ZvNzllRC1xOWNYWlNDX25iOUREWF8yR2w0QnhVUDRzc2ppaTFmaFhLamlaR19RVzUyejZEQVlGS0hrNGFGckRRVHJ0Y2EwWEozY0FRWUF3MXFocXFwMlRVX1hYb3Zacmc?oc=5",
-      "desc": "OpenAI выпустила GPT-6-Astra, заявив о начале эры AGI Techora.ru",
-      "source": "Techora.ru",
-      "time": 1788449965.0,
-      "score": 62,
-      "russia_weight_bonus": 2,
-      "key": "7e067c1c822bf614b2fe8f3e8fa18c6255bd02602f5992ad0009d9e59d81ff54",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Пользователи жалуются на сбои сразу нескольких нейросетей - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IeWU0RmR4a3dnOGxVWmV4WXpYQk1qVVVHV21WZFp1R0ExaWJ1ZjZydElNQmF1QTE2X2VQVlNFWnNqTU83TV81Sk52WUZZdw?oc=5",
-      "desc": "Пользователи жалуются на сбои сразу нескольких нейросетей kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788449809.0,
-      "score": 62,
-      "russia_weight_bonus": 2,
-      "key": "3e5392de9ba92c3815e4b1fc4b8bf0480627af069da397853dd47ef30101dfc3",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788462910,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788463510
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ - ФОНТАНКА.ру",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ONU1lb3REWUV4dnU1RzRLc1ZKT201MFBwYUc5UmhmV0pINEJyczJBX05PczhNY1E3YkNzdUxqOU5JNFhVbHo1STVKMVAxSl9MekRWVlpB?oc=5",
-      "desc": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ ФОНТАНКА.ру",
-      "source": "ФОНТАНКА.ру",
-      "time": 1788447607.0,
-      "score": 62,
-      "russia_weight_bonus": 3,
-      "key": "1f48f3f2e33577a983748faa7001b0a06814a2e95a60f2317476d28ad0a5d491",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788462910,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788463510
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ИИ против ИИ: как будет выглядеть киберпротивостояние ближайших лет - cisoclub",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN2JhelRrbkpmZ19LbFY1N0pDRHdzQVhRSDdWTEw4LUVNZm5fMUdNUHM0dW9aWm5DMzNPd3RmN1JkZXVWd3dzb092S3pPbFQ4MzlOU1NPNmh2a3lZbXBod182Vmp3VU9qaFpOcWQ4Mk9XTS1OVFpYZVI1Rk9wVFlqbHh0MF9xMEs0T1E0WVpEV3dQM25wQVp3eFdSU3JvNEtmY1E?oc=5",
-      "desc": "ИИ против ИИ: как будет выглядеть киберпротивостояние ближайших лет cisoclub",
-      "source": "cisoclub",
-      "time": 1788446892.0,
-      "score": 62,
-      "russia_weight_bonus": 2,
-      "key": "e7350f814463fd0b32d790cd376afa6ca1f7e208816455c4169f2ef97c2eac38",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788462910,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788463510
     },
     {
       "region": "RUSSIA",
@@ -580,49 +429,32 @@
       "desc": "Росатом начал испытания импортонезависимого робота-манипулятора prospect.com.ru",
       "source": "prospect.com.ru",
       "time": 1788446432.0,
-      "score": 62,
-      "russia_weight_bonus": 4,
+      "score": 60.0,
+      "russia_weight_bonus": 4.0,
       "key": "06e105123e4441fa28b1930ca637da6d3234be14374be0e0663336740ba9d679",
-      "importance": 62,
-      "editorial_value": 50,
+      "importance": 60.0,
+      "editorial_value": 50.0,
       "topics": [
         "robotics"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Jim Cramer Sees Broadcom's Business Exploding as CEO Hock Tan Says Custom OpenAI Chip Beats Nvidia's Grac - benzinga.com",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQODFrWVp1eXZnR0c3d0g2TExqRk40VlpWQXhxbFNRTUVPNG54MGE0WHZORUN2b0Y5eXkzeExKd0VHMlQtY1dULVBGX1h2LWN2eVN4UmxLRUdjTm9mcjVDV0dWUWItVzJNMXhNQ21kNmZZUFFfVzhJN01QUElCa0NLSGk3X3VkYVVwd0JjYTFWNkI5cWhCcS1DSEpHbWdrcTNybFNlZGRtaWdnblg2LXBrR1RBVzAtLXRjM2Ffd08xWmd4ZmFHTmRpdzR5OXRKZkRTSDBPdEh4LU9oMW96YndxM0Z3bF8tSkVfTWRoYkRvam9QdlJ0eGU4WkRITF9MTk85SnJQdDI0bUJPbW9FYnBsMnhIdFZ4UU0?oc=5",
-      "desc": "Jim Cramer Sees Broadcom's Business Exploding as CEO Hock Tan Says Custom OpenAI Chip Beats Nvidia's Grac benzinga.com",
-      "source": "benzinga.com",
-      "time": 1788432820.0,
-      "score": 61,
-      "key": "4396fd3c8d64ae110de28e2c908d6ffa938d5aadae418e2b454d2b3aa01463db",
-      "importance": 61,
-      "editorial_value": 50,
-      "topics": [
-        "business",
-        "chips"
       ],
       "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788470843.6931014,
+    "last_start_ts": 1788472149.2804053,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788470843.6931014,
-    "last_success_ts": 1788470843.6931014,
-    "last_candidates": 104,
+    "last_run_ts": 1788472149.2804053,
+    "last_success_ts": 1788472149.2804053,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 18
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788470871.2021139
+      "updated_at": 1788472152.136309
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1377,11 +1209,17 @@
       "desc": "Intel Crescent Island AI GPU Slips, Nvidia Holds 80% [2026] tech-insider.org",
       "source": "tech-insider.org",
       "region": "WORLD"
+    },
+    "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": {
+      "time": 1788472149,
+      "title": "OpenAI Astra is a mysterious new quantum math-solving model - Mashable",
+      "desc": "OpenAI Astra is a mysterious new quantum math-solving model Mashable",
+      "source": "Mashable",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -1393,6 +1231,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1402,5 +1241,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788470843.6931014,
-  "last_publish_ts": 1788470843.6931014
+  "last_publish_ts": 1788472149.2804053
 }
