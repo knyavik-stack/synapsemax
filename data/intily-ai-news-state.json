@@ -153,7 +153,8 @@
     "364191dbac8e31c6a8408610c50d6c8d33eab473c79fb58a2e70c07dba6b0567": 1788423540,
     "bdedd67ae91d51d3d7fcaa3b55a8a24c771d31edddd84a96457c652f6e60c9e4": 1788423663,
     "7590558b4a6fbd8af3630f7ad1730423574fe723c58aeae10bf6d7f0b6535738": 1788423783,
-    "c2c81551a732c792b437830fe203fa440478f5c4774b963fb03f31c00c867670": 1788423904
+    "c2c81551a732c792b437830fe203fa440478f5c4774b963fb03f31c00c867670": 1788423904,
+    "36b9344e417c3e7ea877842ee7ef944a8360c4d3f66faca809418bd6c5bbdd8b": 1788424382
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -172,23 +173,24 @@
     "141ce6140c2f18c7b4a91dfd3bd72356517457dd401ae5c5ca0400c01543bf96": 1788423303.3380542,
     "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": 1788423303.3380542,
     "c2c81551a732c792b437830fe203fa440478f5c4774b963fb03f31c00c867670": 1788423303.3380542,
-    "7590558b4a6fbd8af3630f7ad1730423574fe723c58aeae10bf6d7f0b6535738": 1788423421.4552677
+    "7590558b4a6fbd8af3630f7ad1730423574fe723c58aeae10bf6d7f0b6535738": 1788423421.4552677,
+    "36b9344e417c3e7ea877842ee7ef944a8360c4d3f66faca809418bd6c5bbdd8b": 1788424382.2545638
   },
   "queue": [],
-  "last_run": "2026-09-03T08:31:15.289417+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-03T08:33:16.104373+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788424263.451219,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788423904.0424647,
-    "consecutive_failures": 3
+    "last_start_ts": 1788424382.2545638,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788424382.2545638,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788423921.8749855
+      "updated_at": 1788424395.350109
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -481,12 +483,18 @@
       "desc": "ODILO Embarks on a New Era as Letmino to Transform Continuous Learning in the Age of AI pressreleasehub.pa.media",
       "source": "pressreleasehub.pa.media",
       "region": "WORLD"
+    },
+    "36b9344e417c3e7ea877842ee7ef944a8360c4d3f66faca809418bd6c5bbdd8b": {
+      "time": 1788424382,
+      "title": "Easy-Peasy.AI Launches Marky Agent: An AI Agent With Its Own Computer That Completes Tasks End to End - AiThority",
+      "desc": "Easy-Peasy.AI Launches Marky Agent: An AI Agent With Its Own Computer That Completes Tasks End to End AiThority",
+      "source": "AiThority",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -499,6 +507,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
