@@ -186,7 +186,8 @@
     "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": 1788435963,
     "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": 1788436321,
     "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b": 1788436505,
-    "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3": 1788436874
+    "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3": 1788436874,
+    "1ad3aa9c554a4439afe526260057e971ef1def3e64d83a6701af0e21a1dce572": 1788437081
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -410,27 +411,6 @@
     },
     {
       "region": "WORLD",
-      "title": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace - IT Voice Media Pvt. Ltd.",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUWJBNjVUc2VZNllvekx5Z2d0LTd3cTZ5OHFpU2xNMlNRTjBDNjIwR25ySjNTU3ZwQllnRXc4M3IxTDZDUFdvU2FnOVNKM3hLYkZjRVNyRTRhME9WU3RRTzJnNlN5eXU4MjJZZ0dRSG9GdDBtTjFpSVA1bmZwc0Z4MFRvbldXNlE5RllOcXphMUp2ZVdkN0V6enZOR0NiUQ?oc=5",
-      "desc": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace IT Voice Media Pvt. Ltd.",
-      "source": "IT Voice Media Pvt. Ltd.",
-      "time": 1788427431.0,
-      "score": 65,
-      "key": "1ad3aa9c554a4439afe526260057e971ef1def3e64d83a6701af0e21a1dce572",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "models",
-        "tools"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788435611,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788435911
-    },
-    {
-      "region": "WORLD",
       "title": "OpenAI Develops Automated Shutdown Tools for AI Agents - Dainik Jagran MP CG",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ29FUUlHd1RlcXItek80QnFFcnFlczk1Vkg2TGE5eTNHUHllV01zMWdzVmNFWHNlNzk0Q1R0eC15TGZrVno4N1hFaTNuemNacW5mR2lEeko3UHhjOTAyNmZUZmtGRDctY25nd0o4cFY0X3I1OW44YWxvME1NZFZzX2VSNl9naU1LanJNdE9UYU11UGNaWVFCbEZacUxXM1BZUW15VUpzWVJIWFEyajdySklzSC16MFU?oc=5",
       "desc": "OpenAI Develops Automated Shutdown Tools for AI Agents Dainik Jagran MP CG",
@@ -538,21 +518,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788437020.2798672,
+    "last_start_ts": 1788437081.1790936,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788437020.2798672,
+    "last_success_ts": 1788437081.1790936,
     "consecutive_failures": 1,
-    "queue_size": 16,
+    "queue_size": 15,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788437020.2798672
+    "last_published": 1,
+    "last_run_ts": 1788437081.1790936
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788436876.8208344
+      "updated_at": 1788437116.7635388
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -936,10 +916,16 @@
       "desc": "Александр Ведяхин: создать ИИ-агента сейчас может каждый prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "1ad3aa9c554a4439afe526260057e971ef1def3e64d83a6701af0e21a1dce572": {
+      "time": 1788437081,
+      "title": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace - IT Voice Media Pvt. Ltd.",
+      "desc": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace IT Voice Media Pvt. Ltd.",
+      "source": "IT Voice Media Pvt. Ltd.",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -958,8 +944,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788435785.18048,
-  "last_publish_ts": 1788436874.2775376
+  "last_publish_ts": 1788437081.1790936
 }
