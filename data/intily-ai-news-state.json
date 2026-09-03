@@ -219,7 +219,8 @@
     "12da18e71bcd8de9a25340906dcc64eb6bfd816010cc890bc2c8b456c2707dac": 1788440201,
     "d3f0fe219f3db1d2d49f0137f096e1d79bd57d13d65dbe1179e7c4b09bbd291a": 1788440262,
     "3c1e6d1e6a90ee0e3dfe5fe73bb353098661fb3aea6fbb94de47e606a27bfb06": 1788440561,
-    "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b": 1788440623
+    "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b": 1788440623,
+    "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": 1788440685
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -369,26 +370,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788440623,
+      "last_failed_at": 1788440685,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 23,
-      "next_retry_at": 1788462223
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Nvidia оснастит еще один дата-центр для Anthropic - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14YWNCSElmdnFtQUdEb3FocHhmQVRPODhWZTloT0tvS0tCWl9peTBUV19nSkx4VVVjbGQ5bGhVbmRTcVlPOExCYzFNMENWdw?oc=5",
-      "desc": "Nvidia оснастит еще один дата-центр для Anthropic kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788437798.0,
-      "score": 65,
-      "key": "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
+      "failure_count": 24,
+      "next_retry_at": 1788462285
     },
     {
       "region": "RUSSIA",
@@ -453,21 +438,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788440623.7544165,
+    "last_start_ts": 1788440685.2697165,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788440623.7544165,
+    "last_success_ts": 1788440685.2697165,
     "consecutive_failures": 1,
-    "queue_size": 6,
-    "last_candidates": 32,
+    "queue_size": 5,
+    "last_candidates": 0,
     "last_published": 1,
-    "last_run_ts": 1788440623.7544165
+    "last_run_ts": 1788440685.2697165
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788440658.350604
+      "updated_at": 1788440700.279228
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1075,10 +1060,16 @@
       "desc": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов companies.rbc.ru",
       "source": "companies.rbc.ru",
       "region": "RUSSIA"
+    },
+    "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": {
+      "time": 1788440685,
+      "title": "Nvidia оснастит еще один дата-центр для Anthropic - kommersant.ru",
+      "desc": "Nvidia оснастит еще один дата-центр для Anthropic kommersant.ru",
+      "source": "kommersant.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -1095,10 +1086,11 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788440623.7544165,
-  "last_publish_ts": 1788440623.7544165
+  "last_publish_ts": 1788440685.2697165
 }
