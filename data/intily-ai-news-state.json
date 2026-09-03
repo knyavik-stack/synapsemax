@@ -18,7 +18,8 @@
     "f09fdc33e7929e5407420bc0aa9a159afd76ed2d872e4e44516089b4ecb44b62": 1788444920,
     "067ff2b7858a511d74315299ab45a6b2036d1ad18d6106b4c3ccf846484de233": 1788445273,
     "570b54be4e560da272a60c59097bfe66916c4b162f3d49bcab0a36bd6df7fece": 1788445639,
-    "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": 1788445991
+    "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": 1788445991,
+    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788446171
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -74,22 +75,6 @@
     "7159550ca68c9090ab06d9885c58c8f86f9d7fad9ee3e51f58ef390953bddb1f": 1788444920.0279398
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming - Fast Company Middle East",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUXFweFBhcGl3NVQwakZLWVREMFlXRF9uT3d4NXJtVFJEcVl4aWdpUmNHY21iUmk4TG0zNUFlVFU3NFAwRm82SWU1QzgwYzFCeDZXY2d6YXo3cUc5TzgxZEFGZ2VGeVFMbFgxUmdCSlk0TGFxQTRDQUlaaEpVaFc1MFIwOHhLQmJOT0MyOG0teTdLMjY1TC1icmJWQkpZcGxTekNFclZTTE1rZ2puaGtZYUxIa0s3S3NrYmc?oc=5",
-      "desc": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming Fast Company Middle East",
-      "source": "Fast Company Middle East",
-      "time": 1788424176.0,
-      "score": 66,
-      "key": "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Anthropic and OpenAI Launch Advanced AI Models Amid Cyber Risk Concerns - Readers.id",
@@ -324,20 +309,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788445991.085714,
+    "last_start_ts": 1788446171.1439326,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788445991.085714,
-    "last_success_ts": 1788445991.085714,
+    "last_run_ts": 1788446171.1439326,
+    "last_success_ts": 1788446171.1439326,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788446120.294402
+      "updated_at": 1788446189.660956
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -483,6 +468,13 @@
       "desc": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок Московская газета",
       "source": "Московская газета",
       "region": "RUSSIA"
+    },
+    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": {
+      "time": 1788446171,
+      "title": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming - Fast Company Middle East",
+      "desc": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming Fast Company Middle East",
+      "source": "Fast Company Middle East",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -504,8 +496,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788444920.0279398,
-  "last_publish_ts": 1788445991.085714
+  "last_publish_ts": 1788446171.1439326
 }
