@@ -124,7 +124,8 @@
     "4836dcb8eea5500ed7821d1cf800d03fe16a25b50fc6103613d9fcfa2a6c6192": 1788477894,
     "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1": 1788478075,
     "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788478503,
-    "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796
+    "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796,
+    "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": 1788479277
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -288,22 +289,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 | ETIH EdTech News - EdTech Innovation Hub",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbjRvaWhmT2plTjhwWjBOXzZON0x5WkxPeEFaX3N6dzNIT1EzTklicGRkUlFQU29xSTRSU05wNVlBMHRLUDh3dE9uWmpnOWF0SFQ4YVpHM1Mxb0wxNDJYbEVYTG5RSVUyeWxVa2dXakdoNVMxR3lQVjhXb2hfcmt3a2ZzNXFJU1V5ZHNSeW1vZzdhLVdDTXhSZWRRa3hqNGxRa1dFekhJY3ZSSldZX042Umxpd3ZfeGp3ZHg4anVkOA?oc=5",
-      "desc": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 | ETIH EdTech News EdTech Innovation Hub",
-      "source": "EdTech Innovation Hub",
-      "time": 1788478447.0,
-      "score": 70.5,
-      "key": "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Внедрение ИИ в бизнес: почему умной модели недостаточно - Т-Бизнес секреты",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GWnhIWTNyRm9OUW1ZWXUwanBkVE5LdlQ2UW5uZEROOGM1MjdfdkRpN3U4VVB3a3Vyel93NlFtMExNeUZ4ZHJjc2FnOHBsYTl6RXlvVk9WZ1laOUNNYW44TTV0Tzg5eFJBcWg3NWRoZw?oc=5",
@@ -357,20 +342,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF - Information Technology and Innovation Foundation",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdFh0V1ZOd3pya05fN1NDaUdUbUgtMDhLMVZRUE1ITDE1RHVfX1E5MVdyR3FPUVNtYUpnOFJNblQ3SDhyakhWQXdDRm9abmE3NUNOcjZFQ0xEdlhFSkxTSFZvSVFVTHNnRGhtWm5DUHVIdzJMWVh6VGY0WEttV1ZQLUJ0TnBtRnRMWWF6YVZmUzYzWFplNWF5SldDLTRKSGRQUEJGZmEycWhBeGw1a0dBN3JnVzA?oc=5",
-      "desc": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF Information Technology and Innovation Foundation",
-      "source": "Information Technology and Innovation Foundation",
-      "time": 1788475538.0,
-      "score": 66.5,
-      "key": "c850ae2facf0311829a649fd7d19fe9c1bbbc542864c143eaa3056caa07cba0f",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Сбер объединил российские и индийские агентства на одной платформе - Muksun.fm",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUWFrQk5mSExuekZUdjRQYjZRUlQwT3VacUVoY3ZlQnlnQ285cHBCUlo3Nk95NzAwUTlhSjFDVWFEWDZIeG1FNzB3UDhMMVZLVklpYjdzcTZLcHNpUk51WElHMnpHdDAyZWlNRWxBaWd3aV8tYkJ1cl94blI2MjNzbkFWNV81V3N4YkFkM2VQLWU2RFBYUk9Ga010bV95emVZR2liOEpsQTJ3MzBn?oc=5",
@@ -386,6 +357,20 @@
         "agents",
         "tools"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF - Information Technology and Innovation Foundation",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdFh0V1ZOd3pya05fN1NDaUdUbUgtMDhLMVZRUE1ITDE1RHVfX1E5MVdyR3FPUVNtYUpnOFJNblQ3SDhyakhWQXdDRm9abmE3NUNOcjZFQ0xEdlhFSkxTSFZvSVFVTHNnRGhtWm5DUHVIdzJMWVh6VGY0WEttV1ZQLUJ0TnBtRnRMWWF6YVZmUzYzWFplNWF5SldDLTRKSGRQUEJGZmEycWhBeGw1a0dBN3JnVzA?oc=5",
+      "desc": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF Information Technology and Innovation Foundation",
+      "source": "Information Technology and Innovation Foundation",
+      "time": 1788475538.0,
+      "score": 63.5,
+      "key": "c850ae2facf0311829a649fd7d19fe9c1bbbc542864c143eaa3056caa07cba0f",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -523,20 +508,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788478796.2150717,
+    "last_start_ts": 1788479277.2282443,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788478796.2150717,
-    "last_success_ts": 1788478796.2150717,
-    "last_candidates": 78,
+    "last_run_ts": 1788479277.2282443,
+    "last_success_ts": 1788479277.2282443,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 15
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788478835.5532265
+      "updated_at": 1788479280.4195983
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1424,6 +1409,13 @@
       "desc": "AI Tools for Software Development: The AWS List aws.amazon.com",
       "source": "aws.amazon.com",
       "region": "WORLD"
+    },
+    "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": {
+      "time": 1788479277,
+      "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 | ETIH EdTech News - EdTech Innovation Hub",
+      "desc": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 | ETIH EdTech News EdTech Innovation Hub",
+      "source": "EdTech Innovation Hub",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1438,7 +1430,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1446,8 +1437,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788478796.2150717,
-  "last_publish_ts": 1788478796.2150717
+  "last_publish_ts": 1788479277.2282443
 }
