@@ -64,7 +64,8 @@
     "29e1cc8446e0a9b7c4d453899cb9dcf8e08454364cbe968acdfb0bf9901780f5": 1788457878,
     "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6": 1788458239,
     "f08e8fe5014a0c0332ffefa656d2d584f811c731ab1fa40c00b949e9196b9acd": 1788458590,
-    "657ece28e23bcb46449c2ea5f8e700f03ad7c8ee38fe3bf7db640379578b5d60": 1788458774
+    "657ece28e23bcb46449c2ea5f8e700f03ad7c8ee38fe3bf7db640379578b5d60": 1788458774,
+    "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": 1788458959
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -227,23 +228,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdnpqamp3SmNZMHVlb1o3TUVuLUlFUVRGc181Mkp4UDNzQlpSUDgxMzF0Z1BhNHFjaGV2eW9nYU9mb0RUd3IzWkxLOUZlNTlaaGVfeFVNY2ZhcVM3eFlpTzFtLUN6Y0hDcnNWTmpSQS0xeDVxRzJqMWVEcktYMERlLXVMTEpYX3psTm05TkdMWmNBeUNySzYwOEh5NHdDSE50anJGczE4SkRlbFR3Um5tcy12ZTlGTHlUbG5OUE5xMXk?oc=5",
-      "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788435631.0,
-      "score": 65,
-      "key": "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A",
-      "russia_weight_bonus": 3
-    },
-    {
-      "region": "RUSSIA",
       "title": "Пользователи по всему миру сообщили о сбоях в работе нейросетей - Рамблер",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdnZIR2p3WEhhVXVkSVJ0UHBiS3YxYk5aMTlybHBGbWlvbzNWRGtPTWoyelBJNVBweGgwQm51U2F2T2pCMnI2Ykg4ZC0xeGJRaU1MLWJOQ1RMTndIOFkzVUx6UDBfZ2Z2MkxJUzUzMldCU0hIcmViMUhFMFoxNEtIckszbHdOSGpZNVlxT1F1c1RGNEJwQWRnUDZXTDJHQXlvVnhiUjZFONIBrAFBVV95cUxQVFZDci15dGQwQmgtUk5OWjNobnRiRWhvSzBTWURxeDdTd1duVjV3THZGd2p1RnFpano2Z1FWNUtHa1poZFJuMTlpY1I5a2RXU2dMdHZzWm5MVF84NXlFTEIwLUo5ZVM4NHI0OUtJLU13cllWYTViNjhURVZIWHlZVDlvSDJ6RHZORGo5OFNvYzA4R3lncWtXTU9GeFJoZ04zZ0wxcXc1RHNyZTZa?oc=5",
       "desc": "Пользователи по всему миру сообщили о сбоях в работе нейросетей Рамблер",
@@ -306,20 +290,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788458774.5037966,
+    "last_start_ts": 1788458959.2339568,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788458774.5037966,
-    "last_success_ts": 1788458774.5037966,
+    "last_run_ts": 1788458959.2339568,
+    "last_success_ts": 1788458959.2339568,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 5
+    "queue_size": 4
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788458776.7298675
+      "updated_at": 1788458961.9705014
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -787,10 +771,16 @@
       "desc": "Елена Силкина: как подготовить компанию к внедрению ИИ companies.rbc.ru",
       "source": "companies.rbc.ru",
       "region": "RUSSIA"
+    },
+    "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": {
+      "time": 1788458959,
+      "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
+      "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -809,8 +799,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788457511.8404827,
-  "last_publish_ts": 1788458774.5037966
+  "last_publish_ts": 1788458959.2339568
 }
