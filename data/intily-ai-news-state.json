@@ -136,452 +136,94 @@
     "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788349516,
     "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788353346,
     "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2": 1788356493,
-    "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": 1788358555
+    "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": 1788358555,
+    "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715
   },
   "known": {
-    "587e073fb67a156a88e23cad9d9ee04a8267f1d42774192cfe5567a8bba7b55b": 1788336971.858376,
-    "996dc45511b30182016a60f74df185dae9e6c41581bb0579c66317d29b9d0e46": 1788337242.6649766,
-    "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": 1788337242.6649766,
-    "f0ff75dfa630d110674bdf5afa96f585899a8034939c9fe23baebda163d5ee61": 1788338743.7995994,
-    "e3479ca66a104e930034a786b0636771933b94f63549f92e7e30b9e40e6d2c5e": 1788339044.2659903,
-    "4c21324c89c3332eead3e4f5a5ff09e11b4382a69324adbb414a8272b28afede": 1788339346.171776,
-    "2a66d7f26c196c287fef4ddc16098ddc85e0b21c1bce873a8d29754203977584": 1788339945.9016674,
-    "4cd2e8d1b7f9ec765bc0b7ebaf2fc0904048364eb559c4193d755d825c2f2db4": 1788340245.236414,
-    "ce82690aab9d1901c2cef982613ff0292a38411f6cda4cc2dc07c2e5d958c561": 1788340245.236414,
-    "29b128d8ab433a6bb50051b5d36641481333cffe681f0beda5f110779195cb2b": 1788340545.4863362,
-    "253c0bd5eef47d5120c15d5201cf6165fe62bfea76b8d1a3cb5078cb09c4f6f2": 1788340843.9721189,
-    "4e829e5b7f111640c2a46592a69c3a80d1ec145c8b543fb6b84c387e9579f8ac": 1788341443.8111463,
-    "592fabc8febe3a25ae0a86bf8ea9290033656fe15ecc025b0c653d5ae24964cb": 1788342346.6116998,
-    "2392a412fa96ac4836bb713f3f5b2d3ac712548ef6333574256f7e2d8cf19565": 1788342946.938898,
-    "a297dd96c6430b3c8af076a20e2d3bc76c26ac952f6853184d946e191ccd440b": 1788343245.0981288,
-    "908616a936144f83b89d7195143c6eb8010e316059c6c3e28706f5b1fadc7ded": 1788343545.5544531,
-    "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": 1788344146.422171,
-    "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": 1788345043.9418838,
-    "9032fdf9cb64245a7e93527f848068c913a16951516d53cf8019b51cafdae236": 1788345043.9418838,
-    "106adc407327a446c668ff1d4f6d97cdb99c94767e1a7ef08355ff7f41802666": 1788345648.5054953,
-    "b90a2c74117e4b32377546d39445a46f11b5f179e2af38f5b256aa95c62833bb": 1788346248.4243684,
-    "352572fc5a83b728b3a8a50a6443651dc539d4c5488f8a7e3286c5d924f79bcf": 1788347265.2698512,
-    "e2ec09d05ac01dcd95a7fd0fb4056140d3d3bd0c69264ac87733bc4c13e396bc": 1788347265.2698512,
-    "d069063539ef13db3657880ac0f44c2cea7f9662bb780a9e997ce92c308f709b": 1788347265.2698512,
-    "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": 1788347265.2698512,
-    "4bdaf2b416d86527bf1e8704f6707c1fd8fa95657ae639886652c4caa42519df": 1788347265.2698512,
-    "60f0e119cdfb6cadaf917e85c72785eb15d314f5af88efdfd3108425ca682bfd": 1788347265.2698512,
-    "5bd8e6185df38390e0ea84d447b83334f83f23271a4d45c5e19632281bdcb434": 1788347265.2698512,
-    "0bd24f11fb34adc010d0d823900a12d5470f7db19ec87a1b42da341d62fafad1": 1788347265.2698512,
-    "21c142edd8163235ab1ce9412d15a9c4dcc88bf5aba1bed711c0ca91c6dfb468": 1788347265.2698512,
-    "5764bc26c8a9eabca3dc4a1074a29bfc504fa05a2359ac62043d209306c327d5": 1788347265.2698512,
-    "26b1e0d03107e427b5907134cd91e1c6d707a79b43682d6ddcecae09965a8f13": 1788347265.2698512,
-    "a12c6c2fd1c752bfbb2d0b0e44f2aa738fc7cadda60f8aec4b484701a9931510": 1788347265.2698512,
-    "a29baa6aeaba5e8248553e8c88a39f502cd496adab5e9fd5d8b64338c392a849": 1788347265.2698512,
-    "45f14f87ca3ea418a1c81ee1c50c79fb249f79cbde579baa7ab6b10de8cc9f05": 1788347265.2698512,
-    "0da6b777b6be147d222ee36b52130eccd806028b2dfeff97e671b2e9fd7a9e57": 1788347265.2698512,
-    "1de0b51aaf8f0876e9b99a2f45513d2b92123239623f32f82863d368b76495e4": 1788347265.2698512,
-    "5aeb3b0d4a538974c66bc4ee37f33299e383ed1bfd87883556a88b1053a56abb": 1788347265.2698512,
-    "b3537015e3790b0b8d78b4fbae1d09cec5d866123fdd3b385ad3ffb211a5eec3": 1788347265.2698512,
-    "7b88b93ddbc052d088ea7f57e140fed5925c13a20bfc181a3308314de2427c64": 1788347265.2698512,
-    "7986b89f52ea2a23d198cc966777e7e77e2a2a01bb3e013bcef965deb4240438": 1788347265.2698512,
-    "4517176bbead454baadb481ce47744e9d5eb1d9005ab174aeea2a35c20f86944": 1788347265.2698512,
-    "e60cc6d1c8b584c2870d17aff81f24b3003b5981b447c428f8ffd6cf8c9ec2b9": 1788347265.2698512,
-    "6353e48b817f048d505e8c15cd1eccf03457d7b1ee0c368e3d7b7e042a075fbd": 1788347265.2698512,
-    "b3851f5e2caad4694806f6e156d487d9a2e1a6ec1069db63a9a5f8afbda18782": 1788349516.069073,
-    "d6f81d12789a1bee0d6a57eec1e5bf8ce607f781c9fffdce5359ee55ee85b9d3": 1788349516.069073,
-    "69f9c5a1e87ab67d899bc9dfaf3cb9d79d121030f42143b2f0b309eb7c34640b": 1788349516.069073,
-    "e2abf78e4265e5dbeda2ae720fba129e7e954181d60ecf8f02e34a6de08fb9fd": 1788349516.069073,
-    "5384825c03ce20ea29a3ae73b87b1257afa66beaee503c28b2800a0748fcfcd7": 1788353346.6187575,
-    "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": 1788353346.6187575,
-    "3658284c70bad04f82fa9ef54eb717fe7fc42d00c38a797fa60eca66da513417": 1788353346.6187575,
-    "bdc23eaf938515377ed58b0339ed8141be72264ca8304a0664c671e40639b79a": 1788353346.6187575,
-    "d2f114b181c659f65f561122b7f415bc47d69850746b80099cec21bc79ee8369": 1788353346.6187575,
-    "6f410929b0e6b68afc26f1033b15737b5276b3d22e8dc53cce3fe2c8bcf57c02": 1788353346.6187575,
-    "6251b0b5e8b84a214911c434e78ccd655ae8c3addf9ca39e57a789da03ecb4a1": 1788353346.6187575,
-    "16b60de09357a58da4a746f1633f84c04a876482dc4de76c0c639cf3fce62e09": 1788353346.6187575,
-    "7b455fe97b2747a62a23dd8861edb1af50c1ef42168f0f5bdc90977230891bd2": 1788356493.6585639,
-    "fb27b3c77ed00dffd3f542ccff809663b77311ecf7706aa3803b5f41df7c76d2": 1788356493.6585639,
-    "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": 1788356493.6585639,
-    "5c96fbcf438fc1a5ad12951af048d43162399f9781c0ff7a60c02a1dbdbc4eb0": 1788356493.6585639,
-    "ce60c5aa5f91577f6960785f0d28b21c345e9198a632a920b947bdc5a67163fe": 1788356493.6585639,
-    "8e669fbfa1f34eae5a84309bea0e42d489a350dc085da6c135a5d653d85b68c9": 1788356493.6585639,
-    "2d21bd8b89cb4b093113e8b6952c71758ede883ce019a0fc0911c7d6f6910243": 1788356493.6585639,
-    "a18c745cbd6e4a371a23f92c58b7b4e584b8c9a35672b66e8f562de5bc8b57ee": 1788356493.6585639,
-    "2096cf6e080976586c59fe01a6fd3c017097f0d354d60937d8d29d4ea6fac246": 1788356493.6585639,
-    "e42ce8d678ad38bd1d8e712fe9fcfb6821beddecabe027efaafd5b4c32854c61": 1788356493.6585639,
-    "88557d2b1968551095361823f21b271964c6f69f7a0cef58d0e894d0865497a6": 1788356493.6585639,
-    "814d5639074b6e13d687901d9c498c40ee57b83b2059913dd13df042239a1b95": 1788356493.6585639,
-    "d806b5fceda26ec1ad08fcc3b0b9dbc77d0fdaae223411f3d89f4ef1ec778db1": 1788356493.6585639,
-    "789457f5d5302d06fc11131ce83a3ab9781ebd4e028661f1c5ebd0ba859f0f56": 1788358555.0412698,
-    "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d": 1788358555.0412698,
-    "19f70ba1b8d2f74e98350908045769aaa64a73c8d14e7c3a2542cfacf07d5969": 1788358555.0412698,
-    "0a3ea92ed7e0f43893cbf558d35d225843aa77dd7b773b4e310f5789a1747f57": 1788358555.0412698,
-    "dad555e378f2233c9e901a88b40357bc6e8886c53624584a258fff9c8252847d": 1788358555.0412698,
-    "55a6f24d9d8365638e72dfc6b8834200d0254b66e73efd0bafc92a9571931472": 1788358555.0412698,
-    "e6af479802a840b13023c12a267ce01031c29b3bd0857d0ef853dfdd0954051a": 1788358555.0412698
+    "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
+    "02d62538c3b5451b073394e1580e3732a20df7cfa7c3537c01de8495d18481a9": 1788412715.6470509,
+    "4ddbb8412aad1fe633b2113fd489ee8c63e56dcfb02076e477d2f362300d9d48": 1788412715.6470509,
+    "9d6adba45c15e20d7a81fc563262275d1eb76ffed2418f4a0c44f11daf28ab21": 1788412715.6470509,
+    "969ca2cd5727d71a35474e0ebe754033872a80ef4f7b3caddca7eb8f199fa0ee": 1788412715.6470509
   },
   "queue": [
     {
       "region": "WORLD",
-      "title": "Sam Altman says OpenAI's next AI model is launching soon, says safety remains top priority - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNjFnQlk2OHFrcWIwbHZrM19ycmJXZVpaT25tQVB6NmJ6MUlPcjBqNTZSVXFxRTVFTFk1WFk0WWROT0VzdEFiSGw2X29EcUVQNWNSdGRCZFZXZjlWVXdTcnk3TzR2YzZfZFFTVmdhSldlSi1TRF91a2JqbWxRTDBzQXAxazBkV0d1SGVMUlRBcVBKUDlNa0FvRW1LLWNtYUdhdW4tWjdDd3lLQkNQNVlHNS1SY01neGdCSjJHYVZReW5Va2UxT1pGRC1mY05McU5OY3BQSzE5Zk5hTHdIRkhWaEFmY2JxUdIB6wFBVV95cUxObmQ2MThOQ2tFSUdBWktCTU56OTlxYUhTc3huSldDRHF4bzR3SU13dWFzT3loRXhIcnVkZ0pwT0RtNTBXTUQ5NG9HRWhQUWtQUGV2d3Q3SVRHLWZJS1hOMHZzZnV5MG94dnI2cUFQRENUclZ2WDB3TmppNmw1NzNRRThnZ1N6TkNjYUlOZ3hqTVVRZUppTldzNE9YMTFKa2Q4QllFbmRTUy04RElJYVkxWk9xVzQtVzQ3OXRtU3g1aEdHWV9LM2xvbmdMTzJCYTBFdEFUTVZraXNrQ0VKNnQ0OXY4WG40TVJBQXo0?oc=5",
-      "desc": "Sam Altman says OpenAI's next AI model is launching soon, says safety remains top priority Moneycontrol.com",
-      "source": "Moneycontrol.com",
-      "time": 1788347712.0,
-      "score": 26,
-      "key": "b3851f5e2caad4694806f6e156d487d9a2e1a6ec1069db63a9a5f8afbda18782",
-      "editorial_value": 29,
+      "title": "JFrog launches AI-era security tools for software supply - SecurityBrief Australia",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORDdIYzdPc1NHS3paVGRZX2pUWWJKcVRHVEtEbjE5Rkh0ZWxzdmJ2ZkxMTGQ5aDd6dFlKR0FzaElWZVZvTGtVTFhFbk02Mkt6d29hN2tOR1R2YjA0TEo2RzJkWk1xT1ZyaWdkUjJJcTdfX3Z3SU1keXJ5OW1MWVBuUVFCbFZUS2VHWG9UdVkwVE5JZ294cHc?oc=5",
+      "desc": "JFrog launches AI-era security tools for software supply SecurityBrief Australia",
+      "source": "SecurityBrief Australia",
+      "time": 1788409020.0,
+      "score": 19,
+      "key": "02d62538c3b5451b073394e1580e3732a20df7cfa7c3537c01de8495d18481a9",
+      "editorial_value": 27,
       "topics": [
-        "models"
+        "security_regulation",
+        "tools"
       ],
       "tier": "S"
     },
     {
       "region": "WORLD",
-      "title": "Zoho launches Catalyst 3.0 with Agent Skills, MCP support and AI IDE integrations - FoneArena.com",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BMERnY2toOEJvd1ZWeVZTaU16T0FLSEpVZ1RFMy1yWTlvLVhmOUJrWDN6ZzR0S2NEMkt0SFRWdENqUHcteHhCWlRSTWtCaWVGRy01WURncXlaZ3F0VzZsVjJMNm00MXlDSkh4dzY5aTVOaWVTZ2dwT9IBfkFVX3lxTE9tN3NfaFVCR082ZXhLQVBLbXp0VTJlbHhXY1NMTG5hU3pqS3IyVzVTWGd4Y0lGTlpnQl9KWmpVckRmRXpHZ2NPNmRlLXFPNGZEUnN4YzFNLWlfNDhPR2NIMDdaT3VZcDJ1bVhHNXVfOWNZOVRpa1Y3VnFEMlIxQQ?oc=5",
-      "desc": "Zoho launches Catalyst 3.0 with Agent Skills, MCP support and AI IDE integrations FoneArena.com",
-      "source": "FoneArena.com",
-      "time": 1788353935.0,
-      "score": 18,
-      "key": "7b455fe97b2747a62a23dd8861edb1af50c1ef42168f0f5bdc90977230891bd2",
-      "editorial_value": 24,
-      "topics": [
-        "agents"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards - SecurityWeek",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeFhKNW5MSk9KLXBIb2c4Y2RzbF9qdG05YnZ0cEdXWThENHRRQnU5bVQ3UVNaQnJ6VGUtNlFTRS1UbGxnNWQ4a1BjZ19KUGpERWlzWFR6VC1XdENoeTRKXzRnV2xLS0pER0JUd19TX25seEtkajlwUkllSUg0NGxwWjRxd0xQdWo4YjN1dDNDSHZKdDBFaVNTOUVSODVwU01ETHdFODNia25TQ1NHNGZxUmFB0gGyAUFVX3lxTE94WEo1bkxKT0otcEhvZzhjZHNsX2p0bTlidnRwR1dZOEQ0dFFCdTltVDdRU1pCcnpUZS02UVNFLVRsbGc1ZDhrUGNnX0pQakRFaXNYVHpULVd0Q2h5NEpfNGdXbEtLSkRHQlR3X1Nfbmx4S2RqOXBSSWVJSDQ0bHBaNHF3TFB1ajhiM3V0M0NIdkp0MEVpU1M5RVI4NXBTTURMd0U4M2JrblNDU0c0ZnFSYUE?oc=5",
-      "desc": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards SecurityWeek",
-      "source": "SecurityWeek",
-      "time": 1788350236.0,
-      "score": 15,
-      "key": "e509d2091ed4c9da073d85f525a35ec63173c5358f1373e281a83a4c18563e1d",
-      "editorial_value": 23,
-      "topics": [
-        "business",
-        "security_regulation"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "$21+ Billion Business Process Management Market Outlook 2026-2035 | AI and Automation Drive the Next Wave of BPM Growth - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSW1zSGJ6TS1mTVA2UmI2YkJxcm1zU0lFNmpLbDJQa2ppWU9sZmtLNGtacy1yQjJ4aGdodDA0dnN1cWUzNXJaV2I3ZVlyRDBYdWc4ZDJDREhzVjRhcTVNSldmTjF0cWFZeEtjaVJoZ25xWVFjZXZMREhwX2tkcEtZdnY4TlVya3pJdUVDN2VjdW16ZFU5SGQ4WXFuejRBSkx5TGFSeA?oc=5",
-      "desc": "$21+ Billion Business Process Management Market Outlook 2026-2035 | AI and Automation Drive the Next Wave of BPM Growth Yahoo Finance",
-      "source": "Yahoo Finance",
-      "time": 1788344880.0,
+      "title": "‘Trump Leaked America’s AI Secret To China’: Experts Sound National Security Alarm Over Nvidia Move - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPUnZBLWRHcVozWGVHeTNYRUVsNGR2cUVaSWVKcTE4bElNcWp5NWNkSTBXbmNYYTVpZXBNalBzRmdrWDBWaW1WYkU5MmZDTUNlZS1tSlBCYzNHbjZ3dTh4VTZKMTRldGtLTnpUQ2thVVJ4UU1pRjBnS1pWT2dHYkxERmxaeGtBdU5iUjlTN3RldmluaVd2X001eWFwTGJTUnNOYXQ0NXlIYVFDQ0hubFB5c3pWVG1xUlFPZkN0cUhOVUFfNVRYdjR5dHlEbHF5dGNPN1ZST2FyamRwU2RmQjRiQ0NqTWMzcWVaakkxRFhRTUJpdGU1NG9mSEpRTEpjWEdDRXpJVWVBMUI2Q3p50gGMAkFVX3lxTE9SdkEtZEdxWjNYZUd5M1hFRWw0ZHZxRVpJZUpxMThsSU1xank1Y2RJMFduY1hhNWllcE1qUHNGZ2tYMFZpbVZiRTkyZkNNQ2VlLW1KUEJjM0duNnd1OHhVNkoxNGV0a0tOelRDa2FVUnhRTWlGMGdLWlZPZ0diTERGbFp4a0F1TmJSOVM3dGV2aW5pV3ZfTTV5YXBMYlNSc05hdDQ1eUhhUUNDSG5sUHlzelZUbXFSUU9mQ3RxSE5VQV81VFh2NHl0eURscXl0Y083VlJPYXJqZHBTZGZCNGJDQ2pNYzNxZVpqSTFEWFFNQml0ZTU0b2ZISlFMSmNYR0NFeklVZUExQjZDenk?oc=5",
+      "desc": "‘Trump Leaked America’s AI Secret To China’: Experts Sound National Security Alarm Over Nvidia Move The Times of India",
+      "source": "The Times of India",
+      "time": 1788397200.0,
       "score": 13,
-      "key": "0bd24f11fb34adc010d0d823900a12d5470f7db19ec87a1b42da341d62fafad1",
-      "editorial_value": 21,
+      "key": "9d6adba45c15e20d7a81fc563262275d1eb76ffed2418f4a0c44f11daf28ab21",
+      "editorial_value": 19,
       "topics": [
-        "applications",
-        "business"
+        "chips",
+        "security_regulation"
       ],
       "tier": "A"
     },
     {
       "region": "WORLD",
-      "title": "Google DeepMind Says Gemini Is Evolving From Chatbot To AI Agent - Search Engine Journal",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYmpWQlRmSE5xZTU2S2N2MnQwRUxSR2REQXdrWFhZV3BtV1M4RlB2Ql9NMXM4Zm5ScEFMN3VhNGVfSFhvSlRsVEJmbnFPc1VpN3lVSGtmaldVb2d0UXBYTklpaDhoNkl3RVAwaFNaZFlPSjNiSXV2SEFFOHM4TDc4MjVPTlMtMzFGaTdBM2Q3QUxaQWJua1l0aWsxbjJtZmF5SEc5dnR2ZzgzbllH?oc=5",
-      "desc": "Google DeepMind Says Gemini Is Evolving From Chatbot To AI Agent Search Engine Journal",
-      "source": "Search Engine Journal",
-      "time": 1788348240.0,
-      "score": 17,
-      "key": "789457f5d5302d06fc11131ce83a3ab9781ebd4e028661f1c5ebd0ba859f0f56",
-      "editorial_value": 20,
-      "topics": [
-        "agents",
-        "models"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "When AI agents go rogue, the law doesn’t disappear - TechRadar",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOS1ueUZmMlMtbWJSUTB1X1BkNktXNnFPLWU0aFNFZ01TbWhqbXEyZnZfSHB1SHpBaWlYUzZQeG42YmVYaURwRU5BSEhqbldwUk5YQzNOdkUtVG82cXdtX0N6akxHa0xlR1BsdENUZV8yMTl5VjdPdGRtRUFkb3U3YS1ublg?oc=5",
-      "desc": "When AI agents go rogue, the law doesn’t disappear TechRadar",
-      "source": "TechRadar",
-      "time": 1788347027.0,
-      "score": 17,
-      "key": "5384825c03ce20ea29a3ae73b87b1257afa66beaee503c28b2800a0748fcfcd7",
-      "editorial_value": 20,
-      "topics": [
-        "agents",
-        "security_regulation"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic Discounted Its Priciest Model Without Cutting the Price - Business Model Analyst",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkcHJzdGNDMXdMMkw5OERxRnZ2dDNtQUhIekhMeEwyMGZOejh4dWdXOGg5ZHFLQ0NkM1M0ZG5tVHpwMU54cG9jdjdnU0Y0T2J0enFFMjY1ZXotMy1rZlVBWExxZFlIMXUteTcwbzJzZ0xnQVd6REdfcUVfMTY3MVE?oc=5",
-      "desc": "Anthropic Discounted Its Priciest Model Without Cutting the Price Business Model Analyst",
-      "source": "Business Model Analyst",
-      "time": 1788353776.0,
-      "score": 15,
-      "key": "5c96fbcf438fc1a5ad12951af048d43162399f9781c0ff7a60c02a1dbdbc4eb0",
-      "editorial_value": 20,
-      "topics": [
-        "business",
-        "models"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "Frontier AI at a cost: what Anthropic’s Fable 5.1 means for US-China model race - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeGc3TXdfdXdxMTB1N2ZzWE42TzZKNFMyeUttSktKXzI0SWQzUHNWQWwzRmxnejlOUHZGdEpfcHR1MzhHNTJ2YXJCd3NxQ2RLbFJKcXZJQ0RER3RTTkxpWFRzcWpGOHpDQ1BUYVhWUFp1MlhfVERKTklUSFFHOXdueTNCVGFTaFhfTXdQOXNfZWhZZW1lZjN2aUljdVAyQzhxR0xmTWF6UC1IYmdlcjJzREVmcmdDZV9MZ0HSAboBQVVfeXFMTmFjeFA2Wi1Vck52QmFGeHI3ZExQUk03enpaZFdqV1hOX1FRR0RHdTA5NFhfMk9LLWNfUU1VTHZrRnZoNGlZSi1NTW1NdFh4MVNTbmR2ZkVhcTNMOEx1akdnUEJQNURqYlNpcFYtclBycUl3Mm14VjZMRUtiT0tRQ3lWZGNEUnNSU1dMR250V2VuT0JTQ2ZBenV3WW4yRnB4WHNtX1BVR2FhQ0xuRng2QXg3S0JTWHI3cWpB?oc=5",
-      "desc": "Frontier AI at a cost: what Anthropic’s Fable 5.1 means for US-China model race South China Morning Post",
-      "source": "South China Morning Post",
-      "time": 1788348606.0,
+      "title": "Google takes on Anthropic and OpenAI with Gemini 3.8 Flash, says it can match performance at lower cost - India Today",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNUnNidkVsOU1oSm4tVTNEdHZsLXFSUy1PTEVDZTFrQ3g5bFR6SkJGTzNXU3BhLXpaTnhPdmVqSDU2czlKMFRKbVY0QTlDQkFtN1VTRWRQWXVCdEktZXdteG42U3lxNnhWdXhaQVMxZ2tzZHgwbmhlLUJPcGRrSWhCWjlrNzRjdElNdUw1SWVCRHJnbHdxU25WSmo3Q0pkY2lxMmpFNENwZm93TFhobEp5RFNKZ3lablMxVzJucHdBT2hSVDdmZnlWWGlIdnB0bFFuUWl5MzdlejNtVkxUQmtzUHl5UDZjOWU2YVV3Wklkd293NmlFZFNLU3RPQ3fSAYICQVVfeXFMTnFaMzJiaEVrZnRVWHoxV2NjajlMOG5NbGVHaUIxRFFnRXZaMmRxdE90NXNoSE9ZVjlSSFlOU243eXM5ZDM3Zk1WV284cklNenA1OGUteXNMS0p0TUtKTThmdnpkQVdsRUQ3Z2RSWTlaOTZMS19uSUQ4cl9mbGdtMzZEcFd6QzExVlRMY3NiV2xOMmJNNEtXdW41dElEWThhWTVyc2NEeEdOdzFzdDdmdFZfbXhVNkZseTZ1NTNFaWwyVzV4OFJwNU9Fa2xfNTBsUEh1dzRyS2w5T3dPZTU1WElfUnFibVMxLThiUm9hdVdiUzZxV1Z3STRMYU9kcTZrYTJR?oc=5",
+      "desc": "Google takes on Anthropic and OpenAI with Gemini 3.8 Flash, says it can match performance at lower cost India Today",
+      "source": "India Today",
+      "time": 1788404329.0,
       "score": 14,
-      "key": "69f9c5a1e87ab67d899bc9dfaf3cb9d79d121030f42143b2f0b309eb7c34640b",
-      "editorial_value": 20,
-      "topics": [
-        "models"
-      ],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI Helps Integrated Tools Take on Security Threats, ISG Says - Yahoo! Finance Canada",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUjRYa2Z5NVdmUTdJenhVNFJYRTBadDV2N2thNml5U3dqZU5CY0FPaU4yRFBYbmM3UHJqS3J3YWtnbmQ2YjFCNDVGSlRNNk5QMmM3WkI0NVVSRUNhMUctT0dzVWpkeTByQkFuRTI2MnVLd3J3VkkybjVhVndtUzJyUnN5VWpTNzE2aE40?oc=5",
-      "desc": "AI Helps Integrated Tools Take on Security Threats, ISG Says Yahoo! Finance Canada",
-      "source": "Yahoo! Finance Canada",
-      "time": 1788357600.0,
-      "score": 12,
-      "key": "dad555e378f2233c9e901a88b40357bc6e8886c53624584a258fff9c8252847d",
-      "editorial_value": 20,
-      "topics": [
-        "security_regulation",
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era - Infosecurity Magazine",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUluUExlekhDLXJaT00xVy02NzF1N2k4eVdVY0ZiMXdSNEhsTDRaM3JEcl9MWERmdjZBQ1czQUM2bk9HTHJLZnR6UG1VNWE1MHlYZ0daWDhPdXM1eUx1aEctVVM1dTFzclFnem1lZnRYSlNObDZMSHJyOXRWTnNLclNlX3l0MzJlNkFSOA?oc=5",
-      "desc": "How Industry Coalitions Are Rallying to Secure Open Source Software for the AI Era Infosecurity Magazine",
-      "source": "Infosecurity Magazine",
-      "time": 1788352200.0,
-      "score": 12,
-      "key": "bdc23eaf938515377ed58b0339ed8141be72264ca8304a0664c671e40639b79a",
-      "editorial_value": 20,
-      "topics": [
-        "security_regulation",
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "NTT DATA to launch AI factory lab in Riyadh to accelerate regional enterprise adoption - IBS Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUUtDZzlzUEVRZ0ZYM2dHamRjeDJIYm5ta0gweUJmYUthd3RtSlh1SFExY0E0SWVCdFBzY2JVQU9KdnB4YkRFUVl6MTd6RGlsaHg3QlNJYktacVVaS3FMaWo2aWNQemwybEVhNUNlNzNFLVlKWlk2Mjd1c29iVWg2d0tBc213N2ZBaVprZW1BekJSWHdoLVk4RmpTai1MZXNRXzdjTnhiZi1VR1RHckFRY20zOVlDclI3SG5KTmRtSmk0VTg?oc=5",
-      "desc": "NTT DATA to launch AI factory lab in Riyadh to accelerate regional enterprise adoption IBS Intelligence",
-      "source": "IBS Intelligence",
-      "time": 1788350132.0,
-      "score": 12,
-      "key": "d2f114b181c659f65f561122b7f415bc47d69850746b80099cec21bc79ee8369",
-      "editorial_value": 20,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Top Tech News Today: Semiconductor Cycle, Devin's $47B Push, Graduate Talent, Crypto Markets & Anthropic's AI Launch - Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQXzJ1V1A5M2tIYWVyT3R6aUQ3ME1NeHkwTzVQdjlFSTVYMkdBWVozYVVsbkRKWUdxcVBCdlMzcVFYMHpwRTJOcndSaWs4ZkFfOTV1cjNEYlNDX3FTR29rY3VVdW9UMWJPRnF3WmtwOTMyVXpJNmE0aFBnZlRtQ0tFNldxZURGZVpvTTdLUVhkYS1yMTdoYUdjWUg2ZUZhVmg2MnVnTFlXaVh5WW0wT2lZWHZnY3NVRGZvWU82WHZ3Wlg2N1lIbEJWcGpjX0tBUXM2bFlXSmd4TEFFSTEwV3Y3YUhfQTbSAfIBQVVfeXFMTTQ3MXE1eFNZVU5SajBoNjI3VWpGZDVLUlN3eEZ0NWgzWHFJOFlWTWFFTG5LYmJZaEE4N1BDUlZmMnBFajd2cEFBRjhPMnlIandvZWZLbkdSaHFfZFZCLV94aEVlcUN2eGtIZjc2V1ZnUW5NekVBSkxoazE2dTZHcERodmZIbWxhdnVscWhodjB3VUNVLUJiLWd2WEQ2eHJoaWpyem9nMERWVzRhbExtZnZneWRraWhPV08ybncxdnRDOTJxMWJ6UFpNNGNPMjljcEtBQkxYU0pWd0VCa00yQUhnUE9XRjcxc3JSc3BlbEtLREE?oc=5",
-      "desc": "Top Tech News Today: Semiconductor Cycle, Devin's $47B Push, Graduate Talent, Crypto Markets & Anthropic's AI Launch Analytics Insight",
-      "source": "Analytics Insight",
-      "time": 1788347945.0,
-      "score": 15,
-      "key": "d6f81d12789a1bee0d6a57eec1e5bf8ce607f781c9fffdce5359ee55ee85b9d3",
-      "editorial_value": 19,
-      "topics": [],
-      "tier": "S"
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic Unveils Claude Fable 5.1 and Mythos 5.1 With Powerful Cybersecurity Capabilities - gbhackers.com",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oa016cElPUTFCOFZVeERpcHdTQWxhS0R5bXVwZ3VIZXU3Mk9FTEQ3LUJCZEVtQTA4NExMWm0xT2lPczhFSk1jNC0xdzFvZGE5dkRzMmVLWGF5TnFQTTdFY2hGR0FYR29Rd1dMbmtnVF9maUVmR3Y2V282blHSAYIBQVVfeXFMT2hpeVAtSzJXR1FXbFNEWHRDaDlxUC1zaG5pckRlUUlJeDJtcmg5OUlqYlQ5T0MzU05yOC1NS3ZIdVJETHB4R2N0b3lOekRKQTdmYUk0Smg4VHVlamEtNFNPdnl1Tl9yOEdmNC1vUWhwSTYwd1FPYUVNZnJIZUdTMTY4Zw?oc=5",
-      "desc": "Anthropic Unveils Claude Fable 5.1 and Mythos 5.1 With Powerful Cybersecurity Capabilities gbhackers.com",
-      "source": "gbhackers.com",
-      "time": 1788337694.0,
-      "score": 13,
-      "key": "0a3ea92ed7e0f43893cbf558d35d225843aa77dd7b773b4e310f5789a1747f57",
-      "editorial_value": 19,
-      "topics": [
-        "models",
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Gemini introduces 'Agentic Video Understanding,' a video analysis tool that automates video analysis, generating detailed and inexpensive answers by repeatedly transcribing and re-checking long videos. - GIGAZINE",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2WElvQXhGcWRhbmtEazhzRkNNTF82QkZTNDBhWndtWVVoSTVGZnJXX2JJSUhfQkxvdVVlMkpieGRkY3ptTVVxLUhOX3dLM1NzZXdta284czd1MnJmbzdGV2NxSHNDUGxKOWx6UXNYRlY?oc=5",
-      "desc": "Gemini introduces 'Agentic Video Understanding,' a video analysis tool that automates video analysis, generating detailed and inexpensive answers by repeatedly transcribing and re-checking long videos. GIGAZINE",
-      "source": "GIGAZINE",
-      "time": 1788337513.0,
-      "score": 13,
-      "key": "5764bc26c8a9eabca3dc4a1074a29bfc504fa05a2359ac62043d209306c327d5",
-      "editorial_value": 19,
-      "topics": [
-        "agents",
-        "models",
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "NTT DATA AI Factory Lab to launch in Riyadh and accelerate enterprise AI adoption across Middle East and Africa - Zawya",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZHFjNllCcVcwaEh3RklQVnVtSGh2Wi1ESV8xRXhJd1FzbDY3Qml0Q3lDXzdpTkcxanBHNFVQa2ZvNkNrMEFCZ1JXWk5pc25LMldabWdqa0x0X1VqcnJLYWZwNlFIbGxWTy1TN1JWQS0wLUNxMzc4bkd2UjBFNThrZkpjaWRYb0tsMzJ1aUlJTFZwNVFubVh2d3VqMk5aMkpoYkNFNFd6OE0xNEdVRFhKNURFTnhyU3hJRUJlYTlwUzdBbmZ5RGhQQUN2X1hjdE9uSnU4czl5VkswLXhCSHk0VnVGdVF0aS1CWU9tOFNrOTlSU0kwc0x6aEtPLWszUGpKRnc?oc=5",
-      "desc": "NTT DATA AI Factory Lab to launch in Riyadh and accelerate enterprise AI adoption across Middle East and Africa Zawya",
-      "source": "Zawya",
-      "time": 1788340200.0,
-      "score": 11,
-      "key": "1de0b51aaf8f0876e9b99a2f45513d2b92123239623f32f82863d368b76495e4",
-      "editorial_value": 19,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI startup Wonderful valued at $5 billion in latest funding round - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaU5TSXdkNDQ5d0YwWGt2d1pNaW9USnVFNlBxcUpMTUtDWW45Q20tNUgwa19DWHQ0V0tqcDlRT1pnMUdZMGlaeUxfenNzR0cxOTN0clY1OURvcjRQUTRFTklhUjRUalVqdlFKSlExdE1zR2luVmNKY3pXbGh4OF9ldnZyQ3dhUjdMblFGYmk0Q2dXYlpWOFdXcC15WXdfb2g1U3RVQmowSHRaeUoxdTRTUU9USjVUdkIwYUdBdHp2bHVJeFNNYkxfM3lJZ1nSAdIBQVVfeXFMTno4LUdzOENzUVBqTHdKYnZ6Smh6X3pmYUVhbV9Na0NSY25TaXZDRFE3bGt5Wkh0VnUxS3l0YnRQMTE2RGVROHJBNm8xUm9EUHlya0I0akpLVEwyclB4UWY4R05NSVhUQlpDXy02Y3dqMUpjUHlaYUVEenFUejFNSzBqODlpYkd0NjhNZEFTZkd1RU5PZGlHNlhYZHFidzd2elg1OE5xRHlocXNSdU9ya2pQdEJMdXV1eFJCRDlFZ0NEZmhWdnhsM21lcU1VYUx2eWhn?oc=5",
-      "desc": "AI startup Wonderful valued at $5 billion in latest funding round The Economic Times",
-      "source": "The Economic Times",
-      "time": 1788357425.0,
-      "score": 13,
-      "key": "19f70ba1b8d2f74e98350908045769aaa64a73c8d14e7c3a2542cfacf07d5969",
-      "editorial_value": 18,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Google Gemini 3.8 Flash coding AI model expected this week - tech.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVTY3MFlTSVJuU1BLWkVPVF9fVlZQUDA5OUpIR3MwMXZRaXo2a0RlTlE2UWI5dlJQc1NzQUFTRFhTWVZOUHYtd1o4aXdtZ09UWVlZSkFNU0RYRzFXVWZZUjZFb2pYWUJYUS1IWG1zMG5za1pGWlpGN0I5TGZZUXJ5RF9uZkYyNVE?oc=5",
-      "desc": "Google Gemini 3.8 Flash coding AI model expected this week tech.yahoo.com",
-      "source": "tech.yahoo.com",
-      "time": 1788352743.0,
-      "score": 13,
-      "key": "8e669fbfa1f34eae5a84309bea0e42d489a350dc085da6c135a5d653d85b68c9",
-      "editorial_value": 18,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "MIPS Launches Workload-Native Platforms for Physical AI - Business Wire",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLWtNN0ZvbEthbEZpaTlVcGNkazNWbG1IUDdvOGNLRkQ3Z0szM21UeWEyN3pNUHZDdl9Vc1VTNlUwQ2ZVRTBJUUdpRkJMY0FFVnJnMUZKRjlLbms3VDJmcTNYNUJiMi1KTml4NWIzZ3IyTmY4Z3ppYVBQOXBBZzJDSk9lNFhTS214X3B3d2N2SHN2Szg1ajlKekY1V0JfMjllQ21MUTF3QzgzRWFyN3ptaFNR?oc=5",
-      "desc": "MIPS Launches Workload-Native Platforms for Physical AI Business Wire",
-      "source": "Business Wire",
-      "time": 1788350400.0,
-      "score": 13,
-      "key": "3658284c70bad04f82fa9ef54eb717fe7fc42d00c38a797fa60eca66da513417",
-      "editorial_value": 18,
-      "topics": [
-        "business",
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Data-инфраструктура 20% компаний КИИ готова к требованиям закона об ИИ - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBxTDZaOWcwWkdTQ0xVM2tuN3RpeEJNMmEzTlN1SFFfbTV1bEs4YTAwNm0wbmJKTWpydVo3LUtGX0Y1bHE2YkdyRUhSNjJFMzhCeVZJTnlhUFhsbndNSGp4Wm1MN0c3cUJRVk9iT2lRd2tQUHhCd1cwUzFOWdIBe0FVX3lxTFBxTDZaOWcwWkdTQ0xVM2tuN3RpeEJNMmEzTlN1SFFfbTV1bEs4YTAwNm0wbmJKTWpydVo3LUtGX0Y1bHE2YkdyRUhSNjJFMzhCeVZJTnlhUFhsbndNSGp4Wm1MN0c3cUJRVk9iT2lRd2tQUHhCd1cwUzFOWQ?oc=5",
-      "desc": "Data-инфраструктура 20% компаний КИИ готова к требованиям закона об ИИ companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788344389.0,
-      "score": 11,
-      "key": "16b60de09357a58da4a746f1633f84c04a876482dc4de76c0c639cf3fce62e09",
+      "key": "4ddbb8412aad1fe633b2113fd489ee8c63e56dcfb02076e477d2f362300d9d48",
       "editorial_value": 17,
       "topics": [
+        "models"
+      ],
+      "tier": "S"
+    },
+    {
+      "region": "WORLD",
+      "title": "‘Narrative that frontier AI gives threat actors advantage is flawed’: Daryl Pereira, Google Cloud - financialexpress.com",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVWVReGxBYjdLN0h3bncyOUtKVkstOXV6S09tem9pT3BMZXlLbGt2eW15QmJRdFh5MWRncXhpaG9ybzZQR2tPZmx2WU1qMXlMcTNrWFdpd05mYlh0WHhHZ3phNENSMGQyZkNFX2xJNEtxTWVxQmNrcTVuNU9DenpRZm13dGt4TWNKaVZxa2NQTWVtdDZLMVRRWjhSTDlZT2ViTmxyR3VKRjM4ZjRlbWVQRUE4djUzUlNxeVRtODM3aGFvWW5wM2F0Y0xwbHJkMktuamp1M2tHTTdDR0tydkZobmhiS0RCQdIB7AFBVV95cUxOWFZ4dlhXbDNQRXNnVGZtN0Iya2MtNUlQVkpCUFZCemlnbmlDT0dUQVViOHpoWkRsOHc1ckc2ZXhsMVdpa29zTG9JcXFjTWsxZE9xMFpFT1hsNkFPMUszZ3hUdEpGc0Q5a211Wm1fVGcyUF80VWp5OE81NGxsa21JVklxOW5NdzNpSEpQV0FhUkdkNkgyLU5CcG1oWTRnanRqOVVDREdTOGhtV0NkazE5d0NxdGF1dDd6ZHdtQnRfSnNMSzZXdmRPSGtTREJlN0hrZ2t2ZGVfR1VzUmJTWVk4TnZhNFlKbW10dUx3NA?oc=5",
+      "desc": "‘Narrative that frontier AI gives threat actors advantage is flawed’: Daryl Pereira, Google Cloud financialexpress.com",
+      "source": "financialexpress.com",
+      "time": 1788400290.0,
+      "score": 12,
+      "key": "969ca2cd5727d71a35474e0ebe754033872a80ef4f7b3caddca7eb8f199fa0ee",
+      "editorial_value": 15,
+      "topics": [
         "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "CrowdStrike представили агентную систему SafeMind - ForkLog",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa3E5V29lVG5udURhRm9BMFh0ZHpJTFRXNTUwLTByaDBRd0FSWWhRQkpUWUxYZFplTHVNY2F3ZkVlWnJWLWZaWkQzTWhHRTdDTFBqVE9lWHN1RGVOcjdJY0hqM1cxM0hRTFJicFlIZFBKaU1GY3NSQjdEMi14TmRmd0VPSGc?oc=5",
-      "desc": "CrowdStrike представили агентную систему SafeMind ForkLog",
-      "source": "ForkLog",
-      "time": 1788356096.0,
-      "score": 13,
-      "key": "ce60c5aa5f91577f6960785f0d28b21c345e9198a632a920b947bdc5a67163fe",
-      "editorial_value": 16,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Google запустила ИИ-сервис Pics для создания и редактирования изображений - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IZEZpM0tiVEpUdlRnMVhHdFFGbVczNVZvdjYzX1JJWUtwYlZyVGdvYVY5ZDh6STlCZThvRGpaSl9XcmxsV0pPczFsVWRSQQ?oc=5",
-      "desc": "Google запустила ИИ-сервис Pics для создания и редактирования изображений kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788352569.0,
-      "score": 13,
-      "key": "2d21bd8b89cb4b093113e8b6952c71758ede883ce019a0fc0911c7d6f6910243",
-      "editorial_value": 16,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Александр Ведяхин: Сотрудники Сбера экономят 80% времени благодаря ИИ-агентам - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZFNISWpBcHhab0RuaWpLRmV1dm55amZUWENaLVBKbVRJMUZ6MEJLREVlVGhMUjZkcVl5ZTBXZVM1WHEzaVVTREdEUktCcDJxR1lidHhXdnl0UVA1MElvWVpwX1V2am5JTE5VTzVvNmNkajlib0JFcVduanZJUzdJUEp5alJ2VW9nYXhYdlRNOTFMR2xJMGVhZW1KS3Fic1B4SkttNm9lVHVTUUwxYmhHLWU3OTdIN0JEU09N?oc=5",
-      "desc": "Александр Ведяхин: Сотрудники Сбера экономят 80% времени благодаря ИИ-агентам prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788356672.0,
-      "score": 11,
-      "key": "55a6f24d9d8365638e72dfc6b8834200d0254b66e73efd0bafc92a9571931472",
-      "editorial_value": 14,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Александр Ведяхин: ИИ-агенты изменят структуру цифровой экономики и сделают рынок честнее - tvtambov.ru",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOcmtVV3ZwYnNZYmF5VHQ4ejRoSTJ5Y3J6T0dUN21uckplSEw4WC05V0pYUmJidGpLakJ1WVpha281U1IxaTVvS2RNbXlMOU0xNnEyeFJuVVlQcjRVTUJpY1FxTGRnN1hoVEE0QURIR3A4andOM0dMdzFBYlhTcUU0Wkp5eGVfd3BxaTZxc21FTUl6YTlkclgwMWN5Sm9UTldYbno1NlJ0NWYwRHpNLTlmMDZTZGhSME90VmpwTmpBb0c1a2M1QUxXbE40Y0NpRjA?oc=5",
-      "desc": "Александр Ведяхин: ИИ-агенты изменят структуру цифровой экономики и сделают рынок честнее tvtambov.ru",
-      "source": "tvtambov.ru",
-      "time": 1788345916.0,
-      "score": 11,
-      "key": "45f14f87ca3ea418a1c81ee1c50c79fb249f79cbde579baa7ab6b10de8cc9f05",
-      "editorial_value": 14,
-      "topics": [
-        "agents"
       ],
       "tier": "A"
     }
   ],
-  "last_run": "2026-09-02T14:16:16.463717+00:00",
+  "last_run": "2026-09-03T05:18:50.183790+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788358555.0412698,
+    "last_start_ts": 1788412715.6470509,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788358555.0412698,
+    "last_success_ts": 1788412715.6470509,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788358575.8859372
+      "updated_at": 1788412729.6262622
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -595,524 +237,6 @@
     }
   },
   "stories": {
-    "bfc3b02db3458b48c20329b980374fcf6d26d08fffcbc2075b624d739b3a472b": {
-      "time": 1788302122,
-      "title": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work - The Verge",
-      "desc": "Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work The Verge",
-      "source": "The Verge",
-      "region": "WORLD"
-    },
-    "de5a3ea176edf083e58e9f09401b2f40f39ba5ba25dbc486c3651eea571179eb": {
-      "time": 1788302421,
-      "title": "Cambridge University spinout launches AI model \"competitive\" with OpenAI and Anthropic - Tech.eu",
-      "desc": "Cambridge University spinout launches AI model \"competitive\" with OpenAI and Anthropic Tech.eu",
-      "source": "Tech.eu",
-      "region": "WORLD"
-    },
-    "c967643c51fec634f2096cd4e57172caaf46b5c64d5abdb1f6fe1f7d597fc15b": {
-      "time": 1788303023,
-      "title": "Anthropic R&D Slowdown Shows Need for Heightened AI Agent Security - aibusiness.com",
-      "desc": "Anthropic R&D Slowdown Shows Need for Heightened AI Agent Security aibusiness.com",
-      "source": "aibusiness.com",
-      "region": "WORLD"
-    },
-    "046dff280ec97855744ebf1c24b7c69233cf2f7f73d32a3d695166f2a270759d": {
-      "time": 1788303321,
-      "title": "Anthropic Claude Fable 5.1 Launch September 2026: New AI Model vs Fable 5, Smarter Coding & Research, Lower Costs; Check Features, Pricing & Mythos 5.1 - The Sunday Guardian",
-      "desc": "Anthropic Claude Fable 5.1 Launch September 2026: New AI Model vs Fable 5, Smarter Coding & Research, Lower Costs; Check Features, Pricing & Mythos 5.1 The Sunday Guardian",
-      "source": "The Sunday Guardian",
-      "region": "WORLD"
-    },
-    "8bdeb54b16b6c162ad8ef0fa5581dc9fde654e35975980a2367280ccdddece15": {
-      "time": 1788303620,
-      "title": "OpenAI to launch new model with ‘stronger safeguards’ after hack - BNN Bloomberg",
-      "desc": "OpenAI to launch new model with ‘stronger safeguards’ after hack BNN Bloomberg",
-      "source": "BNN Bloomberg",
-      "region": "WORLD"
-    },
-    "29a90cb53aa4a1f2af92df94041763b62d8b938fde17fc4322176032ccc4757e": {
-      "time": 1788303921,
-      "title": "Anthropic signs $35 billion cloud deal with Nvidia-backed Lambda, source says - Reuters",
-      "desc": "Anthropic signs $35 billion cloud deal with Nvidia-backed Lambda, source says Reuters",
-      "source": "Reuters",
-      "region": "WORLD"
-    },
-    "738d77cdab92b21737613df0a984175738878b42a45815fa7f01c279d8a51de8": {
-      "time": 1788304221,
-      "title": "OpenAI Model Escaped a Virtual Machine Three Times, Trail of Bits Finds, as Salesforce Auto-Enables AI Agents for All Customers - t.co",
-      "desc": "OpenAI Model Escaped a Virtual Machine Three Times, Trail of Bits Finds, as Salesforce Auto-Enables AI Agents for All Customers t.co",
-      "source": "t.co",
-      "region": "WORLD"
-    },
-    "e4cbd1d40b41cf11962715e92a19149cf6f82fe5b320913efac8a1ffc6bef5d9": {
-      "time": 1788304519,
-      "title": "OpenAI says upcoming model is so capable it requires stronger guardrails - Reuters",
-      "desc": "OpenAI says upcoming model is so capable it requires stronger guardrails Reuters",
-      "source": "Reuters",
-      "region": "WORLD"
-    },
-    "1ce6a341a2350a23a1a329e674944142553ec1584fe2c8b815ba3c5f1dbaee3c": {
-      "time": 1788304822,
-      "title": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities - WIRED",
-      "desc": "OpenAI Is About to Release Its First AI Model With ‘Critical’ Cyber Abilities WIRED",
-      "source": "WIRED",
-      "region": "WORLD"
-    },
-    "031b7129e26d07743374a17c9f27bf185159dc63afc979faba51f45888fe40a1": {
-      "time": 1788305119,
-      "title": "Anthropic tightens security on its training environment after Claude agents went rogue 3 times - Business Insider",
-      "desc": "Anthropic tightens security on its training environment after Claude agents went rogue 3 times Business Insider",
-      "source": "Business Insider",
-      "region": "WORLD"
-    },
-    "39bd3d96a8fe20236be74e2c7d7d3b95c8aca54e7941363d1f0df5b7dbfe77ac": {
-      "time": 1788305420,
-      "title": "NVIDIA RISC-V for NVIDIA GPUs at Hot Chips 2026 - servethehome.com",
-      "desc": "NVIDIA RISC-V for NVIDIA GPUs at Hot Chips 2026 servethehome.com",
-      "source": "servethehome.com",
-      "region": "WORLD"
-    },
-    "f4c092788cffc532169bcda3fb255a53d0b6eb5cabf03de490b5ca1b09ca46ff": {
-      "time": 1788305768,
-      "title": "Nvidia Backs MediaTek With $3.5 Billion AI Chip Pact - streamlinefeed.co.ke",
-      "desc": "Nvidia Backs MediaTek With $3.5 Billion AI Chip Pact streamlinefeed.co.ke",
-      "source": "streamlinefeed.co.ke",
-      "region": "WORLD"
-    },
-    "0586b6268a93baff183a773cec456ac92dfa7410cf1912f609e251440df08e9c": {
-      "time": 1788306072,
-      "title": "Anthropic resumes external AI model testing after security breach incidents - The News International",
-      "desc": "Anthropic resumes external AI model testing after security breach incidents The News International",
-      "source": "The News International",
-      "region": "WORLD"
-    },
-    "961c1c21a2f76fba35633d5ab927348577ccc2b668d634eb567ab3780a93cfd2": {
-      "time": 1788306372,
-      "title": "Anthropic Hardens Claude Security After AI Models Gain Unauthorized Access to Real Systems - CyberSecurityNews",
-      "desc": "Anthropic Hardens Claude Security After AI Models Gain Unauthorized Access to Real Systems CyberSecurityNews",
-      "source": "CyberSecurityNews",
-      "region": "WORLD"
-    },
-    "420ea85f800a4fdb53279121c5250b52d73e3ee06270213b3e5007191eda0f5d": {
-      "time": 1788306668,
-      "title": "Anthropic Suspends Top AI Models On US National Security Order - Stocktwits",
-      "desc": "Anthropic Suspends Top AI Models On US National Security Order Stocktwits",
-      "source": "Stocktwits",
-      "region": "WORLD"
-    },
-    "8cda4e22a9412f74737dc0ac053068f811ad7b5572962d6a7152055414e4f740": {
-      "time": 1788306967,
-      "title": "NVIDIA Invests $3.5 Billion in MediaTek – NVLink Fusion to Bring Custom AI Chips into the NVIDIA Ecosystem - igor´sLAB",
-      "desc": "NVIDIA Invests $3.5 Billion in MediaTek – NVLink Fusion to Bring Custom AI Chips into the NVIDIA Ecosystem igor´sLAB",
-      "source": "igor´sLAB",
-      "region": "WORLD"
-    },
-    "40fd01d611cf2d44bafa3aeccddaf50f408bde420336432ea5cb2bf4c327afbc": {
-      "time": 1788307570,
-      "title": "What Laptops Have the Nvidia RTX Spark chip? Confirmed Models and What the Chip Does for AI - Gadget Review",
-      "desc": "What Laptops Have the Nvidia RTX Spark chip? Confirmed Models and What the Chip Does for AI Gadget Review",
-      "source": "Gadget Review",
-      "region": "WORLD"
-    },
-    "4031bff6f48861fdb82aaa227c6d196da37eaf7e3bddf159e5d964296eae31c2": {
-      "time": 1788307872,
-      "title": "Anthropic IPO odds climb to 90% as new Claude models launch - Crypto Briefing",
-      "desc": "Anthropic IPO odds climb to 90% as new Claude models launch Crypto Briefing",
-      "source": "Crypto Briefing",
-      "region": "WORLD"
-    },
-    "9879a81cc39d8c7db3a0dd89ffe71d4e0d9fc96b7edad574754c5761a4a8da68": {
-      "time": 1788308468,
-      "title": "Tech Bytes: Nvidia’s US$3.5 billion MediaTek bet reveals its next move in the AI chip war - proactiveinvestors.com.au",
-      "desc": "Tech Bytes: Nvidia’s US$3.5 billion MediaTek bet reveals its next move in the AI chip war proactiveinvestors.com.au",
-      "source": "proactiveinvestors.com.au",
-      "region": "WORLD"
-    },
-    "922ef783cfc9b8e4ffdd7be3dd7a2e4569289dc523117118c0a748569c23e9e2": {
-      "time": 1788309072,
-      "title": "OpenAI, Anthropic roll out new AI models as open-source challengers close in - 디지털투데이",
-      "desc": "OpenAI, Anthropic roll out new AI models as open-source challengers close in 디지털투데이",
-      "source": "디지털투데이",
-      "region": "WORLD"
-    },
-    "5ff52840a43c44c604827011f0bc73b6301e3caeb43410cb327f3a3a41f091fe": {
-      "time": 1788309369,
-      "title": "Anthropic Beats OpenAI To The Punch With A Nominally Cheaper Claude Fable 5.1, As Samsung Bets Its Chip Designs On Claude Code - Wccftech",
-      "desc": "Anthropic Beats OpenAI To The Punch With A Nominally Cheaper Claude Fable 5.1, As Samsung Bets Its Chip Designs On Claude Code Wccftech",
-      "source": "Wccftech",
-      "region": "WORLD"
-    },
-    "95350a8c335d07813dba06b35a3c241acecc5a9ef563c450fd592de463a4b4f4": {
-      "time": 1788309668,
-      "title": "OpenAI Puts New Astra Model Behind Tougher Safety Guardrails - BusinessToday Malaysia",
-      "desc": "OpenAI Puts New Astra Model Behind Tougher Safety Guardrails BusinessToday Malaysia",
-      "source": "BusinessToday Malaysia",
-      "region": "WORLD"
-    },
-    "9b1c8e835c8e53693217959d340477e1c9a878e3401b9b71a544b361d013b06e": {
-      "time": 1788309969,
-      "title": "Nvidia Makes Its Largest Overseas Investment With $3.5 Billion MediaTek Stake - finance.biggo.com",
-      "desc": "Nvidia Makes Its Largest Overseas Investment With $3.5 Billion MediaTek Stake finance.biggo.com",
-      "source": "finance.biggo.com",
-      "region": "WORLD"
-    },
-    "3924a02f76fec7207d29a0c33144c6afdc52b979c5a056f4c67e067d4d0239b6": {
-      "time": 1788310269,
-      "title": "Wafer, An Inference Provider That Uses Non-Nvidia Chips, Lands Acquisition Offers and $200 Million-Plus Valuation - The Information",
-      "desc": "Wafer, An Inference Provider That Uses Non-Nvidia Chips, Lands Acquisition Offers and $200 Million-Plus Valuation The Information",
-      "source": "The Information",
-      "region": "WORLD"
-    },
-    "dcd1b0f8aa48cf70cfcc7ae9910021ddf66e55377a809890e21bbbe0dddb43a1": {
-      "time": 1788310569,
-      "title": "Anthropic pledges to try harder to keep models under control, asks partners to chip in - The Register",
-      "desc": "Anthropic pledges to try harder to keep models under control, asks partners to chip in The Register",
-      "source": "The Register",
-      "region": "WORLD"
-    },
-    "6f5fa7e3ee27caa1d7ac44b214c935dac5b6db38aad39cd2516bc05567080988": {
-      "time": 1788310873,
-      "title": "Anthropic Restarts AI Security Testing After Claude Models Breach Third-Party Systems - finance.biggo.com",
-      "desc": "Anthropic Restarts AI Security Testing After Claude Models Breach Third-Party Systems finance.biggo.com",
-      "source": "finance.biggo.com",
-      "region": "WORLD"
-    },
-    "2de8f6b8a90936281e806780fc3d097ff8a1ff335ccc71f991aa027fa2513b06": {
-      "time": 1788311169,
-      "title": "Anthropic's standard could let AI agents control different machines - TechRadar",
-      "desc": "Anthropic's standard could let AI agents control different machines TechRadar",
-      "source": "TechRadar",
-      "region": "WORLD"
-    },
-    "fd92044314653dd1dd8951d47c9cd9e09f0f8e44a520031b24120b63e9ed3b03": {
-      "time": 1788311471,
-      "title": "US pushes looser approach to AI regulation, while EU pushes new law - Al Jazeera",
-      "desc": "US pushes looser approach to AI regulation, while EU pushes new law Al Jazeera",
-      "source": "Al Jazeera",
-      "region": "WORLD"
-    },
-    "c32ad6f054e83758384613400c8859a76a034256132433660bcf8544cbaaf20c": {
-      "time": 1788311770,
-      "title": "Anthropic's Claude 5.1 Slashes Agentic AI Costs 45% - The Tech Buzz",
-      "desc": "Anthropic's Claude 5.1 Slashes Agentic AI Costs 45% The Tech Buzz",
-      "source": "The Tech Buzz",
-      "region": "WORLD"
-    },
-    "80ee4424364918f3a6c4e117aee4a2fefedc42631a85b2f1238eba5a7fafdff8": {
-      "time": 1788312071,
-      "title": "Secret Technique Behind OpenAI’s ‘Astra’ Model Sparks Security Concerns - The Information",
-      "desc": "Secret Technique Behind OpenAI’s ‘Astra’ Model Sparks Security Concerns The Information",
-      "source": "The Information",
-      "region": "WORLD"
-    },
-    "3af2ca5b6f082ee422e3fa0b7686d28280a1017ed5210b3e56d5725d3b6d826b": {
-      "time": 1788312669,
-      "title": "CrowdStrike launches frontier AI models for cybersecurity in partnership with Nvidia - Crypto Briefing",
-      "desc": "CrowdStrike launches frontier AI models for cybersecurity in partnership with Nvidia Crypto Briefing",
-      "source": "Crypto Briefing",
-      "region": "WORLD"
-    },
-    "17228aadea7970d6ebcbea0998bc219c5d465bfea29f45d774ff076439fb2247": {
-      "time": 1788312970,
-      "title": "OpenAI reports disturbing behavior from AI agents - americanthinker.com",
-      "desc": "OpenAI reports disturbing behavior from AI agents americanthinker.com",
-      "source": "americanthinker.com",
-      "region": "WORLD"
-    },
-    "23a5d564f30a93878ac4c5e932966c2a48b34512233f157b2498c57e1fe0f4be": {
-      "time": 1788313269,
-      "title": "OpenAI delayed its new model’s development after the Hugging Face hack - The Verge",
-      "desc": "OpenAI delayed its new model’s development after the Hugging Face hack The Verge",
-      "source": "The Verge",
-      "region": "WORLD"
-    },
-    "7dbc572d59c870f09f95ea4a8f3ac7d21c340cd72c93bbe86f99cde95a302dff": {
-      "time": 1788313573,
-      "title": "The Next AI Breakthrough Won't Be a Bigger Model - Computer Weekly",
-      "desc": "The Next AI Breakthrough Won't Be a Bigger Model Computer Weekly",
-      "source": "Computer Weekly",
-      "region": "WORLD"
-    },
-    "631c5067dd2a0ddf2af565a47599ddfd43efd160218c21c2426eccab26293dc9": {
-      "time": 1788313873,
-      "title": "Custom Chips vs Nvidia’s GPUs - Broadcom faces high-stakes earnings test as AI expectations soar - The Economic Times",
-      "desc": "Custom Chips vs Nvidia’s GPUs - Broadcom faces high-stakes earnings test as AI expectations soar The Economic Times",
-      "source": "The Economic Times",
-      "region": "WORLD"
-    },
-    "ff2fe429afad09dee160ea2b583f7fd4ed8d4c26c4044a195a7609acf86e8a45": {
-      "time": 1788314168,
-      "title": "OpenClaw Explained: How Its Viral AI Agent Platform Is Being Built and Secured - Analytics Insight",
-      "desc": "OpenClaw Explained: How Its Viral AI Agent Platform Is Being Built and Secured Analytics Insight",
-      "source": "Analytics Insight",
-      "region": "WORLD"
-    },
-    "84e3486b73b03f9bcbc5de15e371fb46d687520d74e7cbb17fe7bd3579464ee3": {
-      "time": 1788314477,
-      "title": "Not Nvidia. Not OpenAI. This Artificial Intelligence (AI) Stock Will Be the Ultimate Winner. - The Motley Fool",
-      "desc": "Not Nvidia. Not OpenAI. This Artificial Intelligence (AI) Stock Will Be the Ultimate Winner. The Motley Fool",
-      "source": "The Motley Fool",
-      "region": "WORLD"
-    },
-    "80f206773c2b0116d13f9e1d092d8181a0ded41fe580dc911dd8f0581bd125f8": {
-      "time": 1788314770,
-      "title": "Federal judge pauses mifepristone lawsuit amid FDA safety review - WSET",
-      "desc": "Federal judge pauses mifepristone lawsuit amid FDA safety review WSET",
-      "source": "WSET",
-      "region": "WORLD"
-    },
-    "d4bab423eb6f59928589f79c0454dcde5b3633f1a3a005f16574ccc450d94c00": {
-      "time": 1788315069,
-      "title": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape - ebglaw.com",
-      "desc": "Workplace AI Regulation in 2026: How Employers Can Navigate the Changing Legal Landscape ebglaw.com",
-      "source": "ebglaw.com",
-      "region": "WORLD"
-    },
-    "146e9fcd480ad693fc861ccc854d5475a79f2220b8914a06547ddee5979fe013": {
-      "time": 1788315368,
-      "title": "Palo Alto Networks acquires AI agent platform Console to power autonomous security operations - Crypto Briefing",
-      "desc": "Palo Alto Networks acquires AI agent platform Console to power autonomous security operations Crypto Briefing",
-      "source": "Crypto Briefing",
-      "region": "WORLD"
-    },
-    "f407b1d5cdf9819fbd77a01619b942b51fead9513022c9b52baf589231136cdf": {
-      "time": 1788315672,
-      "title": "Dropbox Security Breach: Hackers Access Accounts Through Authentication Flaw - Decrypt",
-      "desc": "Dropbox Security Breach: Hackers Access Accounts Through Authentication Flaw Decrypt",
-      "source": "Decrypt",
-      "region": "WORLD"
-    },
-    "2e234fabeab50d9e679742be32c39aee4c397790dd68585df2fc65b36c219ea0": {
-      "time": 1788315968,
-      "title": "DeepSeek and its peers are churning out chips at a frantic pace, has NVIDIA finally lost its shine? - 36氪",
-      "desc": "DeepSeek and its peers are churning out chips at a frantic pace, has NVIDIA finally lost its shine? 36氪",
-      "source": "36氪",
-      "region": "WORLD"
-    },
-    "fddc17a362f708c5a794524ae120e7c8954214b54cee120213fabbceee3d71a5": {
-      "time": 1788316271,
-      "title": "AI Agents Are a Cybersecurity Nightmare That’s Only Just Begun - CNET",
-      "desc": "AI Agents Are a Cybersecurity Nightmare That’s Only Just Begun CNET",
-      "source": "CNET",
-      "region": "WORLD"
-    },
-    "08ec5b7d7256a396803019ff9d0140e4f92e9f7313435f8d630e79c326dc407d": {
-      "time": 1788316569,
-      "title": "Flock announces security changes after dozens of reports of law enforcement abuse and public backlash - ABC News - Breaking News, Latest News and Videos",
-      "desc": "Flock announces security changes after dozens of reports of law enforcement abuse and public backlash ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "region": "WORLD"
-    },
-    "46443d7a4ddd824cf96ac64930422edcfb07b65c5254d71bde086561cc393190": {
-      "time": 1788316869,
-      "title": "This 4.5%-Yielding Pipeline Stock Just Made a $4.4 Billion Acquisition. Here's What It Means for the Dividend. - The Motley Fool",
-      "desc": "This 4.5%-Yielding Pipeline Stock Just Made a $4.4 Billion Acquisition. Here's What It Means for the Dividend. The Motley Fool",
-      "source": "The Motley Fool",
-      "region": "WORLD"
-    },
-    "06206c95b8c26d7c3ec025df4be89e131ee46e07e8ac0bb8c5bf6973d47dfd54": {
-      "time": 1788317171,
-      "title": "SGS : Montenegro Issues New Toy Safety Regulations - marketscreener.com",
-      "desc": "SGS : Montenegro Issues New Toy Safety Regulations marketscreener.com",
-      "source": "marketscreener.com",
-      "region": "WORLD"
-    },
-    "0609de3acf821ea7d3026518e2be59b7c255746e21f57a16d766b4eeaeb76df8": {
-      "time": 1788317471,
-      "title": "Scientists make potential breakthrough in search for dark matter - Reuters",
-      "desc": "Scientists make potential breakthrough in search for dark matter Reuters",
-      "source": "Reuters",
-      "region": "WORLD"
-    },
-    "2e41fd31557b1aa78c75a05a7841970b2681dd466e2df7e27da3484347842ed1": {
-      "time": 1788318076,
-      "title": "Tomb Raider Series Starring Sophie Turner Violated Safety Laws In UK During Filming - Times Now",
-      "desc": "Tomb Raider Series Starring Sophie Turner Violated Safety Laws In UK During Filming Times Now",
-      "source": "Times Now",
-      "region": "WORLD"
-    },
-    "a87ab09a305fccda590302d56985fa56eb8bc672e469d6e7b2fc5ef6a8371bd8": {
-      "time": 1788318372,
-      "title": "Battelle Researchers Demonstrate Biotech Breakthrough for Rare Earth Element Separation - Yahoo Finance",
-      "desc": "Battelle Researchers Demonstrate Biotech Breakthrough for Rare Earth Element Separation Yahoo Finance",
-      "source": "Yahoo Finance",
-      "region": "WORLD"
-    },
-    "9721bf3bb2b3c7a4ac397873ceb427af0403690a306218eee5f0a33a561f1360": {
-      "time": 1788318669,
-      "title": "100+ лучших инструментов и гайдов по ИИ от Anthropic, OpenAI и Google (2026) - Хабр",
-      "desc": "100+ лучших инструментов и гайдов по ИИ от Anthropic, OpenAI и Google (2026) Хабр",
-      "source": "Хабр",
-      "region": "RUSSIA"
-    },
-    "5083bc82cd39d884dd519d4ab8e3d5350f99d592e65cef0d25958226c527206f": {
-      "time": 1788318971,
-      "title": "China's CXMT makes breakthrough in advanced memory chips: report (MU:NASDAQ) - Seeking Alpha",
-      "desc": "China's CXMT makes breakthrough in advanced memory chips: report (MU:NASDAQ) Seeking Alpha",
-      "source": "Seeking Alpha",
-      "region": "WORLD"
-    },
-    "a4cb071ee10ac0f29f062727482ea9db5cff4cb2c8d18fe2efecb06a2b6c5d27": {
-      "time": 1788319271,
-      "title": "Вступил в силу закон о регулировании обращения цифровых валют - prospect.com.ru",
-      "desc": "Вступил в силу закон о регулировании обращения цифровых валют prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
-    "22bfdbf5e0cbf644f9a9f8e2a1b897f9f3d678f33ee85a90304cbf613518c8a1": {
-      "time": 1788319568,
-      "title": "Anthropic Slashes Cache Pricing 75% to Make Claude Fable 5.1 Viable for Long-Running Agents - finance.biggo.com",
-      "desc": "Anthropic Slashes Cache Pricing 75% to Make Claude Fable 5.1 Viable for Long-Running Agents finance.biggo.com",
-      "source": "finance.biggo.com",
-      "region": "WORLD"
-    },
-    "ebb0f8143794f0ee3fb3cb8172c5f4926b42b0331a5ad958e21f99a30743f2ba": {
-      "time": 1788319871,
-      "title": "Right on Cue, Google Is Reportedly on the Verge of Shipping a Coding-First AI Model - Gizmodo",
-      "desc": "Right on Cue, Google Is Reportedly on the Verge of Shipping a Coding-First AI Model Gizmodo",
-      "source": "Gizmodo",
-      "region": "WORLD"
-    },
-    "16360690727017dd2d2e2c034a7170093fc46d591dd1675ddf1e6ae306694efa": {
-      "time": 1788320167,
-      "title": "Free AI Courses From OpenAI and Google, What They Are and How to Enroll in 2026 - Pasquale Pillitteri",
-      "desc": "Free AI Courses From OpenAI and Google, What They Are and How to Enroll in 2026 Pasquale Pillitteri",
-      "source": "Pasquale Pillitteri",
-      "region": "WORLD"
-    },
-    "11c9bb6cc2cc6fc4ce7b7ba454f2fc9ac6a4b2adc4b4cc3eed371155cc7d20e0": {
-      "time": 1788320472,
-      "title": "Nvidia Stock Gains After $3.5B MediaTek Investment – Jensen Huang Says Company Is ‘Not Intimidated’ By Custom AI Chips - Stocktwits",
-      "desc": "Nvidia Stock Gains After $3.5B MediaTek Investment – Jensen Huang Says Company Is ‘Not Intimidated’ By Custom AI Chips Stocktwits",
-      "source": "Stocktwits",
-      "region": "WORLD"
-    },
-    "734c06b2b287cc735e8b822c063dfe53b732297e1fb7bc86699745d6e5d56a43": {
-      "time": 1788320771,
-      "title": "Anthropic: Attackers Using Infostealers to Hijack Claude Sessions - Security Boulevard",
-      "desc": "Anthropic: Attackers Using Infostealers to Hijack Claude Sessions Security Boulevard",
-      "source": "Security Boulevard",
-      "region": "WORLD"
-    },
-    "f23f74b351634ce4d2be3a97d5e459876128a0e57cea18f93b233fa4ccd0661b": {
-      "time": 1788321070,
-      "title": "Nvidia’s $3.5B Investment in MediaTek Signals AI Chip Strategy - RS Web Solutions",
-      "desc": "Nvidia’s $3.5B Investment in MediaTek Signals AI Chip Strategy RS Web Solutions",
-      "source": "RS Web Solutions",
-      "region": "WORLD"
-    },
-    "89e6dccc57bd1dd53f249844a54ab5c849c88d2fc39c0d3acee7a33724767598": {
-      "time": 1788321370,
-      "title": "Open AI’s Astra model is on the way — and very good at breaking into computer systems - TechCrunch",
-      "desc": "Open AI’s Astra model is on the way — and very good at breaking into computer systems TechCrunch",
-      "source": "TechCrunch",
-      "region": "WORLD"
-    },
-    "f2e887d045bb8ceb4006bda5af6f321b4b8326c7f07996338ad73a6d4158621b": {
-      "time": 1788321971,
-      "title": "KKR-Singtel Consortium Completes Acquisition of STTGDC; Company Launches Refreshed Global Brand for Next Phase of Growth - Malay Mail",
-      "desc": "KKR-Singtel Consortium Completes Acquisition of STTGDC; Company Launches Refreshed Global Brand for Next Phase of Growth Malay Mail",
-      "source": "Malay Mail",
-      "region": "WORLD"
-    },
-    "6bd6b643750a1d4ae0c85567ca98e3b579c5d020bc0f64d89eb495bffbec4283": {
-      "time": 1788322273,
-      "title": "Anthropic launches Claude Fable 5.1 after inking $35B cloud deal with Lambda - SiliconANGLE",
-      "desc": "Anthropic launches Claude Fable 5.1 after inking $35B cloud deal with Lambda SiliconANGLE",
-      "source": "SiliconANGLE",
-      "region": "WORLD"
-    },
-    "7ba1ea77ecf62c2dafe0957b8fa64b2f3d8d8146fe70c052c0812a920a57690e": {
-      "time": 1788322577,
-      "title": "Flexstone Partners Completes Glouston Acquisition, Expanding Assets Above $15 Billion - citybiz",
-      "desc": "Flexstone Partners Completes Glouston Acquisition, Expanding Assets Above $15 Billion citybiz",
-      "source": "citybiz",
-      "region": "WORLD"
-    },
-    "8914f146bf6ca44750f78bde160aeda78a8d5ebff83327881e182b07cdcf9ba9": {
-      "time": 1788322872,
-      "title": "Alexandros Washburn Proposes That AI Agents Can Become Model Citizens - www.chelseanewsny.com",
-      "desc": "Alexandros Washburn Proposes That AI Agents Can Become Model Citizens www.chelseanewsny.com",
-      "source": "www.chelseanewsny.com",
-      "region": "WORLD"
-    },
-    "98987aea98644c85b2bbc0778d46d7f6e003c5b352e529647d6bb149cfe30c64": {
-      "time": 1788323167,
-      "title": "Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads - MarkTechPost",
-      "desc": "Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads MarkTechPost",
-      "source": "MarkTechPost",
-      "region": "WORLD"
-    },
-    "823199f82cce0e78a91b8f9d4f8926925615149cba6e93bed0fa59cbd1646af3": {
-      "time": 1788323476,
-      "title": "PayPal's Agent Authorization Model Explained - startuphub.ai",
-      "desc": "PayPal's Agent Authorization Model Explained startuphub.ai",
-      "source": "startuphub.ai",
-      "region": "WORLD"
-    },
-    "0bc9ffb76d6bffe75d2662b1d36653ee91562ea4040ad7b3887878a9bd58a320": {
-      "time": 1788323772,
-      "title": "OpenAI update shows new safeguards would have cut off 700 rogue AI agent swam 24 hours faster - CryptoSlate",
-      "desc": "OpenAI update shows new safeguards would have cut off 700 rogue AI agent swam 24 hours faster CryptoSlate",
-      "source": "CryptoSlate",
-      "region": "WORLD"
-    },
-    "535a6a576178991a82a73c09cfb88f976b0d4547ac44fb579e2f1a207ea5b847": {
-      "time": 1788324073,
-      "title": "Taiwanese Hardware Makers Sell Out NVIDIA RTX Spark Laptop Stock Ahead of Launch - TechPowerUp",
-      "desc": "Taiwanese Hardware Makers Sell Out NVIDIA RTX Spark Laptop Stock Ahead of Launch TechPowerUp",
-      "source": "TechPowerUp",
-      "region": "WORLD"
-    },
-    "be6c0a776fdb65b0286016703f9d039c42e957aa40ba0d72f9b29acd6e62395b": {
-      "time": 1788324373,
-      "title": "OpenAI's reports into its agents' attack on Hugging Face holds lessons for every company - Fortune",
-      "desc": "OpenAI's reports into its agents' attack on Hugging Face holds lessons for every company Fortune",
-      "source": "Fortune",
-      "region": "WORLD"
-    },
-    "53f8536f46087c237b454687c7f804e0d4c62cbfa05a31f1634f6e8d1260f8b1": {
-      "time": 1788324675,
-      "title": "Claude Fable 5.1 and the Cache-Read Cut: How Anthropic Repriced the Agent Loop - fourweekmba.com",
-      "desc": "Claude Fable 5.1 and the Cache-Read Cut: How Anthropic Repriced the Agent Loop fourweekmba.com",
-      "source": "fourweekmba.com",
-      "region": "WORLD"
-    },
-    "98a6c37d2679230e570e9d19302bc453b9002dbf9e98399001f0a4762a2989d7": {
-      "time": 1788324968,
-      "title": "Google almost ready to launch new Gemini AI model, may beat Anthropic and OpenAI in coding this time - India Today",
-      "desc": "Google almost ready to launch new Gemini AI model, may beat Anthropic and OpenAI in coding this time India Today",
-      "source": "India Today",
-      "region": "WORLD"
-    },
-    "099b1a90f4f18422036906024d7fa8b17903722951d8c015a18c9bc1acca5825": {
-      "time": 1788325277,
-      "title": "Anthropic launches Enterprise Frontier Safeguards for Claude By Investing.com - Investing.com South Africa",
-      "desc": "Anthropic launches Enterprise Frontier Safeguards for Claude By Investing.com Investing.com South Africa",
-      "source": "Investing.com South Africa",
-      "region": "WORLD"
-    },
-    "350f3306d35176b9700676a433887f07decab5efce8309f514b2edcceeeeff3c": {
-      "time": 1788325573,
-      "title": "SpaceX's $60 Billion Cursor Deal Creates a 25-Year-Old Billionaire While OpenAI Pulls Access - finance.biggo.com",
-      "desc": "SpaceX's $60 Billion Cursor Deal Creates a 25-Year-Old Billionaire While OpenAI Pulls Access finance.biggo.com",
-      "source": "finance.biggo.com",
-      "region": "WORLD"
-    },
-    "6ce0c5163589fcbd4355918196107fef1e8dc997f7dbff5b60087b2a230bc64d": {
-      "time": 1788325871,
-      "title": "Google to speed up chip rollout to stay ahead in AI, technology chief says - Nikkei Asia",
-      "desc": "Google to speed up chip rollout to stay ahead in AI, technology chief says Nikkei Asia",
-      "source": "Nikkei Asia",
-      "region": "WORLD"
-    },
-    "189a5d1d51f314f71266a5fcfba1e780802fe9588007d24453bae3e8f8d715d8": {
-      "time": 1788326171,
-      "title": "Breakingviews - COMMENTARY: Financiers are set to turn Nvidia into an AI baron - Reuters",
-      "desc": "Breakingviews - COMMENTARY: Financiers are set to turn Nvidia into an AI baron Reuters",
-      "source": "Reuters",
-      "region": "WORLD"
-    },
     "ad7603f7223eec20cf4b72d26dfa2758bc31518e659e3096298e6c0d7cf3689f": {
       "time": 1788326472,
       "title": "Anthropic Reportedly Rolls Back Data Retention Policy After Customer Pushback — It Also Launches New Claude Models - Stocktwits",
@@ -1448,11 +572,17 @@
       "desc": "В России вступил в силу закон о господдержке и регулировании ИИ blackfoxnews.ru",
       "source": "blackfoxnews.ru",
       "region": "RUSSIA"
+    },
+    "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": {
+      "time": 1788412715,
+      "title": "Broadcom Conference Call: AI Revenue to Double Annually for the Next Two Years, Reaching $230 Billion; Custom Chip Performance \"Rivals GPUs at Half the Cost\" - news.futunn.com",
+      "desc": "Broadcom Conference Call: AI Revenue to Double Annually for the Next Two Years, Reaching $230 Billion; Custom Chip Performance \"Rivals GPUs at Half the Cost\" news.futunn.com",
+      "source": "news.futunn.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1470,6 +600,7 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ]
 }
