@@ -66,7 +66,8 @@
     "f08e8fe5014a0c0332ffefa656d2d584f811c731ab1fa40c00b949e9196b9acd": 1788458590,
     "657ece28e23bcb46449c2ea5f8e700f03ad7c8ee38fe3bf7db640379578b5d60": 1788458774,
     "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": 1788458959,
-    "52f72c407a587ff3ea4862745a2d63bf6e94b323d5bd20a7e75d27bd3b0a1890": 1788459309
+    "52f72c407a587ff3ea4862745a2d63bf6e94b323d5bd20a7e75d27bd3b0a1890": 1788459309,
+    "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -224,9 +225,305 @@
     "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6": 1788455531.428624,
     "f08e8fe5014a0c0332ffefa656d2d584f811c731ab1fa40c00b949e9196b9acd": 1788455531.428624,
     "e7350f814463fd0b32d790cd376afa6ca1f7e208816455c4169f2ef97c2eac38": 1788455531.428624,
-    "cd09572e8f42116e4da44883abce6ba6207ed002fba76aadf039a9e118a794d6": 1788455531.428624
+    "cd09572e8f42116e4da44883abce6ba6207ed002fba76aadf039a9e118a794d6": 1788455531.428624,
+    "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
+    "3911462b883e26d2ae2ed2d5d2ad028fe824c367d3940a2c5523085a9993ba57": 1788459491.2056582,
+    "1865e6c67e785da0de065ab726adee65934efaf0f407e59b14c0bdd529c71426": 1788459491.2056582,
+    "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": 1788459491.2056582,
+    "3d6c76e2b0d9263ea0a12f6027c7bb49b4d8463b141b6e83fd3726ccd86c587e": 1788459491.2056582,
+    "d9dde870ce0b915fcd2deb417cba169542659f50df388b026119b0f2b62c3430": 1788459491.2056582,
+    "df2e56da45776be34c67faa03c7de424e22477d15117439282c85495c97b20f8": 1788459491.2056582,
+    "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5": 1788459491.2056582,
+    "7797bb888b670fe07d7150adfb6070b16ea6fc2890b17934ed1e9103b748502f": 1788459491.2056582,
+    "da8ffe9838cd710d41ee72d2d590f5bcf469db3ded6ae60b6e83d811150c0f8e": 1788459491.2056582,
+    "5671c6119d1b96af084be80f60b50d6dc60199f4117dbdcc8162aced75d40da2": 1788459491.2056582,
+    "1eb4957568f8cb8ba9de6316982bd5810309ff7bc3148b19f0f86ed11cae71ba": 1788459491.2056582,
+    "ce3b396c32bfeaa77a079199697470add24d7d92fb772fc17454933c2dd2d7ef": 1788459491.2056582,
+    "29f5e130848e84a3e7a9572f9822c0d9dbf0c4ccc8e9e42b12f55e0df14e2f52": 1788459491.2056582,
+    "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333": 1788459491.2056582,
+    "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": 1788459491.2056582,
+    "8722e24132beb67d37198ba5f0a8d7b632f7cf8e7d06e439f5a3965ab76a973a": 1788459491.2056582,
+    "a2c2b89068906a6443614b51b9d83ebfc71e02dbd4459e295f655b1fabef0e67": 1788459491.2056582,
+    "9579d3fcd50ac46203eefa5e1461a93240a39d1c3382376f7feaf77ed9b944fb": 1788459491.2056582,
+    "b37ce4b8a7fc2a82bd1ce46e80e4a47173944fb2043b6eac52d04034437aa739": 1788459491.2056582,
+    "3e5392de9ba92c3815e4b1fc4b8bf0480627af069da397853dd47ef30101dfc3": 1788459491.2056582,
+    "f940f3d64cf79d52ede15af187178e98222d749c82e4222fec2b2e507cab4a8b": 1788459491.2056582,
+    "62d083dcf9e5bb1c7f0ddc422c4eeb2db5d7bdd3c0e2c80e61bee588f8976536": 1788459491.2056582,
+    "69c5bf9cb0443f61e2de38b491ef3098f5e3553927b45f240e9c76575fc550bf": 1788459491.2056582,
+    "7513621c37c002cff35f835a8af9357bf1d275f1edbec37ee5f2eb34e7dd6b19": 1788459491.2056582,
+    "df723144a68e5052186e7f9c89a49e1fc1009e94ebb317521a3f1fdef87e9b11": 1788459491.2056582,
+    "9af1f213d9e3b23456f0634a2b731ebc6200d3e3992637b720db192aae132710": 1788459491.2056582,
+    "119628eb7c5fbac29f9835b22ecc9675f10265e4c4427dc5038a3f0657d451e2": 1788459491.2056582,
+    "d9f2a6fd8a72a79f4632ad6b55ae9743c0c748c95b272123ea4eb159033db41a": 1788459491.2056582,
+    "f1ae8f12cae85bd002ecb2998297ffd792c17a768ed54bd17a543c6664f25225": 1788459491.2056582,
+    "5a46ff5a0cee0dcab2da64460e1d0b8837e5946bb4245b25841f69f543130c87": 1788459491.2056582,
+    "5b5febc74838f28ab78e9bd242752013686a4044b37ffdbe520ff0cf29996af0": 1788459491.2056582,
+    "b8768612aca3bc34aa4b964c5cd315ba718432ae1bbe08b1a560f65058ae742a": 1788459491.2056582,
+    "83eacdc94c41b8278f7eae5fcd26d333141256be3f00bb30011849a7665f68b5": 1788459491.2056582
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "Mobcoder AI Advances Enterprise Agentic AI & Governed LLMs - USA Today",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeGxOdkF2WlFKVndYbmRVeGVBWTZ6YTdjZ00yeXRpMUhaSUhWQzhqYVJ4Y211UEhYdERGQ0FQUFhBX2ZqQlJQQ3RsdmpZOWp5bjZ6SERneEV6OEUyX3JPdnhweUpzVDRFRXYtUF9sUkJrSGFldDVRZ1oteTdUWVdzaXBCU3Vna29IdU85aWE5U2hocFBYV1pxV2ZPVElmUGJLNW94OXBKb0ZqREVBa0h5VVBWcUN4WmxvWGdkb3BULXBmSlVfYlBMZmlYM0ZiSVo5Y2RZQU93?oc=5",
+      "desc": "Mobcoder AI Advances Enterprise Agentic AI & Governed LLMs USA Today",
+      "source": "USA Today",
+      "time": 1788456480.0,
+      "score": 72,
+      "key": "3d6c76e2b0d9263ea0a12f6027c7bb49b4d8463b141b6e83fd3726ccd86c587e",
+      "importance": 72,
+      "editorial_value": 50,
+      "topics": [
+        "agents",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia buying AI startup that was hacked by rogue OpenAI agents - KRON4",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVmlZR0Z2NlNRNU4zb3J6dDRzbTROVkJ6U0tiWUU3b3RkeXh1Q2JsbE5zVHE0bEExRndTYzZ5b0VCVWh6SXFCSURWM1hwOWRLTVFuNDdJRDBPVXlpdUdZVEc1eTVlYzU3OFluLUMyR0lRRDhWdXBOcy1BX2s3N1JvMU5sazQxc3pTZHE0NDZWb3FENkY2R0lvTjZmWkVlMlVYZUdQNXMxNTPSAa4BQVVfeXFMTm5tS3JYYUpzeVFFSWdQckFkVTZ4c2V1dTdHUncxNGp4Z2xHUGZqU0kyLU5aNnp5R2F4Nk5YU3dHX3pCNXdob0N2UU5XdGZ4WS1GMFE5SjRMZmRZWXQtbXhUaFFJSW9MZEpVZ05IOGFGNVFad0lhZzJfbVIyQ2FUdm1sZnJ5dUUxSVJpZFdGZThlRmF6aXlEM2tRaTN0S2sxcHJnelI3NEZJYll1MVdB?oc=5",
+      "desc": "Nvidia buying AI startup that was hacked by rogue OpenAI agents KRON4",
+      "source": "KRON4",
+      "time": 1788458909.0,
+      "score": 69,
+      "key": "7797bb888b670fe07d7150adfb6070b16ea6fc2890b17934ed1e9103b748502f",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "agents",
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities - cnbc.com",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iUlVPODl5bTBweko3Y1pHY1Y3RzZua3FHak9hVm5aa3hZWmNQcmVrVW1VMHdXME04cDJITVM4TmlBdUZWZ3JIQlgtdUZPMjlEd3pUdmNkV3BsT3FRMTEwNm1GcnRJU2NXeElBYVZhc9IBdEFVX3lxTE9NYUtIZlJ6NHoxSGladzc0bkc5Tm8xWjJkcHdJeHJHeUVfUlZ4b2ZoTC1ueE9HaEI4ZFZoUXAxUldGZHYweTd2ZEhtUkJiaFFid0FZdkdRS2Z1OV9NY2tzb3BKQW5wZGh0SER5aTlOdm9sbWVD?oc=5",
+      "desc": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities cnbc.com",
+      "source": "cnbc.com",
+      "time": 1788458402.0,
+      "score": 69,
+      "key": "da8ffe9838cd710d41ee72d2d590f5bcf469db3ded6ae60b6e83d811150c0f8e",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Консультации по бизнесу и нейросетям от эксперта - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE43VTR3VHN0cW9oM2FZNVN6MHVhMTNhSnNTR21TNFZ2cldhVlAzdHJqYWF0RTFHbTIzak9rYlBaOUdwcDFDbzNGYWdKaEtsV0hMY21PYmhhM2IwZ3djSHQ2N1k5dWMxdElJa25IamdJLU96aUNSWGZj?oc=5",
+      "desc": "Консультации по бизнесу и нейросетям от эксперта VC.ru",
+      "source": "VC.ru",
+      "time": 1788457478.0,
+      "score": 69,
+      "russia_weight_bonus": 3,
+      "key": "1865e6c67e785da0de065ab726adee65934efaf0f407e59b14c0bdd529c71426",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Сбер представит на AI Journey новые подходы к развитию искусственного интеллекта - Transsibinfo",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVHE2TWdvYVRoRlktbXg5S3o2YWotQ2lqejRUMzhIcTJnNGFHbGdsbWFrZ1VzT09nYjFXZksxMzRlUDc3VlVwaHFMYTl5dlZKYnJXbDdaeUVWem9kQjJyeVlwNnQtT3NqamZfUmR4ejJyRzVMZi11VC1DeEN6RXI2eGJPa1dKOU9PLWxvUFhOcFNjWWs0XzdvRDNZM1p1ZGUzUC11ZW9zcUVkdHhnZGZnYWRBNTRiXzJrUlRhM1NfVE9hVDZYR0laTE9n?oc=5",
+      "desc": "Сбер представит на AI Journey новые подходы к развитию искусственного интеллекта Transsibinfo",
+      "source": "Transsibinfo",
+      "time": 1788456753.0,
+      "score": 69,
+      "russia_weight_bonus": 5,
+      "key": "3911462b883e26d2ae2ed2d5d2ad028fe824c367d3940a2c5523085a9993ba57",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Qualcomm’s Next Flagship Chip Gets AI-Powered Upscaling To Rival Nvidia’s DLSS - smartprix.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM3dHazlSS0ZWZExNa0M5N3hhWmVFblI1SjFFNlE0U3pWQldYSTVuZzZZTW52Z1NhT09GOWtoYjV4RWhfZl82NjROUVdVakp6Z2l6VW1hdi1CSzc3TUhGcUFUQk5BUnAzVG9OQXNpMUM5Y0hnR0tIZ3FsX0Q4LWhzOU9uYXlod0JTYjdKTnVtLU85bWR6dkdPakdSdDhFXzVEeTZZX1RtOF9MVi00YkE?oc=5",
+      "desc": "Qualcomm’s Next Flagship Chip Gets AI-Powered Upscaling To Rival Nvidia’s DLSS smartprix.com",
+      "source": "smartprix.com",
+      "time": 1788456375.0,
+      "score": 69,
+      "key": "5671c6119d1b96af084be80f60b50d6dc60199f4117dbdcc8162aced75d40da2",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Investors Believe AI Breakthrough Close – Survey - wealthbriefing.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRWJqbm5EbkZEajk0WUJZbl9hdGhBU0lIeW9tVzd2YVpsT3YxSG15WV9VUndOenRmalNCV3FlUjc3dEdrVXo2a05DODZQYlZHaThKQUFYV1hVSllwTzF3TFhESVZmLUdMYncwZkFsc1RRZjRuVmoybFQtNGZGQm81bHpBUlY3Q29vNzlIeER6dmhSZGZGeDBjQk9lMA?oc=5",
+      "desc": "Investors Believe AI Breakthrough Close – Survey wealthbriefing.com",
+      "source": "wealthbriefing.com",
+      "time": 1788456127.0,
+      "score": 69,
+      "key": "1eb4957568f8cb8ba9de6316982bd5810309ff7bc3148b19f0f86ed11cae71ba",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "research"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed? - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNanBxeWpQN2p5TjZSQWRiYkR1WER5cjE2SXozZ3BwVkRBb1RNalVNV1JNWmVIb1NFWEVPak9YbGQ3T1ZieVRpZzhoeDRGWlkzd2NoNUZOUllJcWdjQnFPV2xIN0h5cldlSkxCSjFOdzhMWk9VSkFGSTFzV3FxMGlLZV9lNlg2MGMzd2kzZDRUYWZ6T1pINHRha1F0ZWNzX1A4dVh5R1JzV292V2M1NGNMWjZaNHdYTmliaVI0QUtyM3Zsek9FYTd4aE1IZzFUUUV3VnB5RnlULUJhSGRSemZDQg?oc=5",
+      "desc": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed? 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "time": 1788456120.0,
+      "score": 69,
+      "key": "ce3b396c32bfeaa77a079199697470add24d7d92fb772fc17454933c2dd2d7ef",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "20-ядерный процессор, графика на уровне GeForce RTX 5070 и 128 ГБ. Nvidia наконец-то полноценно представила платформу RTX Spark, первые Windows-ПК — уже в октябре - ixbt.com",
+      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPTlcwcTZHTWRuR0Jfc29YTVVTREZjT04zemp5QUNTMGc2OXl4T2N6b1c4c3JDNFB6UHJRVmJPNFFYUmg1Vm5yRU1vSTZvLWI5dWY3Mi1ONkNkeFpTSUtUYTAyV3E0NmR1MTNRZnVoUHBiRkY5SXVuUHdOR3pLMVctdUFERnBfMi1FRVJnNEV0dDV2SW5pcFNKbUpnbVpWQzF4ZkRkM2RqTHZFNlRQUjNnNk9kUkRuZ3lPUm1xZ1dYNFM2T0Zva1BvTy00R24xYnpXQThPdjNhbFBoWGNxd1BaXzhBRHZXZm9ESkMxS2ZtX3VyLUl5dDNXYmZaYjl5aGVGb1VPQkdnSzBRSVdQZkJvNlhDcWY0UW5SWTRSSmZObUVQUlR3dEd2bjFITGhQdXJSNHfSAbcCQVVfeXFMT2c0RW5hOVFpRW9kN09Ial9QNHByME41U0N0eXV2TzBQOGpTMG1vZ2VUWm5LR0hHU29ERkdMSnAtdHRBLTRGV2RGSG80MjlsVk9LcnJ2TnJMUzQ0UVRfUUZ1bkd0dkVyWWJJRXBsaUJfeTdoTU5kbXFiTkdYQnNWalJCdUVoWjZXT1JYaGJLTXJnYkx2MGg0T2RCTG1iZHp1d2JoZEJtM2lISkJuWml6ZUxfMFZJaGh1VnI0MElYVGJZdmIyeWFMX2pBVTZrMmVmQWxFTlQ3Qm5EUlN5S2ZFLWZrbGdzM0w5alRDdUFOa29qeS1xSzZzSTUzeC1XUk5kQ2JESU9KZTZUUzVYamxITV80NmhZUFNKZHpqUDI0aGJHTkdXcG1ZTm53c1BveWZ2QlhRbE9tUTQ?oc=5",
+      "desc": "20-ядерный процессор, графика на уровне GeForce RTX 5070 и 128 ГБ. Nvidia наконец-то полноценно представила платформу RTX Spark, первые Windows-ПК — уже в октябре ixbt.com",
+      "source": "ixbt.com",
+      "time": 1788452685.0,
+      "score": 69,
+      "russia_weight_bonus": 2,
+      "key": "d9dde870ce0b915fcd2deb417cba169542659f50df388b026119b0f2b62c3430",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "chips",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Abu Dhabi AI institute releases fully open-source models with training data, code - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOFFMOVN0WFItRlg2RExOaGQwNlVCaVk4UEdVSDhNbEZVUElvejVDUUxVRklVRnNESzd1bUczRS1EOXNXVlZ2R01vSlhqSVdNa0FVVW5wZXdDNERnXzFoaGJUOFdEdldTU1M5ODRPRzg5UEViTmx6MEtPTlBsQ0dHTUNEeE11YU1hTFJDaEtRNF9tRTd2MlRIRGxweEttX0lJRENPOW4tY3FiaElKZ0FYYXdWOVAxOVlsdTJfbDhwQm9vV19udEJTaTBWRmI1VzQ?oc=5",
+      "desc": "Abu Dhabi AI institute releases fully open-source models with training data, code Reuters",
+      "source": "Reuters",
+      "time": 1788444267.0,
+      "score": 69,
+      "key": "29f5e130848e84a3e7a9572f9822c0d9dbf0c4ccc8e9e42b12f55e0df14e2f52",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI отложила разработку ИИ Astra после взлома Hugging Face их моделью - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN3BtOVdoVm42YlUzRnJrRDF0UG0td2I1dm9fZkRiVktST1ZXTlFyNlNad0tFVVFmUEVPOXFTUTNNNENicHpXa3F6bTZneHBaY3lBYXdIeTVZTFhKQXJNOF9KdGdfazZYZlVqS0JTMW93ODZxZmU5emJtQ3h6cm82NGcwWVM5b0szd2ZJYjU0WUVSZnFZMEJFRndBTk9oYXJHUUw5SkZ5MERmY0Itek52YXVRM3c?oc=5",
+      "desc": "OpenAI отложила разработку ИИ Astra после взлома Hugging Face их моделью prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788439232.0,
+      "score": 69,
+      "russia_weight_bonus": 2,
+      "key": "df2e56da45776be34c67faa03c7de424e22477d15117439282c85495c97b20f8",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Ведяхин: В ноябре пройдет конференция AI Journey с участием исследователей и бизнеса - Курс Дела",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOamdYS2U3TXlNZmk2bXQ4Q2tfUXVEZDVFZUZWRzVKZmdoak1EVE8tT1cxRy16SThqSXZkTkJlOWV2UlFNdURiMkZQbEFXaFZNNE02cm0tdnN1bEZzY2pwZ0hySURDMkRJRmlWRFpIVC1CdGRpMkFZdkx1emF6dVB3akNJVmJ2cDc3RHdmaUVRT0RKaXRjbUNXdE9fTTlqREpJNnJaV2h6X2w5d3FSRzlmS2tjOWtkZFlQNnJkbVpHVTkzUzhaaU01eWt6cXY5Zw?oc=5",
+      "desc": "Ведяхин: В ноябре пройдет конференция AI Journey с участием исследователей и бизнеса Курс Дела",
+      "source": "Курс Дела",
+      "time": 1788456960.0,
+      "score": 68,
+      "russia_weight_bonus": 2,
+      "key": "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Правительство обсудит применение российского ИИ в обороне, выборах - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zaDZ5RDNhTGRiTkJ5QjVNaG42OG9DLXpCTGN3NTc1MmZJMWJJTkZLbFZ5bTNQLWdFVS1hY3VHM0tydnNxNW5JWDladURrQQ?oc=5",
+      "desc": "Правительство обсудит применение российского ИИ в обороне, выборах kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788456593.0,
+      "score": 68,
+      "russia_weight_bonus": 4,
+      "key": "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNclBySFVkWDllLTZvS28tOFZyZlFzNTRBSGw5UTVyR3hwZ2NLallPeXFENzZwWVg4Nl9mNEl0SFg0MGtKUHZxbFJrYU1BWFVwR1RJV2hfM0V2d1FzMFBtYU9XR1RWV3hxSGdreU1ZNWsxek56bWZWdEFnRFllY0ZfMnJOM1loUWl4ZTdSa1BkUnIyaExWejJyMWRzMnNndG1raEhvRl9icDExdXF5RHhtcTBISUpFZWZFcTliVld2UDRxQQ?oc=5",
+      "desc": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "time": 1788454800.0,
+      "score": 66,
+      "key": "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training - The American Bazaar",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEhFeHV4Y1F2Sjl0czVlM0w0YUhsMWVxcFgwLUdIOWwyVTJESGRvRGlOMndLN3R4TktWN3drMl9WTUdkY3dncGNtTHlLa3pxUHBYeWtjbEliUGVBSTF5end1SWRpQWFjdVZFSlctdk5yMkRaRkFGb1JvdHlSa1JaNTBmZkxDYW5rZVJTYTVoSHhrN3B3RDNTXy1MMHRZRTNLZFpDSlFXa0VZVjZmQzdUN0V2bw?oc=5",
+      "desc": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training The American Bazaar",
+      "source": "The American Bazaar",
+      "time": 1788450749.0,
+      "score": 66,
+      "key": "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Пользователи жалуются на сбои сразу нескольких нейросетей - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IeWU0RmR4a3dnOGxVWmV4WXpYQk1qVVVHV21WZFp1R0ExaWJ1ZjZydElNQmF1QTE2X2VQVlNFWnNqTU83TV81Sk52WUZZdw?oc=5",
+      "desc": "Пользователи жалуются на сбои сразу нескольких нейросетей kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788449809.0,
+      "score": 62,
+      "russia_weight_bonus": 2,
+      "key": "3e5392de9ba92c3815e4b1fc4b8bf0480627af069da397853dd47ef30101dfc3",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ - ФОНТАНКА.ру",
@@ -258,38 +555,38 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Jim Cramer Sees Broadcom's Business Exploding as CEO Hock Tan Says Custom OpenAI Chip Beats Nvidia's Grac - Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQODFrWVp1eXZnR0c3d0g2TExqRk40VlpWQXhxbFNRTUVPNG54MGE0WHZORUN2b0Y5eXkzeExKd0VHMlQtY1dULVBGX1h2LWN2eVN4UmxLRUdjTm9mcjVDV0dWUWItVzJNMXhNQ21kNmZZUFFfVzhJN01QUElCa0NLSGk3X3VkYVVwd0JjYTFWNkI5cWhCcS1DSEpHbWdrcTNybFNlZGRtaWdnblg2LXBrR1RBVzAtLXRjM2Ffd08xWmd4ZmFHTmRpdzR5OXRKZkRTSDBPdEh4LU9oMW96YndxM0Z3bF8tSkVfTWRoYkRvam9QdlJ0eGU4WkRITF9MTk85SnJQdDI0bUJPbW9FYnBsMnhIdFZ4UU0?oc=5",
-      "desc": "Jim Cramer Sees Broadcom's Business Exploding as CEO Hock Tan Says Custom OpenAI Chip Beats Nvidia's Grac Benzinga",
-      "source": "Benzinga",
-      "time": 1788432820.0,
+      "region": "RUSSIA",
+      "title": "Рекрутер рассказала о внедрении ИИ на рынке труда Пермского края - perm.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IcXRZWVFIbGxzdzMzaU1SdkFHank3NHFtVG9XcTNuX0xmYmtvT0FiRUNIV2wzYUxpcTRiZEVnVkJpVmdzZXZwMkdlbl9kTVVpT0J0S3NTVjVpYkVnbFVTRXRQTC1ESHlJWFHSAXRBVV95cUxOdmZ1Z3N0cWRzWlp5MF9mM1BRM3RuYnNUaW1XeXQwUlZoMmxOblFvYTBHRTBTdmR6TjhmMXNOTkcyUEpkc1N0elFnZ0h5NFUzcUNubzFLQUpRZ25rWkR2MXdlWmJCT2MybjJOYWpEdHJtTGRnTQ?oc=5",
+      "desc": "Рекрутер рассказала о внедрении ИИ на рынке труда Пермского края perm.rbc.ru",
+      "source": "perm.rbc.ru",
+      "time": 1788434141.0,
       "score": 61,
-      "key": "cd09572e8f42116e4da44883abce6ba6207ed002fba76aadf039a9e118a794d6",
+      "russia_weight_bonus": 3,
+      "key": "62d083dcf9e5bb1c7f0ddc422c4eeb2db5d7bdd3c0e2c80e61bee588f8976536",
       "importance": 61,
       "editorial_value": 50,
       "topics": [
-        "business",
-        "chips"
+        "business"
       ],
       "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788459309.6842215,
+    "last_start_ts": 1788459491.2056582,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788459309.6842215,
-    "last_success_ts": 1788459309.6842215,
-    "last_candidates": 0,
+    "last_run_ts": 1788459491.2056582,
+    "last_success_ts": 1788459491.2056582,
+    "last_candidates": 102,
     "last_published": 1,
-    "queue_size": 3
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788459311.184459
+      "updated_at": 1788459509.8180473
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -771,11 +1068,17 @@
       "desc": "Пользователи по всему миру сообщили о сбоях в работе нейросетей Рамблер",
       "source": "Рамблер",
       "region": "RUSSIA"
+    },
+    "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": {
+      "time": 1788459491,
+      "title": "OpenAI launches new Astra model amid growing scrutiny over agents' safety - Reuters",
+      "desc": "OpenAI launches new Astra model amid growing scrutiny over agents' safety Reuters",
+      "source": "Reuters",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -793,8 +1096,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788457511.8404827,
-  "last_publish_ts": 1788459309.6842215
+  "last_search_ts": 1788459491.2056582,
+  "last_publish_ts": 1788459491.2056582
 }
