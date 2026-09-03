@@ -123,7 +123,8 @@
     "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312": 1788477540,
     "4836dcb8eea5500ed7821d1cf800d03fe16a25b50fc6103613d9fcfa2a6c6192": 1788477894,
     "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1": 1788478075,
-    "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788478503
+    "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788478503,
+    "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -264,7 +265,11 @@
     "c850ae2facf0311829a649fd7d19fe9c1bbbc542864c143eaa3056caa07cba0f": 1788476993.1452017,
     "2f1308ef38d7eedc11f0bde90f48b0255bdc0c8abd5dc6c382739a80bfa7ad6c": 1788476993.1452017,
     "98fa59330dbaf1e4ad72b3de451e9734bc197d37dee5b68c433db997b2a70dfb": 1788476993.1452017,
-    "3170fd69b6b9e38924d5b6d8f3a7b8553c8535db86de20664b896aa621073be6": 1788476993.1452017
+    "3170fd69b6b9e38924d5b6d8f3a7b8553c8535db86de20664b896aa621073be6": 1788476993.1452017,
+    "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796.2150717,
+    "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": 1788478796.2150717,
+    "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": 1788478796.2150717,
+    "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": 1788478796.2150717
   },
   "queue": [
     {
@@ -280,6 +285,39 @@
       "importance": 72.4,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 | ETIH EdTech News - EdTech Innovation Hub",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbjRvaWhmT2plTjhwWjBOXzZON0x5WkxPeEFaX3N6dzNIT1EzTklicGRkUlFQU29xSTRSU05wNVlBMHRLUDh3dE9uWmpnOWF0SFQ4YVpHM1Mxb0wxNDJYbEVYTG5RSVUyeWxVa2dXakdoNVMxR3lQVjhXb2hfcmt3a2ZzNXFJU1V5ZHNSeW1vZzdhLVdDTXhSZWRRa3hqNGxRa1dFekhJY3ZSSldZX042Umxpd3ZfeGp3ZHg4anVkOA?oc=5",
+      "desc": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 | ETIH EdTech News EdTech Innovation Hub",
+      "source": "EdTech Innovation Hub",
+      "time": 1788478447.0,
+      "score": 70.5,
+      "key": "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Внедрение ИИ в бизнес: почему умной модели недостаточно - Т-Бизнес секреты",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GWnhIWTNyRm9OUW1ZWXUwanBkVE5LdlQ2UW5uZEROOGM1MjdfdkRpN3U4VVB3a3Vyel93NlFtMExNeUZ4ZHJjc2FnOHBsYTl6RXlvVk9WZ1laOUNNYW44TTV0Tzg5eFJBcWg3NWRoZw?oc=5",
+      "desc": "Внедрение ИИ в бизнес: почему умной модели недостаточно Т-Бизнес секреты",
+      "source": "Т-Бизнес секреты",
+      "time": 1788443749.0,
+      "score": 69.7,
+      "russia_weight_bonus": 3.7,
+      "key": "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3",
+      "importance": 69.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
       "tier": "A"
     },
     {
@@ -301,6 +339,22 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 4,
       "next_retry_at": 1788480475
+    },
+    {
+      "region": "WORLD",
+      "title": "Amadeus Brings Travel Tech Into Claude Code, Cowork - Skift",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yQjFMRFpHSkxwLXVRaVF1Z1BKb1NzaXZYc1JxQklabjVZZHI1VnRoN3hma3VYeGhaandIUjE1QTdUeHBicm45dHFBS0hhSWdoWmNpcmxLU1JreVpXcGdLc2lud185d2NDbnNuZHNZX0hTdUZUU0Zn?oc=5",
+      "desc": "Amadeus Brings Travel Tech Into Claude Code, Cowork Skift",
+      "source": "Skift",
+      "time": 1788477661.0,
+      "score": 66.5,
+      "key": "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -469,20 +523,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788478503.4703918,
+    "last_start_ts": 1788478796.2150717,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788478503.4703918,
-    "last_success_ts": 1788478503.4703918,
-    "last_candidates": 0,
+    "last_run_ts": 1788478796.2150717,
+    "last_success_ts": 1788478796.2150717,
+    "last_candidates": 78,
     "last_published": 1,
-    "queue_size": 12
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788478511.0995677
+      "updated_at": 1788478835.5532265
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1363,10 +1417,16 @@
       "desc": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты Overclockers.ru",
       "source": "Overclockers.ru",
       "region": "RUSSIA"
+    },
+    "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": {
+      "time": 1788478796,
+      "title": "AI Tools for Software Development: The AWS List - aws.amazon.com",
+      "desc": "AI Tools for Software Development: The AWS List aws.amazon.com",
+      "source": "aws.amazon.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1385,8 +1445,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788476993.1452017,
-  "last_publish_ts": 1788478503.4703918
+  "last_search_ts": 1788478796.2150717,
+  "last_publish_ts": 1788478796.2150717
 }
