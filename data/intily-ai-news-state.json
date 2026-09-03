@@ -81,7 +81,8 @@
     "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5": 1788463089,
     "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269,
     "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821": 1788463451,
-    "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": 1788463812
+    "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": 1788463812,
+    "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8": 1788464169
   },
   "known": {
     "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788443111.2937322,
@@ -272,22 +273,6 @@
     "990316931a14df10ee097bca325d2ef15f32dd79c168f2703d88a68f4d30f19a": 1788463269.910863
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeW1CUTVsRlFsYUw0TXR5MUU2SFhEVUhWclJQMmw3N3B1eWpfMVk1dDJaSXRXTkQwOTBtMl8xVXRLNWZDYml4blJlbFh6RENEa2c0S2VMYWlVcE52TFRscE9mdWw4d1JZZW1xaV9tTWlQSk1BdzJvaGdHTTJ4WHY0SEdILW9lUU84NVlTMHRjNUprQU9xQm9jb3BaM25zLUhXUnVLaWh4TXlzeVJaNkI2UFNnT01tS3NGTnpIMDd2UHZIVHBrbkVXNmRDWjF6ZXI5aGZXc1pHWnhwcm8?oc=5",
-      "desc": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. Fortune",
-      "source": "Fortune",
-      "time": 1788462720.0,
-      "score": 69,
-      "key": "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed? - 24/7 Wall St.",
@@ -574,20 +559,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788463992.004872,
+    "last_start_ts": 1788464169.7351863,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788463992.004872,
-    "last_success_ts": 1788463992.004872,
+    "last_run_ts": 1788464169.7351863,
+    "last_success_ts": 1788464169.7351863,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788463815.4452422
+      "updated_at": 1788464171.4826393
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1174,10 +1159,16 @@
       "desc": "Правительство обсудит применение российского ИИ в обороне, выборах kommersant.ru",
       "source": "kommersant.ru",
       "region": "RUSSIA"
+    },
+    "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8": {
+      "time": 1788464169,
+      "title": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. - Fortune",
+      "desc": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. Fortune",
+      "source": "Fortune",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -1196,8 +1187,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788463269.910863,
-  "last_publish_ts": 1788463812.4288824
+  "last_publish_ts": 1788464169.7351863
 }
