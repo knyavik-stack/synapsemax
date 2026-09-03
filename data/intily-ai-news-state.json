@@ -78,7 +78,8 @@
     "d9dde870ce0b915fcd2deb417cba169542659f50df388b026119b0f2b62c3430": 1788461651,
     "df2e56da45776be34c67faa03c7de424e22477d15117439282c85495c97b20f8": 1788462010,
     "1eb4957568f8cb8ba9de6316982bd5810309ff7bc3148b19f0f86ed11cae71ba": 1788462371,
-    "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5": 1788463089
+    "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5": 1788463089,
+    "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269
   },
   "known": {
     "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788443111.2937322,
@@ -251,9 +252,56 @@
     "c418df3c0f65f37d15d8488d3ab883e7bc423eed119944c7eaed27a981475b2b": 1788461293.6977568,
     "3780a3cb622ef7c27c23781b100cc9b54198778544232b755e128fc68b1625cc": 1788461293.6977568,
     "a6b488d9b5cc90211b146a3f7fb111d07792743d9a41e715215d02fb0e0022af": 1788461293.6977568,
-    "a2d64999c405f5576ed05890ac7558fd8cd2e280077cb58c6a6f806c3529a771": 1788461293.6977568
+    "a2d64999c405f5576ed05890ac7558fd8cd2e280077cb58c6a6f806c3529a771": 1788461293.6977568,
+    "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269.910863,
+    "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821": 1788463269.910863,
+    "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8": 1788463269.910863,
+    "944f9097ba077dadbbb0fe4cce0f3f2965869f2ba636075b64b5b0960e8a2d09": 1788463269.910863,
+    "cd1b365ce9307d0eb1f4b6786bb4690761e573c9ef41d93b22b90cf0e64e4763": 1788463269.910863,
+    "83cc2db155357709b1125e8477e1cb25dec101fbdef51db598fa299b13d3c330": 1788463269.910863,
+    "520d086be3717e117a80f8ab7a8416ee54de75921320c9e34592b16a3d2d18ab": 1788463269.910863,
+    "8b5494491e7f9379b7df038d46dbd40a139e939d3dde9a8378dd084b0165f5bb": 1788463269.910863,
+    "e271a51776acaf2f04bd157bf01e22ac41d7fa880fd440426d57623da31bef12": 1788463269.910863,
+    "60bb6285a85f0d09df6efb43c59fd2ca3a6e51076494ef4b3021c029ca34e69a": 1788463269.910863,
+    "2c4e33bcc5814aeb0def03ff5861d159561fa4c1c3320244573667e942faaff3": 1788463269.910863,
+    "d6d8082d55ca2aa1c3662235c46b28251f8816dfc05add635d54c771e9995465": 1788463269.910863,
+    "b399e44dc1482978da15c3fab160db326e6aa877ef9dae577a69a3f61cdd18f1": 1788463269.910863,
+    "dfdacd7458b536c10931d4c4c25a6c6b8f44c25fbb2e1f61a9db6b46b0ecbcc9": 1788463269.910863,
+    "990316931a14df10ee097bca325d2ef15f32dd79c168f2703d88a68f4d30f19a": 1788463269.910863
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FfMUQ1dXBYcXVnWUlNVW5kd01IM2VnNW9FdTQtemgxamtIYnRLVWNlS1FkZVdlam1HYXJFRmpITnNTTlhtSi1NNXMzREVxVnhlTXh4MUFfNTREYWxieXNUYkV4MzFhT0EySm4zbkFISHFyQURHVDBKWEZaNDZiQmRKU1pPbG5xOXR5WExVVFJxOVlvbm84eVZMQ0ctT1oyaWRCWVlR?oc=5",
+      "desc": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release The Guardian",
+      "source": "The Guardian",
+      "time": 1788460320.0,
+      "score": 73,
+      "key": "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821",
+      "importance": 73,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeW1CUTVsRlFsYUw0TXR5MUU2SFhEVUhWclJQMmw3N3B1eWpfMVk1dDJaSXRXTkQwOTBtMl8xVXRLNWZDYml4blJlbFh6RENEa2c0S2VMYWlVcE52TFRscE9mdWw4d1JZZW1xaV9tTWlQSk1BdzJvaGdHTTJ4WHY0SEdILW9lUU84NVlTMHRjNUprQU9xQm9jb3BaM25zLUhXUnVLaWh4TXlzeVJaNkI2UFNnT01tS3NGTnpIMDd2UHZIVHBrbkVXNmRDWjF6ZXI5aGZXc1pHWnhwcm8?oc=5",
+      "desc": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. Fortune",
+      "source": "Fortune",
+      "time": 1788462720.0,
+      "score": 69,
+      "key": "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed? - 24/7 Wall St.",
@@ -283,6 +331,22 @@
       "editorial_value": 50,
       "topics": [
         "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "IBM (NYSE:IBM) Gains Attention As AI Reshapes Enterprise Technology - Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMG90U1VuZmFheG9RQ1FiaVRZT2VSMFdUbEQySUhreG41Q1g2Zm1iX19QVFJEX29rTWpnT0hiNGUyMTRXeDVCWi1HX0lkRWxEV2FMQ0VYVFBldHNqdHF0NzlXV3dtcVhNVXUwdXoyUU5yc2xJdTFZY2N5S0FKWDVnM1VlenBUUWV0TEZfcnIzZVVnWmFFdGdQMlZhM3ZwSjRjN1JYX0QwWFVaSF96?oc=5",
+      "desc": "IBM (NYSE:IBM) Gains Attention As AI Reshapes Enterprise Technology Kalkine Media",
+      "source": "Kalkine Media",
+      "time": 1788462300.0,
+      "score": 68,
+      "key": "944f9097ba077dadbbb0fe4cce0f3f2965869f2ba636075b64b5b0960e8a2d09",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business"
       ],
       "tier": "A"
     },
@@ -340,6 +404,20 @@
       "tier": "A"
     },
     {
+      "region": "WORLD",
+      "title": "OpenAI Gets US Government Backing in Major AI Copyright Fight - TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQk16ZWxNSWlIblVoNTkyX3RtVXZieXlKcURKVlB5TDJqQUtmNDR0Nlk4UTg4a2N3RVhIZ0c3aXVKLVFmY0VoeDlzVFFGbC1UcHoyZFVIUjFRSzZhVmhySmR5NGxHd2RtSkVaMnJvbEdHX0ZlY3JWU2IwS1RMRmloNC11RFBlc2hNcGc?oc=5",
+      "desc": "OpenAI Gets US Government Backing in Major AI Copyright Fight TechRepublic",
+      "source": "TechRepublic",
+      "time": 1788462509.0,
+      "score": 65,
+      "key": "83cc2db155357709b1125e8477e1cb25dec101fbdef51db598fa299b13d3c330",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
       "region": "RUSSIA",
       "title": "80 тысяч камер и штраф в 30 тысяч: нейросети начали генеральную уборку в Петербурге - gorodovoy.ru",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd2ctNmMtRHlhQ3lCa3VNNUpmOVVWd1QyZUNmRzZkcDFENUx5TVhYQ005TS1qcFZ6WmxtOG00cXNScUs2dVVTYm85b0otQ3NTRWRCNVk1ZDd6RTQwMGVwX0pRVXZoUXNjWTZFMFVrUXZ3LXljYWxyREFFMW56ZTdMQXpBaWs0VE5SeEhQMkFJNzFUT0toNm1KRmxQdWg2VDE4NUxPaFFBWWtrdjA1aVlERTFrekZoSWpBOWw0SVNzMFVoNkhUTWYtWDNTX3lxWkQ1dDd2MU80RQ?oc=5",
@@ -357,20 +435,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
       "failure_count": 2,
       "next_retry_at": 1788463510
-    },
-    {
-      "region": "WORLD",
-      "title": "New York schools ban student AI use - azernews.az",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51S1lSMnROMHVqdVNTVE16ejVHbmhocFA2Nm9YVFIyWk5pOWpXVGg1RFBMb2oyOFEybmFHS3RXVnFZYnBtdlFyOHVqdnRWM2ZzT0tuWQ?oc=5",
-      "desc": "New York schools ban student AI use azernews.az",
-      "source": "azernews.az",
-      "time": 1788459960.0,
-      "score": 65,
-      "key": "de61b7a2d8fd445e614557110d696ec8c7018e3456718e6da8097b6cb5e54dd9",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -432,20 +496,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
       "failure_count": 2,
       "next_retry_at": 1788463510
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI Walks From $1B Cursor Deal Over Musk - The Tech Buzz",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjBURVNKcktxall0MU5YbDdpZjhLV05CRE1oSWRUc0F1SXRvR1hPblo3S0Z2WWpTcXhjUDB5QjVlX1hEVE8xbFVaZmppWEFzZ2RSNGllV2lYU1ZycnBsTkJmTUJldDRldVFjSzFWMFNMWXN0dHprc1FneTNNMHNQRw?oc=5",
-      "desc": "OpenAI Walks From $1B Cursor Deal Over Musk The Tech Buzz",
-      "source": "The Tech Buzz",
-      "time": 1788455640.0,
-      "score": 62,
-      "key": "b4206dc7aad7a055f35df83a9db45cad1483fe9220a0a9ed237a93178184a898",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -522,23 +572,57 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
       "failure_count": 2,
       "next_retry_at": 1788463510
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Китайский стартап «Будущее не за горами» привлёк миллиарды на домашних роботов - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTktka1l5eFdwSWhiMm9iWlhsM25wVlJyT2dTcHpIbXFSMHppWEhGZHlHU0JzX3JYd3ZwcHV0MDBLUmttckoxalFqWGtfWndRNFdkRi04M1B1S1JnSDYtR0FDT2NkdHA2b0E1MVB3bXFYckFPLWxTMDE3VW0zcXZGRXM2SzRQNjFkeDFrYTREbTZMWWw2X1Z3LWtDMlVOSWNBWkFuNkpMX2htVlktUkFySDZkWWl6ZzA4OVBSZE93?oc=5",
+      "desc": "Китайский стартап «Будущее не за горами» привлёк миллиарды на домашних роботов prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788437432.0,
+      "score": 62,
+      "russia_weight_bonus": 4,
+      "key": "cd1b365ce9307d0eb1f4b6786bb4690761e573c9ef41d93b22b90cf0e64e4763",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ никогда не встанет у доски: в России оценили роль нейросетей в образовании - REGIONS.ru",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObFpTcnAzUkM3cG9JX0JsSGxHbTdmNHByUS1hbFlKTVNWVThxOHlwR1RjN28wRzBFTzlHRy1yWmc2ZDl1Q1RmcmtJekwwTnh0ZXh4ejJ0MEt5c2RZQnUyX0hOV3JtQk9oNlpybUtUYlp2TVZOemUtVWdsNkxKZUFvWGJ0bTNaQ08wRjVNblIybWhBN1pCWDZDcUNfRUVRUWI1bGI1dUFGU0thM0U?oc=5",
+      "desc": "ИИ никогда не встанет у доски: в России оценили роль нейросетей в образовании REGIONS.ru",
+      "source": "REGIONS.ru",
+      "time": 1788445560.0,
+      "score": 61,
+      "russia_weight_bonus": 3,
+      "key": "8b5494491e7f9379b7df038d46dbd40a139e939d3dde9a8378dd084b0165f5bb",
+      "importance": 61,
+      "editorial_value": 50,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788463089.2747316,
+    "last_start_ts": 1788463269.910863,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788463089.2747316,
-    "last_success_ts": 1788463089.2747316,
-    "last_candidates": 0,
+    "last_run_ts": 1788463269.910863,
+    "last_success_ts": 1788463269.910863,
+    "last_candidates": 103,
     "last_published": 1,
-    "queue_size": 15
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788463092.3704717
+      "updated_at": 1788463296.8899505
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1104,10 +1188,16 @@
       "desc": "Ведяхин: В ноябре пройдет конференция AI Journey с участием исследователей и бизнеса Курс Дела",
       "source": "Курс Дела",
       "region": "RUSSIA"
+    },
+    "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": {
+      "time": 1788463269,
+      "title": "GK Software launches retail AI framework GK Agentic - ecommercenews.com.au",
+      "desc": "GK Software launches retail AI framework GK Agentic ecommercenews.com.au",
+      "source": "ecommercenews.com.au",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -1126,8 +1216,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788461293.6977568,
-  "last_publish_ts": 1788463089.2747316
+  "last_search_ts": 1788463269.910863,
+  "last_publish_ts": 1788463269.910863
 }
