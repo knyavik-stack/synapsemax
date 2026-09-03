@@ -108,7 +108,8 @@
     "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843,
     "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": 1788472149,
     "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895": 1788472493,
-    "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": 1788472733
+    "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": 1788472733,
+    "eca56de0c2442750ffeea605d7c095f87f1ed21cb6f70e322c61230567a03d81": 1788472978
   },
   "known": {
     "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": 1788451571.478552,
@@ -299,20 +300,6 @@
       "russia_weight_bonus": 4.0,
       "key": "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5",
       "importance": 68.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Google WeatherNext 3 brings hourly updates to AI forecasts - iNews Zoombangla",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR3JqVkpNemc1WDVBTXAxUlF3Z2tQS0FlTHdGUURkVEs4ZnFfbDB2SVRjNURHUnJTYUhqb2tZZWRzTTVyU2p5NnpJMFVfeUpFRDZSV1haY2NNY1JYeVZGT3kybktjcU8xVDZOYlAyYWZIVXFad0JiTDNlOEJ3MWpBOElQYTh4Xy12Z05VVnhvd0hqUQ?oc=5",
-      "desc": "Google WeatherNext 3 brings hourly updates to AI forecasts iNews Zoombangla",
-      "source": "iNews Zoombangla",
-      "time": 1788471616.0,
-      "score": 66.5,
-      "key": "eca56de0c2442750ffeea605d7c095f87f1ed21cb6f70e322c61230567a03d81",
-      "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -541,20 +528,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788472733.8932097,
+    "last_start_ts": 1788472978.584001,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788472733.8932097,
-    "last_success_ts": 1788472733.8932097,
-    "last_candidates": 89,
+    "last_run_ts": 1788472978.584001,
+    "last_success_ts": 1788472978.584001,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788472762.3352184
+      "updated_at": 1788472981.0848842
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1330,10 +1317,16 @@
       "desc": "GPT-6 Astra Trails Top Models From Anthropic and Meta in Benchmarks trendingtopics.eu",
       "source": "trendingtopics.eu",
       "region": "WORLD"
+    },
+    "eca56de0c2442750ffeea605d7c095f87f1ed21cb6f70e322c61230567a03d81": {
+      "time": 1788472978,
+      "title": "Google WeatherNext 3 brings hourly updates to AI forecasts - iNews Zoombangla",
+      "desc": "Google WeatherNext 3 brings hourly updates to AI forecasts iNews Zoombangla",
+      "source": "iNews Zoombangla",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -1343,6 +1336,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1355,5 +1349,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788472733.8932097,
-  "last_publish_ts": 1788472733.8932097
+  "last_publish_ts": 1788472978.584001
 }
