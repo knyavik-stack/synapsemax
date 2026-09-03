@@ -86,7 +86,8 @@
     "6b05f7462ceab4812366cf0b85fd6c63d4d920d853bed78fc91a196223fdd1a6": 1788464351,
     "ce3b396c32bfeaa77a079199697470add24d7d92fb772fc17454933c2dd2d7ef": 1788464710,
     "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": 1788465071,
-    "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": 1788465259
+    "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": 1788465259,
+    "b44520755e58ed7ab860834d44786714b3d882449542747ad7e92d170883745f": 1788465612
   },
   "known": {
     "f09fdc33e7929e5407420bc0aa9a159afd76ed2d872e4e44516089b4ecb44b62": 1788444920.0279398,
@@ -405,25 +406,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года - RB.ru",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMlhsT1hCdDFmcTFKNzRaNkhWTEotUWFzT0hobVJWVG9UMFUtekpDdVd2dGpCYVVJSGJFNHdwbUVTbmx5S1NsVUJPWi1JTWhsbW5qNjBmeTluZTh3VEZkYktPeFEzNmFRa0dhTUhZU05uLU5rX3FfaGRnbWIwaUtpdWI0VnhhMTdVbG9wRERuQW5Ibkx5a2lnVmpUSklBaFJ4QTlqR1ZCckotR3pldEE1RGJBSkp4bF9SU01aLWZtNnpUVlZieTNjSDhHQTlvNGxw?oc=5",
-      "desc": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года RB.ru",
-      "source": "RB.ru",
-      "time": 1788459600.0,
-      "score": 65,
-      "russia_weight_bonus": 3,
-      "key": "b44520755e58ed7ab860834d44786714b3d882449542747ad7e92d170883745f",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788462910,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788463510
-    },
-    {
-      "region": "RUSSIA",
       "title": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах - kommersant.ru",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5MTWNVbDF3V0xSOVRtSXlOTXFHM0M3TVlQbjhwdWd1NFFhMFAzTmM0UlRBUmlkeEN0ZUxFblpxcnR3Yy10Ri1vWVJsYlJOdw?oc=5",
       "desc": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах kommersant.ru",
@@ -606,20 +588,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788465429.7151082,
+    "last_start_ts": 1788465612.487462,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788465429.7151082,
-    "last_success_ts": 1788465429.7151082,
+    "last_run_ts": 1788465612.487462,
+    "last_success_ts": 1788465612.487462,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788465265.5128117
+      "updated_at": 1788465615.937685
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1241,13 +1223,19 @@
       "desc": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере Компьютерра",
       "source": "Компьютерра",
       "region": "RUSSIA"
+    },
+    "b44520755e58ed7ab860834d44786714b3d882449542747ad7e92d170883745f": {
+      "time": 1788465612,
+      "title": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года - RB.ru",
+      "desc": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года RB.ru",
+      "source": "RB.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1263,8 +1251,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788465071.3605509,
-  "last_publish_ts": 1788465259.756598
+  "last_publish_ts": 1788465612.487462
 }
