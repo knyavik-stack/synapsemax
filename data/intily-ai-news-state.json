@@ -125,7 +125,8 @@
     "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1": 1788478075,
     "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788478503,
     "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796,
-    "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": 1788479277
+    "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": 1788479277,
+    "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": 1788479695
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -275,21 +276,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVUZ6QVRvSTY2QzBGbFdGUmhtaXZDMXBKTFV4ZUJKQklzc2RndlM5NjkxdWhGVE9KdmVzNUs0bjUxRHU1YUNvZlhQbndiWU42SjNhN25tUUw1b0hpc05Ld29XVkZucy1XRDhYc19mQXpKblBGRE1kcVlpU01RVFpxZU1tbWY5SG9YRXhacnRNU2g0YWtCcGRfdHNwbGVuY1pKZGRtcS12VkcwZnJFNE5ZMjA5b2w5VU8tZDNBUFA2R1FJc1pjUlhB?oc=5",
-      "desc": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788475927.0,
-      "score": 72.4,
-      "russia_weight_bonus": 4.9,
-      "key": "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27",
-      "importance": 72.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Внедрение ИИ в бизнес: почему умной модели недостаточно - Т-Бизнес секреты",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9GWnhIWTNyRm9OUW1ZWXUwanBkVE5LdlQ2UW5uZEROOGM1MjdfdkRpN3U4VVB3a3Vyel93NlFtMExNeUZ4ZHJjc2FnOHBsYTl6RXlvVk9WZ1laOUNNYW44TTV0Tzg5eFJBcWg3NWRoZw?oc=5",
       "desc": "Внедрение ИИ в бизнес: почему умной модели недостаточно Т-Бизнес секреты",
@@ -303,6 +289,21 @@
       "topics": [
         "business"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVUZ6QVRvSTY2QzBGbFdGUmhtaXZDMXBKTFV4ZUJKQklzc2RndlM5NjkxdWhGVE9KdmVzNUs0bjUxRHU1YUNvZlhQbndiWU42SjNhN25tUUw1b0hpc05Ld29XVkZucy1XRDhYc19mQXpKblBGRE1kcVlpU01RVFpxZU1tbWY5SG9YRXhacnRNU2g0YWtCcGRfdHNwbGVuY1pKZGRtcS12VkcwZnJFNE5ZMjA5b2w5VU8tZDNBUFA2R1FJc1pjUlhB?oc=5",
+      "desc": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788475927.0,
+      "score": 69.4,
+      "russia_weight_bonus": 4.9,
+      "key": "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27",
+      "importance": 69.4,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -320,26 +321,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788478075,
+      "last_failed_at": 1788479695,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 4,
-      "next_retry_at": 1788480475
-    },
-    {
-      "region": "WORLD",
-      "title": "Amadeus Brings Travel Tech Into Claude Code, Cowork - Skift",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yQjFMRFpHSkxwLXVRaVF1Z1BKb1NzaXZYc1JxQklabjVZZHI1VnRoN3hma3VYeGhaandIUjE1QTdUeHBicm45dHFBS0hhSWdoWmNpcmxLU1JreVpXcGdLc2lud185d2NDbnNuZHNZX0hTdUZUU0Zn?oc=5",
-      "desc": "Amadeus Brings Travel Tech Into Claude Code, Cowork Skift",
-      "source": "Skift",
-      "time": 1788477661.0,
-      "score": 66.5,
-      "key": "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
+      "failure_count": 5,
+      "next_retry_at": 1788484495
     },
     {
       "region": "RUSSIA",
@@ -508,20 +493,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788479277.2282443,
+    "last_start_ts": 1788479695.3432288,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788479277.2282443,
-    "last_success_ts": 1788479277.2282443,
+    "last_run_ts": 1788479695.3432288,
+    "last_success_ts": 1788479695.3432288,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788479280.4195983
+      "updated_at": 1788479701.4161851
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1416,6 +1401,13 @@
       "desc": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 | ETIH EdTech News EdTech Innovation Hub",
       "source": "EdTech Innovation Hub",
       "region": "WORLD"
+    },
+    "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": {
+      "time": 1788479695,
+      "title": "Amadeus Brings Travel Tech Into Claude Code, Cowork - Skift",
+      "desc": "Amadeus Brings Travel Tech Into Claude Code, Cowork Skift",
+      "source": "Skift",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1429,7 +1421,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1437,9 +1428,10 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788478796.2150717,
-  "last_publish_ts": 1788479277.2282443
+  "last_publish_ts": 1788479695.3432288
 }
