@@ -184,7 +184,8 @@
     "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788435423,
     "1da7e81719e6bc1fd6e0423bb106557a94691a084354daa010d9fd76fcbeaacc": 1788435611,
     "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": 1788435963,
-    "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": 1788436321
+    "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": 1788436321,
+    "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b": 1788436505
   },
   "known": {
     "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b": 1788414943.5554037,
@@ -318,22 +319,6 @@
       "editorial_value": 50,
       "topics": [
         "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Wonderful Raises $550 Million Series C to Scale the AI Operating System for the Enterprise - India Technology News",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVkFjN2l1MXIxNUI2aklzLTRTcGQtM1Y0Vl9rOFA3OWJFWTVEeVM1cjRVOEFIT1l5VDF6dF8wakoxaEhnWmg4ZV9Da1MyOG5ZWjlnWTF3eG54djlFbXdSTHEtNlpOMnFYeFdzR045UFlHWTIzTHZLX1ZvdTlUVmtxQnB4RDdGR08ySnA4WTZpaDVGOE0xUllRVmZjbWkwZktwbmYtN3FMbk9mdEtvQXBUdGpra3RXMWlsSXBQYXF3?oc=5",
-      "desc": "Wonderful Raises $550 Million Series C to Scale the AI Operating System for the Enterprise India Technology News",
-      "source": "India Technology News",
-      "time": 1788435446.0,
-      "score": 68,
-      "key": "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b",
-      "importance": 68,
-      "editorial_value": 50,
-      "topics": [
-        "business"
       ],
       "tier": "A"
     },
@@ -569,21 +554,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788436321.7507794,
+    "last_start_ts": 1788436505.7181087,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788436321.7507794,
+    "last_success_ts": 1788436505.7181087,
     "consecutive_failures": 1,
-    "queue_size": 18,
+    "queue_size": 17,
     "last_candidates": 0,
     "last_published": 1,
-    "last_run_ts": 1788436321.7507794
+    "last_run_ts": 1788436505.7181087
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788436324.2618568
+      "updated_at": 1788436508.5087974
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -953,10 +938,16 @@
       "desc": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок Московская газета",
       "source": "Московская газета",
       "region": "RUSSIA"
+    },
+    "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b": {
+      "time": 1788436505,
+      "title": "Wonderful Raises $550 Million Series C to Scale the AI Operating System for the Enterprise - India Technology News",
+      "desc": "Wonderful Raises $550 Million Series C to Scale the AI Operating System for the Enterprise India Technology News",
+      "source": "India Technology News",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -975,8 +966,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788435785.18048,
-  "last_publish_ts": 1788436321.7507794
+  "last_publish_ts": 1788436505.7181087
 }
