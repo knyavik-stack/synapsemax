@@ -160,7 +160,8 @@
     "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788426304,
     "d62949218337b52366a51b76abe91c45fc7a3166dd25dd4e956489e9057b528f": 1788426421,
     "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788426542,
-    "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": 1788426661
+    "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": 1788426661,
+    "fb74150b160dc1bd22e5ff5922ff17a1fef5b8d1522ccbf8f5491fe17fb7ff26": 1788427502
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -188,7 +189,8 @@
     "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788426304.5021944,
     "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788426421.9148295,
     "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": 1788426661.9306133,
-    "e5d9d307568a09fc9f53ec266c18c9b747502695f2bbac4f2afa006361eca178": 1788427265.4667578
+    "e5d9d307568a09fc9f53ec266c18c9b747502695f2bbac4f2afa006361eca178": 1788427265.4667578,
+    "fb74150b160dc1bd22e5ff5922ff17a1fef5b8d1522ccbf8f5491fe17fb7ff26": 1788427502.969234
   },
   "queue": [
     {
@@ -230,20 +232,20 @@
       "next_retry_at": 1788429665
     }
   ],
-  "last_run": "2026-09-03T09:23:05.816668+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-03T09:25:22.156720+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788427382.1533983,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788426661.9306133,
-    "consecutive_failures": 6
+    "last_start_ts": 1788427502.969234,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788427502.969234,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788427287.5823464
+      "updated_at": 1788427521.7050288
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -536,6 +538,13 @@
       "desc": "Anthropic and OpenAI Launch Advanced AI Models Amid Cyber Risk Concerns Readers.id",
       "source": "Readers.id",
       "region": "WORLD"
+    },
+    "fb74150b160dc1bd22e5ff5922ff17a1fef5b8d1522ccbf8f5491fe17fb7ff26": {
+      "time": 1788427502,
+      "title": "ТОП-50 скиллов для ИИ-агентов (9 млн звезд на GitHub, 22 млн установок). Забирайте бесплатно в одной таблице - VC.ru",
+      "desc": "ТОП-50 скиллов для ИИ-агентов (9 млн звезд на GitHub, 22 млн установок). Забирайте бесплатно в одной таблице VC.ru",
+      "source": "VC.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -545,7 +554,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -558,6 +566,7 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ]
 }
