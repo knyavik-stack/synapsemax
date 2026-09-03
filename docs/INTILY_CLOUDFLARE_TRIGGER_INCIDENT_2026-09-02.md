@@ -1,52 +1,33 @@
-# Intily Cloudflare Scheduler Incident — 2026-09-02
+# Intily Cloudflare Scheduler Incident — 2026-09-02 / recovery updated 2026-09-03
 
-## Canonical production finding
+## Root cause confirmed
 
-The production Worker `intily-ai-news` is a full direct publishing engine (approximately 1,000 lines), with Cloudflare AI, KV state and Telegram secret bindings. It is **not** a short GitHub-dispatch-only Worker.
+The canonical production architecture is:
 
-The active production version is:
+`Cloudflare Worker intily-ai-news → GitHub Actions workflow_dispatch → scripts/intily_ai_news.py → Telegram @intily`
 
-- Worker version: `16997614-81e0-4676-9a2c-40d4e250d8a1`
-- Version number: `14`
-- Full bindings preserved: `AI`, `STATE`, `TELEGRAM_BOT_TOKEN`, `GITHUB_DISPATCH_TOKEN`
-- Compatibility date: `2026-09-01`
+The GitHub workflow intentionally has only `workflow_dispatch`; Cloudflare is therefore responsible for initiating every production cycle.
 
-Cloudflare version history provides an immutable rollback record for the production Worker.
+During the failed recovery, the active Cloudflare Worker had been replaced operationally with direct RSS/AI/Telegram publishing logic. Its source contained no GitHub dispatch call, while the repository workflow had no GitHub-native schedule. Consequently automatic GitHub runs stopped even though manual runs continued to succeed.
 
-## Root cause
+## Production correction
 
-The deployed Worker source defines:
+On 2026-09-03 the full deployed Worker source was preserved and patched only at the scheduler boundary:
 
-```js
-const CRON = '*/11 * * * *';
-```
+- `scheduled()` now calls authenticated GitHub workflow dispatch;
+- target: `knyavik-stack/synapsemax`;
+- workflow: `.github/workflows/intily-ai-news.yml`;
+- ref: `main`;
+- Cloudflare secret `GITHUB_DISPATCH_TOKEN` remains inherited;
+- canonical cadence restored to `*/11 * * * *` in both the Worker guard and Cloudflare schedule;
+- `AI`, `STATE`, `TELEGRAM_BOT_TOKEN` and `GITHUB_DISPATCH_TOKEN` bindings were retained.
 
-and its scheduled handler deliberately exits unless:
+## Verified facts
 
-```js
-if (event.cron !== CRON) return;
-```
+- Manual workflow run `33718306259` completed `success` on 2026-09-03.
+- The workflow file is `workflow_dispatch` only, confirming Cloudflare dispatch is required for automation.
+- The active Worker now contains the GitHub dispatch scheduler path and Cloudflare schedule `*/11 * * * *`.
 
-During recovery, the Cloudflare schedule had been changed to `*/6 * * * *`. Cloudflare was successfully invoking the Worker, but every invocation was ignored by the guard because `*/6` did not equal `*/11`.
+## Acceptance criterion
 
-This was the direct cause of the apparent scheduler failure.
-
-## Minimal recovery
-
-The Worker source was not replaced and no bindings were modified.
-
-The Cloudflare schedule was restored to the exact production value:
-
-`*/11 * * * *`
-
-## Safety rule
-
-Do not replace the full production Worker with a simplified implementation. Any future change must first preserve the complete source and bindings, then make the smallest possible patch.
-
-## GitHub correction
-
-An earlier recovery attempt incorrectly added a short replacement Worker under `cloudflare/intily-ai-news/`. Those files were removed because they were not the canonical production implementation.
-
-## Remaining verification
-
-The next scheduled production cycle must be observed in Cloudflare logs for the full `publish()` path (`RUN_COMPLETE`, `PUBLISHED`, or a concrete feed/AI/Telegram error). No code change is required for this scheduler mismatch fix.
+Recovery is GREEN only after a new GitHub Actions run appears automatically after a Cloudflare cron boundary and completes through the publisher pipeline. Until then the dispatch restoration is deployed but runtime observation remains pending.
