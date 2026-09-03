@@ -56,7 +56,8 @@
     "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612": 1788455712,
     "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84": 1788455899,
     "d4001a2fa9d9f6b83033b69ae8ca3b444933dc33548974131eed3a0ec352b5c6": 1788456250,
-    "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5": 1788456431
+    "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5": 1788456431,
+    "0f8c7e484f71a8e50457f8d3ded009d59c4e556824002857c7ffff4bfb09081f": 1788456611
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -217,23 +218,6 @@
     "cd09572e8f42116e4da44883abce6ba6207ed002fba76aadf039a9e118a794d6": 1788455531.428624
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Nvidia is spending $12 billion on Hugging Face, the world's biggest repository of AI models, and the comp - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPQnFlTzZKNFU2dF9rUENnSzZLcmc1MUFpanNaTlZOOUZmY090T1J2Vy1QOGRPT2RMVDRuV3JaY0NGRERGWlpfUVlSeDJqU2tlbVkwc3ozUWw3NXNMbk1kREU0LW5YUnpTN0lCVGl5Q1RFYW9FNVlKblZLYks1eThiWmpUUG9nenlxX2t3UUpfTE9pekpibUcwZVB5RFR1MFowU1dHeFQxaTRtZVpoQlZ1eTNycTk0SUpfRnZfbXoxenRuR29BZ1RZR1VSTFlqREdRZUxSNHNRLVNlN0h5bndEYUJIcGxPZGNTZVdFUG4yZ2lTTmFPRVB3eF8tNlRxWnpxZFdNTkZ0enV5TmN0cDZkVlgtT2NkT2RldnQ2SmxYa1E2YVlpbmw5WVo3cms3cmNzcks4MHJhTGxCTEVCTmZvelFHRFpORzlTbl9paHBZaTbSAdYCQVVfeXFMTlAycFBhNXhJUVR4WThIbE1IWHFKN2cyQmtGTlRSNFFBY0pqZ0pYbjhJbzFhV29ZdUE3dzZ4X1dOUkd2Wm4yQlhxR2dVbzJieVNoMkJvQWs2Ukp6QWg0NEgzaVZJYk1sRm9lRWpOOG9TTFI2cWVteU5sa2JUdDIzbktMeHNzMkxSdmxOYVp3ZXNnUmliMkVPZGx4U3R2dTdMNXhoVHVlZERhQ0FYTUN0NVhYdzVQN1dmOXJlR2tWZ1RoU1g4Z3dESEJNSk5uZlhwNXFkV2dGTkgycWtBTUhCWU9PbHRxRjNyeDRsZHhVNmpRc3ltNU5tNkNZLWRYalk2dklXek1GQ1dTc2lXMkRPSmllNTJ2bjlacVh1dDJMdGtjNkhGeHdmbU02MFBrX1VnMmZGeEVwVVhGRlYza2FLU191SWFZcVVPVzFPOFRzUm5BQ2RGOXpR?oc=5",
-      "desc": "Nvidia is spending $12 billion on Hugging Face, the world's biggest repository of AI models, and the comp The Times of India",
-      "source": "The Times of India",
-      "time": 1788444960.0,
-      "score": 70,
-      "key": "0f8c7e484f71a8e50457f8d3ded009d59c4e556824002857c7ffff4bfb09081f",
-      "importance": 70,
-      "editorial_value": 50,
-      "topics": [
-        "chips",
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services - CyberSecurityNews",
@@ -428,20 +412,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788456431.1018753,
+    "last_start_ts": 1788456611.2912455,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788456431.1018753,
-    "last_success_ts": 1788456431.1018753,
+    "last_run_ts": 1788456611.2912455,
+    "last_success_ts": 1788456611.2912455,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788456441.021972
+      "updated_at": 1788456616.6086578
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -853,11 +837,17 @@
       "desc": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд theins.ru",
       "source": "theins.ru",
       "region": "RUSSIA"
+    },
+    "0f8c7e484f71a8e50457f8d3ded009d59c4e556824002857c7ffff4bfb09081f": {
+      "time": 1788456611,
+      "title": "Nvidia is spending $12 billion on Hugging Face, the world's biggest repository of AI models, and the comp - The Times of India",
+      "desc": "Nvidia is spending $12 billion on Hugging Face, the world's biggest repository of AI models, and the comp The Times of India",
+      "source": "The Times of India",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -875,8 +865,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788455531.428624,
-  "last_publish_ts": 1788456431.1018753
+  "last_publish_ts": 1788456611.2912455
 }
