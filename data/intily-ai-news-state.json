@@ -52,7 +52,8 @@
     "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819": 1788454459,
     "5d1178d9bcfea5f83b482b70bde9035e03008b98ae7d69dd641c06ba10ef7046": 1788454813,
     "d589eaddbe63b46b466552dd5e306fcc956a27d13b11015890a88f0e54d6016c": 1788455171,
-    "a11a4eaf671150dfd7d7a32de4927c06238dae5f18641ba1849d01b227e66938": 1788455352
+    "a11a4eaf671150dfd7d7a32de4927c06238dae5f18641ba1849d01b227e66938": 1788455352,
+    "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612": 1788455712
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -213,23 +214,6 @@
     "cd09572e8f42116e4da44883abce6ba6207ed002fba76aadf039a9e118a794d6": 1788455531.428624
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "IBM (NYSE:IBM) Expands AI Tools to Strengthen Business Resilience - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcENRMXFuQmZqSUgyTzdwb3pFeklFTXB6a1BvRUYzcWkzM1R3bWZhMVhiOXdmc3BibFhrWjU3VXRydjFRYkRudHN0bjlUUTkwWlM5MTAybDdNNC00YjFJbXlDRFpYbFhudExqYURqYzZKUGVoMVVXSE1ZNXUtWjVhMnZoY2JjS0tpcWhvQ05UNzJYVzllbnJveWxiQms3NS1BX2hFSjNlekE3bi0y?oc=5",
-      "desc": "IBM (NYSE:IBM) Expands AI Tools to Strengthen Business Resilience Kalkine Media",
-      "source": "Kalkine Media",
-      "time": 1788448920.0,
-      "score": 71,
-      "key": "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612",
-      "importance": 71,
-      "editorial_value": 50,
-      "topics": [
-        "business",
-        "tools"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Google introduces WeatherNext 3 AI model as a new milestone in meteorology - Zamin.uz",
@@ -493,20 +477,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788455531.428624,
+    "last_start_ts": 1788455712.9641533,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788455531.428624,
-    "last_success_ts": 1788455531.428624,
-    "last_candidates": 35,
-    "last_published": 0,
-    "queue_size": 17
+    "last_run_ts": 1788455712.9641533,
+    "last_success_ts": 1788455712.9641533,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788455405.0775108
+      "updated_at": 1788455716.8094285
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -890,10 +874,16 @@
       "desc": "Просто знать AI уже недостаточно. Бизнесу нужны специалисты на стыке технологии и отрасли VC.ru",
       "source": "VC.ru",
       "region": "RUSSIA"
+    },
+    "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612": {
+      "time": 1788455712,
+      "title": "IBM (NYSE:IBM) Expands AI Tools to Strengthen Business Resilience - Kalkine Media",
+      "desc": "IBM (NYSE:IBM) Expands AI Tools to Strengthen Business Resilience Kalkine Media",
+      "source": "Kalkine Media",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -912,8 +902,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788455531.428624,
-  "last_publish_ts": 1788455352.0338442
+  "last_publish_ts": 1788455712.9641533
 }
