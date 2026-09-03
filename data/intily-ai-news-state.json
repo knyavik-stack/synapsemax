@@ -84,7 +84,8 @@
     "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": 1788463812,
     "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8": 1788464169,
     "6b05f7462ceab4812366cf0b85fd6c63d4d920d853bed78fc91a196223fdd1a6": 1788464351,
-    "ce3b396c32bfeaa77a079199697470add24d7d92fb772fc17454933c2dd2d7ef": 1788464710
+    "ce3b396c32bfeaa77a079199697470add24d7d92fb772fc17454933c2dd2d7ef": 1788464710,
+    "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": 1788465071
   },
   "known": {
     "f09fdc33e7929e5407420bc0aa9a159afd76ed2d872e4e44516089b4ecb44b62": 1788444920.0279398,
@@ -267,9 +268,61 @@
     "d6d8082d55ca2aa1c3662235c46b28251f8816dfc05add635d54c771e9995465": 1788463269.910863,
     "b399e44dc1482978da15c3fab160db326e6aa877ef9dae577a69a3f61cdd18f1": 1788463269.910863,
     "dfdacd7458b536c10931d4c4c25a6c6b8f44c25fbb2e1f61a9db6b46b0ecbcc9": 1788463269.910863,
-    "990316931a14df10ee097bca325d2ef15f32dd79c168f2703d88a68f4d30f19a": 1788463269.910863
+    "990316931a14df10ee097bca325d2ef15f32dd79c168f2703d88a68f4d30f19a": 1788463269.910863,
+    "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": 1788465071.3605509,
+    "c9fb3fa963c6f103988263f2842c4806c66f9cf27556238770822ab7c2d955e9": 1788465071.3605509,
+    "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": 1788465071.3605509,
+    "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2": 1788465071.3605509,
+    "bf80d001cf8a4a5956f6af53260843ceda78fb6919eebf287df46aa4181d7d09": 1788465071.3605509,
+    "06e105123e4441fa28b1930ca637da6d3234be14374be0e0663336740ba9d679": 1788465071.3605509,
+    "5f531728ff05459c72f16caa1381e95becac2d35c178e6b55fd8db9e38d01c91": 1788465071.3605509,
+    "174b1afc8eb35f469812b1b062756175aa92097b6ed12083e4ffc5de361a07ac": 1788465071.3605509,
+    "2c16e0cffbcb0f14dcb00e768803fb249d7f3c052f46e2adda577e0ee4c26cdc": 1788465071.3605509,
+    "65aedb13ca55e09525ddb6b14d78291b227f475a2841cca973971c53ac98751a": 1788465071.3605509,
+    "99f5e5d44fe5d88feefa88a3f7ad9b99e0c6a6a807226a489df9941954b70606": 1788465071.3605509,
+    "ce696d1e675baf8da4c04006c997e349a95d04635736422f683a849f952115fd": 1788465071.3605509,
+    "42746798e233b2cb0d78ee3c30cd574494af7ac4e72695337dfaa98874a5c74a": 1788465071.3605509,
+    "f5e827bad93f8a36ac92957b96b969820b4880d0e3eb7a5af99a24c9bdfee67b": 1788465071.3605509,
+    "3e575defe3909f850c7cd287809eb341e00e040ec147e6ed3bd8b90a094c62c1": 1788465071.3605509,
+    "53c72bf410e18cef7284d3fe4d038b5824a6952d996471f099c0dce2f511e743": 1788465071.3605509,
+    "ca176075a6264fd685c7d4104a7539a5091735f77b15242d6bbd5560c58b70eb": 1788465071.3605509
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "OpenAI launches GPT-6 Astra, its most powerful model yet and touts its ability to use your computer - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ3FxYmJjOHVlZkFCOEtrdXQxVmFPZWh0UlJFb1Vrdm5WOXU2ajg5S181c252R0wyN0s1NWhEWjNnN05QSXdPa1NYTzRjem5nUXJuMG9ENll5S2hlYjBpV0I1ZU1jTVBQY2ZUN0ZIaEM5VV9zWmR4TGZ6OUlVT1J4ZmFFdlE0V1dWWDd0ZXFzWUEzVDhlZHVJSlo2WEtzLXJPVHJtMA?oc=5",
+      "desc": "OpenAI launches GPT-6 Astra, its most powerful model yet and touts its ability to use your computer Fortune",
+      "source": "Fortune",
+      "time": 1788461040.0,
+      "score": 70,
+      "key": "c9fb3fa963c6f103988263f2842c4806c66f9cf27556238770822ab7c2d955e9",
+      "importance": 70,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788465071,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788465371
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере - Компьютерра",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcG03LUVucjRLNDE5RC1DeXRJUnc1TVlWRFNSMDBZZVF2aUh6WEktSFdHVzZTNTR4MDRrdEVxNnlhU0g3QngyMk5ENi1feERia09xX3JkYVhrX2x3dWxKRElPd2VCYnhfNnMyeEh1WXRjd0tHZjU0Zk5PXy0tNnE0TVZoNVY2RkpTdU9NR2pNcVljcERFc1Y1cTZMcHQ4NEsycms1TTA3OTd6WS1wb0tYalBhWTBJV2J0R1E?oc=5",
+      "desc": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере Компьютерра",
+      "source": "Компьютерра",
+      "time": 1788462450.0,
+      "score": 69,
+      "russia_weight_bonus": 1,
+      "key": "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "Abu Dhabi AI institute releases fully open-source models with training data, code - Reuters",
@@ -336,13 +389,29 @@
     },
     {
       "region": "WORLD",
-      "title": "OpenAI Gets US Government Backing in Major AI Copyright Fight - TechRepublic",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQk16ZWxNSWlIblVoNTkyX3RtVXZieXlKcURKVlB5TDJqQUtmNDR0Nlk4UTg4a2N3RVhIZ0c3aXVKLVFmY0VoeDlzVFFGbC1UcHoyZFVIUjFRSzZhVmhySmR5NGxHd2RtSkVaMnJvbEdHX0ZlY3JWU2IwS1RMRmloNC11RFBlc2hNcGc?oc=5",
-      "desc": "OpenAI Gets US Government Backing in Major AI Copyright Fight TechRepublic",
-      "source": "TechRepublic",
-      "time": 1788462509.0,
+      "title": "Nvidia's Broken AI Story: Fundamentals Run Away From Discounted Valuations (NASDAQ:NVDA) - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQWRySXJtTHoyU1laZkpOS0ZVSlg0OXEzdE9SZDhKeXY1TmNXNUQ2NUNoSm5zako4bWxiNWVZMjVqRmtjT2J4VExvci15MTBTbzUyZ1lMUzhXdlJVd0tXc2hUX2lEQVFuano0WDNnaWZKUm0wamJQNTl1UWJneW5JVkY3WjZCV1pDQUJ5UE45em0wWnBEdWxVeDdkNWR2cGx4VkV4NEd5MThuMnp1MDZaeEpn?oc=5",
+      "desc": "Nvidia's Broken AI Story: Fundamentals Run Away From Discounted Valuations (NASDAQ:NVDA) Seeking Alpha",
+      "source": "Seeking Alpha",
+      "time": 1788464713.0,
       "score": 65,
-      "key": "83cc2db155357709b1125e8477e1cb25dec101fbdef51db598fa299b13d3c330",
+      "key": "5f531728ff05459c72f16caa1381e95becac2d35c178e6b55fd8db9e38d01c91",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Top Tech Expert: Elon Musk Is Quietly Building Artificial Intelligence in Space. One Small Company May Be the Key. - The Manila Times",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxORTFMRlRRcDBfdGlQVEFzLVJIRUh3alNJdFFMczdGc0E4cm9IUFEtbzJmeFhLSFh2S1ZiTjBIWTZ3Rmo2c19QMVNVdktyeEIwcW5sZF9jdXFKeFlYWWZFX05xTURYUnI4Y1pFOHJvZS1Vci0xdmdRWUFTQlhuNzBfRjlmQkwzS2ZLaHVpV1hUREd5Q1gzWmhyUmR2ZjdvVHpEcnVtd1FFdHdoV0Y1cUJfWVQza3RSQkJpQnRZYnREUTZrXzRmRzhRMXNIWkFCQ0toZnpLSklaWUpjM2V6MFBVR29JU3U1U3BCOGhUdzExNFdFUHJTSmNvZ2NIT3NSTWRvbmtGb1RpdEY2eXhldC1mb1VFONIBmAJBVV95cUxNc1Bab2tOa3JnWTN5aTVtU0lNMmp5OU1ZZUp4ZXFMeW1IWkwwXy01REpyNFJOZkpmRjg1NmFXcmozUXFLb0Rua2dRZ3o4U0tFaGpTUDNZRDNPbUpQZ05NNnd6ZUhaVGozZU10VjhtM2xJRENsNG5SWTZUSVZEdzFxY0ZFRHk0bmZkcU14NlhJd2FKcUhvODNibnVDSEpXSDR3cmFNbHVmOWg3RGpydloxTVl1RG44VlVrVE9OX2h6OElOSWFKdC1qYktFa0NUeTNkbE9iSUllLXkwdVpZT0htOENHbXQxa0llZFR6M3VYcXJXcjA5OUk0Rng1MXhITW44RDl0SkVMOVB0d0MyYWVGTmFQdWRDX0pz?oc=5",
+      "desc": "Top Tech Expert: Elon Musk Is Quietly Building Artificial Intelligence in Space. One Small Company May Be the Key. The Manila Times",
+      "source": "The Manila Times",
+      "time": 1788464655.0,
+      "score": 65,
+      "key": "174b1afc8eb35f469812b1b062756175aa92097b6ed12083e4ffc5de361a07ac",
       "importance": 65,
       "editorial_value": 50,
       "topics": [],
@@ -369,6 +438,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5MTWNVbDF3V0xSOVRtSXlOTXFHM0M3TVlQbjhwdWd1NFFhMFAzTmM0UlRBUmlkeEN0ZUxFblpxcnR3Yy10Ri1vWVJsYlJOdw?oc=5",
+      "desc": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788456630.0,
+      "score": 65,
+      "russia_weight_bonus": 1,
+      "key": "bf80d001cf8a4a5956f6af53260843ceda78fb6919eebf287df46aa4181d7d09",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Сбой зарубежных ИИ мог произойти из-за падения облачной платформы - Рамблер",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcDFqMnlkdFVDX3IxSzNBLWhiMFlvdWM2eV9QYVN0enJzMTNLWldDOUEzenlETDBSa2pmT1Z3aF96dGpnRTVqazU2OFFRaGhCZjBmc2U5d0k4N0tHMVJtMmZVaDU1MkEyX1loYUZiMGx3WjdLQkJQMXFpaVc0VVEwT3RyVVlPYkpObjlsY1piTFRpS0ExUm9HOUNNaW5yYTB2aWxad2FuMnpwZkXSAbABQVVfeXFMUEU0emlLMl9ydzMwNGVEQWxNRE5JNnU1ZzJOYUtHNm15RWkwWHgwR3lGQnpPcHhIdkY5dllhZllQODhiRkNFTXYzdVgxelNwdjIzX3lRZkMyZnNaRHFPdzBUNWNWV3p1c0NmaE5tV2RnUTF0RUN2Tzh0Snp0cEgzMXVya3dObHItY2lGTzJtVzVsNkJKVnNuc1l3aVVsUUN0ZmxhUW51WUJvQXp6MkJvUm8?oc=5",
       "desc": "Сбой зарубежных ИИ мог произойти из-за падения облачной платформы Рамблер",
@@ -390,6 +476,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "В Сбере рассказали о применении ИИ в российском авиастроении - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX0psLW10WkhZSUNrVGJsaV9Dci1ra1ZGaGktbVlBanVSVGppR19jQjlhcHR0MkotTHdxbnRadzBNR1BmNGhabkpvczVyQjExOGNtOTQtbEQ5Vkx2QXVHSDFjNV81c0FYOERFVXNZRnpTaEFBcHNleHc4WFRWel9nZWR4aWRWTHduSUFUMmF3dy04OVNRdXphMjNDVEdHMXZkckFxOA?oc=5",
+      "desc": "В Сбере рассказали о применении ИИ в российском авиастроении prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788456044.0,
+      "score": 65,
+      "russia_weight_bonus": 3,
+      "key": "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование - Digital Russia",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmV1b2haRFJEaGRlM3dLMU9rWDVGdHo0UUE4SS1ZZnhCdVBoYk1ib0ZhTjFhNkJYeEh4MUF3dDVUMVd6OWZiZXBXVGlSRnNfTlpseFJrbl9rbFNTTzluX0xZakY5bnFBakttbXNKQWxVUGtwbjYyNGtsTUJJN1pRN1NPdHhWSEZyN1VsUGhPQVp6cVpwV3dvOWFOTHI2azhZbHV3cXFkVE5rVGdhdVdtcmt5NA?oc=5",
       "desc": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование Digital Russia",
@@ -408,6 +511,38 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
       "failure_count": 2,
       "next_retry_at": 1788463510
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Вакансия AI Research and Development (стажер) в г Москва - Сбербанк",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrUHNWSkVDMXZrTndGd0xxLXoxQlJUQTFBLVd1R0czUjNHTGtidFJubDFidUdVVUZmbXBjbVhQTmRvSnhDWTNZa0VlVWlQSzc3a2ZfSVVmRWRsRzVrUjZ5Z09KVGUwMWJPUTJsUHVtR3VqMHl3UUNra1NoNzlFcVU?oc=5",
+      "desc": "Вакансия AI Research and Development (стажер) в г Москва Сбербанк",
+      "source": "Сбербанк",
+      "time": 1788459322.0,
+      "score": 62,
+      "russia_weight_bonus": 3,
+      "key": "ce696d1e675baf8da4c04006c997e349a95d04635736422f683a849f952115fd",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "research"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI показывает Astra 6, звёзды почти сошлись - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yckdRRXYtWlp1X1BIYlZvbGhBYUR2TklySHYwY0N3VGZySkNfVFotWU9Ka0trMHNMdU9tSl9LcHE3ZzYwdU5wTXowOUJBZFl6cWppemNQRzhPOF80anNjLW5VaTkzMVFoanJiUFJ5M1BMQld5clk2WV92WFZTdw?oc=5",
+      "desc": "OpenAI показывает Astra 6, звёзды почти сошлись Pasquale Pillitteri",
+      "source": "Pasquale Pillitteri",
+      "time": 1788457736.0,
+      "score": 62,
+      "russia_weight_bonus": 3,
+      "key": "42746798e233b2cb0d78ee3c30cd574494af7ac4e72695337dfaa98874a5c74a",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -468,73 +603,37 @@
     },
     {
       "region": "RUSSIA",
-      "title": "«Одноклассники» запустили ИИ‑сервис для обработки фото и создания виртуальных подарков - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeTdIOE1EcGllZmpIa1J6aVFaUDlabUREVUtoblFEbjFzT0ZsNThNeUxhYkNIYjFocVFqbVZvUktSalg0aUlWNkJPVUR4S2xaT3pCcWxHYklheGcybWxCQ0JHaEg1Z3R4OEhubFlCdTRnV0o5VFQwVm5mV2twb3ByX2VrWF9fRndVNjFtVTE3dS02ZFFCek1QdWJjSHFaTTR2UWRrQm9vMjloRldCbmhrSkx3Q2xlbmk5T0FFVm9fVHFjYmpB?oc=5",
-      "desc": "«Одноклассники» запустили ИИ‑сервис для обработки фото и создания виртуальных подарков prospect.com.ru",
+      "title": "Росатом начал испытания импортонезависимого робота-манипулятора - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVzJKc0ZDanZiMVp0Rng4SlZnUndmN1hiT3JOTjlYeXEwWXlXUjFaUEpfc0V1S0ZnX2RlLVllQWI2bHVrVzhJa3UzZlJYVDNhaFQxanl6VnE4ZDlJRFc0dHMyam9Pbi1sMkZrNjFnNnpLbHd1U1FTcHVHVmJFNE01Q1NFT190NjJxczMyWFJwVDh6WVVqUGpLTEJWY3MxMHhERld4MFFESC1rMlU?oc=5",
+      "desc": "Росатом начал испытания импортонезависимого робота-манипулятора prospect.com.ru",
       "source": "prospect.com.ru",
-      "time": 1788439856.0,
-      "score": 62,
-      "russia_weight_bonus": 2,
-      "key": "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788462910,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788463510
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Китайский стартап «Будущее не за горами» привлёк миллиарды на домашних роботов - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTktka1l5eFdwSWhiMm9iWlhsM25wVlJyT2dTcHpIbXFSMHppWEhGZHlHU0JzX3JYd3ZwcHV0MDBLUmttckoxalFqWGtfWndRNFdkRi04M1B1S1JnSDYtR0FDT2NkdHA2b0E1MVB3bXFYckFPLWxTMDE3VW0zcXZGRXM2SzRQNjFkeDFrYTREbTZMWWw2X1Z3LWtDMlVOSWNBWkFuNkpMX2htVlktUkFySDZkWWl6ZzA4OVBSZE93?oc=5",
-      "desc": "Китайский стартап «Будущее не за горами» привлёк миллиарды на домашних роботов prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788437432.0,
+      "time": 1788446432.0,
       "score": 62,
       "russia_weight_bonus": 4,
-      "key": "cd1b365ce9307d0eb1f4b6786bb4690761e573c9ef41d93b22b90cf0e64e4763",
+      "key": "06e105123e4441fa28b1930ca637da6d3234be14374be0e0663336740ba9d679",
       "importance": 62,
       "editorial_value": 50,
       "topics": [
         "robotics"
       ],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ИИ никогда не встанет у доски: в России оценили роль нейросетей в образовании - REGIONS.ru",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObFpTcnAzUkM3cG9JX0JsSGxHbTdmNHByUS1hbFlKTVNWVThxOHlwR1RjN28wRzBFTzlHRy1yWmc2ZDl1Q1RmcmtJekwwTnh0ZXh4ejJ0MEt5c2RZQnUyX0hOV3JtQk9oNlpybUtUYlp2TVZOemUtVWdsNkxKZUFvWGJ0bTNaQ08wRjVNblIybWhBN1pCWDZDcUNfRUVRUWI1bGI1dUFGU0thM0U?oc=5",
-      "desc": "ИИ никогда не встанет у доски: в России оценили роль нейросетей в образовании REGIONS.ru",
-      "source": "REGIONS.ru",
-      "time": 1788445560.0,
-      "score": 61,
-      "russia_weight_bonus": 3,
-      "key": "8b5494491e7f9379b7df038d46dbd40a139e939d3dde9a8378dd084b0165f5bb",
-      "importance": 61,
-      "editorial_value": 50,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788464890.7600443,
+    "last_start_ts": 1788465071.3605509,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788464890.7600443,
-    "last_success_ts": 1788464890.7600443,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_run_ts": 1788465071.3605509,
+    "last_success_ts": 1788465071.3605509,
+    "last_candidates": 109,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788464712.8275585
+      "updated_at": 1788465106.947209
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1142,11 +1241,17 @@
       "desc": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed? 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "region": "WORLD"
+    },
+    "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": {
+      "time": 1788465071,
+      "title": "As Big Tech Builds Its Own AI Chips, Nvidia Makes a $3.5 Billion Bet on Taiwan - Vision Times",
+      "desc": "As Big Tech Builds Its Own AI Chips, Nvidia Makes a $3.5 Billion Bet on Taiwan Vision Times",
+      "source": "Vision Times",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1164,8 +1269,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788463269.910863,
-  "last_publish_ts": 1788464710.8534093
+  "last_search_ts": 1788465071.3605509,
+  "last_publish_ts": 1788465071.3605509
 }
