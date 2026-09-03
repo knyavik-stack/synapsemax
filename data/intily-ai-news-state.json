@@ -203,7 +203,8 @@
     "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3": 1788438580,
     "951e56ef181fe824c96ba7462c917ee84a23f21eeaf97d78733c9cc6d6a9e8bd": 1788438641,
     "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48": 1788438707,
-    "7c00cccfb6582c4281e79f3022be14a3434a2e06719e89869402bb889f137350": 1788438826
+    "7c00cccfb6582c4281e79f3022be14a3434a2e06719e89869402bb889f137350": 1788438826,
+    "4508dce9d925c50c1ce9c06796e1848871e01a4ac493dacc786d6ffd7dc79d7a": 1788438940
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -345,20 +346,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Эксперт «ОБИТ» рассказал, когда не нужно внедрять ИИ в ITSM - ICT-Online.ru",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNekE1YmR6QWR2ZElNaS1zRV9EVmU5YUJWd1RWandEa3NzMWtnMy1vWnFwbzl0LWhxX1U4S1k0Q2w4b2lEenZwZXVQcnBZYTV4TExIdzBEUWV0SVRIYVZUS1RJQUJzemZRQk16Tk1CT2RITGhYQ0NiOENIRV9rSThxdnUxODVmOG51Skc4WUFVZFJKeTh5Q1E?oc=5",
-      "desc": "Эксперт «ОБИТ» рассказал, когда не нужно внедрять ИИ в ITSM ICT-Online.ru",
-      "source": "ICT-Online.ru",
-      "time": 1788433887.0,
-      "score": 65,
-      "key": "4508dce9d925c50c1ce9c06796e1848871e01a4ac493dacc786d6ffd7dc79d7a",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья - perm.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BM012T1pHZDFLQXJQSmhNa1hIcS1UN2FzSVQ4N2tWNUg0NlRxZ1cwa0VTMllReVF5Z0RGbDl0YlRwM0VSRlROQjlXSXZLR3AxdEtvcDRtTWlWSjRyWV9Gd1A0Tk1VdTV6U1dtWUtyYjM2NmRkemExM2t2V0M?oc=5",
       "desc": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья perm.rbc.ru",
@@ -431,21 +418,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788438879.947798,
+    "last_start_ts": 1788438940.1653602,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788438879.947798,
+    "last_success_ts": 1788438940.1653602,
     "consecutive_failures": 1,
-    "queue_size": 7,
+    "queue_size": 6,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788438879.947798
+    "last_published": 1,
+    "last_run_ts": 1788438940.1653602
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788438834.6756432
+      "updated_at": 1788438943.5820405
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -948,10 +935,16 @@
       "desc": "Do Z.ai and MiniMax face different financial fates months after Hong Kong IPOs? South China Morning Post",
       "source": "South China Morning Post",
       "region": "WORLD"
+    },
+    "4508dce9d925c50c1ce9c06796e1848871e01a4ac493dacc786d6ffd7dc79d7a": {
+      "time": 1788438940,
+      "title": "Эксперт «ОБИТ» рассказал, когда не нужно внедрять ИИ в ITSM - ICT-Online.ru",
+      "desc": "Эксперт «ОБИТ» рассказал, когда не нужно внедрять ИИ в ITSM ICT-Online.ru",
+      "source": "ICT-Online.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -970,8 +963,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788437619.555675,
-  "last_publish_ts": 1788438826.0856054
+  "last_publish_ts": 1788438940.1653602
 }
