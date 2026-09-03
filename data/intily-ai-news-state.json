@@ -100,7 +100,8 @@
     "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": 1788468491,
     "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2": 1788468673,
     "37e5968466a93a75428b1a41b34893e2b97891aa722b2e19202dbafe83019aa7": 1788469032,
-    "558675885987d82b720f2099d5945d2764134960531c6cb8590358018f46b494": 1788469391
+    "558675885987d82b720f2099d5945d2764134960531c6cb8590358018f46b494": 1788469391,
+    "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532": 1788469751
   },
   "known": {
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450498.829142,
@@ -313,26 +314,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788469391,
+      "last_failed_at": 1788469751,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 2,
-      "next_retry_at": 1788469991
-    },
-    {
-      "region": "WORLD",
-      "title": "Physics Breakthrough May Boost AI Memory, Learning - Mirage News",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUzVQbDhpRWlfOWFITUJ5ejFqSDdqeHdjbFZzSHRONHlJUXNRSUhXT3JfNGJ6bkx3dWRQeVNPaDVYeFF5cldBdDBMMkZ0TWtnZE5tUm84dmM5MGFYR0dnYmRuMmdNSVdxbTA5T3VtQU4zV20tcU1SOXV6Nnl0RDRGRnhB?oc=5",
-      "desc": "Physics Breakthrough May Boost AI Memory, Learning Mirage News",
-      "source": "Mirage News",
-      "time": 1788458520.0,
-      "score": 66,
-      "key": "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "research"
-      ],
-      "tier": "A"
+      "failure_count": 3,
+      "next_retry_at": 1788470951
     },
     {
       "region": "WORLD",
@@ -597,20 +582,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788469571.703955,
+    "last_start_ts": 1788469751.3686213,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788469571.703955,
-    "last_success_ts": 1788469571.703955,
+    "last_run_ts": 1788469751.3686213,
+    "last_success_ts": 1788469751.3686213,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788469405.6583633
+      "updated_at": 1788469804.191488
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1330,10 +1315,16 @@
       "desc": "OpenAI Unveils GPT-6 Astra: AI Agent Capabilities Upgraded, Priced at About 2.5 Times Previous Generation TradingKey",
       "source": "TradingKey",
       "region": "WORLD"
+    },
+    "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532": {
+      "time": 1788469751,
+      "title": "Physics Breakthrough May Boost AI Memory, Learning - Mirage News",
+      "desc": "Physics Breakthrough May Boost AI Memory, Learning Mirage News",
+      "source": "Mirage News",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -1351,9 +1342,10 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788468853.2378092,
-  "last_publish_ts": 1788469391.90392
+  "last_publish_ts": 1788469751.3686213
 }
