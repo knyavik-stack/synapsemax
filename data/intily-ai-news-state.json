@@ -104,7 +104,8 @@
     "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532": 1788469751,
     "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": 1788469932,
     "b82db89157ab3c6a560ae70b12b6d0afc978f492e063ae39ce1781c158cc1255": 1788470289,
-    "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c": 1788470649
+    "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c": 1788470649,
+    "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843
   },
   "known": {
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450498.829142,
@@ -298,9 +299,46 @@
     "cae231d9e4334f2c91ac8104e1e46ce7bf72a6dc83c3d1302d74ed177c8fd1ce": 1788468853.2378092,
     "a5b2b94c80e33fb9bee15520081e8ec54903a79ce3e53bfc2278fee762cf6ec1": 1788468853.2378092,
     "c93c881cebbd7935ad30730c20aae61463516e682302f63ab06c7dc06e2ee105": 1788468853.2378092,
-    "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": 1788468853.2378092
+    "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": 1788468853.2378092,
+    "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843.6931014,
+    "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": 1788470843.6931014,
+    "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895": 1788470843.6931014,
+    "6997a002487646836ea649a555a2961a2d7f21af8e332d3cdeaca24ca540bfdc": 1788470843.6931014,
+    "4396fd3c8d64ae110de28e2c908d6ffa938d5aadae418e2b454d2b3aa01463db": 1788470843.6931014
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "OpenAI Astra is a mysterious new quantum math-solving model - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd3puSjBhcy1TRmloVzBfNlA4LWlsUEI5NEVzRk41SDFnVmdTS3Y0eWpuVkR5TkFGZ3N2cHYwYnN5WVVncjlhYWNXN1NmZ1ZIRGNTOWFQeHpmVGgxZGo4SGlLekF2MU5ZQUxDV2puZ3ZRY1dhUG5kSmlfYnBCTERRWkZn?oc=5",
+      "desc": "OpenAI Astra is a mysterious new quantum math-solving model Mashable",
+      "source": "Mashable",
+      "time": 1788467987.0,
+      "score": 69,
+      "key": "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences - PPC Land",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZjVxakl6a0loUHQxNWg4WHh3YXFkX1dXUGVfZWh2Rk5BaGJMRzl6ckJiTVY2bnlaa1k4bnpPOXZ2SkV2T3ZnWXZ3TFM2UFU5QWdBSWRPRk42NVRqWmNRYmZYSXhWZFVEakktY0RYRnYwWXhRSFY5UVVNbzVBUTA1dm9DSmNINDdydFk0?oc=5",
+      "desc": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences PPC Land",
+      "source": "PPC Land",
+      "time": 1788469004.0,
+      "score": 65,
+      "key": "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared - newscord.org",
@@ -431,6 +469,22 @@
       "tier": "A"
     },
     {
+      "region": "WORLD",
+      "title": "OpenAI’s new Astra model is finally here – why safety experts are worried - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZGpwS05DQ1Z2Q3lFR3RjclY3dzI4Uk5ia3ZObkFTYmQ5aFNoeWlySW5aSGFESS1xYkpRcXZ3b2JRTUFVMTVwSERuVVdKTDJSRDlPd2Q1T0J1QTk4NmhGaVRwSUN4ak1Sa1NlZ3lkRWd6VmI4QTViM1BnU1piY3B4aw?oc=5",
+      "desc": "OpenAI’s new Astra model is finally here – why safety experts are worried ZDNET",
+      "source": "ZDNET",
+      "time": 1788458419.0,
+      "score": 62,
+      "key": "6997a002487646836ea649a555a2961a2d7f21af8e332d3cdeaca24ca540bfdc",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "RUSSIA",
       "title": "OpenAI показывает Astra 6, звёзды почти сошлись - Pasquale Pillitteri",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yckdRRXYtWlp1X1BIYlZvbGhBYUR2TklySHYwY0N3VGZySkNfVFotWU9Ka0trMHNMdU9tSl9LcHE3ZzYwdU5wTXowOUJBZFl6cWppemNQRzhPOF80anNjLW5VaTkzMVFoanJiUFJ5M1BMQld5clk2WV92WFZTdw?oc=5",
@@ -535,23 +589,40 @@
         "robotics"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Jim Cramer Sees Broadcom's Business Exploding as CEO Hock Tan Says Custom OpenAI Chip Beats Nvidia's Grac - benzinga.com",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQODFrWVp1eXZnR0c3d0g2TExqRk40VlpWQXhxbFNRTUVPNG54MGE0WHZORUN2b0Y5eXkzeExKd0VHMlQtY1dULVBGX1h2LWN2eVN4UmxLRUdjTm9mcjVDV0dWUWItVzJNMXhNQ21kNmZZUFFfVzhJN01QUElCa0NLSGk3X3VkYVVwd0JjYTFWNkI5cWhCcS1DSEpHbWdrcTNybFNlZGRtaWdnblg2LXBrR1RBVzAtLXRjM2Ffd08xWmd4ZmFHTmRpdzR5OXRKZkRTSDBPdEh4LU9oMW96YndxM0Z3bF8tSkVfTWRoYkRvam9QdlJ0eGU4WkRITF9MTk85SnJQdDI0bUJPbW9FYnBsMnhIdFZ4UU0?oc=5",
+      "desc": "Jim Cramer Sees Broadcom's Business Exploding as CEO Hock Tan Says Custom OpenAI Chip Beats Nvidia's Grac benzinga.com",
+      "source": "benzinga.com",
+      "time": 1788432820.0,
+      "score": 61,
+      "key": "4396fd3c8d64ae110de28e2c908d6ffa938d5aadae418e2b454d2b3aa01463db",
+      "importance": 61,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "chips"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788470649.413085,
+    "last_start_ts": 1788470843.6931014,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788470649.413085,
-    "last_success_ts": 1788470649.413085,
-    "last_candidates": 0,
+    "last_run_ts": 1788470843.6931014,
+    "last_success_ts": 1788470843.6931014,
+    "last_candidates": 104,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788470658.3283355
+      "updated_at": 1788470871.2021139
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1299,10 +1370,16 @@
       "desc": "Why Clément Delangue Sold Hugging Face to Nvidia After Turning It Down observer.com",
       "source": "observer.com",
       "region": "WORLD"
+    },
+    "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": {
+      "time": 1788470843,
+      "title": "Intel Crescent Island AI GPU Slips, Nvidia Holds 80% [2026] - tech-insider.org",
+      "desc": "Intel Crescent Island AI GPU Slips, Nvidia Holds 80% [2026] tech-insider.org",
+      "source": "tech-insider.org",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1316,6 +1393,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1323,6 +1401,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788468853.2378092,
-  "last_publish_ts": 1788470649.413085
+  "last_search_ts": 1788470843.6931014,
+  "last_publish_ts": 1788470843.6931014
 }
