@@ -13,7 +13,8 @@
     "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788443474,
     "c26b0145afee546a9c0b92d3b9c32a7cb4775cd8e81df5590824d4e2b0a26689": 1788443832,
     "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": 1788444191,
-    "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d": 1788444372
+    "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d": 1788444372,
+    "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb": 1788444560
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -119,20 +120,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Нейросети для работы: топ ИИ-сервисов - rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sMl8ybFQxckI4VExDaERxX0d5a3E2dWRXcGw4OWotSFFpMnBJV1c3RXVMeHF6VGk3akRwZ0ZVM3JuWkw4Zldjd0lwc2dkdlFpRFdwWjZYa2RkdzhJc2t5VDNzZHBmYnMwYUhQWW8tZ2o0dw?oc=5",
-      "desc": "Нейросети для работы: топ ИИ-сервисов rbc.ru",
-      "source": "rbc.ru",
-      "time": 1788435353.0,
-      "score": 62,
-      "key": "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Как ИИ выравнивает возможности участников рынка недвижимости - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNTngtQWxYZzlaVlZaWTRWV1RLNmZ2Qm84a3hkT1dQanYzSlpoU2h2a1o2eTlVRnFRcG5ucDBrOExzMFhOWGJJUGl6QUdLVFpOQWo4R1pHcDlrZmh1Ty1Tb3dodEtJV2MzbXRGRGJsSDZzT2NqVkUzQnF5ONIBe0FVX3lxTFBNTngtQWxYZzlaVlZaWTRWV1RLNmZ2Qm84a3hkT1dQanYzSlpoU2h2a1o2eTlVRnFRcG5ucDBrOExzMFhOWGJJUGl6QUdLVFpOQWo4R1pHcDlrZmh1Ty1Tb3dodEtJV2MzbXRGRGJsSDZzT2NqVkUzQnF5OA?oc=5",
       "desc": "Как ИИ выравнивает возможности участников рынка недвижимости companies.rbc.ru",
@@ -227,20 +214,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788444372.4000106,
+    "last_start_ts": 1788444560.59912,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788444372.4000106,
-    "last_success_ts": 1788444372.4000106,
+    "last_run_ts": 1788444560.59912,
+    "last_success_ts": 1788444560.59912,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 11
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788444378.0858035
+      "updated_at": 1788444562.946514
     }
   },
   "stories": {
@@ -341,6 +328,13 @@
       "desc": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC CNBC",
       "source": "CNBC",
       "region": "WORLD"
+    },
+    "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb": {
+      "time": 1788444560,
+      "title": "Нейросети для работы: топ ИИ-сервисов - rbc.ru",
+      "desc": "Нейросети для работы: топ ИИ-сервисов rbc.ru",
+      "source": "rbc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -357,8 +351,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788443111.2937322,
-  "last_publish_ts": 1788444372.4000106
+  "last_publish_ts": 1788444560.59912
 }
