@@ -106,7 +106,8 @@
     "b82db89157ab3c6a560ae70b12b6d0afc978f492e063ae39ce1781c158cc1255": 1788470289,
     "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c": 1788470649,
     "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843,
-    "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": 1788472149
+    "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": 1788472149,
+    "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895": 1788472493
   },
   "known": {
     "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": 1788451571.478552,
@@ -295,22 +296,6 @@
     },
     {
       "region": "WORLD",
-      "title": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences - PPC Land",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZjVxakl6a0loUHQxNWg4WHh3YXFkX1dXUGVfZWh2Rk5BaGJMRzl6ckJiTVY2bnlaa1k4bnpPOXZ2SkV2T3ZnWXZ3TFM2UFU5QWdBSWRPRk42NVRqWmNRYmZYSXhWZFVEakktY0RYRnYwWXhRSFY5UVVNbzVBUTA1dm9DSmNINDdydFk0?oc=5",
-      "desc": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences PPC Land",
-      "source": "PPC Land",
-      "time": 1788469004.0,
-      "score": 66.5,
-      "key": "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared - newscord.org",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQ29WNUxmWllDV1YtNHE0OGdOVklMSnpSWkVybmh1YXo2MTBYNDIyclpmaDJBNUtKTmlJT1llVHdBc21FR0NwYTJtT0RFbUZ1Mm1UdTlZT2FyMEtoSzk4dFN5MVFoTmJYVlF3dFp2RkM4MDk1NUNhWDd0N0FPUnVhRVdnNGtENEZXZTdsSW56R2w3S0JiWU1GZjcxcTNDU2NTSUNjSVpQQTBIdmdpN2hFT213QXdiSF85SWVJbXhyMm1valgxOHI4WmNObTNwcjZzLWhjd2N0MkN4U2RuNWx3eHBocTl1dllIZ0E?oc=5",
       "desc": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared newscord.org",
@@ -441,20 +426,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788472318.0639086,
+    "last_start_ts": 1788472493.3010035,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788472318.0639086,
-    "last_success_ts": 1788472318.0639086,
+    "last_run_ts": 1788472493.3010035,
+    "last_success_ts": 1788472493.3010035,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 10
+    "last_published": 1,
+    "queue_size": 9
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788472152.136309
+      "updated_at": 1788472497.7499683
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1216,10 +1201,16 @@
       "desc": "OpenAI Astra is a mysterious new quantum math-solving model Mashable",
       "source": "Mashable",
       "region": "WORLD"
+    },
+    "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895": {
+      "time": 1788472493,
+      "title": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences - PPC Land",
+      "desc": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences PPC Land",
+      "source": "PPC Land",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -1231,6 +1222,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1241,5 +1233,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788470843.6931014,
-  "last_publish_ts": 1788472149.2804053
+  "last_publish_ts": 1788472493.3010035
 }
