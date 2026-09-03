@@ -53,7 +53,8 @@
     "5d1178d9bcfea5f83b482b70bde9035e03008b98ae7d69dd641c06ba10ef7046": 1788454813,
     "d589eaddbe63b46b466552dd5e306fcc956a27d13b11015890a88f0e54d6016c": 1788455171,
     "a11a4eaf671150dfd7d7a32de4927c06238dae5f18641ba1849d01b227e66938": 1788455352,
-    "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612": 1788455712
+    "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612": 1788455712,
+    "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84": 1788455899
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -280,25 +281,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов - Компьютерра",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS1F5d0pOLW5KLWc0MFo3NkZjaWVoaDhNODBINWNrdEdxV0Uyd0RlUDNMbGplTzQwZXh4YnhtVFBtaFJPeEw2eG11TlJuWlhLN0J4OU1UcjhlN2tHVV9ULWlnWnlubWNrMmNKVWE1VUoyZVJtVlN5VDl6TDdzWnFDdlMxc3RxRkU5emZKejJXZmpNWTFIb3dHcEphQXQ4ZWUxZzVaV0x6amJYckRabzNvZjV1VU9yZGdSclNn?oc=5",
-      "desc": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов Компьютерра",
-      "source": "Компьютерра",
-      "time": 1788441726.0,
-      "score": 67,
-      "key": "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84",
-      "importance": 67,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "russia_weight_bonus": 5,
-      "last_failed_at": 1788455352,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788455652
-    },
-    {
-      "region": "RUSSIA",
       "title": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд - theins.ru",
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBReU1waHU5UllJZ1J1d0JlX3dUcXVtZkM4Rnhvc25oWmJVTTBVSGdCTV9TSUhRQTNuTm1IUzRQOGxoOTg?oc=5",
       "desc": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд theins.ru",
@@ -477,20 +459,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788455712.9641533,
+    "last_start_ts": 1788455899.8761814,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788455712.9641533,
-    "last_success_ts": 1788455712.9641533,
+    "last_run_ts": 1788455899.8761814,
+    "last_success_ts": 1788455899.8761814,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788455716.8094285
+      "updated_at": 1788455901.978396
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -881,10 +863,16 @@
       "desc": "IBM (NYSE:IBM) Expands AI Tools to Strengthen Business Resilience Kalkine Media",
       "source": "Kalkine Media",
       "region": "WORLD"
+    },
+    "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84": {
+      "time": 1788455899,
+      "title": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов - Компьютерра",
+      "desc": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов Компьютерра",
+      "source": "Компьютерра",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -903,8 +891,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788455531.428624,
-  "last_publish_ts": 1788455712.9641533
+  "last_publish_ts": 1788455899.8761814
 }
