@@ -1,6 +1,7 @@
 {
   "published": {
-    "46735895ac6634ad57b2f666d3424adbbcbacba826c7516ddb3a66111705a601": 1788441099
+    "46735895ac6634ad57b2f666d3424adbbcbacba826c7516ddb3a66111705a601": 1788441099,
+    "e1caa0ee3a92ca5bebc142d1f6e72a5ccf35e0e38aefe80b62382288f8403901": 1788441163
   },
   "known": {
     "46735895ac6634ad57b2f666d3424adbbcbacba826c7516ddb3a66111705a601": 1788441099.7915678,
@@ -29,22 +30,6 @@
     "ab440e6340b912e40e8f5463699dfc257d0772627916db126157a2b753fb57b7": 1788441099.7915678
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "YouLabs.ai Secures Major Commercial Agreement Targeting $20 Million Annual Physical AI Platform Deployment Across Mexico - EIN News",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOREwtdUQtMXduR1dFemdlNW93bVR2Vy1BQ1lLTHpVOTRmWUstUEw1cFVscHBONFd2OXlncTZXZ00wXzB0Mi1UclVGTVJFRVZTSTlwSEwzaVg4RGxRcDU2c2w4MFgyWDFBMm1IS3VrWUxZTEx6SVIwMjRLNUNSYUJqRWZsM2p0MjlrM2FVRmdTRVVnWHJhWjVQM3NmMzJMSDkzOE5hMEFNTmdaSHN0eHBWeG8tQTgyOUdzc1ZaemNtSm9lUDZteHRmbEVUMUhwZ3BqcDJ5QlU3SHBFTTVKcUFoOFZxcGhMeFZOc1RfWllxdzUzZ28?oc=5",
-      "desc": "YouLabs.ai Secures Major Commercial Agreement Targeting $20 Million Annual Physical AI Platform Deployment Across Mexico EIN News",
-      "source": "EIN News",
-      "time": 1788439500.0,
-      "score": 71,
-      "key": "e1caa0ee3a92ca5bebc142d1f6e72a5ccf35e0e38aefe80b62382288f8403901",
-      "importance": 71,
-      "editorial_value": 50,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Автомакон Роботикс запустил сервисную модель роботизации складов - companies.rbc.ru",
@@ -321,20 +306,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788441099.7915678,
+    "last_start_ts": 1788441163.5325692,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788441099.7915678,
-    "last_success_ts": 1788441099.7915678,
-    "last_candidates": 24,
+    "last_run_ts": 1788441163.5325692,
+    "last_success_ts": 1788441163.5325692,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788441111.3950405
+      "updated_at": 1788441165.9289165
     }
   },
   "stories": {
@@ -344,11 +329,19 @@
       "desc": "Nvidia’s $12.93 billion Hugging Face deal: Why the AI Giant is betting big on open models Deccan Herald",
       "source": "Deccan Herald",
       "region": "WORLD"
+    },
+    "e1caa0ee3a92ca5bebc142d1f6e72a5ccf35e0e38aefe80b62382288f8403901": {
+      "time": 1788441163,
+      "title": "YouLabs.ai Secures Major Commercial Agreement Targeting $20 Million Annual Physical AI Platform Deployment Across Mexico - EIN News",
+      "desc": "YouLabs.ai Secures Major Commercial Agreement Targeting $20 Million Annual Physical AI Platform Deployment Across Mexico EIN News",
+      "source": "EIN News",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788441099.7915678,
-  "last_publish_ts": 1788441099.7915678
+  "last_publish_ts": 1788441163.5325692
 }
