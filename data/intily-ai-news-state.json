@@ -144,7 +144,8 @@
     "9d6adba45c15e20d7a81fc563262275d1eb76ffed2418f4a0c44f11daf28ab21": 1788415905,
     "4ddbb8412aad1fe633b2113fd489ee8c63e56dcfb02076e477d2f362300d9d48": 1788416564,
     "969ca2cd5727d71a35474e0ebe754033872a80ef4f7b3caddca7eb8f199fa0ee": 1788417224,
-    "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504
+    "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504,
+    "55a2979a3ceca2bf0e1cec94a2c9c979ce68751a0b5318d93096657301767480": 1788420824
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -154,23 +155,24 @@
     "969ca2cd5727d71a35474e0ebe754033872a80ef4f7b3caddca7eb8f199fa0ee": 1788412715.6470509,
     "5061897b1e7c0d46b29aac642e35bfed73ee34a6527e9f81ec6c7508430a9996": 1788414284.6313908,
     "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b": 1788414943.5554037,
-    "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188
+    "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
+    "55a2979a3ceca2bf0e1cec94a2c9c979ce68751a0b5318d93096657301767480": 1788420824.936559
   },
   "queue": [],
-  "last_run": "2026-09-03T07:22:50.023290+00:00",
-  "last_published": 0,
+  "last_run": "2026-09-03T07:33:57.827034+00:00",
+  "last_published": 1,
   "health": {
-    "last_start_ts": 1788420162.6148527,
-    "last_status": "FAILED_NO_PUBLISH",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788419504.3927188,
-    "consecutive_failures": 1
+    "last_start_ts": 1788420824.936559,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788420824.936559,
+    "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788419516.652931
+      "updated_at": 1788420837.502365
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -184,20 +186,6 @@
     }
   },
   "stories": {
-    "7ed7936fca677ae6166d081c4303cd710c03aa162214c21af85dc435732c7c9a": {
-      "time": 1788333973,
-      "title": "Международная конференция по искусственному интеллекту AI Journey пройдёт в Москве - Сибирское информационное агентство",
-      "desc": "Международная конференция по искусственному интеллекту AI Journey пройдёт в Москве Сибирское информационное агентство",
-      "source": "Сибирское информационное агентство",
-      "region": "RUSSIA"
-    },
-    "f3a47977daec1b8b38c11522aa2156fbbfff0ee511f65cd9e8fbf1d0670c0461": {
-      "time": 1788334277,
-      "title": "Meta launches Muse Voice Transcribe with support for 5 Indian languages - The Indian Express",
-      "desc": "Meta launches Muse Voice Transcribe with support for 5 Indian languages The Indian Express",
-      "source": "The Indian Express",
-      "region": "WORLD"
-    },
     "729f9a0e75fc607a7974cbb7227009ac5707c3d819387003537bd4ae33458916": {
       "time": 1788335171,
       "title": "Kylian Mbappé-Backed Healthtech Unicorn Alan Makes First African Acquisition - Launch Base Africa",
@@ -456,6 +444,13 @@
       "desc": "Should businesses consider using Chinese AI models? IT Pro",
       "source": "IT Pro",
       "region": "WORLD"
+    },
+    "55a2979a3ceca2bf0e1cec94a2c9c979ce68751a0b5318d93096657301767480": {
+      "time": 1788420824,
+      "title": "Techno Sid: Making AI, Software, Cybersecurity & Digital Trends Easy to Understand - businessnewsthisweek.com",
+      "desc": "Techno Sid: Making AI, Software, Cybersecurity & Digital Trends Easy to Understand businessnewsthisweek.com",
+      "source": "businessnewsthisweek.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -465,7 +460,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -475,6 +469,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
