@@ -212,7 +212,8 @@
     "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe": 1788439487,
     "70f88db677452620741ee0c79cd061c74c42503b1583a416be221a6a78024a52": 1788439602,
     "179286b62f5b9faeca47548b36185ebf6ddd899b7c475378894a48cc1802e726": 1788439721,
-    "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": 1788439842
+    "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": 1788439842,
+    "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee": 1788439961
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -363,20 +364,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России - Gosrf.ru",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaXlHNC1lSXBvU2ZPTjhLWHZhSERlTFBMei16R24xZG9tdDJWWVh6ZGZiNUNxUWx5OVRyVVF2bzFpSEJxdV9uekFobEdKVUE1X2Q2Y2NCN3ZORzlMeTgyczJrLU5UamhTYThTS0FRQ1lYR3Fad0c5TnJON0tuOGpYcHRwOUFpTDUyYmtfd1p0T2hxSzBHWUdtVVd5Ni1UZw?oc=5",
-      "desc": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России Gosrf.ru",
-      "source": "Gosrf.ru",
-      "time": 1788435368.0,
-      "score": 69,
-      "key": "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "«Последнее слово должно оставаться за человеком»: эксперты — о создании промптов для ИИ и о доверии нейросетям - Мировое обозрение",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZkdEelJ0OEoxbXo2MzA0SW1TcDZ6U1hEWVkyNWxWTDRqZ0hNRHl2WGU5Z0NtNFpvOWtCOVJBZlRoeFptd0plSXFfR3NKT3JRNzF5UldrX1hyVVpGeHNudVd5TDFmUVQwTFNPX2NlY0ZmcWprWnE5R2VJTHVsV080QndLUEtMaldIQXVuVTI2Q1pEaUVrbGhMYi1nQ1NiUUlvUl9ZRHZ0dlY4T3M1UWJsUEVKaF9aZkgtaDBabkEtTXN2UmJKQ2pHczU2TTFOV0dZN09pd1lGSnJOYlk?oc=5",
       "desc": "«Последнее слово должно оставаться за человеком»: эксперты — о создании промптов для ИИ и о доверии нейросетям Мировое обозрение",
@@ -449,21 +436,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788439900.2180457,
+    "last_start_ts": 1788439961.4402082,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788439900.2180457,
+    "last_success_ts": 1788439961.4402082,
     "consecutive_failures": 1,
-    "queue_size": 7,
+    "queue_size": 6,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788439900.2180457
+    "last_published": 1,
+    "last_run_ts": 1788439961.4402082
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788439851.4925213
+      "updated_at": 1788439965.9655247
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1022,6 +1009,13 @@
       "desc": "Meta, Google join the AI launch party The Rundown AI",
       "source": "The Rundown AI",
       "region": "WORLD"
+    },
+    "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee": {
+      "time": 1788439961,
+      "title": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России - Gosrf.ru",
+      "desc": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России Gosrf.ru",
+      "source": "Gosrf.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1029,7 +1023,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1044,8 +1037,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788439424.8644028,
-  "last_publish_ts": 1788439842.1492746
+  "last_publish_ts": 1788439961.4402082
 }
