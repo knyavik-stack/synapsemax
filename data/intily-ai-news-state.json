@@ -139,7 +139,8 @@
     "0c9b50b04b345ad3021857e4a0ab678875a9b3ffc28115711a76881f6a241424": 1788358555,
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715,
     "02d62538c3b5451b073394e1580e3732a20df7cfa7c3537c01de8495d18481a9": 1788414284,
-    "5061897b1e7c0d46b29aac642e35bfed73ee34a6527e9f81ec6c7508430a9996": 1788414943
+    "5061897b1e7c0d46b29aac642e35bfed73ee34a6527e9f81ec6c7508430a9996": 1788414943,
+    "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b": 1788415246
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -183,22 +184,6 @@
       "tier": "S"
     },
     {
-      "region": "RUSSIA",
-      "title": "Дайджест ИИ: Релиз Gemini 3.8 Flash и Flash Cyber от Google, тяжелый физический ИИ Caterpillar, предохранитель агентов от Capsule и готовность к покупкам через ИИ - VC.ru",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZzVDT2tmdkxnTTZTQ2dBQmRjWTdXY2FQZzdVeUdtekJxUnVlZnNjRG1lcFV0bExFQjFkSF95Wm9GcTcxVGVXZlUyaldUWG9SNXhFTFdwcmxPeFd1TE4yUjlCNkllbk5wTVVqbkNFSlFvTnlnR2xMbWdEX0pIeUxQa0tyYVQ5SDZsTzRpRDJXUkFWUW8?oc=5",
-      "desc": "Дайджест ИИ: Релиз Gemini 3.8 Flash и Flash Cyber от Google, тяжелый физический ИИ Caterpillar, предохранитель агентов от Capsule и готовность к покупкам через ИИ VC.ru",
-      "source": "VC.ru",
-      "time": 1788411069.0,
-      "score": 13,
-      "key": "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b",
-      "editorial_value": 17,
-      "topics": [
-        "agents",
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "‘Narrative that frontier AI gives threat actors advantage is flawed’: Daryl Pereira, Google Cloud - financialexpress.com",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVWVReGxBYjdLN0h3bncyOUtKVkstOXV6S09tem9pT3BMZXlLbGt2eW15QmJRdFh5MWRncXhpaG9ybzZQR2tPZmx2WU1qMXlMcTNrWFdpd05mYlh0WHhHZ3phNENSMGQyZkNFX2xJNEtxTWVxQmNrcTVuNU9DenpRZm13dGt4TWNKaVZxa2NQTWVtdDZLMVRRWjhSTDlZT2ViTmxyR3VKRjM4ZjRlbWVQRUE4djUzUlNxeVRtODM3aGFvWW5wM2F0Y0xwbHJkMktuamp1M2tHTTdDR0tydkZobmhiS0RCQdIB7AFBVV95cUxOWFZ4dlhXbDNQRXNnVGZtN0Iya2MtNUlQVkpCUFZCemlnbmlDT0dUQVViOHpoWkRsOHc1ckc2ZXhsMVdpa29zTG9JcXFjTWsxZE9xMFpFT1hsNkFPMUszZ3hUdEpGc0Q5a211Wm1fVGcyUF80VWp5OE81NGxsa21JVklxOW5NdzNpSEpQV0FhUkdkNkgyLU5CcG1oWTRnanRqOVVDREdTOGhtV0NkazE5d0NxdGF1dDd6ZHdtQnRfSnNMSzZXdmRPSGtTREJlN0hrZ2t2ZGVfR1VzUmJTWVk4TnZhNFlKbW10dUx3NA?oc=5",
@@ -214,20 +199,20 @@
       "tier": "A"
     }
   ],
-  "last_run": "2026-09-03T05:55:59.705503+00:00",
+  "last_run": "2026-09-03T06:00:57.528291+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788414943.5554037,
+    "last_start_ts": 1788415246.2323668,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788414943.5554037,
+    "last_success_ts": 1788415246.2323668,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788414959.2083082
+      "updated_at": 1788415256.95541
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -241,13 +226,6 @@
     }
   },
   "stories": {
-    "af19a6e2fd4c38abdca10623ee273bb091b7270d7760d1f0975dde468d818bf1": {
-      "time": 1788328573,
-      "title": "Nvidia Nears $14 Billion Hugging Face Deal This Week - Bloomberg.com",
-      "desc": "Nvidia Nears $14 Billion Hugging Face Deal This Week Bloomberg.com",
-      "source": "Bloomberg.com",
-      "region": "WORLD"
-    },
     "c48fa299d91a0a138b5c8a4d9fa1502a978ae75a7e713128cc299d165d54892d": {
       "time": 1788328876,
       "title": "NVIDIA, CrowdStrike Debut Agentic Cyber Defense - The Tech Buzz",
@@ -548,10 +526,16 @@
       "desc": "Generative AI in Packaging Market to Reach US$7.9 Billion by 2033 at 16.5% CAGR | Persistence Market Research openPR.com",
       "source": "openPR.com",
       "region": "WORLD"
+    },
+    "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b": {
+      "time": 1788415246,
+      "title": "Дайджест ИИ: Релиз Gemini 3.8 Flash и Flash Cyber от Google, тяжелый физический ИИ Caterpillar, предохранитель агентов от Capsule и готовность к покупкам через ИИ - VC.ru",
+      "desc": "Дайджест ИИ: Релиз Gemini 3.8 Flash и Flash Cyber от Google, тяжелый физический ИИ Caterpillar, предохранитель агентов от Capsule и готовность к покупкам через ИИ VC.ru",
+      "source": "VC.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -570,6 +554,7 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ]
 }
