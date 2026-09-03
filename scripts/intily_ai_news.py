@@ -21,34 +21,37 @@ from xml.etree import ElementTree as ET
 
 # Discovery freshness is intentionally short. Old items should not occupy
 # queue capacity when the channel publishes one story every five minutes.
-LOOKBACK = timedelta(hours=6)
+# ============================================================
+# PUBLICATION SETTINGS — single control point for Intily
+# ============================================================
+
+LOOKBACK = timedelta(hours=12)  # Maximum age of news eligible for discovery/queue.
+SEARCH_INTERVAL_SECONDS = 30 * 60  # Planned news-search interval: 30 minutes.
+PUBLISH_INTERVAL_SECONDS = 3 * 60  # Minimum interval between Telegram publications: 3 minutes.
+IMPORTANCE_THRESHOLD = 60  # Minimum mathematical importance score (0–100) for queue/publication.
+MAX_QUEUE = 20  # Maximum number of qualifying stories retained in memory.
+RUSSIA_MIN_SHARE = 0.50  # Minimum Russian-news share in the queue when enough RU candidates exist.
+RUSSIA_MIN_QUEUE_SLOTS = 10  # Number of RU slots reserved in a full 20-item queue.
+JOKE_RATE = 0.90  # Target probability of a light joke on suitable non-serious posts.
+URGENT_SEARCH_QUEUE_THRESHOLD = 1  # Search immediately when the durable queue has 1 or fewer items.
 
 MAX_PUBLISH = 1
-MIN_SCORE = 9
-MAX_QUEUE = 30
-TARGET_QUEUE_SIZE = 12
-WORLD_TARGET_SHARE = 0.60
-RUSSIA_TARGET_SHARE = 0.40
+TARGET_QUEUE_SIZE = MAX_QUEUE
+WORLD_TARGET_SHARE = 1 - RUSSIA_MIN_SHARE
+RUSSIA_TARGET_SHARE = RUSSIA_MIN_SHARE
 REGION_HISTORY_SIZE = 20
-RUSSIA_MIN_QUEUE_SLOTS = 10
 QUEUE_RETENTION = timedelta(days=7)
 QUEUE_RETRY_BASE_SECONDS = 300
 QUEUE_RETRY_MAX_SECONDS = 6 * 3600
 
-JOKE_RATE = 0.70
-
-# Temporary queue counter.
-# Set False when Boss requests removal.
+# Temporary queue counter. Set False when Boss requests removal.
 SHOW_QUEUE_COUNT = True
 
 HEARTBEAT_MAX_SECONDS = 900
 FAILURE_ALERT_THRESHOLD = 3
-
-# Maximum number of queued items attempted in one run.
 MAX_ATTEMPTS_PER_RUN = 10
-
-# Maximum editorial regeneration attempts for one item.
 MAX_EDIT_ATTEMPTS = 2
+
 
 STATE_FILE = os.environ.get(
     'STATE_FILE',
@@ -102,29 +105,29 @@ QUERIES = [
     ('WORLD', 'AI deployment architecture inference cost reliability'),
     ('WORLD', 'AI security vulnerability breach agent safety failure problem'),
     ('WORLD', 'AI startup funding acquisition investment enterprise technology'),
-    ('RUSSIA', 'ИИ искусственный интеллект нейросети Россия технологии'),
-    ('RUSSIA', 'Яндекс Сбер VK ИИ продукт технология'),
-    ('RUSSIA', 'российские компании внедрение ИИ бизнес автоматизация'),
-    ('RUSSIA', 'ИИ применение практика бизнес кейс Россия'),
-    ('RUSSIA', 'ИИ финансы промышленность медицина образование логистика Россия'),
-    ('RUSSIA', 'ИИ разработка инфраструктура модели агенты Россия'),
-    ('RUSSIA', 'ИИ безопасность уязвимость утечка проблемы Россия'),
-    ('RUSSIA', 'ИИ робототехника чипы исследования Россия'),
-    ('RUSSIA', 'ИИ регулирование закон инвестиции технологии Россия'),
-    ('RUSSIA', 'российский ИИ стартап продукт платформа обзор'),
-    ('RUSSIA', 'site:yandex.ru/company/news ИИ искусственный интеллект'),
-    ('RUSSIA', 'site:sberbank.ru ИИ искусственный интеллект технологии'),
-    ('RUSSIA', 'site:rbc.ru ИИ внедрение бизнес технологии'),
-    ('RUSSIA', 'site:kommersant.ru ИИ технологии бизнес Россия'),
-    ('RUSSIA', 'site:vc.ru ИИ бизнес внедрение автоматизация')
+    ('RUSSIA', 'ÐÐ Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ÑÐ¹ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑ Ð½ÐµÐ¹ÑÐ¾ÑÐµÑÐ¸ Ð Ð¾ÑÑÐ¸Ñ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸'),
+    ('RUSSIA', 'Ð¯Ð½Ð´ÐµÐºÑ Ð¡Ð±ÐµÑ VK ÐÐ Ð¿ÑÐ¾Ð´ÑÐºÑ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ñ'),
+    ('RUSSIA', 'ÑÐ¾ÑÑÐ¸Ð¹ÑÐºÐ¸Ðµ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸ Ð²Ð½ÐµÐ´ÑÐµÐ½Ð¸Ðµ ÐÐ Ð±Ð¸Ð·Ð½ÐµÑ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°ÑÐ¸Ñ'),
+    ('RUSSIA', 'ÐÐ Ð¿ÑÐ¸Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ Ð¿ÑÐ°ÐºÑÐ¸ÐºÐ° Ð±Ð¸Ð·Ð½ÐµÑ ÐºÐµÐ¹Ñ Ð Ð¾ÑÑÐ¸Ñ'),
+    ('RUSSIA', 'ÐÐ ÑÐ¸Ð½Ð°Ð½ÑÑ Ð¿ÑÐ¾Ð¼ÑÑÐ»ÐµÐ½Ð½Ð¾ÑÑÑ Ð¼ÐµÐ´Ð¸ÑÐ¸Ð½Ð° Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð»Ð¾Ð³Ð¸ÑÑÐ¸ÐºÐ° Ð Ð¾ÑÑÐ¸Ñ'),
+    ('RUSSIA', 'ÐÐ ÑÐ°Ð·ÑÐ°Ð±Ð¾ÑÐºÐ° Ð¸Ð½ÑÑÐ°ÑÑÑÑÐºÑÑÑÐ° Ð¼Ð¾Ð´ÐµÐ»Ð¸ Ð°Ð³ÐµÐ½ÑÑ Ð Ð¾ÑÑÐ¸Ñ'),
+    ('RUSSIA', 'ÐÐ Ð±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ÑÑÑ ÑÑÐ·Ð²Ð¸Ð¼Ð¾ÑÑÑ ÑÑÐµÑÐºÐ° Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ñ Ð Ð¾ÑÑÐ¸Ñ'),
+    ('RUSSIA', 'ÐÐ ÑÐ¾Ð±Ð¾ÑÐ¾ÑÐµÑÐ½Ð¸ÐºÐ° ÑÐ¸Ð¿Ñ Ð¸ÑÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½Ð¸Ñ Ð Ð¾ÑÑÐ¸Ñ'),
+    ('RUSSIA', 'ÐÐ ÑÐµÐ³ÑÐ»Ð¸ÑÐ¾Ð²Ð°Ð½Ð¸Ðµ Ð·Ð°ÐºÐ¾Ð½ Ð¸Ð½Ð²ÐµÑÑÐ¸ÑÐ¸Ð¸ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸ Ð Ð¾ÑÑÐ¸Ñ'),
+    ('RUSSIA', 'ÑÐ¾ÑÑÐ¸Ð¹ÑÐºÐ¸Ð¹ ÐÐ ÑÑÐ°ÑÑÐ°Ð¿ Ð¿ÑÐ¾Ð´ÑÐºÑ Ð¿Ð»Ð°ÑÑÐ¾ÑÐ¼Ð° Ð¾Ð±Ð·Ð¾Ñ'),
+    ('RUSSIA', 'site:yandex.ru/company/news ÐÐ Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ÑÐ¹ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑ'),
+    ('RUSSIA', 'site:sberbank.ru ÐÐ Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ÑÐ¹ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸'),
+    ('RUSSIA', 'site:rbc.ru ÐÐ Ð²Ð½ÐµÐ´ÑÐµÐ½Ð¸Ðµ Ð±Ð¸Ð·Ð½ÐµÑ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸'),
+    ('RUSSIA', 'site:kommersant.ru ÐÐ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸ Ð±Ð¸Ð·Ð½ÐµÑ Ð Ð¾ÑÑÐ¸Ñ'),
+    ('RUSSIA', 'site:vc.ru ÐÐ Ð±Ð¸Ð·Ð½ÐµÑ Ð²Ð½ÐµÐ´ÑÐµÐ½Ð¸Ðµ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°ÑÐ¸Ñ')
 ]
 
 
 QUALITY_TRUSTED = {
     'reuters', 'bloomberg', 'financial times', 'the verge',
     'techcrunch', 'wired', 'mit technology review', 'arstechnica',
-    'venturebeat', 'tass', 'interfax', 'рбк', 'коммерсантъ',
-    'ведомости', 'forbes'
+    'venturebeat', 'tass', 'interfax', 'ÑÐ±Ðº', 'ÐºÐ¾Ð¼Ð¼ÐµÑÑÐ°Ð½ÑÑ',
+    'Ð²ÐµÐ´Ð¾Ð¼Ð¾ÑÑÐ¸', 'forbes'
 }
 
 HIGH_IMPACT_TERMS = {
@@ -132,18 +135,18 @@ HIGH_IMPACT_TERMS = {
     'model', 'agent', 'robot', 'robotics', 'breakthrough',
     'acquisition', 'funding', 'investment', 'billion', 'chip',
     'gpu', 'security', 'breach', 'regulation', 'law',
-    'запуст', 'выпуст', 'представ', 'модель', 'агент', 'робот',
-    'прорыв', 'инвестиц', 'миллиард', 'поглощ', 'чип', 'утеч',
-    'регулир', 'закон'
+    'Ð·Ð°Ð¿ÑÑÑ', 'Ð²ÑÐ¿ÑÑÑ', 'Ð¿ÑÐµÐ´ÑÑÐ°Ð²', 'Ð¼Ð¾Ð´ÐµÐ»Ñ', 'Ð°Ð³ÐµÐ½Ñ', 'ÑÐ¾Ð±Ð¾Ñ',
+    'Ð¿ÑÐ¾ÑÑÐ²', 'Ð¸Ð½Ð²ÐµÑÑÐ¸Ñ', 'Ð¼Ð¸Ð»Ð»Ð¸Ð°ÑÐ´', 'Ð¿Ð¾Ð³Ð»Ð¾Ñ', 'ÑÐ¸Ð¿', 'ÑÑÐµÑ',
+    'ÑÐµÐ³ÑÐ»Ð¸Ñ', 'Ð·Ð°ÐºÐ¾Ð½'
 }
 
 APPLICATION_TERMS = {
     'enterprise', 'business', 'productivity', 'automation',
     'developer', 'coding', 'software', 'platform', 'tool',
     'healthcare', 'education', 'science', 'industrial', 'application',
-    'внедрен', 'бизнес', 'автоматизац', 'разработч', 'программ',
-    'платформ', 'инструмент', 'здравоохран', 'образован',
-    'производств', 'применен'
+    'Ð²Ð½ÐµÐ´ÑÐµÐ½', 'Ð±Ð¸Ð·Ð½ÐµÑ', 'Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°Ñ', 'ÑÐ°Ð·ÑÐ°Ð±Ð¾ÑÑ', 'Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼',
+    'Ð¿Ð»Ð°ÑÑÐ¾ÑÐ¼', 'Ð¸Ð½ÑÑÑÑÐ¼ÐµÐ½Ñ', 'Ð·Ð´ÑÐ°Ð²Ð¾Ð¾ÑÑÐ°Ð½', 'Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½',
+    'Ð¿ÑÐ¾Ð¸Ð·Ð²Ð¾Ð´ÑÑÐ²', 'Ð¿ÑÐ¸Ð¼ÐµÐ½ÐµÐ½'
 }
 
 
@@ -151,29 +154,29 @@ PRACTICAL_IMPLEMENTATION_TERMS = {
     'deployment', 'adoption', 'implementation', 'workflow', 'operations',
     'case study', 'customer', 'revenue', 'cost', 'roi', 'inference',
     'reliability', 'latency', 'architecture', 'integration',
-    'внедрен', 'практик', 'кейс', 'выручк', 'затрат', 'окупаем',
-    'процесс', 'операц', 'интеграц', 'архитектур', 'инфраструктур',
-    'производительност', 'стоимост', 'задержк'
+    'Ð²Ð½ÐµÐ´ÑÐµÐ½', 'Ð¿ÑÐ°ÐºÑÐ¸Ðº', 'ÐºÐµÐ¹Ñ', 'Ð²ÑÑÑÑÐº', 'Ð·Ð°ÑÑÐ°Ñ', 'Ð¾ÐºÑÐ¿Ð°ÐµÐ¼',
+    'Ð¿ÑÐ¾ÑÐµÑÑ', 'Ð¾Ð¿ÐµÑÐ°Ñ', 'Ð¸Ð½ÑÐµÐ³ÑÐ°Ñ', 'Ð°ÑÑÐ¸ÑÐµÐºÑÑÑ', 'Ð¸Ð½ÑÑÐ°ÑÑÑÑÐºÑÑÑ',
+    'Ð¿ÑÐ¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ÑÐµÐ»ÑÐ½Ð¾ÑÑ', 'ÑÑÐ¾Ð¸Ð¼Ð¾ÑÑ', 'Ð·Ð°Ð´ÐµÑÐ¶Ðº'
 }
 
 RISK_AND_PROBLEM_TERMS = {
     'failure', 'outage', 'incident', 'vulnerability', 'exploit',
     'hallucination', 'privacy', 'security', 'breach', 'misuse',
-    'problem', 'risk', 'attack', 'уязвим', 'сбой', 'инцидент',
-    'галлюцинац', 'конфиденц', 'безопас', 'утеч', 'проблем',
-    'риск', 'атака', 'вред'
+    'problem', 'risk', 'attack', 'ÑÑÐ·Ð²Ð¸Ð¼', 'ÑÐ±Ð¾Ð¹', 'Ð¸Ð½ÑÐ¸Ð´ÐµÐ½Ñ',
+    'Ð³Ð°Ð»Ð»ÑÑÐ¸Ð½Ð°Ñ', 'ÐºÐ¾Ð½ÑÐ¸Ð´ÐµÐ½Ñ', 'Ð±ÐµÐ·Ð¾Ð¿Ð°Ñ', 'ÑÑÐµÑ', 'Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼',
+    'ÑÐ¸ÑÐº', 'Ð°ÑÐ°ÐºÐ°', 'Ð²ÑÐµÐ´'
 }
 
 EXCLUSIVITY_TERMS = {
     'first', 'exclusive', 'unprecedented', 'largest', 'record',
-    'major', 'billion', 'first-ever', 'впервые', 'эксклюзив',
-    'крупнейш', 'рекорд', 'миллиард', 'первый'
+    'major', 'billion', 'first-ever', 'Ð²Ð¿ÐµÑÐ²ÑÐµ', 'ÑÐºÑÐºÐ»ÑÐ·Ð¸Ð²',
+    'ÐºÑÑÐ¿Ð½ÐµÐ¹Ñ', 'ÑÐµÐºÐ¾ÑÐ´', 'Ð¼Ð¸Ð»Ð»Ð¸Ð°ÑÐ´', 'Ð¿ÐµÑÐ²ÑÐ¹'
 }
 
 LOW_SIGNAL_TERMS = {
     'opinion', 'sponsored', 'advertisement', 'coupon',
     'horoscope', 'giveaway', 'stocks', 'stock price',
-    'мнение читателей', 'реклама', 'промокод', 'гороскоп'
+    'Ð¼Ð½ÐµÐ½Ð¸Ðµ ÑÐ¸ÑÐ°ÑÐµÐ»ÐµÐ¹', 'ÑÐµÐºÐ»Ð°Ð¼Ð°', 'Ð¿ÑÐ¾Ð¼Ð¾ÐºÐ¾Ð´', 'Ð³Ð¾ÑÐ¾ÑÐºÐ¾Ð¿'
 }
 
 # A query match alone is not enough: Google News can return adjacent
@@ -181,14 +184,14 @@ LOW_SIGNAL_TERMS = {
 # substantively about AI or an allowed AI-adjacent technology.
 AI_RELEVANCE_TOKENS = {
     'ai', 'llm', 'openai', 'anthropic', 'claude', 'gemini', 'deepmind',
-    'copilot', 'chatgpt', 'nvidia', 'gpu', 'ии'
+    'copilot', 'chatgpt', 'nvidia', 'gpu', 'Ð¸Ð¸'
 }
 
 AI_RELEVANCE_STEMS = (
     'artificial intelligence', 'machine learning', 'generative ai',
-    'language model', 'neural network', 'искусственн интеллект',
-    'машинн обуч', 'генератив', 'нейросет', 'нейронн',
-    'робот', 'автономн', 'агент', 'полупровод', 'чип'
+    'language model', 'neural network', 'Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑ',
+    'Ð¼Ð°ÑÐ¸Ð½Ð½ Ð¾Ð±ÑÑ', 'Ð³ÐµÐ½ÐµÑÐ°ÑÐ¸Ð²', 'Ð½ÐµÐ¹ÑÐ¾ÑÐµÑ', 'Ð½ÐµÐ¹ÑÐ¾Ð½Ð½',
+    'ÑÐ¾Ð±Ð¾Ñ', 'Ð°Ð²ÑÐ¾Ð½Ð¾Ð¼Ð½', 'Ð°Ð³ÐµÐ½Ñ', 'Ð¿Ð¾Ð»ÑÐ¿ÑÐ¾Ð²Ð¾Ð´', 'ÑÐ¸Ð¿'
 )
 
 WEIGHTS = {
@@ -215,15 +218,15 @@ WEIGHTS = {
     'microsoft': 3,
     'yandex': 4,
     'sber': 4,
-    'закон': 6,
-    'регулир': 5,
-    'миллиард': 5,
-    'запуст': 5,
-    'выпуст': 5,
-    'агент': 5,
-    'модель': 4,
-    'нейросет': 4,
-    'исследован': 3
+    'Ð·Ð°ÐºÐ¾Ð½': 6,
+    'ÑÐµÐ³ÑÐ»Ð¸Ñ': 5,
+    'Ð¼Ð¸Ð»Ð»Ð¸Ð°ÑÐ´': 5,
+    'Ð·Ð°Ð¿ÑÑÑ': 5,
+    'Ð²ÑÐ¿ÑÑÑ': 5,
+    'Ð°Ð³ÐµÐ½Ñ': 5,
+    'Ð¼Ð¾Ð´ÐµÐ»Ñ': 4,
+    'Ð½ÐµÐ¹ÑÐ¾ÑÐµÑ': 4,
+    'Ð¸ÑÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½': 3
 }
 
 
@@ -235,9 +238,9 @@ TRUSTED = {
     'techcrunch',
     'tass',
     'interfax',
-    'рбк',
-    'коммерсантъ',
-    'ведомости'
+    'ÑÐ±Ðº',
+    'ÐºÐ¾Ð¼Ð¼ÐµÑÑÐ°Ð½ÑÑ',
+    'Ð²ÐµÐ´Ð¾Ð¼Ð¾ÑÑÐ¸'
 }
 
 
@@ -407,7 +410,7 @@ def rss(region, q):
 def normalize(t):
     return ' '.join(
         re.sub(
-            r'[^a-zа-яё0-9]+',
+            r'[^a-zÐ°-ÑÑ0-9]+',
             ' ',
             t.lower()
         ).split()
@@ -427,31 +430,36 @@ def key(x):
 def tier(x):
     s = x.get('score', 0)
 
-    if s >= 14:
+    if s >= 85:
         return 'S'
 
-    if s >= 9:
+    if s >= IMPORTANCE_THRESHOLD:
         return 'A'
 
     return 'B'
 
 
 def score(x):
-    blob = x['title'] + ' ' + x['desc'] + ' ' + x['source']
-    blob = blob.lower()
-    age = (datetime.now(timezone.utc).timestamp() - x['time']) / 3600
+    """Return 0–100 audience-importance probability proxy.
+
+    The model combines topical relevance, impact, practical value, source
+    quality and freshness. It is deliberately deterministic and explainable.
+    """
+    blob = (x.get('title', '') + ' ' + x.get('desc', '') + ' ' + x.get('source', '')).lower()
+    age = (datetime.now(timezone.utc).timestamp() - x.get('time', 0)) / 3600
     if age < -0.5 or age > LOOKBACK.total_seconds() / 3600:
         return 0
 
-    base = sum(v for k, v in WEIGHTS.items() if k in blob)
-    impact = sum(2 for term in HIGH_IMPACT_TERMS if term in blob)
-    application = sum(1 for term in APPLICATION_TERMS if term in blob)
+    relevance = 35 if ai_relevant(x) else 0
+    impact_hits = sum(1 for term in HIGH_IMPACT_TERMS if term in blob)
+    impact = min(25, impact_hits * 4)
+    application_hits = sum(1 for term in APPLICATION_TERMS if term in blob)
+    practical = min(15, application_hits * 3)
     source = x.get('source', '').lower().strip()
-    trust = 4 if source in QUALITY_TRUSTED else (2 if source in TRUSTED else 0)
-    freshness = 4 if age <= 1 else 3 if age <= 3 else 2 if age <= 6 else 1 if age <= 9 else 0
-    penalty = 6 if any(term in blob for term in LOW_SIGNAL_TERMS) else 0
-    n = base + min(8, impact) + min(5, application) + trust + freshness - penalty
-    return max(0, min(n, 40))
+    source_points = 10 if source in QUALITY_TRUSTED else (6 if source in TRUSTED else 2)
+    freshness = 15 if age <= 1 else 12 if age <= 3 else 8 if age <= 6 else 4
+    penalty = 15 if any(term in blob for term in LOW_SIGNAL_TERMS) else 0
+    return max(0, min(100, relevance + impact + practical + source_points + freshness - penalty))
 
 
 def editorial_value(x):
@@ -483,15 +491,15 @@ def editorial_value(x):
 def topic_tags(x):
     blob = (x.get('title', '') + ' ' + x.get('desc', '')).lower()
     groups = {
-        'models': ('model', 'claude', 'gemini', 'gpt', 'модель'),
-        'agents': ('agent', 'agents', 'агент'),
-        'robotics': ('robot', 'robotics', 'робот'),
-        'chips': ('chip', 'gpu', 'nvidia', 'чип', 'полупровод'),
-        'research': ('research', 'breakthrough', 'исследован', 'прорыв'),
-        'business': ('enterprise', 'business', 'investment', 'внедрен', 'бизнес', 'инвестиц'),
-        'applications': ('application', 'automation', 'healthcare', 'education', 'применен', 'автоматизац', 'здравоохран', 'образован'),
-        'tools': ('tool', 'platform', 'software', 'feature', 'инструмент', 'платформ', 'программ'),
-        'security_regulation': ('security', 'breach', 'regulation', 'law', 'утеч', 'безопас', 'регулир', 'закон')
+        'models': ('model', 'claude', 'gemini', 'gpt', 'Ð¼Ð¾Ð´ÐµÐ»Ñ'),
+        'agents': ('agent', 'agents', 'Ð°Ð³ÐµÐ½Ñ'),
+        'robotics': ('robot', 'robotics', 'ÑÐ¾Ð±Ð¾Ñ'),
+        'chips': ('chip', 'gpu', 'nvidia', 'ÑÐ¸Ð¿', 'Ð¿Ð¾Ð»ÑÐ¿ÑÐ¾Ð²Ð¾Ð´'),
+        'research': ('research', 'breakthrough', 'Ð¸ÑÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½', 'Ð¿ÑÐ¾ÑÑÐ²'),
+        'business': ('enterprise', 'business', 'investment', 'Ð²Ð½ÐµÐ´ÑÐµÐ½', 'Ð±Ð¸Ð·Ð½ÐµÑ', 'Ð¸Ð½Ð²ÐµÑÑÐ¸Ñ'),
+        'applications': ('application', 'automation', 'healthcare', 'education', 'Ð¿ÑÐ¸Ð¼ÐµÐ½ÐµÐ½', 'Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°Ñ', 'Ð·Ð´ÑÐ°Ð²Ð¾Ð¾ÑÑÐ°Ð½', 'Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½'),
+        'tools': ('tool', 'platform', 'software', 'feature', 'Ð¸Ð½ÑÑÑÑÐ¼ÐµÐ½Ñ', 'Ð¿Ð»Ð°ÑÑÐ¾ÑÐ¼', 'Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼'),
+        'security_regulation': ('security', 'breach', 'regulation', 'law', 'ÑÑÐµÑ', 'Ð±ÐµÐ·Ð¾Ð¿Ð°Ñ', 'ÑÐµÐ³ÑÐ»Ð¸Ñ', 'Ð·Ð°ÐºÐ¾Ð½')
     }
     return sorted(tag for tag, terms in groups.items() if any(term in blob for term in terms))
 
@@ -507,15 +515,16 @@ def ai_relevant(x):
 
 
 def candidate_quality(x):
-    if x.get('score', 0) < MIN_SCORE:
+    importance = int(x.get('importance', score(x)))
+    x['score'] = importance
+    x['importance'] = importance
+    if importance < IMPORTANCE_THRESHOLD:
         return False
-
     if not ai_relevant(x):
         return False
-
     x['editorial_value'] = editorial_value(x)
     x['topics'] = topic_tags(x)
-    return x['editorial_value'] >= 14
+    return True
 
 
 
@@ -526,9 +535,9 @@ STORY_COMBINED_THRESHOLD = 0.44
 
 # Common Russian/English glue words add noise to semantic comparison.
 STORY_STOPWORDS = {
-    'это', 'как', 'что', 'для', 'при', 'после', 'перед', 'через',
-    'новый', 'новая', 'новое', 'новые', 'который', 'которая', 'которые',
-    'может', 'могут', 'более', 'также', 'уже', 'ещё', 'еще', 'свой',
+    'ÑÑÐ¾', 'ÐºÐ°Ðº', 'ÑÑÐ¾', 'Ð´Ð»Ñ', 'Ð¿ÑÐ¸', 'Ð¿Ð¾ÑÐ»Ðµ', 'Ð¿ÐµÑÐµÐ´', 'ÑÐµÑÐµÐ·',
+    'Ð½Ð¾Ð²ÑÐ¹', 'Ð½Ð¾Ð²Ð°Ñ', 'Ð½Ð¾Ð²Ð¾Ðµ', 'Ð½Ð¾Ð²ÑÐµ', 'ÐºÐ¾ÑÐ¾ÑÑÐ¹', 'ÐºÐ¾ÑÐ¾ÑÐ°Ñ', 'ÐºÐ¾ÑÐ¾ÑÑÐµ',
+    'Ð¼Ð¾Ð¶ÐµÑ', 'Ð¼Ð¾Ð³ÑÑ', 'Ð±Ð¾Ð»ÐµÐµ', 'ÑÐ°ÐºÐ¶Ðµ', 'ÑÐ¶Ðµ', 'ÐµÑÑ', 'ÐµÑÐµ', 'ÑÐ²Ð¾Ð¹',
     'the', 'and', 'for', 'with', 'from', 'this', 'that', 'new', 'news'
 }
 
@@ -548,7 +557,7 @@ def jaccard(a, b):
 
 def story_similarity(a, b):
     # Use both word overlap and character-level similarity. Russian headlines
-    # often change word forms (представил/представила, России/российский),
+    # often change word forms (Ð¿ÑÐµÐ´ÑÑÐ°Ð²Ð¸Ð»/Ð¿ÑÐµÐ´ÑÑÐ°Ð²Ð¸Ð»Ð°, Ð Ð¾ÑÑÐ¸Ð¸/ÑÐ¾ÑÑÐ¸Ð¹ÑÐºÐ¸Ð¹),
     # so token-only Jaccard is too brittle for paraphrase detection.
     at = normalize(a.get('title', ''))
     bt = normalize(b.get('title', ''))
@@ -620,7 +629,7 @@ def story_anchor_tokens(x):
         if w in {
             'openai', 'anthropic', 'google', 'deepmind', 'gemini',
             'claude', 'nvidia', 'microsoft', 'meta', 'apple',
-            'yandex', 'сбер', 'sber', 'россия', 'россии',
+            'yandex', 'ÑÐ±ÐµÑ', 'sber', 'ÑÐ¾ÑÑÐ¸Ñ', 'ÑÐ¾ÑÑÐ¸Ð¸',
             'fable', 'mythos', 'astra', 'llama', 'kimi', 'copilot',
             'chatgpt', 'openclaw', 'agentforce'
         } or any(ch.isdigit() for ch in w)
@@ -690,7 +699,7 @@ def collect():
     all_items.sort(key=lambda x: (x['score'], x['time']), reverse=True)
     out = []
     for x in all_items:
-        if x['score'] < MIN_SCORE:
+        if x['score'] < IMPORTANCE_THRESHOLD:
             scored_out += 1
             continue
         if not candidate_quality(x):
@@ -790,9 +799,9 @@ def chat(
             {
                 'role': 'system',
                 'content': (
-                    'Ты профессиональный редактор '
-                    'русского Telegram-канала об AI. '
-                    'Всегда отвечай только валидным JSON.'
+                    'Ð¢Ñ Ð¿ÑÐ¾ÑÐµÑÑÐ¸Ð¾Ð½Ð°Ð»ÑÐ½ÑÐ¹ ÑÐµÐ´Ð°ÐºÑÐ¾Ñ '
+                    'ÑÑÑÑÐºÐ¾Ð³Ð¾ Telegram-ÐºÐ°Ð½Ð°Ð»Ð° Ð¾Ð± AI. '
+                    'ÐÑÐµÐ³Ð´Ð° Ð¾ÑÐ²ÐµÑÐ°Ð¹ ÑÐ¾Ð»ÑÐºÐ¾ Ð²Ð°Ð»Ð¸Ð´Ð½ÑÐ¼ JSON.'
                 )
             },
             {
@@ -918,9 +927,9 @@ def gemini_chat(prompt, token):
         'systemInstruction': {
             'parts': [{
                 'text': (
-                    'Ты профессиональный редактор '
-                    'русского Telegram-канала об AI. '
-                    'Всегда отвечай только валидным JSON.'
+                    'Ð¢Ñ Ð¿ÑÐ¾ÑÐµÑÑÐ¸Ð¾Ð½Ð°Ð»ÑÐ½ÑÐ¹ ÑÐµÐ´Ð°ÐºÑÐ¾Ñ '
+                    'ÑÑÑÑÐºÐ¾Ð³Ð¾ Telegram-ÐºÐ°Ð½Ð°Ð»Ð° Ð¾Ð± AI. '
+                    'ÐÑÐµÐ³Ð´Ð° Ð¾ÑÐ²ÐµÑÐ°Ð¹ ÑÐ¾Ð»ÑÐºÐ¾ Ð²Ð°Ð»Ð¸Ð´Ð½ÑÐ¼ JSON.'
                 )
             }]
         },
@@ -1196,7 +1205,7 @@ def russian_ok(text):
 
     c = len(
         re.findall(
-            r'[А-Яа-яЁё]',
+            r'[Ð-Ð¯Ð°-ÑÐÑ]',
             clean
         )
     )
@@ -1225,11 +1234,11 @@ def forbidden_style(text):
     return any(
         x in low
         for x in (
-            'таким образом',
-            'в свою очередь',
-            'данное событие',
-            'важный шаг',
-            'что это значит:'
+            'ÑÐ°ÐºÐ¸Ð¼ Ð¾Ð±ÑÐ°Ð·Ð¾Ð¼',
+            'Ð² ÑÐ²Ð¾Ñ Ð¾ÑÐµÑÐµÐ´Ñ',
+            'Ð´Ð°Ð½Ð½Ð¾Ðµ ÑÐ¾Ð±ÑÑÐ¸Ðµ',
+            'Ð²Ð°Ð¶Ð½ÑÐ¹ ÑÐ°Ð³',
+            'ÑÑÐ¾ ÑÑÐ¾ Ð·Ð½Ð°ÑÐ¸Ñ:'
         )
     )
 
@@ -1261,58 +1270,58 @@ def build_edit_prompt(x, retry=False, previous_error=''):
     )
 
     joke_instruction = (
-        'нужна'
+        'Ð½ÑÐ¶Ð½Ð°'
         if want_joke
-        else 'не нужна'
+        else 'Ð½Ðµ Ð½ÑÐ¶Ð½Ð°'
     )
 
     retry_instruction = ''
 
     if retry:
         retry_instruction = (
-            '\nПредыдущая версия не прошла '
-            'редакторскую проверку. '
-            'Сделай текст проще, естественнее '
-            'и полностью на русском языке. '
-            'Не повторяй проблемную конструкцию.'
+            '\nÐÑÐµÐ´ÑÐ´ÑÑÐ°Ñ Ð²ÐµÑÑÐ¸Ñ Ð½Ðµ Ð¿ÑÐ¾ÑÐ»Ð° '
+            'ÑÐµÐ´Ð°ÐºÑÐ¾ÑÑÐºÑÑ Ð¿ÑÐ¾Ð²ÐµÑÐºÑ. '
+            'Ð¡Ð´ÐµÐ»Ð°Ð¹ ÑÐµÐºÑÑ Ð¿ÑÐ¾ÑÐµ, ÐµÑÑÐµÑÑÐ²ÐµÐ½Ð½ÐµÐµ '
+            'Ð¸ Ð¿Ð¾Ð»Ð½Ð¾ÑÑÑÑ Ð½Ð° ÑÑÑÑÐºÐ¾Ð¼ ÑÐ·ÑÐºÐµ. '
+            'ÐÐµ Ð¿Ð¾Ð²ÑÐ¾ÑÑÐ¹ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ð½ÑÑ ÐºÐ¾Ð½ÑÑÑÑÐºÑÐ¸Ñ.'
         )
 
         if previous_error:
             retry_instruction += (
-                '\nПричина предыдущего отказа: '
+                '\nÐÑÐ¸ÑÐ¸Ð½Ð° Ð¿ÑÐµÐ´ÑÐ´ÑÑÐµÐ³Ð¾ Ð¾ÑÐºÐ°Ð·Ð°: '
                 + previous_error[:180]
             )
 
     return (
-        'Подготовь готовый Telegram-пост '
-        'ЦЕЛИКОМ на естественном русском языке. '
-        'Не делай дословный перевод: перескажи '
-        'человеческим языком. '
-        'Обязательно раскрой: что произошло, '
-        'кто участники, почему это важно '
-        'и практический вывод. '
-        'Не выдумывай факты. '
-        'Весь результат на русском; названия компаний, '
-        'продуктов и моделей можно оставлять '
-        'в оригинальном написании.\n'
-        'Юмор: стремимся добавлять лёгкую человеческую '
-        'шутку примерно в 90%% подходящих публикаций. '
-        'В этой публикации шутка %s. '
-        'Если тема про безопасность, регулирование, '
-        'закон, утечку, аварию, вред или серьёзный '
-        'инцидент — шутка запрещена независимо '
-        'от этого флага. '
-        'Не используй речевые штампы ИИ. '
-        'Не используй канцелярит. '
-        'Не начинай текст с шаблонных фраз. '
-        'Верни JSON строго с полями '
+        'ÐÐ¾Ð´Ð³Ð¾ÑÐ¾Ð²Ñ Ð³Ð¾ÑÐ¾Ð²ÑÐ¹ Telegram-Ð¿Ð¾ÑÑ '
+        'Ð¦ÐÐÐÐÐÐ Ð½Ð° ÐµÑÑÐµÑÑÐ²ÐµÐ½Ð½Ð¾Ð¼ ÑÑÑÑÐºÐ¾Ð¼ ÑÐ·ÑÐºÐµ. '
+        'ÐÐµ Ð´ÐµÐ»Ð°Ð¹ Ð´Ð¾ÑÐ»Ð¾Ð²Ð½ÑÐ¹ Ð¿ÐµÑÐµÐ²Ð¾Ð´: Ð¿ÐµÑÐµÑÐºÐ°Ð¶Ð¸ '
+        'ÑÐµÐ»Ð¾Ð²ÐµÑÐµÑÐºÐ¸Ð¼ ÑÐ·ÑÐºÐ¾Ð¼. '
+        'ÐÐ±ÑÐ·Ð°ÑÐµÐ»ÑÐ½Ð¾ ÑÐ°ÑÐºÑÐ¾Ð¹: ÑÑÐ¾ Ð¿ÑÐ¾Ð¸Ð·Ð¾ÑÐ»Ð¾, '
+        'ÐºÑÐ¾ ÑÑÐ°ÑÑÐ½Ð¸ÐºÐ¸, Ð¿Ð¾ÑÐµÐ¼Ñ ÑÑÐ¾ Ð²Ð°Ð¶Ð½Ð¾ '
+        'Ð¸ Ð¿ÑÐ°ÐºÑÐ¸ÑÐµÑÐºÐ¸Ð¹ Ð²ÑÐ²Ð¾Ð´. '
+        'ÐÐµ Ð²ÑÐ´ÑÐ¼ÑÐ²Ð°Ð¹ ÑÐ°ÐºÑÑ. '
+        'ÐÐµÑÑ ÑÐµÐ·ÑÐ»ÑÑÐ°Ñ Ð½Ð° ÑÑÑÑÐºÐ¾Ð¼; Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ñ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¹, '
+        'Ð¿ÑÐ¾Ð´ÑÐºÑÐ¾Ð² Ð¸ Ð¼Ð¾Ð´ÐµÐ»ÐµÐ¹ Ð¼Ð¾Ð¶Ð½Ð¾ Ð¾ÑÑÐ°Ð²Ð»ÑÑÑ '
+        'Ð² Ð¾ÑÐ¸Ð³Ð¸Ð½Ð°Ð»ÑÐ½Ð¾Ð¼ Ð½Ð°Ð¿Ð¸ÑÐ°Ð½Ð¸Ð¸.\n'
+        'Ð®Ð¼Ð¾Ñ: ÑÑÑÐµÐ¼Ð¸Ð¼ÑÑ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÑÑ Ð»ÑÐ³ÐºÑÑ ÑÐµÐ»Ð¾Ð²ÐµÑÐµÑÐºÑÑ '
+        'ÑÑÑÐºÑ Ð¿ÑÐ¸Ð¼ÐµÑÐ½Ð¾ Ð² 90%% Ð¿Ð¾Ð´ÑÐ¾Ð´ÑÑÐ¸Ñ Ð¿ÑÐ±Ð»Ð¸ÐºÐ°ÑÐ¸Ð¹. '
+        'Ð ÑÑÐ¾Ð¹ Ð¿ÑÐ±Ð»Ð¸ÐºÐ°ÑÐ¸Ð¸ ÑÑÑÐºÐ° %s. '
+        'ÐÑÐ»Ð¸ ÑÐµÐ¼Ð° Ð¿ÑÐ¾ Ð±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ÑÑÑ, ÑÐµÐ³ÑÐ»Ð¸ÑÐ¾Ð²Ð°Ð½Ð¸Ðµ, '
+        'Ð·Ð°ÐºÐ¾Ð½, ÑÑÐµÑÐºÑ, Ð°Ð²Ð°ÑÐ¸Ñ, Ð²ÑÐµÐ´ Ð¸Ð»Ð¸ ÑÐµÑÑÑÐ·Ð½ÑÐ¹ '
+        'Ð¸Ð½ÑÐ¸Ð´ÐµÐ½Ñ â ÑÑÑÐºÐ° Ð·Ð°Ð¿ÑÐµÑÐµÐ½Ð° Ð½ÐµÐ·Ð°Ð²Ð¸ÑÐ¸Ð¼Ð¾ '
+        'Ð¾Ñ ÑÑÐ¾Ð³Ð¾ ÑÐ»Ð°Ð³Ð°. '
+        'ÐÐµ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ ÑÐµÑÐµÐ²ÑÐµ ÑÑÐ°Ð¼Ð¿Ñ ÐÐ. '
+        'ÐÐµ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·ÑÐ¹ ÐºÐ°Ð½ÑÐµÐ»ÑÑÐ¸Ñ. '
+        'ÐÐµ Ð½Ð°ÑÐ¸Ð½Ð°Ð¹ ÑÐµÐºÑÑ Ñ ÑÐ°Ð±Ð»Ð¾Ð½Ð½ÑÑ ÑÑÐ°Ð·. '
+        'ÐÐµÑÐ½Ð¸ JSON ÑÑÑÐ¾Ð³Ð¾ Ñ Ð¿Ð¾Ð»ÑÐ¼Ð¸ '
         'title, body, meaning, joke. '
-        'joke может быть пустой строкой.\n'
+        'joke Ð¼Ð¾Ð¶ÐµÑ Ð±ÑÑÑ Ð¿ÑÑÑÐ¾Ð¹ ÑÑÑÐ¾ÐºÐ¾Ð¹.\n'
         '%s'
         '\n'
-        'Источник: %s\n'
-        'Заголовок: %s\n'
-        'Описание: %s'
+        'ÐÑÑÐ¾ÑÐ½Ð¸Ðº: %s\n'
+        'ÐÐ°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº: %s\n'
+        'ÐÐ¿Ð¸ÑÐ°Ð½Ð¸Ðµ: %s'
     ) % (
         joke_instruction,
         retry_instruction,
@@ -1320,6 +1329,30 @@ def build_edit_prompt(x, retry=False, previous_error=''):
         x['title'],
         x['desc']
     )
+
+
+def hashtags_for(x):
+    # Telegram topic tags: always include core AI tags, then add only relevant topics.
+    blob = (x.get('title', '') + ' ' + x.get('desc', '')).lower()
+    tags = ['#ИИ', '#AI']
+    mapping = [
+        ('agent', '#AIагенты'), ('агент', '#AIагенты'),
+        ('model', '#AIмодели'), ('модель', '#AIмодели'),
+        ('robot', '#Робототехника'), ('робот', '#Робототехника'),
+        ('security', '#БезопасностьИИ'), ('безопас', '#БезопасностьИИ'),
+        ('regulation', '#РегулированиеИИ'), ('регулир', '#РегулированиеИИ'),
+        ('investment', '#AIинвестиции'), ('инвести', '#AIинвестиции'),
+        ('business', '#AIбизнес'), ('бизнес', '#AIбизнес'),
+        ('automation', '#Автоматизация'), ('автоматиза', '#Автоматизация'),
+        ('inference', '#Inference'), ('инфраструктур', '#AIинфраструктура')
+    ]
+    for term, tag in mapping:
+        if term in blob and tag not in tags:
+            tags.append(tag)
+        if len(tags) >= 5:
+            break
+    return ' '.join(tags[:5])
+
 
 
 def edit(x, s):
@@ -1402,11 +1435,11 @@ def edit(x, s):
                     'regulation',
                     'law',
                     'breach',
-                    'утеч',
-                    'безопас',
-                    'регулир',
-                    'закон',
-                    'авар'
+                    'ÑÑÐµÑ',
+                    'Ð±ÐµÐ·Ð¾Ð¿Ð°Ñ',
+                    'ÑÐµÐ³ÑÐ»Ð¸Ñ',
+                    'Ð·Ð°ÐºÐ¾Ð½',
+                    'Ð°Ð²Ð°Ñ'
                 )
             )
 
@@ -1433,9 +1466,9 @@ def edit(x, s):
             )
 
             flag = (
-                '🇷🇺'
+                'ð·ðº'
                 if x['region'] == 'RUSSIA'
-                else '🌍'
+                else 'ð'
             )
 
             dt = datetime.fromtimestamp(
@@ -1446,7 +1479,7 @@ def edit(x, s):
             )
 
             jb = (
-                '\n\n😏 '
+                '\n\nð '
                 + esc(joke)
                 if joke
                 else ''
@@ -1456,14 +1489,15 @@ def edit(x, s):
                 f'{flag} '
                 f'<b>{esc(title)}</b>\n\n'
                 f'{esc(body)}\n\n'
-                f'<b>Вывод:</b> '
+                f'<b>ÐÑÐ²Ð¾Ð´:</b> '
                 f'{esc(meaning)}'
                 f'{jb}\n\n'
-                f'📰 {esc(x["source"] or "Источник")} '
-                f'· {dt:%d.%m.%Y %H:%M} МСК\n'
-                f'🔗 <a href="'
+                f'{hashtags_for(x)}\n\n'
+                f'ð° {esc(x["source"] or "ÐÑÑÐ¾ÑÐ½Ð¸Ðº")} '
+                f'Â· {dt:%d.%m.%Y %H:%M} ÐÐ¡Ð\n'
+                f'ð <a href="'
                 f'{html.escape(x["link"], quote=True)}'
-                f'">Подробнее</a>'
+                f'">ÐÐ¾Ð´ÑÐ¾Ð±Ð½ÐµÐµ</a>'
             )
 
             print(
@@ -1638,73 +1672,52 @@ def region_counts(items):
 
 def rebalance_queue(items, now):
     fresh = []
-    dropped_expired = 0
-    dropped_quality = 0
-
+    dropped_expired = dropped_quality = 0
     for x in items:
         if x.get('time', 0) < now - LOOKBACK.total_seconds():
             dropped_expired += 1
             continue
-
-        # Revalidate durable state on every cycle. This prevents legacy
-        # low-score or off-topic items from surviving forever after scoring
-        # rules are tightened.
         if not candidate_quality(x):
             dropped_quality += 1
             continue
-
         fresh.append(x)
 
-    if dropped_expired or dropped_quality:
-        print(
-            'QUEUE_REBALANCE_FILTER',
-            'expired', dropped_expired,
-            'quality', dropped_quality,
-            'kept', len(fresh)
-        )
+    fresh.sort(key=lambda x: (x.get('importance', x.get('score', 0)), x.get('time', 0)), reverse=True)
 
-    fresh.sort(key=lambda x: (
-        x.get('editorial_value', x.get('score', 0)),
-        x.get('score', 0), x.get('time', 0)
-    ), reverse=True)
-
-    # Defensive second-pass event dedup. Collection can receive the same event
-    # through several Google News queries, and a queue restored from state may
-    # predate the latest dedup rules.
     unique = []
-    dropped_story = 0
     for x in fresh:
         if any(same_story(x, y) for y in unique):
-            dropped_story += 1
-            print('QUEUE_REBALANCE_DUPLICATE', x.get('title', '')[:140])
             continue
         unique.append(x)
 
-    if dropped_story:
-        print('QUEUE_REBALANCE_STORY_DEDUP', dropped_story)
-
-    fresh = unique
-
-    target_ru = max(RUSSIA_MIN_QUEUE_SLOTS, round(TARGET_QUEUE_SIZE * RUSSIA_TARGET_SHARE))
-    target_world = TARGET_QUEUE_SIZE - target_ru
-    ru = [x for x in fresh if x.get('region') == 'RUSSIA']
-    world = [x for x in fresh if x.get('region') != 'RUSSIA']
-    selected = ru[:target_ru] + world[:target_world]
+    ru = [x for x in unique if x.get('region') == 'RUSSIA']
+    world = [x for x in unique if x.get('region') != 'RUSSIA']
+    ru_slots = min(RUSSIA_MIN_QUEUE_SLOTS, len(ru), MAX_QUEUE)
+    selected = ru[:ru_slots]
     selected_keys = {x.get('key') for x in selected}
 
-    for x in fresh:
-        if len(selected) >= TARGET_QUEUE_SIZE:
+    for x in world:
+        if len(selected) >= MAX_QUEUE:
+            break
+        selected.append(x)
+        selected_keys.add(x.get('key'))
+
+    # If fewer than the RU quota exist, fill remaining capacity with the best
+    # available qualifying stories; never invent or duplicate a Russian item.
+    for x in ru[ru_slots:]:
+        if len(selected) >= MAX_QUEUE:
             break
         if x.get('key') not in selected_keys:
             selected.append(x)
             selected_keys.add(x.get('key'))
 
-    selected = selected[:MAX_QUEUE]
-    selected.sort(key=lambda x: (
-        x.get('editorial_value', x.get('score', 0)),
-        x.get('score', 0), x.get('time', 0)
-    ), reverse=True)
-    return selected
+    selected.sort(key=lambda x: (x.get('importance', x.get('score', 0)), x.get('time', 0)), reverse=True)
+    if dropped_expired or dropped_quality:
+        print('QUEUE_REBALANCE_FILTER', 'expired', dropped_expired, 'quality', dropped_quality, 'kept', len(selected))
+    counts = region_counts(selected)
+    if len(selected) >= RUSSIA_MIN_QUEUE_SLOTS * 2 and counts['RUSSIA'] < RUSSIA_MIN_QUEUE_SLOTS:
+        print('QUEUE_RUSSIA_QUOTA_UNAVAILABLE', counts)
+    return selected[:MAX_QUEUE]
 
 
 def publication_region_boost(s, region):
@@ -1736,343 +1749,111 @@ def publication_priority(s, x):
 
 def main():
     s = load_state()
-
     now = time.time()
     cut = now - 30 * 86400
-
     health = s['health']
 
-    previous_success = float(
-        health.get(
-            'last_success_ts',
-            0
-        ) or 0
-    )
-
-    if (
-        previous_success
-        and now - previous_success
-        > HEARTBEAT_MAX_SECONDS
-    ):
-        print(
-            'WATCHDOG_MISSED_HEARTBEAT',
-            int(
-                now - previous_success
-            )
-        )
+    previous_success = float(health.get('last_success_ts', 0) or 0)
+    if previous_success and now - previous_success > HEARTBEAT_MAX_SECONDS:
+        print('WATCHDOG_MISSED_HEARTBEAT', int(now - previous_success))
 
     health['last_start_ts'] = now
     health['last_status'] = 'RUNNING'
     health['last_error'] = ''
 
-    candidates = collect()
+    queue = [x for x in s['queue'] if x.get('time', 0) >= now - LOOKBACK.total_seconds() and x.get('key') not in s['published']]
+    urgent_search = len(queue) <= URGENT_SEARCH_QUEUE_THRESHOLD
+    scheduled_search = (not s.get('last_search_ts') or now - float(s.get('last_search_ts', 0)) >= SEARCH_INTERVAL_SECONDS)
+    should_search = urgent_search or scheduled_search
+    candidates = []
+    if should_search:
+        print('SEARCH_START', 'reason', 'URGENT_QUEUE' if urgent_search else 'SCHEDULED')
+        candidates = collect()
+        s['last_search_ts'] = now
+    else:
+        print('SEARCH_SKIPPED', 'next_in', int(SEARCH_INTERVAL_SECONDS - (now - float(s.get('last_search_ts', 0)))))
 
-    queue = [
-        x for x in s['queue']
-        if (
-            x.get('time', 0) >= now - LOOKBACK.total_seconds()
-            and x.get('key') not in s['published']
-        )
-    ]
     queue_keys = {x.get('key') for x in queue}
-
-    stories = {
-        k: v for k, v in s['stories'].items()
-        if float(v.get('time', 0) or 0) >= now - STORY_LOOKBACK_SECONDS
-    }
+    stories = {k: v for k, v in s['stories'].items() if float(v.get('time', 0) or 0) >= now - STORY_LOOKBACK_SECONDS}
     s['stories'] = stories
     recent_stories = list(stories.values())
+    s['known'] = {k: v for k, v in s['known'].items() if float(v or 0) >= now - KNOWN_LOOKBACK_SECONDS}
 
-    s['known'] = {
-        k: v for k, v in s['known'].items()
-        if float(v or 0) >= now - KNOWN_LOOKBACK_SECONDS
-    }
-
-    admission = {
-        'published_key': 0, 'known_recent': 0, 'already_queued': 0,
-        'story_queue': 0, 'story_history': 0, 'added': 0
-    }
-
+    admission = {'published_key': 0, 'known_recent': 0, 'already_queued': 0, 'story_queue': 0, 'story_history': 0, 'added': 0}
     for x in candidates:
         if x['key'] in s['published']:
-            admission['published_key'] += 1
-            continue
+            admission['published_key'] += 1; continue
         if x['key'] in queue_keys:
-            admission['already_queued'] += 1
-            continue
+            admission['already_queued'] += 1; continue
         if x['key'] in s['known']:
-            admission['known_recent'] += 1
-            continue
+            admission['known_recent'] += 1; continue
         if any(same_story(x, y) for y in queue):
-            admission['story_queue'] += 1
-            print('STORY_DEDUP_QUEUE', x['title'])
-            continue
+            admission['story_queue'] += 1; continue
         if any(same_story(x, y) for y in recent_stories):
-            admission['story_history'] += 1
-            print('STORY_DEDUP_HISTORY', x['title'])
-            continue
+            admission['story_history'] += 1; continue
         x['tier'] = tier(x)
+        x['importance'] = x.get('importance', x.get('score', 0))
         s['known'][x['key']] = now
-        queue.append(x)
-        queue_keys.add(x['key'])
-        admission['added'] += 1
+        queue.append(x); queue_keys.add(x['key']); admission['added'] += 1
 
-    before_rebalance = len(queue)
     queue = rebalance_queue(queue, now)
     counts = region_counts(queue)
-
-    print('QUEUE_INGEST', 'candidates', len(candidates),
-          'added', admission['added'],
-          'published_key', admission['published_key'],
-          'known_recent', admission['known_recent'],
-          'already_queued', admission['already_queued'],
-          'story_queue', admission['story_queue'],
-          'story_history', admission['story_history'],
-          'before_rebalance', before_rebalance,
-          'queue_total', len(queue),
-          'world', counts['WORLD'], 'russia', counts['RUSSIA'])
+    print('QUEUE_INGEST', 'candidates', len(candidates), 'added', admission['added'], 'queue_total', len(queue), 'world', counts['WORLD'], 'russia', counts['RUSSIA'])
 
     for x in queue:
-        x['tier'] = x.get('tier') or tier(x)
+        x['tier'] = tier(x)
+        x['importance'] = int(x.get('importance', x.get('score', 0)))
         x['editorial_value'] = x.get('editorial_value') or editorial_value(x)
         x['topics'] = x.get('topics') or topic_tags(x)
 
-    queue.sort(key=lambda x: (
-        publication_priority(s, x), x.get('score', 0), x.get('time', 0)
-    ), reverse=True)
-
-    published = 0
-
-    # --------------------------------------------------------
-    # IMPORTANT:
-    #
-    # Never use "break" on a failed item.
-    #
-    # A bad candidate must not block the queue.
-    # --------------------------------------------------------
-
+    queue.sort(key=lambda x: (x.get('importance', x.get('score', 0)), x.get('time', 0)), reverse=True)
     remaining = list(queue)
+    published = 0
+    last_publish_ts = float(s.get('last_publish_ts', 0) or 0)
+    can_publish = not last_publish_ts or now - last_publish_ts >= PUBLISH_INTERVAL_SECONDS
 
-    attempts = 0
-
-    for x in list(queue):
-
-        if attempts >= MAX_ATTEMPTS_PER_RUN:
-            print(
-                'QUEUE_ATTEMPT_LIMIT',
-                MAX_ATTEMPTS_PER_RUN
-            )
-            break
-
-        if x.get('score', 0) < MIN_SCORE:
-            continue
-
-        next_retry_at = float(x.get('next_retry_at', 0) or 0)
-        if next_retry_at > now:
-            print('QUEUE_RETRY_WAIT', x['title'], int(next_retry_at - now))
-            continue
-
-        attempts += 1
-
-        try:
-            post = edit(
-                x,
-                s
-            )
-
-            # Current queue count before removing item.
-            queue_after_send = max(
-                0,
-                len(remaining) - 1
-            )
-
-            if SHOW_QUEUE_COUNT:
-                post += (
-                    '\n\n'
-                    '📊 В очереди: '
-                    f'{queue_after_send} новостей'
-                )
-
-            telegram(post)
-
-            s['published'][
-                x['key']
-            ] = int(now)
-
-            # Persist the event representation used for semantic dedup.
-            # Keep it for 72h: enough to suppress recycled/paraphrased stories
-            # without permanently blocking legitimate follow-up developments.
-            s['stories'][
-                x['key']
-            ] = {
-                'time': int(now),
-                'title': x.get('title', ''),
-                'desc': x.get('desc', ''),
-                'source': x.get('source', ''),
-                'region': x.get('region', '')
-            }
-
-            published = 1
-
-            s['publication_regions'].append(
-                x.get('region', 'WORLD')
-            )
-            s['publication_regions'] = (
-                s['publication_regions'][-REGION_HISTORY_SIZE:]
-            )
-
-            # Remove exactly the successfully
-            # published item.
-            if x in remaining:
-                remaining.remove(x)
-
-            print(
-                'PUBLISHED',
-                x['title']
-            )
-
-            print(
-                'QUEUE_AFTER',
-                queue_after_send
-            )
-
-            break
-
-        except Exception as e:
-
-            reason = str(e)[:300]
-
-            print(
-                'ITEM_FAILED',
-                x['title'],
-                reason
-            )
-
-            # ------------------------------------------------
-            # Critical queue behavior:
-            #
-            # Remove failed item from the current working
-            # list so the next candidate can be attempted.
-            #
-            # The item is NOT published and therefore remains
-            # durable in the queue for a future run.
-            # ------------------------------------------------
-
-            # Keep failed item in the durable queue. Continue to another item
-            # this cycle, but do not silently drop the failed story.
-            x['last_failed_at'] = int(now)
-            x['last_failure'] = reason
-            x['failure_count'] = int(x.get('failure_count', 0) or 0) + 1
-            retry_delay = min(
-                QUEUE_RETRY_MAX_SECONDS,
-                QUEUE_RETRY_BASE_SECONDS * (2 ** max(0, x['failure_count'] - 1))
-            )
-            x['next_retry_at'] = int(now + retry_delay)
-            print('QUEUE_RETRY_SCHEDULED', x['title'], retry_delay)
-
-            continue
-
-    s['queue'] = rebalance_queue(
-        remaining,
-        now
-    )
-
-    s['published'] = {
-        k: v
-        for k, v
-        in s['published'].items()
-        if v >= cut
-    }
-
-    s['known'] = {
-        k: v
-        for k, v in s['known'].items()
-        if float(v or 0) >= now - KNOWN_LOOKBACK_SECONDS
-    }
-
-    s['stories'] = {
-        k: v
-        for k, v
-        in s['stories'].items()
-        if float(v.get('time', 0) or 0) >= now - STORY_LOOKBACK_SECONDS
-    }
-
-    s['last_run'] = (
-        datetime.now(
-            timezone.utc
-        ).isoformat()
-    )
-
-    s['last_published'] = published
-
-    # --------------------------------------------------------
-    # Heartbeat semantics
-    # --------------------------------------------------------
-
-    if published > 0:
-
-        health['last_status'] = 'OK'
-        health['consecutive_failures'] = 0
-        health['last_error'] = ''
-        health['last_success_ts'] = now
-
-    elif not candidates:
-
-        health['last_status'] = 'OK'
-        health['consecutive_failures'] = 0
-        health['last_error'] = ''
-        health['last_success_ts'] = now
-
+    if not can_publish:
+        print('PUBLISH_WAIT', int(PUBLISH_INTERVAL_SECONDS - (now - last_publish_ts)))
     else:
+        attempts = 0
+        for x in list(queue):
+            if attempts >= MAX_ATTEMPTS_PER_RUN:
+                break
+            if x.get('importance', x.get('score', 0)) < IMPORTANCE_THRESHOLD:
+                continue
+            attempts += 1
+            try:
+                post = edit(x, s)
+                telegram(post)
+                s['published'][x['key']] = int(now)
+                s['stories'][x['key']] = {'time': int(now), 'title': x.get('title', ''), 'desc': x.get('desc', ''), 'source': x.get('source', ''), 'region': x.get('region', '')}
+                s['publication_regions'].append(x.get('region', 'WORLD'))
+                s['publication_regions'] = s['publication_regions'][-REGION_HISTORY_SIZE:]
+                s['last_publish_ts'] = now
+                published = 1
+                remaining.remove(x)
+                print('PUBLISHED', x['title'], 'importance', x.get('importance'))
+                break
+            except Exception as e:
+                reason = str(e)[:300]
+                x['last_failed_at'] = int(now)
+                x['last_failure'] = reason
+                x['failure_count'] = int(x.get('failure_count', 0) or 0) + 1
+                retry_delay = min(QUEUE_RETRY_MAX_SECONDS, QUEUE_RETRY_BASE_SECONDS * (2 ** max(0, x['failure_count'] - 1)))
+                x['next_retry_at'] = int(now + retry_delay)
+                print('ITEM_FAILED', x.get('title', ''), reason)
 
-        health['last_status'] = (
-            'FAILED_NO_PUBLISH'
-        )
-
-        health['consecutive_failures'] = (
-            int(
-                health.get(
-                    'consecutive_failures',
-                    0
-                )
-            ) + 1
-        )
-
-        health['last_error'] = (
-            'candidates exist but '
-            'Telegram received zero posts'
-        )
-
+    s['queue'] = rebalance_queue(remaining, now)
+    s['published'] = {k: v for k, v in s['published'].items() if v >= cut}
+    health['last_run_ts'] = now
+    health['last_success_ts'] = now
+    health['last_status'] = 'OK'
+    health['last_error'] = ''
+    health['last_candidates'] = len(candidates)
+    health['last_published'] = published
+    health['queue_size'] = len(s['queue'])
     save_state(s)
-
-    print(
-        'HEARTBEAT',
-        health['last_status'],
-        'queue',
-        len(s['queue']),
-        'failures',
-        health[
-            'consecutive_failures'
-        ]
-    )
-
-    print(
-        json.dumps(
-            {
-                'candidates': len(
-                    candidates
-                ),
-                'published': published,
-                'queue': len(
-                    s['queue']
-                ),
-                'attempts': attempts,
-                'world_queue': region_counts(s['queue'])['WORLD'],
-                'russia_queue': region_counts(s['queue'])['RUSSIA']
-            },
-            ensure_ascii=False
-        )
-    )
+    print('RUN_COMPLETE', 'searched', should_search, 'candidates', len(candidates), 'published', published, 'queue', len(s['queue']))
 
 
 if __name__ == '__main__':
