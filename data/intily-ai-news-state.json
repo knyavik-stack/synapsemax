@@ -159,7 +159,8 @@
     "db46643d04dc78bd26f82b50ca44411df287796c844e329a209c3b8aac14f4ca": 1788425461,
     "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788426304,
     "d62949218337b52366a51b76abe91c45fc7a3166dd25dd4e956489e9057b528f": 1788426421,
-    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788426542
+    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788426542,
+    "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": 1788426661
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -185,7 +186,8 @@
     "db46643d04dc78bd26f82b50ca44411df287796c844e329a209c3b8aac14f4ca": 1788425461.0058644,
     "d62949218337b52366a51b76abe91c45fc7a3166dd25dd4e956489e9057b528f": 1788426304.5021944,
     "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788426304.5021944,
-    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788426421.9148295
+    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788426421.9148295,
+    "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": 1788426661.9306133
   },
   "queue": [
     {
@@ -208,20 +210,20 @@
       "next_retry_at": 1788427144
     }
   ],
-  "last_run": "2026-09-03T09:09:43.537958+00:00",
+  "last_run": "2026-09-03T09:11:12.330129+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788426542.7320492,
+    "last_start_ts": 1788426661.9306133,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788426542.7320492,
+    "last_success_ts": 1788426661.9306133,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788426582.9701817
+      "updated_at": 1788426671.9529667
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -235,13 +237,6 @@
     }
   },
   "stories": {
-    "4cd2e8d1b7f9ec765bc0b7ebaf2fc0904048364eb559c4193d755d825c2f2db4": {
-      "time": 1788340245,
-      "title": "Vertoz Approves ₹101 Crore Share-Swap Acquisition Of US-Based Tavento Labs - Trade Brains",
-      "desc": "Vertoz Approves ₹101 Crore Share-Swap Acquisition Of US-Based Tavento Labs Trade Brains",
-      "source": "Trade Brains",
-      "region": "WORLD"
-    },
     "29b128d8ab433a6bb50051b5d36641481333cffe681f0beda5f110779195cb2b": {
       "time": 1788340545,
       "title": "Власти собираются ввести льготы для разработчиков ИИ. Планируют налоговые вычеты до 20 миллиардов на каждую компанию - CNews.ru",
@@ -528,10 +523,16 @@
       "desc": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming Fast Company Middle East",
       "source": "Fast Company Middle East",
       "region": "WORLD"
+    },
+    "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": {
+      "time": 1788426661,
+      "title": "Anthropic and OpenAI Launch Advanced AI Models Amid Cyber Risk Concerns - Readers.id",
+      "desc": "Anthropic and OpenAI Launch Advanced AI Models Amid Cyber Risk Concerns Readers.id",
+      "source": "Readers.id",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -549,6 +550,7 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ]
