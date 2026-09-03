@@ -19,3 +19,10 @@
 - **Publisher workflow:** `.github/workflows/intily-ai-news.yml`
 - **Durable candidate state:** `data/intily-ai-news-state.json`
 - **Rollback snapshot:** `docs/backups/2026-09-03/`
+
+
+## Validation snapshot — 2026-09-03
+
+A live full-collector test returned 216 raw items, 51 qualifying candidates after the 60/100 threshold, with 31 WORLD and 20 RUSSIA candidates before queue capping. The queue rebalance therefore has enough RU inventory to build a 20-item queue with the required 10/10 minimum split.
+
+A production test also exposed and corrected a concrete Cyrillic-data defect in the previous implementation: Russian AI relevance terms and Russian search queries had been stored as mojibake, causing Russian discovery to return zero results and Russian relevance to fail. The current implementation uses native UTF-8 Cyrillic terms and queries.

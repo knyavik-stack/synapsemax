@@ -46,6 +46,7 @@ QUEUE_RETRY_MAX_SECONDS = 6 * 3600
 
 # Temporary queue counter. Set False when Boss requests removal.
 SHOW_QUEUE_COUNT = True
+POLICY_VERSION = '2026-09-03'  # Policy version used in runtime diagnostics and state migrations.
 
 HEARTBEAT_MAX_SECONDS = 900
 FAILURE_ALERT_THRESHOLD = 3
@@ -105,143 +106,92 @@ QUERIES = [
     ('WORLD', 'AI deployment architecture inference cost reliability'),
     ('WORLD', 'AI security vulnerability breach agent safety failure problem'),
     ('WORLD', 'AI startup funding acquisition investment enterprise technology'),
-    ('RUSSIA', 'ÐÐ Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ÑÐ¹ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑ Ð½ÐµÐ¹ÑÐ¾ÑÐµÑÐ¸ Ð Ð¾ÑÑÐ¸Ñ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸'),
-    ('RUSSIA', 'Ð¯Ð½Ð´ÐµÐºÑ Ð¡Ð±ÐµÑ VK ÐÐ Ð¿ÑÐ¾Ð´ÑÐºÑ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ñ'),
-    ('RUSSIA', 'ÑÐ¾ÑÑÐ¸Ð¹ÑÐºÐ¸Ðµ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸ Ð²Ð½ÐµÐ´ÑÐµÐ½Ð¸Ðµ ÐÐ Ð±Ð¸Ð·Ð½ÐµÑ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°ÑÐ¸Ñ'),
-    ('RUSSIA', 'ÐÐ Ð¿ÑÐ¸Ð¼ÐµÐ½ÐµÐ½Ð¸Ðµ Ð¿ÑÐ°ÐºÑÐ¸ÐºÐ° Ð±Ð¸Ð·Ð½ÐµÑ ÐºÐµÐ¹Ñ Ð Ð¾ÑÑÐ¸Ñ'),
-    ('RUSSIA', 'ÐÐ ÑÐ¸Ð½Ð°Ð½ÑÑ Ð¿ÑÐ¾Ð¼ÑÑÐ»ÐµÐ½Ð½Ð¾ÑÑÑ Ð¼ÐµÐ´Ð¸ÑÐ¸Ð½Ð° Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð»Ð¾Ð³Ð¸ÑÑÐ¸ÐºÐ° Ð Ð¾ÑÑÐ¸Ñ'),
-    ('RUSSIA', 'ÐÐ ÑÐ°Ð·ÑÐ°Ð±Ð¾ÑÐºÐ° Ð¸Ð½ÑÑÐ°ÑÑÑÑÐºÑÑÑÐ° Ð¼Ð¾Ð´ÐµÐ»Ð¸ Ð°Ð³ÐµÐ½ÑÑ Ð Ð¾ÑÑÐ¸Ñ'),
-    ('RUSSIA', 'ÐÐ Ð±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ÑÑÑ ÑÑÐ·Ð²Ð¸Ð¼Ð¾ÑÑÑ ÑÑÐµÑÐºÐ° Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ñ Ð Ð¾ÑÑÐ¸Ñ'),
-    ('RUSSIA', 'ÐÐ ÑÐ¾Ð±Ð¾ÑÐ¾ÑÐµÑÐ½Ð¸ÐºÐ° ÑÐ¸Ð¿Ñ Ð¸ÑÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½Ð¸Ñ Ð Ð¾ÑÑÐ¸Ñ'),
-    ('RUSSIA', 'ÐÐ ÑÐµÐ³ÑÐ»Ð¸ÑÐ¾Ð²Ð°Ð½Ð¸Ðµ Ð·Ð°ÐºÐ¾Ð½ Ð¸Ð½Ð²ÐµÑÑÐ¸ÑÐ¸Ð¸ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸ Ð Ð¾ÑÑÐ¸Ñ'),
-    ('RUSSIA', 'ÑÐ¾ÑÑÐ¸Ð¹ÑÐºÐ¸Ð¹ ÐÐ ÑÑÐ°ÑÑÐ°Ð¿ Ð¿ÑÐ¾Ð´ÑÐºÑ Ð¿Ð»Ð°ÑÑÐ¾ÑÐ¼Ð° Ð¾Ð±Ð·Ð¾Ñ'),
-    ('RUSSIA', 'site:yandex.ru/company/news ÐÐ Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ÑÐ¹ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑ'),
-    ('RUSSIA', 'site:sberbank.ru ÐÐ Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ÑÐ¹ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸'),
-    ('RUSSIA', 'site:rbc.ru ÐÐ Ð²Ð½ÐµÐ´ÑÐµÐ½Ð¸Ðµ Ð±Ð¸Ð·Ð½ÐµÑ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸'),
-    ('RUSSIA', 'site:kommersant.ru ÐÐ ÑÐµÑÐ½Ð¾Ð»Ð¾Ð³Ð¸Ð¸ Ð±Ð¸Ð·Ð½ÐµÑ Ð Ð¾ÑÑÐ¸Ñ'),
-    ('RUSSIA', 'site:vc.ru ÐÐ Ð±Ð¸Ð·Ð½ÐµÑ Ð²Ð½ÐµÐ´ÑÐµÐ½Ð¸Ðµ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°ÑÐ¸Ñ')
+    ('RUSSIA', 'ИИ искусственный интеллект нейросети Россия технологии'),
+    ('RUSSIA', 'Яндекс Сбер VK ИИ продукт технология'),
+    ('RUSSIA', 'российские компании внедрение ИИ бизнес автоматизация'),
+    ('RUSSIA', 'ИИ применение практика бизнес кейс Россия'),
+    ('RUSSIA', 'ИИ финансы промышленность медицина образование логистика Россия'),
+    ('RUSSIA', 'ИИ разработка инфраструктура модели агенты Россия'),
+    ('RUSSIA', 'ИИ безопасность уязвимость утечка проблемы Россия'),
+    ('RUSSIA', 'ИИ робототехника чипы исследования Россия'),
+    ('RUSSIA', 'ИИ регулирование закон инвестиции технологии Россия'),
+    ('RUSSIA', 'российский ИИ стартап продукт платформа обзор'),
+    ('RUSSIA', 'site:yandex.ru/company/news ИИ искусственный интеллект'),
+    ('RUSSIA', 'site:sber.ru ИИ искусственный интеллект технологии'),
+    ('RUSSIA', 'site:rbc.ru ИИ внедрение бизнес технологии'),
+    ('RUSSIA', 'site:kommersant.ru ИИ технологии бизнес Россия'),
+    ('RUSSIA', 'site:vc.ru ИИ бизнес внедрение автоматизация')
 ]
 
 
 QUALITY_TRUSTED = {
     'reuters', 'bloomberg', 'financial times', 'the verge',
     'techcrunch', 'wired', 'mit technology review', 'arstechnica',
-    'venturebeat', 'tass', 'interfax', 'ÑÐ±Ðº', 'ÐºÐ¾Ð¼Ð¼ÐµÑÑÐ°Ð½ÑÑ',
-    'Ð²ÐµÐ´Ð¾Ð¼Ð¾ÑÑÐ¸', 'forbes'
+    'venturebeat', 'tass', 'interfax', 'рбк', 'коммерсантъ',
+    'ведомости', 'forbes'
 }
 
+TRUSTED = QUALITY_TRUSTED | {'science.mail.ru', 'securitylab.ru', 'vc.ru', 'ria.ru'}
+
 HIGH_IMPACT_TERMS = {
-    'launch', 'released', 'release', 'introduces', 'introduced',
-    'model', 'agent', 'robot', 'robotics', 'breakthrough',
-    'acquisition', 'funding', 'investment', 'billion', 'chip',
-    'gpu', 'security', 'breach', 'regulation', 'law',
-    'Ð·Ð°Ð¿ÑÑÑ', 'Ð²ÑÐ¿ÑÑÑ', 'Ð¿ÑÐµÐ´ÑÑÐ°Ð²', 'Ð¼Ð¾Ð´ÐµÐ»Ñ', 'Ð°Ð³ÐµÐ½Ñ', 'ÑÐ¾Ð±Ð¾Ñ',
-    'Ð¿ÑÐ¾ÑÑÐ²', 'Ð¸Ð½Ð²ÐµÑÑÐ¸Ñ', 'Ð¼Ð¸Ð»Ð»Ð¸Ð°ÑÐ´', 'Ð¿Ð¾Ð³Ð»Ð¾Ñ', 'ÑÐ¸Ð¿', 'ÑÑÐµÑ',
-    'ÑÐµÐ³ÑÐ»Ð¸Ñ', 'Ð·Ð°ÐºÐ¾Ð½'
+    'launch', 'released', 'release', 'introduces', 'introduced', 'model',
+    'agent', 'robot', 'robotics', 'breakthrough', 'acquisition', 'funding',
+    'investment', 'billion', 'chip', 'gpu', 'security', 'breach', 'regulation',
+    'law', 'запуст', 'выпуст', 'представ', 'модел', 'агент', 'робот', 'прорыв',
+    'инвести', 'миллиард', 'поглощ', 'чип', 'утеч', 'регулир', 'закон',
+    'сделк', 'финансир', 'разработ', 'внедрен'
 }
 
 APPLICATION_TERMS = {
-    'enterprise', 'business', 'productivity', 'automation',
-    'developer', 'coding', 'software', 'platform', 'tool',
-    'healthcare', 'education', 'science', 'industrial', 'application',
-    'Ð²Ð½ÐµÐ´ÑÐµÐ½', 'Ð±Ð¸Ð·Ð½ÐµÑ', 'Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°Ñ', 'ÑÐ°Ð·ÑÐ°Ð±Ð¾ÑÑ', 'Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼',
-    'Ð¿Ð»Ð°ÑÑÐ¾ÑÐ¼', 'Ð¸Ð½ÑÑÑÑÐ¼ÐµÐ½Ñ', 'Ð·Ð´ÑÐ°Ð²Ð¾Ð¾ÑÑÐ°Ð½', 'Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½',
-    'Ð¿ÑÐ¾Ð¸Ð·Ð²Ð¾Ð´ÑÑÐ²', 'Ð¿ÑÐ¸Ð¼ÐµÐ½ÐµÐ½'
+    'enterprise', 'business', 'productivity', 'automation', 'developer',
+    'coding', 'software', 'platform', 'tool', 'healthcare', 'education',
+    'science', 'industrial', 'application', 'deployment', 'adoption',
+    'implementation', 'workflow', 'operations', 'inference', 'architecture',
+    'integration', 'внедрен', 'бизнес', 'автоматизац', 'разработ', 'программ',
+    'платформ', 'инструмент', 'здравоохран', 'образован', 'производств',
+    'применен', 'практик', 'архитектур', 'инфраструктур'
 }
-
 
 PRACTICAL_IMPLEMENTATION_TERMS = {
     'deployment', 'adoption', 'implementation', 'workflow', 'operations',
     'case study', 'customer', 'revenue', 'cost', 'roi', 'inference',
-    'reliability', 'latency', 'architecture', 'integration',
-    'Ð²Ð½ÐµÐ´ÑÐµÐ½', 'Ð¿ÑÐ°ÐºÑÐ¸Ðº', 'ÐºÐµÐ¹Ñ', 'Ð²ÑÑÑÑÐº', 'Ð·Ð°ÑÑÐ°Ñ', 'Ð¾ÐºÑÐ¿Ð°ÐµÐ¼',
-    'Ð¿ÑÐ¾ÑÐµÑÑ', 'Ð¾Ð¿ÐµÑÐ°Ñ', 'Ð¸Ð½ÑÐµÐ³ÑÐ°Ñ', 'Ð°ÑÑÐ¸ÑÐµÐºÑÑÑ', 'Ð¸Ð½ÑÑÐ°ÑÑÑÑÐºÑÑÑ',
-    'Ð¿ÑÐ¾Ð¸Ð·Ð²Ð¾Ð´Ð¸ÑÐµÐ»ÑÐ½Ð¾ÑÑ', 'ÑÑÐ¾Ð¸Ð¼Ð¾ÑÑ', 'Ð·Ð°Ð´ÐµÑÐ¶Ðº'
+    'reliability', 'latency', 'architecture', 'integration', 'внедрен',
+    'практик', 'кейс', 'выручк', 'затрат', 'окупаем', 'процесс', 'операц',
+    'интеграц', 'архитектур', 'инфраструктур', 'производительност', 'стоимост',
+    'задержк'
 }
 
 RISK_AND_PROBLEM_TERMS = {
-    'failure', 'outage', 'incident', 'vulnerability', 'exploit',
-    'hallucination', 'privacy', 'security', 'breach', 'misuse',
-    'problem', 'risk', 'attack', 'ÑÑÐ·Ð²Ð¸Ð¼', 'ÑÐ±Ð¾Ð¹', 'Ð¸Ð½ÑÐ¸Ð´ÐµÐ½Ñ',
-    'Ð³Ð°Ð»Ð»ÑÑÐ¸Ð½Ð°Ñ', 'ÐºÐ¾Ð½ÑÐ¸Ð´ÐµÐ½Ñ', 'Ð±ÐµÐ·Ð¾Ð¿Ð°Ñ', 'ÑÑÐµÑ', 'Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼',
-    'ÑÐ¸ÑÐº', 'Ð°ÑÐ°ÐºÐ°', 'Ð²ÑÐµÐ´'
+    'failure', 'outage', 'incident', 'vulnerability', 'exploit', 'hallucination',
+    'privacy', 'security', 'breach', 'misuse', 'problem', 'risk', 'attack',
+    'уязвим', 'сбой', 'инцидент', 'галлюцинац', 'конфиденц', 'безопас', 'утеч',
+    'проблем', 'риск', 'атак', 'вред'
 }
 
 EXCLUSIVITY_TERMS = {
-    'first', 'exclusive', 'unprecedented', 'largest', 'record',
-    'major', 'billion', 'first-ever', 'Ð²Ð¿ÐµÑÐ²ÑÐµ', 'ÑÐºÑÐºÐ»ÑÐ·Ð¸Ð²',
-    'ÐºÑÑÐ¿Ð½ÐµÐ¹Ñ', 'ÑÐµÐºÐ¾ÑÐ´', 'Ð¼Ð¸Ð»Ð»Ð¸Ð°ÑÐ´', 'Ð¿ÐµÑÐ²ÑÐ¹'
+    'first', 'exclusive', 'unprecedented', 'largest', 'record', 'major',
+    'billion', 'first-ever', 'впервые', 'эксклюзив', 'крупнейш', 'рекорд',
+    'миллиард', 'первый'
 }
 
 LOW_SIGNAL_TERMS = {
-    'opinion', 'sponsored', 'advertisement', 'coupon',
-    'horoscope', 'giveaway', 'stocks', 'stock price',
-    'Ð¼Ð½ÐµÐ½Ð¸Ðµ ÑÐ¸ÑÐ°ÑÐµÐ»ÐµÐ¹', 'ÑÐµÐºÐ»Ð°Ð¼Ð°', 'Ð¿ÑÐ¾Ð¼Ð¾ÐºÐ¾Ð´', 'Ð³Ð¾ÑÐ¾ÑÐºÐ¾Ð¿'
+    'opinion', 'sponsored', 'advertisement', 'coupon', 'horoscope', 'giveaway',
+    'stocks', 'stock price', 'мнение читателей', 'реклама', 'промокод', 'гороскоп'
 }
 
-# A query match alone is not enough: Google News can return adjacent
-# technology/business stories that contain one broad query term but are not
-# substantively about AI or an allowed AI-adjacent technology.
+# A query match alone is not enough: Google News can return adjacent technology
+# stories. These explicit Russian and English markers define the AI relevance gate.
 AI_RELEVANCE_TOKENS = {
     'ai', 'llm', 'openai', 'anthropic', 'claude', 'gemini', 'deepmind',
-    'copilot', 'chatgpt', 'nvidia', 'gpu', 'Ð¸Ð¸'
+    'copilot', 'chatgpt', 'nvidia', 'gpu', 'ии'
 }
 
 AI_RELEVANCE_STEMS = (
     'artificial intelligence', 'machine learning', 'generative ai',
-    'language model', 'neural network', 'Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑ',
-    'Ð¼Ð°ÑÐ¸Ð½Ð½ Ð¾Ð±ÑÑ', 'Ð³ÐµÐ½ÐµÑÐ°ÑÐ¸Ð²', 'Ð½ÐµÐ¹ÑÐ¾ÑÐµÑ', 'Ð½ÐµÐ¹ÑÐ¾Ð½Ð½',
-    'ÑÐ¾Ð±Ð¾Ñ', 'Ð°Ð²ÑÐ¾Ð½Ð¾Ð¼Ð½', 'Ð°Ð³ÐµÐ½Ñ', 'Ð¿Ð¾Ð»ÑÐ¿ÑÐ¾Ð²Ð¾Ð´', 'ÑÐ¸Ð¿'
+    'language model', 'neural network', 'искусственный интеллект',
+    'машинн обуч', 'генератив', 'нейросет', 'нейронн', 'робот', 'автономн',
+    'агент', 'полупровод', 'чип', 'интеллектуальн'
 )
-
-WEIGHTS = {
-    'launch': 5,
-    'release': 5,
-    'model': 4,
-    'agent': 5,
-    'breakthrough': 7,
-    'research': 3,
-    'security': 5,
-    'safety': 5,
-    'regulation': 5,
-    'law': 5,
-    'investment': 4,
-    'billion': 5,
-    'acquisition': 5,
-    'chip': 4,
-    'gpu': 4,
-    'openai': 4,
-    'anthropic': 4,
-    'google': 3,
-    'deepmind': 4,
-    'nvidia': 4,
-    'microsoft': 3,
-    'yandex': 4,
-    'sber': 4,
-    'Ð·Ð°ÐºÐ¾Ð½': 6,
-    'ÑÐµÐ³ÑÐ»Ð¸Ñ': 5,
-    'Ð¼Ð¸Ð»Ð»Ð¸Ð°ÑÐ´': 5,
-    'Ð·Ð°Ð¿ÑÑÑ': 5,
-    'Ð²ÑÐ¿ÑÑÑ': 5,
-    'Ð°Ð³ÐµÐ½Ñ': 5,
-    'Ð¼Ð¾Ð´ÐµÐ»Ñ': 4,
-    'Ð½ÐµÐ¹ÑÐ¾ÑÐµÑ': 4,
-    'Ð¸ÑÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½': 3
-}
-
-
-TRUSTED = {
-    'reuters',
-    'bloomberg',
-    'financial times',
-    'the verge',
-    'techcrunch',
-    'tass',
-    'interfax',
-    'ÑÐ±Ðº',
-    'ÐºÐ¾Ð¼Ð¼ÐµÑÑÐ°Ð½ÑÑ',
-    'Ð²ÐµÐ´Ð¾Ð¼Ð¾ÑÑÐ¸'
-}
 
 
 # ------------------------------------------------------------
@@ -408,13 +358,8 @@ def rss(region, q):
 # ------------------------------------------------------------
 
 def normalize(t):
-    return ' '.join(
-        re.sub(
-            r'[^a-zÐ°-ÑÑ0-9]+',
-            ' ',
-            t.lower()
-        ).split()
-    )
+    # Unicode-aware normalization keeps Cyrillic terms intact for scoring/dedup.
+    return ' '.join(re.sub(r'[^a-zа-яё0-9]+', ' ', str(t).lower()).split())
 
 
 def key(x):
@@ -440,23 +385,19 @@ def tier(x):
 
 
 def score(x):
-    """Return 0–100 audience-importance probability proxy.
-
-    The model combines topical relevance, impact, practical value, source
-    quality and freshness. It is deliberately deterministic and explainable.
-    """
+    """Return a deterministic 0–100 audience-importance score."""
     blob = (x.get('title', '') + ' ' + x.get('desc', '') + ' ' + x.get('source', '')).lower()
     age = (datetime.now(timezone.utc).timestamp() - x.get('time', 0)) / 3600
     if age < -0.5 or age > LOOKBACK.total_seconds() / 3600:
         return 0
 
-    relevance = 35 if ai_relevant(x) else 0
+    relevance = 45 if ai_relevant(x) else 0
     impact_hits = sum(1 for term in HIGH_IMPACT_TERMS if term in blob)
-    impact = min(25, impact_hits * 4)
+    impact = min(20, impact_hits * 4)
     application_hits = sum(1 for term in APPLICATION_TERMS if term in blob)
     practical = min(15, application_hits * 3)
     source = x.get('source', '').lower().strip()
-    source_points = 10 if source in QUALITY_TRUSTED else (6 if source in TRUSTED else 2)
+    source_points = 8 if source in QUALITY_TRUSTED else (6 if source in TRUSTED else 5)
     freshness = 15 if age <= 1 else 12 if age <= 3 else 8 if age <= 6 else 4
     penalty = 15 if any(term in blob for term in LOW_SIGNAL_TERMS) else 0
     return max(0, min(100, relevance + impact + practical + source_points + freshness - penalty))
