@@ -121,7 +121,8 @@
     "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b": 1788476694,
     "102d427653a7b266af4d91b59442007f1d29e0897959d636c47384e858c2eb0c": 1788476993,
     "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312": 1788477540,
-    "4836dcb8eea5500ed7821d1cf800d03fe16a25b50fc6103613d9fcfa2a6c6192": 1788477894
+    "4836dcb8eea5500ed7821d1cf800d03fe16a25b50fc6103613d9fcfa2a6c6192": 1788477894,
+    "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1": 1788478075
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -316,33 +317,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788477894,
+      "last_failed_at": 1788478075,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 3,
-      "next_retry_at": 1788479094
-    },
-    {
-      "region": "WORLD",
-      "title": "ReliaQuest Advances Agentic Cyber Defense for Enterprises with Anthropic’s Claude - The National Law Review",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRUp3NzJNNWJTbkVrUWpBVk52b0xlZWlzUzE2UHJyOHVLcHlhNTlrS0lFWmY2ajFZaUY0T0RpV1Rra3BRRThfSmZEdHRLb1J4Qkt3c1Zic1J5WDllVndIeHlCeUpVOFdxbTZfemh4OTM3d2RtUW43ak40VU1GUkttVVdtc1l4c0NWajNndTZ6bnR0dDRJOU9XQXdhSjVYaUZIT0N5S0xfdGI2NVhzZmhyMg?oc=5",
-      "desc": "ReliaQuest Advances Agentic Cyber Defense for Enterprises with Anthropic’s Claude The National Law Review",
-      "source": "The National Law Review",
-      "time": 1788460597.0,
-      "score": 67.0,
-      "key": "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1",
-      "importance": 67.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "business",
-        "models",
-        "security_regulation"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788477894,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788478194
+      "failure_count": 4,
+      "next_retry_at": 1788480475
     },
     {
       "region": "WORLD",
@@ -541,20 +519,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788477894.2903469,
+    "last_start_ts": 1788478075.3894897,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788477894.2903469,
-    "last_success_ts": 1788477894.2903469,
+    "last_run_ts": 1788478075.3894897,
+    "last_success_ts": 1788478075.3894897,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788477945.1093905
+      "updated_at": 1788478081.672429
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1421,10 +1399,16 @@
       "desc": "IT exports soar, AI triggers job cuts The Express Tribune",
       "source": "The Express Tribune",
       "region": "WORLD"
+    },
+    "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1": {
+      "time": 1788478075,
+      "title": "ReliaQuest Advances Agentic Cyber Defense for Enterprises with Anthropic’s Claude - The National Law Review",
+      "desc": "ReliaQuest Advances Agentic Cyber Defense for Enterprises with Anthropic’s Claude The National Law Review",
+      "source": "The National Law Review",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1443,8 +1427,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788476993.1452017,
-  "last_publish_ts": 1788477894.2903469
+  "last_publish_ts": 1788478075.3894897
 }
