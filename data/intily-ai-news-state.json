@@ -199,7 +199,8 @@
     "d947bc85e51fa54f88da1cb19dae86f04ef9a6423c71f1ebc59f9b258e6122ce": 1788438219,
     "4c80fa437a2fdf5e0208f7ca112710b62da41ce84a676f33349e756afb9231f4": 1788438283,
     "55b4759574ab7836e7196a85951abf5de28f875cff92bfef1bcc3acebce981e8": 1788438400,
-    "1035e869b6667c9b7f7a5e6379378103f491fa3fcdd04ade55e9ccae5cc03fba": 1788438471
+    "1035e869b6667c9b7f7a5e6379378103f491fa3fcdd04ade55e9ccae5cc03fba": 1788438471,
+    "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3": 1788438580
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -341,22 +342,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDM0g3MWRaemlTcWJIb0d6d1BjNWd0ZHVtVmlkai1pVHlqejl0X0ZUVlJjTnJIeGZ3aFBMZnR1MTE5Q3lsanU1ZkZLMXk4VWRzWjRnUVZSWGtCTW02TXBLdUplNENXZnBOQTNQYjJ5elVEYTBJaFhiM2pJd9IBe0FVX3lxTFBDM0g3MWRaemlTcWJIb0d6d1BjNWd0ZHVtVmlkai1pVHlqejl0X0ZUVlJjTnJIeGZ3aFBMZnR1MTE5Q3lsanU1ZkZLMXk4VWRzWjRnUVZSWGtCTW02TXBLdUplNENXZnBOQTNQYjJ5elVEYTBJaFhiM2pJdw?oc=5",
-      "desc": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788426381.0,
-      "score": 66,
-      "key": "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики - Журнал Эксперт-Урал",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYm1kM2VkLTBZV25EQTV3bzVXUERENTVOQWNsQ1VWQWhoT1l3OVMwM3pRRElad0VTRUtUdGRIdWJlMXY0UzFGY2Jrc3pKSTFKTDhiVWJJZ2poM003U1BFMnJZbDBLNlpBeWxtbm1MU0t0THpLU0FweGF6ZW5Dcy1XTjZoalhLZ2lYVWt1UmR5eTB5SjJWSkQwLWFhUWkyWUNEa1VVMjlnbzhRYzk2OWxlektaQml4MHVid29rc1JkeU1pZkJPVVlOWV9JYVVrams?oc=5",
       "desc": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики Журнал Эксперт-Урал",
@@ -485,21 +470,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788438522.8439698,
+    "last_start_ts": 1788438580.0521536,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788438522.8439698,
+    "last_success_ts": 1788438580.0521536,
     "consecutive_failures": 1,
-    "queue_size": 11,
+    "queue_size": 10,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788438522.8439698
+    "last_published": 1,
+    "last_run_ts": 1788438580.0521536
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788438478.0611746
+      "updated_at": 1788438582.6170487
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -974,10 +959,16 @@
       "desc": "Wyoming must lead in the AI revolution WyomingNews.com",
       "source": "WyomingNews.com",
       "region": "WORLD"
+    },
+    "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3": {
+      "time": 1788438580,
+      "title": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки - companies.rbc.ru",
+      "desc": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -996,8 +987,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788437619.555675,
-  "last_publish_ts": 1788438471.7147923
+  "last_publish_ts": 1788438580.0521536
 }
