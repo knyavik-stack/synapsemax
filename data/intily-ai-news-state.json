@@ -44,7 +44,8 @@
     "d3be58b2f693946a67cf1edf60b8f6d53fa1b8ca998a9913be4c9c04d5245b8c": 1788452296,
     "11c9400610e35397f4be118409236aa995cc5c2bd748bf6b585d444cdd527700": 1788452649,
     "b8787c8126752eb4dbfdb543831727192e905480fab8515652b100b05dc2f7f7": 1788452833,
-    "e0a22d14628fe23455b724231422c45f7538fe680e53131f391b17d2d9fe5dd3": 1788453015
+    "e0a22d14628fe23455b724231422c45f7538fe680e53131f391b17d2d9fe5dd3": 1788453015,
+    "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788453370
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -253,23 +254,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы - Korins",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSnFZRERDYi1aWi1XYU13VWZoOEI0NWUweklzcDhTZXZacjVjV3Niek94THRhd0k5MHhxY2FMVVp5bTZjVHRITldoR0RjY0YwcWpPT1pJZE8zR2Fwbm1TOGl5dlZfeFJhQnJNUVVTb2ZhNnRKRUl4Y0RtQlUyYWUwYnZKbEdVRF9sQXJ1cXJ5dHc3V3Y5WUt0eUdTNTdoQVoxMU9kVXoxcTY?oc=5",
-      "desc": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы Korins",
-      "source": "Korins",
-      "time": 1788431473.0,
-      "score": 68,
-      "key": "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37",
-      "importance": 68,
-      "editorial_value": 50,
-      "topics": [
-        "business"
-      ],
-      "tier": "A",
-      "russia_weight_bonus": 3
-    },
-    {
-      "region": "RUSSIA",
       "title": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы - RB.ru",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSHYwcVQ3M3hpU3ZjZnVFX3ZHUVQ5WEVwUl9wdG9CeGVtenNtcTBkUjNXb294UVdJb09EZXhXOHNUeHRjcGlzRjF4Y1ZRQm9IcW9Rdkx0U3lTcW5vYVhXSzJERnNWQ0N3cmRyNUhRbmtKbHRjN3U2VXZ5ZGZzeENBT19HdktpZmNHNVBmRGRHM3M2eENaZl9JcFdYU01XLURrU1k3dHJNLVNDa25rdktSdXF6Z1Ewdw?oc=5",
       "desc": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы RB.ru",
@@ -383,20 +367,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788453190.2473507,
+    "last_start_ts": 1788453370.9949365,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788453190.2473507,
-    "last_success_ts": 1788453190.2473507,
+    "last_run_ts": 1788453370.9949365,
+    "last_success_ts": 1788453370.9949365,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 13
+    "last_published": 1,
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788453019.1431053
+      "updated_at": 1788453373.089116
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -724,10 +708,16 @@
       "desc": "«Агентная революция превратила каждого из нас в супергероя» kommersant.ru",
       "source": "kommersant.ru",
       "region": "RUSSIA"
+    },
+    "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": {
+      "time": 1788453370,
+      "title": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы - Korins",
+      "desc": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы Korins",
+      "source": "Korins",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -746,8 +736,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788451571.478552,
-  "last_publish_ts": 1788453015.1698565
+  "last_publish_ts": 1788453370.9949365
 }
