@@ -171,7 +171,8 @@
     "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e": 1788431617,
     "6dc08a6083aec1b9a749757dad043e9e9614ce00ba0a5ecf6e99b7d60a454af8": 1788431823,
     "96e5553b3b21ae77bd635eea721265d18437a5bf03171180a61f504fa568baae": 1788432184,
-    "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a": 1788432543
+    "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a": 1788432543,
+    "2d748035b45daaf3ed685147e76a9cd30ef1063b2078149170dcefbac7582b8a": 1788432938
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -282,26 +283,6 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "African AI startups exist, but few are getting the first $100,000 - Business News Nigeria",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRC1BcXpDelMyaVpBSXQ2cHFNRk5MLW9hUjB5cVJvWjVfbWdBbGZkUFM4bURkU2trRnQ3QkxLZ2s2QkpFNGlEVTdFTnRpNnRvM2lPVWhlNDJUM2JmY3pyckZEeXhHQzBUQWtSMGxJR2RXOEdQWV8xZFloV3J2NHhWUS1Sck1jUUhDNEZtTXlvT1VlTUxTaUdQV01QclktNUt1UHAxNjhFNW0?oc=5",
-      "desc": "African AI startups exist, but few are getting the first $100,000 Business News Nigeria",
-      "source": "Business News Nigeria",
-      "time": 1788428218.0,
-      "score": 68,
-      "key": "2d748035b45daaf3ed685147e76a9cd30ef1063b2078149170dcefbac7582b8a",
-      "importance": 68,
-      "editorial_value": 50,
-      "topics": [
-        "business"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788431270,
-      "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 1,
-      "next_retry_at": 1788431570
     },
     {
       "region": "WORLD",
@@ -501,21 +482,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788432721.259713,
+    "last_start_ts": 1788432938.107778,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788432721.259713,
+    "last_success_ts": 1788432938.107778,
     "consecutive_failures": 1,
-    "queue_size": 15,
+    "queue_size": 14,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788432721.259713
+    "last_published": 1,
+    "last_run_ts": 1788432938.107778
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788432547.247826
+      "updated_at": 1788432940.3537786
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -808,12 +789,18 @@
       "desc": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin ET Datacenters",
       "source": "ET Datacenters",
       "region": "WORLD"
+    },
+    "2d748035b45daaf3ed685147e76a9cd30ef1063b2078149170dcefbac7582b8a": {
+      "time": 1788432938,
+      "title": "African AI startups exist, but few are getting the first $100,000 - Business News Nigeria",
+      "desc": "African AI startups exist, but few are getting the first $100,000 Business News Nigeria",
+      "source": "Business News Nigeria",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -829,9 +816,10 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788432002.3631577,
-  "last_publish_ts": 1788432543.1784992
+  "last_publish_ts": 1788432938.107778
 }
