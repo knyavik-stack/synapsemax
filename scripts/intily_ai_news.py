@@ -20,7 +20,7 @@ from xml.etree import ElementTree as ET
 # ============================================================
 
 # Discovery freshness is intentionally short. Old items should not occupy
-# queue capacity when the channel publishes one story every five minutes.
+# queue capacity when the channel publishes one story every three minutes.
 # ============================================================
 # PUBLICATION SETTINGS — single control point for Intily
 # ============================================================
@@ -51,7 +51,7 @@ QUEUE_RETRY_MAX_SECONDS = 6 * 3600
 
 # Temporary publication footer for queue analysis. Set False when Boss requests removal.
 SHOW_QUEUE_DIAGNOSTICS = True
-POLICY_VERSION = '2026-09-03'  # Policy version used in runtime diagnostics and state migrations.
+POLICY_VERSION = '2026-09-04'  # Policy version used in runtime diagnostics and state migrations.
 
 HEARTBEAT_MAX_SECONDS = 900
 FAILURE_ALERT_THRESHOLD = 3

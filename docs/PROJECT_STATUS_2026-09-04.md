@@ -23,7 +23,7 @@ The previous filter depended too heavily on source/title similarity and could mi
 
 ## Cloudflare scheduler — changed
 
-The production Worker cron is now `* * * * *`. At the very start of each scheduled invocation it executes a random integer gate from 1 through 3. If the value is not 1, the invocation returns immediately and does not call GitHub. If it is 1, the existing GitHub dispatch path runs unchanged. Existing bindings are preserved: `AI`, `STATE`, `TELEGRAM_BOT_TOKEN`, `GITHUB_DISPATCH_TOKEN`.
+The production Worker cron is now `* * * * *`. Cloudflare version **47** is deployed at 100% (version id `332606aa-9664-4199-b424-77379680b5b1`), with version 46 retained as rollback. At the very start of each scheduled invocation it executes a random integer gate from 1 through 3. If the value is not 1, the invocation returns immediately and does not call GitHub. If it is 1, the existing GitHub dispatch path runs unchanged. Existing bindings are preserved: `AI`, `STATE`, `TELEGRAM_BOT_TOKEN`, `GITHUB_DISPATCH_TOKEN`.
 
 This keeps the expected dispatch cadence near one successful dispatch every three minutes while allowing minute-level scheduler granularity. It is probabilistic, not a hard three-minute guarantee.
 
@@ -43,4 +43,4 @@ This keeps the expected dispatch cadence near one successful dispatch every thre
 
 ## Remaining validation
 
-The code-level changes are complete, but production validation still requires observing several automatic minute-level ticks and at least one successful gate=1 dispatch, then confirming the resulting GitHub run and publisher behavior. The scheduler is intentionally probabilistic, so one or more skipped ticks is expected.
+The code-level and Cloudflare deployment changes are complete. The remaining live check is to observe automatic minute-level ticks until at least one gate=1 dispatch appears in GitHub and then confirm a successful publisher run. The scheduler is intentionally probabilistic, so one or more skipped ticks is expected; the two immediate checks made after deployment showed no GitHub run yet, which is compatible with the 1/3 gate and propagation window.
