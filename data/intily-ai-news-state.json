@@ -95,7 +95,8 @@
     "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049,
     "f44d3b7105c1c9b32377fa315a8a1ef3505e1d7927298fb1757b2bf8be0e0a69": 1788467232,
     "29f5e130848e84a3e7a9572f9822c0d9dbf0c4ccc8e9e42b12f55e0df14e2f52": 1788467592,
-    "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": 1788467952
+    "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": 1788467952,
+    "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333": 1788468310
   },
   "known": {
     "432e252e30e5aedf73991d69572f2ee760abc7ddf25106f9f1e5494bf4ba0eb7": 1788446890.0145826,
@@ -298,22 +299,6 @@
     "744b5ea451d29219ba8170df3dda180f29e9f1269bfa32eb977d3c870a769d64": 1788467049.748359
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free - 24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNclBySFVkWDllLTZvS28tOFZyZlFzNTRBSGw5UTVyR3hwZ2NLallPeXFENzZwWVg4Nl9mNEl0SFg0MGtKUHZxbFJrYU1BWFVwR1RJV2hfM0V2d1FzMFBtYU9XR1RWV3hxSGdreU1ZNWsxek56bWZWdEFnRFllY0ZfMnJOM1loUWl4ZTdSa1BkUnIyaExWejJyMWRzMnNndG1raEhvRl9icDExdXF5RHhtcTBISUpFZWZFcTliVld2UDRxQQ?oc=5",
-      "desc": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "time": 1788454800.0,
-      "score": 66,
-      "key": "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training - The American Bazaar",
@@ -567,20 +552,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788468131.51514,
+    "last_start_ts": 1788468310.1462722,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788468131.51514,
-    "last_success_ts": 1788468131.51514,
+    "last_run_ts": 1788468310.1462722,
+    "last_success_ts": 1788468310.1462722,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788467956.9245365
+      "updated_at": 1788468313.5613363
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1265,10 +1250,16 @@
       "desc": "The latest AI-powered martech news and releases MarTech",
       "source": "MarTech",
       "region": "WORLD"
+    },
+    "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333": {
+      "time": 1788468310,
+      "title": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free - 24/7 Wall St.",
+      "desc": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -1284,11 +1275,12 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788467049.748359,
-  "last_publish_ts": 1788467952.9696836
+  "last_publish_ts": 1788468310.1462722
 }
