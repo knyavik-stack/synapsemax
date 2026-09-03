@@ -187,7 +187,8 @@
     "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": 1788436321,
     "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b": 1788436505,
     "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3": 1788436874,
-    "1ad3aa9c554a4439afe526260057e971ef1def3e64d83a6701af0e21a1dce572": 1788437081
+    "1ad3aa9c554a4439afe526260057e971ef1def3e64d83a6701af0e21a1dce572": 1788437081,
+    "f62fc27814dd7067df665c74f3b8e92dda4f91dfde782f08ac72e16156b565ff": 1788437328
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -291,22 +292,6 @@
     "f23f9d94a842c94290b0ab8f8175051771e3ddc8fbeba30743dd193a1cdc6fe6": 1788435785.18048
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Уволенные из-за ИИ сотрудники создали модель, чтобы заменить ею генеральных директоров - 24 Канал",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWlVCQ3NhMlJ2TDBVOUVSYmkzaDVUQjM0RUxSTllyZDU2THVsODdNYTFIbnB5WUJaaVZMcnFDNTkzTldVUk4ydjQySUNCZDRMQ0NjNlotUXhCblluNU43TXFFT21UUzMxNVJPUWJERWVNeUQ1ZE5aanI3VEhQdkJVQWVJN1J5bW1mX0xpbGNVVWtuNjhXNGJUbG1RUUhFS1k3alFaM05TNk0yZ0lwNG5EV004Q1NPM3RzLWRyc2hOR3cwQzRzdTB2WkNycHBRUGtv0gHWAUFVX3lxTE9XdVlmb0NabnhhRUFmRTJHWkR0LWwyaElmM0VBTi1sb20wenFlbHYtVzJDbUc1dlZXRWY4OHVVMEt0Q042MFh3MjhhYU1aaHRqYk85djJVV3RoZ0hVYWJWVWtsRVRxS3hOSjQ3S0tQdzdzN01ocGhPMjJwWS1GcTI5QXdIZEVXbURBNGtFRFJKZV94ZmJ3QWVDd2FaSGpPVmhjd0dWUlc2ei02NUY2NnM0ZXBzVExFbFZLWjFSdEdOeUN1UG5qRVV4UW1ib3hQMjBwRVUwVWc?oc=5",
-      "desc": "Уволенные из-за ИИ сотрудники создали модель, чтобы заменить ею генеральных директоров 24 Канал",
-      "source": "24 Канал",
-      "time": 1788433260.0,
-      "score": 69,
-      "key": "f62fc27814dd7067df665c74f3b8e92dda4f91dfde782f08ac72e16156b565ff",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Где получить самую востребованную профессию: Университет Вуллонгонг в Дубае запускает магистерскую программу «Прикладной искусственный интеллект» - Счастливые родители",
@@ -518,21 +503,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788437261.1295738,
+    "last_start_ts": 1788437328.2107553,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788437261.1295738,
+    "last_success_ts": 1788437328.2107553,
     "consecutive_failures": 1,
-    "queue_size": 15,
+    "queue_size": 14,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788437261.1295738
+    "last_published": 1,
+    "last_run_ts": 1788437328.2107553
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788437116.7635388
+      "updated_at": 1788437330.1448119
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -923,11 +908,17 @@
       "desc": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace IT Voice Media Pvt. Ltd.",
       "source": "IT Voice Media Pvt. Ltd.",
       "region": "WORLD"
+    },
+    "f62fc27814dd7067df665c74f3b8e92dda4f91dfde782f08ac72e16156b565ff": {
+      "time": 1788437328,
+      "title": "Уволенные из-за ИИ сотрудники создали модель, чтобы заменить ею генеральных директоров - 24 Канал",
+      "desc": "Уволенные из-за ИИ сотрудники создали модель, чтобы заменить ею генеральных директоров 24 Канал",
+      "source": "24 Канал",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -945,8 +936,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788435785.18048,
-  "last_publish_ts": 1788437081.1790936
+  "last_publish_ts": 1788437328.2107553
 }
