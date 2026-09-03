@@ -14,7 +14,8 @@
     "c26b0145afee546a9c0b92d3b9c32a7cb4775cd8e81df5590824d4e2b0a26689": 1788443832,
     "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": 1788444191,
     "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d": 1788444372,
-    "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb": 1788444560
+    "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb": 1788444560,
+    "f09fdc33e7929e5407420bc0aa9a159afd76ed2d872e4e44516089b4ecb44b62": 1788444920
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -55,9 +56,69 @@
     "b3537015e3790b0b8d78b4fbae1d09cec5d866123fdd3b385ad3ffb211a5eec3": 1788443111.2937322,
     "865a02468aaef68bcaaba2fe5e0c96d39d7655a2d562cb57e52578b934563bf8": 1788443111.2937322,
     "cdb16fd3382b806f84fc60747b5b659de6d31186321cc4208e452883e5c69831": 1788443111.2937322,
-    "1ad3aa9c554a4439afe526260057e971ef1def3e64d83a6701af0e21a1dce572": 1788443111.2937322
+    "1ad3aa9c554a4439afe526260057e971ef1def3e64d83a6701af0e21a1dce572": 1788443111.2937322,
+    "f09fdc33e7929e5407420bc0aa9a159afd76ed2d872e4e44516089b4ecb44b62": 1788444920.0279398,
+    "067ff2b7858a511d74315299ab45a6b2036d1ad18d6106b4c3ccf846484de233": 1788444920.0279398,
+    "570b54be4e560da272a60c59097bfe66916c4b162f3d49bcab0a36bd6df7fece": 1788444920.0279398,
+    "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": 1788444920.0279398,
+    "1ec145aa1aaedb78d678b8ede97f947426a47a517d4f411f85cdec55c219b03a": 1788444920.0279398,
+    "769ca16adde1203d6e35c22a1454d24bb2be5b25e205f1606026e611cb34357c": 1788444920.0279398,
+    "69fd40bfb462d1a44472cccef871c8fc850815d77f6abd5f3c7368f4a52a4272": 1788444920.0279398,
+    "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e": 1788444920.0279398,
+    "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c": 1788444920.0279398,
+    "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48": 1788444920.0279398,
+    "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a": 1788444920.0279398,
+    "7159550ca68c9090ab06d9885c58c8f86f9d7fad9ee3e51f58ef390953bddb1f": 1788444920.0279398
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "«Слетать.ру» запускает бизнес-подкаст «Прямым рейсом». Первый выпуск — про ИИ - Код.ру",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9STnFKRHVTVEdoOXo4QXZ1QTJCclB6LVV1ZzA5TGRDa2RxLWlPSzNPdkRoaTJiS2E2SGhjTi1SLXptd2RiZnY4NHhxS2lIRUp4UmN2c09lcm55OTDSAWBBVV95cUxPckwtM3htaWw2T0FxMFo4VWgxaHVucGdPMXgxaHBzSWIxWjExWEViaUJPQmhsOUFZUlNCN3doVUthbFBWOHY4eUgyekh2bGxfd21tY081Rm4yd0gydWwyVGk?oc=5",
+      "desc": "«Слетать.ру» запускает бизнес-подкаст «Прямым рейсом». Первый выпуск — про ИИ Код.ру",
+      "source": "Код.ру",
+      "time": 1788442657.0,
+      "score": 68,
+      "key": "067ff2b7858a511d74315299ab45a6b2036d1ad18d6106b4c3ccf846484de233",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Broadcom Custom AI Chip Revenue Surges 221% to $16.7B, Q4 Guidance Disappoints - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObFFDTWpoXzJPMHV0c3ViWVNkNEJkM1pic1FMVXJvTGNaSzFHVktjeE4wcDFmRFhVR1pkVHZ2SjRmakVMWUxsMmZEbGx6Z3RlOU1UNkhoMWZHbVBHTlZLQ0xxZGpRUzA2eVgyWURLTk9IUXZja0FQWThWQmtwRUhvT19fR0QxT212S0J2MjZtM1BIOUNGcV9LU3Z4NjdGdGNtdFl2Tm15UVVhUXNFVUxyTVpTSlJFUzdwWHZZWVg0SnU2d25E?oc=5",
+      "desc": "Broadcom Custom AI Chip Revenue Surges 221% to $16.7B, Q4 Guidance Disappoints Tech Times",
+      "source": "Tech Times",
+      "time": 1788438442.0,
+      "score": 66,
+      "key": "570b54be4e560da272a60c59097bfe66916c4b162f3d49bcab0a36bd6df7fece",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок - Московская газета",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnlESXV6ZE5jMHZUUnpXZ1M2dTdqZm5mQnE1a0FFb2FpaWt4U0lIcmpWdHpYNW9oUEdzV2p6ay1PUW5SSVBSOWlsLUwyeG4zVEhhLWNEcXFaLUlYdXcwSWRQZk1hYjRjc2tObmlhVXFuLUZDLVM3M2thUE1tdjl2aFJXQzh2aUhISHVaUWROMnU0U1ZONGpzVmlPb0ZnTy10bnVnRWxn?oc=5",
+      "desc": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок Московская газета",
+      "source": "Московская газета",
+      "time": 1788434837.0,
+      "score": 66,
+      "key": "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming - Fast Company Middle East",
@@ -91,6 +152,54 @@
       "tier": "A"
     },
     {
+      "region": "RUSSIA",
+      "title": "Nvidia купит Hugging Face за $12 930 300 000 - InvestFuture",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdS1Gc3pCSzlCTnRySFdlX0ZyVHB4cVdPMW84REgyRE11aFBGeHZCN3dDZzZzamd5S3RCYmVWUmhoNGxvNTNKbkVuaHJsekpEYTBpMHpBb01fU2VMeFA2b0xvY21HNkdKcHM0YlBfd3ZwMmVqUEluekM3LTd0T1dLdHkxcDNmdkk4aGNBdlN3?oc=5",
+      "desc": "Nvidia купит Hugging Face за $12 930 300 000 InvestFuture",
+      "source": "InvestFuture",
+      "time": 1788442508.0,
+      "score": 65,
+      "key": "1ec145aa1aaedb78d678b8ede97f947426a47a517d4f411f85cdec55c219b03a",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Better AI Infrastructure Stock: Nvidia vs. AMD - The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNd2dzdFFtcGdBZ2hKeVRRY1VfUXZ2T3VRYlB4bUNfdmhmSFZBdnFMVTNtZ1VHcHZOX3llb1VtNXVSLTkwTEs1WkNvenBlQmpsdmFsUlRmNWdKYmdYUnBZR2ZxWWQtTDdvVTNxWV92cXhnUEJYNGNDbHBELUNQZEd5b2RrZi1kOFBudGF4R3MydVFGSEVhdUx4NHFyX3I5SmFjU2p6VTdHcHo1S3dybUt2ajNnZmRBcUVHcjJZNV9ESWJsWWRkWXZ1WGh3?oc=5",
+      "desc": "Better AI Infrastructure Stock: Nvidia vs. AMD The Globe and Mail",
+      "source": "The Globe and Mail",
+      "time": 1788441881.0,
+      "score": 65,
+      "key": "769ca16adde1203d6e35c22a1454d24bb2be5b25e205f1606026e611cb34357c",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia doubles its sales, but investors have their eye on the future - Egypt Independent",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlVuLVJ3VHNsRTYwN1ZNWkVjQVV0OHNGWXh0SkRvc1ZicDBNclJaSFB6TEdlellvcVhwckJuaTJqSXJFM0dhZmkxRUd2MHZIZldVbVVTb3pVU2xIa3RKc3Q1ZUJqVXhQQUl5Sk5LcnptNjV6cnpIZ29mVm5DRzMxQTZyQjBtU18ydVQzRXBKNU1UamtXd0pxeVVXU2dYbnVJU3B3?oc=5",
+      "desc": "Nvidia doubles its sales, but investors have their eye on the future Egypt Independent",
+      "source": "Egypt Independent",
+      "time": 1788441525.0,
+      "score": 65,
+      "key": "69fd40bfb462d1a44472cccef871c8fc850815d77f6abd5f3c7368f4a52a4272",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "PlusAI to Go Public Through SPAC Merger With Texas Ventures III - Unite.AI",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTVyMkJSVi1SWW41ZkhjX0lIc1VGeUsyeU1DXzg1SlJrSWZ0ZTZMVVFXVzZGZGVyOTRhU2YyYndKeFJGQ1R0RktwVU0zS0dpY2w2V2JtbXVTMmZXSVJieUtrU3ZOenYxaGhMUVBHblJzbkpQQkFNVTRwd3lMdHoxaWYzaTFJaUM3Mjl5MTdB?oc=5",
@@ -105,6 +214,40 @@
       "tier": "A"
     },
     {
+      "region": "RUSSIA",
+      "title": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ - ГлобалМСК.ру",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pTXFIRG1sWG55LUFUUWFySFJrX0xKcXVlWHdHSWMyQlVub0lHZi1lTkhhYzh5V2RTcDNhWHB6UTVsbzlrSl9iWXlHMmQwTzA?oc=5",
+      "desc": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ ГлобалМСК.ру",
+      "source": "ГлобалМСК.ру",
+      "time": 1788429605.0,
+      "score": 65,
+      "key": "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "research"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики - gosrf.ru",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2std2NJRkZIUWVxOG1ZTUN5bjRLVS1nRURkbW5tQUwtZjZtM3dxODlnRFJYdnJTYUNXZ3JTVlpMNm9fX0hMWTdBN3pZcl8yQUpmb2IwdnhYakVwNUNteDhzcWF2VzdqdmtGdVZTdHJMNGN6X1h3b3htM1ZWcjdQcEw4RmU1ajVIOXkxalV2ODA1QWpiM1NnR0x0aFh5ZnlWaXlz?oc=5",
+      "desc": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики gosrf.ru",
+      "source": "gosrf.ru",
+      "time": 1788426046.0,
+      "score": 65,
+      "key": "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "applications",
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "3 Reasons Why Anthropic IPO Could Be Huge: ETFs in Focus - TradingView",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX1JacDFWVlktazYyR0g2NFNLcjV0Q3dQbVhjNVIxRElPZnN3ZDh6RjMyWURhaTBES1NEUUxXcDVYeUhpTUNuMlV6dEpPQjNUUTVIX2gzb0p1TWwxb2JuVGlvRm9QbFJlaFJsY1kxNzBndTZXaThpNmJZUDVhcS0wazlnVlc1UVAwZk95TWZGTFVaaHVicjE2VzNWTG9lY2R0LTVmYVBFRUpEMVozTFFRbg?oc=5",
@@ -113,6 +256,20 @@
       "time": 1788436800.0,
       "score": 62,
       "key": "865a02468aaef68bcaaba2fe5e0c96d39d7655a2d562cb57e52578b934563bf8",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики - Журнал Эксперт-Урал",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYm1kM2VkLTBZV25EQTV3bzVXUERENTVOQWNsQ1VWQWhoT1l3OVMwM3pRRElad0VTRUtUdGRIdWJlMXY0UzFGY2Jrc3pKSTFKTDhiVWJJZ2poM003U1BFMnJZbDBLNlpBeWxtbm1MU0t0THpLU0FweGF6ZW5Dcy1XTjZoalhLZ2lYVWt1UmR5eTB5SjJWSkQwLWFhUWkyWUNEa1VVMjlnbzhRYzk2OWxlektaQml4MHVid29rc1JkeU1pZkJPVVlOWV9JYVVrams?oc=5",
+      "desc": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики Журнал Эксперт-Урал",
+      "source": "Журнал Эксперт-Урал",
+      "time": 1788435292.0,
+      "score": 62,
+      "key": "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48",
       "importance": 62,
       "editorial_value": 50,
       "topics": [],
@@ -181,6 +338,20 @@
     },
     {
       "region": "WORLD",
+      "title": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin - ET Datacenters",
+      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNaFRnZWxjVGRVdUZJZnFrc3dOeEJDMF9RbVV1Vl9yNGJOMUw2WV9PRnR2VG9WUVF6dTNMQW5mYllHLTUycENORk04bU5XR3h2M1JtMjdVNGJGZEt4TURHLWFHeVRDSExEandtSUNQNnBZNkNsb3ZrMGt1bVJFRXBncktadVVsS1F1Q2V3UXpyOHFWa1BfdTJDZGxxMmY1Rno3MGxwdnNlTjdlRkJNWUk2d3otYm51SkZ3cDNkQWxHX2lOVGktS0JfMzREWjJTcWprVmZ1M2xQcTVvTnoyVEN6bWxaNWhDSG9IVTZtbVgwTWxEOEwwLTVlRkQzeGxWbGNSRzYxN2xyZl9jc3gwT3E4bF8ycGJFLThscTIxX0dqSFVmNGFwREpacEUxci1Cc1FoOHcwV1kyMm1sMTRG0gGLAkFVX3lxTE9fSU1zZDNIUzVqMXR6WDVERG9LUzFkX0FtXzdOT2xKUFJmT3VmdnJ1Y3VvdUNfSGVyQUJHcndGZ3lfbjQxQ2ZpbUwzY0VmQ1dOblkwcGpUSEJ4S3hoUjFScE1NMXRzR1F0WEhzWkJPUmtkSHJMbGdaRjhpRF9zSmhZNlZtWWRXWTREb2Rvak44aVduTElqMEFVSGJSVjROcF9wZGF6ZVhKQkNjRDl3LW5lbmV6N2dIRkpmbVRBT3JjRFhOM1U3dFBwZDhfUENuNGZheXZyY1JSemZDbk51OUFFLXlWemNGNUdwNy1QOTE4VGdJR3hpaGZpczVnMi1CdHRSbUw2NzZKOHIybw?oc=5",
+      "desc": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin ET Datacenters",
+      "source": "ET Datacenters",
+      "time": 1788428985.0,
+      "score": 61,
+      "key": "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a",
+      "importance": 61,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace - IT Voice Media Pvt. Ltd.",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUWJBNjVUc2VZNllvekx5Z2d0LTd3cTZ5OHFpU2xNMlNRTjBDNjIwR25ySjNTU3ZwQllnRXc4M3IxTDZDUFdvU2FnOVNKM3hLYkZjRVNyRTRhME9WU3RRTzJnNlN5eXU4MjJZZ0dRSG9GdDBtTjFpSVA1bmZwc0Z4MFRvbldXNlE5RllOcXphMUp2ZVdkN0V6enZOR0NiUQ?oc=5",
       "desc": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace IT Voice Media Pvt. Ltd.",
@@ -195,39 +366,23 @@
         "tools"
       ],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Попов: будущее бизнеса — в генеративном ИИ - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94QzNVYUJHTk1yVXRXSVF1LUNnTTBxRVg1MGFGODdXWHRKdVVRYUVSTGhReG01d1VRQ21EMmpwdXZMazJ4ZWxrbmx4cEZzZw?oc=5",
-      "desc": "Попов: будущее бизнеса — в генеративном ИИ kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788423746.0,
-      "score": 61,
-      "key": "ab440e6340b912e40e8f5463699dfc257d0772627916db126157a2b753fb57b7",
-      "importance": 61,
-      "editorial_value": 50,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788444733.708874,
+    "last_start_ts": 1788444920.0279398,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788444733.708874,
-    "last_success_ts": 1788444733.708874,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 10
+    "last_run_ts": 1788444920.0279398,
+    "last_success_ts": 1788444920.0279398,
+    "last_candidates": 16,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788444562.946514
+      "updated_at": 1788444931.451761
     }
   },
   "stories": {
@@ -335,6 +490,13 @@
       "desc": "Нейросети для работы: топ ИИ-сервисов rbc.ru",
       "source": "rbc.ru",
       "region": "RUSSIA"
+    },
+    "f09fdc33e7929e5407420bc0aa9a159afd76ed2d872e4e44516089b4ecb44b62": {
+      "time": 1788444920,
+      "title": "Figure Commits $3.5 Billion to Nscale Compute on NVIDIA Vera Rubin - Securities.io",
+      "desc": "Figure Commits $3.5 Billion to Nscale Compute on NVIDIA Vera Rubin Securities.io",
+      "source": "Securities.io",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -352,8 +514,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788443111.2937322,
-  "last_publish_ts": 1788444560.59912
+  "last_search_ts": 1788444920.0279398,
+  "last_publish_ts": 1788444920.0279398
 }
