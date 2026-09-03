@@ -291,9 +291,74 @@
     "5f88f9742669cbc49af1741e4b7336a3dee31c41297044910a00ac6a3bfc482d": 1788435785.18048,
     "08df6bc9fe9e77e2ef898ec4ea6903ce2ff4d13c11fefa15224949bb1a2b273c": 1788435785.18048,
     "c684118b389a4c220398e17b84ee6ec4e5dfa79a61bbc0aadfd970dfaaacf937": 1788435785.18048,
-    "f23f9d94a842c94290b0ab8f8175051771e3ddc8fbeba30743dd193a1cdc6fe6": 1788435785.18048
+    "f23f9d94a842c94290b0ab8f8175051771e3ddc8fbeba30743dd193a1cdc6fe6": 1788435785.18048,
+    "0522b665b47f28e40bf6660f381d48af0f84ba4a98bb8427b8f3701c61a68ac3": 1788437619.555675,
+    "dfb412338da19126c5aa02674932cbe49f60c2eba7c12ea1c320bf154c73f902": 1788437619.555675,
+    "6f987a138b348377747d5d4d9a6f95777f10560723c5c86f699b8628ec2b5cbf": 1788437619.555675,
+    "afdefc0ffa385f73fbdf776053b93711c3f10c6ac83c4f6feb9063579cd2dcd8": 1788437619.555675,
+    "01d6641aefded09d7f1a3f9f4724d180df9c7aad3fef0af2a49a44c0c28af04f": 1788437619.555675,
+    "d947bc85e51fa54f88da1cb19dae86f04ef9a6423c71f1ebc59f9b258e6122ce": 1788437619.555675,
+    "6f4f232697367d24ab3c44bfaa54034aa92515043d130b9356c9e5710ee1f95c": 1788437619.555675,
+    "1035e869b6667c9b7f7a5e6379378103f491fa3fcdd04ade55e9ccae5cc03fba": 1788437619.555675,
+    "951e56ef181fe824c96ba7462c917ee84a23f21eeaf97d78733c9cc6d6a9e8bd": 1788437619.555675,
+    "7c00cccfb6582c4281e79f3022be14a3434a2e06719e89869402bb889f137350": 1788437619.555675,
+    "a101ef6b9a4f1a92e24ba064ae4c1d9a1fbee787bf484e393dd257133ee1c6ab": 1788437619.555675,
+    "f17b0c2ea3b414152385e466b45071c291333fd02e158c8f154840721249070a": 1788437619.555675,
+    "d3f0fe219f3db1d2d49f0137f096e1d79bd57d13d65dbe1179e7c4b09bbd291a": 1788437619.555675,
+    "a0dce6a966c49aa0429dff855205e63a15696b52a8df7598f945fa33a8da74cd": 1788437619.555675,
+    "36cfa3624db59581bba8b5e5620fe5ebf222209f9c7c7176ed2531e6f899c66b": 1788437619.555675
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules - ThePrint",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUGp0ZWtkU2NFOEpoOFF6WmtockM2THBseXFLZjVSc1NMT1I4cXBRYjRKOUdvSlJYRGFabTQ5UTBrempsem55NkZVRk1pZ1pZS1ZPMWRVSXYxLXh0N3B2bUZna2V2OFlQZUF2clNtSjFjWEg2LUJMaWI1STlkZkVPeW1rRjNRMGVRVkZOSHpVcTQ4T05KWEhtX2hrejNhNkJVWFEyMUduYVFHWHB1elZMWmJ2SXZua24xR2NPOXJoR1VLZDdVSGJVX1hXSHpIQWvSAdQBQVVfeXFMT0luUHpyNUFCS3JaT3NiaS1hLVo5dW82NlhfTU5ITWl6Qk12NGdvcG5ubVJQSEJDQU13Mm96UVVnemx5amhaTTlhMzZSXzFDQ3d0NVhDNk8xSmQwMWVUaGtpTHNtZFYwMTgtYWJKNGpObjVOX3czWmpLWC10eWVXRW1sYThSNDJwNGZpWXVJZlpCYlAwNnNlZ211TWxteGZXUmszRndmWXpDVzlWaHUya1FYcDRWWllPU2ZSVlo1Uk1Ba01sM3F0TF91Q2RPS2JYcHo2d3I?oc=5",
+      "desc": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules ThePrint",
+      "source": "ThePrint",
+      "time": 1788434662.0,
+      "score": 72,
+      "key": "0522b665b47f28e40bf6660f381d48af0f84ba4a98bb8427b8f3701c61a68ac3",
+      "importance": 72,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic Slashes AI Costs with Release of Claude Fable 5.1 for Enterprise Workflows - streamlinefeed.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVTkwdVl2T3d3cHlVdldscHdtT3BkWkJqc1VEU2JPbzhwRWk2OTBXM2p0Q0xYYXNkYVBGTnQtVmY2X0VlQ2ZvVndISW1TSmxUUUZKQk5obks2U0NEMGMyZ3M2M0JKYUIxZC1xMWhpTWhrSjM0YmExRG1PN1NDdUEyN0FsUjNlTFRtQnJwUUxWWUtDM0tOdlhsZkgzc0JfamV5SDM0S0FiZmNhQQ?oc=5",
+      "desc": "Anthropic Slashes AI Costs with Release of Claude Fable 5.1 for Enterprise Workflows streamlinefeed.co.ke",
+      "source": "streamlinefeed.co.ke",
+      "time": 1788431754.0,
+      "score": 72,
+      "key": "dfb412338da19126c5aa02674932cbe49f60c2eba7c12ea1c320bf154c73f902",
+      "importance": 72,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "New approach to enterprise LLM governance: unified intranet gateway control to eliminate exposed API keys and data leakage - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ObUdaWENVbWpXdExPX09JYWx4MktkZXE4TkY3czl1MDBpb3ZrcVpTMkNmQWZTVkFtQ1dnU01ZSWZZekdjdHlKQ3FSUUFNVzI5VHF2U0EzbU5tT3A0S010VHNHaGgwamwtVjE4WmJGM0ZkU2ZqMFE?oc=5",
+      "desc": "New approach to enterprise LLM governance: unified intranet gateway control to eliminate exposed API keys and data leakage finance.biggo.com",
+      "source": "finance.biggo.com",
+      "time": 1788434760.0,
+      "score": 68,
+      "key": "6f987a138b348377747d5d4d9a6f95777f10560723c5c86f699b8628ec2b5cbf",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Путин напомнил о рисках при использовании ИИ - science.mail.ru",
@@ -322,6 +387,20 @@
       "topics": [
         "agents"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Moonshot AI Targets $3B Hong Kong IPO at $50B Valuation - Blockonomi",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjB3YWFIN0RYNGtYdG53TEVkeU0xVUpXS1p6SzhEVUN6eGJUVjNGbkZXbHBXMURmWE50NzJDQWhlUV91azY1SnREZWpSTm9XVkJGU0U1UUpSZG5GWXJVRW9POTVmM0VtbVl1MmhTQll6SmlNc096ZWhqWjFyVkdoVkdOZw?oc=5",
+      "desc": "Moonshot AI Targets $3B Hong Kong IPO at $50B Valuation Blockonomi",
+      "source": "Blockonomi",
+      "time": 1788436286.0,
+      "score": 65,
+      "key": "afdefc0ffa385f73fbdf776053b93711c3f10c6ac83c4f6feb9063579cd2dcd8",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -382,6 +461,38 @@
     },
     {
       "region": "WORLD",
+      "title": "Tokenomics - how Salesforce wants to avoid 'cutting enterprise butter with a chainsaw' when it comes to pricing AI - diginomica",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONmkwaDN3VU5Fal9GNmxhRzZ3WWFiTUFPdDk0bzU1M0dDNnctdG9WeXRfMGttSXgyMURqaVBoZ1AwY2o3Wi1VeUJJMXdEcG5mTThnc3ROcDhNcUwzSTlyTVk0N2ZKVVhZRDV5cGhTMTNPdEtlSVBvTUd4aHE2ZWI1ZFRXZ0lTb2tqcTdQMlBwSFcybThXdEwySC1OdUdNYkViQXR6UmFXRFZoWlJycUF2WmluZEtHVnktZVdhVA?oc=5",
+      "desc": "Tokenomics - how Salesforce wants to avoid 'cutting enterprise butter with a chainsaw' when it comes to pricing AI diginomica",
+      "source": "diginomica",
+      "time": 1788431060.0,
+      "score": 65,
+      "key": "01d6641aefded09d7f1a3f9f4724d180df9c7aad3fef0af2a49a44c0c28af04f",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Siemens Healthineers showcases its AI-powered technological innovations to redefine healthcare delivery in Southeast Asia - ANTARA News",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVWZ0dmtUb0o1TEV0TEptOTdVUHdFbWoyS1NBcXFFUnUzWFZVREVhZU5VQjROOWxjM0ZMMWl5SjF4Uk4tRUtkMWxEZjFicDhRSW1FVnRwT1ZwWkpGSjE3WjZQUXhKVlE3RjFxQndpV0JkU180LVEtWF9TWUVEc1RGcTdpQ09jbC12b3c5dzFPTDluWmdhNkRGMThVc1p5ak1mcm1zazBVNVROOHJfTnppUnRxNHFRaXBTQWsyMG5LUFp6b3p4VVpzSzM4RmpEVElEbFF2YjkyUFNiS3hta1oxQWppRHo4LVg4ejY5Q2xFM0c?oc=5",
+      "desc": "Siemens Healthineers showcases its AI-powered technological innovations to redefine healthcare delivery in Southeast Asia ANTARA News",
+      "source": "ANTARA News",
+      "time": 1788430732.0,
+      "score": 65,
+      "key": "d947bc85e51fa54f88da1cb19dae86f04ef9a6423c71f1ebc59f9b258e6122ce",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "OpenAI Develops Automated Shutdown Tools for AI Agents - Dainik Jagran MP CG",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ29FUUlHd1RlcXItek80QnFFcnFlczk1Vkg2TGE5eTNHUHllV01zMWdzVmNFWHNlNzk0Q1R0eC15TGZrVno4N1hFaTNuemNacW5mR2lEeko3UHhjOTAyNmZUZmtGRDctY25nd0o4cFY0X3I1OW44YWxvME1NZFZzX2VSNl9naU1LanJNdE9UYU11UGNaWVFCbEZacUxXM1BZUW15VUpzWVJIWFEyajdySklzSC16MFU?oc=5",
       "desc": "OpenAI Develops Automated Shutdown Tools for AI Agents Dainik Jagran MP CG",
@@ -403,6 +514,76 @@
     },
     {
       "region": "WORLD",
+      "title": "The Illusion of Diversification in the Age of AI - Penn Mutual Asset Management",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNmhPTHlOUEFJeXRhTXN1RlF2S0pNOWkxNEEzM1VxYUM4eDdkcmx3VjBVdGoxU2lmSzF2REtIWS1Ca0loZVB0QzFpbk43RlhGdFdKSTdKeHVKWkZFY05ESjJoNHhGYjFVa2dSZF9YbEZlbDA1VV83bVpDTHUtdHd1WGJweXdjSG4tRmNJaTNIazBoakZSNnNrVjgtdXQ4YS1YSE5FWnkyR2p2dnFCYXk2VmFtblZ1NUw0dUdVVDd2b0MyamMyTWlEWVVWMkJGQQ?oc=5",
+      "desc": "The Illusion of Diversification in the Age of AI Penn Mutual Asset Management",
+      "source": "Penn Mutual Asset Management",
+      "time": 1788433441.0,
+      "score": 62,
+      "key": "6f4f232697367d24ab3c44bfaa54034aa92515043d130b9356c9e5710ee1f95c",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Wyoming must lead in the AI revolution - WyomingNews.com",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZHlpSG9memVFS2V0emZvbEkxaTBCbDZNM1pIYTB4UDB6aDBHTk1Ia3BiejlJQWppc09nRkpNY2F5ZUhMZ0RKRjRvbmZjQTN2T1FrcGVfcWQyTUxnOHFpNE9Dd21sbGNvRjJJenlBTE96R2xjUHYtdS1DQXZEckJjQ1VpUFBlMFFqS1JHa3Ewb1YzMFk5b25UamxaaWc3UEtEaTZFVUgyUFBhNGhuNFZQWWFjOXlLTmlkSy00NWU5ZkdGdmptUjI5Tl80UG5CTGlxNXNVcDhGRzM?oc=5",
+      "desc": "Wyoming must lead in the AI revolution WyomingNews.com",
+      "source": "WyomingNews.com",
+      "time": 1788433200.0,
+      "score": 62,
+      "key": "1035e869b6667c9b7f7a5e6379378103f491fa3fcdd04ade55e9ccae5cc03fba",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google Wins Over Berkshire: Greg Abel Hails Alphabet’s AI Muscle - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRGRSV1NMVnZLSlg2VkJqQnRTNDc1V0s1X19YNktocXRuekJMZ1h5dmRWOE10TnM2VGdudldoTWRyc3VlLXI3WVJZOHA3VFV5OW95R1pZZnlVaWtNM0hlTmhjZTF4a0tOcEVTM0Z4Qm1oai1zc0V0VG9zZGNpaUdmN24wMG5FX3I3RUN5QUFvUGk4WUNBVUp1TnpBRQ?oc=5",
+      "desc": "Google Wins Over Berkshire: Greg Abel Hails Alphabet’s AI Muscle Yahoo Finance",
+      "source": "Yahoo Finance",
+      "time": 1788432371.0,
+      "score": 62,
+      "key": "951e56ef181fe824c96ba7462c917ee84a23f21eeaf97d78733c9cc6d6a9e8bd",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Do Z.ai and MiniMax face different financial fates months after Hong Kong IPOs? - South China Morning Post",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcDhITU1ESG1UVlc5VE5JQTJBaDlBc2otaEZmN2dNdkxkdkFMNDN1R2NVV25rQzlmZHVGd2p4bFc5Yi1SN1NEamdLNWdTWm96Q1lFbmRnX2dBVF9SREYwcDZMYXFERkZ4WnF4aDJQa1RNYzBYRkpJbVVNMDZmYm5STFpDQjFyOXBDWDdtR094R2Zwd2xJRmNNV0ZaMkNVak13azU1cll4MmQtT0xMTHRuQ0NQZGNydHNBelJEUnpMaGUxV05ERG1GcTVacGxnZTU5dkF6S3Jn0gHWAUFVX3lxTE1INlZiWkJpbXBmVEdMZEthMG1tVDV2NkhVRExadEtzVWxHV1VCSzRYNjNxRGNJT01IbFQ5aU1hSzJfQTg1eVlMc2hoTC14VzU5T2Y5clhzSHo2R0FZVTAxVXNmYXNGTU9JQ19ZSlJCVnRsV21URC1EX21CeEdPZmJNbEJxQ0JPaG9GLU9rZmZpS0lTX3k1OVlvQktCT0t1X2hGdFVWdjRWYUlVd3Jyb19MSUI3T2FOc0JraWtmNk9uRUlucEFOTWlOZm1FektDa1F6aEY2UUE?oc=5",
+      "desc": "Do Z.ai and MiniMax face different financial fates months after Hong Kong IPOs? South China Morning Post",
+      "source": "South China Morning Post",
+      "time": 1788431939.0,
+      "score": 62,
+      "key": "7c00cccfb6582c4281e79f3022be14a3434a2e06719e89869402bb889f137350",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Uber’s Restructuring Shows Where AI in Logistics Is Really Going - ARC Advisory Group",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVld2dk12Y2d2bUpDSHF0SDdyY0d1U195TXBTb1l5aXpDMkNUYnMweFpuRTI2SlZnRXB6d2ltTFp2Z0tLbEMtRVhLdzV1Y3JuS0cwSE5oMFBsVjItTGJtVHpfNkhTVXJiU05EU0JlVm9nSGEwSThQTUFmeWlER2k5ZmFPWUotcDJmYjdPcU9B?oc=5",
+      "desc": "Uber’s Restructuring Shows Where AI in Logistics Is Really Going ARC Advisory Group",
+      "source": "ARC Advisory Group",
+      "time": 1788429409.0,
+      "score": 62,
+      "key": "a101ef6b9a4f1a92e24ba064ae4c1d9a1fbee787bf484e393dd257133ee1c6ab",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "NYC Mayor Zohran Mamdani Bans Student-Facing AI for Nearly 600,000 Kids — Here's What the New Rules Mean - Benzinga",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ25rU2IySEdFeklwNjFwaWktQU9XOFpPOUxwRmlUSFNQMU04MmtObm1iRXNELWROR21NN3djTEh3aUJFa202QTNnRHJTY2Jva3BuTk5hYV9nVVY5UjE5VjBFaS1USVZ6X0g2aTlBQzFvbnY2WnlCWkx1QzNvSXRmZ3hvXzN5SVdNZFZ5OWVpd2lkdE5E?oc=5",
       "desc": "NYC Mayor Zohran Mamdani Bans Student-Facing AI for Nearly 600,000 Kids — Here's What the New Rules Mean Benzinga",
@@ -416,76 +597,32 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Anthropic Plans Customer-Controlled AI Monitoring After Data-Retention Pushback - WinBuzzer",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOElPbGNIcmU4cTd6czJyVV9NOXlxLThvRS1hcjdSd2ZNbXpZYndSYUhDanpsQkY3aHI2d3g3N0pVekUtNV9YNWF6S3ZwY2xtOW44bUdKVGM3cHdpdklKTjcxSUhzeTlOZXE2MWhOVHNoRjdjVG1yUG83WmtLRWdlRjVLS1VoMlJmb1N3al9MRlZMN25Hckk0TGFfYU9td2dHLTI0ZG1hRjdIOTZpOFJGTnN5cjBjZ1dNaGdQOA?oc=5",
-      "desc": "Anthropic Plans Customer-Controlled AI Monitoring After Data-Retention Pushback WinBuzzer",
-      "source": "WinBuzzer",
-      "time": 1788427158.0,
+      "region": "RUSSIA",
+      "title": "FESCO и ДВФУ будут совместно развивать информационные технологии и искусственный интеллект - Атомная энергия 2.0",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxWGNsQWhkMXY4dmJaRHJHVjI4SGcyYUV1cDg0OGU1V1hrNDZ3THZCMHJkVFFYR2hFZDFsWWZKWDlub01aWDZGNDdGazVLSGdTaHNXVlZxejVWWDhMSkEtaA?oc=5",
+      "desc": "FESCO и ДВФУ будут совместно развивать информационные технологии и искусственный интеллект Атомная энергия 2.0",
+      "source": "Атомная энергия 2.0",
+      "time": 1788427829.0,
       "score": 62,
-      "key": "0368ca1af80539ef22817a7021e59fcfc4291d33aa20629f71d49ba9f5ebb030",
+      "key": "d3f0fe219f3db1d2d49f0137f096e1d79bd57d13d65dbe1179e7c4b09bbd291a",
       "importance": 62,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Indonesia risks missing AI boom without shift into tech manufacturing - AMRO - TNGlobal",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVVgtYTQyY1Q1ek9OclRUSktZaTAxbDdMOTZ2dTJfcGhqRHhYTzFOQ2l0d3hvS3lFYU1FV1J6NEpQeUY3SEktcWJGU2ktUlpMVnYwcF9kMWdqcXNMWjdtQTJnWW02SjVoSVc0eGhEMUNRSzRkRjRlX0VhSHE0RDBubGdlMEhKVjFCOXJLRk9TRUpSc0JfVXY1dkpUWC1kcS1GejZYSGRsenQzMDZoSWRn?oc=5",
-      "desc": "Indonesia risks missing AI boom without shift into tech manufacturing - AMRO TNGlobal",
-      "source": "TNGlobal",
-      "time": 1788425763.0,
-      "score": 62,
-      "key": "d192c49761c2ca82c2a54098b29b7f4df330c1b01bb20efb9afe897a2d6ef551",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Altimetrik wins AWS generative AI specialisation - channellife.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdExBYmlrem9GbXlOX2hPSzIyRlNRaU42OWV5ODFmYXBHLXBpWTdwT3hqT2h6LUljX0hUUk9yTUd6WmN1WjBHakMxeTdhNUs3YTQ5SjJjRlVfaHNUQXRicXA0YjZVVnZXa292czBoUFQyYWltaUtaYjk0akdTSGZDdUhERUpQZWM?oc=5",
-      "desc": "Altimetrik wins AWS generative AI specialisation channellife.co.uk",
-      "source": "channellife.co.uk",
-      "time": 1788424200.0,
-      "score": 62,
-      "key": "6c22bdc93209fe1ece44505419606e5a63fa48b6682ef0be01f67cca633c0d11",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Imaging artificial intelligence vendor Elucid raises $55M - radiologybusiness.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcndrQzlZZThCdkRCUGdNZWgzRzQ1WG9JLU5RQ1BLeU00QkRCR2ktN3lrUzBDNHkyNWlhRmh5SVVpeVUxUEg3dTU3OG5paGdzOXdBLUlZbmd3UjFBTTItMUdrWl9ISmY1NEJWMmtvU2ZKVXNVSllac29jamhUQ29LclI4NTF6NlgxUGxOS0pfRDYtQklrTWMzVW11QXdFNFcwT3BNT0tOZ25TNjZFbE1IQlFlNFJHT2Q0?oc=5",
-      "desc": "Imaging artificial intelligence vendor Elucid raises $55M radiologybusiness.com",
-      "source": "radiologybusiness.com",
-      "time": 1788415397.0,
-      "score": 61,
-      "key": "f23f9d94a842c94290b0ab8f8175051771e3ddc8fbeba30743dd193a1cdc6fe6",
-      "importance": 61,
-      "editorial_value": 50,
-      "topics": [
-        "business"
-      ],
       "tier": "A"
     }
   ],
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788437559.8263443,
+    "last_start_ts": 1788437619.555675,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788437559.8263443,
+    "last_success_ts": 1788437619.555675,
     "consecutive_failures": 1,
-    "queue_size": 12,
-    "last_candidates": 0,
-    "last_published": 1,
-    "last_run_ts": 1788437559.8263443
+    "queue_size": 20,
+    "last_candidates": 51,
+    "last_published": 0,
+    "last_run_ts": 1788437619.555675
   },
   "providers": {
     "GEMINI": {
@@ -927,6 +1064,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788435785.18048,
+  "last_search_ts": 1788437619.555675,
   "last_publish_ts": 1788437559.8263443
 }
