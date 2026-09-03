@@ -354,15 +354,14 @@
       "desc": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы RB.ru",
       "source": "RB.ru",
       "time": 1788448772.0,
-      "score": 67,
+      "score": 65,
       "key": "fd700f2017564779e5b5f62708e2322272fd9e63b05613d91f2fe5e4cf8377f6",
-      "importance": 67,
+      "importance": 65,
       "editorial_value": 50,
       "topics": [
         "models"
       ],
-      "tier": "A",
-      "russia_weight_bonus": 2
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -371,15 +370,14 @@
       "desc": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы Korins",
       "source": "Korins",
       "time": 1788431473.0,
-      "score": 68,
+      "score": 65,
       "key": "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37",
-      "importance": 68,
+      "importance": 65,
       "editorial_value": 50,
       "topics": [
         "business"
       ],
-      "tier": "A",
-      "russia_weight_bonus": 3
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -388,16 +386,15 @@
       "desc": "Модельный бизнес: «Яндекс» запустит ИИ-решение специально для корпоративного сектора Forbes.ru",
       "source": "Forbes.ru",
       "time": 1788424200.0,
-      "score": 70,
+      "score": 65,
       "key": "11c9400610e35397f4be118409236aa995cc5c2bd748bf6b585d444cdd527700",
-      "importance": 70,
+      "importance": 65,
       "editorial_value": 50,
       "topics": [
         "business",
         "models"
       ],
-      "tier": "A",
-      "russia_weight_bonus": 5
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -421,13 +418,12 @@
       "desc": "«Ростелеком» предупреждает: кибермошенники вовлекают подростков в преступные схемы с помощью ИИ РИА Калмыкия",
       "source": "РИА Калмыкия",
       "time": 1788444037.0,
-      "score": 67,
+      "score": 62,
       "key": "5d1178d9bcfea5f83b482b70bde9035e03008b98ae7d69dd641c06ba10ef7046",
-      "importance": 67,
+      "importance": 62,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A",
-      "russia_weight_bonus": 5
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -436,13 +432,12 @@
       "desc": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов Компьютерра",
       "source": "Компьютерра",
       "time": 1788441726.0,
-      "score": 67,
+      "score": 62,
       "key": "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84",
-      "importance": 67,
+      "importance": 62,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A",
-      "russia_weight_bonus": 5
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -468,15 +463,14 @@
       "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
       "source": "prospect.com.ru",
       "time": 1788435631.0,
-      "score": 65,
+      "score": 62,
       "key": "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f",
-      "importance": 65,
+      "importance": 62,
       "editorial_value": 50,
       "topics": [
         "chips"
       ],
-      "tier": "A",
-      "russia_weight_bonus": 3
+      "tier": "A"
     }
   ],
   "health": {
