@@ -74,7 +74,8 @@
     "1865e6c67e785da0de065ab726adee65934efaf0f407e59b14c0bdd529c71426": 1788460570,
     "5671c6119d1b96af084be80f60b50d6dc60199f4117dbdcc8162aced75d40da2": 1788460752,
     "3911462b883e26d2ae2ed2d5d2ad028fe824c367d3940a2c5523085a9993ba57": 1788461112,
-    "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": 1788461293
+    "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": 1788461293,
+    "d9dde870ce0b915fcd2deb417cba169542659f50df388b026119b0f2b62c3430": 1788461651
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -313,24 +314,6 @@
       "editorial_value": 50,
       "topics": [
         "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "20-ядерный процессор, графика на уровне GeForce RTX 5070 и 128 ГБ. Nvidia наконец-то полноценно представила платформу RTX Spark, первые Windows-ПК — уже в октябре - ixbt.com",
-      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPTlcwcTZHTWRuR0Jfc29YTVVTREZjT04zemp5QUNTMGc2OXl4T2N6b1c4c3JDNFB6UHJRVmJPNFFYUmg1Vm5yRU1vSTZvLWI5dWY3Mi1ONkNkeFpTSUtUYTAyV3E0NmR1MTNRZnVoUHBiRkY5SXVuUHdOR3pLMVctdUFERnBfMi1FRVJnNEV0dDV2SW5pcFNKbUpnbVpWQzF4ZkRkM2RqTHZFNlRQUjNnNk9kUkRuZ3lPUm1xZ1dYNFM2T0Zva1BvTy00R24xYnpXQThPdjNhbFBoWGNxd1BaXzhBRHZXZm9ESkMxS2ZtX3VyLUl5dDNXYmZaYjl5aGVGb1VPQkdnSzBRSVdQZkJvNlhDcWY0UW5SWTRSSmZObUVQUlR3dEd2bjFITGhQdXJSNHfSAbcCQVVfeXFMT2c0RW5hOVFpRW9kN09Ial9QNHByME41U0N0eXV2TzBQOGpTMG1vZ2VUWm5LR0hHU29ERkdMSnAtdHRBLTRGV2RGSG80MjlsVk9LcnJ2TnJMUzQ0UVRfUUZ1bkd0dkVyWWJJRXBsaUJfeTdoTU5kbXFiTkdYQnNWalJCdUVoWjZXT1JYaGJLTXJnYkx2MGg0T2RCTG1iZHp1d2JoZEJtM2lISkJuWml6ZUxfMFZJaGh1VnI0MElYVGJZdmIyeWFMX2pBVTZrMmVmQWxFTlQ3Qm5EUlN5S2ZFLWZrbGdzM0w5alRDdUFOa29qeS1xSzZzSTUzeC1XUk5kQ2JESU9KZTZUUzVYamxITV80NmhZUFNKZHpqUDI0aGJHTkdXcG1ZTm53c1BveWZ2QlhRbE9tUTQ?oc=5",
-      "desc": "20-ядерный процессор, графика на уровне GeForce RTX 5070 и 128 ГБ. Nvidia наконец-то полноценно представила платформу RTX Spark, первые Windows-ПК — уже в октябре ixbt.com",
-      "source": "ixbt.com",
-      "time": 1788452685.0,
-      "score": 69,
-      "russia_weight_bonus": 2,
-      "key": "d9dde870ce0b915fcd2deb417cba169542659f50df388b026119b0f2b62c3430",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [
-        "chips",
-        "tools"
       ],
       "tier": "A"
     },
@@ -587,20 +570,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788461470.2723906,
+    "last_start_ts": 1788461651.0375614,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788461470.2723906,
-    "last_success_ts": 1788461470.2723906,
+    "last_run_ts": 1788461651.0375614,
+    "last_success_ts": 1788461651.0375614,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788461314.6457539
+      "updated_at": 1788461655.1564808
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1138,10 +1121,16 @@
       "desc": "OpenAI claims it has overtaken Anthropic with latest AI model Crypto Briefing",
       "source": "Crypto Briefing",
       "region": "WORLD"
+    },
+    "d9dde870ce0b915fcd2deb417cba169542659f50df388b026119b0f2b62c3430": {
+      "time": 1788461651,
+      "title": "20-ядерный процессор, графика на уровне GeForce RTX 5070 и 128 ГБ. Nvidia наконец-то полноценно представила платформу RTX Spark, первые Windows-ПК — уже в октябре - ixbt.com",
+      "desc": "20-ядерный процессор, графика на уровне GeForce RTX 5070 и 128 ГБ. Nvidia наконец-то полноценно представила платформу RTX Spark, первые Windows-ПК — уже в октябре ixbt.com",
+      "source": "ixbt.com",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1160,8 +1149,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788461293.6977568,
-  "last_publish_ts": 1788461293.6977568
+  "last_publish_ts": 1788461651.0375614
 }
