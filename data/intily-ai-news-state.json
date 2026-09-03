@@ -6,7 +6,8 @@
     "70f88db677452620741ee0c79cd061c74c42503b1583a416be221a6a78024a52": 1788441565,
     "4cc8b0e431df57408e6ccc8bd1ca52ab790bb88cdc59c4216da89ea474677d17": 1788441858,
     "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788442220,
-    "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": 1788442570
+    "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": 1788442570,
+    "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b": 1788442761
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -65,23 +66,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 2,
       "next_retry_at": 1788443170
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYUxYLVBhNHJEZlJTaldyeVVqaXBDSGpXU3BCaDFlYjMxWGNkMHFRd0habEQ5bjhHZ09VY2tZZHVxNEl4TmQ5REN5dU1ySTE1SEZQWjZyc0kzbGk4VXF4c3doQzdPVjFQYkc0dE55OTZUelF3cDhZSU5fYVUzMTB4S0EtdDB0SVJmNjN3X2V1Q0J5akpFR1paWm00c2dhNTEycjJjc1AteDVWTGJRdjRWV2ZPTDBvZkct0gF7QVVfeXFMTlpEczJsZFh1V1RHWGZLUEJQcTVWaVJzeElzc0c0MmJnbEhqQlRBX0F0LVZXOTdyUXdrM3p3bEViTnh2QVZ3aThnYzlScFpITEdCZ1lodEV1a0JmZGdYN1U5Z3BzUHNVOHE3TlNoY2lGZUw5SWFZQm9fOUI4?oc=5",
-      "desc": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788431041.0,
-      "score": 69,
-      "key": "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [
-        "agents",
-        "business"
-      ],
-      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -251,20 +235,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788442570.3108702,
+    "last_start_ts": 1788442761.6812854,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788442570.3108702,
-    "last_success_ts": 1788442570.3108702,
+    "last_run_ts": 1788442761.6812854,
+    "last_success_ts": 1788442761.6812854,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788442610.438352
+      "updated_at": 1788442764.5225875
     }
   },
   "stories": {
@@ -316,6 +300,13 @@
       "desc": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption openPR.com",
       "source": "openPR.com",
       "region": "WORLD"
+    },
+    "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b": {
+      "time": 1788442761,
+      "title": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов - companies.rbc.ru",
+      "desc": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -325,8 +316,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788441220.4962823,
-  "last_publish_ts": 1788442570.3108702
+  "last_publish_ts": 1788442761.6812854
 }
