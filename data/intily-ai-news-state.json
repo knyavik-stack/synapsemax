@@ -210,14 +210,14 @@
       "next_retry_at": 1788427144
     }
   ],
-  "last_run": "2026-09-03T09:11:12.330129+00:00",
-  "last_published": 1,
+  "last_run": "2026-09-03T09:13:14.362127+00:00",
+  "last_published": 0,
   "health": {
-    "last_start_ts": 1788426661.9306133,
-    "last_status": "OK",
-    "last_error": "",
+    "last_start_ts": 1788426782.4430475,
+    "last_status": "FAILED_NO_PUBLISH",
+    "last_error": "candidates exist but Telegram received zero posts",
     "last_success_ts": 1788426661.9306133,
-    "consecutive_failures": 0
+    "consecutive_failures": 1
   },
   "providers": {
     "GEMINI": {
