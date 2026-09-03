@@ -69,7 +69,8 @@
     "52f72c407a587ff3ea4862745a2d63bf6e94b323d5bd20a7e75d27bd3b0a1890": 1788459309,
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491,
     "7797bb888b670fe07d7150adfb6070b16ea6fc2890b17934ed1e9103b748502f": 1788459850,
-    "da8ffe9838cd710d41ee72d2d590f5bcf469db3ded6ae60b6e83d811150c0f8e": 1788460033
+    "da8ffe9838cd710d41ee72d2d590f5bcf469db3ded6ae60b6e83d811150c0f8e": 1788460033,
+    "3d6c76e2b0d9263ea0a12f6027c7bb49b4d8463b141b6e83fd3726ccd86c587e": 1788460213
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -264,27 +265,6 @@
     "83eacdc94c41b8278f7eae5fcd26d333141256be3f00bb30011849a7665f68b5": 1788459491.2056582
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Mobcoder AI Advances Enterprise Agentic AI & Governed LLMs - USA Today",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeGxOdkF2WlFKVndYbmRVeGVBWTZ6YTdjZ00yeXRpMUhaSUhWQzhqYVJ4Y211UEhYdERGQ0FQUFhBX2ZqQlJQQ3RsdmpZOWp5bjZ6SERneEV6OEUyX3JPdnhweUpzVDRFRXYtUF9sUkJrSGFldDVRZ1oteTdUWVdzaXBCU3Vna29IdU85aWE5U2hocFBYV1pxV2ZPVElmUGJLNW94OXBKb0ZqREVBa0h5VVBWcUN4WmxvWGdkb3BULXBmSlVfYlBMZmlYM0ZiSVo5Y2RZQU93?oc=5",
-      "desc": "Mobcoder AI Advances Enterprise Agentic AI & Governed LLMs USA Today",
-      "source": "USA Today",
-      "time": 1788456480.0,
-      "score": 72,
-      "key": "3d6c76e2b0d9263ea0a12f6027c7bb49b4d8463b141b6e83fd3726ccd86c587e",
-      "importance": 72,
-      "editorial_value": 50,
-      "topics": [
-        "agents",
-        "business"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788460033,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 2,
-      "next_retry_at": 1788460633
-    },
     {
       "region": "RUSSIA",
       "title": "Консультации по бизнесу и нейросетям от эксперта - VC.ru",
@@ -546,20 +526,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788460033.390592,
+    "last_start_ts": 1788460213.512346,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788460033.390592,
-    "last_success_ts": 1788460033.390592,
+    "last_run_ts": 1788460213.512346,
+    "last_success_ts": 1788460213.512346,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 17
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788460052.409619
+      "updated_at": 1788460220.3247592
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1062,10 +1042,16 @@
       "desc": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities cnbc.com",
       "source": "cnbc.com",
       "region": "WORLD"
+    },
+    "3d6c76e2b0d9263ea0a12f6027c7bb49b4d8463b141b6e83fd3726ccd86c587e": {
+      "time": 1788460213,
+      "title": "Mobcoder AI Advances Enterprise Agentic AI & Governed LLMs - USA Today",
+      "desc": "Mobcoder AI Advances Enterprise Agentic AI & Governed LLMs USA Today",
+      "source": "USA Today",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -1082,10 +1068,11 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788459491.2056582,
-  "last_publish_ts": 1788460033.390592
+  "last_publish_ts": 1788460213.512346
 }
