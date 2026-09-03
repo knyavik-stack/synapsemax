@@ -96,29 +96,10 @@
     "f44d3b7105c1c9b32377fa315a8a1ef3505e1d7927298fb1757b2bf8be0e0a69": 1788467232,
     "29f5e130848e84a3e7a9572f9822c0d9dbf0c4ccc8e9e42b12f55e0df14e2f52": 1788467592,
     "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": 1788467952,
-    "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333": 1788468310
+    "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333": 1788468310,
+    "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": 1788468491
   },
   "known": {
-    "432e252e30e5aedf73991d69572f2ee760abc7ddf25106f9f1e5494bf4ba0eb7": 1788446890.0145826,
-    "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe": 1788446890.0145826,
-    "702664fe09face13404ad552609f7142ff4db8329c49f1ee004a17bc643bc084": 1788446890.0145826,
-    "78a8b50454a758756f9fb9b69a26bf8341c4c72ae2179c96cc4a538b86d5cab8": 1788446890.0145826,
-    "c6a1817d588e2d3bef106d680bba633e9a5f38d4176338d8bd0b895dfea049d4": 1788446890.0145826,
-    "f33a87c3ac9705c6d5e085cccea2ead26c56796d6169b4596256bac37cda886f": 1788446890.0145826,
-    "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": 1788446890.0145826,
-    "1b49fadcbecaf407679d456725b73d4f15b97e2a9259246608f554599d9e5fff": 1788446890.0145826,
-    "6e748009b7ef111f07aa7b94f725617bb7add3e54bc6000588afd16479dd7fec": 1788446890.0145826,
-    "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee": 1788446890.0145826,
-    "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": 1788446890.0145826,
-    "d3d2dec45e3a009376f05683ff0172eff8219b11f90bdc4534121cb527da1a4c": 1788446890.0145826,
-    "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": 1788446890.0145826,
-    "12da18e71bcd8de9a25340906dcc64eb6bfd816010cc890bc2c8b456c2707dac": 1788446890.0145826,
-    "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": 1788446890.0145826,
-    "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3": 1788446890.0145826,
-    "a08785f4a1ee5a25363764b7fd65f1b0a51149630d69cad71327c6938b4f1ce4": 1788446890.0145826,
-    "dc5dcd99e5b575527aca7d8830be5f902915f885c1ce40cef3ed6f5426832467": 1788446890.0145826,
-    "141ce6140c2f18c7b4a91dfd3bd72356517457dd401ae5c5ca0400c01543bf96": 1788446890.0145826,
-    "ea5c184e7644a29eb0fa3f1e9f558bd7857f1eebb4a6b8514473d162318e0897": 1788446890.0145826,
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450498.829142,
     "f191a9d3a2d714da447ddc5841afdc646df222636affa0f63d8623899aca9b89": 1788450498.829142,
     "ff56ca85428e7e5ad63b9cf26d58918bd9e0ca775fe53e00c7c8958c552373e9": 1788450498.829142,
@@ -299,22 +280,6 @@
     "744b5ea451d29219ba8170df3dda180f29e9f1269bfa32eb977d3c870a769d64": 1788467049.748359
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training - The American Bazaar",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEhFeHV4Y1F2Sjl0czVlM0w0YUhsMWVxcFgwLUdIOWwyVTJESGRvRGlOMndLN3R4TktWN3drMl9WTUdkY3dncGNtTHlLa3pxUHBYeWtjbEliUGVBSTF5end1SWRpQWFjdVZFSlctdk5yMkRaRkFGb1JvdHlSa1JaNTBmZkxDYW5rZVJTYTVoSHhrN3B3RDNTXy1MMHRZRTNLZFpDSlFXa0VZVjZmQzdUN0V2bw?oc=5",
-      "desc": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training The American Bazaar",
-      "source": "The American Bazaar",
-      "time": 1788450749.0,
-      "score": 66,
-      "key": "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle - GeekWire",
@@ -552,20 +517,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788468310.1462722,
+    "last_start_ts": 1788468491.0448694,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788468310.1462722,
-    "last_success_ts": 1788468310.1462722,
+    "last_run_ts": 1788468491.0448694,
+    "last_success_ts": 1788468491.0448694,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 15
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788468313.5613363
+      "updated_at": 1788468493.125372
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1257,10 +1222,16 @@
       "desc": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "region": "WORLD"
+    },
+    "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": {
+      "time": 1788468491,
+      "title": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training - The American Bazaar",
+      "desc": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training The American Bazaar",
+      "source": "The American Bazaar",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1275,6 +1246,7 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1282,5 +1254,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788467049.748359,
-  "last_publish_ts": 1788468310.1462722
+  "last_publish_ts": 1788468491.0448694
 }
