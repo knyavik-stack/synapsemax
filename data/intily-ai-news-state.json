@@ -122,7 +122,8 @@
     "102d427653a7b266af4d91b59442007f1d29e0897959d636c47384e858c2eb0c": 1788476993,
     "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312": 1788477540,
     "4836dcb8eea5500ed7821d1cf800d03fe16a25b50fc6103613d9fcfa2a6c6192": 1788477894,
-    "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1": 1788478075
+    "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1": 1788478075,
+    "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788478503
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -266,27 +267,6 @@
     "3170fd69b6b9e38924d5b6d8f3a7b8553c8535db86de20664b896aa621073be6": 1788476993.1452017
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты - Overclockers.ru",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWnh5N3VXdGlYaEMydkFReGdFaHZvV0pTTHJiVWZwX3Y0c2ZSRzRWVzdEbFdSR3hHOHpKWHRGbzhQZXpPLVByMHNUREkxVlF5dHZyaGxGRmkxTFRWS0hCd0RhZEwySU1kMkJMQl9zOEZ5cUZUWUlZYjA1YWtmc19xcGotT1VHUmh1cEhwUTZPRHJHdHd6eWZUaVIweHBpaGxQV2hueXhfbEtTRmltWk5kZUdIQUpvMUZQTE1DWmJEWHdCSzdYZ0HSAcQBQVVfeXFMT1E3YW8wajhWQzltMUhpaEtPUkpoM2ZERHhLY205WEY4LW0tLU5rWXlrYjlDRkpBOTdhYXFKWTJuaFBiNjNpU1RuR3gtOTlFc1JGZnRFdkk4SlZLYVRHc0tGLVdXcFRkTHIxYkZyVTA0MC1nTUdJSENWNTJNNzd2X1d5UWVNd0YwWnkxUnFFNFpHbVFmTHR5SjFBelJSdXZUcmNQUDAtMjF2RkxwTE1nTnEyY1VxVEtlWEttYUZzRGgtM2FYLQ?oc=5",
-      "desc": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты Overclockers.ru",
-      "source": "Overclockers.ru",
-      "time": 1788472320.0,
-      "score": 76.2,
-      "russia_weight_bonus": 3.7,
-      "key": "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d",
-      "importance": 76.2,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788475856,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788476156
-    },
     {
       "region": "RUSSIA",
       "title": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями - prospect.com.ru",
@@ -440,22 +420,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Adobe Acquires Indian AI Marketing Startup Rilo to Expand Automated Workflow Tools - Tekedia",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWh0dUk3UDBxM1RMclpGaVp5aVR6R2hBbHZ5ZkJOY2tQQ2JnbXhVQm1kYzRCWFdYZWFVMk5wc0NvcEdqd3JVYVIzY0NvZEtCMG1SUzFpTVJBaWZSSEpscUdiTDM1YjJKZC1TUmV6Zm9NbUhyOFU3dWtYbXFEdXdqaEZKakx2cjdibHVHeXV6YVdXeTkySTVVRlRISk42dkNSNE04VWs5bFdEbGM?oc=5",
-      "desc": "Adobe Acquires Indian AI Marketing Startup Rilo to Expand Automated Workflow Tools Tekedia",
-      "source": "Tekedia",
-      "time": 1788456710.0,
-      "score": 62.0,
-      "key": "3492f4f5bf7c457a17e789224dcdd96ca1dee0cb5c3206f1035f8483578265a9",
-      "importance": 62.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Ученые НИУ ВШЭ научили нейросеть превращать 3D-модели в готовые техкарты - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcDh1V2drNXhCaGZaTWJwb0pIRkE1Smt4TTF4aUVhR05OeW1CakZFZDRYYWYzejR5Q3FLdjluSmpBQ2tOemp5TktvTXRlSm9YRl9YUDR6WjFqLTU0MmlBaGFDeDBCN2h4RmJtbS1fd1ZqYWtndFpMUy02Q1VfZjBTYVVBZzZPU0RGSVZHMXNaWE1uVGFpMl9KcXJZUGU0eXNUeC1aQkpTWFlsdktuQUwwR0JWS1RUbHE2Y3BrR9IBe0FVX3lxTE82VGFZYmFUeTJwX2lndXN4bkYwQXFNNG83VE1nUHZ1OURFMzFFRWhocXA1bm9qTjRpQzgyamZQdXAwbGVnbVluTGU2dHhiQm9OTE9zckpCMVVNWW91ZDl4WTZSdkxocm1JRUdxZmZUR1NtQ1lSbzFDdEM2VQ?oc=5",
@@ -505,20 +469,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788478255.0287285,
+    "last_start_ts": 1788478503.4703918,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788478255.0287285,
-    "last_success_ts": 1788478255.0287285,
+    "last_run_ts": 1788478503.4703918,
+    "last_success_ts": 1788478503.4703918,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_published": 1,
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788478081.672429
+      "updated_at": 1788478511.0995677
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1392,10 +1356,16 @@
       "desc": "ReliaQuest Advances Agentic Cyber Defense for Enterprises with Anthropic’s Claude The National Law Review",
       "source": "The National Law Review",
       "region": "WORLD"
+    },
+    "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": {
+      "time": 1788478503,
+      "title": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты - Overclockers.ru",
+      "desc": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты Overclockers.ru",
+      "source": "Overclockers.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1414,8 +1384,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788476993.1452017,
-  "last_publish_ts": 1788478075.3894897
+  "last_publish_ts": 1788478503.4703918
 }
