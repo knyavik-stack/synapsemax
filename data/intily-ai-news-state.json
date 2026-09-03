@@ -145,7 +145,8 @@
     "4ddbb8412aad1fe633b2113fd489ee8c63e56dcfb02076e477d2f362300d9d48": 1788416564,
     "969ca2cd5727d71a35474e0ebe754033872a80ef4f7b3caddca7eb8f199fa0ee": 1788417224,
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504,
-    "55a2979a3ceca2bf0e1cec94a2c9c979ce68751a0b5318d93096657301767480": 1788420824
+    "55a2979a3ceca2bf0e1cec94a2c9c979ce68751a0b5318d93096657301767480": 1788420824,
+    "578a9a24300805e267321a3b428bd69983bdf85f2354ed13daab762404d9ab29": 1788421484
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -156,23 +157,55 @@
     "5061897b1e7c0d46b29aac642e35bfed73ee34a6527e9f81ec6c7508430a9996": 1788414284.6313908,
     "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b": 1788414943.5554037,
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
-    "55a2979a3ceca2bf0e1cec94a2c9c979ce68751a0b5318d93096657301767480": 1788420824.936559
+    "55a2979a3ceca2bf0e1cec94a2c9c979ce68751a0b5318d93096657301767480": 1788420824.936559,
+    "578a9a24300805e267321a3b428bd69983bdf85f2354ed13daab762404d9ab29": 1788421484.0864356,
+    "bdedd67ae91d51d3d7fcaa3b55a8a24c771d31edddd84a96457c652f6e60c9e4": 1788421484.0864356,
+    "364191dbac8e31c6a8408610c50d6c8d33eab473c79fb58a2e70c07dba6b0567": 1788421484.0864356
   },
-  "queue": [],
-  "last_run": "2026-09-03T07:33:57.827034+00:00",
+  "queue": [
+    {
+      "region": "WORLD",
+      "title": "Cloudflare Expands Support for AI Coding Agents with Cursor Cloud Agents on Cloudflare Sandboxes - AiThority",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQT3ZremNpLXVwWjdXYW5uQldXSFZMOGtnSWZib3ZfMDZaUTdoczFjZ2FmLXFuUjRiNTVUaDJsZ1hHbTl2ZE9sbjZJMVVmQ19lby1qNElqN28wcFp0aVNFZU8xbVlWODFBenBNUEFOMlZIN0hlYThnSGx5Zktta0V4NGhMUFRIVjhYbUZvYWIxSjJyeW1vNjNVdUN3cHlPb21yTy1icXhRTFNNVGR5c21KWVYzbmhuc3RCSE1JeVdGVF9SM05FVzhFUFZZcXFEZ2stTjhKdXFn?oc=5",
+      "desc": "Cloudflare Expands Support for AI Coding Agents with Cursor Cloud Agents on Cloudflare Sandboxes AiThority",
+      "source": "AiThority",
+      "time": 1788420906.0,
+      "score": 12,
+      "key": "364191dbac8e31c6a8408610c50d6c8d33eab473c79fb58a2e70c07dba6b0567",
+      "editorial_value": 17,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI disinformation threatens 2027 election credibility, Amupitan warns, says funds not fully released - ThePointNG",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSnRvWEZhUDE5NWZFUFl1bUg5blNjZ01sZHBZc1NoR3NHaUJaSzlnUERPUjRmODBucjBRNm9YdE5SY2Vtc1JlM08teTMxZXJOWFV3cXMxLUl1OWZiNVZ6cEFiQk1WaGV0Z0xmcC1Ud01YLTQtcnNFUUotNzJ6bTBwLThRVEZfRUlYTEp0dFZPRHd6VG1PTWpoTzBzREx5OEZyQXFxSzUzM0hfck1XaDlFaS1hUjBfdEdQNUp6NW43cTA2MXNy?oc=5",
+      "desc": "AI disinformation threatens 2027 election credibility, Amupitan warns, says funds not fully released ThePointNG",
+      "source": "ThePointNG",
+      "time": 1788421043.0,
+      "score": 13,
+      "key": "bdedd67ae91d51d3d7fcaa3b55a8a24c771d31edddd84a96457c652f6e60c9e4",
+      "editorial_value": 16,
+      "topics": [],
+      "tier": "A"
+    }
+  ],
+  "last_run": "2026-09-03T07:44:59.938402+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788420824.936559,
+    "last_start_ts": 1788421484.0864356,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788420824.936559,
+    "last_success_ts": 1788421484.0864356,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788420837.502365
+      "updated_at": 1788421499.47507
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -451,6 +484,13 @@
       "desc": "Techno Sid: Making AI, Software, Cybersecurity & Digital Trends Easy to Understand businessnewsthisweek.com",
       "source": "businessnewsthisweek.com",
       "region": "WORLD"
+    },
+    "578a9a24300805e267321a3b428bd69983bdf85f2354ed13daab762404d9ab29": {
+      "time": 1788421484,
+      "title": "Tech Mahindra Launches AWS Agentic Process Transformation Coe To Redefine AI-Led Business Operations - Menafn",
+      "desc": "Tech Mahindra Launches AWS Agentic Process Transformation Coe To Redefine AI-Led Business Operations Menafn",
+      "source": "Menafn",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -459,7 +499,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -469,6 +508,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
