@@ -167,7 +167,8 @@
     "cdb16fd3382b806f84fc60747b5b659de6d31186321cc4208e452883e5c69831": 1788430142,
     "7dffb8869f8e4060f93922fdc3728c5afd0fe6032db52cea26f439f9438f2ef2": 1788430263,
     "e1c1cd9385ec5ab28e4c847b63b9c1afa0fe468735bb8cbfc6642768d4fe3268": 1788430380,
-    "150cd96830fcc8dfabb194e22561f856e617027769ca443224fa1b1c35399866": 1788430502
+    "150cd96830fcc8dfabb194e22561f856e617027769ca443224fa1b1c35399866": 1788430502,
+    "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e": 1788431617
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -247,24 +248,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ - ГлобалМСК.ру",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pTXFIRG1sWG55LUFUUWFySFJrX0xKcXVlWHdHSWMyQlVub0lHZi1lTkhhYzh5V2RTcDNhWHB6UTVsbzlrSl9iWXlHMmQwTzA?oc=5",
-      "desc": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ ГлобалМСК.ру",
-      "source": "ГлобалМСК.ру",
-      "time": 1788429605.0,
-      "score": 72,
-      "key": "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e",
-      "importance": 72,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788431464,
-      "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
-    },
-    {
-      "region": "RUSSIA",
       "title": "GPT-5.6, Kiro и вайбкодинг: как AI-разработка меняет техническое SEO - vc.ru",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa0t6dzJsU1JVeDE0ZVdISi1fSWdMa0I1R2NlazNJNjc4YVZwT0lMQUFZVER0TGhRTXIzcjJSX2VJUWs3cHZMLS1MNEZEVUxTaTlTeVpTTGJQeTI3RUlRZjRraXBMN3g4OVN4U21kT2NDcDVXdXlBa3hVcEtsdTFVRVI5NA?oc=5",
       "desc": "GPT-5.6, Kiro и вайбкодинг: как AI-разработка меняет техническое SEO vc.ru",
@@ -278,10 +261,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788431464,
+      "last_failed_at": 1788431270,
       "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
+      "failure_count": 1,
+      "next_retry_at": 1788431570
     },
     {
       "region": "RUSSIA",
@@ -296,10 +279,10 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788431464,
+      "last_failed_at": 1788431270,
       "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
+      "failure_count": 1,
+      "next_retry_at": 1788431570
     },
     {
       "region": "RUSSIA",
@@ -314,10 +297,10 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788431464,
+      "last_failed_at": 1788431270,
       "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
+      "failure_count": 1,
+      "next_retry_at": 1788431570
     },
     {
       "region": "WORLD",
@@ -332,10 +315,10 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788431464,
+      "last_failed_at": 1788431270,
       "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
+      "failure_count": 1,
+      "next_retry_at": 1788431570
     },
     {
       "region": "WORLD",
@@ -352,10 +335,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788431464,
+      "last_failed_at": 1788431270,
       "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
+      "failure_count": 1,
+      "next_retry_at": 1788431570
     },
     {
       "region": "WORLD",
@@ -372,10 +355,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788431464,
+      "last_failed_at": 1788431270,
       "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
+      "failure_count": 1,
+      "next_retry_at": 1788431570
     },
     {
       "region": "RUSSIA",
@@ -390,10 +373,10 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788431464,
+      "last_failed_at": 1788431270,
       "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
+      "failure_count": 1,
+      "next_retry_at": 1788431570
     },
     {
       "region": "WORLD",
@@ -408,10 +391,10 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788431464,
+      "last_failed_at": 1788431270,
       "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
+      "failure_count": 1,
+      "next_retry_at": 1788431570
     },
     {
       "region": "WORLD",
@@ -426,10 +409,10 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788431464,
+      "last_failed_at": 1788431270,
       "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 2,
-      "next_retry_at": 1788432064
+      "failure_count": 1,
+      "next_retry_at": 1788431570
     },
     {
       "region": "RUSSIA",
@@ -585,21 +568,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788431464.8129857,
+    "last_start_ts": 1788431617.1627438,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788431464.8129857,
+    "last_success_ts": 1788431617.1627438,
     "consecutive_failures": 1,
-    "queue_size": 20,
+    "queue_size": 19,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788431464.8129857
+    "last_published": 1,
+    "last_run_ts": 1788431617.1627438
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788431604.6855428
+      "updated_at": 1788431619.5755205
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -885,10 +868,16 @@
       "desc": "US govt sides with OpenAI in New York Times copyright lawsuit Yahoo",
       "source": "Yahoo",
       "region": "WORLD"
+    },
+    "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e": {
+      "time": 1788431617,
+      "title": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ - ГлобалМСК.ру",
+      "desc": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ ГлобалМСК.ру",
+      "source": "ГлобалМСК.ру",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -907,8 +896,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788431270.988652,
-  "last_publish_ts": 0
+  "last_publish_ts": 1788431617.1627438
 }
