@@ -25,7 +25,8 @@
     "432e252e30e5aedf73991d69572f2ee760abc7ddf25106f9f1e5494bf4ba0eb7": 1788447070,
     "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee": 1788447250,
     "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe": 1788447441,
-    "702664fe09face13404ad552609f7142ff4db8329c49f1ee004a17bc643bc084": 1788447798
+    "702664fe09face13404ad552609f7142ff4db8329c49f1ee004a17bc643bc084": 1788447798,
+    "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e": 1788448151
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -210,23 +211,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ - ГлобалМСК.ру",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pTXFIRG1sWG55LUFUUWFySFJrX0xKcXVlWHdHSWMyQlVub0lHZi1lTkhhYzh5V2RTcDNhWHB6UTVsbzlrSl9iWXlHMmQwTzA?oc=5",
-      "desc": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ ГлобалМСК.ру",
-      "source": "ГлобалМСК.ру",
-      "time": 1788429605.0,
-      "score": 65,
-      "key": "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "business",
-        "research"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики - gosrf.ru",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2std2NJRkZIUWVxOG1ZTUN5bjRLVS1nRURkbW5tQUwtZjZtM3dxODlnRFJYdnJTYUNXZ3JTVlpMNm9fX0hMWTdBN3pZcl8yQUpmb2IwdnhYakVwNUNteDhzcWF2VzdqdmtGdVZTdHJMNGN6X1h3b3htM1ZWcjdQcEw4RmU1ajVIOXkxalV2ODA1QWpiM1NnR0x0aFh5ZnlWaXlz?oc=5",
       "desc": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики gosrf.ru",
@@ -348,20 +332,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788447971.2366061,
+    "last_start_ts": 1788448151.684971,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788447971.2366061,
-    "last_success_ts": 1788447971.2366061,
+    "last_run_ts": 1788448151.684971,
+    "last_success_ts": 1788448151.684971,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788447815.1603308
+      "updated_at": 1788448156.7690825
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -556,10 +540,16 @@
       "desc": "Google launches Gemini 3.8 Flash coding model, dodges AdX breakup qz.com",
       "source": "qz.com",
       "region": "WORLD"
+    },
+    "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e": {
+      "time": 1788448151,
+      "title": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ - ГлобалМСК.ру",
+      "desc": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ ГлобалМСК.ру",
+      "source": "ГлобалМСК.ру",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -578,8 +568,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788446890.0145826,
-  "last_publish_ts": 1788447798.131171
+  "last_publish_ts": 1788448151.684971
 }
