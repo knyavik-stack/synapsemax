@@ -155,13 +155,13 @@
     "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b": 1788414943.5554037
   },
   "queue": [],
-  "last_run": "2026-09-03T06:44:54.272441+00:00",
+  "last_run": "2026-09-03T06:55:53.747480+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788417885.6682677,
+    "last_start_ts": 1788418545.324742,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788417885.6682677,
+    "last_success_ts": 1788418545.324742,
     "consecutive_failures": 0
   },
   "providers": {
@@ -182,13 +182,6 @@
     }
   },
   "stories": {
-    "1437e71c6116a18af814f7c1b5b911399c8b77543146f12917e0cec776782d56": {
-      "time": 1788331571,
-      "title": "NVIDIA and Marvell Earnings, Hot Chips Hot Takes｜The Circuit - finance.biggo.com",
-      "desc": "NVIDIA and Marvell Earnings, Hot Chips Hot Takes｜The Circuit finance.biggo.com",
-      "source": "finance.biggo.com",
-      "region": "WORLD"
-    },
     "3119f25cceee9b2e5c18db01b7855e60a52815cf790a6b1837635b14ebbe17b4": {
       "time": 1788333373,
       "title": "Экономика агентов: как развивается рынок китайских нейросетей - forbes.ru",
