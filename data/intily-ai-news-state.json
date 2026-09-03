@@ -33,7 +33,8 @@
     "f33a87c3ac9705c6d5e085cccea2ead26c56796d6169b4596256bac37cda886f": 1788449413,
     "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c": 1788449769,
     "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": 1788449952,
-    "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": 1788450319
+    "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": 1788450319,
+    "f191a9d3a2d714da447ddc5841afdc646df222636affa0f63d8623899aca9b89": 1788450670
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -151,23 +152,6 @@
       "importance": 76,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Globant Introduces MuleSoft AI Pod to Break through Integration Barriers and Scale Enterprise Agentic AI with Salesforce - PR Newswire UK",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOSno4Sk8waHdwRkVZRWlXcU93VXJHME53WkFSQ2xQQ28wVmNvc1BqdHQ2bXJ2bjZwSHNuMkF0YVF5X3hMTU9VYVptTTlmMVZOdFRsVzdKS0xhZWp2RVNsbEpSTkw2Y21oNmNVWXc5Z1FENTBBNU9XNzhkd2lzY1B6bTh2Ui10S2w1QUo0dmkxbnlDY3J4cVI2UGxBNHhVRjA2Tk1MS1lILVA2MEc1dWp6R2cxeVdqLS03Q2VWLWFNNm9lcEhESzRFTkZ5amRad1B2N3JINFhnSmdPSDMxRkQ3Uk81MnZtWVFEU3hVc3pmX1lRM3BBbXkzdEdaaUlpV2VmUFowMnZtazQwUQ?oc=5",
-      "desc": "Globant Introduces MuleSoft AI Pod to Break through Integration Barriers and Scale Enterprise Agentic AI with Salesforce PR Newswire UK",
-      "source": "PR Newswire UK",
-      "time": 1788442200.0,
-      "score": 76,
-      "key": "f191a9d3a2d714da447ddc5841afdc646df222636affa0f63d8623899aca9b89",
-      "importance": 76,
-      "editorial_value": 50,
-      "topics": [
-        "agents",
-        "business"
-      ],
       "tier": "A"
     },
     {
@@ -455,20 +439,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788450498.829142,
+    "last_start_ts": 1788450670.300554,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788450498.829142,
-    "last_success_ts": 1788450498.829142,
-    "last_candidates": 51,
-    "last_published": 0,
-    "queue_size": 20
+    "last_run_ts": 1788450670.300554,
+    "last_success_ts": 1788450670.300554,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788450327.263596
+      "updated_at": 1788450672.96695
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -719,10 +703,16 @@
       "desc": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года itweek.ru",
       "source": "itweek.ru",
       "region": "RUSSIA"
+    },
+    "f191a9d3a2d714da447ddc5841afdc646df222636affa0f63d8623899aca9b89": {
+      "time": 1788450670,
+      "title": "Globant Introduces MuleSoft AI Pod to Break through Integration Barriers and Scale Enterprise Agentic AI with Salesforce - PR Newswire UK",
+      "desc": "Globant Introduces MuleSoft AI Pod to Break through Integration Barriers and Scale Enterprise Agentic AI with Salesforce PR Newswire UK",
+      "source": "PR Newswire UK",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -741,8 +731,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788450498.829142,
-  "last_publish_ts": 1788450319.6526396
+  "last_publish_ts": 1788450670.300554
 }
