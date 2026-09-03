@@ -195,7 +195,8 @@
     "6f987a138b348377747d5d4d9a6f95777f10560723c5c86f699b8628ec2b5cbf": 1788437748,
     "afdefc0ffa385f73fbdf776053b93711c3f10c6ac83c4f6feb9063579cd2dcd8": 1788437865,
     "6f4f232697367d24ab3c44bfaa54034aa92515043d130b9356c9e5710ee1f95c": 1788437981,
-    "01d6641aefded09d7f1a3f9f4724d180df9c7aad3fef0af2a49a44c0c28af04f": 1788438114
+    "01d6641aefded09d7f1a3f9f4724d180df9c7aad3fef0af2a49a44c0c28af04f": 1788438114,
+    "d947bc85e51fa54f88da1cb19dae86f04ef9a6423c71f1ebc59f9b258e6122ce": 1788438219
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -315,20 +316,6 @@
   },
   "queue": [
     {
-      "region": "RUSSIA",
-      "title": "Путин напомнил о рисках при использовании ИИ - science.mail.ru",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95cnMtUkdFWWxjY1BCaDZwUmtKMnZHWDRJYkdEemFyOFhHay1IdW01ckZWeFAzb1RUSThITm1UYlpBVGVXQUtCUmZURl84V3NUcGt4YXJVVG5JcHoxVVJ2STBoNEh2enVoM21sb1l5dw?oc=5",
-      "desc": "Путин напомнил о рисках при использовании ИИ science.mail.ru",
-      "source": "science.mail.ru",
-      "time": 1788428390.0,
-      "score": 66,
-      "key": "55b4759574ab7836e7196a85951abf5de28f875cff92bfef1bcc3acebce981e8",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "S"
-    },
-    {
       "region": "WORLD",
       "title": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules - ThePrint",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUGp0ZWtkU2NFOEpoOFF6WmtockM2THBseXFLZjVSc1NMT1I4cXBRYjRKOUdvSlJYRGFabTQ5UTBrempsem55NkZVRk1pZ1pZS1ZPMWRVSXYxLXh0N3B2bUZna2V2OFlQZUF2clNtSjFjWEg2LUJMaWI1STlkZkVPeW1rRjNRMGVRVkZOSHpVcTQ4T05KWEhtX2hrejNhNkJVWFEyMUduYVFHWHB1elZMWmJ2SXZua24xR2NPOXJoR1VLZDdVSGJVX1hXSHpIQWvSAdQBQVVfeXFMT0luUHpyNUFCS3JaT3NiaS1hLVo5dW82NlhfTU5ITWl6Qk12NGdvcG5ubVJQSEJDQU13Mm96UVVnemx5amhaTTlhMzZSXzFDQ3d0NVhDNk8xSmQwMWVUaGtpTHNtZFYwMTgtYWJKNGpObjVOX3czWmpLWC10eWVXRW1sYThSNDJwNGZpWXVJZlpCYlAwNnNlZ211TWxteGZXUmszRndmWXpDVzlWaHUya1FYcDRWWllPU2ZSVlo1Uk1Ba01sM3F0TF91Q2RPS2JYcHo2d3I?oc=5",
@@ -344,10 +331,24 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788438114,
+      "last_failed_at": 1788438219,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 5,
-      "next_retry_at": 1788442914
+      "failure_count": 6,
+      "next_retry_at": 1788447819
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Путин напомнил о рисках при использовании ИИ - science.mail.ru",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95cnMtUkdFWWxjY1BCaDZwUmtKMnZHWDRJYkdEemFyOFhHay1IdW01ckZWeFAzb1RUSThITm1UYlpBVGVXQUtCUmZURl84V3NUcGt4YXJVVG5JcHoxVVJ2STBoNEh2enVoM21sb1l5dw?oc=5",
+      "desc": "Путин напомнил о рисках при использовании ИИ science.mail.ru",
+      "source": "science.mail.ru",
+      "time": 1788428390.0,
+      "score": 66,
+      "key": "55b4759574ab7836e7196a85951abf5de28f875cff92bfef1bcc3acebce981e8",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -420,26 +421,6 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Siemens Healthineers showcases its AI-powered technological innovations to redefine healthcare delivery in Southeast Asia - ANTARA News",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVWZ0dmtUb0o1TEV0TEptOTdVUHdFbWoyS1NBcXFFUnUzWFZVREVhZU5VQjROOWxjM0ZMMWl5SjF4Uk4tRUtkMWxEZjFicDhRSW1FVnRwT1ZwWkpGSjE3WjZQUXhKVlE3RjFxQndpV0JkU180LVEtWF9TWUVEc1RGcTdpQ09jbC12b3c5dzFPTDluWmdhNkRGMThVc1p5ak1mcm1zazBVNVROOHJfTnppUnRxNHFRaXBTQWsyMG5LUFp6b3p4VVpzSzM4RmpEVElEbFF2YjkyUFNiS3hta1oxQWppRHo4LVg4ejY5Q2xFM0c?oc=5",
-      "desc": "Siemens Healthineers showcases its AI-powered technological innovations to redefine healthcare delivery in Southeast Asia ANTARA News",
-      "source": "ANTARA News",
-      "time": 1788430732.0,
-      "score": 65,
-      "key": "d947bc85e51fa54f88da1cb19dae86f04ef9a6423c71f1ebc59f9b258e6122ce",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788437981,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788438281
     },
     {
       "region": "WORLD",
@@ -550,21 +531,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788438161.556489,
+    "last_start_ts": 1788438219.6345484,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788438161.556489,
+    "last_success_ts": 1788438219.6345484,
     "consecutive_failures": 1,
-    "queue_size": 15,
+    "queue_size": 14,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788438161.556489
+    "last_published": 1,
+    "last_run_ts": 1788438219.6345484
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788438124.505766
+      "updated_at": 1788438238.860324
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -1011,10 +992,16 @@
       "desc": "Tokenomics - how Salesforce wants to avoid 'cutting enterprise butter with a chainsaw' when it comes to pricing AI diginomica",
       "source": "diginomica",
       "region": "WORLD"
+    },
+    "d947bc85e51fa54f88da1cb19dae86f04ef9a6423c71f1ebc59f9b258e6122ce": {
+      "time": 1788438219,
+      "title": "Siemens Healthineers showcases its AI-powered technological innovations to redefine healthcare delivery in Southeast Asia - ANTARA News",
+      "desc": "Siemens Healthineers showcases its AI-powered technological innovations to redefine healthcare delivery in Southeast Asia ANTARA News",
+      "source": "ANTARA News",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1029,6 +1016,7 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1036,5 +1024,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788437619.555675,
-  "last_publish_ts": 1788438114.1319432
+  "last_publish_ts": 1788438219.6345484
 }
