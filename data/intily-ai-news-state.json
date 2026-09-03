@@ -207,14 +207,15 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788430622.2428622,
-    "last_status": "RESET_QUEUE_FOR_NEW_POLICY",
-    "last_error": "candidates exist but Telegram received zero posts",
-    "last_success_ts": 1788430502.943171,
+    "last_start_ts": 1788431011.3975003,
+    "last_status": "OK",
+    "last_error": "",
+    "last_success_ts": 1788431011.3975003,
     "consecutive_failures": 1,
     "queue_size": 0,
     "last_candidates": 0,
-    "last_published": 0
+    "last_published": 0,
+    "last_run_ts": 1788431011.3975003
   },
   "providers": {
     "GEMINI": {
@@ -537,6 +538,6 @@
     "RUSSIA",
     "WORLD"
   ],
-  "last_search_ts": 0,
+  "last_search_ts": 1788431011.3975003,
   "last_publish_ts": 0
 }
