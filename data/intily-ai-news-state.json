@@ -94,7 +94,8 @@
     "23cc6efb18b6935be5df6a89b48058bdf754541bfa0b42c1cc269e732df36ba3": 1788466869,
     "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049,
     "f44d3b7105c1c9b32377fa315a8a1ef3505e1d7927298fb1757b2bf8be0e0a69": 1788467232,
-    "29f5e130848e84a3e7a9572f9822c0d9dbf0c4ccc8e9e42b12f55e0df14e2f52": 1788467592
+    "29f5e130848e84a3e7a9572f9822c0d9dbf0c4ccc8e9e42b12f55e0df14e2f52": 1788467592,
+    "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": 1788467952
   },
   "known": {
     "432e252e30e5aedf73991d69572f2ee760abc7ddf25106f9f1e5494bf4ba0eb7": 1788446890.0145826,
@@ -297,20 +298,6 @@
     "744b5ea451d29219ba8170df3dda180f29e9f1269bfa32eb977d3c870a769d64": 1788467049.748359
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "The latest AI-powered martech news and releases - MarTech",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBra2tjM1Z6R0tQZmxSUHdPTFNsNlczNWdlUjRLVFFMUEtBMHlTSnJxTnJ5dUNPMFNFeXFzdkxDV25pX0l1eWp3bXJSOTZyRzlORm9CaU05S25iMVUzdVMxTHZzeGc5eFNOTDVHRHpxZVkwY09hWEtn?oc=5",
-      "desc": "The latest AI-powered martech news and releases MarTech",
-      "source": "MarTech",
-      "time": 1788462101.0,
-      "score": 66,
-      "key": "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free - 24/7 Wall St.",
@@ -580,20 +567,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788467770.313341,
+    "last_start_ts": 1788467952.9696836,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788467770.313341,
-    "last_success_ts": 1788467770.313341,
+    "last_run_ts": 1788467952.9696836,
+    "last_success_ts": 1788467952.9696836,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788467594.9457674
+      "updated_at": 1788467956.9245365
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1271,11 +1258,17 @@
       "desc": "Abu Dhabi AI institute releases fully open-source models with training data, code Reuters",
       "source": "Reuters",
       "region": "WORLD"
+    },
+    "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": {
+      "time": 1788467952,
+      "title": "The latest AI-powered martech news and releases - MarTech",
+      "desc": "The latest AI-powered martech news and releases MarTech",
+      "source": "MarTech",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -1291,10 +1284,11 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788467049.748359,
-  "last_publish_ts": 1788467592.9239025
+  "last_publish_ts": 1788467952.9696836
 }
