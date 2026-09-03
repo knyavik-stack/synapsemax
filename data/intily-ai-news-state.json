@@ -142,7 +142,8 @@
     "5061897b1e7c0d46b29aac642e35bfed73ee34a6527e9f81ec6c7508430a9996": 1788414943,
     "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b": 1788415246,
     "9d6adba45c15e20d7a81fc563262275d1eb76ffed2418f4a0c44f11daf28ab21": 1788415905,
-    "4ddbb8412aad1fe633b2113fd489ee8c63e56dcfb02076e477d2f362300d9d48": 1788416564
+    "4ddbb8412aad1fe633b2113fd489ee8c63e56dcfb02076e477d2f362300d9d48": 1788416564,
+    "969ca2cd5727d71a35474e0ebe754033872a80ef4f7b3caddca7eb8f199fa0ee": 1788417224
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -153,37 +154,21 @@
     "5061897b1e7c0d46b29aac642e35bfed73ee34a6527e9f81ec6c7508430a9996": 1788414284.6313908,
     "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b": 1788414943.5554037
   },
-  "queue": [
-    {
-      "region": "WORLD",
-      "title": "‘Narrative that frontier AI gives threat actors advantage is flawed’: Daryl Pereira, Google Cloud - financialexpress.com",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVWVReGxBYjdLN0h3bncyOUtKVkstOXV6S09tem9pT3BMZXlLbGt2eW15QmJRdFh5MWRncXhpaG9ybzZQR2tPZmx2WU1qMXlMcTNrWFdpd05mYlh0WHhHZ3phNENSMGQyZkNFX2xJNEtxTWVxQmNrcTVuNU9DenpRZm13dGt4TWNKaVZxa2NQTWVtdDZLMVRRWjhSTDlZT2ViTmxyR3VKRjM4ZjRlbWVQRUE4djUzUlNxeVRtODM3aGFvWW5wM2F0Y0xwbHJkMktuamp1M2tHTTdDR0tydkZobmhiS0RCQdIB7AFBVV95cUxOWFZ4dlhXbDNQRXNnVGZtN0Iya2MtNUlQVkpCUFZCemlnbmlDT0dUQVViOHpoWkRsOHc1ckc2ZXhsMVdpa29zTG9JcXFjTWsxZE9xMFpFT1hsNkFPMUszZ3hUdEpGc0Q5a211Wm1fVGcyUF80VWp5OE81NGxsa21JVklxOW5NdzNpSEpQV0FhUkdkNkgyLU5CcG1oWTRnanRqOVVDREdTOGhtV0NkazE5d0NxdGF1dDd6ZHdtQnRfSnNMSzZXdmRPSGtTREJlN0hrZ2t2ZGVfR1VzUmJTWVk4TnZhNFlKbW10dUx3NA?oc=5",
-      "desc": "‘Narrative that frontier AI gives threat actors advantage is flawed’: Daryl Pereira, Google Cloud financialexpress.com",
-      "source": "financialexpress.com",
-      "time": 1788400290.0,
-      "score": 12,
-      "key": "969ca2cd5727d71a35474e0ebe754033872a80ef4f7b3caddca7eb8f199fa0ee",
-      "editorial_value": 15,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    }
-  ],
-  "last_run": "2026-09-03T06:23:00.051167+00:00",
+  "queue": [],
+  "last_run": "2026-09-03T06:34:00.065377+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788416564.0473044,
+    "last_start_ts": 1788417224.474582,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788416564.0473044,
+    "last_success_ts": 1788417224.474582,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788416579.5977314
+      "updated_at": 1788417239.6125145
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -197,13 +182,6 @@
     }
   },
   "stories": {
-    "7fa859fe35e31cad73e84778eba6eb71d4d30f85d71a8aa5dda4cd459389bde3": {
-      "time": 1788330675,
-      "title": "Anthropic, OpenAI Launch New AI Models - 조선일보",
-      "desc": "Anthropic, OpenAI Launch New AI Models 조선일보",
-      "source": "조선일보",
-      "region": "WORLD"
-    },
     "d7242ac0bf87e4da008ec715b7a567eeced8e8530823bae49d7566db9a9c9253": {
       "time": 1788330970,
       "title": "Metaverse Market Projected to Surpass USD 4,495.56 Billion at 38.0% CAGR by 2035 - EIN News",
@@ -490,6 +468,13 @@
       "desc": "Google takes on Anthropic and OpenAI with Gemini 3.8 Flash, says it can match performance at lower cost India Today",
       "source": "India Today",
       "region": "WORLD"
+    },
+    "969ca2cd5727d71a35474e0ebe754033872a80ef4f7b3caddca7eb8f199fa0ee": {
+      "time": 1788417224,
+      "title": "‘Narrative that frontier AI gives threat actors advantage is flawed’: Daryl Pereira, Google Cloud - financialexpress.com",
+      "desc": "‘Narrative that frontier AI gives threat actors advantage is flawed’: Daryl Pereira, Google Cloud financialexpress.com",
+      "source": "financialexpress.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -501,7 +486,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -511,6 +495,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ]
