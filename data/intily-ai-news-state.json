@@ -206,7 +206,11 @@
     "6ecadf0da36d0d7c5d231cb457d6362d8d1cfdd851f5404037b78452f25ec308": 1788453558.9492462,
     "36b9344e417c3e7ea877842ee7ef944a8360c4d3f66faca809418bd6c5bbdd8b": 1788453558.9492462,
     "1075c4ead93ab332b174dde6183b81f00293b873701871592822edd26aa3fe76": 1788453558.9492462,
-    "a361bb81e9cfee66a98a930698864cda169538789d08408c56f6ce066c9a0194": 1788453558.9492462
+    "a361bb81e9cfee66a98a930698864cda169538789d08408c56f6ce066c9a0194": 1788453558.9492462,
+    "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6": 1788455531.428624,
+    "f08e8fe5014a0c0332ffefa656d2d584f811c731ab1fa40c00b949e9196b9acd": 1788455531.428624,
+    "e7350f814463fd0b32d790cd376afa6ca1f7e208816455c4169f2ef97c2eac38": 1788455531.428624,
+    "cd09572e8f42116e4da44883abce6ba6207ed002fba76aadf039a9e118a794d6": 1788455531.428624
   },
   "queue": [
     {
@@ -362,6 +366,37 @@
     },
     {
       "region": "RUSSIA",
+      "title": "В России скрестили ДНК человека и комара для обучения нейросетей - The World Inform",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUZqQndTT1FXS2RBUTRBMlVjVXh1bHZGYkZJOWtIdFkxRjVveDRLQ1JSalZvWXZhenJRVzg4QVJLUU9XSTFLQ3RtUVlFaFZxdldlZ1V2bEpsOHpFdmtWN040WVNzQjZEUktsUG1PSV9rak9SOEpPTS05c201ZWxUUUZGZlV0dV9mTndjTWE2WjVnUmtvUnIxZWtGQXFiaUF1MzRsOXFMS01wQU05?oc=5",
+      "desc": "В России скрестили ДНК человека и комара для обучения нейросетей The World Inform",
+      "source": "The World Inform",
+      "time": 1788455110.0,
+      "score": 65,
+      "russia_weight_bonus": 2,
+      "key": "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Gemini Survived When ChatGPT, Claude, and Grok Collapsed: Azure Is at Fault - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc1VwOUhFTW9mX0tfS0xocVBoSmREUE9JMkktdXF6bmZDVnE5c1VZRnZiSTktUjJ4SGJYWnBJSTM5Z29rR1FqeTRLRnRjSEdXaF9ER3o1RmI4djlzNC1laEFlYUpCZGVFX0tJcXQwTUhfV3NwbFBPN1BtYmtqTnlWS3NLb3VWTzZPTUZrMmZ1OG5HRzZxSXplSXFIQU1VY1owd1JRLXBIOHp1ZTBHWVljZU9nZ3JlSW1B?oc=5",
+      "desc": "Gemini Survived When ChatGPT, Claude, and Grok Collapsed: Azure Is at Fault Tech Times",
+      "source": "Tech Times",
+      "time": 1788455103.0,
+      "score": 65,
+      "key": "f08e8fe5014a0c0332ffefa656d2d584f811c731ab1fa40c00b949e9196b9acd",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Елена Силкина: как подготовить компанию к внедрению ИИ - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaUhJRFdKOUdEU3BpVFB2aUdVZ0VyZGxQRkw5cE1TdHhRUk9vcjFNTXliMHoxVkpoSHQ0VmtsYklMXy1yLTIwQlIwTkNqMmJjcDZ6dXZLLWt6OXZHYlVFeUlyZDduZlo1elMyQXVwa2NWYW1lNUlwcXdGY1NnM05kZHhacUtxTDRjSExGRXFLZVpZWDRwS1RydUsyTmfSAXtBVV95cUxQdkgzNXJPTjdvN1lTbkU0SzF2OFpBNVd3QnhyYnFzRWk0MmlfandhMmRZWFVfXzFNcXIwSV9hUVFad0Z1Sjh6UjFxNGRWWWJleTZWOUdrdFAyMC1ZOExJRlRMeV92QnkxM2pqUzhaZEh5Z25zRW1icDJvR3c?oc=5",
       "desc": "Елена Силкина: как подготовить компанию к внедрению ИИ companies.rbc.ru",
@@ -423,17 +458,49 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ против ИИ: как будет выглядеть киберпротивостояние ближайших лет - cisoclub",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN2JhelRrbkpmZ19LbFY1N0pDRHdzQVhRSDdWTEw4LUVNZm5fMUdNUHM0dW9aWm5DMzNPd3RmN1JkZXVWd3dzb092S3pPbFQ4MzlOU1NPNmh2a3lZbXBod182Vmp3VU9qaFpOcWQ4Mk9XTS1OVFpYZVI1Rk9wVFlqbHh0MF9xMEs0T1E0WVpEV3dQM25wQVp3eFdSU3JvNEtmY1E?oc=5",
+      "desc": "ИИ против ИИ: как будет выглядеть киберпротивостояние ближайших лет cisoclub",
+      "source": "cisoclub",
+      "time": 1788446892.0,
+      "score": 62,
+      "russia_weight_bonus": 2,
+      "key": "e7350f814463fd0b32d790cd376afa6ca1f7e208816455c4169f2ef97c2eac38",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Jim Cramer Sees Broadcom's Business Exploding as CEO Hock Tan Says Custom OpenAI Chip Beats Nvidia's Grac - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQODFrWVp1eXZnR0c3d0g2TExqRk40VlpWQXhxbFNRTUVPNG54MGE0WHZORUN2b0Y5eXkzeExKd0VHMlQtY1dULVBGX1h2LWN2eVN4UmxLRUdjTm9mcjVDV0dWUWItVzJNMXhNQ21kNmZZUFFfVzhJN01QUElCa0NLSGk3X3VkYVVwd0JjYTFWNkI5cWhCcS1DSEpHbWdrcTNybFNlZGRtaWdnblg2LXBrR1RBVzAtLXRjM2Ffd08xWmd4ZmFHTmRpdzR5OXRKZkRTSDBPdEh4LU9oMW96YndxM0Z3bF8tSkVfTWRoYkRvam9QdlJ0eGU4WkRITF9MTk85SnJQdDI0bUJPbW9FYnBsMnhIdFZ4UU0?oc=5",
+      "desc": "Jim Cramer Sees Broadcom's Business Exploding as CEO Hock Tan Says Custom OpenAI Chip Beats Nvidia's Grac Benzinga",
+      "source": "Benzinga",
+      "time": 1788432820.0,
+      "score": 61,
+      "key": "cd09572e8f42116e4da44883abce6ba6207ed002fba76aadf039a9e118a794d6",
+      "importance": 61,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "chips"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788455352.0338442,
+    "last_start_ts": 1788455531.428624,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788455352.0338442,
-    "last_success_ts": 1788455352.0338442,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 13
+    "last_run_ts": 1788455531.428624,
+    "last_success_ts": 1788455531.428624,
+    "last_candidates": 35,
+    "last_published": 0,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
@@ -847,6 +914,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788453558.9492462,
+  "last_search_ts": 1788455531.428624,
   "last_publish_ts": 1788455352.0338442
 }
