@@ -97,7 +97,8 @@
     "29f5e130848e84a3e7a9572f9822c0d9dbf0c4ccc8e9e42b12f55e0df14e2f52": 1788467592,
     "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": 1788467952,
     "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333": 1788468310,
-    "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": 1788468491
+    "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": 1788468491,
+    "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2": 1788468673
   },
   "known": {
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450498.829142,
@@ -356,23 +357,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "В Сбере рассказали о применении ИИ в российском авиастроении - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX0psLW10WkhZSUNrVGJsaV9Dci1ra1ZGaGktbVlBanVSVGppR19jQjlhcHR0MkotTHdxbnRadzBNR1BmNGhabkpvczVyQjExOGNtOTQtbEQ5Vkx2QXVHSDFjNV81c0FYOERFVXNZRnpTaEFBcHNleHc4WFRWel9nZWR4aWRWTHduSUFUMmF3dy04OVNRdXphMjNDVEdHMXZkckFxOA?oc=5",
-      "desc": "В Сбере рассказали о применении ИИ в российском авиастроении prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788456044.0,
-      "score": 65,
-      "russia_weight_bonus": 3,
-      "key": "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование - Digital Russia",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmV1b2haRFJEaGRlM3dLMU9rWDVGdHo0UUE4SS1ZZnhCdVBoYk1ib0ZhTjFhNkJYeEh4MUF3dDVUMVd6OWZiZXBXVGlSRnNfTlpseFJrbl9rbFNTTzluX0xZakY5bnFBakttbXNKQWxVUGtwbjYyNGtsTUJJN1pRN1NPdHhWSEZyN1VsUGhPQVp6cVpwV3dvOWFOTHI2azhZbHV3cXFkVE5rVGdhdVdtcmt5NA?oc=5",
       "desc": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование Digital Russia",
@@ -517,20 +501,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788468491.0448694,
+    "last_start_ts": 1788468673.3839586,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788468491.0448694,
-    "last_success_ts": 1788468491.0448694,
+    "last_run_ts": 1788468673.3839586,
+    "last_success_ts": 1788468673.3839586,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788468493.125372
+      "updated_at": 1788468708.510731
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1229,10 +1213,16 @@
       "desc": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training The American Bazaar",
       "source": "The American Bazaar",
       "region": "WORLD"
+    },
+    "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2": {
+      "time": 1788468673,
+      "title": "В Сбере рассказали о применении ИИ в российском авиастроении - prospect.com.ru",
+      "desc": "В Сбере рассказали о применении ИИ в российском авиастроении prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "RUSSIA",
@@ -1251,8 +1241,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788467049.748359,
-  "last_publish_ts": 1788468491.0448694
+  "last_publish_ts": 1788468673.3839586
 }
