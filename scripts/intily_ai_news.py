@@ -28,7 +28,7 @@ from xml.etree import ElementTree as ET
 LOOKBACK = timedelta(hours=12)  # Maximum age of news eligible for discovery/queue.
 SEARCH_INTERVAL_SECONDS = 30 * 60  # Planned news-search interval: 30 minutes.
 PUBLISH_INTERVAL_SECONDS = 3 * 60  # Minimum interval between Telegram publications: 3 minutes.
-IMPORTANCE_THRESHOLD = 60  # Minimum mathematical importance score (0–100) for queue/publication.
+IMPORTANCE_THRESHOLD = 60.0  # Minimum mathematical importance score (0–100) for queue/publication.
 MAX_QUEUE = 20  # Maximum number of qualifying stories retained in memory.
 RUSSIA_MIN_SHARE = 0.60  # Minimum Russian-news share in the queue when enough RU candidates exist.
 RUSSIA_MIN_QUEUE_SLOTS = 12  # Number of RU slots reserved in a full 20-item queue.
@@ -39,8 +39,11 @@ MAX_PUBLISH = 1
 TARGET_QUEUE_SIZE = MAX_QUEUE
 WORLD_TARGET_SHARE = 1 - RUSSIA_MIN_SHARE
 RUSSIA_TARGET_SHARE = RUSSIA_MIN_SHARE
-RUSSIA_WEIGHT_BONUS_MIN = 1
-RUSSIA_WEIGHT_BONUS_MAX = 5
+RUSSIA_WEIGHT_BONUS_MIN = 1.0
+RUSSIA_WEIGHT_BONUS_MAX = 5.0
+RECENCY_RUSSIA_UNDER_3H = 2.5
+RECENCY_WORLD_UNDER_3H = 1.5
+RECENCY_OVER_3H = -2.0
 REGION_HISTORY_SIZE = 20
 QUEUE_RETENTION = timedelta(days=7)
 QUEUE_RETRY_BASE_SECONDS = 300
@@ -405,9 +408,9 @@ def key(x):
 
 
 def tier(x):
-    s = x.get('score', 0)
+    s = float(x.get('score', 0.0) or 0.0)
 
-    if s >= 85:
+    if s >= 85.0:
         return 'S'
 
     if s >= IMPORTANCE_THRESHOLD:
@@ -417,22 +420,30 @@ def tier(x):
 
 
 def score(x):
-    """Return a deterministic 0–100 audience-importance score."""
+    """Return a deterministic 0–100 importance score with one decimal."""
     blob = (x.get('title', '') + ' ' + x.get('desc', '') + ' ' + x.get('source', '')).lower()
-    age = (datetime.now(timezone.utc).timestamp() - x.get('time', 0)) / 3600
-    if age < -0.5 or age > LOOKBACK.total_seconds() / 3600:
-        return 0
+    age = (datetime.now(timezone.utc).timestamp() - float(x.get('time', 0) or 0)) / 3600.0
+    if age < -0.5 or age > LOOKBACK.total_seconds() / 3600.0:
+        return 0.0
 
-    relevance = 45 if ai_relevant(x) else 0
+    relevance = 45.0 if ai_relevant(x) else 0.0
     impact_hits = sum(1 for term in HIGH_IMPACT_TERMS if term in blob)
-    impact = min(20, impact_hits * 4)
+    impact = min(20.0, impact_hits * 4.0)
     application_hits = sum(1 for term in APPLICATION_TERMS if term in blob)
-    practical = min(15, application_hits * 3)
+    practical = min(15.0, application_hits * 3.0)
     source = x.get('source', '').lower().strip()
-    source_points = 8 if source in QUALITY_TRUSTED else (6 if source in TRUSTED else 5)
-    freshness = 15 if age <= 1 else 12 if age <= 3 else 8 if age <= 6 else 4
-    penalty = 15 if any(term in blob for term in LOW_SIGNAL_TERMS) else 0
-    return max(0, min(100, relevance + impact + practical + source_points + freshness - penalty))
+    source_points = 8.0 if source in QUALITY_TRUSTED else (6.0 if source in TRUSTED else 5.0)
+    freshness = 15.0 if age <= 1.0 else 12.0 if age <= 3.0 else 8.0 if age <= 6.0 else 4.0
+    penalty = 15.0 if any(term in blob for term in LOW_SIGNAL_TERMS) else 0.0
+
+    recency = (
+        RECENCY_RUSSIA_UNDER_3H if x.get('region') == 'RUSSIA'
+        else RECENCY_WORLD_UNDER_3H
+    ) if age < 3.0 else RECENCY_OVER_3H
+
+    russia_bonus = float(x.get('russia_weight_bonus', 0.0) or 0.0) if x.get('region') == 'RUSSIA' else 0.0
+    total = relevance + impact + practical + source_points + freshness - penalty + recency + russia_bonus
+    return round(max(0.0, min(100.0, total)), 1)
 
 
 def editorial_value(x):
@@ -441,24 +452,24 @@ def editorial_value(x):
     value = x.get('score', 0)
 
     if source in QUALITY_TRUSTED:
-        value += 3
+        value += 3.0
     if any(term in blob for term in HIGH_IMPACT_TERMS):
-        value += 3
+        value += 3.0
     if any(term in blob for term in APPLICATION_TERMS):
-        value += 2
+        value += 2.0
     if any(term in blob for term in PRACTICAL_IMPLEMENTATION_TERMS):
-        value += 3
+        value += 3.0
     if any(term in blob for term in RISK_AND_PROBLEM_TERMS):
-        value += 3
+        value += 3.0
     if any(term in blob for term in EXCLUSIVITY_TERMS):
-        value += 2
+        value += 2.0
     if len(normalize(x.get('desc', ''))) >= 120:
-        value += 1
+        value += 1.0
     elif len(normalize(x.get('desc', ''))) < 35:
-        value -= 3
+        value -= 3.0
     if any(term in blob for term in LOW_SIGNAL_TERMS):
-        value -= 8
-    return max(0, min(value, 50))
+        value -= 8.0
+    return round(max(0.0, min(value, 50.0)), 1)
 
 
 def topic_tags(x):
@@ -489,9 +500,10 @@ def ai_relevant(x):
 
 def candidate_quality(x):
     normalize_item_text(x)
-    importance = int(x.get('importance', score(x)))
-    x['score'] = importance
-    x['importance'] = importance
+    if x.get('region') == 'RUSSIA':
+        x['russia_weight_bonus'] = round(float(x.get('russia_weight_bonus', 0.0) or 0.0), 1)
+    x['score'] = score(x)
+    x['importance'] = round(float(x['score']), 1)
     if importance < IMPORTANCE_THRESHOLD:
         return False
     if not ai_relevant(x):
@@ -529,65 +541,42 @@ def jaccard(a, b):
     return len(a & b) / len(a | b)
 
 
+def canonical_link(x):
+    raw = str(x.get('link', '') or '').strip()
+    if not raw:
+        return ''
+    try:
+        u = urllib.parse.urlsplit(raw)
+        host = u.netloc.lower().split('@')[-1]
+        host = host[4:] if host.startswith('www.') else host
+        path = re.sub(r'/+', '/', u.path or '/')
+        path = path.rstrip('/') or '/'
+        return urllib.parse.urlunsplit((u.scheme.lower(), host, path, '', ''))
+    except Exception:
+        return raw.split('?', 1)[0].rstrip('/')
+
+
 def story_similarity(a, b):
-    # Use both word overlap and character-level similarity. Russian headlines
-    # often change word forms (представил/представила, России/российский),
-    # so token-only Jaccard is too brittle for paraphrase detection.
     at = normalize(a.get('title', ''))
     bt = normalize(b.get('title', ''))
-    ac = normalize(
-        a.get('title', '') + ' ' + a.get('desc', '')
-    )
-    bc = normalize(
-        b.get('title', '') + ' ' + b.get('desc', '')
-    )
-
-    title_tokens = jaccard(
-        token_set(at),
-        token_set(bt)
-    )
-    title_seq = SequenceMatcher(
-        None, at, bt
-    ).ratio()
-    combined_seq = SequenceMatcher(
-        None, ac, bc
-    ).ratio()
-
-    # Character 3-gram overlap catches inflectional changes without needing
-    # a heavyweight NLP dependency.
-    ag = at.replace(' ', '')
-    bg = bt.replace(' ', '')
+    ac = normalize(a.get('title', '') + ' ' + a.get('desc', ''))
+    bc = normalize(b.get('title', '') + ' ' + b.get('desc', ''))
+    title_tokens = jaccard(token_set(at), token_set(bt))
+    title_seq = SequenceMatcher(None, at, bt).ratio()
+    combined_seq = SequenceMatcher(None, ac, bc).ratio()
+    ag, bg = at.replace(' ', ''), bt.replace(' ', '')
     A = {ag[i:i+3] for i in range(max(0, len(ag) - 2))}
     B = {bg[i:i+3] for i in range(max(0, len(bg) - 2))}
-    title_grams = (
-        len(A & B) / len(A | B)
-        if A and B else 0.0
-    )
-
-    # Conservative gates: one strong title match, or a strong paraphrase
-    # supported by similarity of the full event description.
-    if title_seq >= 0.76:
+    title_grams = len(A & B) / len(A | B) if A and B else 0.0
+    ta, tb = token_set(at), token_set(bt)
+    containment = len(ta & tb) / max(1, min(len(ta), len(tb)))
+    if title_seq >= 0.74:
         return title_seq
-
-    if (
-        title_seq >= 0.66
-        and combined_seq >= 0.58
-        and (
-            title_tokens >= 0.18
-            or title_grams >= 0.40
-        )
-    ):
-        return (
-            title_seq * 0.55
-            + combined_seq * 0.30
-            + max(title_tokens, title_grams) * 0.15
-        )
-
-    return max(
-        title_tokens,
-        title_grams * 0.9,
-        title_seq * 0.8
-    )
+    if containment >= 0.82 and min(len(ta), len(tb)) >= 4:
+        return max(title_seq, containment)
+    if title_seq >= 0.62 and combined_seq >= 0.50 and (title_tokens >= 0.15 or title_grams >= 0.34):
+        return title_seq * 0.50 + combined_seq * 0.25 + max(title_tokens, title_grams, containment) * 0.25
+    return max(title_tokens, title_grams * 0.9, title_seq * 0.8, containment * 0.85)
 
 
 def similarity(a, b):
@@ -623,30 +612,29 @@ def title_bigrams(text):
 
 
 def same_story(a, b):
-    # A shared company name alone is not enough to classify two events as the same story.
+    # Deduplication is source-independent: syndicated reports must collapse even
+    # when their URLs and source names differ. Exact canonical links/titles are
+    # hard duplicates; fuzzy matching then catches paraphrases.
+    link_a, link_b = canonical_link(a), canonical_link(b)
+    if link_a and link_a == link_b:
+        return True
+
+    title_a, title_b = normalize(a.get('title', '')), normalize(b.get('title', ''))
+    if title_a and title_a == title_b:
+        return True
+
     sim = story_similarity(a, b)
     shared_anchors = story_anchor_tokens(a) & story_anchor_tokens(b)
-    bigrams_a = title_bigrams(a.get('title', ''))
-    bigrams_b = title_bigrams(b.get('title', ''))
-    shared_bigrams = bigrams_a & bigrams_b
+    shared_bigrams = title_bigrams(a.get('title', '')) & title_bigrams(b.get('title', ''))
+    min_tokens = min(len(token_set(title_a)), len(token_set(title_b)))
 
-    if sim >= 0.70:
+    if sim >= 0.72:
         return True
-
-    # Two distinctive title bigrams identify the same event even when the
-    # publisher changes the surrounding wording.
-    # Two distinctive title bigrams plus a product/company anchor are enough
-    # for syndicated launch headlines whose descriptions differ substantially.
-    if len(shared_bigrams) >= 2 and shared_anchors and sim >= 0.30:
+    if len(shared_bigrams) >= 2 and min_tokens >= 5 and sim >= 0.34:
         return True
-
-    if sim >= 0.58 and shared_anchors:
+    if shared_anchors and sim >= 0.56:
         return True
-
-    if any(any(ch.isdigit() for ch in token) for token in shared_anchors):
-        return sim >= 0.54
-
-    return False
+    return any(any(ch.isdigit() for ch in token) for token in shared_anchors) and sim >= 0.50
 
 
 def collect():
@@ -664,7 +652,7 @@ def collect():
             for x in items:
                 x['score'] = score(x)
                 if region == 'RUSSIA':
-                    x['russia_weight_bonus'] = random.randint(RUSSIA_WEIGHT_BONUS_MIN, RUSSIA_WEIGHT_BONUS_MAX)
+                    x['russia_weight_bonus'] = round(random.uniform(RUSSIA_WEIGHT_BONUS_MIN, RUSSIA_WEIGHT_BONUS_MAX), 1)
                     x['score'] = min(100, x['score'] + x['russia_weight_bonus'])
                 x['key'] = key(x)
                 all_items.append(x)
@@ -1619,18 +1607,18 @@ def rebalance_queue(items, now):
 def publication_region_boost(s, region):
     history = s.get('publication_regions', [])[-REGION_HISTORY_SIZE:]
     if not history:
-        return 0
+        return 0.0
     ru_share = history.count('RUSSIA') / len(history)
     tolerance = 0.08
     if region == 'RUSSIA' and ru_share < RUSSIA_TARGET_SHARE - tolerance:
-        return 50
+        return 50.0
     if region == 'WORLD' and ru_share < RUSSIA_TARGET_SHARE - tolerance:
-        return -12
+        return -12.0
     if region == 'WORLD' and ru_share > RUSSIA_TARGET_SHARE + tolerance:
-        return 20
+        return 20.0
     if region == 'RUSSIA' and ru_share > RUSSIA_TARGET_SHARE + tolerance:
-        return -50
-    return 0
+        return -50.0
+    return 0.0
 
 
 def publication_priority(s, x):
@@ -1688,7 +1676,7 @@ def main():
         if any(same_story(x, y) for y in recent_stories):
             admission['story_history'] += 1; continue
         x['tier'] = tier(x)
-        x['importance'] = x.get('importance', x.get('score', 0))
+        x['importance'] = round(float(x.get('score', 0.0) or 0.0), 1)
         s['known'][x['key']] = now
         queue.append(x); queue_keys.add(x['key']); admission['added'] += 1
 
@@ -1698,7 +1686,7 @@ def main():
 
     for x in queue:
         x['tier'] = tier(x)
-        x['importance'] = int(x.get('importance', x.get('score', 0)))
+        x['importance'] = round(float(x.get('importance', x.get('score', 0.0)) or 0.0), 1)
         x['editorial_value'] = x.get('editorial_value') or editorial_value(x)
         x['topics'] = x.get('topics') or topic_tags(x)
 
@@ -1734,7 +1722,7 @@ def main():
                     )
                     diagnostic_counts = region_counts(diagnostic_queue)
                     next_weight = (
-                        int(diagnostic_queue[0].get('importance', diagnostic_queue[0].get('score', 0)))
+                        round(float(diagnostic_queue[0].get('importance', diagnostic_queue[0].get('score', 0.0)) or 0.0), 1)
                         if diagnostic_queue else None
                     )
                     next_text = (

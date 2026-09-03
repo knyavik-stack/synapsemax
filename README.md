@@ -23,3 +23,5 @@
 - [docs/PROJECT_STATUS_2026-09-02.md](docs/PROJECT_STATUS_2026-09-02.md) — актуальный production status и GREEN/YELLOW/RED.
 - [docs/USER_HANDOFF.md](docs/USER_HANDOFF.md) — инструкция владельцу проекта и перенос в новый чат.
 - [docs/NEW_CHAT_START_PROMPT.md](docs/NEW_CHAT_START_PROMPT.md) — canonical prompt для продолжения в новом чате.
+
+- [docs/PROJECT_STATUS_2026-09-04.md](docs/PROJECT_STATUS_2026-09-04.md) — актуальный production state на 2026-09-04.

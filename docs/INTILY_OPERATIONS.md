@@ -264,3 +264,15 @@ Before this change, the exact publisher, Cloudflare Worker version 43 source, an
 ### Cloudflare scheduler
 
 The active Worker remains the full existing Worker; only its scheduler cadence was changed to `*/3 * * * *`. Its four existing bindings are retained through strict inheritance.
+
+
+## Canonical current state — 2026-09-04
+
+- Russian queue target: **60%** when enough qualifying Russian candidates exist; at a full 20-item queue this is 12 RU slots.
+- Importance weights now use floating-point values with **one decimal place**. Importance is recomputed on queue maintenance so freshness effects evolve with article age.
+- Recency adjustment: publication age <3 hours → **+2.5** for Russia / **+1.5** for World; age >3 hours → **−2.0** for both. Exactly 3 hours receives no special recency adjustment.
+- Existing Russian weighting experiment remains active: each Russian item receives a persistent random **+1.0…+5.0 percentage-point** bonus, assigned once and not rerolled during queue maintenance.
+- Duplicate filtering was strengthened with canonical URL equality, exact normalized-title equality, token containment, title similarity, title n-grams, and event anchors; source name is no longer required for a duplicate.
+- Cloudflare Worker scheduler is now configured for **every minute**. The Worker immediately generates an integer gate 1–3; only gate=1 dispatches GitHub. Non-selected ticks return immediately.
+- GitHub workflow remains `workflow_dispatch` only; Cloudflare remains the scheduler.
+- Exact pre-change backups are stored under `docs/backups/2026-09-04/`. Cloudflare pre-change Worker version 46 remains available as the infrastructure rollback point.
