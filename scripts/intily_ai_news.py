@@ -30,7 +30,7 @@ SEARCH_INTERVAL_SECONDS = 30 * 60  # Planned news-search interval: 30 minutes.
 PUBLISH_INTERVAL_SECONDS = 3 * 60  # Minimum interval between Telegram publications: 3 minutes.
 IMPORTANCE_THRESHOLD = 60  # Minimum mathematical importance score (0–100) for queue/publication.
 MAX_QUEUE = 20  # Maximum number of qualifying stories retained in memory.
-RUSSIA_MIN_SHARE = 0.50  # Minimum Russian-news share in the queue when enough RU candidates exist.
+RUSSIA_MIN_SHARE = 0.80  # Minimum Russian-news share in the queue when enough RU candidates exist.
 RUSSIA_MIN_QUEUE_SLOTS = 10  # Number of RU slots reserved in a full 20-item queue.
 JOKE_RATE = 0.90  # Target probability of a light joke on suitable non-serious posts.
 URGENT_SEARCH_QUEUE_THRESHOLD = 1  # Search immediately when the durable queue has 1 or fewer items.
@@ -462,15 +462,15 @@ def editorial_value(x):
 def topic_tags(x):
     blob = (x.get('title', '') + ' ' + x.get('desc', '')).lower()
     groups = {
-        'models': ('model', 'claude', 'gemini', 'gpt', 'Ð¼Ð¾Ð´ÐµÐ»Ñ'),
-        'agents': ('agent', 'agents', 'Ð°Ð³ÐµÐ½Ñ'),
-        'robotics': ('robot', 'robotics', 'ÑÐ¾Ð±Ð¾Ñ'),
-        'chips': ('chip', 'gpu', 'nvidia', 'ÑÐ¸Ð¿', 'Ð¿Ð¾Ð»ÑÐ¿ÑÐ¾Ð²Ð¾Ð´'),
-        'research': ('research', 'breakthrough', 'Ð¸ÑÑÐ»ÐµÐ´Ð¾Ð²Ð°Ð½', 'Ð¿ÑÐ¾ÑÑÐ²'),
-        'business': ('enterprise', 'business', 'investment', 'Ð²Ð½ÐµÐ´ÑÐµÐ½', 'Ð±Ð¸Ð·Ð½ÐµÑ', 'Ð¸Ð½Ð²ÐµÑÑÐ¸Ñ'),
-        'applications': ('application', 'automation', 'healthcare', 'education', 'Ð¿ÑÐ¸Ð¼ÐµÐ½ÐµÐ½', 'Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°Ñ', 'Ð·Ð´ÑÐ°Ð²Ð¾Ð¾ÑÑÐ°Ð½', 'Ð¾Ð±ÑÐ°Ð·Ð¾Ð²Ð°Ð½'),
-        'tools': ('tool', 'platform', 'software', 'feature', 'Ð¸Ð½ÑÑÑÑÐ¼ÐµÐ½Ñ', 'Ð¿Ð»Ð°ÑÑÐ¾ÑÐ¼', 'Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼'),
-        'security_regulation': ('security', 'breach', 'regulation', 'law', 'ÑÑÐµÑ', 'Ð±ÐµÐ·Ð¾Ð¿Ð°Ñ', 'ÑÐµÐ³ÑÐ»Ð¸Ñ', 'Ð·Ð°ÐºÐ¾Ð½')
+    'models': ('model', 'claude', 'gemini', 'gpt', 'модель'),
+    'agents': ('agent', 'agents', 'агент'),
+    'robotics': ('robot', 'robotics', 'робот'),
+    'chips': ('chip', 'gpu', 'nvidia', 'чип', 'полупровод'),
+    'research': ('research', 'breakthrough', 'исследован', 'прорыв'),
+    'business': ('enterprise', 'business', 'investment', 'внедрен', 'бизнес', 'инвестиц'),
+    'applications': ('application', 'automation', 'healthcare', 'education', 'применен', 'автоматизац', 'здравоохран', 'образован'),
+    'tools': ('tool', 'platform', 'software', 'feature', 'инструмент', 'платформ', 'программ'),
+    'security_regulation': ('security', 'breach', 'regulation', 'law', 'утеч', 'безопас', 'регулир', 'закон')
     }
     return sorted(tag for tag, terms in groups.items() if any(term in blob for term in terms))
 
@@ -507,9 +507,9 @@ STORY_COMBINED_THRESHOLD = 0.44
 
 # Common Russian/English glue words add noise to semantic comparison.
 STORY_STOPWORDS = {
-    'ÑÑÐ¾', 'ÐºÐ°Ðº', 'ÑÑÐ¾', 'Ð´Ð»Ñ', 'Ð¿ÑÐ¸', 'Ð¿Ð¾ÑÐ»Ðµ', 'Ð¿ÐµÑÐµÐ´', 'ÑÐµÑÐµÐ·',
-    'Ð½Ð¾Ð²ÑÐ¹', 'Ð½Ð¾Ð²Ð°Ñ', 'Ð½Ð¾Ð²Ð¾Ðµ', 'Ð½Ð¾Ð²ÑÐµ', 'ÐºÐ¾ÑÐ¾ÑÑÐ¹', 'ÐºÐ¾ÑÐ¾ÑÐ°Ñ', 'ÐºÐ¾ÑÐ¾ÑÑÐµ',
-    'Ð¼Ð¾Ð¶ÐµÑ', 'Ð¼Ð¾Ð³ÑÑ', 'Ð±Ð¾Ð»ÐµÐµ', 'ÑÐ°ÐºÐ¶Ðµ', 'ÑÐ¶Ðµ', 'ÐµÑÑ', 'ÐµÑÐµ', 'ÑÐ²Ð¾Ð¹',
+    'это', 'как', 'что', 'для', 'при', 'после', 'перед', 'через',
+    'новый', 'новая', 'новое', 'новые', 'который', 'которая', 'которые',
+    'может', 'могут', 'более', 'также', 'уже', 'ещё', 'еще', 'свой',
     'the', 'and', 'for', 'with', 'from', 'this', 'that', 'new', 'news'
 }
 
@@ -529,7 +529,7 @@ def jaccard(a, b):
 
 def story_similarity(a, b):
     # Use both word overlap and character-level similarity. Russian headlines
-    # often change word forms (Ð¿ÑÐµÐ´ÑÑÐ°Ð²Ð¸Ð»/Ð¿ÑÐµÐ´ÑÑÐ°Ð²Ð¸Ð»Ð°, Ð Ð¾ÑÑÐ¸Ð¸/ÑÐ¾ÑÑÐ¸Ð¹ÑÐºÐ¸Ð¹),
+    # often change word forms (представил/представила, России/российский),
     # so token-only Jaccard is too brittle for paraphrase detection.
     at = normalize(a.get('title', ''))
     bt = normalize(b.get('title', ''))
@@ -601,10 +601,11 @@ def story_anchor_tokens(x):
         if w in {
             'openai', 'anthropic', 'google', 'deepmind', 'gemini',
             'claude', 'nvidia', 'microsoft', 'meta', 'apple',
-            'yandex', 'ÑÐ±ÐµÑ', 'sber', 'ÑÐ¾ÑÑÐ¸Ñ', 'ÑÐ¾ÑÑÐ¸Ð¸',
+            'yandex', 'сбер', 'sber', 'россия', 'россии',
             'fable', 'mythos', 'astra', 'llama', 'kimi', 'copilot',
             'chatgpt', 'openclaw', 'agentforce'
         } or any(ch.isdigit() for ch in w)
+
     }
 
 
