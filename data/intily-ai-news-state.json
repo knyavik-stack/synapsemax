@@ -158,7 +158,8 @@
     "11c9400610e35397f4be118409236aa995cc5c2bd748bf6b585d444cdd527700": 1788424864,
     "db46643d04dc78bd26f82b50ca44411df287796c844e329a209c3b8aac14f4ca": 1788425461,
     "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788426304,
-    "d62949218337b52366a51b76abe91c45fc7a3166dd25dd4e956489e9057b528f": 1788426421
+    "d62949218337b52366a51b76abe91c45fc7a3166dd25dd4e956489e9057b528f": 1788426421,
+    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788426542
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -188,21 +189,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming - Fast Company Middle East",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUXFweFBhcGl3NVQwakZLWVREMFlXRF9uT3d4NXJtVFJEcVl4aWdpUmNHY21iUmk4TG0zNUFlVFU3NFAwRm82SWU1QzgwYzFCeDZXY2d6YXo3cUc5TzgxZEFGZ2VGeVFMbFgxUmdCSlk0TGFxQTRDQUlaaEpVaFc1MFIwOHhLQmJOT0MyOG0teTdLMjY1TC1icmJWQkpZcGxTekNFclZTTE1rZ2puaGtZYUxIa0s3S3NrYmc?oc=5",
-      "desc": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming Fast Company Middle East",
-      "source": "Fast Company Middle East",
-      "time": 1788424176.0,
-      "score": 17,
-      "key": "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68",
-      "editorial_value": 22,
-      "topics": [
-        "business"
-      ],
-      "tier": "S"
-    },
-    {
       "region": "RUSSIA",
       "title": "Россиянам дадут кнопку против ИИ-контента в рекомендациях - securitylab.ru",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tNHdRTkVXWTU0ME5ibDZDVFFwQ3VmLWpISHZtSm9PLXpucmgwOS1LQTJSWFZwUGN3VnY2bDdxUWtZUEpISXp2ampnT0czYzBOOWVTMg?oc=5",
@@ -222,20 +208,20 @@
       "next_retry_at": 1788427144
     }
   ],
-  "last_run": "2026-09-03T09:07:12.643208+00:00",
+  "last_run": "2026-09-03T09:09:43.537958+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788426421.9148295,
+    "last_start_ts": 1788426542.7320492,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788426421.9148295,
+    "last_success_ts": 1788426542.7320492,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788426432.2270334
+      "updated_at": 1788426582.9701817
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -535,10 +521,16 @@
       "desc": "CyberCatch Holdings (TSXV:CYBE) Rises 7.21% as Datavault AI Acquisition Agreement and Cybersecurity Expansion Support Sentiment kalkine.ca",
       "source": "kalkine.ca",
       "region": "WORLD"
+    },
+    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": {
+      "time": 1788426542,
+      "title": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming - Fast Company Middle East",
+      "desc": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming Fast Company Middle East",
+      "source": "Fast Company Middle East",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -557,6 +549,7 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ]
 }
