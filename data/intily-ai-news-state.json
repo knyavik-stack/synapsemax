@@ -30,7 +30,8 @@
     "78a8b50454a758756f9fb9b69a26bf8341c4c72ae2179c96cc4a538b86d5cab8": 1788448514,
     "d3d2dec45e3a009376f05683ff0172eff8219b11f90bdc4534121cb527da1a4c": 1788448872,
     "c6a1817d588e2d3bef106d680bba633e9a5f38d4176338d8bd0b895dfea049d4": 1788449232,
-    "f33a87c3ac9705c6d5e085cccea2ead26c56796d6169b4596256bac37cda886f": 1788449413
+    "f33a87c3ac9705c6d5e085cccea2ead26c56796d6169b4596256bac37cda886f": 1788449413,
+    "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c": 1788449769
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -168,27 +169,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики - gosrf.ru",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2std2NJRkZIUWVxOG1ZTUN5bjRLVS1nRURkbW5tQUwtZjZtM3dxODlnRFJYdnJTYUNXZ3JTVlpMNm9fX0hMWTdBN3pZcl8yQUpmb2IwdnhYakVwNUNteDhzcWF2VzdqdmtGdVZTdHJMNGN6X1h3b3htM1ZWcjdQcEw4RmU1ajVIOXkxalV2ODA1QWpiM1NnR0x0aFh5ZnlWaXlz?oc=5",
-      "desc": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики gosrf.ru",
-      "source": "gosrf.ru",
-      "time": 1788426046.0,
-      "score": 65,
-      "key": "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "applications",
-        "robotics"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788448872,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788449172
-    },
-    {
-      "region": "RUSSIA",
       "title": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года - itweek.ru",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwakFFbGJTaHF1aVo4cUJ5cXdMRnNDN0ZhZWdBaEZaeGpUbkZRdkp5RGs2TUNBWGFycXpQRFF1ck5sY0xhSExReHRjaTdoS2I0c2pDZ1BnOHE4cTU0NkE?oc=5",
       "desc": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года itweek.ru",
@@ -277,20 +257,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788449589.8511276,
+    "last_start_ts": 1788449769.4771678,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788449589.8511276,
-    "last_success_ts": 1788449589.8511276,
+    "last_run_ts": 1788449769.4771678,
+    "last_success_ts": 1788449769.4771678,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 11
+    "last_published": 1,
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788449416.8375201
+      "updated_at": 1788449773.5958767
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -520,10 +500,16 @@
       "desc": "Henceforth Solutions Strengthens AI Software Development Capabilities for Businesses Adopting Intelligent Technology Issuewire",
       "source": "Issuewire",
       "region": "WORLD"
+    },
+    "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c": {
+      "time": 1788449769,
+      "title": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики - gosrf.ru",
+      "desc": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики gosrf.ru",
+      "source": "gosrf.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -542,8 +528,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788448692.8999186,
-  "last_publish_ts": 1788449413.5542195
+  "last_publish_ts": 1788449769.4771678
 }
