@@ -180,7 +180,8 @@
     "7bea9a5514b78ebe430421831570b20a5ad917df5748be5e7fd6d62aeb28c57e": 1788434166,
     "9dd1caf4e9029625d995d276eb5d69b13c790503381ada26e13e5d75f26979df": 1788434526,
     "29e1cc8446e0a9b7c4d453899cb9dcf8e08454364cbe968acdfb0bf9901780f5": 1788434885,
-    "d43827e6bfdc3489cdb040d153679222e78dbfabb6222213879dcab8c4cd83f9": 1788435074
+    "d43827e6bfdc3489cdb040d153679222e78dbfabb6222213879dcab8c4cd83f9": 1788435074,
+    "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788435423
   },
   "known": {
     "5061897b1e7c0d46b29aac642e35bfed73ee34a6527e9f81ec6c7508430a9996": 1788414284.6313908,
@@ -272,20 +273,6 @@
     "21666b291074e1149b9acce3d1e80bb66b4ccd77bed44e4e5e1956a89955b911": 1788433984.9634469
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы - Korins",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSnFZRERDYi1aWi1XYU13VWZoOEI0NWUweklzcDhTZXZacjVjV3Niek94THRhd0k5MHhxY2FMVVp5bTZjVHRITldoR0RjY0YwcWpPT1pJZE8zR2Fwbm1TOGl5dlZfeFJhQnJNUVVTb2ZhNnRKRUl4Y0RtQlUyYWUwYnZKbEdVRF9sQXJ1cXJ5dHc3V3Y5WUt0eUdTNTdoQVoxMU9kVXoxcTY?oc=5",
-      "desc": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы Korins",
-      "source": "Korins",
-      "time": 1788431473.0,
-      "score": 72,
-      "key": "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37",
-      "importance": 72,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Где получить самую востребованную профессию: Университет Вуллонгонг в Дубае запускает магистерскую программу «Прикладной искусственный интеллект» - Счастливые родители",
@@ -496,21 +483,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788435243.2219002,
+    "last_start_ts": 1788435423.1506205,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788435243.2219002,
+    "last_success_ts": 1788435423.1506205,
     "consecutive_failures": 1,
-    "queue_size": 15,
+    "queue_size": 14,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788435243.2219002
+    "last_published": 1,
+    "last_run_ts": 1788435423.1506205
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788435079.040524
+      "updated_at": 1788435425.5037878
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -859,10 +846,16 @@
       "desc": "Should Kids Use AI? A Debate. Plus. . . The Free Press",
       "source": "The Free Press",
       "region": "WORLD"
+    },
+    "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": {
+      "time": 1788435423,
+      "title": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы - Korins",
+      "desc": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы Korins",
+      "source": "Korins",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "RUSSIA",
@@ -881,8 +874,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788433984.9634469,
-  "last_publish_ts": 1788435074.5283022
+  "last_publish_ts": 1788435423.1506205
 }
