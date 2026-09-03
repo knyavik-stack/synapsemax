@@ -119,13 +119,10 @@
     "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": 1788475554,
     "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5": 1788475856,
     "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b": 1788476694,
-    "102d427653a7b266af4d91b59442007f1d29e0897959d636c47384e858c2eb0c": 1788476993
+    "102d427653a7b266af4d91b59442007f1d29e0897959d636c47384e858c2eb0c": 1788476993,
+    "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312": 1788477540
   },
   "known": {
-    "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6": 1788455531.428624,
-    "f08e8fe5014a0c0332ffefa656d2d584f811c731ab1fa40c00b949e9196b9acd": 1788455531.428624,
-    "e7350f814463fd0b32d790cd376afa6ca1f7e208816455c4169f2ef97c2eac38": 1788455531.428624,
-    "cd09572e8f42116e4da44883abce6ba6207ed002fba76aadf039a9e118a794d6": 1788455531.428624,
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
     "3911462b883e26d2ae2ed2d5d2ad028fe824c367d3940a2c5523085a9993ba57": 1788459491.2056582,
     "1865e6c67e785da0de065ab726adee65934efaf0f407e59b14c0bdd529c71426": 1788459491.2056582,
@@ -301,22 +298,6 @@
       "importance": 72.4,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "UiPath Q2 FY2027 slides: profitability rises, AI drives enterprise deals By Investing.com - Investing.com UK",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSWtWME50VFVPVWVRcExtRkZkc1RwdDNDWm1KWDJpVU5TVDFocU9UUE0zVVBVV2U2T3U2aTRpQ1dPZzkyRXNyTTVwTDB6eFIwcE4zTEpqZklZY081dzhTYjVtMVluRjMtLS1KSERVWE1iSHFyNTU2YVZ6eVdNYU1ETW5TVEhReWx4c2NwTjBoZ1JjSU1zYmZOSTFsU3pVRGIxMkhXVkxYZVRoMDJEYTZpTDRCUWtYZXRienBTbnJKWHdhV0VRNUh5aVBHTQ?oc=5",
-      "desc": "UiPath Q2 FY2027 slides: profitability rises, AI drives enterprise deals By Investing.com Investing.com UK",
-      "source": "Investing.com UK",
-      "time": 1788475440.0,
-      "score": 69.5,
-      "key": "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
       "tier": "A"
     },
     {
@@ -569,20 +550,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788477114.6078444,
+    "last_start_ts": 1788477540.253014,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788477114.6078444,
-    "last_success_ts": 1788477114.6078444,
+    "last_run_ts": 1788477540.253014,
+    "last_success_ts": 1788477540.253014,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788477020.1093457
+      "updated_at": 1788477542.8719141
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1435,6 +1416,13 @@
       "desc": "Security industry core products see generational shift as AI-native push accelerates 디지털투데이",
       "source": "디지털투데이",
       "region": "WORLD"
+    },
+    "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312": {
+      "time": 1788477540,
+      "title": "UiPath Q2 FY2027 slides: profitability rises, AI drives enterprise deals By Investing.com - Investing.com UK",
+      "desc": "UiPath Q2 FY2027 slides: profitability rises, AI drives enterprise deals By Investing.com Investing.com UK",
+      "source": "Investing.com UK",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1454,11 +1442,11 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788476993.1452017,
-  "last_publish_ts": 1788476993.1452017
+  "last_publish_ts": 1788477540.253014
 }
