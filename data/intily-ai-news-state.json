@@ -11,7 +11,8 @@
     "b3537015e3790b0b8d78b4fbae1d09cec5d866123fdd3b385ad3ffb211a5eec3": 1788443111,
     "8631612be4bf01a14f7d8cd9a04e4d69d4091c0513f09d5bf96ae0106f23734b": 1788443292,
     "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788443474,
-    "c26b0145afee546a9c0b92d3b9c32a7cb4775cd8e81df5590824d4e2b0a26689": 1788443832
+    "c26b0145afee546a9c0b92d3b9c32a7cb4775cd8e81df5590824d4e2b0a26689": 1788443832,
+    "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": 1788444191
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -115,22 +116,6 @@
       "importance": 65,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Nvidia оснастит еще один дата-центр для Anthropic - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14YWNCSElmdnFtQUdEb3FocHhmQVRPODhWZTloT0tvS0tCWl9peTBUV19nSkx4VVVjbGQ5bGhVbmRTcVlPOExCYzFNMENWdw?oc=5",
-      "desc": "Nvidia оснастит еще один дата-центр для Anthropic kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788437798.0,
-      "score": 65,
-      "key": "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
       "tier": "A"
     },
     {
@@ -257,20 +242,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788444011.4106095,
+    "last_start_ts": 1788444191.5676541,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788444011.4106095,
-    "last_success_ts": 1788444011.4106095,
+    "last_run_ts": 1788444191.5676541,
+    "last_success_ts": 1788444191.5676541,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 13
+    "last_published": 1,
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788443835.108741
+      "updated_at": 1788444197.547353
     }
   },
   "stories": {
@@ -357,6 +342,13 @@
       "desc": "Artificial Intelligence Market Projected to Hit USD 8,716.00 Billion at a 38.50% CAGR by 2035 EIN Presswire",
       "source": "EIN Presswire",
       "region": "WORLD"
+    },
+    "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": {
+      "time": 1788444191,
+      "title": "Nvidia оснастит еще один дата-центр для Anthropic - kommersant.ru",
+      "desc": "Nvidia оснастит еще один дата-центр для Anthropic kommersant.ru",
+      "source": "kommersant.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -371,8 +363,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788443111.2937322,
-  "last_publish_ts": 1788443832.0853043
+  "last_publish_ts": 1788444191.5676541
 }
