@@ -112,7 +112,8 @@
     "eca56de0c2442750ffeea605d7c095f87f1ed21cb6f70e322c61230567a03d81": 1788472978,
     "9f83e7c62a3530784b733e15f099461713c865711386a83123eccd90f2974859": 1788473213,
     "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def": 1788473454,
-    "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76": 1788473754
+    "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76": 1788473754,
+    "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": 1788474053
   },
   "known": {
     "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": 1788453558.9492462,
@@ -292,20 +293,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle - GeekWire",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRGlVV3NTeERsaUdBVVBuYmpGU3k1bkppNnZ6Y3p0LW1QejB2OURTREl6NWFENTBzQlNMajJOVEZwbTR3WFdITjJwLWNkaUdRV1djWmh2RXpqMnRxMzVONG51NkU0MEp6VnI3TlBLeEF6VkpGWHVzWDBhbFc4ZC01cjVLY0t4X0FDaWhqM2JaclNZaGJwRzAxcnM2dFVKU0gyLTFZcy01SGZ4TnBzdGZlcUdqVkNiakV3VmgxMU1kZUtvdw?oc=5",
-      "desc": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle GeekWire",
-      "source": "GeekWire",
-      "time": 1788465252.0,
-      "score": 63.5,
-      "key": "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "NYC schools ban AI for students through eighth grade under new Mamdani policy - ABC7 New York",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWjNWaXZlY1NRcTJnRTJnVXdoclZHa1MxT0NQbXpWSjl4a0lMU1ZtUHhFMGVXMldkT2tLemVfV1RVaXVOUFB2SmlmbXpXaXN4dW8yNHRsSWZQZHdqVlFXOUhZcUdibGVFVVR2OTNZWFdsQ05nQVBGNjNPUzFvejNfcTZ1QnV2OVAyalZmTmpKQnNGRzhSMXZPMDJFT2fSAaIBQVVfeXFMT0NYeUtoa0pSdVd3eERBVlJjcXREU2RRdHI2VXFuY2Vqd1NUdDdONUdpWTN3a0RJZFU0SXRhN2czSmpsNFVsc3pzalh5ODVMTl9mZ0lLYzYzWkRGNTJEcTdNZDh6VU9wSV90cFU3QzZKNkZqRVpncVpoR19xUzZfR1RtYlhUbjRVMHlMUjlZSi1UQWhueEQ3QVBERmtJQXJzNl93?oc=5",
       "desc": "NYC schools ban AI for students through eighth grade under new Mamdani policy ABC7 New York",
@@ -437,20 +424,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788473876.3287985,
+    "last_start_ts": 1788474053.8151462,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788473876.3287985,
-    "last_success_ts": 1788473876.3287985,
+    "last_run_ts": 1788474053.8151462,
+    "last_success_ts": 1788474053.8151462,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 10
+    "last_published": 1,
+    "queue_size": 9
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788473756.441901
+      "updated_at": 1788474056.1636941
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1254,10 +1241,16 @@
       "desc": "AI’s market boom faces a rougher road ahead weeklyblitz.net",
       "source": "weeklyblitz.net",
       "region": "WORLD"
+    },
+    "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": {
+      "time": 1788474053,
+      "title": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle - GeekWire",
+      "desc": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle GeekWire",
+      "source": "GeekWire",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1276,8 +1269,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788472733.8932097,
-  "last_publish_ts": 1788473754.6302958
+  "last_publish_ts": 1788474053.8151462
 }
