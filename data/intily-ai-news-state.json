@@ -120,7 +120,8 @@
     "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5": 1788475856,
     "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b": 1788476694,
     "102d427653a7b266af4d91b59442007f1d29e0897959d636c47384e858c2eb0c": 1788476993,
-    "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312": 1788477540
+    "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312": 1788477540,
+    "4836dcb8eea5500ed7821d1cf800d03fe16a25b50fc6103613d9fcfa2a6c6192": 1788477894
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -315,10 +316,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788476694,
+      "last_failed_at": 1788477894,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 2,
-      "next_retry_at": 1788477294
+      "failure_count": 3,
+      "next_retry_at": 1788479094
     },
     {
       "region": "WORLD",
@@ -337,21 +338,11 @@
         "models",
         "security_regulation"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "IT exports soar, AI triggers job cuts - The Express Tribune",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ybWlyMWpXRkZyR0c2dHZaVTBJTHRPelV6ZktGTlNnWS1GbnM3WGtjbjFiZ2JZUUlhRDVEREZKYmNWeUVSNjZRZWFDeXJMTUpuLUJOYkNzMGtpdGgyU1FUeHNoMGlGMVVVVHo1YkF6NEV2QWxhSDl3UzFHYy05Z9IBhgFBVV95cUxOTHRyUUFRZjBZdWxhQlRQcGtyVm1uaG94bHVPMjl6WUdMYXR6bnY1emJGY1N6Z3VTZkxTMG9UVENndFRQZXBGOU8xQVp6YnUzTWs3MHV0NzdKU1k0U0pfRjhHWTQyOTBsNUQ2ekYzcjliem5KZTB3dVZxZVBJSE5mYktnaHUwQQ?oc=5",
-      "desc": "IT exports soar, AI triggers job cuts The Express Tribune",
-      "source": "The Express Tribune",
-      "time": 1788476411.0,
-      "score": 66.5,
-      "key": "4836dcb8eea5500ed7821d1cf800d03fe16a25b50fc6103613d9fcfa2a6c6192",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788477894,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788478194
     },
     {
       "region": "WORLD",
@@ -550,25 +541,25 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788477540.253014,
+    "last_start_ts": 1788477894.2903469,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788477540.253014,
-    "last_success_ts": 1788477540.253014,
+    "last_run_ts": 1788477894.2903469,
+    "last_success_ts": 1788477894.2903469,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 17
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788477542.8719141
+      "updated_at": 1788477945.1093905
     },
     "GROQ": {
-      "disabled_until": 1788467681.4908166,
+      "disabled_until": 1788499524.6517646,
       "reason": "GROQ_403_1010",
-      "updated_at": 1788446081.4908183
+      "updated_at": 1788477924.6517658
     },
     "OPENAI": {
       "disabled_until": 1788532483.2894158,
@@ -1423,6 +1414,13 @@
       "desc": "UiPath Q2 FY2027 slides: profitability rises, AI drives enterprise deals By Investing.com Investing.com UK",
       "source": "Investing.com UK",
       "region": "WORLD"
+    },
+    "4836dcb8eea5500ed7821d1cf800d03fe16a25b50fc6103613d9fcfa2a6c6192": {
+      "time": 1788477894,
+      "title": "IT exports soar, AI triggers job cuts - The Express Tribune",
+      "desc": "IT exports soar, AI triggers job cuts The Express Tribune",
+      "source": "The Express Tribune",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1441,12 +1439,12 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788476993.1452017,
-  "last_publish_ts": 1788477540.253014
+  "last_publish_ts": 1788477894.2903469
 }
