@@ -170,7 +170,8 @@
     "150cd96830fcc8dfabb194e22561f856e617027769ca443224fa1b1c35399866": 1788430502,
     "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e": 1788431617,
     "6dc08a6083aec1b9a749757dad043e9e9614ce00ba0a5ecf6e99b7d60a454af8": 1788431823,
-    "96e5553b3b21ae77bd635eea721265d18437a5bf03171180a61f504fa568baae": 1788432184
+    "96e5553b3b21ae77bd635eea721265d18437a5bf03171180a61f504fa568baae": 1788432184,
+    "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a": 1788432543
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -281,24 +282,6 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin - ET Datacenters",
-      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNaFRnZWxjVGRVdUZJZnFrc3dOeEJDMF9RbVV1Vl9yNGJOMUw2WV9PRnR2VG9WUVF6dTNMQW5mYllHLTUycENORk04bU5XR3h2M1JtMjdVNGJGZEt4TURHLWFHeVRDSExEandtSUNQNnBZNkNsb3ZrMGt1bVJFRXBncktadVVsS1F1Q2V3UXpyOHFWa1BfdTJDZGxxMmY1Rno3MGxwdnNlTjdlRkJNWUk2d3otYm51SkZ3cDNkQWxHX2lOVGktS0JfMzREWjJTcWprVmZ1M2xQcTVvTnoyVEN6bWxaNWhDSG9IVTZtbVgwTWxEOEwwLTVlRkQzeGxWbGNSRzYxN2xyZl9jc3gwT3E4bF8ycGJFLThscTIxX0dqSFVmNGFwREpacEUxci1Cc1FoOHcwV1kyMm1sMTRG0gGLAkFVX3lxTE9fSU1zZDNIUzVqMXR6WDVERG9LUzFkX0FtXzdOT2xKUFJmT3VmdnJ1Y3VvdUNfSGVyQUJHcndGZ3lfbjQxQ2ZpbUwzY0VmQ1dOblkwcGpUSEJ4S3hoUjFScE1NMXRzR1F0WEhzWkJPUmtkSHJMbGdaRjhpRF9zSmhZNlZtWWRXWTREb2Rvak44aVduTElqMEFVSGJSVjROcF9wZGF6ZVhKQkNjRDl3LW5lbmV6N2dIRkpmbVRBT3JjRFhOM1U3dFBwZDhfUENuNGZheXZyY1JSemZDbk51OUFFLXlWemNGNUdwNy1QOTE4VGdJR3hpaGZpczVnMi1CdHRSbUw2NzZKOHIybw?oc=5",
-      "desc": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin ET Datacenters",
-      "source": "ET Datacenters",
-      "time": 1788428985.0,
-      "score": 68,
-      "key": "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a",
-      "importance": 68,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788431270,
-      "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 1,
-      "next_retry_at": 1788431570
     },
     {
       "region": "WORLD",
@@ -518,21 +501,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788432364.224275,
+    "last_start_ts": 1788432543.1784992,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788432364.224275,
+    "last_success_ts": 1788432543.1784992,
     "consecutive_failures": 1,
-    "queue_size": 16,
+    "queue_size": 15,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788432364.224275
+    "last_published": 1,
+    "last_run_ts": 1788432543.1784992
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788432188.5443249
+      "updated_at": 1788432547.247826
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -825,13 +808,19 @@
       "desc": "How Applied & Competence-Oriented Education Improves Employability in an AI-Driven Economy Elets Technomedia",
       "source": "Elets Technomedia",
       "region": "WORLD"
+    },
+    "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a": {
+      "time": 1788432543,
+      "title": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin - ET Datacenters",
+      "desc": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin ET Datacenters",
+      "source": "ET Datacenters",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -847,8 +836,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788432002.3631577,
-  "last_publish_ts": 1788432184.5988607
+  "last_publish_ts": 1788432543.1784992
 }
