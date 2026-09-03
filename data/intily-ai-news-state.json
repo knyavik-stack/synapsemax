@@ -201,7 +201,8 @@
     "55b4759574ab7836e7196a85951abf5de28f875cff92bfef1bcc3acebce981e8": 1788438400,
     "1035e869b6667c9b7f7a5e6379378103f491fa3fcdd04ade55e9ccae5cc03fba": 1788438471,
     "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3": 1788438580,
-    "951e56ef181fe824c96ba7462c917ee84a23f21eeaf97d78733c9cc6d6a9e8bd": 1788438641
+    "951e56ef181fe824c96ba7462c917ee84a23f21eeaf97d78733c9cc6d6a9e8bd": 1788438641,
+    "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48": 1788438707
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -343,20 +344,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики - Журнал Эксперт-Урал",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYm1kM2VkLTBZV25EQTV3bzVXUERENTVOQWNsQ1VWQWhoT1l3OVMwM3pRRElad0VTRUtUdGRIdWJlMXY0UzFGY2Jrc3pKSTFKTDhiVWJJZ2poM003U1BFMnJZbDBLNlpBeWxtbm1MU0t0THpLU0FweGF6ZW5Dcy1XTjZoalhLZ2lYVWt1UmR5eTB5SjJWSkQwLWFhUWkyWUNEa1VVMjlnbzhRYzk2OWxlektaQml4MHVid29rc1JkeU1pZkJPVVlOWV9JYVVrams?oc=5",
-      "desc": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики Журнал Эксперт-Урал",
-      "source": "Журнал Эксперт-Урал",
-      "time": 1788435292.0,
-      "score": 65,
-      "key": "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Эксперт «ОБИТ» рассказал, когда не нужно внедрять ИИ в ITSM - ICT-Online.ru",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNekE1YmR6QWR2ZElNaS1zRV9EVmU5YUJWd1RWandEa3NzMWtnMy1vWnFwbzl0LWhxX1U4S1k0Q2w4b2lEenZwZXVQcnBZYTV4TExIdzBEUWV0SVRIYVZUS1RJQUJzemZRQk16Tk1CT2RITGhYQ0NiOENIRV9rSThxdnUxODVmOG51Skc4WUFVZFJKeTh5Q1E?oc=5",
       "desc": "Эксперт «ОБИТ» рассказал, когда не нужно внедрять ИИ в ITSM ICT-Online.ru",
@@ -457,21 +444,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788438641.5953004,
+    "last_start_ts": 1788438707.248747,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788438641.5953004,
+    "last_success_ts": 1788438707.248747,
     "consecutive_failures": 1,
-    "queue_size": 9,
+    "queue_size": 8,
     "last_candidates": 0,
     "last_published": 1,
-    "last_run_ts": 1788438641.5953004
+    "last_run_ts": 1788438707.248747
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788438647.699337
+      "updated_at": 1788438710.5839036
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -960,10 +947,16 @@
       "desc": "Google Wins Over Berkshire: Greg Abel Hails Alphabet’s AI Muscle Yahoo Finance",
       "source": "Yahoo Finance",
       "region": "WORLD"
+    },
+    "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48": {
+      "time": 1788438707,
+      "title": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики - Журнал Эксперт-Урал",
+      "desc": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики Журнал Эксперт-Урал",
+      "source": "Журнал Эксперт-Урал",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -982,8 +975,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788437619.555675,
-  "last_publish_ts": 1788438641.5953004
+  "last_publish_ts": 1788438707.248747
 }
