@@ -103,7 +103,8 @@
     "558675885987d82b720f2099d5945d2764134960531c6cb8590358018f46b494": 1788469391,
     "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532": 1788469751,
     "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": 1788469932,
-    "b82db89157ab3c6a560ae70b12b6d0afc978f492e063ae39ce1781c158cc1255": 1788470289
+    "b82db89157ab3c6a560ae70b12b6d0afc978f492e063ae39ce1781c158cc1255": 1788470289,
+    "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c": 1788470649
   },
   "known": {
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450498.829142,
@@ -312,23 +313,11 @@
       "importance": 65,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Why Clément Delangue Sold Hugging Face to Nvidia After Turning It Down - observer.com",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55VlJVNGw1VVdxSklZdkt2ZGZoMGdXeHhlbl9Kek1faTAxanVSNG5nTV8yNGVleTBQNkd3Q1NTUEp3RkFtbGJiekdmT09aLTB1YXI1V0J1YkxSQUhrdHA5V2R1R25feEFwSTVmR2E1cE5Oa05qRnJHNQ?oc=5",
-      "desc": "Why Clément Delangue Sold Hugging Face to Nvidia After Turning It Down observer.com",
-      "source": "observer.com",
-      "time": 1788468442.0,
-      "score": 65,
-      "key": "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788470649,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788470949
     },
     {
       "region": "WORLD",
@@ -549,20 +538,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788470469.1992629,
+    "last_start_ts": 1788470649.413085,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788470469.1992629,
-    "last_success_ts": 1788470469.1992629,
+    "last_run_ts": 1788470649.413085,
+    "last_success_ts": 1788470649.413085,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 15
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788470293.2371025
+      "updated_at": 1788470658.3283355
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1303,11 +1292,17 @@
       "desc": "AI & Tech Brief: The tech contracting shake-up The Washington Post",
       "source": "The Washington Post",
       "region": "WORLD"
+    },
+    "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c": {
+      "time": 1788470649,
+      "title": "Why Clément Delangue Sold Hugging Face to Nvidia After Turning It Down - observer.com",
+      "desc": "Why Clément Delangue Sold Hugging Face to Nvidia After Turning It Down observer.com",
+      "source": "observer.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1321,6 +1316,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1328,5 +1324,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788468853.2378092,
-  "last_publish_ts": 1788470289.5747538
+  "last_publish_ts": 1788470649.413085
 }
