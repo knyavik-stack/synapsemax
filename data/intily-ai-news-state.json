@@ -161,7 +161,8 @@
     "d62949218337b52366a51b76abe91c45fc7a3166dd25dd4e956489e9057b528f": 1788426421,
     "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": 1788426542,
     "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": 1788426661,
-    "fb74150b160dc1bd22e5ff5922ff17a1fef5b8d1522ccbf8f5491fe17fb7ff26": 1788427502
+    "fb74150b160dc1bd22e5ff5922ff17a1fef5b8d1522ccbf8f5491fe17fb7ff26": 1788427502,
+    "e5d9d307568a09fc9f53ec266c18c9b747502695f2bbac4f2afa006361eca178": 1788427623
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -194,25 +195,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "Not Just A Degree: Delhi Students To Get Global AI, Cyber Security Skills - NDTV",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdnJzOHplTzVpR1BIbHhQY2ROZVdUSnlDb3FQamlsWGFLeHBaZlJiN1c4N2dXS3ZfQjlPRHdMSTBWeFRpMmJYZGhJSzJwbnZ2VXVQQVJJbE9wNjVOZ25WOUtwMl9HOExqTzl4UGlUOUIyYmdZQXVCQVYwVkFjWHg2UGRUcGFlZzBiaUZIOE4tZFY1SVFxb2FEelB0b0lBU3JZaDZQUVpJdC02ejh1OVRKNtIBuAFBVV95cUxObExvMnRxbEthQlZOZ2Y3N0dPRGFaQUVkM2toN2QwbzF6TkxYQ2pITzJmQmJjWjUxeUV3aWlIMmhhTFdYVTRFSjJFUVJqMXVLc3hPUFJNUFJYT0JWOGRLYUp0MjBsUzRoVU1CdGdhVmtWeElWenRDLUVzY3BZZ1V1OUFlVlRVb1B0elFyVzlJSkJkVTl4ZFBjWWQya3hXMjA4NE45YVFHWERpbXhqdTJNSHdKbklCOHEw?oc=5",
-      "desc": "Not Just A Degree: Delhi Students To Get Global AI, Cyber Security Skills NDTV",
-      "source": "NDTV",
-      "time": 1788426775.0,
-      "score": 11,
-      "key": "e5d9d307568a09fc9f53ec266c18c9b747502695f2bbac4f2afa006361eca178",
-      "editorial_value": 17,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788427265,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788427565
-    },
-    {
       "region": "RUSSIA",
       "title": "Россиянам дадут кнопку против ИИ-контента в рекомендациях - securitylab.ru",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tNHdRTkVXWTU0ME5ibDZDVFFwQ3VmLWpISHZtSm9PLXpucmgwOS1LQTJSWFZwUGN3VnY2bDdxUWtZUEpISXp2ampnT0czYzBOOWVTMg?oc=5",
@@ -232,20 +214,20 @@
       "next_retry_at": 1788429665
     }
   ],
-  "last_run": "2026-09-03T09:25:22.156720+00:00",
+  "last_run": "2026-09-03T09:27:15.047616+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788427502.969234,
+    "last_start_ts": 1788427623.16233,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788427502.969234,
+    "last_success_ts": 1788427623.16233,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788427521.7050288
+      "updated_at": 1788427634.646631
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -259,13 +241,6 @@
     }
   },
   "stories": {
-    "ce82690aab9d1901c2cef982613ff0292a38411f6cda4cc2dc07c2e5d958c561": {
-      "time": 1788341143,
-      "title": "Sonos 27 Announced With ChatGPT Integration, New AI Features And Redesigned App; Sonos Play India Launch On September 8 - Herzindagi",
-      "desc": "Sonos 27 Announced With ChatGPT Integration, New AI Features And Redesigned App; Sonos Play India Launch On September 8 Herzindagi",
-      "source": "Herzindagi",
-      "region": "WORLD"
-    },
     "4e829e5b7f111640c2a46592a69c3a80d1ec145c8b543fb6b84c387e9579f8ac": {
       "time": 1788341744,
       "title": "Anthropic Launches Claude 3.5 Fable 5.1 Pre-$2T IPO: Top All Benchmark Leaderboards, 45% Total Cost Cut, & New Anti-Distillation Mechanism Goes Live - eu.36kr.com",
@@ -545,6 +520,13 @@
       "desc": "ТОП-50 скиллов для ИИ-агентов (9 млн звезд на GitHub, 22 млн установок). Забирайте бесплатно в одной таблице VC.ru",
       "source": "VC.ru",
       "region": "RUSSIA"
+    },
+    "e5d9d307568a09fc9f53ec266c18c9b747502695f2bbac4f2afa006361eca178": {
+      "time": 1788427623,
+      "title": "Not Just A Degree: Delhi Students To Get Global AI, Cyber Security Skills - NDTV",
+      "desc": "Not Just A Degree: Delhi Students To Get Global AI, Cyber Security Skills NDTV",
+      "source": "NDTV",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -553,7 +535,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -567,6 +548,7 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ]
 }
