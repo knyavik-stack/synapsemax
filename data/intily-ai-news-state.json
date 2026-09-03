@@ -271,9 +271,103 @@
     "506428f2fef24b173a408559c0b815ccb9c646d6c54fb89e917072fb2c6d30fa": 1788433984.9634469,
     "64963db5d347cd402efc5f54fefec92ef1c7eb01219bc3d4299f88d82123d148": 1788433984.9634469,
     "96f29f371984dbd72b10e46f7d0438da7d7dd73d77d19ea846a27f795ead68ef": 1788433984.9634469,
-    "21666b291074e1149b9acce3d1e80bb66b4ccd77bed44e4e5e1956a89955b911": 1788433984.9634469
+    "21666b291074e1149b9acce3d1e80bb66b4ccd77bed44e4e5e1956a89955b911": 1788433984.9634469,
+    "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": 1788435785.18048,
+    "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": 1788435785.18048,
+    "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3": 1788435785.18048,
+    "f62fc27814dd7067df665c74f3b8e92dda4f91dfde782f08ac72e16156b565ff": 1788435785.18048,
+    "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b": 1788435785.18048,
+    "55b4759574ab7836e7196a85951abf5de28f875cff92bfef1bcc3acebce981e8": 1788435785.18048,
+    "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3": 1788435785.18048,
+    "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48": 1788435785.18048,
+    "958aa4c2a7bb1dca32f4cb766e2c78b5b66fde9644979eb622424e5d0e740fab": 1788435785.18048,
+    "ea65340dc1da15888fde634c7b18aa33a4fecedc557a818fe73f62c95e816c1c": 1788435785.18048,
+    "5f88f9742669cbc49af1741e4b7336a3dee31c41297044910a00ac6a3bfc482d": 1788435785.18048,
+    "08df6bc9fe9e77e2ef898ec4ea6903ce2ff4d13c11fefa15224949bb1a2b273c": 1788435785.18048,
+    "c684118b389a4c220398e17b84ee6ec4e5dfa79a61bbc0aadfd970dfaaacf937": 1788435785.18048,
+    "f23f9d94a842c94290b0ab8f8175051771e3ddc8fbeba30743dd193a1cdc6fe6": 1788435785.18048
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdnpqamp3SmNZMHVlb1o3TUVuLUlFUVRGc181Mkp4UDNzQlpSUDgxMzF0Z1BhNHFjaGV2eW9nYU9mb0RUd3IzWkxLOUZlNTlaaGVfeFVNY2ZhcVM3eFlpTzFtLUN6Y0hDcnNWTmpSQS0xeDVxRzJqMWVEcktYMERlLXVMTEpYX3psTm05TkdMWmNBeUNySzYwOEh5NHdDSE50anJGczE4SkRlbFR3Um5tcy12ZTlGTHlUbG5OUE5xMXk?oc=5",
+      "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788435677.0,
+      "score": 69,
+      "key": "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок - Московская газета",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnlESXV6ZE5jMHZUUnpXZ1M2dTdqZm5mQnE1a0FFb2FpaWt4U0lIcmpWdHpYNW9oUEdzV2p6ay1PUW5SSVBSOWlsLUwyeG4zVEhhLWNEcXFaLUlYdXcwSWRQZk1hYjRjc2tObmlhVXFuLUZDLVM3M2thUE1tdjl2aFJXQzh2aUhISHVaUWROMnU0U1ZONGpzVmlPb0ZnTy10bnVnRWxn?oc=5",
+      "desc": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок Московская газета",
+      "source": "Московская газета",
+      "time": 1788434837.0,
+      "score": 69,
+      "key": "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Александр Ведяхин: создать ИИ-агента сейчас может каждый - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2xOU3lpN1J1YzI3WkM3bzFKMjdvZU4wUWE0dzZMYTg4OWRKRmNydHhTQkpITUtFb1QtWEhHQUdGc3l3WTlxYXl0Z3BDNkpreVZLaTlxclFTUDJhSXVqWFFzMU9Fa2EyMmNPM2tGSWxDb1pMa1BsNWFONkZMaHpqQ19ZSzgxM3pxNXk4d29aRDBWdVZFbU5tT2RMejh2Zw?oc=5",
+      "desc": "Александр Ведяхин: создать ИИ-агента сейчас может каждый prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788434441.0,
+      "score": 69,
+      "key": "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Уволенные из-за ИИ сотрудники создали модель, чтобы заменить ею генеральных директоров - 24 Канал",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWlVCQ3NhMlJ2TDBVOUVSYmkzaDVUQjM0RUxSTllyZDU2THVsODdNYTFIbnB5WUJaaVZMcnFDNTkzTldVUk4ydjQySUNCZDRMQ0NjNlotUXhCblluNU43TXFFT21UUzMxNVJPUWJERWVNeUQ1ZE5aanI3VEhQdkJVQWVJN1J5bW1mX0xpbGNVVWtuNjhXNGJUbG1RUUhFS1k3alFaM05TNk0yZ0lwNG5EV004Q1NPM3RzLWRyc2hOR3cwQzRzdTB2WkNycHBRUGtv0gHWAUFVX3lxTE9XdVlmb0NabnhhRUFmRTJHWkR0LWwyaElmM0VBTi1sb20wenFlbHYtVzJDbUc1dlZXRWY4OHVVMEt0Q042MFh3MjhhYU1aaHRqYk85djJVV3RoZ0hVYWJWVWtsRVRxS3hOSjQ3S0tQdzdzN01ocGhPMjJwWS1GcTI5QXdIZEVXbURBNGtFRFJKZV94ZmJ3QWVDd2FaSGpPVmhjd0dWUlc2ei02NUY2NnM0ZXBzVExFbFZLWjFSdEdOeUN1UG5qRVV4UW1ib3hQMjBwRVUwVWc?oc=5",
+      "desc": "Уволенные из-за ИИ сотрудники создали модель, чтобы заменить ею генеральных директоров 24 Канал",
+      "source": "24 Канал",
+      "time": 1788433260.0,
+      "score": 69,
+      "key": "f62fc27814dd7067df665c74f3b8e92dda4f91dfde782f08ac72e16156b565ff",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Wonderful Raises $550 Million Series C to Scale the AI Operating System for the Enterprise - India Technology News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVkFjN2l1MXIxNUI2aklzLTRTcGQtM1Y0Vl9rOFA3OWJFWTVEeVM1cjRVOEFIT1l5VDF6dF8wakoxaEhnWmg4ZV9Da1MyOG5ZWjlnWTF3eG54djlFbXdSTHEtNlpOMnFYeFdzR045UFlHWTIzTHZLX1ZvdTlUVmtxQnB4RDdGR08ySnA4WTZpaDVGOE0xUllRVmZjbWkwZktwbmYtN3FMbk9mdEtvQXBUdGpra3RXMWlsSXBQYXF3?oc=5",
+      "desc": "Wonderful Raises $550 Million Series C to Scale the AI Operating System for the Enterprise India Technology News",
+      "source": "India Technology News",
+      "time": 1788435446.0,
+      "score": 68,
+      "key": "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Где получить самую востребованную профессию: Университет Вуллонгонг в Дубае запускает магистерскую программу «Прикладной искусственный интеллект» - Счастливые родители",
@@ -284,6 +378,52 @@
       "score": 68,
       "key": "118674a60488edb4fff79dfc397400e4da217fb97c11956de7137cd4aff0d2b8",
       "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Путин напомнил о рисках при использовании ИИ - science.mail.ru",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95cnMtUkdFWWxjY1BCaDZwUmtKMnZHWDRJYkdEemFyOFhHay1IdW01ckZWeFAzb1RUSThITm1UYlpBVGVXQUtCUmZURl84V3NUcGt4YXJVVG5JcHoxVVJ2STBoNEh2enVoM21sb1l5dw?oc=5",
+      "desc": "Путин напомнил о рисках при использовании ИИ science.mail.ru",
+      "source": "science.mail.ru",
+      "time": 1788428390.0,
+      "score": 66,
+      "key": "55b4759574ab7836e7196a85951abf5de28f875cff92bfef1bcc3acebce981e8",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDM0g3MWRaemlTcWJIb0d6d1BjNWd0ZHVtVmlkai1pVHlqejl0X0ZUVlJjTnJIeGZ3aFBMZnR1MTE5Q3lsanU1ZkZLMXk4VWRzWjRnUVZSWGtCTW02TXBLdUplNENXZnBOQTNQYjJ5elVEYTBJaFhiM2pJd9IBe0FVX3lxTFBDM0g3MWRaemlTcWJIb0d6d1BjNWd0ZHVtVmlkai1pVHlqejl0X0ZUVlJjTnJIeGZ3aFBMZnR1MTE5Q3lsanU1ZkZLMXk4VWRzWjRnUVZSWGtCTW02TXBLdUplNENXZnBOQTNQYjJ5elVEYTBJaFhiM2pJdw?oc=5",
+      "desc": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788426381.0,
+      "score": 66,
+      "key": "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики - Журнал Эксперт-Урал",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYm1kM2VkLTBZV25EQTV3bzVXUERENTVOQWNsQ1VWQWhoT1l3OVMwM3pRRElad0VTRUtUdGRIdWJlMXY0UzFGY2Jrc3pKSTFKTDhiVWJJZ2poM003U1BFMnJZbDBLNlpBeWxtbm1MU0t0THpLU0FweGF6ZW5Dcy1XTjZoalhLZ2lYVWt1UmR5eTB5SjJWSkQwLWFhUWkyWUNEa1VVMjlnbzhRYzk2OWxlektaQml4MHVid29rc1JkeU1pZkJPVVlOWV9JYVVrams?oc=5",
+      "desc": "На форуме «ПРО IT» в Кургане обсуждают, как искусственный интеллект уже меняет реальный сектор экономики Журнал Эксперт-Урал",
+      "source": "Журнал Эксперт-Урал",
+      "time": 1788435292.0,
+      "score": 65,
+      "key": "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48",
+      "importance": 65,
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
@@ -304,6 +444,20 @@
     },
     {
       "region": "RUSSIA",
+      "title": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья - perm.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BM012T1pHZDFLQXJQSmhNa1hIcS1UN2FzSVQ4N2tWNUg0NlRxZ1cwa0VTMllReVF5Z0RGbDl0YlRwM0VSRlROQjlXSXZLR3AxdEtvcDRtTWlWSjRyWV9Gd1A0Tk1VdTV6U1dtWUtyYjM2NmRkemExM2t2V0M?oc=5",
+      "desc": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья perm.rbc.ru",
+      "source": "perm.rbc.ru",
+      "time": 1788433413.0,
+      "score": 65,
+      "key": "958aa4c2a7bb1dca32f4cb766e2c78b5b66fde9644979eb622424e5d0e740fab",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Командовать парадом буду я: «Яндекс» готовит к запуску оркестратор для нейросетей - Forbes.ru",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPclN1dnlKMVpmc0llZFVKb0V1UmlHNk1Nc0daSkkxRFF4Q3R5bWVsTkJtR1R0YlVIR2lPRnNuYmxHZHhKWFU1VV92NnJkUWtuN3htX0ZSM2lpMmZ4MW1LSXFUcHoxeS1qVDNXcHVOSUpOY2o5WFNNYnAyTTd2QVhFNi1Mel9pVFY0TWtMTmdtdGRHRnhTN2JGUlJkc0ZoS2U5LWk5bzhXUnFmWllOcTh1Vm9vZHJwNUlKdGc?oc=5",
       "desc": "Командовать парадом буду я: «Яндекс» готовит к запуску оркестратор для нейросетей Forbes.ru",
@@ -311,34 +465,6 @@
       "time": 1788433200.0,
       "score": 65,
       "key": "3c1e6d1e6a90ee0e3dfe5fe73bb353098661fb3aea6fbb94de47e606a27bfb06",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ИИ в ITSM начинается с управления знаниями, считает ОБИТ - cisoclub",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMDhpai0xdXlleXc2ZUJSVFRJSjc1SHdyWFVKVUZ2MWZRVENpUXllYnBZVUJObkpfOWVKd0ZpQTRCN19hRm9GTWpaOFJ4b0FZY0doUmE4Y3Z4alJocEZyZ0tGZ1ZnT0NYY0lSN3RLaW1ySmFEbmhSVkNlRjVfaWxCQW50bGlWUQ?oc=5",
-      "desc": "ИИ в ITSM начинается с управления знаниями, считает ОБИТ cisoclub",
-      "source": "cisoclub",
-      "time": 1788432024.0,
-      "score": 65,
-      "key": "74ee67a41f8bf9cd7681a59e07f457715499526f7cc73479a9e7e53733503be5",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Анатолий Попов на ВЭФ-2026: «Будущее — за генеративным ИИ» - DonDay",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbW9VUVNRSFlJa2NCSHA5eTRqTHRpQVJsR01tX3FOekQzdVlNZTVEcE13bHhBaVdoZkZBRHh0MGFXQzBmT2V4RWtFUkJTMUhaV3RhbC12bmhHTzNDQTNEV3A3eU1SWWpZbk5oUEN6RUNQNW40a3hxNVJXOVVvVGlMcFNyZEJPSUVqaTk5Um9OTVJBQXNYLUtZ?oc=5",
-      "desc": "Анатолий Попов на ВЭФ-2026: «Будущее — за генеративным ИИ» DonDay",
-      "source": "DonDay",
-      "time": 1788430415.0,
-      "score": 65,
-      "key": "aad4267781d6dbee956d56810d29fe77401337166c65e536055ea66662d54d2d",
       "importance": 65,
       "editorial_value": 50,
       "topics": [],
@@ -364,20 +490,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 1,
       "next_retry_at": 1788435911
-    },
-    {
-      "region": "RUSSIA",
-      "title": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ - Azərtac",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTXk3c1h4dFBVT1BnZkRrbjUxczMyVFZpNVlkQ2RxX19vamJUVkJjU29LNEFqN3Z2RWpvVENjWl91bjc4NHBrekFiNk5ocmlrQWRtNXNJUjZvQy1KRnlYZ1lXRmtoZnVJM1dvYVlSQjVSYkRGeVh0LTNObWFfZ0dhNW9wTFFaQmhIakJfeEhCZjVETEVzeEY5Nk9Fcm9Od0RUTGYtQzh2bzZib0ttTkotd05pUVNCR3JfRzZMcTdn?oc=5",
-      "desc": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ Azərtac",
-      "source": "AzÉrtac",
-      "time": 1788418380.0,
-      "score": 65,
-      "key": "ddbb19310a06182aede602d1f25b3bcf35ce37fdb35f413756ed4b05e8375415",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -413,14 +525,14 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Зарплата до 1 млн руб. В компаниях из-за ИИ появится новая должность - rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XRV95ZURpMldLQnBBdnpvQ2FlaVJZV3VnZnNqUHJMTGUyQWlFR2hsTUVHOGlPNm5HcFAzTEM4TVlzaS03VFZZcGVtOWhzcHlHSWpGNkotb0dDU0QtRkFlWG56YTNDY0QzZFN6TFBfNTlLQQ?oc=5",
-      "desc": "Зарплата до 1 млн руб. В компаниях из-за ИИ появится новая должность rbc.ru",
-      "source": "rbc.ru",
-      "time": 1788427845.0,
+      "region": "WORLD",
+      "title": "NYC Mayor Zohran Mamdani Bans Student-Facing AI for Nearly 600,000 Kids — Here's What the New Rules Mean - Benzinga",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ25rU2IySEdFeklwNjFwaWktQU9XOFpPOUxwRmlUSFNQMU04MmtObm1iRXNELWROR21NN3djTEh3aUJFa202QTNnRHJTY2Jva3BuTk5hYV9nVVY5UjE5VjBFaS1USVZ6X0g2aTlBQzFvbnY2WnlCWkx1QzNvSXRmZ3hvXzN5SVdNZFZ5OWVpd2lkdE5E?oc=5",
+      "desc": "NYC Mayor Zohran Mamdani Bans Student-Facing AI for Nearly 600,000 Kids — Here's What the New Rules Mean Benzinga",
+      "source": "Benzinga",
+      "time": 1788429094.0,
       "score": 62,
-      "key": "6c65d1698f49f93d1b3836991745bce0ac168d9eb37467971fd71bcd9d9f3075",
+      "key": "5f88f9742669cbc49af1741e4b7336a3dee31c41297044910a00ac6a3bfc482d",
       "importance": 62,
       "editorial_value": 50,
       "topics": [],
@@ -467,20 +579,36 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Imaging artificial intelligence vendor Elucid raises $55M - radiologybusiness.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcndrQzlZZThCdkRCUGdNZWgzRzQ1WG9JLU5RQ1BLeU00QkRCR2ktN3lrUzBDNHkyNWlhRmh5SVVpeVUxUEg3dTU3OG5paGdzOXdBLUlZbmd3UjFBTTItMUdrWl9ISmY1NEJWMmtvU2ZKVXNVSllac29jamhUQ29LclI4NTF6NlgxUGxOS0pfRDYtQklrTWMzVW11QXdFNFcwT3BNT0tOZ25TNjZFbE1IQlFlNFJHT2Q0?oc=5",
+      "desc": "Imaging artificial intelligence vendor Elucid raises $55M radiologybusiness.com",
+      "source": "radiologybusiness.com",
+      "time": 1788415397.0,
+      "score": 61,
+      "key": "f23f9d94a842c94290b0ab8f8175051771e3ddc8fbeba30743dd193a1cdc6fe6",
+      "importance": 61,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
     }
   ],
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788435611.751501,
+    "last_start_ts": 1788435785.18048,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788435611.751501,
+    "last_success_ts": 1788435785.18048,
     "consecutive_failures": 1,
-    "queue_size": 13,
-    "last_candidates": 0,
-    "last_published": 1,
-    "last_run_ts": 1788435611.751501
+    "queue_size": 20,
+    "last_candidates": 59,
+    "last_published": 0,
+    "last_run_ts": 1788435785.18048
   },
   "providers": {
     "GEMINI": {
@@ -873,6 +1001,6 @@
     "RUSSIA",
     "WORLD"
   ],
-  "last_search_ts": 1788433984.9634469,
+  "last_search_ts": 1788435785.18048,
   "last_publish_ts": 1788435611.751501
 }
