@@ -200,7 +200,8 @@
     "4c80fa437a2fdf5e0208f7ca112710b62da41ce84a676f33349e756afb9231f4": 1788438283,
     "55b4759574ab7836e7196a85951abf5de28f875cff92bfef1bcc3acebce981e8": 1788438400,
     "1035e869b6667c9b7f7a5e6379378103f491fa3fcdd04ade55e9ccae5cc03fba": 1788438471,
-    "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3": 1788438580
+    "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3": 1788438580,
+    "951e56ef181fe824c96ba7462c917ee84a23f21eeaf97d78733c9cc6d6a9e8bd": 1788438641
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -335,10 +336,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788438471,
+      "last_failed_at": 1788438641,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 8,
-      "next_retry_at": 1788460071
+      "failure_count": 9,
+      "next_retry_at": 1788460241
     },
     {
       "region": "RUSSIA",
@@ -392,20 +393,6 @@
       "score": 65,
       "key": "3c1e6d1e6a90ee0e3dfe5fe73bb353098661fb3aea6fbb94de47e606a27bfb06",
       "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Google Wins Over Berkshire: Greg Abel Hails Alphabet’s AI Muscle - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRGRSV1NMVnZLSlg2VkJqQnRTNDc1V0s1X19YNktocXRuekJMZ1h5dmRWOE10TnM2VGdudldoTWRyc3VlLXI3WVJZOHA3VFV5OW95R1pZZnlVaWtNM0hlTmhjZTF4a0tOcEVTM0Z4Qm1oai1zc0V0VG9zZGNpaUdmN24wMG5FX3I3RUN5QUFvUGk4WUNBVUp1TnpBRQ?oc=5",
-      "desc": "Google Wins Over Berkshire: Greg Abel Hails Alphabet’s AI Muscle Yahoo Finance",
-      "source": "Yahoo Finance",
-      "time": 1788432371.0,
-      "score": 62,
-      "key": "951e56ef181fe824c96ba7462c917ee84a23f21eeaf97d78733c9cc6d6a9e8bd",
-      "importance": 62,
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
@@ -470,21 +457,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788438580.0521536,
+    "last_start_ts": 1788438641.5953004,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788438580.0521536,
+    "last_success_ts": 1788438641.5953004,
     "consecutive_failures": 1,
-    "queue_size": 10,
+    "queue_size": 9,
     "last_candidates": 0,
     "last_published": 1,
-    "last_run_ts": 1788438580.0521536
+    "last_run_ts": 1788438641.5953004
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788438582.6170487
+      "updated_at": 1788438647.699337
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -966,10 +953,16 @@
       "desc": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки companies.rbc.ru",
       "source": "companies.rbc.ru",
       "region": "RUSSIA"
+    },
+    "951e56ef181fe824c96ba7462c917ee84a23f21eeaf97d78733c9cc6d6a9e8bd": {
+      "time": 1788438641,
+      "title": "Google Wins Over Berkshire: Greg Abel Hails Alphabet’s AI Muscle - Yahoo Finance",
+      "desc": "Google Wins Over Berkshire: Greg Abel Hails Alphabet’s AI Muscle Yahoo Finance",
+      "source": "Yahoo Finance",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -988,8 +981,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788437619.555675,
-  "last_publish_ts": 1788438580.0521536
+  "last_publish_ts": 1788438641.5953004
 }
