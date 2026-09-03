@@ -85,7 +85,8 @@
     "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8": 1788464169,
     "6b05f7462ceab4812366cf0b85fd6c63d4d920d853bed78fc91a196223fdd1a6": 1788464351,
     "ce3b396c32bfeaa77a079199697470add24d7d92fb772fc17454933c2dd2d7ef": 1788464710,
-    "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": 1788465071
+    "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": 1788465071,
+    "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": 1788465259
   },
   "known": {
     "f09fdc33e7929e5407420bc0aa9a159afd76ed2d872e4e44516089b4ecb44b62": 1788444920.0279398,
@@ -307,21 +308,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 1,
       "next_retry_at": 1788465371
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере - Компьютерра",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcG03LUVucjRLNDE5RC1DeXRJUnc1TVlWRFNSMDBZZVF2aUh6WEktSFdHVzZTNTR4MDRrdEVxNnlhU0g3QngyMk5ENi1feERia09xX3JkYVhrX2x3dWxKRElPd2VCYnhfNnMyeEh1WXRjd0tHZjU0Zk5PXy0tNnE0TVZoNVY2RkpTdU9NR2pNcVljcERFc1Y1cTZMcHQ4NEsycms1TTA3OTd6WS1wb0tYalBhWTBJV2J0R1E?oc=5",
-      "desc": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере Компьютерра",
-      "source": "Компьютерра",
-      "time": 1788462450.0,
-      "score": 69,
-      "russia_weight_bonus": 1,
-      "key": "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -620,20 +606,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788465071.3605509,
+    "last_start_ts": 1788465259.756598,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788465071.3605509,
-    "last_success_ts": 1788465071.3605509,
-    "last_candidates": 109,
+    "last_run_ts": 1788465259.756598,
+    "last_success_ts": 1788465259.756598,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788465106.947209
+      "updated_at": 1788465265.5128117
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1248,10 +1234,16 @@
       "desc": "As Big Tech Builds Its Own AI Chips, Nvidia Makes a $3.5 Billion Bet on Taiwan Vision Times",
       "source": "Vision Times",
       "region": "WORLD"
+    },
+    "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": {
+      "time": 1788465259,
+      "title": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере - Компьютерра",
+      "desc": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере Компьютерра",
+      "source": "Компьютерра",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1270,8 +1262,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788465071.3605509,
-  "last_publish_ts": 1788465071.3605509
+  "last_publish_ts": 1788465259.756598
 }
