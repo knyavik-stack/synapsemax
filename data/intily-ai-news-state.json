@@ -151,7 +151,8 @@
     "141ce6140c2f18c7b4a91dfd3bd72356517457dd401ae5c5ca0400c01543bf96": 1788423303,
     "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": 1788423421,
     "364191dbac8e31c6a8408610c50d6c8d33eab473c79fb58a2e70c07dba6b0567": 1788423540,
-    "bdedd67ae91d51d3d7fcaa3b55a8a24c771d31edddd84a96457c652f6e60c9e4": 1788423663
+    "bdedd67ae91d51d3d7fcaa3b55a8a24c771d31edddd84a96457c652f6e60c9e4": 1788423663,
+    "7590558b4a6fbd8af3630f7ad1730423574fe723c58aeae10bf6d7f0b6535738": 1788423783
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -175,19 +176,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "China’s Moonshot AI files for Hong Kong IPO, seeks $3 billion: report - Invezz",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWUFrYUNsYkZDdXozT0VSd1BCcDVWUnlUSVF2bXpXUnl2NTR5T0ZNTzMweHExNmJVRmtMeVJvbzhqaUUxal9pS3BqdU1YT1lHT1NXSTBTcm9QYVVSLXE5SHB0TWJYd2tkNERVQ1JtUGtjcDNMMzZLZ3c2cnRUa0Rrc1pGelRNSU5nSDljUnRfQXJGVmZ3RGpSSnM3eEdhSEszRGJj?oc=5",
-      "desc": "China’s Moonshot AI files for Hong Kong IPO, seeks $3 billion: report Invezz",
-      "source": "Invezz",
-      "time": 1788423388.0,
-      "score": 11,
-      "key": "7590558b4a6fbd8af3630f7ad1730423574fe723c58aeae10bf6d7f0b6535738",
-      "editorial_value": 16,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "ODILO Embarks on a New Era as Letmino to Transform Continuous Learning in the Age of AI - pressreleasehub.pa.media",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLW4xS0RIU3B0R090b3NnWUQxVFRjZXRUQlhRX21ucGZhaGFfVy1nNk5QQy1KT3AyUlhsa2c1aldKbHMwZ3VqMm94NUtmX011SHZ6eXlIV3Q5VVdvVmc2a0dLOTVRRmZJWHVQbmsxQWhwWWNBX0RQT2NSc19RVWZ2cGt5Z29JLUFydnRuQjhGWVpvXzZtSi01T2dpbDdrRWo4SnNSSmhGV1FObE9EcFFFX0luNjRGZzZnck1JWGd0SFZaeGNqeDlCUHVZT0NSck82SnppQTJR?oc=5",
       "desc": "ODILO Embarks on a New Era as Letmino to Transform Continuous Learning in the Age of AI pressreleasehub.pa.media",
@@ -200,20 +188,20 @@
       "tier": "A"
     }
   ],
-  "last_run": "2026-09-03T08:21:18.057771+00:00",
+  "last_run": "2026-09-03T08:23:17.009031+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788423663.7683146,
+    "last_start_ts": 1788423783.7273755,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788423663.7683146,
+    "last_success_ts": 1788423783.7273755,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788423677.563474
+      "updated_at": 1788423796.489584
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -499,6 +487,13 @@
       "desc": "AI disinformation threatens 2027 election credibility, Amupitan warns, says funds not fully released ThePointNG",
       "source": "ThePointNG",
       "region": "WORLD"
+    },
+    "7590558b4a6fbd8af3630f7ad1730423574fe723c58aeae10bf6d7f0b6535738": {
+      "time": 1788423783,
+      "title": "China’s Moonshot AI files for Hong Kong IPO, seeks $3 billion: report - Invezz",
+      "desc": "China’s Moonshot AI files for Hong Kong IPO, seeks $3 billion: report Invezz",
+      "source": "Invezz",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -506,7 +501,6 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -519,6 +513,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
