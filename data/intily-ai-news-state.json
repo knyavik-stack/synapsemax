@@ -16,7 +16,8 @@
     "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d": 1788444372,
     "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb": 1788444560,
     "f09fdc33e7929e5407420bc0aa9a159afd76ed2d872e4e44516089b4ecb44b62": 1788444920,
-    "067ff2b7858a511d74315299ab45a6b2036d1ad18d6106b4c3ccf846484de233": 1788445273
+    "067ff2b7858a511d74315299ab45a6b2036d1ad18d6106b4c3ccf846484de233": 1788445273,
+    "570b54be4e560da272a60c59097bfe66916c4b162f3d49bcab0a36bd6df7fece": 1788445639
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -72,22 +73,6 @@
     "7159550ca68c9090ab06d9885c58c8f86f9d7fad9ee3e51f58ef390953bddb1f": 1788444920.0279398
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Broadcom Custom AI Chip Revenue Surges 221% to $16.7B, Q4 Guidance Disappoints - Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObFFDTWpoXzJPMHV0c3ViWVNkNEJkM1pic1FMVXJvTGNaSzFHVktjeE4wcDFmRFhVR1pkVHZ2SjRmakVMWUxsMmZEbGx6Z3RlOU1UNkhoMWZHbVBHTlZLQ0xxZGpRUzA2eVgyWURLTk9IUXZja0FQWThWQmtwRUhvT19fR0QxT212S0J2MjZtM1BIOUNGcV9LU3Z4NjdGdGNtdFl2Tm15UVVhUXNFVUxyTVpTSlJFUzdwWHZZWVg0SnU2d25E?oc=5",
-      "desc": "Broadcom Custom AI Chip Revenue Surges 221% to $16.7B, Q4 Guidance Disappoints Tech Times",
-      "source": "Tech Times",
-      "time": 1788438442.0,
-      "score": 66,
-      "key": "570b54be4e560da272a60c59097bfe66916c4b162f3d49bcab0a36bd6df7fece",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок - Московская газета",
@@ -354,20 +339,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788445451.7514875,
+    "last_start_ts": 1788445639.868416,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788445451.7514875,
-    "last_success_ts": 1788445451.7514875,
+    "last_run_ts": 1788445639.868416,
+    "last_success_ts": 1788445639.868416,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788445275.8999934
+      "updated_at": 1788445646.710171
     }
   },
   "stories": {
@@ -489,6 +474,13 @@
       "desc": "«Слетать.ру» запускает бизнес-подкаст «Прямым рейсом». Первый выпуск — про ИИ Код.ру",
       "source": "Код.ру",
       "region": "RUSSIA"
+    },
+    "570b54be4e560da272a60c59097bfe66916c4b162f3d49bcab0a36bd6df7fece": {
+      "time": 1788445639,
+      "title": "Broadcom Custom AI Chip Revenue Surges 221% to $16.7B, Q4 Guidance Disappoints - Tech Times",
+      "desc": "Broadcom Custom AI Chip Revenue Surges 221% to $16.7B, Q4 Guidance Disappoints Tech Times",
+      "source": "Tech Times",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -508,8 +500,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788444920.0279398,
-  "last_publish_ts": 1788445273.0731316
+  "last_publish_ts": 1788445639.868416
 }
