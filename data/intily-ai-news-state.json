@@ -4,7 +4,8 @@
     "dfb412338da19126c5aa02674932cbe49f60c2eba7c12ea1c320bf154c73f902": 1788441281,
     "e1caa0ee3a92ca5bebc142d1f6e72a5ccf35e0e38aefe80b62382288f8403901": 1788441361,
     "70f88db677452620741ee0c79cd061c74c42503b1583a416be221a6a78024a52": 1788441565,
-    "4cc8b0e431df57408e6ccc8bd1ca52ab790bb88cdc59c4216da89ea474677d17": 1788441858
+    "4cc8b0e431df57408e6ccc8bd1ca52ab790bb88cdc59c4216da89ea474677d17": 1788441858,
+    "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788442220
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -43,23 +44,6 @@
     "ab440e6340b912e40e8f5463699dfc257d0772627916db126157a2b753fb57b7": 1788441220.4962823
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Автомакон Роботикс запустил сервисную модель роботизации складов - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaHQ0cllwX1lwWTFqNnRJNVU3bmdFazZZLUE1VFUzZ0cyZWhFa3pLLUJRaDhFa1dvNXF5Q2hpVU04TG9kb1loZGtNT2VUc3o5TERiLTlXMTY2dmxCS0pQd3p4UUc2WnVxTHUxSTQ0N3Q1NFBmb2VVRjJZWWdxUGl2a0YzQ294M0c1bUNUeXJ2ZHBDSzlYNVk3b0pUcHJaUklHTk9VNFd1c3lLWjDSAXtBVV95cUxOMDkyX1lSZ0dxcWpNRW5xY1A2d0ZrQ1lTclhiWE1KZFpFZ1h2VWJKTlYwdGt0YTVnUlpBQU1JSEt6X2RmMFdlZnB4cnJPVk9aeTJTMkNvUldnWEVIMmU2WkJqcXhqaXNRUHRYLVFVS0Zqc3ZacF9Wd3pjRWM?oc=5",
-      "desc": "Автомакон Роботикс запустил сервисную модель роботизации складов companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788420827.0,
-      "score": 70,
-      "key": "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3",
-      "importance": 70,
-      "editorial_value": 50,
-      "topics": [
-        "models",
-        "robotics"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules - theprint.in",
@@ -282,20 +266,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788442031.674575,
+    "last_start_ts": 1788442220.1655726,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788442031.674575,
-    "last_success_ts": 1788442031.674575,
+    "last_run_ts": 1788442220.1655726,
+    "last_success_ts": 1788442220.1655726,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 15
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788441876.250376
+      "updated_at": 1788442234.38215
     }
   },
   "stories": {
@@ -333,6 +317,13 @@
       "desc": "LEAP 2026: CNTXT CEO Abdullah Jarwan on turning AI compute into capability Gulf Business",
       "source": "Gulf Business",
       "region": "WORLD"
+    },
+    "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": {
+      "time": 1788442220,
+      "title": "Автомакон Роботикс запустил сервисную модель роботизации складов - companies.rbc.ru",
+      "desc": "Автомакон Роботикс запустил сервисную модель роботизации складов companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -340,8 +331,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788441220.4962823,
-  "last_publish_ts": 1788441858.9016883
+  "last_publish_ts": 1788442220.1655726
 }
