@@ -5,7 +5,8 @@
     "e1caa0ee3a92ca5bebc142d1f6e72a5ccf35e0e38aefe80b62382288f8403901": 1788441361,
     "70f88db677452620741ee0c79cd061c74c42503b1583a416be221a6a78024a52": 1788441565,
     "4cc8b0e431df57408e6ccc8bd1ca52ab790bb88cdc59c4216da89ea474677d17": 1788441858,
-    "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788442220
+    "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788442220,
+    "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": 1788442570
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -60,10 +61,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788441858,
+      "last_failed_at": 1788442570,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788442158
+      "failure_count": 2,
+      "next_retry_at": 1788443170
     },
     {
       "region": "RUSSIA",
@@ -78,22 +79,6 @@
       "editorial_value": 50,
       "topics": [
         "agents",
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption - openPR.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcE9jSDIxV1VwSFdpTU43SmxjSVF4X3VweEpXdnFxMGlQV0EwejgzSnNhT0xGOFF1WUkyQmo1Q2JMQ1Q4bjdsR2plVGpfc2pLQ3I3eW1IZUk4ak1DZGZ0ODhBZGU2Y1hCVEVvVmkyRE1pVjl3czgwX1JnVG5YUjhueUs3cFJWRUdSY2dZdzlQeUR6VlY4WE1vWnlRNC1Nb1VXdVZIeg?oc=5",
-      "desc": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption openPR.com",
-      "source": "openPR.com",
-      "time": 1788421004.0,
-      "score": 68,
-      "key": "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823",
-      "importance": 68,
-      "editorial_value": 50,
-      "topics": [
         "business"
       ],
       "tier": "A"
@@ -266,20 +251,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788442390.992897,
+    "last_start_ts": 1788442570.3108702,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788442390.992897,
-    "last_success_ts": 1788442390.992897,
+    "last_run_ts": 1788442570.3108702,
+    "last_success_ts": 1788442570.3108702,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_published": 1,
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788442234.38215
+      "updated_at": 1788442610.438352
     }
   },
   "stories": {
@@ -324,6 +309,13 @@
       "desc": "Автомакон Роботикс запустил сервисную модель роботизации складов companies.rbc.ru",
       "source": "companies.rbc.ru",
       "region": "RUSSIA"
+    },
+    "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": {
+      "time": 1788442570,
+      "title": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption - openPR.com",
+      "desc": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption openPR.com",
+      "source": "openPR.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -332,8 +324,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788441220.4962823,
-  "last_publish_ts": 1788442220.1655726
+  "last_publish_ts": 1788442570.3108702
 }
