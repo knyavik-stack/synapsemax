@@ -244,44 +244,58 @@
     "66f2d68220d15530a4232bb0c2ad7612d5887408e0a503fab8e412d32a9f0bb2": 1788431270.988652,
     "57129bf9272d025a03e6a70b40432058e93d4978bf30c5384a455f1f68606f17": 1788431270.988652,
     "6d50fa6e0b415e79acdb94b904b45a597965bcc32dfe1eaa80c8badf3563f47e": 1788431270.988652,
-    "8f5e4bac15df007b17672ccda8e719f0350f2ede09ab36719e9591de43331fa4": 1788431270.988652
+    "8f5e4bac15df007b17672ccda8e719f0350f2ede09ab36719e9591de43331fa4": 1788431270.988652,
+    "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788432002.3631577,
+    "118674a60488edb4fff79dfc397400e4da217fb97c11956de7137cd4aff0d2b8": 1788432002.3631577,
+    "96e5553b3b21ae77bd635eea721265d18437a5bf03171180a61f504fa568baae": 1788432002.3631577,
+    "266a7254c238ffe4ac8d1437aed05810c0ddd101e1a00dfce13494909fea7b22": 1788432002.3631577,
+    "b2b3234e57aba31dd69b8edbb0bfee2bb48e936e47821dbb775d4b9469eff0a9": 1788432002.3631577,
+    "6c65d1698f49f93d1b3836991745bce0ac168d9eb37467971fd71bcd9d9f3075": 1788432002.3631577
   },
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Ð ÐÐ­Ð Â«Ð¢ÐµÑÐ½Ð¾Ð¿Ð¾Ð»Ð¸Ñ ÐÐ¾ÑÐºÐ²Ð°Â» Ð·Ð°Ð¿ÑÑÐµÐ½ ÑÐ¾Ð±Ð¾Ñ Ð´Ð»Ñ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°ÑÐ¸Ð¸ Ð²Ð½ÑÑÑÐµÐ½Ð½ÐµÐ¹ Ð»Ð¾Ð³Ð¸ÑÑÐ¸ÐºÐ¸ - Gosrf.ru",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV2std2NJRkZIUWVxOG1ZTUN5bjRLVS1nRURkbW5tQUwtZjZtM3dxODlnRFJYdnJTYUNXZ3JTVlpMNm9fX0hMWTdBN3pZcl8yQUpmb2IwdnhYakVwNUNteDhzcWF2VzdqdmtGdVZTdHJMNGN6X1h3b3htM1ZWcjdQcEw4RmU1ajVIOXkxalV2ODA1QWpiM1NnR0x0aFh5ZnlWaXlz?oc=5",
-      "desc": "Ð ÐÐ­Ð Â«Ð¢ÐµÑÐ½Ð¾Ð¿Ð¾Ð»Ð¸Ñ ÐÐ¾ÑÐºÐ²Ð°Â» Ð·Ð°Ð¿ÑÑÐµÐ½ ÑÐ¾Ð±Ð¾Ñ Ð´Ð»Ñ Ð°Ð²ÑÐ¾Ð¼Ð°ÑÐ¸Ð·Ð°ÑÐ¸Ð¸ Ð²Ð½ÑÑÑÐµÐ½Ð½ÐµÐ¹ Ð»Ð¾Ð³Ð¸ÑÑÐ¸ÐºÐ¸ Gosrf.ru",
-      "source": "Gosrf.ru",
-      "time": 1788426046.0,
-      "score": 69,
-      "key": "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c",
-      "importance": 69,
+      "title": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы - Korins",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSnFZRERDYi1aWi1XYU13VWZoOEI0NWUweklzcDhTZXZacjVjV3Niek94THRhd0k5MHhxY2FMVVp5bTZjVHRITldoR0RjY0YwcWpPT1pJZE8zR2Fwbm1TOGl5dlZfeFJhQnJNUVVTb2ZhNnRKRUl4Y0RtQlUyYWUwYnZKbEdVRF9sQXJ1cXJ5dHc3V3Y5WUt0eUdTNTdoQVoxMU9kVXoxcTY?oc=5",
+      "desc": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы Korins",
+      "source": "Korins",
+      "time": 1788431473.0,
+      "score": 72,
+      "key": "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37",
+      "importance": 72,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788431270,
-      "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 1,
-      "next_retry_at": 1788431570
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
-      "title": "Ð¯Ð½Ð´ÐµÐºÑ ÐÐ¸ÑÐµÐ¹ Ð½Ð°ÑÑÐ¸Ñ Ð½Ð¾Ð²Ð¾ÑÐ¸Ð±Ð¸ÑÑÐºÐ¸Ñ ÑÐºÐ¾Ð»ÑÐ½Ð¸ÐºÐ¾Ð² ÑÐ¾Ð·Ð´Ð°Ð²Ð°ÑÑ ÐÐ-Ð°Ð³ÐµÐ½ÑÐ¾Ð² Ð¸ Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼Ð¸ÑÐ¾Ð²Ð°ÑÑ Ñ Ð½ÐµÐ¹ÑÐ¾ÑÐµÑÑÐ¼Ð¸ - nios.ru",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGFHSmRBY1FCQkhZQXgxQUJuUkdZNFNqaGdjSmV5VU1Nb0NuU01QdmxtQnhzcmFGOVRWeFM4VmxhdVhhdHRZX0hWMk1HR3BNdzJsNGZnUEFpbDRoQTVqc0NjaDhsbkJxUHE4elNQY1Q0bzZvOXVVYXhDUVMxaW04b1g4SVl0TDhWUGRaMVpXaU4yLUczRWo5RmpzQkxWVy1MY2hxSGJnNTVZMjQ?oc=5",
-      "desc": "Ð¯Ð½Ð´ÐµÐºÑ ÐÐ¸ÑÐµÐ¹ Ð½Ð°ÑÑÐ¸Ñ Ð½Ð¾Ð²Ð¾ÑÐ¸Ð±Ð¸ÑÑÐºÐ¸Ñ ÑÐºÐ¾Ð»ÑÐ½Ð¸ÐºÐ¾Ð² ÑÐ¾Ð·Ð´Ð°Ð²Ð°ÑÑ ÐÐ-Ð°Ð³ÐµÐ½ÑÐ¾Ð² Ð¸ Ð¿ÑÐ¾Ð³ÑÐ°Ð¼Ð¼Ð¸ÑÐ¾Ð²Ð°ÑÑ Ñ Ð½ÐµÐ¹ÑÐ¾ÑÐµÑÑÐ¼Ð¸ nios.ru",
-      "source": "nios.ru",
-      "time": 1788421958.0,
-      "score": 69,
-      "key": "b73fa09e07cc9d3aab90d87d4250ae55cf25ab8091df02b67be22c35e581f72a",
-      "importance": 69,
+      "title": "Где получить самую востребованную профессию: Университет Вуллонгонг в Дубае запускает магистерскую программу «Прикладной искусственный интеллект» - Счастливые родители",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQNVRzaFlzRktKYWVOa3JrcTJOTGJOUGkydDZRMkpWMXVsNDJwZTRGd3U5cXlNNVpiblBxbVBfUm5QdFRFOU5fTDQ4VVlsMDhYb1hmcUpNYndiSUY2RC1VdGcxdUtCaFNkbF9wdVg0LW1hcVJfMEwySkJzMk55UG55eUxHRGRwa1AzYkhzbmRHRjdLSmFsbk0wS3IyMGtGUmo1eGE3ZXJmY0Jxc2lTakpSTVFlN0dwOTZKalgzUEk5a1ZadjJLYTBNVVRHVkR1T0pXNG5URHRTMUpFbVRRR1NnTzBVOEl1SElWNGQ1c1lzby1xdE1ZZUk5VW9hOG5scW1hVGJwVTh5NnpOYk5MNWlqZm91NXVGY01XOWNCZQ?oc=5",
+      "desc": "Где получить самую востребованную профессию: Университет Вуллонгонг в Дубае запускает магистерскую программу «Прикладной искусственный интеллект» Счастливые родители",
+      "source": "Счастливые родители",
+      "time": 1788431744.0,
+      "score": 68,
+      "key": "118674a60488edb4fff79dfc397400e4da217fb97c11956de7137cd4aff0d2b8",
+      "importance": 68,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788431270,
-      "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 1,
-      "next_retry_at": 1788431570
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "How Applied & Competence-Oriented Education Improves Employability in an AI-Driven Economy - Elets Technomedia",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOEl0WF9kbFpRcGcxak03RzFPMDk1Zld1WFZMQkhmQnd4N01MVE85MGJvcDNwT1JDeThuT21rWTdYdDZid29Rb2F4bFVicUpxUU5veHptMzRTQjlITUxOZ0V2QUk5elV3Q2lhREZfTFZxZ19kUjVOYWpHbXlaamhYcWZmNmxPNUdnZ2JIMjJrc1pmSkxPMEE0aXNEbUZsQzFUVUJiZVdaRlhIV2lNUVAtYmYyMDFrOVlWSFhMWFBVSnFSTjl5T1BGQ3Y0YUdUYkRTOGxF?oc=5",
+      "desc": "How Applied & Competence-Oriented Education Improves Employability in an AI-Driven Economy Elets Technomedia",
+      "source": "Elets Technomedia",
+      "time": 1788431052.0,
+      "score": 68,
+      "key": "96e5553b3b21ae77bd635eea721265d18437a5bf03171180a61f504fa568baae",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -342,22 +356,34 @@
       "next_retry_at": 1788431570
     },
     {
-      "region": "RUSSIA",
-      "title": "ÐÐ½Ð°ÑÐ¾Ð»Ð¸Ð¹ ÐÐ¾Ð¿Ð¾Ð² Ð½Ð° ÐÐ­Ð¤-2026: Â«ÐÑÐ´ÑÑÐµÐµ â Ð·Ð° Ð³ÐµÐ½ÐµÑÐ°ÑÐ¸Ð²Ð½ÑÐ¼ ÐÐ - rostov.ru",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQmY3LUJQOXZIMTJIMm14RG40ajF2dTc4VEVrU1JXdHBXU2V2RHYxUV9KdnZVM0V3bFJaQWdLVGNlV25NR01hRk9rZU14R2pmWllWRElRdzhUME5OTDdWUngzRzZTeVhDMi1LQnZWRzAwVERNUG1CM1JESkRzUUNWMUE2VG5mN1FnaS1mUjJR?oc=5",
-      "desc": "ÐÐ½Ð°ÑÐ¾Ð»Ð¸Ð¹ ÐÐ¾Ð¿Ð¾Ð² Ð½Ð° ÐÐ­Ð¤-2026: Â«ÐÑÐ´ÑÑÐµÐµ â Ð·Ð° Ð³ÐµÐ½ÐµÑÐ°ÑÐ¸Ð²Ð½ÑÐ¼ ÐÐ rostov.ru",
-      "source": "rostov.ru",
-      "time": 1788430664.0,
+      "region": "WORLD",
+      "title": "Claude Fable 5.1: Price and availability explained - TechCabal",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN3JJTE9WLXhGZENUVkJhMUFubG5vcndVSjl5bGF4N2c3TDVsR05WVDZuRlhnYm1kblFkOUM1NHpRWnI0Zjg5VUpNelk2dlRuNkROQzNRWjBBSVhWbF9MYmd4MjR3bThQRVRfQ0lkSDFrUGlIN29jV2xUUnktc1o5TXJpUGp2ZUN5bDQ4?oc=5",
+      "desc": "Claude Fable 5.1: Price and availability explained TechCabal",
+      "source": "TechCabal",
+      "time": 1788431639.0,
       "score": 65,
-      "key": "e14faf86ba4710c54273ddeceb0c09ae7a346fe62af9a7bbbb58b778e6a2275b",
+      "key": "266a7254c238ffe4ac8d1437aed05810c0ddd101e1a00dfce13494909fea7b22",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Sanders proposes ban on ‘artificial superintelligence’ after rogue AI incidents - The Washington Post",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNUM2S0d4bnRiVmNRdE5JaHRVb0xCYXFTWkh1dnZPSWI1a0VoMEtlNzRZSzJHZG1PNjZobnBzV2licHEwVWg0RkdIenFEeV96eDRWYTZzXzhXZ2pUZWRPRHhBdENmRnIwNEtnUVZNekE5djd4TzZ6NnBQRHhkaFdUT3VTOWphUHdzWFR4d1NLc0tzNmZ4MDRPWFduRXZMeWhHYmpndGRhYm10S2sweEt3VE5oeGxtdmUxQnJMelhtbzlzZTVZZklV?oc=5",
+      "desc": "Sanders proposes ban on ‘artificial superintelligence’ after rogue AI incidents The Washington Post",
+      "source": "The Washington Post",
+      "time": 1788431572.0,
+      "score": 65,
+      "key": "b2b3234e57aba31dd69b8edbb0bfee2bb48e936e47821dbb775d4b9469eff0a9",
       "importance": 65,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788431270,
-      "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 1,
-      "next_retry_at": 1788431570
+      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -396,20 +422,6 @@
       "next_retry_at": 1788431570
     },
     {
-      "region": "RUSSIA",
-      "title": "ÐÑÑÐ¸Ð½ Ð½Ð°Ð¿Ð¾Ð¼Ð½Ð¸Ð» Ð¾ ÑÐ¸ÑÐºÐ°Ñ Ð¿ÑÐ¸ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°Ð½Ð¸Ð¸ ÐÐ - ÐÐ°ÑÐºÐ° Mail",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95cnMtUkdFWWxjY1BCaDZwUmtKMnZHWDRJYkdEemFyOFhHay1IdW01ckZWeFAzb1RUSThITm1UYlpBVGVXQUtCUmZURl84V3NUcGt4YXJVVG5JcHoxVVJ2STBoNEh2enVoM21sb1l5dw?oc=5",
-      "desc": "ÐÑÑÐ¸Ð½ Ð½Ð°Ð¿Ð¾Ð¼Ð½Ð¸Ð» Ð¾ ÑÐ¸ÑÐºÐ°Ñ Ð¿ÑÐ¸ Ð¸ÑÐ¿Ð¾Ð»ÑÐ·Ð¾Ð²Ð°Ð½Ð¸Ð¸ ÐÐ ÐÐ°ÑÐºÐ° Mail",
-      "source": "ÐÐ°ÑÐºÐ° Mail",
-      "time": 1788428390.0,
-      "score": 65,
-      "key": "8cb95f3ec35409b1da5053e2273e45dfbff101c235f918308c29c069492a5fa9",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace - IT Voice Media Pvt. Ltd.",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUWJBNjVUc2VZNllvekx5Z2d0LTd3cTZ5OHFpU2xNMlNRTjBDNjIwR25ySjNTU3ZwQllnRXc4M3IxTDZDUFdvU2FnOVNKM3hLYkZjRVNyRTRhME9WU3RRTzJnNlN5eXU4MjJZZ0dRSG9GdDBtTjFpSVA1bmZwc0Z4MFRvbldXNlE5RllOcXphMUp2ZVdkN0V6enZOR0NiUQ?oc=5",
@@ -424,34 +436,6 @@
         "models",
         "tools"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ÐÐ½Ð°ÑÐ¾Ð»Ð¸Ð¹ ÐÐ¾Ð¿Ð¾Ð²: ÐÑÐ´ÑÑÐµÐµ â Ð·Ð° Ð³ÐµÐ½ÐµÑÐ°ÑÐ¸Ð²Ð½ÑÐ¼ Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ÑÐ¼ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑÐ¾Ð¼, ÐºÐ¾ÑÐ¾ÑÑÐ¹ Ð±ÑÐ´ÐµÑ Ð¿Ð¾Ð¼Ð¾Ð³Ð°ÑÑ Ð¿ÑÐµÐ´Ð¿ÑÐ¸Ð½Ð¸Ð¼Ð°ÑÐµÐ»Ñ ÑÐµÑÐ°ÑÑ Ð·Ð°Ð´Ð°ÑÐ¸ ÑÐ°Ð·Ð²Ð¸ÑÐ¸Ñ Ð±Ð¸Ð·Ð½ÐµÑÐ° - RIA56",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTGwxSmFNek9VbVNmQ3BRS2VtSDdJM3Z6SXo0eTcwTnBQOEdFdXItSTVWZkFKb3RIUFRlUlJiODJUWW5CcjJHR2xFazI1MGV4T1JIU2hGb3Rnam1yYVNUbUpZTDRRcjAzVzhLSHdkaUFOencyM0FYWmgza0VIa3ZCb1RiX25vOGJEWDNpRXBSLXR3QVFjVWMtZTFOaUNXNlNNLUNwdXdFcUUxbHhYNXoxSmtwOTRwRkwyNmE5c1dxdXdvakIwaGdfdWRsdVZKUzVTeWc5QkRlTFJ0dllHSngyUllGRFp1NFJ0RzlZekpIVmV4dXVZTHJEdA?oc=5",
-      "desc": "ÐÐ½Ð°ÑÐ¾Ð»Ð¸Ð¹ ÐÐ¾Ð¿Ð¾Ð²: ÐÑÐ´ÑÑÐµÐµ â Ð·Ð° Ð³ÐµÐ½ÐµÑÐ°ÑÐ¸Ð²Ð½ÑÐ¼ Ð¸ÑÐºÑÑÑÑÐ²ÐµÐ½Ð½ÑÐ¼ Ð¸Ð½ÑÐµÐ»Ð»ÐµÐºÑÐ¾Ð¼, ÐºÐ¾ÑÐ¾ÑÑÐ¹ Ð±ÑÐ´ÐµÑ Ð¿Ð¾Ð¼Ð¾Ð³Ð°ÑÑ Ð¿ÑÐµÐ´Ð¿ÑÐ¸Ð½Ð¸Ð¼Ð°ÑÐµÐ»Ñ ÑÐµÑÐ°ÑÑ Ð·Ð°Ð´Ð°ÑÐ¸ ÑÐ°Ð·Ð²Ð¸ÑÐ¸Ñ Ð±Ð¸Ð·Ð½ÐµÑÐ° RIA56",
-      "source": "RIA56",
-      "time": 1788425935.0,
-      "score": 65,
-      "key": "4db3ebd85141e585429ef831558a1f70f689bfe1b8bcdcffe106a64059de8528",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ÐÐ¾Ð¿Ð¾Ð²: Ð±ÑÐ´ÑÑÐµÐµ Ð±Ð¸Ð·Ð½ÐµÑÐ° â Ð² Ð³ÐµÐ½ÐµÑÐ°ÑÐ¸Ð²Ð½Ð¾Ð¼ ÐÐ - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE94QzNVYUJHTk1yVXRXSVF1LUNnTTBxRVg1MGFGODdXWHRKdVVRYUVSTGhReG01d1VRQ21EMmpwdXZMazJ4ZWxrbmx4cEZzZw?oc=5",
-      "desc": "ÐÐ¾Ð¿Ð¾Ð²: Ð±ÑÐ´ÑÑÐµÐµ Ð±Ð¸Ð·Ð½ÐµÑÐ° â Ð² Ð³ÐµÐ½ÐµÑÐ°ÑÐ¸Ð²Ð½Ð¾Ð¼ ÐÐ kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788423746.0,
-      "score": 65,
-      "key": "ab440e6340b912e40e8f5463699dfc257d0772627916db126157a2b753fb57b7",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -518,6 +502,20 @@
       "tier": "A"
     },
     {
+      "region": "RUSSIA",
+      "title": "Зарплата до 1 млн руб. В компаниях из-за ИИ появится новая должность - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XRV95ZURpMldLQnBBdnpvQ2FlaVJZV3VnZnNqUHJMTGUyQWlFR2hsTUVHOGlPNm5HcFAzTEM4TVlzaS03VFZZcGVtOWhzcHlHSWpGNkotb0dDU0QtRkFlWG56YTNDY0QzZFN6TFBfNTlLQQ?oc=5",
+      "desc": "Зарплата до 1 млн руб. В компаниях из-за ИИ появится новая должность rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788427845.0,
+      "score": 62,
+      "key": "6c65d1698f49f93d1b3836991745bce0ac168d9eb37467971fd71bcd9d9f3075",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "Anthropic Plans Customer-Controlled AI Monitoring After Data-Retention Pushback - WinBuzzer",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOElPbGNIcmU4cTd6czJyVV9NOXlxLThvRS1hcjdSd2ZNbXpZYndSYUhDanpsQkY3aHI2d3g3N0pVekUtNV9YNWF6S3ZwY2xtOW44bUdKVGM3cHdpdklKTjcxSUhzeTlOZXE2MWhOVHNoRjdjVG1yUG83WmtLRWdlRjVLS1VoMlJmb1N3al9MRlZMN25Hckk0TGFfYU9td2dHLTI0ZG1hRjdIOTZpOFJGTnN5cjBjZ1dNaGdQOA?oc=5",
@@ -530,34 +528,20 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ÐÐ Ð¿Ð¾Ð¼Ð¾Ð³Ð°ÐµÑ ÑÐ¾ÑÑÐ°Ð½ÑÑÑ Ð½Ð°ÑÐ»ÐµÐ´Ð¸Ðµ Ð¸ ÑÐ°Ð·Ð²Ð¸Ð²Ð°ÑÑ ÑÐµÑÐ²Ð¸ÑÑ Ð´Ð»Ñ Ð³Ð¾ÑÑÐµÐ¹ Ð¼ÑÐ·ÐµÑ-Ð·Ð°Ð¿Ð¾Ð²ÐµÐ´Ð½Ð¸ÐºÐ° Â«Ð¦Ð°ÑÐ¸ÑÑÐ½Ð¾Â» - mos.ru",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5hU3puTnc3UFNNUVRYUlk0c0Q5MVp2SUN3VzhFYXFackk5TWlyOEVwVG9nT1d4WGprZDlrb1BYblVMOUYzZWUzR1FXYmNUalE3?oc=5",
-      "desc": "ÐÐ Ð¿Ð¾Ð¼Ð¾Ð³Ð°ÐµÑ ÑÐ¾ÑÑÐ°Ð½ÑÑÑ Ð½Ð°ÑÐ»ÐµÐ´Ð¸Ðµ Ð¸ ÑÐ°Ð·Ð²Ð¸Ð²Ð°ÑÑ ÑÐµÑÐ²Ð¸ÑÑ Ð´Ð»Ñ Ð³Ð¾ÑÑÐµÐ¹ Ð¼ÑÐ·ÐµÑ-Ð·Ð°Ð¿Ð¾Ð²ÐµÐ´Ð½Ð¸ÐºÐ° Â«Ð¦Ð°ÑÐ¸ÑÑÐ½Ð¾Â» mos.ru",
-      "source": "mos.ru",
-      "time": 1788426361.0,
-      "score": 62,
-      "key": "112a91202d06978d5e6e03ba2d75134ee0559bb29dd781b6fa35112469fd2697",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788431823.0837379,
-    "last_status": "FORCED_REPLENISH_SEARCH",
+    "last_start_ts": 1788432002.3631577,
+    "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788431823.0837379,
+    "last_success_ts": 1788432002.3631577,
     "consecutive_failures": 1,
-    "queue_size": 18,
-    "last_candidates": 0,
-    "last_published": 1,
-    "last_run_ts": 1788431823.0837379
+    "queue_size": 17,
+    "last_candidates": 51,
+    "last_published": 0,
+    "last_run_ts": 1788432002.3631577
   },
   "providers": {
     "GEMINI": {
@@ -887,6 +871,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 0,
+  "last_search_ts": 1788432002.3631577,
   "last_publish_ts": 1788431823.0837379
 }
