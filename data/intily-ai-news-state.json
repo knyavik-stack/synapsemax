@@ -98,7 +98,8 @@
     "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": 1788467952,
     "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333": 1788468310,
     "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": 1788468491,
-    "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2": 1788468673
+    "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2": 1788468673,
+    "37e5968466a93a75428b1a41b34893e2b97891aa722b2e19202dbafe83019aa7": 1788469032
   },
   "known": {
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450498.829142,
@@ -310,23 +311,11 @@
         "agents",
         "applications"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Why GitLab is Becoming More Than a DevOps Platform: The AI Shift in Software Development - Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUG5nV0Z3MGd2bFNieXFNc0k2SXpJLVhrRWM1anQzQ3R1YmxOZEhHWG1TN3BiR0FndUlVTnd3eklPN0xDdUJfR2w4MFVaLUVSLVBFNHlNSXVoVXB1YWtPZEFLa0tqTWxGMVZtTTE0eGoxeXl0b1lpV1FaYURfaFp4NllrNHh6dXc2R3FreEdFZVRCUTFGa2NmLWF5XzhkSVNTOHA2MzZRaEFRU2FZelpGQzJUVW4ydXRJNmRJOEkxWVd0TWozQllKMXc0RmlpSVh3US1Ca2kyQ0xNaXBr0gHqAUFVX3lxTE04RlZxanlXYlFmcGhLblNYdjgwTDZKZ0ZUcmptM3FIZnVrWUcyLXQxZDhaZ0huZ0hVOTM4d0psWWZwLUcyLUhCSkZvcE9BdmlXa3dfd3VFT0NJMU1vTWprQmRIb282VnV1Rk0tNFRWTkcydTJQd2l4aU9ZOEpvLUh2N1Y2TDQzM3NzbWR0Q2VQQjRZamhYa1VYQ1NmTC1RcHo5NXZQanZGdjkwaUlDRGNKUFZpN1dlbjItNUF1VXdKcF9EdkwxWW0ycERzZ0kzQkhVbXpnYjBkYjRHN0kxU1VxZWpDLUEzSXpXUQ?oc=5",
-      "desc": "Why GitLab is Becoming More Than a DevOps Platform: The AI Shift in Software Development Analytics Insight",
-      "source": "Analytics Insight",
-      "time": 1788465600.0,
-      "score": 71,
-      "key": "37e5968466a93a75428b1a41b34893e2b97891aa722b2e19202dbafe83019aa7",
-      "importance": 71,
-      "editorial_value": 50,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788469032,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788469332
     },
     {
       "region": "WORLD",
@@ -624,20 +613,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788468853.2378092,
+    "last_start_ts": 1788469032.2186434,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788468853.2378092,
-    "last_success_ts": 1788468853.2378092,
-    "last_candidates": 104,
-    "last_published": 0,
-    "queue_size": 20
+    "last_run_ts": 1788469032.2186434,
+    "last_success_ts": 1788469032.2186434,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788468708.510731
+      "updated_at": 1788469042.9133663
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1343,11 +1332,17 @@
       "desc": "В Сбере рассказали о применении ИИ в российском авиастроении prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "37e5968466a93a75428b1a41b34893e2b97891aa722b2e19202dbafe83019aa7": {
+      "time": 1788469032,
+      "title": "Why GitLab is Becoming More Than a DevOps Platform: The AI Shift in Software Development - Analytics Insight",
+      "desc": "Why GitLab is Becoming More Than a DevOps Platform: The AI Shift in Software Development Analytics Insight",
+      "source": "Analytics Insight",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1365,8 +1360,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788468853.2378092,
-  "last_publish_ts": 1788468673.3839586
+  "last_publish_ts": 1788469032.2186434
 }
