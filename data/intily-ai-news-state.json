@@ -115,7 +115,8 @@
     "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76": 1788473754,
     "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": 1788474053,
     "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": 1788475135,
-    "3185d6116d8f9f55b2efbb78040155e0939073654fcc845233be2cd7286adbe0": 1788475374
+    "3185d6116d8f9f55b2efbb78040155e0939073654fcc845233be2cd7286adbe0": 1788475374,
+    "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": 1788475554
   },
   "known": {
     "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6": 1788455531.428624,
@@ -300,21 +301,11 @@
       "topics": [
         "agents"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight - TechRepublic",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMEFkYzNaU2R3RUE5Z2ppMUZZZHhwTjduc091V3dJN1BjeC1Qb2ViNmZBWHhOYjVaR0JsYm15SThFV1RzZklNV0t3M1kzVWxuQkFHWWJZOWd4b2I2bXhjbThqVF9ZTE1kdXJZbHhiVzhxaloyWTU2N1VKVnpONlBQTjZhS0ZUd3RsZk1uaVlqZXdSTEVlM0ZWeEVR?oc=5",
-      "desc": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight TechRepublic",
-      "source": "TechRepublic",
-      "time": 1788472709.0,
-      "score": 66.5,
-      "key": "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788475554,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788475854
     },
     {
       "region": "RUSSIA",
@@ -357,36 +348,6 @@
       "time": 1788464839.0,
       "score": 63.5,
       "key": "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Nvidia's Broken AI Story: Fundamentals Run Away From Discounted Valuations (NASDAQ:NVDA) - Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQWRySXJtTHoyU1laZkpOS0ZVSlg0OXEzdE9SZDhKeXY1TmNXNUQ2NUNoSm5zako4bWxiNWVZMjVqRmtjT2J4VExvci15MTBTbzUyZ1lMUzhXdlJVd0tXc2hUX2lEQVFuano0WDNnaWZKUm0wamJQNTl1UWJneW5JVkY3WjZCV1pDQUJ5UE45em0wWnBEdWxVeDdkNWR2cGx4VkV4NEd5MThuMnp1MDZaeEpn?oc=5",
-      "desc": "Nvidia's Broken AI Story: Fundamentals Run Away From Discounted Valuations (NASDAQ:NVDA) Seeking Alpha",
-      "source": "Seeking Alpha",
-      "time": 1788464713.0,
-      "score": 63.5,
-      "key": "5f531728ff05459c72f16caa1381e95becac2d35c178e6b55fd8db9e38d01c91",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Top Tech Expert: Elon Musk Is Quietly Building Artificial Intelligence in Space. One Small Company May Be the Key. - The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxORTFMRlRRcDBfdGlQVEFzLVJIRUh3alNJdFFMczdGc0E4cm9IUFEtbzJmeFhLSFh2S1ZiTjBIWTZ3Rmo2c19QMVNVdktyeEIwcW5sZF9jdXFKeFlYWWZFX05xTURYUnI4Y1pFOHJvZS1Vci0xdmdRWUFTQlhuNzBfRjlmQkwzS2ZLaHVpV1hUREd5Q1gzWmhyUmR2ZjdvVHpEcnVtd1FFdHdoV0Y1cUJfWVQza3RSQkJpQnRZYnREUTZrXzRmRzhRMXNIWkFCQ0toZnpLSklaWUpjM2V6MFBVR29JU3U1U3BCOGhUdzExNFdFUHJTSmNvZ2NIT3NSTWRvbmtGb1RpdEY2eXhldC1mb1VFONIBmAJBVV95cUxNc1Bab2tOa3JnWTN5aTVtU0lNMmp5OU1ZZUp4ZXFMeW1IWkwwXy01REpyNFJOZkpmRjg1NmFXcmozUXFLb0Rua2dRZ3o4U0tFaGpTUDNZRDNPbUpQZ05NNnd6ZUhaVGozZU10VjhtM2xJRENsNG5SWTZUSVZEdzFxY0ZFRHk0bmZkcU14NlhJd2FKcUhvODNibnVDSEpXSDR3cmFNbHVmOWg3RGpydloxTVl1RG44VlVrVE9OX2h6OElOSWFKdC1qYktFa0NUeTNkbE9iSUllLXkwdVpZT0htOENHbXQxa0llZFR6M3VYcXJXcjA5OUk0Rng1MXhITW44RDl0SkVMOVB0d0MyYWVGTmFQdWRDX0pz?oc=5",
-      "desc": "Top Tech Expert: Elon Musk Is Quietly Building Artificial Intelligence in Space. One Small Company May Be the Key. The Manila Times",
-      "source": "The Manila Times",
-      "time": 1788464655.0,
-      "score": 63.5,
-      "key": "174b1afc8eb35f469812b1b062756175aa92097b6ed12083e4ffc5de361a07ac",
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -529,20 +490,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788475374.0056622,
+    "last_start_ts": 1788475554.4885812,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788475374.0056622,
-    "last_success_ts": 1788475374.0056622,
+    "last_run_ts": 1788475554.4885812,
+    "last_success_ts": 1788475554.4885812,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 17
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788475384.2339756
+      "updated_at": 1788475572.5938618
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1367,12 +1328,19 @@
       "desc": "Tenable Uses OpenAI GPT Cyber Models to Help Defenders Inspect Community-Built AI Components manilatimes.net",
       "source": "manilatimes.net",
       "region": "WORLD"
+    },
+    "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": {
+      "time": 1788475554,
+      "title": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight - TechRepublic",
+      "desc": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight TechRepublic",
+      "source": "TechRepublic",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1392,5 +1360,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788475135.0999737,
-  "last_publish_ts": 1788475374.0056622
+  "last_publish_ts": 1788475554.4885812
 }
