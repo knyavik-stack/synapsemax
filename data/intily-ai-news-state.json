@@ -48,7 +48,8 @@
     "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788453370,
     "2f0573b75f76a7be7c6c6166774937bc02457c1836e4abc6cea6a2d971504b4b": 1788453558,
     "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": 1788453913,
-    "fd700f2017564779e5b5f62708e2322272fd9e63b05613d91f2fe5e4cf8377f6": 1788454269
+    "fd700f2017564779e5b5f62708e2322272fd9e63b05613d91f2fe5e4cf8377f6": 1788454269,
+    "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819": 1788454459
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -205,22 +206,6 @@
     "a361bb81e9cfee66a98a930698864cda169538789d08408c56f6ce066c9a0194": 1788453558.9492462
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts - Межа. Новини України.",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54SUsxbGJCbGJ1LUZ2Y0Rha0pHbDlfN1F4SkZUYjNYSFpxZk1HTjJNcFVueFl6Zk1JSUtnazdVc281VnA2MWptc0JEdWdlRWc1bmNfSmt1ZFJGdGQ5Wk5SR2ZVTUt1VXJSTVdCQ25R?oc=5",
-      "desc": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts Межа. Новини України.",
-      "source": "Межа. Новини України.",
-      "time": 1788450617.0,
-      "score": 73,
-      "key": "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819",
-      "importance": 73,
-      "editorial_value": 50,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Meta Launches Muse Spark 1.3: New AI Model Takes Aim at OpenAI and Anthropic - International Business Times, Singapore Edition",
@@ -483,20 +468,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788454269.9253209,
+    "last_start_ts": 1788454459.140531,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788454269.9253209,
-    "last_success_ts": 1788454269.9253209,
+    "last_run_ts": 1788454459.140531,
+    "last_success_ts": 1788454459.140531,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 17
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788454275.250213
+      "updated_at": 1788454464.1341248
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -852,11 +837,17 @@
       "desc": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы RB.ru",
       "source": "RB.ru",
       "region": "RUSSIA"
+    },
+    "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819": {
+      "time": 1788454459,
+      "title": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts - Межа. Новини України.",
+      "desc": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts Межа. Новини України.",
+      "source": "Межа. Новини України.",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -874,8 +865,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788453558.9492462,
-  "last_publish_ts": 1788454269.9253209
+  "last_publish_ts": 1788454459.140531
 }
