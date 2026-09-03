@@ -206,7 +206,8 @@
     "7c00cccfb6582c4281e79f3022be14a3434a2e06719e89869402bb889f137350": 1788438826,
     "4508dce9d925c50c1ce9c06796e1848871e01a4ac493dacc786d6ffd7dc79d7a": 1788438940,
     "a101ef6b9a4f1a92e24ba064ae4c1d9a1fbee787bf484e393dd257133ee1c6ab": 1788439063,
-    "958aa4c2a7bb1dca32f4cb766e2c78b5b66fde9644979eb622424e5d0e740fab": 1788439188
+    "958aa4c2a7bb1dca32f4cb766e2c78b5b66fde9644979eb622424e5d0e740fab": 1788439188,
+    "5f88f9742669cbc49af1741e4b7336a3dee31c41297044910a00ac6a3bfc482d": 1788439301
   },
   "known": {
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
@@ -341,10 +342,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788439063,
+      "last_failed_at": 1788439301,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 11,
-      "next_retry_at": 1788460663
+      "failure_count": 12,
+      "next_retry_at": 1788460901
     },
     {
       "region": "RUSSIA",
@@ -356,20 +357,6 @@
       "score": 65,
       "key": "3c1e6d1e6a90ee0e3dfe5fe73bb353098661fb3aea6fbb94de47e606a27bfb06",
       "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "NYC Mayor Zohran Mamdani Bans Student-Facing AI for Nearly 600,000 Kids — Here's What the New Rules Mean - Benzinga",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZ25rU2IySEdFeklwNjFwaWktQU9XOFpPOUxwRmlUSFNQMU04MmtObm1iRXNELWROR21NN3djTEh3aUJFa202QTNnRHJTY2Jva3BuTk5hYV9nVVY5UjE5VjBFaS1USVZ6X0g2aTlBQzFvbnY2WnlCWkx1QzNvSXRmZ3hvXzN5SVdNZFZ5OWVpd2lkdE5E?oc=5",
-      "desc": "NYC Mayor Zohran Mamdani Bans Student-Facing AI for Nearly 600,000 Kids — Here's What the New Rules Mean Benzinga",
-      "source": "Benzinga",
-      "time": 1788429094.0,
-      "score": 62,
-      "key": "5f88f9742669cbc49af1741e4b7336a3dee31c41297044910a00ac6a3bfc482d",
-      "importance": 62,
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
@@ -392,21 +379,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788439242.6149251,
+    "last_start_ts": 1788439301.6251488,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788439242.6149251,
+    "last_success_ts": 1788439301.6251488,
     "consecutive_failures": 1,
-    "queue_size": 4,
+    "queue_size": 3,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788439242.6149251
+    "last_published": 1,
+    "last_run_ts": 1788439301.6251488
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788439189.935032
+      "updated_at": 1788439310.1398594
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -930,10 +917,16 @@
       "desc": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья perm.rbc.ru",
       "source": "perm.rbc.ru",
       "region": "RUSSIA"
+    },
+    "5f88f9742669cbc49af1741e4b7336a3dee31c41297044910a00ac6a3bfc482d": {
+      "time": 1788439301,
+      "title": "NYC Mayor Zohran Mamdani Bans Student-Facing AI for Nearly 600,000 Kids — Here's What the New Rules Mean - Benzinga",
+      "desc": "NYC Mayor Zohran Mamdani Bans Student-Facing AI for Nearly 600,000 Kids — Here's What the New Rules Mean Benzinga",
+      "source": "Benzinga",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -952,8 +945,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788437619.555675,
-  "last_publish_ts": 1788439188.011686
+  "last_publish_ts": 1788439301.6251488
 }
