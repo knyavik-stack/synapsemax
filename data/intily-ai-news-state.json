@@ -45,7 +45,8 @@
     "11c9400610e35397f4be118409236aa995cc5c2bd748bf6b585d444cdd527700": 1788452649,
     "b8787c8126752eb4dbfdb543831727192e905480fab8515652b100b05dc2f7f7": 1788452833,
     "e0a22d14628fe23455b724231422c45f7538fe680e53131f391b17d2d9fe5dd3": 1788453015,
-    "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788453370
+    "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788453370,
+    "2f0573b75f76a7be7c6c6166774937bc02457c1836e4abc6cea6a2d971504b4b": 1788453558
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -165,9 +166,94 @@
     "816cbf57f162921b5985850454cbe0969e295a9925c0dd019d939fc3bab087cf": 1788451571.478552,
     "4204465aca2eb3deda98fee5e2b856896f4b1f5e5aa0788bc7fda198ab03d3f6": 1788451571.478552,
     "747f2893ba183e6b703ff0a0d331f19ea168757d4ce98a750cc02977caf6f367": 1788451571.478552,
-    "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b": 1788451571.478552
+    "75a68173725871ac16139ecd37ade7f6e54e7fad7f6ce6cf9ef251552aa2b17b": 1788451571.478552,
+    "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": 1788453558.9492462,
+    "2f0573b75f76a7be7c6c6166774937bc02457c1836e4abc6cea6a2d971504b4b": 1788453558.9492462,
+    "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819": 1788453558.9492462,
+    "d589eaddbe63b46b466552dd5e306fcc956a27d13b11015890a88f0e54d6016c": 1788453558.9492462,
+    "8863f4adc9909941be37d8b471e1c98116f2f6b7d5bb57582a140d18f93062ef": 1788453558.9492462,
+    "d4001a2fa9d9f6b83033b69ae8ca3b444933dc33548974131eed3a0ec352b5c6": 1788453558.9492462,
+    "a11a4eaf671150dfd7d7a32de4927c06238dae5f18641ba1849d01b227e66938": 1788453558.9492462,
+    "9459f5936486b2574ca5e98c12420cc9cc9354e148636cd04df44d15c3f3eed9": 1788453558.9492462,
+    "a8acd8efb96bd5c37e6b604db02ed18cf8fe43af394d57c250c074dadf8744c9": 1788453558.9492462,
+    "806bbfce789ce7cc6b3af1f38d5704a041bb1abf3bae454bdf3822832c893f4e": 1788453558.9492462,
+    "657ece28e23bcb46449c2ea5f8e700f03ad7c8ee38fe3bf7db640379578b5d60": 1788453558.9492462,
+    "8a9a929de0e8edda1d9f62c925f0850fcd56395e32dca285e1b2bdb4193a5bbf": 1788453558.9492462,
+    "5a70d424b3215576fbf06d42d79ca76fe1b5ea48403dff4fc271def1e9f57cfa": 1788453558.9492462,
+    "3170fd69b6b9e38924d5b6d8f3a7b8553c8535db86de20664b896aa621073be6": 1788453558.9492462,
+    "29e1cc8446e0a9b7c4d453899cb9dcf8e08454364cbe968acdfb0bf9901780f5": 1788453558.9492462,
+    "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788453558.9492462,
+    "291b3ddc3a811dea742ca2e57538e95fc5bf308304cd7ad444f4ce1ee829a711": 1788453558.9492462,
+    "9a56f8f9f1c5ce66538db3f7435b19a498f510581ae50649f7a6d6811a4cf33d": 1788453558.9492462,
+    "ff42d3a3145151df6a70d2371dbf77a5ea06118f021aa71fdab540e846ce81ff": 1788453558.9492462,
+    "bb71b6b62c0d3d14d18989a3f46a7cc64feba729c87f2c8e6955826e8ebc1c03": 1788453558.9492462,
+    "c52bcd8c187e7fc55344894e7a51a591c315a3d580435f718b30a52e257ac674": 1788453558.9492462,
+    "a67e7653ad98748100bca623bae63512c59646a2f1f73301103f7d6b3cb63daa": 1788453558.9492462,
+    "52f72c407a587ff3ea4862745a2d63bf6e94b323d5bd20a7e75d27bd3b0a1890": 1788453558.9492462,
+    "628ef5d5b6471bfff7bdb5a55837381f39c441adb4dfa8516b2bf6f802ba6a71": 1788453558.9492462,
+    "001ee075cc274cd1c89f6530bc80ff1112bc55bc0af388a35d24cd09bf38431d": 1788453558.9492462,
+    "6dc08a6083aec1b9a749757dad043e9e9614ce00ba0a5ecf6e99b7d60a454af8": 1788453558.9492462,
+    "3e4a56cc492627b7c27aa0ee5a8d83eb5b00698554de7c5b68466c06ff26e918": 1788453558.9492462,
+    "930bc56da509c569c8b1161d89e7ebf05a937b528ccc61d4440415977de4f7b6": 1788453558.9492462,
+    "826d90406cd2855028726ab121d23064009791c7c15d0a7ddd94e1d7614c98d5": 1788453558.9492462,
+    "d8868c9efe93b233b4a187a3a0a0745617cdefe2a24125b75cde91d4be9cfdd2": 1788453558.9492462,
+    "6ecadf0da36d0d7c5d231cb457d6362d8d1cfdd851f5404037b78452f25ec308": 1788453558.9492462,
+    "36b9344e417c3e7ea877842ee7ef944a8360c4d3f66faca809418bd6c5bbdd8b": 1788453558.9492462,
+    "1075c4ead93ab332b174dde6183b81f00293b873701871592822edd26aa3fe76": 1788453558.9492462,
+    "a361bb81e9cfee66a98a930698864cda169538789d08408c56f6ce066c9a0194": 1788453558.9492462
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "ИИ-агенты для бизнеса: как автоматизировать отчёты и работу в CRM без разработки - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbmNhekpaamZzNHN4WXpvQmFlbUdyYm9iQUhTcWhtLTVhSnNzQjY3VzVQMC1LTDBBZE15ZXJrbmZ3VTJ4Y2s5S0tJM0RISVZXWk9kZzhPQ1A2T29MS3NLTXFKdHF1OGxNU2ZSLWRKd29jd3I0aFktWEZYSXNIZFozRzJIU0t3dnh2RWFfRUlxLWs0TU5XZnc?oc=5",
+      "desc": "ИИ-агенты для бизнеса: как автоматизировать отчёты и работу в CRM без разработки VC.ru",
+      "source": "VC.ru",
+      "time": 1788444836.0,
+      "score": 77,
+      "russia_weight_bonus": 1,
+      "key": "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9",
+      "importance": 77,
+      "editorial_value": 50,
+      "topics": [
+        "agents",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts - Межа. Новини України.",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54SUsxbGJCbGJ1LUZ2Y0Rha0pHbDlfN1F4SkZUYjNYSFpxZk1HTjJNcFVueFl6Zk1JSUtnazdVc281VnA2MWptc0JEdWdlRWc1bmNfSmt1ZFJGdGQ5Wk5SR2ZVTUt1VXJSTVdCQ25R?oc=5",
+      "desc": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts Межа. Новини України.",
+      "source": "Межа. Новини України.",
+      "time": 1788450617.0,
+      "score": 73,
+      "key": "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819",
+      "importance": 73,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Meta Launches Muse Spark 1.3: New AI Model Takes Aim at OpenAI and Anthropic - International Business Times, Singapore Edition",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeThybzlpSzZjV2ZyTjVWTDRQRzdhR1paTG00TG02RnZTaWJyM3BZajh2RWRFT1NLeS03dUtRVjJ0VTRDTnhJblZVT19VajBxT2RfY3p2STVCTnBxeVJZdEgzQ3BMeGI1SWkxRW9XSWE0dl9MWWtpSUZpN2xtNENnZGYzOGpSOEw5dkJMZEV0ZUFCbVJmaS02U1o1MldBUQ?oc=5",
+      "desc": "Meta Launches Muse Spark 1.3: New AI Model Takes Aim at OpenAI and Anthropic International Business Times, Singapore Edition",
+      "source": "International Business Times, Singapore Edition",
+      "time": 1788445327.0,
+      "score": 73,
+      "key": "d589eaddbe63b46b466552dd5e306fcc956a27d13b11015890a88f0e54d6016c",
+      "importance": 73,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "models"
+      ],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "IBM (NYSE:IBM) Expands AI Tools to Strengthen Business Resilience - Kalkine Media",
@@ -182,6 +268,22 @@
       "topics": [
         "business",
         "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google introduces WeatherNext 3 AI model as a new milestone in meteorology - Zamin.uz",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcTFUVXN2a1VYb1F3VTdhT1RXbkotMWp2eVMtaktnWWlSVTc3N3VXMG1pUE53WHZxbmtkNjBnTUFrVzdTMVcxS21RQnh5NEhZOC12a0wyeTNTdy1KWXNOSXV1Z09yQ0JaNkZUSFZZb0VfeVRuMWNPaVBNbjBTVlozUmxlalRuUmJlbjg4cnBRX0pmZWFrV2t4UGRTQUVvcFB3cGFZTFlJcmdlaEVQbllyZ3NYTV9fdGxv?oc=5",
+      "desc": "Google introduces WeatherNext 3 AI model as a new milestone in meteorology Zamin.uz",
+      "source": "Zamin.uz",
+      "time": 1788449247.0,
+      "score": 70,
+      "key": "d4001a2fa9d9f6b83033b69ae8ca3b444933dc33548974131eed3a0ec352b5c6",
+      "importance": 70,
+      "editorial_value": 50,
+      "topics": [
+        "models"
       ],
       "tier": "A"
     },
@@ -204,52 +306,33 @@
     },
     {
       "region": "WORLD",
-      "title": "70% of Indian Banks Run AI in Production as Security Concerns Limit Scale: Zeta - FF News",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdENZSmstZ0FTVFh5b1Y5SzdUSjVHY2s4bUdQT05rTkYxdEs0QzBHcmZOYzlKbFp6OGMwVFh6YXcyb2M5aVhkM010cWJlaXVqZ19MSS04YnlJc1BTdllGSkk2TnFyVUJuZVdRUjFfVkdsR3VwZm1vbDdjNjFrLUo0TktZVHNpQTEyQXpuRVNad0RGSVRQY20xYnV1RFBHRlBjd2hmdnJ6ZnZrTFdqWDgwdXZlZw?oc=5",
-      "desc": "70% of Indian Banks Run AI in Production as Security Concerns Limit Scale: Zeta FF News",
-      "source": "FF News",
-      "time": 1788448971.0,
-      "score": 69,
-      "key": "48ce78f1045fede3ccad77aa75212f22f3aeeff19bdbca67e4345ac52ec049e8",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Palo Alto Networks Acquires AI Startup Console for $500M to Boost Autonomous Security Platform - AI Insider",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON3Frbkw2c0hYa0k5YjZlaThRUnpNYU1NcFRVTGh2d3BNTkR5Y2JZTDVlMjEteXBHUmNTSWZlcmNJQWp1d2ZweE9jb01zeFg3MkdWR2REUk02eDROdmtKSE1YdV9hWDBfdDU4S1lpeFlTRndHelJuVTI1YmRtN0h5Q2hrUnMxbF9Xb09Zd3FERC03NmJqMllaYnBGQTZMUG91SDhSRk4tYkhKVUIzT3RIUzlQMUxoeU5OeVdqbVhSRVVYZFd2WFpWMGxqYw?oc=5",
-      "desc": "Palo Alto Networks Acquires AI Startup Console for $500M to Boost Autonomous Security Platform AI Insider",
-      "source": "AI Insider",
-      "time": 1788447528.0,
-      "score": 69,
-      "key": "c693134e8e46e42349350f8f41bec8b33fcb189249b7a0c82f3b63969c757de0",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [
-        "security_regulation",
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Claude AI Faces Outage Impacting Mythos 5.1, Fable 5.1, and Opus 5 - CyberSecurityNews",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2ODF1UzdIT18yTTNLVWxVa0hDN2NRU29YeHhaSTkyQjk2N0tpN3RuVE1fTGd4a01ia3MzenFVd0M4cUozV1FCX2s0SEhhTkRILWVWUGprdU94dlo4d3hTaDRZMNIBaEFVX3lxTE90b3A0VFlDanNlUExnV2YwbDdhZVUtbG9WcnU0MExOOFFaTkpjajFlekJHNDlITEtpQmRjdmJPQmJPcm1aX3hjZlhYV1NBVWNydk93aXlxc1pwbUFtLXJYRkdGbmpSLW5L?oc=5",
-      "desc": "Claude AI Faces Outage Impacting Mythos 5.1, Fable 5.1, and Opus 5 CyberSecurityNews",
+      "title": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services - CyberSecurityNews",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VaVVaaDVtQVZqM1N3c19yMldBZk5TUVMtSDJZaUdUQlRKWVo5b2IyRW5OTUktUjU5UDRjRW1jRUJHX3pHTWtjaURKUHp4Wi1OMmJ0TjZGb3p3Y2E1UmlEVnd5b3Ata0xzZFNPZnA1WDlmYWtH0gF6QVVfeXFMTlJkYmRKOUNzSUlrNzVlTEs1ckdCakp4b2ZSQlZGMkFIV2hpczJBRlowUmJwdkhONWRTUHVKV3Y1blNycHZqcE5pY1k4NVY2czlIVmtVZEFYVk5hbkdvQ3BhaXJrcGRzbVRZaVhWV1lodTNmRmtBQmt0MVE?oc=5",
+      "desc": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services CyberSecurityNews",
       "source": "CyberSecurityNews",
-      "time": 1788446931.0,
+      "time": 1788450969.0,
       "score": 69,
-      "key": "65a5682885764bd3c6b82691d7b4132efbc3e63c8c691f9d77b98bc84caa1cf1",
+      "key": "9459f5936486b2574ca5e98c12420cc9cc9354e148636cd04df44d15c3f3eed9",
       "importance": 69,
       "editorial_value": 50,
       "topics": [
         "models",
         "security_regulation"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI Rival Moonshot Makes Blockbuster $50 Billion Move - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRndCaHJHMXJORTZWNGVxSG8yaEQwRWdEcE1CV0Q2ZndCTFBEVXkzSVcwWUVUNHA3ellUSTNQN2llVTEyXy1LUktSdE9sMFNfN3NsYi1lOWZLWVpVLXFVbW9WWUlWMmo3VHg1SmhtUXdIdjJsa3NWdmZrblE4WGlJcWhIR1JvXzRpQy1PRERLQTlqOUhSa25ZVUJhbGRfNXgzb1pDWkNVSEFpeGlZclRGSEZOckxpQQ?oc=5",
+      "desc": "OpenAI Rival Moonshot Makes Blockbuster $50 Billion Move TradingView",
+      "source": "TradingView",
+      "time": 1788450422.0,
+      "score": 69,
+      "key": "a8acd8efb96bd5c37e6b604db02ed18cf8fe43af394d57c250c074dadf8744c9",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -301,6 +384,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Просто знать AI уже недостаточно. Бизнесу нужны специалисты на стыке технологии и отрасли - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBacDdyNlR2VFJEMVFmV3FabjkzS0M5S2VTNmF4UUswWHpYUDBaOHJJTTNTbndlTllqS1hKbTg1cnNvdWZmSWFYX0dzWGhES2psUHNObzl5d3BPR1Fqd0NjZA?oc=5",
+      "desc": "Просто знать AI уже недостаточно. Бизнесу нужны специалисты на стыке технологии и отрасли VC.ru",
+      "source": "VC.ru",
+      "time": 1788446740.0,
+      "score": 66,
+      "russia_weight_bonus": 4,
+      "key": "a11a4eaf671150dfd7d7a32de4927c06238dae5f18641ba1849d01b227e66938",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд - theins.ru",
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBReU1waHU5UllJZ1J1d0JlX3dUcXVtZkM4Rnhvc25oWmJVTTBVSGdCTV9TSUhRQTNuTm1IUzRQOGxoOTg?oc=5",
       "desc": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд theins.ru",
@@ -313,6 +413,57 @@
       "editorial_value": 50,
       "topics": [
         "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkQyZE9ockRxazRHU0UzUDZXemFuX1hXMnNDNmp6NHZaVjI1Z0VIUjVjVktHNmpWdWZGalRmRW1QVzAxWVkwcEwxd3BLMHVuTWNrUHNidWhtMzFrbk5sY1pfamd1UzFkeXpDREYyQzBfY1h0b0ZOd0pyWkxoYmRVU19hWXJ3SjFYcHFOSFVydTZtVUQtUDJGdXZqYmxuTFk3OUZ2bEt1WnctNHY5WTdFWnE1akhDbE3SAXtBVV95cUxPN0U5MlFWelFpaFZjMUloWFJzZndNaF92a01XcGxrbkpBSjB4MTB2ajg4czRlaW15czBESjctSkZxbUlHcHRrMEY5eEJ5Rk9XVUFjRk5kcm1YWER6VzU1cFpJdmxySXV2ckE0NG1LTlY1eWZGYi1KWEN2alE?oc=5",
+      "desc": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788436644.0,
+      "score": 66,
+      "russia_weight_bonus": 5,
+      "key": "8863f4adc9909941be37d8b471e1c98116f2f6b7d5bb57582a140d18f93062ef",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Главный организационный вопрос внедрения AI - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LbXE3Q0E2X3U2Y1d2cVcxR1h4WDJJY3lDSTFmMGVJSkxTTWlFZmtRZk9CdFVPNl8wUkpMenBhajY1TXdwdDc3a29tQWNqaEZoZXkwclZ1TFJxSGkxc1VocF9wdEFBeTY5b3c2bjJpSGlHT1VNbnc?oc=5",
+      "desc": "Главный организационный вопрос внедрения AI VC.ru",
+      "source": "VC.ru",
+      "time": 1788432593.0,
+      "score": 66,
+      "russia_weight_bonus": 1,
+      "key": "29e1cc8446e0a9b7c4d453899cb9dcf8e08454364cbe968acdfb0bf9901780f5",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Елена Силкина: как подготовить компанию к внедрению ИИ - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaUhJRFdKOUdEU3BpVFB2aUdVZ0VyZGxQRkw5cE1TdHhRUk9vcjFNTXliMHoxVkpoSHQ0VmtsYklMXy1yLTIwQlIwTkNqMmJjcDZ6dXZLLWt6OXZHYlVFeUlyZDduZlo1elMyQXVwa2NWYW1lNUlwcXdGY1NnM05kZHhacUtxTDRjSExGRXFLZVpZWDRwS1RydUsyTmfSAXtBVV95cUxQdkgzNXJPTjdvN1lTbkU0SzF2OFpBNVd3QnhyYnFzRWk0MmlfandhMmRZWFVfXzFNcXIwSV9hUVFad0Z1Sjh6UjFxNGRWWWJleTZWOUdrdFAyMC1ZOExJRlRMeV92QnkxM2pqUzhaZEh5Z25zRW1icDJvR3c?oc=5",
+      "desc": "Елена Силкина: как подготовить компанию к внедрению ИИ companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788438435.0,
+      "score": 65,
+      "russia_weight_bonus": 4,
+      "key": "657ece28e23bcb46449c2ea5f8e700f03ad7c8ee38fe3bf7db640379578b5d60",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "business"
       ],
       "tier": "A"
     },
@@ -335,6 +486,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Пользователи по всему миру сообщили о сбоях в работе нейросетей - Рамблер",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdnZIR2p3WEhhVXVkSVJ0UHBiS3YxYk5aMTlybHBGbWlvbzNWRGtPTWoyelBJNVBweGgwQm51U2F2T2pCMnI2Ykg4ZC0xeGJRaU1MLWJOQ1RMTndIOFkzVUx6UDBfZ2Z2MkxJUzUzMldCU0hIcmViMUhFMFoxNEtIckszbHdOSGpZNVlxT1F1c1RGNEJwQWRnUDZXTDJHQXlvVnhiUjZFONIBrAFBVV95cUxQVFZDci15dGQwQmgtUk5OWjNobnRiRWhvSzBTWURxeDdTd1duVjV3THZGd2p1RnFpano2Z1FWNUtHa1poZFJuMTlpY1I5a2RXU2dMdHZzWm5MVF84NXlFTEIwLUo5ZVM4NHI0OUtJLU13cllWYTViNjhURVZIWHlZVDlvSDJ6RHZORGo5OFNvYzA4R3lncWtXTU9GeFJoZ04zZ0wxcXc1RHNyZTZa?oc=5",
+      "desc": "Пользователи по всему миру сообщили о сбоях в работе нейросетей Рамблер",
+      "source": "Рамблер",
+      "time": 1788449520.0,
+      "score": 62,
+      "russia_weight_bonus": 3,
+      "key": "52f72c407a587ff3ea4862745a2d63bf6e94b323d5bd20a7e75d27bd3b0a1890",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ - ФОНТАНКА.ру",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ONU1lb3REWUV4dnU1RzRLc1ZKT201MFBwYUc5UmhmV0pINEJyczJBX05PczhNY1E3YkNzdUxqOU5JNFhVbHo1STVKMVAxSl9MekRWVlpB?oc=5",
       "desc": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ ФОНТАНКА.ру",
@@ -347,40 +513,23 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Чипы обеспечили корейский бюджет - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pbjhCTUZTTDliQTBMOEZTcDlsZjNrSXBHdlpaRTQzVjdKWUY2YUc0Mzg2WmliTUNqUWJ0VTVNU1BSS09fajNpaXd0Ym4xZw?oc=5",
-      "desc": "Чипы обеспечили корейский бюджет kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788435866.0,
-      "score": 62,
-      "russia_weight_bonus": 3,
-      "key": "60364d67b41fea6cd20aa285b1c58733d124296d3cda715f4ae9c5adc083ecab",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788453370.9949365,
+    "last_start_ts": 1788453558.9492462,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788453370.9949365,
-    "last_success_ts": 1788453370.9949365,
-    "last_candidates": 0,
+    "last_run_ts": 1788453558.9492462,
+    "last_success_ts": 1788453558.9492462,
+    "last_candidates": 88,
     "last_published": 1,
-    "queue_size": 12
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788453373.089116
+      "updated_at": 1788453579.0220785
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -715,10 +864,16 @@
       "desc": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы Korins",
       "source": "Korins",
       "region": "RUSSIA"
+    },
+    "2f0573b75f76a7be7c6c6166774937bc02457c1836e4abc6cea6a2d971504b4b": {
+      "time": 1788453558,
+      "title": "Why Enterprises Are Rethinking Data Security in the Age of AI Agents - The American Reporter",
+      "desc": "Why Enterprises Are Rethinking Data Security in the Age of AI Agents The American Reporter",
+      "source": "The American Reporter",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -737,8 +892,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788451571.478552,
-  "last_publish_ts": 1788453370.9949365
+  "last_search_ts": 1788453558.9492462,
+  "last_publish_ts": 1788453558.9492462
 }
