@@ -1,1 +1,351 @@
-
+{
+  "published": {
+    "a8b45694dc9bd4c4feee26d9e1f425176aa1428303f2973a15c506fc2ae79270": 1788440800
+  },
+  "known": {
+    "a8b45694dc9bd4c4feee26d9e1f425176aa1428303f2973a15c506fc2ae79270": 1788440800.426539,
+    "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788440800.426539,
+    "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": 1788440800.426539,
+    "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe": 1788440800.426539,
+    "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee": 1788440800.426539,
+    "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b": 1788440800.426539,
+    "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": 1788440800.426539,
+    "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": 1788440800.426539,
+    "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": 1788440800.426539,
+    "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3": 1788440800.426539,
+    "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": 1788440800.426539,
+    "4964823575be2f2d55fb2a9d724402b696cf1f8cee69d8ed0d646dfb547fae01": 1788440800.426539,
+    "12da18e71bcd8de9a25340906dcc64eb6bfd816010cc890bc2c8b456c2707dac": 1788440800.426539,
+    "141ce6140c2f18c7b4a91dfd3bd72356517457dd401ae5c5ca0400c01543bf96": 1788440800.426539,
+    "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb": 1788440800.426539,
+    "958aa4c2a7bb1dca32f4cb766e2c78b5b66fde9644979eb622424e5d0e740fab": 1788440800.426539,
+    "ea65340dc1da15888fde634c7b18aa33a4fecedc557a818fe73f62c95e816c1c": 1788440800.426539,
+    "cdb16fd3382b806f84fc60747b5b659de6d31186321cc4208e452883e5c69831": 1788440800.426539,
+    "a08785f4a1ee5a25363764b7fd65f1b0a51149630d69cad71327c6938b4f1ce4": 1788440800.426539,
+    "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3": 1788440800.426539,
+    "3e68aa196cb058e9926052836dcd89555778a317de590bda7bf7ff928760952e": 1788440800.426539,
+    "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a": 1788440800.426539,
+    "936ede2b5558a37f1b7fdc9d44db1f23070c206721c5b6a94612702363c9c810": 1788440800.426539
+  },
+  "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "В СФ выступили за налоговые льготы для разработчиков ИИ-моделей - worldinform.ru",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVFBjSTZjMHp6YlZnRFF4dXBVVEhnQXh0UHphRzhKejdFSVFuRHhXcEhvaWE4RU1IaUVDZVZYbVhlekFXQU1QLTBNSFdhVHA2Wjk5WTJyN1BRaDRWUmg3STlLQUFNakdxRGp1UWozR0Vra2hZaTNPZ05VQUEtR1lsYW1jbklPWkd5bXVjZlhnWXF1cHhHNE1OMVMwQS1SOEYtWTFnVWZabw?oc=5",
+      "desc": "В СФ выступили за налоговые льготы для разработчиков ИИ-моделей worldinform.ru",
+      "source": "worldinform.ru",
+      "time": 1788433522.0,
+      "score": 73,
+      "key": "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749",
+      "importance": 73,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Автомакон Роботикс запустил сервисную модель роботизации складов - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaHQ0cllwX1lwWTFqNnRJNVU3bmdFazZZLUE1VFUzZ0cyZWhFa3pLLUJRaDhFa1dvNXF5Q2hpVU04TG9kb1loZGtNT2VUc3o5TERiLTlXMTY2dmxCS0pQd3p4UUc2WnVxTHUxSTQ0N3Q1NFBmb2VVRjJZWWdxUGl2a0YzQ294M0c1bUNUeXJ2ZHBDSzlYNVk3b0pUcHJaUklHTk9VNFd1c3lLWjDSAXtBVV95cUxOMDkyX1lSZ0dxcWpNRW5xY1A2d0ZrQ1lTclhiWE1KZFpFZ1h2VWJKTlYwdGt0YTVnUlpBQU1JSEt6X2RmMFdlZnB4cnJPVk9aeTJTMkNvUldnWEVIMmU2WkJqcXhqaXNRUHRYLVFVS0Zqc3ZacF9Wd3pjRWM?oc=5",
+      "desc": "Автомакон Роботикс запустил сервисную модель роботизации складов companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788420827.0,
+      "score": 70,
+      "key": "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3",
+      "importance": 70,
+      "editorial_value": 50,
+      "topics": [
+        "models",
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google eyes coding comeback with new Gemini 3.8 Flash model - varindia.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObzFfV2hVdDhIUHdsUVJwdk8xbmxtZHE4Q3Y1dkVFdWNjc1VTTW9WY0VIUmFrNE1seDZYdFJrVlBDbjFfUEJuMEc0Z1BtdGlYcGZ6dm84cnpNMTJSS0FHUWR2allRS200SjJXcV9oLXN2RUUwRFRGOHQxTFBvcFBmaldTNlpJM2NlbVVaSV9PdU5fMlE?oc=5",
+      "desc": "Google eyes coding comeback with new Gemini 3.8 Flash model varindia.com",
+      "source": "varindia.com",
+      "time": 1788436799.0,
+      "score": 69,
+      "key": "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России - Gosrf.ru",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaXlHNC1lSXBvU2ZPTjhLWHZhSERlTFBMei16R24xZG9tdDJWWVh6ZGZiNUNxUWx5OVRyVVF2bzFpSEJxdV9uekFobEdKVUE1X2Q2Y2NCN3ZORzlMeTgyczJrLU5UamhTYThTS0FRQ1lYR3Fad0c5TnJON0tuOGpYcHRwOUFpTDUyYmtfd1p0T2hxSzBHWUdtVVd5Ni1UZw?oc=5",
+      "desc": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России Gosrf.ru",
+      "source": "Gosrf.ru",
+      "time": 1788435368.0,
+      "score": 69,
+      "key": "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYUxYLVBhNHJEZlJTaldyeVVqaXBDSGpXU3BCaDFlYjMxWGNkMHFRd0habEQ5bjhHZ09VY2tZZHVxNEl4TmQ5REN5dU1ySTE1SEZQWjZyc0kzbGk4VXF4c3doQzdPVjFQYkc0dE55OTZUelF3cDhZSU5fYVUzMTB4S0EtdDB0SVJmNjN3X2V1Q0J5akpFR1paWm00c2dhNTEycjJjc1AteDVWTGJRdjRWV2ZPTDBvZkct0gF7QVVfeXFMTlpEczJsZFh1V1RHWGZLUEJQcTVWaVJzeElzc0c0MmJnbEhqQlRBX0F0LVZXOTdyUXdrM3p3bEViTnh2QVZ3aThnYzlScFpITEdCZ1lodEV1a0JmZGdYN1U5Z3BzUHNVOHE3TlNoY2lGZUw5SWFZQm9fOUI4?oc=5",
+      "desc": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788431041.0,
+      "score": 69,
+      "key": "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "agents",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Meta, Google join the AI launch party - The Rundown AI",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1la0VUNG9KVFk3dG05ckdsWDVFWVJKN0lvYWFwNnh6a3lKM2czVjhtTXhsMkM4SU5GM2dsdlFFT096NldELUQ5OGs0UGU5U3Z2MkdSSWZXa1FFekxsbkJyMUlWNzJ0TE1Ka3JKbHdMODZQV0xwNVY5ZDJKVQ?oc=5",
+      "desc": "Meta, Google join the AI launch party The Rundown AI",
+      "source": "The Rundown AI",
+      "time": 1788436873.0,
+      "score": 66,
+      "key": "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdnpqamp3SmNZMHVlb1o3TUVuLUlFUVRGc181Mkp4UDNzQlpSUDgxMzF0Z1BhNHFjaGV2eW9nYU9mb0RUd3IzWkxLOUZlNTlaaGVfeFVNY2ZhcVM3eFlpTzFtLUN6Y0hDcnNWTmpSQS0xeDVxRzJqMWVEcktYMERlLXVMTEpYX3psTm05TkdMWmNBeUNySzYwOEh5NHdDSE50anJGczE4SkRlbFR3Um5tcy12ZTlGTHlUbG5OUE5xMXk?oc=5",
+      "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788435631.0,
+      "score": 66,
+      "key": "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок - Московская газета",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcnlESXV6ZE5jMHZUUnpXZ1M2dTdqZm5mQnE1a0FFb2FpaWt4U0lIcmpWdHpYNW9oUEdzV2p6ay1PUW5SSVBSOWlsLUwyeG4zVEhhLWNEcXFaLUlYdXcwSWRQZk1hYjRjc2tObmlhVXFuLUZDLVM3M2thUE1tdjl2aFJXQzh2aUhISHVaUWROMnU0U1ZONGpzVmlPb0ZnTy10bnVnRWxn?oc=5",
+      "desc": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок Московская газета",
+      "source": "Московская газета",
+      "time": 1788434837.0,
+      "score": 66,
+      "key": "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Александр Ведяхин: создать ИИ-агента сейчас может каждый - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2xOU3lpN1J1YzI3WkM3bzFKMjdvZU4wUWE0dzZMYTg4OWRKRmNydHhTQkpITUtFb1QtWEhHQUdGc3l3WTlxYXl0Z3BDNkpreVZLaTlxclFTUDJhSXVqWFFzMU9Fa2EyMmNPM2tGSWxDb1pMa1BsNWFONkZMaHpqQ19ZSzgxM3pxNXk4d29aRDBWdVZFbU5tT2RMejh2Zw?oc=5",
+      "desc": "Александр Ведяхин: создать ИИ-агента сейчас может каждый prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788434441.0,
+      "score": 66,
+      "key": "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года - itweek.ru",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwakFFbGJTaHF1aVo4cUJ5cXdMRnNDN0ZhZWdBaEZaeGpUbkZRdkp5RGs2TUNBWGFycXpQRFF1ck5sY0xhSExReHRjaTdoS2I0c2pDZ1BnOHE4cTU0NkE?oc=5",
+      "desc": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года itweek.ru",
+      "source": "itweek.ru",
+      "time": 1788440349.0,
+      "score": 65,
+      "key": "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "ByteDance’s $29.6B Loan Signals Massive AI Infrastructure Pivot - forkast.news",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObGxfM1F0NlNnSnZlWEZQRWh3VUhzYTRnMksxVzJDZHg2cko3d3VBX0FRYTNhN1BPRmFYT3o0LUtnVURqVGd2aTFEeHBUWU9wUlBlYzRvSHdfVDFRWVRRS19ObUpYRFR5alB3SWtnZ1FiYk5mdURRR1hDaFZIb3BxNXpsOV81UXBOcVVj?oc=5",
+      "desc": "ByteDance’s $29.6B Loan Signals Massive AI Infrastructure Pivot forkast.news",
+      "source": "forkast.news",
+      "time": 1788437673.0,
+      "score": 65,
+      "key": "4964823575be2f2d55fb2a9d724402b696cf1f8cee69d8ed0d646dfb547fae01",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI’s Astra Uses Hidden Reasoning Loops That Erode AI Safety Monitoring - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWmp5SW1VMU4xWDRkRFhkek16VmtiOUYzRl8waWpzdFJSVFozSG15TTNWSjhSRW9tOWpScXRjZ19kQThLN09oMzdNLXpzaHZ0b28yTnBCRk5abmZCTHl4TXQ3dS1CZVRJOTBYVlREbVl5aXZMUmtzTFpiNTRoYzBvNl82bmFVWHBkRWxacW1tYkI5OW1na1RVWWZuNWpER0ZPeWFPYjUxMG1sUGZ0UHZBdFFBLTBUVnZmZ0VlbVNKdHEwc1VxTklZ?oc=5",
+      "desc": "OpenAI’s Astra Uses Hidden Reasoning Loops That Erode AI Safety Monitoring Tech Times",
+      "source": "Tech Times",
+      "time": 1788437568.0,
+      "score": 65,
+      "key": "12da18e71bcd8de9a25340906dcc64eb6bfd816010cc890bc2c8b456c2707dac",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Яндекс Лицей научит новосибирских школьников создавать ИИ-агентов и программировать с нейросетями - Новосибирский информационно-образовательный сайт",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGFHSmRBY1FCQkhZQXgxQUJuUkdZNFNqaGdjSmV5VU1Nb0NuU01QdmxtQnhzcmFGOVRWeFM4VmxhdVhhdHRZX0hWMk1HR3BNdzJsNGZnUEFpbDRoQTVqc0NjaDhsbkJxUHE4elNQY1Q0bzZvOXVVYXhDUVMxaW04b1g4SVl0TDhWUGRaMVpXaU4yLUczRWo5RmpzQkxWVy1MY2hxSGJnNTVZMjQ?oc=5",
+      "desc": "Яндекс Лицей научит новосибирских школьников создавать ИИ-агентов и программировать с нейросетями Новосибирский информационно-образовательный сайт",
+      "source": "Новосибирский информационно-образовательный сайт",
+      "time": 1788421958.0,
+      "score": 65,
+      "key": "141ce6140c2f18c7b4a91dfd3bd72356517457dd401ae5c5ca0400c01543bf96",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "agents",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Нейросети для работы: топ ИИ-сервисов - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sMl8ybFQxckI4VExDaERxX0d5a3E2dWRXcGw4OWotSFFpMnBJV1c3RXVMeHF6VGk3akRwZ0ZVM3JuWkw4Zldjd0lwc2dkdlFpRFdwWjZYa2RkdzhJc2t5VDNzZHBmYnMwYUhQWW8tZ2o0dw?oc=5",
+      "desc": "Нейросети для работы: топ ИИ-сервисов rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788435353.0,
+      "score": 62,
+      "key": "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья - perm.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BM012T1pHZDFLQXJQSmhNa1hIcS1UN2FzSVQ4N2tWNUg0NlRxZ1cwa0VTMllReVF5Z0RGbDl0YlRwM0VSRlROQjlXSXZLR3AxdEtvcDRtTWlWSjRyWV9Gd1A0Tk1VdTV6U1dtWUtyYjM2NmRkemExM2t2V0M?oc=5",
+      "desc": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья perm.rbc.ru",
+      "source": "perm.rbc.ru",
+      "time": 1788433413.0,
+      "score": 62,
+      "key": "958aa4c2a7bb1dca32f4cb766e2c78b5b66fde9644979eb622424e5d0e740fab",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Отчет: ИИ стал главным помощником хакеров - ForkLog",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BcEhIYllkMnZueFpvOHVyUXFjVTNkR2VKb2l4WUY2czhuaUpCZmlQX3Fjc0ZYYlF4aDlCSGpyRHJaRGpkLUFwdUpWclpRQWtlVU9NLVNNUGFaV3hsM3kyMzlzbDhZZjJPV1pwNFhycVBPc1BDYWt4T0duUQ?oc=5",
+      "desc": "Отчет: ИИ стал главным помощником хакеров ForkLog",
+      "source": "ForkLog",
+      "time": 1788431245.0,
+      "score": 62,
+      "key": "ea65340dc1da15888fde634c7b18aa33a4fecedc557a818fe73f62c95e816c1c",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "CEO Nvidia призвал G20 не регулировать «теоретические угрозы» ИИ - Incrussia",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUWY2bUxPbzZYOTBEQVllZWYzZmI2Q0lEdjhySzVKS0tRMVJ2cnJXUDZVSXU2SFB1TV80SVhOSlRoelpLckFsRkxPWkpZajlKTXBTNEtQWXk2ekRWUHVHSDNpTktHd1U4X0ZCRkJ4QkswZkV4UFNUZFRNZEdEa3liSEgybnpZM2MyTkRVcVVlU1FWeGc?oc=5",
+      "desc": "CEO Nvidia призвал G20 не регулировать «теоретические угрозы» ИИ Incrussia",
+      "source": "Incrussia",
+      "time": 1788429223.0,
+      "score": 62,
+      "key": "cdb16fd3382b806f84fc60747b5b659de6d31186321cc4208e452883e5c69831",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "chips",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ТОП-50 скиллов для ИИ‑агентов (9 млн звезд на GitHub, 22 млн установок) - Хабр",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5YLU9GTXdNeC1ubzZ3NHdGTmRLZ2Zxb3F3ZnhKTUpuMl93WHB2aTI2RTV3OXphMzlyVnZwamJ3QVBQdUxsQWJ4dVpYLTZBQdIBWEFVX3lxTFA1eTZkQmM0cHQ5NlNvdnZKUUNkdW1sbF8wNGxGUHpGbXh0eGVNcW5wakFsT29JVWJkYTRLRExnaXYybXhsVE9vbEo4Skk5dlVmN0Y0N1g0dlk?oc=5",
+      "desc": "ТОП-50 скиллов для ИИ‑агентов (9 млн звезд на GitHub, 22 млн установок) Хабр",
+      "source": "Хабр",
+      "time": 1788426995.0,
+      "score": 62,
+      "key": "a08785f4a1ee5a25363764b7fd65f1b0a51149630d69cad71327c6938b4f1ce4",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin - ET Datacenters",
+      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNaFRnZWxjVGRVdUZJZnFrc3dOeEJDMF9RbVV1Vl9yNGJOMUw2WV9PRnR2VG9WUVF6dTNMQW5mYllHLTUycENORk04bU5XR3h2M1JtMjdVNGJGZEt4TURHLWFHeVRDSExEandtSUNQNnBZNkNsb3ZrMGt1bVJFRXBncktadVVsS1F1Q2V3UXpyOHFWa1BfdTJDZGxxMmY1Rno3MGxwdnNlTjdlRkJNWUk2d3otYm51SkZ3cDNkQWxHX2lOVGktS0JfMzREWjJTcWprVmZ1M2xQcTVvTnoyVEN6bWxaNWhDSG9IVTZtbVgwTWxEOEwwLTVlRkQzeGxWbGNSRzYxN2xyZl9jc3gwT3E4bF8ycGJFLThscTIxX0dqSFVmNGFwREpacEUxci1Cc1FoOHcwV1kyMm1sMTRG0gGLAkFVX3lxTE9fSU1zZDNIUzVqMXR6WDVERG9LUzFkX0FtXzdOT2xKUFJmT3VmdnJ1Y3VvdUNfSGVyQUJHcndGZ3lfbjQxQ2ZpbUwzY0VmQ1dOblkwcGpUSEJ4S3hoUjFScE1NMXRzR1F0WEhzWkJPUmtkSHJMbGdaRjhpRF9zSmhZNlZtWWRXWTREb2Rvak44aVduTElqMEFVSGJSVjROcF9wZGF6ZVhKQkNjRDl3LW5lbmV6N2dIRkpmbVRBT3JjRFhOM1U3dFBwZDhfUENuNGZheXZyY1JSemZDbk51OUFFLXlWemNGNUdwNy1QOTE4VGdJR3hpaGZpczVnMi1CdHRSbUw2NzZKOHIybw?oc=5",
+      "desc": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin ET Datacenters",
+      "source": "ET Datacenters",
+      "time": 1788428985.0,
+      "score": 61,
+      "key": "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a",
+      "importance": 61,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    }
+  ],
+  "health": {
+    "last_start_ts": 1788440800.426539,
+    "last_status": "OK",
+    "last_error": "",
+    "last_run_ts": 1788440800.426539,
+    "last_success_ts": 1788440800.426539,
+    "last_candidates": 23,
+    "last_published": 1,
+    "queue_size": 19
+  },
+  "providers": {
+    "GEMINI": {
+      "disabled_until": 0,
+      "reason": "",
+      "updated_at": 1788440808.9812393
+    }
+  },
+  "stories": {
+    "a8b45694dc9bd4c4feee26d9e1f425176aa1428303f2973a15c506fc2ae79270": {
+      "time": 1788440800,
+      "title": "Google launches Gemini 3.8 Flash coding model, dodges AdX breakup - Yahoo Finance",
+      "desc": "Google launches Gemini 3.8 Flash coding model, dodges AdX breakup Yahoo Finance",
+      "source": "Yahoo Finance",
+      "region": "WORLD"
+    }
+  },
+  "publication_regions": [
+    "WORLD"
+  ],
+  "last_search_ts": 1788440800.426539,
+  "last_publish_ts": 1788440800.426539
+}
