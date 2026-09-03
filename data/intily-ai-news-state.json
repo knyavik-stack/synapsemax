@@ -38,7 +38,8 @@
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450851,
     "ff56ca85428e7e5ad63b9cf26d58918bd9e0ca775fe53e00c7c8958c552373e9": 1788451032,
     "2b963ce9d33fb9519fdd59ec27db31536cba6761636a0a144dc7bc7e0ecfacf2": 1788451389,
-    "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": 1788451571
+    "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": 1788451571,
+    "de4d76498fe079f793645cb510a5fb3912adf9320ce30d745433599ae4825db9": 1788451757
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -179,23 +180,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Израильский стартап наймет сотни специалистов для внедрения ИИ у клиентов - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaTd0TGxvODdGRktTblY0NHY2bVJmU0YzZVg0NENjOTR0VFZtNzhoWnZOTmZIbGtnWmZLckZjZmhfV2IydmMwTF9TRHpkQVJfZ0ZhaGNpcHhKbnpwWE1hSU1IMUdkU1AxWG80NnZCTUNVR0ptSkc3bzZBdHhwb3VET2pINGZLQzRxNGlMclRqazNESWtRcWJibTNfNk9OdGZmNUdGOWE4a2h0OHhvaFlaYnljS24yemls?oc=5",
-      "desc": "Израильский стартап наймет сотни специалистов для внедрения ИИ у клиентов prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788451265.0,
-      "score": 72,
-      "russia_weight_bonus": 1,
-      "key": "de4d76498fe079f793645cb510a5fb3912adf9320ce30d745433599ae4825db9",
-      "importance": 72,
-      "editorial_value": 50,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Google says its AI weather model is getting better - The Verge",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUGZXamthVjNVUE1qSDFadE1QWm5xdndoWmpiVVMxRGdOejdSd2JwYkNTM29SVklIVUh6Q09tY3Axc0lKMWtlYjVrV2lDWlhobHV0TXdiTU1pTjFTSTNBQmtnT3pFQmxSS3BJcmZtZkZsMkxoY1A5bmppRl9pdUhtMFB6V194dkEzTFVIeHAxMA?oc=5",
@@ -244,6 +228,24 @@
         "models"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Модельный бизнес: «Яндекс» запустит ИИ-решение специально для корпоративного сектора - Forbes.ru",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSGVmSWIxTWtTbVd3OGJNUlF1TGNLd2ZyZWdGc2hCTnFCU09Wck82eE1vbG9sYlp3QjF5NUZsdGlnUUk1Zy1hMU9HZlVMSUxiOGpSRGhZc0drVnJTbHI0WjRZSTJxb0kxbUJDdWV4aW5wMUJyTi1uLWRmVzRiZWxsR183QkpYRFlhLVdBTFlrSDhSUnJsX0V4TWFvamNDQWJITE04cVJraGJwWUtpWkViSmpQTWk5eFNpQndBX0Z2RQ?oc=5",
+      "desc": "Модельный бизнес: «Яндекс» запустит ИИ-решение специально для корпоративного сектора Forbes.ru",
+      "source": "Forbes.ru",
+      "time": 1788424200.0,
+      "score": 70,
+      "key": "11c9400610e35397f4be118409236aa995cc5c2bd748bf6b585d444cdd527700",
+      "importance": 70,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "models"
+      ],
+      "tier": "A",
+      "russia_weight_bonus": 5
     },
     {
       "region": "RUSSIA",
@@ -332,40 +334,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд - theins.ru",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBReU1waHU5UllJZ1J1d0JlX3dUcXVtZkM4Rnhvc25oWmJVTTBVSGdCTV9TSUhRQTNuTm1IUzRQOGxoOTg?oc=5",
-      "desc": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд theins.ru",
-      "source": "theins.ru",
-      "time": 1788446135.0,
-      "score": 66,
-      "russia_weight_bonus": 5,
-      "key": "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы - RB.ru",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSHYwcVQ3M3hpU3ZjZnVFX3ZHUVQ5WEVwUl9wdG9CeGVtenNtcTBkUjNXb294UVdJb09EZXhXOHNUeHRjcGlzRjF4Y1ZRQm9IcW9Rdkx0U3lTcW5vYVhXSzJERnNWQ0N3cmRyNUhRbmtKbHRjN3U2VXZ5ZGZzeENBT19HdktpZmNHNVBmRGRHM3M2eENaZl9JcFdYU01XLURrU1k3dHJNLVNDa25rdktSdXF6Z1Ewdw?oc=5",
-      "desc": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы RB.ru",
-      "source": "RB.ru",
-      "time": 1788448772.0,
-      "score": 67,
-      "key": "fd700f2017564779e5b5f62708e2322272fd9e63b05613d91f2fe5e4cf8377f6",
-      "importance": 67,
-      "editorial_value": 50,
-      "topics": [
-        "models"
-      ],
-      "tier": "A",
-      "russia_weight_bonus": 2
-    },
-    {
-      "region": "RUSSIA",
       "title": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы - Korins",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSnFZRERDYi1aWi1XYU13VWZoOEI0NWUweklzcDhTZXZacjVjV3Niek94THRhd0k5MHhxY2FMVVp5bTZjVHRITldoR0RjY0YwcWpPT1pJZE8zR2Fwbm1TOGl5dlZfeFJhQnJNUVVTb2ZhNnRKRUl4Y0RtQlUyYWUwYnZKbEdVRF9sQXJ1cXJ5dHc3V3Y5WUt0eUdTNTdoQVoxMU9kVXoxcTY?oc=5",
       "desc": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы Korins",
@@ -383,36 +351,20 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Модельный бизнес: «Яндекс» запустит ИИ-решение специально для корпоративного сектора - Forbes.ru",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSGVmSWIxTWtTbVd3OGJNUlF1TGNLd2ZyZWdGc2hCTnFCU09Wck82eE1vbG9sYlp3QjF5NUZsdGlnUUk1Zy1hMU9HZlVMSUxiOGpSRGhZc0drVnJTbHI0WjRZSTJxb0kxbUJDdWV4aW5wMUJyTi1uLWRmVzRiZWxsR183QkpYRFlhLVdBTFlrSDhSUnJsX0V4TWFvamNDQWJITE04cVJraGJwWUtpWkViSmpQTWk5eFNpQndBX0Z2RQ?oc=5",
-      "desc": "Модельный бизнес: «Яндекс» запустит ИИ-решение специально для корпоративного сектора Forbes.ru",
-      "source": "Forbes.ru",
-      "time": 1788424200.0,
-      "score": 70,
-      "key": "11c9400610e35397f4be118409236aa995cc5c2bd748bf6b585d444cdd527700",
-      "importance": 70,
+      "title": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы - RB.ru",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSHYwcVQ3M3hpU3ZjZnVFX3ZHUVQ5WEVwUl9wdG9CeGVtenNtcTBkUjNXb294UVdJb09EZXhXOHNUeHRjcGlzRjF4Y1ZRQm9IcW9Rdkx0U3lTcW5vYVhXSzJERnNWQ0N3cmRyNUhRbmtKbHRjN3U2VXZ5ZGZzeENBT19HdktpZmNHNVBmRGRHM3M2eENaZl9JcFdYU01XLURrU1k3dHJNLVNDa25rdktSdXF6Z1Ewdw?oc=5",
+      "desc": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы RB.ru",
+      "source": "RB.ru",
+      "time": 1788448772.0,
+      "score": 67,
+      "key": "fd700f2017564779e5b5f62708e2322272fd9e63b05613d91f2fe5e4cf8377f6",
+      "importance": 67,
       "editorial_value": 50,
       "topics": [
-        "business",
         "models"
       ],
       "tier": "A",
-      "russia_weight_bonus": 5
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ - ФОНТАНКА.ру",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ONU1lb3REWUV4dnU1RzRLc1ZKT201MFBwYUc5UmhmV0pINEJyczJBX05PczhNY1E3YkNzdUxqOU5JNFhVbHo1STVKMVAxSl9MekRWVlpB?oc=5",
-      "desc": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ ФОНТАНКА.ру",
-      "source": "ФОНТАНКА.ру",
-      "time": 1788447607.0,
-      "score": 62,
-      "russia_weight_bonus": 3,
-      "key": "1f48f3f2e33577a983748faa7001b0a06814a2e95a60f2317476d28ad0a5d491",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
+      "russia_weight_bonus": 2
     },
     {
       "region": "RUSSIA",
@@ -446,15 +398,15 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Чипы обеспечили корейский бюджет - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pbjhCTUZTTDliQTBMOEZTcDlsZjNrSXBHdlpaRTQzVjdKWUY2YUc0Mzg2WmliTUNqUWJ0VTVNU1BSS09fajNpaXd0Ym4xZw?oc=5",
-      "desc": "Чипы обеспечили корейский бюджет kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788435866.0,
-      "score": 62,
-      "russia_weight_bonus": 3,
-      "key": "60364d67b41fea6cd20aa285b1c58733d124296d3cda715f4ae9c5adc083ecab",
-      "importance": 62,
+      "title": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд - theins.ru",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBReU1waHU5UllJZ1J1d0JlX3dUcXVtZkM4Rnhvc25oWmJVTTBVSGdCTV9TSUhRQTNuTm1IUzRQOGxoOTg?oc=5",
+      "desc": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд theins.ru",
+      "source": "theins.ru",
+      "time": 1788446135.0,
+      "score": 66,
+      "russia_weight_bonus": 5,
+      "key": "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5",
+      "importance": 66,
       "editorial_value": 50,
       "topics": [
         "chips"
@@ -477,23 +429,55 @@
       ],
       "tier": "A",
       "russia_weight_bonus": 3
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ - ФОНТАНКА.ру",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ONU1lb3REWUV4dnU1RzRLc1ZKT201MFBwYUc5UmhmV0pINEJyczJBX05PczhNY1E3YkNzdUxqOU5JNFhVbHo1STVKMVAxSl9MekRWVlpB?oc=5",
+      "desc": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ ФОНТАНКА.ру",
+      "source": "ФОНТАНКА.ру",
+      "time": 1788447607.0,
+      "score": 62,
+      "russia_weight_bonus": 3,
+      "key": "1f48f3f2e33577a983748faa7001b0a06814a2e95a60f2317476d28ad0a5d491",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Чипы обеспечили корейский бюджет - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pbjhCTUZTTDliQTBMOEZTcDlsZjNrSXBHdlpaRTQzVjdKWUY2YUc0Mzg2WmliTUNqUWJ0VTVNU1BSS09fajNpaXd0Ym4xZw?oc=5",
+      "desc": "Чипы обеспечили корейский бюджет kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788435866.0,
+      "score": 62,
+      "russia_weight_bonus": 3,
+      "key": "60364d67b41fea6cd20aa285b1c58733d124296d3cda715f4ae9c5adc083ecab",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788451571.478552,
+    "last_start_ts": 1788451757.4184835,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788451571.478552,
-    "last_success_ts": 1788451571.478552,
-    "last_candidates": 53,
+    "last_run_ts": 1788451757.4184835,
+    "last_success_ts": 1788451757.4184835,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788451595.5600846
+      "updated_at": 1788451761.17176
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -779,10 +763,16 @@
       "desc": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 PR Newswire",
       "source": "PR Newswire",
       "region": "WORLD"
+    },
+    "de4d76498fe079f793645cb510a5fb3912adf9320ce30d745433599ae4825db9": {
+      "time": 1788451757,
+      "title": "Израильский стартап наймет сотни специалистов для внедрения ИИ у клиентов - prospect.com.ru",
+      "desc": "Израильский стартап наймет сотни специалистов для внедрения ИИ у клиентов prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -801,8 +791,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788451571.478552,
-  "last_publish_ts": 1788451571.478552
+  "last_publish_ts": 1788451757.4184835
 }
