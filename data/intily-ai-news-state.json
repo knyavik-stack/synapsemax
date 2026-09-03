@@ -148,7 +148,8 @@
     "55a2979a3ceca2bf0e1cec94a2c9c979ce68751a0b5318d93096657301767480": 1788420824,
     "578a9a24300805e267321a3b428bd69983bdf85f2354ed13daab762404d9ab29": 1788421484,
     "6459325be48e73cb773a014dcad825c01d301d92bffff96926527af30727e604": 1788422146,
-    "141ce6140c2f18c7b4a91dfd3bd72356517457dd401ae5c5ca0400c01543bf96": 1788423303
+    "141ce6140c2f18c7b4a91dfd3bd72356517457dd401ae5c5ca0400c01543bf96": 1788423303,
+    "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": 1788423421
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -166,24 +167,10 @@
     "6459325be48e73cb773a014dcad825c01d301d92bffff96926527af30727e604": 1788422146.447613,
     "141ce6140c2f18c7b4a91dfd3bd72356517457dd401ae5c5ca0400c01543bf96": 1788423303.3380542,
     "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": 1788423303.3380542,
-    "c2c81551a732c792b437830fe203fa440478f5c4774b963fb03f31c00c867670": 1788423303.3380542
+    "c2c81551a732c792b437830fe203fa440478f5c4774b963fb03f31c00c867670": 1788423303.3380542,
+    "7590558b4a6fbd8af3630f7ad1730423574fe723c58aeae10bf6d7f0b6535738": 1788423421.4552677
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption - openPR.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcE9jSDIxV1VwSFdpTU43SmxjSVF4X3VweEpXdnFxMGlQV0EwejgzSnNhT0xGOFF1WUkyQmo1Q2JMQ1Q4bjdsR2plVGpfc2pLQ3I3eW1IZUk4ak1DZGZ0ODhBZGU2Y1hCVEVvVmkyRE1pVjl3czgwX1JnVG5YUjhueUs3cFJWRUdSY2dZdzlQeUR6VlY4WE1vWnlRNC1Nb1VXdVZIeg?oc=5",
-      "desc": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption openPR.com",
-      "source": "openPR.com",
-      "time": 1788421004.0,
-      "score": 12,
-      "key": "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823",
-      "editorial_value": 23,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Cloudflare Expands Support for AI Coding Agents with Cursor Cloud Agents on Cloudflare Sandboxes - AiThority",
@@ -214,6 +201,19 @@
     },
     {
       "region": "WORLD",
+      "title": "China’s Moonshot AI files for Hong Kong IPO, seeks $3 billion: report - Invezz",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWUFrYUNsYkZDdXozT0VSd1BCcDVWUnlUSVF2bXpXUnl2NTR5T0ZNTzMweHExNmJVRmtMeVJvbzhqaUUxal9pS3BqdU1YT1lHT1NXSTBTcm9QYVVSLXE5SHB0TWJYd2tkNERVQ1JtUGtjcDNMMzZLZ3c2cnRUa0Rrc1pGelRNSU5nSDljUnRfQXJGVmZ3RGpSSnM3eEdhSEszRGJj?oc=5",
+      "desc": "China’s Moonshot AI files for Hong Kong IPO, seeks $3 billion: report Invezz",
+      "source": "Invezz",
+      "time": 1788423388.0,
+      "score": 11,
+      "key": "7590558b4a6fbd8af3630f7ad1730423574fe723c58aeae10bf6d7f0b6535738",
+      "editorial_value": 16,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "ODILO Embarks on a New Era as Letmino to Transform Continuous Learning in the Age of AI - pressreleasehub.pa.media",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNLW4xS0RIU3B0R090b3NnWUQxVFRjZXRUQlhRX21ucGZhaGFfVy1nNk5QQy1KT3AyUlhsa2c1aldKbHMwZ3VqMm94NUtmX011SHZ6eXlIV3Q5VVdvVmc2a0dLOTVRRmZJWHVQbmsxQWhwWWNBX0RQT2NSc19RVWZ2cGt5Z29JLUFydnRuQjhGWVpvXzZtSi01T2dpbDdrRWo4SnNSSmhGV1FObE9EcFFFX0luNjRGZzZnck1JWGd0SFZaeGNqeDlCUHVZT0NSck82SnppQTJR?oc=5",
       "desc": "ODILO Embarks on a New Era as Letmino to Transform Continuous Learning in the Age of AI pressreleasehub.pa.media",
@@ -226,20 +226,20 @@
       "tier": "A"
     }
   ],
-  "last_run": "2026-09-03T08:15:39.601418+00:00",
+  "last_run": "2026-09-03T08:17:15.690649+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788423303.3380542,
+    "last_start_ts": 1788423421.4552677,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788423303.3380542,
+    "last_success_ts": 1788423421.4552677,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788423339.0095925
+      "updated_at": 1788423435.2090297
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -253,13 +253,6 @@
     }
   },
   "stories": {
-    "587e073fb67a156a88e23cad9d9ee04a8267f1d42774192cfe5567a8bba7b55b": {
-      "time": 1788336971,
-      "title": "AI helps researchers make the next breakthrough - University of Helsinki",
-      "desc": "AI helps researchers make the next breakthrough University of Helsinki",
-      "source": "University of Helsinki",
-      "region": "WORLD"
-    },
     "764b7f86bae8cb6e4376ec5fcb5b304a98ebd850c6f9d3c83c612ddffad58b66": {
       "time": 1788337242,
       "title": "Правительство РФ утвердило план дальнейшего регулирования цифровых платформ - prospect.com.ru",
@@ -518,12 +511,18 @@
       "desc": "Яндекс Лицей научит новосибирских школьников создавать ИИ-агентов и программировать с нейросетями Новосибирский информационно-образовательный сайт",
       "source": "Новосибирский информационно-образовательный сайт",
       "region": "RUSSIA"
+    },
+    "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": {
+      "time": 1788423421,
+      "title": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption - openPR.com",
+      "desc": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption openPR.com",
+      "source": "openPR.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -540,6 +539,7 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ]
 }
