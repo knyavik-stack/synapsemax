@@ -74,9 +74,168 @@
     "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c": 1788444920.0279398,
     "73dcc427b9ee136b4ceb3b8e52abdca735dd2ab8f0cadc6d166c34acd38afb48": 1788444920.0279398,
     "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a": 1788444920.0279398,
-    "7159550ca68c9090ab06d9885c58c8f86f9d7fad9ee3e51f58ef390953bddb1f": 1788444920.0279398
+    "7159550ca68c9090ab06d9885c58c8f86f9d7fad9ee3e51f58ef390953bddb1f": 1788444920.0279398,
+    "432e252e30e5aedf73991d69572f2ee760abc7ddf25106f9f1e5494bf4ba0eb7": 1788446890.0145826,
+    "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe": 1788446890.0145826,
+    "702664fe09face13404ad552609f7142ff4db8329c49f1ee004a17bc643bc084": 1788446890.0145826,
+    "78a8b50454a758756f9fb9b69a26bf8341c4c72ae2179c96cc4a538b86d5cab8": 1788446890.0145826,
+    "c6a1817d588e2d3bef106d680bba633e9a5f38d4176338d8bd0b895dfea049d4": 1788446890.0145826,
+    "f33a87c3ac9705c6d5e085cccea2ead26c56796d6169b4596256bac37cda886f": 1788446890.0145826,
+    "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": 1788446890.0145826,
+    "1b49fadcbecaf407679d456725b73d4f15b97e2a9259246608f554599d9e5fff": 1788446890.0145826,
+    "6e748009b7ef111f07aa7b94f725617bb7add3e54bc6000588afd16479dd7fec": 1788446890.0145826,
+    "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee": 1788446890.0145826,
+    "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": 1788446890.0145826,
+    "d3d2dec45e3a009376f05683ff0172eff8219b11f90bdc4534121cb527da1a4c": 1788446890.0145826,
+    "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": 1788446890.0145826,
+    "12da18e71bcd8de9a25340906dcc64eb6bfd816010cc890bc2c8b456c2707dac": 1788446890.0145826,
+    "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": 1788446890.0145826,
+    "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3": 1788446890.0145826,
+    "a08785f4a1ee5a25363764b7fd65f1b0a51149630d69cad71327c6938b4f1ce4": 1788446890.0145826,
+    "dc5dcd99e5b575527aca7d8830be5f902915f885c1ce40cef3ed6f5426832467": 1788446890.0145826,
+    "141ce6140c2f18c7b4a91dfd3bd72356517457dd401ae5c5ca0400c01543bf96": 1788446890.0145826,
+    "ea5c184e7644a29eb0fa3f1e9f558bd7857f1eebb4a6b8514473d162318e0897": 1788446890.0145826
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "Meta Muse Spark 1.3 Launches with Better Coding, AI Agent Skills - Analytics Insight",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcnFRWV9TcGdMT1pkUVNMdEU5SmM3czFnYUUteGhaNHdQUnh6SUw3S3lmdmE4a3lTOTlCWmxPNHNmU1FXNHhacXJ2TUxTM2F2S2g5eU1XVUFaV05OSmZMU1dMb3h5Yl9BQkU5bFFNdzA3dFllTGQ5UE5SbjFCeWRCMW1ib0VLbnpVYVVjaUkzZXVhdTFDbUgzb3ZrbVoxTl9LSHfSAa8BQVVfeXFMTmFKWTdCd3BBeHZ0RW9DNkZQZlRXaWNCUjBock9KSjVENFVnNk1zRnZ4OEZrOGJ5aGkxRzd5NDZoUnBJcXpwekp5Mk1BelptTC1HaVY0RldlNF9EZ05uaUhpSnEtenY2T2VjcUdRbDRYYkJKdl9FemwtZzhhR2NYQUhlRnhqUkc4amc5clREQ1lJMWZnbHZSN0ZsU3ByTWtkLXFUY2dXMldiWlNkSWpWVQ?oc=5",
+      "desc": "Meta Muse Spark 1.3 Launches with Better Coding, AI Agent Skills Analytics Insight",
+      "source": "Analytics Insight",
+      "time": 1788443700.0,
+      "score": 76,
+      "key": "432e252e30e5aedf73991d69572f2ee760abc7ddf25106f9f1e5494bf4ba0eb7",
+      "importance": 76,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google eyes coding comeback with new Gemini 3.8 Flash model - varindia.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObzFfV2hVdDhIUHdsUVJwdk8xbmxtZHE4Q3Y1dkVFdWNjc1VTTW9WY0VIUmFrNE1seDZYdFJrVlBDbjFfUEJuMEc0Z1BtdGlYcGZ6dm84cnpNMTJSS0FHUWR2allRS200SjJXcV9oLXN2RUUwRFRGOHQxTFBvcFBmaldTNlpJM2NlbVVaSV9PdU5fMlE?oc=5",
+      "desc": "Google eyes coding comeback with new Gemini 3.8 Flash model varindia.com",
+      "source": "varindia.com",
+      "time": 1788436799.0,
+      "score": 69,
+      "key": "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google launches Gemini 3.8 Flash coding model, dodges AdX breakup - qz.com",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hZmhfeXZoenBOUDU5cUFMbGxrM1dfNHNPSVZCWldnWkg1Z0pOSGE4dUNldzVDdVVEUXZEdThxcE9pcWZsNmZoUkpDUV83UXk0VFJUa3U2blc2VGZmOVA3VFVQdXJtWjgwbnFqUFNEaXhlNWZmUFQ5TQ?oc=5",
+      "desc": "Google launches Gemini 3.8 Flash coding model, dodges AdX breakup qz.com",
+      "source": "qz.com",
+      "time": 1788435873.0,
+      "score": 69,
+      "key": "702664fe09face13404ad552609f7142ff4db8329c49f1ee004a17bc643bc084",
+      "importance": 69,
+      "editorial_value": 50,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Phenom Cloud Reshapes Leadership Team to Accelerate Enterprise AI Expansion - citybiz",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdHc0bVNCMWZoR1JsVlpKS0xDMHd2M2N4ZzFTaUZybFRlanZua3ByNDYxR08wc1FRdFg1bVZlVFlob2V0N2xkVWZ5ekJnSmZ0TlJ4MFZtM2YzY0U2NTRyUzA4SzkwcU5SR0Z3RmlhS2dfcTR5eG5Qa2ZNSGJITXpLX2NDS29NTVpVN2JvdnJBb1laYXduLWJjOUh3ZV80bFFWQzBvVmVob0pGMVpTOFl3LV9KLWw?oc=5",
+      "desc": "Phenom Cloud Reshapes Leadership Team to Accelerate Enterprise AI Expansion citybiz",
+      "source": "citybiz",
+      "time": 1788444900.0,
+      "score": 68,
+      "key": "78a8b50454a758756f9fb9b69a26bf8341c4c72ae2179c96cc4a538b86d5cab8",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Microsoft AI’s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed - VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVk9udVhTbVRfQ0tXc3FjWDlzYzNCTVlvT2x5cktIRjZzeFNCaHc3aDhHVW1sVmFmY0paSVFvNC1fdnQ3cERRQjRvdHkzZDVxWWF0aGxfVVZ4cm5qRTRTTnpkVVliLXdySjZpSXJ4ZFI4ZEhFakNzNnhCQjRfZlBDaHlaNlIxZlRlWEE3UEtnNmQzWm8xV0Z5OGF1b1BFSERZZU04amdMUjl6Y2hLQzQzSWpNLU1rUDdlakE5VUM5MThiRHBfT2c?oc=5",
+      "desc": "Microsoft AI’s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed VentureBeat",
+      "source": "VentureBeat",
+      "time": 1788444000.0,
+      "score": 68,
+      "key": "c6a1817d588e2d3bef106d680bba633e9a5f38d4176338d8bd0b895dfea049d4",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Henceforth Solutions Strengthens AI Software Development Capabilities for Businesses Adopting Intelligent Technology - Issuewire",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNOWRKU2FFM2ItaTA5Q085eEt2Q1lKdUFyQVB2YzJxT1pwNVM4OS1nemxhNGtETTExLTVGOVJFVlpYRWg3RTBMR3ZDOTdsVzVmU2RwTFZoanZLOU5jQnNzSFpkZXFmSnY0REpsT0NJUlFPMWFPR2VkU0M0RTdtT21pM05rcllhcTFlaXh4QXd5NUlGbWotVXEtRFhNVXdkdWZ6U3l3cmJkNjdCc082TE8tRG9XQ3lxcjFXOUNHMXN4VjkyYmxaMlphMVNOeHNiMFJVbnNHaFZrcmh0Z2k0X2J2ckdZTmw4Zy0xVFo1b1dLQ1M?oc=5",
+      "desc": "Henceforth Solutions Strengthens AI Software Development Capabilities for Businesses Adopting Intelligent Technology Issuewire",
+      "source": "Issuewire",
+      "time": 1788441517.0,
+      "score": 68,
+      "key": "f33a87c3ac9705c6d5e085cccea2ead26c56796d6169b4596256bac37cda886f",
+      "importance": 68,
+      "editorial_value": 50,
+      "topics": [
+        "business",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Meta, Google join the AI launch party - The Rundown AI",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1la0VUNG9KVFk3dG05ckdsWDVFWVJKN0lvYWFwNnh6a3lKM2czVjhtTXhsMkM4SU5GM2dsdlFFT096NldELUQ5OGs0UGU5U3Z2MkdSSWZXa1FFekxsbkJyMUlWNzJ0TE1Ka3JKbHdMODZQV0xwNVY5ZDJKVQ?oc=5",
+      "desc": "Meta, Google join the AI launch party The Rundown AI",
+      "source": "The Rundown AI",
+      "time": 1788436873.0,
+      "score": 66,
+      "key": "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a",
+      "importance": 66,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Integration migrations could shrink from months to weeks with Globant's new AI service. - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWUFlSl9iR0pqYV9sY2o4VUV0SkwxeXkyVHowc2RXaFhXQ242N2w0VjA5cGVldEhFTlhHWjdubjNUbzRQMHlyZkZoa05rMEpoMGFUMzdRZXJ6cHhKZkY4WGsyTHp5c1hQTjY4ZnNaMy15MWo2dXE2S0V3YnlHQVNZQXp3QTFQQy1rbnh3N1AzT204bWlIYXlWNEI2TDNVMnFuNDhpTUJvUW14UFIyWXY1dWR5Z2dqYVVSd0k4?oc=5",
+      "desc": "Integration migrations could shrink from months to weeks with Globant's new AI service. Stock Titan",
+      "source": "Stock Titan",
+      "time": 1788442446.0,
+      "score": 65,
+      "key": "1b49fadcbecaf407679d456725b73d4f15b97e2a9259246608f554599d9e5fff",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "How to Avoid Chaos When Implementing AI in an Enterprise - citybiz",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLURFZ09hNkk1N1ZXVzFOSmdocTRaQlp6M3RlVHY1TGt5WjhyaFRReDF4RklrWHpTUG5oYXc4bXBhM2xkSlZaYWNudi1KbFRhQmdKSkZxNHdRU0ltbUloTGRTSnBzcFRBbURKOGFHVWFiOWlpcF9ZVXVVa2ZsME43UGtwM01wcmlmaGNCVjdQUm0yX2tVaWRzRTdWUQ?oc=5",
+      "desc": "How to Avoid Chaos When Implementing AI in an Enterprise citybiz",
+      "source": "citybiz",
+      "time": 1788442281.0,
+      "score": 65,
+      "key": "6e748009b7ef111f07aa7b94f725617bb7add3e54bc6000588afd16479dd7fec",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "Better AI Infrastructure Stock: Nvidia vs. AMD - The Globe and Mail",
@@ -94,30 +253,14 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Nvidia doubles its sales, but investors have their eye on the future - Egypt Independent",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZlVuLVJ3VHNsRTYwN1ZNWkVjQVV0OHNGWXh0SkRvc1ZicDBNclJaSFB6TEdlellvcVhwckJuaTJqSXJFM0dhZmkxRUd2MHZIZldVbVVTb3pVU2xIa3RKc3Q1ZUJqVXhQQUl5Sk5LcnptNjV6cnpIZ29mVm5DRzMxQTZyQjBtU18ydVQzRXBKNU1UamtXd0pxeVVXU2dYbnVJU3B3?oc=5",
-      "desc": "Nvidia doubles its sales, but investors have their eye on the future Egypt Independent",
-      "source": "Egypt Independent",
-      "time": 1788441525.0,
+      "region": "RUSSIA",
+      "title": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России - gosrf.ru",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaXlHNC1lSXBvU2ZPTjhLWHZhSERlTFBMei16R24xZG9tdDJWWVh6ZGZiNUNxUWx5OVRyVVF2bzFpSEJxdV9uekFobEdKVUE1X2Q2Y2NCN3ZORzlMeTgyczJrLU5UamhTYThTS0FRQ1lYR3Fad0c5TnJON0tuOGpYcHRwOUFpTDUyYmtfd1p0T2hxSzBHWUdtVVd5Ni1UZw?oc=5",
+      "desc": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России gosrf.ru",
+      "source": "gosrf.ru",
+      "time": 1788435368.0,
       "score": 65,
-      "key": "69fd40bfb462d1a44472cccef871c8fc850815d77f6abd5f3c7368f4a52a4272",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "PlusAI to Go Public Through SPAC Merger With Texas Ventures III - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWTVyMkJSVi1SWW41ZkhjX0lIc1VGeUsyeU1DXzg1SlJrSWZ0ZTZMVVFXVzZGZGVyOTRhU2YyYndKeFJGQ1R0RktwVU0zS0dpY2w2V2JtbXVTMmZXSVJieUtrU3ZOenYxaGhMUVBHblJzbkpQQkFNVTRwd3lMdHoxaWYzaTFJaUM3Mjl5MTdB?oc=5",
-      "desc": "PlusAI to Go Public Through SPAC Merger With Texas Ventures III Unite.AI",
-      "source": "Unite.AI",
-      "time": 1788440281.0,
-      "score": 65,
-      "key": "e39fcb9ef3fc809f9ed49077811973f9646ac447cbb5bc7ac20cbc7636a016ce",
+      "key": "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee",
       "importance": 65,
       "editorial_value": 50,
       "topics": [],
@@ -158,17 +301,49 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "3 Reasons Why Anthropic IPO Could Be Huge: ETFs in Focus - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX1JacDFWVlktazYyR0g2NFNLcjV0Q3dQbVhjNVIxRElPZnN3ZDh6RjMyWURhaTBES1NEUUxXcDVYeUhpTUNuMlV6dEpPQjNUUTVIX2gzb0p1TWwxb2JuVGlvRm9QbFJlaFJsY1kxNzBndTZXaThpNmJZUDVhcS0wazlnVlc1UVAwZk95TWZGTFVaaHVicjE2VzNWTG9lY2R0LTVmYVBFRUpEMVozTFFRbg?oc=5",
-      "desc": "3 Reasons Why Anthropic IPO Could Be Huge: ETFs in Focus TradingView",
-      "source": "TradingView",
-      "time": 1788436800.0,
+      "region": "RUSSIA",
+      "title": "$4 на компанию. Вымогатели нашли способ масштабировать взлом с помощью ИИ - SecurityLab.ru",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HV0tLV2p4MlZnR3pDLUNrbFhvTm0xN2F1LUNIbUJDMDBvVkZOMUxJVkNmUzZrRS03OWdrNmVZaF9iT1FHMnlmRExqYUtsMHVQVW42RQ?oc=5",
+      "desc": "$4 на компанию. Вымогатели нашли способ масштабировать взлом с помощью ИИ SecurityLab.ru",
+      "source": "SecurityLab.ru",
+      "time": 1788431786.0,
+      "score": 63,
+      "key": "d3d2dec45e3a009376f05683ff0172eff8219b11f90bdc4534121cb527da1a4c",
+      "importance": 63,
+      "editorial_value": 50,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года - itweek.ru",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwakFFbGJTaHF1aVo4cUJ5cXdMRnNDN0ZhZWdBaEZaeGpUbkZRdkp5RGs2TUNBWGFycXpQRFF1ck5sY0xhSExReHRjaTdoS2I0c2pDZ1BnOHE4cTU0NkE?oc=5",
+      "desc": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года itweek.ru",
+      "source": "itweek.ru",
+      "time": 1788440349.0,
       "score": 62,
-      "key": "865a02468aaef68bcaaba2fe5e0c96d39d7655a2d562cb57e52578b934563bf8",
+      "key": "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948",
       "importance": 62,
       "editorial_value": 50,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdnpqamp3SmNZMHVlb1o3TUVuLUlFUVRGc181Mkp4UDNzQlpSUDgxMzF0Z1BhNHFjaGV2eW9nYU9mb0RUd3IzWkxLOUZlNTlaaGVfeFVNY2ZhcVM3eFlpTzFtLUN6Y0hDcnNWTmpSQS0xeDVxRzJqMWVEcktYMERlLXVMTEpYX3psTm05TkdMWmNBeUNySzYwOEh5NHdDSE50anJGczE4SkRlbFR3Um5tcy12ZTlGTHlUbG5OUE5xMXk?oc=5",
+      "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788435631.0,
+      "score": 62,
+      "key": "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "chips"
+      ],
       "tier": "A"
     },
     {
@@ -201,6 +376,22 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Александр Ведяхин: создать ИИ-агента сейчас может каждый - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2xOU3lpN1J1YzI3WkM3bzFKMjdvZU4wUWE0dzZMYTg4OWRKRmNydHhTQkpITUtFb1QtWEhHQUdGc3l3WTlxYXl0Z3BDNkpreVZLaTlxclFTUDJhSXVqWFFzMU9Fa2EyMmNPM2tGSWxDb1pMa1BsNWFONkZMaHpqQ19ZSzgxM3pxNXk4d29aRDBWdVZFbU5tT2RMejh2Zw?oc=5",
+      "desc": "Александр Ведяхин: создать ИИ-агента сейчас может каждый prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788434441.0,
+      "score": 62,
+      "key": "23a4c2aa71da6955bb9ff5c3ef2eafd6275160a0cbd53d18a057d35d936903b3",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья - rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52ZnVnc3RxZHNaWnkwX2YzUFEzdG5ic1RpbVd5dDBSVmgybE5uUW9hMEdFMFN2ZHpOOGYxc05ORzJQSmRzU3R6UWdnSHk0VTNxQ25vMUtBSlFnbmtaRHYxd2VaYkJPYzJuMk5hakR0cm1MZGdN0gF0QVVfeXFMTnZmdWdzdHFkc1paeTBfZjNQUTN0bmJzVGltV3l0MFJWaDJsTm5Rb2EwR0UwU3Zkek44ZjFzTk5HMlBKZHNTdHpRZ2dIeTRVM3FDbm8xS0FKUWdua1pEdjF3ZVpiQk9jMm4yTmFqRHRybUxkZ00?oc=5",
       "desc": "К 2030 году искусственный интеллект трансформирует рынок труда Прикамья rbc.ru",
@@ -212,81 +403,17 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "CEO Nvidia призвал G20 не регулировать «теоретические угрозы» ИИ - Incrussia",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUWY2bUxPbzZYOTBEQVllZWYzZmI2Q0lEdjhySzVKS0tRMVJ2cnJXUDZVSXU2SFB1TV80SVhOSlRoelpLckFsRkxPWkpZajlKTXBTNEtQWXk2ekRWUHVHSDNpTktHd1U4X0ZCRkJ4QkswZkV4UFNUZFRNZEdEa3liSEgybnpZM2MyTkRVcVVlU1FWeGc?oc=5",
-      "desc": "CEO Nvidia призвал G20 не регулировать «теоретические угрозы» ИИ Incrussia",
-      "source": "Incrussia",
-      "time": 1788429223.0,
-      "score": 62,
-      "key": "cdb16fd3382b806f84fc60747b5b659de6d31186321cc4208e452883e5c69831",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [
-        "chips",
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaXNpWFFrNmlZSDM0VkxMZVFIQ3BYZW5LUWRJMkNrcjhxaGE4RjZBZXROeEFBSExYWkJfdFZDOWs2TlctSGtEWGJ6TlpqOWlOcmVQOTY3N3pjMHpESDE5MHhoSHhrX0dFOThhd05iRzVYb0ZXZDdybFBLZm5IY1ZxWFVqMTVwUy1naWZpOEtRejdNbHNEMzNDRjZjdGlHZm5fNEdrV9IBe0FVX3lxTFBDM0g3MWRaemlTcWJIb0d6d1BjNWd0ZHVtVmlkai1pVHlqejl0X0ZUVlJjTnJIeGZ3aFBMZnR1MTE5Q3lsanU1ZkZLMXk4VWRzWjRnUVZSWGtCTW02TXBLdUplNENXZnBOQTNQYjJ5elVEYTBJaFhiM2pJdw?oc=5",
-      "desc": "Почему ИИ-агент в Битрикс24 выдает правдоподобную ошибки companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788426004.0,
-      "score": 62,
-      "key": "251ddb5f9934f69697caca155afce0f134d2a34fdd4b4e0bce121f5d7848bbe3",
-      "importance": 62,
-      "editorial_value": 50,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin - ET Datacenters",
-      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNaFRnZWxjVGRVdUZJZnFrc3dOeEJDMF9RbVV1Vl9yNGJOMUw2WV9PRnR2VG9WUVF6dTNMQW5mYllHLTUycENORk04bU5XR3h2M1JtMjdVNGJGZEt4TURHLWFHeVRDSExEandtSUNQNnBZNkNsb3ZrMGt1bVJFRXBncktadVVsS1F1Q2V3UXpyOHFWa1BfdTJDZGxxMmY1Rno3MGxwdnNlTjdlRkJNWUk2d3otYm51SkZ3cDNkQWxHX2lOVGktS0JfMzREWjJTcWprVmZ1M2xQcTVvTnoyVEN6bWxaNWhDSG9IVTZtbVgwTWxEOEwwLTVlRkQzeGxWbGNSRzYxN2xyZl9jc3gwT3E4bF8ycGJFLThscTIxX0dqSFVmNGFwREpacEUxci1Cc1FoOHcwV1kyMm1sMTRG0gGLAkFVX3lxTE9fSU1zZDNIUzVqMXR6WDVERG9LUzFkX0FtXzdOT2xKUFJmT3VmdnJ1Y3VvdUNfSGVyQUJHcndGZ3lfbjQxQ2ZpbUwzY0VmQ1dOblkwcGpUSEJ4S3hoUjFScE1NMXRzR1F0WEhzWkJPUmtkSHJMbGdaRjhpRF9zSmhZNlZtWWRXWTREb2Rvak44aVduTElqMEFVSGJSVjROcF9wZGF6ZVhKQkNjRDl3LW5lbmV6N2dIRkpmbVRBT3JjRFhOM1U3dFBwZDhfUENuNGZheXZyY1JSemZDbk51OUFFLXlWemNGNUdwNy1QOTE4VGdJR3hpaGZpczVnMi1CdHRSbUw2NzZKOHIybw?oc=5",
-      "desc": "Token prices fall by 80% to date in 2026 as AI adoption widens: Dell’s Richard McLaughlin ET Datacenters",
-      "source": "ET Datacenters",
-      "time": 1788428985.0,
-      "score": 61,
-      "key": "2516d462c86b6acbfde1ae8d4925ef3504692c68b02702cd5000ea2a1556f39a",
-      "importance": 61,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace - IT Voice Media Pvt. Ltd.",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUWJBNjVUc2VZNllvekx5Z2d0LTd3cTZ5OHFpU2xNMlNRTjBDNjIwR25ySjNTU3ZwQllnRXc4M3IxTDZDUFdvU2FnOVNKM3hLYkZjRVNyRTRhME9WU3RRTzJnNlN5eXU4MjJZZ0dRSG9GdDBtTjFpSVA1bmZwc0Z4MFRvbldXNlE5RllOcXphMUp2ZVdkN0V6enZOR0NiUQ?oc=5",
-      "desc": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace IT Voice Media Pvt. Ltd.",
-      "source": "IT Voice Media Pvt. Ltd.",
-      "time": 1788427431.0,
-      "score": 61,
-      "key": "1ad3aa9c554a4439afe526260057e971ef1def3e64d83a6701af0e21a1dce572",
-      "importance": 61,
-      "editorial_value": 50,
-      "topics": [
-        "models",
-        "tools"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788446711.1050696,
+    "last_start_ts": 1788446890.0145826,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788446711.1050696,
-    "last_success_ts": 1788446711.1050696,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 13
+    "last_run_ts": 1788446890.0145826,
+    "last_success_ts": 1788446890.0145826,
+    "last_candidates": 24,
+    "last_published": 0,
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -483,6 +610,6 @@
     "RUSSIA",
     "WORLD"
   ],
-  "last_search_ts": 1788444920.0279398,
+  "last_search_ts": 1788446890.0145826,
   "last_publish_ts": 1788446711.1050696
 }
