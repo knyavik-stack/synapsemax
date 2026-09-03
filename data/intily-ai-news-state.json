@@ -182,10 +182,10 @@
     "29e1cc8446e0a9b7c4d453899cb9dcf8e08454364cbe968acdfb0bf9901780f5": 1788434885,
     "d43827e6bfdc3489cdb040d153679222e78dbfabb6222213879dcab8c4cd83f9": 1788435074,
     "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788435423,
-    "1da7e81719e6bc1fd6e0423bb106557a94691a084354daa010d9fd76fcbeaacc": 1788435611
+    "1da7e81719e6bc1fd6e0423bb106557a94691a084354daa010d9fd76fcbeaacc": 1788435611,
+    "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": 1788435963
   },
   "known": {
-    "5061897b1e7c0d46b29aac642e35bfed73ee34a6527e9f81ec6c7508430a9996": 1788414284.6313908,
     "49720f0401fa8854b990df4463930ca6a2d9ab9ba847839c1d03c91c88ce971b": 1788414943.5554037,
     "a668faf2e144c7e23ea2c786da6c1774d2560bfdf4a4e506d0ec1cf252749a0e": 1788419504.3927188,
     "55a2979a3ceca2bf0e1cec94a2c9c979ce68751a0b5318d93096657301767480": 1788420824.936559,
@@ -288,22 +288,6 @@
     "f23f9d94a842c94290b0ab8f8175051771e3ddc8fbeba30743dd193a1cdc6fe6": 1788435785.18048
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdnpqamp3SmNZMHVlb1o3TUVuLUlFUVRGc181Mkp4UDNzQlpSUDgxMzF0Z1BhNHFjaGV2eW9nYU9mb0RUd3IzWkxLOUZlNTlaaGVfeFVNY2ZhcVM3eFlpTzFtLUN6Y0hDcnNWTmpSQS0xeDVxRzJqMWVEcktYMERlLXVMTEpYX3psTm05TkdMWmNBeUNySzYwOEh5NHdDSE50anJGczE4SkRlbFR3Um5tcy12ZTlGTHlUbG5OUE5xMXk?oc=5",
-      "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788435677.0,
-      "score": 69,
-      "key": "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f",
-      "importance": 69,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок - Московская газета",
@@ -600,21 +584,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788435785.18048,
+    "last_start_ts": 1788435963.5129826,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788435785.18048,
+    "last_success_ts": 1788435963.5129826,
     "consecutive_failures": 1,
-    "queue_size": 20,
-    "last_candidates": 59,
-    "last_published": 0,
-    "last_run_ts": 1788435785.18048
+    "queue_size": 19,
+    "last_candidates": 0,
+    "last_published": 1,
+    "last_run_ts": 1788435963.5129826
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788435619.8982053
+      "updated_at": 1788435965.5123527
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -628,13 +612,6 @@
     }
   },
   "stories": {
-    "784c9584450483bad44533b8d571fcceae77e85b7f92c9edb77270e45252c8c7": {
-      "time": 1788349516,
-      "title": "OpenClaw ÃÂ¾ÃÂ±ÃÂ½ÃÂ¾ÃÂ²ÃÂ¸ÃÂ»ÃÂ¸: ÃÂÃÂ-ÃÂ°ÃÂ³ÃÂµÃÂ½ÃÂ ÃÂÃÂÃÂ°ÃÂ» ÃÂ¿ÃÂÃÂ¾ÃÂÃÂµ ÃÂ² ÃÂÃÂÃÂÃÂ°ÃÂ½ÃÂ¾ÃÂ²ÃÂºÃÂµ ÃÂ¸ ÃÂ¿ÃÂ¾ÃÂ»ÃÂÃÂÃÂ¸ÃÂ» ÃÂÃÂµÃÂ¶ÃÂ¸ÃÂ¼ ÃÂÃÂ¾ÃÂ²ÃÂ¼ÃÂµÃÂÃÂÃÂ½ÃÂ¾ÃÂ¹ ÃÂÃÂ°ÃÂ±ÃÂ¾ÃÂÃÂ - knews.kg",
-      "desc": "OpenClaw ÃÂ¾ÃÂ±ÃÂ½ÃÂ¾ÃÂ²ÃÂ¸ÃÂ»ÃÂ¸: ÃÂÃÂ-ÃÂ°ÃÂ³ÃÂµÃÂ½ÃÂ ÃÂÃÂÃÂ°ÃÂ» ÃÂ¿ÃÂÃÂ¾ÃÂÃÂµ ÃÂ² ÃÂÃÂÃÂÃÂ°ÃÂ½ÃÂ¾ÃÂ²ÃÂºÃÂµ ÃÂ¸ ÃÂ¿ÃÂ¾ÃÂ»ÃÂÃÂÃÂ¸ÃÂ» ÃÂÃÂµÃÂ¶ÃÂ¸ÃÂ¼ ÃÂÃÂ¾ÃÂ²ÃÂ¼ÃÂµÃÂÃÂÃÂ½ÃÂ¾ÃÂ¹ ÃÂÃÂ°ÃÂ±ÃÂ¾ÃÂÃÂ knews.kg",
-      "source": "knews.kg",
-      "region": "RUSSIA"
-    },
     "405033cf4fa330930866e4ddf8eefa12af56201cfb40c26a7c4edce607736293": {
       "time": 1788353346,
       "title": "NVIDIA ÃÂ¸ÃÂÃÂ¿ÃÂÃÂÃÂ°ÃÂ»ÃÂ° ÃÂÃÂ¸ÃÂÃÂÃÂµÃÂ¼ÃÂ, ÃÂ³ÃÂ´ÃÂµ ÃÂÃÂ-ÃÂ°ÃÂ³ÃÂµÃÂ½ÃÂÃÂ ÃÂÃÂ°ÃÂ¼ÃÂ¸ ÃÂ°ÃÂÃÂ°ÃÂºÃÂÃÂÃÂ ÃÂ¸ ÃÂ·ÃÂ°ÃÂÃÂ¸ÃÂÃÂ°ÃÂÃÂÃÂÃÂ ÃÂ¾ÃÂ´ÃÂ½ÃÂ¾ÃÂ²ÃÂÃÂµÃÂ¼ÃÂµÃÂ½ÃÂ½ÃÂ¾ - ÃÂÃÂ¾ÃÂ¼ÃÂ¿ÃÂÃÂÃÂÃÂµÃÂÃÂÃÂ°",
@@ -977,10 +954,16 @@
       "desc": "Adobe Acquires Bengaluru AI Startup Rilo to Expand Agentic Marketing Workflows cxodigitalpulse.com",
       "source": "cxodigitalpulse.com",
       "region": "WORLD"
+    },
+    "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": {
+      "time": 1788435963,
+      "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
+      "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -999,8 +982,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788435785.18048,
-  "last_publish_ts": 1788435611.751501
+  "last_publish_ts": 1788435963.5129826
 }
