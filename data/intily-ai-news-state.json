@@ -35,7 +35,8 @@
     "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": 1788449952,
     "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": 1788450319,
     "f191a9d3a2d714da447ddc5841afdc646df222636affa0f63d8623899aca9b89": 1788450670,
-    "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450851
+    "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": 1788450851,
+    "ff56ca85428e7e5ad63b9cf26d58918bd9e0ca775fe53e00c7c8958c552373e9": 1788451032
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -141,23 +142,6 @@
     "e8e5136b9882542357b5954c67200bffa6ee7bbc04e8645335c90663af0507a4": 1788450498.829142
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Nvidia Agrees to Buy AI Platform Hugging Face for $13 Billion - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVjY5cThVdThiY190NHZEOExnc3hpX1ZZRWthY1hCanVMOGtYOHFjTXp5c254MkpKa19IcUdZR2c3LVFQRS1jTzRvRjhaTHVmRG9KYkJON3BxbWNkdlZqYnVrejBBb0FNeHNsWXVra0RTb1Nua05DVUtRVS1oQWxITE1XNTd0bENlcWtFdG93?oc=5",
-      "desc": "Nvidia Agrees to Buy AI Platform Hugging Face for $13 Billion WSJ",
-      "source": "WSJ",
-      "time": 1788448200.0,
-      "score": 72,
-      "key": "ff56ca85428e7e5ad63b9cf26d58918bd9e0ca775fe53e00c7c8958c552373e9",
-      "importance": 72,
-      "editorial_value": 50,
-      "topics": [
-        "chips",
-        "tools"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella - TechCrunch",
@@ -426,20 +410,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788450851.589304,
+    "last_start_ts": 1788451032.019889,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788450851.589304,
-    "last_success_ts": 1788450851.589304,
+    "last_run_ts": 1788451032.019889,
+    "last_success_ts": 1788451032.019889,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 18
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788450854.713837
+      "updated_at": 1788451036.1094244
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -704,10 +688,16 @@
       "desc": "Разработчикам ИИ в России дадут миллиардные льготы Инвест-Форсайт",
       "source": "Инвест-Форсайт",
       "region": "RUSSIA"
+    },
+    "ff56ca85428e7e5ad63b9cf26d58918bd9e0ca775fe53e00c7c8958c552373e9": {
+      "time": 1788451032,
+      "title": "Nvidia Agrees to Buy AI Platform Hugging Face for $13 Billion - WSJ",
+      "desc": "Nvidia Agrees to Buy AI Platform Hugging Face for $13 Billion WSJ",
+      "source": "WSJ",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -726,8 +716,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788450498.829142,
-  "last_publish_ts": 1788450851.589304
+  "last_publish_ts": 1788451032.019889
 }
