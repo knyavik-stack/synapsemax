@@ -362,20 +362,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "2026 Inclusion Conference on the Bund to Focus on Building the AI Economy Together - Digital Journal",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ1pyLU42b3gycmhvbWJ1MjNSOUlPV01YVEkwNXdLQ2xqNVNIS3B0czBWVW5IcTNkR19rbmJkaDNERTNDT1VvWGxKSjh3YzBSV0pTeUxXVjRjNjVfajRQQlJOMVRlS3hZUE5GZ3J5Y25rQlB6SVRNVzhncWc2OFUxSi1adGZSVE5KWTR0RTY2OEl0RUFUcFVRSm5GV3diWkhDMkowU0pYWTA2dEU?oc=5",
-      "desc": "2026 Inclusion Conference on the Bund to Focus on Building the AI Economy Together Digital Journal",
-      "source": "Digital Journal",
-      "time": 1788462728.0,
-      "score": 63.5,
-      "key": "cfad65bc65476207929c84684e369d9b0a7091e4df39eeb2ca1185853c91c983",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование - Digital Russia",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmV1b2haRFJEaGRlM3dLMU9rWDVGdHo0UUE4SS1ZZnhCdVBoYk1ib0ZhTjFhNkJYeEh4MUF3dDVUMVd6OWZiZXBXVGlSRnNfTlpseFJrbl9rbFNTTzluX0xZakY5bnFBakttbXNKQWxVUGtwbjYyNGtsTUJJN1pRN1NPdHhWSEZyN1VsUGhPQVp6cVpwV3dvOWFOTHI2azhZbHV3cXFkVE5rVGdhdVdtcmt5NA?oc=5",
@@ -464,14 +450,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788473454.4012637,
+    "last_start_ts": 1788473574.3553138,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788473454.4012637,
-    "last_success_ts": 1788473454.4012637,
+    "last_run_ts": 1788473574.3553138,
+    "last_success_ts": 1788473574.3553138,
     "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 12
+    "last_published": 0,
+    "queue_size": 11
   },
   "providers": {
     "GEMINI": {
