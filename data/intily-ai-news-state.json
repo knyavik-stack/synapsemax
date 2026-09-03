@@ -177,7 +177,8 @@
     "266a7254c238ffe4ac8d1437aed05810c0ddd101e1a00dfce13494909fea7b22": 1788433442,
     "b2b3234e57aba31dd69b8edbb0bfee2bb48e936e47821dbb775d4b9469eff0a9": 1788433623,
     "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": 1788433984,
-    "7bea9a5514b78ebe430421831570b20a5ad917df5748be5e7fd6d62aeb28c57e": 1788434166
+    "7bea9a5514b78ebe430421831570b20a5ad917df5748be5e7fd6d62aeb28c57e": 1788434166,
+    "9dd1caf4e9029625d995d276eb5d69b13c790503381ada26e13e5d75f26979df": 1788434526
   },
   "known": {
     "5061897b1e7c0d46b29aac642e35bfed73ee34a6527e9f81ec6c7508430a9996": 1788414284.6313908,
@@ -369,24 +370,6 @@
     },
     {
       "region": "WORLD",
-      "title": "What is OpenAI's Direct Competitor to Anthropic's Mythos? - AI Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSDJCZzRGMG9IcUpueDRzMC1SVWpjQm9iVzNiTU9VTWRCMk9OOXhpc2tuYkpEVldVTHU3MUZ5ZmszZ280ZVhCekc0cXZOeURKeHlRU3JQa0p5THFkQUtMWjRTU3hrYXhFR0NvQ3lXeWlVWFphbmlQQU9UYUMwanY4U0RxOFhRSzNNdWc?oc=5",
-      "desc": "What is OpenAI's Direct Competitor to Anthropic's Mythos? AI Magazine",
-      "source": "AI Magazine",
-      "time": 1788429851.0,
-      "score": 65,
-      "key": "9dd1caf4e9029625d995d276eb5d69b13c790503381ada26e13e5d75f26979df",
-      "importance": 65,
-      "editorial_value": 50,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788431270,
-      "last_failure": "RU_QA_RUSSIAN_LANGUAGE",
-      "failure_count": 1,
-      "next_retry_at": 1788431570
-    },
-    {
-      "region": "WORLD",
       "title": "Should Kids Use AI? A Debate. Plus. . . - The Free Press",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLalRuV0g3SE1fNFJTcC1tci13MmN3NFBwb1l4NWpIWFY5Ul9pQ29rV0QwTzkzT21iVXBXLUN6dExPc0hsZXZ5akxBa1RoS1BUajV0dU5RSEc0UElnUFFr?oc=5",
       "desc": "Should Kids Use AI? A Debate. Plus. . . The Free Press",
@@ -543,21 +526,21 @@
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788434344.3737876,
+    "last_start_ts": 1788434526.2489924,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788434344.3737876,
+    "last_success_ts": 1788434526.2489924,
     "consecutive_failures": 1,
-    "queue_size": 18,
+    "queue_size": 17,
     "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788434344.3737876
+    "last_published": 1,
+    "last_run_ts": 1788434526.2489924
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788434169.3303752
+      "updated_at": 1788434529.2571692
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -885,12 +868,18 @@
       "desc": "В СФ выступили за налоговые льготы для разработчиков ИИ-моделей The World Inform",
       "source": "The World Inform",
       "region": "RUSSIA"
+    },
+    "9dd1caf4e9029625d995d276eb5d69b13c790503381ada26e13e5d75f26979df": {
+      "time": 1788434526,
+      "title": "What is OpenAI's Direct Competitor to Anthropic's Mythos? - AI Magazine",
+      "desc": "What is OpenAI's Direct Competitor to Anthropic's Mythos? AI Magazine",
+      "source": "AI Magazine",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -907,8 +896,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788433984.9634469,
-  "last_publish_ts": 1788434166.5288503
+  "last_publish_ts": 1788434526.2489924
 }
