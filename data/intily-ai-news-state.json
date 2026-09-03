@@ -224,14 +224,14 @@
       "next_retry_at": 1788435063
     }
   ],
-  "last_run": "2026-09-03T10:15:15.608069+00:00",
-  "last_published": 1,
+  "last_run": "2026-09-03T10:17:10.860693+00:00",
+  "last_published": 0,
   "health": {
-    "last_start_ts": 1788430502.943171,
-    "last_status": "OK",
-    "last_error": "",
+    "last_start_ts": 1788430622.2428622,
+    "last_status": "FAILED_NO_PUBLISH",
+    "last_error": "candidates exist but Telegram received zero posts",
     "last_success_ts": 1788430502.943171,
-    "consecutive_failures": 0
+    "consecutive_failures": 1
   },
   "providers": {
     "GEMINI": {
@@ -251,13 +251,6 @@
     }
   },
   "stories": {
-    "1a37a02ca2336aaa9f4717438130bdf2c3973655ad18e902733aa7b5825eb714": {
-      "time": 1788344146,
-      "title": "Did OpenAI’s rogue agents form a ‘civilization’? The AI industry can’t agree - NBC News",
-      "desc": "Did OpenAI’s rogue agents form a ‘civilization’? The AI industry can’t agree NBC News",
-      "source": "NBC News",
-      "region": "WORLD"
-    },
     "635a00c793157d9b9ceea95e57d2f997ad73b74a139b63497d21fee95c9b37e4": {
       "time": 1788345043,
       "title": "Ex-Googler’s Guickly Launches With $4.2M to Evaluate AI’s ROI - citybiz",
