@@ -113,7 +113,8 @@
     "9f83e7c62a3530784b733e15f099461713c865711386a83123eccd90f2974859": 1788473213,
     "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def": 1788473454,
     "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76": 1788473754,
-    "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": 1788474053
+    "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": 1788474053,
+    "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": 1788475135
   },
   "known": {
     "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": 1788453558.9492462,
@@ -273,9 +274,56 @@
     "cfad65bc65476207929c84684e369d9b0a7091e4df39eeb2ca1185853c91c983": 1788472733.8932097,
     "2d550f4e4757d96141ac5c9ad6cb928d266efcd075e09234a791bac31625fe73": 1788472733.8932097,
     "3492f4f5bf7c457a17e789224dcdd96ca1dee0cb5c3206f1035f8483578265a9": 1788472733.8932097,
-    "ba7bb36329f3bce5bac16ce25b7836d49c12519749418cf8c9f492ac964384b4": 1788472733.8932097
+    "ba7bb36329f3bce5bac16ce25b7836d49c12519749418cf8c9f492ac964384b4": 1788472733.8932097,
+    "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788475135.0999737,
+    "3185d6116d8f9f55b2efbb78040155e0939073654fcc845233be2cd7286adbe0": 1788475135.0999737,
+    "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": 1788475135.0999737,
+    "ccca6722a04ae192bfb2655695aed31d03ee02d4f09a3d9b153e8e3639000ab7": 1788475135.0999737,
+    "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": 1788475135.0999737,
+    "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe": 1788475135.0999737,
+    "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b": 1788475135.0999737,
+    "073837b040a96ddedcdb211ef92accd7f05eda357a64dd5514228c33818406e4": 1788475135.0999737,
+    "ceabecdb3b4324a0f5e9cc75fa51de0a653afce047944b7d9c92b8e65943f0bd": 1788475135.0999737,
+    "1f48f3f2e33577a983748faa7001b0a06814a2e95a60f2317476d28ad0a5d491": 1788475135.0999737
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты - Overclockers.ru",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWnh5N3VXdGlYaEMydkFReGdFaHZvV0pTTHJiVWZwX3Y0c2ZSRzRWVzdEbFdSR3hHOHpKWHRGbzhQZXpPLVByMHNUREkxVlF5dHZyaGxGRmkxTFRWS0hCd0RhZEwySU1kMkJMQl9zOEZ5cUZUWUlZYjA1YWtmc19xcGotT1VHUmh1cEhwUTZPRHJHdHd6eWZUaVIweHBpaGxQV2hueXhfbEtTRmltWk5kZUdIQUpvMUZQTE1DWmJEWHdCSzdYZ0HSAcQBQVVfeXFMT1E3YW8wajhWQzltMUhpaEtPUkpoM2ZERHhLY205WEY4LW0tLU5rWXlrYjlDRkpBOTdhYXFKWTJuaFBiNjNpU1RuR3gtOTlFc1JGZnRFdkk4SlZLYVRHc0tGLVdXcFRkTHIxYkZyVTA0MC1nTUdJSENWNTJNNzd2X1d5UWVNd0YwWnkxUnFFNFpHbVFmTHR5SjFBelJSdXZUcmNQUDAtMjF2RkxwTE1nTnEyY1VxVEtlWEttYUZzRGgtM2FYLQ?oc=5",
+      "desc": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты Overclockers.ru",
+      "source": "Overclockers.ru",
+      "time": 1788472320.0,
+      "score": 79.2,
+      "russia_weight_bonus": 3.7,
+      "key": "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d",
+      "importance": 79.2,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Tenable Uses OpenAI GPT Cyber Models to Help Defenders Inspect Community-Built AI Components - manilatimes.net",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdU1Wb1VMMFpRbEtnVC0wUWlURjF6TzIwdWxiMUlzSkY3WnJLQUZFVGdmeGQ4b2Rkb0NYWTRFM2lEblhxVkkwZ185VUR4eXFYRWwycFNQNnJ2YzJZOUVtNkZlMFVtYWg2aUotRndSWFc3RFlZc0tubG5zYmZCUkczb1Y0a2Zmd3E3elBNSnJ3aE9VTmhoXzV1cy1pUThMcUxtTl9Hd3BPd21pdVlwZDdyNmZvNkloc2t3OWgydzNnaWd6akprMTV2NU1kQVc4VHJrbWIxRElocVJZR1QySGtfemFrMFBtWUVMV1VoTnc5eUtSUWhnMFJTRWRR0gH_AUFVX3lxTFBiRHd1WWczNHA1Rm13cm5DLUtpTmpSb0l0Q1pqOFpiWXFjSXpuQkp2X0FFV1FOd2tQZGRPN0RmcVp2UEJ3T0tIM01BRkg4NDIxcFVyQmd5b3ZybVBpWFlyOUwxanRxcWRtdnVjdUhlaWUxUVltR1pLSk5rc3NiLWg2cUF1YVduVmtjekVwRDVuVXdMQXJ6VFM4c2t1TzdTeU11M3hyLXE1RzNOcXJDNndGXzNaNUFnZ1VldV9ZWVpIaGwtTno5N1JSblpHSmw2LVJDSlp6aFdUa2xfQ242dWg5S2FLWk0tVkxiU2FYM191dUc2WldYTFpNMnBmcTlWMA?oc=5",
+      "desc": "Tenable Uses OpenAI GPT Cyber Models to Help Defenders Inspect Community-Built AI Components manilatimes.net",
+      "source": "manilatimes.net",
+      "time": 1788473219.0,
+      "score": 70.5,
+      "key": "3185d6116d8f9f55b2efbb78040155e0939073654fcc845233be2cd7286adbe0",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788475135,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788475435
+    },
     {
       "region": "RUSSIA",
       "title": "Новый ИИ от OpenAI может взламывать военные системы - Дзеркало тижня",
@@ -287,6 +335,68 @@
       "russia_weight_bonus": 4.0,
       "key": "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5",
       "importance": 68.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic develops framework allowing AI agents to control physical equipment - The Daily Star",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZUJPX0hoNE9KYjBXWG5SRDVoUGZyd2lCNHNQNVNfY1dsNXhCYTRuNnY4cEtpV3ZOU21iNkZycDJ0ZTRXVFVJaDF3bEhIc0VqTlk1U01SaXplN1MwbmZYVm02UkVVNlhoelFnTVYxVlcwRVhrbzQ2NEpYckQzOFpIcUozU2VfNXpNc2hOUkNSbjhMZFRsTUNqR193WE02b2dQSGJtWjRPUVpRdmpZdGJMXzhSZXA1SGVhOExRLTJNMFBkMlJsYTFfUW5kVks?oc=5",
+      "desc": "Anthropic develops framework allowing AI agents to control physical equipment The Daily Star",
+      "source": "The Daily Star",
+      "time": 1788469398.0,
+      "score": 67.5,
+      "key": "ccca6722a04ae192bfb2655695aed31d03ee02d4f09a3d9b153e8e3639000ab7",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight - TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMEFkYzNaU2R3RUE5Z2ppMUZZZHhwTjduc091V3dJN1BjeC1Qb2ViNmZBWHhOYjVaR0JsYm15SThFV1RzZklNV0t3M1kzVWxuQkFHWWJZOWd4b2I2bXhjbThqVF9ZTE1kdXJZbHhiVzhxaloyWTU2N1VKVnpONlBQTjZhS0ZUd3RsZk1uaVlqZXdSTEVlM0ZWeEVR?oc=5",
+      "desc": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight TechRepublic",
+      "source": "TechRepublic",
+      "time": 1788472709.0,
+      "score": 66.5,
+      "key": "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Сбер объединил российские и индийские агентства на одной платформе - Muksun.fm",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUWFrQk5mSExuekZUdjRQYjZRUlQwT3VacUVoY3ZlQnlnQ285cHBCUlo3Nk95NzAwUTlhSjFDVWFEWDZIeG1FNzB3UDhMMVZLVklpYjdzcTZLcHNpUk51WElHMnpHdDAyZWlNRWxBaWd3aV8tYkJ1cl94blI2MjNzbkFWNV81V3N4YkFkM2VQLWU2RFBYUk9Ga010bV95emVZR2liOEpsQTJ3MzBn?oc=5",
+      "desc": "Сбер объединил российские и индийские агентства на одной платформе Muksun.fm",
+      "source": "Muksun.fm",
+      "time": 1788459420.0,
+      "score": 64.1,
+      "russia_weight_bonus": 1.1,
+      "key": "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe",
+      "importance": 64.1,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "SDAIA President Dr. Abdullah Alghamdi to represent Saudi Arabia at India AI Impact Summit - newsonair.gov.in",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM3hZaXpOS2Y5VVNaWHp2NXp0RHREd3gzZVBuNjFZOW93RWROUlRsQWMyWC10ekhCeW9uX1VpSFE0enI3NDI1eThtWk1acXhVOE9EalpYVGRYckVWUkZmbG9NZTBCcE1Belotdmk0U1ZfSHdXaVFDcmRLeXJlOUswaUdtVDRobFBrOGFvNi11Q2IxUGo0YzNoa093LTdHT2F4M0Y3ZnlGS1ZXMzRTSFVXZmw5NkU?oc=5",
+      "desc": "SDAIA President Dr. Abdullah Alghamdi to represent Saudi Arabia at India AI Impact Summit newsonair.gov.in",
+      "source": "newsonair.gov.in",
+      "time": 1788466957.0,
+      "score": 63.5,
+      "key": "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b",
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -358,6 +468,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Моделей больше недостаточно: зачем OpenAI запускает DeployCo с $4 млрд инвестиций - Компьютерра",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZUNkUW9GazBhaEZ5TjlmOEVfUHcwa2pwaF84NkFRZ2lBazhqTDdRSVp1UVNQWVAyMTJtX1VrQXQ0QW1FdWFGUGhNX3NINEpYWGZydFFvT3JuZUJ1dGdSMlF3aWdrelRTUGpCVWhQSWNxd1Z3czdUZ2VzLXVDVk9CODNlX3RDdFgweGhGRjlSVFJrZXJSNERRRjlHZ3lUYzNVc0g5aFMtNFZUZ2tBQWtBdXZ2azZMRUk?oc=5",
+      "desc": "Моделей больше недостаточно: зачем OpenAI запускает DeployCo с $4 млрд инвестиций Компьютерра",
+      "source": "Компьютерра",
+      "time": 1788441205.0,
+      "score": 62.6,
+      "russia_weight_bonus": 2.6,
+      "key": "073837b040a96ddedcdb211ef92accd7f05eda357a64dd5514228c33818406e4",
+      "importance": 62.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Anthropic остановила кибериспытания Claude после несанкционированных действий моделей - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ2lwWTNHbm5EZkZtQXBjdWNpZXBwVHNucHR2MGpHczEwZndrRmRETGZSSUF6M0RPb2lnZ3VFaDB4Rm9aZGNMTTRwX2stOENhMlVvUFNsRG9jV3FTWTd2ek95Skdoci1veURnYk9ibjExY191QW40cUdOZGVMSEF3eWpLbDhUNTNYWmFPOER1SlRFbGtjdldJSFNXN3ptWFZrMThLLVJTcldWZ3l1SnN0ZGFoZDRHZnFHdTVVTkJiSkVvaGpfT1hTNw?oc=5",
       "desc": "Anthropic остановила кибериспытания Claude после несанкционированных действий моделей prospect.com.ru",
@@ -375,6 +502,22 @@
     },
     {
       "region": "WORLD",
+      "title": "Production workflows: From AI hype to practical impact - Jewellery Business",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVTBTOE5TX2pyX3JlODFJU2xUY051MzFZWDNoOC1BN1B4NUpfTDJBVG1KSmpTVHFDNW5EcEhyOG0yT0NSakR1LUZLYXIxcWlhSlA4bHo4RGhLRjZZOHFrYTZ6R1lWbHFMTkdVdVNUMnJOVDRQbGx3eExTM2ZHaGFQeVkyNzNidWU4Qld1enVxYTZEVUl0VlBLM0VlbnF5Zw?oc=5",
+      "desc": "Production workflows: From AI hype to practical impact Jewellery Business",
+      "source": "Jewellery Business",
+      "time": 1788458256.0,
+      "score": 62.0,
+      "key": "ceabecdb3b4324a0f5e9cc75fa51de0a653afce047944b7d9c92b8e65943f0bd",
+      "importance": 62.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Adobe Acquires Indian AI Marketing Startup Rilo to Expand Automated Workflow Tools - Tekedia",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWh0dUk3UDBxM1RMclpGaVp5aVR6R2hBbHZ5ZkJOY2tQQ2JnbXhVQm1kYzRCWFdYZWFVMk5wc0NvcEdqd3JVYVIzY0NvZEtCMG1SUzFpTVJBaWZSSEpscUdiTDM1YjJKZC1TUmV6Zm9NbUhyOFU3dWtYbXFEdXdqaEZKakx2cjdibHVHeXV6YVdXeTkySTVVRlRISk42dkNSNE04VWs5bFdEbGM?oc=5",
       "desc": "Adobe Acquires Indian AI Marketing Startup Rilo to Expand Automated Workflow Tools Tekedia",
@@ -387,6 +530,21 @@
       "topics": [
         "tools"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ - ФОНТАНКА.ру",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ONU1lb3REWUV4dnU1RzRLc1ZKT201MFBwYUc5UmhmV0pINEJyczJBX05PczhNY1E3YkNzdUxqOU5JNFhVbHo1STVKMVAxSl9MekRWVlpB?oc=5",
+      "desc": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ ФОНТАНКА.ру",
+      "source": "ФОНТАНКА.ру",
+      "time": 1788454693.0,
+      "score": 61.0,
+      "russia_weight_bonus": 5.0,
+      "key": "1f48f3f2e33577a983748faa7001b0a06814a2e95a60f2317476d28ad0a5d491",
+      "importance": 61.0,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -424,20 +582,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788474132.6993408,
+    "last_start_ts": 1788475135.0999737,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788474132.6993408,
-    "last_success_ts": 1788474132.6993408,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 9
+    "last_run_ts": 1788475135.0999737,
+    "last_success_ts": 1788475135.0999737,
+    "last_candidates": 86,
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788474056.1636941
+      "updated_at": 1788475165.2939548
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1248,10 +1406,16 @@
       "desc": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle GeekWire",
       "source": "GeekWire",
       "region": "WORLD"
+    },
+    "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": {
+      "time": 1788475135,
+      "title": "OpenAI does a victory lap for its new AI model: 'Welcome to the AGI era' - Business Insider",
+      "desc": "OpenAI does a victory lap for its new AI model: 'Welcome to the AGI era' Business Insider",
+      "source": "Business Insider",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1270,8 +1434,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788472733.8932097,
-  "last_publish_ts": 1788474053.8151462
+  "last_search_ts": 1788475135.0999737,
+  "last_publish_ts": 1788475135.0999737
 }
