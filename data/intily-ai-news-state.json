@@ -12,7 +12,8 @@
     "8631612be4bf01a14f7d8cd9a04e4d69d4091c0513f09d5bf96ae0106f23734b": 1788443292,
     "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": 1788443474,
     "c26b0145afee546a9c0b92d3b9c32a7cb4775cd8e81df5590824d4e2b0a26689": 1788443832,
-    "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": 1788444191
+    "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": 1788444191,
+    "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d": 1788444372
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -56,22 +57,6 @@
     "1ad3aa9c554a4439afe526260057e971ef1def3e64d83a6701af0e21a1dce572": 1788443111.2937322
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdkNmN2xvLUV5ZmwxTUJ2dHV0dGtLT0VwcU1EZFRMWGhMTjNpbUNQeDBoTm5FMkh4SktTVnoyWXFLVk1VSzFSV2Mtd0xuYkd4ei03VVdsUlJEa0k4MlJjRlJYRmtiOHlrcDliRmF4MmJZcl9iRExOZUtxck9mYmVuWG5JWHRWbTd6dnBUcXpkeXNmLVpxTC12TmEtQ1duUmh6SnNpU1BuY0_SAa4BQVVfeXFMTjByalk1Q0lUekR1RXVHeWxTakJPZ2htN0syWlIzWHhHRU5hR2xycjhtSTktd19BTEJiX1hjdFA1RW9JdzhYcUwyempqcV9GcWRqNjVCQVBUMUhKS0xGSXE0NENVOEZHYmhlRWVndm9LTGVOd09sY2Vtc08xRi1mX2lJRVYxVGNXblJhV1ptRmNiVmMyUXJxSW9OZ2t1UDBsR1R4UG9DOTRrazYxZEhR?oc=5",
-      "desc": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC CNBC",
-      "source": "CNBC",
-      "time": 1788437066.0,
-      "score": 66,
-      "key": "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d",
-      "importance": 66,
-      "editorial_value": 50,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming - Fast Company Middle East",
@@ -242,20 +227,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788444191.5676541,
+    "last_start_ts": 1788444372.4000106,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788444191.5676541,
-    "last_success_ts": 1788444191.5676541,
+    "last_run_ts": 1788444372.4000106,
+    "last_success_ts": 1788444372.4000106,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 12
+    "queue_size": 11
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788444197.547353
+      "updated_at": 1788444378.0858035
     }
   },
   "stories": {
@@ -349,6 +334,13 @@
       "desc": "Nvidia оснастит еще один дата-центр для Anthropic kommersant.ru",
       "source": "kommersant.ru",
       "region": "RUSSIA"
+    },
+    "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d": {
+      "time": 1788444372,
+      "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC - CNBC",
+      "desc": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC CNBC",
+      "source": "CNBC",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -364,8 +356,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788443111.2937322,
-  "last_publish_ts": 1788444191.5676541
+  "last_publish_ts": 1788444372.4000106
 }
