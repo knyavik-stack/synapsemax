@@ -117,7 +117,8 @@
     "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": 1788475135,
     "3185d6116d8f9f55b2efbb78040155e0939073654fcc845233be2cd7286adbe0": 1788475374,
     "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": 1788475554,
-    "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5": 1788475856
+    "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5": 1788475856,
+    "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b": 1788476694
   },
   "known": {
     "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6": 1788455531.428624,
@@ -263,10 +264,10 @@
       "desc": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты Overclockers.ru",
       "source": "Overclockers.ru",
       "time": 1788472320.0,
-      "score": 79.2,
+      "score": 76.2,
       "russia_weight_bonus": 3.7,
       "key": "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d",
-      "importance": 79.2,
+      "importance": 76.2,
       "editorial_value": 50.0,
       "topics": [
         "models"
@@ -292,10 +293,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788475554,
+      "last_failed_at": 1788476694,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788475854
+      "failure_count": 2,
+      "next_retry_at": 1788477294
     },
     {
       "region": "RUSSIA",
@@ -313,20 +314,6 @@
         "agents",
         "tools"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "SDAIA President Dr. Abdullah Alghamdi to represent Saudi Arabia at India AI Impact Summit - newsonair.gov.in",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM3hZaXpOS2Y5VVNaWHp2NXp0RHREd3gzZVBuNjFZOW93RWROUlRsQWMyWC10ekhCeW9uX1VpSFE0enI3NDI1eThtWk1acXhVOE9EalpYVGRYckVWUkZmbG9NZTBCcE1Belotdmk0U1ZfSHdXaVFDcmRLeXJlOUswaUdtVDRobFBrOGFvNi11Q2IxUGo0YzNoa093LTdHT2F4M0Y3ZnlGS1ZXMzRTSFVXZmw5NkU?oc=5",
-      "desc": "SDAIA President Dr. Abdullah Alghamdi to represent Saudi Arabia at India AI Impact Summit newsonair.gov.in",
-      "source": "newsonair.gov.in",
-      "time": 1788466957.0,
-      "score": 63.5,
-      "key": "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -417,21 +404,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ - ФОНТАНКА.ру",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ONU1lb3REWUV4dnU1RzRLc1ZKT201MFBwYUc5UmhmV0pINEJyczJBX05PczhNY1E3YkNzdUxqOU5JNFhVbHo1STVKMVAxSl9MekRWVlpB?oc=5",
-      "desc": "Шанс для молодых IT-талантов: продолжается прием заявок на международный конкурс по работе с ИИ ФОНТАНКА.ру",
-      "source": "ФОНТАНКА.ру",
-      "time": 1788454693.0,
-      "score": 61.0,
-      "russia_weight_bonus": 5.0,
-      "key": "1f48f3f2e33577a983748faa7001b0a06814a2e95a60f2317476d28ad0a5d491",
-      "importance": 61.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "OpenAI’s new Astra model is finally here – why safety experts are worried - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZGpwS05DQ1Z2Q3lFR3RjclY3dzI4Uk5ia3ZObkFTYmQ5aFNoeWlySW5aSGFESS1xYkpRcXZ3b2JRTUFVMTVwSERuVVdKTDJSRDlPd2Q1T0J1QTk4NmhGaVRwSUN4ak1Sa1NlZ3lkRWd6VmI4QTViM1BnU1piY3B4aw?oc=5",
@@ -466,20 +438,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788475856.4953356,
+    "last_start_ts": 1788476694.024552,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788475856.4953356,
-    "last_success_ts": 1788475856.4953356,
+    "last_run_ts": 1788476694.024552,
+    "last_success_ts": 1788476694.024552,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 12
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788475869.9804962
+      "updated_at": 1788476717.2978356
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1318,30 +1290,37 @@
       "desc": "Новый ИИ от OpenAI может взламывать военные системы Дзеркало тижня",
       "source": "Дзеркало тижня",
       "region": "RUSSIA"
+    },
+    "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b": {
+      "time": 1788476694,
+      "title": "SDAIA President Dr. Abdullah Alghamdi to represent Saudi Arabia at India AI Impact Summit - newsonair.gov.in",
+      "desc": "SDAIA President Dr. Abdullah Alghamdi to represent Saudi Arabia at India AI Impact Summit newsonair.gov.in",
+      "source": "newsonair.gov.in",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
+    "WORLD",
     "RUSSIA",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "WORLD",
-    "RUSSIA"
+    "WORLD"
   ],
   "last_search_ts": 1788475135.0999737,
-  "last_publish_ts": 1788475856.4953356
+  "last_publish_ts": 1788476694.024552
 }
