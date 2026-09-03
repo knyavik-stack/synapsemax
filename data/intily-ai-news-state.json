@@ -73,7 +73,8 @@
     "3d6c76e2b0d9263ea0a12f6027c7bb49b4d8463b141b6e83fd3726ccd86c587e": 1788460213,
     "1865e6c67e785da0de065ab726adee65934efaf0f407e59b14c0bdd529c71426": 1788460570,
     "5671c6119d1b96af084be80f60b50d6dc60199f4117dbdcc8162aced75d40da2": 1788460752,
-    "3911462b883e26d2ae2ed2d5d2ad028fe824c367d3940a2c5523085a9993ba57": 1788461112
+    "3911462b883e26d2ae2ed2d5d2ad028fe824c367d3940a2c5523085a9993ba57": 1788461112,
+    "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": 1788461293
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -265,7 +266,22 @@
     "5a46ff5a0cee0dcab2da64460e1d0b8837e5946bb4245b25841f69f543130c87": 1788459491.2056582,
     "5b5febc74838f28ab78e9bd242752013686a4044b37ffdbe520ff0cf29996af0": 1788459491.2056582,
     "b8768612aca3bc34aa4b964c5cd315ba718432ae1bbe08b1a560f65058ae742a": 1788459491.2056582,
-    "83eacdc94c41b8278f7eae5fcd26d333141256be3f00bb30011849a7665f68b5": 1788459491.2056582
+    "83eacdc94c41b8278f7eae5fcd26d333141256be3f00bb30011849a7665f68b5": 1788459491.2056582,
+    "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": 1788461293.6977568,
+    "4110337c9b2c90c5bebad52851e25f3f5c5ab5975592dcac36d943d3db64142f": 1788461293.6977568,
+    "b44520755e58ed7ab860834d44786714b3d882449542747ad7e92d170883745f": 1788461293.6977568,
+    "23cc6efb18b6935be5df6a89b48058bdf754541bfa0b42c1cc269e732df36ba3": 1788461293.6977568,
+    "6b05f7462ceab4812366cf0b85fd6c63d4d920d853bed78fc91a196223fdd1a6": 1788461293.6977568,
+    "de61b7a2d8fd445e614557110d696ec8c7018e3456718e6da8097b6cb5e54dd9": 1788461293.6977568,
+    "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166": 1788461293.6977568,
+    "b4206dc7aad7a055f35df83a9db45cad1483fe9220a0a9ed237a93178184a898": 1788461293.6977568,
+    "9bb2bbccd1bb23e2e36a6c98fc8a8a62e7774090ba28cea659579bc76e83f31c": 1788461293.6977568,
+    "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788461293.6977568,
+    "b48b4bf205c0bfe5ea35a9cdb5ca7ef417cb721d2b82e1d7dc5d00aa350373e4": 1788461293.6977568,
+    "c418df3c0f65f37d15d8488d3ab883e7bc423eed119944c7eaed27a981475b2b": 1788461293.6977568,
+    "3780a3cb622ef7c27c23781b100cc9b54198778544232b755e128fc68b1625cc": 1788461293.6977568,
+    "a6b488d9b5cc90211b146a3f7fb111d07792743d9a41e715215d02fb0e0022af": 1788461293.6977568,
+    "a2d64999c405f5576ed05890ac7558fd8cd2e280077cb58c6a6f806c3529a771": 1788461293.6977568
   },
   "queue": [
     {
@@ -419,6 +435,98 @@
     },
     {
       "region": "RUSSIA",
+      "title": "80 тысяч камер и штраф в 30 тысяч: нейросети начали генеральную уборку в Петербурге - gorodovoy.ru",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd2ctNmMtRHlhQ3lCa3VNNUpmOVVWd1QyZUNmRzZkcDFENUx5TVhYQ005TS1qcFZ6WmxtOG00cXNScUs2dVVTYm85b0otQ3NTRWRCNVk1ZDd6RTQwMGVwX0pRVXZoUXNjWTZFMFVrUXZ3LXljYWxyREFFMW56ZTdMQXpBaWs0VE5SeEhQMkFJNzFUT0toNm1KRmxQdWg2VDE4NUxPaFFBWWtrdjA1aVlERTFrekZoSWpBOWw0SVNzMFVoNkhUTWYtWDNTX3lxWkQ1dDd2MU80RQ?oc=5",
+      "desc": "80 тысяч камер и штраф в 30 тысяч: нейросети начали генеральную уборку в Петербурге gorodovoy.ru",
+      "source": "gorodovoy.ru",
+      "time": 1788460835.0,
+      "score": 65,
+      "russia_weight_bonus": 1,
+      "key": "6b05f7462ceab4812366cf0b85fd6c63d4d920d853bed78fc91a196223fdd1a6",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "New York schools ban student AI use - azernews.az",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51S1lSMnROMHVqdVNTVE16ejVHbmhocFA2Nm9YVFIyWk5pOWpXVGg1RFBMb2oyOFEybmFHS3RXVnFZYnBtdlFyOHVqdnRWM2ZzT0tuWQ?oc=5",
+      "desc": "New York schools ban student AI use azernews.az",
+      "source": "azernews.az",
+      "time": 1788459960.0,
+      "score": 65,
+      "key": "de61b7a2d8fd445e614557110d696ec8c7018e3456718e6da8097b6cb5e54dd9",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года - RB.ru",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMlhsT1hCdDFmcTFKNzRaNkhWTEotUWFzT0hobVJWVG9UMFUtekpDdVd2dGpCYVVJSGJFNHdwbUVTbmx5S1NsVUJPWi1JTWhsbW5qNjBmeTluZTh3VEZkYktPeFEzNmFRa0dhTUhZU05uLU5rX3FfaGRnbWIwaUtpdWI0VnhhMTdVbG9wRERuQW5Ibkx5a2lnVmpUSklBaFJ4QTlqR1ZCckotR3pldEE1RGJBSkp4bF9SU01aLWZtNnpUVlZieTNjSDhHQTlvNGxw?oc=5",
+      "desc": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года RB.ru",
+      "source": "RB.ru",
+      "time": 1788459600.0,
+      "score": 65,
+      "russia_weight_bonus": 3,
+      "key": "b44520755e58ed7ab860834d44786714b3d882449542747ad7e92d170883745f",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Сбой зарубежных ИИ мог произойти из-за падения облачной платформы - Рамблер",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcDFqMnlkdFVDX3IxSzNBLWhiMFlvdWM2eV9QYVN0enJzMTNLWldDOUEzenlETDBSa2pmT1Z3aF96dGpnRTVqazU2OFFRaGhCZjBmc2U5d0k4N0tHMVJtMmZVaDU1MkEyX1loYUZiMGx3WjdLQkJQMXFpaVc0VVEwT3RyVVlPYkpObjlsY1piTFRpS0ExUm9HOUNNaW5yYTB2aWxad2FuMnpwZkXSAbABQVVfeXFMUEU0emlLMl9ydzMwNGVEQWxNRE5JNnU1ZzJOYUtHNm15RWkwWHgwR3lGQnpPcHhIdkY5dllhZllQODhiRkNFTXYzdVgxelNwdjIzX3lRZkMyZnNaRHFPdzBUNWNWV3p1c0NmaE5tV2RnUTF0RUN2Tzh0Snp0cEgzMXVya3dObHItY2lGTzJtVzVsNkJKVnNuc1l3aVVsUUN0ZmxhUW51WUJvQXp6MkJvUm8?oc=5",
+      "desc": "Сбой зарубежных ИИ мог произойти из-за падения облачной платформы Рамблер",
+      "source": "Рамблер",
+      "time": 1788456600.0,
+      "score": 65,
+      "russia_weight_bonus": 2,
+      "key": "23cc6efb18b6935be5df6a89b48058bdf754541bfa0b42c1cc269e732df36ba3",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование - Digital Russia",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmV1b2haRFJEaGRlM3dLMU9rWDVGdHo0UUE4SS1ZZnhCdVBoYk1ib0ZhTjFhNkJYeEh4MUF3dDVUMVd6OWZiZXBXVGlSRnNfTlpseFJrbl9rbFNTTzluX0xZakY5bnFBakttbXNKQWxVUGtwbjYyNGtsTUJJN1pRN1NPdHhWSEZyN1VsUGhPQVp6cVpwV3dvOWFOTHI2azhZbHV3cXFkVE5rVGdhdVdtcmt5NA?oc=5",
+      "desc": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование Digital Russia",
+      "source": "Digital Russia",
+      "time": 1788446064.0,
+      "score": 65,
+      "russia_weight_bonus": 4,
+      "key": "4110337c9b2c90c5bebad52851e25f3f5c5ab5975592dcac36d943d3db64142f",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [
+        "research"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI Walks From $1B Cursor Deal Over Musk - The Tech Buzz",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjBURVNKcktxall0MU5YbDdpZjhLV05CRE1oSWRUc0F1SXRvR1hPblo3S0Z2WWpTcXhjUDB5QjVlX1hEVE8xbFVaZmppWEFzZ2RSNGllV2lYU1ZycnBsTkJmTUJldDRldVFjSzFWMFNMWXN0dHprc1FneTNNMHNQRw?oc=5",
+      "desc": "OpenAI Walks From $1B Cursor Deal Over Musk The Tech Buzz",
+      "source": "The Tech Buzz",
+      "time": 1788455640.0,
+      "score": 62,
+      "key": "b4206dc7aad7a055f35df83a9db45cad1483fe9220a0a9ed237a93178184a898",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Пользователи жалуются на сбои сразу нескольких нейросетей - kommersant.ru",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IeWU0RmR4a3dnOGxVWmV4WXpYQk1qVVVHV21WZFp1R0ExaWJ1ZjZydElNQmF1QTE2X2VQVlNFWnNqTU83TV81Sk52WUZZdw?oc=5",
       "desc": "Пользователи жалуются на сбои сразу нескольких нейросетей kommersant.ru",
@@ -464,37 +572,35 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Рекрутер рассказала о внедрении ИИ на рынке труда Пермского края - perm.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IcXRZWVFIbGxzdzMzaU1SdkFHank3NHFtVG9XcTNuX0xmYmtvT0FiRUNIV2wzYUxpcTRiZEVnVkJpVmdzZXZwMkdlbl9kTVVpT0J0S3NTVjVpYkVnbFVTRXRQTC1ESHlJWFHSAXRBVV95cUxOdmZ1Z3N0cWRzWlp5MF9mM1BRM3RuYnNUaW1XeXQwUlZoMmxOblFvYTBHRTBTdmR6TjhmMXNOTkcyUEpkc1N0elFnZ0h5NFUzcUNubzFLQUpRZ25rWkR2MXdlWmJCT2MybjJOYWpEdHJtTGRnTQ?oc=5",
-      "desc": "Рекрутер рассказала о внедрении ИИ на рынке труда Пермского края perm.rbc.ru",
-      "source": "perm.rbc.ru",
-      "time": 1788434141.0,
-      "score": 61,
-      "russia_weight_bonus": 3,
-      "key": "62d083dcf9e5bb1c7f0ddc422c4eeb2db5d7bdd3c0e2c80e61bee588f8976536",
-      "importance": 61,
+      "title": "«Одноклассники» запустили ИИ‑сервис для обработки фото и создания виртуальных подарков - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeTdIOE1EcGllZmpIa1J6aVFaUDlabUREVUtoblFEbjFzT0ZsNThNeUxhYkNIYjFocVFqbVZvUktSalg0aUlWNkJPVUR4S2xaT3pCcWxHYklheGcybWxCQ0JHaEg1Z3R4OEhubFlCdTRnV0o5VFQwVm5mV2twb3ByX2VrWF9fRndVNjFtVTE3dS02ZFFCek1QdWJjSHFaTTR2UWRrQm9vMjloRldCbmhrSkx3Q2xlbmk5T0FFVm9fVHFjYmpB?oc=5",
+      "desc": "«Одноклассники» запустили ИИ‑сервис для обработки фото и создания виртуальных подарков prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788439856.0,
+      "score": 62,
+      "russia_weight_bonus": 2,
+      "key": "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166",
+      "importance": 62,
       "editorial_value": 50,
-      "topics": [
-        "business"
-      ],
+      "topics": [],
       "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788461112.9887307,
+    "last_start_ts": 1788461293.6977568,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788461112.9887307,
-    "last_success_ts": 1788461112.9887307,
-    "last_candidates": 0,
+    "last_run_ts": 1788461293.6977568,
+    "last_success_ts": 1788461293.6977568,
+    "last_candidates": 102,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788461117.0369956
+      "updated_at": 1788461314.6457539
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1025,10 +1131,16 @@
       "desc": "Сбер представит на AI Journey новые подходы к развитию искусственного интеллекта Transsibinfo",
       "source": "Transsibinfo",
       "region": "RUSSIA"
+    },
+    "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": {
+      "time": 1788461293,
+      "title": "OpenAI claims it has overtaken Anthropic with latest AI model - Crypto Briefing",
+      "desc": "OpenAI claims it has overtaken Anthropic with latest AI model Crypto Briefing",
+      "source": "Crypto Briefing",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -1047,8 +1159,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788459491.2056582,
-  "last_publish_ts": 1788461112.9887307
+  "last_search_ts": 1788461293.6977568,
+  "last_publish_ts": 1788461293.6977568
 }
