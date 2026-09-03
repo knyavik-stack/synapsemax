@@ -26,7 +26,7 @@ LOOKBACK = timedelta(hours=6)
 MAX_PUBLISH = 1
 MIN_SCORE = 9
 MAX_QUEUE = 30
-TARGET_QUEUE_SIZE = 24
+TARGET_QUEUE_SIZE = 12
 WORLD_TARGET_SHARE = 0.60
 RUSSIA_TARGET_SHARE = 0.40
 REGION_HISTORY_SIZE = 20
@@ -35,7 +35,7 @@ QUEUE_RETENTION = timedelta(days=7)
 QUEUE_RETRY_BASE_SECONDS = 300
 QUEUE_RETRY_MAX_SECONDS = 6 * 3600
 
-JOKE_RATE = 0.80
+JOKE_RATE = 0.70
 
 # Temporary queue counter.
 # Set False when Boss requests removal.
@@ -45,7 +45,7 @@ HEARTBEAT_MAX_SECONDS = 900
 FAILURE_ALERT_THRESHOLD = 3
 
 # Maximum number of queued items attempted in one run.
-MAX_ATTEMPTS_PER_RUN = 5
+MAX_ATTEMPTS_PER_RUN = 10
 
 # Maximum editorial regeneration attempts for one item.
 MAX_EDIT_ATTEMPTS = 2
@@ -1296,7 +1296,7 @@ def build_edit_prompt(x, retry=False, previous_error=''):
         'продуктов и моделей можно оставлять '
         'в оригинальном написании.\n'
         'Юмор: стремимся добавлять лёгкую человеческую '
-        'шутку примерно в 80%% подходящих публикаций. '
+        'шутку примерно в 90%% подходящих публикаций. '
         'В этой публикации шутка %s. '
         'Если тема про безопасность, регулирование, '
         'закон, утечку, аварию, вред или серьёзный '
