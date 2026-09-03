@@ -30,8 +30,8 @@ SEARCH_INTERVAL_SECONDS = 30 * 60  # Planned news-search interval: 30 minutes.
 PUBLISH_INTERVAL_SECONDS = 1 * 60  # Minimum interval between Telegram publications: 3 minutes.
 IMPORTANCE_THRESHOLD = 60  # Minimum mathematical importance score (0–100) for queue/publication.
 MAX_QUEUE = 20  # Maximum number of qualifying stories retained in memory.
-RUSSIA_MIN_SHARE = 0.60  # Minimum Russian-news share in the queue when enough RU candidates exist.
-RUSSIA_MIN_QUEUE_SLOTS = 12  # Number of RU slots reserved in a full 20-item queue.
+RUSSIA_MIN_SHARE = 0.80  # Minimum Russian-news share in the queue when enough RU candidates exist.
+RUSSIA_MIN_QUEUE_SLOTS = 15  # Number of RU slots reserved in a full 20-item queue.
 JOKE_RATE = 0.90  # Target probability of a light joke on suitable non-serious posts.
 URGENT_SEARCH_QUEUE_THRESHOLD = 1  # Search immediately when the durable queue has 1 or fewer items.
 
