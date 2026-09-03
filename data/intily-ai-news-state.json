@@ -166,7 +166,8 @@
     "e0acea634ced1d8809f0e720ffe1e2be8068db2c13e38343cc4bf6f67c538fe8": 1788428102,
     "cdb16fd3382b806f84fc60747b5b659de6d31186321cc4208e452883e5c69831": 1788430142,
     "7dffb8869f8e4060f93922fdc3728c5afd0fe6032db52cea26f439f9438f2ef2": 1788430263,
-    "e1c1cd9385ec5ab28e4c847b63b9c1afa0fe468735bb8cbfc6642768d4fe3268": 1788430380
+    "e1c1cd9385ec5ab28e4c847b63b9c1afa0fe468735bb8cbfc6642768d4fe3268": 1788430380,
+    "150cd96830fcc8dfabb194e22561f856e617027769ca443224fa1b1c35399866": 1788430502
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -199,7 +200,8 @@
     "7dffb8869f8e4060f93922fdc3728c5afd0fe6032db52cea26f439f9438f2ef2": 1788427984.7218046,
     "e0acea634ced1d8809f0e720ffe1e2be8068db2c13e38343cc4bf6f67c538fe8": 1788428102.4935105,
     "cdb16fd3382b806f84fc60747b5b659de6d31186321cc4208e452883e5c69831": 1788430142.8112123,
-    "e1c1cd9385ec5ab28e4c847b63b9c1afa0fe468735bb8cbfc6642768d4fe3268": 1788430380.9571831
+    "e1c1cd9385ec5ab28e4c847b63b9c1afa0fe468735bb8cbfc6642768d4fe3268": 1788430380.9571831,
+    "150cd96830fcc8dfabb194e22561f856e617027769ca443224fa1b1c35399866": 1788430502.943171
   },
   "queue": [
     {
@@ -222,20 +224,20 @@
       "next_retry_at": 1788435063
     }
   ],
-  "last_run": "2026-09-03T10:13:11.747461+00:00",
+  "last_run": "2026-09-03T10:15:15.608069+00:00",
   "last_published": 1,
   "health": {
-    "last_start_ts": 1788430380.9571831,
+    "last_start_ts": 1788430502.943171,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788430380.9571831,
+    "last_success_ts": 1788430502.943171,
     "consecutive_failures": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788430391.3497562
+      "updated_at": 1788430514.9911578
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -528,10 +530,16 @@
       "desc": "Александр Ведяхин: ИИ-агенты изменят структуру цифровой экономики и сделают рынок честнее Твериград",
       "source": "Твериград",
       "region": "RUSSIA"
+    },
+    "150cd96830fcc8dfabb194e22561f856e617027769ca443224fa1b1c35399866": {
+      "time": 1788430502,
+      "title": "US govt sides with OpenAI in New York Times copyright lawsuit - Yahoo",
+      "desc": "US govt sides with OpenAI in New York Times copyright lawsuit Yahoo",
+      "source": "Yahoo",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -550,6 +558,7 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ]
 }
