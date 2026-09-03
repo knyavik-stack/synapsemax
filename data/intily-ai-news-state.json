@@ -116,7 +116,8 @@
     "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": 1788474053,
     "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": 1788475135,
     "3185d6116d8f9f55b2efbb78040155e0939073654fcc845233be2cd7286adbe0": 1788475374,
-    "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": 1788475554
+    "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": 1788475554,
+    "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5": 1788475856
   },
   "known": {
     "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6": 1788455531.428624,
@@ -270,22 +271,11 @@
       "topics": [
         "models"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Новый ИИ от OpenAI может взламывать военные системы - Дзеркало тижня",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ1hfczhZUWJtZHlPWXNiSGZEWVhWekF6Y2pGZHcyajNOSUhfbTlVTGdXeFVwYmFNM2J2SHdYcEdvSXJjZHFoMV9zWnFQZkFtSW13VkR0MVNvSTA4ZEZuekdNWFRHM2FfdXZMN1h1LWwxeEdjaW13VVVjUWp6VFRtQkRCS09QUkRXaHhB0gGQAUFVX3lxTE5MTUp1T0xfajRreVpnc0pkVTdsZVhxTGJxZV9aVlZWRVUwckRaOGh0T2o4cEhwd0d0Z1lMMk9PSHQ2UW52OENndlY3R041UHFMb2pwcEZ3Q2lTSk1tM1pyQThZY28zSW9tNU05MUdqY0VFZm9FU1d6aGxjWERzVXRkZXNVZEZidHdaZ3FXbDRsZw?oc=5",
-      "desc": "Новый ИИ от OpenAI может взламывать военные системы Дзеркало тижня",
-      "source": "Дзеркало тижня",
-      "time": 1788466624.0,
-      "score": 68.5,
-      "russia_weight_bonus": 4.0,
-      "key": "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5",
-      "importance": 68.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788475856,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788476156
     },
     {
       "region": "WORLD",
@@ -334,20 +324,6 @@
       "time": 1788466957.0,
       "score": 63.5,
       "key": "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "NYC schools ban AI for students through eighth grade under new Mamdani policy - ABC7 New York",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWjNWaXZlY1NRcTJnRTJnVXdoclZHa1MxT0NQbXpWSjl4a0lMU1ZtUHhFMGVXMldkT2tLemVfV1RVaXVOUFB2SmlmbXpXaXN4dW8yNHRsSWZQZHdqVlFXOUhZcUdibGVFVVR2OTNZWFdsQ05nQVBGNjNPUzFvejNfcTZ1QnV2OVAyalZmTmpKQnNGRzhSMXZPMDJFT2fSAaIBQVVfeXFMT0NYeUtoa0pSdVd3eERBVlJjcXREU2RRdHI2VXFuY2Vqd1NUdDdONUdpWTN3a0RJZFU0SXRhN2czSmpsNFVsc3pzalh5ODVMTl9mZ0lLYzYzWkRGNTJEcTdNZDh6VU9wSV90cFU3QzZKNkZqRVpncVpoR19xUzZfR1RtYlhUbjRVMHlMUjlZSi1UQWhueEQ3QVBERmtJQXJzNl93?oc=5",
-      "desc": "NYC schools ban AI for students through eighth grade under new Mamdani policy ABC7 New York",
-      "source": "ABC7 New York",
-      "time": 1788464839.0,
-      "score": 63.5,
-      "key": "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c",
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -490,20 +466,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788475554.4885812,
+    "last_start_ts": 1788475856.4953356,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788475554.4885812,
-    "last_success_ts": 1788475554.4885812,
+    "last_run_ts": 1788475856.4953356,
+    "last_success_ts": 1788475856.4953356,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788475572.5938618
+      "updated_at": 1788475869.9804962
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -1335,10 +1311,16 @@
       "desc": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight TechRepublic",
       "source": "TechRepublic",
       "region": "WORLD"
+    },
+    "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5": {
+      "time": 1788475856,
+      "title": "Новый ИИ от OpenAI может взламывать военные системы - Дзеркало тижня",
+      "desc": "Новый ИИ от OpenAI может взламывать военные системы Дзеркало тижня",
+      "source": "Дзеркало тижня",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1357,8 +1339,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788475135.0999737,
-  "last_publish_ts": 1788475554.4885812
+  "last_publish_ts": 1788475856.4953356
 }
