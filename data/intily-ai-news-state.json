@@ -46,7 +46,8 @@
     "b8787c8126752eb4dbfdb543831727192e905480fab8515652b100b05dc2f7f7": 1788452833,
     "e0a22d14628fe23455b724231422c45f7538fe680e53131f391b17d2d9fe5dd3": 1788453015,
     "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": 1788453370,
-    "2f0573b75f76a7be7c6c6166774937bc02457c1836e4abc6cea6a2d971504b4b": 1788453558
+    "2f0573b75f76a7be7c6c6166774937bc02457c1836e4abc6cea6a2d971504b4b": 1788453558,
+    "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": 1788453913
   },
   "known": {
     "45c000850db269fdf073af56202d4fea803eb13529f3132fa468a67d8fe6d6f6": 1788441220.4962823,
@@ -203,24 +204,6 @@
     "a361bb81e9cfee66a98a930698864cda169538789d08408c56f6ce066c9a0194": 1788453558.9492462
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "ИИ-агенты для бизнеса: как автоматизировать отчёты и работу в CRM без разработки - VC.ru",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbmNhekpaamZzNHN4WXpvQmFlbUdyYm9iQUhTcWhtLTVhSnNzQjY3VzVQMC1LTDBBZE15ZXJrbmZ3VTJ4Y2s5S0tJM0RISVZXWk9kZzhPQ1A2T29MS3NLTXFKdHF1OGxNU2ZSLWRKd29jd3I0aFktWEZYSXNIZFozRzJIU0t3dnh2RWFfRUlxLWs0TU5XZnc?oc=5",
-      "desc": "ИИ-агенты для бизнеса: как автоматизировать отчёты и работу в CRM без разработки VC.ru",
-      "source": "VC.ru",
-      "time": 1788444836.0,
-      "score": 77,
-      "russia_weight_bonus": 1,
-      "key": "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9",
-      "importance": 77,
-      "editorial_value": 50,
-      "topics": [
-        "agents",
-        "business"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts - Межа. Новини України.",
@@ -516,20 +499,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788453730.015792,
+    "last_start_ts": 1788453913.343173,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788453730.015792,
-    "last_success_ts": 1788453730.015792,
+    "last_run_ts": 1788453913.343173,
+    "last_success_ts": 1788453913.343173,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788453579.0220785
+      "updated_at": 1788453916.2682242
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
@@ -871,10 +854,16 @@
       "desc": "Why Enterprises Are Rethinking Data Security in the Age of AI Agents The American Reporter",
       "source": "The American Reporter",
       "region": "WORLD"
+    },
+    "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": {
+      "time": 1788453913,
+      "title": "ИИ-агенты для бизнеса: как автоматизировать отчёты и работу в CRM без разработки - VC.ru",
+      "desc": "ИИ-агенты для бизнеса: как автоматизировать отчёты и работу в CRM без разработки VC.ru",
+      "source": "VC.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -893,8 +882,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788453558.9492462,
-  "last_publish_ts": 1788453558.9492462
+  "last_publish_ts": 1788453913.343173
 }
