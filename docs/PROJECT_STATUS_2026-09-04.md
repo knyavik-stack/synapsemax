@@ -44,3 +44,18 @@ This keeps the expected dispatch cadence near one successful dispatch every thre
 ## Remaining validation
 
 The code-level and Cloudflare deployment changes are complete. The remaining live check is to observe automatic minute-level ticks until at least one gate=1 dispatch appears in GitHub and then confirm a successful publisher run. The scheduler is intentionally probabilistic, so one or more skipped ticks is expected; the two immediate checks made after deployment showed no GitHub run yet, which is compatible with the 1/3 gate and propagation window.
+
+
+## Incident 2026-09-04 — candidate_quality NameError
+
+A production run at 21:45 UTC failed in `candidate_quality()` because the threshold check referenced an undefined local name `importance` instead of `x['importance']`. The defect was introduced during the recent scoring refactor.
+
+- Failed run: #596 (`33809669189`), job `publish` / `100828298013`.
+- Failure point: `scripts/intily_ai_news.py:507`.
+- Corrective commit: `a11f5ba71eb45accd13f0ca25a5d244652f3c2cd`.
+- A full pre-fix source backup is stored at `docs/backups/2026-09-04/intily_ai_news.py.pre-nameerror-fix`.
+- Python compilation check passed on the complete source after the fix.
+- Production smoke-test run #597 (`33809957969`) completed successfully; `Run news engine`, Telegram send, and state persistence all passed.
+- The smoke-test published message 345 and persisted state successfully.
+
+The failure is closed. Continue monitoring automatic minute-level Worker gate dispatches.
