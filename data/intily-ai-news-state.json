@@ -175,7 +175,8 @@
     "2d748035b45daaf3ed685147e76a9cd30ef1063b2078149170dcefbac7582b8a": 1788432938,
     "f93f419b7b2f3c334671b9e8c73da983261c0499065aeb97f9766589c3b3de50": 1788433261,
     "266a7254c238ffe4ac8d1437aed05810c0ddd101e1a00dfce13494909fea7b22": 1788433442,
-    "b2b3234e57aba31dd69b8edbb0bfee2bb48e936e47821dbb775d4b9469eff0a9": 1788433623
+    "b2b3234e57aba31dd69b8edbb0bfee2bb48e936e47821dbb775d4b9469eff0a9": 1788433623,
+    "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": 1788433984
   },
   "known": {
     "3774e2f847d38f46780c845adf42dae6426e7197232b3c491c10637d38622028": 1788412715.6470509,
@@ -256,9 +257,50 @@
     "96e5553b3b21ae77bd635eea721265d18437a5bf03171180a61f504fa568baae": 1788432002.3631577,
     "266a7254c238ffe4ac8d1437aed05810c0ddd101e1a00dfce13494909fea7b22": 1788432002.3631577,
     "b2b3234e57aba31dd69b8edbb0bfee2bb48e936e47821dbb775d4b9469eff0a9": 1788432002.3631577,
-    "6c65d1698f49f93d1b3836991745bce0ac168d9eb37467971fd71bcd9d9f3075": 1788432002.3631577
+    "6c65d1698f49f93d1b3836991745bce0ac168d9eb37467971fd71bcd9d9f3075": 1788432002.3631577,
+    "7bea9a5514b78ebe430421831570b20a5ad917df5748be5e7fd6d62aeb28c57e": 1788433984.9634469,
+    "29e1cc8446e0a9b7c4d453899cb9dcf8e08454364cbe968acdfb0bf9901780f5": 1788433984.9634469,
+    "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": 1788433984.9634469,
+    "4508dce9d925c50c1ce9c06796e1848871e01a4ac493dacc786d6ffd7dc79d7a": 1788433984.9634469,
+    "3c1e6d1e6a90ee0e3dfe5fe73bb353098661fb3aea6fbb94de47e606a27bfb06": 1788433984.9634469,
+    "74ee67a41f8bf9cd7681a59e07f457715499526f7cc73479a9e7e53733503be5": 1788433984.9634469,
+    "aad4267781d6dbee956d56810d29fe77401337166c65e536055ea66662d54d2d": 1788433984.9634469,
+    "d192c49761c2ca82c2a54098b29b7f4df330c1b01bb20efb9afe897a2d6ef551": 1788433984.9634469,
+    "6c22bdc93209fe1ece44505419606e5a63fa48b6682ef0be01f67cca633c0d11": 1788433984.9634469,
+    "506428f2fef24b173a408559c0b815ccb9c646d6c54fb89e917072fb2c6d30fa": 1788433984.9634469,
+    "64963db5d347cd402efc5f54fefec92ef1c7eb01219bc3d4299f88d82123d148": 1788433984.9634469,
+    "96f29f371984dbd72b10e46f7d0438da7d7dd73d77d19ea846a27f795ead68ef": 1788433984.9634469,
+    "21666b291074e1149b9acce3d1e80bb66b4ccd77bed44e4e5e1956a89955b911": 1788433984.9634469
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "В СФ выступили за налоговые льготы для разработчиков ИИ-моделей - The World Inform",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVFBjSTZjMHp6YlZnRFF4dXBVVEhnQXh0UHphRzhKejdFSVFuRHhXcEhvaWE4RU1IaUVDZVZYbVhlekFXQU1QLTBNSFdhVHA2Wjk5WTJyN1BRaDRWUmg3STlLQUFNakdxRGp1UWozR0Vra2hZaTNPZ05VQUEtR1lsYW1jbklPWkd5bXVjZlhnWXF1cHhHNE1OMVMwQS1SOEYtWTFnVWZabw?oc=5",
+      "desc": "В СФ выступили за налоговые льготы для разработчиков ИИ-моделей The World Inform",
+      "source": "The World Inform",
+      "time": 1788433522.0,
+      "score": 76,
+      "key": "7bea9a5514b78ebe430421831570b20a5ad917df5748be5e7fd6d62aeb28c57e",
+      "importance": 76,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Главный организационный вопрос внедрения AI - vc.ru",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LbXE3Q0E2X3U2Y1d2cVcxR1h4WDJJY3lDSTFmMGVJSkxTTWlFZmtRZk9CdFVPNl8wUkpMenBhajY1TXdwdDc3a29tQWNqaEZoZXkwclZ1TFJxSGkxc1VocF9wdEFBeTY5b3c2bjJpSGlHT1VNbnc?oc=5",
+      "desc": "Главный организационный вопрос внедрения AI vc.ru",
+      "source": "vc.ru",
+      "time": 1788432593.0,
+      "score": 73,
+      "key": "29e1cc8446e0a9b7c4d453899cb9dcf8e08454364cbe968acdfb0bf9901780f5",
+      "importance": 73,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы - Korins",
@@ -283,6 +325,62 @@
       "score": 68,
       "key": "118674a60488edb4fff79dfc397400e4da217fb97c11956de7137cd4aff0d2b8",
       "importance": 68,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Эксперт «ОБИТ» рассказал, когда не нужно внедрять ИИ в ITSM - ICT-Online.ru",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNekE1YmR6QWR2ZElNaS1zRV9EVmU5YUJWd1RWandEa3NzMWtnMy1vWnFwbzl0LWhxX1U4S1k0Q2w4b2lEenZwZXVQcnBZYTV4TExIdzBEUWV0SVRIYVZUS1RJQUJzemZRQk16Tk1CT2RITGhYQ0NiOENIRV9rSThxdnUxODVmOG51Skc4WUFVZFJKeTh5Q1E?oc=5",
+      "desc": "Эксперт «ОБИТ» рассказал, когда не нужно внедрять ИИ в ITSM ICT-Online.ru",
+      "source": "ICT-Online.ru",
+      "time": 1788433887.0,
+      "score": 65,
+      "key": "4508dce9d925c50c1ce9c06796e1848871e01a4ac493dacc786d6ffd7dc79d7a",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Командовать парадом буду я: «Яндекс» готовит к запуску оркестратор для нейросетей - Forbes.ru",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPclN1dnlKMVpmc0llZFVKb0V1UmlHNk1Nc0daSkkxRFF4Q3R5bWVsTkJtR1R0YlVIR2lPRnNuYmxHZHhKWFU1VV92NnJkUWtuN3htX0ZSM2lpMmZ4MW1LSXFUcHoxeS1qVDNXcHVOSUpOY2o5WFNNYnAyTTd2QVhFNi1Mel9pVFY0TWtMTmdtdGRHRnhTN2JGUlJkc0ZoS2U5LWk5bzhXUnFmWllOcTh1Vm9vZHJwNUlKdGc?oc=5",
+      "desc": "Командовать парадом буду я: «Яндекс» готовит к запуску оркестратор для нейросетей Forbes.ru",
+      "source": "Forbes.ru",
+      "time": 1788433200.0,
+      "score": 65,
+      "key": "3c1e6d1e6a90ee0e3dfe5fe73bb353098661fb3aea6fbb94de47e606a27bfb06",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ в ITSM начинается с управления знаниями, считает ОБИТ - cisoclub",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMDhpai0xdXlleXc2ZUJSVFRJSjc1SHdyWFVKVUZ2MWZRVENpUXllYnBZVUJObkpfOWVKd0ZpQTRCN19hRm9GTWpaOFJ4b0FZY0doUmE4Y3Z4alJocEZyZ0tGZ1ZnT0NYY0lSN3RLaW1ySmFEbmhSVkNlRjVfaWxCQW50bGlWUQ?oc=5",
+      "desc": "ИИ в ITSM начинается с управления знаниями, считает ОБИТ cisoclub",
+      "source": "cisoclub",
+      "time": 1788432024.0,
+      "score": 65,
+      "key": "74ee67a41f8bf9cd7681a59e07f457715499526f7cc73479a9e7e53733503be5",
+      "importance": 65,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Анатолий Попов на ВЭФ-2026: «Будущее — за генеративным ИИ» - DonDay",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbW9VUVNRSFlJa2NCSHA5eTRqTHRpQVJsR01tX3FOekQzdVlNZTVEcE13bHhBaVdoZkZBRHh0MGFXQzBmT2V4RWtFUkJTMUhaV3RhbC12bmhHTzNDQTNEV3A3eU1SWWpZbk5oUEN6RUNQNW40a3hxNVJXOVVvVGlMcFNyZEJPSUVqaTk5Um9OTVJBQXNYLUtZ?oc=5",
+      "desc": "Анатолий Попов на ВЭФ-2026: «Будущее — за генеративным ИИ» DonDay",
+      "source": "DonDay",
+      "time": 1788430415.0,
+      "score": 65,
+      "key": "aad4267781d6dbee956d56810d29fe77401337166c65e536055ea66662d54d2d",
+      "importance": 65,
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
@@ -430,26 +528,54 @@
       "editorial_value": 50,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Indonesia risks missing AI boom without shift into tech manufacturing - AMRO - TNGlobal",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVVgtYTQyY1Q1ek9OclRUSktZaTAxbDdMOTZ2dTJfcGhqRHhYTzFOQ2l0d3hvS3lFYU1FV1J6NEpQeUY3SEktcWJGU2ktUlpMVnYwcF9kMWdqcXNMWjdtQTJnWW02SjVoSVc0eGhEMUNRSzRkRjRlX0VhSHE0RDBubGdlMEhKVjFCOXJLRk9TRUpSc0JfVXY1dkpUWC1kcS1GejZYSGRsenQzMDZoSWRn?oc=5",
+      "desc": "Indonesia risks missing AI boom without shift into tech manufacturing - AMRO TNGlobal",
+      "source": "TNGlobal",
+      "time": 1788425763.0,
+      "score": 62,
+      "key": "d192c49761c2ca82c2a54098b29b7f4df330c1b01bb20efb9afe897a2d6ef551",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Altimetrik wins AWS generative AI specialisation - channellife.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdExBYmlrem9GbXlOX2hPSzIyRlNRaU42OWV5ODFmYXBHLXBpWTdwT3hqT2h6LUljX0hUUk9yTUd6WmN1WjBHakMxeTdhNUs3YTQ5SjJjRlVfaHNUQXRicXA0YjZVVnZXa292czBoUFQyYWltaUtaYjk0akdTSGZDdUhERUpQZWM?oc=5",
+      "desc": "Altimetrik wins AWS generative AI specialisation channellife.co.uk",
+      "source": "channellife.co.uk",
+      "time": 1788424200.0,
+      "score": 62,
+      "key": "6c22bdc93209fe1ece44505419606e5a63fa48b6682ef0be01f67cca633c0d11",
+      "importance": 62,
+      "editorial_value": 50,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "last_run": "2026-09-03T10:17:10.860693+00:00",
   "last_published": 0,
   "health": {
-    "last_start_ts": 1788433802.1677344,
+    "last_start_ts": 1788433984.9634469,
     "last_status": "OK",
     "last_error": "",
-    "last_success_ts": 1788433802.1677344,
+    "last_success_ts": 1788433984.9634469,
     "consecutive_failures": 1,
-    "queue_size": 11,
-    "last_candidates": 0,
-    "last_published": 0,
-    "last_run_ts": 1788433802.1677344
+    "queue_size": 19,
+    "last_candidates": 54,
+    "last_published": 1,
+    "last_run_ts": 1788433984.9634469
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788433626.7552269
+      "updated_at": 1788434001.920687
     },
     "GROQ": {
       "disabled_until": 1788328984.9530623,
@@ -763,10 +889,16 @@
       "desc": "Sanders proposes ban on ‘artificial superintelligence’ after rogue AI incidents The Washington Post",
       "source": "The Washington Post",
       "region": "WORLD"
+    },
+    "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": {
+      "time": 1788433984,
+      "title": "AppStream Studio Emerges as Tennessee's Go-To Partner for Agentic AI Implementation - openPR.com",
+      "desc": "AppStream Studio Emerges as Tennessee's Go-To Partner for Agentic AI Implementation openPR.com",
+      "source": "openPR.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -780,6 +912,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -787,6 +920,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788432002.3631577,
-  "last_publish_ts": 1788433623.0968738
+  "last_search_ts": 1788433984.9634469,
+  "last_publish_ts": 1788433984.9634469
 }
