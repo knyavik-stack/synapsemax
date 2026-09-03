@@ -334,7 +334,11 @@
       "topics": [
         "business"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     },
     {
       "region": "RUSSIA",
@@ -351,7 +355,11 @@
       "topics": [
         "applications"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     },
     {
       "region": "WORLD",
@@ -398,7 +406,11 @@
       "importance": 65,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     },
     {
       "region": "WORLD",
@@ -427,7 +439,11 @@
       "importance": 65,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     },
     {
       "region": "RUSSIA",
@@ -444,7 +460,11 @@
       "topics": [
         "tools"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     },
     {
       "region": "RUSSIA",
@@ -461,7 +481,11 @@
       "topics": [
         "research"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     },
     {
       "region": "WORLD",
@@ -490,7 +514,11 @@
       "importance": 62,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     },
     {
       "region": "RUSSIA",
@@ -505,7 +533,11 @@
       "importance": 62,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     },
     {
       "region": "RUSSIA",
@@ -520,7 +552,11 @@
       "importance": 62,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     },
     {
       "region": "RUSSIA",
@@ -535,24 +571,28 @@
       "importance": 62,
       "editorial_value": 50,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788462731,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: CIRCUIT_OPEN | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788463031
     }
   ],
   "health": {
-    "last_start_ts": 1788462550.6460662,
+    "last_start_ts": 1788462731.6029286,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788462550.6460662,
-    "last_success_ts": 1788462550.6460662,
+    "last_run_ts": 1788462731.6029286,
+    "last_success_ts": 1788462731.6029286,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 16
   },
   "providers": {
     "GEMINI": {
-      "disabled_until": 0,
-      "reason": "",
-      "updated_at": 1788462389.260937
+      "disabled_until": 1788462940.2309449,
+      "reason": "TEMPORARY_SERVICE_ERROR",
+      "updated_at": 1788462820.2309468
     },
     "GROQ": {
       "disabled_until": 1788467681.4908166,
