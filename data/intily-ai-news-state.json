@@ -269,10 +269,10 @@
       "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» ICT-Online.ru",
       "source": "ICT-Online.ru",
       "time": 1788506778.0,
-      "score": 75.7,
+      "score": 72.7,
       "russia_weight_bonus": 4.2,
       "key": "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f",
-      "importance": 75.7,
+      "importance": 72.7,
       "editorial_value": 50.0,
       "topics": [
         "agents"
@@ -310,23 +310,6 @@
       "editorial_value": 50.0,
       "topics": [
         "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть - cisoclub",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDRGeHVzc3d2X25oRHVXNElTRmhQdEVZR1dkTGVYU2RyelBhRU9vZGxlZmliUmFMZFJDR09VZnV2WUpHYVkzU2VSTkJQQVAwMVg3bHZqWGZOaVRtZjZMSnF2THpuRDZFRzF6aEFOTkNkeHNmQ2NMMjBNOHNvQ2lKWnV3aEpjUEhKcXk1RE1HZ3N1V2NXMFFLMFp2Qk5jdnpvQUV1QQ?oc=5",
-      "desc": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть cisoclub",
-      "source": "cisoclub",
-      "time": 1788506745.0,
-      "score": 69.6,
-      "russia_weight_bonus": 2.1,
-      "key": "806b1e556eb49ff75c31a89a52e7c734a0f584e1b9c388c74e6ab728d8ce01a5",
-      "importance": 69.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
       ],
       "tier": "A"
     },
@@ -459,6 +442,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть - cisoclub",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDRGeHVzc3d2X25oRHVXNElTRmhQdEVZR1dkTGVYU2RyelBhRU9vZGxlZmliUmFMZFJDR09VZnV2WUpHYVkzU2VSTkJQQVAwMVg3bHZqWGZOaVRtZjZMSnF2THpuRDZFRzF6aEFOTkNkeHNmQ2NMMjBNOHNvQ2lKWnV3aEpjUEhKcXk1RE1HZ3N1V2NXMFFLMFp2Qk5jdnpvQUV1QQ?oc=5",
+      "desc": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть cisoclub",
+      "source": "cisoclub",
+      "time": 1788506745.0,
+      "score": 66.6,
+      "russia_weight_bonus": 2.1,
+      "key": "806b1e556eb49ff75c31a89a52e7c734a0f584e1b9c388c74e6ab728d8ce01a5",
+      "importance": 66.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - cnews.ru",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UUUh3LTRDcXhzUnJMc1diZWYyYVgxVm5UYlQxeWwzOFRFak9kRTZKWjh3VEtXbWtWYzNaeHgyX0szZHBwalgtdGw2bGhKb29oMkhudDlPdkkyQ09tMUN1UkZjaW9Beks4dkhKMEZiVDVkdndHMEtMTQ?oc=5",
       "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности cnews.ru",
@@ -533,13 +533,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788510328.6382802,
+    "last_start_ts": 1788510382.1786177,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788510328.6382802,
-    "last_success_ts": 1788510328.6382802,
+    "last_run_ts": 1788510382.1786177,
+    "last_success_ts": 1788510382.1786177,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 17
   },
   "providers": {
