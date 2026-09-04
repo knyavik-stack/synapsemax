@@ -156,7 +156,8 @@
     "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": 1788488334,
     "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": 1788488697,
     "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa": 1788488994,
-    "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": 1788489294
+    "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": 1788489294,
+    "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": 1788489597
   },
   "known": {
     "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": 1788468853.2378092,
@@ -244,23 +245,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "LG Opens Spark 2026 With Nvidia, Google - businesskorea.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WZEs5R1BGM3BWWGRKVmpTWWVEUWJoRDlTZkI5VVRsYW5tYVI1SmFMQ0Y2bmV2S0FWMzFyV2pjWk1xbE1mTW5UWmM5WTk0X3JjVk03WDBuU3FtcC0tRWVzaGdUZ0FvQ1FuVC0zTUMwY1VYS3gt?oc=5",
-      "desc": "LG Opens Spark 2026 With Nvidia, Google businesskorea.co.kr",
-      "source": "businesskorea.co.kr",
-      "time": 1788484609.0,
-      "score": 66.5,
-      "key": "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Nightfood Holdings сообщила о прогрессе в робототехнике и новом соглашении - Techora.ru",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWDRKMWpXVW5IWk5vUnRPUE9LVEc0SnVmeF9sdGdrWTBuMEpMb2k5T3RPdzZUaG04YzJwNUhOYkJSaG9VdmIzUkZNU0hDYU5sc01yMFNrQXMwMndxa1BiLUlvMU5HZjZlc0hmZG5OY290OVExTURDNDY2aUx2dGdRU2RmSHcwQQ?oc=5",
@@ -347,20 +331,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788489357.2231398,
+    "last_start_ts": 1788489597.0437422,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788489357.2231398,
-    "last_success_ts": 1788489357.2231398,
+    "last_run_ts": 1788489597.0437422,
+    "last_success_ts": 1788489597.0437422,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 6
+    "last_published": 1,
+    "queue_size": 5
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788489295.9275649
+      "updated_at": 1788489599.1631675
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1472,6 +1456,13 @@
       "desc": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump Українські Національні Новини (УНН)",
       "source": "Українські Національні Новини (УНН)",
       "region": "WORLD"
+    },
+    "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": {
+      "time": 1788489597,
+      "title": "LG Opens Spark 2026 With Nvidia, Google - businesskorea.co.kr",
+      "desc": "LG Opens Spark 2026 With Nvidia, Google businesskorea.co.kr",
+      "source": "businesskorea.co.kr",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1497,5 +1488,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788487975.2950916,
-  "last_publish_ts": 1788489294.2638116
+  "last_publish_ts": 1788489597.0437422
 }
