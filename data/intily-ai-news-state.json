@@ -194,7 +194,8 @@
     "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": 1788510742,
     "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": 1788510982,
     "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": 1788511223,
-    "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511460
+    "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511460,
+    "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b": 1788511641
   },
   "known": {
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
@@ -292,24 +293,11 @@
       "topics": [
         "robotics"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Почему за внедрением ИИ часто скрывается проект по управлению знаниями - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2ZTdHp5UnNpbUpGQ3RmU2FPVHZEOVl5Nkp4Vm8yMm5MeWJ2LVUyMDRoMXNGZXdTTkpJcFk4bGJNQ19BRlBwcmJFRXJXcUxJZ0ZuS2Zlc3NpTlp0QlFMcHcya29ySUFCbGFZQ19BOUYycFJJNFlXU3lrbEhEVGhMQ1o4d1FhOWRLc1d3RzEzeU1NQVZEN0IzLVY5ckNyaEwwOFRQN0R2dTBEcmlCRFAwOHBZR0kwWVExaXfSAXtBVV95cUxOLU51SnZwb0ZkRUdpN0pKRHgtcVNrMGgwQ2VrczR4MWJUTGRPVG9GYVdzRUJkWG5xM3h5R0Q4XzRvU2RWWHdWTTRqRDZIV0stWUVMYVFpNUc3Ym5nZ1ZFeFpYSGJLamw2ODhwdjJZVnBJbTR1cmFRRkNDUGs?oc=5",
-      "desc": "Почему за внедрением ИИ часто скрывается проект по управлению знаниями companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788505321.0,
-      "score": 74.5,
-      "russia_weight_bonus": 2.0,
-      "key": "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b",
-      "importance": 74.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788511641,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788511941
     },
     {
       "region": "RUSSIA",
@@ -567,20 +555,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788511581.9619596,
+    "last_start_ts": 1788511641.2673113,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788511581.9619596,
-    "last_success_ts": 1788511581.9619596,
+    "last_run_ts": 1788511641.2673113,
+    "last_success_ts": 1788511641.2673113,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788511466.6540897
+      "updated_at": 1788511653.0139382
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1958,10 +1946,16 @@
       "desc": "Разработан ИИ-инструмент для анализа человеческого поведения Научная Россия",
       "source": "Научная Россия",
       "region": "RUSSIA"
+    },
+    "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b": {
+      "time": 1788511641,
+      "title": "Почему за внедрением ИИ часто скрывается проект по управлению знаниями - companies.rbc.ru",
+      "desc": "Почему за внедрением ИИ часто скрывается проект по управлению знаниями companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1980,8 +1974,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788511223.1508448,
-  "last_publish_ts": 1788511460.025065
+  "last_publish_ts": 1788511641.2673113
 }
