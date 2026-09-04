@@ -167,7 +167,8 @@
     "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492592,
     "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": 1788492773,
     "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788493015,
-    "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19": 1788493614
+    "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19": 1788493614,
+    "61ddefaf4b72efac9a395b2b2044cef2a7cdd7e3b4741f5f7ca3bd2700589179": 1788494215
   },
   "known": {
     "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": 1788472733.8932097,
@@ -263,27 +264,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788493614,
+      "last_failed_at": 1788494215,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788493914
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Alibaba значительно улучшила ИИ-модель Qwen3.8-Max за счёт дообучения - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZDJHaHo4VTFsTndrUTN2MkR6aUtxMUhZX3UtQWpkUFhUWllUeHhPSWEwN3o0LXdtVTdxeVRtcUN5SFdzQ3pIWC16elhHZG1sRm9YZE5GekN1UGVkSXJDbjBkNC1jM195RWhPRVc2X3dEeTJ3djZmdklGWVZPSEpKVnJoR2JnRHdxY3NENzdqWXRsd1NCTVVuNlZKcXc1SlpWb0JKM3BQZzRLT25aTC1wQ3dn?oc=5",
-      "desc": "Alibaba значительно улучшила ИИ-модель Qwen3.8-Max за счёт дообучения prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788492774.0,
-      "score": 75.1,
-      "russia_weight_bonus": 3.6,
-      "key": "61ddefaf4b72efac9a395b2b2044cef2a7cdd7e3b4741f5f7ca3bd2700589179",
-      "importance": 75.1,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
+      "failure_count": 2,
+      "next_retry_at": 1788494815
     },
     {
       "region": "RUSSIA",
@@ -319,20 +303,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788493794.2618868,
+    "last_start_ts": 1788494215.809916,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788493794.2618868,
-    "last_success_ts": 1788493794.2618868,
+    "last_run_ts": 1788494215.809916,
+    "last_success_ts": 1788494215.809916,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 4
+    "last_published": 1,
+    "queue_size": 3
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788493620.4302368
+      "updated_at": 1788494230.6621182
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1521,6 +1505,13 @@
       "desc": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "61ddefaf4b72efac9a395b2b2044cef2a7cdd7e3b4741f5f7ca3bd2700589179": {
+      "time": 1788494215,
+      "title": "Alibaba значительно улучшила ИИ-модель Qwen3.8-Max за счёт дообучения - prospect.com.ru",
+      "desc": "Alibaba значительно улучшила ИИ-модель Qwen3.8-Max за счёт дообучения prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1536,15 +1527,15 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788493074.7616563,
-  "last_publish_ts": 1788493614.8556986
+  "last_publish_ts": 1788494215.809916
 }
