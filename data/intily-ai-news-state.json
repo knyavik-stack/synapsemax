@@ -298,7 +298,8 @@
     "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788544437,
     "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": 1788544640,
     "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": 1788545240,
-    "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4": 1788545421
+    "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4": 1788545421,
+    "2a2856322c9e70f34ed769b8c77547c9e0994a988c35c240374232882c85dd93": 1788545844
   },
   "known": {
     "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": 1788524605.2114382,
@@ -514,9 +515,37 @@
     "b461a6f4a06f05ddc514c065c34840f8dda7bef8192853618f25d5d4cc400d64": 1788543864.4841003,
     "ee72ff0797ae170fcf091f653cc93ca2ea1e53c0792057d102140c6b330f7ed3": 1788543864.4841003,
     "c5afdce1b2577f51925560ee1020169f6399f90ff63adbe510d48bf62ace5c65": 1788543864.4841003,
-    "b4c528ac22abd4cd02b8d3d49c3135fa2439f9c983391b723f98f1c1e09b52bf": 1788543864.4841003
+    "b4c528ac22abd4cd02b8d3d49c3135fa2439f9c983391b723f98f1c1e09b52bf": 1788543864.4841003,
+    "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788545844.1562684,
+    "7aa23d58e47724aef9d4f26f919711eeffc3ba4ca18f58abbc83fbaa0f236a06": 1788545844.1562684,
+    "2a2856322c9e70f34ed769b8c77547c9e0994a988c35c240374232882c85dd93": 1788545844.1562684,
+    "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": 1788545844.1562684,
+    "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6": 1788545844.1562684,
+    "ddd326e4452ba6a9ab12c91527268bff972794f78aea0db8aba4e03f39ebdb38": 1788545844.1562684,
+    "9c2adbe650e444d8f75cb57590d8b8d6701ef7f8c6c95b397707cf66ffc3cde2": 1788545844.1562684,
+    "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": 1788545844.1562684,
+    "5980279efed550aa8c5ce70ff1299a594a4b3fdc46e013c601a9f40ef54a7265": 1788545844.1562684,
+    "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3": 1788545844.1562684,
+    "271f8b82696c7385dd06e6bae858f6a3e8f79f33a40b4fd43d8a8099e48cdb92": 1788545844.1562684
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI представила новую ИИ-модель и провозгласила эру общего искусственного интеллекта - The World Inform",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLWMxcWNSNkRLOVA5eUwwakhmbGEwRFRlelg3a1cwZDBWMVd5bXlsRVRkdjBCZGF6YnVYSEU4UHJ1UTByQ0hoOVFHZ1F5cUM3VXdWZGN1YWY4cUZTYXA1MnNIb0ZWdVJ3Tlp2bTZfU3FVZDdIRGhVLXdmR1VvbVRVTVV0dF9xRUo0WGJZb3FxUURsZWE1ZDd1M1RhaFpFd3R3Qy1rUW90bUlVYWVBNWpqMVZYSWhzcC1nMGpuUVpXWHVyZE14S2ladg?oc=5",
+      "desc": "OpenAI представила новую ИИ-модель и провозгласила эру общего искусственного интеллекта The World Inform",
+      "source": "The World Inform",
+      "time": 1788545204.0,
+      "score": 81.0,
+      "russia_weight_bonus": 4.5,
+      "key": "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628",
+      "importance": 81.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Как ИИ-агенты научились отравлять друг друга - lenta.profinansy.ru",
@@ -584,6 +613,27 @@
       "tier": "A"
     },
     {
+      "region": "WORLD",
+      "title": "Claude Fable 5.1 achieves 8x improvement in robotic task performance - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE95QzdXUTN3R1pyVWk2UVFaQy1YWFpVeW1lX2J4OWR4aXd2dUdPMExtZEJXNXVUcTFOeEtOcTBJcWhWeWtwd1hnMlBlb1RaUzBxc1VDcmV0cVJGLXo1OTdqQ2txUHQxSHlRVm1LUFYtRnhzTjJjSUZz?oc=5",
+      "desc": "Claude Fable 5.1 achieves 8x improvement in robotic task performance Crypto Briefing",
+      "source": "Crypto Briefing",
+      "time": 1788545389.0,
+      "score": 70.5,
+      "key": "7aa23d58e47724aef9d4f26f919711eeffc3ba4ca18f58abbc83fbaa0f236a06",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models",
+        "robotics"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788545844,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788546144
+    },
+    {
       "region": "RUSSIA",
       "title": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова - Smart-Lab",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hbWsyUmtBUzV4LWtLSnhyWXFkU3dvRU9kUHZZX0F0MDk4aDNTMThVckpLZjUxNUVnX0ltc1FHRDBrR2U4QUVsNU84LTE4dw?oc=5",
@@ -614,6 +664,49 @@
       "tier": "A"
     },
     {
+      "region": "RUSSIA",
+      "title": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России - Национальная Служба Новостей",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1JfWXhIYUpPTnFxQUNZeVg1QjFwamdTOElNYWlrcllwdUV5MjBHYVNSYlVaZVlRYnJGMGJnWU9tX2JFemxvbjAtaEtPSDFDRTV4UmRGN0FoNXlnY3drWXhvUF9iWEVVZ3daRWxBbGhweFVkbFEzQkVaN1RsTHJrRE5qR1p5UEV4Q1lSUi12ZS1fOWRQNzJGcEtIZi02d9IBowFBVV95cUxNTmtNWWd2bTJ4UVpMZHk2YldESm5BNnQ1T1JzWVhVV2szNGFZZVpGcTQ2dW94c0wxQmNGSFZUNWpnVkM2Sk0xOElvS05Fam8tbW0xcFVWWWJkRnZ0RkNXSVEzNlJ3eWxiUEZfSWxNS2ViR0FDOS1XOU5rMUN0SFJjbEFMMU5TcjFtT2FFUGotMWN4bTdFVDVqSW52NkV5LTZKZDdZ?oc=5",
+      "desc": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России Национальная Служба Новостей",
+      "source": "Национальная Служба Новостей",
+      "time": 1788542062.0,
+      "score": 68.3,
+      "russia_weight_bonus": 2.8,
+      "key": "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5",
+      "importance": 68.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Technology in Trading | Meaning, History, Innovation, & AI - Britannica",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kc2RFYU14RmJMbDRVQzdnWURuUTJmTkRSaGpBUGtaRnhDM3lDZnRfeFVWZXE5TUxUcE81U0tCZ09ocUJMVmZ5OEF3VGwwTHdMa0hGUDhzelA4MmlrQ2pIdg?oc=5",
+      "desc": "Technology in Trading | Meaning, History, Innovation, & AI Britannica",
+      "source": "Britannica",
+      "time": 1788544619.0,
+      "score": 66.5,
+      "key": "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Samsung SDS stock gains as RX ART 2026 and AI partnership broaden growth story - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOamVmV0J0SWhmdkZ1bWtMSTgwbEdqVU9KYUlHaEpCbXhFejI5dkZXZ2V4SVdJZV9FNUhjMEdiaTJCQ0ZBYTdxTkpXVF9Ob3FZTzVuUGlEeE9BcHlXbFFrM2I4dmNvTDVIcDZ0TUdCM084XzJrZEs3dWRodEN3eGZib1lpc1dMSlF2ZnRXYjdxUVVBNGxoNXpWNmpfOFp5NUotWWYtdnRSNElvcC04LTJsR3Jha1BoOVJMdDVtbjI1ZkZ1SElWeEthU1ZGVQ?oc=5",
+      "desc": "Samsung SDS stock gains as RX ART 2026 and AI partnership broaden growth story AD HOC NEWS",
+      "source": "AD HOC NEWS",
+      "time": 1788544493.0,
+      "score": 66.5,
+      "key": "ddd326e4452ba6a9ab12c91527268bff972794f78aea0db8aba4e03f39ebdb38",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules - StreetInsider",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUFGMk5mSFhVY3VuMHFFWnN2VkZtc05mVm5UUGoyZXdxcmhzYzM2TWlmN1puUUpINzIyLXlNcjIzaGZSSEJIYUFBdjJFSTBoQ2NKeVEtazBBRjV6dHlUM2czTW1aLXlaY0F0dzVoWHdwSjRGNmF6QXY4WTN3a1JNS1FJRE9waE1uOWFyUmI2N1AzUUNfOWFxRHlYdE5jdE1xTXBpVDZVRndsU3hCTHFBYWNRR05LWWhDbDgzNk5sVTBYeHlRTk13ZXFkb2U?oc=5",
@@ -626,6 +719,22 @@
       "editorial_value": 50.0,
       "topics": [
         "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "NFRA sets up advisory panel on audit quality, AI and technology risks - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTmhlUk12cFRZZ0ktLVNKdzZwdngxNXcyVTAzY3VvNkJDZlVtX05YY2JzS1VpVWN2d29rWmFHOVd4ZU4wUWd1ZHdXYWdfSWdIVzc1aXVGem9qVXZaaU8wRF8zdEdKX2gySHB4b2xLdGh5NEhMZVdtX20xWUc0VGhCVUJEUnFPZHpnaWZyZEd6UVRoTDd4VGdMbEFmeDZ2YUpOeVFxUjl6STBMaVdwX2tXT0plT1c0X2REQ05rQmZaTkhJTnltZHhGSnNjM050b1puWGNxWjgzZnhkZnQ5b2MtODk1QXZHeFR5SzdLaDk0SHNLaGfSAfMBQVVfeXFMT05oZVJNdnBUWWdJLS1TSnc2cHZ4MTV3MlUwM2N1bzZCQ2ZVbV9OWGNic0tVaVVjdndva1phRzlXeGVOMFFndWR3V2FnX0lnSFc3NWl1RnpvalV2WmlPMERfM3RHSl9oMkhweG9sS3RoeTRITGVXbV9tMVlHNFRoQlVCRFJxT2R6Z2lmcmRHelFUaEw3eFRnTGxBZng2dmFKTnlRcVI5ekkwTGlXcF9rV09KZU9XNF9kRENOa0JmWk5ISU55bWR4RkpzYzNOdG9ablhjcVo4M2Z4ZGZ0OW9jLTg5NUF2R3hUeUs3S2g5NEhzS2hn?oc=5",
+      "desc": "NFRA sets up advisory panel on audit quality, AI and technology risks Business Standard",
+      "source": "Business Standard",
+      "time": 1788538066.0,
+      "score": 66.5,
+      "key": "9c2adbe650e444d8f75cb57590d8b8d6701ef7f8c6c95b397707cf66ffc3cde2",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
       ],
       "tier": "A"
     },
@@ -643,6 +752,23 @@
       "editorial_value": 50.0,
       "topics": [
         "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры - CNews.ru",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ia01tRmstX0lDZmcwQ2wtakQyUzJkb3B5cTdmSEJYczQ3SmR6ZDgyU2gxY2JRdEt2X1Jqdi1VOFRsTEdQMlFWcGRFalJ5ZVRQU2g3LVJJaF91R3luUGdVUVJmc1cyWHFBTUgzSS14MVJ6cU5FS0dn?oc=5",
+      "desc": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры CNews.ru",
+      "source": "CNews.ru",
+      "time": 1788510065.0,
+      "score": 63.9,
+      "russia_weight_bonus": 4.9,
+      "key": "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48",
+      "importance": 63.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
       ],
       "tier": "A"
     },
@@ -675,34 +801,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "AI's 'warning shot': Tech companies, experts raise fears of more rogue swarms after alarming Hugging Face hack - cbc.ca",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaDdhcHZUbDVJb0lDMkoyUURhWHVCUnp1R1FSR3R4bmtrUVQxZVdlWURvM3I3Z05fcEZmSzg4RUpZU0U5QkFrazI5SnNPQTQ1WE90YU9sb0FoYzhFa1lxX0FaTXQxWHEtN09aMW1RY21kZjJvVjdRNWFydk9yYVdJVDF5cXU?oc=5",
-      "desc": "AI's 'warning shot': Tech companies, experts raise fears of more rogue swarms after alarming Hugging Face hack cbc.ca",
-      "source": "cbc.ca",
-      "time": 1788541035.0,
-      "score": 63.5,
-      "key": "e192c96ae786c7a4ccb4b23a46cee4b0d68c35c043c3217f0d8ab2aacaac4875",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Artificial Intelligence - AI Update, September 4, 2026: AI News and Views From the Past Week - MarketingProfs",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ3hqWHVjcE4xSUs3SjZWMnR3TEhGYjkwZE0tZlp5UlViRmtsQ1FEbk8xV2dOZUppQUJiOUFYN1lHbTBQbVRrTGduTWdsNVZmSDBhR3UzZl9rTHl1UXZXdm5LalZsTkRzY01hNktITVUydWJIamlNRjJ3T2VxcmVIR1VlTElYcTJ0ZmdzZEtRM3ZzcjZoSHo2M0M3cmd3ZFNfQ04wODVwbnI0enFBbU5PT3lRWU8?oc=5",
-      "desc": "Artificial Intelligence - AI Update, September 4, 2026: AI News and Views From the Past Week MarketingProfs",
-      "source": "MarketingProfs",
-      "time": 1788538773.0,
-      "score": 63.5,
-      "key": "b461a6f4a06f05ddc514c065c34840f8dda7bef8192853618f25d5d4cc400d64",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Дмитрий Медников: «ИИ – это не конкуренция с людьми, а расширение возможностей» - Ведомости",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUJWdEZMLU9uYnE0UENpb1NtdU0wdndzT2YyU2ZPRHNUR3g4VmFySnRmYTFjYWEzVkNKeEN5LUVGaFhVTUxkRlBacVU1YTBMdU45SmE1VFdmV0ZYb09HZFVZV3RMLUo5NW93VzcxYWJkeHJiMTdMLUN5RDYtX01ya2x3SmtGVjBEVU5xT3I1emcwT1hpSWt3WVIwR2llZ1c5bTBDQjNsUjJZbUxRSnhFRmpTWGdDMDMyNWZod1FCZ09nd3VUc1MzUA?oc=5",
@@ -716,23 +814,40 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Как аналитика и нейросети помогают бизнесу привлекать аудиторию в Сочи - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ydlVSd1VFdjZUOUFmX2lVWG5tSUdJQ0o0Q01zdGtoZ19DaDlXR01PVzdYRkFycGNjMFpWLUwxWW1CX1JsZTB2N1hGRllvdw?oc=5",
+      "desc": "Как аналитика и нейросети помогают бизнесу привлекать аудиторию в Сочи kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788533502.0,
+      "score": 62.7,
+      "russia_weight_bonus": 3.7,
+      "key": "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3",
+      "importance": 62.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788545480.6729457,
+    "last_start_ts": 1788545844.1562684,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788545480.6729457,
-    "last_success_ts": 1788545480.6729457,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 13
+    "last_run_ts": 1788545844.1562684,
+    "last_success_ts": 1788545844.1562684,
+    "last_candidates": 107,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788545434.6127968
+      "updated_at": 1788545878.7216637
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -746,13 +861,6 @@
     }
   },
   "stories": {
-    "52f72c407a587ff3ea4862745a2d63bf6e94b323d5bd20a7e75d27bd3b0a1890": {
-      "time": 1788459309,
-      "title": "Пользователи по всему миру сообщили о сбоях в работе нейросетей - Рамблер",
-      "desc": "Пользователи по всему миру сообщили о сбоях в работе нейросетей Рамблер",
-      "source": "Рамблер",
-      "region": "RUSSIA"
-    },
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": {
       "time": 1788459491,
       "title": "OpenAI launches new Astra model amid growing scrutiny over agents' safety - Reuters",
@@ -2376,11 +2484,17 @@
       "desc": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам Восток-Медиа",
       "source": "Восток-Медиа",
       "region": "RUSSIA"
+    },
+    "2a2856322c9e70f34ed769b8c77547c9e0994a988c35c240374232882c85dd93": {
+      "time": 1788545844,
+      "title": "OpenAI Agents Misalignment Incident Sparks New Teams - Daily Beirut",
+      "desc": "OpenAI Agents Misalignment Incident Sparks New Teams Daily Beirut",
+      "source": "Daily Beirut",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2398,8 +2512,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788543864.4841003,
-  "last_publish_ts": 1788545421.457371
+  "last_search_ts": 1788545844.1562684,
+  "last_publish_ts": 1788545844.1562684
 }
