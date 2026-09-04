@@ -261,15 +261,19 @@
       "importance": 65.9,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788497453,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788497753
     }
   ],
   "health": {
-    "last_start_ts": 1788497334.7735822,
+    "last_start_ts": 1788497453.4813647,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788497334.7735822,
-    "last_success_ts": 1788497334.7735822,
+    "last_run_ts": 1788497453.4813647,
+    "last_success_ts": 1788497453.4813647,
     "last_candidates": 48,
     "last_published": 0,
     "queue_size": 1
@@ -1561,6 +1565,6 @@
     "RUSSIA",
     "WORLD"
   ],
-  "last_search_ts": 1788497334.7735822,
+  "last_search_ts": 1788497453.4813647,
   "last_publish_ts": 1788497156.5978644
 }
