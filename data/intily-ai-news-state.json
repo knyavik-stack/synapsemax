@@ -352,21 +352,6 @@
     "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788563601
   },
   "known": {
-    "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542062.023784,
-    "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": 1788542062.023784,
-    "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": 1788542062.023784,
-    "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde": 1788542062.023784,
-    "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315": 1788542062.023784,
-    "463d9d538682f54e3334aa28e121279177d3befa324dfc79bbf5acffcfd1e970": 1788542062.023784,
-    "551425382814f2a2906aca732654655d152a3f4bbb1292811f4ec43b986f8c75": 1788542062.023784,
-    "e192c96ae786c7a4ccb4b23a46cee4b0d68c35c043c3217f0d8ab2aacaac4875": 1788542062.023784,
-    "01b4037c6edf460d7781f8e33fba25282d01ffcd86422a0645a2f72bf40ef5bb": 1788542062.023784,
-    "199432c71411cbb876939a64cca647116979393d2e508ef95cbdc4ee5d107fff": 1788542062.023784,
-    "43ed2ff71df574cbcd7ddb46fa435adf7ddc739fcab62f9dc18ec81c582d0156": 1788542062.023784,
-    "1b17efd0d95ff36d7014d9dbd3c23ff5e2f0d29948dbecf219705b70043babf9": 1788542062.023784,
-    "22e9252334987a85ef69c64f05b2931a43a66167bce3dc07e0fb2e5ce5718662": 1788542062.023784,
-    "9aaee991763752b3d48f876c6d710c67c1194c117121817ff2d2ddde8180ae5e": 1788542062.023784,
-    "dfa96c3499273e9f639349df2895dd2f9da83431d7698e726ea44f40cc8896ba": 1788542062.023784,
     "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788543864.4841003,
     "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": 1788543864.4841003,
     "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580": 1788543864.4841003,
@@ -486,33 +471,17 @@
         "robotics"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Box CEO says AI models excel at complex tasks - scanx.trade",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVDExNWE5Q3hfQUJOUjhLcmU5STdpNlQ3S3ZEVUZTaVc3T25vYVlhTXhsTE00eXRWUzJnUzM0UURuVkhDVnhzbUJ2dXp1ZTJ1d09hdVJfUDRzdlVrekE4NnBIV3hydEFfUWd5MFhUdTVuM3djSUFZbG10bUlTUjlrVERjRWJoQWgxNVpLZVItQTJmVFA0Tk0xU1lpSFlUbjBrLTIzWVdmeG1wSGQ1LVlwOGFR?oc=5",
-      "desc": "Box CEO says AI models excel at complex tasks scanx.trade",
-      "source": "scanx.trade",
-      "time": 1788542102.0,
-      "score": 60.0,
-      "key": "37c9fcad4c0c540dc1eb53f93d0429fb1fc7b277d7d80f8a2bab899787dca762",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788563660.1666226,
+    "last_start_ts": 1788563720.7555807,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788563660.1666226,
-    "last_success_ts": 1788563660.1666226,
+    "last_run_ts": 1788563720.7555807,
+    "last_success_ts": 1788563720.7555807,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 3
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
