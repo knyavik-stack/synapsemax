@@ -152,7 +152,8 @@
     "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": 1788487314,
     "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": 1788487613,
     "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788487794,
-    "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": 1788487975
+    "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": 1788487975,
+    "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": 1788488334
   },
   "known": {
     "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049.748359,
@@ -253,22 +254,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding - IDC | Trusted Tech Intelligence",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLVZ5X0JjLWRGMHhKREwwMUtUc0JMVXgzMFhIRE1Od0pGd09GWUNoclN3aDk4YTRBSF94VXR3NDU2MjdCeGltTmpzTXZvbXdPNGlPQ205YWMtOFg3bDJqUzg0VFJWc0Q4Y2ItclA3MlNwc3hsR3ZnVmhzeFAzbzJSVmZFeEJnamNpXzVxX2tINm5nWkRMNDhIWVpvSTRSSzJFcW5VZmt6aHBFQQ?oc=5",
-      "desc": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding IDC | Trusted Tech Intelligence",
-      "source": "IDC | Trusted Tech Intelligence",
-      "time": 1788482231.0,
-      "score": 70.5,
-      "key": "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "UCL and AIMS release free AI teaching toolkit for universities | ETIH EdTech News - edtechinnovationhub.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRWRtWm9qVTZkeXlOMDNxazFYQ0ZwY1U2RzZwWm40aS1HR1d5M0dVdDBFWjNXeTFrZXI2RXJKVk1JSndyRHZDOWxCWm5zdG12NXhiQ0pFS252RWQzelRMVzBuejNwbU9iZHR4SjVDb21qdVVfNTd5ZzktOFpCUm1Sd2lCMHZaWGg4WlhDLXVJOWlPZjRzbFlCdDU5R0taeV9YWENCdmliOFBFMnNHdDRINnFFbw?oc=5",
       "desc": "UCL and AIMS release free AI teaching toolkit for universities | ETIH EdTech News edtechinnovationhub.com",
@@ -301,23 +286,6 @@
     },
     {
       "region": "WORLD",
-      "title": "LG Opens Spark 2026 With Nvidia, Google - businesskorea.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WZEs5R1BGM3BWWGRKVmpTWWVEUWJoRDlTZkI5VVRsYW5tYVI1SmFMQ0Y2bmV2S0FWMzFyV2pjWk1xbE1mTW5UWmM5WTk0X3JjVk03WDBuU3FtcC0tRWVzaGdUZ0FvQ1FuVC0zTUMwY1VYS3gt?oc=5",
-      "desc": "LG Opens Spark 2026 With Nvidia, Google businesskorea.co.kr",
-      "source": "businesskorea.co.kr",
-      "time": 1788484609.0,
-      "score": 69.5,
-      "key": "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump - Українські Національні Новини (УНН)",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLTlOSTlKQzlQamN3My1oUE4xNmNTaDJBTmpkY0xON1pwMWx4VjhtUDdscVE3QW5vdTg1bWFNWnV2V09id2tUaGQ2UVBidkxyMm5fUjZndDFCNjFZSzN1dmVzSXVEa183YkFHTEtuTzF4ZFZKczhCT3ZGRVlVd0tsZnlsVnoxaWU4V3kwMC1EdFpudHF1MHd4dXQ3VnFWenNjb0VObU9EcWV5TWJxd21RNWpZM0p2bXhpbTUyOVZORWpCbm5nd3RvZNIBxwFBVV95cUxOY0w2dHRUc0ItbTA1SmR3TXJuaG5uWE9CSmpORmc1SUJqbkpoUXZ4TE5KTEhrT051MUlUcmtrbHFRTkxLVEVfRGVfeTFjaTA2T095R2J3RkNNc1VvT3ZBajNIaHVDX01GV1d0RktiSWJGb19mRVZ6cUVxcnMtbDlHcU8zM2dma0NyZ2JkZ2thMEFuVVJnTFo3QzZwcjItalVOdjdCMUJVeW9tc2lyVTJFWVh0MEhiSUFsTWQ3b0gwSlFnUFNxRUJV?oc=5",
       "desc": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump Українські Національні Новини (УНН)",
@@ -328,6 +296,23 @@
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "LG Opens Spark 2026 With Nvidia, Google - businesskorea.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WZEs5R1BGM3BWWGRKVmpTWWVEUWJoRDlTZkI5VVRsYW5tYVI1SmFMQ0Y2bmV2S0FWMzFyV2pjWk1xbE1mTW5UWmM5WTk0X3JjVk03WDBuU3FtcC0tRWVzaGdUZ0FvQ1FuVC0zTUMwY1VYS3gt?oc=5",
+      "desc": "LG Opens Spark 2026 With Nvidia, Google businesskorea.co.kr",
+      "source": "businesskorea.co.kr",
+      "time": 1788484609.0,
+      "score": 66.5,
+      "key": "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "chips"
+      ],
       "tier": "A"
     },
     {
@@ -434,20 +419,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788488153.8456993,
+    "last_start_ts": 1788488334.270186,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788488153.8456993,
-    "last_success_ts": 1788488153.8456993,
+    "last_run_ts": 1788488334.270186,
+    "last_success_ts": 1788488334.270186,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 11
+    "last_published": 1,
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788487998.0331025
+      "updated_at": 1788488337.3274434
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1531,13 +1516,20 @@
       "desc": "Nvidia’s next AI play: own the platform where open models are built, shared and deployed Ynetnews",
       "source": "Ynetnews",
       "region": "WORLD"
+    },
+    "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": {
+      "time": 1788488334,
+      "title": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding - IDC | Trusted Tech Intelligence",
+      "desc": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding IDC | Trusted Tech Intelligence",
+      "source": "IDC | Trusted Tech Intelligence",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1556,5 +1548,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788487975.2950916,
-  "last_publish_ts": 1788487975.2950916
+  "last_publish_ts": 1788488334.270186
 }
