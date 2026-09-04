@@ -508,13 +508,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788561862.5653021,
+    "last_start_ts": 1788561979.660391,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788561862.5653021,
-    "last_success_ts": 1788561862.5653021,
+    "last_run_ts": 1788561979.660391,
+    "last_success_ts": 1788561979.660391,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 4
   },
   "providers": {
@@ -535,13 +535,6 @@
     }
   },
   "stories": {
-    "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": {
-      "time": 1788475554,
-      "title": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight - TechRepublic",
-      "desc": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight TechRepublic",
-      "source": "TechRepublic",
-      "region": "WORLD"
-    },
     "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5": {
       "time": 1788475856,
       "title": "Новый ИИ от OpenAI может взламывать военные системы - Дзеркало тижня",
