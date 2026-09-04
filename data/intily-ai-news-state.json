@@ -251,7 +251,8 @@
     "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8": 1788529102,
     "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788529402,
     "e6192db70cff1b34a0afa6085041c67f5442baf6632678df18288150751aa7ba": 1788529701,
-    "ae48873a8d9f503c3086ebe7881425c8377c18c52c2ecc83eee80e729e52355d": 1788530179
+    "ae48873a8d9f503c3086ebe7881425c8377c18c52c2ecc83eee80e729e52355d": 1788530179,
+    "5b833cd31d03646a4a5b9ec56e3b2d6830dbd104b9d6dd5e8346041692bb6a91": 1788530483
   },
   "known": {
     "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788509361.5282607,
@@ -426,9 +427,121 @@
     "68aa693edf0b9bf531e07cfb34748d4e45580881d48ea01d4fa202c64e671797": 1788528681.428885,
     "a7696d85e8670443ed9a843eea7a3b56ef0ea6a8310fd29123c69ec925c092f3": 1788528681.428885,
     "2c4e33bcc5814aeb0def03ff5861d159561fa4c1c3320244573667e942faaff3": 1788528681.428885,
-    "0e96fe393d4395e7c83b4c148ba7f61984bc2d7227a42e8a4a9e1cf951f46406": 1788528681.428885
+    "0e96fe393d4395e7c83b4c148ba7f61984bc2d7227a42e8a4a9e1cf951f46406": 1788528681.428885,
+    "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": 1788530483.340653,
+    "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136": 1788530483.340653,
+    "5b833cd31d03646a4a5b9ec56e3b2d6830dbd104b9d6dd5e8346041692bb6a91": 1788530483.340653,
+    "3faf9cf5e7652244dd8ef3826d25e3b19bd87eb8d16f56d16778156a5b16dbfe": 1788530483.340653,
+    "627a77a5410410700ca2232fb4a328448417aa91d9a37e596cfa108fcd925e60": 1788530483.340653,
+    "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": 1788530483.340653,
+    "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": 1788530483.340653,
+    "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6": 1788530483.340653,
+    "a5762c0abafe1f12f9df9cf5c9ccf1ed897d7d27b6a9761964e9dc7015424c28": 1788530483.340653,
+    "7e9f0b25d84b2376d5ee86a575d55c0fb74710837797c3ed9bad8ab0d1a5913b": 1788530483.340653,
+    "c08a0908420dbd6df4fa9a4e81edf7f237a10ef566d17ef81ee75dc7f408a57c": 1788530483.340653,
+    "cf09c7b1a7a6d4bc45c322fe96279e8ef953fbcf63f689e8add16b121f52dd45": 1788530483.340653,
+    "566f8c9d1d39a7ad3f3119737e95207346b5f1fd5aa44287f57e822c4f15923f": 1788530483.340653,
+    "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc": 1788530483.340653,
+    "b0021c68138f41ea9c4b899c6a15ff61d83b0d9b6d9fff080ea52c18c8e6fe99": 1788530483.340653
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Только в 14% российских корпораций знают о методологии безопасной разработки ИИ-систем MLSecOps - spbIT",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX0liMmpXOWdGekRmcHluYlFkdFd5NzNlSzlVbVBEbktQeVE5S0ZpWkNlbjF4dEF6ekRCOVh1SUVnN2JPLWVCRmVvUFpYTDE0eUJ4b1JObHRDTTVYbjBBQXZ1T3hiMHpUMUc3aUJCa0ZWMlJTcGxwSDBIWmlqNG5QQlhIWmJvSnY4YXY5VUhobU54TFFOTFhjQmpleFhkZW4zbFBuamRwRXZ6YXBzdDRLeHlRVTlTS0JMUGZqanh1MFVxYy1L?oc=5",
+      "desc": "Только в 14% российских корпораций знают о методологии безопасной разработки ИИ-систем MLSecOps spbIT",
+      "source": "spbIT",
+      "time": 1788528874.0,
+      "score": 79.5,
+      "russia_weight_bonus": 4.0,
+      "key": "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6",
+      "importance": 79.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWXRybm1UOFo5cHNMSUttODBGV1ZBY0FIdUJXT016S0hNWGNja0VFUTdNVkZ6bVBiQ3BmbE1vT2tBZEEtNGFjY0pOY2VjWmFIQWotbncwTF9Ra3FOLUM5aXhsalFvajZXd0dxQUZUaVgta0U4dWZBbTJWTkZiN3pYNzNtai13NFU1SHB0b2c4LTQxWk55ZkRscHNGZUV6RjdWT2tpcUJrZEdIcE1hcVduSnU4RkM1dHZlTlA1cWF1NmVoVHhJQm5VVHBHQ1VScmlUaXdlNnFMUQ?oc=5",
+      "desc": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788529980.0,
+      "score": 78.4,
+      "russia_weight_bonus": 2.9,
+      "key": "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136",
+      "importance": 78.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Reuters узнал, как ИИ-агенты делились советами на взломанном сайте - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbS1xMjdoQ25tZG9vTy1OY2NhOHpYXzhoSDBYRGF1RVl1SFQ1X2NadGJrUzIyeVhnZ3NKT2Z5eXkyNmZxb0lmWmNtdjUyRjB1MjRMZVZFQ2JpUWc2NzR3VFZ2WUZ5Ukh1OGxMckZUYTJ4RkdHek15TEhmSE5JR0ZlNdIBiwFBVV95cUxQNlVRajV1b013LTMyNGRBaVUzSXdQVUE1enk2ZUd5TF9xc1ZxRWNDSWVoejlCLW10U3VNSEc3dzZQMlprNHFYcDlnOXY1U3RLRjNXbFljNEZkdE83a21rZ0JRTVNIa1JFWU16cjhCZTM3TlpyUmU0RHEtNXVpRFI1VXZHTmljTUtSeURB?oc=5",
+      "desc": "Reuters узнал, как ИИ-агенты делились советами на взломанном сайте rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788529338.0,
+      "score": 74.5,
+      "russia_weight_bonus": 2.0,
+      "key": "3faf9cf5e7652244dd8ef3826d25e3b19bd87eb8d16f56d16778156a5b16dbfe",
+      "importance": 74.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Oh good, looks like yet another swarm of rogue AI agents from OpenAI - The Verge",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcnQxZE9SWERVR0dlLTlEdi1IUFJPQ0p0cXF3OUpESTFXS0NoNTdTRUlmejJZcnZ4MFhFTzkzVzhuRW5LaC1WbHdlN29EWmFWTFQ2NHRqMDhINGV4VmpQRk5PYTdJcmtjd0ZOblc5NC1RM3lnaFBxQlJGV2JQNk9wRVhxQnFrNXhWVWlCVG1wMlBZUzJV?oc=5",
+      "desc": "Oh good, looks like yet another swarm of rogue AI agents from OpenAI The Verge",
+      "source": "The Verge",
+      "time": 1788528852.0,
+      "score": 73.5,
+      "key": "627a77a5410410700ca2232fb4a328448417aa91d9a37e596cfa108fcd925e60",
+      "importance": 73.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Российские ИТ-компании выступили против компенсаций авторам за обучение ИИ на их контенте - RB.ru",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaHcxSmVwdlFZS3ZDeEs3TS11TUR6RWxwcVRqMkpUQ1FLSVBQWmFpLUx6QmlkcnJDXzE0UXNBaVdCMTA1elNibWpKTkV6SDRzVlBDVE16ekd0MDR0X2k4cWdxRmtXS01jRDNDWVlidzc3amlxT0ZHMndJeHd3SGxULXFtX0pDbFdBYkVRNzJPUjhXTVJMbVFfV2dXVmxXX2plQzlZNjVMVkRaVzU1dUhmaVQtNGEzRDEyc3VvWE96RFlhMkxnRXY3Y0RCMmYwZw?oc=5",
+      "desc": "Российские ИТ-компании выступили против компенсаций авторам за обучение ИИ на их контенте RB.ru",
+      "source": "RB.ru",
+      "time": 1788529200.0,
+      "score": 73.0,
+      "russia_weight_bonus": 4.5,
+      "key": "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35",
+      "importance": 73.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ в медиа: не замена, а помощник человека - artmoskovia.ru",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yVGIxaGx4Z1FLMmNVa29hSzBHM0puYjJxTy1UVFVrQzJOcm5ubmVuTU9wOW5aSldmRHVNTTVWaDNtOW1jdHoxZldrNGdPN0RIaHVoMTNNcl9qb3VSb0RTam1lRHdYSjBQRzdlSlBCbGxnQmFwZ2p1by1sMA?oc=5",
+      "desc": "ИИ в медиа: не замена, а помощник человека artmoskovia.ru",
+      "source": "artmoskovia.ru",
+      "time": 1788529787.0,
+      "score": 72.6,
+      "russia_weight_bonus": 4.1,
+      "key": "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b",
+      "importance": 72.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters - theins.ru",
@@ -448,21 +561,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Group-IB: BraZetsu с ИИ оценивает системы в Бразилии и продает доступ - Techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90M0RINFlsNWpDY2xtMkRsekpoMkJfeEFhUEN6OS1sbURZdlhhUThVOGpGZ0ZkSnNZTXN1NUpkMFZ4WnM1RGZaTG1jQUdlN3VIa2Z0TjJDeTMzcDk4V014c2dvSWVaUTZLSml0cnRwQWtoN2FFa0xn?oc=5",
-      "desc": "Group-IB: BraZetsu с ИИ оценивает системы в Бразилии и продает доступ Techora.ru",
-      "source": "Techora.ru",
-      "time": 1788526827.0,
-      "score": 72.4,
-      "russia_weight_bonus": 3.9,
-      "key": "da03656d8941d6ff82856c460a40324d58fb081826617b9cf6fcb6f3d57a2244",
-      "importance": 72.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "LLM в корпоративных процессах: как выбрать сценарий, который окупится - VC.ru",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSzVrR0lsTHM3LWRrLVBCMzQ5R3VHUnplRkZJV2V1ZzBabnJGUTJjeHJHek12RncyUHduTnRFYS1OM1NVaURCZFcwejNuQXY1NFp0Zk9FWFBObUhDZGxqdXpjdk1PQmhoRDBodVh4Um8zUXFsV1VwREFvRk1lcnRnbjQzMGd0b3hyMWJHcWxCeUZPX0E?oc=5",
       "desc": "LLM в корпоративных процессах: как выбрать сценарий, который окупится VC.ru",
@@ -472,6 +570,21 @@
       "russia_weight_bonus": 5.0,
       "key": "c64a81495eb20f5fbf4d0b14980cdbfa1a550934464c68b28cb16d26db19611a",
       "importance": 71.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
+      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788529330.0,
+      "score": 71.3,
+      "russia_weight_bonus": 2.8,
+      "key": "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6",
+      "importance": 71.3,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -523,6 +636,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "«Использовать ИИ только ради моды мы не будем» - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Qa0lOcW01ZTZEV3RIX1hXa3ljOHNCNmg4Ym0tU3BTbWtmZXlEOU1QSHRhV2cwNkxUTjB5bk9fZlo5bXZxZHBYY2RaYzlyZw?oc=5",
+      "desc": "«Использовать ИИ только ради моды мы не будем» kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788526202.0,
+      "score": 70.4,
+      "russia_weight_bonus": 4.9,
+      "key": "a5762c0abafe1f12f9df9cf5c9ccf1ed897d7d27b6a9761964e9dc7015424c28",
+      "importance": 70.4,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Российский ИИ хотят внедрить в оборону, школы и выборы - BeInCrypto",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xUzZzU2owcUFobTZpZ0dOQTU1RWpubnFEaUNoWnhqeGpyT0RNemJUQ3FyMmFKallFeVNMcHEwX1BVc2E3UTBxVkdNWVhxeUlkbUp4YlZKTTZHXzJISkZObDFoRmNrWnVHb3N2eS1IUmV4b1pCeUE?oc=5",
       "desc": "Российский ИИ хотят внедрить в оборону, школы и выборы BeInCrypto",
@@ -552,64 +680,45 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ - rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQU5mU3NuaGE0NVNPLWVUd243T0QwWDZ6N3J2QktGZzByMGQ2YWJkU09ka3VaRjBvRHkxQjByZWlLT2szR0ZteDRGakhLM0JRUmVVcFdPT3Q0cm9BMjItbXZYU2xUc2VEbmFqV2kyRXVaZktvbmFkdmszWGdMaXd4edIBiwFBVV95cUxNQ3lrTEJSeUgtSjZoOURVMk9IV3lVc1Z3OFdxRWNCYXNHWUs0QWd1cVBOa1dnMy1QVXBMUlJoTmV0MnBnWDAyQTBaSDB3UXp5NzNyYWN4eVhoS1ByNnQ5RVI0M0s2MXZIWmZnZGM2STdwNndsMmRKb3NJaHpULU01blVCQXJJek43bnhN?oc=5",
-      "desc": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ rbc.ru",
-      "source": "rbc.ru",
-      "time": 1788522201.0,
-      "score": 69.9,
-      "russia_weight_bonus": 4.4,
-      "key": "f1587107b735012cd600b307601a0c16fce55d774ecc3a964ba8f9ea34774453",
-      "importance": 69.9,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "В России внедрили ИИ для оценки результатов КТ, рентгена и маммографии - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa21tdnJ3LUxaYlduY19SUkZCSU5kZVMxMDg0aS1tdWRRRHdGU1p3dUhPWVNMWTZ5ZHNjTEVVMFEtTXBseHhMMTZBZTkzMzdsdVU3YzBaTWVQRXJXaGpWWnJjX3ZCNUMxS3lSa1RQODE1SnRzVEFkWnFLUWgtRW1hYTM3ME9sNmdNMEl1YnBnYW9yM3VnaGhibzBmV3BXeUt6SmJvdV9JYk96ckk3Szd0UDdn?oc=5",
-      "desc": "В России внедрили ИИ для оценки результатов КТ, рентгена и маммографии prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788525201.0,
-      "score": 69.5,
-      "russia_weight_bonus": 4.0,
-      "key": "d37140d645a5bf884cc2dee612003c3cf218fcc175090217f175f568664a61ea",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Кто виноват и что делать? Запад в тупике из-за преступлений, совершённых при помощи ИИ - Life.ru",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVdqbnRKSklZNF9rR1VyS1dtNWJFbVkybGREcjJ3YV9NYkYzNWk4dkJrY3AwQ29SZWZDRFNNb292MkJyWVZ0b0dNQnR4Qk1tRHZGTE9ud0JvNURpaEFKaVRhNzZlUjZCN3RuZkdETHJvVHhHNVhSd3VKZTF1Mm9MQnJPcWpMSGtSV2U4ZnFHdkdrOWFQLV83cw?oc=5",
-      "desc": "Кто виноват и что делать? Запад в тупике из-за преступлений, совершённых при помощи ИИ Life.ru",
-      "source": "Life.ru",
-      "time": 1788522940.0,
-      "score": 67.7,
-      "russia_weight_bonus": 2.2,
-      "key": "466320411a5c3506e50c598e0a76a6305144080befaadc9c4d9b830660c4ffcb",
-      "importance": 67.7,
+      "region": "WORLD",
+      "title": "Broadcom Earnings: Can $58 Billion in AI Revenue Justify the Stock's Next Move? - equiti.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPTDlPbi1mYThyNGxrRWhVUElGMFhVTEpGLUNxYTVPTGtaenhnYUpxSC1RQkVrTGotNy05T0p5Ni1pSkx4M1dRTm1jR09RWUZmeE0zU2hwTXpEMVoteGU2SHlBb1ZGVTFNZHhCMEl6NVNKTnhOZVR4YmlMaV9tTXdpQzUyUDMtMG92Z1JCXzRVSXpZUzhtcWZaWW9xei1NS3F6YzBVSVN3S01SQWloTXdYT01CQ2JEZmhmbmRZSXFqSWZYUE1IWlFXNFJ5NTRNX3Q2My05TG1wN01teE9XVm1YcTUtaTNUdVZKN2dIOEd1X09rTk1uVk1jamxFRDY5WDItRjFRdjU0aWJrXzdMdWkzRWFTX0Q4TWxJZ0prbWk4MW8xWmhpcXZyeA?oc=5",
+      "desc": "Broadcom Earnings: Can $58 Billion in AI Revenue Justify the Stock's Next Move? equiti.com",
+      "source": "equiti.com",
+      "time": 1788525605.0,
+      "score": 67.5,
+      "key": "7e9f0b25d84b2376d5ee86a575d55c0fb74710837797c3ed9bad8ab0d1a5913b",
+      "importance": 67.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
     },
     {
       "region": "WORLD",
-      "title": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. - news.crunchbase.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcDlYejRsNWZhOUhVb00xNm9OaWVPel9WZnphXzliRDBrNGM5eE81Z2czZFdmYlBEbmtmdDFROXRKZldlZC1mVzAtTUgzYmY5ZV9MTFNpeGttUExiQnBYNkx3bnl4dzBHOW0xNGE3aXV0T2NvVUVsY3E4cDJrLVNWN0M2MHZtLUY4UWFJZE92VW9RTjdfN1NXd1lmUEgtakk?oc=5",
-      "desc": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. news.crunchbase.com",
-      "source": "news.crunchbase.com",
-      "time": 1788519655.0,
-      "score": 67.5,
-      "key": "cdbf075d907734b23867bcfb5b09b81527714792d36a61b74491ab5132e73436",
-      "importance": 67.5,
+      "title": "CX AI: Artificial Intelligence and the Future of CX - SNS Insider",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0hVUUFzdGhaUGNQQ255MzkwX0ZRYUU4eEVFX250ZmhTM3NZSHd5ZW01YlhfSFhYZi1EQ3J3c05GaEZ4aG9kRFpFYWdjQ09VcEtjZ2xPTjJNUmxBaU8xYTZUV1NZVS1mUlVYZkxjWEI5TVJ4cnMzV2U5c0gyNjh2WTNmdlF1OTZDZFlzSVY3RlI0UERuSTVFdjd0UEo0eHZmbDlvNkQzcmlLQQ?oc=5",
+      "desc": "CX AI: Artificial Intelligence and the Future of CX SNS Insider",
+      "source": "SNS Insider",
+      "time": 1788529076.0,
+      "score": 66.5,
+      "key": "c08a0908420dbd6df4fa9a4e81edf7f237a10ef566d17ef81ee75dc7f408a57c",
+      "importance": 66.5,
       "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "G20 Backs U.S. Push to Avoid New AI Regulators - TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vTlZIRkRMUm1Qbl95QXYxa2FtU1RHMGZwYkY2a3FfTlNfOUlxU2pzVmtxMGNGc2U1a2lnSWdGSFdjTXFfeFc2T2N0RlZ1VkhZTk0zMU9sSDZzel96bEdVVDRTYTNieE9qZlNUeEUzUTd6SVozVlA3R1R6RFZab1k?oc=5",
+      "desc": "G20 Backs U.S. Push to Avoid New AI Regulators TechRepublic",
+      "source": "TechRepublic",
+      "time": 1788528787.0,
+      "score": 66.5,
+      "key": "cf09c7b1a7a6d4bc45c322fe96279e8ef953fbcf63f689e8add16b121f52dd45",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -627,51 +736,23 @@
         "models"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Clooney Calls Government Unfit to Regulate AI, Warns Deepfakes Threaten Public Trust - northeasttimes.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbU82clBWaGh2NzhUaWNmMVJtQVVFeF9ac2NCTUxlemx6WWU0MWhwZFE3ck1WRDEzVkxYRGczQ012U1U1RGZvN2k1Sko4eXlTV0FHUGxINlNtQUFYZUFGS0Z6QW5oWTZYTFV6RjFkR1k1Sm9vWGJVQzVLVTgwNi1OUkxPYjF1V0ltUUFudEZTekxUM2o5d1lXeHNXMWtjejJIVTgwcHFUYW1DaG5lQVVwb0oxOC1aazQ?oc=5",
-      "desc": "Clooney Calls Government Unfit to Regulate AI, Warns Deepfakes Threaten Public Trust northeasttimes.com",
-      "source": "northeasttimes.com",
-      "time": 1788526689.0,
-      "score": 66.5,
-      "key": "a7696d85e8670443ed9a843eea7a3b56ef0ea6a8310fd29123c69ec925c092f3",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "'Find church-going Christians in Janesville, Wisconsin': AI Built a Detailed Dossier on a Stranger Using Data Anyone Can Buy - All About Cookies",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PMkVWQ3BWNzZGWnlFZWFNbzVWRVVUZmhoRUpKTTVYallpeDFPMDR6aHRxd1RfVVFUSlNLZU1uMnNUaWZJamZodE0tTVpuR2JwQU1OWTlIVjdUdmR1dnNZVW1iYzg2NlJCWmc?oc=5",
-      "desc": "'Find church-going Christians in Janesville, Wisconsin': AI Built a Detailed Dossier on a Stranger Using Data Anyone Can Buy All About Cookies",
-      "source": "All About Cookies",
-      "time": 1788526320.0,
-      "score": 63.5,
-      "key": "3b82a1ff1d8306c30c1509f2691d47e3828249e670df1d22d692ee75f1aec6e2",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788530179.538934,
+    "last_start_ts": 1788530483.340653,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788530179.538934,
-    "last_success_ts": 1788530179.538934,
-    "last_candidates": 0,
+    "last_run_ts": 1788530483.340653,
+    "last_success_ts": 1788530483.340653,
+    "last_candidates": 114,
     "last_published": 1,
-    "queue_size": 15
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788530184.0207827
+      "updated_at": 1788530511.8346395
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -685,13 +766,6 @@
     }
   },
   "stories": {
-    "c26b0145afee546a9c0b92d3b9c32a7cb4775cd8e81df5590824d4e2b0a26689": {
-      "time": 1788443832,
-      "title": "Artificial Intelligence Market Projected to Hit USD 8,716.00 Billion at a 38.50% CAGR by 2035 - EIN Presswire",
-      "desc": "Artificial Intelligence Market Projected to Hit USD 8,716.00 Billion at a 38.50% CAGR by 2035 EIN Presswire",
-      "source": "EIN Presswire",
-      "region": "WORLD"
-    },
     "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": {
       "time": 1788444191,
       "title": "Nvidia оснастит еще один дата-центр для Anthropic - kommersant.ru",
@@ -2371,10 +2445,16 @@
       "desc": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге kommersant.ru",
       "source": "kommersant.ru",
       "region": "RUSSIA"
+    },
+    "5b833cd31d03646a4a5b9ec56e3b2d6830dbd104b9d6dd5e8346041692bb6a91": {
+      "time": 1788530483,
+      "title": "OpenAI has plans for an AI 'kill switch' after model goes rogue, as Nvidia announces Hugging Face acquisition - PC Guide",
+      "desc": "OpenAI has plans for an AI 'kill switch' after model goes rogue, as Nvidia announces Hugging Face acquisition PC Guide",
+      "source": "PC Guide",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2393,8 +2473,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788528681.428885,
-  "last_publish_ts": 1788530179.538934
+  "last_search_ts": 1788530483.340653,
+  "last_publish_ts": 1788530483.340653
 }
