@@ -330,7 +330,8 @@
     "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555683,
     "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": 1788555921,
     "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": 1788556280,
-    "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": 1788556522
+    "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": 1788556522,
+    "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": 1788556939
   },
   "known": {
     "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536242.444593,
@@ -500,22 +501,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Why Did Nvidia Acquire Hugging Face? - Semiecosystem",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzemh3RE5CajI3bW05RWZKU2Vkd2lvUTFzMlRVTWtyR3p5a01uSm5HZ0lxbVJPUEpObGhKV1FWZjdFemt5TXNMUkRqdVlreWFiTDVxU3ZpVTlFN19RNXd4RG5ybFNqSm1uVHVjQm5SX2VZTU5jM2xnTXV3?oc=5",
-      "desc": "Why Did Nvidia Acquire Hugging Face? Semiecosystem",
-      "source": "Semiecosystem",
-      "time": 1788554836.0,
-      "score": 66.5,
-      "key": "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS - Portal ERP",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMzB0Z1ZTaFF6aWJhVkJ5VThVQ0RrZVJydUpxcmh6eXZxWlRpRXZOOWZNTnZoclhHZjNRaTFvcDBmT0xFWjJtQXVOUjlxY185UlFmSTI5bnhBNkdINk14Wml4ajZVRldzVU0yUXVaaG41NzJwQlNOMXRudXp6bU91WDIxZGh0M0lEYy1abjRpTmFPTUx3VHBqRll4NUhVaGc3TEZCRTZn?oc=5",
       "desc": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS Portal ERP",
@@ -622,20 +607,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788556580.2701287,
+    "last_start_ts": 1788556939.8380277,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788556580.2701287,
-    "last_success_ts": 1788556580.2701287,
+    "last_run_ts": 1788556939.8380277,
+    "last_success_ts": 1788556939.8380277,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 10
+    "last_published": 1,
+    "queue_size": 9
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788556524.7622225
+      "updated_at": 1788556943.0411484
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -649,13 +634,6 @@
     }
   },
   "stories": {
-    "b82db89157ab3c6a560ae70b12b6d0afc978f492e063ae39ce1781c158cc1255": {
-      "time": 1788470289,
-      "title": "AI & Tech Brief: The tech contracting shake-up - The Washington Post",
-      "desc": "AI & Tech Brief: The tech contracting shake-up The Washington Post",
-      "source": "The Washington Post",
-      "region": "WORLD"
-    },
     "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c": {
       "time": 1788470649,
       "title": "Why Clément Delangue Sold Hugging Face to Nvidia After Turning It Down - observer.com",
@@ -2244,10 +2222,16 @@
       "desc": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА Общественная служба новостей",
       "source": "Общественная служба новостей",
       "region": "RUSSIA"
+    },
+    "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": {
+      "time": 1788556939,
+      "title": "Why Did Nvidia Acquire Hugging Face? - Semiecosystem",
+      "desc": "Why Did Nvidia Acquire Hugging Face? Semiecosystem",
+      "source": "Semiecosystem",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2266,8 +2250,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788555201.4978535,
-  "last_publish_ts": 1788556522.838246
+  "last_publish_ts": 1788556939.8380277
 }
