@@ -614,24 +614,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Банкротство контрагента: как застраховать риск для бизнеса - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVTJKRFg0OFJESE41NFRKdWd1WWhwSUhtTDZkeTZXRW9OV241eGFrd1FRSm1haWZvQVFMRkNvZVdkSEU2bzJtOXI2eERHZnhkdHZMSV95R045VW4xazBJNVF4SlkxMUJqVFd0VURuQW1LaDM1dFVzUHE4WkpvZUNLZ2E5ZkVnMFRlV2luUTN5U0JGN19UQ2liV1czLVV1Wm0z0gF7QVVfeXFMT196YXI3akpvVjBJc1RyVG5fTDBMamhyVzdGS3lmcGQ3N0JucjI1R2dldERVbUNFbWVQMTlQZGlPNGVhSTlCUDhBV3lHbUNRcXZoYjNCejFabXREOUNHX21XeUZtQUw2Zm0wbklXRkpYdEc3Ri1WLVd2SkVF?oc=5",
-      "desc": "Банкротство контрагента: как застраховать риск для бизнеса companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788508349.0,
-      "score": 61.5,
-      "russia_weight_bonus": 2.5,
-      "key": "41ad6018e6f976ad0b3e212fa200b7333d8958173638dd273d826511f7af1c8f",
-      "importance": 61.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Контракт AI-агента: какие права доступа давать ИИ-агенту - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc3h2M2dMWDlvaldjZTdIQjZFaE1qUFRyai11cDNiM1dlUW1RZXBzQnFxeF9sc25rM1pjQllrdUhIa0pWQU1UdGQ3eWFwb01DVHEwVGFfbTRVTmlnZWpsd1diY0lGaklscHEtRjRSMU1oNEZ2REtkenFlTVlUcVFraVJpdkNqdXhfZ1pFT3FRZnhkRnJoZ2s2eXk3VHI?oc=5",
       "desc": "Контракт AI-агента: какие права доступа давать ИИ-агенту companies.rbc.ru",
@@ -715,14 +697,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788551422.751168,
+    "last_start_ts": 1788551601.1297047,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788551422.751168,
-    "last_success_ts": 1788551422.751168,
-    "last_candidates": 90,
-    "last_published": 1,
-    "queue_size": 15
+    "last_run_ts": 1788551601.1297047,
+    "last_success_ts": 1788551601.1297047,
+    "last_candidates": 0,
+    "last_published": 0,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
@@ -742,13 +724,6 @@
     }
   },
   "stories": {
-    "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": {
-      "time": 1788465071,
-      "title": "As Big Tech Builds Its Own AI Chips, Nvidia Makes a $3.5 Billion Bet on Taiwan - Vision Times",
-      "desc": "As Big Tech Builds Its Own AI Chips, Nvidia Makes a $3.5 Billion Bet on Taiwan Vision Times",
-      "source": "Vision Times",
-      "region": "WORLD"
-    },
     "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": {
       "time": 1788465259,
       "title": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере - Компьютерра",
