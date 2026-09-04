@@ -298,23 +298,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться - vc.ru",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONWxZX2xwUmNJb2JRR3E3b0FROWQ3b1ZjMEI0NjNyUE5qUkNwYmNoM0xNekRCZ2NkSmQ2TktXRWRaNDNQTXdSdlVoT0VZMC01TWFvYk80YmFnTVV1QkkyQlJRaG1fRzZNNnBKMmVSbVAxMFczVXg1WnJwMDMxNDVzdzBkUQ?oc=5",
-      "desc": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться vc.ru",
-      "source": "vc.ru",
-      "time": 1788512409.0,
-      "score": 73.0,
-      "russia_weight_bonus": 3.5,
-      "key": "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997",
-      "importance": 73.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXFFc0lSVUlLQjh5NkJ6Mlp1OUppX1JCTDl2YVc0cHBBSWJBd09TWGtZZXBkZ1lndzdHY2lOekZUd2tCaEt1cDRXelBLallnQXk1a01vNEtXUkVyZGtndk1HX2RRZHZQcV9fLVdKWFEybDJuMjNXVXppMVVmQXBZRVdiR3d4amc1S1JvQ0xSbms5Y1piaXBmNXlaWDNrdTlYRlo0LXF2OFl1WWV5RDhmZmFhckZwZlk10gF7QVVfeXFMUFd3ZE9Ta1Z1RHp4YUVsdUoyQ1MzRHhRejR4eVZYZ2JkUHFwTzBCM0RYTFBOZ1FwUjNVNXlicXdPM0lxWGRfNHZRcmM1b1J0ckp0dWY3ckJxdTFyRTBDSjFISTh1OW92cTZydUoyM0JzUU9UU2Q2dmpLWUN3?oc=5",
       "desc": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей companies.rbc.ru",
@@ -360,6 +343,23 @@
       "importance": 71.0,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться - vc.ru",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONWxZX2xwUmNJb2JRR3E3b0FROWQ3b1ZjMEI0NjNyUE5qUkNwYmNoM0xNekRCZ2NkSmQ2TktXRWRaNDNQTXdSdlVoT0VZMC01TWFvYk80YmFnTVV1QkkyQlJRaG1fRzZNNnBKMmVSbVAxMFczVXg1WnJwMDMxNDVzdzBkUQ?oc=5",
+      "desc": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться vc.ru",
+      "source": "vc.ru",
+      "time": 1788512409.0,
+      "score": 70.0,
+      "russia_weight_bonus": 3.5,
+      "key": "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997",
+      "importance": 70.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
       "tier": "A"
     },
     {
@@ -546,13 +546,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788515961.1176157,
+    "last_start_ts": 1788516021.4494054,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788515961.1176157,
-    "last_success_ts": 1788515961.1176157,
+    "last_run_ts": 1788516021.4494054,
+    "last_success_ts": 1788516021.4494054,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 16
   },
   "providers": {
