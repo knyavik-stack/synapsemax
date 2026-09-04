@@ -196,7 +196,8 @@
     "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": 1788511223,
     "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511460,
     "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b": 1788511641,
-    "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": 1788511943
+    "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": 1788511943,
+    "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": 1788512241
   },
   "known": {
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
@@ -295,25 +296,10 @@
         "robotics"
       ],
       "tier": "A",
-      "last_failed_at": 1788511641,
+      "last_failed_at": 1788512241,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788511941
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Греф оценил влияние ИИ на ВВП менее чем в 1% - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVTJDcEl0aGJBaS1uZlNqdm5QbXBOWEotcmJTLXR0MWRPank3dHRsU2E3eVpTWVRST1FnUllicTdES29tajhIY3BJTS1QbXRLTTl6TXRPWGh4NzV3ZHJ2NjEzb0h1aFVzSGlRV0dLMXhETnVoczl6ZFFhSjlmUmpyS2VQMjRwWHpfdmRqN3RQUy01QQ?oc=5",
-      "desc": "Греф оценил влияние ИИ на ВВП менее чем в 1% prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788509564.0,
-      "score": 73.3,
-      "russia_weight_bonus": 4.8,
-      "key": "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd",
-      "importance": 73.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "failure_count": 2,
+      "next_retry_at": 1788512841
     },
     {
       "region": "RUSSIA",
@@ -394,38 +380,6 @@
       "importance": 70.5,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Сбер поможет развивать цифровые решения в Еврейской автономной области - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRU80aEg5bXRHTXA2bm52czVGVDVEdWN1bk9qZ09tTVM0M3dISy14WTZDbG1GaUtyZnV1UnBRWkZ0UlB3ZzBJc2p1MDhJZ0RZWVBnVlVhOVhIeDBmRWtldWJoOEFFX1dSUmpBdXhuelgwMTVDT0F1SkxEaFB3QldNcVlQalBJelY3c3ZBRGZqVFo5dFRjRFY4RkJiT0J0Nk14dGdYUzI3ZDZ6VVJ2Q0N2TTRPUnc?oc=5",
-      "desc": "Сбер поможет развивать цифровые решения в Еврейской автономной области prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788501182.0,
-      "score": 69.9,
-      "russia_weight_bonus": 4.4,
-      "key": "139b677c3a51bc40b5cbcc7218f61befce1b37585c1ea8882b5452b6ef1c6391",
-      "importance": 69.9,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Правительство РФ: отечественные нейросети привлекут к образованию и проведению выборов - TelecomDaily",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaE5kSUlwdW5jb0FhaHVTSldZb2g2Q2VjcHN0MUItTzJHS3Q5UFVZMzBFUC0yZW82bDZfaW9yR3QtTFI5MVA5RXVzTlVuT1gtaHhPTW5fMlpKakdGTlA5d3p6YWNIVWFKa1NvLXpRYzBSX2pIRFRiU3V6bUJLdE94TmY4cGhhMkZkdEJOLWlRcjdRYkpXeDZoU1ZjMzNSM05sQnBqeUowQUpNZnNITmZES2V4aFhPdV9IU0FwTDRhSUwyYlpNd0E?oc=5",
-      "desc": "Правительство РФ: отечественные нейросети привлекут к образованию и проведению выборов TelecomDaily",
-      "source": "TelecomDaily",
-      "time": 1788501329.0,
-      "score": 69.7,
-      "russia_weight_bonus": 1.2,
-      "key": "de2ba6b72d78be9ff809eb81321a3b139e7432ae40adfc430785b9541b915c76",
-      "importance": 69.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
       "tier": "A"
     },
     {
@@ -537,23 +491,55 @@
         "chips"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Сбер поможет развивать цифровые решения в Еврейской автономной области - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRU80aEg5bXRHTXA2bm52czVGVDVEdWN1bk9qZ09tTVM0M3dISy14WTZDbG1GaUtyZnV1UnBRWkZ0UlB3ZzBJc2p1MDhJZ0RZWVBnVlVhOVhIeDBmRWtldWJoOEFFX1dSUmpBdXhuelgwMTVDT0F1SkxEaFB3QldNcVlQalBJelY3c3ZBRGZqVFo5dFRjRFY4RkJiT0J0Nk14dGdYUzI3ZDZ6VVJ2Q0N2TTRPUnc?oc=5",
+      "desc": "Сбер поможет развивать цифровые решения в Еврейской автономной области prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788501182.0,
+      "score": 60.4,
+      "russia_weight_bonus": 4.4,
+      "key": "139b677c3a51bc40b5cbcc7218f61befce1b37585c1ea8882b5452b6ef1c6391",
+      "importance": 60.4,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Правительство РФ: отечественные нейросети привлекут к образованию и проведению выборов - TelecomDaily",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaE5kSUlwdW5jb0FhaHVTSldZb2g2Q2VjcHN0MUItTzJHS3Q5UFVZMzBFUC0yZW82bDZfaW9yR3QtTFI5MVA5RXVzTlVuT1gtaHhPTW5fMlpKakdGTlA5d3p6YWNIVWFKa1NvLXpRYzBSX2pIRFRiU3V6bUJLdE94TmY4cGhhMkZkdEJOLWlRcjdRYkpXeDZoU1ZjMzNSM05sQnBqeUowQUpNZnNITmZES2V4aFhPdV9IU0FwTDRhSUwyYlpNd0E?oc=5",
+      "desc": "Правительство РФ: отечественные нейросети привлекут к образованию и проведению выборов TelecomDaily",
+      "source": "TelecomDaily",
+      "time": 1788501329.0,
+      "score": 60.2,
+      "russia_weight_bonus": 1.2,
+      "key": "de2ba6b72d78be9ff809eb81321a3b139e7432ae40adfc430785b9541b915c76",
+      "importance": 60.2,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788511943.0490625,
+    "last_start_ts": 1788512241.4030507,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788511943.0490625,
-    "last_success_ts": 1788511943.0490625,
+    "last_run_ts": 1788512241.4030507,
+    "last_success_ts": 1788512241.4030507,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788511945.6423082
+      "updated_at": 1788512250.1208782
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1945,10 +1931,16 @@
       "desc": "India's agentic AI payment plans - Asian Tech Roundup Computing UK",
       "source": "Computing UK",
       "region": "WORLD"
+    },
+    "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": {
+      "time": 1788512241,
+      "title": "Греф оценил влияние ИИ на ВВП менее чем в 1% - prospect.com.ru",
+      "desc": "Греф оценил влияние ИИ на ВВП менее чем в 1% prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1967,8 +1959,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788511223.1508448,
-  "last_publish_ts": 1788511943.0490625
+  "last_publish_ts": 1788512241.4030507
 }
