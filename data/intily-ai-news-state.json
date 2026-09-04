@@ -190,7 +190,8 @@
     "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9": 1788508523,
     "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21": 1788509361,
     "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788510139,
-    "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde": 1788510328
+    "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde": 1788510328,
+    "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": 1788510742
   },
   "known": {
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
@@ -377,22 +378,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Dream’s Cyber AI Tops Berkeley Benchmark as Specialized Models Challenge Frontier Systems - Technology Org",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMEdoOUZnQkI4OG16WHVYZnU1WjJ1eDFrQzJJMlluMmxQNE1faEQyMHM1cld1Wnd1YmVDMURBZXdpR09HUTg1bEZZb3BDTkRVdFl3T1E0cjBtY0NrRzRfRHJLRlp0S1RBTUFqTE1tMl8wdjg0Vzh4eXhwR3hMWXdDREN6R3lEbnJKN0VsRXRaTkx2NURHbWw2SjdTSW1OcmF4bnlQcXIxcEV4RnFpcWhYdzh0TDZkU19DRUNSMl9scUl2OE5rYUE?oc=5",
-      "desc": "Dream’s Cyber AI Tops Berkeley Benchmark as Specialized Models Challenge Frontier Systems Technology Org",
-      "source": "Technology Org",
-      "time": 1788504938.0,
-      "score": 67.5,
-      "key": "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcHNSdUdrckpadThCUlJiM3VaTFRJdzdIY09ZejkwbloxZ2IzdFJ5M1V4MDlZajdLMnpQU3BWMExBcmRpTndQSk50ZnRRTXhlS2Nycm92Y29YQThSeW91d05PODN0RDZWdnFZNTdVM0ZQaGZxUWplbk1YUC1FQkI2aFZOVWx1VlRLc0FPWW9qbmd5bVpCSzNPZEJZYjlHcHlCVC1rS1htQnZ6bmZBdnJsN2Nuci1xbkx1R2VGcEdUYmxZTjJrWFNndzU2cVp5RmFvWV9iUmxEVFY?oc=5",
       "desc": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab TradingKey",
@@ -533,20 +518,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788510382.1786177,
+    "last_start_ts": 1788510742.9793644,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788510382.1786177,
-    "last_success_ts": 1788510382.1786177,
+    "last_run_ts": 1788510742.9793644,
+    "last_success_ts": 1788510742.9793644,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788510331.622925
+      "updated_at": 1788510745.40737
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1896,6 +1881,13 @@
       "desc": "Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team WSJ",
       "source": "WSJ",
       "region": "WORLD"
+    },
+    "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": {
+      "time": 1788510742,
+      "title": "Dream’s Cyber AI Tops Berkeley Benchmark as Specialized Models Challenge Frontier Systems - Technology Org",
+      "desc": "Dream’s Cyber AI Tops Berkeley Benchmark as Specialized Models Challenge Frontier Systems Technology Org",
+      "source": "Technology Org",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1903,7 +1895,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1915,11 +1906,12 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788509361.5282607,
-  "last_publish_ts": 1788510328.6382802
+  "last_publish_ts": 1788510742.9793644
 }
