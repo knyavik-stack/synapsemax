@@ -285,7 +285,8 @@
     "0e0e31ffc22483dcf4b6c522f6d119c19845360b273ce256fd697112ff34f844": 1788539781,
     "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": 1788540022,
     "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788540261,
-    "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": 1788540501
+    "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": 1788540501,
+    "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": 1788540799
   },
   "known": {
     "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": 1788520820.733582,
@@ -508,23 +509,6 @@
     "cc2092572f8bda775a52b36203864cd6cc7049a25cf9466fdc7f2429fcab79c5": 1788539960.9653587
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Александр Ведяхин: Доступ ИИ-агентов к маркетплейсам поможет покупателям - Курс Дела",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaklUVEUxQUxFQ1V5T3l4Z0ZiOU01Y25MOUhFcUhMZjVPZ3lOTUtja2tQaTRxTV9hZjlRYkotVW1senVNa1NQYUxFbExhQ0hldkZfbFpXYVM5OWdSRjZsMWlSb2d0ZEJIbGxZX01zLUI4RzJBQ3dFeElHLXVObUthbjVwUEVHRmJHSGdBV0JLanlxSGlSNmZPSTJla2QtV2VySEhyclRkTzVaWDlOYWZ3di10aGdwcm5Zdm1N?oc=5",
-      "desc": "Александр Ведяхин: Доступ ИИ-агентов к маркетплейсам поможет покупателям Курс Дела",
-      "source": "Курс Дела",
-      "time": 1788538560.0,
-      "score": 77.2,
-      "russia_weight_bonus": 4.7,
-      "key": "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c",
-      "importance": 77.2,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "ИИ-агенты взломали сайт и сделали из него доску объявления для ИИ - Ruposters.ru",
@@ -758,20 +742,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788540681.2737126,
+    "last_start_ts": 1788540799.8872163,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788540681.2737126,
-    "last_success_ts": 1788540681.2737126,
+    "last_run_ts": 1788540799.8872163,
+    "last_success_ts": 1788540799.8872163,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788540507.33967
+      "updated_at": 1788540805.9288354
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2443,10 +2427,16 @@
       "desc": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ MarketWatch",
       "source": "MarketWatch",
       "region": "WORLD"
+    },
+    "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": {
+      "time": 1788540799,
+      "title": "Александр Ведяхин: Доступ ИИ-агентов к маркетплейсам поможет покупателям - Курс Дела",
+      "desc": "Александр Ведяхин: Доступ ИИ-агентов к маркетплейсам поможет покупателям Курс Дела",
+      "source": "Курс Дела",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2465,8 +2455,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788539960.9653587,
-  "last_publish_ts": 1788540501.7794514
+  "last_publish_ts": 1788540799.8872163
 }
