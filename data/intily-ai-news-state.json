@@ -261,7 +261,8 @@
     "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": 1788532282,
     "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a": 1788532522,
     "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136": 1788532764,
-    "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": 1788533000
+    "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": 1788533000,
+    "89146aebec7fe909514a515faf742bed9616b0ad585fa51d22c3371bd9247f01": 1788533242
   },
   "known": {
     "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026.6221929,
@@ -499,22 +500,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Are our AI agents turning rogue? - SC Media",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsTXVDQU9HWXgxaEc2ZVU5MS1wS0RBeWpSNWxpQnhrZHhYUWd5akViNU9pUlZ3Ri1DMXUtbzZqMk1ac25zUXlJMGhkSEg2dkN2VXJWZ3FGTXlnU2M3VVZwaThuQklXem01dmtlRFo5Q0NtcmExd0E?oc=5",
-      "desc": "Are our AI agents turning rogue? SC Media",
-      "source": "SC Media",
-      "time": 1788532043.0,
-      "score": 70.5,
-      "key": "89146aebec7fe909514a515faf742bed9616b0ad585fa51d22c3371bd9247f01",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "«Использовать ИИ только ради моды мы не будем» - kommersant.ru",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Qa0lOcW01ZTZEV3RIX1hXa3ljOHNCNmg4Ym0tU3BTbWtmZXlEOU1QSHRhV2cwNkxUTjB5bk9fZlo5bXZxZHBYY2RaYzlyZw?oc=5",
@@ -709,20 +694,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788533062.6708722,
+    "last_start_ts": 1788533242.8878882,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788533062.6708722,
-    "last_success_ts": 1788533062.6708722,
+    "last_run_ts": 1788533242.8878882,
+    "last_success_ts": 1788533242.8878882,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788533017.0412433
+      "updated_at": 1788533248.8234088
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -736,13 +721,6 @@
     }
   },
   "stories": {
-    "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": {
-      "time": 1788446711,
-      "title": "Anthropic and OpenAI Launch Advanced AI Models Amid Cyber Risk Concerns - Readers.id",
-      "desc": "Anthropic and OpenAI Launch Advanced AI Models Amid Cyber Risk Concerns Readers.id",
-      "source": "Readers.id",
-      "region": "WORLD"
-    },
     "432e252e30e5aedf73991d69572f2ee760abc7ddf25106f9f1e5494bf4ba0eb7": {
       "time": 1788447070,
       "title": "Meta Muse Spark 1.3 Launches with Better Coding, AI Agent Skills - Analytics Insight",
@@ -2422,10 +2400,16 @@
       "desc": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI expert.ru",
       "source": "expert.ru",
       "region": "RUSSIA"
+    },
+    "89146aebec7fe909514a515faf742bed9616b0ad585fa51d22c3371bd9247f01": {
+      "time": 1788533242,
+      "title": "Are our AI agents turning rogue? - SC Media",
+      "desc": "Are our AI agents turning rogue? SC Media",
+      "source": "SC Media",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2444,8 +2428,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788532400.983643,
-  "last_publish_ts": 1788533000.7863958
+  "last_publish_ts": 1788533242.8878882
 }
