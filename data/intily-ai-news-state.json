@@ -515,9 +515,55 @@
     "1b17efd0d95ff36d7014d9dbd3c23ff5e2f0d29948dbecf219705b70043babf9": 1788542062.023784,
     "22e9252334987a85ef69c64f05b2931a43a66167bce3dc07e0fb2e5ce5718662": 1788542062.023784,
     "9aaee991763752b3d48f876c6d710c67c1194c117121817ff2d2ddde8180ae5e": 1788542062.023784,
-    "dfa96c3499273e9f639349df2895dd2f9da83431d7698e726ea44f40cc8896ba": 1788542062.023784
+    "dfa96c3499273e9f639349df2895dd2f9da83431d7698e726ea44f40cc8896ba": 1788542062.023784,
+    "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788543864.4841003,
+    "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": 1788543864.4841003,
+    "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580": 1788543864.4841003,
+    "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862": 1788543864.4841003,
+    "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": 1788543864.4841003,
+    "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": 1788543864.4841003,
+    "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": 1788543864.4841003,
+    "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba": 1788543864.4841003,
+    "b461a6f4a06f05ddc514c065c34840f8dda7bef8192853618f25d5d4cc400d64": 1788543864.4841003,
+    "ee72ff0797ae170fcf091f653cc93ca2ea1e53c0792057d102140c6b330f7ed3": 1788543864.4841003,
+    "c5afdce1b2577f51925560ee1020169f6399f90ff63adbe510d48bf62ace5c65": 1788543864.4841003,
+    "b4c528ac22abd4cd02b8d3d49c3135fa2439f9c983391b723f98f1c1e09b52bf": 1788543864.4841003
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Орешкин предостерег от преждевременного регулирования ИИ - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ01vWDlxZGVvWGU5VXJES2p2Y1d2anBaZGhLMDltdG1RMld1X2xORXowdTg0bWZKaWRsTkd0NDdTT3QzTFFRR1lzaFNlckhvRlhvRFVGeUpySzRuU0ZHY3RLT284eEhUTFFZN0pYUjhVc0RSNEY2TGR6aG4zZVdDLUJqYUNzQlVYSHJaQWxVRXNQeG5CZ2hqUGN4ZVlBRV9XdlE?oc=5",
+      "desc": "Орешкин предостерег от преждевременного регулирования ИИ prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788542543.0,
+      "score": 74.6,
+      "russia_weight_bonus": 2.1,
+      "key": "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f",
+      "importance": 74.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "‘Artificial Gooner Intelligence’: Claude AI Coding Agent Lands on Adult Website During Debugging - LatestLY",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRk9mNWZCX3c3d0hjLXo2akFqcUpUX1Jhdjh6OFBUQ2gwTFB2Q01XZ25IY1FNbnV5V3JJb0NfVXpLemthbk02THdZU2VQZGQwOU9adUdzNExRUkxpTU4tYjJ0MTczVmxWSXVDQWJOazNtWGNVQVNnZThhb1ExU3lMaEZWbmc1U01HZml4M2JhcU0zV1FjZHk3Nm5oSnNIa21YUWQxZ1hadVNfRVFtd043WEZCS05mZlpJaC1vMjczUGlIZ1hBSmI2YzZmcW9LMnVBMzVRRlRZbWFNQdIB3wFBVV95cUxObklORXgtVjJJcV9vMm1tSldkRXNma0FGUEFTWllJZVd4SmZ0U29sb2dEU092cGtfRXdlZDF4X2hvX1UwX29EVHRoajJnVEl6Nkh3NVZCbkpDWWFNTDRzZjF5TVNpZ1F5TnV5czJNVVJ2SVFrOGtWeHEtUUNUWkpjZU9CUmJsMTcyNjF5TEtqU1ZpRGhJVzhDRFRCMUpzNmhRZDY5c1BucV9IOUUyRXNEUFVvQ0lZTmxqZC0xSFBVZWY4cTVMeGJGdVFiNlZxb0FZS1ViV1VqNEFIVjZBcWRn?oc=5",
+      "desc": "‘Artificial Gooner Intelligence’: Claude AI Coding Agent Lands on Adult Website During Debugging LatestLY",
+      "source": "LatestLY",
+      "time": 1788542078.0,
+      "score": 73.5,
+      "key": "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1",
+      "importance": 73.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "models"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
@@ -533,6 +579,21 @@
       "topics": [
         "agents"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова - Smart-Lab",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hbWsyUmtBUzV4LWtLSnhyWXFkU3dvRU9kUHZZX0F0MDk4aDNTMThVckpLZjUxNUVnX0ltc1FHRDBrR2U4QUVsNU84LTE4dw?oc=5",
+      "desc": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова Smart-Lab",
+      "source": "Smart-Lab",
+      "time": 1788540415.0,
+      "score": 73.4,
+      "russia_weight_bonus": 4.9,
+      "key": "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580",
+      "importance": 73.4,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -566,6 +627,54 @@
       "editorial_value": 50.0,
       "topics": [
         "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах - BFM.ru",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBlblRsTmJXV0JoS0ZENmFKSlRBR1FmWHZCTVJ4dXJCSHE5NmpsOVRBZXQ5REFhcDIzMTJ4R0VFZnBTWHpO?oc=5",
+      "desc": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах BFM.ru",
+      "source": "BFM.ru",
+      "time": 1788542306.0,
+      "score": 71.6,
+      "russia_weight_bonus": 3.1,
+      "key": "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862",
+      "importance": 71.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONm43WlNueFl4bUFlUVhYS2E4RE55NkRWMUFOUzVVdTRzUGVidjYyS1p4M2tTSE96dkhaQ1p2VFZ6ZmZMck1XZTJwLUFyUDNjT0JyRXB5VkdwOUQzY2U5TFN2NU9VcWdzbUVkTWFsaFREYkFCbXBPNTAtdUhJMFh5d1FTVk40cGhhemxGWjFEbDZidDBXZmR6QklPb3hWa2ptSWZTQkdqd29aNk5jYjZjSHV5VU1ZaDBEMWtqTHFfbFlZaEEtSEVrcEgyN2NNcmhuU1VfWA?oc=5",
+      "desc": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788543156.0,
+      "score": 71.4,
+      "russia_weight_bonus": 2.9,
+      "key": "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946",
+      "importance": 71.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Broadcom predicts AI chip revenue to double in 2027 - Fierce Network",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZU5adGJhTEhpMkt6RVdkX2JSWUNLamhkallaUGgxOG1WQ19lR3pVYk9HQkppUW1YQ2RGVk5HVHEwTFZhMzFVMDlPLVp2d28xRXdfZlpxa2Nady1JYjk4dmFBTXJJOWx3UXpWZGVlUDdnUldIZ0ZwekdvTmdiS0ZJVGNCcFg2SkJSWHltZ3BMRQ?oc=5",
+      "desc": "Broadcom predicts AI chip revenue to double in 2027 Fierce Network",
+      "source": "Fierce Network",
+      "time": 1788543650.0,
+      "score": 70.5,
+      "key": "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
       ],
       "tier": "A"
     },
@@ -612,6 +721,22 @@
       "importance": 67.8,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbWlOQUt6amFrN2I0aGR0dnVzTFY3ZWxCaXhwdVlJN2c4SHplaFNtRmlUaGVqX1BLNmZQMVp1ckRfYWlTUFhCZVlmRDhLYzJEM1NwNnhaeUc3ODNFanQyclZ4ZzdjcHhCS0ppNnNPYl8wWjNNMzhVczZZZjA1QTRWeElBdjE5N2F6WE9sUU1nb0hpdkE?oc=5",
+      "desc": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access Unite.AI",
+      "source": "Unite.AI",
+      "time": 1788543481.0,
+      "score": 66.5,
+      "key": "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
       "tier": "A"
     },
     {
@@ -673,28 +798,31 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Generative AI Jobs Are Growing Faster In New York City Than The Traditional Tech Hub - WNBF",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9panZINVRicmJpQV9lQ0JOcnRfRk93MS1Nelp0RDdxd0JIQVdEN0FKdGpKMzB6NkV6NTMzYTBNQ1FKdXhIOUcxdE13ekZ2VG1OSGQzNlI5WUI?oc=5",
-      "desc": "Generative AI Jobs Are Growing Faster In New York City Than The Traditional Tech Hub WNBF",
-      "source": "WNBF",
-      "time": 1788538680.0,
-      "score": 63.5,
-      "key": "972e1ae77954c1838c11da48683c48ae898cee3d064215e3777e89275890ed2f",
-      "importance": 63.5,
+      "region": "RUSSIA",
+      "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2twcWNCWjc3MmNfRG9aUDB2anhneExlRTVhRkdzOGJzaF9vZUxyc1V3VFlxaTRyZW5lSmxyNExOMzBsYWN4S2xydTBMQWlFby1BeWhkdTlQSXdJTWFTZjFlUXlYMHZBTEQteWxEVWpXbUdZTFdtbFg0UHdHem5vdDRQVmwtVk5VbEJzaEI1MjZORmVVRW93a192czJ6SG4td2Nob0xNYXJaS3BaSlByV0Q5SlAxY0tGcWRRTHVZSi1taFZtSXkyYmloZzJISmJxMVU0?oc=5",
+      "desc": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788528130.0,
+      "score": 64.3,
+      "russia_weight_bonus": 4.3,
+      "key": "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba",
+      "importance": 64.3,
       "editorial_value": 50.0,
-      "topics": [],
+      "topics": [
+        "robotics"
+      ],
       "tier": "A"
     },
     {
       "region": "WORLD",
-      "title": "OpenAI's Greg Brockman says he ‘could not do it without his wife’; the woman helping him survive the worl - The Times of India",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxObHhFSkFRWDhDcVdFcGJuckFwWlNNdmtQQXMxMUF0RFBvYjZGNUllMnl3QVMySnRkaVVGTmx4QlAxeFZKYnN6Z2dNYjNKSHdVQ3BCWnQ4R3lLUnBDUVdNX0F6X0ZqVG1ValJ2U2Z0R0ZCV3ZXdDBCSUotbU5udzlCenJvQndxakFHU3hOWjUyNzRZdC1XMGpMNFUxb2U1WlNieXZaT0ZnOU56cXZSWHVxLXBka1g4cC1ONnpkbzlNeTR4RW50bWtzQnphbUJjOWM1TGtKNHY0SkdOcVg3VFVkQ1Vhc2EwMDVUMjlfd3J0MGcwMHN0TXd0MDg0V181WlplNjI2ZHFSV3FEUm9YLWxxOWVKNEZHNWlna05xSXVBSkFzM1JhaFIzMXB30gGvAkFVX3lxTE9jbFZ5dkNWaV83ZnBmM01RaU50anVNOFNJUlRHa0Rsa3JuRXVJSExTWmNzQ2hpTkVKbXZJU2pQSk8xZTRETzBnSlFGNlFncFN4NU1Zem9URDZpalJsd0V0VHkyVHRja2JlTjJ6VExUdlFOWlV6aXc5VU51ODRiMFNvdVdSclh3RWFiT3FuQXZWd0xBWEVKVllCRHNZc3VfemRYZFc4REUza0RhdHR1dnd2eU9sQVFydUd6Rk1BNXJVeV95VW56VXJiY0JaTTBxNEgwWUhuaVV5QkQ3blVRQjRBM2VaS3NiMmlBeVZHbXhxbVVJX2JkNEh3ajgtQkNINXJ2NkhUYW8zbXZ4Y0hTcFZjQW5veEFrdGh3dXAxQzg0RVp5Nm1WTmpzSU5RWWItWQ?oc=5",
-      "desc": "OpenAI's Greg Brockman says he ‘could not do it without his wife’; the woman helping him survive the worl The Times of India",
-      "source": "The Times of India",
-      "time": 1788538260.0,
+      "title": "Artificial Intelligence - AI Update, September 4, 2026: AI News and Views From the Past Week - MarketingProfs",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ3hqWHVjcE4xSUs3SjZWMnR3TEhGYjkwZE0tZlp5UlViRmtsQ1FEbk8xV2dOZUppQUJiOUFYN1lHbTBQbVRrTGduTWdsNVZmSDBhR3UzZl9rTHl1UXZXdm5LalZsTkRzY01hNktITVUydWJIamlNRjJ3T2VxcmVIR1VlTElYcTJ0ZmdzZEtRM3ZzcjZoSHo2M0M3cmd3ZFNfQ04wODVwbnI0enFBbU5PT3lRWU8?oc=5",
+      "desc": "Artificial Intelligence - AI Update, September 4, 2026: AI News and Views From the Past Week MarketingProfs",
+      "source": "MarketingProfs",
+      "time": 1788538773.0,
       "score": 63.5,
-      "key": "5d92d6aa1b237c815e9c7d93df759e433e61d822a134dbe28a1f04ccad87da5d",
+      "key": "b461a6f4a06f05ddc514c065c34840f8dda7bef8192853618f25d5d4cc400d64",
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -714,47 +842,17 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ИИ поможет медицине перейти от лечения к профилактике - Наука Mail",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45YXBGc2xUcF83Tk5vQlp3LVVVR2NqbFNhSTZIampuR2I0eUQxRkNOSExhdGtKcXFpeDV5YjhSTmVzNkJjcHVjeXR6SzJuVndmSkpHOHZnazNISGN1SzZwcE9kX0RwOUFwcy1HMzF5dFBMSU5JaXlISG9LOUVEZw?oc=5",
-      "desc": "ИИ поможет медицине перейти от лечения к профилактике Наука Mail",
-      "source": "Наука Mail",
-      "time": 1788525196.0,
-      "score": 60.4,
-      "russia_weight_bonus": 4.4,
-      "key": "1b17efd0d95ff36d7014d9dbd3c23ff5e2f0d29948dbecf219705b70043babf9",
-      "importance": 60.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Почему в Госдуме выступают против тотального запрета ИИ? - Amic.ru",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVEs3T01iLW9MLXlYbEE2cUFEVWU5b0xTOWx2V2xqcXM2MEY0WTdlY1VTVGtNRjJIbkVNS1d0SUtpd0NLS29KakxDRm0tQXVDNER4VG1XZGpCM1FhY0FnQV9VODNGRUZkbjBTLW1jMjIyNG9ZM180T01FUDFxN2xjOTdpaUtCS01HNUZvdF9ZVdIBS0FVX3lxTE5KYUl5RWwyNWk3V2JCcFRWTDJyeXpFeDNROWhVaUN3MFg2MHRHa1JKMlc5bTVHWV9WQVdLRXlnYTN1SXZTX19EaTQ0SQ?oc=5",
-      "desc": "Почему в Госдуме выступают против тотального запрета ИИ? Amic.ru",
-      "source": "Amic.ru",
-      "time": 1788526320.0,
-      "score": 60.2,
-      "russia_weight_bonus": 4.2,
-      "key": "22e9252334987a85ef69c64f05b2931a43a66167bce3dc07e0fb2e5ce5718662",
-      "importance": 60.2,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788543759.8662026,
+    "last_start_ts": 1788543864.4841003,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788543759.8662026,
-    "last_success_ts": 1788543759.8662026,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 15
+    "last_run_ts": 1788543864.4841003,
+    "last_success_ts": 1788543864.4841003,
+    "last_candidates": 111,
+    "last_published": 0,
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -2435,6 +2533,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788542062.023784,
+  "last_search_ts": 1788543864.4841003,
   "last_publish_ts": 1788543759.8662026
 }
