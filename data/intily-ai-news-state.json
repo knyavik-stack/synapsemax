@@ -233,7 +233,8 @@
     "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": 1788523099,
     "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42": 1788523400,
     "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": 1788523761,
-    "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15": 1788523941
+    "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15": 1788523941,
+    "e9cb8275699679558d13d64a16305d338e2b386ddb502fdb41b98acdfe359c45": 1788524122
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -352,23 +353,6 @@
     "873757138a4e2ad16ebc0e74bf4e543d040382b75dcde3e24ceea6cb6f97befc": 1788522622.0770597
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "IT-бизнес выступил против платы за использование авторского контента для ИИ - новости Право.ру - ПРАВО.Ru",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE95d3dlRGdfSzlyY1c4UUFlaTZfWjRVUHJiS1lmZERaZm5MY2M3RVhjQzI0QkZ4RWxBMTl6ZzdHTXd4TW_SAUhBVV95cUxQcnJIUFhWSVpheUNob2lxLUFhNG1VOHVRTjNfQ0V1YnNpajBLWVN4MkZ1OEVJTW4xQWRQd0M1eGptSThPdm9PelU?oc=5",
-      "desc": "IT-бизнес выступил против платы за использование авторского контента для ИИ - новости Право.ру ПРАВО.Ru",
-      "source": "ПРАВО.Ru",
-      "time": 1788521397.0,
-      "score": 75.6,
-      "russia_weight_bonus": 4.1,
-      "key": "e9cb8275699679558d13d64a16305d338e2b386ddb502fdb41b98acdfe359c45",
-      "importance": 75.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "LLM в корпоративных процессах: как выбрать сценарий, который окупится - VC.ru",
@@ -572,20 +556,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788524061.608095,
+    "last_start_ts": 1788524122.618942,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788524061.608095,
-    "last_success_ts": 1788524061.608095,
+    "last_run_ts": 1788524122.618942,
+    "last_success_ts": 1788524122.618942,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_published": 1,
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788523984.8163931
+      "updated_at": 1788524125.47841
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2236,11 +2220,17 @@
       "desc": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies CNBC",
       "source": "CNBC",
       "region": "WORLD"
+    },
+    "e9cb8275699679558d13d64a16305d338e2b386ddb502fdb41b98acdfe359c45": {
+      "time": 1788524122,
+      "title": "IT-бизнес выступил против платы за использование авторского контента для ИИ - новости Право.ру - ПРАВО.Ru",
+      "desc": "IT-бизнес выступил против платы за использование авторского контента для ИИ - новости Право.ру ПРАВО.Ru",
+      "source": "ПРАВО.Ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2258,8 +2248,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788522622.0770597,
-  "last_publish_ts": 1788523941.923524
+  "last_publish_ts": 1788524122.618942
 }
