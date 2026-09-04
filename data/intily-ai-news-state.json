@@ -254,9 +254,90 @@
     "7513621c37c002cff35f835a8af9357bf1d275f1edbec37ee5f2eb34e7dd6b19": 1788482453.6053247,
     "e04edfd78bea1b1b88e34dcf1315084add394445f2eff071544974ada7001ef9": 1788482453.6053247,
     "a407c36525d19cf138af964f8cdc3ea4b999e7b707281d1e1b2e5fba5c725d0f": 1788482453.6053247,
-    "8722e24132beb67d37198ba5f0a8d7b632f7cf8e7d06e439f5a3965ab76a973a": 1788482453.6053247
+    "8722e24132beb67d37198ba5f0a8d7b632f7cf8e7d06e439f5a3965ab76a973a": 1788482453.6053247,
+    "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": 1788484314.51329,
+    "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": 1788484314.51329,
+    "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788484314.51329,
+    "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": 1788484314.51329,
+    "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788484314.51329
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "Comcast Unveils Next-Gen Video AI Applications - Content + Technology",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLUZwbTZWLXNpWkIxMkt1RHFmV2RIVGtzTGRNZklORHk4QnR5REhNdlJBeFRnWlFweURvVk1sVVFQNnJFUGhteXYxUFowTGpHZzN0V3g3TUxGTVQwdC1BM0FRUFhYNjFieFBUZWYyZWlkaklBVkIzSTl5LTAtdjBYbV9lWV9DbXd0dmc?oc=5",
+      "desc": "Comcast Unveils Next-Gen Video AI Applications Content + Technology",
+      "source": "Content + Technology",
+      "time": 1788483209.0,
+      "score": 69.5,
+      "key": "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AIX Deepens Anthropic Bet as AI Portfolio Nears 60% Deployment - TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGszWGRXUm05dllSQk1hUVg0SXgzQVkzTkRESFJjR0RpUjE3N19vc2NsbFNUNWJXSmR1eERYY3V1SXcwQU8wWEdKeVMzYmlhUVlKSDJyOXBDRkdvU0hON19XUHRvZkJ4VWw5MXRJeFhfc1pJQlgyQ1REOTgtaEEyY2tOZDdQOW1LbVNBcXJxOXhOUmNhSkZrWHdMZWRlRV8tWVpCaGJQeXdULU5JX3RhU3o3UQ?oc=5",
+      "desc": "AIX Deepens Anthropic Bet as AI Portfolio Nears 60% Deployment TipRanks",
+      "source": "TipRanks",
+      "time": 1788482474.0,
+      "score": 69.5,
+      "key": "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic Chief Commercial Officer: No Price War—Focus on Enterprise Value and Pre-IPO Financing - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BRUF4V2I2QmRYcUk0cmZLQmhjUkxyU05sTlhodzdtcWNzUDUzUVFESk5zblY3eVVFdEx3bGcyRE5RM3lyQ0F3aGVKcW5NUHRyNXVPMXBmY2U4TmRTVnNUcXM1bXk5dVhJSzRUd0N5VXEzSFpESHc?oc=5",
+      "desc": "Anthropic Chief Commercial Officer: No Price War—Focus on Enterprise Value and Pre-IPO Financing finance.biggo.com",
+      "source": "finance.biggo.com",
+      "time": 1788482160.0,
+      "score": 69.5,
+      "key": "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Telestream AI-Boosted Resolution Upscaling Powered by NVIDIA - Content + Technology",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVW55cGpfYTJmRGJpTU90WTYtN3hLLXFmaXJIMFRkcGEtQW9DbUxVbkVTQnJXRmVhbHNVSWdFRF9HY0UwelVzRVItLUlKQW1LcGJlemtnbm5nNXJMTDl5OUhrcmxERWtCMG9wekk4UlFfeldmWG5Dc2xxMFFqMUtyU0p2NDR1c214bWJSTFpZVFBNZHpPbTlDZjdVeHg?oc=5",
+      "desc": "Telestream AI-Boosted Resolution Upscaling Powered by NVIDIA Content + Technology",
+      "source": "Content + Technology",
+      "time": 1788484050.0,
+      "score": 66.5,
+      "key": "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data - retailnews.asia",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR3V4VEtXZlQtTWNLcnZ1M1I0OEhkYVllbnl5RG5UeV9heXlqem1odVpRZlloUW5XS3E1S1llMDZpWUpGaUE3c2tfQmp0ZDZkWVE3a0NtbGtyNmdUSFlRTnh3Y1JicXk0WDIyaEtKMkprZGpMcFJ3WkxwSkd6UEZXM2lWOW5JaTg0WFhFZmF1dGV3WDhxTWdBX3RBR3FhTHFjNWV4QlVSNEU?oc=5",
+      "desc": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data retailnews.asia",
+      "source": "retailnews.asia",
+      "time": 1788482033.0,
+      "score": 66.5,
+      "key": "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "The turbulent AI era is here. The choices we make now are critical. - gatesnotes.com",
@@ -393,14 +474,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788484192.8834536,
+    "last_start_ts": 1788484314.51329,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788484192.8834536,
-    "last_success_ts": 1788484192.8834536,
-    "last_candidates": 0,
+    "last_run_ts": 1788484314.51329,
+    "last_success_ts": 1788484314.51329,
+    "last_candidates": 69,
     "last_published": 0,
-    "queue_size": 8
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
@@ -1444,6 +1525,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788482453.6053247,
+  "last_search_ts": 1788484314.51329,
   "last_publish_ts": 1788484141.3092442
 }
