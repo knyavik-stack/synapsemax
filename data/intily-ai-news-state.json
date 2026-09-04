@@ -153,21 +153,10 @@
     "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": 1788487613,
     "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788487794,
     "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": 1788487975,
-    "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": 1788488334
+    "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": 1788488334,
+    "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": 1788488697
   },
   "known": {
-    "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049.748359,
-    "f44d3b7105c1c9b32377fa315a8a1ef3505e1d7927298fb1757b2bf8be0e0a69": 1788467049.748359,
-    "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": 1788467049.748359,
-    "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": 1788467049.748359,
-    "38f9f630db3e8ee9087909472db1e3ef7d30fbba33ecbe213c320e52f2849e8a": 1788467049.748359,
-    "d6abdc9cf46eb6fc72d7ccfdeb14b90136fdb755da62454d0ce4434249f4bde6": 1788467049.748359,
-    "c2b89c5bfbf5dc782bdbc83f285fd6abfefcd2d50979bfe5486e5182c29f0377": 1788467049.748359,
-    "b2966e89948025be6fe45f9738bfd1d1cb07c4fbac60318edb7bfe5e58d32efd": 1788467049.748359,
-    "7e067c1c822bf614b2fe8f3e8fa18c6255bd02602f5992ad0009d9e59d81ff54": 1788467049.748359,
-    "042026896a9789a07ee28cde5714de1623e3cb79b5d776838395e526fbee7964": 1788467049.748359,
-    "049679854a9bb60fb76919f78914435917858c3053c3bc1c37025dbab708b82c": 1788467049.748359,
-    "744b5ea451d29219ba8170df3dda180f29e9f1269bfa32eb977d3c870a769d64": 1788467049.748359,
     "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": 1788468853.2378092,
     "37e5968466a93a75428b1a41b34893e2b97891aa722b2e19202dbafe83019aa7": 1788468853.2378092,
     "558675885987d82b720f2099d5945d2764134960531c6cb8590358018f46b494": 1788468853.2378092,
@@ -266,23 +255,11 @@
       "topics": [
         "tools"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Major AI platforms suffer outages - The Express Tribune",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNSHljS2ZZTTRVQVE3T1RZdTdtODJkY3FWWlpiVGx6YTNqUGJnWmdIS2wxdzJQcHQwODRqbmtVZkFhb1lFY1JVdFZOWk1XNGswS2g1YUV1NENWRFQxcWl0WG1XU1diU3NHTUcxY1BRN0h1U2RnLTJxb2ln0gGCAUFVX3lxTFBPYTNxU1VUVF9vOElrb2M0MEpxM3Juc2J5cHlSdlVCemJ5OEFuMTI1Z2RoMTNQOFB6RzgxUm9WS25GbThac1lYM01YVjdCeHVHdHhHTXVzZkgwMGxsZUNhUk02SDVfcXNjeGs4Mm1GSENaZUZ5R1pEWkRTblptR2RsdWc?oc=5",
-      "desc": "Major AI platforms suffer outages The Express Tribune",
-      "source": "The Express Tribune",
-      "time": 1788485488.0,
-      "score": 69.5,
-      "key": "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788488697,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788488997
     },
     {
       "region": "WORLD",
@@ -312,23 +289,6 @@
       "topics": [
         "business",
         "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Боится солнца и любит морщины: как живет блондинка из «Детективного агентства ''Лунный свет''» - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYmE4cVNxVVBwcVpKSGJ3ZWFRNTQ1Y0VycUhvYXYyS0lDdVN0U2hnemZGS0k2RU9QajVhOFdLQlZ4Q0lhTUdRZDlocHZvRWpMQVdaZ2E2cU5WaDkwYnRVUDdvZC1sTVpuSzNqdzBvWEhMT3FLamRMTVRtLVc4aTZWMlhwR0RBNFJuM09iNldHZmRVckt5V1JsNWs5ZXZ5Z0RmdFNvMjZ3Q25nam9tRHM0aUxYd2xKWDdVOWZtN3NZN1R0cEpkZU96QWZ5cFZWaUk?oc=5",
-      "desc": "Боится солнца и любит морщины: как живет блондинка из «Детективного агентства ''Лунный свет''» prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788466926.0,
-      "score": 61.7,
-      "russia_weight_bonus": 1.7,
-      "key": "5fe867a9dd004bf7bbc5ed055a4505f9c29018c9e22df0d982b1db03ccd15c2c",
-      "importance": 61.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
       ],
       "tier": "A"
     },
@@ -419,20 +379,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788488334.270186,
+    "last_start_ts": 1788488697.5477803,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788488334.270186,
-    "last_success_ts": 1788488334.270186,
+    "last_run_ts": 1788488697.5477803,
+    "last_success_ts": 1788488697.5477803,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 10
+    "queue_size": 8
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788488337.3274434
+      "updated_at": 1788488702.6844451
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1523,12 +1483,19 @@
       "desc": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding IDC | Trusted Tech Intelligence",
       "source": "IDC | Trusted Tech Intelligence",
       "region": "WORLD"
+    },
+    "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": {
+      "time": 1788488697,
+      "title": "Major AI platforms suffer outages - The Express Tribune",
+      "desc": "Major AI platforms suffer outages The Express Tribune",
+      "source": "The Express Tribune",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
+    "RUSSIA",
+    "RUSSIA",
     "WORLD",
-    "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1548,5 +1515,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788487975.2950916,
-  "last_publish_ts": 1788488334.270186
+  "last_publish_ts": 1788488697.5477803
 }
