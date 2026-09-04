@@ -250,17 +250,6 @@
     "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": 1788528862
   },
   "known": {
-    "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788507323.0378804,
-    "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": 1788507323.0378804,
-    "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc": 1788507323.0378804,
-    "69f66e1dce7410a63189f8a91065208dcd28f2e035afca03bb728fb8fc72f14f": 1788507323.0378804,
-    "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9": 1788507323.0378804,
-    "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde": 1788507323.0378804,
-    "806b1e556eb49ff75c31a89a52e7c734a0f584e1b9c388c74e6ab728d8ce01a5": 1788507323.0378804,
-    "507d1aa7359e57203ae617caf7266d80de108ad6c1547dc1d71e70096b12af1c": 1788507323.0378804,
-    "4f59a7e4cc67ad6fd8c341d6d0da488158a8f14272d324b18929973f861dea74": 1788507323.0378804,
-    "79a9aad9d12a146111e530186aa2d03bb48ee914488456ee80add38506065fe6": 1788507323.0378804,
-    "397471c6738b39e3fd7bfed5bc0613bfd857a7bd92b7f50bd4502be896dc2f81": 1788507323.0378804,
     "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788509361.5282607,
     "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": 1788509361.5282607,
     "b58a0f355301e36e6c7b874466f4220ac29a73adb8b5ba9dcb1c0475bee98555": 1788509361.5282607,
@@ -731,13 +720,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788528862.1569233,
+    "last_start_ts": 1788528980.172274,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788528862.1569233,
-    "last_success_ts": 1788528862.1569233,
+    "last_run_ts": 1788528980.172274,
+    "last_success_ts": 1788528980.172274,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 19
   },
   "providers": {
@@ -758,13 +747,6 @@
     }
   },
   "stories": {
-    "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": {
-      "time": 1788442570,
-      "title": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption - openPR.com",
-      "desc": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption openPR.com",
-      "source": "openPR.com",
-      "region": "WORLD"
-    },
     "643c03a5f66e3592a91067283431d4272384807fa5be538e566f1735410ef38b": {
       "time": 1788442761,
       "title": "Как руководителям автоматизировать бизнес-процессы с помощью AI-агентов - companies.rbc.ru",
