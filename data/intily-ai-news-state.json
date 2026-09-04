@@ -822,13 +822,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788542062.023784,
+    "last_start_ts": 1788542239.328903,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788542062.023784,
-    "last_success_ts": 1788542062.023784,
-    "last_candidates": 110,
-    "last_published": 1,
+    "last_run_ts": 1788542239.328903,
+    "last_success_ts": 1788542239.328903,
+    "last_candidates": 0,
+    "last_published": 0,
     "queue_size": 19
   },
   "providers": {
@@ -849,13 +849,6 @@
     }
   },
   "stories": {
-    "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612": {
-      "time": 1788455712,
-      "title": "IBM (NYSE:IBM) Expands AI Tools to Strengthen Business Resilience - Kalkine Media",
-      "desc": "IBM (NYSE:IBM) Expands AI Tools to Strengthen Business Resilience Kalkine Media",
-      "source": "Kalkine Media",
-      "region": "WORLD"
-    },
     "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84": {
       "time": 1788455899,
       "title": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов - Компьютерра",
