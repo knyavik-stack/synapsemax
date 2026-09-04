@@ -195,7 +195,8 @@
     "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": 1788510982,
     "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": 1788511223,
     "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511460,
-    "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b": 1788511641
+    "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b": 1788511641,
+    "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": 1788511943
   },
   "known": {
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
@@ -444,22 +445,6 @@
     },
     {
       "region": "WORLD",
-      "title": "India's agentic AI payment plans - Asian Tech Roundup - Computing UK",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHFhQndHclUwdnJSSFhDOWdDb25BdEp5Wmhlemd1VURUbW1fTHo3ZWNPZWRGUUpUYWJBcVltZTk0REtuclZzQ1Q3VWNLWGdXU1h4M05qZDZBUnhQUEVhWjRTLTBNNnFJcWl1cy1NRUliLWlEd0VRLS11MjBOTDBJc093ZnJuZmNqM3p3T1RONGFtVjRZenJV?oc=5",
-      "desc": "India's agentic AI payment plans - Asian Tech Roundup Computing UK",
-      "source": "Computing UK",
-      "time": 1788506895.0,
-      "score": 67.5,
-      "key": "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcHNSdUdrckpadThCUlJiM3VaTFRJdzdIY09ZejkwbloxZ2IzdFJ5M1V4MDlZajdLMnpQU3BWMExBcmRpTndQSk50ZnRRTXhlS2Nycm92Y29YQThSeW91d05PODN0RDZWdnFZNTdVM0ZQaGZxUWplbk1YUC1FQkI2aFZOVWx1VlRLc0FPWW9qbmd5bVpCSzNPZEJZYjlHcHlCVC1rS1htQnZ6bmZBdnJsN2Nuci1xbkx1R2VGcEdUYmxZTjJrWFNndzU2cVp5RmFvWV9iUmxEVFY?oc=5",
       "desc": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab TradingKey",
@@ -555,20 +540,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788511763.0985122,
+    "last_start_ts": 1788511943.0490625,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788511763.0985122,
-    "last_success_ts": 1788511763.0985122,
+    "last_run_ts": 1788511943.0490625,
+    "last_success_ts": 1788511943.0490625,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788511653.0139382
+      "updated_at": 1788511945.6423082
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1953,10 +1938,16 @@
       "desc": "Почему за внедрением ИИ часто скрывается проект по управлению знаниями companies.rbc.ru",
       "source": "companies.rbc.ru",
       "region": "RUSSIA"
+    },
+    "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": {
+      "time": 1788511943,
+      "title": "India's agentic AI payment plans - Asian Tech Roundup - Computing UK",
+      "desc": "India's agentic AI payment plans - Asian Tech Roundup Computing UK",
+      "source": "Computing UK",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -1975,8 +1966,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788511223.1508448,
-  "last_publish_ts": 1788511641.2673113
+  "last_publish_ts": 1788511943.0490625
 }
