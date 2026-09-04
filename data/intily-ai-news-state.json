@@ -148,7 +148,8 @@
     "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788485577,
     "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174,
     "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": 1788486534,
-    "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788487050
+    "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788487050,
+    "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": 1788487314
   },
   "known": {
     "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049.748359,
@@ -240,26 +241,6 @@
     "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788486174.074481
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "OpenAI Video unveils creation tools - blockchain.news",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxM3BLMi0wc0sycnZKQXJTVGtzaVRlajBpakJORnVfT2s1WGRQY1hRc1pGTjRGYmM5WmNZWUVpZFY5dkFoalgyZVZ0SlVNTzJqcXhCeVRpcW9YeU1kUWktM0U4ek9kajgxTGZvUVhQV3poeUhO?oc=5",
-      "desc": "OpenAI Video unveils creation tools blockchain.news",
-      "source": "blockchain.news",
-      "time": 1788481883.0,
-      "score": 66.5,
-      "key": "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788487050,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788487350
-    },
     {
       "region": "WORLD",
       "title": "ICRISAT unveils AI-Pangenetics framework to accelerate climate-resilient crop breeding - AgroSpectrum India",
@@ -377,20 +358,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788487050.3117502,
+    "last_start_ts": 1788487314.9629765,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788487050.3117502,
-    "last_success_ts": 1788487050.3117502,
+    "last_run_ts": 1788487314.9629765,
+    "last_success_ts": 1788487314.9629765,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 8
+    "queue_size": 7
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788487055.931045
+      "updated_at": 1788487316.8988
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1446,10 +1427,16 @@
       "desc": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data retailnews.asia",
       "source": "retailnews.asia",
       "region": "WORLD"
+    },
+    "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": {
+      "time": 1788487314,
+      "title": "OpenAI Video unveils creation tools - blockchain.news",
+      "desc": "OpenAI Video unveils creation tools blockchain.news",
+      "source": "blockchain.news",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1457,6 +1444,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1471,5 +1459,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788486174.074481,
-  "last_publish_ts": 1788487050.3117502
+  "last_publish_ts": 1788487314.9629765
 }
