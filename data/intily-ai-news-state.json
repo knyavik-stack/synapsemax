@@ -338,24 +338,10 @@
     "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81": 1788558501,
     "da7f988c3a3d7642c71b349fb681d8faeaa99b5950e89b1ab21b44a0f898002b": 1788558742,
     "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867": 1788559220,
-    "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf": 1788559580
+    "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf": 1788559580,
+    "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14": 1788559821
   },
   "known": {
-    "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": 1788538102.15343,
-    "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49": 1788538102.15343,
-    "a934e0ca0a60f2fff4f1e42fef4b181b349cfa89b2e2bb8d6b4fd531a542c76f": 1788538102.15343,
-    "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2": 1788538102.15343,
-    "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14": 1788538102.15343,
-    "0e0e31ffc22483dcf4b6c522f6d119c19845360b273ce256fd697112ff34f844": 1788538102.15343,
-    "7bb9dfcaaac4e0f8e48cfb2e5bb0f4d4c30aa0e4c6e8c3a662807158f66ef256": 1788538102.15343,
-    "8bab8df9e210a33fcd744c3f4a0386d5b67070b029eea9f50f18dfb9c8da5c23": 1788538102.15343,
-    "d76803c3aabd792e870bb32343f020e271a5dc998cb499fd88ca7a3ac19442af": 1788538102.15343,
-    "8d943f310e4fb5e2041f00d7dea9f8e00cbebb45f907b25f63835cd3c7f88b88": 1788538102.15343,
-    "87208178c83cc7424c3e27f8b3042fc89c061e8000635668984d19dc3c7c013d": 1788538102.15343,
-    "9fcb50daa509dbfadc69e806aa45829923676a4df24f22153cda20ce99f6a9fd": 1788538102.15343,
-    "12ea18b9f3e15120f32c9e6c1f16c35bf8982acf17c624439c8266c5bc10a99d": 1788538102.15343,
-    "ea43c46d5d67e331753fcc5695febc69aaace8ab317512c22e7710a8cc267164": 1788538102.15343,
-    "7d340526b36a697c5ff13c6ea9b832b677c1f538c5b7dddd65d35b0ad775c853": 1788538102.15343,
     "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788539960.9653587,
     "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": 1788539960.9653587,
     "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": 1788539960.9653587,
@@ -484,20 +470,6 @@
     },
     {
       "region": "WORLD",
-      "title": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZGVnaDRzbTNOaGY3YmdTQzdZLVBGZWhvTU9CMmtEeFpRUVIxNkdCbTYzMjM3Zm5IdjNScUdtMW1YdTRzOWsyUHQwWlR0U3hLSzdoN1RmbHNXR1NLaThZQWZ5azlXejJVQnlhZFlwZmxtNzV2YnNGSEQtbTROQ212NkNuX0lDOTNDWG84aU9LVm9TTVU?oc=5",
-      "desc": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot Unite.AI",
-      "source": "Unite.AI",
-      "time": 1788555421.0,
-      "score": 67.5,
-      "key": "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Insurers Search for Answers to Rein in Rogue AI - Dark Reading",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBXdnBwa3FTUjBPWlRNajIzejZxMjBPQnNEQUt5REU3YWVzbk8teGx6eDNrTE1sMW1LRUFzTGlia3dKRHlENEYzMHJUaVhDRnNGdVR4dUFsTkVsZzQzaXhpT1laamhCN1FQRmhDMUZ6MWdlM1ctekZwZTNQSQ?oc=5",
       "desc": "Insurers Search for Answers to Rein in Rogue AI Dark Reading",
@@ -529,20 +501,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788559700.236198,
+    "last_start_ts": 1788559821.183149,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788559700.236198,
-    "last_success_ts": 1788559700.236198,
+    "last_run_ts": 1788559821.183149,
+    "last_success_ts": 1788559821.183149,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 4
+    "last_published": 1,
+    "queue_size": 3
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788559584.2880042
+      "updated_at": 1788559823.1362858
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2151,10 +2123,16 @@
       "desc": "The rise of AI agents: Why businesses still need to keep a hand on the wheel digitaljournal.com",
       "source": "digitaljournal.com",
       "region": "WORLD"
+    },
+    "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14": {
+      "time": 1788559821,
+      "title": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot - Unite.AI",
+      "desc": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot Unite.AI",
+      "source": "Unite.AI",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2172,9 +2150,10 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788558920.9899461,
-  "last_publish_ts": 1788559580.9369266
+  "last_publish_ts": 1788559821.183149
 }
