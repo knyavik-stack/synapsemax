@@ -311,7 +311,8 @@
     "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862": 1788548181,
     "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": 1788548480,
     "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": 1788549382,
-    "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": 1788549621
+    "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": 1788549621,
+    "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": 1788550101
   },
   "known": {
     "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788528681.428885,
@@ -482,23 +483,6 @@
   },
   "queue": [
     {
-      "region": "RUSSIA",
-      "title": "NVIDIA выпустила софт для локальной работы с ИИ - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcjNrMXRMeDZGdTVuNVpMRzZkaU8wMUhCeFdvdFRZUGVMUEEyV253c1pCSXJoNHBVZnhVWUw1MDZqVndLZ09pRmFoVjdRNGo5WFM2OC14cF9VaTI2dXlqSU5xQzh3Z1VkY01xUXF2Y2NadmpWZV9uaE44ajlmY2NYandNUDhGTUVQX0MzMHJuNHdUdFU?oc=5",
-      "desc": "NVIDIA выпустила софт для локальной работы с ИИ prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788547949.0,
-      "score": 76.0,
-      "russia_weight_bonus": 3.5,
-      "key": "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee",
-      "importance": 76.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Researchers Document OpenAI Agent Swarm That Repurposed German Wiki - Unite.AI",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHBkYWt6T1JpZ0VOY2U5MUhZWEhOSEpJb2VnbmNqa3BHYUJXVWZZUFpaZGZwYk53UUdsUzVKUDZ2WWc5TFpUNXc4WmVHaFl5XzU3dTNQdXotWUpmWm1TaWszemgzM3dBZ3FQZzI3YlI0MnpBUXhwVzM3NXZkMExlcTFrQ2p2Mnl1bUIwYjNISFhROG8?oc=5",
@@ -588,23 +572,6 @@
       "editorial_value": 50.0,
       "topics": [
         "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2twcWNCWjc3MmNfRG9aUDB2anhneExlRTVhRkdzOGJzaF9vZUxyc1V3VFlxaTRyZW5lSmxyNExOMzBsYWN4S2xydTBMQWlFby1BeWhkdTlQSXdJTWFTZjFlUXlYMHZBTEQteWxEVWpXbUdZTFdtbFg0UHdHem5vdDRQVmwtVk5VbEJzaEI1MjZORmVVRW93a192czJ6SG4td2Nob0xNYXJaS3BaSlByV0Q5SlAxY0tGcWRRTHVZSi1taFZtSXkyYmloZzJISmJxMVU0?oc=5",
-      "desc": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788528130.0,
-      "score": 64.3,
-      "russia_weight_bonus": 4.3,
-      "key": "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba",
-      "importance": 64.3,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
       ],
       "tier": "A"
     },
@@ -773,6 +740,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2twcWNCWjc3MmNfRG9aUDB2anhneExlRTVhRkdzOGJzaF9vZUxyc1V3VFlxaTRyZW5lSmxyNExOMzBsYWN4S2xydTBMQWlFby1BeWhkdTlQSXdJTWFTZjFlUXlYMHZBTEQteWxEVWpXbUdZTFdtbFg0UHdHem5vdDRQVmwtVk5VbEJzaEI1MjZORmVVRW93a192czJ6SG4td2Nob0xNYXJaS3BaSlByV0Q5SlAxY0tGcWRRTHVZSi1taFZtSXkyYmloZzJISmJxMVU0?oc=5",
+      "desc": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788528130.0,
+      "score": 60.3,
+      "russia_weight_bonus": 4.3,
+      "key": "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba",
+      "importance": 60.3,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Украинские инновации, которые заметили в Европе: от ИИ для покупок до новой энергетики - Вікна-новини",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVWlxS3lOM2NBS08xcjhvQi05NXVYcE5zX3dnQURlUTBMX3ljSmhKU2lUam5ZNkIxYWlULXdFbEY5WVo4N29FTERlejl1SHZZN1k2Y1VYbENhRWg4Z3I3ZnFxaTB3Z2I3TG4taWpYZENqMlljekJXOTgwdXVleWltcnNoaXlSMFRXTGVGdWFDMVVORm9PQnFSckVoZmNwbGJ3MFVuSnpVS1Fhd3o1NGlzYi1jMNIBuAFBVV95cUxNVDlxaFFXWG4ydHRYM2NHR2pTZk44UUFjWm5feGFLVHVkZS1LTUNDX1VBY2g4SW1EWE1wQ1lveEdtbDRocWpqbExTdjJTdVBwZmc4QjljNkJDTFJRaDlTRDFoUmdpMGlEd0J0emFqVXhpNUpkTjVvaHJsRGliWktMVlJhcjNXbmtqM3RPdl82eTBNNWVJakpWQzAzeVJGakhUa011SXJnek1tQThuTTBzZ3FJdXZ5bTRQ?oc=5",
       "desc": "Украинские инновации, которые заметили в Европе: от ИИ для покупок до новой энергетики Вікна-новини",
@@ -788,20 +772,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788549621.7329698,
+    "last_start_ts": 1788550101.7973886,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788549621.7329698,
-    "last_success_ts": 1788549621.7329698,
-    "last_candidates": 98,
+    "last_run_ts": 1788550101.7973886,
+    "last_success_ts": 1788550101.7973886,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788549648.5238903
+      "updated_at": 1788550104.906085
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -815,20 +799,6 @@
     }
   },
   "stories": {
-    "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": {
-      "time": 1788463269,
-      "title": "GK Software launches retail AI framework GK Agentic - ecommercenews.com.au",
-      "desc": "GK Software launches retail AI framework GK Agentic ecommercenews.com.au",
-      "source": "ecommercenews.com.au",
-      "region": "WORLD"
-    },
-    "63e4d09eb7822c74fcd639adfa69a60dafe78093fd5231e6443beab84c839821": {
-      "time": 1788463451,
-      "title": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release - The Guardian",
-      "desc": "OpenAI hails ‘new era of artificial general intelligence’ with Astra model release The Guardian",
-      "source": "The Guardian",
-      "region": "WORLD"
-    },
     "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": {
       "time": 1788463812,
       "title": "Правительство обсудит применение российского ИИ в обороне, выборах - kommersant.ru",
@@ -2445,12 +2415,18 @@
       "desc": "Google launches Lyria 3.5: Everything you need to know about its AI music model The News International",
       "source": "The News International",
       "region": "WORLD"
+    },
+    "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": {
+      "time": 1788550101,
+      "title": "NVIDIA выпустила софт для локальной работы с ИИ - prospect.com.ru",
+      "desc": "NVIDIA выпустила софт для локальной работы с ИИ prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2467,8 +2443,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788549621.7329698,
-  "last_publish_ts": 1788549621.7329698
+  "last_publish_ts": 1788550101.7973886
 }
