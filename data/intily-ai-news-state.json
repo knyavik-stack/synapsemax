@@ -145,7 +145,8 @@
     "8fdb123c8d416a50f4e2e5d1895db00d628785a8fbb3a7de6a970363d581f11a": 1788484141,
     "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": 1788484674,
     "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": 1788484855,
-    "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788485577
+    "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788485577,
+    "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174
   },
   "known": {
     "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": 1788465071.3605509,
@@ -247,7 +248,11 @@
     "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": 1788484314.51329,
     "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788484314.51329,
     "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": 1788484314.51329,
-    "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788484314.51329
+    "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788484314.51329,
+    "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174.074481,
+    "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": 1788486174.074481,
+    "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": 1788486174.074481,
+    "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788486174.074481
   },
   "queue": [
     {
@@ -268,6 +273,22 @@
     },
     {
       "region": "WORLD",
+      "title": "OpenAI Video unveils creation tools - blockchain.news",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxM3BLMi0wc0sycnZKQXJTVGtzaVRlajBpakJORnVfT2s1WGRQY1hRc1pGTjRGYmM5WmNZWUVpZFY5dkFoalgyZVZ0SlVNTzJqcXhCeVRpcW9YeU1kUWktM0U4ek9kajgxTGZvUVhQV3poeUhO?oc=5",
+      "desc": "OpenAI Video unveils creation tools blockchain.news",
+      "source": "blockchain.news",
+      "time": 1788481883.0,
+      "score": 66.5,
+      "key": "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data - retailnews.asia",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR3V4VEtXZlQtTWNLcnZ1M1I0OEhkYVllbnl5RG5UeV9heXlqem1odVpRZlloUW5XS3E1S1llMDZpWUpGaUE3c2tfQmp0ZDZkWVE3a0NtbGtyNmdUSFlRTnh3Y1JicXk0WDIyaEtKMkprZGpMcFJ3WkxwSkd6UEZXM2lWOW5JaTg0WFhFZmF1dGV3WDhxTWdBX3RBR3FhTHFjNWV4QlVSNEU?oc=5",
       "desc": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data retailnews.asia",
@@ -275,6 +296,34 @@
       "time": 1788482033.0,
       "score": 63.5,
       "key": "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "ICRISAT unveils AI-Pangenetics framework to accelerate climate-resilient crop breeding - AgroSpectrum India",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMmdZX2tac05mdWJYc2xBOVl2Qk5LTHlOdF9vVzQyT0c2T185VmZPUGlMd2pmaGpDQzdIMUV3TUdpbDRwSHhXUnBVcnlKUnBiLTVFOEY3c0RZa1VvQVhYY2xFenU1aXlsVFItYWRCak9obHNYbUJsNWtXM29XTWZtYXotbTJ3cTVWMGplNzdvWjNuRTN1dW1uNG1nYjFMQ2VqM0tpYnFTZXpQVWNST2tDcThLc3pEQkV6N1JsVUd3RjZoY19zaUFXT1E1UjdVbkhM?oc=5",
+      "desc": "ICRISAT unveils AI-Pangenetics framework to accelerate climate-resilient crop breeding AgroSpectrum India",
+      "source": "AgroSpectrum India",
+      "time": 1788478691.0,
+      "score": 63.5,
+      "key": "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+      "desc": "The turbulent AI era is here. The choices we make now are critical. Gates Notes",
+      "source": "Gates Notes",
+      "time": 1788478449.0,
+      "score": 63.5,
+      "key": "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b",
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -402,20 +451,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788485693.3321416,
+    "last_start_ts": 1788486174.074481,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788485693.3321416,
-    "last_success_ts": 1788485693.3321416,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 9
+    "last_run_ts": 1788486174.074481,
+    "last_success_ts": 1788486174.074481,
+    "last_candidates": 67,
+    "last_published": 1,
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788485580.381508
+      "updated_at": 1788486195.9896305
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1450,10 +1499,16 @@
       "desc": "Anthropic Chief Commercial Officer: No Price War—Focus on Enterprise Value and Pre-IPO Financing finance.biggo.com",
       "source": "finance.biggo.com",
       "region": "WORLD"
+    },
+    "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": {
+      "time": 1788486174,
+      "title": "Alcatraz AI Names Bobby Louissaint Head of Business Development - 01net",
+      "desc": "Alcatraz AI Names Bobby Louissaint Head of Business Development 01net",
+      "source": "01net",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -1464,6 +1519,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1474,6 +1530,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788484314.51329,
-  "last_publish_ts": 1788485577.1813817
+  "last_search_ts": 1788486174.074481,
+  "last_publish_ts": 1788486174.074481
 }
