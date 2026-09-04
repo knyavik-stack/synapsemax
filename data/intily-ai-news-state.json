@@ -208,7 +208,8 @@
     "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82": 1788514521,
     "2b760b8746d9b950a08d8d67a8d94529616c9f012c7d34a4a2429739579d310e": 1788515000,
     "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515242,
-    "4561ddad4735781d460af382c3d709b0c0e4eaf2d4c59ab3c8077599581d7bd1": 1788515542
+    "4561ddad4735781d460af382c3d709b0c0e4eaf2d4c59ab3c8077599581d7bd1": 1788515542,
+    "f5ca24235d447ba04a82e53aa554c0def9b9ee462a5f3bd37ca101283a748b24": 1788515961
   },
   "known": {
     "3ee9a099aa9259fc0cbd48d24d4b344dc9737a04088b3aa820c9d952f17d9eae": 1788495069.2696536,
@@ -395,20 +396,6 @@
     },
     {
       "region": "WORLD",
-      "title": "ICE, corporations and AI pose imminent threat to U.S., CT senator says - Hartford Courant",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHFUOElqbGgxVHFEQ2JISm9vdUpUdFVmbHdnZF90ZGlzMU13dTVyRmV4dWgtR1VwS3VMVndEUTBpUDZvdGFMT0tGbW1ZdmlsYngtcUNnMTdaSzNRWHU5dXJWcHdmam5fSHJWQUhmX2JKM0FfelZmai0wd0ozajBOZ21ueXNWQ2FFWE9HaDB5RE9LcVVRVWl1QnpKbkMxR201YXVnai1B?oc=5",
-      "desc": "ICE, corporations and AI pose imminent threat to U.S., CT senator says Hartford Courant",
-      "source": "Hartford Courant",
-      "time": 1788514441.0,
-      "score": 66.5,
-      "key": "f5ca24235d447ba04a82e53aa554c0def9b9ee462a5f3bd37ca101283a748b24",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House - TV News Check",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONVIxYXptTUZubXFKX2c2c0FVYWR0ejZybktyM3R0SktTUTF4OVkzd3lUY2h2c3daSnpzTTNhUzNSV1hKVGpGRnFCcHNDYUdBU3lrb3RMMXlNWGVYN2xaRHNCWmR6NlJoTUJjd3o1c2VzSzFYd0RsTExidEdHN2szQUtLMW5ReWh2bWhhbnVWOUNXZS10UDlPSW5QUDRvbF9MQ01HSWlyY0tLb1VVU1AwNU1zVmkwZDBnYWc?oc=5",
       "desc": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House TV News Check",
@@ -559,20 +546,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788515599.6320229,
+    "last_start_ts": 1788515961.1176157,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788515599.6320229,
-    "last_success_ts": 1788515599.6320229,
+    "last_run_ts": 1788515961.1176157,
+    "last_success_ts": 1788515961.1176157,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788515577.237227
+      "updated_at": 1788515963.8155923
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2048,12 +2035,18 @@
       "desc": "Сбер: Будущее – за генеративным ИИ, помогающим бизнесу решать задачи развития prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "f5ca24235d447ba04a82e53aa554c0def9b9ee462a5f3bd37ca101283a748b24": {
+      "time": 1788515961,
+      "title": "ICE, corporations and AI pose imminent threat to U.S., CT senator says - Hartford Courant",
+      "desc": "ICE, corporations and AI pose imminent threat to U.S., CT senator says Hartford Courant",
+      "source": "Hartford Courant",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2070,8 +2063,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788515000.8867981,
-  "last_publish_ts": 1788515542.8720884
+  "last_publish_ts": 1788515961.1176157
 }
