@@ -249,7 +249,8 @@
     "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": 1788528562,
     "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": 1788528862,
     "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8": 1788529102,
-    "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788529402
+    "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788529402,
+    "e6192db70cff1b34a0afa6085041c67f5442baf6632678df18288150751aa7ba": 1788529701
   },
   "known": {
     "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788509361.5282607,
@@ -427,23 +428,6 @@
     "0e96fe393d4395e7c83b4c148ba7f61984bc2d7227a42e8a4a9e1cf951f46406": 1788528681.428885
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Booz Allen Hacking Benchmark Ranked 18 AI Models; Scaffolding Software Erased Rankings - techtimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZnZyaF95eXRVZkp2NC1LLUpDYldVRnZLaXhfbHppZTF6SkhDenVvNVhqOHdKUkZLeEhmcWVhUUw1cGEyY2wzcm42U25fUHZYMXRuV3BLRnphektlbEJNbzRmZElrcTV5V3h3d0pJTkFBWG9nZmdGYWJscTNTbS1pTHRxR1VfVG0wd1JSel9sc01hZUt0Y3R0MXNvTUl2Mk5hS0wyOU9iaUF3TW5fLWZxcG5zdnN6dGhRSV9mUC1VV1hqWHg2ZFpUNFkzUzMxWndibDhBNWJMcw?oc=5",
-      "desc": "Booz Allen Hacking Benchmark Ranked 18 AI Models; Scaffolding Software Erased Rankings techtimes.com",
-      "source": "techtimes.com",
-      "time": 1788527780.0,
-      "score": 73.5,
-      "key": "e6192db70cff1b34a0afa6085041c67f5442baf6632678df18288150751aa7ba",
-      "importance": 73.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models",
-        "tools"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге - kommersant.ru",
@@ -690,20 +674,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788529461.2345753,
+    "last_start_ts": 1788529701.211353,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788529461.2345753,
-    "last_success_ts": 1788529461.2345753,
+    "last_run_ts": 1788529701.211353,
+    "last_success_ts": 1788529701.211353,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788529407.501576
+      "updated_at": 1788529704.4864335
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -717,20 +701,6 @@
     }
   },
   "stories": {
-    "b3537015e3790b0b8d78b4fbae1d09cec5d866123fdd3b385ad3ffb211a5eec3": {
-      "time": 1788443111,
-      "title": "How to Work with AI Coding Agents - Towards Data Science",
-      "desc": "How to Work with AI Coding Agents Towards Data Science",
-      "source": "Towards Data Science",
-      "region": "WORLD"
-    },
-    "8631612be4bf01a14f7d8cd9a04e4d69d4091c0513f09d5bf96ae0106f23734b": {
-      "time": 1788443292,
-      "title": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules - theprint.in",
-      "desc": "Anthropic lets enterprise clients keep data on own servers with new Claude models under EU rules theprint.in",
-      "source": "theprint.in",
-      "region": "WORLD"
-    },
     "d8e8381bcf7e7d0a373a40cddcdba3aa8d1606f7317dde97c3be701b20939749": {
       "time": 1788443474,
       "title": "В СФ выступили за налоговые льготы для разработчиков ИИ-моделей - worldinform.ru",
@@ -2410,10 +2380,16 @@
       "desc": "Microsoft представила Project Zenith — мощные Windows-системы без лишнего мусора для ИИ-разработчиков prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "e6192db70cff1b34a0afa6085041c67f5442baf6632678df18288150751aa7ba": {
+      "time": 1788529701,
+      "title": "Booz Allen Hacking Benchmark Ranked 18 AI Models; Scaffolding Software Erased Rankings - techtimes.com",
+      "desc": "Booz Allen Hacking Benchmark Ranked 18 AI Models; Scaffolding Software Erased Rankings techtimes.com",
+      "source": "techtimes.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2432,8 +2408,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788528681.428885,
-  "last_publish_ts": 1788529402.734625
+  "last_publish_ts": 1788529701.211353
 }
