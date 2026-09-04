@@ -292,7 +292,8 @@
     "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": 1788542062,
     "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542721,
     "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": 1788543380,
-    "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde": 1788543562
+    "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde": 1788543562,
+    "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315": 1788543759
   },
   "known": {
     "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522622.0770597,
@@ -615,22 +616,6 @@
     },
     {
       "region": "WORLD",
-      "title": "In age of AI, robots move into heart of home - Daily Sabah",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNjJrVTN0ZmtrTEpvcWo5WnpJUjd2Njdod0s1UU9BdTZfN3dqbkdZbEpVT0hwMExMaGlQUkxXYWpKMmdJcU5IR1hGOXV2dVhoakpKYW9YM21YWnJaRS1YekQxOHNENERUU2VHdVJ5MlpoMkVCWEM5WmJxQUV6QlJuUWZXZVpMaEtmUl9xOVJwX2NLZw?oc=5",
-      "desc": "In age of AI, robots move into heart of home Daily Sabah",
-      "source": "Daily Sabah",
-      "time": 1788535360.0,
-      "score": 67.5,
-      "key": "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Who Gave the AI Access? - dot.LA",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51WEVnNXVOUEdjYVJCSUdrR2xFQWVvYWpkczZjQnZBMzBzbURCYlRqclJHOVZOcjNhRVhxWFdDa1dCT3YtZktwbkxMWjBnU0YtbV9JeUNqUi1IZmlrZVhPOGRQYWIyejRVdWc0dzdKLU9ZSm9l?oc=5",
       "desc": "Who Gave the AI Access? dot.LA",
@@ -762,20 +747,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788543562.8003175,
+    "last_start_ts": 1788543759.8662026,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788543562.8003175,
-    "last_success_ts": 1788543562.8003175,
+    "last_run_ts": 1788543759.8662026,
+    "last_success_ts": 1788543759.8662026,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788543565.4941916
+      "updated_at": 1788543762.7984955
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2419,11 +2404,17 @@
       "desc": "3 Must-See AI World Sessions for Industrial Manufacturers Oracle Blogs",
       "source": "Oracle Blogs",
       "region": "WORLD"
+    },
+    "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315": {
+      "time": 1788543759,
+      "title": "In age of AI, robots move into heart of home - Daily Sabah",
+      "desc": "In age of AI, robots move into heart of home Daily Sabah",
+      "source": "Daily Sabah",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2438,11 +2429,12 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788542062.023784,
-  "last_publish_ts": 1788543562.8003175
+  "last_publish_ts": 1788543759.8662026
 }
