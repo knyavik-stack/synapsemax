@@ -281,20 +281,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "The turbulent AI era is here. The choices we make now are critical. - gatesnotes.com",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
-      "desc": "The turbulent AI era is here. The choices we make now are critical. gatesnotes.com",
-      "source": "gatesnotes.com",
-      "time": 1788474834.0,
-      "score": 63.5,
-      "key": "7513621c37c002cff35f835a8af9357bf1d275f1edbec37ee5f2eb34e7dd6b19",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Боится солнца и любит морщины: как живет блондинка из «Детективного агентства ''Лунный свет''» - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYmE4cVNxVVBwcVpKSGJ3ZWFRNTQ1Y0VycUhvYXYyS0lDdVN0U2hnemZGS0k2RU9QajVhOFdLQlZ4Q0lhTUdRZDlocHZvRWpMQVdaZ2E2cU5WaDkwYnRVUDdvZC1sTVpuSzNqdzBvWEhMT3FLamRMTVRtLVc4aTZWMlhwR0RBNFJuM09iNldHZmRVckt5V1JsNWs5ZXZ5Z0RmdFNvMjZ3Q25nam9tRHM0aUxYd2xKWDdVOWZtN3NZN1R0cEpkZU96QWZ5cFZWaUk?oc=5",
@@ -416,14 +402,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788485633.6858907,
+    "last_start_ts": 1788485693.3321416,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788485633.6858907,
-    "last_success_ts": 1788485633.6858907,
+    "last_run_ts": 1788485693.3321416,
+    "last_success_ts": 1788485693.3321416,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 10
+    "queue_size": 9
   },
   "providers": {
     "GEMINI": {
