@@ -222,7 +222,8 @@
     "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": 1788519499,
     "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788519980,
     "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997": 1788520220,
-    "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11": 1788520521
+    "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11": 1788520521,
+    "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": 1788520820
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -307,7 +308,20 @@
     "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": 1788518901.903705,
     "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": 1788518901.903705,
     "911183e2ccda7315fa519e2cfb48899a3919b6cfc5ea402341923a3b6e587f97": 1788518901.903705,
-    "f4a74aab6a9464b4a4b06ad639aa6aa4b6696a6fd606b73f015e6eef9d9726de": 1788518901.903705
+    "f4a74aab6a9464b4a4b06ad639aa6aa4b6696a6fd606b73f015e6eef9d9726de": 1788518901.903705,
+    "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": 1788520820.733582,
+    "6c2c1d116f9b71f047019842d7ba791ca8369ba929f0f977eaa671b1d25c39a1": 1788520820.733582,
+    "014df9f2f492f0f6e7fe55eab5731f57b976a70bc0fb3350a2cd2f4c4ba2acd9": 1788520820.733582,
+    "cc0d8ba1979f2b627509070666ee20f2c1bb39f1a4592c662c00cf4d363765b9": 1788520820.733582,
+    "0aa7079147f7581f4424c8d0f8b08ef855bc61b837b99d200dd6a6d469e07c84": 1788520820.733582,
+    "e3c1c89bdcc8744bea12885b9ef4ce07d02234c24d4fe18388ea089db47875b0": 1788520820.733582,
+    "0b35f7c2aceb2a382a3812fd8b1b1f453ded821b238b7596c77c617335a26a9a": 1788520820.733582,
+    "a1b1a33bc38ee6daae375270da6c51e8db3c6304bb80d0a6b6f1577805b80d64": 1788520820.733582,
+    "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": 1788520820.733582,
+    "c6258bef9ce9b820282e96a2bd60cb7acf0aefdeb9ad655360f365216b665ec9": 1788520820.733582,
+    "a63f5746ff3656daad624997ef9e15d053f47cb2fa137d5fa4c74ac7d6b41ff0": 1788520820.733582,
+    "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3": 1788520820.733582,
+    "1b21cb67cd9e710a0f8559400d2675aeea51999c9baff096718ee852685a5cd3": 1788520820.733582
   },
   "queue": [
     {
@@ -331,6 +345,132 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 7,
       "next_retry_at": 1788538699
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Почему AI-пилоты не масштабируются: проблема часто в самом процессе внедрения - vc.ru",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JcmhORVJGRnNqMnNDaFExQ2VubGduWEdIdWRra2otd3VJTFUwVVhtd2xLV2NVdEdUSDlhYzVWc2FXNjBxTVZNemRtT1NIaXFEQndDLUVVaklnYVd4WnlLUm4wYllPWkh5VVNaQnV5WQ?oc=5",
+      "desc": "Почему AI-пилоты не масштабируются: проблема часто в самом процессе внедрения vc.ru",
+      "source": "vc.ru",
+      "time": 1788516747.0,
+      "score": 76.7,
+      "russia_weight_bonus": 3.2,
+      "key": "6c2c1d116f9b71f047019842d7ba791ca8369ba929f0f977eaa671b1d25c39a1",
+      "importance": 76.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИСИЭЗ НИУ ВШЭ: Китай и Республика Корея делают ИИ частью инфраструктуры науки - itweek.ru",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByTkppTXdSUlYtUXdRdnA4VGhpVTlaaHVpODF5ZW9hY2NldzgxbU9GVC1SRmI2SC15dndBU2xweTVpeFFPci1rTGdvUVF2Zkt1REY3LUZiLXN3TnNWbFE?oc=5",
+      "desc": "ИСИЭЗ НИУ ВШЭ: Китай и Республика Корея делают ИИ частью инфраструктуры науки itweek.ru",
+      "source": "itweek.ru",
+      "time": 1788519853.0,
+      "score": 75.6,
+      "russia_weight_bonus": 4.1,
+      "key": "014df9f2f492f0f6e7fe55eab5731f57b976a70bc0fb3350a2cd2f4c4ba2acd9",
+      "importance": 75.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Орешкин на ВЭФ: ИИ не заменит человека, эффективна связка - techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1U2dvLWFvYy02RlU1WVBQcFVFUHZBcFY2aE9kUTI3R3FnVkl6WF9YZXByWExndk10anV1dEpkQ0x6VzVyOThkVF9rbnAyTTVQcXdXRkg1QU5oblBsbHAtbE4xRUhOOXRMM2RneVB1VU1QUQ?oc=5",
+      "desc": "Орешкин на ВЭФ: ИИ не заменит человека, эффективна связка techora.ru",
+      "source": "techora.ru",
+      "time": 1788519334.0,
+      "score": 73.4,
+      "russia_weight_bonus": 4.9,
+      "key": "cc0d8ba1979f2b627509070666ee20f2c1bb39f1a4592c662c00cf4d363765b9",
+      "importance": 73.4,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "AI в резюме больше не преимущество: что будет цениться вместо этого - vc.ru",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUUVkNWJvaTdDVGY4aTlCcUxOR0M3MF9jaXpTMTNzS3pPUHFFWHplTHZZSzFiWjh3X21qbFNqcEJ3M0tmYllmUDlMV0Q4dXRSYUUxc3ozWmNtNkEyUlY0aTlxSWhFclBJZWwxV1oyUTVpQ1RjdkpGR3MtQ2UzMUcwMnI1LXAzSE9ZQWdET0Y3Ymo?oc=5",
+      "desc": "AI в резюме больше не преимущество: что будет цениться вместо этого vc.ru",
+      "source": "vc.ru",
+      "time": 1788517386.0,
+      "score": 72.6,
+      "russia_weight_bonus": 3.1,
+      "key": "0aa7079147f7581f4424c8d0f8b08ef855bc61b837b99d200dd6a6d469e07c84",
+      "importance": 72.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ и простая интеграция стали главными технологиями для онлайн-бизнеса - E-pepper",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV2xzYnFsSmFNOVpSZFd5VFVCb2ZHTmhLTmh3UzQycGNjUW1SVXpEMzRMTHpJNjJYUkJ1TXE4X0w5b1pTM1o3bzM4YUhYalBmRVZ5R3VyU1Q2emFNSGFxLVBSZEZUSVlMNXAyZkZLaXduNGoxT3N3R0p5eWNUVVpubF9mZ3JXcWVlT2N1OVY3dmF2YXF3aUctSVlMcWY4RERxbFpJZlZtR2NxZw?oc=5",
+      "desc": "ИИ и простая интеграция стали главными технологиями для онлайн-бизнеса E-pepper",
+      "source": "E-pepper",
+      "time": 1788511092.0,
+      "score": 72.5,
+      "russia_weight_bonus": 4.0,
+      "key": "e3c1c89bdcc8744bea12885b9ef4ce07d02234c24d4fe18388ea089db47875b0",
+      "importance": 72.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину - edinstvo-news.ru",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTU5kT24zMVdkd2dEWExINkVhaUpuZWFnaGxKZHNIZFZTZWRPZEN3aWJmdjRGV05Wc2NEZDMxS2hNZUhxaklHNmFMUU1fQ1YtR1prOHVjY0xpOVN0Sl9ISm5hTEJUMHNOMEhCamJycVBweVZfVmVuQ0pNdmR5WTJta1kxMEVSNTVvX3VNdXdDaGxhZzJheV9RaFVkUngxT2J5SUU0NmdQQk1sN0dkWThtd0ZWRVFpY3lLUDlr?oc=5",
+      "desc": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину edinstvo-news.ru",
+      "source": "edinstvo-news.ru",
+      "time": 1788510501.0,
+      "score": 72.5,
+      "russia_weight_bonus": 4.0,
+      "key": "0b35f7c2aceb2a382a3812fd8b1b1f453ded821b238b7596c77c617335a26a9a",
+      "importance": 72.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Без льгот и субсидий: правительство лишит господдержки компании за использование иностранного ИИ - MenToday",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYzNTZHNIQ212NGMtalJxUFZzUHYyOWw4TTdhRXAydE9ZRmduTzgzQ3p3QWFEVF82Z0ItajZjOVRIRk9RelRpWVNHdk14QVUzSjlxdTdtMTJ0ZWdfa3RZRkprWURTcEh3eF9oVmh4QVpZSzBVZ0wtbVBCR2ZhdVlhbDF2VVF4N05rYmxwbWdPLS1vR3B0andYUndwRTdIdXFJVkJ2QmwxMVhLTldVNk1ZVlVTaUdMNzJEajRjRUdXaVR0VllLS2FOOXBSQUZGbm4wVG9hRFR1OGhFN00?oc=5",
+      "desc": "Без льгот и субсидий: правительство лишит господдержки компании за использование иностранного ИИ MenToday",
+      "source": "MenToday",
+      "time": 1788518100.0,
+      "score": 71.9,
+      "russia_weight_bonus": 3.4,
+      "key": "a1b1a33bc38ee6daae375270da6c51e8db3c6304bb80d0a6b6f1577805b80d64",
+      "importance": 71.9,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Россия серийно применяет дроны с ИИ, Украина отстает в масштабировании - \"Флеш\" - Курс України",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ1lJTlJyT0k1ekxHWVJRdDdod1BlVWxReklfSF93ZlZWVHg2TXlmc2lFLWhRbHA2OE05WEhjREJhNUdDcDF5NUtndHRrNmFyWUFsajBJN3RoeW1Sc0hRRDB2bVgtNGV1dFYtYmM5Ni1fQnZHR1UtR0tiVzBTVEtNY3czdnN3SHFvZ3lGZTRYTDJURkdGM2VIQjNBcHRlS2llRkpJLU9NTUNfUmJzSUloN0VPUkVkRkk?oc=5",
+      "desc": "Россия серийно применяет дроны с ИИ, Украина отстает в масштабировании - \"Флеш\" Курс України",
+      "source": "Курс України",
+      "time": 1788519360.0,
+      "score": 71.5,
+      "russia_weight_bonus": 3.0,
+      "key": "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51",
+      "importance": 71.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -358,6 +498,34 @@
       "russia_weight_bonus": 2.5,
       "key": "c7a98515a555854c4c56dfc17ac1a5124bb8e7f0bd4f666bafdeced988c226da",
       "importance": 68.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Pirkx joins Pri0r1ty Intelligence as AI company expands into employee wellbeing and benefits - EU-Startups",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSnR0dHJTbHV4cDYzdWo3em5kNkh6ZFM2RGVIR0FyMlBnTkV0RFE4cW9FQmZIMHZhMFA1YTZMeWtSQUVCd24yaTZNbEN0T2szb3g2MXR1T1FTRkM5UFpMNWRIbzN3b2RuSmQwblktVFFtZWg4YUVGSi1NVFMyX3k1bzNRdFdvN1ZsaEZjYkktVTFJNW1HeU1PM01jUEdENmhld0FMN0JWR3RoRk5xbVV6TkVhNDk3aEQ4TnNkRGtCTjNOLXAxOEFJRg?oc=5",
+      "desc": "Pirkx joins Pri0r1ty Intelligence as AI company expands into employee wellbeing and benefits EU-Startups",
+      "source": "EU-Startups",
+      "time": 1788520190.0,
+      "score": 66.5,
+      "key": "c6258bef9ce9b820282e96a2bd60cb7acf0aefdeb9ad655360f365216b665ec9",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Think AI: how to really use artificial intelligence - Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcW0yLUF3NlpLcllQMTZWcTJMRTdMUzN3NDg5SlM1VnFnSUpsYnV5X0xtbHNiZTM0RWZSODdwd3F6YzlFdkVqNkktSjZ4Y3g1cXItaVVtaHBnN05vd2lVTFFOOXBQNXVpLTE1YUVIYU1tYXI1SkwzcnlQeFg0cWdnejdLd2RfMWpUQS1hQjEwMFUyaHJiV090N3VRdEpMMU1HWFNuSXI4Rmd2MjZnbmtzVTZmc3M2eEM5LVNkTw?oc=5",
+      "desc": "Think AI: how to really use artificial intelligence Royal Gazette | Bermuda",
+      "source": "Royal Gazette | Bermuda",
+      "time": 1788519240.0,
+      "score": 66.5,
+      "key": "a63f5746ff3656daad624997ef9e15d053f47cb2fa137d5fa4c74ac7d6b41ff0",
+      "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -395,6 +563,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "На сессии Открытого диалога обсудили массовое внедрение ИИ-технологий - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcEJtTENtbmFQN0FvZTZ2bE85WVNmcWZLZEJiUVdzcmlzYWhCVXAwb19XaGtfRmRsbGVjV1ExTTVYTEVXUEtJNHBJWUpYZmRwOF9JU0czQ2tfbmpBZHJfMkc1TllMWVY2bjlpRlVrRHo4M0FGaXo5bExhSk5UNGhBVzBGR2dnbW9rN0Ntdw?oc=5",
+      "desc": "На сессии Открытого диалога обсудили массовое внедрение ИИ-технологий rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788482700.0,
+      "score": 61.8,
+      "russia_weight_bonus": 2.8,
+      "key": "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3",
+      "importance": 61.8,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
       "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
@@ -408,51 +593,6 @@
       "topics": [
         "agents"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Две трети россиян выступили за маркировку ИИ-контента - techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOFRIQndZUVFvWS1GMWpPVDdnRVZXZWtBU2ZRdnpNTWRpWHlJMlNqUV93b3JaX3Vpc2tUOWhXcm56MU16WG5pSTZ4S2h2bHRyNEZxWGFraXJILWFKN3JlTGN3bndjOVZibzl0RGZLcXZGVWVfNGRtT2hieWFxd3kxdTJicw?oc=5",
-      "desc": "Две трети россиян выступили за маркировку ИИ-контента techora.ru",
-      "source": "techora.ru",
-      "time": 1788503787.0,
-      "score": 61.0,
-      "russia_weight_bonus": 5.0,
-      "key": "71d41715e545f03f5bad3358357dc61fa22cd009173ab81d3b73ae3746498994",
-      "importance": 61.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ИИ стал центральной темой G20: позиция России, слова Шадаева, итоги встречи в США - finance.mail.ru",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYjgySU45NFIxRU1qTHFvZllOZ3hyVnNDeUIyWVpYNW50cWRjWUdYUkNpZnNyWWhGS2pfeW5GZl9XMEkzTXF1Z3dRaHpRZmVESDNVZnJVWFBMWEpGNEtYRmg1dWdPTW9VTklURnczc2oxeEdUbTNGQk44eXNENUlWRGJyR2Vfdjd3dmpjOHFzeVRodm1xeU4wTUpCc2tJSGhseHEwV1ktX3dfUzQ?oc=5",
-      "desc": "ИИ стал центральной темой G20: позиция России, слова Шадаева, итоги встречи в США finance.mail.ru",
-      "source": "finance.mail.ru",
-      "time": 1788503522.0,
-      "score": 60.6,
-      "russia_weight_bonus": 4.6,
-      "key": "4d0dba9a0128455f3737512d4003bd845270b9291b84f2bee1f3667fc1911bcd",
-      "importance": 60.6,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Сбер поможет развивать цифровые решения в Еврейской автономной области - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRU80aEg5bXRHTXA2bm52czVGVDVEdWN1bk9qZ09tTVM0M3dISy14WTZDbG1GaUtyZnV1UnBRWkZ0UlB3ZzBJc2p1MDhJZ0RZWVBnVlVhOVhIeDBmRWtldWJoOEFFX1dSUmpBdXhuelgwMTVDT0F1SkxEaFB3QldNcVlQalBJelY3c3ZBRGZqVFo5dFRjRFY4RkJiT0J0Nk14dGdYUzI3ZDZ6VVJ2Q0N2TTRPUnc?oc=5",
-      "desc": "Сбер поможет развивать цифровые решения в Еврейской автономной области prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788501182.0,
-      "score": 60.4,
-      "russia_weight_bonus": 4.4,
-      "key": "139b677c3a51bc40b5cbcc7218f61befce1b37585c1ea8882b5452b6ef1c6391",
-      "importance": 60.4,
-      "editorial_value": 50.0,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -487,20 +627,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788520521.961244,
+    "last_start_ts": 1788520820.733582,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788520521.961244,
-    "last_success_ts": 1788520521.961244,
-    "last_candidates": 0,
+    "last_run_ts": 1788520820.733582,
+    "last_success_ts": 1788520820.733582,
+    "last_candidates": 74,
     "last_published": 1,
-    "queue_size": 11
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788520525.0044441
+      "updated_at": 1788520843.7188873
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2074,10 +2214,16 @@
       "desc": "Искусственный интеллект в 15-м пятилетнем плане Китая Институт статистических исследований и экономики знаний",
       "source": "Институт статистических исследований и экономики знаний",
       "region": "RUSSIA"
+    },
+    "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": {
+      "time": 1788520820,
+      "title": "Хакеры с ИИ против веб-сервисов: Solar 4RAYS представил отчет о расследовании сложных кибератак в 1 полугодии - cisoclub",
+      "desc": "Хакеры с ИИ против веб-сервисов: Solar 4RAYS представил отчет о расследовании сложных кибератак в 1 полугодии cisoclub",
+      "source": "cisoclub",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2094,10 +2240,11 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788518901.903705,
-  "last_publish_ts": 1788520521.961244
+  "last_search_ts": 1788520820.733582,
+  "last_publish_ts": 1788520820.733582
 }
