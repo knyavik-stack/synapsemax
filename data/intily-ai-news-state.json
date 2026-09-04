@@ -215,7 +215,8 @@
     "ae1123f04f0d2af7558c6dfaf0dfbb074317aa1551e93a48d7eaa80cfcf82f2e": 1788516980,
     "bc392752bd357c584e788e1e0810dbb0ab793e9f0c9449070923d0e80ae77026": 1788517160,
     "9d87a8747dc6693005081ae60f6b257c1ba723b6153d6b865266ecbe51854d30": 1788517581,
-    "769f8997081fc573476ce8fa7174453657c5b97055381a9a7ff235beef009858": 1788517820
+    "769f8997081fc573476ce8fa7174453657c5b97055381a9a7ff235beef009858": 1788517820,
+    "4e42209d83a119a961546d27e4cba53fceb61b8243ee44c508fddd5289d7fa6d": 1788518008
   },
   "known": {
     "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6": 1788496553.6330528,
@@ -324,23 +325,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 4,
       "next_retry_at": 1788520220
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Кому принадлежат права на контент, созданный нейросетями? Профессор ЮФУ — о судебной практике и новом законе :: Новости - RuFox",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Sd082aGZOZmVvelNlWnVWZmlLdDZoV1AwTl9Ham96VURoODFqak8xV09uNVhEOFduTHFkRTdiVXJFSTQ5MXlFU01OX0FWUEU4bEE4enlnX2xHazZackJr?oc=5",
-      "desc": "Кому принадлежат права на контент, созданный нейросетями? Профессор ЮФУ — о судебной практике и новом законе :: Новости RuFox",
-      "source": "RuFox",
-      "time": 1788516218.0,
-      "score": 79.7,
-      "russia_weight_bonus": 4.2,
-      "key": "4e42209d83a119a961546d27e4cba53fceb61b8243ee44c508fddd5289d7fa6d",
-      "importance": 79.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -567,20 +551,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788517940.0825534,
+    "last_start_ts": 1788518008.0135386,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788517940.0825534,
-    "last_success_ts": 1788517940.0825534,
+    "last_run_ts": 1788518008.0135386,
+    "last_success_ts": 1788518008.0135386,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788517830.8492227
+      "updated_at": 1788518011.3988736
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2105,10 +2089,16 @@
       "desc": "SPARC AI (CN:SPAI) Gains Momentum as Defence AI Innovation and GPS-Denied Drone Technology Drive Investor Optimism kalkine.ca",
       "source": "kalkine.ca",
       "region": "WORLD"
+    },
+    "4e42209d83a119a961546d27e4cba53fceb61b8243ee44c508fddd5289d7fa6d": {
+      "time": 1788518008,
+      "title": "Кому принадлежат права на контент, созданный нейросетями? Профессор ЮФУ — о судебной практике и новом законе :: Новости - RuFox",
+      "desc": "Кому принадлежат права на контент, созданный нейросетями? Профессор ЮФУ — о судебной практике и новом законе :: Новости RuFox",
+      "source": "RuFox",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2127,8 +2117,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788516980.4948416,
-  "last_publish_ts": 1788517820.008046
+  "last_publish_ts": 1788518008.0135386
 }
