@@ -350,7 +350,8 @@
     "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": 1788563062,
     "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456": 1788563301,
     "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788563601,
-    "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088": 1788563899
+    "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088": 1788563899,
+    "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439
   },
   "known": {
     "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788543864.4841003,
@@ -438,7 +439,9 @@
     "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393": 1788562402.0264504,
     "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": 1788562402.0264504,
     "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788562402.0264504,
-    "37c9fcad4c0c540dc1eb53f93d0429fb1fc7b277d7d80f8a2bab899787dca762": 1788562402.0264504
+    "37c9fcad4c0c540dc1eb53f93d0429fb1fc7b277d7d80f8a2bab899787dca762": 1788562402.0264504,
+    "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439.8961396,
+    "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564439.8961396
   },
   "queue": [
     {
@@ -457,23 +460,37 @@
         "robotics"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "ServiceNow Extends Israeli AI Buying Spree With Sweep Acquisition - finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91RzU2WmFWMmtFYmxTeW5oUHlhMEtpT241cnlrNFVoVGp2Qng1QVpBeHFZZGRvUkdBWGh0clBxdUg1LUszVTV5bW1yYXJkdDFZTE5saWllbVBJMmZ3VVA1LUxlWVduT21qRFVsdEI5dXZIU1FMQmc?oc=5",
+      "desc": "ServiceNow Extends Israeli AI Buying Spree With Sweep Acquisition finance.biggo.com",
+      "source": "finance.biggo.com",
+      "time": 1788545160.0,
+      "score": 60.0,
+      "key": "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788563899.3649004,
+    "last_start_ts": 1788564439.8961396,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788563899.3649004,
-    "last_success_ts": 1788563899.3649004,
-    "last_candidates": 0,
+    "last_run_ts": 1788564439.8961396,
+    "last_success_ts": 1788564439.8961396,
+    "last_candidates": 60,
     "last_published": 1,
-    "queue_size": 1
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788563905.5471702
+      "updated_at": 1788564462.2659497
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -487,20 +504,6 @@
     }
   },
   "stories": {
-    "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312": {
-      "time": 1788477540,
-      "title": "UiPath Q2 FY2027 slides: profitability rises, AI drives enterprise deals By Investing.com - Investing.com UK",
-      "desc": "UiPath Q2 FY2027 slides: profitability rises, AI drives enterprise deals By Investing.com Investing.com UK",
-      "source": "Investing.com UK",
-      "region": "WORLD"
-    },
-    "4836dcb8eea5500ed7821d1cf800d03fe16a25b50fc6103613d9fcfa2a6c6192": {
-      "time": 1788477894,
-      "title": "IT exports soar, AI triggers job cuts - The Express Tribune",
-      "desc": "IT exports soar, AI triggers job cuts The Express Tribune",
-      "source": "The Express Tribune",
-      "region": "WORLD"
-    },
     "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1": {
       "time": 1788478075,
       "title": "ReliaQuest Advances Agentic Cyber Defense for Enterprises with Anthropic’s Claude - The National Law Review",
@@ -2103,10 +2106,16 @@
       "desc": "В «Google Фото» встроили мощную нейросеть. На что она способна? prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": {
+      "time": 1788564439,
+      "title": "Measure Workplace AI by Cost per Business Outcome - quasa.io",
+      "desc": "Measure Workplace AI by Cost per Business Outcome quasa.io",
+      "source": "quasa.io",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -2125,8 +2134,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788562402.0264504,
-  "last_publish_ts": 1788563899.3649004
+  "last_search_ts": 1788564439.8961396,
+  "last_publish_ts": 1788564439.8961396
 }
