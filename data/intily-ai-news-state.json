@@ -291,7 +291,8 @@
     "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": 1788541520,
     "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": 1788542062,
     "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542721,
-    "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": 1788543380
+    "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": 1788543380,
+    "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde": 1788543562
   },
   "known": {
     "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522622.0770597,
@@ -583,20 +584,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "3 Must-See AI World Sessions for Industrial Manufacturers - Oracle Blogs",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT05kOWxlSEl0SkdKY0lMbE1lYk5OdGFjVlgyTjZ6clB5aENHV0RaXzFfWmxuajB5aGtSY1RYWWJxN2QxeDhpcVhkRHZxQ3RHdkttMWM5U1RiTC1Hdl9JektWVTZmVkFDQ3pkanV0clZnVWVfR19pT01COGR3OGZTZ0xUYzcyZ3JpS3RnSThYUWNTSzRHQWJPM01fQmw?oc=5",
-      "desc": "3 Must-See AI World Sessions for Industrial Manufacturers Oracle Blogs",
-      "source": "Oracle Blogs",
-      "time": 1788541484.0,
-      "score": 69.5,
-      "key": "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину - Korrespondent.net",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeUE0dnN2ejQtbjNneG5BYmNjSjdOLVpmdjI3RzR2Mk5GZ194RlJHNUpQaU01aEdJYXJKbjNrZXFLV2dGdkFqcjJZdkE1RnN0eE9wLTdiLV9MUUxIMkVxS1c5blRqS280ZElxMUpjVkpmUUQ4MndleGNkR2R5MEE5QjE2UzVnRmFZbDRpSENmcUxPdzAyWGI5ekZhUFUxaVZ6NWfSAZwBQVVfeXFMUC1VaFZqMlFZS3FmZjdmSkxpUTZuWG1jZ1BETUhmUlhOdlNaVWs5Y2RhbE9BcVc2WjRKWHAyOXh6YU9HZ2hoUy1aLXFQU3I3dmFxUWxPeTVWb0VQODZRakFlZWhSeDlqbE5iNzE2VjFKVjVRQndNRnlpcHdwTnlFY1FfbFpkbGdhYXZEVnFJWVB0Nnpib1F1R2FPYVhi?oc=5",
@@ -775,20 +762,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788543380.5846565,
+    "last_start_ts": 1788543562.8003175,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788543380.5846565,
-    "last_success_ts": 1788543380.5846565,
+    "last_run_ts": 1788543562.8003175,
+    "last_success_ts": 1788543562.8003175,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 17
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788543385.4876149
+      "updated_at": 1788543565.4941916
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -802,13 +789,6 @@
     }
   },
   "stories": {
-    "a8acd8efb96bd5c37e6b604db02ed18cf8fe43af394d57c250c074dadf8744c9": {
-      "time": 1788457153,
-      "title": "OpenAI Rival Moonshot Makes Blockbuster $50 Billion Move - TradingView",
-      "desc": "OpenAI Rival Moonshot Makes Blockbuster $50 Billion Move TradingView",
-      "source": "TradingView",
-      "region": "WORLD"
-    },
     "8863f4adc9909941be37d8b471e1c98116f2f6b7d5bb57582a140d18f93062ef": {
       "time": 1788457511,
       "title": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков - companies.rbc.ru",
@@ -2432,10 +2412,16 @@
       "desc": "10 Standout Technologies To Watch From IFA 2026 As AI Dominates Berlin's Biggest Tech Show International Business Times Australia",
       "source": "International Business Times Australia",
       "region": "WORLD"
+    },
+    "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde": {
+      "time": 1788543562,
+      "title": "3 Must-See AI World Sessions for Industrial Manufacturers - Oracle Blogs",
+      "desc": "3 Must-See AI World Sessions for Industrial Manufacturers Oracle Blogs",
+      "source": "Oracle Blogs",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2452,10 +2438,11 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788542062.023784,
-  "last_publish_ts": 1788543380.5846565
+  "last_publish_ts": 1788543562.8003175
 }
