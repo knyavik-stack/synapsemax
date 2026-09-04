@@ -699,13 +699,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788535581.4608557,
+    "last_start_ts": 1788535641.7638137,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788535581.4608557,
-    "last_success_ts": 1788535581.4608557,
+    "last_run_ts": 1788535641.7638137,
+    "last_success_ts": 1788535641.7638137,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 15
   },
   "providers": {
@@ -726,13 +726,6 @@
     }
   },
   "stories": {
-    "c6a1817d588e2d3bef106d680bba633e9a5f38d4176338d8bd0b895dfea049d4": {
-      "time": 1788449232,
-      "title": "Microsoft AI’s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed - VentureBeat",
-      "desc": "Microsoft AI’s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed VentureBeat",
-      "source": "VentureBeat",
-      "region": "WORLD"
-    },
     "f33a87c3ac9705c6d5e085cccea2ead26c56796d6169b4596256bac37cda886f": {
       "time": 1788449413,
       "title": "Henceforth Solutions Strengthens AI Software Development Capabilities for Businesses Adopting Intelligent Technology - Issuewire",
