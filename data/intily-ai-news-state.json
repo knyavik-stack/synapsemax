@@ -283,7 +283,8 @@
     "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2": 1788539359,
     "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49": 1788539542,
     "0e0e31ffc22483dcf4b6c522f6d119c19845360b273ce256fd697112ff34f844": 1788539781,
-    "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": 1788540022
+    "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": 1788540022,
+    "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788540261
   },
   "known": {
     "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788518901.903705,
@@ -513,23 +514,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Компания OpenAI инвестирует 1 миллиард долларов в поддержку важнейшей инфраструктуры для укрепления кибербезопасности. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONDFDTWhQRFpqeUZXNlpKdDd2Sk1CaFhHX1ZrNEQ1V25TZWd3azZmVjFrV2Itd2doRVlqdkxwM1FqLXZNR2JmWWlwMDdFckliRWRDRDUySVB5WXVhUEpndWEtN3BDTWU3Q210bWs4UUlBbWRTTndaWGpYeEFTWVdLeTVIZi1EY3RsNk9BYTBmRGU1M2FmdlNNN3BFdw?oc=5",
-      "desc": "Компания OpenAI инвестирует 1 миллиард долларов в поддержку важнейшей инфраструктуры для укрепления кибербезопасности. Vietnam.vn",
-      "source": "Vietnam.vn",
-      "time": 1788539893.0,
-      "score": 83.9,
-      "russia_weight_bonus": 4.4,
-      "key": "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7",
-      "importance": 83.9,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Александр Ведяхин: Доступ ИИ-агентов к маркетплейсам поможет покупателям - Курс Дела",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaklUVEUxQUxFQ1V5T3l4Z0ZiOU01Y25MOUhFcUhMZjVPZ3lOTUtja2tQaTRxTV9hZjlRYkotVW1senVNa1NQYUxFbExhQ0hldkZfbFpXYVM5OWdSRjZsMWlSb2d0ZEJIbGxZX01zLUI4RzJBQ3dFeElHLXVObUthbjVwUEVHRmJHSGdBV0JLanlxSGlSNmZPSTJla2QtV2VySEhyclRkTzVaWDlOYWZ3di10aGdwcm5Zdm1N?oc=5",
       "desc": "Александр Ведяхин: Доступ ИИ-агентов к маркетплейсам поможет покупателям Курс Дела",
@@ -708,21 +692,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
-      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788529330.0,
-      "score": 68.3,
-      "russia_weight_bonus": 2.8,
-      "key": "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6",
-      "importance": 68.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны - Life.ru",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2g3cmJzSDdqTll5NXdnQmpLQS1MM3d1bW9Pd0JkZW01QXBpc3haOXhfWkRwR1M5TTlQR3VxQWxsbkxEdF9MYzgweDFyQWJFaHJSbE1WSzBQXzhrR1dHS3FpVF9GVk0yWmxkWmxjeHlkN1pNNlY1OWpXWlVBaGx0NXhZY1dnSzZuV1JnTWJQQk5lVzJvSzNnX2dRNUswUQ?oc=5",
       "desc": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны Life.ru",
@@ -809,20 +778,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788540022.2498431,
+    "last_start_ts": 1788540261.0111675,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788540022.2498431,
-    "last_success_ts": 1788540022.2498431,
+    "last_run_ts": 1788540261.0111675,
+    "last_success_ts": 1788540261.0111675,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788540030.0560274
+      "updated_at": 1788540265.0195913
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2494,10 +2463,16 @@
       "desc": "Check Point expands OpenAI Daybreak use in security IT Brief Asia",
       "source": "IT Brief Asia",
       "region": "WORLD"
+    },
+    "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": {
+      "time": 1788540261,
+      "title": "Компания OpenAI инвестирует 1 миллиард долларов в поддержку важнейшей инфраструктуры для укрепления кибербезопасности. - Vietnam.vn",
+      "desc": "Компания OpenAI инвестирует 1 миллиард долларов в поддержку важнейшей инфраструктуры для укрепления кибербезопасности. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2516,8 +2491,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788539960.9653587,
-  "last_publish_ts": 1788540022.2498431
+  "last_publish_ts": 1788540261.0111675
 }
