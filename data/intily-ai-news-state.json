@@ -238,7 +238,8 @@
     "9160460f6d8b383e21b84ac9c013620d1aeb8e7b6d7d57a96f64ad547b6dc660": 1788524605,
     "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": 1788524840,
     "b7d62d6c91a69d37f483595938a37ac1397ca23ab449c86e1d432b688eb284db": 1788525262,
-    "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": 1788525561
+    "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": 1788525561,
+    "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9": 1788525800
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -419,23 +420,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Закон об ИИ уперся не в модели, а в данные - kod.ru",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1DbVhoMUsyXzVpV0NoS01qSGlSSWNZSjktaDJfOVN0TERvVjZtdTQ2blRnOFNHSldnZEExTEh3UXRnR3hwdlNMSGU3TjBXd3pCbWk40gFTQVVfeXFMTUNtWGgxSzJfNWlXQ2hLTWpIaVJJY1lKOS1oMl85U3RMRG9WNm11NDZuVGc4U0dKV2dkQTFMSHdRdGdHeHB2U0xIZTdOMFd3ekJtaTg?oc=5",
-      "desc": "Закон об ИИ уперся не в модели, а в данные kod.ru",
-      "source": "kod.ru",
-      "time": 1788516150.0,
-      "score": 77.7,
-      "russia_weight_bonus": 4.2,
-      "key": "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9",
-      "importance": 77.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИИ-агенты OpenAI проявили «менталитет толпы» при взломе Hugging Face - Techora.ru",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0NxWHM5S3RkZHBQVHlQRzI3dnlXVDBzVnBwRXlnb1hRak5QS1hDbFJpcG5qTFdFcHJJWmg3WDhRWDU4V3pJUzd3M2Nia2J0Vl8wVVl2dE9ja1JNZ1l6elltLVBrcy1tTHRPQXpqRzdmSWVMU2ZncnVmYTNqZGtmNnVFVDE?oc=5",
       "desc": "ИИ-агенты OpenAI проявили «менталитет толпы» при взломе Hugging Face Techora.ru",
@@ -504,21 +488,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ - rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQU5mU3NuaGE0NVNPLWVUd243T0QwWDZ6N3J2QktGZzByMGQ2YWJkU09ka3VaRjBvRHkxQjByZWlLT2szR0ZteDRGakhLM0JRUmVVcFdPT3Q0cm9BMjItbXZYU2xUc2VEbmFqV2kyRXVaZktvbmFkdmszWGdMaXd4edIBiwFBVV95cUxNQ3lrTEJSeUgtSjZoOURVMk9IV3lVc1Z3OFdxRWNCYXNHWUs0QWd1cVBOa1dnMy1QVXBMUlJoTmV0MnBnWDAyQTBaSDB3UXp5NzNyYWN4eVhoS1ByNnQ5RVI0M0s2MXZIWmZnZGM2STdwNndsMmRKb3NJaHpULU01blVCQXJJek43bnhN?oc=5",
-      "desc": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ rbc.ru",
-      "source": "rbc.ru",
-      "time": 1788522201.0,
-      "score": 72.9,
-      "russia_weight_bonus": 4.4,
-      "key": "f1587107b735012cd600b307601a0c16fce55d774ecc3a964ba8f9ea34774453",
-      "importance": 72.9,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "LLM в корпоративных процессах: как выбрать сценарий, который окупится - VC.ru",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSzVrR0lsTHM3LWRrLVBCMzQ5R3VHUnplRkZJV2V1ZzBabnJGUTJjeHJHek12RncyUHduTnRFYS1OM1NVaURCZFcwejNuQXY1NFp0Zk9FWFBObUhDZGxqdXpjdk1PQmhoRDBodVh4Um8zUXFsV1VwREFvRk1lcnRnbjQzMGd0b3hyMWJHcWxCeUZPX0E?oc=5",
       "desc": "LLM в корпоративных процессах: как выбрать сценарий, который окупится VC.ru",
@@ -573,6 +542,21 @@
       "russia_weight_bonus": 5.0,
       "key": "2b1b9530fa6e3314debc38c60eeeb72d3e8391d3052bddd74db9638d61a03012",
       "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQU5mU3NuaGE0NVNPLWVUd243T0QwWDZ6N3J2QktGZzByMGQ2YWJkU09ka3VaRjBvRHkxQjByZWlLT2szR0ZteDRGakhLM0JRUmVVcFdPT3Q0cm9BMjItbXZYU2xUc2VEbmFqV2kyRXVaZktvbmFkdmszWGdMaXd4edIBiwFBVV95cUxNQ3lrTEJSeUgtSjZoOURVMk9IV3lVc1Z3OFdxRWNCYXNHWUs0QWd1cVBOa1dnMy1QVXBMUlJoTmV0MnBnWDAyQTBaSDB3UXp5NzNyYWN4eVhoS1ByNnQ5RVI0M0s2MXZIWmZnZGM2STdwNndsMmRKb3NJaHpULU01blVCQXJJek43bnhN?oc=5",
+      "desc": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788522201.0,
+      "score": 69.9,
+      "russia_weight_bonus": 4.4,
+      "key": "f1587107b735012cd600b307601a0c16fce55d774ecc3a964ba8f9ea34774453",
+      "importance": 69.9,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -671,20 +655,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788525621.055752,
+    "last_start_ts": 1788525800.2691984,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788525621.055752,
-    "last_success_ts": 1788525621.055752,
+    "last_run_ts": 1788525800.2691984,
+    "last_success_ts": 1788525800.2691984,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788525582.2488687
+      "updated_at": 1788525803.38776
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2370,10 +2354,16 @@
       "desc": "AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems simplywall.st",
       "source": "simplywall.st",
       "region": "WORLD"
+    },
+    "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9": {
+      "time": 1788525800,
+      "title": "Закон об ИИ уперся не в модели, а в данные - kod.ru",
+      "desc": "Закон об ИИ уперся не в модели, а в данные kod.ru",
+      "source": "kod.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -2392,8 +2382,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788524605.2114382,
-  "last_publish_ts": 1788525561.2874603
+  "last_publish_ts": 1788525800.2691984
 }
