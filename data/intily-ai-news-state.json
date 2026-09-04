@@ -735,13 +735,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788537142.0174565,
+    "last_start_ts": 1788537260.1962466,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788537142.0174565,
-    "last_success_ts": 1788537142.0174565,
+    "last_run_ts": 1788537260.1962466,
+    "last_success_ts": 1788537260.1962466,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 17
   },
   "providers": {
@@ -762,13 +762,6 @@
     }
   },
   "stories": {
-    "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": {
-      "time": 1788450851,
-      "title": "Разработчикам ИИ в России дадут миллиардные льготы - Инвест-Форсайт",
-      "desc": "Разработчикам ИИ в России дадут миллиардные льготы Инвест-Форсайт",
-      "source": "Инвест-Форсайт",
-      "region": "RUSSIA"
-    },
     "ff56ca85428e7e5ad63b9cf26d58918bd9e0ca775fe53e00c7c8958c552373e9": {
       "time": 1788451032,
       "title": "Nvidia Agrees to Buy AI Platform Hugging Face for $13 Billion - WSJ",
