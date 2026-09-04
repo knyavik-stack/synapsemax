@@ -180,29 +180,10 @@
     "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156,
     "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547,
     "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788497907,
-    "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788499739
+    "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788499739,
+    "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": 1788505280
   },
   "known": {
-    "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796.2150717,
-    "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": 1788478796.2150717,
-    "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": 1788478796.2150717,
-    "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": 1788478796.2150717,
-    "1767a453d9b6dbbd6ca0de62fc2369239a5bb7a9dbbc337b07995dddcec38799": 1788480596.4989552,
-    "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9": 1788480596.4989552,
-    "d22501a4517a2d77861cdc7840358d74b38ab9da51d553e00a8c077cb1e9ebe9": 1788480596.4989552,
-    "774b256f69c69dab8cfc74c8aa72023e9e7f82fa2d2ec9b61897310f6aacdba8": 1788480596.4989552,
-    "5fe867a9dd004bf7bbc5ed055a4505f9c29018c9e22df0d982b1db03ccd15c2c": 1788480596.4989552,
-    "9f4000e8382fb2a9a54ede27d030a5934bf92af457dcbcf5f51951b3f00091b4": 1788480596.4989552,
-    "4c9bb67e1d0c0762e9d064b69a9ec0f83e9f432d5a0aeaa816664d1307254797": 1788482453.6053247,
-    "eda7f1adf120bc9056f8b8cc828697a48f03bce7af09324c90a54ff88ee25b85": 1788482453.6053247,
-    "d9b7d150995d7bc1b05f615816f31deebc35437cf67fe441d4605e189ddb21da": 1788482453.6053247,
-    "4616dc0738994f399c5bb1db85d7d7e20cc792020039f18657665a8978fbc246": 1788482453.6053247,
-    "dff5d6155d5233ffeae60a82978f46c87b6871221dfce93d941e3ccbc58e00a2": 1788482453.6053247,
-    "8fdb123c8d416a50f4e2e5d1895db00d628785a8fbb3a7de6a970363d581f11a": 1788482453.6053247,
-    "7513621c37c002cff35f835a8af9357bf1d275f1edbec37ee5f2eb34e7dd6b19": 1788482453.6053247,
-    "e04edfd78bea1b1b88e34dcf1315084add394445f2eff071544974ada7001ef9": 1788482453.6053247,
-    "a407c36525d19cf138af964f8cdc3ea4b999e7b707281d1e1b2e5fba5c725d0f": 1788482453.6053247,
-    "8722e24132beb67d37198ba5f0a8d7b632f7cf8e7d06e439f5a3965ab76a973a": 1788482453.6053247,
     "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": 1788484314.51329,
     "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": 1788484314.51329,
     "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788484314.51329,
@@ -242,45 +223,347 @@
     "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156.5978644,
     "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547.516139,
     "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788498274.389358,
-    "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": 1788498274.389358
+    "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": 1788498274.389358,
+    "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
+    "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": 1788505280.75571,
+    "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220": 1788505280.75571,
+    "839b86977f8f0a32b5a6f233f60966e3af27d7d98e67bb27230f06c598a8fadc": 1788505280.75571,
+    "71d41715e545f03f5bad3358357dc61fa22cd009173ab81d3b73ae3746498994": 1788505280.75571,
+    "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d": 1788505280.75571,
+    "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529": 1788505280.75571,
+    "be07a966517c9547a689ec7865aa49cb214df21b4eb6fd89c01e2510733d23ad": 1788505280.75571,
+    "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21": 1788505280.75571,
+    "d39a7884e5d6a904c7b16ceb5b3cb8189f71d046e759f6fa4547b667bb7d9949": 1788505280.75571,
+    "4742b5b2eaa6a861466512c7f92b24d914c05c97142a53dc4f1c42e2906c5958": 1788505280.75571,
+    "139b677c3a51bc40b5cbcc7218f61befce1b37585c1ea8882b5452b6ef1c6391": 1788505280.75571,
+    "de2ba6b72d78be9ff809eb81321a3b139e7432ae40adfc430785b9541b915c76": 1788505280.75571,
+    "4d08cfa99a52470fd98f35574f7435e4cdead3fb5b745f6f92dc66fb26b555f0": 1788505280.75571,
+    "3135200125418d0515b1af56831afc72d93ecb1ca685f0d8bf5578192865d6f6": 1788505280.75571,
+    "f599ad26c50d8a649c7dd0fa1bb96b949f779c9055fd497825139c4a822913f6": 1788505280.75571,
+    "1a9fd257e84a570ed31d62752d3528adcb0f6f14c69e063103386b552c2f6b38": 1788505280.75571,
+    "2b4b9c5e39afb80dbd506076a923a83b81acf6cd1889867b02ae374586ce298e": 1788505280.75571,
+    "5678da44b87d8c217d47ba3c08716ee18b033d4f9b250c2fbdac12120658d9ce": 1788505280.75571,
+    "797e43b1bde72a699a2d26744811a9ab221befb40b0c47b02afb7414ed931199": 1788505280.75571,
+    "02a133fd7c941498e88c3ec592ad3f797f6c37598f2b8c6a7ef45af8738a2928": 1788505280.75571,
+    "03383a59ddbc7f0fc27d562d859d180d979fdf39dc808d6795102304cabaa568": 1788505280.75571,
+    "3b2d8fee1673cdecb10250c484c898f76e655a3fcd84c0c44a5ae634a89141fd": 1788505280.75571
   },
   "queue": [
     {
+      "region": "RUSSIA",
+      "title": "Anthropic может стать лидером «осенней гонки ИИ»: новые модели разработчика обошли Google и OpenAI - RB.ru",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWXd0OWxNMlJFWVl1ejRwaER3dnJjS0tNc3ItT09JNE43YUFkb2l4a0pZVFZxN3NkMkxuQ3N2SUtzSWVVbVNjNS12c0ZfVFJIeTJfQjRiR1RfbjlnSWJOUUV5N2EySF9BTEhlMVBfS1JLRjI2bjlMVDJKNlNpVTZINXJSeXM0aHY5UkdHQnUzWTk1NHJQaXZsZUZ5dGdNU0JqVnZrSUc2WE82a0h2Q0R3SUlHcE12SU5i?oc=5",
+      "desc": "Anthropic может стать лидером «осенней гонки ИИ»: новые модели разработчика обошли Google и OpenAI RB.ru",
+      "source": "RB.ru",
+      "time": 1788501600.0,
+      "score": 79.7,
+      "russia_weight_bonus": 4.2,
+      "key": "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1",
+      "importance": 79.7,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
-      "title": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcW1ubGhVdk5SNnpqYXRnQndFUVBVTHVXMlNJRll4TWZwYzhhT25kOE1VQXdlcnVZSHp5bWNTQm56WkU2M2YtdjdZTXJqMC1WMUtTYUdwQmZJTF9SWWczYVY4MldLUHlfc21TSC1yclloenFxeFk1Y0IyM041Y3ptbWVwMG0yZnRfZE1XT1hyUWFOM3JELVJNbA?oc=5",
-      "desc": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? The Motley Fool",
-      "source": "The Motley Fool",
-      "time": 1788498111.0,
-      "score": 66.5,
-      "key": "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3",
-      "importance": 66.5,
+      "title": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets - Help Net Security",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTnBIdTB1V1VFS0hPUGNlNmROWGZsZFc5cWVQNVB6N1U1Y0hrTW9IanF0ZC1VNk9lcUF1c0s5dVhsZU1zYl9kRk1RUU82VzhydlN1TVdXSHZwdkREVm1EaEY4dVgxZ0p2MmxoQWpjNjBYMnZzck9JTVdqMDJGSlY2aVdQUmhDU3h5bjYzb0Vnaw?oc=5",
+      "desc": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets Help Net Security",
+      "source": "Help Net Security",
+      "time": 1788496541.0,
+      "score": 74.5,
+      "key": "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220",
+      "importance": 74.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
+      "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
+      "source": "Национальное аграрное агентство",
+      "time": 1788504000.0,
+      "score": 72.9,
+      "russia_weight_bonus": 1.4,
+      "key": "839b86977f8f0a32b5a6f233f60966e3af27d7d98e67bb27230f06c598a8fadc",
+      "importance": 72.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Две трети россиян выступили за маркировку ИИ-контента - techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOFRIQndZUVFvWS1GMWpPVDdnRVZXZWtBU2ZRdnpNTWRpWHlJMlNqUV93b3JaX3Vpc2tUOWhXcm56MU16WG5pSTZ4S2h2bHRyNEZxWGFraXJILWFKN3JlTGN3bndjOVZibzl0RGZLcXZGVWVfNGRtT2hieWFxd3kxdTJicw?oc=5",
+      "desc": "Две трети россиян выступили за маркировку ИИ-контента techora.ru",
+      "source": "techora.ru",
+      "time": 1788503787.0,
+      "score": 72.5,
+      "russia_weight_bonus": 5.0,
+      "key": "71d41715e545f03f5bad3358357dc61fa22cd009173ab81d3b73ae3746498994",
+      "importance": 72.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "GPT-6 Astra is OpenAI’s boldest model yet, and it’s rewriting what AI agents can actually do - Craving Tech",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMHFZdWxOQ0ZuSDRWOVg3MGpvRTZ1bmlmc1Z1NmY4bC0zYnAzZFNmU1NmTk5CVjY4X1d5aTVlTkNhdG12c1BnSUZ4T2x4WkRRWmtNMEdKWjlTVTkteDN2Y0s1V19KNV84c0RhWjl1VEt4MTdoVjBjVHhtSVVLN0ZlZDlUYXVKOFlyRVRFdUtaUW4yQ2xXT3phanlxZWdkSE1lWnlGVmVHa254LThWLTFrQl8za2J6M3dNeVVwLWtFaw?oc=5",
+      "desc": "GPT-6 Astra is OpenAI’s boldest model yet, and it’s rewriting what AI agents can actually do Craving Tech",
+      "source": "Craving Tech",
+      "time": 1788500926.0,
+      "score": 71.5,
+      "key": "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d",
+      "importance": 71.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcHNSdUdrckpadThCUlJiM3VaTFRJdzdIY09ZejkwbloxZ2IzdFJ5M1V4MDlZajdLMnpQU3BWMExBcmRpTndQSk50ZnRRTXhlS2Nycm92Y29YQThSeW91d05PODN0RDZWdnFZNTdVM0ZQaGZxUWplbk1YUC1FQkI2aFZOVWx1VlRLc0FPWW9qbmd5bVpCSzNPZEJZYjlHcHlCVC1rS1htQnZ6bmZBdnJsN2Nuci1xbkx1R2VGcEdUYmxZTjJrWFNndzU2cVp5RmFvWV9iUmxEVFY?oc=5",
+      "desc": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab TradingKey",
+      "source": "TradingKey",
+      "time": 1788502958.0,
+      "score": 70.5,
+      "key": "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Siemens Healthineers pushes AI-led care model for Southeast Asia - ET CIO SEA",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmJEMjI5ZkY4UGFBd0E0UUc3dFFKcVEwZ0xMM0w1X0t3SEM5SVJCWHUwdDAwX3RqM1hkVnFNX1ljbzhhZ1lVRzJITTZ3WHhmOWtlVlpURFpyQm1SUTlnV2ktOThmNHlmdWdZcHdybnVCQ2RWSlZMSDZhRkE2eEo1QktIeXhwSF9yUnJiVkZxMkt2bS00MFZtMy10WjBBN1ROYUw1MThFckJWRU82dTNWbDY3dlJPQWgxQlo5T2Nrb3hoUlJDSl9DRTJoTU1iRU5pejNhZ3VFTXVwUQ?oc=5",
+      "desc": "Siemens Healthineers pushes AI-led care model for Southeast Asia ET CIO SEA",
+      "source": "ET CIO SEA",
+      "time": 1788501769.0,
+      "score": 70.5,
+      "key": "be07a966517c9547a689ec7865aa49cb214df21b4eb6fd89c01e2510733d23ad",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Enterprise AI Agents: How to Deploy, Govern, and Scale - RS Web Solutions",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYzRaaE12T1dfcTV3UWg0Z3FxNXJGTE5SdE1SckIzMWpBTUJLc0xSM2YzSU1jV2k4UGlMSXZyc3NnLTlYLUxoU2huTHZkLVhJbGduRkhvcTRrZWNJQ2w5a0paQlJmSkNJdXNrc1lJd05QMjJNQzN2SWlDUzFuOXhEXw?oc=5",
+      "desc": "Enterprise AI Agents: How to Deploy, Govern, and Scale RS Web Solutions",
+      "source": "RS Web Solutions",
+      "time": 1788500516.0,
+      "score": 70.5,
+      "key": "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Breakingviews - COMMENTARY: AI agent hack tests solvency more than sentience - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ0YxbC12R2RMY1dGdWlUWVVoRWdUdlV6ZVNzay0wdlpSNGxCMlN2VGxUTjRuWVNhbmxZQWtqYTc2bzhwNG5pOXpJTFpFMEhBY3FaVEpFUXVyU2VfY05md3BDQ3FYUi1TSzU3VzVVTF9RZDVyVFdRblNsLWs4VG95OEVpWU04XzVvVFlZTlBxNThhMFVReHZKaW83U0JTdndCdjQtVWVpNHhuTjh3Z1E?oc=5",
+      "desc": "Breakingviews - COMMENTARY: AI agent hack tests solvency more than sentience Reuters",
+      "source": "Reuters",
+      "time": 1788498000.0,
+      "score": 70.5,
+      "key": "d39a7884e5d6a904c7b16ceb5b3cb8189f71d046e759f6fa4547b667bb7d9949",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Что происходит на рынке IT: зарплаты, ИИ и прогноз - Новые Известия",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMURpbUJJVVhnbWEtZlJRRks5LVpVYWs0OTFhcGxka2pRd3NISUZXdk1GUTFtN2YxSDJFVWVrRi05eUZQZnVockIxQTVZRmJDUXpORGRlVHEtVTVVU3dkaXNrMUxvQ3pGMFIyVkJSeUpYd0lrbW84Ym0wNHptdDlxYnlHaXlSeUFxR1RRVHpGR1pmb3c3aGtvOU1JZlBfT3h0ZlZxRXV0SFhrR2V0RG1yck1ZcngtenpJREE?oc=5",
+      "desc": "Что происходит на рынке IT: зарплаты, ИИ и прогноз Новые Известия",
+      "source": "Новые Известия",
+      "time": 1788498000.0,
+      "score": 69.2,
+      "russia_weight_bonus": 4.7,
+      "key": "4742b5b2eaa6a861466512c7f92b24d914c05c97142a53dc4f1c42e2906c5958",
+      "importance": 69.2,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Сбер поможет развивать цифровые решения в Еврейской автономной области - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRU80aEg5bXRHTXA2bm52czVGVDVEdWN1bk9qZ09tTVM0M3dISy14WTZDbG1GaUtyZnV1UnBRWkZ0UlB3ZzBJc2p1MDhJZ0RZWVBnVlVhOVhIeDBmRWtldWJoOEFFX1dSUmpBdXhuelgwMTVDT0F1SkxEaFB3QldNcVlQalBJelY3c3ZBRGZqVFo5dFRjRFY4RkJiT0J0Nk14dGdYUzI3ZDZ6VVJ2Q0N2TTRPUnc?oc=5",
+      "desc": "Сбер поможет развивать цифровые решения в Еврейской автономной области prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788501182.0,
+      "score": 68.9,
+      "russia_weight_bonus": 4.4,
+      "key": "139b677c3a51bc40b5cbcc7218f61befce1b37585c1ea8882b5452b6ef1c6391",
+      "importance": 68.9,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Правительство РФ: отечественные нейросети привлекут к образованию и проведению выборов - TelecomDaily",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaE5kSUlwdW5jb0FhaHVTSldZb2g2Q2VjcHN0MUItTzJHS3Q5UFVZMzBFUC0yZW82bDZfaW9yR3QtTFI5MVA5RXVzTlVuT1gtaHhPTW5fMlpKakdGTlA5d3p6YWNIVWFKa1NvLXpRYzBSX2pIRFRiU3V6bUJLdE94TmY4cGhhMkZkdEJOLWlRcjdRYkpXeDZoU1ZjMzNSM05sQnBqeUowQUpNZnNITmZES2V4aFhPdV9IU0FwTDRhSUwyYlpNd0E?oc=5",
+      "desc": "Правительство РФ: отечественные нейросети привлекут к образованию и проведению выборов TelecomDaily",
+      "source": "TelecomDaily",
+      "time": 1788501329.0,
+      "score": 68.7,
+      "russia_weight_bonus": 1.2,
+      "key": "de2ba6b72d78be9ff809eb81321a3b139e7432ae40adfc430785b9541b915c76",
+      "importance": 68.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Директор Президентской академии в Санкт-Петербурге Андрей Хлутков: «Искусственный интеллект должен освобождать педагога от рутины, а не заменять живой контакт» - nia-rf.ru",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vWVphU05FeGlwNzVUc0ZNN2otM0dwaDhHbElodnB6Q29lOHVYajBhbllUYlhiZHpzTG5lSVNyNGZwcGhYZzhldm8wTmxMYjAtbGpB?oc=5",
+      "desc": "Директор Президентской академии в Санкт-Петербурге Андрей Хлутков: «Искусственный интеллект должен освобождать педагога от рутины, а не заменять живой контакт» nia-rf.ru",
+      "source": "nia-rf.ru",
+      "time": 1788501490.0,
+      "score": 68.1,
+      "russia_weight_bonus": 3.6,
+      "key": "4d08cfa99a52470fd98f35574f7435e4cdead3fb5b745f6f92dc66fb26b555f0",
+      "importance": 68.1,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia - Martin Cid Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFZjQTJ6MlJYTndtS01SanphT1I2a1VKVTdZYmxaWXFDNWdyT1YwS2JldEV5bnZPczkxSlJSdW53cFJJWTJfVEtVWS1rZDk2ZXNoU05kNUlvcjhxRHVrMFM1ZjRqcmMxQXV3RUJqSGhpUzNyU1FGMDRwYmtuYmZWNy0zTW12ZVBzNVUw?oc=5",
+      "desc": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia Martin Cid Magazine",
+      "source": "Martin Cid Magazine",
+      "time": 1788501600.0,
+      "score": 67.5,
+      "key": "3135200125418d0515b1af56831afc72d93ecb1ca685f0d8bf5578192865d6f6",
+      "importance": 67.5,
       "editorial_value": 50.0,
       "topics": [
         "chips"
       ],
-      "tier": "A",
-      "last_failed_at": 1788499375,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 3,
-      "next_retry_at": 1788500575
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Qualcomm Unveils Adreno Neural Fusion in Major Mobile GPU Overhaul - thelec.net",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SRXVHNk9zYWdYdnhDVm0yd25PT0xqZDlYSDEwNk1uTGhHWDM3bjE4ekozVmh6dmRZLVFEaUF4dlUyejBDVmVIdkZfZmc3SnRRSzh3MlRuSWlXeXRVVUFPOGdsT1FDc0U?oc=5",
+      "desc": "Qualcomm Unveils Adreno Neural Fusion in Major Mobile GPU Overhaul thelec.net",
+      "source": "thelec.net",
+      "time": 1788499689.0,
+      "score": 67.5,
+      "key": "f599ad26c50d8a649c7dd0fa1bb96b949f779c9055fd497825139c4a822913f6",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Unicorn Secures $3.7 Billion New Financing Round, Driving Total Valuation to $33.6 Billion - eu.36kr.com",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oOUZDTEpjdE5ZLXpZSi1zRDQteWlMX1o4VHdIeUtTVmlKSzRyQzdTckZOTWVxZlpQTUpHcUxnSmxNZzRvVkJkMVZQQTYyRDRNT2hn?oc=5",
+      "desc": "AI Unicorn Secures $3.7 Billion New Financing Round, Driving Total Valuation to $33.6 Billion eu.36kr.com",
+      "source": "eu.36kr.com",
+      "time": 1788498192.0,
+      "score": 67.5,
+      "key": "1a9fd257e84a570ed31d62752d3528adcb0f6f14c69e063103386b552c2f6b38",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "How Anthropic Makes Money—and What Investors Should Know Ahead of Its IPO Filing - global.morningstar.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNGRWZm5wRV9yWEpWNWNtZEZqYWZlSjRHY1VSdDZLMmFxNkRudjNTeVdXWHRJWF9jVDZkQ2ZYUy1FOFpzZ0lHdTlTLVhacUdPdERFM3lIYzM0SHl3NncwUmlXWGx4V1NYc1JqSktrbFlCbzdhcVNubnAxWjd2bVdMcGxnbnlqNjVQcWlrakhEWEMxUlZBVXNBN0pXdlpHNk1PSHNTZ1VDMTNabmFuUV8yVXRDaHUtNm1LRTVTRA?oc=5",
+      "desc": "How Anthropic Makes Money—and What Investors Should Know Ahead of Its IPO Filing global.morningstar.com",
+      "source": "global.morningstar.com",
+      "time": 1788502088.0,
+      "score": 66.5,
+      "key": "2b4b9c5e39afb80dbd506076a923a83b81acf6cd1889867b02ae374586ce298e",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Algorithms Redefine Migraine As Complex Spectrum Disorder - streamlinefeed.co.ke",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYjJHNm1OUVFnWlRPX1Qyclg5VFNrR0tEdGUxY2VhNXNwMWxCVDU5OFlGRHV6eEtFN0xLSHg3OTU0Tk1xSXRKTmZxQ25uQjVaa05nRFdfSlJVakFyMDJveXhNRnBqaUIwcV9HZ21HcThEVGN2d0lpUlNnOE5CR3dFX21hZnNsbENxbU9PRFlTTUN1TENUZk0tTG1B?oc=5",
+      "desc": "AI Algorithms Redefine Migraine As Complex Spectrum Disorder streamlinefeed.co.ke",
+      "source": "streamlinefeed.co.ke",
+      "time": 1788501637.0,
+      "score": 63.5,
+      "key": "5678da44b87d8c217d47ba3c08716ee18b033d4f9b250c2fbdac12120658d9ce",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Michael Burry Calls Nvidia-Hugging Face Deal A ‘No-Brainer’ — Wall Street Sees New Threat For OpenAI And Anthropic - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPX05yNHplTDMzXzlqVXVEOHpBVTdIdEN5ZVdSaHF3X0xsWnJBMDlrSGJFRU0tSEFyWmh1VmF3Yy1ldVdrcFhQZFA2S19ndDZIX0lBREc0Wlc3Z0NtYlhDYTdYcDhJRS1lUTlSWWRTRDJORVNTZExLdGc4ZkhKbm40TnFJU0tKOHJ0UEx4SnBqZFNzbzV1cnZMaUpxc21GT19JS0lnTG9VSElUeF9aME9xQ1F6Zi1oLXFkSUduVEJKY2RrSl9xWS1RZmgtV1AwLWd4U2lFeE12d1JHS0dzbnZEOG8wRU5FakJ2OVd0WVlmNFNKaUVHUTY4TEl3WjJUTzll?oc=5",
+      "desc": "Michael Burry Calls Nvidia-Hugging Face Deal A ‘No-Brainer’ — Wall Street Sees New Threat For OpenAI And Anthropic TradingView",
+      "source": "TradingView",
+      "time": 1788498480.0,
+      "score": 63.5,
+      "key": "797e43b1bde72a699a2d26744811a9ab221befb40b0c47b02afb7414ed931199",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788499739.633875,
+    "last_start_ts": 1788505280.75571,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788499739.633875,
-    "last_success_ts": 1788499739.633875,
-    "last_candidates": 0,
+    "last_run_ts": 1788505280.75571,
+    "last_success_ts": 1788505280.75571,
+    "last_candidates": 50,
     "last_published": 1,
-    "queue_size": 1
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788499744.6545146
+      "updated_at": 1788505304.2241247
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1560,10 +1843,16 @@
       "desc": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence 36 Kr",
       "source": "36 Kr",
       "region": "WORLD"
+    },
+    "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": {
+      "time": 1788505280,
+      "title": "Meta's Hatch AI Agent Exposes Security Flaws in Testing - 조선일보",
+      "desc": "Meta's Hatch AI Agent Exposes Security Flaws in Testing 조선일보",
+      "source": "조선일보",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1582,8 +1871,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788498274.389358,
-  "last_publish_ts": 1788499739.633875
+  "last_search_ts": 1788505280.75571,
+  "last_publish_ts": 1788505280.75571
 }
