@@ -789,13 +789,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788538102.15343,
+    "last_start_ts": 1788538164.2126245,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788538102.15343,
-    "last_success_ts": 1788538102.15343,
-    "last_candidates": 104,
-    "last_published": 1,
+    "last_run_ts": 1788538164.2126245,
+    "last_success_ts": 1788538164.2126245,
+    "last_candidates": 0,
+    "last_published": 0,
     "queue_size": 19
   },
   "providers": {
@@ -816,13 +816,6 @@
     }
   },
   "stories": {
-    "de4d76498fe079f793645cb510a5fb3912adf9320ce30d745433599ae4825db9": {
-      "time": 1788451757,
-      "title": "Израильский стартап наймет сотни специалистов для внедрения ИИ у клиентов - prospect.com.ru",
-      "desc": "Израильский стартап наймет сотни специалистов для внедрения ИИ у клиентов prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "f3f9df884412cb4ac8bc9860916ed0bc515f96527dcc45f01ccdfd1dff66ba2c": {
       "time": 1788452113,
       "title": "CEO Nvidia призвал G20 не регулировать «теоретические угрозы» ИИ - prospect.com.ru",
