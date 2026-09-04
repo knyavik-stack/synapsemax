@@ -739,11 +739,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788530542.3927631,
+    "last_start_ts": 1788530660.1783738,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788530542.3927631,
-    "last_success_ts": 1788530542.3927631,
+    "last_run_ts": 1788530660.1783738,
+    "last_success_ts": 1788530660.1783738,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 19
@@ -766,13 +766,6 @@
     }
   },
   "stories": {
-    "5b691430098e75e902d4f19a0430e7941dfe7f75c6f46f2ea92fac324ac60194": {
-      "time": 1788444191,
-      "title": "Nvidia оснастит еще один дата-центр для Anthropic - kommersant.ru",
-      "desc": "Nvidia оснастит еще один дата-центр для Anthropic kommersant.ru",
-      "source": "kommersant.ru",
-      "region": "RUSSIA"
-    },
     "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d": {
       "time": 1788444372,
       "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC - CNBC",
