@@ -256,7 +256,8 @@
     "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": 1788530719,
     "3faf9cf5e7652244dd8ef3826d25e3b19bd87eb8d16f56d16778156a5b16dbfe": 1788531022,
     "627a77a5410410700ca2232fb4a328448417aa91d9a37e596cfa108fcd925e60": 1788531384,
-    "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": 1788531682
+    "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": 1788531682,
+    "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be": 1788532040
   },
   "known": {
     "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511223.1508448,
@@ -510,21 +511,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Люди бунтуют против ИИ и ЦОД — Альтман согласился, что отрасль сама в этом виновата - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZWptUDdfeVMyazFLYjVGY1FkVUg2VTAxNTR2ZEZGekJaS1QzcVZaS3RTb2tCUW9qQjVJaFkxOUMzSlJrZ2h5RG1neFY0WGxCbFRhc3JFOW13Q0hiWEgwVHVCY3RjUkZqX0NCaDl2OU1SR2NMekEzMFQxX3Bjd29PRjU5UEhSWWpLSkVMUDU0eGdhbmxWb2o3T3FFRlUyRzdkdGJkTUlPNThmbDlrTWlUX09YcXFNR1R6UnhTd19VY01LWFk?oc=5",
-      "desc": "Люди бунтуют против ИИ и ЦОД — Альтман согласился, что отрасль сама в этом виновата prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788528203.0,
-      "score": 71.2,
-      "russia_weight_bonus": 2.7,
-      "key": "f3278df92372d265adf6854044bd776d38e4d0948e12e3988f5b669946c2bfaa",
-      "importance": 71.2,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "«Использовать ИИ только ради моды мы не будем» - kommersant.ru",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Qa0lOcW01ZTZEV3RIX1hXa3ljOHNCNmg4Ym0tU3BTbWtmZXlEOU1QSHRhV2cwNkxUTjB5bk9fZlo5bXZxZHBYY2RaYzlyZw?oc=5",
       "desc": "«Использовать ИИ только ради моды мы не будем» kommersant.ru",
@@ -555,29 +541,15 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Потенциал Дальнего Востока — основа успешной интеграции ИИ в ключевые процессы — Максим Орешкин - Национальный центр «Россия»",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWmgxTG5rVHptYk1MZWF0ZXhsaWY4a09TVTR4ckpSRFp4Ml81emRxbDl5Z0NkbGJLQTVHQ0pHR3NnUloyMHQtNFJ3MElob2FTSXNtb0NFRHJEQUgtZ2Rtd0tfSzBQd1VidXpScno5SVpua0dacGMtZWhya0lZWmRuekZYR0hlaXFETUd2T0M1bWxXSEJyY0pLb3RsZ3JQdl84VEw0XzN6NWlpZWhmY3FoMTlYVkdKVVFZZ2lBd3A0RWFfdw?oc=5",
-      "desc": "Потенциал Дальнего Востока — основа успешной интеграции ИИ в ключевые процессы — Максим Орешкин Национальный центр «Россия»",
-      "source": "Национальный центр «Россия»",
-      "time": 1788521098.0,
-      "score": 70.1,
-      "russia_weight_bonus": 4.6,
-      "key": "abbdd33314d5c9c0721ae0a8021808de497d3b3ef78d5ffb99f1c17a0f0cb0b7",
-      "importance": 70.1,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live - techtimes.com",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbGhwTXYycWgzQnFLS3ZNRmZEX1lMdkthM2l6eDkzUXNlSjNXVF9NQ2Z0Y0RSRmxZdUE3ZTVxaUtxVU1XbkJ0M3d4RlVBU1JsXzlBQlVEdjZTMTRIdEpiNGVQZVF0cVA5RVgyWDkwNWxMdmJvZ3hMMXQ2MElEa252OHhFa1NiejcyOUVSUk8yc2hhYlB1Vk0taW5oU1NMcmJqQmU1aVRPbW1yRlBrUjFhcHhuM1p2V3MxX0VMWk1xaUdFQQ?oc=5",
-      "desc": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live techtimes.com",
-      "source": "techtimes.com",
-      "time": 1788528078.0,
-      "score": 67.5,
-      "key": "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be",
-      "importance": 67.5,
+      "title": "Люди бунтуют против ИИ и ЦОД — Альтман согласился, что отрасль сама в этом виновата - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZWptUDdfeVMyazFLYjVGY1FkVUg2VTAxNTR2ZEZGekJaS1QzcVZaS3RTb2tCUW9qQjVJaFkxOUMzSlJrZ2h5RG1neFY0WGxCbFRhc3JFOW13Q0hiWEgwVHVCY3RjUkZqX0NCaDl2OU1SR2NMekEzMFQxX3Bjd29PRjU5UEhSWWpLSkVMUDU0eGdhbmxWb2o3T3FFRlUyRzdkdGJkTUlPNThmbDlrTWlUX09YcXFNR1R6UnhTd19VY01LWFk?oc=5",
+      "desc": "Люди бунтуют против ИИ и ЦОД — Альтман согласился, что отрасль сама в этом виновата prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788528203.0,
+      "score": 68.2,
+      "russia_weight_bonus": 2.7,
+      "key": "f3278df92372d265adf6854044bd776d38e4d0948e12e3988f5b669946c2bfaa",
+      "importance": 68.2,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -670,23 +642,38 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Потенциал Дальнего Востока — основа успешной интеграции ИИ в ключевые процессы — Максим Орешкин - Национальный центр «Россия»",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWmgxTG5rVHptYk1MZWF0ZXhsaWY4a09TVTR4ckpSRFp4Ml81emRxbDl5Z0NkbGJLQTVHQ0pHR3NnUloyMHQtNFJ3MElob2FTSXNtb0NFRHJEQUgtZ2Rtd0tfSzBQd1VidXpScno5SVpua0dacGMtZWhya0lZWmRuekZYR0hlaXFETUd2T0M1bWxXSEJyY0pLb3RsZ3JQdl84VEw0XzN6NWlpZWhmY3FoMTlYVkdKVVFZZ2lBd3A0RWFfdw?oc=5",
+      "desc": "Потенциал Дальнего Востока — основа успешной интеграции ИИ в ключевые процессы — Максим Орешкин Национальный центр «Россия»",
+      "source": "Национальный центр «Россия»",
+      "time": 1788521098.0,
+      "score": 60.6,
+      "russia_weight_bonus": 4.6,
+      "key": "abbdd33314d5c9c0721ae0a8021808de497d3b3ef78d5ffb99f1c17a0f0cb0b7",
+      "importance": 60.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788531743.1409638,
+    "last_start_ts": 1788532040.3776293,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788531743.1409638,
-    "last_success_ts": 1788531743.1409638,
+    "last_run_ts": 1788532040.3776293,
+    "last_success_ts": 1788532040.3776293,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 15
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788531693.1778586
+      "updated_at": 1788532043.597932
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -700,13 +687,6 @@
     }
   },
   "stories": {
-    "570b54be4e560da272a60c59097bfe66916c4b162f3d49bcab0a36bd6df7fece": {
-      "time": 1788445639,
-      "title": "Broadcom Custom AI Chip Revenue Surges 221% to $16.7B, Q4 Guidance Disappoints - Tech Times",
-      "desc": "Broadcom Custom AI Chip Revenue Surges 221% to $16.7B, Q4 Guidance Disappoints Tech Times",
-      "source": "Tech Times",
-      "region": "WORLD"
-    },
     "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": {
       "time": 1788445991,
       "title": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок - Московская газета",
@@ -2379,10 +2359,16 @@
       "desc": "Российские ИТ-компании выступили против компенсаций авторам за обучение ИИ на их контенте RB.ru",
       "source": "RB.ru",
       "region": "RUSSIA"
+    },
+    "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be": {
+      "time": 1788532040,
+      "title": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live - techtimes.com",
+      "desc": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live techtimes.com",
+      "source": "techtimes.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2401,8 +2387,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788530483.340653,
-  "last_publish_ts": 1788531682.7921188
+  "last_publish_ts": 1788532040.3776293
 }
