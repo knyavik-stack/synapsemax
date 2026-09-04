@@ -200,12 +200,6 @@
     "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": 1788512241
   },
   "known": {
-    "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
-    "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": 1788490678.3778079,
-    "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": 1788490678.3778079,
-    "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333": 1788490678.3778079,
-    "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788490678.3778079,
-    "7b24cc521ac29f0f89a2483856b7e7c32d220eb99b3dd3b52e04756cede09fcd": 1788490678.3778079,
     "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491755.7473595,
     "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492054.0149205,
     "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788492655.914861,
@@ -383,21 +377,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Директор Президентской академии в Санкт-Петербурге Андрей Хлутков: «Искусственный интеллект должен освобождать педагога от рутины, а не заменять живой контакт» - nia-rf.ru",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vWVphU05FeGlwNzVUc0ZNN2otM0dwaDhHbElodnB6Q29lOHVYajBhbllUYlhiZHpzTG5lSVNyNGZwcGhYZzhldm8wTmxMYjAtbGpB?oc=5",
-      "desc": "Директор Президентской академии в Санкт-Петербурге Андрей Хлутков: «Искусственный интеллект должен освобождать педагога от рутины, а не заменять живой контакт» nia-rf.ru",
-      "source": "nia-rf.ru",
-      "time": 1788501490.0,
-      "score": 69.1,
-      "russia_weight_bonus": 3.6,
-      "key": "4d08cfa99a52470fd98f35574f7435e4cdead3fb5b745f6f92dc66fb26b555f0",
-      "importance": 69.1,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcHNSdUdrckpadThCUlJiM3VaTFRJdzdIY09ZejkwbloxZ2IzdFJ5M1V4MDlZajdLMnpQU3BWMExBcmRpTndQSk50ZnRRTXhlS2Nycm92Y29YQThSeW91d05PODN0RDZWdnFZNTdVM0ZQaGZxUWplbk1YUC1FQkI2aFZOVWx1VlRLc0FPWW9qbmd5bVpCSzNPZEJZYjlHcHlCVC1rS1htQnZ6bmZBdnJsN2Nuci1xbkx1R2VGcEdUYmxZTjJrWFNndzU2cVp5RmFvWV9iUmxEVFY?oc=5",
@@ -526,14 +505,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788512241.4030507,
+    "last_start_ts": 1788512368.4910598,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788512241.4030507,
-    "last_success_ts": 1788512241.4030507,
+    "last_run_ts": 1788512368.4910598,
+    "last_success_ts": 1788512368.4910598,
     "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 15
+    "last_published": 0,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
