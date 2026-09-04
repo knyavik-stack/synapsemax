@@ -174,7 +174,8 @@
     "3ee9a099aa9259fc0cbd48d24d4b344dc9737a04088b3aa820c9d952f17d9eae": 1788495069,
     "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": 1788495354,
     "d797361e8127c5aa099c9d0253a16feea017a5e105ac8b34f0521f817f9535ee": 1788495600,
-    "bf00ab760e727011b3c20f125efa35b4e33c26cf432dc6ed461de6ce9754f13a": 1788496135
+    "bf00ab760e727011b3c20f125efa35b4e33c26cf432dc6ed461de6ce9754f13a": 1788496135,
+    "67556d08be870b8c71623c41701d28db2500ff38087cc1faf41be2bf3c643c12": 1788496374
   },
   "known": {
     "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788475135.0999737,
@@ -254,24 +255,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "Where Does $100 of AI Capex Flow? Unpack Full AI Infrastructure Cost Chain - Moomoo",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM01jVFd4alpzbWg0U283OTlPUmdpS3VPbmRpWnlRRWY3YW9NSVI0cWNBRnd6anhUdGUzdkkzakNOODRfVWpFcFpDQWpLMGVEUFp1aFBHcTlkTi1CdFpxd0lfSVhhRlJTSVFMZF9WM0o3OUhGeERTcUhHWGNhRzdEamhLOTRpNGxMZ0d1UFlWTWpUNHlhNUowV2Z3SGlOS2RuNWc?oc=5",
-      "desc": "Where Does $100 of AI Capex Flow? Unpack Full AI Infrastructure Cost Chain Moomoo",
-      "source": "Moomoo",
-      "time": 1788492671.0,
-      "score": 66.5,
-      "key": "67556d08be870b8c71623c41701d28db2500ff38087cc1faf41be2bf3c643c12",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788496135,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788496735
-    },
-    {
       "region": "RUSSIA",
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUm5reVdteHFBdF94NTYzZkVETWZXZjh3cTVNTTF6YU5sMXhQZ2dSYnhTSThiU1VBcXpnaWZuMzRteXdTUVg1WjZFV24wOEprUjVNNzlhanIteUpJTmxLTjQ3ai1GRFBNeFBfX09FZ0pIbkNtM1U5MWRPVDkxcG4zVFlOQUVzYlo4MWtWRWlEWGtudnVfOEMxU1hCdUE4WVRsTDg2b1JYcl9pVWR0X3c?oc=5",
@@ -288,20 +271,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788496135.5059273,
+    "last_start_ts": 1788496374.6274428,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788496135.5059273,
-    "last_success_ts": 1788496135.5059273,
+    "last_run_ts": 1788496374.6274428,
+    "last_success_ts": 1788496374.6274428,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 2
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788496231.3574815
+      "updated_at": 1788496382.1649776
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1539,6 +1522,13 @@
       "desc": "Georgia Tech Researchers Share AI Cyber Challenge Lessons at USENIX Security 2026 Georgia Institute of Technology",
       "source": "Georgia Institute of Technology",
       "region": "WORLD"
+    },
+    "67556d08be870b8c71623c41701d28db2500ff38087cc1faf41be2bf3c643c12": {
+      "time": 1788496374,
+      "title": "Where Does $100 of AI Capex Flow? Unpack Full AI Infrastructure Cost Chain - Moomoo",
+      "desc": "Where Does $100 of AI Capex Flow? Unpack Full AI Infrastructure Cost Chain Moomoo",
+      "source": "Moomoo",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1547,7 +1537,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1558,11 +1547,12 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788495069.2696536,
-  "last_publish_ts": 1788496135.5059273
+  "last_publish_ts": 1788496374.6274428
 }
