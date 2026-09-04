@@ -263,13 +263,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788496854.6821964,
+    "last_start_ts": 1788496917.197353,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788496854.6821964,
-    "last_success_ts": 1788496854.6821964,
-    "last_candidates": 0,
-    "last_published": 1,
+    "last_run_ts": 1788496917.197353,
+    "last_success_ts": 1788496917.197353,
+    "last_candidates": 48,
+    "last_published": 0,
     "queue_size": 1
   },
   "providers": {
@@ -1552,6 +1552,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788496553.6330528,
+  "last_search_ts": 1788496917.197353,
   "last_publish_ts": 1788496854.6821964
 }
