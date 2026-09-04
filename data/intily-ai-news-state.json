@@ -172,7 +172,8 @@
     "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f": 1788494461,
     "e80a338557efe54d1813b0625979c371ef702ab017dae3c04071c01540af4a43": 1788494694,
     "3ee9a099aa9259fc0cbd48d24d4b344dc9737a04088b3aa820c9d952f17d9eae": 1788495069,
-    "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": 1788495354
+    "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": 1788495354,
+    "d797361e8127c5aa099c9d0253a16feea017a5e105ac8b34f0521f817f9535ee": 1788495600
   },
   "known": {
     "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788475135.0999737,
@@ -253,24 +254,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "AI boom testing climate pledges as top tech firms see emissions rise 240% in four years - IOL",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMldZY1JSc205cTFWQUVtMHJJRU5jUGdSMDF4T1daVGxmNGd0dTV5ZlFFcTJxSEFGVFEzSzJIRTNIbF9KdzBidERKd2ZiUm5HdF9fbTJ4ZldZeVB5NldaaEN4YmI3X0ZzTlpZRkVyTkxLWE1LaW9FZDAtdHkzVWpGb18zbkQ5RGU1Y2ZZSGNhNEM5aVItakJZR3pneVd0enQxR3NXNkIxWmlIZE9CdEQ2NVozVnBYWkhLWVhrdFlIRnAwUVREam1FTHU0SGZlUQ?oc=5",
-      "desc": "AI boom testing climate pledges as top tech firms see emissions rise 240% in four years IOL",
-      "source": "IOL",
-      "time": 1788493800.0,
-      "score": 66.5,
-      "key": "d797361e8127c5aa099c9d0253a16feea017a5e105ac8b34f0521f817f9535ee",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788495354,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 1,
-      "next_retry_at": 1788495654
-    },
-    {
-      "region": "WORLD",
       "title": "Where Does $100 of AI Capex Flow? Unpack Full AI Infrastructure Cost Chain - Moomoo",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPM01jVFd4alpzbWg0U283OTlPUmdpS3VPbmRpWnlRRWY3YW9NSVI0cWNBRnd6anhUdGUzdkkzakNOODRfVWpFcFpDQWpLMGVEUFp1aFBHcTlkTi1CdFpxd0lfSVhhRlJTSVFMZF9WM0o3OUhGeERTcUhHWGNhRzdEamhLOTRpNGxMZ0d1UFlWTWpUNHlhNUowV2Z3SGlOS2RuNWc?oc=5",
       "desc": "Where Does $100 of AI Capex Flow? Unpack Full AI Infrastructure Cost Chain Moomoo",
@@ -321,20 +304,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788495354.6903543,
+    "last_start_ts": 1788495600.4890225,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788495354.6903543,
-    "last_success_ts": 1788495354.6903543,
+    "last_run_ts": 1788495600.4890225,
+    "last_success_ts": 1788495600.4890225,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 4
+    "queue_size": 3
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788495548.4147036
+      "updated_at": 1788495602.6479464
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1558,6 +1541,13 @@
       "desc": "NYC schools ban AI for students through eighth grade under new Mamdani policy ABC7 New York",
       "source": "ABC7 New York",
       "region": "WORLD"
+    },
+    "d797361e8127c5aa099c9d0253a16feea017a5e105ac8b34f0521f817f9535ee": {
+      "time": 1788495600,
+      "title": "AI boom testing climate pledges as top tech firms see emissions rise 240% in four years - IOL",
+      "desc": "AI boom testing climate pledges as top tech firms see emissions rise 240% in four years IOL",
+      "source": "IOL",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1568,7 +1558,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1579,9 +1568,10 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788495069.2696536,
-  "last_publish_ts": 1788495354.6903543
+  "last_publish_ts": 1788495600.4890225
 }
