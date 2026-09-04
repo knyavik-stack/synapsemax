@@ -294,27 +294,10 @@
     "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": 1788543380,
     "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde": 1788543562,
     "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315": 1788543759,
-    "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": 1788544041
+    "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": 1788544041,
+    "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788544437
   },
   "known": {
-    "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522622.0770597,
-    "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": 1788522622.0770597,
-    "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": 1788522622.0770597,
-    "e9cb8275699679558d13d64a16305d338e2b386ddb502fdb41b98acdfe359c45": 1788522622.0770597,
-    "c64a81495eb20f5fbf4d0b14980cdbfa1a550934464c68b28cb16d26db19611a": 1788522622.0770597,
-    "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": 1788522622.0770597,
-    "271f8b82696c7385dd06e6bae858f6a3e8f79f33a40b4fd43d8a8099e48cdb92": 1788522622.0770597,
-    "f1587107b735012cd600b307601a0c16fce55d774ecc3a964ba8f9ea34774453": 1788522622.0770597,
-    "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42": 1788522622.0770597,
-    "cdbf075d907734b23867bcfb5b09b81527714792d36a61b74491ab5132e73436": 1788522622.0770597,
-    "6eb0aec6f8ff334aeffead977b7c86f02ff51f3ea83de43a1749b601b5061fac": 1788522622.0770597,
-    "c2d72fb16b99228657ad76eafe13992c2a536c935e55098f8d83394d488ec621": 1788522622.0770597,
-    "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15": 1788522622.0770597,
-    "ba211c8bbfa8920ab30ba8722cce38769f0fc534c339c6a8ded18690f47380d9": 1788522622.0770597,
-    "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": 1788522622.0770597,
-    "8959ff8a6ed308a4b647bd9cd10b7e4d9b271906b9122d4463f35fa514faa417": 1788522622.0770597,
-    "f6f099c5e888caefa346d497b8efdce5d0f27c1489942b3b093551a3dd8d8467": 1788522622.0770597,
-    "873757138a4e2ad16ebc0e74bf4e543d040382b75dcde3e24ceea6cb6f97befc": 1788522622.0770597,
     "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": 1788524605.2114382,
     "b7d62d6c91a69d37f483595938a37ac1397ca23ab449c86e1d432b688eb284db": 1788524605.2114382,
     "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9": 1788524605.2114382,
@@ -531,23 +514,6 @@
     "b4c528ac22abd4cd02b8d3d49c3135fa2439f9c983391b723f98f1c1e09b52bf": 1788543864.4841003
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Орешкин предостерег от преждевременного регулирования ИИ - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZ01vWDlxZGVvWGU5VXJES2p2Y1d2anBaZGhLMDltdG1RMld1X2xORXowdTg0bWZKaWRsTkd0NDdTT3QzTFFRR1lzaFNlckhvRlhvRFVGeUpySzRuU0ZHY3RLT284eEhUTFFZN0pYUjhVc0RSNEY2TGR6aG4zZVdDLUJqYUNzQlVYSHJaQWxVRXNQeG5CZ2hqUGN4ZVlBRV9XdlE?oc=5",
-      "desc": "Орешкин предостерег от преждевременного регулирования ИИ prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788542543.0,
-      "score": 74.6,
-      "russia_weight_bonus": 2.1,
-      "key": "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f",
-      "importance": 74.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
@@ -814,20 +780,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788544220.837489,
+    "last_start_ts": 1788544437.461219,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788544220.837489,
-    "last_success_ts": 1788544220.837489,
+    "last_run_ts": 1788544437.461219,
+    "last_success_ts": 1788544437.461219,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788544048.2449243
+      "updated_at": 1788544440.4148915
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -841,13 +807,6 @@
     }
   },
   "stories": {
-    "29e1cc8446e0a9b7c4d453899cb9dcf8e08454364cbe968acdfb0bf9901780f5": {
-      "time": 1788457878,
-      "title": "Главный организационный вопрос внедрения AI - VC.ru",
-      "desc": "Главный организационный вопрос внедрения AI VC.ru",
-      "source": "VC.ru",
-      "region": "RUSSIA"
-    },
     "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6": {
       "time": 1788458239,
       "title": "В России скрестили ДНК человека и комара для обучения нейросетей - The World Inform",
@@ -2478,10 +2437,16 @@
       "desc": "‘Artificial Gooner Intelligence’: Claude AI Coding Agent Lands on Adult Website During Debugging LatestLY",
       "source": "LatestLY",
       "region": "WORLD"
+    },
+    "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": {
+      "time": 1788544437,
+      "title": "Орешкин предостерег от преждевременного регулирования ИИ - prospect.com.ru",
+      "desc": "Орешкин предостерег от преждевременного регулирования ИИ prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2500,8 +2465,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788543864.4841003,
-  "last_publish_ts": 1788544041.7385817
+  "last_publish_ts": 1788544437.461219
 }
