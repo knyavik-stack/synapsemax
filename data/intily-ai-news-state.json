@@ -437,21 +437,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Российский ИИ хотят внедрить в оборону, школы и выборы - BeInCrypto",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xUzZzU2owcUFobTZpZ0dOQTU1RWpubnFEaUNoWnhqeGpyT0RNemJUQ3FyMmFKallFeVNMcHEwX1BVc2E3UTBxVkdNWVhxeUlkbUp4YlZKTTZHXzJISkZObDFoRmNrWnVHb3N2eS1IUmV4b1pCeUE?oc=5",
-      "desc": "Российский ИИ хотят внедрить в оборону, школы и выборы BeInCrypto",
-      "source": "BeInCrypto",
-      "time": 1788524400.0,
-      "score": 73.3,
-      "russia_weight_bonus": 4.8,
-      "key": "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f",
-      "importance": 73.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге - kommersant.ru",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLVnN4ZkpGYTRuRkIzWXUwNWJXNnpWbHVGR0ZhRW1XVzh3eXlsOHE2SUphenhDaHNQcXlxZFhYMDdHSFdVc3pZcTU1QXJWdw?oc=5",
       "desc": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге kommersant.ru",
@@ -525,6 +510,21 @@
       "russia_weight_bonus": 5.0,
       "key": "eb8790c8866722143b3e19867429d5fa2362d03f26f6f55f6e58b49c3856bafd",
       "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Российский ИИ хотят внедрить в оборону, школы и выборы - BeInCrypto",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xUzZzU2owcUFobTZpZ0dOQTU1RWpubnFEaUNoWnhqeGpyT0RNemJUQ3FyMmFKallFeVNMcHEwX1BVc2E3UTBxVkdNWVhxeUlkbUp4YlZKTTZHXzJISkZObDFoRmNrWnVHb3N2eS1IUmV4b1pCeUE?oc=5",
+      "desc": "Российский ИИ хотят внедрить в оборону, школы и выборы BeInCrypto",
+      "source": "BeInCrypto",
+      "time": 1788524400.0,
+      "score": 70.3,
+      "russia_weight_bonus": 4.8,
+      "key": "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f",
+      "importance": 70.3,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -680,13 +680,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788527960.0188963,
+    "last_start_ts": 1788528028.6567705,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788527960.0188963,
-    "last_success_ts": 1788527960.0188963,
+    "last_run_ts": 1788528028.6567705,
+    "last_success_ts": 1788528028.6567705,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 17
   },
   "providers": {
@@ -707,13 +707,6 @@
     }
   },
   "stories": {
-    "70f88db677452620741ee0c79cd061c74c42503b1583a416be221a6a78024a52": {
-      "time": 1788441565,
-      "title": "Fable 5.1 System Card: Public AI Tops Restricted Model on Stealth, Gets Bioweapons Label - Tech Times",
-      "desc": "Fable 5.1 System Card: Public AI Tops Restricted Model on Stealth, Gets Bioweapons Label Tech Times",
-      "source": "Tech Times",
-      "region": "WORLD"
-    },
     "4cc8b0e431df57408e6ccc8bd1ca52ab790bb88cdc59c4216da89ea474677d17": {
       "time": 1788441858,
       "title": "LEAP 2026: CNTXT CEO Abdullah Jarwan on turning AI compute into capability - Gulf Business",
