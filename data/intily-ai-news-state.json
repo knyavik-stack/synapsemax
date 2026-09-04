@@ -169,7 +169,8 @@
     "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788493015,
     "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19": 1788493614,
     "61ddefaf4b72efac9a395b2b2044cef2a7cdd7e3b4741f5f7ca3bd2700589179": 1788494215,
-    "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f": 1788494461
+    "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f": 1788494461,
+    "e80a338557efe54d1813b0625979c371ef702ab017dae3c04071c01540af4a43": 1788494694
   },
   "known": {
     "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788475135.0999737,
@@ -245,23 +246,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZWVsdlkyUTI3WDZ5dkJsMXJiWm1pZmxSWldiNEktVm5ONXFldjVZNVEzTFRlX3EyV2ZJQng3Vm5GMHlmWjNqUEpzcm1jZXlmZzlSUElFdGMzT1M1VG9QRlJkTVpkZmJJM3h3U3FreVhUUC1pekVvU05KN0xWckJhVUl2TmlobWNqS0s0VGZKamFEOW5hZUdsSWNxUVhybURvVm1IVXg4N3g3TnRTUC0wWDZ2cV9neWRrTjE3eDdpOGRVR0Q5c2t6UlpfSFZHajJzcXhXZUw5Y0lsZw?oc=5",
-      "desc": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788492727.0,
-      "score": 73.2,
-      "russia_weight_bonus": 1.7,
-      "key": "e80a338557efe54d1813b0625979c371ef702ab017dae3c04071c01540af4a43",
-      "importance": 73.2,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUm5reVdteHFBdF94NTYzZkVETWZXZjh3cTVNTTF6YU5sMXhQZ2dSYnhTSThiU1VBcXpnaWZuMzRteXdTUVg1WjZFV24wOEprUjVNNzlhanIteUpJTmxLTjQ3ai1GRFBNeFBfX09FZ0pIbkNtM1U5MWRPVDkxcG4zVFlOQUVzYlo4MWtWRWlEWGtudnVfOEMxU1hCdUE4WVRsTDg2b1JYcl9pVWR0X3c?oc=5",
       "desc": "Россиян могут уволить из-за загрузки рабочих документов в нейросети prospect.com.ru",
@@ -277,20 +261,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788494634.5592132,
+    "last_start_ts": 1788494694.513516,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788494634.5592132,
-    "last_success_ts": 1788494634.5592132,
+    "last_run_ts": 1788494694.513516,
+    "last_success_ts": 1788494694.513516,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 2
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788494469.008609
+      "updated_at": 1788494698.2057014
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1493,6 +1477,13 @@
       "desc": "«Яндекс» разработает оркестратор для ИИ-моделей prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "e80a338557efe54d1813b0625979c371ef702ab017dae3c04071c01540af4a43": {
+      "time": 1788494694,
+      "title": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко - prospect.com.ru",
+      "desc": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1506,17 +1497,17 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788493074.7616563,
-  "last_publish_ts": 1788494461.6936123
+  "last_publish_ts": 1788494694.513516
 }
