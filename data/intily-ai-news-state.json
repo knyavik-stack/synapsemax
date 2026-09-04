@@ -349,7 +349,8 @@
     "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393": 1788562588,
     "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": 1788563062,
     "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456": 1788563301,
-    "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788563601
+    "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788563601,
+    "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088": 1788563899
   },
   "known": {
     "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788543864.4841003,
@@ -442,21 +443,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "В «Google Фото» встроили мощную нейросеть. На что она способна? - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWm5qR0hGZzBWZzVqN1ZfTUlwc3YyRnc2eHMzZVNFTjBySlJ2ai1RTFV0SG9UNTVwS1dtOUs1emJ3Vmg4ZndEUV90SWcxbkIzZ29HTjFMTkppN08wWVI0dzBaR3YteFZEXy1DNHg1X05HcHhCbktreXQ1N3N2S3RVQjd4Q3VmMWhrS1pYNVloeHVJWU8yYWo1RmUxV3c4eVNUS3U1VU5tQQ?oc=5",
-      "desc": "В «Google Фото» встроили мощную нейросеть. На что она способна? prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788559354.0,
-      "score": 68.9,
-      "russia_weight_bonus": 3.4,
-      "key": "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088",
-      "importance": 68.9,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2twcWNCWjc3MmNfRG9aUDB2anhneExlRTVhRkdzOGJzaF9vZUxyc1V3VFlxaTRyZW5lSmxyNExOMzBsYWN4S2xydTBMQWlFby1BeWhkdTlQSXdJTWFTZjFlUXlYMHZBTEQteWxEVWpXbUdZTFdtbFg0UHdHem5vdDRQVmwtVk5VbEJzaEI1MjZORmVVRW93a192czJ6SG4td2Nob0xNYXJaS3BaSlByV0Q5SlAxY0tGcWRRTHVZSi1taFZtSXkyYmloZzJISmJxMVU0?oc=5",
       "desc": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого prospect.com.ru",
@@ -474,20 +460,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788563720.7555807,
+    "last_start_ts": 1788563899.3649004,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788563720.7555807,
-    "last_success_ts": 1788563720.7555807,
+    "last_run_ts": 1788563899.3649004,
+    "last_success_ts": 1788563899.3649004,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 2
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788563604.1191006
+      "updated_at": 1788563905.5471702
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2110,10 +2096,16 @@
       "desc": "В Киеве признали превосходство России в технологиях ИИ для дронов Рамблер",
       "source": "Рамблер",
       "region": "RUSSIA"
+    },
+    "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088": {
+      "time": 1788563899,
+      "title": "В «Google Фото» встроили мощную нейросеть. На что она способна? - prospect.com.ru",
+      "desc": "В «Google Фото» встроили мощную нейросеть. На что она способна? prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -2132,8 +2124,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788562402.0264504,
-  "last_publish_ts": 1788563601.0717676
+  "last_publish_ts": 1788563899.3649004
 }
