@@ -191,7 +191,8 @@
     "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21": 1788509361,
     "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788510139,
     "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde": 1788510328,
-    "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": 1788510742
+    "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": 1788510742,
+    "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": 1788510982
   },
   "known": {
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
@@ -263,23 +264,6 @@
     "b00b13a5b80d8f2e20603749db7d26bace55a5516649ce69a11a9373d6f4523c": 1788509361.5282607
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» - ICT-Online.ru",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRTFzOUZDT3k4RGtubktvU0pjVHRxTDBYWjY5R1JUaG4xNDVrTFZ4aTJzVmctRkU5TWhUTGlrSXpmYVVKV3lLd09ReTZFNVViblp3SzkxTEFQeHVoWUdHNVowamd3bUZ4c19YMGRiSjBDczJMdHMyYmV4bWktSnFBWEEtOE1IX3pvXzR5ZFpYMDJUNFJSbzRVSDBGLU1mZldfYWEyYkd5VzNENUJpUUloQkU3WXowZlhHQ0lyelRFb2YtNGZ1aUJaVjQ1RVF1OE9lU2lKRlZTb2FlR0tRbUwzUDN3cXloaUNYQXp5a1N0M3V3T1J1U01oeEtsMHhsTzRNc09DcnBQcw?oc=5",
-      "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» ICT-Online.ru",
-      "source": "ICT-Online.ru",
-      "time": 1788506778.0,
-      "score": 73.7,
-      "russia_weight_bonus": 4.2,
-      "key": "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f",
-      "importance": 73.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Закон об ИИ в России: новые возможности для Якутии - YakutiaMedia",
@@ -518,20 +502,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788510808.1157372,
+    "last_start_ts": 1788510982.128156,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788510808.1157372,
-    "last_success_ts": 1788510808.1157372,
+    "last_run_ts": 1788510982.128156,
+    "last_success_ts": 1788510982.128156,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788510745.40737
+      "updated_at": 1788510984.9388077
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1888,13 +1872,19 @@
       "desc": "Dream’s Cyber AI Tops Berkeley Benchmark as Specialized Models Challenge Frontier Systems Technology Org",
       "source": "Technology Org",
       "region": "WORLD"
+    },
+    "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": {
+      "time": 1788510982,
+      "title": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» - ICT-Online.ru",
+      "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» ICT-Online.ru",
+      "source": "ICT-Online.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1910,8 +1900,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788509361.5282607,
-  "last_publish_ts": 1788510742.9793644
+  "last_publish_ts": 1788510982.128156
 }
