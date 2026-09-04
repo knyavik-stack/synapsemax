@@ -704,13 +704,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788537920.8074346,
+    "last_start_ts": 1788537982.07256,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788537920.8074346,
-    "last_success_ts": 1788537920.8074346,
+    "last_run_ts": 1788537982.07256,
+    "last_success_ts": 1788537982.07256,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 15
   },
   "providers": {
@@ -731,13 +731,6 @@
     }
   },
   "stories": {
-    "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": {
-      "time": 1788451571,
-      "title": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 - PR Newswire",
-      "desc": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 PR Newswire",
-      "source": "PR Newswire",
-      "region": "WORLD"
-    },
     "de4d76498fe079f793645cb510a5fb3912adf9320ce30d745433599ae4825db9": {
       "time": 1788451757,
       "title": "Израильский стартап наймет сотни специалистов для внедрения ИИ у клиентов - prospect.com.ru",
