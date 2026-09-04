@@ -545,31 +545,17 @@
         "robotics"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI Cloud Firm Nscale Seeking $3.5 Billion in Pre-IPO Financing - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdFFqUndTQ1FVNHdZSDk4TVk1My0wYkJYTExSSFd5VWFKbG1DeEI0Y2YySjF3UDRtUDR1eTlJcXlUd1hnbGpFNFNHU0Rrcm5UZHhUby1nVmdOeWMycE56QnBWY1hPY090T2Q0YnFKTlpVM1pWZ2d4MHVPemRBZU9tMXJTRFJHM0oySXdqWFU2QXM2b3VqdHBCYkVhYWN1RXRyYmpNYWNyQmJrN2piVU5wdTdR?oc=5",
-      "desc": "AI Cloud Firm Nscale Seeking $3.5 Billion in Pre-IPO Financing Bloomberg.com",
-      "source": "Bloomberg.com",
-      "time": 1788543708.0,
-      "score": 60.0,
-      "key": "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788565283.0054877,
+    "last_start_ts": 1788565339.6211383,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788565283.0054877,
-    "last_success_ts": 1788565283.0054877,
+    "last_run_ts": 1788565339.6211383,
+    "last_success_ts": 1788565339.6211383,
     "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 7
+    "last_published": 0,
+    "queue_size": 6
   },
   "providers": {
     "GEMINI": {
