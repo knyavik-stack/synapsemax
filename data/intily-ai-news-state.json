@@ -351,7 +351,8 @@
     "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456": 1788563301,
     "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788563601,
     "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088": 1788563899,
-    "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439
+    "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439,
+    "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564740
   },
   "known": {
     "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788543864.4841003,
@@ -460,37 +461,23 @@
         "robotics"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "ServiceNow Extends Israeli AI Buying Spree With Sweep Acquisition - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91RzU2WmFWMmtFYmxTeW5oUHlhMEtpT241cnlrNFVoVGp2Qng1QVpBeHFZZGRvUkdBWGh0clBxdUg1LUszVTV5bW1yYXJkdDFZTE5saWllbVBJMmZ3VVA1LUxlWVduT21qRFVsdEI5dXZIU1FMQmc?oc=5",
-      "desc": "ServiceNow Extends Israeli AI Buying Spree With Sweep Acquisition finance.biggo.com",
-      "source": "finance.biggo.com",
-      "time": 1788545160.0,
-      "score": 60.0,
-      "key": "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788564560.8348749,
+    "last_start_ts": 1788564740.8107126,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788564560.8348749,
-    "last_success_ts": 1788564560.8348749,
+    "last_run_ts": 1788564740.8107126,
+    "last_success_ts": 1788564740.8107126,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 2
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788564462.2659497
+      "updated_at": 1788564747.577209
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2106,12 +2093,18 @@
       "desc": "Measure Workplace AI by Cost per Business Outcome quasa.io",
       "source": "quasa.io",
       "region": "WORLD"
+    },
+    "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": {
+      "time": 1788564740,
+      "title": "ServiceNow Extends Israeli AI Buying Spree With Sweep Acquisition - finance.biggo.com",
+      "desc": "ServiceNow Extends Israeli AI Buying Spree With Sweep Acquisition finance.biggo.com",
+      "source": "finance.biggo.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2128,8 +2121,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788564439.8961396,
-  "last_publish_ts": 1788564439.8961396
+  "last_publish_ts": 1788564740.8107126
 }
