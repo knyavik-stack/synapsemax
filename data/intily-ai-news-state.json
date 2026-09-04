@@ -197,7 +197,8 @@
     "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511460,
     "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b": 1788511641,
     "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": 1788511943,
-    "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": 1788512241
+    "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": 1788512241,
+    "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529": 1788512602
   },
   "known": {
     "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491755.7473595,
@@ -378,55 +379,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcHNSdUdrckpadThCUlJiM3VaTFRJdzdIY09ZejkwbloxZ2IzdFJ5M1V4MDlZajdLMnpQU3BWMExBcmRpTndQSk50ZnRRTXhlS2Nycm92Y29YQThSeW91d05PODN0RDZWdnFZNTdVM0ZQaGZxUWplbk1YUC1FQkI2aFZOVWx1VlRLc0FPWW9qbmd5bVpCSzNPZEJZYjlHcHlCVC1rS1htQnZ6bmZBdnJsN2Nuci1xbkx1R2VGcEdUYmxZTjJrWFNndzU2cVp5RmFvWV9iUmxEVFY?oc=5",
-      "desc": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab TradingKey",
-      "source": "TradingKey",
-      "time": 1788502958.0,
-      "score": 67.5,
-      "key": "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Siemens Healthineers pushes AI-led care model for Southeast Asia - ET CIO SEA",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmJEMjI5ZkY4UGFBd0E0UUc3dFFKcVEwZ0xMM0w1X0t3SEM5SVJCWHUwdDAwX3RqM1hkVnFNX1ljbzhhZ1lVRzJITTZ3WHhmOWtlVlpURFpyQm1SUTlnV2ktOThmNHlmdWdZcHdybnVCQ2RWSlZMSDZhRkE2eEo1QktIeXhwSF9yUnJiVkZxMkt2bS00MFZtMy10WjBBN1ROYUw1MThFckJWRU82dTNWbDY3dlJPQWgxQlo5T2Nrb3hoUlJDSl9DRTJoTU1iRU5pejNhZ3VFTXVwUQ?oc=5",
-      "desc": "Siemens Healthineers pushes AI-led care model for Southeast Asia ET CIO SEA",
-      "source": "ET CIO SEA",
-      "time": 1788501769.0,
-      "score": 67.5,
-      "key": "be07a966517c9547a689ec7865aa49cb214df21b4eb6fd89c01e2510733d23ad",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia - Martin Cid Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFZjQTJ6MlJYTndtS01SanphT1I2a1VKVTdZYmxaWXFDNWdyT1YwS2JldEV5bnZPczkxSlJSdW53cFJJWTJfVEtVWS1rZDk2ZXNoU05kNUlvcjhxRHVrMFM1ZjRqcmMxQXV3RUJqSGhpUzNyU1FGMDRwYmtuYmZWNy0zTW12ZVBzNVUw?oc=5",
-      "desc": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia Martin Cid Magazine",
-      "source": "Martin Cid Magazine",
-      "time": 1788501600.0,
-      "score": 67.5,
-      "key": "3135200125418d0515b1af56831afc72d93ecb1ca685f0d8bf5578192865d6f6",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Google Transforms Gemini Into Autonomous AI: Explained - JournalArta",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55cTh2WjFmdHA5eWJ3a3ZzLXFaVml4eXpvMDhTNnZKdmtPVmdvT1JleG45LWV6NG1hRW1EcDFmTWtES0dDVzN2Y3Q4b1ZQQU02aUk0UkwtWUtNMGxLWWNjb3BaVktubURCNmstXzFuNkNEZ2pldHpn?oc=5",
       "desc": "Google Transforms Gemini Into Autonomous AI: Explained JournalArta",
@@ -502,23 +454,55 @@
         "applications"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Siemens Healthineers pushes AI-led care model for Southeast Asia - ET CIO SEA",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmJEMjI5ZkY4UGFBd0E0UUc3dFFKcVEwZ0xMM0w1X0t3SEM5SVJCWHUwdDAwX3RqM1hkVnFNX1ljbzhhZ1lVRzJITTZ3WHhmOWtlVlpURFpyQm1SUTlnV2ktOThmNHlmdWdZcHdybnVCQ2RWSlZMSDZhRkE2eEo1QktIeXhwSF9yUnJiVkZxMkt2bS00MFZtMy10WjBBN1ROYUw1MThFckJWRU82dTNWbDY3dlJPQWgxQlo5T2Nrb3hoUlJDSl9DRTJoTU1iRU5pejNhZ3VFTXVwUQ?oc=5",
+      "desc": "Siemens Healthineers pushes AI-led care model for Southeast Asia ET CIO SEA",
+      "source": "ET CIO SEA",
+      "time": 1788501769.0,
+      "score": 60.0,
+      "key": "be07a966517c9547a689ec7865aa49cb214df21b4eb6fd89c01e2510733d23ad",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia - Martin Cid Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFZjQTJ6MlJYTndtS01SanphT1I2a1VKVTdZYmxaWXFDNWdyT1YwS2JldEV5bnZPczkxSlJSdW53cFJJWTJfVEtVWS1rZDk2ZXNoU05kNUlvcjhxRHVrMFM1ZjRqcmMxQXV3RUJqSGhpUzNyU1FGMDRwYmtuYmZWNy0zTW12ZVBzNVUw?oc=5",
+      "desc": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia Martin Cid Magazine",
+      "source": "Martin Cid Magazine",
+      "time": 1788501600.0,
+      "score": 60.0,
+      "key": "3135200125418d0515b1af56831afc72d93ecb1ca685f0d8bf5578192865d6f6",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788512368.4910598,
+    "last_start_ts": 1788512602.5241492,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788512368.4910598,
-    "last_success_ts": 1788512368.4910598,
+    "last_run_ts": 1788512602.5241492,
+    "last_success_ts": 1788512602.5241492,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_published": 1,
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788512250.1208782
+      "updated_at": 1788512605.7120192
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1917,11 +1901,17 @@
       "desc": "Греф оценил влияние ИИ на ВВП менее чем в 1% prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529": {
+      "time": 1788512602,
+      "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
+      "desc": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab TradingKey",
+      "source": "TradingKey",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1939,8 +1929,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788511223.1508448,
-  "last_publish_ts": 1788512241.4030507
+  "last_publish_ts": 1788512602.5241492
 }
