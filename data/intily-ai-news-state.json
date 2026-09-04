@@ -284,7 +284,8 @@
     "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49": 1788539542,
     "0e0e31ffc22483dcf4b6c522f6d119c19845360b273ce256fd697112ff34f844": 1788539781,
     "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": 1788540022,
-    "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788540261
+    "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788540261,
+    "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": 1788540501
   },
   "known": {
     "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788518901.903705,
@@ -614,22 +615,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ - MarketWatch",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbk5uUkNFdFhGTlpEckRaSUJvS1dUeUZyWVBrUGwwTm1VRjlmdGl1dmw0OTdhZ2x2bVRfdEQ3X1JCWDdIWm9MRTdRblBtb1dmaXI4UTk0SkNkakRkcnRWS0FQZFhiZ1NTVWZienJfM0VweVpUVzI0ekxpRnpKdXU4TzRtZ0ktQzNZQXcxZHk0elNocjVITXc2bzVaY09POG9keGtMY21qSEpfa0k4THNFSVdVYmsxV2U1cE81Vm1UZw?oc=5",
-      "desc": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ MarketWatch",
-      "source": "MarketWatch",
-      "time": 1788538740.0,
-      "score": 70.5,
-      "key": "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth - Yahoo Tech",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLXZBMmlEQWtrSnllcnRqVmtmdndFX2V6RkxieFFwUndLRlllSHJHdXA5LUVTTHFHc1Rtc211X0Q3UEJRZU51MUVpZDFLdW9Id1h2dTU4U0JnSnBlTlpDdmRwMEZsdzBLWnF0S2VmdDJjRWtlU05NM2JUT09RREhVMU1VOUpQMEE5T3VjZzAtaDNEX2l2TnBLV21zdw?oc=5",
       "desc": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth Yahoo Tech",
@@ -754,9 +739,9 @@
       "desc": "Director Maggie Gyllenhaal ditched AI for Marilyn Monroe film France 24",
       "source": "France 24",
       "time": 1788536841.0,
-      "score": 66.5,
+      "score": 63.5,
       "key": "8d943f310e4fb5e2041f00d7dea9f8e00cbebb45f907b25f63835cd3c7f88b88",
-      "importance": 66.5,
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -778,20 +763,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788540380.1605923,
+    "last_start_ts": 1788540501.7794514,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788540380.1605923,
-    "last_success_ts": 1788540380.1605923,
+    "last_run_ts": 1788540501.7794514,
+    "last_success_ts": 1788540501.7794514,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788540265.0195913
+      "updated_at": 1788540507.33967
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2463,10 +2448,16 @@
       "desc": "Компания OpenAI инвестирует 1 миллиард долларов в поддержку важнейшей инфраструктуры для укрепления кибербезопасности. Vietnam.vn",
       "source": "Vietnam.vn",
       "region": "RUSSIA"
+    },
+    "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": {
+      "time": 1788540501,
+      "title": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ - MarketWatch",
+      "desc": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ MarketWatch",
+      "source": "MarketWatch",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -2485,8 +2476,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788539960.9653587,
-  "last_publish_ts": 1788540261.0111675
+  "last_publish_ts": 1788540501.7794514
 }
