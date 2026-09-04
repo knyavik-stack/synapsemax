@@ -319,7 +319,8 @@
     "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": 1788551662,
     "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": 1788551902,
     "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad": 1788552141,
-    "079470c614a435d5e0b7ea8e7b9ff7504b896b66f3e883d7d637e772ce525aac": 1788552504
+    "079470c614a435d5e0b7ea8e7b9ff7504b896b66f3e883d7d637e772ce525aac": 1788552504,
+    "5e1b1e79a0181007049b591c5fe8cf02e1651a5b18ff7c53bd8a27e7a5609a24": 1788552861
   },
   "known": {
     "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": 1788532400.983643,
@@ -465,23 +466,6 @@
   },
   "queue": [
     {
-      "region": "RUSSIA",
-      "title": "Как ИИ-агенты научились отравлять друг друга - lenta.profinansy.ru",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91cHpOQkFxTXgxX0w0eURaY0w4enJncDBYR2hDd2VGTi1yN2FPanpjSkNKNGZCLW9kNW1lZkF3YkFMNlc3bF94TzFWcWlCbUVJRDdn?oc=5",
-      "desc": "Как ИИ-агенты научились отравлять друг друга lenta.profinansy.ru",
-      "source": "lenta.profinansy.ru",
-      "time": 1788535200.0,
-      "score": 63.6,
-      "russia_weight_bonus": 3.6,
-      "key": "5e1b1e79a0181007049b591c5fe8cf02e1651a5b18ff7c53bd8a27e7a5609a24",
-      "importance": 63.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies - moroccoworldnews.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjNBWjRjQWhobS11eUJkY2xTaGFhQTFSRjA1a2pjRmtHZXItVUFIUHlBSmo0WEVFZGRiZnpZNURzOXgzMTc3Y0lsY3FZYTZPMlNyRWlhTFM1aGVLVnlJX1BtZjB1SHQ1V0l0eFdnZFdwd1pSeV9BSmpWeU1hS0lBVklLcGh1S1FVTWJQZm54UFN6YnZiUnpqQ2tzZjRIVW05ZDNQbjhvaDRwMTlaSVkyZkhxRXc1Y1JqTy1EaA?oc=5",
@@ -610,20 +594,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788552504.1947765,
+    "last_start_ts": 1788552861.3353941,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788552504.1947765,
-    "last_success_ts": 1788552504.1947765,
+    "last_run_ts": 1788552861.3353941,
+    "last_success_ts": 1788552861.3353941,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 9
+    "queue_size": 8
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788552510.319623
+      "updated_at": 1788552865.5826573
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -637,13 +621,6 @@
     }
   },
   "stories": {
-    "bf80d001cf8a4a5956f6af53260843ceda78fb6919eebf287df46aa4181d7d09": {
-      "time": 1788466331,
-      "title": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах - kommersant.ru",
-      "desc": "Григоренко: российский ИИ начнут применять в обороне, образовании и на выборах kommersant.ru",
-      "source": "kommersant.ru",
-      "region": "RUSSIA"
-    },
     "944f9097ba077dadbbb0fe4cce0f3f2965869f2ba636075b64b5b0960e8a2d09": {
       "time": 1788466513,
       "title": "IBM (NYSE:IBM) Gains Attention As AI Reshapes Enterprise Technology - Kalkine Media",
@@ -2253,11 +2230,17 @@
       "desc": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts Tech Times",
       "source": "Tech Times",
       "region": "WORLD"
+    },
+    "5e1b1e79a0181007049b591c5fe8cf02e1651a5b18ff7c53bd8a27e7a5609a24": {
+      "time": 1788552861,
+      "title": "Как ИИ-агенты научились отравлять друг друга - lenta.profinansy.ru",
+      "desc": "Как ИИ-агенты научились отравлять друг друга lenta.profinansy.ru",
+      "source": "lenta.profinansy.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2275,8 +2258,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788551422.751168,
-  "last_publish_ts": 1788552504.1947765
+  "last_publish_ts": 1788552861.3353941
 }
