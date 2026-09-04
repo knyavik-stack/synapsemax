@@ -138,7 +138,8 @@
     "4110337c9b2c90c5bebad52851e25f3f5c5ab5975592dcac36d943d3db64142f": 1788481976,
     "073837b040a96ddedcdb211ef92accd7f05eda357a64dd5514228c33818406e4": 1788482395,
     "4c9bb67e1d0c0762e9d064b69a9ec0f83e9f432d5a0aeaa816664d1307254797": 1788482816,
-    "eda7f1adf120bc9056f8b8cc828697a48f03bce7af09324c90a54ff88ee25b85": 1788483115
+    "eda7f1adf120bc9056f8b8cc828697a48f03bce7af09324c90a54ff88ee25b85": 1788483115,
+    "d9b7d150995d7bc1b05f615816f31deebc35437cf67fe441d4605e189ddb21da": 1788483297
   },
   "known": {
     "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269.910863,
@@ -253,22 +254,6 @@
     "8722e24132beb67d37198ba5f0a8d7b632f7cf8e7d06e439f5a3965ab76a973a": 1788482453.6053247
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "OpenAI GPT6 Astra demo sparks 2026 hype - blockchain.news",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE15blhfVkV0SENJNmpna0wtNVdfbmJ3VUZ3d0VhQkR6V0tuQ1ZZZkJvdFFCRzBleUdyeUVsM1BNREhuSGsyQ3JoNXFuQnpTdV9ZMm16WmdlZnRybGM4NndueXVhZzhuQzVESUhraG9lbUltYWtqZ0pnSGNB?oc=5",
-      "desc": "OpenAI GPT6 Astra demo sparks 2026 hype blockchain.news",
-      "source": "blockchain.news",
-      "time": 1788481887.0,
-      "score": 66.5,
-      "key": "d9b7d150995d7bc1b05f615816f31deebc35437cf67fe441d4605e189ddb21da",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Gemini 3.8 Flash edges DeepSWE win - blockchain.news",
@@ -465,20 +450,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788483115.1826432,
+    "last_start_ts": 1788483297.058712,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788483115.1826432,
-    "last_success_ts": 1788483115.1826432,
+    "last_run_ts": 1788483297.058712,
+    "last_success_ts": 1788483297.058712,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788483118.9571075
+      "updated_at": 1788483299.3052378
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1464,13 +1449,19 @@
       "desc": "Robotaxis London, OpenAI humanoid plans, MIT AV insights blockchain.news",
       "source": "blockchain.news",
       "region": "WORLD"
+    },
+    "d9b7d150995d7bc1b05f615816f31deebc35437cf67fe441d4605e189ddb21da": {
+      "time": 1788483297,
+      "title": "OpenAI GPT6 Astra demo sparks 2026 hype - blockchain.news",
+      "desc": "OpenAI GPT6 Astra demo sparks 2026 hype blockchain.news",
+      "source": "blockchain.news",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1485,9 +1476,10 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788482453.6053247,
-  "last_publish_ts": 1788483115.1826432
+  "last_publish_ts": 1788483297.058712
 }
