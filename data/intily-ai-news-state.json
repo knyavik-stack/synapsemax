@@ -127,7 +127,8 @@
     "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796,
     "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": 1788479277,
     "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": 1788479695,
-    "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": 1788479936
+    "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": 1788479936,
+    "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe": 1788480175
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -288,7 +289,11 @@
       "importance": 69.4,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788480175,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788480475
     },
     {
       "region": "WORLD",
@@ -309,24 +314,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 5,
       "next_retry_at": 1788484495
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Сбер объединил российские и индийские агентства на одной платформе - Muksun.fm",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUWFrQk5mSExuekZUdjRQYjZRUlQwT3VacUVoY3ZlQnlnQ285cHBCUlo3Nk95NzAwUTlhSjFDVWFEWDZIeG1FNzB3UDhMMVZLVklpYjdzcTZLcHNpUk51WElHMnpHdDAyZWlNRWxBaWd3aV8tYkJ1cl94blI2MjNzbkFWNV81V3N4YkFkM2VQLWU2RFBYUk9Ga010bV95emVZR2liOEpsQTJ3MzBn?oc=5",
-      "desc": "Сбер объединил российские и индийские агентства на одной платформе Muksun.fm",
-      "source": "Muksun.fm",
-      "time": 1788459420.0,
-      "score": 64.1,
-      "russia_weight_bonus": 1.1,
-      "key": "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe",
-      "importance": 64.1,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "tools"
-      ],
-      "tier": "A"
     },
     {
       "region": "WORLD",
@@ -427,22 +414,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "OpenAI’s new Astra model is finally here – why safety experts are worried - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZGpwS05DQ1Z2Q3lFR3RjclY3dzI4Uk5ia3ZObkFTYmQ5aFNoeWlySW5aSGFESS1xYkpRcXZ3b2JRTUFVMTVwSERuVVdKTDJSRDlPd2Q1T0J1QTk4NmhGaVRwSUN4ak1Sa1NlZ3lkRWd6VmI4QTViM1BnU1piY3B4aw?oc=5",
-      "desc": "OpenAI’s new Astra model is finally here – why safety experts are worried ZDNET",
-      "source": "ZDNET",
-      "time": 1788458419.0,
-      "score": 60.0,
-      "key": "6997a002487646836ea649a555a2961a2d7f21af8e332d3cdeaca24ca540bfdc",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Росатом начал испытания импортонезависимого робота-манипулятора - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVzJKc0ZDanZiMVp0Rng4SlZnUndmN1hiT3JOTjlYeXEwWXlXUjFaUEpfc0V1S0ZnX2RlLVllQWI2bHVrVzhJa3UzZlJYVDNhaFQxanl6VnE4ZDlJRFc0dHMyam9Pbi1sMkZrNjFnNnpLbHd1U1FTcHVHVmJFNE01Q1NFT190NjJxczMyWFJwVDh6WVVqUGpLTEJWY3MxMHhERld4MFFESC1rMlU?oc=5",
@@ -461,20 +432,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788479996.1161718,
+    "last_start_ts": 1788480175.9027636,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788479996.1161718,
-    "last_success_ts": 1788479996.1161718,
+    "last_run_ts": 1788480175.9027636,
+    "last_success_ts": 1788480175.9027636,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 11
+    "last_published": 1,
+    "queue_size": 9
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788479939.6825478
+      "updated_at": 1788480186.7244694
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1383,6 +1354,13 @@
       "desc": "Внедрение ИИ в бизнес: почему умной модели недостаточно Т-Бизнес секреты",
       "source": "Т-Бизнес секреты",
       "region": "RUSSIA"
+    },
+    "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe": {
+      "time": 1788480175,
+      "title": "Сбер объединил российские и индийские агентства на одной платформе - Muksun.fm",
+      "desc": "Сбер объединил российские и индийские агентства на одной платформе Muksun.fm",
+      "source": "Muksun.fm",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1394,7 +1372,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1405,8 +1382,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788478796.2150717,
-  "last_publish_ts": 1788479936.3550575
+  "last_publish_ts": 1788480175.9027636
 }
