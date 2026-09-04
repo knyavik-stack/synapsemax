@@ -487,13 +487,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788560122.737297,
+    "last_start_ts": 1788560240.352675,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788560122.737297,
-    "last_success_ts": 1788560122.737297,
+    "last_run_ts": 1788560240.352675,
+    "last_success_ts": 1788560240.352675,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 2
   },
   "providers": {
@@ -514,13 +514,6 @@
     }
   },
   "stories": {
-    "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76": {
-      "time": 1788473754,
-      "title": "AI’s market boom faces a rougher road ahead - weeklyblitz.net",
-      "desc": "AI’s market boom faces a rougher road ahead weeklyblitz.net",
-      "source": "weeklyblitz.net",
-      "region": "WORLD"
-    },
     "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": {
       "time": 1788474053,
       "title": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle - GeekWire",
