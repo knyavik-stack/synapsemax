@@ -239,7 +239,8 @@
     "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": 1788524840,
     "b7d62d6c91a69d37f483595938a37ac1397ca23ab449c86e1d432b688eb284db": 1788525262,
     "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": 1788525561,
-    "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9": 1788525800
+    "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9": 1788525800,
+    "32e289a738a06bfbcbb144986e3d73ba81f94cd5ce66da64ec5b0efdca536589": 1788526162
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -437,23 +438,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. - vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkNPZ2JJTzJXOUk2ODJQTzVWeV91Rm5heGJJM2R3QnFXdVhoR0dlQVQ2ek5SeEk1RHlYSThsaU0yTV9kcU5sdEFDaWxPVWpETlpMdkUzZFZHdkJ3VU1leXpSQ3pRNEhXbnNkMHNNZUFqZUVJaWpnQmY1R2doYVBEMWprZm96RHo5cHp5Tlh1ODZFXzdxSWo2UEdTeXpjUWI2QWVlemNFM0tRNzcx?oc=5",
-      "desc": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. vietnam.vn",
-      "source": "vietnam.vn",
-      "time": 1788522559.0,
-      "score": 76.5,
-      "russia_weight_bonus": 4.0,
-      "key": "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0",
-      "importance": 76.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters - theins.ru",
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1qUTFXVW1BVG1jeExMYTBGTkM0VHFtYWNkQWhfVTdtR2pYS3FMQVVmVzE4TlhaeU56aGd0bERYTUtTVlU?oc=5",
       "desc": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters theins.ru",
@@ -463,6 +447,23 @@
       "russia_weight_bonus": 3.1,
       "key": "f11555b558f47a11304bb8b9357b6b61639bf48eac5b3eb7ed8de1240453815e",
       "importance": 75.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkNPZ2JJTzJXOUk2ODJQTzVWeV91Rm5heGJJM2R3QnFXdVhoR0dlQVQ2ek5SeEk1RHlYSThsaU0yTV9kcU5sdEFDaWxPVWpETlpMdkUzZFZHdkJ3VU1leXpSQ3pRNEhXbnNkMHNNZUFqZUVJaWpnQmY1R2doYVBEMWprZm96RHo5cHp5Tlh1ODZFXzdxSWo2UEdTeXpjUWI2QWVlemNFM0tRNzcx?oc=5",
+      "desc": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. vietnam.vn",
+      "source": "vietnam.vn",
+      "time": 1788522559.0,
+      "score": 73.5,
+      "russia_weight_bonus": 4.0,
+      "key": "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0",
+      "importance": 73.5,
       "editorial_value": 50.0,
       "topics": [
         "agents"
@@ -563,22 +564,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Sam Altman Says AI Could Trigger Biggest Small-Business Boom Ever - indica News",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTzg5M0laRl9TenE3Q3YweVpHZXd6X2hOZF9Hd01zdl9fa3BoRlFNeG1DTDJSZWszQk5iSmlXUTJVejVBTVBZM2NUdmRRNkozQVRwckJVZ1N5NG5HcW5TMEZ4VEN0WlZidTY0cGZCREdEN1NDUTdVWFBHQTNfeS0wazRuTnBjN0ptd0hjUjlWS3NSQ2s?oc=5",
-      "desc": "Sam Altman Says AI Could Trigger Biggest Small-Business Boom Ever indica News",
-      "source": "indica News",
-      "time": 1788524338.0,
-      "score": 69.5,
-      "key": "32e289a738a06bfbcbb144986e3d73ba81f94cd5ce66da64ec5b0efdca536589",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "AI reshapes non-tech GCC jobs as routine roles see sharp declines: Report - Business Standard",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcVRlOW0yTzdwcXRNbzJVUlc1bEZJZ3lORkhpU2ZFSU01c1BVNmtSUms3SlhNNFF3S1RNSnVKeGJDRXQ5MDFXTDFGODlaLUVSbWNtZklXTHZXc2QxbElkVll1RlBYWGRkOHpkMmxsY3RmS1p1M0NJRTdtZlN3dHlYUUw1RjBZcTBIQVFqQlZpRS1TalBuXzN0N3kzSEwtNFR0czJjemNwdjNaVWhlTEJFWFZySzNEZmZZWHpaQ1RHcjBVZVFXeTBobjRoQ2hqOVhaOHdwN0pSc2pCM3M3eWUwSDdOZ3hwNE1qbzlybkU1X0tKUHPSAfgBQVVfeXFMUFQwM2J6X0JfeGRDT0RUSWhJMzNHRWtZUFBiR0RFcWxPZHA2SzJiOTNydXZVdUEtbFJLdWtFdzlUSU5UME1sQk9lZ0F4YUdKbnFtakdxelp3VWczR2JlaUVaVmxESE1Tb3c0WTctYmR0OVM4S3JUVFZ4OUNfdmZmcnZPV2lYNm9QMUY5WmxsZkhIdFF0bW1tRF9EdmRpYURTcFJ6TzVXR2UtaEpaUUFmQ0tmYXVsd01iR1A3OUl6TEU1amZWaEdLUjd5UC1JNTVHLWNMSzNfTU5SaHJFaTRKdjRSV1ZjWVBMamVxMzVYeFFVMF9remFCaS0?oc=5",
       "desc": "AI reshapes non-tech GCC jobs as routine roles see sharp declines: Report Business Standard",
@@ -655,20 +640,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788525922.476305,
+    "last_start_ts": 1788526162.2498977,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788525922.476305,
-    "last_success_ts": 1788525922.476305,
+    "last_run_ts": 1788526162.2498977,
+    "last_success_ts": 1788526162.2498977,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 15
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788525803.38776
+      "updated_at": 1788526167.9270248
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2361,6 +2346,13 @@
       "desc": "Закон об ИИ уперся не в модели, а в данные kod.ru",
       "source": "kod.ru",
       "region": "RUSSIA"
+    },
+    "32e289a738a06bfbcbb144986e3d73ba81f94cd5ce66da64ec5b0efdca536589": {
+      "time": 1788526162,
+      "title": "Sam Altman Says AI Could Trigger Biggest Small-Business Boom Ever - indica News",
+      "desc": "Sam Altman Says AI Could Trigger Biggest Small-Business Boom Ever indica News",
+      "source": "indica News",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -2370,7 +2362,6 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2383,8 +2374,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788524605.2114382,
-  "last_publish_ts": 1788525800.2691984
+  "last_publish_ts": 1788526162.2498977
 }
