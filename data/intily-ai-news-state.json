@@ -193,7 +193,8 @@
     "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde": 1788510328,
     "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": 1788510742,
     "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": 1788510982,
-    "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": 1788511223
+    "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": 1788511223,
+    "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511460
   },
   "known": {
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
@@ -276,23 +277,6 @@
     "d51d93739b036ebf4290064de7e505e2bc5afa38dadceaf97260eabcdcedbcb1": 1788511223.1508448
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Разработан ИИ-инструмент для анализа человеческого поведения - Научная Россия",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3FyLU1QMmFXWGN3RkpCMEZSQmQ3ajI4X0RPdDFadlNCSTAwX2xSb1BWT1R3RzNCY3ZqdUR1bVhWRnh4WWt6QkJJXzYtZWhuenpwcHlCQlJ3dHRpVnFkbGYtVC05bjZVemdGSFoyNExfTGJlbnNKM2V6NDI3aS01WFVleG9sajJGLTliYUJteFVWbWgtdXA4ZkxfZlVkZw?oc=5",
-      "desc": "Разработан ИИ-инструмент для анализа человеческого поведения Научная Россия",
-      "source": "Научная Россия",
-      "time": 1788510524.0,
-      "score": 83.2,
-      "russia_weight_bonus": 4.7,
-      "key": "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652",
-      "importance": 83.2,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Нижегородские ученые разрабатывают инновационную систему управления роботами - ВФокусе Mail",
@@ -583,20 +567,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788511223.1508448,
+    "last_start_ts": 1788511460.025065,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788511223.1508448,
-    "last_success_ts": 1788511223.1508448,
-    "last_candidates": 63,
+    "last_run_ts": 1788511460.025065,
+    "last_success_ts": 1788511460.025065,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788511248.741147
+      "updated_at": 1788511466.6540897
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1967,11 +1951,17 @@
       "desc": "OpenAI Launches Project Daybreak, Pledging $1 Billion for AI Cybersecurity Defense to Face Anthropic Mythos Competition TradingKey",
       "source": "TradingKey",
       "region": "WORLD"
+    },
+    "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": {
+      "time": 1788511460,
+      "title": "Разработан ИИ-инструмент для анализа человеческого поведения - Научная Россия",
+      "desc": "Разработан ИИ-инструмент для анализа человеческого поведения Научная Россия",
+      "source": "Научная Россия",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1989,8 +1979,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788511223.1508448,
-  "last_publish_ts": 1788511223.1508448
+  "last_publish_ts": 1788511460.025065
 }
