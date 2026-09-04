@@ -625,20 +625,6 @@
     },
     {
       "region": "WORLD",
-      "title": "What is AI Leadership? How Leaders Can Adapt to the AI Era - Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkhEck1rVlFCT0QyckIyT0Fkb20tT1ZodzlSdTRvb0RQMFUwa19RcENhNkliY1UybTY5aUl4MmVJQnVTQWx2cFlXMUVCZXhJX1VoXy1BTElQdElpNXFzRTFHZ09faXY4ejlUMkxFSEMwN0dWNndHQTdCMkhZX0RtQnJ6emhIUndESXpTc3A3OGo0dmRpTUxNdGFYMndQUWMwc0pNc1dLRWN6YjdSV0Z3RFhnaHHSAcIBQVVfeXFMT1BjbndaOGJsR0UzMExrZmFBY213NEJ0SEVWQTRBQjZnMVl3QnM4WmEwd3FtM2FDUEloeVp3dktkdHZXcC1XNFJtR1BMLUNoaDhHUGRXaUI4ZnA4SGZscmR3TVZhSE9OOERwQTZUQ05OWEZfdVNzWHc0MmlaZWxxbVJWYmNGR284UE1DNmNDbzZYdi1iTEhOcEZraFV2U3luYVAxY3RhS1NpZmxpRHhMWUE2Z3BLLWxPRFNPZ2FzNE5QeFE?oc=5",
-      "desc": "What is AI Leadership? How Leaders Can Adapt to the AI Era Analytics Insight",
-      "source": "Analytics Insight",
-      "time": 1788535800.0,
-      "score": 66.5,
-      "key": "87208178c83cc7424c3e27f8b3042fc89c061e8000635668984d19dc3c7c013d",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Google’s Gemini Spark can now manage your Google Photos library - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjZydEpPN2s2Tm9YM1FuSkFqdWVLRUpZN3Job0drdldXVUw3RFl6YkswYVoySjVKOU9Cc1RwOUdsamxyRzN4QWlqd2VtbUtLcmxJc2RndzZEaHl6TVZmdGtHNy0xYW5fY1lzU003OTJtaEozOFZCa3Y3ckp6dlkyMF9KZ2hNZ01IbTdPNVA4akxIalEwaU1ELUJzeFFUdw?oc=5",
       "desc": "Google’s Gemini Spark can now manage your Google Photos library TechCrunch",
@@ -651,6 +637,20 @@
       "topics": [
         "models"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "What is AI Leadership? How Leaders Can Adapt to the AI Era - Analytics Insight",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkhEck1rVlFCT0QyckIyT0Fkb20tT1ZodzlSdTRvb0RQMFUwa19RcENhNkliY1UybTY5aUl4MmVJQnVTQWx2cFlXMUVCZXhJX1VoXy1BTElQdElpNXFzRTFHZ09faXY4ejlUMkxFSEMwN0dWNndHQTdCMkhZX0RtQnJ6emhIUndESXpTc3A3OGo0dmRpTUxNdGFYMndQUWMwc0pNc1dLRWN6YjdSV0Z3RFhnaHHSAcIBQVVfeXFMT1BjbndaOGJsR0UzMExrZmFBY213NEJ0SEVWQTRBQjZnMVl3QnM4WmEwd3FtM2FDUEloeVp3dktkdHZXcC1XNFJtR1BMLUNoaDhHUGRXaUI4ZnA4SGZscmR3TVZhSE9OOERwQTZUQ05OWEZfdVNzWHc0MmlaZWxxbVJWYmNGR284UE1DNmNDbzZYdi1iTEhOcEZraFV2U3luYVAxY3RhS1NpZmxpRHhMWUE2Z3BLLWxPRFNPZ2FzNE5QeFE?oc=5",
+      "desc": "What is AI Leadership? How Leaders Can Adapt to the AI Era Analytics Insight",
+      "source": "Analytics Insight",
+      "time": 1788535800.0,
+      "score": 63.5,
+      "key": "87208178c83cc7424c3e27f8b3042fc89c061e8000635668984d19dc3c7c013d",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -705,13 +705,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788539359.8061073,
+    "last_start_ts": 1788539479.9935722,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788539359.8061073,
-    "last_success_ts": 1788539359.8061073,
+    "last_run_ts": 1788539479.9935722,
+    "last_success_ts": 1788539479.9935722,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 14
   },
   "providers": {
@@ -732,13 +732,6 @@
     }
   },
   "stories": {
-    "e0a22d14628fe23455b724231422c45f7538fe680e53131f391b17d2d9fe5dd3": {
-      "time": 1788453015,
-      "title": "«Агентная революция превратила каждого из нас в супергероя» - kommersant.ru",
-      "desc": "«Агентная революция превратила каждого из нас в супергероя» kommersant.ru",
-      "source": "kommersant.ru",
-      "region": "RUSSIA"
-    },
     "d24f5e6bd8e5121767477609ee85cc40facfd30e41fedd3416e2a29cccb55d37": {
       "time": 1788453370,
       "title": "Новости ИИ в банкинге и страховании: масштаб внедрения и будущие перспективы - Korins",
