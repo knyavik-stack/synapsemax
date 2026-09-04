@@ -326,7 +326,8 @@
     "199606eef8582172d1e0b3dbf5a8053215387134932fa244e519a1676a5abb3c": 1788554000,
     "58d01e10ebec3f1da3abc748f4cc05fb04db8a94b7b3a42c77dc343c06534951": 1788554483,
     "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": 1788554782,
-    "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": 1788555201
+    "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": 1788555201,
+    "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555683
   },
   "known": {
     "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534259.6266851,
@@ -478,23 +479,6 @@
     "5c23257e87e7a366c8295f49712982df7bcebe4ad08b13090ef991ea59a82147": 1788555201.4978535
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? - vc.ru",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMzNKcks5YUJyQzh0M3FBQlZJaGpRRGphYmI0U05JRFVyNDRuWV94Mkx4X3NMNU1tOFZsVkowUmZXTmViOTYyb2RfZnZwNWNFY3BLb3JLOHdidnNtSVZveGJZTTJOcjV6Qlo3Q1pSS1JrVzNULV80SnNTQXZDMlhaaERhSjBBQnc?oc=5",
-      "desc": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? vc.ru",
-      "source": "vc.ru",
-      "time": 1788554767.0,
-      "score": 76.1,
-      "russia_weight_bonus": 3.6,
-      "key": "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449",
-      "importance": 76.1,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Surfer – SEO-платформа для контента с поддержкой ИИ - quasa.io",
@@ -766,20 +750,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788555379.829754,
+    "last_start_ts": 1788555683.2555747,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788555379.829754,
-    "last_success_ts": 1788555379.829754,
+    "last_run_ts": 1788555683.2555747,
+    "last_success_ts": 1788555683.2555747,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788555224.8735347
+      "updated_at": 1788555686.1715257
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -793,13 +777,6 @@
     }
   },
   "stories": {
-    "37e5968466a93a75428b1a41b34893e2b97891aa722b2e19202dbafe83019aa7": {
-      "time": 1788469032,
-      "title": "Why GitLab is Becoming More Than a DevOps Platform: The AI Shift in Software Development - Analytics Insight",
-      "desc": "Why GitLab is Becoming More Than a DevOps Platform: The AI Shift in Software Development Analytics Insight",
-      "source": "Analytics Insight",
-      "region": "WORLD"
-    },
     "558675885987d82b720f2099d5945d2764134960531c6cb8590358018f46b494": {
       "time": 1788469391,
       "title": "OpenAI Unveils GPT-6 Astra: AI Agent Capabilities Upgraded, Priced at About 2.5 Times Previous Generation - TradingKey",
@@ -2388,11 +2365,17 @@
       "desc": "Accrual To Acquire Puzzle To Expand AI Platform Into Client Accounting Services Pulse 2.0",
       "source": "Pulse 2.0",
       "region": "WORLD"
+    },
+    "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": {
+      "time": 1788555683,
+      "title": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? - vc.ru",
+      "desc": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? vc.ru",
+      "source": "vc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2410,8 +2393,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788555201.4978535,
-  "last_publish_ts": 1788555201.4978535
+  "last_publish_ts": 1788555683.2555747
 }
