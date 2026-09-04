@@ -237,7 +237,8 @@
     "e9cb8275699679558d13d64a16305d338e2b386ddb502fdb41b98acdfe359c45": 1788524122,
     "9160460f6d8b383e21b84ac9c013620d1aeb8e7b6d7d57a96f64ad547b6dc660": 1788524605,
     "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": 1788524840,
-    "b7d62d6c91a69d37f483595938a37ac1397ca23ab449c86e1d432b688eb284db": 1788525262
+    "b7d62d6c91a69d37f483595938a37ac1397ca23ab449c86e1d432b688eb284db": 1788525262,
+    "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": 1788525561
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -532,27 +533,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems - simplywall.st",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN2JUc19sdHRIZ1Fpa1pWN2x0Y1c1dF9OSWtLWUo0dWlmMjBrTTZxOThiNFlxNU1UUDBxcmRmZWtNTkkzZGRqUjR0YmpfQ0hVRlBwbzRVdFVLeDFyc3FncjlQQTNUTE1uTWtidVR1MXJKQXhWMUZuNFdvNEtqZmVGTzVMUnBWY0lYWXRacVU2bXNqcXRvNTZVcGV3bEJoS0ZleHlzM2FHRi1vcmJpZVgwWHhzVVJKNVpUOVRpeXJ5SDh1d1ZRVXF5UWtoTdIB0AFBVV95cUxOV3JOWnJQbVFibmR5blNHQjJrTmVTMGxvd3dJSXVnS2V2SmhoQWp0Yk1zSExvZ0IzUlI0azFZSnFZYXFxb2J5XzIyV20wQlBZX25xQUJqWUJZTWZVRmRxNGx4RERycDVVYWo3WHVKbHNLaGNSVklLeUVOWUN4LWdXY1hlcng3OEhrc3pEc0FtR3dFZUl0cEtURkc2dGdPejRUYnRqMlJuRnU1Z1kxWHQwWDVDNXVpck96RW1tVmd5clo0TWJKeWc2a0l2eEx1R3Rm?oc=5",
-      "desc": "AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems simplywall.st",
-      "source": "simplywall.st",
-      "time": 1788520590.0,
-      "score": 71.5,
-      "key": "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65",
-      "importance": 71.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips",
-        "security_regulation"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788523941,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 2,
-      "next_retry_at": 1788524541
-    },
-    {
       "region": "RUSSIA",
       "title": "Кто виноват и что делать? Запад в тупике из-за преступлений, совершённых при помощи ИИ - Life.ru",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVdqbnRKSklZNF9rR1VyS1dtNWJFbVkybGREcjJ3YV9NYkYzNWk4dkJrY3AwQ29SZWZDRFNNb292MkJyWVZ0b0dNQnR4Qk1tRHZGTE9ud0JvNURpaEFKaVRhNzZlUjZCN3RuZkdETHJvVHhHNVhSd3VKZTF1Mm9MQnJPcWpMSGtSV2U4ZnFHdkdrOWFQLV83cw?oc=5",
@@ -691,20 +671,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788525323.9351332,
+    "last_start_ts": 1788525561.2874603,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788525323.9351332,
-    "last_success_ts": 1788525323.9351332,
+    "last_run_ts": 1788525561.2874603,
+    "last_success_ts": 1788525561.2874603,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788525266.0370526
+      "updated_at": 1788525582.2488687
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2383,11 +2363,17 @@
       "desc": "Орешкин назвал инженеров по внедрению ИИ самыми востребованными кадрами Рамблер",
       "source": "Рамблер",
       "region": "RUSSIA"
+    },
+    "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": {
+      "time": 1788525561,
+      "title": "AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems - simplywall.st",
+      "desc": "AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems simplywall.st",
+      "source": "simplywall.st",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -2405,8 +2391,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788524605.2114382,
-  "last_publish_ts": 1788525262.1561651
+  "last_publish_ts": 1788525561.2874603
 }
