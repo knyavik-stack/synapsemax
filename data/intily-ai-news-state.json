@@ -333,21 +333,10 @@
     "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": 1788556522,
     "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": 1788556939,
     "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179,
-    "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635": 1788557480
+    "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635": 1788557480,
+    "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b": 1788558140
   },
   "known": {
-    "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536242.444593,
-    "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38": 1788536242.444593,
-    "9f0cd75655e15f8907a0d657ffa098e258a1501b643b428a16beea4c814ba67b": 1788536242.444593,
-    "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": 1788536242.444593,
-    "26609257eaac1fb0dd94ab8a777f26f580be7d10a7189e806e82a402b80dc551": 1788536242.444593,
-    "caebf8e5c4108ece88bcb734a753495350551b908e7d92b35e580aead369cc4b": 1788536242.444593,
-    "e65d10ff6eba2c5d0c2c9302b80a85fea00cb4a05dc892f4980aa5b6035da455": 1788536242.444593,
-    "30bfa35117952bd0556af8dc65f48790cc0b2e8a8a0a34ac5bab081ac503f465": 1788536242.444593,
-    "1a2b1a15aeb061c86d96bce852a3f9659b2eac9d0b6bdde396beb0c4a4b61483": 1788536242.444593,
-    "d69cefcb049bfde0bfb13cf330344153031bf7b63657ce256572054ff1e99be9": 1788536242.444593,
-    "6bea8d36b6f4db66e4ace627cc36e10c698d3dd87dee210930dc4ad4e9ca1606": 1788536242.444593,
-    "85bf9684101a01f4891b52d6231e0dcea6ae0f2f3eb10c714aecae425d318652": 1788536242.444593,
     "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": 1788538102.15343,
     "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49": 1788538102.15343,
     "a934e0ca0a60f2fff4f1e42fef4b181b349cfa89b2e2bb8d6b4fd531a542c76f": 1788538102.15343,
@@ -470,38 +459,6 @@
   },
   "queue": [
     {
-      "region": "RUSSIA",
-      "title": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFhKa01FUkJhUW94MVI3X3dWR29GdFY1UXd0UVFUT05SZVhjaDBKa1BoZlNIdFpfMVZORjgyX09XbUdraFBJby1iY2Fac3k3STN4WmlTdTBlNjc3SG9Xb0hlNkd2YS1zbWota2NHQml4N09fQ1ZaWi1mYlpzSDRIRkY0RjhpNzI4QjMzekJ3dF85VmRwTkxCclcybDFwYnpORjRpdzBVejdLRW1GMzdQYWlkQjloeGtRSGtYWUotRl9Idw?oc=5",
-      "desc": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788541343.0,
-      "score": 67.0,
-      "russia_weight_bonus": 4.0,
-      "key": "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b",
-      "importance": 67.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS - Portal ERP",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMzB0Z1ZTaFF6aWJhVkJ5VThVQ0RrZVJydUpxcmh6eXZxWlRpRXZOOWZNTnZoclhHZjNRaTFvcDBmT0xFWjJtQXVOUjlxY185UlFmSTI5bnhBNkdINk14Wml4ajZVRldzVU0yUXVaaG41NzJwQlNOMXRudXp6bU91WDIxZGh0M0lEYy1abjRpTmFPTUx3VHBqRll4NUhVaGc3TEZCRTZn?oc=5",
-      "desc": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS Portal ERP",
-      "source": "Portal ERP",
-      "time": 1788547330.0,
-      "score": 66.5,
-      "key": "ba5af473673dd5069afdef4b21734adb66c1b3e782747c0988ae0d79c343d6d9",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups - Inc42",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU3VLWVdGbHRSalRQcW9kQ2RkazFTWmt5a056NlZRTmIxNWpHRlZ6TVlMemNuekNxQVpzZ1picWJ2YU5pN1NqZzNUVlF6cUVuQ0NfN0JrMFhEZmdzV2JHVVZBTEhkMmQxcFZZVExld2lmalZ4cGVFNHN1dWlqSkRaZ0lUb3VDQQ?oc=5",
@@ -578,20 +535,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788557659.518177,
+    "last_start_ts": 1788558140.121127,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788557659.518177,
-    "last_success_ts": 1788557659.518177,
+    "last_run_ts": 1788558140.121127,
+    "last_success_ts": 1788558140.121127,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 7
+    "last_published": 1,
+    "queue_size": 5
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788557483.7757812
+      "updated_at": 1788558142.0986273
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2200,10 +2157,16 @@
       "desc": "Phind AI – Ответы по коду с актуальной документацией quasa.io",
       "source": "quasa.io",
       "region": "RUSSIA"
+    },
+    "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b": {
+      "time": 1788558140,
+      "title": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии - prospect.com.ru",
+      "desc": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "RUSSIA",
@@ -2221,9 +2184,10 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788557179.8212974,
-  "last_publish_ts": 1788557480.933795
+  "last_publish_ts": 1788558140.121127
 }
