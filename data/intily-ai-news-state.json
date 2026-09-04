@@ -192,7 +192,8 @@
     "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788510139,
     "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde": 1788510328,
     "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": 1788510742,
-    "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": 1788510982
+    "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": 1788510982,
+    "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": 1788511223
   },
   "known": {
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
@@ -261,9 +262,103 @@
     "4de32fd0d31dfeff77a76844ac9915f3bf09b00abc1da1d1db4f3d1df0f7ae94": 1788509361.5282607,
     "3888fde24f62833d35400178a5611fce08ab38275a7ac67fd425a89781ef1ae4": 1788509361.5282607,
     "c45a2774cbeea2e7c2352185a3ea68e1c8824613e2d64550480c0b0bfaa7270d": 1788509361.5282607,
-    "b00b13a5b80d8f2e20603749db7d26bace55a5516649ce69a11a9373d6f4523c": 1788509361.5282607
+    "b00b13a5b80d8f2e20603749db7d26bace55a5516649ce69a11a9373d6f4523c": 1788509361.5282607,
+    "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511223.1508448,
+    "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": 1788511223.1508448,
+    "a85ca69b73d93cab270c3e2bc73df5557c5ca7f1e29f6b3fdaee2eb0bf977f14": 1788511223.1508448,
+    "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b": 1788511223.1508448,
+    "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": 1788511223.1508448,
+    "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11": 1788511223.1508448,
+    "9ccaa61d9072f176daa15ff3bbf976d19c43f155694233aca655e5a797f00a7b": 1788511223.1508448,
+    "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": 1788511223.1508448,
+    "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82": 1788511223.1508448,
+    "08f8f90e86a4df9a1b1effe146bbd7918de7e52e8a134fa7845fee498329600e": 1788511223.1508448,
+    "d51d93739b036ebf4290064de7e505e2bc5afa38dadceaf97260eabcdcedbcb1": 1788511223.1508448
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Разработан ИИ-инструмент для анализа человеческого поведения - Научная Россия",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3FyLU1QMmFXWGN3RkpCMEZSQmQ3ajI4X0RPdDFadlNCSTAwX2xSb1BWT1R3RzNCY3ZqdUR1bVhWRnh4WWt6QkJJXzYtZWhuenpwcHlCQlJ3dHRpVnFkbGYtVC05bjZVemdGSFoyNExfTGJlbnNKM2V6NDI3aS01WFVleG9sajJGLTliYUJteFVWbWgtdXA4ZkxfZlVkZw?oc=5",
+      "desc": "Разработан ИИ-инструмент для анализа человеческого поведения Научная Россия",
+      "source": "Научная Россия",
+      "time": 1788510524.0,
+      "score": 83.2,
+      "russia_weight_bonus": 4.7,
+      "key": "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652",
+      "importance": 83.2,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Нижегородские ученые разрабатывают инновационную систему управления роботами - ВФокусе Mail",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWS1lWmRGYlJhbDAxY3d1bVdLVm92Yy13RzRjRFhVdG1BOHBGN3ZHOW1uazF6bmdCNnhSVmFHZUNPNFNCVVRaUkdacVlhc01sYjk5VFYwb0JnbFdpMWtvTFdpVExNbWxaS1NHQUgxelJXYnBVNDhnUG9mdmhDRHB5elFJMWlNdnFNb0NINlRJVjBZOGNzbkRZbUtXcl9UOUpBMmlwV0xTODBNTkN4elpxVkswNEctYzY4ZTNjWjdPdDE?oc=5",
+      "desc": "Нижегородские ученые разрабатывают инновационную систему управления роботами ВФокусе Mail",
+      "source": "ВФокусе Mail",
+      "time": 1788509415.0,
+      "score": 77.0,
+      "russia_weight_bonus": 4.5,
+      "key": "a85ca69b73d93cab270c3e2bc73df5557c5ca7f1e29f6b3fdaee2eb0bf977f14",
+      "importance": 77.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Почему за внедрением ИИ часто скрывается проект по управлению знаниями - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZ2ZTdHp5UnNpbUpGQ3RmU2FPVHZEOVl5Nkp4Vm8yMm5MeWJ2LVUyMDRoMXNGZXdTTkpJcFk4bGJNQ19BRlBwcmJFRXJXcUxJZ0ZuS2Zlc3NpTlp0QlFMcHcya29ySUFCbGFZQ19BOUYycFJJNFlXU3lrbEhEVGhMQ1o4d1FhOWRLc1d3RzEzeU1NQVZEN0IzLVY5ckNyaEwwOFRQN0R2dTBEcmlCRFAwOHBZR0kwWVExaXfSAXtBVV95cUxOLU51SnZwb0ZkRUdpN0pKRHgtcVNrMGgwQ2VrczR4MWJUTGRPVG9GYVdzRUJkWG5xM3h5R0Q4XzRvU2RWWHdWTTRqRDZIV0stWUVMYVFpNUc3Ym5nZ1ZFeFpYSGJLamw2ODhwdjJZVnBJbTR1cmFRRkNDUGs?oc=5",
+      "desc": "Почему за внедрением ИИ часто скрывается проект по управлению знаниями companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788505321.0,
+      "score": 74.5,
+      "russia_weight_bonus": 2.0,
+      "key": "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b",
+      "importance": 74.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Греф оценил влияние ИИ на ВВП менее чем в 1% - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVTJDcEl0aGJBaS1uZlNqdm5QbXBOWEotcmJTLXR0MWRPank3dHRsU2E3eVpTWVRST1FnUllicTdES29tajhIY3BJTS1QbXRLTTl6TXRPWGh4NzV3ZHJ2NjEzb0h1aFVzSGlRV0dLMXhETnVoczl6ZFFhSjlmUmpyS2VQMjRwWHpfdmRqN3RQUy01QQ?oc=5",
+      "desc": "Греф оценил влияние ИИ на ВВП менее чем в 1% prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788509564.0,
+      "score": 73.3,
+      "russia_weight_bonus": 4.8,
+      "key": "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd",
+      "importance": 73.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Искусственный интеллект в 15-м пятилетнем плане Китая - Институт статистических исследований и экономики знаний",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TcWdPdkpiMHhHN3pldVhaT0VPUmlBd1ktUEhRNEdCV2ZLUUprc2w5QkZQQmNLUHQ4OGJMZzExd2xvV1ozNG1mNU02bEczMnF6Z2w4?oc=5",
+      "desc": "Искусственный интеллект в 15-м пятилетнем плане Китая Институт статистических исследований и экономики знаний",
+      "source": "Институт статистических исследований и экономики знаний",
+      "time": 1788509851.0,
+      "score": 72.7,
+      "russia_weight_bonus": 4.2,
+      "key": "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11",
+      "importance": 72.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "research"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Закон об ИИ в России: новые возможности для Якутии - YakutiaMedia",
@@ -279,6 +374,21 @@
       "topics": [
         "security_regulation"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В России начали внедрять нейросетевую расшифровку в журнал звонков - dg-yug.ru",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tT3VCWXdSWW9HVGZtcnVGdzNSNS1Bd1B5ckpWZGFFNFVJOEpEVVJwUjlnQ3FWMVVEV2hKZlhtVFVzT3FsbUJfR3BfWFFudTFvNVE?oc=5",
+      "desc": "В России начали внедрять нейросетевую расшифровку в журнал звонков dg-yug.ru",
+      "source": "dg-yug.ru",
+      "time": 1788510098.0,
+      "score": 71.5,
+      "russia_weight_bonus": 3.0,
+      "key": "9ccaa61d9072f176daa15ff3bbf976d19c43f155694233aca655e5a797f00a7b",
+      "importance": 71.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -361,35 +471,19 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть - cisoclub",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDRGeHVzc3d2X25oRHVXNElTRmhQdEVZR1dkTGVYU2RyelBhRU9vZGxlZmliUmFMZFJDR09VZnV2WUpHYVkzU2VSTkJQQVAwMVg3bHZqWGZOaVRtZjZMSnF2THpuRDZFRzF6aEFOTkNkeHNmQ2NMMjBNOHNvQ2lKWnV3aEpjUEhKcXk1RE1HZ3N1V2NXMFFLMFp2Qk5jdnpvQUV1QQ?oc=5",
-      "desc": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть cisoclub",
-      "source": "cisoclub",
-      "time": 1788506745.0,
-      "score": 67.6,
-      "russia_weight_bonus": 2.1,
-      "key": "806b1e556eb49ff75c31a89a52e7c734a0f584e1b9c388c74e6ab728d8ce01a5",
-      "importance": 67.6,
+      "region": "WORLD",
+      "title": "India's agentic AI payment plans - Asian Tech Roundup - Computing UK",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTHFhQndHclUwdnJSSFhDOWdDb25BdEp5Wmhlemd1VURUbW1fTHo3ZWNPZWRGUUpUYWJBcVltZTk0REtuclZzQ1Q3VWNLWGdXU1h4M05qZDZBUnhQUEVhWjRTLTBNNnFJcWl1cy1NRUliLWlEd0VRLS11MjBOTDBJc093ZnJuZmNqM3p3T1RONGFtVjRZenJV?oc=5",
+      "desc": "India's agentic AI payment plans - Asian Tech Roundup Computing UK",
+      "source": "Computing UK",
+      "time": 1788506895.0,
+      "score": 67.5,
+      "key": "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8",
+      "importance": 67.5,
       "editorial_value": 50.0,
       "topics": [
-        "models"
+        "agents"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - cnews.ru",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UUUh3LTRDcXhzUnJMc1diZWYyYVgxVm5UYlQxeWwzOFRFak9kRTZKWjh3VEtXbWtWYzNaeHgyX0szZHBwalgtdGw2bGhKb29oMkhudDlPdkkyQ09tMUN1UkZjaW9Beks4dkhKMEZiVDVkdndHMEtMTQ?oc=5",
-      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности cnews.ru",
-      "source": "cnews.ru",
-      "time": 1788506262.0,
-      "score": 67.6,
-      "russia_weight_bonus": 2.1,
-      "key": "507d1aa7359e57203ae617caf7266d80de108ad6c1547dc1d71e70096b12af1c",
-      "importance": 67.6,
-      "editorial_value": 50.0,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -443,6 +537,22 @@
     },
     {
       "region": "WORLD",
+      "title": "Google Transforms Gemini Into Autonomous AI: Explained - JournalArta",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55cTh2WjFmdHA5eWJ3a3ZzLXFaVml4eXpvMDhTNnZKdmtPVmdvT1JleG45LWV6NG1hRW1EcDFmTWtES0dDVzN2Y3Q4b1ZQQU02aUk0UkwtWUtNMGxLWWNjb3BaVktubURCNmstXzFuNkNEZ2pldHpn?oc=5",
+      "desc": "Google Transforms Gemini Into Autonomous AI: Explained JournalArta",
+      "source": "JournalArta",
+      "time": 1788509469.0,
+      "score": 66.5,
+      "key": "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Catholic colleges and universities jumping into quick-moving AI field - ncronline.org",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM2lSSDJpTzlidUY5MWoyNW9jaXpHVGRuNElySXZfTUZ0Y3Nmc1BnMGx2VllBNEVqaXVWYVJzU082Qi1ZY0M2RVRPaDJwblZQWXFSMTFJRy12RlBrSXA3d3Z6ZUEyaWxuLWdxcWQ1Mng2WXByUzIyZzlvdy0zU3gxalZITUR0Q1hFTjJ0blVFTUxlaG9JTU1aWU1GQQ?oc=5",
       "desc": "Catholic colleges and universities jumping into quick-moving AI field ncronline.org",
@@ -470,52 +580,23 @@
         "chips"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI designed molecules show promise against breast cancer, study finds - Punch Newspapers",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUnZ0T3FuYXNWMHpfV2hSTkd6QjdRc0hCN0xmOXJyY1BnZV9EcEIyT2FBcHZ3U3ZtYmhUaWt2b1hTQVE1dEFTd0p4OTdROHY4NTI1eEl2MWFMN19SUTdqVFhiRUJ1cWE5ay1QSmxKWkx1QUV3eWdOejNtUXdwU2xWR2l0c3I4MEJQNWtLVDdzUmhRRVQzOWszRVFZajVndzNKeVE?oc=5",
-      "desc": "AI designed molecules show promise against breast cancer, study finds Punch Newspapers",
-      "source": "Punch Newspapers",
-      "time": 1788508190.0,
-      "score": 66.5,
-      "key": "f47a8c17816c855435ca2f228366f59dfc91998ee3d1d8e4dca018511b01d2c0",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Что происходит на рынке IT: зарплаты, ИИ и прогноз - Новые Известия",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMURpbUJJVVhnbWEtZlJRRks5LVpVYWs0OTFhcGxka2pRd3NISUZXdk1GUTFtN2YxSDJFVWVrRi05eUZQZnVockIxQTVZRmJDUXpORGRlVHEtVTVVU3dkaXNrMUxvQ3pGMFIyVkJSeUpYd0lrbW84Ym0wNHptdDlxYnlHaXlSeUFxR1RRVHpGR1pmb3c3aGtvOU1JZlBfT3h0ZlZxRXV0SFhrR2V0RG1yck1ZcngtenpJREE?oc=5",
-      "desc": "Что происходит на рынке IT: зарплаты, ИИ и прогноз Новые Известия",
-      "source": "Новые Известия",
-      "time": 1788498000.0,
-      "score": 60.7,
-      "russia_weight_bonus": 4.7,
-      "key": "4742b5b2eaa6a861466512c7f92b24d914c05c97142a53dc4f1c42e2906c5958",
-      "importance": 60.7,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788511102.4743853,
+    "last_start_ts": 1788511223.1508448,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788511102.4743853,
-    "last_success_ts": 1788511102.4743853,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 15
+    "last_run_ts": 1788511223.1508448,
+    "last_success_ts": 1788511223.1508448,
+    "last_candidates": 63,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788510984.9388077
+      "updated_at": 1788511248.741147
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1879,12 +1960,18 @@
       "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» ICT-Online.ru",
       "source": "ICT-Online.ru",
       "region": "RUSSIA"
+    },
+    "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": {
+      "time": 1788511223,
+      "title": "OpenAI Launches Project Daybreak, Pledging $1 Billion for AI Cybersecurity Defense to Face Anthropic Mythos Competition - TradingKey",
+      "desc": "OpenAI Launches Project Daybreak, Pledging $1 Billion for AI Cybersecurity Defense to Face Anthropic Mythos Competition TradingKey",
+      "source": "TradingKey",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1901,8 +1988,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788509361.5282607,
-  "last_publish_ts": 1788510982.128156
+  "last_search_ts": 1788511223.1508448,
+  "last_publish_ts": 1788511223.1508448
 }
