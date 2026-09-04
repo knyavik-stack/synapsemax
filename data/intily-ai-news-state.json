@@ -202,7 +202,8 @@
     "a85ca69b73d93cab270c3e2bc73df5557c5ca7f1e29f6b3fdaee2eb0bf977f14": 1788512788,
     "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026,
     "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336": 1788513320,
-    "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae": 1788513685
+    "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae": 1788513685,
+    "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75": 1788513982
   },
   "known": {
     "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788492655.914861,
@@ -419,20 +420,6 @@
     },
     {
       "region": "WORLD",
-      "title": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance - TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhNHBBaDZFT0ZfWnVPR0ZuYXRNOGtJRFZtLXNvcXRpeDB5TFprRDZ2bENQeXRIOWdPbE5WRzFUekhZLWVBZU9MYTBiVzJ3ckpCbEZhVGx3QmJrVzBNdER6NWltNTZGOEMtV1U4emhrNDZ3dw?oc=5",
-      "desc": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance TradingKey",
-      "source": "TradingKey",
-      "time": 1788508858.0,
-      "score": 66.5,
-      "key": "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Google Transforms Gemini Into Autonomous AI: Explained - JournalArta",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55cTh2WjFmdHA5eWJ3a3ZzLXFaVml4eXpvMDhTNnZKdmtPVmdvT1JleG45LWV6NG1hRW1EcDFmTWtES0dDVzN2Y3Q4b1ZQQU02aUk0UkwtWUtNMGxLWWNjb3BaVktubURCNmstXzFuNkNEZ2pldHpn?oc=5",
       "desc": "Google Transforms Gemini Into Autonomous AI: Explained JournalArta",
@@ -557,20 +544,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788513801.3656414,
+    "last_start_ts": 1788513982.9921277,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788513801.3656414,
-    "last_success_ts": 1788513801.3656414,
+    "last_run_ts": 1788513982.9921277,
+    "last_success_ts": 1788513982.9921277,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788513687.7440286
+      "updated_at": 1788513985.540589
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2004,11 +1991,17 @@
       "desc": "Nvidia's $99B Bet: AI's Biggest Backer Emerges The Tech Buzz",
       "source": "The Tech Buzz",
       "region": "WORLD"
+    },
+    "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75": {
+      "time": 1788513982,
+      "title": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance - TradingKey",
+      "desc": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance TradingKey",
+      "source": "TradingKey",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2024,10 +2017,11 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788513026.6221929,
-  "last_publish_ts": 1788513685.5020897
+  "last_publish_ts": 1788513982.9921277
 }
