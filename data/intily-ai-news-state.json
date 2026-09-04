@@ -772,13 +772,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788550101.7973886,
+    "last_start_ts": 1788550279.5484295,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788550101.7973886,
-    "last_success_ts": 1788550101.7973886,
+    "last_run_ts": 1788550279.5484295,
+    "last_success_ts": 1788550279.5484295,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 18
   },
   "providers": {
@@ -799,13 +799,6 @@
     }
   },
   "stories": {
-    "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": {
-      "time": 1788463812,
-      "title": "Правительство обсудит применение российского ИИ в обороне, выборах - kommersant.ru",
-      "desc": "Правительство обсудит применение российского ИИ в обороне, выборах kommersant.ru",
-      "source": "kommersant.ru",
-      "region": "RUSSIA"
-    },
     "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8": {
       "time": 1788464169,
       "title": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. - Fortune",
