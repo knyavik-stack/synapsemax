@@ -339,7 +339,8 @@
     "da7f988c3a3d7642c71b349fb681d8faeaa99b5950e89b1ab21b44a0f898002b": 1788558742,
     "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867": 1788559220,
     "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf": 1788559580,
-    "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14": 1788559821
+    "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14": 1788559821,
+    "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24": 1788560122
   },
   "known": {
     "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788539960.9653587,
@@ -454,21 +455,6 @@
   },
   "queue": [
     {
-      "region": "RUSSIA",
-      "title": "Автор OilPrice о влиянии ИИ на работу и человеческое мышление - UA.NEWS",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb0Vzd29FVVVuRy03ejBhT3hVcUpLaWZLNGRkRC1IdlZNZ3Jsa0lHLU9aZjFKYWN3X0s3UC1BUHlyRXFzTHVRY1VQOVhaMS0wT0VvYTNTUGktU0hxUUExdXpHeEFsa1hqWFFLZnBkMW9OZ2tZTGNRLXBjdDJ2OW9LTDBUbUo0ZGtyaU9fUWNTelIyaG9xbUU2Mlh6eGNwa2c?oc=5",
-      "desc": "Автор OilPrice о влиянии ИИ на работу и человеческое мышление UA.NEWS",
-      "source": "UA.NEWS",
-      "time": 1788556586.0,
-      "score": 72.6,
-      "russia_weight_bonus": 4.1,
-      "key": "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24",
-      "importance": 72.6,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Insurers Search for Answers to Rein in Rogue AI - Dark Reading",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBXdnBwa3FTUjBPWlRNajIzejZxMjBPQnNEQUt5REU3YWVzbk8teGx6eDNrTE1sMW1LRUFzTGlia3dKRHlENEYzMHJUaVhDRnNGdVR4dUFsTkVsZzQzaXhpT1laamhCN1FQRmhDMUZ6MWdlM1ctekZwZTNQSQ?oc=5",
@@ -501,20 +487,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788559940.7771142,
+    "last_start_ts": 1788560122.737297,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788559940.7771142,
-    "last_success_ts": 1788559940.7771142,
+    "last_run_ts": 1788560122.737297,
+    "last_success_ts": 1788560122.737297,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 3
+    "last_published": 1,
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788559823.1362858
+      "updated_at": 1788560124.8056383
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2123,11 +2109,17 @@
       "desc": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot Unite.AI",
       "source": "Unite.AI",
       "region": "WORLD"
+    },
+    "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24": {
+      "time": 1788560122,
+      "title": "Автор OilPrice о влиянии ИИ на работу и человеческое мышление - UA.NEWS",
+      "desc": "Автор OilPrice о влиянии ИИ на работу и человеческое мышление UA.NEWS",
+      "source": "UA.NEWS",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2145,8 +2137,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788558920.9899461,
-  "last_publish_ts": 1788559821.183149
+  "last_publish_ts": 1788560122.737297
 }
