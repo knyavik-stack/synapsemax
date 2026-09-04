@@ -356,7 +356,8 @@
     "5ed84a171b6d455194dd95e38cf8e6bd63e0b40735f51636e5da9c28aa67148f": 1788565099,
     "4f6b86c987d4ee29e2db999ccd8976e16d0184d2d7dc866d3dfb95e7cd8d10b2": 1788565283,
     "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f": 1788565579,
-    "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4": 1788565761
+    "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4": 1788565761,
+    "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": 1788566004
   },
   "known": {
     "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788545844.1562684,
@@ -447,20 +448,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "Will We Control AIor Will AI Control Us - Crude Oil Prices Today | OilPrice.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLTExT2FRRWVZTXVkQVJ6MHpncnNTT2V6YVl0OU04RmZNMWE2NUh2aG9ZY3VlNjlTaDI3bTBEcFY0ZE5WM05rYnV0cGlyVDZieVdNdWxuYXlCRkpjREhvUk5uTklCWlFUVzB3Mm1BUUxnTmRIWDJGZ1JnbHpPWGJvSHhCQVR2ZF9wcUpzSmJJN25tQXZoNmFrcE1lOVJ4UUY2VmJnbzR4TW9mWFVo0gGsAUFVX3lxTE0tMTFPYVFFZVlNdWRBUnowemdyc1NPZXphWXQ5TThGZk0xYTY1SHZob1ljdWU2OVNoMjdtMERwVjRkTlYzTmtidXRwaXJUNmJ5V011bG5heUJGSmNESG9STm5OSUJaUVRXMHcybUFRTGdOZEhYMkZnUmdsek9YYm9IeEJBVHZkX3BxSnNKYkk3bm1Bdmg2YWtwTWU5UnhRRjZWYmdvNHhNb2ZYVWg?oc=5",
-      "desc": "Will We Control AIor Will AI Control Us Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "time": 1788555600.0,
-      "score": 63.5,
-      "key": "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "OpenAI Says Humans Need to Be Able to Monitor How AI 'Thinks.' Astra Makes That Much Harder - Gizmodo",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTmN0ZEVZRHZRZ0FKTGtuVFRwN094c3JzMGVBclNETUxpUDBEREFOYTU3R3dnNlpMd24tV2dTemtscDFtaGo0UWhzUFpPdnBvcXlLZ0NKMXNlMVFQWVJoY1BvTDRILXowLWxOOGEzOFJOR3RKQWNqbU4tYXUtSmdYeWFxSFoyRl9EWXNveGpqY3ZqZm8wa0ZmZG1vR3RLRkJuRk1UN3RMS08zTVhkaFdUM0otekJwT1JEamxBdVRzUldPcWFYRXpZa1psT05zdw?oc=5",
       "desc": "OpenAI Says Humans Need to Be Able to Monitor How AI 'Thinks.' Astra Makes That Much Harder Gizmodo",
@@ -471,22 +458,6 @@
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Jensen Huang Said This Word Exactly 1 Time During Nvidia's Earnings Call, and That Was Enough to Put Artificial Intelligence (AI) Bubble Fears to Rest - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWlpWU2VJejYzMXVyNTIyYnhsVjFJNzdTeS1rZGVsQ2xwQ2tGWGxqUVpJUmJjTEc4RGQwNVhRWGtoNU9nQVZybFJqZF9CX055WTBfb1FBZ0RXNG01bFRvWUFTVHl6WFVwX2g4WkVHanV4WGhPTXB3QmxaSGRnVTRWZGJ3RlpfQjAzM2lnOVFfUTdkSVV2ZjBv?oc=5",
-      "desc": "Jensen Huang Said This Word Exactly 1 Time During Nvidia's Earnings Call, and That Was Enough to Put Artificial Intelligence (AI) Bubble Fears to Rest The Motley Fool",
-      "source": "The Motley Fool",
-      "time": 1788555011.0,
-      "score": 63.5,
-      "key": "f610db8fdb550a8b77976d10ddbcbef5329e17cb229fea2366ddf3ea622c6ee7",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
       "tier": "A"
     },
     {
@@ -508,20 +479,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788565761.488316,
+    "last_start_ts": 1788566004.0387816,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788565761.488316,
-    "last_success_ts": 1788565761.488316,
+    "last_run_ts": 1788566004.0387816,
+    "last_success_ts": 1788566004.0387816,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 4
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788565764.544627
+      "updated_at": 1788566008.13776
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2151,12 +2122,18 @@
       "desc": "California’s Rob Bonta investigating OpenAI over Hugging Face hack Politico",
       "source": "Politico",
       "region": "WORLD"
+    },
+    "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": {
+      "time": 1788566004,
+      "title": "Will We Control AIor Will AI Control Us - Crude Oil Prices Today | OilPrice.com",
+      "desc": "Will We Control AIor Will AI Control Us Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2168,6 +2145,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2176,5 +2154,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788565099.8368926,
-  "last_publish_ts": 1788565761.488316
+  "last_publish_ts": 1788566004.0387816
 }
