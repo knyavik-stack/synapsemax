@@ -462,22 +462,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. - news.crunchbase.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcDlYejRsNWZhOUhVb00xNm9OaWVPel9WZnphXzliRDBrNGM5eE81Z2czZFdmYlBEbmtmdDFROXRKZldlZC1mVzAtTUgzYmY5ZV9MTFNpeGttUExiQnBYNkx3bnl4dzBHOW0xNGE3aXV0T2NvVUVsY3E4cDJrLVNWN0M2MHZtLUY4UWFJZE92VW9RTjdfN1NXd1lmUEgtakk?oc=5",
-      "desc": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. news.crunchbase.com",
-      "source": "news.crunchbase.com",
-      "time": 1788519655.0,
-      "score": 70.5,
-      "key": "cdbf075d907734b23867bcfb5b09b81527714792d36a61b74491ab5132e73436",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Россия опередила Украину в использовании ИИ на борту дронов, — Бескрестнов - АНТИКОР",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZzVCMWFjNmZJeGY0ZzdILUpaSnZNRWdaQUF5R1hpdUlqOGpGUkFLYWVaSW9FbmhBOHlRRlF0ODAxeGJwRjJKZTVIRDdSTzM0RjJGRUZuRnVXU3R3YTFEb3ZqOHpqX19jM3cyR1htcVREdTZwR3BBVjJnWTJDWXlNWkdoMFRtelJxaW5Fa25YclRQX3NKOHk2eUM1UW9tMDdKQ2l6Y1ZYdUN5Q2w5enEyNw?oc=5",
@@ -538,21 +522,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Юрист: почему за слепое доверие к нейросетям в суде придется платить рублем - ВФокусе Mail",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTkd6MXhwRUFsNzZRS0xLdnZjN1p4clZTLVplRVF5NTRwa1EzUy1JU0MyRmNhQmlCeUNoZWpPYlJsTGkxRGxpYmxDRi1VbkVKRTlyc05BdWJxUWlYVng4aUZVU3A2bHRjdUhJajNqOVN4WU5mWWNWRjJHaGFweGdyZWs3ZF94a2VMV3hEYmxsTWxPRGZ1dXhfOEJjTzJhQkRBYWp3bXFJUF84MzdnRU1BbHZqMEZIaWc5Uk1yTg?oc=5",
-      "desc": "Юрист: почему за слепое доверие к нейросетям в суде придется платить рублем ВФокусе Mail",
-      "source": "ВФокусе Mail",
-      "time": 1788512474.0,
-      "score": 68.0,
-      "russia_weight_bonus": 2.5,
-      "key": "c7a98515a555854c4c56dfc17ac1a5124bb8e7f0bd4f666bafdeced988c226da",
-      "importance": 68.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies - CNBC",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xY1VMRWpNNnF5TVZFV3I1c2pRVURDaEN6VERDQTctRXpsdWxQLUxqanlZUWhlTnl1ekRvNWUzdS0xMHl3dlBfVUdvcWFqSUw1RnBnTzdoMUtSV2ZBb3NCbTFUWmZXX2VnaGthTTFKTzN2UFVNS0lmNNIBfkFVX3lxTE5vS2VVMndVYUJ6SkU0aC14VzMwY3dKYkNTekowZnJZUW9zNllkeTg5d0kyNlk3Y0pNei1FOHNqZ2NKbFV1QWNrbWpocGRTLUpWTmZWR185dlh0S3VCdTd0Rjdpc1lSX1o0NDI0cTNDOThSMXVyRkxLMFpkZjl4QQ?oc=5",
@@ -566,6 +535,22 @@
       "topics": [
         "business",
         "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. - news.crunchbase.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcDlYejRsNWZhOUhVb00xNm9OaWVPel9WZnphXzliRDBrNGM5eE81Z2czZFdmYlBEbmtmdDFROXRKZldlZC1mVzAtTUgzYmY5ZV9MTFNpeGttUExiQnBYNkx3bnl4dzBHOW0xNGE3aXV0T2NvVUVsY3E4cDJrLVNWN0M2MHZtLUY4UWFJZE92VW9RTjdfN1NXd1lmUEgtakk?oc=5",
+      "desc": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. news.crunchbase.com",
+      "source": "news.crunchbase.com",
+      "time": 1788519655.0,
+      "score": 67.5,
+      "key": "cdbf075d907734b23867bcfb5b09b81527714792d36a61b74491ab5132e73436",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
       ],
       "tier": "A"
     },
@@ -630,14 +615,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788523099.8243108,
+    "last_start_ts": 1788523279.4149654,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788523099.8243108,
-    "last_success_ts": 1788523099.8243108,
+    "last_run_ts": 1788523279.4149654,
+    "last_success_ts": 1788523279.4149654,
     "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 18
+    "last_published": 0,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
