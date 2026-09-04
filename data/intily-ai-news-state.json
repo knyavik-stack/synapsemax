@@ -175,19 +175,10 @@
     "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": 1788495354,
     "d797361e8127c5aa099c9d0253a16feea017a5e105ac8b34f0521f817f9535ee": 1788495600,
     "bf00ab760e727011b3c20f125efa35b4e33c26cf432dc6ed461de6ce9754f13a": 1788496135,
-    "67556d08be870b8c71623c41701d28db2500ff38087cc1faf41be2bf3c643c12": 1788496374
+    "67556d08be870b8c71623c41701d28db2500ff38087cc1faf41be2bf3c643c12": 1788496374,
+    "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6": 1788496854
   },
   "known": {
-    "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788475135.0999737,
-    "3185d6116d8f9f55b2efbb78040155e0939073654fcc845233be2cd7286adbe0": 1788475135.0999737,
-    "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": 1788475135.0999737,
-    "ccca6722a04ae192bfb2655695aed31d03ee02d4f09a3d9b153e8e3639000ab7": 1788475135.0999737,
-    "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": 1788475135.0999737,
-    "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe": 1788475135.0999737,
-    "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b": 1788475135.0999737,
-    "073837b040a96ddedcdb211ef92accd7f05eda357a64dd5514228c33818406e4": 1788475135.0999737,
-    "ceabecdb3b4324a0f5e9cc75fa51de0a653afce047944b7d9c92b8e65943f0bd": 1788475135.0999737,
-    "1f48f3f2e33577a983748faa7001b0a06814a2e95a60f2317476d28ad0a5d491": 1788475135.0999737,
     "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27": 1788476993.1452017,
     "102d427653a7b266af4d91b59442007f1d29e0897959d636c47384e858c2eb0c": 1788476993.1452017,
     "2e5d3a7661cd10eaab298f28e50c5c6b7b3c6b0f7f81a73f5e63e035f1d61312": 1788476993.1452017,
@@ -257,21 +248,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "ИИ невозможно качественно обучить на катастрофах, происходящих раз в полвека - Вечерняя Казань",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcXdrX2pBZ0VwWnZuTm5OcnFXMU5abjdweHlmTU95QndOTGhJMU9qM0kyWlQxUkJKa1FnZ2trclZmSFRHWUhZeGNnU2xwSDVDNUY5R3lYU09FZUxsTm4xWG5KNkJLUTlibmRBbkhvWHFGYkNnR2lycXBmMkpJQnlzMUl4eC1PZlJ6OG4xQXJnS1BsWEdLNWZpQ0JQR2xKRUUxTFBIQzI3bk9wcDRnN3ZtT2VmekNJYUdHOTBScHl6dGpQeFVNajVoX2930gHPAUFVX3lxTE84X1RZXzRKYUFOYVlQRzJZRTZRSzdIUmo3aW1sZUtSbXZ0a3RDeWRtdkZUNVdWWTd0aThkZ3pYb2s4amhrWUpCVGdQc2dWd2dFeFpqVS1QTHR3RGxtZUVyaGdjLXNpb01vNXJ6OUpzY0hOYzF2SjlJd0FRck1WNEZDNG8wRkpuMWFoWnZKYzUwOEIwek9vc0phellkT1ZHM2VhYlRjUGlxMFdlTmRKeWxHX3IyVkE4YTdsZHk3WWp6WEJzZkJMQTNMaFYyUWxKMA?oc=5",
-      "desc": "ИИ невозможно качественно обучить на катастрофах, происходящих раз в полвека Вечерняя Казань",
-      "source": "Вечерняя Казань",
-      "time": 1788494400.0,
-      "score": 71.5,
-      "russia_weight_bonus": 4.0,
-      "key": "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6",
-      "importance": 71.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUm5reVdteHFBdF94NTYzZkVETWZXZjh3cTVNTTF6YU5sMXhQZ2dSYnhTSThiU1VBcXpnaWZuMzRteXdTUVg1WjZFV24wOEprUjVNNzlhanIteUpJTmxLTjQ3ai1GRFBNeFBfX09FZ0pIbkNtM1U5MWRPVDkxcG4zVFlOQUVzYlo4MWtWRWlEWGtudnVfOEMxU1hCdUE4WVRsTDg2b1JYcl9pVWR0X3c?oc=5",
       "desc": "Россиян могут уволить из-за загрузки рабочих документов в нейросети prospect.com.ru",
@@ -287,20 +263,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788496553.6330528,
+    "last_start_ts": 1788496854.6821964,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788496553.6330528,
-    "last_success_ts": 1788496553.6330528,
-    "last_candidates": 48,
-    "last_published": 0,
-    "queue_size": 2
+    "last_run_ts": 1788496854.6821964,
+    "last_success_ts": 1788496854.6821964,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788496382.1649776
+      "updated_at": 1788496873.5267289
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1545,6 +1521,13 @@
       "desc": "Where Does $100 of AI Capex Flow? Unpack Full AI Infrastructure Cost Chain Moomoo",
       "source": "Moomoo",
       "region": "WORLD"
+    },
+    "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6": {
+      "time": 1788496854,
+      "title": "ИИ невозможно качественно обучить на катастрофах, происходящих раз в полвека - Вечерняя Казань",
+      "desc": "ИИ невозможно качественно обучить на катастрофах, происходящих раз в полвека Вечерняя Казань",
+      "source": "Вечерняя Казань",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1552,7 +1535,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1567,8 +1549,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788496553.6330528,
-  "last_publish_ts": 1788496374.6274428
+  "last_publish_ts": 1788496854.6821964
 }
