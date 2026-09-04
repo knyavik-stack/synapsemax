@@ -296,7 +296,8 @@
     "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315": 1788543759,
     "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": 1788544041,
     "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788544437,
-    "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": 1788544640
+    "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": 1788544640,
+    "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": 1788545240
   },
   "known": {
     "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": 1788524605.2114382,
@@ -629,65 +630,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину - Korrespondent.net",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeUE0dnN2ejQtbjNneG5BYmNjSjdOLVpmdjI3RzR2Mk5GZ194RlJHNUpQaU01aEdJYXJKbjNrZXFLV2dGdkFqcjJZdkE1RnN0eE9wLTdiLV9MUUxIMkVxS1c5blRqS280ZElxMUpjVkpmUUQ4MndleGNkR2R5MEE5QjE2UzVnRmFZbDRpSENmcUxPdzAyWGI5ekZhUFUxaVZ6NWfSAZwBQVVfeXFMUC1VaFZqMlFZS3FmZjdmSkxpUTZuWG1jZ1BETUhmUlhOdlNaVWs5Y2RhbE9BcVc2WjRKWHAyOXh6YU9HZ2hoUy1aLXFQU3I3dmFxUWxPeTVWb0VQODZRakFlZWhSeDlqbE5iNzE2VjFKVjVRQndNRnlpcHdwTnlFY1FfbFpkbGdhYXZEVnFJWVB0Nnpib1F1R2FPYVhi?oc=5",
-      "desc": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину Korrespondent.net",
-      "source": "Korrespondent.net",
-      "time": 1788534240.0,
-      "score": 68.8,
-      "russia_weight_bonus": 3.3,
-      "key": "9f0cd75655e15f8907a0d657ffa098e258a1501b643b428a16beea4c814ba67b",
-      "importance": 68.8,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access - Unite.AI",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbWlOQUt6amFrN2I0aGR0dnVzTFY3ZWxCaXhwdVlJN2c4SHplaFNtRmlUaGVqX1BLNmZQMVp1ckRfYWlTUFhCZVlmRDhLYzJEM1NwNnhaeUc3ODNFanQyclZ4ZzdjcHhCS0ppNnNPYl8wWjNNMzhVczZZZjA1QTRWeElBdjE5N2F6WE9sUU1nb0hpdkE?oc=5",
-      "desc": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access Unite.AI",
-      "source": "Unite.AI",
-      "time": 1788543481.0,
-      "score": 66.5,
-      "key": "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Who Gave the AI Access? - dot.LA",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51WEVnNXVOUEdjYVJCSUdrR2xFQWVvYWpkczZjQnZBMzBzbURCYlRqclJHOVZOcjNhRVhxWFdDa1dCT3YtZktwbkxMWjBnU0YtbV9JeUNqUi1IZmlrZVhPOGRQYWIyejRVdWc0dzdKLU9ZSm9l?oc=5",
-      "desc": "Who Gave the AI Access? dot.LA",
-      "source": "dot.LA",
-      "time": 1788541357.0,
-      "score": 66.5,
-      "key": "463d9d538682f54e3334aa28e121279177d3befa324dfc79bbf5acffcfd1e970",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Is AI Just Giving Customers More to Ignore? - Newsweek",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNdUx0SlltWDBXdWVyVkxpdno1Q2xIVzNnS05FR1REdEpKQnVtWjBUSHZrb2w5OWF3NVBBWWVMLTlxN0o4cHVZQlBOR3JmaHBybzEzM1ozczRGYjNvMVFHSk5VRWMxb0hCYmdmQXBR?oc=5",
-      "desc": "Is AI Just Giving Customers More to Ignore? Newsweek",
-      "source": "Newsweek",
-      "time": 1788541260.0,
-      "score": 66.5,
-      "key": "551425382814f2a2906aca732654655d152a3f4bbb1292811f4ec43b986f8c75",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules - StreetInsider",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUFGMk5mSFhVY3VuMHFFWnN2VkZtc05mVm5UUGoyZXdxcmhzYzM2TWlmN1puUUpINzIyLXlNcjIzaGZSSEJIYUFBdjJFSTBoQ2NKeVEtazBBRjV6dHlUM2czTW1aLXlaY0F0dzVoWHdwSjRGNmF6QXY4WTN3a1JNS1FJRE9waE1uOWFyUmI2N1AzUUNfOWFxRHlYdE5jdE1xTXBpVDZVRndsU3hCTHFBYWNRR05LWWhDbDgzNk5sVTBYeHlRTk13ZXFkb2U?oc=5",
@@ -718,6 +660,34 @@
       "topics": [
         "robotics"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Who Gave the AI Access? - dot.LA",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51WEVnNXVOUEdjYVJCSUdrR2xFQWVvYWpkczZjQnZBMzBzbURCYlRqclJHOVZOcjNhRVhxWFdDa1dCT3YtZktwbkxMWjBnU0YtbV9JeUNqUi1IZmlrZVhPOGRQYWIyejRVdWc0dzdKLU9ZSm9l?oc=5",
+      "desc": "Who Gave the AI Access? dot.LA",
+      "source": "dot.LA",
+      "time": 1788541357.0,
+      "score": 63.5,
+      "key": "463d9d538682f54e3334aa28e121279177d3befa324dfc79bbf5acffcfd1e970",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Is AI Just Giving Customers More to Ignore? - Newsweek",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNdUx0SlltWDBXdWVyVkxpdno1Q2xIVzNnS05FR1REdEpKQnVtWjBUSHZrb2w5OWF3NVBBWWVMLTlxN0o4cHVZQlBOR3JmaHBybzEzM1ozczRGYjNvMVFHSk5VRWMxb0hCYmdmQXBR?oc=5",
+      "desc": "Is AI Just Giving Customers More to Ignore? Newsweek",
+      "source": "Newsweek",
+      "time": 1788541260.0,
+      "score": 63.5,
+      "key": "551425382814f2a2906aca732654655d152a3f4bbb1292811f4ec43b986f8c75",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -765,20 +735,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788544640.9905672,
+    "last_start_ts": 1788545240.4790246,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788544640.9905672,
-    "last_success_ts": 1788544640.9905672,
+    "last_run_ts": 1788545240.4790246,
+    "last_success_ts": 1788545240.4790246,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788544644.7621381
+      "updated_at": 1788545244.8389733
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -792,20 +762,6 @@
     }
   },
   "stories": {
-    "f08e8fe5014a0c0332ffefa656d2d584f811c731ab1fa40c00b949e9196b9acd": {
-      "time": 1788458590,
-      "title": "Gemini Survived When ChatGPT, Claude, and Grok Collapsed: Azure Is at Fault - Tech Times",
-      "desc": "Gemini Survived When ChatGPT, Claude, and Grok Collapsed: Azure Is at Fault Tech Times",
-      "source": "Tech Times",
-      "region": "WORLD"
-    },
-    "657ece28e23bcb46449c2ea5f8e700f03ad7c8ee38fe3bf7db640379578b5d60": {
-      "time": 1788458774,
-      "title": "Елена Силкина: как подготовить компанию к внедрению ИИ - companies.rbc.ru",
-      "desc": "Елена Силкина: как подготовить компанию к внедрению ИИ companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "region": "RUSSIA"
-    },
     "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": {
       "time": 1788458959,
       "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
@@ -2429,10 +2385,16 @@
       "desc": "Broadcom predicts AI chip revenue to double in 2027 Fierce Network",
       "source": "Fierce Network",
       "region": "WORLD"
+    },
+    "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": {
+      "time": 1788545240,
+      "title": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access - Unite.AI",
+      "desc": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access Unite.AI",
+      "source": "Unite.AI",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2451,8 +2413,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788543864.4841003,
-  "last_publish_ts": 1788544640.9905672
+  "last_publish_ts": 1788545240.4790246
 }
