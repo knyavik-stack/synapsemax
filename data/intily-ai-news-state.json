@@ -301,7 +301,8 @@
     "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4": 1788545421,
     "2a2856322c9e70f34ed769b8c77547c9e0994a988c35c240374232882c85dd93": 1788545844,
     "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788546144,
-    "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c": 1788546620
+    "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c": 1788546620,
+    "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6": 1788546800
   },
   "known": {
     "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788526822.0877657,
@@ -472,23 +473,6 @@
   },
   "queue": [
     {
-      "region": "RUSSIA",
-      "title": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONm43WlNueFl4bUFlUVhYS2E4RE55NkRWMUFOUzVVdTRzUGVidjYyS1p4M2tTSE96dkhaQ1p2VFZ6ZmZMck1XZTJwLUFyUDNjT0JyRXB5VkdwOUQzY2U5TFN2NU9VcWdzbUVkTWFsaFREYkFCbXBPNTAtdUhJMFh5d1FTVk40cGhhemxGWjFEbDZidDBXZmR6QklPb3hWa2ptSWZTQkdqd29aNk5jYjZjSHV5VU1ZaDBEMWtqTHFfbFlZaEEtSEVrcEgyN2NNcmhuU1VfWA?oc=5",
-      "desc": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788543156.0,
-      "score": 71.4,
-      "russia_weight_bonus": 2.9,
-      "key": "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946",
-      "importance": 71.4,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Claude Fable 5.1 achieves 8x improvement in robotic task performance - Crypto Briefing",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE95QzdXUTN3R1pyVWk2UVFaQy1YWFpVeW1lX2J4OWR4aXd2dUdPMExtZEJXNXVUcTFOeEtOcTBJcWhWeWtwd1hnMlBlb1RaUzBxc1VDcmV0cVJGLXo1OTdqQ2txUHQxSHlRVm1LUFYtRnhzTjJjSUZz?oc=5",
@@ -504,10 +488,10 @@
         "robotics"
       ],
       "tier": "A",
-      "last_failed_at": 1788545844,
+      "last_failed_at": 1788546800,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788546144
+      "failure_count": 2,
+      "next_retry_at": 1788547400
     },
     {
       "region": "RUSSIA",
@@ -556,6 +540,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONm43WlNueFl4bUFlUVhYS2E4RE55NkRWMUFOUzVVdTRzUGVidjYyS1p4M2tTSE96dkhaQ1p2VFZ6ZmZMck1XZTJwLUFyUDNjT0JyRXB5VkdwOUQzY2U5TFN2NU9VcWdzbUVkTWFsaFREYkFCbXBPNTAtdUhJMFh5d1FTVk40cGhhemxGWjFEbDZidDBXZmR6QklPb3hWa2ptSWZTQkdqd29aNk5jYjZjSHV5VU1ZaDBEMWtqTHFfbFlZaEEtSEVrcEgyN2NNcmhuU1VfWA?oc=5",
+      "desc": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788543156.0,
+      "score": 68.4,
+      "russia_weight_bonus": 2.9,
+      "key": "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946",
+      "importance": 68.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России - Национальная Служба Новостей",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1JfWXhIYUpPTnFxQUNZeVg1QjFwamdTOElNYWlrcllwdUV5MjBHYVNSYlVaZVlRYnJGMGJnWU9tX2JFemxvbjAtaEtPSDFDRTV4UmRGN0FoNXlnY3drWXhvUF9iWEVVZ3daRWxBbGhweFVkbFEzQkVaN1RsTHJrRE5qR1p5UEV4Q1lSUi12ZS1fOWRQNzJGcEtIZi02d9IBowFBVV95cUxNTmtNWWd2bTJ4UVpMZHk2YldESm5BNnQ1T1JzWVhVV2szNGFZZVpGcTQ2dW94c0wxQmNGSFZUNWpnVkM2Sk0xOElvS05Fam8tbW0xcFVWWWJkRnZ0RkNXSVEzNlJ3eWxiUEZfSWxNS2ViR0FDOS1XOU5rMUN0SFJjbEFMMU5TcjFtT2FFUGotMWN4bTdFVDVqSW52NkV5LTZKZDdZ?oc=5",
       "desc": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России Национальная Служба Новостей",
@@ -565,20 +566,6 @@
       "russia_weight_bonus": 2.8,
       "key": "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5",
       "importance": 68.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Technology in Trading | Meaning, History, Innovation, & AI - Britannica",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kc2RFYU14RmJMbDRVQzdnWURuUTJmTkRSaGpBUGtaRnhDM3lDZnRfeFVWZXE5TUxUcE81U0tCZ09ocUJMVmZ5OEF3VGwwTHdMa0hGUDhzelA4MmlrQ2pIdg?oc=5",
-      "desc": "Technology in Trading | Meaning, History, Innovation, & AI Britannica",
-      "source": "Britannica",
-      "time": 1788544619.0,
-      "score": 66.5,
-      "key": "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6",
-      "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -742,20 +729,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788546620.5340297,
+    "last_start_ts": 1788546800.7033708,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788546620.5340297,
-    "last_success_ts": 1788546620.5340297,
+    "last_run_ts": 1788546800.7033708,
+    "last_success_ts": 1788546800.7033708,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 17
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788546628.4691448
+      "updated_at": 1788546814.2013912
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2385,10 +2372,16 @@
       "desc": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах newkhakasiya.online",
       "source": "newkhakasiya.online",
       "region": "RUSSIA"
+    },
+    "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6": {
+      "time": 1788546800,
+      "title": "Technology in Trading | Meaning, History, Innovation, & AI - Britannica",
+      "desc": "Technology in Trading | Meaning, History, Innovation, & AI Britannica",
+      "source": "Britannica",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2407,8 +2400,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788545844.1562684,
-  "last_publish_ts": 1788546620.5340297
+  "last_publish_ts": 1788546800.7033708
 }
