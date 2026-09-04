@@ -219,11 +219,10 @@
     "4e42209d83a119a961546d27e4cba53fceb61b8243ee44c508fddd5289d7fa6d": 1788518008,
     "fe86cfca7ddd06270ddf285fc073f6b22df01654ee5d696141c9164dce21ee1b": 1788518362,
     "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": 1788518901,
-    "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": 1788519499
+    "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": 1788519499,
+    "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788519980
   },
   "known": {
-    "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788498274.389358,
-    "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": 1788498274.389358,
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
     "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": 1788505280.75571,
     "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220": 1788505280.75571,
@@ -309,23 +308,6 @@
     "f4a74aab6a9464b4a4b06ad639aa6aa4b6696a6fd606b73f015e6eef9d9726de": 1788518901.903705
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Белоруссия создает закон об ИИ для ускорения разработки лекарств и диагностики - Правда.Ру",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ta00zSEdieExDWlI3WHlScUJrSmExUFRBN0FNbFh2OTg1ZkRHcUpZMHVpSlZ2R185blc2ZkVsZ0JsMi1LSWlRYjB1UmN6TW1iakxKNm1pby13aHZrYkFhd2p6UkpZVXdILWNhLWd3?oc=5",
-      "desc": "Белоруссия создает закон об ИИ для ускорения разработки лекарств и диагностики Правда.Ру",
-      "source": "Правда.Ру",
-      "time": 1788517380.0,
-      "score": 83.4,
-      "russia_weight_bonus": 3.9,
-      "key": "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e",
-      "importance": 83.4,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Bodhan AI releases open-weight Indian-language AI models for education - Business Standard",
@@ -435,36 +417,6 @@
       "time": 1788509317.0,
       "score": 63.5,
       "key": "e7a9cd21f6538c4a961d4a9a606588a5c1b39b6b1803a7cb2a5b81a69dc33d14",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Catholic colleges and universities jumping into quick-moving AI field - ncronline.org",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM2lSSDJpTzlidUY5MWoyNW9jaXpHVGRuNElySXZfTUZ0Y3Nmc1BnMGx2VllBNEVqaXVWYVJzU082Qi1ZY0M2RVRPaDJwblZQWXFSMTFJRy12RlBrSXA3d3Z6ZUEyaWxuLWdxcWQ1Mng2WXByUzIyZzlvdy0zU3gxalZITUR0Q1hFTjJ0blVFTUxlaG9JTU1aWU1GQQ?oc=5",
-      "desc": "Catholic colleges and universities jumping into quick-moving AI field ncronline.org",
-      "source": "ncronline.org",
-      "time": 1788509154.0,
-      "score": 63.5,
-      "key": "b58a0f355301e36e6c7b874466f4220ac29a73adb8b5ba9dcb1c0475bee98555",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "After Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeDVnMEdoMnIzT3QtWGducy1Od25VMVM3Z3I3elBURm9ia05yQkNEUE9veGNaTEJZaW5INzlmTVdwOEpIbTgzX09mcEdiSGhGSU1oSXdMNzdfOEJkbGZxeXNTMlBhLVlPMWVNaWYtSmZMUmp2N1lBMm90dnF1cFhhSTVBd2F2a3AzRVg1OEdsdU1aSndxN05UTHB1Qk00Vjl1MnlwTw?oc=5",
-      "desc": "After Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? Morningstar",
-      "source": "Morningstar",
-      "time": 1788509081.0,
-      "score": 63.5,
-      "key": "d48395c12d7c1f6b1dd3e23aaec23e01cb6548de961ace4e92524fd09dd88795",
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [
@@ -583,20 +535,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788519620.014348,
+    "last_start_ts": 1788519980.5191407,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788519620.014348,
-    "last_success_ts": 1788519620.014348,
+    "last_run_ts": 1788519980.5191407,
+    "last_success_ts": 1788519980.5191407,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788519508.8007445
+      "updated_at": 1788519982.417811
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2149,13 +2101,19 @@
       "desc": "Inside Claudeforce: Uniting Salesforce Data with Claude AI AI Magazine",
       "source": "AI Magazine",
       "region": "WORLD"
+    },
+    "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": {
+      "time": 1788519980,
+      "title": "Белоруссия создает закон об ИИ для ускорения разработки лекарств и диагностики - Правда.Ру",
+      "desc": "Белоруссия создает закон об ИИ для ускорения разработки лекарств и диагностики Правда.Ру",
+      "source": "Правда.Ру",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2171,8 +2129,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788518901.903705,
-  "last_publish_ts": 1788519499.289979
+  "last_publish_ts": 1788519980.5191407
 }
