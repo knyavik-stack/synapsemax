@@ -286,7 +286,8 @@
     "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": 1788540022,
     "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788540261,
     "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": 1788540501,
-    "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": 1788540799
+    "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": 1788540799,
+    "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": 1788541339
   },
   "known": {
     "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": 1788520820.733582,
@@ -562,21 +563,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Зачем внедрять ИИ, если он не удваивает выручку завтра - Forbes.ru",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaEJjYjBycHp4enhxYmNXcG9BbjVnaUlteXhtdk9BNm5qYW5CanlidWlLeXZENTRZMGpvTVB1emZDRk56Q1RRdzlIQ1VXcXFoQ1l6WHU0Z2tOWEIwWXhfQ1dtTXlrRlJCLXF1SThRRU0tcU5sNkh4T2xGdVpRVUY3anN4MDd0SjhWYjFzb2JCTQ?oc=5",
-      "desc": "Зачем внедрять ИИ, если он не удваивает выручку завтра Forbes.ru",
-      "source": "Forbes.ru",
-      "time": 1788537339.0,
-      "score": 73.1,
-      "russia_weight_bonus": 4.6,
-      "key": "7bb9dfcaaac4e0f8e48cfb2e5bb0f4d4c30aa0e4c6e8c3a662807158f66ef256",
-      "importance": 73.1,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Как ИИ-агенты научились отравлять друг друга - lenta.profinansy.ru",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91cHpOQkFxTXgxX0w0eURaY0w4enJncDBYR2hDd2VGTi1yN2FPanpjSkNKNGZCLW9kNW1lZkF3YkFMNlc3bF94TzFWcWlCbUVJRDdn?oc=5",
       "desc": "Как ИИ-агенты научились отравлять друг друга lenta.profinansy.ru",
@@ -593,19 +579,18 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth - Yahoo Tech",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLXZBMmlEQWtrSnllcnRqVmtmdndFX2V6RkxieFFwUndLRlllSHJHdXA5LUVTTHFHc1Rtc211X0Q3UEJRZU51MUVpZDFLdW9Id1h2dTU4U0JnSnBlTlpDdmRwMEZsdzBLWnF0S2VmdDJjRWtlU05NM2JUT09RREhVMU1VOUpQMEE5T3VjZzAtaDNEX2l2TnBLV21zdw?oc=5",
-      "desc": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth Yahoo Tech",
-      "source": "Yahoo Tech",
-      "time": 1788538641.0,
-      "score": 70.5,
-      "key": "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce",
-      "importance": 70.5,
+      "region": "RUSSIA",
+      "title": "Зачем внедрять ИИ, если он не удваивает выручку завтра - Forbes.ru",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaEJjYjBycHp4enhxYmNXcG9BbjVnaUlteXhtdk9BNm5qYW5CanlidWlLeXZENTRZMGpvTVB1emZDRk56Q1RRdzlIQ1VXcXFoQ1l6WHU0Z2tOWEIwWXhfQ1dtTXlrRlJCLXF1SThRRU0tcU5sNkh4T2xGdVpRVUY3anN4MDd0SjhWYjFzb2JCTQ?oc=5",
+      "desc": "Зачем внедрять ИИ, если он не удваивает выручку завтра Forbes.ru",
+      "source": "Forbes.ru",
+      "time": 1788537339.0,
+      "score": 70.1,
+      "russia_weight_bonus": 4.6,
+      "key": "7bb9dfcaaac4e0f8e48cfb2e5bb0f4d4c30aa0e4c6e8c3a662807158f66ef256",
+      "importance": 70.1,
       "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
+      "topics": [],
       "tier": "A"
     },
     {
@@ -635,21 +620,6 @@
       "russia_weight_bonus": 3.3,
       "key": "9f0cd75655e15f8907a0d657ffa098e258a1501b643b428a16beea4c814ba67b",
       "importance": 68.8,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Не бояться нейросетей призвал учащихся глава Минцифры Новосибирской области - Горсайт",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONERNbGRsRkZ6T1NCZ0JlYXQ5amZJU2Q0c1BlTl9CdFBWN2UwekFha0tpWVNPVUJuenJmTzV2UTR4c01WYVMtNzJEbWNxN3c1T3U0Y2tUVGxFU0tuekg1NjVGMjlIeVFGUmR3Vy0tMUpHRnM4M0R4eTZueXhaUGZLbEJiQTQycWdGX1FaYVhfaVhNdTRZbUlHak1GVFJGS1AyZGdZNWJjZFdGbHo5N0VqWW5oRkdxV1RZNnVFeA?oc=5",
-      "desc": "Не бояться нейросетей призвал учащихся глава Минцифры Новосибирской области Горсайт",
-      "source": "Горсайт",
-      "time": 1788530384.0,
-      "score": 68.5,
-      "russia_weight_bonus": 3.0,
-      "key": "35f517678443e7e00b0b3207afd3aa81e40259732e15602672ab22e57320da59",
-      "importance": 68.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -742,20 +712,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788540799.8872163,
+    "last_start_ts": 1788541339.8596451,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788540799.8872163,
-    "last_success_ts": 1788540799.8872163,
+    "last_run_ts": 1788541339.8596451,
+    "last_success_ts": 1788541339.8596451,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 15
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788540805.9288354
+      "updated_at": 1788541342.757505
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -769,20 +739,6 @@
     }
   },
   "stories": {
-    "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819": {
-      "time": 1788454459,
-      "title": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts - Межа. Новини України.",
-      "desc": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts Межа. Новини України.",
-      "source": "Межа. Новини України.",
-      "region": "WORLD"
-    },
-    "5d1178d9bcfea5f83b482b70bde9035e03008b98ae7d69dd641c06ba10ef7046": {
-      "time": 1788454813,
-      "title": "«Ростелеком» предупреждает: кибермошенники вовлекают подростков в преступные схемы с помощью ИИ - РИА Калмыкия",
-      "desc": "«Ростелеком» предупреждает: кибермошенники вовлекают подростков в преступные схемы с помощью ИИ РИА Калмыкия",
-      "source": "РИА Калмыкия",
-      "region": "RUSSIA"
-    },
     "d589eaddbe63b46b466552dd5e306fcc956a27d13b11015890a88f0e54d6016c": {
       "time": 1788455171,
       "title": "Meta Launches Muse Spark 1.3: New AI Model Takes Aim at OpenAI and Anthropic - International Business Times, Singapore Edition",
@@ -2434,11 +2390,17 @@
       "desc": "Александр Ведяхин: Доступ ИИ-агентов к маркетплейсам поможет покупателям Курс Дела",
       "source": "Курс Дела",
       "region": "RUSSIA"
+    },
+    "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": {
+      "time": 1788541339,
+      "title": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth - Yahoo Tech",
+      "desc": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth Yahoo Tech",
+      "source": "Yahoo Tech",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2456,8 +2418,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788539960.9653587,
-  "last_publish_ts": 1788540799.8872163
+  "last_publish_ts": 1788541339.8596451
 }
