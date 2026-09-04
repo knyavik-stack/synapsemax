@@ -444,9 +444,61 @@
     "9fb3c8868bf43c3fec578d0d453ba39f9fbe8dc17f2ace5c8c2b5150d89c7474": 1788560540.3142607,
     "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8": 1788560540.3142607,
     "7f69afc2696d0f9b48408e1626a0eee7e73dcc42c665dbdc98c9e3b924b1d290": 1788560540.3142607,
-    "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456": 1788560540.3142607
+    "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456": 1788560540.3142607,
+    "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393": 1788562402.0264504,
+    "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": 1788562402.0264504,
+    "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788562402.0264504,
+    "37c9fcad4c0c540dc1eb53f93d0429fb1fc7b277d7d80f8a2bab899787dca762": 1788562402.0264504
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "OpenAI’s German Wiki Hack Is Less About “Rogue AI” Than Failed Agent Containment - Security Boulevard",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNjcxQ0Voai1SaVptWnVLV1hua0lkNlUybEJGaENLTjRMSGh2eGpVOHEzakNuZnR0bzZESV83Tl9FVXdWcnAxckZ4Rkc1QUJzZFBRWm5sWnEtdFdLS2dsazhUd0RGOEJ2dFEtdWtNMmh1WTlRQTAzQ2hhOVN4YlNiMlpockdhYTdqMUZtWl9kUDRlOGRWOGk5SEJYcE1GRkRYU0ZwVE5ucThUa0hnNTF3Zmx5R25ldk0?oc=5",
+      "desc": "OpenAI’s German Wiki Hack Is Less About “Rogue AI” Than Failed Agent Containment Security Boulevard",
+      "source": "Security Boulevard",
+      "time": 1788561379.0,
+      "score": 74.5,
+      "key": "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393",
+      "importance": 74.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "NevTech Launches 'Done-For-You' AI Implementation for Indiana Businesses — Custom AI MVPs Delivered Fast - EIN News",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZlRkajFUS1ZWYVdUMF9Hbmh2Ymo0Q0gtMV9VUF93SDNXSExBYllnaTYtMnRmMWhZanRkd19wUFFpRnhiblZNd1NoOHRGa0Z4WDU5Y1Q0TDZfUEZRM3YydTdUZ1h2REtyRlNyTU02dnhOUFdUVzNVM0VPM25XM2V5N211cWE5ZlVuQS0yVmluUG5hY2VYb0NsVnhHc3JZN25SM2RzZHpRYXNtWFhHcjRMVmJuakVCX1VlcU1GQ0hvaXZmMEJFS2hMNGs4YVRsd2lTdzRXamNTZTJTdw?oc=5",
+      "desc": "NevTech Launches 'Done-For-You' AI Implementation for Indiana Businesses — Custom AI MVPs Delivered Fast EIN News",
+      "source": "EIN News",
+      "time": 1788557520.0,
+      "score": 73.5,
+      "key": "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c",
+      "importance": 73.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В Киеве признали превосходство России в технологиях ИИ для дронов - Рамблер",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUXZFenUwRFh4NWxnaWRnSXh0RkZwMDFUZnBJOEoyWU5ka0ZkamxMVldLWjc3Z1NOVGRnWjY3QmNaVVFMaHVYS3YyU1UzVUk0aTRsdXBkSUVvdmlueDc5SUFKMTJ0V3RmUkZBamxzU0ZIUjJ2alpLSHplOGVFV3M5UE9rZ3A2QXRyUGUyUURULVIwLWh6VU1TaXpKZ19oWUNzVEEtNHZvYjNlQdIBrwFBVV95cUxOaVljUWZMZjZfUXQ0cE5tUjFXVVFHUkhJZjlhdzAxNnZlSnNMeFo5Ri1iZ0tuSmxTY1pxNy10X2hoNmo4YUxaa014eEZHdG9Ec2hSdTY0eVBDV0FiRHpCdVBPTnUtNVVRRG9FeHlfb0RZY09Jc25oMWF0eWt5bS1DVGpsM1B4b1c0QlZOaFZ6TG52XzZZdmQ5NklFZlZPS3pyaEpSVDBIVE1zb3RKRDRZ?oc=5",
+      "desc": "В Киеве признали превосходство России в технологиях ИИ для дронов Рамблер",
+      "source": "Рамблер",
+      "time": 1788560314.0,
+      "score": 73.0,
+      "russia_weight_bonus": 4.5,
+      "key": "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85",
+      "importance": 73.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "В «Google Фото» встроили мощную нейросеть. На что она способна? - prospect.com.ru",
@@ -492,17 +544,33 @@
         "robotics"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Box CEO says AI models excel at complex tasks - scanx.trade",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVDExNWE5Q3hfQUJOUjhLcmU5STdpNlQ3S3ZEVUZTaVc3T25vYVlhTXhsTE00eXRWUzJnUzM0UURuVkhDVnhzbUJ2dXp1ZTJ1d09hdVJfUDRzdlVrekE4NnBIV3hydEFfUWd5MFhUdTVuM3djSUFZbG10bUlTUjlrVERjRWJoQWgxNVpLZVItQTJmVFA0Tk0xU1lpSFlUbjBrLTIzWVdmeG1wSGQ1LVlwOGFR?oc=5",
+      "desc": "Box CEO says AI models excel at complex tasks scanx.trade",
+      "source": "scanx.trade",
+      "time": 1788542102.0,
+      "score": 60.0,
+      "key": "37c9fcad4c0c540dc1eb53f93d0429fb1fc7b277d7d80f8a2bab899787dca762",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788562282.1416705,
+    "last_start_ts": 1788562402.0264504,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788562282.1416705,
-    "last_success_ts": 1788562282.1416705,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 3
+    "last_run_ts": 1788562402.0264504,
+    "last_success_ts": 1788562402.0264504,
+    "last_candidates": 65,
+    "last_published": 0,
+    "queue_size": 7
   },
   "providers": {
     "GEMINI": {
@@ -2141,6 +2209,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788560540.3142607,
+  "last_search_ts": 1788562402.0264504,
   "last_publish_ts": 1788562282.1416705
 }
