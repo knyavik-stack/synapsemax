@@ -267,7 +267,8 @@
     "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344": 1788533840,
     "7c74a8361aab0e3a2e4ff3fc6ccba0196c06d2adec6396eb9c1cd09d6a5c6e3d": 1788534140,
     "9b2411342d80e2c6b34fa3b3384bed016c552a3251af059423e5b63645928a1e": 1788534381,
-    "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534801
+    "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534801,
+    "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": 1788535160
   },
   "known": {
     "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515000.8867981,
@@ -466,23 +467,6 @@
     "db6b215fa5de2b16d30f47c580e663b069efcf6ed3d5e5a172f0576ba443e873": 1788534259.6266851
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Минюст объявил «Новую газету» иноагентом - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aRE03QlhCOXllYzJvTVk4dkJvb0N3dGZWaWFSYVVUNDczM3ZWdzM1ci1taWpjVzhiQ2Nzc3Jrd1FNRm54c1QzMFAwcnp1Zw?oc=5",
-      "desc": "Минюст объявил «Новую газету» иноагентом kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788533495.0,
-      "score": 75.1,
-      "russia_weight_bonus": 2.6,
-      "key": "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5",
-      "importance": 75.1,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского - Gazeta.ua",
@@ -746,20 +730,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788534801.8813999,
+    "last_start_ts": 1788535160.4870014,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788534801.8813999,
-    "last_success_ts": 1788534801.8813999,
+    "last_run_ts": 1788535160.4870014,
+    "last_success_ts": 1788535160.4870014,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 18
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788534845.1446862
+      "updated_at": 1788535165.3633423
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -773,13 +757,6 @@
     }
   },
   "stories": {
-    "78a8b50454a758756f9fb9b69a26bf8341c4c72ae2179c96cc4a538b86d5cab8": {
-      "time": 1788448514,
-      "title": "Phenom Cloud Reshapes Leadership Team to Accelerate Enterprise AI Expansion - citybiz",
-      "desc": "Phenom Cloud Reshapes Leadership Team to Accelerate Enterprise AI Expansion citybiz",
-      "source": "citybiz",
-      "region": "WORLD"
-    },
     "d3d2dec45e3a009376f05683ff0172eff8219b11f90bdc4534121cb527da1a4c": {
       "time": 1788448872,
       "title": "$4 на компанию. Вымогатели нашли способ масштабировать взлом с помощью ИИ - SecurityLab.ru",
@@ -2459,11 +2436,17 @@
       "desc": "OpenAI представила самый умный ИИ Инвест-Форсайт",
       "source": "Инвест-Форсайт",
       "region": "RUSSIA"
+    },
+    "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": {
+      "time": 1788535160,
+      "title": "Минюст объявил «Новую газету» иноагентом - kommersant.ru",
+      "desc": "Минюст объявил «Новую газету» иноагентом kommersant.ru",
+      "source": "kommersant.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2481,8 +2464,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788534259.6266851,
-  "last_publish_ts": 1788534801.8813999
+  "last_publish_ts": 1788535160.4870014
 }
