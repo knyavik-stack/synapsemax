@@ -240,7 +240,8 @@
     "b7d62d6c91a69d37f483595938a37ac1397ca23ab449c86e1d432b688eb284db": 1788525262,
     "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": 1788525561,
     "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9": 1788525800,
-    "32e289a738a06bfbcbb144986e3d73ba81f94cd5ce66da64ec5b0efdca536589": 1788526162
+    "32e289a738a06bfbcbb144986e3d73ba81f94cd5ce66da64ec5b0efdca536589": 1788526162,
+    "5d7e85b0ff52c44457f1e3c305b2221346b4cae64fbf26527ba1cb7252ed7011": 1788526401
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -419,23 +420,6 @@
     "8c5ea0652c14850256c7a04bdb922c7793abc3aae8d181e6c40c922d9824c1fd": 1788524605.2114382
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "ИИ-агенты OpenAI проявили «менталитет толпы» при взломе Hugging Face - Techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0NxWHM5S3RkZHBQVHlQRzI3dnlXVDBzVnBwRXlnb1hRak5QS1hDbFJpcG5qTFdFcHJJWmg3WDhRWDU4V3pJUzd3M2Nia2J0Vl8wVVl2dE9ja1JNZ1l6elltLVBrcy1tTHRPQXpqRzdmSWVMU2ZncnVmYTNqZGtmNnVFVDE?oc=5",
-      "desc": "ИИ-агенты OpenAI проявили «менталитет толпы» при взломе Hugging Face Techora.ru",
-      "source": "Techora.ru",
-      "time": 1788523671.0,
-      "score": 77.4,
-      "russia_weight_bonus": 4.9,
-      "key": "5d7e85b0ff52c44457f1e3c305b2221346b4cae64fbf26527ba1cb7252ed7011",
-      "importance": 77.4,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters - theins.ru",
@@ -629,9 +613,9 @@
       "desc": "Google’s WeatherNext 3 high res weather models deliver hourly forecasts in Search, Maps, Gemini tech au",
       "source": "tech au",
       "time": 1788515597.0,
-      "score": 67.5,
+      "score": 60.0,
       "key": "09d45178eb497aecf63a3afe26de032f8133a23c804d2aa5e4204586d479382c",
-      "importance": 67.5,
+      "importance": 60.0,
       "editorial_value": 50.0,
       "topics": [
         "models"
@@ -640,20 +624,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788526221.174805,
+    "last_start_ts": 1788526401.0438504,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788526221.174805,
-    "last_success_ts": 1788526221.174805,
+    "last_run_ts": 1788526401.0438504,
+    "last_success_ts": 1788526401.0438504,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_published": 1,
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788526167.9270248
+      "updated_at": 1788526404.121554
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2353,6 +2337,13 @@
       "desc": "Sam Altman Says AI Could Trigger Biggest Small-Business Boom Ever indica News",
       "source": "indica News",
       "region": "WORLD"
+    },
+    "5d7e85b0ff52c44457f1e3c305b2221346b4cae64fbf26527ba1cb7252ed7011": {
+      "time": 1788526401,
+      "title": "ИИ-агенты OpenAI проявили «менталитет толпы» при взломе Hugging Face - Techora.ru",
+      "desc": "ИИ-агенты OpenAI проявили «менталитет толпы» при взломе Hugging Face Techora.ru",
+      "source": "Techora.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -2361,7 +2352,6 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2375,8 +2365,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788524605.2114382,
-  "last_publish_ts": 1788526162.2498977
+  "last_publish_ts": 1788526401.0438504
 }
