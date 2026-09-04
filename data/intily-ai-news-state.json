@@ -244,7 +244,8 @@
     "5d7e85b0ff52c44457f1e3c305b2221346b4cae64fbf26527ba1cb7252ed7011": 1788526401,
     "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": 1788526822,
     "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788527599,
-    "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0": 1788527960
+    "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0": 1788527960,
+    "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5": 1788528379
   },
   "known": {
     "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788507323.0378804,
@@ -501,21 +502,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Школьникам Нью-Йорка запретят использовать нейросети на уроках - Дети Mail",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oZVhuaVBYYzdtSEYzbEZjN0pJaGxJWmczUTBHYkJsQ0dSOUlENlZkSUdYWGU5ajJNWnM5VU1rNWZVVnFBdG1Xd3NPNDRHM2VFYXppdTBpeDRZX09iMTZGS0hEclZoTlBkektUd3RONjFyQlN5UUZISktGenEzcnM?oc=5",
-      "desc": "Школьникам Нью-Йорка запретят использовать нейросети на уроках Дети Mail",
-      "source": "Дети Mail",
-      "time": 1788517564.0,
-      "score": 70.5,
-      "russia_weight_bonus": 5.0,
-      "key": "eb8790c8866722143b3e19867429d5fa2362d03f26f6f55f6e58b49c3856bafd",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Российский ИИ хотят внедрить в оборону, школы и выборы - BeInCrypto",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xUzZzU2owcUFobTZpZ0dOQTU1RWpubnFEaUNoWnhqeGpyT0RNemJUQ3FyMmFKallFeVNMcHEwX1BVc2E3UTBxVkdNWVhxeUlkbUp4YlZKTTZHXzJISkZObDFoRmNrWnVHb3N2eS1IUmV4b1pCeUE?oc=5",
       "desc": "Российский ИИ хотят внедрить в оборону, школы и выборы BeInCrypto",
@@ -540,20 +526,6 @@
       "russia_weight_bonus": 4.4,
       "key": "f1587107b735012cd600b307601a0c16fce55d774ecc3a964ba8f9ea34774453",
       "importance": 69.9,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI adoption at US wealth firms lifts productivity without cutting jobs - Wealth Professional",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVlloMlI3a0J6aWNPR1V3QWt1c1hnVWEzZkRpY1plQlp5MS02S0dtcXdDeVFrcW9YN2lzTjREN1h6QlpOZXgxRTVfSDF5clZ6NDRmSm5lS2Jhak9PQWZJdmdvS1B6SEY2dklKNW4zU1NiSFhFV3FneFVxRElGeDd1UGVpZjdpUTdDbVE4UHNFTHJNa2pFYktxOERvRDV3Um40bVlWSXpJTWdtQ0U1RHhlUFV0VGZkeG5EM1FuTEs3RGlSc24wUzBsb1BB?oc=5",
-      "desc": "AI adoption at US wealth firms lifts productivity without cutting jobs Wealth Professional",
-      "source": "Wealth Professional",
-      "time": 1788518704.0,
-      "score": 69.5,
-      "key": "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5",
-      "importance": 69.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -677,23 +649,38 @@
         "applications"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Школьникам Нью-Йорка запретят использовать нейросети на уроках - Дети Mail",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oZVhuaVBYYzdtSEYzbEZjN0pJaGxJWmczUTBHYkJsQ0dSOUlENlZkSUdYWGU5ajJNWnM5VU1rNWZVVnFBdG1Xd3NPNDRHM2VFYXppdTBpeDRZX09iMTZGS0hEclZoTlBkektUd3RONjFyQlN5UUZISktGenEzcnM?oc=5",
+      "desc": "Школьникам Нью-Йорка запретят использовать нейросети на уроках Дети Mail",
+      "source": "Дети Mail",
+      "time": 1788517564.0,
+      "score": 61.0,
+      "russia_weight_bonus": 5.0,
+      "key": "eb8790c8866722143b3e19867429d5fa2362d03f26f6f55f6e58b49c3856bafd",
+      "importance": 61.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788528028.6567705,
+    "last_start_ts": 1788528379.9666896,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788528028.6567705,
-    "last_success_ts": 1788528028.6567705,
+    "last_run_ts": 1788528379.9666896,
+    "last_success_ts": 1788528379.9666896,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788527962.9103909
+      "updated_at": 1788528383.0938237
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -707,13 +694,6 @@
     }
   },
   "stories": {
-    "4cc8b0e431df57408e6ccc8bd1ca52ab790bb88cdc59c4216da89ea474677d17": {
-      "time": 1788441858,
-      "title": "LEAP 2026: CNTXT CEO Abdullah Jarwan on turning AI compute into capability - Gulf Business",
-      "desc": "LEAP 2026: CNTXT CEO Abdullah Jarwan on turning AI compute into capability Gulf Business",
-      "source": "Gulf Business",
-      "region": "WORLD"
-    },
     "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": {
       "time": 1788442220,
       "title": "Автомакон Роботикс запустил сервисную модель роботизации складов - companies.rbc.ru",
@@ -2393,11 +2373,17 @@
       "desc": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. vietnam.vn",
       "source": "vietnam.vn",
       "region": "RUSSIA"
+    },
+    "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5": {
+      "time": 1788528379,
+      "title": "AI adoption at US wealth firms lifts productivity without cutting jobs - Wealth Professional",
+      "desc": "AI adoption at US wealth firms lifts productivity without cutting jobs Wealth Professional",
+      "source": "Wealth Professional",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2415,8 +2401,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788526822.0877657,
-  "last_publish_ts": 1788527960.0188963
+  "last_publish_ts": 1788528379.9666896
 }
