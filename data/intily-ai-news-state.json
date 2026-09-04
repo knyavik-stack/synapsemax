@@ -314,7 +314,8 @@
     "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": 1788549621,
     "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": 1788550101,
     "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": 1788550461,
-    "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": 1788550825
+    "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": 1788550825,
+    "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": 1788551422
   },
   "known": {
     "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": 1788530483.340653,
@@ -468,49 +469,37 @@
     "079470c614a435d5e0b7ea8e7b9ff7504b896b66f3e883d7d637e772ce525aac": 1788549621.7329698,
     "427464c2d896eadaf0b6adb0746de3869c66748ac0632f1b159768fdfedf1102": 1788549621.7329698,
     "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3": 1788549621.7329698,
-    "9ec2e3011c64c90afdfbd07ff35c9ab544469727de91cc7cf0e75ae17e4560d7": 1788549621.7329698
+    "9ec2e3011c64c90afdfbd07ff35c9ab544469727de91cc7cf0e75ae17e4560d7": 1788549621.7329698,
+    "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": 1788551422.751168,
+    "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad": 1788551422.751168,
+    "8a67d99b7b49043fe72889d3cccab53e53abdc35d5a66e843724831f08a779d8": 1788551422.751168
   },
   "queue": [
     {
       "region": "WORLD",
-      "title": "Nvidia acquires leading AI platform - AzerNews",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6OEttVVVPbURoMm9LVFZxYzM3SGlGWkI1NlBjUW55TmlNS0oyZ0E5MWQ0Z0xINThrU1ZQblBubHZjZ3R2Q0hFQnZJV0lGOEVMZEIxTQ?oc=5",
-      "desc": "Nvidia acquires leading AI platform AzerNews",
-      "source": "AzerNews",
-      "time": 1788548400.0,
-      "score": 69.5,
-      "key": "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba",
-      "importance": 69.5,
+      "title": "Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack - Substack",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tMVo5Q21JeWlaZXU2Y2RidElSQmVaT1Y3N3h4MGRNbmhGWkh4UWQ4QlNVbnBNNlF3elQwRGJ3SkZrbzFWRFpkcTl0RlVHR1AtT2lUUmtLakZ1VmJxS1FLVjZyUnNGSjN6emNnTXZoS1JRd0t6ZFh2NFU2STk?oc=5",
+      "desc": "Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack Substack",
+      "source": "Substack",
+      "time": 1788543228.0,
+      "score": 67.5,
+      "key": "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605",
+      "importance": 67.5,
       "editorial_value": 50.0,
       "topics": [
-        "chips",
-        "tools"
+        "models"
       ],
       "tier": "A"
     },
     {
       "region": "WORLD",
-      "title": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts - Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSEEza2pGUXRYMWVBRWplWVFPUnBYdlQ3SzBoYlk3Mi1mZEdZVTN2Vjd1WXlab2MzSXl0cGZpMGh0OGMtRGFRLWxSM0ZkZ2JCR3NIVXRqU3NUYXZmUHJmcmhUVGt5bC1wQkxNbzBLVFVGNFd2TkpyZF9UcW1FY1pFRHdTcUx1TzZtYWVERloxcDc1eldwOGhKaG8tQlR0ZjAtX2RITEZpV01wVEdWUC1EUFlVMVJCZzJBRUVaeldybFY2OTZNZTdobk12SmlsOVVmYUhzRg?oc=5",
-      "desc": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts Tech Times",
-      "source": "Tech Times",
-      "time": 1788547774.0,
+      "title": "How Will AI and Autonomous Supply Chains Transform Logistics by 2030? - BBN Times",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbWloNndnQV9hLXRMTDVFaWFWalQza2x3MktZYzNBZ2o4dUtPeHhEME9rVVlWZ1V5cl9udW5PUlJJTy1TeXktcWVxcGpiaHFuMmdYaGtPUjZITjdEY2NFUHgwZDV2aW5iMkI2QUhZN3J6Y3FQMkhDdDBQcHZlSGpSdUdtNjN3NTItaFdocWNPWjlBLUFIR2hvWTNLX2VPaEk0aXlFcG00UnZGdHRv?oc=5",
+      "desc": "How Will AI and Autonomous Supply Chains Transform Logistics by 2030? BBN Times",
+      "source": "BBN Times",
+      "time": 1788549974.0,
       "score": 66.5,
-      "key": "079470c614a435d5e0b7ea8e7b9ff7504b896b66f3e883d7d637e772ce525aac",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies - moroccoworldnews.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjNBWjRjQWhobS11eUJkY2xTaGFhQTFSRjA1a2pjRmtHZXItVUFIUHlBSmo0WEVFZGRiZnpZNURzOXgzMTc3Y0lsY3FZYTZPMlNyRWlhTFM1aGVLVnlJX1BtZjB1SHQ1V0l0eFdnZFdwd1pSeV9BSmpWeU1hS0lBVklLcGh1S1FVTWJQZm54UFN6YnZiUnpqQ2tzZjRIVW05ZDNQbjhvaDRwMTlaSVkyZkhxRXc1Y1JqTy1EaA?oc=5",
-      "desc": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies moroccoworldnews.com",
-      "source": "moroccoworldnews.com",
-      "time": 1788547718.0,
-      "score": 66.5,
-      "key": "427464c2d896eadaf0b6adb0746de3869c66748ac0632f1b159768fdfedf1102",
+      "key": "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad",
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -552,6 +541,34 @@
     },
     {
       "region": "WORLD",
+      "title": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSEEza2pGUXRYMWVBRWplWVFPUnBYdlQ3SzBoYlk3Mi1mZEdZVTN2Vjd1WXlab2MzSXl0cGZpMGh0OGMtRGFRLWxSM0ZkZ2JCR3NIVXRqU3NUYXZmUHJmcmhUVGt5bC1wQkxNbzBLVFVGNFd2TkpyZF9UcW1FY1pFRHdTcUx1TzZtYWVERloxcDc1eldwOGhKaG8tQlR0ZjAtX2RITEZpV01wVEdWUC1EUFlVMVJCZzJBRUVaeldybFY2OTZNZTdobk12SmlsOVVmYUhzRg?oc=5",
+      "desc": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts Tech Times",
+      "source": "Tech Times",
+      "time": 1788547774.0,
+      "score": 63.5,
+      "key": "079470c614a435d5e0b7ea8e7b9ff7504b896b66f3e883d7d637e772ce525aac",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies - moroccoworldnews.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjNBWjRjQWhobS11eUJkY2xTaGFhQTFSRjA1a2pjRmtHZXItVUFIUHlBSmo0WEVFZGRiZnpZNURzOXgzMTc3Y0lsY3FZYTZPMlNyRWlhTFM1aGVLVnlJX1BtZjB1SHQ1V0l0eFdnZFdwd1pSeV9BSmpWeU1hS0lBVklLcGh1S1FVTWJQZm54UFN6YnZiUnpqQ2tzZjRIVW05ZDNQbjhvaDRwMTlaSVkyZkhxRXc1Y1JqTy1EaA?oc=5",
+      "desc": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies moroccoworldnews.com",
+      "source": "moroccoworldnews.com",
+      "time": 1788547718.0,
+      "score": 63.5,
+      "key": "427464c2d896eadaf0b6adb0746de3869c66748ac0632f1b159768fdfedf1102",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "An atom-and-photon network just found a new way to store AI memories - The Brighter Side of News",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHEtLWc2bFZYVS1uTFVXdE1TSEY5em9sVDdrTEd6bzBGR3BwN2E2Q1FmaXNfNXpJOWhTSU9OQ3Q5Y1dULU9saUtvbnNBZUItdkk5MFRLb2h4emhFMUdtcWctNDI2TXRCby1QZzNTOFlMdHhzZnhkeHFpR3FsZFB5ak9lMGU3cnFYM0xDbTVwTFZRZ3Y2MmRqeWZmckJMTGs0WnphU3p0eG1VTHM?oc=5",
       "desc": "An atom-and-photon network just found a new way to store AI memories The Brighter Side of News",
@@ -589,23 +606,6 @@
       "russia_weight_bonus": 3.7,
       "key": "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3",
       "importance": 62.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "На сессии Открытого диалога обсудили массовое внедрение ИИ-технологий - rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81WHowZ1k1MFlZcXFlbHU2TEFqN3lhcVZTT1czVV9FcDBxQVNYc1d6TEVEQUZWaTlIUUMtRGIzY0RsRDh2Z1dkX2xVaU5sVDVLOEpUb09WLUR3ZnVhNktVZWtwY0w2czZ1UWlz?oc=5",
-      "desc": "На сессии Открытого диалога обсудили массовое внедрение ИИ-технологий rbc.ru",
-      "source": "rbc.ru",
-      "time": 1788507900.0,
-      "score": 62.4,
-      "russia_weight_bonus": 3.4,
-      "key": "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3",
-      "importance": 62.4,
       "editorial_value": 50.0,
       "topics": [
         "business"
@@ -666,6 +666,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Samsung SDS строит глобальный альянс физического ИИ: роботы приходят на заводы и верфи - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY2dSVVoyMHEzR3NPSV92aU5iVWhjX0lKMkRaRkNkUmpmY2dqTjV5VTNSTFE1WWdEZW1lR09XampyMmFkYWt5YjZYU2EyZHo4YjM5S1ZXSjRMUkN3RUtBdWx2aG4zTXJHTy1rcTM3dGlpM2lrWG9obVdBSnlNUXV1bG1tSDg0Zzl3RThvNWNxRlZoRlFyLTU2ZEstZng1MEN0NFZoUmxmNDdaaHgzLWM4aU5yV29jaDJVSXdva0psem8zN1dDYzhv?oc=5",
+      "desc": "Samsung SDS строит глобальный альянс физического ИИ: роботы приходят на заводы и верфи prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788514328.0,
+      "score": 60.8,
+      "russia_weight_bonus": 4.8,
+      "key": "8a67d99b7b49043fe72889d3cccab53e53abdc35d5a66e843724831f08a779d8",
+      "importance": 60.8,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2twcWNCWjc3MmNfRG9aUDB2anhneExlRTVhRkdzOGJzaF9vZUxyc1V3VFlxaTRyZW5lSmxyNExOMzBsYWN4S2xydTBMQWlFby1BeWhkdTlQSXdJTWFTZjFlUXlYMHZBTEQteWxEVWpXbUdZTFdtbFg0UHdHem5vdDRQVmwtVk5VbEJzaEI1MjZORmVVRW93a192czJ6SG4td2Nob0xNYXJaS3BaSlByV0Q5SlAxY0tGcWRRTHVZSi1taFZtSXkyYmloZzJISmJxMVU0?oc=5",
       "desc": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого prospect.com.ru",
@@ -698,20 +715,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788550943.4960816,
+    "last_start_ts": 1788551422.751168,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788550943.4960816,
-    "last_success_ts": 1788550943.4960816,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_run_ts": 1788551422.751168,
+    "last_success_ts": 1788551422.751168,
+    "last_candidates": 90,
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788550827.697073
+      "updated_at": 1788551449.4239166
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -725,13 +742,6 @@
     }
   },
   "stories": {
-    "ce3b396c32bfeaa77a079199697470add24d7d92fb772fc17454933c2dd2d7ef": {
-      "time": 1788464710,
-      "title": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed? - 24/7 Wall St.",
-      "desc": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed? 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "region": "WORLD"
-    },
     "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": {
       "time": 1788465071,
       "title": "As Big Tech Builds Its Own AI Chips, Nvidia Makes a $3.5 Billion Bet on Taiwan - Vision Times",
@@ -2341,10 +2351,16 @@
       "desc": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России Национальная Служба Новостей",
       "source": "Национальная Служба Новостей",
       "region": "RUSSIA"
+    },
+    "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": {
+      "time": 1788551422,
+      "title": "Nvidia acquires leading AI platform - AzerNews",
+      "desc": "Nvidia acquires leading AI platform AzerNews",
+      "source": "AzerNews",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "RUSSIA",
@@ -2363,8 +2379,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788549621.7329698,
-  "last_publish_ts": 1788550825.2810774
+  "last_search_ts": 1788551422.751168,
+  "last_publish_ts": 1788551422.751168
 }
