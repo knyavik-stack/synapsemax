@@ -241,7 +241,8 @@
     "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": 1788525561,
     "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9": 1788525800,
     "32e289a738a06bfbcbb144986e3d73ba81f94cd5ce66da64ec5b0efdca536589": 1788526162,
-    "5d7e85b0ff52c44457f1e3c305b2221346b4cae64fbf26527ba1cb7252ed7011": 1788526401
+    "5d7e85b0ff52c44457f1e3c305b2221346b4cae64fbf26527ba1cb7252ed7011": 1788526401,
+    "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": 1788526822
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -417,20 +418,40 @@
     "504257a5795cba01907ea204589e97b403e285e5b05cba28146a19e736dfd0f5": 1788524605.2114382,
     "127f10e486fe6631c7538ceaf75be33fbdedd2f69183239ff1678e5bf1810d78": 1788524605.2114382,
     "c691281ccb9afca1b75f6bf580c003ebfa3f3d20ac2e0acb5de631860ed993bd": 1788524605.2114382,
-    "8c5ea0652c14850256c7a04bdb922c7793abc3aae8d181e6c40c922d9824c1fd": 1788524605.2114382
+    "8c5ea0652c14850256c7a04bdb922c7793abc3aae8d181e6c40c922d9824c1fd": 1788524605.2114382,
+    "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788526822.0877657,
+    "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": 1788526822.0877657,
+    "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f": 1788526822.0877657,
+    "0b4ad9982e2a74a07abed730de4e9dd57157550ffa56e65c92a949f0407cbf5d": 1788526822.0877657,
+    "d37140d645a5bf884cc2dee612003c3cf218fcc175090217f175f568664a61ea": 1788526822.0877657,
+    "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": 1788526822.0877657,
+    "3b82a1ff1d8306c30c1509f2691d47e3828249e670df1d22d692ee75f1aec6e2": 1788526822.0877657,
+    "9d53d3d2d6bb0eddb8a00dab95a033d89077f872422c0cdfb4678da2f155e48f": 1788526822.0877657,
+    "74d7b560fdfc0d104edfb27514aa1fff324885e83f13a05549c74d94ff465354": 1788526822.0877657,
+    "6579d4c2b3bf0a02afcfad3b1b27f265f1abed1486373f230d54fa5a821f9091": 1788526822.0877657,
+    "aca52fd14a36de4ad5a70a5f4504fecae7a07d3925190405815c257f766e9b52": 1788526822.0877657,
+    "1975b2e2d6dffedd2db28707939946bc295ebc9869db00562f8fe8152818bc65": 1788526822.0877657,
+    "f9eae7ebafe2e4cd9ddc0c96ca81e056d45616d4f829bfa4c7d7deae4da326f7": 1788526822.0877657,
+    "a54b31f8cd9105c8ccd13f3ce583db525b8661ff7568e764bf54d44caef95977": 1788526822.0877657,
+    "f6adf34dd68cba6096ca32215b0654798fe0a2fa9e402f80cd549e2d2f8e87f2": 1788526822.0877657,
+    "5b9203d278f32cfd3b2b8a5ba30d1c6b57fe768c9faf449caa09a87082c672a3": 1788526822.0877657,
+    "7db70f1fda92f4dc838f926adb348c504421df2da00f05f2320044fd3bb3899d": 1788526822.0877657,
+    "dbb2889c0e7a943b25b02cc267ba0669c61853ca655b71e98d4a53c7fa0112b6": 1788526822.0877657,
+    "62177a87621eab9ca71a241d2964b7ef5f0805ae37635cb33d2c4166da3e4952": 1788526822.0877657,
+    "cfb4913c4d4e3882dd1308d03b856760de06795398240de717c286f19452c3dc": 1788526822.0877657
   },
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters - theins.ru",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1qUTFXVW1BVG1jeExMYTBGTkM0VHFtYWNkQWhfVTdtR2pYS3FMQVVmVzE4TlhaeU56aGd0bERYTUtTVlU?oc=5",
-      "desc": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters theins.ru",
-      "source": "theins.ru",
-      "time": 1788523233.0,
-      "score": 75.6,
-      "russia_weight_bonus": 3.1,
-      "key": "f11555b558f47a11304bb8b9357b6b61639bf48eac5b3eb7ed8de1240453815e",
-      "importance": 75.6,
+      "title": "Сбер внедрил более 1000 ИИ-агентов для рабочих задач - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNVRjOUROYUsxNVNQRHFpSTc2RHZOWkpOaE5MNDRtMnlmZnprcmpoU194Zkd0TGpXUFY3TGpWNElQRE9EWGEyNGpST1RtSjNmNVVzSGlidDNXa204SWNzOTlPbFFfNTVhcE1VdjdpVWhNRjFMTHpzeDRnbWNBN0xqWWFvTFczSktoUHdPTXFsQkdDbFVHcFNfUDhzQzk?oc=5",
+      "desc": "Сбер внедрил более 1000 ИИ-агентов для рабочих задач prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788525163.0,
+      "score": 77.0,
+      "russia_weight_bonus": 4.5,
+      "key": "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08",
+      "importance": 77.0,
       "editorial_value": 50.0,
       "topics": [
         "agents"
@@ -456,6 +477,36 @@
     },
     {
       "region": "RUSSIA",
+      "title": "ИИ не заменит врачей в России - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9SUHJRRl9wUjJUeEFpNV9sY29SenQxTGFGUVJGMzlKRElqRVJjU1l6WjlwVVY4TjBGZUJldjB4NDllRzE3S2VBMFM2OVlQV0JicjhfZlM4REE4bFJnY2NxMldHQU1KZDZHeUc5bmhqN09jbWtHOTl1Zk01VFM?oc=5",
+      "desc": "ИИ не заменит врачей в России prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788525167.0,
+      "score": 73.4,
+      "russia_weight_bonus": 4.9,
+      "key": "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de",
+      "importance": 73.4,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Российский ИИ хотят внедрить в оборону, школы и выборы - BeInCrypto",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xUzZzU2owcUFobTZpZ0dOQTU1RWpubnFEaUNoWnhqeGpyT0RNemJUQ3FyMmFKallFeVNMcHEwX1BVc2E3UTBxVkdNWVhxeUlkbUp4YlZKTTZHXzJISkZObDFoRmNrWnVHb3N2eS1IUmV4b1pCeUE?oc=5",
+      "desc": "Российский ИИ хотят внедрить в оборону, школы и выборы BeInCrypto",
+      "source": "BeInCrypto",
+      "time": 1788524400.0,
+      "score": 73.3,
+      "russia_weight_bonus": 4.8,
+      "key": "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f",
+      "importance": 73.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге - kommersant.ru",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBLVnN4ZkpGYTRuRkIzWXUwNWJXNnpWbHVGR0ZhRW1XVzh3eXlsOHE2SUphenhDaHNQcXlxZFhYMDdHSFdVc3pZcTU1QXJWdw?oc=5",
       "desc": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге kommersant.ru",
@@ -469,6 +520,55 @@
       "topics": [
         "robotics"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину - Твоя Свободная трибуна",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3AwdFl5MnFHYnBqVHMyMmpFOG1Kd1BzdXRjSGswM0NOQXN1blg3U2kyY2FhU3NHdWx0Y1R1SzdrbWlFRG5CTTlyNGtKZk9UQUVERlYtTGhiRVl6Tzd5cENRQTd2WVNsUDcxRkx3Ty1KbzJFWEd6RVRfTVRVR0ZSLXdYVjA5S1hjV1hHM3dKSlRqclFiSGg5bWVOZVFqN0xqUWh3VjVqRU5YMXJBdm83WjVpVXI4dw?oc=5",
+      "desc": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину Твоя Свободная трибуна",
+      "source": "Твоя Свободная трибуна",
+      "time": 1788517016.0,
+      "score": 72.7,
+      "russia_weight_bonus": 4.2,
+      "key": "0b4ad9982e2a74a07abed730de4e9dd57157550ffa56e65c92a949f0407cbf5d",
+      "importance": 72.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters - theins.ru",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1qUTFXVW1BVG1jeExMYTBGTkM0VHFtYWNkQWhfVTdtR2pYS3FMQVVmVzE4TlhaeU56aGd0bERYTUtTVlU?oc=5",
+      "desc": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters theins.ru",
+      "source": "theins.ru",
+      "time": 1788523233.0,
+      "score": 72.6,
+      "russia_weight_bonus": 3.1,
+      "key": "f11555b558f47a11304bb8b9357b6b61639bf48eac5b3eb7ed8de1240453815e",
+      "importance": 72.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В России внедрили ИИ для оценки результатов КТ, рентгена и маммографии - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa21tdnJ3LUxaYlduY19SUkZCSU5kZVMxMDg0aS1tdWRRRHdGU1p3dUhPWVNMWTZ5ZHNjTEVVMFEtTXBseHhMMTZBZTkzMzdsdVU3YzBaTWVQRXJXaGpWWnJjX3ZCNUMxS3lSa1RQODE1SnRzVEFkWnFLUWgtRW1hYTM3ME9sNmdNMEl1YnBnYW9yM3VnaGhibzBmV3BXeUt6SmJvdV9JYk96ckk3Szd0UDdn?oc=5",
+      "desc": "В России внедрили ИИ для оценки результатов КТ, рентгена и маммографии prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788525201.0,
+      "score": 72.5,
+      "russia_weight_bonus": 4.0,
+      "key": "d37140d645a5bf884cc2dee612003c3cf218fcc175090217f175f568664a61ea",
+      "importance": 72.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -488,21 +588,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Кто виноват и что делать? Запад в тупике из-за преступлений, совершённых при помощи ИИ - Life.ru",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVdqbnRKSklZNF9rR1VyS1dtNWJFbVkybGREcjJ3YV9NYkYzNWk4dkJrY3AwQ29SZWZDRFNNb292MkJyWVZ0b0dNQnR4Qk1tRHZGTE9ud0JvNURpaEFKaVRhNzZlUjZCN3RuZkdETHJvVHhHNVhSd3VKZTF1Mm9MQnJPcWpMSGtSV2U4ZnFHdkdrOWFQLV83cw?oc=5",
-      "desc": "Кто виноват и что делать? Запад в тупике из-за преступлений, совершённых при помощи ИИ Life.ru",
-      "source": "Life.ru",
-      "time": 1788522940.0,
-      "score": 70.7,
-      "russia_weight_bonus": 2.2,
-      "key": "466320411a5c3506e50c598e0a76a6305144080befaadc9c4d9b830660c4ffcb",
-      "importance": 70.7,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Школьникам Нью-Йорка запретят использовать нейросети на уроках - Дети Mail",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oZVhuaVBYYzdtSEYzbEZjN0pJaGxJWmczUTBHYkJsQ0dSOUlENlZkSUdYWGU5ajJNWnM5VU1rNWZVVnFBdG1Xd3NPNDRHM2VFYXppdTBpeDRZX09iMTZGS0hEclZoTlBkektUd3RONjFyQlN5UUZISktGenEzcnM?oc=5",
       "desc": "Школьникам Нью-Йорка запретят использовать нейросети на уроках Дети Mail",
@@ -511,21 +596,6 @@
       "score": 70.5,
       "russia_weight_bonus": 5.0,
       "key": "eb8790c8866722143b3e19867429d5fa2362d03f26f6f55f6e58b49c3856bafd",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Советник Зеленского признал отставание Украины в технологиях ИИ для дронов – ОСН - Общественная служба новостей",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRUI4d09qYU0zOGc5UkZpaGp0NTRlVUJVcnhPNVdEX1FnVmxTTUxDaGtjTTFJeUtMWlBRMllEckxQa084dHBoV2J3N2luanBJc2RpREttSHdISHJtd3BIU0FheGthZk1xMUN3T241LU9PYjhYcDhCaGF4VmlfUGxKQk50d0NVYWNNbkN6THpZRDdtckJDcHltTG5oZUxLa3hWTEJtLWZ5SHh6c1MzN1cyRkVtSzM?oc=5",
-      "desc": "Советник Зеленского признал отставание Украины в технологиях ИИ для дронов – ОСН Общественная служба новостей",
-      "source": "Общественная служба новостей",
-      "time": 1788515953.0,
-      "score": 70.5,
-      "russia_weight_bonus": 5.0,
-      "key": "2b1b9530fa6e3314debc38c60eeeb72d3e8391d3052bddd74db9638d61a03012",
       "importance": 70.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -548,22 +618,6 @@
     },
     {
       "region": "WORLD",
-      "title": "AI reshapes non-tech GCC jobs as routine roles see sharp declines: Report - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcVRlOW0yTzdwcXRNbzJVUlc1bEZJZ3lORkhpU2ZFSU01c1BVNmtSUms3SlhNNFF3S1RNSnVKeGJDRXQ5MDFXTDFGODlaLUVSbWNtZklXTHZXc2QxbElkVll1RlBYWGRkOHpkMmxsY3RmS1p1M0NJRTdtZlN3dHlYUUw1RjBZcTBIQVFqQlZpRS1TalBuXzN0N3kzSEwtNFR0czJjemNwdjNaVWhlTEJFWFZySzNEZmZZWHpaQ1RHcjBVZVFXeTBobjRoQ2hqOVhaOHdwN0pSc2pCM3M3eWUwSDdOZ3hwNE1qbzlybkU1X0tKUHPSAfgBQVVfeXFMUFQwM2J6X0JfeGRDT0RUSWhJMzNHRWtZUFBiR0RFcWxPZHA2SzJiOTNydXZVdUEtbFJLdWtFdzlUSU5UME1sQk9lZ0F4YUdKbnFtakdxelp3VWczR2JlaUVaVmxESE1Tb3c0WTctYmR0OVM4S3JUVFZ4OUNfdmZmcnZPV2lYNm9QMUY5WmxsZkhIdFF0bW1tRF9EdmRpYURTcFJ6TzVXR2UtaEpaUUFmQ0tmYXVsd01iR1A3OUl6TEU1amZWaEdLUjd5UC1JNTVHLWNMSzNfTU5SaHJFaTRKdjRSV1ZjWVBMamVxMzVYeFFVMF9remFCaS0?oc=5",
-      "desc": "AI reshapes non-tech GCC jobs as routine roles see sharp declines: Report Business Standard",
-      "source": "Business Standard",
-      "time": 1788523040.0,
-      "score": 69.5,
-      "key": "c7c57266dab412a2e6faaba7200b89694706bce75d01a22b06a1955a9def983a",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "AI adoption at US wealth firms lifts productivity without cutting jobs - Wealth Professional",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVlloMlI3a0J6aWNPR1V3QWt1c1hnVWEzZkRpY1plQlp5MS02S0dtcXdDeVFrcW9YN2lzTjREN1h6QlpOZXgxRTVfSDF5clZ6NDRmSm5lS2Jhak9PQWZJdmdvS1B6SEY2dklKNW4zU1NiSFhFV3FneFVxRElGeDd1UGVpZjdpUTdDbVE4UHNFTHJNa2pFYktxOERvRDV3Um40bVlWSXpJTWdtQ0U1RHhlUFV0VGZkeG5EM1FuTEs3RGlSc24wUzBsb1BB?oc=5",
       "desc": "AI adoption at US wealth firms lifts productivity without cutting jobs Wealth Professional",
@@ -572,6 +626,21 @@
       "score": 69.5,
       "key": "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5",
       "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Кто виноват и что делать? Запад в тупике из-за преступлений, совершённых при помощи ИИ - Life.ru",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVdqbnRKSklZNF9rR1VyS1dtNWJFbVkybGREcjJ3YV9NYkYzNWk4dkJrY3AwQ29SZWZDRFNNb292MkJyWVZ0b0dNQnR4Qk1tRHZGTE9ud0JvNURpaEFKaVRhNzZlUjZCN3RuZkdETHJvVHhHNVhSd3VKZTF1Mm9MQnJPcWpMSGtSV2U4ZnFHdkdrOWFQLV83cw?oc=5",
+      "desc": "Кто виноват и что делать? Запад в тупике из-за преступлений, совершённых при помощи ИИ Life.ru",
+      "source": "Life.ru",
+      "time": 1788522940.0,
+      "score": 67.7,
+      "russia_weight_bonus": 2.2,
+      "key": "466320411a5c3506e50c598e0a76a6305144080befaadc9c4d9b830660c4ffcb",
+      "importance": 67.7,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -594,50 +663,92 @@
     },
     {
       "region": "WORLD",
-      "title": "Anthropic Launches Fable 5.1, Its Most Capable AI Yet - Digital Pakistan",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTHl1WmdoS2hpeUZ0MHc4eHJHREtjRWJzSEZybFoxNUJVVWxoWXJLUGRDUVZrMEdmMV9uSDdXbXpQTzhfc0VpSVlwN3F5SnNJZVJ5czlPTGpkb2l1ODBwSDF4UkpHRzA0LXdJQTN0Mk9Yb0t1RXBjSnBqWWI5Y0JlY2J3TEFpTVE?oc=5",
-      "desc": "Anthropic Launches Fable 5.1, Its Most Capable AI Yet Digital Pakistan",
-      "source": "Digital Pakistan",
-      "time": 1788516050.0,
-      "score": 67.5,
-      "key": "630bb90804a34bde4eb55afc29c7b4dd6af8867baaa796133b03f27ad8e59633",
-      "importance": 67.5,
+      "title": "'Find church-going Christians in Janesville, Wisconsin': AI Built a Detailed Dossier on a Stranger Using Data Anyone Can Buy - All About Cookies",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PMkVWQ3BWNzZGWnlFZWFNbzVWRVVUZmhoRUpKTTVYallpeDFPMDR6aHRxd1RfVVFUSlNLZU1uMnNUaWZJamZodE0tTVpuR2JwQU1OWTlIVjdUdmR1dnNZVW1iYzg2NlJCWmc?oc=5",
+      "desc": "'Find church-going Christians in Janesville, Wisconsin': AI Built a Detailed Dossier on a Stranger Using Data Anyone Can Buy All About Cookies",
+      "source": "All About Cookies",
+      "time": 1788526320.0,
+      "score": 66.5,
+      "key": "3b82a1ff1d8306c30c1509f2691d47e3828249e670df1d22d692ee75f1aec6e2",
+      "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
     },
     {
       "region": "WORLD",
-      "title": "Google’s WeatherNext 3 high res weather models deliver hourly forecasts in Search, Maps, Gemini - tech au",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTzNwNXQ0VmNMYlVEQUhCeUtNUlIwcldfR3NvMXRuTk9CemFndTFzNTRvbFFrczJfbWZSQzZmTDNVa29GZFhWZFVIeWNoYWZKZ0JEVFhSbEtqeHVneDdjVk1LYUpobEpaNWxmbXBtb3BwY2k3Wi16SmxSYmx4WWItNHhhSVg0QnJuMXZScUM5T2xJNk9mMW1qRTFEb3ZYbC1ZbW91UG4za1VMQURRdGF2c2EyNTNXdw?oc=5",
-      "desc": "Google’s WeatherNext 3 high res weather models deliver hourly forecasts in Search, Maps, Gemini tech au",
-      "source": "tech au",
-      "time": 1788515597.0,
-      "score": 60.0,
-      "key": "09d45178eb497aecf63a3afe26de032f8133a23c804d2aa5e4204586d479382c",
-      "importance": 60.0,
+      "title": "George Clooney issues chilling AI warning as deepfakes threaten to blur fact and fiction - The Express Tribune",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRGVMYjdpSFYyeWhkemRHS05wWHdzLTFhUnlyUEw1ODdtR24tNXBiYm1WdjhxMUx5RjdROUpiVF84bzQ0NjFKSzk0SjNjTC1MUHNoQmtsRXJ2RTFDakllck9NNHJEUDduQ0lFdVAwX2pnRFVORmFJb2NGb1Jka21WSTlpT1VFOW1vVTJyZ1UxOUs1YkdzWlBpbEwxa2otNWs2YXFLMmJMR2ZEb3FIQUFIQUhuT3R4M0RLQnhtZG56ZlJZTFXSAcsBQVVfeXFMTXd5b19oODFvdng1UWM2cUFadzZSbVFJbDRQMWZwRm12b2RkZXBqM2FqQmJFTDBqaVVFbWdYWlNCZXpLT1A0emFJdXJDTk5QUFhrQU1DVnpqc3l2TmlGNDMwZ3BxZ3Z2Ukh4WTVxbzJ0VGZ0NWJhNnVlLUlnbm9GMWxxS1o0VzNBUUx1Rmk1VDJGQW9qcmk3MUpTblc2LUFCYmVDVWoxUVA0NnV2cUFIN2Jva3ZHRXppQmQzWjBjajQyNHZIRW1CWTM0YW8?oc=5",
+      "desc": "George Clooney issues chilling AI warning as deepfakes threaten to blur fact and fiction The Express Tribune",
+      "source": "The Express Tribune",
+      "time": 1788525812.0,
+      "score": 66.5,
+      "key": "9d53d3d2d6bb0eddb8a00dab95a033d89077f872422c0cdfb4678da2f155e48f",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "As the China-US AI race reaches Cairo, Egypt faces a strategic decision - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGNHNE9YLWhaMGFDT1VmT21wX2hGX2psTFBSSlVTWUY1aXlTenlDU0xYelEzTzE5b01nemtIN3Y2OURJUGpCTWFlTGVNS3JfS3JGQUl6OXZOLWVsdGFvcmRJUW5GekRPQTBaSGNfMzl5RXNKX256WjBzb0FEU0lfSEFEQmFoN0pYWFJmYkFDZEt6RFFHQXR5QjNnb0RnbDFGZXduT0N0UjlLR1ZZWm040gG0AUFVX3lxTFBGWWxicUFHOFd5QjJ3LTR1bVFiV2JtMWV3Ny1fQWp0U216eHQ1TExYM1pWWERUVnNxbWFqSWJEQVh3S0VFRUFsaFJRTml0TzZ2eXo5VkdDbGRhUlFSdEVnaHhOZDBhZXFtTWlTcU5Sbm5jTlFIYTNmXzR2enBQTVdhenhqaHVDcnhrbF9GRWtEWnBFTFp5MHVZSVR1aHlIQzAzTWJNT1lTZVZYNmNGelExZWdXSg?oc=5",
+      "desc": "As the China-US AI race reaches Cairo, Egypt faces a strategic decision Al Jazeera",
+      "source": "Al Jazeera",
+      "time": 1788525639.0,
+      "score": 66.5,
+      "key": "74d7b560fdfc0d104edfb27514aa1fff324885e83f13a05549c74d94ff465354",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "ABC Fitness Acquires FitMetrics, Expanding AI Push Into Coaching - Athletech News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXlFTk00SnpIMnkwb2VNWTFVd3hDSElEaEMtdi1idTJNX3RwcEJwd3QtenJuRGJPM3AxLUlINmtzRlROV1lPMjliSmQ2bDFyT2NmR3lGaE85TVRvT1NXOUx5RE02djE2ZG10T05IMXNURkhrNDRoUGN1cjRyT1VQLUlWZ2JHNUhfVEIxazNBQzF4Y3dG?oc=5",
+      "desc": "ABC Fitness Acquires FitMetrics, Expanding AI Push Into Coaching Athletech News",
+      "source": "Athletech News",
+      "time": 1788525297.0,
+      "score": 66.5,
+      "key": "6579d4c2b3bf0a02afcfad3b1b27f265f1abed1486373f230d54fa5a821f9091",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI reshapes non-tech GCC jobs as routine roles see sharp declines: Report - Business Standard",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcVRlOW0yTzdwcXRNbzJVUlc1bEZJZ3lORkhpU2ZFSU01c1BVNmtSUms3SlhNNFF3S1RNSnVKeGJDRXQ5MDFXTDFGODlaLUVSbWNtZklXTHZXc2QxbElkVll1RlBYWGRkOHpkMmxsY3RmS1p1M0NJRTdtZlN3dHlYUUw1RjBZcTBIQVFqQlZpRS1TalBuXzN0N3kzSEwtNFR0czJjemNwdjNaVWhlTEJFWFZySzNEZmZZWHpaQ1RHcjBVZVFXeTBobjRoQ2hqOVhaOHdwN0pSc2pCM3M3eWUwSDdOZ3hwNE1qbzlybkU1X0tKUHPSAfgBQVVfeXFMUFQwM2J6X0JfeGRDT0RUSWhJMzNHRWtZUFBiR0RFcWxPZHA2SzJiOTNydXZVdUEtbFJLdWtFdzlUSU5UME1sQk9lZ0F4YUdKbnFtakdxelp3VWczR2JlaUVaVmxESE1Tb3c0WTctYmR0OVM4S3JUVFZ4OUNfdmZmcnZPV2lYNm9QMUY5WmxsZkhIdFF0bW1tRF9EdmRpYURTcFJ6TzVXR2UtaEpaUUFmQ0tmYXVsd01iR1A3OUl6TEU1amZWaEdLUjd5UC1JNTVHLWNMSzNfTU5SaHJFaTRKdjRSV1ZjWVBMamVxMzVYeFFVMF9remFCaS0?oc=5",
+      "desc": "AI reshapes non-tech GCC jobs as routine roles see sharp declines: Report Business Standard",
+      "source": "Business Standard",
+      "time": 1788523040.0,
+      "score": 66.5,
+      "key": "c7c57266dab412a2e6faaba7200b89694706bce75d01a22b06a1955a9def983a",
+      "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [
-        "models"
+        "business"
       ],
       "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788526401.0438504,
+    "last_start_ts": 1788526822.0877657,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788526401.0438504,
-    "last_success_ts": 1788526401.0438504,
-    "last_candidates": 0,
+    "last_run_ts": 1788526822.0877657,
+    "last_success_ts": 1788526822.0877657,
+    "last_candidates": 120,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788526404.121554
+      "updated_at": 1788526863.6764154
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2344,6 +2455,13 @@
       "desc": "ИИ-агенты OpenAI проявили «менталитет толпы» при взломе Hugging Face Techora.ru",
       "source": "Techora.ru",
       "region": "RUSSIA"
+    },
+    "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": {
+      "time": 1788526822,
+      "title": "US Tech Giants’ AI Boom Drives $223 Billion Bond Surge, Raising Inflation Concerns - Free Press Journal",
+      "desc": "US Tech Giants’ AI Boom Drives $223 Billion Bond Surge, Raising Inflation Concerns Free Press Journal",
+      "source": "Free Press Journal",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -2351,7 +2469,6 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2366,8 +2483,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788524605.2114382,
-  "last_publish_ts": 1788526401.0438504
+  "last_search_ts": 1788526822.0877657,
+  "last_publish_ts": 1788526822.0877657
 }
