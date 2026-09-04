@@ -178,7 +178,8 @@
     "67556d08be870b8c71623c41701d28db2500ff38087cc1faf41be2bf3c643c12": 1788496374,
     "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6": 1788496854,
     "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156,
-    "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547
+    "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547,
+    "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788497907
   },
   "known": {
     "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27": 1788476993.1452017,
@@ -249,42 +250,22 @@
     "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156.5978644,
     "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547.516139
   },
-  "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUm5reVdteHFBdF94NTYzZkVETWZXZjh3cTVNTTF6YU5sMXhQZ2dSYnhTSThiU1VBcXpnaWZuMzRteXdTUVg1WjZFV24wOEprUjVNNzlhanIteUpJTmxLTjQ3ai1GRFBNeFBfX09FZ0pIbkNtM1U5MWRPVDkxcG4zVFlOQUVzYlo4MWtWRWlEWGtudnVfOEMxU1hCdUE4WVRsTDg2b1JYcl9pVWR0X3c?oc=5",
-      "desc": "Россиян могут уволить из-за загрузки рабочих документов в нейросети prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788489137.0,
-      "score": 65.9,
-      "russia_weight_bonus": 1.4,
-      "key": "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad",
-      "importance": 65.9,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788497813,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 1,
-      "next_retry_at": 1788498113
-    }
-  ],
+  "queue": [],
   "health": {
-    "last_start_ts": 1788497813.8699102,
+    "last_start_ts": 1788497907.253651,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788497813.8699102,
-    "last_success_ts": 1788497813.8699102,
-    "last_candidates": 47,
-    "last_published": 0,
-    "queue_size": 1
+    "last_run_ts": 1788497907.253651,
+    "last_success_ts": 1788497907.253651,
+    "last_candidates": 48,
+    "last_published": 1,
+    "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788497625.1713521
+      "updated_at": 1788497930.533952
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1550,11 +1531,17 @@
       "desc": "Дайджест ИИ: Сделка Nvidia и Hugging Face на $13 млрд, защита от вышедших из-под контроля агентов от Abnormal и OpenAI, кризис SEO и ИИ в Wealth Management VC.ru",
       "source": "VC.ru",
       "region": "RUSSIA"
+    },
+    "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": {
+      "time": 1788497907,
+      "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
+      "desc": "Россиян могут уволить из-за загрузки рабочих документов в нейросети prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1572,8 +1559,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788497813.8699102,
-  "last_publish_ts": 1788497547.516139
+  "last_search_ts": 1788497907.253651,
+  "last_publish_ts": 1788497907.253651
 }
