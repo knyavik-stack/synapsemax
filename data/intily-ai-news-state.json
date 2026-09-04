@@ -478,21 +478,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину - Korrespondent.net",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeUE0dnN2ejQtbjNneG5BYmNjSjdOLVpmdjI3RzR2Mk5GZ194RlJHNUpQaU01aEdJYXJKbjNrZXFLV2dGdkFqcjJZdkE1RnN0eE9wLTdiLV9MUUxIMkVxS1c5blRqS280ZElxMUpjVkpmUUQ4MndleGNkR2R5MEE5QjE2UzVnRmFZbDRpSENmcUxPdzAyWGI5ekZhUFUxaVZ6NWfSAZwBQVVfeXFMUC1VaFZqMlFZS3FmZjdmSkxpUTZuWG1jZ1BETUhmUlhOdlNaVWs5Y2RhbE9BcVc2WjRKWHAyOXh6YU9HZ2hoUy1aLXFQU3I3dmFxUWxPeTVWb0VQODZRakFlZWhSeDlqbE5iNzE2VjFKVjVRQndNRnlpcHdwTnlFY1FfbFpkbGdhYXZEVnFJWVB0Nnpib1F1R2FPYVhi?oc=5",
-      "desc": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину Korrespondent.net",
-      "source": "Korrespondent.net",
-      "time": 1788534240.0,
-      "score": 71.8,
-      "russia_weight_bonus": 3.3,
-      "key": "9f0cd75655e15f8907a0d657ffa098e258a1501b643b428a16beea4c814ba67b",
-      "importance": 71.8,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами - CNews.ru",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XcUxCWDFFUlUtUEhFbDJ3UlU3emF0NU9TRHlmVXFReXlRUjhMazQ2Vzh0elRzWDlLUnkwTG0xWjVwYWs2Tl9nc1I0SVJvWXk4dDcyVmdGVlhDTjhubW5DLU9iT1NUUHdZeGRPMk5WbERjWXJWeE80?oc=5",
       "desc": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами CNews.ru",
@@ -506,6 +491,21 @@
       "topics": [
         "models"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину - Korrespondent.net",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeUE0dnN2ejQtbjNneG5BYmNjSjdOLVpmdjI3RzR2Mk5GZ194RlJHNUpQaU01aEdJYXJKbjNrZXFLV2dGdkFqcjJZdkE1RnN0eE9wLTdiLV9MUUxIMkVxS1c5blRqS280ZElxMUpjVkpmUUQ4MndleGNkR2R5MEE5QjE2UzVnRmFZbDRpSENmcUxPdzAyWGI5ekZhUFUxaVZ6NWfSAZwBQVVfeXFMUC1VaFZqMlFZS3FmZjdmSkxpUTZuWG1jZ1BETUhmUlhOdlNaVWs5Y2RhbE9BcVc2WjRKWHAyOXh6YU9HZ2hoUy1aLXFQU3I3dmFxUWxPeTVWb0VQODZRakFlZWhSeDlqbE5iNzE2VjFKVjVRQndNRnlpcHdwTnlFY1FfbFpkbGdhYXZEVnFJWVB0Nnpib1F1R2FPYVhi?oc=5",
+      "desc": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину Korrespondent.net",
+      "source": "Korrespondent.net",
+      "time": 1788534240.0,
+      "score": 68.8,
+      "russia_weight_bonus": 3.3,
+      "key": "9f0cd75655e15f8907a0d657ffa098e258a1501b643b428a16beea4c814ba67b",
+      "importance": 68.8,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -720,11 +720,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788537801.0294228,
+    "last_start_ts": 1788537861.1393251,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788537801.0294228,
-    "last_success_ts": 1788537801.0294228,
+    "last_run_ts": 1788537861.1393251,
+    "last_success_ts": 1788537861.1393251,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 16
