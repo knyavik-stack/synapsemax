@@ -463,9 +463,144 @@
     "9ec2e3011c64c90afdfbd07ff35c9ab544469727de91cc7cf0e75ae17e4560d7": 1788549621.7329698,
     "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": 1788551422.751168,
     "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad": 1788551422.751168,
-    "8a67d99b7b49043fe72889d3cccab53e53abdc35d5a66e843724831f08a779d8": 1788551422.751168
+    "8a67d99b7b49043fe72889d3cccab53e53abdc35d5a66e843724831f08a779d8": 1788551422.751168,
+    "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": 1788553285.8830574,
+    "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635": 1788553285.8830574,
+    "199606eef8582172d1e0b3dbf5a8053215387134932fa244e519a1676a5abb3c": 1788553285.8830574,
+    "3aa25e19eaee63047048e09e88965256851aa4c3ad4ff386d2298b17d511bf57": 1788553285.8830574,
+    "58d01e10ebec3f1da3abc748f4cc05fb04db8a94b7b3a42c77dc343c06534951": 1788553285.8830574,
+    "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": 1788553285.8830574,
+    "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81": 1788553285.8830574,
+    "ba5af473673dd5069afdef4b21734adb66c1b3e782747c0988ae0d79c343d6d9": 1788553285.8830574,
+    "f1d68c5a39ac54ad38f4db346552ef4470478645e082fa73efb3dd758c5430e9": 1788553285.8830574,
+    "3e01b9bf881dd2e687a5c867366c37063bc8094fdec0cc0d33d546afdb1cbd5e": 1788553285.8830574,
+    "da7f988c3a3d7642c71b349fb681d8faeaa99b5950e89b1ab21b44a0f898002b": 1788553285.8830574,
+    "bde0ab7781e0a9407490f90df3f6b773dba81768c43b9f2e1f4dac824c05cdf9": 1788553285.8830574,
+    "8e81f28ea242f0d464992aff79db83bfe0fb480dd67fb4b47038de60d9939365": 1788553285.8830574
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "NVIDIA NemoClaw Powers Memory-Driven AI Agents for Enterprise - blockchain.news",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50VW1XcDJ2WWlSbFZzdFFwRW16aThfNjBoalhpZ2xaOUNaR080WmdIaHBpYUxSenc0SG5nMUhOc3FTU0luZkV0MHB4ekRGXzU2bTBiOFV2dDlpRi0tcmY5YTE5R0RpNEtrVmRacWczQk1iWHN5WnIw?oc=5",
+      "desc": "NVIDIA NemoClaw Powers Memory-Driven AI Agents for Enterprise blockchain.news",
+      "source": "blockchain.news",
+      "time": 1788549140.0,
+      "score": 74.5,
+      "key": "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a",
+      "importance": 74.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "business",
+        "chips",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Phind AI – Ответы по коду с актуальной документацией - quasa.io",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQl9wUDNwdmIwYUpDSU5ROEd1S3FrSGJLcm90emJrcUxOOGNaWFVZUlg3dWxpc2dHUGE0TFJvSFllSzNNSUtRU0JtVzExU3F5WUhEMm5zNG9XUU9Wb3ZKZi1mZ3QtaGx6d1JMMjdvMkFHYUNIZmRRUDB0a0lQaWhKdg?oc=5",
+      "desc": "Phind AI – Ответы по коду с актуальной документацией quasa.io",
+      "source": "quasa.io",
+      "time": 1788549780.0,
+      "score": 72.3,
+      "russia_weight_bonus": 3.8,
+      "key": "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635",
+      "importance": 72.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "China's Nvidia alternative? DeepSeek plans massive Huawei AI chip rollout at Inner Mongolia data centre - livemint.com",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUW9nRHNaWWxfSFBaY0VYZG9WZjBfNEo0R29CMXNNYnk5UFFwM3ljZ0lpdW5kX3RoM1gxS0VkU3o2Y1p0Z2dFdmJ2dnJTUU5IcTd5b2dYRFJvWEtscGZfcGxDTWpsa1Z2OU5yM1Q2T1lGYVNWa3NUeEZhSG5DSnpGeFdKQjNCeDFkUy1XYmItcEdqX1c2ODhSbTdYQkNTcDN1VXBQZnRvN0N2a1dFVTRuOGp1VENRalFuaERvZi1sZUZ5cHJYODYydm5NMkkxSS1KdUluWGpjNzMtMGZrMUt1cnJUa9IB6AFBVV95cUxQakFpT19qREJXUGlnMGRmRF90TF82V3paLTJiUjNqbU5lODJramxzdWh3dFJQQ2RpU3ppRjRnSUNrOFlUQV91OXRhOEZrRnNLQUhqeHBsVjZPUE5mWWRTdktycWJfUjRDa3l0LWxhU3cyVHg2eTJaNUFobHpWVzVQcndBZV81M3NiRHF3azZRbWIzQ1VnRWJNTjJ3YVFaNTlESlZnbkpHYmFIMmo3dVg0UFUxSUkwVVBURTJkVnFVUGtaenFfMzgyV2o1Y3Z2eU5CZVBJRGttek5VeFFpN0FHb3V5NzhwZkZi?oc=5",
+      "desc": "China's Nvidia alternative? DeepSeek plans massive Huawei AI chip rollout at Inner Mongolia data centre livemint.com",
+      "source": "livemint.com",
+      "time": 1788543307.0,
+      "score": 67.5,
+      "key": "199606eef8582172d1e0b3dbf5a8053215387134932fa244e519a1676a5abb3c",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models - Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN0kydGtMUW1qVVdoUUtjUVJ3QTc3NWppZGFEU0NXUGtMTWVxMWdlbWtwS18wOG9BajdjRUtVemNmX3NYZUVuaDluaFJOSk0xTFFHOWpWb1REaWVLM2FLem1yZHdKS2Q1YWRVc2VnX29nTGcwRVJhZzFmeGtLR2dMcUh4UkVVZFkyY3NidkxsQ3F1Y25qdzkxdlJwYjlPa3U0RXc?oc=5",
+      "desc": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models Startup Fortune",
+      "source": "Startup Fortune",
+      "time": 1788542751.0,
+      "score": 67.5,
+      "key": "3aa25e19eaee63047048e09e88965256851aa4c3ad4ff386d2298b17d511bf57",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "NSF Awards $20M to USC and Collaborators to Renew AI Institute - USC Viterbi School of Engineering",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTWptZmYxODlYZUhFY3ZtWWRkdmp1NFF1Zkl2NDNTd3FyYktvZHRTYXBYV1FIX2d2MG1ROGpTanJxVngtOGlOaHF4SjN0S3c3OHNwNW5uZmNTb2k5NVNMUkx6bFZ1UW56VGhKUFRCRnBfc1UybTNrQWxJYzlJRk1qYUZzTFRpcmZSNVIzVFVTTldYVGtvd3pZSnp4R2dibzhKb3VHSFU0ekY?oc=5",
+      "desc": "NSF Awards $20M to USC and Collaborators to Renew AI Institute USC Viterbi School of Engineering",
+      "source": "USC Viterbi School of Engineering",
+      "time": 1788552757.0,
+      "score": 66.5,
+      "key": "58d01e10ebec3f1da3abc748f4cc05fb04db8a94b7b3a42c77dc343c06534951",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Sanders Calls for Lifelong US AI Ban and 20-Year Prison Terms - RS Web Solutions",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVUo2c2VDNE4yTUFoV3VnUHdqOXB6STFhQ2k1dWNYVEJWLXRkRG9FTjd2NjkteW96T2tZcmVOaVczb3JWUzJNYVhZbHE3TUk2RWV2RWtQUF9nbjBiZC1zM0RWTFpQZzdrbnppSktJcldPcXZLaU5kN3gxUGlOV1VSLUNLRmU2Z2V6S3dvWlE1VG01QldNS3Fwd25JWDkySFhWRl9Td1hOMDdBNDdwN0g5VG9rMUpoYS16dDdSR2k2dw?oc=5",
+      "desc": "Sanders Calls for Lifelong US AI Ban and 20-Year Prison Terms RS Web Solutions",
+      "source": "RS Web Solutions",
+      "time": 1788552000.0,
+      "score": 66.5,
+      "key": "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups - Inc42",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU3VLWVdGbHRSalRQcW9kQ2RkazFTWmt5a056NlZRTmIxNWpHRlZ6TVlMemNuekNxQVpzZ1picWJ2YU5pN1NqZzNUVlF6cUVuQ0NfN0JrMFhEZmdzV2JHVVZBTEhkMmQxcFZZVExld2lmalZ4cGVFNHN1dWlqSkRaZ0lUb3VDQQ?oc=5",
+      "desc": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups Inc42",
+      "source": "Inc42",
+      "time": 1788551147.0,
+      "score": 66.5,
+      "key": "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS - Portal ERP",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMzB0Z1ZTaFF6aWJhVkJ5VThVQ0RrZVJydUpxcmh6eXZxWlRpRXZOOWZNTnZoclhHZjNRaTFvcDBmT0xFWjJtQXVOUjlxY185UlFmSTI5bnhBNkdINk14Wml4ajZVRldzVU0yUXVaaG41NzJwQlNOMXRudXp6bU91WDIxZGh0M0lEYy1abjRpTmFPTUx3VHBqRll4NUhVaGc3TEZCRTZn?oc=5",
+      "desc": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS Portal ERP",
+      "source": "Portal ERP",
+      "time": 1788547330.0,
+      "score": 66.5,
+      "key": "ba5af473673dd5069afdef4b21734adb66c1b3e782747c0988ae0d79c343d6d9",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies - moroccoworldnews.com",
@@ -478,6 +613,22 @@
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI’s GPT-6 Astra: Benchmarks, Cyber Risks, and Market Impact - futurumgroup.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRWFlQXVQU01NSVljajZud1BIS2VobVFFOWtsZWtDaGcxZ0JJam1LcXNfQXViSVl2cWotQTJyOGVZR182UlExTC1YeXkxc1dqQnJvcnRkMWpUbnNqdUF3N2R0NkNBMy15R1ZFcGd5VXlVQS1rdUhiRHhaMFNtOFRRMVpZUVk0c3RwU3RMVmwtT0tQbVBTNFVRWS1yYw?oc=5",
+      "desc": "OpenAI’s GPT-6 Astra: Benchmarks, Cyber Risks, and Market Impact futurumgroup.com",
+      "source": "futurumgroup.com",
+      "time": 1788545475.0,
+      "score": 63.5,
+      "key": "f1d68c5a39ac54ad38f4db346552ef4470478645e082fa73efb3dd758c5430e9",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
       "tier": "A"
     },
     {
@@ -503,6 +654,20 @@
       "time": 1788545165.0,
       "score": 63.5,
       "key": "957ce34df3510c6c05833acd189d773cd71a3980f02e09269e8a0768459d5d0f",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Ugandan Startup SANDI AI Wins Shs 190 Million GoGettaz Agripreneur Prize - ChimpReports",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc1J1aGJEN3dELWFmRkh3aS1LdTliaklKTUotYjlzTlJWdkljRGd1SzE0UFpKc1ZBMTZsLV96QUZ3VDBJdk0wQmNKUWRQVHZfN0RCbDdtNnIwM2RKYUtScmZCcVY5TW16bVVpMUFvY2g5bkJpN3JCcVhTWWczM2VBSFJUN2s4UXdCY2IyTUNOMEdPb3NlUzYzT1FLRnVWNlE?oc=5",
+      "desc": "Ugandan Startup SANDI AI Wins Shs 190 Million GoGettaz Agripreneur Prize ChimpReports",
+      "source": "ChimpReports",
+      "time": 1788542897.0,
+      "score": 63.5,
+      "key": "3e01b9bf881dd2e687a5c867366c37063bc8094fdec0cc0d33d546afdb1cbd5e",
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -561,6 +726,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Как AI меняет фарму: опыт «АстраЗенека» в России и в мире - Хабр",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoNHdkRjdaM044RG50Y3RyaHZZMDVJcmU4MnlrVTY5by1IY1JHNGV0MVNybkVISURFdEtjR1h0cEVsUnR0QzBidzRUMGF2eUpPWlAxam9lcmNGdTR5cDVrXzFPc3hibjJGVjlR0gFYQVVfeXFMT2JkbFRQSHNYNG5xZFB3SVZ6Vy1qWC1RM3UtM1dEdTdjcnkyLWNTSHhpa2phUzhvZGh4RmFzWHVyZWhET3FhcEdCcU5EbWQ4QnhTeE05dWxjMQ?oc=5",
+      "desc": "Как AI меняет фарму: опыт «АстраЗенека» в России и в мире Хабр",
+      "source": "Хабр",
+      "time": 1788538589.0,
+      "score": 60.3,
+      "russia_weight_bonus": 4.3,
+      "key": "da7f988c3a3d7642c71b349fb681d8faeaa99b5950e89b1ab21b44a0f898002b",
+      "importance": 60.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2twcWNCWjc3MmNfRG9aUDB2anhneExlRTVhRkdzOGJzaF9vZUxyc1V3VFlxaTRyZW5lSmxyNExOMzBsYWN4S2xydTBMQWlFby1BeWhkdTlQSXdJTWFTZjFlUXlYMHZBTEQteWxEVWpXbUdZTFdtbFg0UHdHem5vdDRQVmwtVk5VbEJzaEI1MjZORmVVRW93a192czJ6SG4td2Nob0xNYXJaS3BaSlByV0Q5SlAxY0tGcWRRTHVZSi1taFZtSXkyYmloZzJISmJxMVU0?oc=5",
       "desc": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого prospect.com.ru",
@@ -575,17 +755,49 @@
         "robotics"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны - Мировое обозрение",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdTFBb0UtcXBNZzJuYVlPbG9rVXUxcms2SENocG1aM2o3TzdkSDhwTHByc1dRSmtILUNvV2RoTF9uVWtyQ1dlRVBWTDJLU2pRX0hpU3ZtdTF4TTk0S01SOWMyMGd0ZXNHWWhVR3F0aWtjLUJGcF84MFpvUkd2NTkzMUg2NERNQnN2bDJFS0FjQ3FTcEswUlpxb3dqM3lWbnczaTV1MEtLekVNVVVZNVQ5M3JzVGwtaEtRdDM5QUFYUQ?oc=5",
+      "desc": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны Мировое обозрение",
+      "source": "Мировое обозрение",
+      "time": 1788534481.0,
+      "score": 60.1,
+      "russia_weight_bonus": 4.1,
+      "key": "bde0ab7781e0a9407490f90df3f6b773dba81768c43b9f2e1f4dac824c05cdf9",
+      "importance": 60.1,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI Launches GPT-6 Astra as AI Agents Put Crypto’s Most Extreme Price Calls in Spotlight - CCN.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd0lUZ2t1Nm9BQlNWNUJVWUVkbFlsYjdFQmJyS3NIWFlydjZIeDJhU2xmUWx1MldjVEVaTlZDWWJtVE5IeFVHWmJ2NzZNVnl3N3NGMndyck5ZelRpRVQ3ZTlOOUhiVW56ZWRxNnpLVDd6YnhjcTJrdEQ0cmF4N2N3ek1ZQk9yZzdkTllZVllGbFRYV1lNV0dQUQ?oc=5",
+      "desc": "OpenAI Launches GPT-6 Astra as AI Agents Put Crypto’s Most Extreme Price Calls in Spotlight CCN.com",
+      "source": "CCN.com",
+      "time": 1788515901.0,
+      "score": 60.0,
+      "key": "8e81f28ea242f0d464992aff79db83bfe0fb480dd67fb4b47038de60d9939365",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "models"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788553166.6949854,
+    "last_start_ts": 1788553285.8830574,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788553166.6949854,
-    "last_success_ts": 1788553166.6949854,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 7
+    "last_run_ts": 1788553285.8830574,
+    "last_success_ts": 1788553285.8830574,
+    "last_candidates": 89,
+    "last_published": 0,
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -605,13 +817,6 @@
     }
   },
   "stories": {
-    "23cc6efb18b6935be5df6a89b48058bdf754541bfa0b42c1cc269e732df36ba3": {
-      "time": 1788466869,
-      "title": "Сбой зарубежных ИИ мог произойти из-за падения облачной платформы - Рамблер",
-      "desc": "Сбой зарубежных ИИ мог произойти из-за падения облачной платформы Рамблер",
-      "source": "Рамблер",
-      "region": "RUSSIA"
-    },
     "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": {
       "time": 1788467049,
       "title": "Cross-Channel AI Agents: Ringg AI Preserves Customer Context Across Enterprise Workflows - trendhunter.com",
@@ -2245,6 +2450,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788551422.751168,
+  "last_search_ts": 1788553285.8830574,
   "last_publish_ts": 1788553166.6949854
 }
