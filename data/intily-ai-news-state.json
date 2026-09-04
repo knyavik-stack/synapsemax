@@ -146,7 +146,8 @@
     "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": 1788484674,
     "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": 1788484855,
     "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788485577,
-    "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174
+    "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174,
+    "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": 1788486534
   },
   "known": {
     "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": 1788465071.3605509,
@@ -255,22 +256,6 @@
     "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788486174.074481
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Telestream AI-Boosted Resolution Upscaling Powered by NVIDIA - Content + Technology",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVW55cGpfYTJmRGJpTU90WTYtN3hLLXFmaXJIMFRkcGEtQW9DbUxVbkVTQnJXRmVhbHNVSWdFRF9HY0UwelVzRVItLUlKQW1LcGJlemtnbm5nNXJMTDl5OUhrcmxERWtCMG9wekk4UlFfeldmWG5Dc2xxMFFqMUtyU0p2NDR1c214bWJSTFpZVFBNZHpPbTlDZjdVeHg?oc=5",
-      "desc": "Telestream AI-Boosted Resolution Upscaling Powered by NVIDIA Content + Technology",
-      "source": "Content + Technology",
-      "time": 1788484050.0,
-      "score": 66.5,
-      "key": "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "OpenAI Video unveils creation tools - blockchain.news",
@@ -451,20 +436,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788486174.074481,
+    "last_start_ts": 1788486534.1715026,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788486174.074481,
-    "last_success_ts": 1788486174.074481,
-    "last_candidates": 67,
+    "last_run_ts": 1788486534.1715026,
+    "last_success_ts": 1788486534.1715026,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 12
+    "queue_size": 11
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788486195.9896305
+      "updated_at": 1788486536.0397122
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1506,12 +1491,18 @@
       "desc": "Alcatraz AI Names Bobby Louissaint Head of Business Development 01net",
       "source": "01net",
       "region": "WORLD"
+    },
+    "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": {
+      "time": 1788486534,
+      "title": "Telestream AI-Boosted Resolution Upscaling Powered by NVIDIA - Content + Technology",
+      "desc": "Telestream AI-Boosted Resolution Upscaling Powered by NVIDIA Content + Technology",
+      "source": "Content + Technology",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1519,6 +1510,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1531,5 +1523,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788486174.074481,
-  "last_publish_ts": 1788486174.074481
+  "last_publish_ts": 1788486534.1715026
 }
