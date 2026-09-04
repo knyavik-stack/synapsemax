@@ -274,7 +274,8 @@
     "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": 1788536002,
     "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": 1788536242,
     "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536483,
-    "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38": 1788537142
+    "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38": 1788537142,
+    "0dfab4d96cc15628c57e77f2904156ba78d491e544cbdcfd1ee67d323e082110": 1788537681
   },
   "known": {
     "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85": 1788516980.4948416,
@@ -584,22 +585,6 @@
     },
     {
       "region": "WORLD",
-      "title": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters - officechai.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZyelliLVdsNldUdm5RUWlxdTNVaGx4OTJNSXdoVzlqOS1CSmo1NWUzTm80T1NFenFPdXhBLUZuajU4Z2RUdzVHYUZkYlh6eVBNejlLZ05jSmdfZ1VSWGs0R0h5VVo4d19TZkY4UHZ5T2lFT3V6WlNwSGJlV3h3cXRvdTd6R3h6Q0FIUmRkMEMxaVVaMGVPc3NfUGtScHpabldhNDBxa0V6OHliV0wzZVF3?oc=5",
-      "desc": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters officechai.com",
-      "source": "officechai.com",
-      "time": 1788527988.0,
-      "score": 67.5,
-      "key": "0dfab4d96cc15628c57e77f2904156ba78d491e544cbdcfd1ee67d323e082110",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Google’s Gemini Spark can now manage your Google Photos library - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjZydEpPN2s2Tm9YM1FuSkFqdWVLRUpZN3Job0drdldXVUw3RFl6YkswYVoySjVKOU9Cc1RwOUdsamxyRzN4QWlqd2VtbUtLcmxJc2RndzZEaHl6TVZmdGtHNy0xYW5fY1lzU003OTJtaEozOFZCa3Y3ckp6dlkyMF9KZ2hNZ01IbTdPNVA4akxIalEwaU1ELUJzeFFUdw?oc=5",
       "desc": "Google’s Gemini Spark can now manage your Google Photos library TechCrunch",
@@ -735,20 +720,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788537320.3889794,
+    "last_start_ts": 1788537681.7904017,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788537320.3889794,
-    "last_success_ts": 1788537320.3889794,
+    "last_run_ts": 1788537681.7904017,
+    "last_success_ts": 1788537681.7904017,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788537150.845891
+      "updated_at": 1788537685.1241345
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -762,13 +747,6 @@
     }
   },
   "stories": {
-    "ff56ca85428e7e5ad63b9cf26d58918bd9e0ca775fe53e00c7c8958c552373e9": {
-      "time": 1788451032,
-      "title": "Nvidia Agrees to Buy AI Platform Hugging Face for $13 Billion - WSJ",
-      "desc": "Nvidia Agrees to Buy AI Platform Hugging Face for $13 Billion WSJ",
-      "source": "WSJ",
-      "region": "WORLD"
-    },
     "2b963ce9d33fb9519fdd59ec27db31536cba6761636a0a144dc7bc7e0ecfacf2": {
       "time": 1788451389,
       "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella - TechCrunch",
@@ -2434,10 +2412,16 @@
       "desc": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ BeInCrypto",
       "source": "BeInCrypto",
       "region": "RUSSIA"
+    },
+    "0dfab4d96cc15628c57e77f2904156ba78d491e544cbdcfd1ee67d323e082110": {
+      "time": 1788537681,
+      "title": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters - officechai.com",
+      "desc": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters officechai.com",
+      "source": "officechai.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2456,8 +2440,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788536242.444593,
-  "last_publish_ts": 1788537142.0174565
+  "last_publish_ts": 1788537681.7904017
 }
