@@ -160,7 +160,8 @@
     "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": 1788489597,
     "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": 1788490678,
     "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": 1788490858,
-    "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333": 1788491156
+    "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333": 1788491156,
+    "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788491395
   },
   "known": {
     "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843.6931014,
@@ -241,23 +242,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "OpenAI представила GPT-6 Astra с контекстом на 1,05 млн токенов - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaEIwRk9OUXVNdEhvLUp0alRfNGtFc3A4TWZsQTl6MndkMWNZQVR3cWxlN0doZGpGUno1b3BGOXlzTDhtbEp2Vm1PTTF4QnBQUUxRczdMazJENmh4TldqejBOYktweENLYXlmNnF5MElpdzdibWdJSzM0MlNaYUVuMEhKRnQza0FMX1pVWVBITE1UUWwzb09GZ0ZCc2txTHdmQnZRU1NB?oc=5",
-      "desc": "OpenAI представила GPT-6 Astra с контекстом на 1,05 млн токенов prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788490342.0,
-      "score": 74.3,
-      "russia_weight_bonus": 2.8,
-      "key": "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57",
-      "importance": 74.3,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUm5reVdteHFBdF94NTYzZkVETWZXZjh3cTVNTTF6YU5sMXhQZ2dSYnhTSThiU1VBcXpnaWZuMzRteXdTUVg1WjZFV24wOEprUjVNNzlhanIteUpJTmxLTjQ3ai1GRFBNeFBfX09FZ0pIbkNtM1U5MWRPVDkxcG4zVFlOQUVzYlo4MWtWRWlEWGtudnVfOEMxU1hCdUE4WVRsTDg2b1JYcl9pVWR0X3c?oc=5",
       "desc": "Россиян могут уволить из-за загрузки рабочих документов в нейросети prospect.com.ru",
@@ -284,40 +268,23 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Nightfood Holdings сообщила о прогрессе в робототехнике и новом соглашении - Techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWDRKMWpXVW5IWk5vUnRPUE9LVEc0SnVmeF9sdGdrWTBuMEpMb2k5T3RPdzZUaG04YzJwNUhOYkJSaG9VdmIzUkZNU0hDYU5sc01yMFNrQXMwMndxa1BiLUlvMU5HZjZlc0hmZG5OY290OVExTURDNDY2aUx2dGdRU2RmSHcwQQ?oc=5",
-      "desc": "Nightfood Holdings сообщила о прогрессе в робототехнике и новом соглашении Techora.ru",
-      "source": "Techora.ru",
-      "time": 1788448136.0,
-      "score": 60.9,
-      "russia_weight_bonus": 4.9,
-      "key": "e04edfd78bea1b1b88e34dcf1315084add394445f2eff071544974ada7001ef9",
-      "importance": 60.9,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788491156.011443,
+    "last_start_ts": 1788491395.3683813,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788491156.011443,
-    "last_success_ts": 1788491156.011443,
+    "last_run_ts": 1788491395.3683813,
+    "last_success_ts": 1788491395.3683813,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 4
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788491158.898419
+      "updated_at": 1788491399.7188506
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1457,6 +1424,13 @@
       "desc": "NVIDIA Unveils RTX Spark PCs and Local AI Tools at IFA 2026 blockchain.news",
       "source": "blockchain.news",
       "region": "WORLD"
+    },
+    "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": {
+      "time": 1788491395,
+      "title": "OpenAI представила GPT-6 Astra с контекстом на 1,05 млн токенов - prospect.com.ru",
+      "desc": "OpenAI представила GPT-6 Astra с контекстом на 1,05 млн токенов prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1479,8 +1453,8 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "RUSSIA"
   ],
   "last_search_ts": 1788490678.3778079,
-  "last_publish_ts": 1788491156.011443
+  "last_publish_ts": 1788491395.3683813
 }
