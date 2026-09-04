@@ -269,7 +269,8 @@
     "9b2411342d80e2c6b34fa3b3384bed016c552a3251af059423e5b63645928a1e": 1788534381,
     "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534801,
     "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": 1788535160,
-    "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": 1788535341
+    "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": 1788535341,
+    "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": 1788535581
   },
   "known": {
     "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515000.8867981,
@@ -468,23 +469,6 @@
     "db6b215fa5de2b16d30f47c580e663b069efcf6ed3d5e5a172f0576ba443e873": 1788534259.6266851
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского - Gazeta.ua",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeTFCdlN6eFlITDhFVlNINDVLMFNvQzhJY2hFb3pOZkhjU1FEaF82eWl1TTl2OGhGV21jTnVCaWlDZlZnYWlWWGV0S3FmUGVSSWZ6d21VUEEwTFNvWVV3WUJxby05ZkRTQ1dQSTJmbnIxNmxhWmk1blI0Y1FGN2U4QXFKMUI0M3JfZGFsdUVkQ1FjVlk5bzlBemZ6cEpST083NlBvaFdSN2xfb081SGZCVzdHSVRZZzA4NUZsenRSY2dkclJoNThjS2t3?oc=5",
-      "desc": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского Gazeta.ua",
-      "source": "Gazeta.ua",
-      "time": 1788532349.0,
-      "score": 74.8,
-      "russia_weight_bonus": 3.3,
-      "key": "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884",
-      "importance": 74.8,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами - CNews.ru",
@@ -715,20 +699,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788535341.0822623,
+    "last_start_ts": 1788535581.4608557,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788535341.0822623,
-    "last_success_ts": 1788535341.0822623,
+    "last_run_ts": 1788535581.4608557,
+    "last_success_ts": 1788535581.4608557,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788535345.6729178
+      "updated_at": 1788535585.1773794
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2428,10 +2412,16 @@
       "desc": "Travel Technology Solutions Market: AI, Automation openPR.com",
       "source": "openPR.com",
       "region": "WORLD"
+    },
+    "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": {
+      "time": 1788535581,
+      "title": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского - Gazeta.ua",
+      "desc": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского Gazeta.ua",
+      "source": "Gazeta.ua",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2450,8 +2440,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788534259.6266851,
-  "last_publish_ts": 1788535341.0822623
+  "last_publish_ts": 1788535581.4608557
 }
