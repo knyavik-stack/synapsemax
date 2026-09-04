@@ -260,20 +260,10 @@
     "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be": 1788532040,
     "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": 1788532282,
     "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a": 1788532522,
-    "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136": 1788532764
+    "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136": 1788532764,
+    "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": 1788533000
   },
   "known": {
-    "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511223.1508448,
-    "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": 1788511223.1508448,
-    "a85ca69b73d93cab270c3e2bc73df5557c5ca7f1e29f6b3fdaee2eb0bf977f14": 1788511223.1508448,
-    "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b": 1788511223.1508448,
-    "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": 1788511223.1508448,
-    "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11": 1788511223.1508448,
-    "9ccaa61d9072f176daa15ff3bbf976d19c43f155694233aca655e5a797f00a7b": 1788511223.1508448,
-    "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": 1788511223.1508448,
-    "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82": 1788511223.1508448,
-    "08f8f90e86a4df9a1b1effe146bbd7918de7e52e8a134fa7845fee498329600e": 1788511223.1508448,
-    "d51d93739b036ebf4290064de7e505e2bc5afa38dadceaf97260eabcdcedbcb1": 1788511223.1508448,
     "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026.6221929,
     "fb2dd6a91e29517a82641d9f295791035a1709a500341624f02f924a21808218": 1788513026.6221929,
     "4561ddad4735781d460af382c3d709b0c0e4eaf2d4c59ab3c8077599581d7bd1": 1788513026.6221929,
@@ -463,23 +453,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI - expert.ru",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVm16ejNZY1o4cGZMYmxWRy1EcEJuQzFRRjN0eDhqLUh4Q3BXbUc4MXdYbUpUTTdsNXQxLXpXU0pOTkg4MXF4cmxRWUJNcTJySDJZbldJcFo3dDZYQzFlYTNYUzRiNGtGM01CSVBXTTJiRy03X2h6REpzbVRLTkRBYWl4dFh1OEM1SFM4?oc=5",
-      "desc": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI expert.ru",
-      "source": "expert.ru",
-      "time": 1788531780.0,
-      "score": 76.0,
-      "russia_weight_bonus": 3.5,
-      "key": "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee",
-      "importance": 76.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters - theins.ru",
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1qUTFXVW1BVG1jeExMYTBGTkM0VHFtYWNkQWhfVTdtR2pYS3FMQVVmVzE4TlhaeU56aGd0bERYTUtTVlU?oc=5",
       "desc": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters theins.ru",
@@ -526,21 +499,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
-      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788529330.0,
-      "score": 71.3,
-      "russia_weight_bonus": 2.8,
-      "key": "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6",
-      "importance": 71.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Are our AI agents turning rogue? - SC Media",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsTXVDQU9HWXgxaEc2ZVU5MS1wS0RBeWpSNWxpQnhrZHhYUWd5akViNU9pUlZ3Ri1DMXUtbzZqMk1ac25zUXlJMGhkSEg2dkN2VXJWZ3FGTXlnU2M3VVZwaThuQklXem01dmtlRFo5Q0NtcmExd0E?oc=5",
@@ -582,6 +540,21 @@
       "russia_weight_bonus": 4.8,
       "key": "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f",
       "importance": 70.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
+      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788529330.0,
+      "score": 68.3,
+      "russia_weight_bonus": 2.8,
+      "key": "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6",
+      "importance": 68.3,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -736,20 +709,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788532764.0351186,
+    "last_start_ts": 1788533000.7863958,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788532764.0351186,
-    "last_success_ts": 1788532764.0351186,
+    "last_run_ts": 1788533000.7863958,
+    "last_success_ts": 1788533000.7863958,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 18
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788532773.2517433
+      "updated_at": 1788533017.0412433
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2442,10 +2415,16 @@
       "desc": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": {
+      "time": 1788533000,
+      "title": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI - expert.ru",
+      "desc": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI expert.ru",
+      "source": "expert.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -2464,8 +2443,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788532400.983643,
-  "last_publish_ts": 1788532764.0351186
+  "last_publish_ts": 1788533000.7863958
 }
