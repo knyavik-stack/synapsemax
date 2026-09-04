@@ -290,7 +290,8 @@
     "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": 1788541339,
     "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": 1788541520,
     "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": 1788542062,
-    "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542721
+    "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542721,
+    "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": 1788543380
   },
   "known": {
     "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522622.0770597,
@@ -517,23 +518,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах - newkhakasiya.online",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOERic2ZXYjhTMHJNdjJMOF9IamhGVVRDeFJNbllKVGl6UWhNdmQyZ3g0RTVkMUY5eERJcWljREJMWmU1dG43QVlNZ3FtdS1SblBLOUc3Sm5rSExBQk1GWTBtVW8zbW1JZEFoQjEyZVM3MU9lNXJtSWJ2UVNGZ2ZlaHJ3T1RKMVBmRzZEa2hWdkVVN0NDbU5yeDdzTEZMclVUS2RKc2Jfa0ZrMzBkczJhZkVJOEVsT2pWcVEtTFk0cFQzbUVwX0E?oc=5",
-      "desc": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах newkhakasiya.online",
-      "source": "newkhakasiya.online",
-      "time": 1788539280.0,
-      "score": 75.6,
-      "russia_weight_bonus": 3.1,
-      "key": "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c",
-      "importance": 75.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOURfNHRjVENzWGtqdkRtZVF6djAxS1ZlYlQ4T0ZlT0ViRUtlWjNNQVVKVmxtLTlQLV85OGZWUFl1LXJYTTVhb2tsd0lUa3VWUnhmd3VFbVlVd2VSSTBYOVNZTVN1ay1rRFU3NnpxTTdmUDEwUmtKRUdPWnVCUGExLXVxMENncmNrN1ppM1BKVF94V0ViSERKUlhWVTR6UW1Qd0NWWUdMQXZNNklWWkFTV0dGS1lBQ05GVkk5QTRKTEs?oc=5",
       "desc": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам Восток-Медиа",
@@ -568,6 +552,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах - newkhakasiya.online",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOERic2ZXYjhTMHJNdjJMOF9IamhGVVRDeFJNbllKVGl6UWhNdmQyZ3g0RTVkMUY5eERJcWljREJMWmU1dG43QVlNZ3FtdS1SblBLOUc3Sm5rSExBQk1GWTBtVW8zbW1JZEFoQjEyZVM3MU9lNXJtSWJ2UVNGZ2ZlaHJ3T1RKMVBmRzZEa2hWdkVVN0NDbU5yeDdzTEZMclVUS2RKc2Jfa0ZrMzBkczJhZkVJOEVsT2pWcVEtTFk0cFQzbUVwX0E?oc=5",
+      "desc": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах newkhakasiya.online",
+      "source": "newkhakasiya.online",
+      "time": 1788539280.0,
+      "score": 72.6,
+      "russia_weight_bonus": 3.1,
+      "key": "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c",
+      "importance": 72.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Зачем внедрять ИИ, если он не удваивает выручку завтра - Forbes.ru",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaEJjYjBycHp4enhxYmNXcG9BbjVnaUlteXhtdk9BNm5qYW5CanlidWlLeXZENTRZMGpvTVB1emZDRk56Q1RRdzlIQ1VXcXFoQ1l6WHU0Z2tOWEIwWXhfQ1dtTXlrRlJCLXF1SThRRU0tcU5sNkh4T2xGdVpRVUY3anN4MDd0SjhWYjFzb2JCTQ?oc=5",
       "desc": "Зачем внедрять ИИ, если он не удваивает выручку завтра Forbes.ru",
@@ -583,22 +584,6 @@
     },
     {
       "region": "WORLD",
-      "title": "10 Standout Technologies To Watch From IFA 2026 As AI Dominates Berlin's Biggest Tech Show - International Business Times Australia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR1RlRk9WUU90OGNYTXQ4dVo0UTVQRm5XaXRVQlhnVnhIWnhjMTdSdnlrMlZjM2d1S1dRck9kNlJEQ2lUYzR6VVJPaFlqaTJIQmdEaHBDb3JjMHpoMl80Wm1BaV9rMGhsMWhadV96Z2hZdzlxSFFKeVlkRUE2U1ZEWDBHeENUWkU?oc=5",
-      "desc": "10 Standout Technologies To Watch From IFA 2026 As AI Dominates Berlin's Biggest Tech Show International Business Times Australia",
-      "source": "International Business Times Australia",
-      "time": 1788541720.0,
-      "score": 69.5,
-      "key": "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "3 Must-See AI World Sessions for Industrial Manufacturers - Oracle Blogs",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT05kOWxlSEl0SkdKY0lMbE1lYk5OdGFjVlgyTjZ6clB5aENHV0RaXzFfWmxuajB5aGtSY1RYWWJxN2QxeDhpcVhkRHZxQ3RHdkttMWM5U1RiTC1Hdl9JektWVTZmVkFDQ3pkanV0clZnVWVfR19pT01COGR3OGZTZ0xUYzcyZ3JpS3RnSThYUWNTSzRHQWJPM01fQmw?oc=5",
       "desc": "3 Must-See AI World Sessions for Industrial Manufacturers Oracle Blogs",
@@ -609,22 +594,6 @@
       "importance": 69.5,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules - StreetInsider",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUFGMk5mSFhVY3VuMHFFWnN2VkZtc05mVm5UUGoyZXdxcmhzYzM2TWlmN1puUUpINzIyLXlNcjIzaGZSSEJIYUFBdjJFSTBoQ2NKeVEtazBBRjV6dHlUM2czTW1aLXlaY0F0dzVoWHdwSjRGNmF6QXY4WTN3a1JNS1FJRE9waE1uOWFyUmI2N1AzUUNfOWFxRHlYdE5jdE1xTXBpVDZVRndsU3hCTHFBYWNRR05LWWhDbDgzNk5sVTBYeHlRTk13ZXFkb2U?oc=5",
-      "desc": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules StreetInsider",
-      "source": "StreetInsider",
-      "time": 1788539766.0,
-      "score": 69.5,
-      "key": "b4d075f93594e2ff86cd2e366e6776d6bc68fcb9fe73d045d4d6b2480eb81fd3",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
       "tier": "A"
     },
     {
@@ -717,6 +686,22 @@
     },
     {
       "region": "WORLD",
+      "title": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules - StreetInsider",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUFGMk5mSFhVY3VuMHFFWnN2VkZtc05mVm5UUGoyZXdxcmhzYzM2TWlmN1puUUpINzIyLXlNcjIzaGZSSEJIYUFBdjJFSTBoQ2NKeVEtazBBRjV6dHlUM2czTW1aLXlaY0F0dzVoWHdwSjRGNmF6QXY4WTN3a1JNS1FJRE9waE1uOWFyUmI2N1AzUUNfOWFxRHlYdE5jdE1xTXBpVDZVRndsU3hCTHFBYWNRR05LWWhDbDgzNk5sVTBYeHlRTk13ZXFkb2U?oc=5",
+      "desc": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules StreetInsider",
+      "source": "StreetInsider",
+      "time": 1788539766.0,
+      "score": 66.5,
+      "key": "b4d075f93594e2ff86cd2e366e6776d6bc68fcb9fe73d045d4d6b2480eb81fd3",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Generative AI Jobs Are Growing Faster In New York City Than The Traditional Tech Hub - WNBF",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9panZINVRicmJpQV9lQ0JOcnRfRk93MS1Nelp0RDdxd0JIQVdEN0FKdGpKMzB6NkV6NTMzYTBNQ1FKdXhIOUcxdE13ekZ2VG1OSGQzNlI5WUI?oc=5",
       "desc": "Generative AI Jobs Are Growing Faster In New York City Than The Traditional Tech Hub WNBF",
@@ -790,20 +775,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788542844.5984743,
+    "last_start_ts": 1788543380.5846565,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788542844.5984743,
-    "last_success_ts": 1788542844.5984743,
+    "last_run_ts": 1788543380.5846565,
+    "last_success_ts": 1788543380.5846565,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788542725.456068
+      "updated_at": 1788543385.4876149
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -817,20 +802,6 @@
     }
   },
   "stories": {
-    "0f8c7e484f71a8e50457f8d3ded009d59c4e556824002857c7ffff4bfb09081f": {
-      "time": 1788456611,
-      "title": "Nvidia is spending $12 billion on Hugging Face, the world's biggest repository of AI models, and the comp - The Times of India",
-      "desc": "Nvidia is spending $12 billion on Hugging Face, the world's biggest repository of AI models, and the comp The Times of India",
-      "source": "The Times of India",
-      "region": "WORLD"
-    },
-    "9459f5936486b2574ca5e98c12420cc9cc9354e148636cd04df44d15c3f3eed9": {
-      "time": 1788456970,
-      "title": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services - CyberSecurityNews",
-      "desc": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services CyberSecurityNews",
-      "source": "CyberSecurityNews",
-      "region": "WORLD"
-    },
     "a8acd8efb96bd5c37e6b604db02ed18cf8fe43af394d57c250c074dadf8744c9": {
       "time": 1788457153,
       "title": "OpenAI Rival Moonshot Makes Blockbuster $50 Billion Move - TradingView",
@@ -2454,11 +2425,17 @@
       "desc": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet AI Insider",
       "source": "AI Insider",
       "region": "WORLD"
+    },
+    "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": {
+      "time": 1788543380,
+      "title": "10 Standout Technologies To Watch From IFA 2026 As AI Dominates Berlin's Biggest Tech Show - International Business Times Australia",
+      "desc": "10 Standout Technologies To Watch From IFA 2026 As AI Dominates Berlin's Biggest Tech Show International Business Times Australia",
+      "source": "International Business Times Australia",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2475,9 +2452,10 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788542062.023784,
-  "last_publish_ts": 1788542721.9183173
+  "last_publish_ts": 1788543380.5846565
 }
