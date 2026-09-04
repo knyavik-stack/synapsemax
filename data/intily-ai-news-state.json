@@ -310,7 +310,8 @@
     "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": 1788548001,
     "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862": 1788548181,
     "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": 1788548480,
-    "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": 1788549382
+    "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": 1788549382,
+    "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": 1788549621
   },
   "known": {
     "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788528681.428885,
@@ -469,9 +470,68 @@
     "41ad6018e6f976ad0b3e212fa200b7333d8958173638dd273d826511f7af1c8f": 1788547820.6748672,
     "70158e64a0557b3958677488aa6de94d574984c903b5e296b015427b47422f94": 1788547820.6748672,
     "bd4a07288a11e7a70ad3226c73131449aa6ce736d82cb3fca077f45a9795cf03": 1788547820.6748672,
-    "33da60480e96e75a4272a1f422f2bd000b5470aade1372e7f82b520b7dc639af": 1788547820.6748672
+    "33da60480e96e75a4272a1f422f2bd000b5470aade1372e7f82b520b7dc639af": 1788547820.6748672,
+    "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": 1788549621.7329698,
+    "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": 1788549621.7329698,
+    "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": 1788549621.7329698,
+    "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": 1788549621.7329698,
+    "079470c614a435d5e0b7ea8e7b9ff7504b896b66f3e883d7d637e772ce525aac": 1788549621.7329698,
+    "427464c2d896eadaf0b6adb0746de3869c66748ac0632f1b159768fdfedf1102": 1788549621.7329698,
+    "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3": 1788549621.7329698,
+    "9ec2e3011c64c90afdfbd07ff35c9ab544469727de91cc7cf0e75ae17e4560d7": 1788549621.7329698
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "NVIDIA выпустила софт для локальной работы с ИИ - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcjNrMXRMeDZGdTVuNVpMRzZkaU8wMUhCeFdvdFRZUGVMUEEyV253c1pCSXJoNHBVZnhVWUw1MDZqVndLZ09pRmFoVjdRNGo5WFM2OC14cF9VaTI2dXlqSU5xQzh3Z1VkY01xUXF2Y2NadmpWZV9uaE44ajlmY2NYandNUDhGTUVQX0MzMHJuNHdUdFU?oc=5",
+      "desc": "NVIDIA выпустила софт для локальной работы с ИИ prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788547949.0,
+      "score": 76.0,
+      "russia_weight_bonus": 3.5,
+      "key": "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee",
+      "importance": 76.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Researchers Document OpenAI Agent Swarm That Repurposed German Wiki - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMHBkYWt6T1JpZ0VOY2U5MUhZWEhOSEpJb2VnbmNqa3BHYUJXVWZZUFpaZGZwYk53UUdsUzVKUDZ2WWc5TFpUNXc4WmVHaFl5XzU3dTNQdXotWUpmWm1TaWszemgzM3dBZ3FQZzI3YlI0MnpBUXhwVzM3NXZkMExlcTFrQ2p2Mnl1bUIwYjNISFhROG8?oc=5",
+      "desc": "Researchers Document OpenAI Agent Swarm That Repurposed German Wiki Unite.AI",
+      "source": "Unite.AI",
+      "time": 1788548702.0,
+      "score": 70.5,
+      "key": "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "research"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia acquires leading AI platform - AzerNews",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6OEttVVVPbURoMm9LVFZxYzM3SGlGWkI1NlBjUW55TmlNS0oyZ0E5MWQ0Z0xINThrU1ZQblBubHZjZ3R2Q0hFQnZJV0lGOEVMZEIxTQ?oc=5",
+      "desc": "Nvidia acquires leading AI platform AzerNews",
+      "source": "AzerNews",
+      "time": 1788548400.0,
+      "score": 69.5,
+      "key": "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips",
+        "tools"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России - Национальная Служба Новостей",
@@ -483,6 +543,34 @@
       "russia_weight_bonus": 2.8,
       "key": "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5",
       "importance": 68.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSEEza2pGUXRYMWVBRWplWVFPUnBYdlQ3SzBoYlk3Mi1mZEdZVTN2Vjd1WXlab2MzSXl0cGZpMGh0OGMtRGFRLWxSM0ZkZ2JCR3NIVXRqU3NUYXZmUHJmcmhUVGt5bC1wQkxNbzBLVFVGNFd2TkpyZF9UcW1FY1pFRHdTcUx1TzZtYWVERloxcDc1eldwOGhKaG8tQlR0ZjAtX2RITEZpV01wVEdWUC1EUFlVMVJCZzJBRUVaeldybFY2OTZNZTdobk12SmlsOVVmYUhzRg?oc=5",
+      "desc": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts Tech Times",
+      "source": "Tech Times",
+      "time": 1788547774.0,
+      "score": 66.5,
+      "key": "079470c614a435d5e0b7ea8e7b9ff7504b896b66f3e883d7d637e772ce525aac",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies - moroccoworldnews.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjNBWjRjQWhobS11eUJkY2xTaGFhQTFSRjA1a2pjRmtHZXItVUFIUHlBSmo0WEVFZGRiZnpZNURzOXgzMTc3Y0lsY3FZYTZPMlNyRWlhTFM1aGVLVnlJX1BtZjB1SHQ1V0l0eFdnZFdwd1pSeV9BSmpWeU1hS0lBVklLcGh1S1FVTWJQZm54UFN6YnZiUnpqQ2tzZjRIVW05ZDNQbjhvaDRwMTlaSVkyZkhxRXc1Y1JqTy1EaA?oc=5",
+      "desc": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies moroccoworldnews.com",
+      "source": "moroccoworldnews.com",
+      "time": 1788547718.0,
+      "score": 66.5,
+      "key": "427464c2d896eadaf0b6adb0746de3869c66748ac0632f1b159768fdfedf1102",
+      "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -583,34 +671,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Samsung SDS stock gains as RX ART 2026 and AI partnership broaden growth story - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOamVmV0J0SWhmdkZ1bWtMSTgwbEdqVU9KYUlHaEpCbXhFejI5dkZXZ2V4SVdJZV9FNUhjMEdiaTJCQ0ZBYTdxTkpXVF9Ob3FZTzVuUGlEeE9BcHlXbFFrM2I4dmNvTDVIcDZ0TUdCM084XzJrZEs3dWRodEN3eGZib1lpc1dMSlF2ZnRXYjdxUVVBNGxoNXpWNmpfOFp5NUotWWYtdnRSNElvcC04LTJsR3Jha1BoOVJMdDVtbjI1ZkZ1SElWeEthU1ZGVQ?oc=5",
-      "desc": "Samsung SDS stock gains as RX ART 2026 and AI partnership broaden growth story AD HOC NEWS",
-      "source": "AD HOC NEWS",
-      "time": 1788544493.0,
-      "score": 63.5,
-      "key": "ddd326e4452ba6a9ab12c91527268bff972794f78aea0db8aba4e03f39ebdb38",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Who Gave the AI Access? - dot.LA",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51WEVnNXVOUEdjYVJCSUdrR2xFQWVvYWpkczZjQnZBMzBzbURCYlRqclJHOVZOcjNhRVhxWFdDa1dCT3YtZktwbkxMWjBnU0YtbV9JeUNqUi1IZmlrZVhPOGRQYWIyejRVdWc0dzdKLU9ZSm9l?oc=5",
-      "desc": "Who Gave the AI Access? dot.LA",
-      "source": "dot.LA",
-      "time": 1788541357.0,
-      "score": 63.5,
-      "key": "463d9d538682f54e3334aa28e121279177d3befa324dfc79bbf5acffcfd1e970",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Дмитрий Медников: «ИИ – это не конкуренция с людьми, а расширение возможностей» - Ведомости",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUJWdEZMLU9uYnE0UENpb1NtdU0wdndzT2YyU2ZPRHNUR3g4VmFySnRmYTFjYWEzVkNKeEN5LUVGaFhVTUxkRlBacVU1YTBMdU45SmE1VFdmV0ZYb09HZFVZV3RMLUo5NW93VzcxYWJkeHJiMTdMLUN5RDYtX01ya2x3SmtGVjBEVU5xT3I1emcwT1hpSWt3WVIwR2llZ1c5bTBDQjNsUjJZbUxRSnhFRmpTWGdDMDMyNWZod1FCZ09nd3VUc1MzUA?oc=5",
@@ -644,6 +704,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "На сессии Открытого диалога обсудили массовое внедрение ИИ-технологий - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE81WHowZ1k1MFlZcXFlbHU2TEFqN3lhcVZTT1czVV9FcDBxQVNYc1d6TEVEQUZWaTlIUUMtRGIzY0RsRDh2Z1dkX2xVaU5sVDVLOEpUb09WLUR3ZnVhNktVZWtwY0w2czZ1UWlz?oc=5",
+      "desc": "На сессии Открытого диалога обсудили массовое внедрение ИИ-технологий rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788507900.0,
+      "score": 62.4,
+      "russia_weight_bonus": 3.4,
+      "key": "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3",
+      "importance": 62.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Банкротство контрагента: как застраховать риск для бизнеса - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVTJKRFg0OFJESE41NFRKdWd1WWhwSUhtTDZkeTZXRW9OV241eGFrd1FRSm1haWZvQVFMRkNvZVdkSEU2bzJtOXI2eERHZnhkdHZMSV95R045VW4xazBJNVF4SlkxMUJqVFd0VURuQW1LaDM1dFVzUHE4WkpvZUNLZ2E5ZkVnMFRlV2luUTN5U0JGN19UQ2liV1czLVV1Wm0z0gF7QVVfeXFMT196YXI3akpvVjBJc1RyVG5fTDBMamhyVzdGS3lmcGQ3N0JucjI1R2dldERVbUNFbWVQMTlQZGlPNGVhSTlCUDhBV3lHbUNRcXZoYjNCejFabXREOUNHX21XeUZtQUw2Zm0wbklXRkpYdEc3Ri1WLVd2SkVF?oc=5",
       "desc": "Банкротство контрагента: как застраховать риск для бизнеса companies.rbc.ru",
@@ -657,6 +734,23 @@
       "topics": [
         "agents",
         "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Контракт AI-агента: какие права доступа давать ИИ-агенту - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc3h2M2dMWDlvaldjZTdIQjZFaE1qUFRyai11cDNiM1dlUW1RZXBzQnFxeF9sc25rM1pjQllrdUhIa0pWQU1UdGQ3eWFwb01DVHEwVGFfbTRVTmlnZWpsd1diY0lGaklscHEtRjRSMU1oNEZ2REtkenFlTVlUcVFraVJpdkNqdXhfZ1pFT3FRZnhkRnJoZ2s2eXk3VHI?oc=5",
+      "desc": "Контракт AI-агента: какие права доступа давать ИИ-агенту companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788512147.0,
+      "score": 61.0,
+      "russia_weight_bonus": 5.0,
+      "key": "9ec2e3011c64c90afdfbd07ff35c9ab544469727de91cc7cf0e75ae17e4560d7",
+      "importance": 61.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
       ],
       "tier": "A"
     },
@@ -694,20 +788,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788549382.0451488,
+    "last_start_ts": 1788549621.7329698,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788549382.0451488,
-    "last_success_ts": 1788549382.0451488,
-    "last_candidates": 0,
+    "last_run_ts": 1788549621.7329698,
+    "last_success_ts": 1788549621.7329698,
+    "last_candidates": 98,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788549385.7510805
+      "updated_at": 1788549648.5238903
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -721,13 +815,6 @@
     }
   },
   "stories": {
-    "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5": {
-      "time": 1788463089,
-      "title": "Ведяхин: В ноябре пройдет конференция AI Journey с участием исследователей и бизнеса - Курс Дела",
-      "desc": "Ведяхин: В ноябре пройдет конференция AI Journey с участием исследователей и бизнеса Курс Дела",
-      "source": "Курс Дела",
-      "region": "RUSSIA"
-    },
     "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": {
       "time": 1788463269,
       "title": "GK Software launches retail AI framework GK Agentic - ecommercenews.com.au",
@@ -2351,13 +2438,19 @@
       "desc": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": {
+      "time": 1788549621,
+      "title": "Google launches Lyria 3.5: Everything you need to know about its AI music model - The News International",
+      "desc": "Google launches Lyria 3.5: Everything you need to know about its AI music model The News International",
+      "source": "The News International",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2373,8 +2466,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788547820.6748672,
-  "last_publish_ts": 1788549382.0451488
+  "last_search_ts": 1788549621.7329698,
+  "last_publish_ts": 1788549621.7329698
 }
