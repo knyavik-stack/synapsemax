@@ -324,7 +324,8 @@
     "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3": 1788553166,
     "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": 1788553703,
     "199606eef8582172d1e0b3dbf5a8053215387134932fa244e519a1676a5abb3c": 1788554000,
-    "58d01e10ebec3f1da3abc748f4cc05fb04db8a94b7b3a42c77dc343c06534951": 1788554483
+    "58d01e10ebec3f1da3abc748f4cc05fb04db8a94b7b3a42c77dc343c06534951": 1788554483,
+    "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": 1788554782
   },
   "known": {
     "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534259.6266851,
@@ -482,13 +483,13 @@
     },
     {
       "region": "WORLD",
-      "title": "Sanders Calls for Lifelong US AI Ban and 20-Year Prison Terms - RS Web Solutions",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVUo2c2VDNE4yTUFoV3VnUHdqOXB6STFhQ2k1dWNYVEJWLXRkRG9FTjd2NjkteW96T2tZcmVOaVczb3JWUzJNYVhZbHE3TUk2RWV2RWtQUF9nbjBiZC1zM0RWTFpQZzdrbnppSktJcldPcXZLaU5kN3gxUGlOV1VSLUNLRmU2Z2V6S3dvWlE1VG01QldNS3Fwd25JWDkySFhWRl9Td1hOMDdBNDdwN0g5VG9rMUpoYS16dDdSR2k2dw?oc=5",
-      "desc": "Sanders Calls for Lifelong US AI Ban and 20-Year Prison Terms RS Web Solutions",
-      "source": "RS Web Solutions",
-      "time": 1788552000.0,
+      "title": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS - Portal ERP",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMzB0Z1ZTaFF6aWJhVkJ5VThVQ0RrZVJydUpxcmh6eXZxWlRpRXZOOWZNTnZoclhHZjNRaTFvcDBmT0xFWjJtQXVOUjlxY185UlFmSTI5bnhBNkdINk14Wml4ajZVRldzVU0yUXVaaG41NzJwQlNOMXRudXp6bU91WDIxZGh0M0lEYy1abjRpTmFPTUx3VHBqRll4NUhVaGc3TEZCRTZn?oc=5",
+      "desc": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS Portal ERP",
+      "source": "Portal ERP",
+      "time": 1788547330.0,
       "score": 66.5,
-      "key": "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397",
+      "key": "ba5af473673dd5069afdef4b21734adb66c1b3e782747c0988ae0d79c343d6d9",
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -501,23 +502,9 @@
       "desc": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups Inc42",
       "source": "Inc42",
       "time": 1788551147.0,
-      "score": 66.5,
+      "score": 63.5,
       "key": "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS - Portal ERP",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMzB0Z1ZTaFF6aWJhVkJ5VThVQ0RrZVJydUpxcmh6eXZxWlRpRXZOOWZNTnZoclhHZjNRaTFvcDBmT0xFWjJtQXVOUjlxY185UlFmSTI5bnhBNkdINk14Wml4ajZVRldzVU0yUXVaaG41NzJwQlNOMXRudXp6bU91WDIxZGh0M0lEYy1abjRpTmFPTUx3VHBqRll4NUhVaGc3TEZCRTZn?oc=5",
-      "desc": "Zoho integrates Anthropic and OpenAI coding assistants into Catalyst PaaS Portal ERP",
-      "source": "Portal ERP",
-      "time": 1788547330.0,
-      "score": 66.5,
-      "key": "ba5af473673dd5069afdef4b21734adb66c1b3e782747c0988ae0d79c343d6d9",
-      "importance": 66.5,
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -713,20 +700,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788554540.7956023,
+    "last_start_ts": 1788554782.1646552,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788554540.7956023,
-    "last_success_ts": 1788554540.7956023,
+    "last_run_ts": 1788554782.1646552,
+    "last_success_ts": 1788554782.1646552,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788554487.822107
+      "updated_at": 1788554785.2975569
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -740,13 +727,6 @@
     }
   },
   "stories": {
-    "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333": {
-      "time": 1788468310,
-      "title": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free - 24/7 Wall St.",
-      "desc": "Nvidia Is Paying $14 Billion for a Company That Gives Its Best Work Away for Free 24/7 Wall St.",
-      "source": "24/7 Wall St.",
-      "region": "WORLD"
-    },
     "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": {
       "time": 1788468491,
       "title": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training - The American Bazaar",
@@ -2342,10 +2322,16 @@
       "desc": "NSF Awards $20M to USC and Collaborators to Renew AI Institute USC Viterbi School of Engineering",
       "source": "USC Viterbi School of Engineering",
       "region": "WORLD"
+    },
+    "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": {
+      "time": 1788554782,
+      "title": "Sanders Calls for Lifelong US AI Ban and 20-Year Prison Terms - RS Web Solutions",
+      "desc": "Sanders Calls for Lifelong US AI Ban and 20-Year Prison Terms RS Web Solutions",
+      "source": "RS Web Solutions",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -2362,10 +2348,11 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788553285.8830574,
-  "last_publish_ts": 1788554483.302652
+  "last_publish_ts": 1788554782.1646552
 }
