@@ -199,7 +199,8 @@
     "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": 1788511943,
     "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": 1788512241,
     "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529": 1788512602,
-    "a85ca69b73d93cab270c3e2bc73df5557c5ca7f1e29f6b3fdaee2eb0bf977f14": 1788512788
+    "a85ca69b73d93cab270c3e2bc73df5557c5ca7f1e29f6b3fdaee2eb0bf977f14": 1788512788,
+    "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026
   },
   "known": {
     "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491755.7473595,
@@ -273,9 +274,51 @@
     "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": 1788511223.1508448,
     "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82": 1788511223.1508448,
     "08f8f90e86a4df9a1b1effe146bbd7918de7e52e8a134fa7845fee498329600e": 1788511223.1508448,
-    "d51d93739b036ebf4290064de7e505e2bc5afa38dadceaf97260eabcdcedbcb1": 1788511223.1508448
+    "d51d93739b036ebf4290064de7e505e2bc5afa38dadceaf97260eabcdcedbcb1": 1788511223.1508448,
+    "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026.6221929,
+    "fb2dd6a91e29517a82641d9f295791035a1709a500341624f02f924a21808218": 1788513026.6221929,
+    "4561ddad4735781d460af382c3d709b0c0e4eaf2d4c59ab3c8077599581d7bd1": 1788513026.6221929,
+    "6fde6c3b46c78c678e1b7791b92057c9bc65076555cc30774884b12958fb0645": 1788513026.6221929,
+    "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336": 1788513026.6221929,
+    "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae": 1788513026.6221929,
+    "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75": 1788513026.6221929,
+    "e9ae58f0a606e5a34ef25b670d3c76c94d3f6fd00e2c0e803b0a86cca572b71f": 1788513026.6221929
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "«Критический уровень угрозы»: почему OpenAI признала модель Astra первым ИИ-кибероружием и что это меняет для индустрии - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTRkpDVE1XaGQxT0hXSy1rckJqdTlOdTBJamJQbWZsTExIOTlCZUhDblowR2E4aEVVTWtZVmpyZ0tXSXhxalZhZlZlbDRQb1pxLWJvNFRxTkkyUDlIYnRPLWgtamUwa0M5ME1ySmtaY1hOdw?oc=5",
+      "desc": "«Критический уровень угрозы»: почему OpenAI признала модель Astra первым ИИ-кибероружием и что это меняет для индустрии VC.ru",
+      "source": "VC.ru",
+      "time": 1788511904.0,
+      "score": 76.0,
+      "russia_weight_bonus": 2.5,
+      "key": "fb2dd6a91e29517a82641d9f295791035a1709a500341624f02f924a21808218",
+      "importance": 76.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Сбер: Будущее – за генеративным ИИ, помогающим бизнесу решать задачи развития - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbG16T0gtSDVUdGpDUHVMWmZBTUlNOWVlbFlHVFNKMFdWdkNDZ1FKSE85VTlxeVdhNWl4ZFRXVlhwNXh1V2ZpeVNqV2RUMFNEZFRRZHJZUWltc25Oc1dQSl84cDZqNGkwb3ZCR0RURU5RakhjcmJMeFFFbGZQdFhITi0wcmhtUG5ydlJ2Z2xhb0tEb3JtWFQxVXZTZElMVWxfRzlCdVZUNDJGUlpiejVGZnVfR3p6bWloT3J5TzR4UQ?oc=5",
+      "desc": "Сбер: Будущее – за генеративным ИИ, помогающим бизнесу решать задачи развития prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788508962.0,
+      "score": 73.1,
+      "russia_weight_bonus": 4.6,
+      "key": "4561ddad4735781d460af382c3d709b0c0e4eaf2d4c59ab3c8077599581d7bd1",
+      "importance": 73.1,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Искусственный интеллект в 15-м пятилетнем плане Китая - Институт статистических исследований и экономики знаний",
@@ -290,6 +333,23 @@
       "editorial_value": 50.0,
       "topics": [
         "research"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXFFc0lSVUlLQjh5NkJ6Mlp1OUppX1JCTDl2YVc0cHBBSWJBd09TWGtZZXBkZ1lndzdHY2lOekZUd2tCaEt1cDRXelBLallnQXk1a01vNEtXUkVyZGtndk1HX2RRZHZQcV9fLVdKWFEybDJuMjNXVXppMVVmQXBZRVdiR3d4amc1S1JvQ0xSbms5Y1piaXBmNXlaWDNrdTlYRlo0LXF2OFl1WWV5RDhmZmFhckZwZlk10gF7QVVfeXFMUFd3ZE9Ta1Z1RHp4YUVsdUoyQ1MzRHhRejR4eVZYZ2JkUHFwTzBCM0RYTFBOZ1FwUjNVNXlicXdPM0lxWGRfNHZRcmM1b1J0ckp0dWY3ckJxdTFyRTBDSjFISTh1OW92cTZydUoyM0JzUU9UU2Q2dmpLWUN3?oc=5",
+      "desc": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788506123.0,
+      "score": 72.6,
+      "russia_weight_bonus": 4.1,
+      "key": "6fde6c3b46c78c678e1b7791b92057c9bc65076555cc30774884b12958fb0645",
+      "importance": 72.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
       ],
       "tier": "A"
     },
@@ -359,6 +419,36 @@
     },
     {
       "region": "WORLD",
+      "title": "Texas GOP Shifts Stance on AI Data Centers, Pauses Grid Approvals - Whalesbook",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVmVSaGxzeHRCajR6aDBZdHQ1My14MU9WNVFPSFhXVkJGcDI1VlJQS0MzTEEzY25jdU8xWGc5Qmh4aTlmamZDbEk5bXRSNUUtTVE2YjZIeTd4MGZWdklqcncwcjVlN3lTN25EbFNtOUVrWGU0bUw5UUE1MFNDS0t1Z0tNV3NCdjZnY3l4cUxsdlctZWQzTHNOZVdMTV83Z3ozY0k5bXhMeUJDdWc2RWlBckJTckFPUnM5RWtQWVI3czIzM3FIT2U5Nkl1REU2ejM5NDd0aXdFZw?oc=5",
+      "desc": "Texas GOP Shifts Stance on AI Data Centers, Pauses Grid Approvals Whalesbook",
+      "source": "Whalesbook",
+      "time": 1788511650.0,
+      "score": 66.5,
+      "key": "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia's $99B Bet: AI's Biggest Backer Emerges - The Tech Buzz",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNUROalE1MzM0WVo4eGFyaTFMMC11ZnZRbnlMTDFvRllvbkt1MDR4TGEtb25FWGlTZnJ1bG5EVWs0UnR4RENZdm92M1dRQVlxZW50cUdzNElyNzM2SmxyYUphcG1Hb2NoSFVlYjJjNl9leloxTEpkS3c5MnJZV0dtMi1rdw?oc=5",
+      "desc": "Nvidia's $99B Bet: AI's Biggest Backer Emerges The Tech Buzz",
+      "source": "The Tech Buzz",
+      "time": 1788511080.0,
+      "score": 66.5,
+      "key": "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Google Transforms Gemini Into Autonomous AI: Explained - JournalArta",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55cTh2WjFmdHA5eWJ3a3ZzLXFaVml4eXpvMDhTNnZKdmtPVmdvT1JleG45LWV6NG1hRW1EcDFmTWtES0dDVzN2Y3Q4b1ZQQU02aUk0UkwtWUtNMGxLWWNjb3BaVktubURCNmstXzFuNkNEZ2pldHpn?oc=5",
       "desc": "Google Transforms Gemini Into Autonomous AI: Explained JournalArta",
@@ -371,6 +461,20 @@
       "topics": [
         "models"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhNHBBaDZFT0ZfWnVPR0ZuYXRNOGtJRFZtLXNvcXRpeDB5TFprRDZ2bENQeXRIOWdPbE5WRzFUekhZLWVBZU9MYTBiVzJ3ckpCbEZhVGx3QmJrVzBNdER6NWltNTZGOEMtV1U4emhrNDZ3dw?oc=5",
+      "desc": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance TradingKey",
+      "source": "TradingKey",
+      "time": 1788508858.0,
+      "score": 66.5,
+      "key": "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -401,6 +505,20 @@
       "topics": [
         "chips"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Sber plans three-day AI Journey conference in Moscow - CFOtech Asia",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNnVWNTdIbVgyeS1NVUNfSDFCTDRuMWJLUzdfaTV0VzBNVENjZG5VV0R5WEdzdUt1ZFhhTEdlMWFlRDhqNTF3aldKRF9ENlhvOVl0b1VvRVFabndtTGNxOWZtXzA1SEZFd2NqT2R0MUpmRFZrZ0NPTk1WN0RNOUlyVWctbFJIQQ?oc=5",
+      "desc": "Sber plans three-day AI Journey conference in Moscow CFOtech Asia",
+      "source": "CFOtech Asia",
+      "time": 1788507000.0,
+      "score": 63.5,
+      "key": "e9ae58f0a606e5a34ef25b670d3c76c94d3f6fd00e2c0e803b0a86cca572b71f",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -469,20 +587,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788512961.420292,
+    "last_start_ts": 1788513026.6221929,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788512961.420292,
-    "last_success_ts": 1788512961.420292,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 12
+    "last_run_ts": 1788513026.6221929,
+    "last_success_ts": 1788513026.6221929,
+    "last_candidates": 59,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788512789.8373883
+      "updated_at": 1788513045.9644964
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1895,6 +2013,13 @@
       "desc": "Нижегородские ученые разрабатывают инновационную систему управления роботами ВФокусе Mail",
       "source": "ВФокусе Mail",
       "region": "RUSSIA"
+    },
+    "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": {
+      "time": 1788513026,
+      "title": "As agentic AI adoption accelerates, Rubrik warns of growing security gaps - TahawulTech.com",
+      "desc": "As agentic AI adoption accelerates, Rubrik warns of growing security gaps TahawulTech.com",
+      "source": "TahawulTech.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1902,7 +2027,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1917,8 +2041,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788511223.1508448,
-  "last_publish_ts": 1788512788.1076543
+  "last_search_ts": 1788513026.6221929,
+  "last_publish_ts": 1788513026.6221929
 }
