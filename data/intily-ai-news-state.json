@@ -349,22 +349,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Siemens Healthineers pushes AI-led care model for Southeast Asia - ET CIO SEA",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmJEMjI5ZkY4UGFBd0E0UUc3dFFKcVEwZ0xMM0w1X0t3SEM5SVJCWHUwdDAwX3RqM1hkVnFNX1ljbzhhZ1lVRzJITTZ3WHhmOWtlVlpURFpyQm1SUTlnV2ktOThmNHlmdWdZcHdybnVCQ2RWSlZMSDZhRkE2eEo1QktIeXhwSF9yUnJiVkZxMkt2bS00MFZtMy10WjBBN1ROYUw1MThFckJWRU82dTNWbDY3dlJPQWgxQlo5T2Nrb3hoUlJDSl9DRTJoTU1iRU5pejNhZ3VFTXVwUQ?oc=5",
-      "desc": "Siemens Healthineers pushes AI-led care model for Southeast Asia ET CIO SEA",
-      "source": "ET CIO SEA",
-      "time": 1788501769.0,
-      "score": 70.5,
-      "key": "be07a966517c9547a689ec7865aa49cb214df21b4eb6fd89c01e2510733d23ad",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Enterprise AI Agents: How to Deploy, Govern, and Scale - RS Web Solutions",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYzRaaE12T1dfcTV3UWg0Z3FxNXJGTE5SdE1SckIzMWpBTUJLc0xSM2YzSU1jV2k4UGlMSXZyc3NnLTlYLUxoU2huTHZkLVhJbGduRkhvcTRrZWNJQ2w5a0paQlJmSkNJdXNrc1lJd05QMjJNQzN2SWlDUzFuOXhEXw?oc=5",
       "desc": "Enterprise AI Agents: How to Deploy, Govern, and Scale RS Web Solutions",
@@ -460,6 +444,22 @@
     },
     {
       "region": "WORLD",
+      "title": "Siemens Healthineers pushes AI-led care model for Southeast Asia - ET CIO SEA",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmJEMjI5ZkY4UGFBd0E0UUc3dFFKcVEwZ0xMM0w1X0t3SEM5SVJCWHUwdDAwX3RqM1hkVnFNX1ljbzhhZ1lVRzJITTZ3WHhmOWtlVlpURFpyQm1SUTlnV2ktOThmNHlmdWdZcHdybnVCQ2RWSlZMSDZhRkE2eEo1QktIeXhwSF9yUnJiVkZxMkt2bS00MFZtMy10WjBBN1ROYUw1MThFckJWRU82dTNWbDY3dlJPQWgxQlo5T2Nrb3hoUlJDSl9DRTJoTU1iRU5pejNhZ3VFTXVwUQ?oc=5",
+      "desc": "Siemens Healthineers pushes AI-led care model for Southeast Asia ET CIO SEA",
+      "source": "ET CIO SEA",
+      "time": 1788501769.0,
+      "score": 67.5,
+      "key": "be07a966517c9547a689ec7865aa49cb214df21b4eb6fd89c01e2510733d23ad",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia - Martin Cid Magazine",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFZjQTJ6MlJYTndtS01SanphT1I2a1VKVTdZYmxaWXFDNWdyT1YwS2JldEV5bnZPczkxSlJSdW53cFJJWTJfVEtVWS1rZDk2ZXNoU05kNUlvcjhxRHVrMFM1ZjRqcmMxQXV3RUJqSGhpUzNyU1FGMDRwYmtuYmZWNy0zTW12ZVBzNVUw?oc=5",
       "desc": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia Martin Cid Magazine",
@@ -550,13 +550,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788505280.75571,
+    "last_start_ts": 1788505407.896427,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788505280.75571,
-    "last_success_ts": 1788505280.75571,
-    "last_candidates": 50,
-    "last_published": 1,
+    "last_run_ts": 1788505407.896427,
+    "last_success_ts": 1788505407.896427,
+    "last_candidates": 0,
+    "last_published": 0,
     "queue_size": 19
   },
   "providers": {
