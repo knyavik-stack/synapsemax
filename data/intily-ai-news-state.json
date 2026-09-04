@@ -245,7 +245,8 @@
     "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": 1788526822,
     "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788527599,
     "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0": 1788527960,
-    "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5": 1788528379
+    "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5": 1788528379,
+    "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": 1788528562
   },
   "known": {
     "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788507323.0378804,
@@ -421,21 +422,6 @@
     "cfb4913c4d4e3882dd1308d03b856760de06795398240de717c286f19452c3dc": 1788526822.0877657
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "ИИ не заменит врачей в России - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9SUHJRRl9wUjJUeEFpNV9sY29SenQxTGFGUVJGMzlKRElqRVJjU1l6WjlwVVY4TjBGZUJldjB4NDllRzE3S2VBMFM2OVlQV0JicjhfZlM4REE4bFJnY2NxMldHQU1KZDZHeUc5bmhqN09jbWtHOTl1Zk01VFM?oc=5",
-      "desc": "ИИ не заменит врачей в России prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788525167.0,
-      "score": 73.4,
-      "russia_weight_bonus": 4.9,
-      "key": "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de",
-      "importance": 73.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге - kommersant.ru",
@@ -667,20 +653,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788528379.9666896,
+    "last_start_ts": 1788528562.611157,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788528379.9666896,
-    "last_success_ts": 1788528379.9666896,
+    "last_run_ts": 1788528562.611157,
+    "last_success_ts": 1788528562.611157,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788528383.0938237
+      "updated_at": 1788528570.6393104
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2380,10 +2366,16 @@
       "desc": "AI adoption at US wealth firms lifts productivity without cutting jobs Wealth Professional",
       "source": "Wealth Professional",
       "region": "WORLD"
+    },
+    "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": {
+      "time": 1788528562,
+      "title": "ИИ не заменит врачей в России - prospect.com.ru",
+      "desc": "ИИ не заменит врачей в России prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2402,8 +2394,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788526822.0877657,
-  "last_publish_ts": 1788528379.9666896
+  "last_publish_ts": 1788528562.611157
 }
