@@ -200,7 +200,8 @@
     "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": 1788512241,
     "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529": 1788512602,
     "a85ca69b73d93cab270c3e2bc73df5557c5ca7f1e29f6b3fdaee2eb0bf977f14": 1788512788,
-    "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026
+    "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026,
+    "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336": 1788513320
   },
   "known": {
     "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491755.7473595,
@@ -419,20 +420,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Texas GOP Shifts Stance on AI Data Centers, Pauses Grid Approvals - Whalesbook",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVmVSaGxzeHRCajR6aDBZdHQ1My14MU9WNVFPSFhXVkJGcDI1VlJQS0MzTEEzY25jdU8xWGc5Qmh4aTlmamZDbEk5bXRSNUUtTVE2YjZIeTd4MGZWdklqcncwcjVlN3lTN25EbFNtOUVrWGU0bUw5UUE1MFNDS0t1Z0tNV3NCdjZnY3l4cUxsdlctZWQzTHNOZVdMTV83Z3ozY0k5bXhMeUJDdWc2RWlBckJTckFPUnM5RWtQWVI3czIzM3FIT2U5Nkl1REU2ejM5NDd0aXdFZw?oc=5",
-      "desc": "Texas GOP Shifts Stance on AI Data Centers, Pauses Grid Approvals Whalesbook",
-      "source": "Whalesbook",
-      "time": 1788511650.0,
-      "score": 66.5,
-      "key": "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Nvidia's $99B Bet: AI's Biggest Backer Emerges - The Tech Buzz",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNUROalE1MzM0WVo4eGFyaTFMMC11ZnZRbnlMTDFvRllvbkt1MDR4TGEtb25FWGlTZnJ1bG5EVWs0UnR4RENZdm92M1dRQVlxZW50cUdzNElyNzM2SmxyYUphcG1Hb2NoSFVlYjJjNl9leloxTEpkS3c5MnJZV0dtMi1rdw?oc=5",
       "desc": "Nvidia's $99B Bet: AI's Biggest Backer Emerges The Tech Buzz",
@@ -587,20 +574,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788513200.2189863,
+    "last_start_ts": 1788513320.9659276,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788513200.2189863,
-    "last_success_ts": 1788513200.2189863,
+    "last_run_ts": 1788513320.9659276,
+    "last_success_ts": 1788513320.9659276,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788513045.9644964
+      "updated_at": 1788513322.8295066
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2020,13 +2007,19 @@
       "desc": "As agentic AI adoption accelerates, Rubrik warns of growing security gaps TahawulTech.com",
       "source": "TahawulTech.com",
       "region": "WORLD"
+    },
+    "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336": {
+      "time": 1788513320,
+      "title": "Texas GOP Shifts Stance on AI Data Centers, Pauses Grid Approvals - Whalesbook",
+      "desc": "Texas GOP Shifts Stance on AI Data Centers, Pauses Grid Approvals Whalesbook",
+      "source": "Whalesbook",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2042,8 +2035,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788513026.6221929,
-  "last_publish_ts": 1788513026.6221929
+  "last_publish_ts": 1788513320.9659276
 }
