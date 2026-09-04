@@ -287,7 +287,8 @@
     "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788540261,
     "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": 1788540501,
     "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": 1788540799,
-    "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": 1788541339
+    "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": 1788541339,
+    "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": 1788541520
   },
   "known": {
     "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": 1788520820.733582,
@@ -512,23 +513,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "ИИ-агенты взломали сайт и сделали из него доску объявления для ИИ - Ruposters.ru",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONWZMUVhKN0drOWVRanpSWE80REVjdXJrVzlRZlpNT3NsQlFHWDg1Q0JTcmtvNGFJSGI3SlZhdWZOQWZFTFk5YU93YmpyX1VndzlHS1prQzI0YjQ5VXpXVlU2WG1pREdiODdfNHZoa1drRlRjcDRNUUlMcWdtLVpXM2tOLU1pLXM?oc=5",
-      "desc": "ИИ-агенты взломали сайт и сделали из него доску объявления для ИИ Ruposters.ru",
-      "source": "Ruposters.ru",
-      "time": 1788538860.0,
-      "score": 76.8,
-      "russia_weight_bonus": 4.3,
-      "key": "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d",
-      "importance": 76.8,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOURfNHRjVENzWGtqdkRtZVF6djAxS1ZlYlQ4T0ZlT0ViRUtlWjNNQVVKVmxtLTlQLV85OGZWUFl1LXJYTTVhb2tsd0lUa3VWUnhmd3VFbVlVd2VSSTBYOVNZTVN1ay1rRFU3NnpxTTdmUDEwUmtKRUdPWnVCUGExLXVxMENncmNrN1ppM1BKVF94V0ViSERKUlhWVTR6UW1Qd0NWWUdMQXZNNklWWkFTV0dGS1lBQ05GVkk5QTRKTEs?oc=5",
       "desc": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам Восток-Медиа",
@@ -712,20 +696,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788541339.8596451,
+    "last_start_ts": 1788541520.3941689,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788541339.8596451,
-    "last_success_ts": 1788541339.8596451,
+    "last_run_ts": 1788541520.3941689,
+    "last_success_ts": 1788541520.3941689,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788541342.757505
+      "updated_at": 1788541528.1433434
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2397,10 +2381,16 @@
       "desc": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth Yahoo Tech",
       "source": "Yahoo Tech",
       "region": "WORLD"
+    },
+    "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": {
+      "time": 1788541520,
+      "title": "ИИ-агенты взломали сайт и сделали из него доску объявления для ИИ - Ruposters.ru",
+      "desc": "ИИ-агенты взломали сайт и сделали из него доску объявления для ИИ Ruposters.ru",
+      "source": "Ruposters.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2419,8 +2409,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788539960.9653587,
-  "last_publish_ts": 1788541339.8596451
+  "last_publish_ts": 1788541520.3941689
 }
