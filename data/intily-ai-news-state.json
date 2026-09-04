@@ -331,7 +331,8 @@
     "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": 1788555921,
     "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": 1788556280,
     "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": 1788556522,
-    "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": 1788556939
+    "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": 1788556939,
+    "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179
   },
   "known": {
     "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536242.444593,
@@ -463,7 +464,8 @@
     "4411b5f988e06926bb75db0606fe42c6b1c0264e2eafcb321d1a1cea3f0925ec": 1788555201.4978535,
     "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6": 1788555201.4978535,
     "6348a21480241bcc69eaef3417adaff8901538a5a6555bd9ccd51441d36e043f": 1788555201.4978535,
-    "5c23257e87e7a366c8295f49712982df7bcebe4ad08b13090ef991ea59a82147": 1788555201.4978535
+    "5c23257e87e7a366c8295f49712982df7bcebe4ad08b13090ef991ea59a82147": 1788555201.4978535,
+    "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179.8212974
   },
   "queue": [
     {
@@ -607,12 +609,12 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788556939.8380277,
+    "last_start_ts": 1788557179.8212974,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788556939.8380277,
-    "last_success_ts": 1788556939.8380277,
-    "last_candidates": 0,
+    "last_run_ts": 1788557179.8212974,
+    "last_success_ts": 1788557179.8212974,
+    "last_candidates": 20,
     "last_published": 1,
     "queue_size": 9
   },
@@ -620,7 +622,7 @@
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788556943.0411484
+      "updated_at": 1788557191.3808327
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -634,13 +636,6 @@
     }
   },
   "stories": {
-    "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c": {
-      "time": 1788470649,
-      "title": "Why Clément Delangue Sold Hugging Face to Nvidia After Turning It Down - observer.com",
-      "desc": "Why Clément Delangue Sold Hugging Face to Nvidia After Turning It Down observer.com",
-      "source": "observer.com",
-      "region": "WORLD"
-    },
     "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": {
       "time": 1788470843,
       "title": "Intel Crescent Island AI GPU Slips, Nvidia Holds 80% [2026] - tech-insider.org",
@@ -2229,10 +2224,16 @@
       "desc": "Why Did Nvidia Acquire Hugging Face? Semiecosystem",
       "source": "Semiecosystem",
       "region": "WORLD"
+    },
+    "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": {
+      "time": 1788557179,
+      "title": "Советник Зеленского признал отставание Украины от РФ в ИИ для БПЛА - Techora.ru",
+      "desc": "Советник Зеленского признал отставание Украины от РФ в ИИ для БПЛА Techora.ru",
+      "source": "Techora.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2251,8 +2252,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
-  "last_search_ts": 1788555201.4978535,
-  "last_publish_ts": 1788556939.8380277
+  "last_search_ts": 1788557179.8212974,
+  "last_publish_ts": 1788557179.8212974
 }
