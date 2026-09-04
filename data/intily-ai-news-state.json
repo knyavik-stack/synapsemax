@@ -128,7 +128,8 @@
     "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": 1788479277,
     "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": 1788479695,
     "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": 1788479936,
-    "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe": 1788480175
+    "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe": 1788480175,
+    "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27": 1788480413
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -277,25 +278,6 @@
   },
   "queue": [
     {
-      "region": "RUSSIA",
-      "title": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVUZ6QVRvSTY2QzBGbFdGUmhtaXZDMXBKTFV4ZUJKQklzc2RndlM5NjkxdWhGVE9KdmVzNUs0bjUxRHU1YUNvZlhQbndiWU42SjNhN25tUUw1b0hpc05Ld29XVkZucy1XRDhYc19mQXpKblBGRE1kcVlpU01RVFpxZU1tbWY5SG9YRXhacnRNU2g0YWtCcGRfdHNwbGVuY1pKZGRtcS12VkcwZnJFNE5ZMjA5b2w5VU8tZDNBUFA2R1FJc1pjUlhB?oc=5",
-      "desc": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788475927.0,
-      "score": 69.4,
-      "russia_weight_bonus": 4.9,
-      "key": "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27",
-      "importance": 69.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788480175,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788480475
-    },
-    {
       "region": "WORLD",
       "title": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF - Information Technology and Innovation Foundation",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdFh0V1ZOd3pya05fN1NDaUdUbUgtMDhLMVZRUE1ITDE1RHVfX1E5MVdyR3FPUVNtYUpnOFJNblQ3SDhyakhWQXdDRm9abmE3NUNOcjZFQ0xEdlhFSkxTSFZvSVFVTHNnRGhtWm5DUHVIdzJMWVh6VGY0WEttV1ZQLUJ0TnBtRnRMWWF6YVZmUzYzWFplNWF5SldDLTRKSGRQUEJGZmEycWhBeGw1a0dBN3JnVzA?oc=5",
@@ -432,20 +414,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788480296.3913927,
+    "last_start_ts": 1788480413.5528688,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788480296.3913927,
-    "last_success_ts": 1788480296.3913927,
+    "last_run_ts": 1788480413.5528688,
+    "last_success_ts": 1788480413.5528688,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 9
+    "last_published": 1,
+    "queue_size": 8
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788480186.7244694
+      "updated_at": 1788480420.3479288
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1361,6 +1343,13 @@
       "desc": "Сбер объединил российские и индийские агентства на одной платформе Muksun.fm",
       "source": "Muksun.fm",
       "region": "RUSSIA"
+    },
+    "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27": {
+      "time": 1788480413,
+      "title": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями - prospect.com.ru",
+      "desc": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1371,7 +1360,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1382,9 +1370,10 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788478796.2150717,
-  "last_publish_ts": 1788480175.9027636
+  "last_publish_ts": 1788480413.5528688
 }
