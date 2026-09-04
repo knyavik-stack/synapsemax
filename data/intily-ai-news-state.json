@@ -186,7 +186,8 @@
     "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220": 1788506842,
     "69f66e1dce7410a63189f8a91065208dcd28f2e035afca03bb728fb8fc72f14f": 1788507323,
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788507683,
-    "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788508281
+    "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788508281,
+    "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9": 1788508523
   },
   "known": {
     "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": 1788487975.2950916,
@@ -284,22 +285,6 @@
       "russia_weight_bonus": 2.1,
       "key": "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc",
       "importance": 73.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Why identity security must evolve for both humans and AI - Security Journal Americas",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Kc0FHcnp0TWJkMUxhY0puc2xiX0dCa1dTRTFnSGJKU25TWmV5THRGamthRnAxNFptRkZaOEhSaEo4N0loal95bEF0QVZZNEZ1dFVSMzNwakhkTGdkeFZHQ3J5Q1FkN2hoVWZENzY4Z0ZuZUJkQzJsZG53?oc=5",
-      "desc": "Why identity security must evolve for both humans and AI Security Journal Americas",
-      "source": "Security Journal Americas",
-      "time": 1788506340.0,
-      "score": 70.5,
-      "key": "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9",
-      "importance": 70.5,
       "editorial_value": 50.0,
       "topics": [
         "security_regulation"
@@ -530,20 +515,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788508461.1183462,
+    "last_start_ts": 1788508523.0319016,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788508461.1183462,
-    "last_success_ts": 1788508461.1183462,
+    "last_run_ts": 1788508523.0319016,
+    "last_success_ts": 1788508523.0319016,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788508284.5805857
+      "updated_at": 1788508526.9233592
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1865,13 +1850,19 @@
       "desc": "Сбер представил видение будущего торговли: от платформ к ИИ-агентам primpress.ru",
       "source": "primpress.ru",
       "region": "RUSSIA"
+    },
+    "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9": {
+      "time": 1788508523,
+      "title": "Why identity security must evolve for both humans and AI - Security Journal Americas",
+      "desc": "Why identity security must evolve for both humans and AI Security Journal Americas",
+      "source": "Security Journal Americas",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1887,8 +1878,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788507323.0378804,
-  "last_publish_ts": 1788508281.1206663
+  "last_publish_ts": 1788508523.0319016
 }
