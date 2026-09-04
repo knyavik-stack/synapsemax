@@ -259,7 +259,8 @@
     "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": 1788531682,
     "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be": 1788532040,
     "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": 1788532282,
-    "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a": 1788532522
+    "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a": 1788532522,
+    "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136": 1788532764
   },
   "known": {
     "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511223.1508448,
@@ -462,27 +463,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWXRybm1UOFo5cHNMSUttODBGV1ZBY0FIdUJXT016S0hNWGNja0VFUTdNVkZ6bVBiQ3BmbE1vT2tBZEEtNGFjY0pOY2VjWmFIQWotbncwTF9Ra3FOLUM5aXhsalFvajZXd0dxQUZUaVgta0U4dWZBbTJWTkZiN3pYNzNtai13NFU1SHB0b2c4LTQxWk55ZkRscHNGZUV6RjdWT2tpcUJrZEdIcE1hcVduSnU4RkM1dHZlTlA1cWF1NmVoVHhJQm5VVHBHQ1VScmlUaXdlNnFMUQ?oc=5",
-      "desc": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788529980.0,
-      "score": 78.4,
-      "russia_weight_bonus": 2.9,
-      "key": "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136",
-      "importance": 78.4,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788532282,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 3,
-      "next_retry_at": 1788533482
-    },
-    {
-      "region": "RUSSIA",
       "title": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI - expert.ru",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVm16ejNZY1o4cGZMYmxWRy1EcEJuQzFRRjN0eDhqLUh4Q3BXbUc4MXdYbUpUTTdsNXQxLXpXU0pOTkg4MXF4cmxRWUJNcTJySDJZbldJcFo3dDZYQzFlYTNYUzRiNGtGM01CSVBXTTJiRy03X2h6REpzbVRLTkRBYWl4dFh1OEM1SFM4?oc=5",
       "desc": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI expert.ru",
@@ -577,20 +557,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Anthropic Makes Stunning $15 Billion Move Before IPO - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZVJNMTMzbVNaYUVzQnJDSWVLdVkyZUViMmFyUDF6djU5QmV2UTF4WHNzZXJ6aElwOGlxYjVOamFJRG0yQTA4UGcwWXdpVTZxOE5pZ2JaTWNRSGNFVzE2Q0x2M2dPQm5DaVdmejcxQjEyODhIS0JvblZPbGJwZm96azJ3OE9qUy02NUxENzkzTE9rYTZKRllOR0wxdm5EUUY2ZWt2cjRNd3Y5UTJsdVJONw?oc=5",
-      "desc": "Anthropic Makes Stunning $15 Billion Move Before IPO TradingView",
-      "source": "TradingView",
-      "time": 1788529049.0,
-      "score": 70.5,
-      "key": "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "«Использовать ИИ только ради моды мы не будем» - kommersant.ru",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Qa0lOcW01ZTZEV3RIX1hXa3ljOHNCNmg4Ym0tU3BTbWtmZXlEOU1QSHRhV2cwNkxUTjB5bk9fZlo5bXZxZHBYY2RaYzlyZw?oc=5",
@@ -646,6 +612,20 @@
       "russia_weight_bonus": 2.1,
       "key": "84d68356b3274c1bf108c445ff31645659115c4ab74eced1a70996ea4edcf591",
       "importance": 67.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic Makes Stunning $15 Billion Move Before IPO - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZVJNMTMzbVNaYUVzQnJDSWVLdVkyZUViMmFyUDF6djU5QmV2UTF4WHNzZXJ6aElwOGlxYjVOamFJRG0yQTA4UGcwWXdpVTZxOE5pZ2JaTWNRSGNFVzE2Q0x2M2dPQm5DaVdmejcxQjEyODhIS0JvblZPbGJwZm96azJ3OE9qUy02NUxENzkzTE9rYTZKRllOR0wxdm5EUUY2ZWt2cjRNd3Y5UTJsdVJONw?oc=5",
+      "desc": "Anthropic Makes Stunning $15 Billion Move Before IPO TradingView",
+      "source": "TradingView",
+      "time": 1788529049.0,
+      "score": 67.5,
+      "key": "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344",
+      "importance": 67.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -756,20 +736,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788532644.7515292,
+    "last_start_ts": 1788532764.0351186,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788532644.7515292,
-    "last_success_ts": 1788532644.7515292,
+    "last_run_ts": 1788532764.0351186,
+    "last_success_ts": 1788532764.0351186,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788532524.9310637
+      "updated_at": 1788532773.2517433
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -783,13 +763,6 @@
     }
   },
   "stories": {
-    "1ec145aa1aaedb78d678b8ede97f947426a47a517d4f411f85cdec55c219b03a": {
-      "time": 1788446352,
-      "title": "Nvidia купит Hugging Face за $12 930 300 000 - InvestFuture",
-      "desc": "Nvidia купит Hugging Face за $12 930 300 000 InvestFuture",
-      "source": "InvestFuture",
-      "region": "RUSSIA"
-    },
     "19ddf1cee1544186e535f7cc4455cd8292655a465f48a2fd948d34345dc07b4f": {
       "time": 1788446711,
       "title": "Anthropic and OpenAI Launch Advanced AI Models Amid Cyber Risk Concerns - Readers.id",
@@ -2462,10 +2435,16 @@
       "desc": "ChatGPT model launched with extra 'safeguards' after bots hacked company Metro.co.uk",
       "source": "Metro.co.uk",
       "region": "WORLD"
+    },
+    "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136": {
+      "time": 1788532764,
+      "title": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона - prospect.com.ru",
+      "desc": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2484,8 +2463,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788532400.983643,
-  "last_publish_ts": 1788532522.1247811
+  "last_publish_ts": 1788532764.0351186
 }
