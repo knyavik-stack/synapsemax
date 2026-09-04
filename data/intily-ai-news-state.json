@@ -144,7 +144,8 @@
     "dff5d6155d5233ffeae60a82978f46c87b6871221dfce93d941e3ccbc58e00a2": 1788483894,
     "8fdb123c8d416a50f4e2e5d1895db00d628785a8fbb3a7de6a970363d581f11a": 1788484141,
     "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": 1788484674,
-    "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": 1788484855
+    "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": 1788484855,
+    "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788485577
   },
   "known": {
     "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": 1788465071.3605509,
@@ -249,22 +250,6 @@
     "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788484314.51329
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Anthropic Chief Commercial Officer: No Price War—Focus on Enterprise Value and Pre-IPO Financing - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BRUF4V2I2QmRYcUk0cmZLQmhjUkxyU05sTlhodzdtcWNzUDUzUVFESk5zblY3eVVFdEx3bGcyRE5RM3lyQ0F3aGVKcW5NUHRyNXVPMXBmY2U4TmRTVnNUcXM1bXk5dVhJSzRUd0N5VXEzSFpESHc?oc=5",
-      "desc": "Anthropic Chief Commercial Officer: No Price War—Focus on Enterprise Value and Pre-IPO Financing finance.biggo.com",
-      "source": "finance.biggo.com",
-      "time": 1788482160.0,
-      "score": 69.5,
-      "key": "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Telestream AI-Boosted Resolution Upscaling Powered by NVIDIA - Content + Technology",
@@ -431,20 +416,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788484977.0795753,
+    "last_start_ts": 1788485577.1813817,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788484977.0795753,
-    "last_success_ts": 1788484977.0795753,
+    "last_run_ts": 1788485577.1813817,
+    "last_success_ts": 1788485577.1813817,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 11
+    "last_published": 1,
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788484879.8639724
+      "updated_at": 1788485580.381508
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1472,11 +1457,17 @@
       "desc": "Comcast Unveils Next-Gen Video AI Applications Content + Technology",
       "source": "Content + Technology",
       "region": "WORLD"
+    },
+    "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": {
+      "time": 1788485577,
+      "title": "Anthropic Chief Commercial Officer: No Price War—Focus on Enterprise Value and Pre-IPO Financing - finance.biggo.com",
+      "desc": "Anthropic Chief Commercial Officer: No Price War—Focus on Enterprise Value and Pre-IPO Financing finance.biggo.com",
+      "source": "finance.biggo.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
@@ -1487,6 +1478,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1497,5 +1489,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788484314.51329,
-  "last_publish_ts": 1788484855.8452888
+  "last_publish_ts": 1788485577.1813817
 }
