@@ -137,7 +137,8 @@
     "c850ae2facf0311829a649fd7d19fe9c1bbbc542864c143eaa3056caa07cba0f": 1788481734,
     "4110337c9b2c90c5bebad52851e25f3f5c5ab5975592dcac36d943d3db64142f": 1788481976,
     "073837b040a96ddedcdb211ef92accd7f05eda357a64dd5514228c33818406e4": 1788482395,
-    "4c9bb67e1d0c0762e9d064b69a9ec0f83e9f432d5a0aeaa816664d1307254797": 1788482816
+    "4c9bb67e1d0c0762e9d064b69a9ec0f83e9f432d5a0aeaa816664d1307254797": 1788482816,
+    "eda7f1adf120bc9056f8b8cc828697a48f03bce7af09324c90a54ff88ee25b85": 1788483115
   },
   "known": {
     "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269.910863,
@@ -254,22 +255,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "Robotaxis London, OpenAI humanoid plans, MIT AV insights - blockchain.news",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVmI4ajNTdEJOQUFWT3VhMFRvWDlTSXBsbDZrMUFPRXpQT3lDS2QxN0tJTUJTeTBzZVR4M2Q1MllkbnFWT09hcWpOb1RWNndIQ3Flb3ZIODRaa0IySXZTV2x0ZUs2M0VDUkt4clhoX3J3ZXFPdUNBclFSS2V5cHJvQUJKNjJlLS15SVZSNWh3?oc=5",
-      "desc": "Robotaxis London, OpenAI humanoid plans, MIT AV insights blockchain.news",
-      "source": "blockchain.news",
-      "time": 1788481890.0,
-      "score": 70.5,
-      "key": "eda7f1adf120bc9056f8b8cc828697a48f03bce7af09324c90a54ff88ee25b85",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "OpenAI GPT6 Astra demo sparks 2026 hype - blockchain.news",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE15blhfVkV0SENJNmpna0wtNVdfbmJ3VUZ3d0VhQkR6V0tuQ1ZZZkJvdFFCRzBleUdyeUVsM1BNREhuSGsyQ3JoNXFuQnpTdV9ZMm16WmdlZnRybGM4NndueXVhZzhuQzVESUhraG9lbUltYWtqZ0pnSGNB?oc=5",
       "desc": "OpenAI GPT6 Astra demo sparks 2026 hype blockchain.news",
@@ -360,23 +345,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Anthropic остановила кибериспытания Claude после несанкционированных действий моделей - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ2lwWTNHbm5EZkZtQXBjdWNpZXBwVHNucHR2MGpHczEwZndrRmRETGZSSUF6M0RPb2lnZ3VFaDB4Rm9aZGNMTTRwX2stOENhMlVvUFNsRG9jV3FTWTd2ek95Skdoci1veURnYk9ibjExY191QW40cUdOZGVMSEF3eWpLbDhUNTNYWmFPOER1SlRFbGtjdldJSFNXN3ptWFZrMThLLVJTcldWZ3l1SnN0ZGFoZDRHZnFHdTVVTkJiSkVvaGpfT1hTNw?oc=5",
-      "desc": "Anthropic остановила кибериспытания Claude после несанкционированных действий моделей prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788461432.0,
-      "score": 62.1,
-      "russia_weight_bonus": 2.1,
-      "key": "2d550f4e4757d96141ac5c9ad6cb928d266efcd075e09234a791bac31625fe73",
-      "importance": 62.1,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Боится солнца и любит морщины: как живет блондинка из «Детективного агентства ''Лунный свет''» - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYmE4cVNxVVBwcVpKSGJ3ZWFRNTQ1Y0VycUhvYXYyS0lDdVN0U2hnemZGS0k2RU9QajVhOFdLQlZ4Q0lhTUdRZDlocHZvRWpMQVdaZ2E2cU5WaDkwYnRVUDdvZC1sTVpuSzNqdzBvWEhMT3FLamRMTVRtLVc4aTZWMlhwR0RBNFJuM09iNldHZmRVckt5V1JsNWs5ZXZ5Z0RmdFNvMjZ3Q25nam9tRHM0aUxYd2xKWDdVOWZtN3NZN1R0cEpkZU96QWZ5cFZWaUk?oc=5",
       "desc": "Боится солнца и любит морщины: как живет блондинка из «Детективного агентства ''Лунный свет''» prospect.com.ru",
@@ -407,21 +375,6 @@
       "topics": [
         "robotics"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Ученые НИУ ВШЭ научили нейросеть превращать 3D-модели в готовые техкарты - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcDh1V2drNXhCaGZaTWJwb0pIRkE1Smt4TTF4aUVhR05OeW1CakZFZDRYYWYzejR5Q3FLdjluSmpBQ2tOemp5TktvTXRlSm9YRl9YUDR6WjFqLTU0MmlBaGFDeDBCN2h4RmJtbS1fd1ZqYWtndFpMUy02Q1VfZjBTYVVBZzZPU0RGSVZHMXNaWE1uVGFpMl9KcXJZUGU0eXNUeC1aQkpTWFlsdktuQUwwR0JWS1RUbHE2Y3BrR9IBe0FVX3lxTE82VGFZYmFUeTJwX2lndXN4bkYwQXFNNG83VE1nUHZ1OURFMzFFRWhocXA1bm9qTjRpQzgyamZQdXAwbGVnbVluTGU2dHhiQm9OTE9zckpCMVVNWW91ZDl4WTZSdkxocm1JRUdxZmZUR1NtQ1lSbzFDdEM2VQ?oc=5",
-      "desc": "Ученые НИУ ВШЭ научили нейросеть превращать 3D-модели в готовые техкарты companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788439871.0,
-      "score": 60.6,
-      "russia_weight_bonus": 4.6,
-      "key": "3170fd69b6b9e38924d5b6d8f3a7b8553c8535db86de20664b896aa621073be6",
-      "importance": 60.6,
-      "editorial_value": 50.0,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -512,20 +465,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788482935.876378,
+    "last_start_ts": 1788483115.1826432,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788482935.876378,
-    "last_success_ts": 1788482935.876378,
+    "last_run_ts": 1788483115.1826432,
+    "last_success_ts": 1788483115.1826432,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788482820.1941578
+      "updated_at": 1788483118.9571075
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1504,6 +1457,13 @@
       "desc": "Michelle Schmaderer Launches House of Profits™, a First-of-Its-Kind Business-Building Experience for the AI Economy The Manila Times",
       "source": "The Manila Times",
       "region": "WORLD"
+    },
+    "eda7f1adf120bc9056f8b8cc828697a48f03bce7af09324c90a54ff88ee25b85": {
+      "time": 1788483115,
+      "title": "Robotaxis London, OpenAI humanoid plans, MIT AV insights - blockchain.news",
+      "desc": "Robotaxis London, OpenAI humanoid plans, MIT AV insights blockchain.news",
+      "source": "blockchain.news",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1511,7 +1471,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1526,8 +1485,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788482453.6053247,
-  "last_publish_ts": 1788482816.1043465
+  "last_publish_ts": 1788483115.1826432
 }
