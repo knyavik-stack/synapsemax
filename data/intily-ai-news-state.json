@@ -666,13 +666,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788551902.9013429,
+    "last_start_ts": 1788552021.993079,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788551902.9013429,
-    "last_success_ts": 1788551902.9013429,
+    "last_run_ts": 1788552021.993079,
+    "last_success_ts": 1788552021.993079,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 12
   },
   "providers": {
@@ -693,13 +693,6 @@
     }
   },
   "stories": {
-    "b44520755e58ed7ab860834d44786714b3d882449542747ad7e92d170883745f": {
-      "time": 1788465612,
-      "title": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года - RB.ru",
-      "desc": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года RB.ru",
-      "source": "RB.ru",
-      "region": "RUSSIA"
-    },
     "c9fb3fa963c6f103988263f2842c4806c66f9cf27556238770822ab7c2d955e9": {
       "time": 1788465971,
       "title": "OpenAI launches GPT-6 Astra, its most powerful model yet and touts its ability to use your computer - Fortune",
