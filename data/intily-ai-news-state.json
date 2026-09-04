@@ -355,21 +355,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "В России начали внедрять нейросетевую расшифровку в журнал звонков - dg-yug.ru",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tT3VCWXdSWW9HVGZtcnVGdzNSNS1Bd1B5ckpWZGFFNFVJOEpEVVJwUjlnQ3FWMVVEV2hKZlhtVFVzT3FsbUJfR3BfWFFudTFvNVE?oc=5",
-      "desc": "В России начали внедрять нейросетевую расшифровку в журнал звонков dg-yug.ru",
-      "source": "dg-yug.ru",
-      "time": 1788510098.0,
-      "score": 71.5,
-      "russia_weight_bonus": 3.0,
-      "key": "9ccaa61d9072f176daa15ff3bbf976d19c43f155694233aca655e5a797f00a7b",
-      "importance": 71.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
       "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
@@ -415,6 +400,21 @@
       "topics": [
         "research"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В России начали внедрять нейросетевую расшифровку в журнал звонков - dg-yug.ru",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tT3VCWXdSWW9HVGZtcnVGdzNSNS1Bd1B5ckpWZGFFNFVJOEpEVVJwUjlnQ3FWMVVEV2hKZlhtVFVzT3FsbUJfR3BfWFFudTFvNVE?oc=5",
+      "desc": "В России начали внедрять нейросетевую расшифровку в журнал звонков dg-yug.ru",
+      "source": "dg-yug.ru",
+      "time": 1788510098.0,
+      "score": 68.5,
+      "russia_weight_bonus": 3.0,
+      "key": "9ccaa61d9072f176daa15ff3bbf976d19c43f155694233aca655e5a797f00a7b",
+      "importance": 68.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -557,13 +557,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788513685.5020897,
+    "last_start_ts": 1788513740.6662352,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788513685.5020897,
-    "last_success_ts": 1788513685.5020897,
+    "last_run_ts": 1788513740.6662352,
+    "last_success_ts": 1788513740.6662352,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 17
   },
   "providers": {
