@@ -151,7 +151,8 @@
     "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788487050,
     "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": 1788487314,
     "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": 1788487613,
-    "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788487794
+    "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788487794,
+    "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": 1788487975
   },
   "known": {
     "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049.748359,
@@ -240,9 +241,95 @@
     "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174.074481,
     "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": 1788486174.074481,
     "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": 1788486174.074481,
-    "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788486174.074481
+    "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788486174.074481,
+    "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": 1788487975.2950916,
+    "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": 1788487975.2950916,
+    "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa": 1788487975.2950916,
+    "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": 1788487975.2950916,
+    "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": 1788487975.2950916,
+    "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": 1788487975.2950916,
+    "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166": 1788487975.2950916
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding - IDC | Trusted Tech Intelligence",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPLVZ5X0JjLWRGMHhKREwwMUtUc0JMVXgzMFhIRE1Od0pGd09GWUNoclN3aDk4YTRBSF94VXR3NDU2MjdCeGltTmpzTXZvbXdPNGlPQ205YWMtOFg3bDJqUzg0VFJWc0Q4Y2ItclA3MlNwc3hsR3ZnVmhzeFAzbzJSVmZFeEJnamNpXzVxX2tINm5nWkRMNDhIWVpvSTRSSzJFcW5VZmt6aHBFQQ?oc=5",
+      "desc": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding IDC | Trusted Tech Intelligence",
+      "source": "IDC | Trusted Tech Intelligence",
+      "time": 1788482231.0,
+      "score": 70.5,
+      "key": "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "UCL and AIMS release free AI teaching toolkit for universities | ETIH EdTech News - edtechinnovationhub.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRWRtWm9qVTZkeXlOMDNxazFYQ0ZwY1U2RzZwWm40aS1HR1d5M0dVdDBFWjNXeTFrZXI2RXJKVk1JSndyRHZDOWxCWm5zdG12NXhiQ0pFS252RWQzelRMVzBuejNwbU9iZHR4SjVDb21qdVVfNTd5ZzktOFpCUm1Sd2lCMHZaWGg4WlhDLXVJOWlPZjRzbFlCdDU5R0taeV9YWENCdmliOFBFMnNHdDRINnFFbw?oc=5",
+      "desc": "UCL and AIMS release free AI teaching toolkit for universities | ETIH EdTech News edtechinnovationhub.com",
+      "source": "edtechinnovationhub.com",
+      "time": 1788479346.0,
+      "score": 70.5,
+      "key": "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Major AI platforms suffer outages - The Express Tribune",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNSHljS2ZZTTRVQVE3T1RZdTdtODJkY3FWWlpiVGx6YTNqUGJnWmdIS2wxdzJQcHQwODRqbmtVZkFhb1lFY1JVdFZOWk1XNGswS2g1YUV1NENWRFQxcWl0WG1XU1diU3NHTUcxY1BRN0h1U2RnLTJxb2ln0gGCAUFVX3lxTFBPYTNxU1VUVF9vOElrb2M0MEpxM3Juc2J5cHlSdlVCemJ5OEFuMTI1Z2RoMTNQOFB6RzgxUm9WS25GbThac1lYM01YVjdCeHVHdHhHTXVzZkgwMGxsZUNhUk02SDVfcXNjeGs4Mm1GSENaZUZ5R1pEWkRTblptR2RsdWc?oc=5",
+      "desc": "Major AI platforms suffer outages The Express Tribune",
+      "source": "The Express Tribune",
+      "time": 1788485488.0,
+      "score": 69.5,
+      "key": "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "LG Opens Spark 2026 With Nvidia, Google - businesskorea.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WZEs5R1BGM3BWWGRKVmpTWWVEUWJoRDlTZkI5VVRsYW5tYVI1SmFMQ0Y2bmV2S0FWMzFyV2pjWk1xbE1mTW5UWmM5WTk0X3JjVk03WDBuU3FtcC0tRWVzaGdUZ0FvQ1FuVC0zTUMwY1VYS3gt?oc=5",
+      "desc": "LG Opens Spark 2026 With Nvidia, Google businesskorea.co.kr",
+      "source": "businesskorea.co.kr",
+      "time": 1788484609.0,
+      "score": 69.5,
+      "key": "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump - Українські Національні Новини (УНН)",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLTlOSTlKQzlQamN3My1oUE4xNmNTaDJBTmpkY0xON1pwMWx4VjhtUDdscVE3QW5vdTg1bWFNWnV2V09id2tUaGQ2UVBidkxyMm5fUjZndDFCNjFZSzN1dmVzSXVEa183YkFHTEtuTzF4ZFZKczhCT3ZGRVlVd0tsZnlsVnoxaWU4V3kwMC1EdFpudHF1MHd4dXQ3VnFWenNjb0VObU9EcWV5TWJxd21RNWpZM0p2bXhpbTUyOVZORWpCbm5nd3RvZNIBxwFBVV95cUxOY0w2dHRUc0ItbTA1SmR3TXJuaG5uWE9CSmpORmc1SUJqbkpoUXZ4TE5KTEhrT051MUlUcmtrbHFRTkxLVEVfRGVfeTFjaTA2T095R2J3RkNNc1VvT3ZBajNIaHVDX01GV1d0RktiSWJGb19mRVZ6cUVxcnMtbDlHcU8zM2dma0NyZ2JkZ2thMEFuVVJnTFo3QzZwcjItalVOdjdCMUJVeW9tc2lyVTJFWVh0MEhiSUFsTWQ3b0gwSlFnUFNxRUJV?oc=5",
+      "desc": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump Українські Національні Новини (УНН)",
+      "source": "Українські Національні Новини (УНН)",
+      "time": 1788486921.0,
+      "score": 66.5,
+      "key": "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Боится солнца и любит морщины: как живет блондинка из «Детективного агентства ''Лунный свет''» - prospect.com.ru",
@@ -275,6 +362,21 @@
       "topics": [
         "robotics"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "«Одноклассники» запустили ИИ‑сервис для обработки фото и создания виртуальных подарков - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeTdIOE1EcGllZmpIa1J6aVFaUDlabUREVUtoblFEbjFzT0ZsNThNeUxhYkNIYjFocVFqbVZvUktSalg0aUlWNkJPVUR4S2xaT3pCcWxHYklheGcybWxCQ0JHaEg1Z3R4OEhubFlCdTRnV0o5VFQwVm5mV2twb3ByX2VrWF9fRndVNjFtVTE3dS02ZFFCek1QdWJjSHFaTTR2UWRrQm9vMjloRldCbmhrSkx3Q2xlbmk5T0FFVm9fVHFjYmpB?oc=5",
+      "desc": "«Одноклассники» запустили ИИ‑сервис для обработки фото и создания виртуальных подарков prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788447032.0,
+      "score": 60.5,
+      "russia_weight_bonus": 4.5,
+      "key": "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166",
+      "importance": 60.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -332,20 +434,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788487914.7350602,
+    "last_start_ts": 1788487975.2950916,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788487914.7350602,
-    "last_success_ts": 1788487914.7350602,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 5
+    "last_run_ts": 1788487975.2950916,
+    "last_success_ts": 1788487975.2950916,
+    "last_candidates": 66,
+    "last_published": 1,
+    "queue_size": 11
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788487797.216543
+      "updated_at": 1788487998.0331025
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1422,14 +1524,21 @@
       "desc": "The turbulent AI era is here. The choices we make now are critical. Gates Notes",
       "source": "Gates Notes",
       "region": "WORLD"
+    },
+    "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": {
+      "time": 1788487975,
+      "title": "Nvidia’s next AI play: own the platform where open models are built, shared and deployed - Ynetnews",
+      "desc": "Nvidia’s next AI play: own the platform where open models are built, shared and deployed Ynetnews",
+      "source": "Ynetnews",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1446,6 +1555,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788486174.074481,
-  "last_publish_ts": 1788487794.6979592
+  "last_search_ts": 1788487975.2950916,
+  "last_publish_ts": 1788487975.2950916
 }
