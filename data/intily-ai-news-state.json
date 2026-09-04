@@ -179,7 +179,8 @@
     "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6": 1788496854,
     "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156,
     "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547,
-    "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788497907
+    "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788497907,
+    "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": 1788499614
   },
   "known": {
     "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796.2150717,
@@ -259,52 +260,32 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788499375,
+      "last_failed_at": 1788499614,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 3,
-      "next_retry_at": 1788500575
-    },
-    {
-      "region": "WORLD",
-      "title": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcW1ubGhVdk5SNnpqYXRnQndFUVBVTHVXMlNJRll4TWZwYzhhT25kOE1VQXdlcnVZSHp5bWNTQm56WkU2M2YtdjdZTXJqMC1WMUtTYUdwQmZJTF9SWWczYVY4MldLUHlfc21TSC1yclloenFxeFk1Y0IyM041Y3ptbWVwMG0yZnRfZE1XT1hyUWFOM3JELVJNbA?oc=5",
-      "desc": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? The Motley Fool",
-      "source": "The Motley Fool",
-      "time": 1788498111.0,
-      "score": 66.5,
-      "key": "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788499375,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 3,
-      "next_retry_at": 1788500575
+      "failure_count": 4,
+      "next_retry_at": 1788502014
     }
   ],
   "health": {
-    "last_start_ts": 1788499375.8713057,
+    "last_start_ts": 1788499614.1416829,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788499375.8713057,
-    "last_success_ts": 1788499375.8713057,
+    "last_run_ts": 1788499614.1416829,
+    "last_success_ts": 1788499614.1416829,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 2
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788497930.533952
+      "updated_at": 1788499728.8582268
     },
     "GROQ": {
-      "disabled_until": 1788499524.6517646,
+      "disabled_until": 1788521249.7841213,
       "reason": "GROQ_403_1010",
-      "updated_at": 1788477924.6517658
+      "updated_at": 1788499649.7841232
     },
     "OPENAI": {
       "disabled_until": 1788532483.2894158,
@@ -1572,10 +1553,16 @@
       "desc": "Россиян могут уволить из-за загрузки рабочих документов в нейросети prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": {
+      "time": 1788499614,
+      "title": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? - The Motley Fool",
+      "desc": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? The Motley Fool",
+      "source": "The Motley Fool",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1594,8 +1581,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788498274.389358,
-  "last_publish_ts": 1788497907.253651
+  "last_publish_ts": 1788499614.1416829
 }
