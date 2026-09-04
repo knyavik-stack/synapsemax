@@ -182,14 +182,10 @@
     "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788497907,
     "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788499739,
     "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": 1788505280,
-    "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d": 1788505701
+    "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d": 1788505701,
+    "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220": 1788506842
   },
   "known": {
-    "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": 1788484314.51329,
-    "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": 1788484314.51329,
-    "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788484314.51329,
-    "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": 1788484314.51329,
-    "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788484314.51329,
     "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174.074481,
     "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": 1788486174.074481,
     "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": 1788486174.074481,
@@ -266,27 +262,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets - Help Net Security",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTnBIdTB1V1VFS0hPUGNlNmROWGZsZFc5cWVQNVB6N1U1Y0hrTW9IanF0ZC1VNk9lcUF1c0s5dVhsZU1zYl9kRk1RUU82VzhydlN1TVdXSHZwdkREVm1EaEY4dVgxZ0p2MmxoQWpjNjBYMnZzck9JTVdqMDJGSlY2aVdQUmhDU3h5bjYzb0Vnaw?oc=5",
-      "desc": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets Help Net Security",
-      "source": "Help Net Security",
-      "time": 1788496541.0,
-      "score": 74.5,
-      "key": "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220",
-      "importance": 74.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "security_regulation"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788505701,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788506001
-    },
-    {
       "region": "RUSSIA",
       "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
@@ -316,23 +291,6 @@
       "importance": 72.5,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcHNSdUdrckpadThCUlJiM3VaTFRJdzdIY09ZejkwbloxZ2IzdFJ5M1V4MDlZajdLMnpQU3BWMExBcmRpTndQSk50ZnRRTXhlS2Nycm92Y29YQThSeW91d05PODN0RDZWdnFZNTdVM0ZQaGZxUWplbk1YUC1FQkI2aFZOVWx1VlRLc0FPWW9qbmd5bVpCSzNPZEJZYjlHcHlCVC1rS1htQnZ6bmZBdnJsN2Nuci1xbkx1R2VGcEdUYmxZTjJrWFNndzU2cVp5RmFvWV9iUmxEVFY?oc=5",
-      "desc": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab TradingKey",
-      "source": "TradingKey",
-      "time": 1788502958.0,
-      "score": 70.5,
-      "key": "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "chips"
-      ],
       "tier": "A"
     },
     {
@@ -428,6 +386,23 @@
       "importance": 68.1,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcHNSdUdrckpadThCUlJiM3VaTFRJdzdIY09ZejkwbloxZ2IzdFJ5M1V4MDlZajdLMnpQU3BWMExBcmRpTndQSk50ZnRRTXhlS2Nycm92Y29YQThSeW91d05PODN0RDZWdnFZNTdVM0ZQaGZxUWplbk1YUC1FQkI2aFZOVWx1VlRLc0FPWW9qbmd5bVpCSzNPZEJZYjlHcHlCVC1rS1htQnZ6bmZBdnJsN2Nuci1xbkx1R2VGcEdUYmxZTjJrWFNndzU2cVp5RmFvWV9iUmxEVFY?oc=5",
+      "desc": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab TradingKey",
+      "source": "TradingKey",
+      "time": 1788502958.0,
+      "score": 67.5,
+      "key": "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "chips"
+      ],
       "tier": "A"
     },
     {
@@ -538,20 +513,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788505701.808027,
+    "last_start_ts": 1788506842.1100276,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788505701.808027,
-    "last_success_ts": 1788505701.808027,
+    "last_run_ts": 1788506842.1100276,
+    "last_success_ts": 1788506842.1100276,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 18
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788505712.5051472
+      "updated_at": 1788506850.8373036
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1845,11 +1820,17 @@
       "desc": "GPT-6 Astra is OpenAI’s boldest model yet, and it’s rewriting what AI agents can actually do Craving Tech",
       "source": "Craving Tech",
       "region": "WORLD"
+    },
+    "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220": {
+      "time": 1788506842,
+      "title": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets - Help Net Security",
+      "desc": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets Help Net Security",
+      "source": "Help Net Security",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1865,10 +1846,11 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788505280.75571,
-  "last_publish_ts": 1788505701.808027
+  "last_publish_ts": 1788506842.1100276
 }
