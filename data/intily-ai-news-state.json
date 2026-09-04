@@ -147,26 +147,10 @@
     "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": 1788484855,
     "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": 1788485577,
     "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174,
-    "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": 1788486534
+    "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": 1788486534,
+    "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788487050
   },
   "known": {
-    "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": 1788465071.3605509,
-    "c9fb3fa963c6f103988263f2842c4806c66f9cf27556238770822ab7c2d955e9": 1788465071.3605509,
-    "c3c3f8009e2255e409a522fe5d6cf60e18ff710cb55746a588e6d801e6eb6926": 1788465071.3605509,
-    "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2": 1788465071.3605509,
-    "bf80d001cf8a4a5956f6af53260843ceda78fb6919eebf287df46aa4181d7d09": 1788465071.3605509,
-    "06e105123e4441fa28b1930ca637da6d3234be14374be0e0663336740ba9d679": 1788465071.3605509,
-    "5f531728ff05459c72f16caa1381e95becac2d35c178e6b55fd8db9e38d01c91": 1788465071.3605509,
-    "174b1afc8eb35f469812b1b062756175aa92097b6ed12083e4ffc5de361a07ac": 1788465071.3605509,
-    "2c16e0cffbcb0f14dcb00e768803fb249d7f3c052f46e2adda577e0ee4c26cdc": 1788465071.3605509,
-    "65aedb13ca55e09525ddb6b14d78291b227f475a2841cca973971c53ac98751a": 1788465071.3605509,
-    "99f5e5d44fe5d88feefa88a3f7ad9b99e0c6a6a807226a489df9941954b70606": 1788465071.3605509,
-    "ce696d1e675baf8da4c04006c997e349a95d04635736422f683a849f952115fd": 1788465071.3605509,
-    "42746798e233b2cb0d78ee3c30cd574494af7ac4e72695337dfaa98874a5c74a": 1788465071.3605509,
-    "f5e827bad93f8a36ac92957b96b969820b4880d0e3eb7a5af99a24c9bdfee67b": 1788465071.3605509,
-    "3e575defe3909f850c7cd287809eb341e00e040ec147e6ed3bd8b90a094c62c1": 1788465071.3605509,
-    "53c72bf410e18cef7284d3fe4d038b5824a6952d996471f099c0dce2f511e743": 1788465071.3605509,
-    "ca176075a6264fd685c7d4104a7539a5091735f77b15242d6bbd5560c58b70eb": 1788465071.3605509,
     "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049.748359,
     "f44d3b7105c1c9b32377fa315a8a1ef3505e1d7927298fb1757b2bf8be0e0a69": 1788467049.748359,
     "ff89351fb551117499958315c664357dffa5bd64d2a76aee0aa3574c6fe33faa": 1788467049.748359,
@@ -270,21 +254,11 @@
       "topics": [
         "tools"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data - retailnews.asia",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR3V4VEtXZlQtTWNLcnZ1M1I0OEhkYVllbnl5RG5UeV9heXlqem1odVpRZlloUW5XS3E1S1llMDZpWUpGaUE3c2tfQmp0ZDZkWVE3a0NtbGtyNmdUSFlRTnh3Y1JicXk0WDIyaEtKMkprZGpMcFJ3WkxwSkd6UEZXM2lWOW5JaTg0WFhFZmF1dGV3WDhxTWdBX3RBR3FhTHFjNWV4QlVSNEU?oc=5",
-      "desc": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data retailnews.asia",
-      "source": "retailnews.asia",
-      "time": 1788482033.0,
-      "score": 63.5,
-      "key": "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788487050,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788487350
     },
     {
       "region": "WORLD",
@@ -385,22 +359,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Google DeepMind Just Rolled Out Its Most Accurate AI Global Weather Model - Gizmodo",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNzY2WG1DZ3ZYT1hTR3NOQmpHYXRhTmRFNFcyczZRdUxZWjROR3VrRlpqTkkzVEs2Q3FZZWcyM29rUmF1U1Nia3d4TkUyUmQtbldPUTlZMjNGaU91TGNpc21adm1pMVpaRXMxX2Z5RjBUM2JNODhVMHU1QUpyTWhOVGV1MHZ2SWJsMHJ3djh4OC1ObDBEN1ZzMXlNSGFBVFdCa1d5bTFlUQ?oc=5",
-      "desc": "Google DeepMind Just Rolled Out Its Most Accurate AI Global Weather Model Gizmodo",
-      "source": "Gizmodo",
-      "time": 1788465316.0,
-      "score": 60.0,
-      "key": "a407c36525d19cf138af964f8cdc3ea4b999e7b707281d1e1b2e5fba5c725d0f",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Росатом начал испытания импортонезависимого робота-манипулятора - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVzJKc0ZDanZiMVp0Rng4SlZnUndmN1hiT3JOTjlYeXEwWXlXUjFaUEpfc0V1S0ZnX2RlLVllQWI2bHVrVzhJa3UzZlJYVDNhaFQxanl6VnE4ZDlJRFc0dHMyam9Pbi1sMkZrNjFnNnpLbHd1U1FTcHVHVmJFNE01Q1NFT190NjJxczMyWFJwVDh6WVVqUGpLTEJWY3MxMHhERld4MFFESC1rMlU?oc=5",
@@ -416,40 +374,23 @@
         "robotics"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI Agent Intrusion Fallout Escalates as US Lawmakers from Both Parties Push AI Safety Legislation - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vdXdpVlMxRVEzTHhKS0lDcEpKam5sYVNoOEV1M3JhSkZHQ1Y5VG9PTnVBNVJ6emxQRzMwUTUxTWJSa3lJdzNHcjB1alBpSlA2WjlmS3llcHk3R3NaUWNvQVhaT0RRbkNtaVU5enNvcGs0aWZpWXc?oc=5",
-      "desc": "OpenAI Agent Intrusion Fallout Escalates as US Lawmakers from Both Parties Push AI Safety Legislation finance.biggo.com",
-      "source": "finance.biggo.com",
-      "time": 1788443700.0,
-      "score": 60.0,
-      "key": "8722e24132beb67d37198ba5f0a8d7b632f7cf8e7d06e439f5a3965ab76a973a",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "security_regulation"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788486534.1715026,
+    "last_start_ts": 1788487050.3117502,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788486534.1715026,
-    "last_success_ts": 1788486534.1715026,
+    "last_run_ts": 1788487050.3117502,
+    "last_success_ts": 1788487050.3117502,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 11
+    "queue_size": 8
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788486536.0397122
+      "updated_at": 1788487055.931045
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1498,11 +1439,17 @@
       "desc": "Telestream AI-Boosted Resolution Upscaling Powered by NVIDIA Content + Technology",
       "source": "Content + Technology",
       "region": "WORLD"
+    },
+    "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": {
+      "time": 1788487050,
+      "title": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data - retailnews.asia",
+      "desc": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data retailnews.asia",
+      "source": "retailnews.asia",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1510,6 +1457,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1523,5 +1471,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788486174.074481,
-  "last_publish_ts": 1788486534.1715026
+  "last_publish_ts": 1788487050.3117502
 }
