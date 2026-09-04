@@ -235,7 +235,8 @@
     "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": 1788523761,
     "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15": 1788523941,
     "e9cb8275699679558d13d64a16305d338e2b386ddb502fdb41b98acdfe359c45": 1788524122,
-    "9160460f6d8b383e21b84ac9c013620d1aeb8e7b6d7d57a96f64ad547b6dc660": 1788524605
+    "9160460f6d8b383e21b84ac9c013620d1aeb8e7b6d7d57a96f64ad547b6dc660": 1788524605,
+    "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": 1788524840
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -414,21 +415,6 @@
     "8c5ea0652c14850256c7a04bdb922c7793abc3aae8d181e6c40c922d9824c1fd": 1788524605.2114382
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Юрий Жданов: разработчики ИИ должны отвечать за преступления - Techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNG9TSmk5V0ZZdnUyb2tSMjJKbGxQbV9EQnJ4S0twN1E1aW9jdC1FLVJhb2hVTGxIUkgzc2RfaktQVmdFUFdBWDBrSzZ2UGd6NzluS1otOWxJSHFwdVp4alMyY0ZHV2JDVHJYTFZFNHlwS0ttelh2eE1YWW5rM05ZOEd5MEZKLXE2a1E?oc=5",
-      "desc": "Юрий Жданов: разработчики ИИ должны отвечать за преступления Techora.ru",
-      "source": "Techora.ru",
-      "time": 1788523956.0,
-      "score": 80.4,
-      "russia_weight_bonus": 4.9,
-      "key": "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5",
-      "importance": 80.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Орешкин назвал инженеров по внедрению ИИ самыми востребованными кадрами - Рамблер",
@@ -721,20 +707,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788524605.2114382,
+    "last_start_ts": 1788524840.4698462,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788524605.2114382,
-    "last_success_ts": 1788524605.2114382,
-    "last_candidates": 126,
+    "last_run_ts": 1788524840.4698462,
+    "last_success_ts": 1788524840.4698462,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788524642.2594194
+      "updated_at": 1788524843.5854
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2399,10 +2385,16 @@
       "desc": "AI adoption at RIAs boosts advisor productivity, not pink slips InvestmentNews",
       "source": "InvestmentNews",
       "region": "WORLD"
+    },
+    "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": {
+      "time": 1788524840,
+      "title": "Юрий Жданов: разработчики ИИ должны отвечать за преступления - Techora.ru",
+      "desc": "Юрий Жданов: разработчики ИИ должны отвечать за преступления Techora.ru",
+      "source": "Techora.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2421,8 +2413,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788524605.2114382,
-  "last_publish_ts": 1788524605.2114382
+  "last_publish_ts": 1788524840.4698462
 }
