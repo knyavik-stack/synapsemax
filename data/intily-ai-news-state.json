@@ -457,9 +457,92 @@
     "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6": 1788555201.4978535,
     "6348a21480241bcc69eaef3417adaff8901538a5a6555bd9ccd51441d36e043f": 1788555201.4978535,
     "5c23257e87e7a366c8295f49712982df7bcebe4ad08b13090ef991ea59a82147": 1788555201.4978535,
-    "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179.8212974
+    "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179.8212974,
+    "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867": 1788558920.9899461,
+    "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf": 1788558920.9899461,
+    "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24": 1788558920.9899461,
+    "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14": 1788558920.9899461,
+    "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703": 1788558920.9899461
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "Rhombus Systems' AI security robot will be able to roam sites autonomously - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdHpreGpGUnNWaU1oam5IaENudThiS0RrUldYT0tfeG1wNDJaakQtSTJoS2laSFJmR0M1eWdERXA1RmdFU2lKZFA3Z1J2NExZS3dkX1VoUHNUWnhNaEx5Zm83bVZaaW0zZTRIWkViZ1NvSXZvUTU3cGVMSlJyQXNlWElHdzM0R2tlTTQ4SFplV3FjUmJ1ZFdXZQ?oc=5",
+      "desc": "Rhombus Systems' AI security robot will be able to roam sites autonomously The Business Journals",
+      "source": "The Business Journals",
+      "time": 1788556740.0,
+      "score": 77.5,
+      "key": "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867",
+      "importance": 77.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "robotics",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "The rise of AI agents: Why businesses still need to keep a hand on the wheel - digitaljournal.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVmc1YnRmbHF5WDY1WGE3UmdYM2lJc05ua19POEhuVi1FdlhsR0tUd2VUbVEtVGVoTGFObDBENDd0LW5lVFEzc2ltX3RkZG1ON3FpWmRSUzFSRFJBc0FGcDJZbDRiTmhhdmkyb2w3X282aUU3NzM2MnBkeW0tNE55MjBfbEJuTmxETldMZUZaUFBiUnczZFlGRjVRZnVSLWVJT1k0NHcyY3V5LW1GRTE0S2J0NktRdw?oc=5",
+      "desc": "The rise of AI agents: Why businesses still need to keep a hand on the wheel digitaljournal.com",
+      "source": "digitaljournal.com",
+      "time": 1788555838.0,
+      "score": 73.5,
+      "key": "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf",
+      "importance": 73.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Автор OilPrice о влиянии ИИ на работу и человеческое мышление - UA.NEWS",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb0Vzd29FVVVuRy03ejBhT3hVcUpLaWZLNGRkRC1IdlZNZ3Jsa0lHLU9aZjFKYWN3X0s3UC1BUHlyRXFzTHVRY1VQOVhaMS0wT0VvYTNTUGktU0hxUUExdXpHeEFsa1hqWFFLZnBkMW9OZ2tZTGNRLXBjdDJ2OW9LTDBUbUo0ZGtyaU9fUWNTelIyaG9xbUU2Mlh6eGNwa2c?oc=5",
+      "desc": "Автор OilPrice о влиянии ИИ на работу и человеческое мышление UA.NEWS",
+      "source": "UA.NEWS",
+      "time": 1788556586.0,
+      "score": 72.6,
+      "russia_weight_bonus": 4.1,
+      "key": "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24",
+      "importance": 72.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot - Unite.AI",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZGVnaDRzbTNOaGY3YmdTQzdZLVBGZWhvTU9CMmtEeFpRUVIxNkdCbTYzMjM3Zm5IdjNScUdtMW1YdTRzOWsyUHQwWlR0U3hLSzdoN1RmbHNXR1NLaThZQWZ5azlXejJVQnlhZFlwZmxtNzV2YnNGSEQtbTROQ212NkNuX0lDOTNDWG84aU9LVm9TTVU?oc=5",
+      "desc": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot Unite.AI",
+      "source": "Unite.AI",
+      "time": 1788555421.0,
+      "score": 70.5,
+      "key": "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Insurers Search for Answers to Rein in Rogue AI - Dark Reading",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBXdnBwa3FTUjBPWlRNajIzejZxMjBPQnNEQUt5REU3YWVzbk8teGx6eDNrTE1sMW1LRUFzTGlia3dKRHlENEYzMHJUaVhDRnNGdVR4dUFsTkVsZzQzaXhpT1laamhCN1FQRmhDMUZ6MWdlM1ctekZwZTNQSQ?oc=5",
+      "desc": "Insurers Search for Answers to Rein in Rogue AI Dark Reading",
+      "source": "Dark Reading",
+      "time": 1788557978.0,
+      "score": 66.5,
+      "key": "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
@@ -479,14 +562,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788558742.1758945,
+    "last_start_ts": 1788558920.9899461,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788558742.1758945,
-    "last_success_ts": 1788558742.1758945,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 1
+    "last_run_ts": 1788558920.9899461,
+    "last_success_ts": 1788558920.9899461,
+    "last_candidates": 55,
+    "last_published": 0,
+    "queue_size": 6
   },
   "providers": {
     "GEMINI": {
@@ -506,13 +589,6 @@
     }
   },
   "stories": {
-    "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895": {
-      "time": 1788472493,
-      "title": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences - PPC Land",
-      "desc": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences PPC Land",
-      "source": "PPC Land",
-      "region": "WORLD"
-    },
     "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": {
       "time": 1788472733,
       "title": "GPT-6 Astra Trails Top Models From Anthropic and Meta in Benchmarks - trendingtopics.eu",
@@ -2139,6 +2215,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788557179.8212974,
+  "last_search_ts": 1788558920.9899461,
   "last_publish_ts": 1788558742.1758945
 }
