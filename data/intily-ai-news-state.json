@@ -355,7 +355,8 @@
     "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564740,
     "5ed84a171b6d455194dd95e38cf8e6bd63e0b40735f51636e5da9c28aa67148f": 1788565099,
     "4f6b86c987d4ee29e2db999ccd8976e16d0184d2d7dc866d3dfb95e7cd8d10b2": 1788565283,
-    "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f": 1788565579
+    "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f": 1788565579,
+    "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4": 1788565761
   },
   "known": {
     "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788545844.1562684,
@@ -446,20 +447,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "California’s Rob Bonta investigating OpenAI over Hugging Face hack - Politico",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdmhsWmFLekRLdU9CWHdHU1lOeTRQMVU1WnVCb0dXSm56MHFvWE5WQVl4NjFtX1VQcjhRSkF4WVlyb3N3bzlPMkh3Y3BIOWxzdTRjaHRYbXVFaUpKTVhrb2hyOTlzb0I3Y0hMS2EwQlhtVzUzSEF5LXE1SGJFWkI0Y3VqUng5VkVhVzQwMHg2cVRyMDRQdFNxT21HMTNydWpi?oc=5",
-      "desc": "California’s Rob Bonta investigating OpenAI over Hugging Face hack Politico",
-      "source": "Politico",
-      "time": 1788556380.0,
-      "score": 63.5,
-      "key": "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Will We Control AIor Will AI Control Us - Crude Oil Prices Today | OilPrice.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLTExT2FRRWVZTXVkQVJ6MHpncnNTT2V6YVl0OU04RmZNMWE2NUh2aG9ZY3VlNjlTaDI3bTBEcFY0ZE5WM05rYnV0cGlyVDZieVdNdWxuYXlCRkpjREhvUk5uTklCWlFUVzB3Mm1BUUxnTmRIWDJGZ1JnbHpPWGJvSHhCQVR2ZF9wcUpzSmJJN25tQXZoNmFrcE1lOVJ4UUY2VmJnbzR4TW9mWFVo0gGsAUFVX3lxTE0tMTFPYVFFZVlNdWRBUnowemdyc1NPZXphWXQ5TThGZk0xYTY1SHZob1ljdWU2OVNoMjdtMERwVjRkTlYzTmtidXRwaXJUNmJ5V011bG5heUJGSmNESG9STm5OSUJaUVRXMHcybUFRTGdOZEhYMkZnUmdsek9YYm9IeEJBVHZkX3BxSnNKYkk3bm1Bdmg2YWtwTWU5UnhRRjZWYmdvNHhNb2ZYVWg?oc=5",
       "desc": "Will We Control AIor Will AI Control Us Crude Oil Prices Today | OilPrice.com",
@@ -521,20 +508,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788565639.8802269,
+    "last_start_ts": 1788565761.488316,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788565639.8802269,
-    "last_success_ts": 1788565639.8802269,
+    "last_run_ts": 1788565761.488316,
+    "last_success_ts": 1788565761.488316,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 5
+    "last_published": 1,
+    "queue_size": 4
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788565582.656111
+      "updated_at": 1788565764.544627
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -548,13 +535,6 @@
     }
   },
   "stories": {
-    "f90a2e7592725c87e5fc658947051effa347c180911747be8f6d2c8ba45ad6c7": {
-      "time": 1788479277,
-      "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 | ETIH EdTech News - EdTech Innovation Hub",
-      "desc": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 | ETIH EdTech News EdTech Innovation Hub",
-      "source": "EdTech Innovation Hub",
-      "region": "WORLD"
-    },
     "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": {
       "time": 1788479695,
       "title": "Amadeus Brings Travel Tech Into Claude Code, Cowork - Skift",
@@ -2164,10 +2144,16 @@
       "desc": "ChatGPT vs Claude vs Gemini: 5x File Upload Gap [2026] tech-insider.org",
       "source": "tech-insider.org",
       "region": "WORLD"
+    },
+    "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4": {
+      "time": 1788565761,
+      "title": "California’s Rob Bonta investigating OpenAI over Hugging Face hack - Politico",
+      "desc": "California’s Rob Bonta investigating OpenAI over Hugging Face hack Politico",
+      "source": "Politico",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2182,6 +2168,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2189,5 +2176,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788565099.8368926,
-  "last_publish_ts": 1788565579.2747703
+  "last_publish_ts": 1788565761.488316
 }
