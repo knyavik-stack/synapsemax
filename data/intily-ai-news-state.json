@@ -315,20 +315,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Xelta Unveils AI Creative Operating System for Long-Form Filmmaking – From One Prompt to Up to 60 Minutes - Carroll County Mirror-Democrat",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRUMxVFFQVHhjeVI1am5jaV83UHhidDVSU3BOQ1BwMy12U1BpTWFhZmJQc1NxaXAzVU9MbEpSMGJkTlEzOHluMWdWT2l3XzRxTjMyYjV6WERBMjUwRzJBc0Mydm9ocVMzRlhnRExWdG4teXBsc1dkVjdSNzRJNV9iY1p4NElJQ2RtTG5TbFBjdkdWOEUtU244NVNFVkRiRDBYUDJ3RGdwX1ZuUEI5SWpEZUU0UXdOQ1U?oc=5",
-      "desc": "Xelta Unveils AI Creative Operating System for Long-Form Filmmaking – From One Prompt to Up to 60 Minutes Carroll County Mirror-Democrat",
-      "source": "Carroll County Mirror-Democrat",
-      "time": 1788472502.0,
-      "score": 63.5,
-      "key": "2f1308ef38d7eedc11f0bde90f48b0255bdc0c8abd5dc6c382739a80bfa7ad6c",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Боится солнца и любит морщины: как живет блондинка из «Детективного агентства ''Лунный свет''» - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYmE4cVNxVVBwcVpKSGJ3ZWFRNTQ1Y0VycUhvYXYyS0lDdVN0U2hnemZGS0k2RU9QajVhOFdLQlZ4Q0lhTUdRZDlocHZvRWpMQVdaZ2E2cU5WaDkwYnRVUDdvZC1sTVpuSzNqdzBvWEhMT3FLamRMTVRtLVc4aTZWMlhwR0RBNFJuM09iNldHZmRVckt5V1JsNWs5ZXZ5Z0RmdFNvMjZ3Q25nam9tRHM0aUxYd2xKWDdVOWZtN3NZN1R0cEpkZU96QWZ5cFZWaUk?oc=5",
@@ -450,14 +436,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788483297.058712,
+    "last_start_ts": 1788483355.0812685,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788483297.058712,
-    "last_success_ts": 1788483297.058712,
+    "last_run_ts": 1788483355.0812685,
+    "last_success_ts": 1788483355.0812685,
     "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 12
+    "last_published": 0,
+    "queue_size": 11
   },
   "providers": {
     "GEMINI": {
