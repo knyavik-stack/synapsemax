@@ -317,24 +317,10 @@
     "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": 1788550825,
     "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": 1788551422,
     "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": 1788551662,
-    "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": 1788551902
+    "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": 1788551902,
+    "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad": 1788552141
   },
   "known": {
-    "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": 1788530483.340653,
-    "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136": 1788530483.340653,
-    "5b833cd31d03646a4a5b9ec56e3b2d6830dbd104b9d6dd5e8346041692bb6a91": 1788530483.340653,
-    "3faf9cf5e7652244dd8ef3826d25e3b19bd87eb8d16f56d16778156a5b16dbfe": 1788530483.340653,
-    "627a77a5410410700ca2232fb4a328448417aa91d9a37e596cfa108fcd925e60": 1788530483.340653,
-    "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": 1788530483.340653,
-    "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": 1788530483.340653,
-    "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6": 1788530483.340653,
-    "a5762c0abafe1f12f9df9cf5c9ccf1ed897d7d27b6a9761964e9dc7015424c28": 1788530483.340653,
-    "7e9f0b25d84b2376d5ee86a575d55c0fb74710837797c3ed9bad8ab0d1a5913b": 1788530483.340653,
-    "c08a0908420dbd6df4fa9a4e81edf7f237a10ef566d17ef81ee75dc7f408a57c": 1788530483.340653,
-    "cf09c7b1a7a6d4bc45c322fe96279e8ef953fbcf63f689e8add16b121f52dd45": 1788530483.340653,
-    "566f8c9d1d39a7ad3f3119737e95207346b5f1fd5aa44287f57e822c4f15923f": 1788530483.340653,
-    "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc": 1788530483.340653,
-    "b0021c68138f41ea9c4b899c6a15ff61d83b0d9b6d9fff080ea52c18c8e6fe99": 1788530483.340653,
     "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": 1788532400.983643,
     "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a": 1788532400.983643,
     "7c74a8361aab0e3a2e4ff3fc6ccba0196c06d2adec6396eb9c1cd09d6a5c6e3d": 1788532400.983643,
@@ -477,20 +463,6 @@
     "8a67d99b7b49043fe72889d3cccab53e53abdc35d5a66e843724831f08a779d8": 1788551422.751168
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "How Will AI and Autonomous Supply Chains Transform Logistics by 2030? - BBN Times",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbWloNndnQV9hLXRMTDVFaWFWalQza2x3MktZYzNBZ2o4dUtPeHhEME9rVVlWZ1V5cl9udW5PUlJJTy1TeXktcWVxcGpiaHFuMmdYaGtPUjZITjdEY2NFUHgwZDV2aW5iMkI2QUhZN3J6Y3FQMkhDdDBQcHZlSGpSdUdtNjN3NTItaFdocWNPWjlBLUFIR2hvWTNLX2VPaEk0aXlFcG00UnZGdHRv?oc=5",
-      "desc": "How Will AI and Autonomous Supply Chains Transform Logistics by 2030? BBN Times",
-      "source": "BBN Times",
-      "time": 1788549974.0,
-      "score": 66.5,
-      "key": "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Как ИИ-агенты научились отравлять друг друга - lenta.profinansy.ru",
@@ -666,20 +638,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788552021.993079,
+    "last_start_ts": 1788552141.8972585,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788552021.993079,
-    "last_success_ts": 1788552021.993079,
+    "last_run_ts": 1788552141.8972585,
+    "last_success_ts": 1788552141.8972585,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 12
+    "last_published": 1,
+    "queue_size": 11
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788551906.6446338
+      "updated_at": 1788552145.737874
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2302,10 +2274,16 @@
       "desc": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры CNews.ru",
       "source": "CNews.ru",
       "region": "RUSSIA"
+    },
+    "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad": {
+      "time": 1788552141,
+      "title": "How Will AI and Autonomous Supply Chains Transform Logistics by 2030? - BBN Times",
+      "desc": "How Will AI and Autonomous Supply Chains Transform Logistics by 2030? BBN Times",
+      "source": "BBN Times",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -2324,8 +2302,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788551422.751168,
-  "last_publish_ts": 1788551902.9013429
+  "last_publish_ts": 1788552141.8972585
 }
