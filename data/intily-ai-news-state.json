@@ -321,7 +321,8 @@
     "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad": 1788552141,
     "079470c614a435d5e0b7ea8e7b9ff7504b896b66f3e883d7d637e772ce525aac": 1788552504,
     "5e1b1e79a0181007049b591c5fe8cf02e1651a5b18ff7c53bd8a27e7a5609a24": 1788552861,
-    "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3": 1788553166
+    "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3": 1788553166,
+    "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": 1788553703
   },
   "known": {
     "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": 1788532400.983643,
@@ -480,35 +481,16 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "NVIDIA NemoClaw Powers Memory-Driven AI Agents for Enterprise - blockchain.news",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50VW1XcDJ2WWlSbFZzdFFwRW16aThfNjBoalhpZ2xaOUNaR080WmdIaHBpYUxSenc0SG5nMUhOc3FTU0luZkV0MHB4ekRGXzU2bTBiOFV2dDlpRi0tcmY5YTE5R0RpNEtrVmRacWczQk1iWHN5WnIw?oc=5",
-      "desc": "NVIDIA NemoClaw Powers Memory-Driven AI Agents for Enterprise blockchain.news",
-      "source": "blockchain.news",
-      "time": 1788549140.0,
-      "score": 74.5,
-      "key": "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a",
-      "importance": 74.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "business",
-        "chips",
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Phind AI – Ответы по коду с актуальной документацией - quasa.io",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQl9wUDNwdmIwYUpDSU5ROEd1S3FrSGJLcm90emJrcUxOOGNaWFVZUlg3dWxpc2dHUGE0TFJvSFllSzNNSUtRU0JtVzExU3F5WUhEMm5zNG9XUU9Wb3ZKZi1mZ3QtaGx6d1JMMjdvMkFHYUNIZmRRUDB0a0lQaWhKdg?oc=5",
       "desc": "Phind AI – Ответы по коду с актуальной документацией quasa.io",
       "source": "quasa.io",
       "time": 1788549780.0,
-      "score": 72.3,
+      "score": 69.3,
       "russia_weight_bonus": 3.8,
       "key": "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635",
-      "importance": 72.3,
+      "importance": 69.3,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -526,22 +508,6 @@
       "editorial_value": 50.0,
       "topics": [
         "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models - Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN0kydGtMUW1qVVdoUUtjUVJ3QTc3NWppZGFEU0NXUGtMTWVxMWdlbWtwS18wOG9BajdjRUtVemNmX3NYZUVuaDluaFJOSk0xTFFHOWpWb1REaWVLM2FLem1yZHdKS2Q1YWRVc2VnX29nTGcwRVJhZzFmeGtLR2dMcUh4UkVVZFkyY3NidkxsQ3F1Y25qdzkxdlJwYjlPa3U0RXc?oc=5",
-      "desc": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models Startup Fortune",
-      "source": "Startup Fortune",
-      "time": 1788542751.0,
-      "score": 67.5,
-      "key": "3aa25e19eaee63047048e09e88965256851aa4c3ad4ff386d2298b17d511bf57",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
       ],
       "tier": "A"
     },
@@ -660,20 +626,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Ugandan Startup SANDI AI Wins Shs 190 Million GoGettaz Agripreneur Prize - ChimpReports",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc1J1aGJEN3dELWFmRkh3aS1LdTliaklKTUotYjlzTlJWdkljRGd1SzE0UFpKc1ZBMTZsLV96QUZ3VDBJdk0wQmNKUWRQVHZfN0RCbDdtNnIwM2RKYUtScmZCcVY5TW16bVVpMUFvY2g5bkJpN3JCcVhTWWczM2VBSFJUN2s4UXdCY2IyTUNOMEdPb3NlUzYzT1FLRnVWNlE?oc=5",
-      "desc": "Ugandan Startup SANDI AI Wins Shs 190 Million GoGettaz Agripreneur Prize ChimpReports",
-      "source": "ChimpReports",
-      "time": 1788542897.0,
-      "score": 63.5,
-      "key": "3e01b9bf881dd2e687a5c867366c37063bc8094fdec0cc0d33d546afdb1cbd5e",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Контракт AI-агента: какие права доступа давать ИИ-агенту - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc3h2M2dMWDlvaldjZTdIQjZFaE1qUFRyai11cDNiM1dlUW1RZXBzQnFxeF9sc25rM1pjQllrdUhIa0pWQU1UdGQ3eWFwb01DVHEwVGFfbTRVTmlnZWpsd1diY0lGaklscHEtRjRSMU1oNEZ2REtkenFlTVlUcVFraVJpdkNqdXhfZ1pFT3FRZnhkRnJoZ2s2eXk3VHI?oc=5",
@@ -773,6 +725,22 @@
     },
     {
       "region": "WORLD",
+      "title": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models - Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN0kydGtMUW1qVVdoUUtjUVJ3QTc3NWppZGFEU0NXUGtMTWVxMWdlbWtwS18wOG9BajdjRUtVemNmX3NYZUVuaDluaFJOSk0xTFFHOWpWb1REaWVLM2FLem1yZHdKS2Q1YWRVc2VnX29nTGcwRVJhZzFmeGtLR2dMcUh4UkVVZFkyY3NidkxsQ3F1Y25qdzkxdlJwYjlPa3U0RXc?oc=5",
+      "desc": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models Startup Fortune",
+      "source": "Startup Fortune",
+      "time": 1788542751.0,
+      "score": 60.0,
+      "key": "3aa25e19eaee63047048e09e88965256851aa4c3ad4ff386d2298b17d511bf57",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "OpenAI Launches GPT-6 Astra as AI Agents Put Crypto’s Most Extreme Price Calls in Spotlight - CCN.com",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd0lUZ2t1Nm9BQlNWNUJVWUVkbFlsYjdFQmJyS3NIWFlydjZIeDJhU2xmUWx1MldjVEVaTlZDWWJtVE5IeFVHWmJ2NzZNVnl3N3NGMndyck5ZelRpRVQ3ZTlOOUhiVW56ZWRxNnpLVDd6YnhjcTJrdEQ0cmF4N2N3ek1ZQk9yZzdkTllZVllGbFRYV1lNV0dQUQ?oc=5",
       "desc": "OpenAI Launches GPT-6 Astra as AI Agents Put Crypto’s Most Extreme Price Calls in Spotlight CCN.com",
@@ -790,20 +758,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788553285.8830574,
+    "last_start_ts": 1788553703.147291,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788553285.8830574,
-    "last_success_ts": 1788553285.8830574,
-    "last_candidates": 89,
-    "last_published": 0,
-    "queue_size": 20
+    "last_run_ts": 1788553703.147291,
+    "last_success_ts": 1788553703.147291,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788553170.0284207
+      "updated_at": 1788553705.5357265
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -817,20 +785,6 @@
     }
   },
   "stories": {
-    "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": {
-      "time": 1788467049,
-      "title": "Cross-Channel AI Agents: Ringg AI Preserves Customer Context Across Enterprise Workflows - trendhunter.com",
-      "desc": "Cross-Channel AI Agents: Ringg AI Preserves Customer Context Across Enterprise Workflows trendhunter.com",
-      "source": "trendhunter.com",
-      "region": "WORLD"
-    },
-    "f44d3b7105c1c9b32377fa315a8a1ef3505e1d7927298fb1757b2bf8be0e0a69": {
-      "time": 1788467232,
-      "title": "Snowflake Results Show Enterprises’ Desire For Anthropic Buffer - The Information",
-      "desc": "Snowflake Results Show Enterprises’ Desire For Anthropic Buffer The Information",
-      "source": "The Information",
-      "region": "WORLD"
-    },
     "29f5e130848e84a3e7a9572f9822c0d9dbf0c4ccc8e9e42b12f55e0df14e2f52": {
       "time": 1788467592,
       "title": "Abu Dhabi AI institute releases fully open-source models with training data, code - Reuters",
@@ -2426,10 +2380,16 @@
       "desc": "Как аналитика и нейросети помогают бизнесу привлекать аудиторию в Сочи kommersant.ru",
       "source": "kommersant.ru",
       "region": "RUSSIA"
+    },
+    "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": {
+      "time": 1788553703,
+      "title": "NVIDIA NemoClaw Powers Memory-Driven AI Agents for Enterprise - blockchain.news",
+      "desc": "NVIDIA NemoClaw Powers Memory-Driven AI Agents for Enterprise blockchain.news",
+      "source": "blockchain.news",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2448,8 +2408,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788553285.8830574,
-  "last_publish_ts": 1788553166.6949854
+  "last_publish_ts": 1788553703.147291
 }
