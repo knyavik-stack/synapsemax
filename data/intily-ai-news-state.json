@@ -326,9 +326,203 @@
     "c6258bef9ce9b820282e96a2bd60cb7acf0aefdeb9ad655360f365216b665ec9": 1788520820.733582,
     "a63f5746ff3656daad624997ef9e15d053f47cb2fa137d5fa4c74ac7d6b41ff0": 1788520820.733582,
     "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3": 1788520820.733582,
-    "1b21cb67cd9e710a0f8559400d2675aeea51999c9baff096718ee852685a5cd3": 1788520820.733582
+    "1b21cb67cd9e710a0f8559400d2675aeea51999c9baff096718ee852685a5cd3": 1788520820.733582,
+    "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522622.0770597,
+    "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": 1788522622.0770597,
+    "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": 1788522622.0770597,
+    "e9cb8275699679558d13d64a16305d338e2b386ddb502fdb41b98acdfe359c45": 1788522622.0770597,
+    "c64a81495eb20f5fbf4d0b14980cdbfa1a550934464c68b28cb16d26db19611a": 1788522622.0770597,
+    "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": 1788522622.0770597,
+    "271f8b82696c7385dd06e6bae858f6a3e8f79f33a40b4fd43d8a8099e48cdb92": 1788522622.0770597,
+    "f1587107b735012cd600b307601a0c16fce55d774ecc3a964ba8f9ea34774453": 1788522622.0770597,
+    "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42": 1788522622.0770597,
+    "cdbf075d907734b23867bcfb5b09b81527714792d36a61b74491ab5132e73436": 1788522622.0770597,
+    "6eb0aec6f8ff334aeffead977b7c86f02ff51f3ea83de43a1749b601b5061fac": 1788522622.0770597,
+    "c2d72fb16b99228657ad76eafe13992c2a536c935e55098f8d83394d488ec621": 1788522622.0770597,
+    "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15": 1788522622.0770597,
+    "ba211c8bbfa8920ab30ba8722cce38769f0fc534c339c6a8ded18690f47380d9": 1788522622.0770597,
+    "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": 1788522622.0770597,
+    "8959ff8a6ed308a4b647bd9cd10b7e4d9b271906b9122d4463f35fa514faa417": 1788522622.0770597,
+    "f6f099c5e888caefa346d497b8efdce5d0f27c1489942b3b093551a3dd8d8467": 1788522622.0770597,
+    "873757138a4e2ad16ebc0e74bf4e543d040382b75dcde3e24ceea6cb6f97befc": 1788522622.0770597
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "Weekly Startup Funding Roundup: AI, Robotics, Deep Tech Draw Fresh Capital - Analytics Insight",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMHc2bTUzNnRMekZOaVduLUcyUHN4SDVMZ1BLNWQtU1pXTlBqRk1QOXByYXZZZTR2WGNwOEJKY0s4OHJwZENMUVFPbmJXcm9nWmRxbGp5WGNIQTVWazlEUWN2YU1QQWUyUEVTMGNnbkJSS0pVQTFmTllUTmt3TVdmWVo1dXQ0Vm5vWUxERzhLc2FSTEhOdjVsXzdtVnVrWjNkak51QUFTYWw4a2NXa1HSAbsBQVVfeXFMUEJOeXpac2dnYXBURWkxSHRKMHoxN25manRpZ2RINEpoWlZMVzE4cG53dVlpQkpsUGk2bkxPSWFRemZtbllyckN1WHVNcEd4VGJzV2ZrTFpkTndycDV5RlBtcHphVDhlM0x0ZkNHUEJOc0kzSkEtcGFBNGVXN3VWem92d3RJdTlfeGNIWUZUeURack9rdjVkT0Z1TTA4NzFaeFZDNjFtRmhFUC1ZdkJCM0I1aG96YWFWZXpCRQ?oc=5",
+      "desc": "Weekly Startup Funding Roundup: AI, Robotics, Deep Tech Draw Fresh Capital Analytics Insight",
+      "source": "Analytics Insight",
+      "time": 1788519600.0,
+      "score": 78.5,
+      "key": "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d",
+      "importance": 78.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSkdMUnk0M1VzZDltMEtMMFRabTJTd3RsVUd0MmV4aVFGOFViN2V4RHNwX0tMUmN3ei0xQjlrVFg3dVlDTUhxWllCaDVTa2R1TkI3NExlV3pydGRiNkxENWQ1UWF0RVh0SmN4UDcwSV9WNDZPSl9iS2luaFdNZ0JINWdPNXNtZDMyUWhvX01tdW9uYUhBeVlocjNGaGJMY042Y2p3Z1pqT1lZWUFoRkZmeXNrZGw?oc=5",
+      "desc": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "time": 1788522561.0,
+      "score": 77.2,
+      "russia_weight_bonus": 4.7,
+      "key": "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0",
+      "importance": 77.2,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год - abireg.ru",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBYd2hsRGdnQUhBeDRvVnNaWTI2aFpVYVRwT0VDOXBHWXhfMjBKZl82dFZydXJhd3ppVjladDVxSjBnQ1Z3cTB2amp3?oc=5",
+      "desc": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год abireg.ru",
+      "source": "abireg.ru",
+      "time": 1788521227.0,
+      "score": 76.5,
+      "russia_weight_bonus": 4.0,
+      "key": "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38",
+      "importance": 76.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "IT-бизнес выступил против платы за использование авторского контента для ИИ - новости Право.ру - ПРАВО.Ru",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE95d3dlRGdfSzlyY1c4UUFlaTZfWjRVUHJiS1lmZERaZm5MY2M3RVhjQzI0QkZ4RWxBMTl6ZzdHTXd4TW_SAUhBVV95cUxQcnJIUFhWSVpheUNob2lxLUFhNG1VOHVRTjNfQ0V1YnNpajBLWVN4MkZ1OEVJTW4xQWRQd0M1eGptSThPdm9PelU?oc=5",
+      "desc": "IT-бизнес выступил против платы за использование авторского контента для ИИ - новости Право.ру ПРАВО.Ru",
+      "source": "ПРАВО.Ru",
+      "time": 1788521397.0,
+      "score": 75.6,
+      "russia_weight_bonus": 4.1,
+      "key": "e9cb8275699679558d13d64a16305d338e2b386ddb502fdb41b98acdfe359c45",
+      "importance": 75.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "LLM в корпоративных процессах: как выбрать сценарий, который окупится - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSzVrR0lsTHM3LWRrLVBCMzQ5R3VHUnplRkZJV2V1ZzBabnJGUTJjeHJHek12RncyUHduTnRFYS1OM1NVaURCZFcwejNuQXY1NFp0Zk9FWFBObUhDZGxqdXpjdk1PQmhoRDBodVh4Um8zUXFsV1VwREFvRk1lcnRnbjQzMGd0b3hyMWJHcWxCeUZPX0E?oc=5",
+      "desc": "LLM в корпоративных процессах: как выбрать сценарий, который окупится VC.ru",
+      "source": "VC.ru",
+      "time": 1788520788.0,
+      "score": 74.5,
+      "russia_weight_bonus": 5.0,
+      "key": "c64a81495eb20f5fbf4d0b14980cdbfa1a550934464c68b28cb16d26db19611a",
+      "importance": 74.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN2JUc19sdHRIZ1Fpa1pWN2x0Y1c1dF9OSWtLWUo0dWlmMjBrTTZxOThiNFlxNU1UUDBxcmRmZWtNTkkzZGRqUjR0YmpfQ0hVRlBwbzRVdFVLeDFyc3FncjlQQTNUTE1uTWtidVR1MXJKQXhWMUZuNFdvNEtqZmVGTzVMUnBWY0lYWXRacVU2bXNqcXRvNTZVcGV3bEJoS0ZleHlzM2FHRi1vcmJpZVgwWHhzVVJKNVpUOVRpeXJ5SDh1d1ZRVXF5UWtoTdIB0AFBVV95cUxOV3JOWnJQbVFibmR5blNHQjJrTmVTMGxvd3dJSXVnS2V2SmhoQWp0Yk1zSExvZ0IzUlI0azFZSnFZYXFxb2J5XzIyV20wQlBZX25xQUJqWUJZTWZVRmRxNGx4RERycDVVYWo3WHVKbHNLaGNSVklLeUVOWUN4LWdXY1hlcng3OEhrc3pEc0FtR3dFZUl0cEtURkc2dGdPejRUYnRqMlJuRnU1Z1kxWHQwWDVDNXVpck96RW1tVmd5clo0TWJKeWc2a0l2eEx1R3Rm?oc=5",
+      "desc": "AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems simplywall.st",
+      "source": "simplywall.st",
+      "time": 1788520590.0,
+      "score": 74.5,
+      "key": "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65",
+      "importance": 74.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В появление российской нейросети не верят даже представители отечественных бигтехов - Frank Media",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9FMTBkdGZEWVFRamhRRXotVVAxSHl2c1NJRDl0bmdJcXhfcndrMXpYa2VTU0xIck5MN3JaR252M1N1UQ?oc=5",
+      "desc": "В появление российской нейросети не верят даже представители отечественных бигтехов Frank Media",
+      "source": "Frank Media",
+      "time": 1788513688.0,
+      "score": 74.4,
+      "russia_weight_bonus": 4.9,
+      "key": "271f8b82696c7385dd06e6bae858f6a3e8f79f33a40b4fd43d8a8099e48cdb92",
+      "importance": 74.4,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQU5mU3NuaGE0NVNPLWVUd243T0QwWDZ6N3J2QktGZzByMGQ2YWJkU09ka3VaRjBvRHkxQjByZWlLT2szR0ZteDRGakhLM0JRUmVVcFdPT3Q0cm9BMjItbXZYU2xUc2VEbmFqV2kyRXVaZktvbmFkdmszWGdMaXd4edIBiwFBVV95cUxNQ3lrTEJSeUgtSjZoOURVMk9IV3lVc1Z3OFdxRWNCYXNHWUs0QWd1cVBOa1dnMy1QVXBMUlJoTmV0MnBnWDAyQTBaSDB3UXp5NzNyYWN4eVhoS1ByNnQ5RVI0M0s2MXZIWmZnZGM2STdwNndsMmRKb3NJaHpULU01blVCQXJJek43bnhN?oc=5",
+      "desc": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788522201.0,
+      "score": 72.9,
+      "russia_weight_bonus": 4.4,
+      "key": "f1587107b735012cd600b307601a0c16fce55d774ecc3a964ba8f9ea34774453",
+      "importance": 72.9,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI Agents Went Rogue, Hijacked German Wiki And Shared Bypass Tactics - Times Now",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUjlrd1lmWEtoREpfTUZ2X0lJY1ZrV3ZOblRVWlhOX3hsSmVDWXl5UUczU3ZzTXF1VFNUTTJBNkNwZ1E4SGl5Z2pJMTJ3MWlyenVFN0FiZ2lEczBaVE4zWlZCX1pPbXF5MUpfVjNoRndmUExyS3pXQ25xejZlRmNxRzlHSy1vVFlsSTN0eDZ0dXpPeDVuRUtNRUZMcWZWZEJPZFMtOGhzbUxMUUIyc0ItMDRzUWxvVkQ3Qldqc2JlNDBMYTVjVjhwdW5hbnVkWS1yNHR30gHYAUFVX3lxTFBYdEctaFlpaVZkNFk5RVQ1TWtQTW9wczlnMDZFSGh5Z0NkSkZYanF0M3RBMzQtQUlXSjBoM2dTNlAzdktuWXgxQVV4cFctSktyU0xCbEowck9kbF85cTZvZ3hTakZ4bURDSVVSaldmWV9GcF9oeU04eFN1c3FDd09iWm52QnpWOTBXa0JkWEZGYS1GNDdjUHlOTDhNcUVOLWx6WXFBSWkwZnVFbEFXWVN0Yjg1M0NYenVOa1B0bHZjRjBNMjRLUXgxWTFKQnFGalNlUzVOcFA2Tg?oc=5",
+      "desc": "OpenAI Agents Went Rogue, Hijacked German Wiki And Shared Bypass Tactics Times Now",
+      "source": "Times Now",
+      "time": 1788521031.0,
+      "score": 70.5,
+      "key": "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. - news.crunchbase.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcDlYejRsNWZhOUhVb00xNm9OaWVPel9WZnphXzliRDBrNGM5eE81Z2czZFdmYlBEbmtmdDFROXRKZldlZC1mVzAtTUgzYmY5ZV9MTFNpeGttUExiQnBYNkx3bnl4dzBHOW0xNGE3aXV0T2NvVUVsY3E4cDJrLVNWN0M2MHZtLUY4UWFJZE92VW9RTjdfN1NXd1lmUEgtakk?oc=5",
+      "desc": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. news.crunchbase.com",
+      "source": "news.crunchbase.com",
+      "time": 1788519655.0,
+      "score": 70.5,
+      "key": "cdbf075d907734b23867bcfb5b09b81527714792d36a61b74491ab5132e73436",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Россия опередила Украину в использовании ИИ на борту дронов, — Бескрестнов - АНТИКОР",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZzVCMWFjNmZJeGY0ZzdILUpaSnZNRWdaQUF5R1hpdUlqOGpGUkFLYWVaSW9FbmhBOHlRRlF0ODAxeGJwRjJKZTVIRDdSTzM0RjJGRUZuRnVXU3R3YTFEb3ZqOHpqX19jM3cyR1htcVREdTZwR3BBVjJnWTJDWXlNWkdoMFRtelJxaW5Fa25YclRQX3NKOHk2eUM1UW9tMDdKQ2l6Y1ZYdUN5Q2w5enEyNw?oc=5",
+      "desc": "Россия опередила Украину в использовании ИИ на борту дронов, — Бескрестнов АНТИКОР",
+      "source": "АНТИКОР",
+      "time": 1788515700.0,
+      "score": 69.8,
+      "russia_weight_bonus": 4.3,
+      "key": "6eb0aec6f8ff334aeffead977b7c86f02ff51f3ea83de43a1749b601b5061fac",
+      "importance": 69.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "AI в резюме больше не преимущество: что будет цениться вместо этого - vc.ru",
@@ -340,6 +534,21 @@
       "russia_weight_bonus": 3.1,
       "key": "0aa7079147f7581f4424c8d0f8b08ef855bc61b837b99d200dd6a6d469e07c84",
       "importance": 69.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ и персональные рекомендации увеличили дочитывание книг в «Яндекс.Книгах» в 2,5 раза - Gosrf.ru",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcEFISmRlbVVOZlN4X0FQcy15amRzcTBxUUt1dDBHX1UtUkRrNnpxNkg0OEJYNlBVWDJuRVNJUExWbU1fRWpGVHBPbl9tTzZ4aURpT1EzVVptM1dwMHM2YjBKeHc5LVN0SUVKeXpCajBKcnhncTJsbWdTbnFvOFVmYm1PcmlRMFg4T3NWYkNtSTdLeEs4bDJieWd5ZmFuZHZQOXdzQVdDREd1OWE3?oc=5",
+      "desc": "ИИ и персональные рекомендации увеличили дочитывание книг в «Яндекс.Книгах» в 2,5 раза Gosrf.ru",
+      "source": "Gosrf.ru",
+      "time": 1788513963.0,
+      "score": 69.2,
+      "russia_weight_bonus": 3.7,
+      "key": "c2d72fb16b99228657ad76eafe13992c2a536c935e55098f8d83394d488ec621",
+      "importance": 69.2,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -376,6 +585,37 @@
     },
     {
       "region": "WORLD",
+      "title": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xY1VMRWpNNnF5TVZFV3I1c2pRVURDaEN6VERDQTctRXpsdWxQLUxqanlZUWhlTnl1ekRvNWUzdS0xMHl3dlBfVUdvcWFqSUw1RnBnTzdoMUtSV2ZBb3NCbTFUWmZXX2VnaGthTTFKTzN2UFVNS0lmNNIBfkFVX3lxTE5vS2VVMndVYUJ6SkU0aC14VzMwY3dKYkNTekowZnJZUW9zNllkeTg5d0kyNlk3Y0pNei1FOHNqZ2NKbFV1QWNrbWpocGRTLUpWTmZWR185dlh0S3VCdTd0Rjdpc1lSX1o0NDI0cTNDOThSMXVyRkxLMFpkZjl4QQ?oc=5",
+      "desc": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies CNBC",
+      "source": "CNBC",
+      "time": 1788509331.0,
+      "score": 68.0,
+      "key": "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15",
+      "importance": 68.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "DeepSeek: How Has It Disrupted Global Open Source AI - AI Magazine",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSjg1V1ZLdlZwWjI3WHBSVlM4TUdRUHpDR09aUXFMSTdPd0E2U3pJYVRDMzBwQXJ6MnNHWnB6R0Q4TEJBeVMtWXJEdXNIemdvRUd2clJNeGlpQW1mNk9sejllWXlyUjNOV1FqaUFDN0c4bWpwTW5QaTUzemFBZGk3RkZ2R01xdw?oc=5",
+      "desc": "DeepSeek: How Has It Disrupted Global Open Source AI AI Magazine",
+      "source": "AI Magazine",
+      "time": 1788522525.0,
+      "score": 66.5,
+      "key": "ba211c8bbfa8920ab30ba8722cce38769f0fc534c339c6a8ded18690f47380d9",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Pirkx joins Pri0r1ty Intelligence as AI company expands into employee wellbeing and benefits - EU-Startups",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSnR0dHJTbHV4cDYzdWo3em5kNkh6ZFM2RGVIR0FyMlBnTkV0RFE4cW9FQmZIMHZhMFA1YTZMeWtSQUVCd24yaTZNbEN0T2szb3g2MXR1T1FTRkM5UFpMNWRIbzN3b2RuSmQwblktVFFtZWg4YUVGSi1NVFMyX3k1bzNRdFdvN1ZsaEZjYkktVTFJNW1HeU1PM01jUEdENmhld0FMN0JWR3RoRk5xbVV6TkVhNDk3aEQ4TnNkRGtCTjNOLXAxOEFJRg?oc=5",
       "desc": "Pirkx joins Pri0r1ty Intelligence as AI company expands into employee wellbeing and benefits EU-Startups",
@@ -403,144 +643,32 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "John Ternus takes the helm at Apple, as AI pressure hits - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUN0bEJpUFI2QVpWWnNnblcxdFlqRnN6WU1FM0Z4M1NDZGwzZUVJRVRTN1lfUEFUT3liNnRxYmpyeTRvZm9tWVJPemNlT09yRldxQ09JSUJTQkxxeWU3ZzFpX1dDQ2s4R1lzX25zSU9GZ3dRcVR2XzFFT0IzRWhWaXFYZw?oc=5",
-      "desc": "John Ternus takes the helm at Apple, as AI pressure hits Fortune",
-      "source": "Fortune",
-      "time": 1788514560.0,
-      "score": 63.5,
-      "key": "911183e2ccda7315fa519e2cfb48899a3919b6cfc5ea402341923a3b6e587f97",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
-      "title": "ИИ и простая интеграция стали главными технологиями для онлайн-бизнеса - E-pepper",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV2xzYnFsSmFNOVpSZFd5VFVCb2ZHTmhLTmh3UzQycGNjUW1SVXpEMzRMTHpJNjJYUkJ1TXE4X0w5b1pTM1o3bzM4YUhYalBmRVZ5R3VyU1Q2emFNSGFxLVBSZEZUSVlMNXAyZkZLaXduNGoxT3N3R0p5eWNUVVpubF9mZ3JXcWVlT2N1OVY3dmF2YXF3aUctSVlMcWY4RERxbFpJZlZtR2NxZw?oc=5",
-      "desc": "ИИ и простая интеграция стали главными технологиями для онлайн-бизнеса E-pepper",
-      "source": "E-pepper",
-      "time": 1788511092.0,
-      "score": 63.0,
-      "russia_weight_bonus": 4.0,
-      "key": "e3c1c89bdcc8744bea12885b9ef4ce07d02234c24d4fe18388ea089db47875b0",
-      "importance": 63.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину - edinstvo-news.ru",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTU5kT24zMVdkd2dEWExINkVhaUpuZWFnaGxKZHNIZFZTZWRPZEN3aWJmdjRGV05Wc2NEZDMxS2hNZUhxaklHNmFMUU1fQ1YtR1prOHVjY0xpOVN0Sl9ISm5hTEJUMHNOMEhCamJycVBweVZfVmVuQ0pNdmR5WTJta1kxMEVSNTVvX3VNdXdDaGxhZzJheV9RaFVkUngxT2J5SUU0NmdQQk1sN0dkWThtd0ZWRVFpY3lLUDlr?oc=5",
-      "desc": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину edinstvo-news.ru",
-      "source": "edinstvo-news.ru",
-      "time": 1788510501.0,
-      "score": 63.0,
-      "russia_weight_bonus": 4.0,
-      "key": "0b35f7c2aceb2a382a3812fd8b1b1f453ded821b238b7596c77c617335a26a9a",
-      "importance": 63.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Закон об ИИ в России: новые возможности для Якутии - YakutiaMedia",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FUV9CSW1pT1hOWHNRZWNmVGM2dTVPdmRJcnBzcmI0TmJGc2VMc3VPTkN3dE8zZVdqVVRIR3J6dE11TGdVMDRnNXJyUFhGQQ?oc=5",
-      "desc": "Закон об ИИ в России: новые возможности для Якутии YakutiaMedia",
-      "source": "YakutiaMedia",
-      "time": 1788505304.0,
-      "score": 62.1,
-      "russia_weight_bonus": 2.1,
-      "key": "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc",
-      "importance": 62.1,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "На сессии Открытого диалога обсудили массовое внедрение ИИ-технологий - rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcEJtTENtbmFQN0FvZTZ2bE85WVNmcWZLZEJiUVdzcmlzYWhCVXAwb19XaGtfRmRsbGVjV1ExTTVYTEVXUEtJNHBJWUpYZmRwOF9JU0czQ2tfbmpBZHJfMkc1TllMWVY2bjlpRlVrRHo4M0FGaXo5bExhSk5UNGhBVzBGR2dnbW9rN0Ntdw?oc=5",
-      "desc": "На сессии Открытого диалога обсудили массовое внедрение ИИ-технологий rbc.ru",
-      "source": "rbc.ru",
-      "time": 1788482700.0,
-      "score": 61.8,
-      "russia_weight_bonus": 2.8,
-      "key": "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3",
-      "importance": 61.8,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
-      "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
-      "source": "Национальное аграрное агентство",
-      "time": 1788504000.0,
-      "score": 61.4,
-      "russia_weight_bonus": 1.4,
-      "key": "839b86977f8f0a32b5a6f233f60966e3af27d7d98e67bb27230f06c598a8fadc",
-      "importance": 61.4,
+      "title": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры - CNews.ru",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ia01tRmstX0lDZmcwQ2wtakQyUzJkb3B5cTdmSEJYczQ3SmR6ZDgyU2gxY2JRdEt2X1Jqdi1VOFRsTEdQMlFWcGRFalJ5ZVRQU2g3LVJJaF91R3luUGdVUVJmc1cyWHFBTUgzSS14MVJ6cU5FS0dn?oc=5",
+      "desc": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры CNews.ru",
+      "source": "CNews.ru",
+      "time": 1788510065.0,
+      "score": 65.5,
+      "russia_weight_bonus": 2.5,
+      "key": "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48",
+      "importance": 65.5,
       "editorial_value": 50.0,
       "topics": [
         "agents"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "New Chinese AI GLM-5.2 Beats Every ChatGPT Model, Trails Only Anthropic's Claude Fable - Yellow.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41c1FiZnozQWlzSm5YWFRSdUphM0tQbkZRNFpSbHQ0YjFqdFIyVkt2dGZtejBPU2RDblpzUlBLdDdtcDlYd0FvY1RnUnpwTk9leFZqSjg0T3B4Yi1mRmN4SjZ0Z1hmZFRnWHYxS0hQQUxGa0d3bEE?oc=5",
-      "desc": "New Chinese AI GLM-5.2 Beats Every ChatGPT Model, Trails Only Anthropic's Claude Fable Yellow.com",
-      "source": "Yellow.com",
-      "time": 1788502436.0,
-      "score": 60.0,
-      "key": "5de816a7f4b09832f878d437f99e8a77fc32a971c35a1f9fba19f8955d60c0ae",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "SoftBank pays double the market rate to raise $6.3 billion for its AI bets - Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcDhKVmdGTEhLanBFTTYxVDk3aThfQk8yUHU0QzNMckFuSTVpNFhlSWdRYTJpRU1nVF9FYWRrT3E3czU3aXJRdm5acnl5ZngyVnpXS1JubHBiaFVzaEJ1bVBkRkZyQk85b2dCTW9BZkRkaXJyZ3h4WTN0T0VDWFFKQTd0bUJEa0RKZEo4SXhIc3lyaWRWZ1pDN0ZRZlhxNk1UOVE?oc=5",
-      "desc": "SoftBank pays double the market rate to raise $6.3 billion for its AI bets Startup Fortune",
-      "source": "Startup Fortune",
-      "time": 1788501885.0,
-      "score": 60.0,
-      "key": "f4a74aab6a9464b4a4b06ad639aa6aa4b6696a6fd606b73f015e6eef9d9726de",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788522561.6860137,
+    "last_start_ts": 1788522622.0770597,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788522561.6860137,
-    "last_success_ts": 1788522561.6860137,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 13
+    "last_run_ts": 1788522622.0770597,
+    "last_success_ts": 1788522622.0770597,
+    "last_candidates": 85,
+    "last_published": 0,
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -2186,6 +2314,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788520820.733582,
+  "last_search_ts": 1788522622.0770597,
   "last_publish_ts": 1788522561.6860137
 }
