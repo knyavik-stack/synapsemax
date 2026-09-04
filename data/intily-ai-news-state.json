@@ -227,7 +227,8 @@
     "6c2c1d116f9b71f047019842d7ba791ca8369ba929f0f977eaa671b1d25c39a1": 1788521180,
     "014df9f2f492f0f6e7fe55eab5731f57b976a70bc0fb3350a2cd2f4c4ba2acd9": 1788521361,
     "cc0d8ba1979f2b627509070666ee20f2c1bb39f1a4592c662c00cf4d363765b9": 1788521901,
-    "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85": 1788522321
+    "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85": 1788522321,
+    "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": 1788522561
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -328,21 +329,6 @@
     "1b21cb67cd9e710a0f8559400d2675aeea51999c9baff096718ee852685a5cd3": 1788520820.733582
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Россия серийно применяет дроны с ИИ, Украина отстает в масштабировании - \"Флеш\" - Курс України",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ1lJTlJyT0k1ekxHWVJRdDdod1BlVWxReklfSF93ZlZWVHg2TXlmc2lFLWhRbHA2OE05WEhjREJhNUdDcDF5NUtndHRrNmFyWUFsajBJN3RoeW1Sc0hRRDB2bVgtNGV1dFYtYmM5Ni1fQnZHR1UtR0tiVzBTVEtNY3czdnN3SHFvZ3lGZTRYTDJURkdGM2VIQjNBcHRlS2llRkpJLU9NTUNfUmJzSUloN0VPUkVkRkk?oc=5",
-      "desc": "Россия серийно применяет дроны с ИИ, Украина отстает в масштабировании - \"Флеш\" Курс України",
-      "source": "Курс України",
-      "time": 1788519360.0,
-      "score": 71.5,
-      "russia_weight_bonus": 3.0,
-      "key": "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51",
-      "importance": 71.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "AI в резюме больше не преимущество: что будет цениться вместо этого - vc.ru",
@@ -547,20 +533,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788522379.8955657,
+    "last_start_ts": 1788522561.6860137,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788522379.8955657,
-    "last_success_ts": 1788522379.8955657,
+    "last_run_ts": 1788522561.6860137,
+    "last_success_ts": 1788522561.6860137,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_published": 1,
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788522325.9102085
+      "updated_at": 1788522564.368094
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2169,10 +2155,16 @@
       "desc": "Bodhan AI releases open-weight Indian-language AI models for education Business Standard",
       "source": "Business Standard",
       "region": "WORLD"
+    },
+    "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": {
+      "time": 1788522561,
+      "title": "Россия серийно применяет дроны с ИИ, Украина отстает в масштабировании - \"Флеш\" - Курс України",
+      "desc": "Россия серийно применяет дроны с ИИ, Украина отстает в масштабировании - \"Флеш\" Курс України",
+      "source": "Курс України",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2191,8 +2183,9 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788520820.733582,
-  "last_publish_ts": 1788522321.1107154
+  "last_publish_ts": 1788522561.6860137
 }
