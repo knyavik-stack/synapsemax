@@ -334,7 +334,8 @@
     "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": 1788556939,
     "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179,
     "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635": 1788557480,
-    "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b": 1788558140
+    "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b": 1788558140,
+    "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81": 1788558501
   },
   "known": {
     "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": 1788538102.15343,
@@ -460,20 +461,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups - Inc42",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU3VLWVdGbHRSalRQcW9kQ2RkazFTWmt5a056NlZRTmIxNWpHRlZ6TVlMemNuekNxQVpzZ1picWJ2YU5pN1NqZzNUVlF6cUVuQ0NfN0JrMFhEZmdzV2JHVVZBTEhkMmQxcFZZVExld2lmalZ4cGVFNHN1dWlqSkRaZ0lUb3VDQQ?oc=5",
-      "desc": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups Inc42",
-      "source": "Inc42",
-      "time": 1788551147.0,
-      "score": 63.5,
-      "key": "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies - moroccoworldnews.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjNBWjRjQWhobS11eUJkY2xTaGFhQTFSRjA1a2pjRmtHZXItVUFIUHlBSmo0WEVFZGRiZnpZNURzOXgzMTc3Y0lsY3FZYTZPMlNyRWlhTFM1aGVLVnlJX1BtZjB1SHQ1V0l0eFdnZFdwd1pSeV9BSmpWeU1hS0lBVklLcGh1S1FVTWJQZm54UFN6YnZiUnpqQ2tzZjRIVW05ZDNQbjhvaDRwMTlaSVkyZkhxRXc1Y1JqTy1EaA?oc=5",
       "desc": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies moroccoworldnews.com",
@@ -535,20 +522,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788558140.121127,
+    "last_start_ts": 1788558501.77815,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788558140.121127,
-    "last_success_ts": 1788558140.121127,
+    "last_run_ts": 1788558501.77815,
+    "last_success_ts": 1788558501.77815,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 5
+    "queue_size": 4
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788558142.0986273
+      "updated_at": 1788558504.5416193
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2164,11 +2151,17 @@
       "desc": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81": {
+      "time": 1788558501,
+      "title": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups - Inc42",
+      "desc": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups Inc42",
+      "source": "Inc42",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2186,8 +2179,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788557179.8212974,
-  "last_publish_ts": 1788558140.121127
+  "last_publish_ts": 1788558501.77815
 }
