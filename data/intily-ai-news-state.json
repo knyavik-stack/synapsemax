@@ -302,7 +302,8 @@
     "2a2856322c9e70f34ed769b8c77547c9e0994a988c35c240374232882c85dd93": 1788545844,
     "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788546144,
     "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c": 1788546620,
-    "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6": 1788546800
+    "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6": 1788546800,
+    "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580": 1788547040
   },
   "known": {
     "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788526822.0877657,
@@ -492,21 +493,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 2,
       "next_retry_at": 1788547400
-    },
-    {
-      "region": "RUSSIA",
-      "title": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова - Smart-Lab",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hbWsyUmtBUzV4LWtLSnhyWXFkU3dvRU9kUHZZX0F0MDk4aDNTMThVckpLZjUxNUVnX0ltc1FHRDBrR2U4QUVsNU84LTE4dw?oc=5",
-      "desc": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова Smart-Lab",
-      "source": "Smart-Lab",
-      "time": 1788540415.0,
-      "score": 70.4,
-      "russia_weight_bonus": 4.9,
-      "key": "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580",
-      "importance": 70.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -729,20 +715,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788546863.428746,
+    "last_start_ts": 1788547040.77855,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788546863.428746,
-    "last_success_ts": 1788546863.428746,
+    "last_run_ts": 1788547040.77855,
+    "last_success_ts": 1788547040.77855,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788546814.2013912
+      "updated_at": 1788547045.3915958
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -756,13 +742,6 @@
     }
   },
   "stories": {
-    "1865e6c67e785da0de065ab726adee65934efaf0f407e59b14c0bdd529c71426": {
-      "time": 1788460570,
-      "title": "Консультации по бизнесу и нейросетям от эксперта - VC.ru",
-      "desc": "Консультации по бизнесу и нейросетям от эксперта VC.ru",
-      "source": "VC.ru",
-      "region": "RUSSIA"
-    },
     "5671c6119d1b96af084be80f60b50d6dc60199f4117dbdcc8162aced75d40da2": {
       "time": 1788460752,
       "title": "Qualcomm’s Next Flagship Chip Gets AI-Powered Upscaling To Rival Nvidia’s DLSS - smartprix.com",
@@ -2379,10 +2358,16 @@
       "desc": "Technology in Trading | Meaning, History, Innovation, & AI Britannica",
       "source": "Britannica",
       "region": "WORLD"
+    },
+    "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580": {
+      "time": 1788547040,
+      "title": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова - Smart-Lab",
+      "desc": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова Smart-Lab",
+      "source": "Smart-Lab",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2401,8 +2386,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788545844.1562684,
-  "last_publish_ts": 1788546800.7033708
+  "last_publish_ts": 1788547040.77855
 }
