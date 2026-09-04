@@ -203,11 +203,10 @@
     "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026,
     "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336": 1788513320,
     "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae": 1788513685,
-    "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75": 1788513982
+    "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75": 1788513982,
+    "fb2dd6a91e29517a82641d9f295791035a1709a500341624f02f924a21808218": 1788514283
   },
   "known": {
-    "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788492655.914861,
-    "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": 1788492655.914861,
     "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f": 1788493074.7616563,
     "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19": 1788493074.7616563,
     "61ddefaf4b72efac9a395b2b2044cef2a7cdd7e3b4741f5f7ca3bd2700589179": 1788493074.7616563,
@@ -286,23 +285,6 @@
     "e9ae58f0a606e5a34ef25b670d3c76c94d3f6fd00e2c0e803b0a86cca572b71f": 1788513026.6221929
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "«Критический уровень угрозы»: почему OpenAI признала модель Astra первым ИИ-кибероружием и что это меняет для индустрии - VC.ru",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTRkpDVE1XaGQxT0hXSy1rckJqdTlOdTBJamJQbWZsTExIOTlCZUhDblowR2E4aEVVTWtZVmpyZ0tXSXhxalZhZlZlbDRQb1pxLWJvNFRxTkkyUDlIYnRPLWgtamUwa0M5ME1ySmtaY1hOdw?oc=5",
-      "desc": "«Критический уровень угрозы»: почему OpenAI признала модель Astra первым ИИ-кибероружием и что это меняет для индустрии VC.ru",
-      "source": "VC.ru",
-      "time": 1788511904.0,
-      "score": 76.0,
-      "russia_weight_bonus": 2.5,
-      "key": "fb2dd6a91e29517a82641d9f295791035a1709a500341624f02f924a21808218",
-      "importance": 76.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Сбер: Будущее – за генеративным ИИ, помогающим бизнесу решать задачи развития - prospect.com.ru",
@@ -544,20 +526,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788514162.3894758,
+    "last_start_ts": 1788514283.1037188,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788514162.3894758,
-    "last_success_ts": 1788514162.3894758,
+    "last_run_ts": 1788514283.1037188,
+    "last_success_ts": 1788514283.1037188,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788513985.540589
+      "updated_at": 1788514288.463602
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1998,10 +1980,16 @@
       "desc": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance TradingKey",
       "source": "TradingKey",
       "region": "WORLD"
+    },
+    "fb2dd6a91e29517a82641d9f295791035a1709a500341624f02f924a21808218": {
+      "time": 1788514283,
+      "title": "«Критический уровень угрозы»: почему OpenAI признала модель Astra первым ИИ-кибероружием и что это меняет для индустрии - VC.ru",
+      "desc": "«Критический уровень угрозы»: почему OpenAI признала модель Astra первым ИИ-кибероружием и что это меняет для индустрии VC.ru",
+      "source": "VC.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2020,8 +2008,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788513026.6221929,
-  "last_publish_ts": 1788513982.9921277
+  "last_publish_ts": 1788514283.1037188
 }
