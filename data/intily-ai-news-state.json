@@ -187,7 +187,8 @@
     "69f66e1dce7410a63189f8a91065208dcd28f2e035afca03bb728fb8fc72f14f": 1788507323,
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788507683,
     "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788508281,
-    "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9": 1788508523
+    "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9": 1788508523,
+    "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21": 1788509361
   },
   "known": {
     "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": 1788487975.2950916,
@@ -254,7 +255,16 @@
     "507d1aa7359e57203ae617caf7266d80de108ad6c1547dc1d71e70096b12af1c": 1788507323.0378804,
     "4f59a7e4cc67ad6fd8c341d6d0da488158a8f14272d324b18929973f861dea74": 1788507323.0378804,
     "79a9aad9d12a146111e530186aa2d03bb48ee914488456ee80add38506065fe6": 1788507323.0378804,
-    "397471c6738b39e3fd7bfed5bc0613bfd857a7bd92b7f50bd4502be896dc2f81": 1788507323.0378804
+    "397471c6738b39e3fd7bfed5bc0613bfd857a7bd92b7f50bd4502be896dc2f81": 1788507323.0378804,
+    "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788509361.5282607,
+    "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": 1788509361.5282607,
+    "b58a0f355301e36e6c7b874466f4220ac29a73adb8b5ba9dcb1c0475bee98555": 1788509361.5282607,
+    "d48395c12d7c1f6b1dd3e23aaec23e01cb6548de961ace4e92524fd09dd88795": 1788509361.5282607,
+    "f47a8c17816c855435ca2f228366f59dfc91998ee3d1d8e4dca018511b01d2c0": 1788509361.5282607,
+    "4de32fd0d31dfeff77a76844ac9915f3bf09b00abc1da1d1db4f3d1df0f7ae94": 1788509361.5282607,
+    "3888fde24f62833d35400178a5611fce08ab38275a7ac67fd425a89781ef1ae4": 1788509361.5282607,
+    "c45a2774cbeea2e7c2352185a3ea68e1c8824613e2d64550480c0b0bfaa7270d": 1788509361.5282607,
+    "b00b13a5b80d8f2e20603749db7d26bace55a5516649ce69a11a9373d6f4523c": 1788509361.5282607
   },
   "queue": [
     {
@@ -281,60 +291,13 @@
       "desc": "Закон об ИИ в России: новые возможности для Якутии YakutiaMedia",
       "source": "YakutiaMedia",
       "time": 1788505304.0,
-      "score": 73.6,
+      "score": 70.6,
       "russia_weight_bonus": 2.1,
       "key": "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc",
-      "importance": 73.6,
+      "importance": 70.6,
       "editorial_value": 50.0,
       "topics": [
         "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNakJGSy1qY1N1N3prQmZDNVNyLXp1eURISS1UaTBMaWg4aUVITkFVSWJmV2xkcGxTbmo5eG9PeDYtck5VQTkwSHJxUEh5LXBoMURtRlpmbExUSGU4eV92d1FPUW5kdzZfajNDRXgtUU5YYkdkS1F1aVF5OC1SUndHOXRMTnZkb3ByNW92NnpYX3JRakVBc0cyYU1sVExhalZ3OUE4MkRQREFkT3I2VWs2N2tYZGlnNWMybUE?oc=5",
-      "desc": "Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team WSJ",
-      "source": "WSJ",
-      "time": 1788505479.0,
-      "score": 70.5,
-      "key": "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Enterprise AI Agents: How to Deploy, Govern, and Scale - RS Web Solutions",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYzRaaE12T1dfcTV3UWg0Z3FxNXJGTE5SdE1SckIzMWpBTUJLc0xSM2YzSU1jV2k4UGlMSXZyc3NnLTlYLUxoU2huTHZkLVhJbGduRkhvcTRrZWNJQ2w5a0paQlJmSkNJdXNrc1lJd05QMjJNQzN2SWlDUzFuOXhEXw?oc=5",
-      "desc": "Enterprise AI Agents: How to Deploy, Govern, and Scale RS Web Solutions",
-      "source": "RS Web Solutions",
-      "time": 1788500516.0,
-      "score": 70.5,
-      "key": "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Breakingviews - COMMENTARY: AI agent hack tests solvency more than sentience - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ0YxbC12R2RMY1dGdWlUWVVoRWdUdlV6ZVNzay0wdlpSNGxCMlN2VGxUTjRuWVNhbmxZQWtqYTc2bzhwNG5pOXpJTFpFMEhBY3FaVEpFUXVyU2VfY05md3BDQ3FYUi1TSzU3VzVVTF9RZDVyVFdRblNsLWs4VG95OEVpWU04XzVvVFlZTlBxNThhMFVReHZKaW83U0JTdndCdjQtVWVpNHhuTjh3Z1E?oc=5",
-      "desc": "Breakingviews - COMMENTARY: AI agent hack tests solvency more than sentience Reuters",
-      "source": "Reuters",
-      "time": 1788498000.0,
-      "score": 70.5,
-      "key": "d39a7884e5d6a904c7b16ceb5b3cb8189f71d046e759f6fa4547b667bb7d9949",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
       ],
       "tier": "A"
     },
@@ -403,18 +366,20 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Что происходит на рынке IT: зарплаты, ИИ и прогноз - Новые Известия",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMURpbUJJVVhnbWEtZlJRRks5LVpVYWs0OTFhcGxka2pRd3NISUZXdk1GUTFtN2YxSDJFVWVrRi05eUZQZnVockIxQTVZRmJDUXpORGRlVHEtVTVVU3dkaXNrMUxvQ3pGMFIyVkJSeUpYd0lrbW84Ym0wNHptdDlxYnlHaXlSeUFxR1RRVHpGR1pmb3c3aGtvOU1JZlBfT3h0ZlZxRXV0SFhrR2V0RG1yck1ZcngtenpJREE?oc=5",
-      "desc": "Что происходит на рынке IT: зарплаты, ИИ и прогноз Новые Известия",
-      "source": "Новые Известия",
-      "time": 1788498000.0,
-      "score": 69.2,
-      "russia_weight_bonus": 4.7,
-      "key": "4742b5b2eaa6a861466512c7f92b24d914c05c97142a53dc4f1c42e2906c5958",
-      "importance": 69.2,
+      "region": "WORLD",
+      "title": "OpenAI has announced GPT-6 Astra, says the 'AGI era' has arrived; Brings major leap in AI reasoning, coding and computer use - Business Today",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcWZjYW9vbTU4VVMzNUN3ZUtydlQ3QzBoTVptZ3JNTXNubGhSTk0welJKUlJDNEVGX1BBNWVaLTlGYjJsZnVyWDVqU1NMa1hGWW9RLXpfczZXR001V2J1eXF6eF9uMU5OMU5Sd1hwM1lUSXIzTzZzZkplY3VTSWNWRklEdDhVUjZ3QUI2aFlDNlVQT29ZdGh2LXhoMTBWeXNKeEVWRzg4UnZWNmdRYzZQUjFlV0FWdkRpR1cwLVR3UUFlYXhPRGdMYzVKMUZfSENacGpBVVpDcWl5cENRTWI0VC1QQdIB6AFBVV95cUxPbjBHYms1bDMwbG9yQWRoS01WaHJCVnVGd1A2YVhwOWhfZl81ZnkxR1pmVjBPaWI1TXVUcXVUR3Z4bnRNSkEya3pWdkdiTXU3T3lwS096TzV2ZmhsRzVnWVJnWVNTZmFueWFMRnBYRTJiSVBmRFZRQTlfOER6bjNfODl4VjZwUk5XT1htcjNlMEtyai1DMU4yUUpGRkNTalVkU29hbU82MFNsSTNYN3ZEaEtUa3B5YVNNUjZVZ3ZmdElJLTRnLWRhcTFzOTN3Q0pOSEs5eTBSdHhjTGVzbFJUbzFKWXRiNHZP?oc=5",
+      "desc": "OpenAI has announced GPT-6 Astra, says the 'AGI era' has arrived; Brings major leap in AI reasoning, coding and computer use Business Today",
+      "source": "Business Today",
+      "time": 1788499800.0,
+      "score": 69.5,
+      "key": "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406",
+      "importance": 69.5,
       "editorial_value": 50.0,
-      "topics": [],
+      "topics": [
+        "business",
+        "models"
+      ],
       "tier": "A"
     },
     {
@@ -466,6 +431,36 @@
     },
     {
       "region": "WORLD",
+      "title": "Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNakJGSy1qY1N1N3prQmZDNVNyLXp1eURISS1UaTBMaWg4aUVITkFVSWJmV2xkcGxTbmo5eG9PeDYtck5VQTkwSHJxUEh5LXBoMURtRlpmbExUSGU4eV92d1FPUW5kdzZfajNDRXgtUU5YYkdkS1F1aVF5OC1SUndHOXRMTnZkb3ByNW92NnpYX3JRakVBc0cyYU1sVExhalZ3OUE4MkRQREFkT3I2VWs2N2tYZGlnNWMybUE?oc=5",
+      "desc": "Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team WSJ",
+      "source": "WSJ",
+      "time": 1788505479.0,
+      "score": 67.5,
+      "key": "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Dream’s Cyber AI Tops Berkeley Benchmark as Specialized Models Challenge Frontier Systems - Technology Org",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMEdoOUZnQkI4OG16WHVYZnU1WjJ1eDFrQzJJMlluMmxQNE1faEQyMHM1cld1Wnd1YmVDMURBZXdpR09HUTg1bEZZb3BDTkRVdFl3T1E0cjBtY0NrRzRfRHJLRlp0S1RBTUFqTE1tMl8wdjg0Vzh4eXhwR3hMWXdDREN6R3lEbnJKN0VsRXRaTkx2NURHbWw2SjdTSW1OcmF4bnlQcXIxcEV4RnFpcWhYdzh0TDZkU19DRUNSMl9scUl2OE5rYUE?oc=5",
+      "desc": "Dream’s Cyber AI Tops Berkeley Benchmark as Specialized Models Challenge Frontier Systems Technology Org",
+      "source": "Technology Org",
+      "time": 1788504938.0,
+      "score": 67.5,
+      "key": "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcHNSdUdrckpadThCUlJiM3VaTFRJdzdIY09ZejkwbloxZ2IzdFJ5M1V4MDlZajdLMnpQU3BWMExBcmRpTndQSk50ZnRRTXhlS2Nycm92Y29YQThSeW91d05PODN0RDZWdnFZNTdVM0ZQaGZxUWplbk1YUC1FQkI2aFZOVWx1VlRLc0FPWW9qbmd5bVpCSzNPZEJZYjlHcHlCVC1rS1htQnZ6bmZBdnJsN2Nuci1xbkx1R2VGcEdUYmxZTjJrWFNndzU2cVp5RmFvWV9iUmxEVFY?oc=5",
       "desc": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab TradingKey",
@@ -512,23 +507,82 @@
         "chips"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Catholic colleges and universities jumping into quick-moving AI field - ncronline.org",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM2lSSDJpTzlidUY5MWoyNW9jaXpHVGRuNElySXZfTUZ0Y3Nmc1BnMGx2VllBNEVqaXVWYVJzU082Qi1ZY0M2RVRPaDJwblZQWXFSMTFJRy12RlBrSXA3d3Z6ZUEyaWxuLWdxcWQ1Mng2WXByUzIyZzlvdy0zU3gxalZITUR0Q1hFTjJ0blVFTUxlaG9JTU1aWU1GQQ?oc=5",
+      "desc": "Catholic colleges and universities jumping into quick-moving AI field ncronline.org",
+      "source": "ncronline.org",
+      "time": 1788509154.0,
+      "score": 66.5,
+      "key": "b58a0f355301e36e6c7b874466f4220ac29a73adb8b5ba9dcb1c0475bee98555",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "After Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeDVnMEdoMnIzT3QtWGducy1Od25VMVM3Z3I3elBURm9ia05yQkNEUE9veGNaTEJZaW5INzlmTVdwOEpIbTgzX09mcEdiSGhGSU1oSXdMNzdfOEJkbGZxeXNTMlBhLVlPMWVNaWYtSmZMUmp2N1lBMm90dnF1cFhhSTVBd2F2a3AzRVg1OEdsdU1aSndxN05UTHB1Qk00Vjl1MnlwTw?oc=5",
+      "desc": "After Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? Morningstar",
+      "source": "Morningstar",
+      "time": 1788509081.0,
+      "score": 66.5,
+      "key": "d48395c12d7c1f6b1dd3e23aaec23e01cb6548de961ace4e92524fd09dd88795",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI designed molecules show promise against breast cancer, study finds - Punch Newspapers",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUnZ0T3FuYXNWMHpfV2hSTkd6QjdRc0hCN0xmOXJyY1BnZV9EcEIyT2FBcHZ3U3ZtYmhUaWt2b1hTQVE1dEFTd0p4OTdROHY4NTI1eEl2MWFMN19SUTdqVFhiRUJ1cWE5ay1QSmxKWkx1QUV3eWdOejNtUXdwU2xWR2l0c3I4MEJQNWtLVDdzUmhRRVQzOWszRVFZajVndzNKeVE?oc=5",
+      "desc": "AI designed molecules show promise against breast cancer, study finds Punch Newspapers",
+      "source": "Punch Newspapers",
+      "time": 1788508190.0,
+      "score": 66.5,
+      "key": "f47a8c17816c855435ca2f228366f59dfc91998ee3d1d8e4dca018511b01d2c0",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Что происходит на рынке IT: зарплаты, ИИ и прогноз - Новые Известия",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMURpbUJJVVhnbWEtZlJRRks5LVpVYWs0OTFhcGxka2pRd3NISUZXdk1GUTFtN2YxSDJFVWVrRi05eUZQZnVockIxQTVZRmJDUXpORGRlVHEtVTVVU3dkaXNrMUxvQ3pGMFIyVkJSeUpYd0lrbW84Ym0wNHptdDlxYnlHaXlSeUFxR1RRVHpGR1pmb3c3aGtvOU1JZlBfT3h0ZlZxRXV0SFhrR2V0RG1yck1ZcngtenpJREE?oc=5",
+      "desc": "Что происходит на рынке IT: зарплаты, ИИ и прогноз Новые Известия",
+      "source": "Новые Известия",
+      "time": 1788498000.0,
+      "score": 60.7,
+      "russia_weight_bonus": 4.7,
+      "key": "4742b5b2eaa6a861466512c7f92b24d914c05c97142a53dc4f1c42e2906c5958",
+      "importance": 60.7,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788508523.0319016,
+    "last_start_ts": 1788509361.5282607,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788508523.0319016,
-    "last_success_ts": 1788508523.0319016,
-    "last_candidates": 0,
+    "last_run_ts": 1788509361.5282607,
+    "last_success_ts": 1788509361.5282607,
+    "last_candidates": 58,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788508526.9233592
+      "updated_at": 1788509390.4167612
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1857,12 +1911,18 @@
       "desc": "Why identity security must evolve for both humans and AI Security Journal Americas",
       "source": "Security Journal Americas",
       "region": "WORLD"
+    },
+    "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21": {
+      "time": 1788509361,
+      "title": "Enterprise AI Agents: How to Deploy, Govern, and Scale - RS Web Solutions",
+      "desc": "Enterprise AI Agents: How to Deploy, Govern, and Scale RS Web Solutions",
+      "source": "RS Web Solutions",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1879,8 +1939,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788507323.0378804,
-  "last_publish_ts": 1788508523.0319016
+  "last_search_ts": 1788509361.5282607,
+  "last_publish_ts": 1788509361.5282607
 }
