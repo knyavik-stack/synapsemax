@@ -248,7 +248,8 @@
     "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5": 1788528379,
     "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": 1788528562,
     "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": 1788528862,
-    "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8": 1788529102
+    "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8": 1788529102,
+    "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788529402
   },
   "known": {
     "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788509361.5282607,
@@ -426,25 +427,6 @@
     "0e96fe393d4395e7c83b4c148ba7f61984bc2d7227a42e8a4a9e1cf951f46406": 1788528681.428885
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Microsoft представила Project Zenith — мощные Windows-системы без лишнего мусора для ИИ-разработчиков - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbFJ2UnYzb3d3Y3hnNmR1S2xqMnU3VkpKcVRPb2NXT2owaU00QWVQSUZSTlBvVE4xckRucF9hNzhVcjRGb3dlNkM0cEVoem9yVTIyZ1E2bDYyQU1xVlNvbnN1UG4zc2JFTFdUbkNRbl9FMWwwSGZnc0h6YWFNV2l1SUdsZW9DSWpYRHMyMXhzUDJ1bVp4bjdFcks2R3l2OTJ6bFRpTGMxS1FVaFJWSHNwX2FhblhvY3NvclFfSEZMbTJuNC1kSG16TnE4aEE3elhIdjROeDJmNzludw?oc=5",
-      "desc": "Microsoft представила Project Zenith — мощные Windows-системы без лишнего мусора для ИИ-разработчиков prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788528219.0,
-      "score": 83.9,
-      "russia_weight_bonus": 4.4,
-      "key": "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726",
-      "importance": 83.9,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788529102,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788529402
-    },
     {
       "region": "WORLD",
       "title": "Booz Allen Hacking Benchmark Ranked 18 AI Models; Scaffolding Software Erased Rankings - techtimes.com",
@@ -708,20 +690,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788529280.650272,
+    "last_start_ts": 1788529402.734625,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788529280.650272,
-    "last_success_ts": 1788529280.650272,
+    "last_run_ts": 1788529402.734625,
+    "last_success_ts": 1788529402.734625,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788529124.9220965
+      "updated_at": 1788529407.501576
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2421,10 +2403,16 @@
       "desc": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой Sostav.ru",
       "source": "Sostav.ru",
       "region": "RUSSIA"
+    },
+    "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": {
+      "time": 1788529402,
+      "title": "Microsoft представила Project Zenith — мощные Windows-системы без лишнего мусора для ИИ-разработчиков - prospect.com.ru",
+      "desc": "Microsoft представила Project Zenith — мощные Windows-системы без лишнего мусора для ИИ-разработчиков prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2443,8 +2431,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788528681.428885,
-  "last_publish_ts": 1788529102.7739463
+  "last_publish_ts": 1788529402.734625
 }
