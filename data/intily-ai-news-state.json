@@ -273,7 +273,8 @@
     "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": 1788535581,
     "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": 1788536002,
     "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": 1788536242,
-    "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536483
+    "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536483,
+    "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38": 1788537142
   },
   "known": {
     "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85": 1788516980.4948416,
@@ -476,23 +477,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ - BeInCrypto",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zVS02RUdTWUZmR2pEb3pYZXhYY2tJYW5wLWpselMxZzZiN2JJelJRWTJENnZQXzhBcERqX0hVV21ZX1d4T3RDWW5Qb1R4YUtQc09XUlFMQXdSTlFRVjFWMmI0bjdJNkNITmd6SDh3TTctb2pUR3BMenotcFdDOGs?oc=5",
-      "desc": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ BeInCrypto",
-      "source": "BeInCrypto",
-      "time": 1788535200.0,
-      "score": 75.9,
-      "russia_weight_bonus": 3.4,
-      "key": "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38",
-      "importance": 75.9,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину - Korrespondent.net",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeUE0dnN2ejQtbjNneG5BYmNjSjdOLVpmdjI3RzR2Mk5GZ194RlJHNUpQaU01aEdJYXJKbjNrZXFLV2dGdkFqcjJZdkE1RnN0eE9wLTdiLV9MUUxIMkVxS1c5blRqS280ZElxMUpjVkpmUUQ4MndleGNkR2R5MEE5QjE2UzVnRmFZbDRpSENmcUxPdzAyWGI5ekZhUFUxaVZ6NWfSAZwBQVVfeXFMUC1VaFZqMlFZS3FmZjdmSkxpUTZuWG1jZ1BETUhmUlhOdlNaVWs5Y2RhbE9BcVc2WjRKWHAyOXh6YU9HZ2hoUy1aLXFQU3I3dmFxUWxPeTVWb0VQODZRakFlZWhSeDlqbE5iNzE2VjFKVjVRQndNRnlpcHdwTnlFY1FfbFpkbGdhYXZEVnFJWVB0Nnpib1F1R2FPYVhi?oc=5",
       "desc": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину Korrespondent.net",
@@ -517,52 +501,6 @@
       "russia_weight_bonus": 2.1,
       "key": "ff374a60e61b0ca84c654c0f578a972ee37931667d473c0f3f4305ec0f2398c6",
       "importance": 71.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны - Life.ru",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2g3cmJzSDdqTll5NXdnQmpLQS1MM3d1bW9Pd0JkZW01QXBpc3haOXhfWkRwR1M5TTlQR3VxQWxsbkxEdF9MYzgweDFyQWJFaHJSbE1WSzBQXzhrR1dHS3FpVF9GVk0yWmxkWmxjeHlkN1pNNlY1OWpXWlVBaGx0NXhZY1dnSzZuV1JnTWJQQk5lVzJvSzNnX2dRNUswUQ?oc=5",
-      "desc": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны Life.ru",
-      "source": "Life.ru",
-      "time": 1788533194.0,
-      "score": 70.8,
-      "russia_weight_bonus": 2.3,
-      "key": "cfe31e748d32388727cbd6ec69c1cefe23bc5cc4fbe63e81904a06ccc397df5d",
-      "importance": 70.8,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "«Использовать ИИ только ради моды мы не будем» - kommersant.ru",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Qa0lOcW01ZTZEV3RIX1hXa3ljOHNCNmg4Ym0tU3BTbWtmZXlEOU1QSHRhV2cwNkxUTjB5bk9fZlo5bXZxZHBYY2RaYzlyZw?oc=5",
-      "desc": "«Использовать ИИ только ради моды мы не будем» kommersant.ru",
-      "source": "kommersant.ru",
-      "time": 1788526202.0,
-      "score": 70.4,
-      "russia_weight_bonus": 4.9,
-      "key": "a5762c0abafe1f12f9df9cf5c9ccf1ed897d7d27b6a9761964e9dc7015424c28",
-      "importance": 70.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Google’s Gemini Spark can now manage your Google Photos library - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjZydEpPN2s2Tm9YM1FuSkFqdWVLRUpZN3Job0drdldXVUw3RFl6YkswYVoySjVKOU9Cc1RwOUdsamxyRzN4QWlqd2VtbUtLcmxJc2RndzZEaHl6TVZmdGtHNy0xYW5fY1lzU003OTJtaEozOFZCa3Y3ckp6dlkyMF9KZ2hNZ01IbTdPNVA4akxIalEwaU1ELUJzeFFUdw?oc=5",
-      "desc": "Google’s Gemini Spark can now manage your Google Photos library TechCrunch",
-      "source": "TechCrunch",
-      "time": 1788533231.0,
-      "score": 69.5,
-      "key": "26609257eaac1fb0dd94ab8a777f26f580be7d10a7189e806e82a402b80dc551",
-      "importance": 69.5,
       "editorial_value": 50.0,
       "topics": [
         "models"
@@ -616,6 +554,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны - Life.ru",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2g3cmJzSDdqTll5NXdnQmpLQS1MM3d1bW9Pd0JkZW01QXBpc3haOXhfWkRwR1M5TTlQR3VxQWxsbkxEdF9MYzgweDFyQWJFaHJSbE1WSzBQXzhrR1dHS3FpVF9GVk0yWmxkWmxjeHlkN1pNNlY1OWpXWlVBaGx0NXhZY1dnSzZuV1JnTWJQQk5lVzJvSzNnX2dRNUswUQ?oc=5",
+      "desc": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны Life.ru",
+      "source": "Life.ru",
+      "time": 1788533194.0,
+      "score": 67.8,
+      "russia_weight_bonus": 2.3,
+      "key": "cfe31e748d32388727cbd6ec69c1cefe23bc5cc4fbe63e81904a06ccc397df5d",
+      "importance": 67.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Сэм Альтман признал, что создатели нейросетей сами виноваты в глобальной панике вокруг искусственного интеллекта » Новости Кыргызстана, Бишкека и Оша — последние события на сегодня - open.kg",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMnh0MUhBb3ZDWWNMSDJsQ0VrTkRvTjZOek9aLXQxTVllMzREbkpWeGd2dU94VVJXNmxDUzhnLTZtUXVXdmxMbHhlclB6WU5QWlRZcnhLSXB5cEZwUkRpLXUwSmtxeUhqSi1KSmRFZHBCbXlFeThFZ0REaF9TOEVmZ3Eya0xSTFFVV1FQZ3lGR2tUaEE3M3RqamI1cEY4cFdtcjlJeXlfdGxnTjdpbm5pR0ZDNXFVU19Zcmxqd0QxbTdVT0EwQVAtWmZwcFktRHFmcVk0b3ZNSmN0YnNqalhMQmxJdGhKZnJfU3c?oc=5",
       "desc": "Сэм Альтман признал, что создатели нейросетей сами виноваты в глобальной панике вокруг искусственного интеллекта » Новости Кыргызстана, Бишкека и Оша — последние события на сегодня open.kg",
@@ -647,16 +600,18 @@
     },
     {
       "region": "WORLD",
-      "title": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty - Tech Review Africa",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazBFLW1md3JhaS1iX2E3QXdsbVVXdktEVk4yS0lqV2dDX1haMWw4SzJjSllFUmY5MVcxTjhMNlMtamlTVmhLMnRTT1JGZWVYMlZvemdBSGNzZGlzLXUwYUYxdUZ3TW1EX0twLW9jR1JVcHNtZmlmWUI4YTMweERaY2hfZFNYREQ5U2c0WUdrV1R4VFBXaTlfRW5EZ1ljUmphRW5oZHdNblduWms0TlpIeGUtY3JzbDNNYkRkMWktOVRtTGs5ckJtOUhNUzYwUQ?oc=5",
-      "desc": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty Tech Review Africa",
-      "source": "Tech Review Africa",
-      "time": 1788533539.0,
+      "title": "Google’s Gemini Spark can now manage your Google Photos library - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjZydEpPN2s2Tm9YM1FuSkFqdWVLRUpZN3Job0drdldXVUw3RFl6YkswYVoySjVKOU9Cc1RwOUdsamxyRzN4QWlqd2VtbUtLcmxJc2RndzZEaHl6TVZmdGtHNy0xYW5fY1lzU003OTJtaEozOFZCa3Y3ckp6dlkyMF9KZ2hNZ01IbTdPNVA4akxIalEwaU1ELUJzeFFUdw?oc=5",
+      "desc": "Google’s Gemini Spark can now manage your Google Photos library TechCrunch",
+      "source": "TechCrunch",
+      "time": 1788533231.0,
       "score": 66.5,
-      "key": "e29bb4b90bf5b83482e866f9cf7bd051c29af047aae6d8346b12e82a6ece4bc2",
+      "key": "26609257eaac1fb0dd94ab8a777f26f580be7d10a7189e806e82a402b80dc551",
       "importance": 66.5,
       "editorial_value": 50.0,
-      "topics": [],
+      "topics": [
+        "models"
+      ],
       "tier": "A"
     },
     {
@@ -692,6 +647,20 @@
     },
     {
       "region": "WORLD",
+      "title": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty - Tech Review Africa",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazBFLW1md3JhaS1iX2E3QXdsbVVXdktEVk4yS0lqV2dDX1haMWw4SzJjSllFUmY5MVcxTjhMNlMtamlTVmhLMnRTT1JGZWVYMlZvemdBSGNzZGlzLXUwYUYxdUZ3TW1EX0twLW9jR1JVcHNtZmlmWUI4YTMweERaY2hfZFNYREQ5U2c0WUdrV1R4VFBXaTlfRW5EZ1ljUmphRW5oZHdNblduWms0TlpIeGUtY3JzbDNNYkRkMWktOVRtTGs5ckJtOUhNUzYwUQ?oc=5",
+      "desc": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty Tech Review Africa",
+      "source": "Tech Review Africa",
+      "time": 1788533539.0,
+      "score": 63.5,
+      "key": "e29bb4b90bf5b83482e866f9cf7bd051c29af047aae6d8346b12e82a6ece4bc2",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Oracle (NYSE:ORCL) AI Bet Tests Its Cash-Flow Valuation - Kalkine Media",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQW54bWRNYlM4a0x2clNQOWozSEduNnY2ZUNubmRSVVRQV0hmbnNMNzcyWkJOeXZWR0xvSW51WXpXbnM4UHpMejlzVzVFakFIT3RHemxZWTB5eG1JRF9KbURzZG0yMEVPWENWMGJVNk43WUtzUllPbE9ZNzJqQXRraWUxSmF4MEx6R0xoRWt1T1pCTnNxMnh3elMzU0hURDA?oc=5",
       "desc": "Oracle (NYSE:ORCL) AI Bet Tests Its Cash-Flow Valuation Kalkine Media",
@@ -718,6 +687,21 @@
       "topics": [
         "applications"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "«Использовать ИИ только ради моды мы не будем» - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Qa0lOcW01ZTZEV3RIX1hXa3ljOHNCNmg4Ym0tU3BTbWtmZXlEOU1QSHRhV2cwNkxUTjB5bk9fZlo5bXZxZHBYY2RaYzlyZw?oc=5",
+      "desc": "«Использовать ИИ только ради моды мы не будем» kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788526202.0,
+      "score": 60.9,
+      "russia_weight_bonus": 4.9,
+      "key": "a5762c0abafe1f12f9df9cf5c9ccf1ed897d7d27b6a9761964e9dc7015424c28",
+      "importance": 60.9,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -751,20 +735,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788536606.779908,
+    "last_start_ts": 1788537142.0174565,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788536606.779908,
-    "last_success_ts": 1788536606.779908,
+    "last_run_ts": 1788537142.0174565,
+    "last_success_ts": 1788537142.0174565,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788536489.1629589
+      "updated_at": 1788537150.845891
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -778,20 +762,6 @@
     }
   },
   "stories": {
-    "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": {
-      "time": 1788450319,
-      "title": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года - itweek.ru",
-      "desc": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года itweek.ru",
-      "source": "itweek.ru",
-      "region": "RUSSIA"
-    },
-    "f191a9d3a2d714da447ddc5841afdc646df222636affa0f63d8623899aca9b89": {
-      "time": 1788450670,
-      "title": "Globant Introduces MuleSoft AI Pod to Break through Integration Barriers and Scale Enterprise Agentic AI with Salesforce - PR Newswire UK",
-      "desc": "Globant Introduces MuleSoft AI Pod to Break through Integration Barriers and Scale Enterprise Agentic AI with Salesforce PR Newswire UK",
-      "source": "PR Newswire UK",
-      "region": "WORLD"
-    },
     "e0bc2e638095f88e8db26d34dd5676d77d74b1bbe45fe14d292bdc851ebc3fbc": {
       "time": 1788450851,
       "title": "Разработчикам ИИ в России дадут миллиардные льготы - Инвест-Форсайт",
@@ -2464,10 +2434,16 @@
       "desc": "Разработчик показал симуляцию выживания на Unreal Engine с автономными ИИ-жителями PlayGround.ru",
       "source": "PlayGround.ru",
       "region": "RUSSIA"
+    },
+    "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38": {
+      "time": 1788537142,
+      "title": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ - BeInCrypto",
+      "desc": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ BeInCrypto",
+      "source": "BeInCrypto",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2486,8 +2462,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788536242.444593,
-  "last_publish_ts": 1788536483.6339517
+  "last_publish_ts": 1788537142.0174565
 }
