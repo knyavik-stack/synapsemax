@@ -229,7 +229,8 @@
     "cc0d8ba1979f2b627509070666ee20f2c1bb39f1a4592c662c00cf4d363765b9": 1788521901,
     "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85": 1788522321,
     "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": 1788522561,
-    "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522800
+    "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522800,
+    "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": 1788523099
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -348,23 +349,6 @@
     "873757138a4e2ad16ebc0e74bf4e543d040382b75dcde3e24ceea6cb6f97befc": 1788522622.0770597
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSkdMUnk0M1VzZDltMEtMMFRabTJTd3RsVUd0MmV4aVFGOFViN2V4RHNwX0tMUmN3ei0xQjlrVFg3dVlDTUhxWllCaDVTa2R1TkI3NExlV3pydGRiNkxENWQ1UWF0RVh0SmN4UDcwSV9WNDZPSl9iS2luaFdNZ0JINWdPNXNtZDMyUWhvX01tdW9uYUhBeVlocjNGaGJMY042Y2p3Z1pqT1lZWUFoRkZmeXNrZGw?oc=5",
-      "desc": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. Vietnam.vn",
-      "source": "Vietnam.vn",
-      "time": 1788522561.0,
-      "score": 77.2,
-      "russia_weight_bonus": 4.7,
-      "key": "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0",
-      "importance": 77.2,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год - abireg.ru",
@@ -614,20 +598,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Think AI: how to really use artificial intelligence - Royal Gazette | Bermuda",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcW0yLUF3NlpLcllQMTZWcTJMRTdMUzN3NDg5SlM1VnFnSUpsYnV5X0xtbHNiZTM0RWZSODdwd3F6YzlFdkVqNkktSjZ4Y3g1cXItaVVtaHBnN05vd2lVTFFOOXBQNXVpLTE1YUVIYU1tYXI1SkwzcnlQeFg0cWdnejdLd2RfMWpUQS1hQjEwMFUyaHJiV090N3VRdEpMMU1HWFNuSXI4Rmd2MjZnbmtzVTZmc3M2eEM5LVNkTw?oc=5",
-      "desc": "Think AI: how to really use artificial intelligence Royal Gazette | Bermuda",
-      "source": "Royal Gazette | Bermuda",
-      "time": 1788519240.0,
-      "score": 66.5,
-      "key": "a63f5746ff3656daad624997ef9e15d053f47cb2fa137d5fa4c74ac7d6b41ff0",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры - CNews.ru",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ia01tRmstX0lDZmcwQ2wtakQyUzJkb3B5cTdmSEJYczQ3SmR6ZDgyU2gxY2JRdEt2X1Jqdi1VOFRsTEdQMlFWcGRFalJ5ZVRQU2g3LVJJaF91R3luUGdVUVJmc1cyWHFBTUgzSS14MVJ6cU5FS0dn?oc=5",
@@ -643,23 +613,37 @@
         "agents"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Think AI: how to really use artificial intelligence - Royal Gazette | Bermuda",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcW0yLUF3NlpLcllQMTZWcTJMRTdMUzN3NDg5SlM1VnFnSUpsYnV5X0xtbHNiZTM0RWZSODdwd3F6YzlFdkVqNkktSjZ4Y3g1cXItaVVtaHBnN05vd2lVTFFOOXBQNXVpLTE1YUVIYU1tYXI1SkwzcnlQeFg0cWdnejdLd2RfMWpUQS1hQjEwMFUyaHJiV090N3VRdEpMMU1HWFNuSXI4Rmd2MjZnbmtzVTZmc3M2eEM5LVNkTw?oc=5",
+      "desc": "Think AI: how to really use artificial intelligence Royal Gazette | Bermuda",
+      "source": "Royal Gazette | Bermuda",
+      "time": 1788519240.0,
+      "score": 63.5,
+      "key": "a63f5746ff3656daad624997ef9e15d053f47cb2fa137d5fa4c74ac7d6b41ff0",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788522800.2273877,
+    "last_start_ts": 1788523099.8243108,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788522800.2273877,
-    "last_success_ts": 1788522800.2273877,
+    "last_run_ts": 1788523099.8243108,
+    "last_success_ts": 1788523099.8243108,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788522802.587571
+      "updated_at": 1788523108.2344568
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2282,10 +2266,16 @@
       "desc": "Weekly Startup Funding Roundup: AI, Robotics, Deep Tech Draw Fresh Capital Analytics Insight",
       "source": "Analytics Insight",
       "region": "WORLD"
+    },
+    "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": {
+      "time": 1788523099,
+      "title": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. - Vietnam.vn",
+      "desc": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2304,8 +2294,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788522622.0770597,
-  "last_publish_ts": 1788522800.2273877
+  "last_publish_ts": 1788523099.8243108
 }
