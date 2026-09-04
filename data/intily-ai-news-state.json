@@ -268,7 +268,8 @@
     "7c74a8361aab0e3a2e4ff3fc6ccba0196c06d2adec6396eb9c1cd09d6a5c6e3d": 1788534140,
     "9b2411342d80e2c6b34fa3b3384bed016c552a3251af059423e5b63645928a1e": 1788534381,
     "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534801,
-    "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": 1788535160
+    "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": 1788535160,
+    "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": 1788535341
   },
   "known": {
     "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515000.8867981,
@@ -532,22 +533,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Travel Technology Solutions Market: AI, Automation - openPR.com",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRDBCcUdIeE9LbzFoVHN1TlJaMFJZaklDTmJNeVBIN215QzBUMTJjSWFwR2wwMWkxV0ZJY1hhNXpJQWhORF9XakwzVmtMSjkxZWQtRFZXQ2VIZmlGWnNQRUttV2FuUEN1bGNjNW9FWnlLUjRQeVZYTEdZZ0hsQ3FhcDVlcnhlN05XVUpvcA?oc=5",
-      "desc": "Travel Technology Solutions Market: AI, Automation openPR.com",
-      "source": "openPR.com",
-      "time": 1788532091.0,
-      "score": 69.5,
-      "key": "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Не бояться нейросетей призвал учащихся глава Минцифры Новосибирской области - Горсайт",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONERNbGRsRkZ6T1NCZ0JlYXQ5amZJU2Q0c1BlTl9CdFBWN2UwekFha0tpWVNPVUJuenJmTzV2UTR4c01WYVMtNzJEbWNxN3c1T3U0Y2tUVGxFU0tuekg1NjVGMjlIeVFGUmR3Vy0tMUpHRnM4M0R4eTZueXhaUGZLbEJiQTQycWdGX1FaYVhfaVhNdTRZbUlHak1GVFJGS1AyZGdZNWJjZFdGbHo5N0VqWW5oRkdxV1RZNnVFeA?oc=5",
@@ -656,20 +641,6 @@
     },
     {
       "region": "WORLD",
-      "title": "ByteDance Secures $29.6 Billion Loan for AI Expansion - Whalesbook",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTDU3ZDYwSWxBTm9QXzYxQmotMkVvQnVReGFDQ1k5SzhoTTd1RHdJclpySFctUnBqVWQ1dDBMeGJQSWJNdUpKeXB5cE1HYjlaQkxjRHBVdENtcjRmSUliWUx5WVhBWE12dHliZkdfX18xQkpIUnhhaWhkcTZYdElsVlpfYXBjVm5lSkFGXzY5RXlLM1hDbk9lS1otbnBLMmlFMlp0MEhmWkpQQV9jbGR0OVdnNjNGak83V0F3dkxQY2NhM2ZjX25EQlVybFZWdw?oc=5",
-      "desc": "ByteDance Secures $29.6 Billion Loan for AI Expansion Whalesbook",
-      "source": "Whalesbook",
-      "time": 1788524490.0,
-      "score": 67.5,
-      "key": "49564a7d173dab6929645f2d246032f15982f2e4cfbef921cd79a32ae47c0c60",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty - Tech Review Africa",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazBFLW1md3JhaS1iX2E3QXdsbVVXdktEVk4yS0lqV2dDX1haMWw4SzJjSllFUmY5MVcxTjhMNlMtamlTVmhLMnRTT1JGZWVYMlZvemdBSGNzZGlzLXUwYUYxdUZ3TW1EX0twLW9jR1JVcHNtZmlmWUI4YTMweERaY2hfZFNYREQ5U2c0WUdrV1R4VFBXaTlfRW5EZ1ljUmphRW5oZHdNblduWms0TlpIeGUtY3JzbDNNYkRkMWktOVRtTGs5ckJtOUhNUzYwUQ?oc=5",
       "desc": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty Tech Review Africa",
@@ -727,23 +698,37 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "ByteDance Secures $29.6 Billion Loan for AI Expansion - Whalesbook",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTDU3ZDYwSWxBTm9QXzYxQmotMkVvQnVReGFDQ1k5SzhoTTd1RHdJclpySFctUnBqVWQ1dDBMeGJQSWJNdUpKeXB5cE1HYjlaQkxjRHBVdENtcjRmSUliWUx5WVhBWE12dHliZkdfX18xQkpIUnhhaWhkcTZYdElsVlpfYXBjVm5lSkFGXzY5RXlLM1hDbk9lS1otbnBLMmlFMlp0MEhmWkpQQV9jbGR0OVdnNjNGak83V0F3dkxQY2NhM2ZjX25EQlVybFZWdw?oc=5",
+      "desc": "ByteDance Secures $29.6 Billion Loan for AI Expansion Whalesbook",
+      "source": "Whalesbook",
+      "time": 1788524490.0,
+      "score": 60.0,
+      "key": "49564a7d173dab6929645f2d246032f15982f2e4cfbef921cd79a32ae47c0c60",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788535222.4678707,
+    "last_start_ts": 1788535341.0822623,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788535222.4678707,
-    "last_success_ts": 1788535222.4678707,
+    "last_run_ts": 1788535341.0822623,
+    "last_success_ts": 1788535341.0822623,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788535165.3633423
+      "updated_at": 1788535345.6729178
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -757,13 +742,6 @@
     }
   },
   "stories": {
-    "d3d2dec45e3a009376f05683ff0172eff8219b11f90bdc4534121cb527da1a4c": {
-      "time": 1788448872,
-      "title": "$4 на компанию. Вымогатели нашли способ масштабировать взлом с помощью ИИ - SecurityLab.ru",
-      "desc": "$4 на компанию. Вымогатели нашли способ масштабировать взлом с помощью ИИ SecurityLab.ru",
-      "source": "SecurityLab.ru",
-      "region": "RUSSIA"
-    },
     "c6a1817d588e2d3bef106d680bba633e9a5f38d4176338d8bd0b895dfea049d4": {
       "time": 1788449232,
       "title": "Microsoft AI’s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed - VentureBeat",
@@ -2443,10 +2421,16 @@
       "desc": "Минюст объявил «Новую газету» иноагентом kommersant.ru",
       "source": "kommersant.ru",
       "region": "RUSSIA"
+    },
+    "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": {
+      "time": 1788535341,
+      "title": "Travel Technology Solutions Market: AI, Automation - openPR.com",
+      "desc": "Travel Technology Solutions Market: AI, Automation openPR.com",
+      "source": "openPR.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2465,8 +2449,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788534259.6266851,
-  "last_publish_ts": 1788535160.4870014
+  "last_publish_ts": 1788535341.0822623
 }
