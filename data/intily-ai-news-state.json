@@ -201,11 +201,10 @@
     "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529": 1788512602,
     "a85ca69b73d93cab270c3e2bc73df5557c5ca7f1e29f6b3fdaee2eb0bf977f14": 1788512788,
     "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026,
-    "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336": 1788513320
+    "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336": 1788513320,
+    "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae": 1788513685
   },
   "known": {
-    "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491755.7473595,
-    "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492054.0149205,
     "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788492655.914861,
     "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": 1788492655.914861,
     "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f": 1788493074.7616563,
@@ -322,23 +321,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Искусственный интеллект в 15-м пятилетнем плане Китая - Институт статистических исследований и экономики знаний",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TcWdPdkpiMHhHN3pldVhaT0VPUmlBd1ktUEhRNEdCV2ZLUUprc2w5QkZQQmNLUHQ4OGJMZzExd2xvV1ozNG1mNU02bEczMnF6Z2w4?oc=5",
-      "desc": "Искусственный интеллект в 15-м пятилетнем плане Китая Институт статистических исследований и экономики знаний",
-      "source": "Институт статистических исследований и экономики знаний",
-      "time": 1788509851.0,
-      "score": 72.7,
-      "russia_weight_bonus": 4.2,
-      "key": "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11",
-      "importance": 72.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "research"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXFFc0lSVUlLQjh5NkJ6Mlp1OUppX1JCTDl2YVc0cHBBSWJBd09TWGtZZXBkZ1lndzdHY2lOekZUd2tCaEt1cDRXelBLallnQXk1a01vNEtXUkVyZGtndk1HX2RRZHZQcV9fLVdKWFEybDJuMjNXVXppMVVmQXBZRVdiR3d4amc1S1JvQ0xSbms5Y1piaXBmNXlaWDNrdTlYRlo0LXF2OFl1WWV5RDhmZmFhckZwZlk10gF7QVVfeXFMUFd3ZE9Ta1Z1RHp4YUVsdUoyQ1MzRHhRejR4eVZYZ2JkUHFwTzBCM0RYTFBOZ1FwUjNVNXlicXdPM0lxWGRfNHZRcmM1b1J0ckp0dWY3ckJxdTFyRTBDSjFISTh1OW92cTZydUoyM0JzUU9UU2Q2dmpLWUN3?oc=5",
       "desc": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей companies.rbc.ru",
@@ -419,18 +401,19 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Nvidia's $99B Bet: AI's Biggest Backer Emerges - The Tech Buzz",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNUROalE1MzM0WVo4eGFyaTFMMC11ZnZRbnlMTDFvRllvbkt1MDR4TGEtb25FWGlTZnJ1bG5EVWs0UnR4RENZdm92M1dRQVlxZW50cUdzNElyNzM2SmxyYUphcG1Hb2NoSFVlYjJjNl9leloxTEpkS3c5MnJZV0dtMi1rdw?oc=5",
-      "desc": "Nvidia's $99B Bet: AI's Biggest Backer Emerges The Tech Buzz",
-      "source": "The Tech Buzz",
-      "time": 1788511080.0,
-      "score": 66.5,
-      "key": "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae",
-      "importance": 66.5,
+      "region": "RUSSIA",
+      "title": "Искусственный интеллект в 15-м пятилетнем плане Китая - Институт статистических исследований и экономики знаний",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TcWdPdkpiMHhHN3pldVhaT0VPUmlBd1ktUEhRNEdCV2ZLUUprc2w5QkZQQmNLUHQ4OGJMZzExd2xvV1ozNG1mNU02bEczMnF6Z2w4?oc=5",
+      "desc": "Искусственный интеллект в 15-м пятилетнем плане Китая Институт статистических исследований и экономики знаний",
+      "source": "Институт статистических исследований и экономики знаний",
+      "time": 1788509851.0,
+      "score": 69.7,
+      "russia_weight_bonus": 4.2,
+      "key": "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11",
+      "importance": 69.7,
       "editorial_value": 50.0,
       "topics": [
-        "chips"
+        "research"
       ],
       "tier": "A"
     },
@@ -574,20 +557,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788513320.9659276,
+    "last_start_ts": 1788513685.5020897,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788513320.9659276,
-    "last_success_ts": 1788513320.9659276,
+    "last_run_ts": 1788513685.5020897,
+    "last_success_ts": 1788513685.5020897,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 18
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788513322.8295066
+      "updated_at": 1788513687.7440286
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2014,12 +1997,18 @@
       "desc": "Texas GOP Shifts Stance on AI Data Centers, Pauses Grid Approvals Whalesbook",
       "source": "Whalesbook",
       "region": "WORLD"
+    },
+    "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae": {
+      "time": 1788513685,
+      "title": "Nvidia's $99B Bet: AI's Biggest Backer Emerges - The Tech Buzz",
+      "desc": "Nvidia's $99B Bet: AI's Biggest Backer Emerges The Tech Buzz",
+      "source": "The Tech Buzz",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2035,9 +2024,10 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788513026.6221929,
-  "last_publish_ts": 1788513320.9659276
+  "last_publish_ts": 1788513685.5020897
 }
