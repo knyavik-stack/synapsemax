@@ -264,7 +264,8 @@
     "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": 1788533000,
     "89146aebec7fe909514a515faf742bed9616b0ad585fa51d22c3371bd9247f01": 1788533242,
     "f11555b558f47a11304bb8b9357b6b61639bf48eac5b3eb7ed8de1240453815e": 1788533542,
-    "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344": 1788533840
+    "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344": 1788533840,
+    "7c74a8361aab0e3a2e4ff3fc6ccba0196c06d2adec6396eb9c1cd09d6a5c6e3d": 1788534140
   },
   "known": {
     "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026.6221929,
@@ -456,36 +457,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Как сэкономить 2 580 часов в год на подготовке сметы в ремонтной компании с помощью Битрикс24 и нейросетей - VC.ru",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON1l6cElaeWxDX2JQZnQwY1lIbTlCNktLTlB0dFQ5d1JPeE91WVNCMXg0TXZPczNKd0x3Y2lzUXZSVU1XcXdLc3RGMnpmLUFqb3Q4OEw3SmwtMjdSRTBlYmhKOThma1R5NS1ITE85R1pDU2VPM1JuY0stdlAxZU5KUjk1N1dtdC1UbXczUm1sZThoYUVySHd3Rg?oc=5",
-      "desc": "Как сэкономить 2 580 часов в год на подготовке сметы в ремонтной компании с помощью Битрикс24 и нейросетей VC.ru",
-      "source": "VC.ru",
-      "time": 1788532045.0,
-      "score": 71.7,
-      "russia_weight_bonus": 2.2,
-      "key": "7c74a8361aab0e3a2e4ff3fc6ccba0196c06d2adec6396eb9c1cd09d6a5c6e3d",
-      "importance": 71.7,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Не бояться нейросетей призвал учащихся глава Минцифры Новосибирской области - Горсайт",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONERNbGRsRkZ6T1NCZ0JlYXQ5amZJU2Q0c1BlTl9CdFBWN2UwekFha0tpWVNPVUJuenJmTzV2UTR4c01WYVMtNzJEbWNxN3c1T3U0Y2tUVGxFU0tuekg1NjVGMjlIeVFGUmR3Vy0tMUpHRnM4M0R4eTZueXhaUGZLbEJiQTQycWdGX1FaYVhfaVhNdTRZbUlHak1GVFJGS1AyZGdZNWJjZFdGbHo5N0VqWW5oRkdxV1RZNnVFeA?oc=5",
-      "desc": "Не бояться нейросетей призвал учащихся глава Минцифры Новосибирской области Горсайт",
-      "source": "Горсайт",
-      "time": 1788530384.0,
-      "score": 71.5,
-      "russia_weight_bonus": 3.0,
-      "key": "35f517678443e7e00b0b3207afd3aa81e40259732e15602672ab22e57320da59",
-      "importance": 71.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "«Использовать ИИ только ради моды мы не будем» - kommersant.ru",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Qa0lOcW01ZTZEV3RIX1hXa3ljOHNCNmg4Ym0tU3BTbWtmZXlEOU1QSHRhV2cwNkxUTjB5bk9fZlo5bXZxZHBYY2RaYzlyZw?oc=5",
       "desc": "«Использовать ИИ только ради моды мы не будем» kommersant.ru",
@@ -510,6 +481,21 @@
       "russia_weight_bonus": 4.8,
       "key": "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f",
       "importance": 70.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Не бояться нейросетей призвал учащихся глава Минцифры Новосибирской области - Горсайт",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONERNbGRsRkZ6T1NCZ0JlYXQ5amZJU2Q0c1BlTl9CdFBWN2UwekFha0tpWVNPVUJuenJmTzV2UTR4c01WYVMtNzJEbWNxN3c1T3U0Y2tUVGxFU0tuekg1NjVGMjlIeVFGUmR3Vy0tMUpHRnM4M0R4eTZueXhaUGZLbEJiQTQycWdGX1FaYVhfaVhNdTRZbUlHak1GVFJGS1AyZGdZNWJjZFdGbHo5N0VqWW5oRkdxV1RZNnVFeA?oc=5",
+      "desc": "Не бояться нейросетей призвал учащихся глава Минцифры Новосибирской области Горсайт",
+      "source": "Горсайт",
+      "time": 1788530384.0,
+      "score": 68.5,
+      "russia_weight_bonus": 3.0,
+      "key": "35f517678443e7e00b0b3207afd3aa81e40259732e15602672ab22e57320da59",
+      "importance": 68.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -665,20 +651,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788533840.521639,
+    "last_start_ts": 1788534140.3959239,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788533840.521639,
-    "last_success_ts": 1788533840.521639,
+    "last_run_ts": 1788534140.3959239,
+    "last_success_ts": 1788534140.3959239,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788533846.4594545
+      "updated_at": 1788534144.5788276
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -692,13 +678,6 @@
     }
   },
   "stories": {
-    "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe": {
-      "time": 1788447441,
-      "title": "Google eyes coding comeback with new Gemini 3.8 Flash model - varindia.com",
-      "desc": "Google eyes coding comeback with new Gemini 3.8 Flash model varindia.com",
-      "source": "varindia.com",
-      "region": "WORLD"
-    },
     "702664fe09face13404ad552609f7142ff4db8329c49f1ee004a17bc643bc084": {
       "time": 1788447798,
       "title": "Google launches Gemini 3.8 Flash coding model, dodges AdX breakup - qz.com",
@@ -2378,10 +2357,16 @@
       "desc": "Anthropic Makes Stunning $15 Billion Move Before IPO TradingView",
       "source": "TradingView",
       "region": "WORLD"
+    },
+    "7c74a8361aab0e3a2e4ff3fc6ccba0196c06d2adec6396eb9c1cd09d6a5c6e3d": {
+      "time": 1788534140,
+      "title": "Как сэкономить 2 580 часов в год на подготовке сметы в ремонтной компании с помощью Битрикс24 и нейросетей - VC.ru",
+      "desc": "Как сэкономить 2 580 часов в год на подготовке сметы в ремонтной компании с помощью Битрикс24 и нейросетей VC.ru",
+      "source": "VC.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2400,8 +2385,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788532400.983643,
-  "last_publish_ts": 1788533840.521639
+  "last_publish_ts": 1788534140.3959239
 }
