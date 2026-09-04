@@ -243,7 +243,8 @@
     "32e289a738a06bfbcbb144986e3d73ba81f94cd5ce66da64ec5b0efdca536589": 1788526162,
     "5d7e85b0ff52c44457f1e3c305b2221346b4cae64fbf26527ba1cb7252ed7011": 1788526401,
     "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": 1788526822,
-    "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788527599
+    "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788527599,
+    "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0": 1788527960
   },
   "known": {
     "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788507323.0378804,
@@ -421,23 +422,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. - vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSkNPZ2JJTzJXOUk2ODJQTzVWeV91Rm5heGJJM2R3QnFXdVhoR0dlQVQ2ek5SeEk1RHlYSThsaU0yTV9kcU5sdEFDaWxPVWpETlpMdkUzZFZHdkJ3VU1leXpSQ3pRNEhXbnNkMHNNZUFqZUVJaWpnQmY1R2doYVBEMWprZm96RHo5cHp5Tlh1ODZFXzdxSWo2UEdTeXpjUWI2QWVlemNFM0tRNzcx?oc=5",
-      "desc": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. vietnam.vn",
-      "source": "vietnam.vn",
-      "time": 1788522559.0,
-      "score": 73.5,
-      "russia_weight_bonus": 4.0,
-      "key": "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0",
-      "importance": 73.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИИ не заменит врачей в России - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9SUHJRRl9wUjJUeEFpNV9sY29SenQxTGFGUVJGMzlKRElqRVJjU1l6WjlwVVY4TjBGZUJldjB4NDllRzE3S2VBMFM2OVlQV0JicjhfZlM4REE4bFJnY2NxMldHQU1KZDZHeUc5bmhqN09jbWtHOTl1Zk01VFM?oc=5",
       "desc": "ИИ не заменит врачей в России prospect.com.ru",
@@ -480,23 +464,6 @@
       "editorial_value": 50.0,
       "topics": [
         "robotics"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину - Твоя Свободная трибуна",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3AwdFl5MnFHYnBqVHMyMmpFOG1Kd1BzdXRjSGswM0NOQXN1blg3U2kyY2FhU3NHdWx0Y1R1SzdrbWlFRG5CTTlyNGtKZk9UQUVERlYtTGhiRVl6Tzd5cENRQTd2WVNsUDcxRkx3Ty1KbzJFWEd6RVRfTVRVR0ZSLXdYVjA5S1hjV1hHM3dKSlRqclFiSGg5bWVOZVFqN0xqUWh3VjVqRU5YMXJBdm83WjVpVXI4dw?oc=5",
-      "desc": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину Твоя Свободная трибуна",
-      "source": "Твоя Свободная трибуна",
-      "time": 1788517016.0,
-      "score": 72.7,
-      "russia_weight_bonus": 4.2,
-      "key": "0b4ad9982e2a74a07abed730de4e9dd57157550ffa56e65c92a949f0407cbf5d",
-      "importance": 72.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
       ],
       "tier": "A"
     },
@@ -693,23 +660,40 @@
         "business"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину - Твоя Свободная трибуна",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3AwdFl5MnFHYnBqVHMyMmpFOG1Kd1BzdXRjSGswM0NOQXN1blg3U2kyY2FhU3NHdWx0Y1R1SzdrbWlFRG5CTTlyNGtKZk9UQUVERlYtTGhiRVl6Tzd5cENRQTd2WVNsUDcxRkx3Ty1KbzJFWEd6RVRfTVRVR0ZSLXdYVjA5S1hjV1hHM3dKSlRqclFiSGg5bWVOZVFqN0xqUWh3VjVqRU5YMXJBdm83WjVpVXI4dw?oc=5",
+      "desc": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину Твоя Свободная трибуна",
+      "source": "Твоя Свободная трибуна",
+      "time": 1788517016.0,
+      "score": 63.2,
+      "russia_weight_bonus": 4.2,
+      "key": "0b4ad9982e2a74a07abed730de4e9dd57157550ffa56e65c92a949f0407cbf5d",
+      "importance": 63.2,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788527721.9776435,
+    "last_start_ts": 1788527960.0188963,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788527721.9776435,
-    "last_success_ts": 1788527721.9776435,
+    "last_run_ts": 1788527960.0188963,
+    "last_success_ts": 1788527960.0188963,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788527603.2282777
+      "updated_at": 1788527962.9103909
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -723,13 +707,6 @@
     }
   },
   "stories": {
-    "e1caa0ee3a92ca5bebc142d1f6e72a5ccf35e0e38aefe80b62382288f8403901": {
-      "time": 1788441361,
-      "title": "YouLabs.ai Secures Major Commercial Agreement Targeting $20 Million Annual Physical AI Platform Deployment Across Mexico - EIN News",
-      "desc": "YouLabs.ai Secures Major Commercial Agreement Targeting $20 Million Annual Physical AI Platform Deployment Across Mexico EIN News",
-      "source": "EIN News",
-      "region": "WORLD"
-    },
     "70f88db677452620741ee0c79cd061c74c42503b1583a416be221a6a78024a52": {
       "time": 1788441565,
       "title": "Fable 5.1 System Card: Public AI Tops Restricted Model on Stealth, Gets Bioweapons Label - Tech Times",
@@ -2416,12 +2393,18 @@
       "desc": "Сбер внедрил более 1000 ИИ-агентов для рабочих задач prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0": {
+      "time": 1788527960,
+      "title": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. - vietnam.vn",
+      "desc": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. vietnam.vn",
+      "source": "vietnam.vn",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2438,8 +2421,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788526822.0877657,
-  "last_publish_ts": 1788527599.943768
+  "last_publish_ts": 1788527960.0188963
 }
