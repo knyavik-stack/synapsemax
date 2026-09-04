@@ -180,7 +180,7 @@
     "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156,
     "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547,
     "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788497907,
-    "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": 1788499614
+    "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788499739
   },
   "known": {
     "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": 1788478796.2150717,
@@ -247,31 +247,31 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence - 36 Kr",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Icm9heFFRdzdnUEl2MFkyZWlZajlNNzJZUzR1ZklzNDluV1lNR2VaVXdXbW1ZYXFydGhQZ3NmRDR2Y1pQTEFuVVBKV2poVjBoU3VB?oc=5",
-      "desc": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence 36 Kr",
-      "source": "36 Kr",
-      "time": 1788498222.0,
-      "score": 70.5,
-      "key": "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c",
-      "importance": 70.5,
+      "title": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcW1ubGhVdk5SNnpqYXRnQndFUVBVTHVXMlNJRll4TWZwYzhhT25kOE1VQXdlcnVZSHp5bWNTQm56WkU2M2YtdjdZTXJqMC1WMUtTYUdwQmZJTF9SWWczYVY4MldLUHlfc21TSC1yclloenFxeFk1Y0IyM041Y3ptbWVwMG0yZnRfZE1XT1hyUWFOM3JELVJNbA?oc=5",
+      "desc": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? The Motley Fool",
+      "source": "The Motley Fool",
+      "time": 1788498111.0,
+      "score": 66.5,
+      "key": "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3",
+      "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [
-        "business"
+        "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788499614,
+      "last_failed_at": 1788499375,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 4,
-      "next_retry_at": 1788502014
+      "failure_count": 3,
+      "next_retry_at": 1788500575
     }
   ],
   "health": {
-    "last_start_ts": 1788499614.1416829,
+    "last_start_ts": 1788499739.633875,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788499614.1416829,
-    "last_success_ts": 1788499614.1416829,
+    "last_run_ts": 1788499739.633875,
+    "last_success_ts": 1788499739.633875,
     "last_candidates": 0,
     "last_published": 1,
     "queue_size": 1
@@ -280,12 +280,12 @@
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788499728.8582268
+      "updated_at": 1788499744.6545146
     },
     "GROQ": {
-      "disabled_until": 1788521249.7841213,
+      "disabled_until": 1788499524.6517646,
       "reason": "GROQ_403_1010",
-      "updated_at": 1788499649.7841232
+      "updated_at": 1788477924.6517658
     },
     "OPENAI": {
       "disabled_until": 1788532483.2894158,
@@ -1554,11 +1554,11 @@
       "source": "prospect.com.ru",
       "region": "RUSSIA"
     },
-    "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": {
-      "time": 1788499614,
-      "title": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? - The Motley Fool",
-      "desc": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? The Motley Fool",
-      "source": "The Motley Fool",
+    "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": {
+      "time": 1788499739,
+      "title": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence - 36 Kr",
+      "desc": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence 36 Kr",
+      "source": "36 Kr",
       "region": "WORLD"
     }
   },
@@ -1585,5 +1585,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788498274.389358,
-  "last_publish_ts": 1788499614.1416829
+  "last_publish_ts": 1788499739.633875
 }
