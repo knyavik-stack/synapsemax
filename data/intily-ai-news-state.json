@@ -188,16 +188,10 @@
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788507683,
     "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788508281,
     "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9": 1788508523,
-    "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21": 1788509361
+    "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21": 1788509361,
+    "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788510139
   },
   "known": {
-    "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": 1788487975.2950916,
-    "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": 1788487975.2950916,
-    "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa": 1788487975.2950916,
-    "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": 1788487975.2950916,
-    "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": 1788487975.2950916,
-    "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": 1788487975.2950916,
-    "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166": 1788487975.2950916,
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
     "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": 1788490678.3778079,
     "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": 1788490678.3778079,
@@ -337,21 +331,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - cnews.ru",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UUUh3LTRDcXhzUnJMc1diZWYyYVgxVm5UYlQxeWwzOFRFak9kRTZKWjh3VEtXbWtWYzNaeHgyX0szZHBwalgtdGw2bGhKb29oMkhudDlPdkkyQ09tMUN1UkZjaW9Beks4dkhKMEZiVDVkdndHMEtMTQ?oc=5",
-      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности cnews.ru",
-      "source": "cnews.ru",
-      "time": 1788506262.0,
-      "score": 69.6,
-      "russia_weight_bonus": 2.1,
-      "key": "507d1aa7359e57203ae617caf7266d80de108ad6c1547dc1d71e70096b12af1c",
-      "importance": 69.6,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Две трети россиян выступили за маркировку ИИ-контента - techora.ru",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOFRIQndZUVFvWS1GMWpPVDdnRVZXZWtBU2ZRdnpNTWRpWHlJMlNqUV93b3JaX3Vpc2tUOWhXcm56MU16WG5pSTZ4S2h2bHRyNEZxWGFraXJILWFKN3JlTGN3bndjOVZibzl0RGZLcXZGVWVfNGRtT2hieWFxd3kxdTJicw?oc=5",
       "desc": "Две трети россиян выступили за маркировку ИИ-контента techora.ru",
@@ -363,23 +342,6 @@
       "importance": 69.5,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI has announced GPT-6 Astra, says the 'AGI era' has arrived; Brings major leap in AI reasoning, coding and computer use - Business Today",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOcWZjYW9vbTU4VVMzNUN3ZUtydlQ3QzBoTVptZ3JNTXNubGhSTk0welJKUlJDNEVGX1BBNWVaLTlGYjJsZnVyWDVqU1NMa1hGWW9RLXpfczZXR001V2J1eXF6eF9uMU5OMU5Sd1hwM1lUSXIzTzZzZkplY3VTSWNWRklEdDhVUjZ3QUI2aFlDNlVQT29ZdGh2LXhoMTBWeXNKeEVWRzg4UnZWNmdRYzZQUjFlV0FWdkRpR1cwLVR3UUFlYXhPRGdMYzVKMUZfSENacGpBVVpDcWl5cENRTWI0VC1QQdIB6AFBVV95cUxPbjBHYms1bDMwbG9yQWRoS01WaHJCVnVGd1A2YVhwOWhfZl81ZnkxR1pmVjBPaWI1TXVUcXVUR3Z4bnRNSkEya3pWdkdiTXU3T3lwS096TzV2ZmhsRzVnWVJnWVNTZmFueWFMRnBYRTJiSVBmRFZRQTlfOER6bjNfODl4VjZwUk5XT1htcjNlMEtyai1DMU4yUUpGRkNTalVkU29hbU82MFNsSTNYN3ZEaEtUa3B5YVNNUjZVZ3ZmdElJLTRnLWRhcTFzOTN3Q0pOSEs5eTBSdHhjTGVzbFJUbzFKWXRiNHZP?oc=5",
-      "desc": "OpenAI has announced GPT-6 Astra, says the 'AGI era' has arrived; Brings major leap in AI reasoning, coding and computer use Business Today",
-      "source": "Business Today",
-      "time": 1788499800.0,
-      "score": 69.5,
-      "key": "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "models"
-      ],
       "tier": "A"
     },
     {
@@ -509,6 +471,21 @@
       "tier": "A"
     },
     {
+      "region": "RUSSIA",
+      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - cnews.ru",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UUUh3LTRDcXhzUnJMc1diZWYyYVgxVm5UYlQxeWwzOFRFak9kRTZKWjh3VEtXbWtWYzNaeHgyX0szZHBwalgtdGw2bGhKb29oMkhudDlPdkkyQ09tMUN1UkZjaW9Beks4dkhKMEZiVDVkdndHMEtMTQ?oc=5",
+      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности cnews.ru",
+      "source": "cnews.ru",
+      "time": 1788506262.0,
+      "score": 66.6,
+      "russia_weight_bonus": 2.1,
+      "key": "507d1aa7359e57203ae617caf7266d80de108ad6c1547dc1d71e70096b12af1c",
+      "importance": 66.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "Catholic colleges and universities jumping into quick-moving AI field - ncronline.org",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM2lSSDJpTzlidUY5MWoyNW9jaXpHVGRuNElySXZfTUZ0Y3Nmc1BnMGx2VllBNEVqaXVWYVJzU082Qi1ZY0M2RVRPaDJwblZQWXFSMTFJRy12RlBrSXA3d3Z6ZUEyaWxuLWdxcWQ1Mng2WXByUzIyZzlvdy0zU3gxalZITUR0Q1hFTjJ0blVFTUxlaG9JTU1aWU1GQQ?oc=5",
@@ -569,20 +546,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788509361.5282607,
+    "last_start_ts": 1788510139.7841299,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788509361.5282607,
-    "last_success_ts": 1788509361.5282607,
-    "last_candidates": 58,
+    "last_run_ts": 1788510139.7841299,
+    "last_success_ts": 1788510139.7841299,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788509390.4167612
+      "updated_at": 1788510143.2227316
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1918,11 +1895,17 @@
       "desc": "Enterprise AI Agents: How to Deploy, Govern, and Scale RS Web Solutions",
       "source": "RS Web Solutions",
       "region": "WORLD"
+    },
+    "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": {
+      "time": 1788510139,
+      "title": "OpenAI has announced GPT-6 Astra, says the 'AGI era' has arrived; Brings major leap in AI reasoning, coding and computer use - Business Today",
+      "desc": "OpenAI has announced GPT-6 Astra, says the 'AGI era' has arrived; Brings major leap in AI reasoning, coding and computer use Business Today",
+      "source": "Business Today",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1939,9 +1922,10 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788509361.5282607,
-  "last_publish_ts": 1788509361.5282607
+  "last_publish_ts": 1788510139.7841299
 }
