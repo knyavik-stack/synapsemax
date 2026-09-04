@@ -159,7 +159,8 @@
     "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": 1788489294,
     "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": 1788489597,
     "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": 1788490678,
-    "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": 1788490858
+    "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": 1788490858,
+    "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333": 1788491156
   },
   "known": {
     "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843.6931014,
@@ -256,23 +257,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "NVIDIA Unveils RTX Spark PCs and Local AI Tools at IFA 2026 - blockchain.news",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tY1o1dm5KRjdKcnQ0NS1zNU1MeDFMbDB0dUlsT0F1SXQ0MjUzWnB1TjBOY0RHTXRoZzdlbmNFcjJhSG5PVWdkaFFHMmJrR0pMRlZ3X3RNSlpCeFZTd0Zia1ZtZTRGVkFlVDNabE12ZEo?oc=5",
-      "desc": "NVIDIA Unveils RTX Spark PCs and Local AI Tools at IFA 2026 blockchain.news",
-      "source": "blockchain.news",
-      "time": 1788489231.0,
-      "score": 69.5,
-      "key": "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips",
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUm5reVdteHFBdF94NTYzZkVETWZXZjh3cTVNTTF6YU5sMXhQZ2dSYnhTSThiU1VBcXpnaWZuMzRteXdTUVg1WjZFV24wOEprUjVNNzlhanIteUpJTmxLTjQ3ai1GRFBNeFBfX09FZ0pIbkNtM1U5MWRPVDkxcG4zVFlOQUVzYlo4MWtWRWlEWGtudnVfOEMxU1hCdUE4WVRsTDg2b1JYcl9pVWR0X3c?oc=5",
@@ -317,43 +301,23 @@
         "robotics"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic develops framework allowing AI agents to control physical equipment - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZUJPX0hoNE9KYjBXWG5SRDVoUGZyd2lCNHNQNVNfY1dsNXhCYTRuNnY4cEtpV3ZOU21iNkZycDJ0ZTRXVFVJaDF3bEhIc0VqTlk1U01SaXplN1MwbmZYVm02UkVVNlhoelFnTVYxVlcwRVhrbzQ2NEpYckQzOFpIcUozU2VfNXpNc2hOUkNSbjhMZFRsTUNqR193WE02b2dQSGJtWjRPUVpRdmpZdGJMXzhSZXA1SGVhOExRLTJNMFBkMlJsYTFfUW5kVks?oc=5",
-      "desc": "Anthropic develops framework allowing AI agents to control physical equipment The Daily Star",
-      "source": "The Daily Star",
-      "time": 1788469398.0,
-      "score": 60.0,
-      "key": "ccca6722a04ae192bfb2655695aed31d03ee02d4f09a3d9b153e8e3639000ab7",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788479695,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 5,
-      "next_retry_at": 1788484495
     }
   ],
   "health": {
-    "last_start_ts": 1788490858.5793571,
+    "last_start_ts": 1788491156.011443,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788490858.5793571,
-    "last_success_ts": 1788490858.5793571,
+    "last_run_ts": 1788491156.011443,
+    "last_success_ts": 1788491156.011443,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 6
+    "queue_size": 4
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788490863.31758
+      "updated_at": 1788491158.898419
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1486,6 +1450,13 @@
       "desc": "Hong Kong Polytechnic University Joins Hands with Diagens Tech to Propel Medical AI into the Age of AI Agents | Corporate EQS News",
       "source": "EQS News",
       "region": "WORLD"
+    },
+    "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333": {
+      "time": 1788491156,
+      "title": "NVIDIA Unveils RTX Spark PCs and Local AI Tools at IFA 2026 - blockchain.news",
+      "desc": "NVIDIA Unveils RTX Spark PCs and Local AI Tools at IFA 2026 blockchain.news",
+      "source": "blockchain.news",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1511,5 +1482,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788490678.3778079,
-  "last_publish_ts": 1788490858.5793571
+  "last_publish_ts": 1788491156.011443
 }
