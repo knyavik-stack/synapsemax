@@ -168,17 +168,10 @@
     "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": 1788492773,
     "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788493015,
     "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19": 1788493614,
-    "61ddefaf4b72efac9a395b2b2044cef2a7cdd7e3b4741f5f7ca3bd2700589179": 1788494215
+    "61ddefaf4b72efac9a395b2b2044cef2a7cdd7e3b4741f5f7ca3bd2700589179": 1788494215,
+    "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f": 1788494461
   },
   "known": {
-    "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": 1788472733.8932097,
-    "eca56de0c2442750ffeea605d7c095f87f1ed21cb6f70e322c61230567a03d81": 1788472733.8932097,
-    "9f83e7c62a3530784b733e15f099461713c865711386a83123eccd90f2974859": 1788472733.8932097,
-    "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": 1788472733.8932097,
-    "cfad65bc65476207929c84684e369d9b0a7091e4df39eeb2ca1185853c91c983": 1788472733.8932097,
-    "2d550f4e4757d96141ac5c9ad6cb928d266efcd075e09234a791bac31625fe73": 1788472733.8932097,
-    "3492f4f5bf7c457a17e789224dcdd96ca1dee0cb5c3206f1035f8483578265a9": 1788472733.8932097,
-    "ba7bb36329f3bce5bac16ce25b7836d49c12519749418cf8c9f492ac964384b4": 1788472733.8932097,
     "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": 1788475135.0999737,
     "3185d6116d8f9f55b2efbb78040155e0939073654fcc845233be2cd7286adbe0": 1788475135.0999737,
     "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": 1788475135.0999737,
@@ -252,25 +245,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "«Яндекс» разработает оркестратор для ИИ-моделей - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYV9yTjl6WXhZcmpaQ0J2b2QwYXUzVmFHdFA1RDNRMWdRaWl6WkRoV0wwSUE5LWhPWTlxN2NJbnRVMjlKXzBDdVlHZ1NCcWlMSkcxWEZUenZHeUNtdVNRNzlJOXpIWTZIYmJ4LVB3VEVzS2duaDhiUWt6R01yR0pLYlVIUHFqY2RDbVZVTXAxR3hpdw?oc=5",
-      "desc": "«Яндекс» разработает оркестратор для ИИ-моделей prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788492772.0,
-      "score": 81.8,
-      "russia_weight_bonus": 3.3,
-      "key": "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f",
-      "importance": 81.8,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788494215,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 2,
-      "next_retry_at": 1788494815
-    },
-    {
-      "region": "RUSSIA",
       "title": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZWVsdlkyUTI3WDZ5dkJsMXJiWm1pZmxSWldiNEktVm5ONXFldjVZNVEzTFRlX3EyV2ZJQng3Vm5GMHlmWjNqUEpzcm1jZXlmZzlSUElFdGMzT1M1VG9QRlJkTVpkZmJJM3h3U3FreVhUUC1pekVvU05KN0xWckJhVUl2TmlobWNqS0s0VGZKamFEOW5hZUdsSWNxUVhybURvVm1IVXg4N3g3TnRTUC0wWDZ2cV9neWRrTjE3eDdpOGRVR0Q5c2t6UlpfSFZHajJzcXhXZUw5Y0lsZw?oc=5",
       "desc": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко prospect.com.ru",
@@ -303,20 +277,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788494274.03298,
+    "last_start_ts": 1788494461.6936123,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788494274.03298,
-    "last_success_ts": 1788494274.03298,
+    "last_run_ts": 1788494461.6936123,
+    "last_success_ts": 1788494461.6936123,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 3
+    "last_published": 1,
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788494230.6621182
+      "updated_at": 1788494469.008609
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1512,6 +1486,13 @@
       "desc": "Alibaba значительно улучшила ИИ-модель Qwen3.8-Max за счёт дообучения prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f": {
+      "time": 1788494461,
+      "title": "«Яндекс» разработает оркестратор для ИИ-моделей - prospect.com.ru",
+      "desc": "«Яндекс» разработает оркестратор для ИИ-моделей prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1526,16 +1507,16 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788493074.7616563,
-  "last_publish_ts": 1788494215.809916
+  "last_publish_ts": 1788494461.6936123
 }
