@@ -300,7 +300,8 @@
     "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": 1788545240,
     "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4": 1788545421,
     "2a2856322c9e70f34ed769b8c77547c9e0994a988c35c240374232882c85dd93": 1788545844,
-    "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788546144
+    "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788546144,
+    "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c": 1788546620
   },
   "known": {
     "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788526822.0877657,
@@ -470,23 +471,6 @@
     "271f8b82696c7385dd06e6bae858f6a3e8f79f33a40b4fd43d8a8099e48cdb92": 1788545844.1562684
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах - newkhakasiya.online",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOERic2ZXYjhTMHJNdjJMOF9IamhGVVRDeFJNbllKVGl6UWhNdmQyZ3g0RTVkMUY5eERJcWljREJMWmU1dG43QVlNZ3FtdS1SblBLOUc3Sm5rSExBQk1GWTBtVW8zbW1JZEFoQjEyZVM3MU9lNXJtSWJ2UVNGZ2ZlaHJ3T1RKMVBmRzZEa2hWdkVVN0NDbU5yeDdzTEZMclVUS2RKc2Jfa0ZrMzBkczJhZkVJOEVsT2pWcVEtTFk0cFQzbUVwX0E?oc=5",
-      "desc": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах newkhakasiya.online",
-      "source": "newkhakasiya.online",
-      "time": 1788539280.0,
-      "score": 72.6,
-      "russia_weight_bonus": 3.1,
-      "key": "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c",
-      "importance": 72.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов - prospect.com.ru",
@@ -758,20 +742,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788546261.8661933,
+    "last_start_ts": 1788546620.5340297,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788546261.8661933,
-    "last_success_ts": 1788546261.8661933,
+    "last_run_ts": 1788546620.5340297,
+    "last_success_ts": 1788546620.5340297,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788546152.1481895
+      "updated_at": 1788546628.4691448
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -785,20 +769,6 @@
     }
   },
   "stories": {
-    "da8ffe9838cd710d41ee72d2d590f5bcf469db3ded6ae60b6e83d811150c0f8e": {
-      "time": 1788460033,
-      "title": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities - cnbc.com",
-      "desc": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities cnbc.com",
-      "source": "cnbc.com",
-      "region": "WORLD"
-    },
-    "3d6c76e2b0d9263ea0a12f6027c7bb49b4d8463b141b6e83fd3726ccd86c587e": {
-      "time": 1788460213,
-      "title": "Mobcoder AI Advances Enterprise Agentic AI & Governed LLMs - USA Today",
-      "desc": "Mobcoder AI Advances Enterprise Agentic AI & Governed LLMs USA Today",
-      "source": "USA Today",
-      "region": "WORLD"
-    },
     "1865e6c67e785da0de065ab726adee65934efaf0f407e59b14c0bdd529c71426": {
       "time": 1788460570,
       "title": "Консультации по бизнесу и нейросетям от эксперта - VC.ru",
@@ -2408,11 +2378,17 @@
       "desc": "OpenAI представила новую ИИ-модель и провозгласила эру общего искусственного интеллекта The World Inform",
       "source": "The World Inform",
       "region": "RUSSIA"
+    },
+    "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c": {
+      "time": 1788546620,
+      "title": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах - newkhakasiya.online",
+      "desc": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах newkhakasiya.online",
+      "source": "newkhakasiya.online",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2430,8 +2406,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788545844.1562684,
-  "last_publish_ts": 1788546144.150177
+  "last_publish_ts": 1788546620.5340297
 }
