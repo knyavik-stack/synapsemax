@@ -149,7 +149,8 @@
     "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174,
     "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": 1788486534,
     "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788487050,
-    "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": 1788487314
+    "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": 1788487314,
+    "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": 1788487613
   },
   "known": {
     "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049.748359,
@@ -241,20 +242,6 @@
     "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788486174.074481
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "ICRISAT unveils AI-Pangenetics framework to accelerate climate-resilient crop breeding - AgroSpectrum India",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMmdZX2tac05mdWJYc2xBOVl2Qk5LTHlOdF9vVzQyT0c2T185VmZPUGlMd2pmaGpDQzdIMUV3TUdpbDRwSHhXUnBVcnlKUnBiLTVFOEY3c0RZa1VvQVhYY2xFenU1aXlsVFItYWRCak9obHNYbUJsNWtXM29XTWZtYXotbTJ3cTVWMGplNzdvWjNuRTN1dW1uNG1nYjFMQ2VqM0tpYnFTZXpQVWNST2tDcThLc3pEQkV6N1JsVUd3RjZoY19zaUFXT1E1UjdVbkhM?oc=5",
-      "desc": "ICRISAT unveils AI-Pangenetics framework to accelerate climate-resilient crop breeding AgroSpectrum India",
-      "source": "AgroSpectrum India",
-      "time": 1788478691.0,
-      "score": 63.5,
-      "key": "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
@@ -358,20 +345,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788487314.9629765,
+    "last_start_ts": 1788487613.2269282,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788487314.9629765,
-    "last_success_ts": 1788487314.9629765,
+    "last_run_ts": 1788487613.2269282,
+    "last_success_ts": 1788487613.2269282,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 7
+    "queue_size": 6
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788487316.8988
+      "updated_at": 1788487615.5233042
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1434,16 +1421,23 @@
       "desc": "OpenAI Video unveils creation tools blockchain.news",
       "source": "blockchain.news",
       "region": "WORLD"
+    },
+    "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": {
+      "time": 1788487613,
+      "title": "ICRISAT unveils AI-Pangenetics framework to accelerate climate-resilient crop breeding - AgroSpectrum India",
+      "desc": "ICRISAT unveils AI-Pangenetics framework to accelerate climate-resilient crop breeding AgroSpectrum India",
+      "source": "AgroSpectrum India",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1459,5 +1453,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788486174.074481,
-  "last_publish_ts": 1788487314.9629765
+  "last_publish_ts": 1788487613.2269282
 }
