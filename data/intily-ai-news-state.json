@@ -341,7 +341,8 @@
     "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf": 1788559580,
     "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14": 1788559821,
     "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24": 1788560122,
-    "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703": 1788560360
+    "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703": 1788560360,
+    "b80fcdd52900df1d8c88494062b7afd1365dbc6cdb2ce4e491c3b44860ddb957": 1788560781
   },
   "known": {
     "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788539960.9653587,
@@ -478,23 +479,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Nvidia’s $99 Billion Investment Portfolio Turns Chip Giant Into AI Industry Power Broker - Tekedia",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb1VYUko5eC1obExxQXJlZE5FcVlyUEJnV0xSZ05KX2ZHUzB2aUF3cHVtdHdTOXZIb0cxaFZDRms5Q25BOHVyc1VmX3BDajJWcnZJWmt1WnVBelJGcTFvWFpNdmlvX3ZlQlRWZmRsSzZoQW5PMk1fbGF2MHc0ZWg1Vkp6RTNjbW9MX01TT21DekFaNzVNQzF0dUtxOFhVdmJ0bjlfa3k3elRUcDZMNmpSbw?oc=5",
-      "desc": "Nvidia’s $99 Billion Investment Portfolio Turns Chip Giant Into AI Industry Power Broker Tekedia",
-      "source": "Tekedia",
-      "time": 1788544515.0,
-      "score": 68.0,
-      "key": "b80fcdd52900df1d8c88494062b7afd1365dbc6cdb2ce4e491c3b44860ddb957",
-      "importance": 68.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "ByteDance borrows $30B to invest in AI infrastructure - Crypto Briefing",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oWk1QeWdVNURrRVFqOTgxazQ0bmVNaTBHaWJfMXpuLUsxS2RfWVFaMGlzV1M2ZEkzTVgtN3E2Z1hPYzlzdUZWa3JuM3J0eXpYaDNyZ0Q4TXc0UFU5TXdqX1BCUjA4UDhDX1lQUC1VR05DU0N1a3c?oc=5",
       "desc": "ByteDance borrows $30B to invest in AI infrastructure Crypto Briefing",
@@ -568,20 +552,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788560540.3142607,
+    "last_start_ts": 1788560781.4388344,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788560540.3142607,
-    "last_success_ts": 1788560540.3142607,
-    "last_candidates": 62,
-    "last_published": 0,
-    "queue_size": 7
+    "last_run_ts": 1788560781.4388344,
+    "last_success_ts": 1788560781.4388344,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 6
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788560364.528969
+      "updated_at": 1788560783.306025
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2190,6 +2174,13 @@
       "desc": "Insurers Search for Answers to Rein in Rogue AI Dark Reading",
       "source": "Dark Reading",
       "region": "WORLD"
+    },
+    "b80fcdd52900df1d8c88494062b7afd1365dbc6cdb2ce4e491c3b44860ddb957": {
+      "time": 1788560781,
+      "title": "Nvidia’s $99 Billion Investment Portfolio Turns Chip Giant Into AI Industry Power Broker - Tekedia",
+      "desc": "Nvidia’s $99 Billion Investment Portfolio Turns Chip Giant Into AI Industry Power Broker Tekedia",
+      "source": "Tekedia",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -2197,7 +2188,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2212,8 +2202,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788560540.3142607,
-  "last_publish_ts": 1788560360.750039
+  "last_publish_ts": 1788560781.4388344
 }
