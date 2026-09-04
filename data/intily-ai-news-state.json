@@ -308,29 +308,10 @@
     "7bb9dfcaaac4e0f8e48cfb2e5bb0f4d4c30aa0e4c6e8c3a662807158f66ef256": 1788547579,
     "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": 1788547820,
     "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": 1788548001,
-    "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862": 1788548181
+    "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862": 1788548181,
+    "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": 1788548480
   },
   "known": {
-    "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788526822.0877657,
-    "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": 1788526822.0877657,
-    "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f": 1788526822.0877657,
-    "0b4ad9982e2a74a07abed730de4e9dd57157550ffa56e65c92a949f0407cbf5d": 1788526822.0877657,
-    "d37140d645a5bf884cc2dee612003c3cf218fcc175090217f175f568664a61ea": 1788526822.0877657,
-    "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": 1788526822.0877657,
-    "3b82a1ff1d8306c30c1509f2691d47e3828249e670df1d22d692ee75f1aec6e2": 1788526822.0877657,
-    "9d53d3d2d6bb0eddb8a00dab95a033d89077f872422c0cdfb4678da2f155e48f": 1788526822.0877657,
-    "74d7b560fdfc0d104edfb27514aa1fff324885e83f13a05549c74d94ff465354": 1788526822.0877657,
-    "6579d4c2b3bf0a02afcfad3b1b27f265f1abed1486373f230d54fa5a821f9091": 1788526822.0877657,
-    "aca52fd14a36de4ad5a70a5f4504fecae7a07d3925190405815c257f766e9b52": 1788526822.0877657,
-    "1975b2e2d6dffedd2db28707939946bc295ebc9869db00562f8fe8152818bc65": 1788526822.0877657,
-    "f9eae7ebafe2e4cd9ddc0c96ca81e056d45616d4f829bfa4c7d7deae4da326f7": 1788526822.0877657,
-    "a54b31f8cd9105c8ccd13f3ce583db525b8661ff7568e764bf54d44caef95977": 1788526822.0877657,
-    "f6adf34dd68cba6096ca32215b0654798fe0a2fa9e402f80cd549e2d2f8e87f2": 1788526822.0877657,
-    "5b9203d278f32cfd3b2b8a5ba30d1c6b57fe768c9faf449caa09a87082c672a3": 1788526822.0877657,
-    "7db70f1fda92f4dc838f926adb348c504421df2da00f05f2320044fd3bb3899d": 1788526822.0877657,
-    "dbb2889c0e7a943b25b02cc267ba0669c61853ca655b71e98d4a53c7fa0112b6": 1788526822.0877657,
-    "62177a87621eab9ca71a241d2964b7ef5f0805ae37635cb33d2c4166da3e4952": 1788526822.0877657,
-    "cfb4913c4d4e3882dd1308d03b856760de06795398240de717c286f19452c3dc": 1788526822.0877657,
     "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788528681.428885,
     "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": 1788528681.428885,
     "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8": 1788528681.428885,
@@ -520,22 +501,6 @@
       "importance": 68.3,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? - Kalkine Media",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTjQ4SHY2Tm5VM0RXQ2NJQkZPZk5rRzdCRUJ2Q2kzYzZqLWt1dE9hSUJJR2dXOG41ekZ5aXdaTE1MY2x3cnVMWWYxa1EtZ1dHNXZIMWFlQndpaHBsbmhuSjU3TVhLenozQTZRajZhdmhDd2RnanJYOHh3eXc0Z2ZUNTZfeVAybHozQTE0eXVsUzdnUC1xd3ZGUEhKVTFzWEhYQS1n?oc=5",
-      "desc": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? Kalkine Media",
-      "source": "Kalkine Media",
-      "time": 1788546240.0,
-      "score": 66.5,
-      "key": "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
       "tier": "A"
     },
     {
@@ -761,20 +726,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788548240.321044,
+    "last_start_ts": 1788548480.3038936,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788548240.321044,
-    "last_success_ts": 1788548240.321044,
+    "last_run_ts": 1788548480.3038936,
+    "last_success_ts": 1788548480.3038936,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788548186.518568
+      "updated_at": 1788548486.887554
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -788,13 +753,6 @@
     }
   },
   "stories": {
-    "df2e56da45776be34c67faa03c7de424e22477d15117439282c85495c97b20f8": {
-      "time": 1788462010,
-      "title": "OpenAI отложила разработку ИИ Astra после взлома Hugging Face их моделью - prospect.com.ru",
-      "desc": "OpenAI отложила разработку ИИ Astra после взлома Hugging Face их моделью prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "1eb4957568f8cb8ba9de6316982bd5810309ff7bc3148b19f0f86ed11cae71ba": {
       "time": 1788462371,
       "title": "Investors Believe AI Breakthrough Close – Survey - wealthbriefing.com",
@@ -2418,6 +2376,13 @@
       "desc": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах BFM.ru",
       "source": "BFM.ru",
       "region": "RUSSIA"
+    },
+    "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": {
+      "time": 1788548480,
+      "title": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? - Kalkine Media",
+      "desc": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? Kalkine Media",
+      "source": "Kalkine Media",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -2426,7 +2391,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2440,8 +2404,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788547820.6748672,
-  "last_publish_ts": 1788548181.6249897
+  "last_publish_ts": 1788548480.3038936
 }
