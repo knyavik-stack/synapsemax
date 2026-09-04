@@ -246,7 +246,8 @@
     "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788527599,
     "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0": 1788527960,
     "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5": 1788528379,
-    "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": 1788528562
+    "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": 1788528562,
+    "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": 1788528862
   },
   "known": {
     "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788507323.0378804,
@@ -451,22 +452,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "SmallBiz.ai Launches to Help Small Businesses Turn AI Into More Sales, Lower Costs and Simpler Operations - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMEZRZ1RuNDI5Z1gyc0tDT3R3Qmw2V3FBOGRjSGZ3a2tHdGJ5TG5qaHhLVV9Ld05XcTFGbUdOcnJlT1hUUHFkMXBDc0FkZXV0ZXpMTUdDVGZZZFQ5MXpMMHVyQ0pOR2pHY0xUS2Y4Y28zYjFCd2ZnemVZbVVUZnZUcVB1T0pncEdNYVhvUl9tOUZXd215cHZwTFVwN3RzTTJ1VUlMU3VJcnZyV2ZSeEZndU9sb3Fpb3dJTnFiVURuZnV1d1BvSFNLVHFicGNLZmxkVlJVdlNSTkxrdU5ic3NFUWxLa3BWaklsRTk4Y3d0TGI?oc=5",
-      "desc": "SmallBiz.ai Launches to Help Small Businesses Turn AI Into More Sales, Lower Costs and Simpler Operations PR Newswire",
-      "source": "PR Newswire",
-      "time": 1788527880.0,
-      "score": 76.5,
-      "key": "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4",
-      "importance": 76.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой - Sostav.ru",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSm5QUFZsempVcHFaMDFnQ2t0Nl9NdW40ZGlkcC01WEE3QVJZVmFka2JCdHFvZFBpNG9Md2ZvdmxLMzdEbUprRmJGY0R3VFRzaldtM1JmeGZkc2pCQ2w5WWRIVHVRTng5QkQ5d0ZTTllNcGU0Slc2dXFOOUZQMlpUSHg1T3NMb1NFMWs3V0JSWE1CX0k4RjVXRGRJdGZ0UlpQVjlOZGtZWVFKalFwWHk2Mm9HdTBJZ0U?oc=5",
@@ -532,21 +517,6 @@
       "topics": [
         "agents"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "В России внедрили ИИ для оценки результатов КТ, рентгена и маммографии - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa21tdnJ3LUxaYlduY19SUkZCSU5kZVMxMDg0aS1tdWRRRHdGU1p3dUhPWVNMWTZ5ZHNjTEVVMFEtTXBseHhMMTZBZTkzMzdsdVU3YzBaTWVQRXJXaGpWWnJjX3ZCNUMxS3lSa1RQODE1SnRzVEFkWnFLUWgtRW1hYTM3ME9sNmdNMEl1YnBnYW9yM3VnaGhibzBmV3BXeUt6SmJvdV9JYk96ckk3Szd0UDdn?oc=5",
-      "desc": "В России внедрили ИИ для оценки результатов КТ, рентгена и маммографии prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788525201.0,
-      "score": 72.5,
-      "russia_weight_bonus": 4.0,
-      "key": "d37140d645a5bf884cc2dee612003c3cf218fcc175090217f175f568664a61ea",
-      "importance": 72.5,
-      "editorial_value": 50.0,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -671,6 +641,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "В России внедрили ИИ для оценки результатов КТ, рентгена и маммографии - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa21tdnJ3LUxaYlduY19SUkZCSU5kZVMxMDg0aS1tdWRRRHdGU1p3dUhPWVNMWTZ5ZHNjTEVVMFEtTXBseHhMMTZBZTkzMzdsdVU3YzBaTWVQRXJXaGpWWnJjX3ZCNUMxS3lSa1RQODE1SnRzVEFkWnFLUWgtRW1hYTM3ME9sNmdNMEl1YnBnYW9yM3VnaGhibzBmV3BXeUt6SmJvdV9JYk96ckk3Szd0UDdn?oc=5",
+      "desc": "В России внедрили ИИ для оценки результатов КТ, рентгена и маммографии prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788525201.0,
+      "score": 69.5,
+      "russia_weight_bonus": 4.0,
+      "key": "d37140d645a5bf884cc2dee612003c3cf218fcc175090217f175f568664a61ea",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Кто виноват и что делать? Запад в тупике из-за преступлений, совершённых при помощи ИИ - Life.ru",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTVdqbnRKSklZNF9rR1VyS1dtNWJFbVkybGREcjJ3YV9NYkYzNWk4dkJrY3AwQ29SZWZDRFNNb292MkJyWVZ0b0dNQnR4Qk1tRHZGTE9ud0JvNURpaEFKaVRhNzZlUjZCN3RuZkdETHJvVHhHNVhSd3VKZTF1Mm9MQnJPcWpMSGtSV2U4ZnFHdkdrOWFQLV83cw?oc=5",
       "desc": "Кто виноват и что делать? Запад в тупике из-за преступлений, совершённых при помощи ИИ Life.ru",
@@ -746,20 +731,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788528681.428885,
+    "last_start_ts": 1788528862.1569233,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788528681.428885,
-    "last_success_ts": 1788528681.428885,
-    "last_candidates": 110,
-    "last_published": 0,
-    "queue_size": 20
+    "last_run_ts": 1788528862.1569233,
+    "last_success_ts": 1788528862.1569233,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788528570.6393104
+      "updated_at": 1788528865.7068756
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2459,10 +2444,16 @@
       "desc": "ИИ не заменит врачей в России prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": {
+      "time": 1788528862,
+      "title": "SmallBiz.ai Launches to Help Small Businesses Turn AI Into More Sales, Lower Costs and Simpler Operations - PR Newswire",
+      "desc": "SmallBiz.ai Launches to Help Small Businesses Turn AI Into More Sales, Lower Costs and Simpler Operations PR Newswire",
+      "source": "PR Newswire",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2481,8 +2472,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788528681.428885,
-  "last_publish_ts": 1788528562.611157
+  "last_publish_ts": 1788528862.1569233
 }
