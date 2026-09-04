@@ -270,7 +270,8 @@
     "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534801,
     "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": 1788535160,
     "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": 1788535341,
-    "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": 1788535581
+    "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": 1788535581,
+    "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": 1788536002
   },
   "known": {
     "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515000.8867981,
@@ -578,23 +579,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI - SiliconANGLE",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObzRkVGpJUUx6N2JRa1B6RW41SDVjWHdSSVcyOWpUdERQVWtic2RZc2ctQ3UtOFJFckZoU21CVXd2SlhiOHpla0pTRFEzbG9wbmhUOC1KeHpJZnFkYktJRkFsSDlTb3Z6bTBjbkZfU1BVZFZ6MFJaRVZDdDNseVl3YU1GUXJxZEljOG5SOUdycUFDM2p5YjZvdlEtSkxEY3VfaVpfeXRXWVd1Q096ellKWnFhMU4tR1g1cTJTWQ?oc=5",
-      "desc": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI SiliconANGLE",
-      "source": "SiliconANGLE",
-      "time": 1788530460.0,
-      "score": 67.5,
-      "key": "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips",
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters - officechai.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZyelliLVdsNldUdm5RUWlxdTNVaGx4OTJNSXdoVzlqOS1CSmo1NWUzTm80T1NFenFPdXhBLUZuajU4Z2RUdzVHYUZkYlh6eVBNejlLZ05jSmdfZ1VSWGs0R0h5VVo4d19TZkY4UHZ5T2lFT3V6WlNwSGJlV3h3cXRvdTd6R3h6Q0FIUmRkMEMxaVVaMGVPc3NfUGtScHpabldhNDBxa0V6OHliV0wzZVF3?oc=5",
       "desc": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters officechai.com",
@@ -699,20 +683,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788535641.7638137,
+    "last_start_ts": 1788536002.229109,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788535641.7638137,
-    "last_success_ts": 1788535641.7638137,
+    "last_run_ts": 1788536002.229109,
+    "last_success_ts": 1788536002.229109,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 15
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788535585.1773794
+      "updated_at": 1788536007.2704246
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -726,13 +710,6 @@
     }
   },
   "stories": {
-    "f33a87c3ac9705c6d5e085cccea2ead26c56796d6169b4596256bac37cda886f": {
-      "time": 1788449413,
-      "title": "Henceforth Solutions Strengthens AI Software Development Capabilities for Businesses Adopting Intelligent Technology - Issuewire",
-      "desc": "Henceforth Solutions Strengthens AI Software Development Capabilities for Businesses Adopting Intelligent Technology Issuewire",
-      "source": "Issuewire",
-      "region": "WORLD"
-    },
     "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c": {
       "time": 1788449769,
       "title": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики - gosrf.ru",
@@ -2412,10 +2389,16 @@
       "desc": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского Gazeta.ua",
       "source": "Gazeta.ua",
       "region": "RUSSIA"
+    },
+    "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": {
+      "time": 1788536002,
+      "title": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI - SiliconANGLE",
+      "desc": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI SiliconANGLE",
+      "source": "SiliconANGLE",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -2434,8 +2417,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788534259.6266851,
-  "last_publish_ts": 1788535581.4608557
+  "last_publish_ts": 1788536002.229109
 }
