@@ -297,26 +297,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Anthropic develops framework allowing AI agents to control physical equipment - The Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZUJPX0hoNE9KYjBXWG5SRDVoUGZyd2lCNHNQNVNfY1dsNXhCYTRuNnY4cEtpV3ZOU21iNkZycDJ0ZTRXVFVJaDF3bEhIc0VqTlk1U01SaXplN1MwbmZYVm02UkVVNlhoelFnTVYxVlcwRVhrbzQ2NEpYckQzOFpIcUozU2VfNXpNc2hOUkNSbjhMZFRsTUNqR193WE02b2dQSGJtWjRPUVpRdmpZdGJMXzhSZXA1SGVhOExRLTJNMFBkMlJsYTFfUW5kVks?oc=5",
-      "desc": "Anthropic develops framework allowing AI agents to control physical equipment The Daily Star",
-      "source": "The Daily Star",
-      "time": 1788469398.0,
-      "score": 67.5,
-      "key": "ccca6722a04ae192bfb2655695aed31d03ee02d4f09a3d9b153e8e3639000ab7",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788479695,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 5,
-      "next_retry_at": 1788484495
-    },
-    {
-      "region": "WORLD",
       "title": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF - Information Technology and Innovation Foundation",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdFh0V1ZOd3pya05fN1NDaUdUbUgtMDhLMVZRUE1ITDE1RHVfX1E5MVdyR3FPUVNtYUpnOFJNblQ3SDhyakhWQXdDRm9abmE3NUNOcjZFQ0xEdlhFSkxTSFZvSVFVTHNnRGhtWm5DUHVIdzJMWVh6VGY0WEttV1ZQLUJ0TnBtRnRMWWF6YVZmUzYzWFplNWF5SldDLTRKSGRQUEJGZmEycWhBeGw1a0dBN3JnVzA?oc=5",
       "desc": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF Information Technology and Innovation Foundation",
@@ -414,6 +394,26 @@
       "tier": "A"
     },
     {
+      "region": "WORLD",
+      "title": "Anthropic develops framework allowing AI agents to control physical equipment - The Daily Star",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZUJPX0hoNE9KYjBXWG5SRDVoUGZyd2lCNHNQNVNfY1dsNXhCYTRuNnY4cEtpV3ZOU21iNkZycDJ0ZTRXVFVJaDF3bEhIc0VqTlk1U01SaXplN1MwbmZYVm02UkVVNlhoelFnTVYxVlcwRVhrbzQ2NEpYckQzOFpIcUozU2VfNXpNc2hOUkNSbjhMZFRsTUNqR193WE02b2dQSGJtWjRPUVpRdmpZdGJMXzhSZXA1SGVhOExRLTJNMFBkMlJsYTFfUW5kVks?oc=5",
+      "desc": "Anthropic develops framework allowing AI agents to control physical equipment The Daily Star",
+      "source": "The Daily Star",
+      "time": 1788469398.0,
+      "score": 60.0,
+      "key": "ccca6722a04ae192bfb2655695aed31d03ee02d4f09a3d9b153e8e3639000ab7",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788479695,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 5,
+      "next_retry_at": 1788484495
+    },
+    {
       "region": "RUSSIA",
       "title": "Росатом начал испытания импортонезависимого робота-манипулятора - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVzJKc0ZDanZiMVp0Rng4SlZnUndmN1hiT3JOTjlYeXEwWXlXUjFaUEpfc0V1S0ZnX2RlLVllQWI2bHVrVzhJa3UzZlJYVDNhaFQxanl6VnE4ZDlJRFc0dHMyam9Pbi1sMkZrNjFnNnpLbHd1U1FTcHVHVmJFNE01Q1NFT190NjJxczMyWFJwVDh6WVVqUGpLTEJWY3MxMHhERld4MFFESC1rMlU?oc=5",
@@ -432,13 +432,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788480175.9027636,
+    "last_start_ts": 1788480296.3913927,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788480175.9027636,
-    "last_success_ts": 1788480175.9027636,
+    "last_run_ts": 1788480296.3913927,
+    "last_success_ts": 1788480296.3913927,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 9
   },
   "providers": {
