@@ -347,7 +347,8 @@
     "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8": 1788561862,
     "7f69afc2696d0f9b48408e1626a0eee7e73dcc42c665dbdc98c9e3b924b1d290": 1788562282,
     "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393": 1788562588,
-    "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": 1788563062
+    "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": 1788563062,
+    "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456": 1788563301
   },
   "known": {
     "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542062.023784,
@@ -484,20 +485,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "AI at work: Bosses are racing ahead of employees in the artificial intelligence revolution - Digital Journal",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1JMZTQyVHBIQVdNdEZ2aHN1bjBkcnZBTjJNR2xXbDF4cnhaVlRLMEptdFFtSzVrZmFNREpTV2c3YThhVEltcGppMkV0SWxYdlhUMmh6eThxa1dtemV0eTJoLVQ1U1o5a19ySGRJb1hocERuZnFMaWpKc09nUFc5Vm9ZQnhfVE5WUVU3WXJHdDJrOEVkWTg5ZGZqdGEwam1VYUZKVThXTVRocGg3XzFKQldDNElRSHI2R0xCOE5DSGt1ZzlFV3dnVw?oc=5",
-      "desc": "AI at work: Bosses are racing ahead of employees in the artificial intelligence revolution Digital Journal",
-      "source": "Digital Journal",
-      "time": 1788556375.0,
-      "score": 63.5,
-      "key": "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2twcWNCWjc3MmNfRG9aUDB2anhneExlRTVhRkdzOGJzaF9vZUxyc1V3VFlxaTRyZW5lSmxyNExOMzBsYWN4S2xydTBMQWlFby1BeWhkdTlQSXdJTWFTZjFlUXlYMHZBTEQteWxEVWpXbUdZTFdtbFg0UHdHem5vdDRQVmwtVk5VbEJzaEI1MjZORmVVRW93a192czJ6SG4td2Nob0xNYXJaS3BaSlByV0Q5SlAxY0tGcWRRTHVZSi1taFZtSXkyYmloZzJISmJxMVU0?oc=5",
@@ -532,20 +519,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788563179.784561,
+    "last_start_ts": 1788563301.6382008,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788563179.784561,
-    "last_success_ts": 1788563179.784561,
+    "last_run_ts": 1788563301.6382008,
+    "last_success_ts": 1788563301.6382008,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 5
+    "last_published": 1,
+    "queue_size": 4
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788563070.071679
+      "updated_at": 1788563304.2007113
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2161,10 +2148,16 @@
       "desc": "NevTech Launches 'Done-For-You' AI Implementation for Indiana Businesses — Custom AI MVPs Delivered Fast EIN News",
       "source": "EIN News",
       "region": "WORLD"
+    },
+    "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456": {
+      "time": 1788563301,
+      "title": "AI at work: Bosses are racing ahead of employees in the artificial intelligence revolution - Digital Journal",
+      "desc": "AI at work: Bosses are racing ahead of employees in the artificial intelligence revolution Digital Journal",
+      "source": "Digital Journal",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2177,6 +2170,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2186,5 +2180,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788562402.0264504,
-  "last_publish_ts": 1788563062.3132265
+  "last_publish_ts": 1788563301.6382008
 }
