@@ -447,20 +447,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "OpenAI Says Humans Need to Be Able to Monitor How AI 'Thinks.' Astra Makes That Much Harder - Gizmodo",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTmN0ZEVZRHZRZ0FKTGtuVFRwN094c3JzMGVBclNETUxpUDBEREFOYTU3R3dnNlpMd24tV2dTemtscDFtaGo0UWhzUFpPdnBvcXlLZ0NKMXNlMVFQWVJoY1BvTDRILXowLWxOOGEzOFJOR3RKQWNqbU4tYXUtSmdYeWFxSFoyRl9EWXNveGpqY3ZqZm8wa0ZmZG1vR3RLRkJuRk1UN3RMS08zTVhkaFdUM0otekJwT1JEamxBdVRzUldPcWFYRXpZa1psT05zdw?oc=5",
-      "desc": "OpenAI Says Humans Need to Be Able to Monitor How AI 'Thinks.' Astra Makes That Much Harder Gizmodo",
-      "source": "Gizmodo",
-      "time": 1788555319.0,
-      "score": 63.5,
-      "key": "dd620816bce0dbd7f029ae7a7597c4a0e5f867145a1925a5773d1691d8163c93",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2twcWNCWjc3MmNfRG9aUDB2anhneExlRTVhRkdzOGJzaF9vZUxyc1V3VFlxaTRyZW5lSmxyNExOMzBsYWN4S2xydTBMQWlFby1BeWhkdTlQSXdJTWFTZjFlUXlYMHZBTEQteWxEVWpXbUdZTFdtbFg0UHdHem5vdDRQVmwtVk5VbEJzaEI1MjZORmVVRW93a192czJ6SG4td2Nob0xNYXJaS3BaSlByV0Q5SlAxY0tGcWRRTHVZSi1taFZtSXkyYmloZzJISmJxMVU0?oc=5",
@@ -479,14 +465,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788566004.0387816,
+    "last_start_ts": 1788566120.9747338,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788566004.0387816,
-    "last_success_ts": 1788566004.0387816,
+    "last_run_ts": 1788566120.9747338,
+    "last_success_ts": 1788566120.9747338,
     "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 2
+    "last_published": 0,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
@@ -506,13 +492,6 @@
     }
   },
   "stories": {
-    "5c0057b37a6b968e1db047066f7315da27a5c8e5186fc298601b2485f8f6bad8": {
-      "time": 1788479695,
-      "title": "Amadeus Brings Travel Tech Into Claude Code, Cowork - Skift",
-      "desc": "Amadeus Brings Travel Tech Into Claude Code, Cowork Skift",
-      "source": "Skift",
-      "region": "WORLD"
-    },
     "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": {
       "time": 1788479936,
       "title": "Внедрение ИИ в бизнес: почему умной модели недостаточно - Т-Бизнес секреты",
