@@ -177,7 +177,8 @@
     "bf00ab760e727011b3c20f125efa35b4e33c26cf432dc6ed461de6ce9754f13a": 1788496135,
     "67556d08be870b8c71623c41701d28db2500ff38087cc1faf41be2bf3c643c12": 1788496374,
     "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6": 1788496854,
-    "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156
+    "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156,
+    "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547
   },
   "known": {
     "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27": 1788476993.1452017,
@@ -245,7 +246,8 @@
     "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": 1788495069.2696536,
     "bf00ab760e727011b3c20f125efa35b4e33c26cf432dc6ed461de6ce9754f13a": 1788495069.2696536,
     "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6": 1788496553.6330528,
-    "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156.5978644
+    "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156.5978644,
+    "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547.516139
   },
   "queue": [
     {
@@ -261,28 +263,24 @@
       "importance": 65.9,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788497453,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 1,
-      "next_retry_at": 1788497753
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788497453.4813647,
+    "last_start_ts": 1788497547.516139,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788497453.4813647,
-    "last_success_ts": 1788497453.4813647,
-    "last_candidates": 48,
-    "last_published": 0,
+    "last_run_ts": 1788497547.516139,
+    "last_success_ts": 1788497547.516139,
+    "last_candidates": 46,
+    "last_published": 1,
     "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788497180.5260723
+      "updated_at": 1788497625.1713521
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1541,12 +1539,18 @@
       "desc": "SpaceX Stock Could Nearly Double — Analyst Says Nvidia Rubin Chips Could Fuel One-Year Payback Stocktwits",
       "source": "Stocktwits",
       "region": "WORLD"
+    },
+    "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": {
+      "time": 1788497547,
+      "title": "Дайджест ИИ: Сделка Nvidia и Hugging Face на $13 млрд, защита от вышедших из-под контроля агентов от Abnormal и OpenAI, кризис SEO и ИИ в Wealth Management - VC.ru",
+      "desc": "Дайджест ИИ: Сделка Nvidia и Hugging Face на $13 млрд, защита от вышедших из-под контроля агентов от Abnormal и OpenAI, кризис SEO и ИИ в Wealth Management VC.ru",
+      "source": "VC.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1563,8 +1567,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
-  "last_search_ts": 1788497453.4813647,
-  "last_publish_ts": 1788497156.5978644
+  "last_search_ts": 1788497547.516139,
+  "last_publish_ts": 1788497547.516139
 }
