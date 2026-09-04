@@ -163,14 +163,10 @@
     "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333": 1788491156,
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788491395,
     "7b24cc521ac29f0f89a2483856b7e7c32d220eb99b3dd3b52e04756cede09fcd": 1788491634,
-    "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491994
+    "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491994,
+    "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492592
   },
   "known": {
-    "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843.6931014,
-    "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": 1788470843.6931014,
-    "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895": 1788470843.6931014,
-    "6997a002487646836ea649a555a2961a2d7f21af8e332d3cdeaca24ca540bfdc": 1788470843.6931014,
-    "4396fd3c8d64ae110de28e2c908d6ffa938d5aadae418e2b454d2b3aa01463db": 1788470843.6931014,
     "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": 1788472733.8932097,
     "eca56de0c2442750ffeea605d7c095f87f1ed21cb6f70e322c61230567a03d81": 1788472733.8932097,
     "9f83e7c62a3530784b733e15f099461713c865711386a83123eccd90f2974859": 1788472733.8932097,
@@ -245,20 +241,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "OpenAI launches Daybreak for frontline defenders - IT Brief Asia",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON0RiQUJQcmRkd0wxNlJwNW02a0NqZy1Wa0psZXVJU2p1TDhSbWdoOXNOZ3FJVWtxMG4zTk5mTW9SV0hHbXNrTnVmRnZHMjBZRkZkRmVJUTE2eTZJMTl3bWVuMFhxOWNOWXNILVVJY3dxNTJTUXpjaENuUVhURE01TQ?oc=5",
-      "desc": "OpenAI launches Daybreak for frontline defenders IT Brief Asia",
-      "source": "IT Brief Asia",
-      "time": 1788490980.0,
-      "score": 70.5,
-      "key": "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUm5reVdteHFBdF94NTYzZkVETWZXZjh3cTVNTTF6YU5sMXhQZ2dSYnhTSThiU1VBcXpnaWZuMzRteXdTUVg1WjZFV24wOEprUjVNNzlhanIteUpJTmxLTjQ3ai1GRFBNeFBfX09FZ0pIbkNtM1U5MWRPVDkxcG4zVFlOQUVzYlo4MWtWRWlEWGtudnVfOEMxU1hCdUE4WVRsTDg2b1JYcl9pVWR0X3c?oc=5",
@@ -275,20 +257,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788492120.8771782,
+    "last_start_ts": 1788492592.8478572,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788492120.8771782,
-    "last_success_ts": 1788492120.8771782,
+    "last_run_ts": 1788492592.8478572,
+    "last_success_ts": 1788492592.8478572,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 2
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788491997.2415528
+      "updated_at": 1788492596.3986638
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1449,6 +1431,13 @@
       "desc": "Google has released the WeatherNext 3 AI model for high-precision weather forecasting UA.NEWS",
       "source": "UA.NEWS",
       "region": "WORLD"
+    },
+    "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": {
+      "time": 1788492592,
+      "title": "OpenAI launches Daybreak for frontline defenders - IT Brief Asia",
+      "desc": "OpenAI launches Daybreak for frontline defenders IT Brief Asia",
+      "source": "IT Brief Asia",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1468,11 +1457,11 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788492054.0149205,
-  "last_publish_ts": 1788491994.5028749
+  "last_publish_ts": 1788492592.8478572
 }
