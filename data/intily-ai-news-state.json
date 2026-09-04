@@ -354,21 +354,10 @@
     "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439,
     "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564740,
     "5ed84a171b6d455194dd95e38cf8e6bd63e0b40735f51636e5da9c28aa67148f": 1788565099,
-    "4f6b86c987d4ee29e2db999ccd8976e16d0184d2d7dc866d3dfb95e7cd8d10b2": 1788565283
+    "4f6b86c987d4ee29e2db999ccd8976e16d0184d2d7dc866d3dfb95e7cd8d10b2": 1788565283,
+    "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f": 1788565579
   },
   "known": {
-    "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788543864.4841003,
-    "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": 1788543864.4841003,
-    "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580": 1788543864.4841003,
-    "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862": 1788543864.4841003,
-    "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": 1788543864.4841003,
-    "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": 1788543864.4841003,
-    "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": 1788543864.4841003,
-    "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba": 1788543864.4841003,
-    "b461a6f4a06f05ddc514c065c34840f8dda7bef8192853618f25d5d4cc400d64": 1788543864.4841003,
-    "ee72ff0797ae170fcf091f653cc93ca2ea1e53c0792057d102140c6b330f7ed3": 1788543864.4841003,
-    "c5afdce1b2577f51925560ee1020169f6399f90ff63adbe510d48bf62ace5c65": 1788543864.4841003,
-    "b4c528ac22abd4cd02b8d3d49c3135fa2439f9c983391b723f98f1c1e09b52bf": 1788543864.4841003,
     "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788545844.1562684,
     "7aa23d58e47724aef9d4f26f919711eeffc3ba4ca18f58abbc83fbaa0f236a06": 1788545844.1562684,
     "2a2856322c9e70f34ed769b8c77547c9e0994a988c35c240374232882c85dd93": 1788545844.1562684,
@@ -457,22 +446,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "ChatGPT vs Claude vs Gemini: 5x File Upload Gap [2026] - tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56Y1Nadjd6YUs2cXNOb20zOFljb0NpNjY1ZWJSZS1xZVNxaEkzeXlDaGhwRjZJQVFHSzByYUpYT3ZIanVsSjFmdzh5dVQ2eTJHZ0wxQ2dhYWVpLUhXRWk1REUxcGpydUR3Qlc1VW5GTjhxWGdwOFlwakFCcml6UQ?oc=5",
-      "desc": "ChatGPT vs Claude vs Gemini: 5x File Upload Gap [2026] tech-insider.org",
-      "source": "tech-insider.org",
-      "time": 1788557309.0,
-      "score": 63.5,
-      "key": "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "California’s Rob Bonta investigating OpenAI over Hugging Face hack - Politico",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdmhsWmFLekRLdU9CWHdHU1lOeTRQMVU1WnVCb0dXSm56MHFvWE5WQVl4NjFtX1VQcjhRSkF4WVlyb3N3bzlPMkh3Y3BIOWxzdTRjaHRYbXVFaUpKTVhrb2hyOTlzb0I3Y0hMS2EwQlhtVzUzSEF5LXE1SGJFWkI0Y3VqUng5VkVhVzQwMHg2cVRyMDRQdFNxT21HMTNydWpi?oc=5",
       "desc": "California’s Rob Bonta investigating OpenAI over Hugging Face hack Politico",
@@ -548,20 +521,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788565339.6211383,
+    "last_start_ts": 1788565579.2747703,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788565339.6211383,
-    "last_success_ts": 1788565339.6211383,
+    "last_run_ts": 1788565579.2747703,
+    "last_success_ts": 1788565579.2747703,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 6
+    "last_published": 1,
+    "queue_size": 5
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788565289.2367358
+      "updated_at": 1788565582.656111
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2184,10 +2157,16 @@
       "desc": "EXCLUSIVE: US, China gear up for mid-September AI safety talks reuters.com",
       "source": "reuters.com",
       "region": "WORLD"
+    },
+    "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f": {
+      "time": 1788565579,
+      "title": "ChatGPT vs Claude vs Gemini: 5x File Upload Gap [2026] - tech-insider.org",
+      "desc": "ChatGPT vs Claude vs Gemini: 5x File Upload Gap [2026] tech-insider.org",
+      "source": "tech-insider.org",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2203,11 +2182,12 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788565099.8368926,
-  "last_publish_ts": 1788565283.0054877
+  "last_publish_ts": 1788565579.2747703
 }
