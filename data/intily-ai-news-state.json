@@ -452,9 +452,103 @@
     "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf": 1788558920.9899461,
     "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24": 1788558920.9899461,
     "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14": 1788558920.9899461,
-    "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703": 1788558920.9899461
+    "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703": 1788558920.9899461,
+    "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088": 1788560540.3142607,
+    "b80fcdd52900df1d8c88494062b7afd1365dbc6cdb2ce4e491c3b44860ddb957": 1788560540.3142607,
+    "9fb3c8868bf43c3fec578d0d453ba39f9fbe8dc17f2ace5c8c2b5150d89c7474": 1788560540.3142607,
+    "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8": 1788560540.3142607,
+    "7f69afc2696d0f9b48408e1626a0eee7e73dcc42c665dbdc98c9e3b924b1d290": 1788560540.3142607,
+    "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456": 1788560540.3142607
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "В «Google Фото» встроили мощную нейросеть. На что она способна? - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWm5qR0hGZzBWZzVqN1ZfTUlwc3YyRnc2eHMzZVNFTjBySlJ2ai1RTFV0SG9UNTVwS1dtOUs1emJ3Vmg4ZndEUV90SWcxbkIzZ29HTjFMTkppN08wWVI0dzBaR3YteFZEXy1DNHg1X05HcHhCbktreXQ1N3N2S3RVQjd4Q3VmMWhrS1pYNVloeHVJWU8yYWo1RmUxV3c4eVNUS3U1VU5tQQ?oc=5",
+      "desc": "В «Google Фото» встроили мощную нейросеть. На что она способна? prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788559354.0,
+      "score": 71.9,
+      "russia_weight_bonus": 3.4,
+      "key": "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088",
+      "importance": 71.9,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia’s $99 Billion Investment Portfolio Turns Chip Giant Into AI Industry Power Broker - Tekedia",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb1VYUko5eC1obExxQXJlZE5FcVlyUEJnV0xSZ05KX2ZHUzB2aUF3cHVtdHdTOXZIb0cxaFZDRms5Q25BOHVyc1VmX3BDajJWcnZJWmt1WnVBelJGcTFvWFpNdmlvX3ZlQlRWZmRsSzZoQW5PMk1fbGF2MHc0ZWg1Vkp6RTNjbW9MX01TT21DekFaNzVNQzF0dUtxOFhVdmJ0bjlfa3k3elRUcDZMNmpSbw?oc=5",
+      "desc": "Nvidia’s $99 Billion Investment Portfolio Turns Chip Giant Into AI Industry Power Broker Tekedia",
+      "source": "Tekedia",
+      "time": 1788544515.0,
+      "score": 68.0,
+      "key": "b80fcdd52900df1d8c88494062b7afd1365dbc6cdb2ce4e491c3b44860ddb957",
+      "importance": 68.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "ByteDance borrows $30B to invest in AI infrastructure - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oWk1QeWdVNURrRVFqOTgxazQ0bmVNaTBHaWJfMXpuLUsxS2RfWVFaMGlzV1M2ZEkzTVgtN3E2Z1hPYzlzdUZWa3JuM3J0eXpYaDNyZ0Q4TXc0UFU5TXdqX1BCUjA4UDhDX1lQUC1VR05DU0N1a3c?oc=5",
+      "desc": "ByteDance borrows $30B to invest in AI infrastructure Crypto Briefing",
+      "source": "Crypto Briefing",
+      "time": 1788558720.0,
+      "score": 66.5,
+      "key": "9fb3c8868bf43c3fec578d0d453ba39f9fbe8dc17f2ace5c8c2b5150d89c7474",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic prepares to file IPO prospectus amid explosive AI revenue growth - Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EVlphOENMTTFhRnV5M1ZEN19KNzd6VG9HSE5ka3YwVE9hT0FMUkwtZnhXLXRJdzYzYVVoVjBTQ1dOMFhCTEstbzZmVHE1VkR6S1dLME96ZnZmdlN4WkxSdEdoMFoyM2pnYldZc2R0WQ?oc=5",
+      "desc": "Anthropic prepares to file IPO prospectus amid explosive AI revenue growth Crypto Briefing",
+      "source": "Crypto Briefing",
+      "time": 1788558614.0,
+      "score": 66.5,
+      "key": "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Leading AI journalist gives free UH talk on artificial intelligence - University of Hawaii System",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MVE9iNHkxaEcxVS1LMVVsWGhNWXdJTGdZM2pnT0NlOXRKWEtody1XU3Q1SzR1UEQ5UG84bDM5bDRUa0pnNzBaTkZTcXR3LXN4TlhyRmpFREJMOUdaZ01jU0UzTTZpU2dsT3RMbTlkakZlUjZEd0o2LTFJWQ?oc=5",
+      "desc": "Leading AI journalist gives free UH talk on artificial intelligence University of Hawaii System",
+      "source": "University of Hawaii System",
+      "time": 1788557657.0,
+      "score": 66.5,
+      "key": "7f69afc2696d0f9b48408e1626a0eee7e73dcc42c665dbdc98c9e3b924b1d290",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI at work: Bosses are racing ahead of employees in the artificial intelligence revolution - Digital Journal",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1JMZTQyVHBIQVdNdEZ2aHN1bjBkcnZBTjJNR2xXbDF4cnhaVlRLMEptdFFtSzVrZmFNREpTV2c3YThhVEltcGppMkV0SWxYdlhUMmh6eThxa1dtemV0eTJoLVQ1U1o5a19ySGRJb1hocERuZnFMaWpKc09nUFc5Vm9ZQnhfVE5WUVU3WXJHdDJrOEVkWTg5ZGZqdGEwam1VYUZKVThXTVRocGg3XzFKQldDNElRSHI2R0xCOE5DSGt1ZzlFV3dnVw?oc=5",
+      "desc": "AI at work: Bosses are racing ahead of employees in the artificial intelligence revolution Digital Journal",
+      "source": "Digital Journal",
+      "time": 1788556375.0,
+      "score": 63.5,
+      "key": "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
@@ -474,14 +568,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788560360.750039,
+    "last_start_ts": 1788560540.3142607,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788560360.750039,
-    "last_success_ts": 1788560360.750039,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 1
+    "last_run_ts": 1788560540.3142607,
+    "last_success_ts": 1788560540.3142607,
+    "last_candidates": 62,
+    "last_published": 0,
+    "queue_size": 7
   },
   "providers": {
     "GEMINI": {
@@ -501,13 +595,6 @@
     }
   },
   "stories": {
-    "63ae580b4e90a98098c5a5b6ee18ad55579149f28d1e2f23adb79bed2daf69a0": {
-      "time": 1788474053,
-      "title": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle - GeekWire",
-      "desc": "Startup takes on AI hallucinations with $25M and an HQ rooted in a small town south of Seattle GeekWire",
-      "source": "GeekWire",
-      "region": "WORLD"
-    },
     "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": {
       "time": 1788475135,
       "title": "OpenAI does a victory lap for its new AI model: 'Welcome to the AGI era' - Business Insider",
@@ -2127,6 +2214,6 @@
     "RUSSIA",
     "WORLD"
   ],
-  "last_search_ts": 1788558920.9899461,
+  "last_search_ts": 1788560540.3142607,
   "last_publish_ts": 1788560360.750039
 }
