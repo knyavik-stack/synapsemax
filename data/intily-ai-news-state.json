@@ -132,7 +132,8 @@
     "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27": 1788480413,
     "1767a453d9b6dbbd6ca0de62fc2369239a5bb7a9dbbc337b07995dddcec38799": 1788480596,
     "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9": 1788480894,
-    "d22501a4517a2d77861cdc7840358d74b38ab9da51d553e00a8c077cb1e9ebe9": 1788481255
+    "d22501a4517a2d77861cdc7840358d74b38ab9da51d553e00a8c077cb1e9ebe9": 1788481255,
+    "774b256f69c69dab8cfc74c8aa72023e9e7f82fa2d2ec9b61897310f6aacdba8": 1788481494
   },
   "known": {
     "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": 1788461293.6977568,
@@ -282,23 +283,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "В ЦИК ожидают провокаций от внешних агентов под видом кандидатов - Ведомости",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMnBNS3RWOHRkTjg0YmZWVkx5bjQwdm4tWXNXcFR4Y1FHUlNsS1BlTVl3eEZ4MUQxRTl4NHc2RXFtZDQtRXgyRUFQZlhGb0VDMlNyaGpmLXkydmpJRmwyQmN2LUI0OUpscjcxSnRmTkRqS3ljdE13OFc0ZnUyUTdkN3BXcFl5a1hVRkhhbndkNzliX2k0dDhUZlNpMDJDT0J1cE1IV1BQNkxtRGRmd044?oc=5",
-      "desc": "В ЦИК ожидают провокаций от внешних агентов под видом кандидатов Ведомости",
-      "source": "Ведомости",
-      "time": 1788443632.0,
-      "score": 63.1,
-      "russia_weight_bonus": 4.1,
-      "key": "774b256f69c69dab8cfc74c8aa72023e9e7f82fa2d2ec9b61897310f6aacdba8",
-      "importance": 63.1,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование - Digital Russia",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmV1b2haRFJEaGRlM3dLMU9rWDVGdHo0UUE4SS1ZZnhCdVBoYk1ib0ZhTjFhNkJYeEh4MUF3dDVUMVd6OWZiZXBXVGlSRnNfTlpseFJrbl9rbFNTTzluX0xZakY5bnFBakttbXNKQWxVUGtwbjYyNGtsTUJJN1pRN1NPdHhWSEZyN1VsUGhPQVp6cVpwV3dvOWFOTHI2azhZbHV3cXFkVE5rVGdhdVdtcmt5NA?oc=5",
       "desc": "Искусственный интеллект в разработке ПО применяют 96% лидеров финтех-рынка - исследование Digital Russia",
@@ -439,20 +423,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788481255.176823,
+    "last_start_ts": 1788481494.6844757,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788481255.176823,
-    "last_success_ts": 1788481255.176823,
+    "last_run_ts": 1788481494.6844757,
+    "last_success_ts": 1788481494.6844757,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 11
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788481263.4230804
+      "updated_at": 1788481497.4014506
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1396,13 +1380,19 @@
       "desc": "OpenAI’s president claims AI is as capable as humans now The Washington Post",
       "source": "The Washington Post",
       "region": "WORLD"
+    },
+    "774b256f69c69dab8cfc74c8aa72023e9e7f82fa2d2ec9b61897310f6aacdba8": {
+      "time": 1788481494,
+      "title": "В ЦИК ожидают провокаций от внешних агентов под видом кандидатов - Ведомости",
+      "desc": "В ЦИК ожидают провокаций от внешних агентов под видом кандидатов Ведомости",
+      "source": "Ведомости",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1418,8 +1408,9 @@
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788480596.4989552,
-  "last_publish_ts": 1788481255.176823
+  "last_publish_ts": 1788481494.6844757
 }
