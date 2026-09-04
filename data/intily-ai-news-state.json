@@ -241,9 +241,77 @@
     "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491755.7473595,
     "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492054.0149205,
     "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788492655.914861,
-    "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": 1788492655.914861
+    "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": 1788492655.914861,
+    "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f": 1788493074.7616563,
+    "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19": 1788493074.7616563,
+    "61ddefaf4b72efac9a395b2b2044cef2a7cdd7e3b4741f5f7ca3bd2700589179": 1788493074.7616563,
+    "e80a338557efe54d1813b0625979c371ef702ab017dae3c04071c01540af4a43": 1788493074.7616563
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "«Яндекс» разработает оркестратор для ИИ-моделей - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYV9yTjl6WXhZcmpaQ0J2b2QwYXUzVmFHdFA1RDNRMWdRaWl6WkRoV0wwSUE5LWhPWTlxN2NJbnRVMjlKXzBDdVlHZ1NCcWlMSkcxWEZUenZHeUNtdVNRNzlJOXpIWTZIYmJ4LVB3VEVzS2duaDhiUWt6R01yR0pLYlVIUHFqY2RDbVZVTXAxR3hpdw?oc=5",
+      "desc": "«Яндекс» разработает оркестратор для ИИ-моделей prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788492772.0,
+      "score": 81.8,
+      "russia_weight_bonus": 3.3,
+      "key": "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f",
+      "importance": 81.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVU5GZS1uTWYxS2ZpamM0Uy1RbGt6aE14NE1WV0owaW9Bb204V255WTVxYU9meEFza2R5UFBDT1NlNU5jTEVSQ25GandkSHc2WHVYcHczQ2puY1Z4UEExV3pNbmJ5Zi1nRHFuNFdZMXR1RExpY1RFT3dpcGJsNmhabzhDWlZCSV82MmtrcXRVNDhGaXZpcDdSZmoyOEozWS1FaEFKNWF4eWhaejUxeENZcEw4aUJJeFk1U0ZWUkt1LUwtdzVV?oc=5",
+      "desc": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788492758.0,
+      "score": 78.8,
+      "russia_weight_bonus": 4.3,
+      "key": "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19",
+      "importance": 78.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Alibaba значительно улучшила ИИ-модель Qwen3.8-Max за счёт дообучения - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZDJHaHo4VTFsTndrUTN2MkR6aUtxMUhZX3UtQWpkUFhUWllUeHhPSWEwN3o0LXdtVTdxeVRtcUN5SFdzQ3pIWC16elhHZG1sRm9YZE5GekN1UGVkSXJDbjBkNC1jM195RWhPRVc2X3dEeTJ3djZmdklGWVZPSEpKVnJoR2JnRHdxY3NENzdqWXRsd1NCTVVuNlZKcXc1SlpWb0JKM3BQZzRLT25aTC1wQ3dn?oc=5",
+      "desc": "Alibaba значительно улучшила ИИ-модель Qwen3.8-Max за счёт дообучения prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788492774.0,
+      "score": 75.1,
+      "russia_weight_bonus": 3.6,
+      "key": "61ddefaf4b72efac9a395b2b2044cef2a7cdd7e3b4741f5f7ca3bd2700589179",
+      "importance": 75.1,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZWVsdlkyUTI3WDZ5dkJsMXJiWm1pZmxSWldiNEktVm5ONXFldjVZNVEzTFRlX3EyV2ZJQng3Vm5GMHlmWjNqUEpzcm1jZXlmZzlSUElFdGMzT1M1VG9QRlJkTVpkZmJJM3h3U3FreVhUUC1pekVvU05KN0xWckJhVUl2TmlobWNqS0s0VGZKamFEOW5hZUdsSWNxUVhybURvVm1IVXg4N3g3TnRTUC0wWDZ2cV9neWRrTjE3eDdpOGRVR0Q5c2t6UlpfSFZHajJzcXhXZUw5Y0lsZw?oc=5",
+      "desc": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788492727.0,
+      "score": 73.2,
+      "russia_weight_bonus": 1.7,
+      "key": "e80a338557efe54d1813b0625979c371ef702ab017dae3c04071c01540af4a43",
+      "importance": 73.2,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
@@ -261,14 +329,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788493015.0088618,
+    "last_start_ts": 1788493074.7616563,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788493015.0088618,
-    "last_success_ts": 1788493015.0088618,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 1
+    "last_run_ts": 1788493074.7616563,
+    "last_success_ts": 1788493074.7616563,
+    "last_candidates": 53,
+    "last_published": 0,
+    "queue_size": 5
   },
   "providers": {
     "GEMINI": {
@@ -1480,6 +1548,6 @@
     "RUSSIA",
     "WORLD"
   ],
-  "last_search_ts": 1788492655.914861,
+  "last_search_ts": 1788493074.7616563,
   "last_publish_ts": 1788493015.0088618
 }
