@@ -131,43 +131,10 @@
     "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe": 1788480175,
     "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27": 1788480413,
     "1767a453d9b6dbbd6ca0de62fc2369239a5bb7a9dbbc337b07995dddcec38799": 1788480596,
-    "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9": 1788480894
+    "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9": 1788480894,
+    "d22501a4517a2d77861cdc7840358d74b38ab9da51d553e00a8c077cb1e9ebe9": 1788481255
   },
   "known": {
-    "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
-    "3911462b883e26d2ae2ed2d5d2ad028fe824c367d3940a2c5523085a9993ba57": 1788459491.2056582,
-    "1865e6c67e785da0de065ab726adee65934efaf0f407e59b14c0bdd529c71426": 1788459491.2056582,
-    "8fb3919bdff178718ba1eb9c88c9bf55fb24208bfb12528faa7bc9a8d9c1c3a7": 1788459491.2056582,
-    "3d6c76e2b0d9263ea0a12f6027c7bb49b4d8463b141b6e83fd3726ccd86c587e": 1788459491.2056582,
-    "d9dde870ce0b915fcd2deb417cba169542659f50df388b026119b0f2b62c3430": 1788459491.2056582,
-    "df2e56da45776be34c67faa03c7de424e22477d15117439282c85495c97b20f8": 1788459491.2056582,
-    "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5": 1788459491.2056582,
-    "7797bb888b670fe07d7150adfb6070b16ea6fc2890b17934ed1e9103b748502f": 1788459491.2056582,
-    "da8ffe9838cd710d41ee72d2d590f5bcf469db3ded6ae60b6e83d811150c0f8e": 1788459491.2056582,
-    "5671c6119d1b96af084be80f60b50d6dc60199f4117dbdcc8162aced75d40da2": 1788459491.2056582,
-    "1eb4957568f8cb8ba9de6316982bd5810309ff7bc3148b19f0f86ed11cae71ba": 1788459491.2056582,
-    "ce3b396c32bfeaa77a079199697470add24d7d92fb772fc17454933c2dd2d7ef": 1788459491.2056582,
-    "29f5e130848e84a3e7a9572f9822c0d9dbf0c4ccc8e9e42b12f55e0df14e2f52": 1788459491.2056582,
-    "04bf376cfe1e2f7acaa3d082a1b36434be944814869482127a3dc6f26eaf5333": 1788459491.2056582,
-    "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": 1788459491.2056582,
-    "8722e24132beb67d37198ba5f0a8d7b632f7cf8e7d06e439f5a3965ab76a973a": 1788459491.2056582,
-    "a2c2b89068906a6443614b51b9d83ebfc71e02dbd4459e295f655b1fabef0e67": 1788459491.2056582,
-    "9579d3fcd50ac46203eefa5e1461a93240a39d1c3382376f7feaf77ed9b944fb": 1788459491.2056582,
-    "b37ce4b8a7fc2a82bd1ce46e80e4a47173944fb2043b6eac52d04034437aa739": 1788459491.2056582,
-    "3e5392de9ba92c3815e4b1fc4b8bf0480627af069da397853dd47ef30101dfc3": 1788459491.2056582,
-    "f940f3d64cf79d52ede15af187178e98222d749c82e4222fec2b2e507cab4a8b": 1788459491.2056582,
-    "62d083dcf9e5bb1c7f0ddc422c4eeb2db5d7bdd3c0e2c80e61bee588f8976536": 1788459491.2056582,
-    "69c5bf9cb0443f61e2de38b491ef3098f5e3553927b45f240e9c76575fc550bf": 1788459491.2056582,
-    "7513621c37c002cff35f835a8af9357bf1d275f1edbec37ee5f2eb34e7dd6b19": 1788459491.2056582,
-    "df723144a68e5052186e7f9c89a49e1fc1009e94ebb317521a3f1fdef87e9b11": 1788459491.2056582,
-    "9af1f213d9e3b23456f0634a2b731ebc6200d3e3992637b720db192aae132710": 1788459491.2056582,
-    "119628eb7c5fbac29f9835b22ecc9675f10265e4c4427dc5038a3f0657d451e2": 1788459491.2056582,
-    "d9f2a6fd8a72a79f4632ad6b55ae9743c0c748c95b272123ea4eb159033db41a": 1788459491.2056582,
-    "f1ae8f12cae85bd002ecb2998297ffd792c17a768ed54bd17a543c6664f25225": 1788459491.2056582,
-    "5a46ff5a0cee0dcab2da64460e1d0b8837e5946bb4245b25841f69f543130c87": 1788459491.2056582,
-    "5b5febc74838f28ab78e9bd242752013686a4044b37ffdbe520ff0cf29996af0": 1788459491.2056582,
-    "b8768612aca3bc34aa4b964c5cd315ba718432ae1bbe08b1a560f65058ae742a": 1788459491.2056582,
-    "83eacdc94c41b8278f7eae5fcd26d333141256be3f00bb30011849a7665f68b5": 1788459491.2056582,
     "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": 1788461293.6977568,
     "4110337c9b2c90c5bebad52851e25f3f5c5ab5975592dcac36d943d3db64142f": 1788461293.6977568,
     "b44520755e58ed7ab860834d44786714b3d882449542747ad7e92d170883745f": 1788461293.6977568,
@@ -285,20 +252,6 @@
     "9f4000e8382fb2a9a54ede27d030a5934bf92af457dcbcf5f51951b3f00091b4": 1788480596.4989552
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "OpenAI’s president claims AI is as capable as humans now - The Washington Post",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZlRlRURkaE5IYjdsd3JTN2lNMXNaNkV5OW11N2tpek1paUMwSnhuWk9XWExGRV9XaDFvYTd0SmFVSVNaaFk5VkhyY09UQXVrRTFlbVUxODB0ZktZMmRCM29fdFJMZ3dRVU1lb1piZHJHLVlYeHRGZVZGbXc5d01VTVNjUXhILW4zVFVLRWZlWVlKN25qSU9EX1BCOFRIMjRSTDJjbGFLc3lxQQ?oc=5",
-      "desc": "OpenAI’s president claims AI is as capable as humans now The Washington Post",
-      "source": "The Washington Post",
-      "time": 1788475675.0,
-      "score": 63.5,
-      "key": "d22501a4517a2d77861cdc7840358d74b38ab9da51d553e00a8c077cb1e9ebe9",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF - Information Technology and Innovation Foundation",
@@ -486,20 +439,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788481013.9150078,
+    "last_start_ts": 1788481255.176823,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788481013.9150078,
-    "last_success_ts": 1788481013.9150078,
+    "last_run_ts": 1788481255.176823,
+    "last_success_ts": 1788481255.176823,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 12
+    "last_published": 1,
+    "queue_size": 11
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788480907.142584
+      "updated_at": 1788481263.4230804
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1436,6 +1389,13 @@
       "desc": "GPT-6 Astra Reaches Human-Level Computer Use — and OpenAI Locks the Cyber Door Behind It techi.com",
       "source": "techi.com",
       "region": "WORLD"
+    },
+    "d22501a4517a2d77861cdc7840358d74b38ab9da51d553e00a8c077cb1e9ebe9": {
+      "time": 1788481255,
+      "title": "OpenAI’s president claims AI is as capable as humans now - The Washington Post",
+      "desc": "OpenAI’s president claims AI is as capable as humans now The Washington Post",
+      "source": "The Washington Post",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1443,7 +1403,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1457,9 +1416,10 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788480596.4989552,
-  "last_publish_ts": 1788480894.2168894
+  "last_publish_ts": 1788481255.176823
 }
