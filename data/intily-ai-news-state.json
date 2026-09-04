@@ -249,39 +249,60 @@
     "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6": 1788496553.6330528,
     "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156.5978644,
     "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547.516139,
-    "8db53148dd4869b5c6f0c8da06ddce5e8f6a48284eee96fa98178579d8a87345": 1788498175.9481652
+    "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788498274.389358,
+    "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": 1788498274.389358
   },
   "queue": [
     {
       "region": "WORLD",
-      "title": "Coder, SpaceXAI Enable Secure AI Coding for Regulated Enterprises - TechGig",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeVp6QTdVWXh2SEs5TVJsLXRuVjhUWlBoeUtwSkNjRjNlNTNFMmsyUmxjTWxDY3ZlejJ2NUZ0UjVEQVRhbGUyb1h5d2ZnT2NyLUVjSTNoZF9VYVRIY2Vkby1lN1ZfM25YZm1vS084STNHZUlfN3BBX0dGV1VXUzl6cTVRSGRJbVhUUHEtdmdzY3lIS3JzZUxBV2xLNmNlbEx4OE4yWUZjUTlhUdIBqgFBVV95cUxOeVp6QTdVWXh2SEs5TVJsLXRuVjhUWlBoeUtwSkNjRjNlNTNFMmsyUmxjTWxDY3ZlejJ2NUZ0UjVEQVRhbGUyb1h5d2ZnT2NyLUVjSTNoZF9VYVRIY2Vkby1lN1ZfM25YZm1vS084STNHZUlfN3BBX0dGV1VXUzl6cTVRSGRJbVhUUHEtdmdzY3lIS3JzZUxBV2xLNmNlbEx4OE4yWUZjUTlhUQ?oc=5",
-      "desc": "Coder, SpaceXAI Enable Secure AI Coding for Regulated Enterprises TechGig",
-      "source": "TechGig",
-      "time": 1788481189.0,
-      "score": 62.0,
-      "key": "8db53148dd4869b5c6f0c8da06ddce5e8f6a48284eee96fa98178579d8a87345",
-      "importance": 62.0,
+      "title": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence - 36 Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Icm9heFFRdzdnUEl2MFkyZWlZajlNNzJZUzR1ZklzNDluV1lNR2VaVXdXbW1ZYXFydGhQZ3NmRDR2Y1pQTEFuVVBKV2poVjBoU3VB?oc=5",
+      "desc": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence 36 Kr",
+      "source": "36 Kr",
+      "time": 1788498222.0,
+      "score": 70.5,
+      "key": "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c",
+      "importance": 70.5,
       "editorial_value": 50.0,
       "topics": [
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788498175,
+      "last_failed_at": 1788498274,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
       "failure_count": 1,
-      "next_retry_at": 1788498475
+      "next_retry_at": 1788498574
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcW1ubGhVdk5SNnpqYXRnQndFUVBVTHVXMlNJRll4TWZwYzhhT25kOE1VQXdlcnVZSHp5bWNTQm56WkU2M2YtdjdZTXJqMC1WMUtTYUdwQmZJTF9SWWczYVY4MldLUHlfc21TSC1yclloenFxeFk1Y0IyM041Y3ptbWVwMG0yZnRfZE1XT1hyUWFOM3JELVJNbA?oc=5",
+      "desc": "Nvidia vs. Micron: Which Is the Better AI Semiconductor Stock to Own for the Next 5 Years? The Motley Fool",
+      "source": "The Motley Fool",
+      "time": 1788498111.0,
+      "score": 66.5,
+      "key": "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788498274,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
+      "failure_count": 1,
+      "next_retry_at": 1788498574
     }
   ],
   "health": {
-    "last_start_ts": 1788498175.9481652,
+    "last_start_ts": 1788498274.389358,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788498175.9481652,
-    "last_success_ts": 1788498175.9481652,
-    "last_candidates": 46,
+    "last_run_ts": 1788498274.389358,
+    "last_success_ts": 1788498274.389358,
+    "last_candidates": 49,
     "last_published": 0,
-    "queue_size": 1
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
@@ -1584,6 +1605,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788498175.9481652,
+  "last_search_ts": 1788498274.389358,
   "last_publish_ts": 1788497907.253651
 }
