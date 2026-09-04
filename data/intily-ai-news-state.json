@@ -306,7 +306,8 @@
     "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580": 1788547040,
     "7aa23d58e47724aef9d4f26f919711eeffc3ba4ca18f58abbc83fbaa0f236a06": 1788547339,
     "7bb9dfcaaac4e0f8e48cfb2e5bb0f4d4c30aa0e4c6e8c3a662807158f66ef256": 1788547579,
-    "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": 1788547820
+    "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": 1788547820,
+    "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": 1788548001
   },
   "known": {
     "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788526822.0877657,
@@ -488,21 +489,6 @@
     "33da60480e96e75a4272a1f422f2bd000b5470aade1372e7f82b520b7dc639af": 1788547820.6748672
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Потапов о посте Кравцова: «Не понял, что он хотел сказать после слов «Леха». Будто искусственный интеллект накидал каких-то рандомных фраз» - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVHZvd0ZlWVRYdkVpTGNvVldzeEwzbWpObTBwWjRwS28yQlN5VDVScmZXSTNhd1h1dUQwMVVIcjdlNnhYRzBFcTNtcHAxczIxY0RNV25fZlhESWM2RmZSa0FmSkV1akhPOXVZVXcyNGRJekIzVnNoWElSNHRyUWhFa05Qd0RIUHFLSFliU056VmxRX2ZhckgzQmhMR2FXWG51djFJR0tDV2tzMjAzQTg3YjhaT3VwSUFtMU0wNzRWNWlhTHp4ZlUyMHdxclhqVi1YajV3ald5Q2NEdw?oc=5",
-      "desc": "Потапов о посте Кравцова: «Не понял, что он хотел сказать после слов «Леха». Будто искусственный интеллект накидал каких-то рандомных фраз» prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788547366.0,
-      "score": 72.1,
-      "russia_weight_bonus": 3.6,
-      "key": "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee",
-      "importance": 72.1,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах - BFM.ru",
@@ -789,20 +775,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788547881.121994,
+    "last_start_ts": 1788548001.5825136,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788547881.121994,
-    "last_success_ts": 1788547881.121994,
+    "last_run_ts": 1788548001.5825136,
+    "last_success_ts": 1788548001.5825136,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788547852.5076225
+      "updated_at": 1788548007.3827405
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2439,10 +2425,16 @@
       "desc": "RIAs Using AI Boosted Hiring, Productivity: Study ThinkAdvisor",
       "source": "ThinkAdvisor",
       "region": "WORLD"
+    },
+    "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": {
+      "time": 1788548001,
+      "title": "Потапов о посте Кравцова: «Не понял, что он хотел сказать после слов «Леха». Будто искусственный интеллект накидал каких-то рандомных фраз» - prospect.com.ru",
+      "desc": "Потапов о посте Кравцова: «Не понял, что он хотел сказать после слов «Леха». Будто искусственный интеллект накидал каких-то рандомных фраз» prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2461,8 +2453,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788547820.6748672,
-  "last_publish_ts": 1788547820.6748672
+  "last_publish_ts": 1788548001.5825136
 }
