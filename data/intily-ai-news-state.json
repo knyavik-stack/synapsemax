@@ -252,7 +252,8 @@
     "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788529402,
     "e6192db70cff1b34a0afa6085041c67f5442baf6632678df18288150751aa7ba": 1788529701,
     "ae48873a8d9f503c3086ebe7881425c8377c18c52c2ecc83eee80e729e52355d": 1788530179,
-    "5b833cd31d03646a4a5b9ec56e3b2d6830dbd104b9d6dd5e8346041692bb6a91": 1788530483
+    "5b833cd31d03646a4a5b9ec56e3b2d6830dbd104b9d6dd5e8346041692bb6a91": 1788530483,
+    "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": 1788530719
   },
   "known": {
     "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788509361.5282607,
@@ -445,23 +446,6 @@
     "b0021c68138f41ea9c4b899c6a15ff61d83b0d9b6d9fff080ea52c18c8e6fe99": 1788530483.340653
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Только в 14% российских корпораций знают о методологии безопасной разработки ИИ-систем MLSecOps - spbIT",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOX0liMmpXOWdGekRmcHluYlFkdFd5NzNlSzlVbVBEbktQeVE5S0ZpWkNlbjF4dEF6ekRCOVh1SUVnN2JPLWVCRmVvUFpYTDE0eUJ4b1JObHRDTTVYbjBBQXZ1T3hiMHpUMUc3aUJCa0ZWMlJTcGxwSDBIWmlqNG5QQlhIWmJvSnY4YXY5VUhobU54TFFOTFhjQmpleFhkZW4zbFBuamRwRXZ6YXBzdDRLeHlRVTlTS0JMUGZqanh1MFVxYy1L?oc=5",
-      "desc": "Только в 14% российских корпораций знают о методологии безопасной разработки ИИ-систем MLSecOps spbIT",
-      "source": "spbIT",
-      "time": 1788528874.0,
-      "score": 79.5,
-      "russia_weight_bonus": 4.0,
-      "key": "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6",
-      "importance": 79.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона - prospect.com.ru",
@@ -739,20 +723,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788530660.1783738,
+    "last_start_ts": 1788530719.7746053,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788530660.1783738,
-    "last_success_ts": 1788530660.1783738,
+    "last_run_ts": 1788530719.7746053,
+    "last_success_ts": 1788530719.7746053,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788530511.8346395
+      "updated_at": 1788530723.404422
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2445,10 +2429,16 @@
       "desc": "OpenAI has plans for an AI 'kill switch' after model goes rogue, as Nvidia announces Hugging Face acquisition PC Guide",
       "source": "PC Guide",
       "region": "WORLD"
+    },
+    "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": {
+      "time": 1788530719,
+      "title": "Только в 14% российских корпораций знают о методологии безопасной разработки ИИ-систем MLSecOps - spbIT",
+      "desc": "Только в 14% российских корпораций знают о методологии безопасной разработки ИИ-систем MLSecOps spbIT",
+      "source": "spbIT",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2467,8 +2457,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788530483.340653,
-  "last_publish_ts": 1788530483.340653
+  "last_publish_ts": 1788530719.7746053
 }
