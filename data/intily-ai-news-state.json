@@ -336,7 +336,8 @@
     "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635": 1788557480,
     "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b": 1788558140,
     "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81": 1788558501,
-    "da7f988c3a3d7642c71b349fb681d8faeaa99b5950e89b1ab21b44a0f898002b": 1788558742
+    "da7f988c3a3d7642c71b349fb681d8faeaa99b5950e89b1ab21b44a0f898002b": 1788558742,
+    "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867": 1788559220
   },
   "known": {
     "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": 1788538102.15343,
@@ -467,24 +468,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "Rhombus Systems' AI security robot will be able to roam sites autonomously - The Business Journals",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdHpreGpGUnNWaU1oam5IaENudThiS0RrUldYT0tfeG1wNDJaakQtSTJoS2laSFJmR0M1eWdERXA1RmdFU2lKZFA3Z1J2NExZS3dkX1VoUHNUWnhNaEx5Zm83bVZaaW0zZTRIWkViZ1NvSXZvUTU3cGVMSlJyQXNlWElHdzM0R2tlTTQ4SFplV3FjUmJ1ZFdXZQ?oc=5",
-      "desc": "Rhombus Systems' AI security robot will be able to roam sites autonomously The Business Journals",
-      "source": "The Business Journals",
-      "time": 1788556740.0,
-      "score": 77.5,
-      "key": "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867",
-      "importance": 77.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "robotics",
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "The rise of AI agents: Why businesses still need to keep a hand on the wheel - digitaljournal.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVmc1YnRmbHF5WDY1WGE3UmdYM2lJc05ua19POEhuVi1FdlhsR0tUd2VUbVEtVGVoTGFObDBENDd0LW5lVFEzc2ltX3RkZG1ON3FpWmRSUzFSRFJBc0FGcDJZbDRiTmhhdmkyb2w3X282aUU3NzM2MnBkeW0tNE55MjBfbEJuTmxETldMZUZaUFBiUnczZFlGRjVRZnVSLWVJT1k0NHcyY3V5LW1GRTE0S2J0NktRdw?oc=5",
       "desc": "The rise of AI agents: Why businesses still need to keep a hand on the wheel digitaljournal.com",
@@ -522,9 +505,9 @@
       "desc": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot Unite.AI",
       "source": "Unite.AI",
       "time": 1788555421.0,
-      "score": 70.5,
+      "score": 67.5,
       "key": "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14",
-      "importance": 70.5,
+      "importance": 67.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -562,20 +545,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788558920.9899461,
+    "last_start_ts": 1788559220.3892503,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788558920.9899461,
-    "last_success_ts": 1788558920.9899461,
-    "last_candidates": 55,
-    "last_published": 0,
-    "queue_size": 6
+    "last_run_ts": 1788559220.3892503,
+    "last_success_ts": 1788559220.3892503,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 5
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788558744.4101555
+      "updated_at": 1788559226.3236175
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -589,13 +572,6 @@
     }
   },
   "stories": {
-    "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": {
-      "time": 1788472733,
-      "title": "GPT-6 Astra Trails Top Models From Anthropic and Meta in Benchmarks - trendingtopics.eu",
-      "desc": "GPT-6 Astra Trails Top Models From Anthropic and Meta in Benchmarks trendingtopics.eu",
-      "source": "trendingtopics.eu",
-      "region": "WORLD"
-    },
     "eca56de0c2442750ffeea605d7c095f87f1ed21cb6f70e322c61230567a03d81": {
       "time": 1788472978,
       "title": "Google WeatherNext 3 brings hourly updates to AI forecasts - iNews Zoombangla",
@@ -2191,10 +2167,16 @@
       "desc": "Как AI меняет фарму: опыт «АстраЗенека» в России и в мире Хабр",
       "source": "Хабр",
       "region": "RUSSIA"
+    },
+    "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867": {
+      "time": 1788559220,
+      "title": "Rhombus Systems' AI security robot will be able to roam sites autonomously - The Business Journals",
+      "desc": "Rhombus Systems' AI security robot will be able to roam sites autonomously The Business Journals",
+      "source": "The Business Journals",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "RUSSIA",
@@ -2213,8 +2195,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788558920.9899461,
-  "last_publish_ts": 1788558742.1758945
+  "last_publish_ts": 1788559220.3892503
 }
