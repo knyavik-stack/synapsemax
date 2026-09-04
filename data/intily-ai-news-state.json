@@ -328,7 +328,8 @@
     "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": 1788554782,
     "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": 1788555201,
     "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555683,
-    "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": 1788555921
+    "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": 1788555921,
+    "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": 1788556280
   },
   "known": {
     "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536242.444593,
@@ -465,23 +466,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Surfer – SEO-платформа для контента с поддержкой ИИ - quasa.io",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZzlDdEQtUXQzSTJuUmtWZnhTY1Q5T2lVS0hWaUdjYVd6VUlaMF9IdG5YcUlFeG5mb3pNWXJhUV80M3FPemRILXZ2X3d1Tm84cnJrcnBUZ3BVRi03Z2dveXU0UllRRFVadm5QYzJQWGU3TE9wY0lKYWUwS25DdmN3RDVn?oc=5",
-      "desc": "Surfer – SEO-платформа для контента с поддержкой ИИ quasa.io",
-      "source": "quasa.io",
-      "time": 1788553691.0,
-      "score": 75.4,
-      "russia_weight_bonus": 3.9,
-      "key": "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c",
-      "importance": 75.4,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА - Общественная служба новостей",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOVdDR1ZhSWwyZ1JZVUs1RHA3TlJmUTVUXzIteVQ3YXo2SjZoVFR1c3V1OHJkVVZpOVN0cEpOZmNMWXFtT3JvaEhWZ3phVHdEN3Vad3J2YXQwbEp1VWhxZ09xSE81dmctM3dYRlA2YUZLQnVmRXUybTM2Wk03RVFfcW9uX09RcGFjaHZESXA3dWo5aW5zOVN4M0pIMkExVk5YemFLVnVwcWI0VDZtaDh5anp2eDgxQ00?oc=5",
       "desc": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА Общественная служба новостей",
@@ -589,36 +573,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "OpenAI’s GPT-6 Astra: Benchmarks, Cyber Risks, and Market Impact - futurumgroup.com",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRWFlQXVQU01NSVljajZud1BIS2VobVFFOWtsZWtDaGcxZ0JJam1LcXNfQXViSVl2cWotQTJyOGVZR182UlExTC1YeXkxc1dqQnJvcnRkMWpUbnNqdUF3N2R0NkNBMy15R1ZFcGd5VXlVQS1rdUhiRHhaMFNtOFRRMVpZUVk0c3RwU3RMVmwtT0tQbVBTNFVRWS1yYw?oc=5",
-      "desc": "OpenAI’s GPT-6 Astra: Benchmarks, Cyber Risks, and Market Impact futurumgroup.com",
-      "source": "futurumgroup.com",
-      "time": 1788545475.0,
-      "score": 63.5,
-      "key": "f1d68c5a39ac54ad38f4db346552ef4470478645e082fa73efb3dd758c5430e9",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "An atom-and-photon network just found a new way to store AI memories - The Brighter Side of News",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHEtLWc2bFZYVS1uTFVXdE1TSEY5em9sVDdrTEd6bzBGR3BwN2E2Q1FmaXNfNXpJOWhTSU9OQ3Q5Y1dULU9saUtvbnNBZUItdkk5MFRLb2h4emhFMUdtcWctNDI2TXRCby1QZzNTOFlMdHhzZnhkeHFpR3FsZFB5ak9lMGU3cnFYM0xDbTVwTFZRZ3Y2MmRqeWZmckJMTGs0WnphU3p0eG1VTHM?oc=5",
-      "desc": "An atom-and-photon network just found a new way to store AI memories The Brighter Side of News",
-      "source": "The Brighter Side of News",
-      "time": 1788545220.0,
-      "score": 63.5,
-      "key": "2b5854e7701d95bd884629d5eb0517f1c4381f2e60cf85fed860baf3707d81f4",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
@@ -701,20 +655,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788555921.2325368,
+    "last_start_ts": 1788556280.9979906,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788555921.2325368,
-    "last_success_ts": 1788555921.2325368,
+    "last_run_ts": 1788556280.9979906,
+    "last_success_ts": 1788556280.9979906,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 15
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788555923.7840757
+      "updated_at": 1788556283.209626
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -728,13 +682,6 @@
     }
   },
   "stories": {
-    "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532": {
-      "time": 1788469751,
-      "title": "Physics Breakthrough May Boost AI Memory, Learning - Mirage News",
-      "desc": "Physics Breakthrough May Boost AI Memory, Learning Mirage News",
-      "source": "Mirage News",
-      "region": "WORLD"
-    },
     "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": {
       "time": 1788469932,
       "title": "AI Company Launches 'Central Nervous System' To Unify Physical And Agentic AI - Automation World",
@@ -2323,10 +2270,16 @@
       "desc": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques gbhackers.com",
       "source": "gbhackers.com",
       "region": "WORLD"
+    },
+    "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": {
+      "time": 1788556280,
+      "title": "Surfer – SEO-платформа для контента с поддержкой ИИ - quasa.io",
+      "desc": "Surfer – SEO-платформа для контента с поддержкой ИИ quasa.io",
+      "source": "quasa.io",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2345,8 +2298,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788555201.4978535,
-  "last_publish_ts": 1788555921.2325368
+  "last_publish_ts": 1788556280.9979906
 }
