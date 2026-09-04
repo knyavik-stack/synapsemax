@@ -183,7 +183,8 @@
     "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788499739,
     "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": 1788505280,
     "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d": 1788505701,
-    "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220": 1788506842
+    "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220": 1788506842,
+    "69f66e1dce7410a63189f8a91065208dcd28f2e035afca03bb728fb8fc72f14f": 1788507323
   },
   "known": {
     "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174.074481,
@@ -243,7 +244,18 @@
     "797e43b1bde72a699a2d26744811a9ab221befb40b0c47b02afb7414ed931199": 1788505280.75571,
     "02a133fd7c941498e88c3ec592ad3f797f6c37598f2b8c6a7ef45af8738a2928": 1788505280.75571,
     "03383a59ddbc7f0fc27d562d859d180d979fdf39dc808d6795102304cabaa568": 1788505280.75571,
-    "3b2d8fee1673cdecb10250c484c898f76e655a3fcd84c0c44a5ae634a89141fd": 1788505280.75571
+    "3b2d8fee1673cdecb10250c484c898f76e655a3fcd84c0c44a5ae634a89141fd": 1788505280.75571,
+    "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788507323.0378804,
+    "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": 1788507323.0378804,
+    "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc": 1788507323.0378804,
+    "69f66e1dce7410a63189f8a91065208dcd28f2e035afca03bb728fb8fc72f14f": 1788507323.0378804,
+    "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9": 1788507323.0378804,
+    "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde": 1788507323.0378804,
+    "806b1e556eb49ff75c31a89a52e7c734a0f584e1b9c388c74e6ab728d8ce01a5": 1788507323.0378804,
+    "507d1aa7359e57203ae617caf7266d80de108ad6c1547dc1d71e70096b12af1c": 1788507323.0378804,
+    "4f59a7e4cc67ad6fd8c341d6d0da488158a8f14272d324b18929973f861dea74": 1788507323.0378804,
+    "79a9aad9d12a146111e530186aa2d03bb48ee914488456ee80add38506065fe6": 1788507323.0378804,
+    "397471c6738b39e3fd7bfed5bc0613bfd857a7bd92b7f50bd4502be896dc2f81": 1788507323.0378804
   },
   "queue": [
     {
@@ -259,6 +271,58 @@
       "importance": 79.7,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Сбер представил видение будущего торговли: от платформ к ИИ-агентам - primpress.ru",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IMWw4Y2dCV3pyY2VfRWhSSnJLVTUyU01xdnhxd3BDOGY1VEw2U05vQllVUDJBMFV6aE1kYlBpSVRUa1VONXhqMkFnZw?oc=5",
+      "desc": "Сбер представил видение будущего торговли: от платформ к ИИ-агентам primpress.ru",
+      "source": "primpress.ru",
+      "time": 1788502596.0,
+      "score": 78.0,
+      "russia_weight_bonus": 2.5,
+      "key": "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df",
+      "importance": 78.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» - ICT-Online.ru",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRTFzOUZDT3k4RGtubktvU0pjVHRxTDBYWjY5R1JUaG4xNDVrTFZ4aTJzVmctRkU5TWhUTGlrSXpmYVVKV3lLd09ReTZFNVViblp3SzkxTEFQeHVoWUdHNVowamd3bUZ4c19YMGRiSjBDczJMdHMyYmV4bWktSnFBWEEtOE1IX3pvXzR5ZFpYMDJUNFJSbzRVSDBGLU1mZldfYWEyYkd5VzNENUJpUUloQkU3WXowZlhHQ0lyelRFb2YtNGZ1aUJaVjQ1RVF1OE9lU2lKRlZTb2FlR0tRbUwzUDN3cXloaUNYQXp5a1N0M3V3T1J1U01oeEtsMHhsTzRNc09DcnBQcw?oc=5",
+      "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» ICT-Online.ru",
+      "source": "ICT-Online.ru",
+      "time": 1788506778.0,
+      "score": 75.7,
+      "russia_weight_bonus": 4.2,
+      "key": "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f",
+      "importance": 75.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Закон об ИИ в России: новые возможности для Якутии - YakutiaMedia",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FUV9CSW1pT1hOWHNRZWNmVGM2dTVPdmRJcnBzcmI0TmJGc2VMc3VPTkN3dE8zZVdqVVRIR3J6dE11TGdVMDRnNXJyUFhGQQ?oc=5",
+      "desc": "Закон об ИИ в России: новые возможности для Якутии YakutiaMedia",
+      "source": "YakutiaMedia",
+      "time": 1788505304.0,
+      "score": 73.6,
+      "russia_weight_bonus": 2.1,
+      "key": "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc",
+      "importance": 73.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
       "tier": "A"
     },
     {
@@ -279,16 +343,31 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Две трети россиян выступили за маркировку ИИ-контента - techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOFRIQndZUVFvWS1GMWpPVDdnRVZXZWtBU2ZRdnpNTWRpWHlJMlNqUV93b3JaX3Vpc2tUOWhXcm56MU16WG5pSTZ4S2h2bHRyNEZxWGFraXJILWFKN3JlTGN3bndjOVZibzl0RGZLcXZGVWVfNGRtT2hieWFxd3kxdTJicw?oc=5",
-      "desc": "Две трети россиян выступили за маркировку ИИ-контента techora.ru",
-      "source": "techora.ru",
-      "time": 1788503787.0,
-      "score": 72.5,
-      "russia_weight_bonus": 5.0,
-      "key": "71d41715e545f03f5bad3358357dc61fa22cd009173ab81d3b73ae3746498994",
-      "importance": 72.5,
+      "region": "WORLD",
+      "title": "Why identity security must evolve for both humans and AI - Security Journal Americas",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Kc0FHcnp0TWJkMUxhY0puc2xiX0dCa1dTRTFnSGJKU25TWmV5THRGamthRnAxNFptRkZaOEhSaEo4N0loal95bEF0QVZZNEZ1dFVSMzNwakhkTGdkeFZHQ3J5Q1FkN2hoVWZENzY4Z0ZuZUJkQzJsZG53?oc=5",
+      "desc": "Why identity security must evolve for both humans and AI Security Journal Americas",
+      "source": "Security Journal Americas",
+      "time": 1788506340.0,
+      "score": 70.5,
+      "key": "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNakJGSy1qY1N1N3prQmZDNVNyLXp1eURISS1UaTBMaWg4aUVITkFVSWJmV2xkcGxTbmo5eG9PeDYtck5VQTkwSHJxUEh5LXBoMURtRlpmbExUSGU4eV92d1FPUW5kdzZfajNDRXgtUU5YYkdkS1F1aVF5OC1SUndHOXRMTnZkb3ByNW92NnpYX3JRakVBc0cyYU1sVExhalZ3OUE4MkRQREFkT3I2VWs2N2tYZGlnNWMybUE?oc=5",
+      "desc": "Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team WSJ",
+      "source": "WSJ",
+      "time": 1788505479.0,
+      "score": 70.5,
+      "key": "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde",
+      "importance": 70.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -324,6 +403,53 @@
       "topics": [
         "agents"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть - cisoclub",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDRGeHVzc3d2X25oRHVXNElTRmhQdEVZR1dkTGVYU2RyelBhRU9vZGxlZmliUmFMZFJDR09VZnV2WUpHYVkzU2VSTkJQQVAwMVg3bHZqWGZOaVRtZjZMSnF2THpuRDZFRzF6aEFOTkNkeHNmQ2NMMjBNOHNvQ2lKWnV3aEpjUEhKcXk1RE1HZ3N1V2NXMFFLMFp2Qk5jdnpvQUV1QQ?oc=5",
+      "desc": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть cisoclub",
+      "source": "cisoclub",
+      "time": 1788506745.0,
+      "score": 69.6,
+      "russia_weight_bonus": 2.1,
+      "key": "806b1e556eb49ff75c31a89a52e7c734a0f584e1b9c388c74e6ab728d8ce01a5",
+      "importance": 69.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - cnews.ru",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UUUh3LTRDcXhzUnJMc1diZWYyYVgxVm5UYlQxeWwzOFRFak9kRTZKWjh3VEtXbWtWYzNaeHgyX0szZHBwalgtdGw2bGhKb29oMkhudDlPdkkyQ09tMUN1UkZjaW9Beks4dkhKMEZiVDVkdndHMEtMTQ?oc=5",
+      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности cnews.ru",
+      "source": "cnews.ru",
+      "time": 1788506262.0,
+      "score": 69.6,
+      "russia_weight_bonus": 2.1,
+      "key": "507d1aa7359e57203ae617caf7266d80de108ad6c1547dc1d71e70096b12af1c",
+      "importance": 69.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Две трети россиян выступили за маркировку ИИ-контента - techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOFRIQndZUVFvWS1GMWpPVDdnRVZXZWtBU2ZRdnpNTWRpWHlJMlNqUV93b3JaX3Vpc2tUOWhXcm56MU16WG5pSTZ4S2h2bHRyNEZxWGFraXJILWFKN3JlTGN3bndjOVZibzl0RGZLcXZGVWVfNGRtT2hieWFxd3kxdTJicw?oc=5",
+      "desc": "Две трети россиян выступили за маркировку ИИ-контента techora.ru",
+      "source": "techora.ru",
+      "time": 1788503787.0,
+      "score": 69.5,
+      "russia_weight_bonus": 5.0,
+      "key": "71d41715e545f03f5bad3358357dc61fa22cd009173ab81d3b73ae3746498994",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -436,97 +562,23 @@
         "chips"
       ],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Qualcomm Unveils Adreno Neural Fusion in Major Mobile GPU Overhaul - thelec.net",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SRXVHNk9zYWdYdnhDVm0yd25PT0xqZDlYSDEwNk1uTGhHWDM3bjE4ekozVmh6dmRZLVFEaUF4dlUyejBDVmVIdkZfZmc3SnRRSzh3MlRuSWlXeXRVVUFPOGdsT1FDc0U?oc=5",
-      "desc": "Qualcomm Unveils Adreno Neural Fusion in Major Mobile GPU Overhaul thelec.net",
-      "source": "thelec.net",
-      "time": 1788499689.0,
-      "score": 67.5,
-      "key": "f599ad26c50d8a649c7dd0fa1bb96b949f779c9055fd497825139c4a822913f6",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI Unicorn Secures $3.7 Billion New Financing Round, Driving Total Valuation to $33.6 Billion - eu.36kr.com",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oOUZDTEpjdE5ZLXpZSi1zRDQteWlMX1o4VHdIeUtTVmlKSzRyQzdTckZOTWVxZlpQTUpHcUxnSmxNZzRvVkJkMVZQQTYyRDRNT2hn?oc=5",
-      "desc": "AI Unicorn Secures $3.7 Billion New Financing Round, Driving Total Valuation to $33.6 Billion eu.36kr.com",
-      "source": "eu.36kr.com",
-      "time": 1788498192.0,
-      "score": 67.5,
-      "key": "1a9fd257e84a570ed31d62752d3528adcb0f6f14c69e063103386b552c2f6b38",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "How Anthropic Makes Money—and What Investors Should Know Ahead of Its IPO Filing - global.morningstar.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNGRWZm5wRV9yWEpWNWNtZEZqYWZlSjRHY1VSdDZLMmFxNkRudjNTeVdXWHRJWF9jVDZkQ2ZYUy1FOFpzZ0lHdTlTLVhacUdPdERFM3lIYzM0SHl3NncwUmlXWGx4V1NYc1JqSktrbFlCbzdhcVNubnAxWjd2bVdMcGxnbnlqNjVQcWlrakhEWEMxUlZBVXNBN0pXdlpHNk1PSHNTZ1VDMTNabmFuUV8yVXRDaHUtNm1LRTVTRA?oc=5",
-      "desc": "How Anthropic Makes Money—and What Investors Should Know Ahead of Its IPO Filing global.morningstar.com",
-      "source": "global.morningstar.com",
-      "time": 1788502088.0,
-      "score": 63.5,
-      "key": "2b4b9c5e39afb80dbd506076a923a83b81acf6cd1889867b02ae374586ce298e",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI Algorithms Redefine Migraine As Complex Spectrum Disorder - streamlinefeed.co.ke",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYjJHNm1OUVFnWlRPX1Qyclg5VFNrR0tEdGUxY2VhNXNwMWxCVDU5OFlGRHV6eEtFN0xLSHg3OTU0Tk1xSXRKTmZxQ25uQjVaa05nRFdfSlJVakFyMDJveXhNRnBqaUIwcV9HZ21HcThEVGN2d0lpUlNnOE5CR3dFX21hZnNsbENxbU9PRFlTTUN1TENUZk0tTG1B?oc=5",
-      "desc": "AI Algorithms Redefine Migraine As Complex Spectrum Disorder streamlinefeed.co.ke",
-      "source": "streamlinefeed.co.ke",
-      "time": 1788501637.0,
-      "score": 63.5,
-      "key": "5678da44b87d8c217d47ba3c08716ee18b033d4f9b250c2fbdac12120658d9ce",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Michael Burry Calls Nvidia-Hugging Face Deal A ‘No-Brainer’ — Wall Street Sees New Threat For OpenAI And Anthropic - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPX05yNHplTDMzXzlqVXVEOHpBVTdIdEN5ZVdSaHF3X0xsWnJBMDlrSGJFRU0tSEFyWmh1VmF3Yy1ldVdrcFhQZFA2S19ndDZIX0lBREc0Wlc3Z0NtYlhDYTdYcDhJRS1lUTlSWWRTRDJORVNTZExLdGc4ZkhKbm40TnFJU0tKOHJ0UEx4SnBqZFNzbzV1cnZMaUpxc21GT19JS0lnTG9VSElUeF9aME9xQ1F6Zi1oLXFkSUduVEJKY2RrSl9xWS1RZmgtV1AwLWd4U2lFeE12d1JHS0dzbnZEOG8wRU5FakJ2OVd0WVlmNFNKaUVHUTY4TEl3WjJUTzll?oc=5",
-      "desc": "Michael Burry Calls Nvidia-Hugging Face Deal A ‘No-Brainer’ — Wall Street Sees New Threat For OpenAI And Anthropic TradingView",
-      "source": "TradingView",
-      "time": 1788498480.0,
-      "score": 63.5,
-      "key": "797e43b1bde72a699a2d26744811a9ab221befb40b0c47b02afb7414ed931199",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788506842.1100276,
+    "last_start_ts": 1788507323.0378804,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788506842.1100276,
-    "last_success_ts": 1788506842.1100276,
-    "last_candidates": 0,
+    "last_run_ts": 1788507323.0378804,
+    "last_success_ts": 1788507323.0378804,
+    "last_candidates": 56,
     "last_published": 1,
-    "queue_size": 17
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788506850.8373036
+      "updated_at": 1788507388.635315
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1827,10 +1879,16 @@
       "desc": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets Help Net Security",
       "source": "Help Net Security",
       "region": "WORLD"
+    },
+    "69f66e1dce7410a63189f8a91065208dcd28f2e035afca03bb728fb8fc72f14f": {
+      "time": 1788507323,
+      "title": "Why Is Salesforce (NYSE:CRM) Stock In Focus As AI Agent Adoption Fuels A Sharp Rebound? - Kalkine Media",
+      "desc": "Why Is Salesforce (NYSE:CRM) Stock In Focus As AI Agent Adoption Fuels A Sharp Rebound? Kalkine Media",
+      "source": "Kalkine Media",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1846,11 +1904,12 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788505280.75571,
-  "last_publish_ts": 1788506842.1100276
+  "last_search_ts": 1788507323.0378804,
+  "last_publish_ts": 1788507323.0378804
 }
