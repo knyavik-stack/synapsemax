@@ -155,7 +155,8 @@
     "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": 1788487975,
     "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": 1788488334,
     "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": 1788488697,
-    "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa": 1788488994
+    "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa": 1788488994,
+    "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": 1788489294
   },
   "known": {
     "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": 1788468853.2378092,
@@ -242,20 +243,6 @@
     "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166": 1788487975.2950916
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump - Українські Національні Новини (УНН)",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLTlOSTlKQzlQamN3My1oUE4xNmNTaDJBTmpkY0xON1pwMWx4VjhtUDdscVE3QW5vdTg1bWFNWnV2V09id2tUaGQ2UVBidkxyMm5fUjZndDFCNjFZSzN1dmVzSXVEa183YkFHTEtuTzF4ZFZKczhCT3ZGRVlVd0tsZnlsVnoxaWU4V3kwMC1EdFpudHF1MHd4dXQ3VnFWenNjb0VObU9EcWV5TWJxd21RNWpZM0p2bXhpbTUyOVZORWpCbm5nd3RvZNIBxwFBVV95cUxOY0w2dHRUc0ItbTA1SmR3TXJuaG5uWE9CSmpORmc1SUJqbkpoUXZ4TE5KTEhrT051MUlUcmtrbHFRTkxLVEVfRGVfeTFjaTA2T095R2J3RkNNc1VvT3ZBajNIaHVDX01GV1d0RktiSWJGb19mRVZ6cUVxcnMtbDlHcU8zM2dma0NyZ2JkZ2thMEFuVVJnTFo3QzZwcjItalVOdjdCMUJVeW9tc2lyVTJFWVh0MEhiSUFsTWQ3b0gwSlFnUFNxRUJV?oc=5",
-      "desc": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump Українські Національні Новини (УНН)",
-      "source": "Українські Національні Новини (УНН)",
-      "time": 1788486921.0,
-      "score": 66.5,
-      "key": "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "LG Opens Spark 2026 With Nvidia, Google - businesskorea.co.kr",
@@ -360,20 +347,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788488994.7741995,
+    "last_start_ts": 1788489294.2638116,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788488994.7741995,
-    "last_success_ts": 1788488994.7741995,
+    "last_run_ts": 1788489294.2638116,
+    "last_success_ts": 1788489294.2638116,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 7
+    "queue_size": 6
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788488996.7167237
+      "updated_at": 1788489295.9275649
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1478,10 +1465,17 @@
       "desc": "UCL and AIMS release free AI teaching toolkit for universities | ETIH EdTech News edtechinnovationhub.com",
       "source": "edtechinnovationhub.com",
       "region": "WORLD"
+    },
+    "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": {
+      "time": 1788489294,
+      "title": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump - Українські Національні Новини (УНН)",
+      "desc": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump Українські Національні Новини (УНН)",
+      "source": "Українські Національні Новини (УНН)",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1503,5 +1497,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788487975.2950916,
-  "last_publish_ts": 1788488994.7741995
+  "last_publish_ts": 1788489294.2638116
 }
