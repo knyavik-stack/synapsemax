@@ -720,9 +720,9 @@
       "desc": "Students Question the Long-Term Value of AI Degrees GovTech",
       "source": "GovTech",
       "time": 1788537047.0,
-      "score": 66.5,
+      "score": 63.5,
       "key": "d76803c3aabd792e870bb32343f020e271a5dc998cb499fd88ca7a3ac19442af",
-      "importance": 66.5,
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -758,11 +758,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788540619.7842684,
+    "last_start_ts": 1788540681.2737126,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788540619.7842684,
-    "last_success_ts": 1788540619.7842684,
+    "last_run_ts": 1788540681.2737126,
+    "last_success_ts": 1788540681.2737126,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 16
@@ -785,13 +785,6 @@
     }
   },
   "stories": {
-    "fd700f2017564779e5b5f62708e2322272fd9e63b05613d91f2fe5e4cf8377f6": {
-      "time": 1788454269,
-      "title": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы - RB.ru",
-      "desc": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы RB.ru",
-      "source": "RB.ru",
-      "region": "RUSSIA"
-    },
     "0e63df4bc5530e6e3dd4df15315a680c6f325fcc7926f57335ac1872feb5c819": {
       "time": 1788454459,
       "title": "Google DeepMind Launches WeatherNext 3 After AI Model Beats Traditional Forecasts - Межа. Новини України.",
