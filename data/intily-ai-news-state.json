@@ -346,7 +346,8 @@
     "9fb3c8868bf43c3fec578d0d453ba39f9fbe8dc17f2ace5c8c2b5150d89c7474": 1788561321,
     "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8": 1788561862,
     "7f69afc2696d0f9b48408e1626a0eee7e73dcc42c665dbdc98c9e3b924b1d290": 1788562282,
-    "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393": 1788562588
+    "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393": 1788562588,
+    "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": 1788563062
   },
   "known": {
     "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542062.023784,
@@ -453,22 +454,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "NevTech Launches 'Done-For-You' AI Implementation for Indiana Businesses — Custom AI MVPs Delivered Fast - EIN News",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZlRkajFUS1ZWYVdUMF9Hbmh2Ymo0Q0gtMV9VUF93SDNXSExBYllnaTYtMnRmMWhZanRkd19wUFFpRnhiblZNd1NoOHRGa0Z4WDU5Y1Q0TDZfUEZRM3YydTdUZ1h2REtyRlNyTU02dnhOUFdUVzNVM0VPM25XM2V5N211cWE5ZlVuQS0yVmluUG5hY2VYb0NsVnhHc3JZN25SM2RzZHpRYXNtWFhHcjRMVmJuakVCX1VlcU1GQ0hvaXZmMEJFS2hMNGs4YVRsd2lTdzRXamNTZTJTdw?oc=5",
-      "desc": "NevTech Launches 'Done-For-You' AI Implementation for Indiana Businesses — Custom AI MVPs Delivered Fast EIN News",
-      "source": "EIN News",
-      "time": 1788557520.0,
-      "score": 73.5,
-      "key": "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c",
-      "importance": 73.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "В Киеве признали превосходство России в технологиях ИИ для дронов - Рамблер",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUXZFenUwRFh4NWxnaWRnSXh0RkZwMDFUZnBJOEoyWU5ka0ZkamxMVldLWjc3Z1NOVGRnWjY3QmNaVVFMaHVYS3YyU1UzVUk0aTRsdXBkSUVvdmlueDc5SUFKMTJ0V3RmUkZBamxzU0ZIUjJ2alpLSHplOGVFV3M5UE9rZ3A2QXRyUGUyUURULVIwLWh6VU1TaXpKZ19oWUNzVEEtNHZvYjNlQdIBrwFBVV95cUxOaVljUWZMZjZfUXQ0cE5tUjFXVVFHUkhJZjlhdzAxNnZlSnNMeFo5Ri1iZ0tuSmxTY1pxNy10X2hoNmo4YUxaa014eEZHdG9Ec2hSdTY0eVBDV0FiRHpCdVBPTnUtNVVRRG9FeHlfb0RZY09Jc25oMWF0eWt5bS1DVGpsM1B4b1c0QlZOaFZ6TG52XzZZdmQ5NklFZlZPS3pyaEpSVDBIVE1zb3RKRDRZ?oc=5",
@@ -490,10 +475,10 @@
       "desc": "В «Google Фото» встроили мощную нейросеть. На что она способна? prospect.com.ru",
       "source": "prospect.com.ru",
       "time": 1788559354.0,
-      "score": 71.9,
+      "score": 68.9,
       "russia_weight_bonus": 3.4,
       "key": "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088",
-      "importance": 71.9,
+      "importance": 68.9,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -547,20 +532,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788562640.7924767,
+    "last_start_ts": 1788563062.3132265,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788562640.7924767,
-    "last_success_ts": 1788562640.7924767,
+    "last_run_ts": 1788563062.3132265,
+    "last_success_ts": 1788563062.3132265,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 6
+    "last_published": 1,
+    "queue_size": 5
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788562591.286229
+      "updated_at": 1788563070.071679
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2176,10 +2161,16 @@
       "desc": "OpenAI’s German Wiki Hack Is Less About “Rogue AI” Than Failed Agent Containment Security Boulevard",
       "source": "Security Boulevard",
       "region": "WORLD"
+    },
+    "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": {
+      "time": 1788563062,
+      "title": "NevTech Launches 'Done-For-You' AI Implementation for Indiana Businesses — Custom AI MVPs Delivered Fast - EIN News",
+      "desc": "NevTech Launches 'Done-For-You' AI Implementation for Indiana Businesses — Custom AI MVPs Delivered Fast EIN News",
+      "source": "EIN News",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -2193,6 +2184,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2201,5 +2193,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788562402.0264504,
-  "last_publish_ts": 1788562588.5450053
+  "last_publish_ts": 1788563062.3132265
 }
