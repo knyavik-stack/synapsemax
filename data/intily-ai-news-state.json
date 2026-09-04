@@ -289,22 +289,10 @@
     "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": 1788540799,
     "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": 1788541339,
     "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": 1788541520,
-    "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": 1788542062
+    "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": 1788542062,
+    "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542721
   },
   "known": {
-    "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": 1788520820.733582,
-    "6c2c1d116f9b71f047019842d7ba791ca8369ba929f0f977eaa671b1d25c39a1": 1788520820.733582,
-    "014df9f2f492f0f6e7fe55eab5731f57b976a70bc0fb3350a2cd2f4c4ba2acd9": 1788520820.733582,
-    "cc0d8ba1979f2b627509070666ee20f2c1bb39f1a4592c662c00cf4d363765b9": 1788520820.733582,
-    "0aa7079147f7581f4424c8d0f8b08ef855bc61b837b99d200dd6a6d469e07c84": 1788520820.733582,
-    "e3c1c89bdcc8744bea12885b9ef4ce07d02234c24d4fe18388ea089db47875b0": 1788520820.733582,
-    "0b35f7c2aceb2a382a3812fd8b1b1f453ded821b238b7596c77c617335a26a9a": 1788520820.733582,
-    "a1b1a33bc38ee6daae375270da6c51e8db3c6304bb80d0a6b6f1577805b80d64": 1788520820.733582,
-    "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": 1788520820.733582,
-    "c6258bef9ce9b820282e96a2bd60cb7acf0aefdeb9ad655360f365216b665ec9": 1788520820.733582,
-    "a63f5746ff3656daad624997ef9e15d053f47cb2fa137d5fa4c74ac7d6b41ff0": 1788520820.733582,
-    "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3": 1788520820.733582,
-    "1b21cb67cd9e710a0f8559400d2675aeea51999c9baff096718ee852685a5cd3": 1788520820.733582,
     "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522622.0770597,
     "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": 1788522622.0770597,
     "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": 1788522622.0770597,
@@ -545,26 +533,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet - AI Insider",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM0lac3AxSjJkalF4X0k2SWtJaUVacUhERVNET3JaRWpvYjNZSE1KNl9kUkEzclFZY1RjT0d5MEg2TVRyeWpjS2ZkdFdMMmQ3TXJGNEU4NVBxejlyVEZ2NXhyUDFfTlVFSzRYUjZSQTZ3bDJYa0kyMWRfblFmQlFNOFdRdFgtUWNsVjhNajNjNldVNXJnckFqMV9zWTVOSlk3cGxQX0ltYk9NN2JwTDBRcURBLU1td083eW14TldEMG9zWDZEUXc?oc=5",
-      "desc": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet AI Insider",
-      "source": "AI Insider",
-      "time": 1788541338.0,
-      "score": 74.5,
-      "key": "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23",
-      "importance": 74.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788542062,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788542362
-    },
-    {
       "region": "RUSSIA",
       "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOURfNHRjVENzWGtqdkRtZVF6djAxS1ZlYlQ4T0ZlT0ViRUtlWjNNQVVKVmxtLTlQLV85OGZWUFl1LXJYTTVhb2tsd0lUa3VWUnhmd3VFbVlVd2VSSTBYOVNZTVN1ay1rRFU3NnpxTTdmUDEwUmtKRUdPWnVCUGExLXVxMENncmNrN1ppM1BKVF94V0ViSERKUlhWVTR6UW1Qd0NWWUdMQXZNNklWWkFTV0dGS1lBQ05GVkk5QTRKTEs?oc=5",
@@ -754,9 +722,9 @@
       "desc": "Generative AI Jobs Are Growing Faster In New York City Than The Traditional Tech Hub WNBF",
       "source": "WNBF",
       "time": 1788538680.0,
-      "score": 66.5,
+      "score": 63.5,
       "key": "972e1ae77954c1838c11da48683c48ae898cee3d064215e3777e89275890ed2f",
-      "importance": 66.5,
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -822,20 +790,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788542239.328903,
+    "last_start_ts": 1788542721.9183173,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788542239.328903,
-    "last_success_ts": 1788542239.328903,
+    "last_run_ts": 1788542721.9183173,
+    "last_success_ts": 1788542721.9183173,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788542151.8138607
+      "updated_at": 1788542725.456068
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -849,20 +817,6 @@
     }
   },
   "stories": {
-    "41c0eaef6ebf6347b6d90fbcec1ac3d06d2ec5eeb1900baef9b2efdafc300d84": {
-      "time": 1788455899,
-      "title": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов - Компьютерра",
-      "desc": "ИИ от МТС выделяет основные моменты разговоров и показывает тезисы в истории вызовов Компьютерра",
-      "source": "Компьютерра",
-      "region": "RUSSIA"
-    },
-    "d4001a2fa9d9f6b83033b69ae8ca3b444933dc33548974131eed3a0ec352b5c6": {
-      "time": 1788456250,
-      "title": "Google introduces WeatherNext 3 AI model as a new milestone in meteorology - Zamin.uz",
-      "desc": "Google introduces WeatherNext 3 AI model as a new milestone in meteorology Zamin.uz",
-      "source": "Zamin.uz",
-      "region": "WORLD"
-    },
     "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5": {
       "time": 1788456431,
       "title": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд - theins.ru",
@@ -2500,10 +2454,16 @@
       "desc": "Vietnam targets American technology investments to expand domestic semiconductor and artificial intelligence workforce EdexLive",
       "source": "EdexLive",
       "region": "WORLD"
+    },
+    "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": {
+      "time": 1788542721,
+      "title": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet - AI Insider",
+      "desc": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet AI Insider",
+      "source": "AI Insider",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "RUSSIA",
@@ -2522,8 +2482,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788542062.023784,
-  "last_publish_ts": 1788542062.023784
+  "last_publish_ts": 1788542721.9183173
 }
