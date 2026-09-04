@@ -325,7 +325,8 @@
     "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": 1788553703,
     "199606eef8582172d1e0b3dbf5a8053215387134932fa244e519a1676a5abb3c": 1788554000,
     "58d01e10ebec3f1da3abc748f4cc05fb04db8a94b7b3a42c77dc343c06534951": 1788554483,
-    "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": 1788554782
+    "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": 1788554782,
+    "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": 1788555201
   },
   "known": {
     "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534259.6266851,
@@ -463,9 +464,71 @@
     "3e01b9bf881dd2e687a5c867366c37063bc8094fdec0cc0d33d546afdb1cbd5e": 1788553285.8830574,
     "da7f988c3a3d7642c71b349fb681d8faeaa99b5950e89b1ab21b44a0f898002b": 1788553285.8830574,
     "bde0ab7781e0a9407490f90df3f6b773dba81768c43b9f2e1f4dac824c05cdf9": 1788553285.8830574,
-    "8e81f28ea242f0d464992aff79db83bfe0fb480dd67fb4b47038de60d9939365": 1788553285.8830574
+    "8e81f28ea242f0d464992aff79db83bfe0fb480dd67fb4b47038de60d9939365": 1788553285.8830574,
+    "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555201.4978535,
+    "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": 1788555201.4978535,
+    "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": 1788555201.4978535,
+    "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": 1788555201.4978535,
+    "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": 1788555201.4978535,
+    "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b": 1788555201.4978535,
+    "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": 1788555201.4978535,
+    "4411b5f988e06926bb75db0606fe42c6b1c0264e2eafcb321d1a1cea3f0925ec": 1788555201.4978535,
+    "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6": 1788555201.4978535,
+    "6348a21480241bcc69eaef3417adaff8901538a5a6555bd9ccd51441d36e043f": 1788555201.4978535,
+    "5c23257e87e7a366c8295f49712982df7bcebe4ad08b13090ef991ea59a82147": 1788555201.4978535
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? - vc.ru",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMzNKcks5YUJyQzh0M3FBQlZJaGpRRGphYmI0U05JRFVyNDRuWV94Mkx4X3NMNU1tOFZsVkowUmZXTmViOTYyb2RfZnZwNWNFY3BLb3JLOHdidnNtSVZveGJZTTJOcjV6Qlo3Q1pSS1JrVzNULV80SnNTQXZDMlhaaERhSjBBQnc?oc=5",
+      "desc": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? vc.ru",
+      "source": "vc.ru",
+      "time": 1788554767.0,
+      "score": 76.1,
+      "russia_weight_bonus": 3.6,
+      "key": "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449",
+      "importance": 76.1,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Surfer – SEO-платформа для контента с поддержкой ИИ - quasa.io",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZzlDdEQtUXQzSTJuUmtWZnhTY1Q5T2lVS0hWaUdjYVd6VUlaMF9IdG5YcUlFeG5mb3pNWXJhUV80M3FPemRILXZ2X3d1Tm84cnJrcnBUZ3BVRi03Z2dveXU0UllRRFVadm5QYzJQWGU3TE9wY0lKYWUwS25DdmN3RDVn?oc=5",
+      "desc": "Surfer – SEO-платформа для контента с поддержкой ИИ quasa.io",
+      "source": "quasa.io",
+      "time": 1788553691.0,
+      "score": 75.4,
+      "russia_weight_bonus": 3.9,
+      "key": "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c",
+      "importance": 75.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА - Общественная служба новостей",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOVdDR1ZhSWwyZ1JZVUs1RHA3TlJmUTVUXzIteVQ3YXo2SjZoVFR1c3V1OHJkVVZpOVN0cEpOZmNMWXFtT3JvaEhWZ3phVHdEN3Vad3J2YXQwbEp1VWhxZ09xSE81dmctM3dYRlA2YUZLQnVmRXUybTM2Wk03RVFfcW9uX09RcGFjaHZESXA3dWo5aW5zOVN4M0pIMkExVk5YemFLVnVwcWI0VDZtaDh5anp2eDgxQ00?oc=5",
+      "desc": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА Общественная служба новостей",
+      "source": "Общественная служба новостей",
+      "time": 1788555050.0,
+      "score": 73.6,
+      "russia_weight_bonus": 2.1,
+      "key": "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3",
+      "importance": 73.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Phind AI – Ответы по коду с актуальной документацией - quasa.io",
@@ -479,6 +542,56 @@
       "importance": 69.3,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques - gbhackers.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tMlNsdkx4NE9mMEk0LUpwMnM2dVIzeHpla21waWN3bFBnYzJOeWRsNF9LUDBfTHZkNGx5UzRDX2E4STJxNmlSaENyOVNLZ3NmZU9UakR2WjdLeEhTcVNhMmhxT2FKTkVIbl9F0gFwQVVfeXFMUDM5MFFFNXZTRkxyZVR2UTRvMThfQTkyazV4ZTRyZDhiV2QtTHFUNHRzNTdwbTByNDFLRGdGb2NXQ2EzemozWlk2dnVKV3lzN0w4ZktVSy1pZk0yTzFja2ZTU1VPTjlGd0xDZkJPc2dwbw?oc=5",
+      "desc": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques gbhackers.com",
+      "source": "gbhackers.com",
+      "time": 1788545482.0,
+      "score": 67.5,
+      "key": "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFhKa01FUkJhUW94MVI3X3dWR29GdFY1UXd0UVFUT05SZVhjaDBKa1BoZlNIdFpfMVZORjgyX09XbUdraFBJby1iY2Fac3k3STN4WmlTdTBlNjc3SG9Xb0hlNkd2YS1zbWota2NHQml4N09fQ1ZaWi1mYlpzSDRIRkY0RjhpNzI4QjMzekJ3dF85VmRwTkxCclcybDFwYnpORjRpdzBVejdLRW1GMzdQYWlkQjloeGtRSGtYWUotRl9Idw?oc=5",
+      "desc": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788541343.0,
+      "score": 67.0,
+      "russia_weight_bonus": 4.0,
+      "key": "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b",
+      "importance": 67.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Why Did Nvidia Acquire Hugging Face? - Semiecosystem",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzemh3RE5CajI3bW05RWZKU2Vkd2lvUTFzMlRVTWtyR3p5a01uSm5HZ0lxbVJPUEpObGhKV1FWZjdFemt5TXNMUkRqdVlreWFiTDVxU3ZpVTlFN19RNXd4RG5ybFNqSm1uVHVjQm5SX2VZTU5jM2xnTXV3?oc=5",
+      "desc": "Why Did Nvidia Acquire Hugging Face? Semiecosystem",
+      "source": "Semiecosystem",
+      "time": 1788554836.0,
+      "score": 66.5,
+      "key": "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
       "tier": "A"
     },
     {
@@ -554,20 +667,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "AI Reshapes Technology Markets Seven Major Companies Emerge Key Players Artificial Intelligence Ecosystem - openpr.com",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR2dZcHk4eW5kYi1zRjhxV0drTjI1UXlDeFY5UUlXY2pYUzM2SlgyQ3N4UGFPR1hFLXBoU0hJQlFuVkxMZ2U5TEUySHBhdHRSM1IyS3UyUl9tMEo2UTJablJjdFFmamtNcGRtR1htbmF1VE5OQTB2eVZuRjFJb29zd05vY2JUbWdhWFh3MW5EeFp2SklkWnZZZk02bng1M0pM?oc=5",
-      "desc": "AI Reshapes Technology Markets Seven Major Companies Emerge Key Players Artificial Intelligence Ecosystem openpr.com",
-      "source": "openpr.com",
-      "time": 1788545165.0,
-      "score": 63.5,
-      "key": "957ce34df3510c6c05833acd189d773cd71a3980f02e09269e8a0768459d5d0f",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Контракт AI-агента: какие права доступа давать ИИ-агенту - companies.rbc.ru",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc3h2M2dMWDlvaldjZTdIQjZFaE1qUFRyai11cDNiM1dlUW1RZXBzQnFxeF9sc25rM1pjQllrdUhIa0pWQU1UdGQ3eWFwb01DVHEwVGFfbTRVTmlnZWpsd1diY0lGaklscHEtRjRSMU1oNEZ2REtkenFlTVlUcVFraVJpdkNqdXhfZ1pFT3FRZnhkRnJoZ2s2eXk3VHI?oc=5",
@@ -603,6 +702,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
+      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788537137.0,
+      "score": 60.8,
+      "russia_weight_bonus": 4.8,
+      "key": "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6",
+      "importance": 60.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Samsung SDS строит глобальный альянс физического ИИ: роботы приходят на заводы и верфи - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY2dSVVoyMHEzR3NPSV92aU5iVWhjX0lKMkRaRkNkUmpmY2dqTjV5VTNSTFE1WWdEZW1lR09XampyMmFkYWt5YjZYU2EyZHo4YjM5S1ZXSjRMUkN3RUtBdWx2aG4zTXJHTy1rcTM3dGlpM2lrWG9obVdBSnlNUXV1bG1tSDg0Zzl3RThvNWNxRlZoRlFyLTU2ZEstZng1MEN0NFZoUmxmNDdaaHgzLWM4aU5yV29jaDJVSXdva0psem8zN1dDYzhv?oc=5",
       "desc": "Samsung SDS строит глобальный альянс физического ИИ: роботы приходят на заводы и верфи prospect.com.ru",
@@ -611,6 +725,23 @@
       "score": 60.8,
       "russia_weight_bonus": 4.8,
       "key": "8a67d99b7b49043fe72889d3cccab53e53abdc35d5a66e843724831f08a779d8",
+      "importance": 60.8,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Тверское предприятие роботизировало комплекс паллетирования - ТОП Тверь",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV01ZMXU3dllHYjYySDhmWGlvMF9tX0JDLTV5VTVEdUFqbjVJWnlaTU1OVl9lMzdTYU1Ja3hRM0RWcExuVDdzVTFJNUFvYlFxdmladERFdzRUSjRIZWFvZUFQbVpsY2pVUUQ4Q2pnWVFPVWV6Qmh5bUtFTGk4N3R0cEg3bjV0eTJFYWJXR3dQVXA?oc=5",
+      "desc": "Тверское предприятие роботизировало комплекс паллетирования ТОП Тверь",
+      "source": "ТОП Тверь",
+      "time": 1788513157.0,
+      "score": 60.8,
+      "russia_weight_bonus": 4.8,
+      "key": "6348a21480241bcc69eaef3417adaff8901538a5a6555bd9ccd51441d36e043f",
       "importance": 60.8,
       "editorial_value": 50.0,
       "topics": [
@@ -649,71 +780,23 @@
         "robotics"
       ],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны - Мировое обозрение",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdTFBb0UtcXBNZzJuYVlPbG9rVXUxcms2SENocG1aM2o3TzdkSDhwTHByc1dRSmtILUNvV2RoTF9uVWtyQ1dlRVBWTDJLU2pRX0hpU3ZtdTF4TTk0S01SOWMyMGd0ZXNHWWhVR3F0aWtjLUJGcF84MFpvUkd2NTkzMUg2NERNQnN2bDJFS0FjQ3FTcEswUlpxb3dqM3lWbnczaTV1MEtLekVNVVVZNVQ5M3JzVGwtaEtRdDM5QUFYUQ?oc=5",
-      "desc": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны Мировое обозрение",
-      "source": "Мировое обозрение",
-      "time": 1788534481.0,
-      "score": 60.1,
-      "russia_weight_bonus": 4.1,
-      "key": "bde0ab7781e0a9407490f90df3f6b773dba81768c43b9f2e1f4dac824c05cdf9",
-      "importance": 60.1,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models - Startup Fortune",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN0kydGtMUW1qVVdoUUtjUVJ3QTc3NWppZGFEU0NXUGtMTWVxMWdlbWtwS18wOG9BajdjRUtVemNmX3NYZUVuaDluaFJOSk0xTFFHOWpWb1REaWVLM2FLem1yZHdKS2Q1YWRVc2VnX29nTGcwRVJhZzFmeGtLR2dMcUh4UkVVZFkyY3NidkxsQ3F1Y25qdzkxdlJwYjlPa3U0RXc?oc=5",
-      "desc": "Corporate America Is Swapping Claude and GPT for Cheaper DeepSeek Models Startup Fortune",
-      "source": "Startup Fortune",
-      "time": 1788542751.0,
-      "score": 60.0,
-      "key": "3aa25e19eaee63047048e09e88965256851aa4c3ad4ff386d2298b17d511bf57",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI Launches GPT-6 Astra as AI Agents Put Crypto’s Most Extreme Price Calls in Spotlight - CCN.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd0lUZ2t1Nm9BQlNWNUJVWUVkbFlsYjdFQmJyS3NIWFlydjZIeDJhU2xmUWx1MldjVEVaTlZDWWJtVE5IeFVHWmJ2NzZNVnl3N3NGMndyck5ZelRpRVQ3ZTlOOUhiVW56ZWRxNnpLVDd6YnhjcTJrdEQ0cmF4N2N3ek1ZQk9yZzdkTllZVllGbFRYV1lNV0dQUQ?oc=5",
-      "desc": "OpenAI Launches GPT-6 Astra as AI Agents Put Crypto’s Most Extreme Price Calls in Spotlight CCN.com",
-      "source": "CCN.com",
-      "time": 1788515901.0,
-      "score": 60.0,
-      "key": "8e81f28ea242f0d464992aff79db83bfe0fb480dd67fb4b47038de60d9939365",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "models"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788554841.7671337,
+    "last_start_ts": 1788555201.4978535,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788554841.7671337,
-    "last_success_ts": 1788554841.7671337,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 15
+    "last_run_ts": 1788555201.4978535,
+    "last_success_ts": 1788555201.4978535,
+    "last_candidates": 76,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788554785.2975569
+      "updated_at": 1788555224.8735347
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -727,20 +810,6 @@
     }
   },
   "stories": {
-    "2cd515e26bbf49f5ed292d8194e9521d289ffdf3aa7ba6e54180f7f57afdd551": {
-      "time": 1788468491,
-      "title": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training - The American Bazaar",
-      "desc": "Trump administration backs OpenAI in New York Times copyright lawsuit over AI training The American Bazaar",
-      "source": "The American Bazaar",
-      "region": "WORLD"
-    },
-    "fa99aa81d6989ce66c7ef3d17c674db6426b3dcd74b67da57b6c93c92b22a4a2": {
-      "time": 1788468673,
-      "title": "В Сбере рассказали о применении ИИ в российском авиастроении - prospect.com.ru",
-      "desc": "В Сбере рассказали о применении ИИ в российском авиастроении prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "37e5968466a93a75428b1a41b34893e2b97891aa722b2e19202dbafe83019aa7": {
       "time": 1788469032,
       "title": "Why GitLab is Becoming More Than a DevOps Platform: The AI Shift in Software Development - Analytics Insight",
@@ -2329,10 +2398,16 @@
       "desc": "Sanders Calls for Lifelong US AI Ban and 20-Year Prison Terms RS Web Solutions",
       "source": "RS Web Solutions",
       "region": "WORLD"
+    },
+    "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": {
+      "time": 1788555201,
+      "title": "Accrual To Acquire Puzzle To Expand AI Platform Into Client Accounting Services - Pulse 2.0",
+      "desc": "Accrual To Acquire Puzzle To Expand AI Platform Into Client Accounting Services Pulse 2.0",
+      "source": "Pulse 2.0",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2348,11 +2423,12 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788553285.8830574,
-  "last_publish_ts": 1788554782.1646552
+  "last_search_ts": 1788555201.4978535,
+  "last_publish_ts": 1788555201.4978535
 }
