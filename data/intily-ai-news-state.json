@@ -288,7 +288,8 @@
     "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": 1788540501,
     "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": 1788540799,
     "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": 1788541339,
-    "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": 1788541520
+    "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": 1788541520,
+    "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": 1788542062
   },
   "known": {
     "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": 1788520820.733582,
@@ -508,26 +509,24 @@
     "ac944b28799701e1ae349f261caaae57ddef51e60c4c58ae94915c336d74eb75": 1788539960.9653587,
     "b1609aeb3f84e6e4b8dc7a1cb77b246a4072f83f3b71c6afc9876483ec064f34": 1788539960.9653587,
     "5bd9bef301c5808b70bb280cca9a48dc80ed81a7e9ca86e5eb40e05c168e5c4f": 1788539960.9653587,
-    "cc2092572f8bda775a52b36203864cd6cc7049a25cf9466fdc7f2429fcab79c5": 1788539960.9653587
+    "cc2092572f8bda775a52b36203864cd6cc7049a25cf9466fdc7f2429fcab79c5": 1788539960.9653587,
+    "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542062.023784,
+    "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": 1788542062.023784,
+    "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": 1788542062.023784,
+    "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde": 1788542062.023784,
+    "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315": 1788542062.023784,
+    "463d9d538682f54e3334aa28e121279177d3befa324dfc79bbf5acffcfd1e970": 1788542062.023784,
+    "551425382814f2a2906aca732654655d152a3f4bbb1292811f4ec43b986f8c75": 1788542062.023784,
+    "e192c96ae786c7a4ccb4b23a46cee4b0d68c35c043c3217f0d8ab2aacaac4875": 1788542062.023784,
+    "01b4037c6edf460d7781f8e33fba25282d01ffcd86422a0645a2f72bf40ef5bb": 1788542062.023784,
+    "199432c71411cbb876939a64cca647116979393d2e508ef95cbdc4ee5d107fff": 1788542062.023784,
+    "43ed2ff71df574cbcd7ddb46fa435adf7ddc739fcab62f9dc18ec81c582d0156": 1788542062.023784,
+    "1b17efd0d95ff36d7014d9dbd3c23ff5e2f0d29948dbecf219705b70043babf9": 1788542062.023784,
+    "22e9252334987a85ef69c64f05b2931a43a66167bce3dc07e0fb2e5ce5718662": 1788542062.023784,
+    "9aaee991763752b3d48f876c6d710c67c1194c117121817ff2d2ddde8180ae5e": 1788542062.023784,
+    "dfa96c3499273e9f639349df2895dd2f9da83431d7698e726ea44f40cc8896ba": 1788542062.023784
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOURfNHRjVENzWGtqdkRtZVF6djAxS1ZlYlQ4T0ZlT0ViRUtlWjNNQVVKVmxtLTlQLV85OGZWUFl1LXJYTTVhb2tsd0lUa3VWUnhmd3VFbVlVd2VSSTBYOVNZTVN1ay1rRFU3NnpxTTdmUDEwUmtKRUdPWnVCUGExLXVxMENncmNrN1ppM1BKVF94V0ViSERKUlhWVTR6UW1Qd0NWWUdMQXZNNklWWkFTV0dGS1lBQ05GVkk5QTRKTEs?oc=5",
-      "desc": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам Восток-Медиа",
-      "source": "Восток-Медиа",
-      "time": 1788538260.0,
-      "score": 76.5,
-      "russia_weight_bonus": 4.0,
-      "key": "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4",
-      "importance": 76.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах - newkhakasiya.online",
@@ -539,6 +538,43 @@
       "russia_weight_bonus": 3.1,
       "key": "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c",
       "importance": 75.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet - AI Insider",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM0lac3AxSjJkalF4X0k2SWtJaUVacUhERVNET3JaRWpvYjNZSE1KNl9kUkEzclFZY1RjT0d5MEg2TVRyeWpjS2ZkdFdMMmQ3TXJGNEU4NVBxejlyVEZ2NXhyUDFfTlVFSzRYUjZSQTZ3bDJYa0kyMWRfblFmQlFNOFdRdFgtUWNsVjhNajNjNldVNXJnckFqMV9zWTVOSlk3cGxQX0ltYk9NN2JwTDBRcURBLU1td083eW14TldEMG9zWDZEUXc?oc=5",
+      "desc": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet AI Insider",
+      "source": "AI Insider",
+      "time": 1788541338.0,
+      "score": 74.5,
+      "key": "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23",
+      "importance": 74.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788542062,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788542362
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOURfNHRjVENzWGtqdkRtZVF6djAxS1ZlYlQ4T0ZlT0ViRUtlWjNNQVVKVmxtLTlQLV85OGZWUFl1LXJYTTVhb2tsd0lUa3VWUnhmd3VFbVlVd2VSSTBYOVNZTVN1ay1rRFU3NnpxTTdmUDEwUmtKRUdPWnVCUGExLXVxMENncmNrN1ppM1BKVF94V0ViSERKUlhWVTR6UW1Qd0NWWUdMQXZNNklWWkFTV0dGS1lBQ05GVkk5QTRKTEs?oc=5",
+      "desc": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам Восток-Медиа",
+      "source": "Восток-Медиа",
+      "time": 1788538260.0,
+      "score": 73.5,
+      "russia_weight_bonus": 4.0,
+      "key": "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4",
+      "importance": 73.5,
       "editorial_value": 50.0,
       "topics": [
         "agents"
@@ -573,6 +609,36 @@
       "russia_weight_bonus": 4.6,
       "key": "7bb9dfcaaac4e0f8e48cfb2e5bb0f4d4c30aa0e4c6e8c3a662807158f66ef256",
       "importance": 70.1,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "10 Standout Technologies To Watch From IFA 2026 As AI Dominates Berlin's Biggest Tech Show - International Business Times Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR1RlRk9WUU90OGNYTXQ4dVo0UTVQRm5XaXRVQlhnVnhIWnhjMTdSdnlrMlZjM2d1S1dRck9kNlJEQ2lUYzR6VVJPaFlqaTJIQmdEaHBDb3JjMHpoMl80Wm1BaV9rMGhsMWhadV96Z2hZdzlxSFFKeVlkRUE2U1ZEWDBHeENUWkU?oc=5",
+      "desc": "10 Standout Technologies To Watch From IFA 2026 As AI Dominates Berlin's Biggest Tech Show International Business Times Australia",
+      "source": "International Business Times Australia",
+      "time": 1788541720.0,
+      "score": 69.5,
+      "key": "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "3 Must-See AI World Sessions for Industrial Manufacturers - Oracle Blogs",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT05kOWxlSEl0SkdKY0lMbE1lYk5OdGFjVlgyTjZ6clB5aENHV0RaXzFfWmxuajB5aGtSY1RYWWJxN2QxeDhpcVhkRHZxQ3RHdkttMWM5U1RiTC1Hdl9JektWVTZmVkFDQ3pkanV0clZnVWVfR19pT01COGR3OGZTZ0xUYzcyZ3JpS3RnSThYUWNTSzRHQWJPM01fQmw?oc=5",
+      "desc": "3 Must-See AI World Sessions for Industrial Manufacturers Oracle Blogs",
+      "source": "Oracle Blogs",
+      "time": 1788541484.0,
+      "score": 69.5,
+      "key": "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde",
+      "importance": 69.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -625,6 +691,64 @@
     },
     {
       "region": "WORLD",
+      "title": "In age of AI, robots move into heart of home - Daily Sabah",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNjJrVTN0ZmtrTEpvcWo5WnpJUjd2Njdod0s1UU9BdTZfN3dqbkdZbEpVT0hwMExMaGlQUkxXYWpKMmdJcU5IR1hGOXV2dVhoakpKYW9YM21YWnJaRS1YekQxOHNENERUU2VHdVJ5MlpoMkVCWEM5WmJxQUV6QlJuUWZXZVpMaEtmUl9xOVJwX2NLZw?oc=5",
+      "desc": "In age of AI, robots move into heart of home Daily Sabah",
+      "source": "Daily Sabah",
+      "time": 1788535360.0,
+      "score": 67.5,
+      "key": "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Who Gave the AI Access? - dot.LA",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51WEVnNXVOUEdjYVJCSUdrR2xFQWVvYWpkczZjQnZBMzBzbURCYlRqclJHOVZOcjNhRVhxWFdDa1dCT3YtZktwbkxMWjBnU0YtbV9JeUNqUi1IZmlrZVhPOGRQYWIyejRVdWc0dzdKLU9ZSm9l?oc=5",
+      "desc": "Who Gave the AI Access? dot.LA",
+      "source": "dot.LA",
+      "time": 1788541357.0,
+      "score": 66.5,
+      "key": "463d9d538682f54e3334aa28e121279177d3befa324dfc79bbf5acffcfd1e970",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Is AI Just Giving Customers More to Ignore? - Newsweek",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNdUx0SlltWDBXdWVyVkxpdno1Q2xIVzNnS05FR1REdEpKQnVtWjBUSHZrb2w5OWF3NVBBWWVMLTlxN0o4cHVZQlBOR3JmaHBybzEzM1ozczRGYjNvMVFHSk5VRWMxb0hCYmdmQXBR?oc=5",
+      "desc": "Is AI Just Giving Customers More to Ignore? Newsweek",
+      "source": "Newsweek",
+      "time": 1788541260.0,
+      "score": 66.5,
+      "key": "551425382814f2a2906aca732654655d152a3f4bbb1292811f4ec43b986f8c75",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI's 'warning shot': Tech companies, experts raise fears of more rogue swarms after alarming Hugging Face hack - cbc.ca",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaDdhcHZUbDVJb0lDMkoyUURhWHVCUnp1R1FSR3R4bmtrUVQxZVdlWURvM3I3Z05fcEZmSzg4RUpZU0U5QkFrazI5SnNPQTQ1WE90YU9sb0FoYzhFa1lxX0FaTXQxWHEtN09aMW1RY21kZjJvVjdRNWFydk9yYVdJVDF5cXU?oc=5",
+      "desc": "AI's 'warning shot': Tech companies, experts raise fears of more rogue swarms after alarming Hugging Face hack cbc.ca",
+      "source": "cbc.ca",
+      "time": 1788541035.0,
+      "score": 66.5,
+      "key": "e192c96ae786c7a4ccb4b23a46cee4b0d68c35c043c3217f0d8ab2aacaac4875",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Generative AI Jobs Are Growing Faster In New York City Than The Traditional Tech Hub - WNBF",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9panZINVRicmJpQV9lQ0JOcnRfRk93MS1Nelp0RDdxd0JIQVdEN0FKdGpKMzB6NkV6NTMzYTBNQ1FKdXhIOUcxdE13ekZ2VG1OSGQzNlI5WUI?oc=5",
       "desc": "Generative AI Jobs Are Growing Faster In New York City Than The Traditional Tech Hub WNBF",
@@ -644,36 +768,8 @@
       "desc": "OpenAI's Greg Brockman says he ‘could not do it without his wife’; the woman helping him survive the worl The Times of India",
       "source": "The Times of India",
       "time": 1788538260.0,
-      "score": 66.5,
+      "score": 63.5,
       "key": "5d92d6aa1b237c815e9c7d93df759e433e61d822a134dbe28a1f04ccad87da5d",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Students Question the Long-Term Value of AI Degrees - GovTech",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeC1hQVFJcTVPUmZ5alBSRzE1VFppV3FvcmoxZG01b25aN3dheDF6c2R5MGZxTUYySnE0elpQNk5lNmk1VjZma1BrV3NPWTZWS1pGY3J1dTF1MHAxWlZDWXpxNjVMVHBobnR1Y2RWYTdYLUFCanpCWjRYWktvVXlBeFhmU0RUWFZGM041eFZkWHlnVGg0QlZIV0UwRQ?oc=5",
-      "desc": "Students Question the Long-Term Value of AI Degrees GovTech",
-      "source": "GovTech",
-      "time": 1788537047.0,
-      "score": 63.5,
-      "key": "d76803c3aabd792e870bb32343f020e271a5dc998cb499fd88ca7a3ac19442af",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Director Maggie Gyllenhaal ditched AI for Marilyn Monroe film - France 24",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR254MmxCTjV1ZVBhUHVmMDFTV2tFeE1qUXUxaEs1RXVWcUNhTmZVS1BqVnRSX2w2MVdZR2JCaXJkbnVrN0tMamtUdGZkN2NZWmtMdFZ6aFdOcXljak5ua0FxUnNPNWdRcnk5MHpUYW5RRkFrbGR5em9IR00xYlVrYTd3YTFkWlhPV0Z4VXE4ZEVhR0FPVWJ5VWtDOXk1MkpMQ2wyTjhWN0J4U1h5?oc=5",
-      "desc": "Director Maggie Gyllenhaal ditched AI for Marilyn Monroe film France 24",
-      "source": "France 24",
-      "time": 1788536841.0,
-      "score": 63.5,
-      "key": "8d943f310e4fb5e2041f00d7dea9f8e00cbebb45f907b25f63835cd3c7f88b88",
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -693,23 +789,53 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ поможет медицине перейти от лечения к профилактике - Наука Mail",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45YXBGc2xUcF83Tk5vQlp3LVVVR2NqbFNhSTZIampuR2I0eUQxRkNOSExhdGtKcXFpeDV5YjhSTmVzNkJjcHVjeXR6SzJuVndmSkpHOHZnazNISGN1SzZwcE9kX0RwOUFwcy1HMzF5dFBMSU5JaXlISG9LOUVEZw?oc=5",
+      "desc": "ИИ поможет медицине перейти от лечения к профилактике Наука Mail",
+      "source": "Наука Mail",
+      "time": 1788525196.0,
+      "score": 60.4,
+      "russia_weight_bonus": 4.4,
+      "key": "1b17efd0d95ff36d7014d9dbd3c23ff5e2f0d29948dbecf219705b70043babf9",
+      "importance": 60.4,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Почему в Госдуме выступают против тотального запрета ИИ? - Amic.ru",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVEs3T01iLW9MLXlYbEE2cUFEVWU5b0xTOWx2V2xqcXM2MEY0WTdlY1VTVGtNRjJIbkVNS1d0SUtpd0NLS29KakxDRm0tQXVDNER4VG1XZGpCM1FhY0FnQV9VODNGRUZkbjBTLW1jMjIyNG9ZM180T01FUDFxN2xjOTdpaUtCS01HNUZvdF9ZVdIBS0FVX3lxTE5KYUl5RWwyNWk3V2JCcFRWTDJyeXpFeDNROWhVaUN3MFg2MHRHa1JKMlc5bTVHWV9WQVdLRXlnYTN1SXZTX19EaTQ0SQ?oc=5",
+      "desc": "Почему в Госдуме выступают против тотального запрета ИИ? Amic.ru",
+      "source": "Amic.ru",
+      "time": 1788526320.0,
+      "score": 60.2,
+      "russia_weight_bonus": 4.2,
+      "key": "22e9252334987a85ef69c64f05b2931a43a66167bce3dc07e0fb2e5ce5718662",
+      "importance": 60.2,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788541580.2218344,
+    "last_start_ts": 1788542062.023784,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788541580.2218344,
-    "last_success_ts": 1788541580.2218344,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 12
+    "last_run_ts": 1788542062.023784,
+    "last_success_ts": 1788542062.023784,
+    "last_candidates": 110,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788541528.1433434
+      "updated_at": 1788542151.8138607
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -723,13 +849,6 @@
     }
   },
   "stories": {
-    "a11a4eaf671150dfd7d7a32de4927c06238dae5f18641ba1849d01b227e66938": {
-      "time": 1788455352,
-      "title": "Просто знать AI уже недостаточно. Бизнесу нужны специалисты на стыке технологии и отрасли - VC.ru",
-      "desc": "Просто знать AI уже недостаточно. Бизнесу нужны специалисты на стыке технологии и отрасли VC.ru",
-      "source": "VC.ru",
-      "region": "RUSSIA"
-    },
     "83c61535e2fbade9b1273ab5e9db0c271c9f2510bba7da7afd0db1bd722b9612": {
       "time": 1788455712,
       "title": "IBM (NYSE:IBM) Expands AI Tools to Strengthen Business Resilience - Kalkine Media",
@@ -2381,10 +2500,16 @@
       "desc": "ИИ-агенты взломали сайт и сделали из него доску объявления для ИИ Ruposters.ru",
       "source": "Ruposters.ru",
       "region": "RUSSIA"
+    },
+    "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": {
+      "time": 1788542062,
+      "title": "Vietnam targets American technology investments to expand domestic semiconductor and artificial intelligence workforce - EdexLive",
+      "desc": "Vietnam targets American technology investments to expand domestic semiconductor and artificial intelligence workforce EdexLive",
+      "source": "EdexLive",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2403,8 +2528,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788539960.9653587,
-  "last_publish_ts": 1788541520.3941689
+  "last_search_ts": 1788542062.023784,
+  "last_publish_ts": 1788542062.023784
 }
