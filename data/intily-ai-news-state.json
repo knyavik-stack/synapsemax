@@ -280,7 +280,8 @@
     "a934e0ca0a60f2fff4f1e42fef4b181b349cfa89b2e2bb8d6b4fd531a542c76f": 1788538102,
     "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": 1788538400,
     "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14": 1788538884,
-    "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2": 1788539359
+    "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2": 1788539359,
+    "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49": 1788539542
   },
   "known": {
     "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788518901.903705,
@@ -492,21 +493,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Математики научили ИИ-модели общаться без слов - forklog.com",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTllmSV9wYVA4VnJEN2N0TnN3TUctQ1pnM1owVjI3RDRZeTBkUlZOUy1xNEZCQVdneVR0TEY5eTNYMk0zR2UxcXQ0ZEd0WS1iWlNMZHYxaWJMSURMa3lmX1JPNE9QRzBzWFVfRjVsNlQzV0Z0cnZoY0lEVUpRdDREazk4WQ?oc=5",
-      "desc": "Математики научили ИИ-модели общаться без слов forklog.com",
-      "source": "forklog.com",
-      "time": 1788536400.0,
-      "score": 77.1,
-      "russia_weight_bonus": 4.6,
-      "key": "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49",
-      "importance": 77.1,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ - Runet.news",
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XQ1hPTFdvZEhmU2dKNGRNc2pKRFlJUnFoVk5WalZsOGJwM1VoQmJld01CN1dHTXNwVi1TaElhTXlNUTg?oc=5",
       "desc": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ Runet.news",
@@ -705,20 +691,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788539479.9935722,
+    "last_start_ts": 1788539542.1251209,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788539479.9935722,
-    "last_success_ts": 1788539479.9935722,
+    "last_run_ts": 1788539542.1251209,
+    "last_success_ts": 1788539542.1251209,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_published": 1,
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788539365.6273775
+      "updated_at": 1788539551.1370442
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2383,10 +2369,16 @@
       "desc": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 Robotics Tomorrow",
       "source": "Robotics Tomorrow",
       "region": "WORLD"
+    },
+    "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49": {
+      "time": 1788539542,
+      "title": "Математики научили ИИ-модели общаться без слов - forklog.com",
+      "desc": "Математики научили ИИ-модели общаться без слов forklog.com",
+      "source": "forklog.com",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2405,8 +2397,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788538102.15343,
-  "last_publish_ts": 1788539359.8061073
+  "last_publish_ts": 1788539542.1251209
 }
