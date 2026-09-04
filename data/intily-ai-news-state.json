@@ -237,9 +237,27 @@
     "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788490678.3778079,
     "7b24cc521ac29f0f89a2483856b7e7c32d220eb99b3dd3b52e04756cede09fcd": 1788490678.3778079,
     "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491755.7473595,
-    "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492054.0149205
+    "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492054.0149205,
+    "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788492655.914861,
+    "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": 1788492655.914861
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "AI Tennis Training Robots: ACEMATE Has Unveiled Its ACEMATE S10 Pro at IFA 2026 - Trend Hunter",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmU0VWbmtoT2RlN1NUV2xlVV9kQnQxTmllSGZvbjRvVm1pRHpKZHcxODluTWNvVHh2WFdRVDAxd05kTXpRYmZBR3Q3UmhIbzFkUFowaGRsVGVHWDUwUU9F?oc=5",
+      "desc": "AI Tennis Training Robots: ACEMATE Has Unveiled Its ACEMATE S10 Pro at IFA 2026 Trend Hunter",
+      "source": "Trend Hunter",
+      "time": 1788492347.0,
+      "score": 70.5,
+      "key": "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
@@ -254,17 +272,32 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Крупнейшая ИТ-компания России проводит курсы по ИИ для школьников Башкирии - Уфимские нивы",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU0JDTkRJSWliMmU1cjE2d2hNMUhVR1BtbUZKLVZiOXpkVlhQWjdJZ0RDWVNCWUJfZFR3NHRYdUpFTURmZzRuTDBtWGpMT0NMZG5NYVFsa3UxbzlVeGxDQTQ2ZE1WWWNjT1ktUFlZcnhaZGRQekMzVTc0RW85U2NycGhldTdGWUpZY2lGSXphS2Q5MTYybVVNN3JRYlZIdEtpb2FJSXdFcEc0bHFjZy10dzgwWk1Bak5yZUozS1dlb19oLUhkcEY5R2czRU9qa1lH?oc=5",
+      "desc": "Крупнейшая ИТ-компания России проводит курсы по ИИ для школьников Башкирии Уфимские нивы",
+      "source": "Уфимские нивы",
+      "time": 1788492000.0,
+      "score": 68.8,
+      "russia_weight_bonus": 1.3,
+      "key": "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98",
+      "importance": 68.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788492592.8478572,
+    "last_start_ts": 1788492655.914861,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788492592.8478572,
-    "last_success_ts": 1788492592.8478572,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 1
+    "last_run_ts": 1788492655.914861,
+    "last_success_ts": 1788492655.914861,
+    "last_candidates": 52,
+    "last_published": 0,
+    "queue_size": 3
   },
   "providers": {
     "GEMINI": {
@@ -1462,6 +1495,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788492054.0149205,
+  "last_search_ts": 1788492655.914861,
   "last_publish_ts": 1788492592.8478572
 }
