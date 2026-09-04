@@ -329,7 +329,8 @@
     "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": 1788555201,
     "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555683,
     "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": 1788555921,
-    "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": 1788556280
+    "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": 1788556280,
+    "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": 1788556522
   },
   "known": {
     "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536242.444593,
@@ -466,23 +467,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА - Общественная служба новостей",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOVdDR1ZhSWwyZ1JZVUs1RHA3TlJmUTVUXzIteVQ3YXo2SjZoVFR1c3V1OHJkVVZpOVN0cEpOZmNMWXFtT3JvaEhWZ3phVHdEN3Vad3J2YXQwbEp1VWhxZ09xSE81dmctM3dYRlA2YUZLQnVmRXUybTM2Wk03RVFfcW9uX09RcGFjaHZESXA3dWo5aW5zOVN4M0pIMkExVk5YemFLVnVwcWI0VDZtaDh5anp2eDgxQ00?oc=5",
-      "desc": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА Общественная служба новостей",
-      "source": "Общественная служба новостей",
-      "time": 1788555050.0,
-      "score": 73.6,
-      "russia_weight_bonus": 2.1,
-      "key": "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3",
-      "importance": 73.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Phind AI – Ответы по коду с актуальной документацией - quasa.io",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQl9wUDNwdmIwYUpDSU5ROEd1S3FrSGJLcm90emJrcUxOOGNaWFVZUlg3dWxpc2dHUGE0TFJvSFllSzNNSUtRU0JtVzExU3F5WUhEMm5zNG9XUU9Wb3ZKZi1mZ3QtaGx6d1JMMjdvMkFHYUNIZmRRUDB0a0lQaWhKdg?oc=5",
       "desc": "Phind AI – Ответы по коду с актуальной документацией quasa.io",
@@ -606,23 +590,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Тверское предприятие роботизировало комплекс паллетирования - ТОП Тверь",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOV01ZMXU3dllHYjYySDhmWGlvMF9tX0JDLTV5VTVEdUFqbjVJWnlaTU1OVl9lMzdTYU1Ja3hRM0RWcExuVDdzVTFJNUFvYlFxdmladERFdzRUSjRIZWFvZUFQbVpsY2pVUUQ4Q2pnWVFPVWV6Qmh5bUtFTGk4N3R0cEg3bjV0eTJFYWJXR3dQVXA?oc=5",
-      "desc": "Тверское предприятие роботизировало комплекс паллетирования ТОП Тверь",
-      "source": "ТОП Тверь",
-      "time": 1788513157.0,
-      "score": 60.8,
-      "russia_weight_bonus": 4.8,
-      "key": "6348a21480241bcc69eaef3417adaff8901538a5a6555bd9ccd51441d36e043f",
-      "importance": 60.8,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Как AI меняет фарму: опыт «АстраЗенека» в России и в мире - Хабр",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoNHdkRjdaM044RG50Y3RyaHZZMDVJcmU4MnlrVTY5by1IY1JHNGV0MVNybkVISURFdEtjR1h0cEVsUnR0QzBidzRUMGF2eUpPWlAxam9lcmNGdTR5cDVrXzFPc3hibjJGVjlR0gFYQVVfeXFMT2JkbFRQSHNYNG5xZFB3SVZ6Vy1qWC1RM3UtM1dEdTdjcnkyLWNTSHhpa2phUzhvZGh4RmFzWHVyZWhET3FhcEdCcU5EbWQ4QnhTeE05dWxjMQ?oc=5",
       "desc": "Как AI меняет фарму: опыт «АстраЗенека» в России и в мире Хабр",
@@ -655,20 +622,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788556280.9979906,
+    "last_start_ts": 1788556522.838246,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788556280.9979906,
-    "last_success_ts": 1788556280.9979906,
+    "last_run_ts": 1788556522.838246,
+    "last_success_ts": 1788556522.838246,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 12
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788556283.209626
+      "updated_at": 1788556524.7622225
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -682,13 +649,6 @@
     }
   },
   "stories": {
-    "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": {
-      "time": 1788469932,
-      "title": "AI Company Launches 'Central Nervous System' To Unify Physical And Agentic AI - Automation World",
-      "desc": "AI Company Launches 'Central Nervous System' To Unify Physical And Agentic AI Automation World",
-      "source": "Automation World",
-      "region": "WORLD"
-    },
     "b82db89157ab3c6a560ae70b12b6d0afc978f492e063ae39ce1781c158cc1255": {
       "time": 1788470289,
       "title": "AI & Tech Brief: The tech contracting shake-up - The Washington Post",
@@ -2277,10 +2237,16 @@
       "desc": "Surfer – SEO-платформа для контента с поддержкой ИИ quasa.io",
       "source": "quasa.io",
       "region": "RUSSIA"
+    },
+    "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": {
+      "time": 1788556522,
+      "title": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА - Общественная служба новостей",
+      "desc": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА Общественная служба новостей",
+      "source": "Общественная служба новостей",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2299,8 +2265,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788555201.4978535,
-  "last_publish_ts": 1788556280.9979906
+  "last_publish_ts": 1788556522.838246
 }
