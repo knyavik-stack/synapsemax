@@ -240,9 +240,24 @@
     "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333": 1788490678.3778079,
     "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788490678.3778079,
     "7b24cc521ac29f0f89a2483856b7e7c32d220eb99b3dd3b52e04756cede09fcd": 1788490678.3778079,
-    "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491755.7473595
+    "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491755.7473595,
+    "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492054.0149205
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "OpenAI launches Daybreak for frontline defenders - IT Brief Asia",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON0RiQUJQcmRkd0wxNlJwNW02a0NqZy1Wa0psZXVJU2p1TDhSbWdoOXNOZ3FJVWtxMG4zTk5mTW9SV0hHbXNrTnVmRnZHMjBZRkZkRmVJUTE2eTZJMTl3bWVuMFhxOWNOWXNILVVJY3dxNTJTUXpjaENuUVhURE01TQ?oc=5",
+      "desc": "OpenAI launches Daybreak for frontline defenders IT Brief Asia",
+      "source": "IT Brief Asia",
+      "time": 1788490980.0,
+      "score": 70.5,
+      "key": "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
@@ -260,14 +275,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788491994.5028749,
+    "last_start_ts": 1788492054.0149205,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788491994.5028749,
-    "last_success_ts": 1788491994.5028749,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 1
+    "last_run_ts": 1788492054.0149205,
+    "last_success_ts": 1788492054.0149205,
+    "last_candidates": 56,
+    "last_published": 0,
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
@@ -1458,6 +1473,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788491755.7473595,
+  "last_search_ts": 1788492054.0149205,
   "last_publish_ts": 1788491994.5028749
 }
