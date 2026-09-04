@@ -259,10 +259,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788499224,
+      "last_failed_at": 1788499375,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788499824
+      "failure_count": 3,
+      "next_retry_at": 1788500575
     },
     {
       "region": "WORLD",
@@ -279,18 +279,18 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788499224,
+      "last_failed_at": 1788499375,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | GEMINI: GEMINI_HTTP_429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, he | GROQ: CIRCUIT_OPEN | OPENAI: CIRCUIT_OPEN",
-      "failure_count": 2,
-      "next_retry_at": 1788499824
+      "failure_count": 3,
+      "next_retry_at": 1788500575
     }
   ],
   "health": {
-    "last_start_ts": 1788499224.524858,
+    "last_start_ts": 1788499375.8713057,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788499224.524858,
-    "last_success_ts": 1788499224.524858,
+    "last_run_ts": 1788499375.8713057,
+    "last_success_ts": 1788499375.8713057,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 2
