@@ -206,7 +206,8 @@
     "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75": 1788513982,
     "fb2dd6a91e29517a82641d9f295791035a1709a500341624f02f924a21808218": 1788514283,
     "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82": 1788514521,
-    "2b760b8746d9b950a08d8d67a8d94529616c9f012c7d34a4a2429739579d310e": 1788515000
+    "2b760b8746d9b950a08d8d67a8d94529616c9f012c7d34a4a2429739579d310e": 1788515000,
+    "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515242
   },
   "known": {
     "3ee9a099aa9259fc0cbd48d24d4b344dc9737a04088b3aa820c9d952f17d9eae": 1788495069.2696536,
@@ -293,21 +294,6 @@
     "4d0dba9a0128455f3737512d4003bd845270b9291b84f2bee1f3667fc1911bcd": 1788515000.8867981
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "«Очень некомфортно»: глава OpenAI объяснил, почему компания не выпустит умные очки - RuNews24",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSzZ5MVBCRGh6QVpUVGRnZm1BSHA4dFJraEhZM2lGMFpxY0pJbl8yN095eWNTV1VPRHVnUEYwdHIxM2EyT2JtZTVJUXM5c3Z3bDZ5THE2QXdDNVNYaXgtU2g5T08yd0lBd0Nxa0RrdW5ObnRoOEU2cG5NZFN3YmVUYUZkRmxIWk5aa2VGRDJhczBOQ3NhWFBPOGVBRktIVDFTdXBDMmxOSW5OVGRDVE5fd1RVT3hZQ2M1SHAxWlFnemgtZ00?oc=5",
-      "desc": "«Очень некомфортно»: глава OpenAI объяснил, почему компания не выпустит умные очки RuNews24",
-      "source": "RuNews24",
-      "time": 1788513960.0,
-      "score": 75.6,
-      "russia_weight_bonus": 3.1,
-      "key": "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179",
-      "importance": 75.6,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Сбер: Будущее – за генеративным ИИ, помогающим бизнесу решать задачи развития - prospect.com.ru",
@@ -589,20 +575,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788515000.8867981,
+    "last_start_ts": 1788515242.5644734,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788515000.8867981,
-    "last_success_ts": 1788515000.8867981,
-    "last_candidates": 68,
+    "last_run_ts": 1788515242.5644734,
+    "last_success_ts": 1788515242.5644734,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788515020.1669917
+      "updated_at": 1788515244.5258064
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2064,6 +2050,13 @@
       "desc": "GPT-6 Astra vs Gemini vs Claude: Which AI agent is best? Moneycontrol.com",
       "source": "Moneycontrol.com",
       "region": "WORLD"
+    },
+    "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": {
+      "time": 1788515242,
+      "title": "«Очень некомфортно»: глава OpenAI объяснил, почему компания не выпустит умные очки - RuNews24",
+      "desc": "«Очень некомфортно»: глава OpenAI объяснил, почему компания не выпустит умные очки RuNews24",
+      "source": "RuNews24",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -2071,7 +2064,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2086,8 +2078,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788515000.8867981,
-  "last_publish_ts": 1788515000.8867981
+  "last_publish_ts": 1788515242.5644734
 }
