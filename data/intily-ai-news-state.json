@@ -477,13 +477,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788564439.8961396,
+    "last_start_ts": 1788564560.8348749,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788564439.8961396,
-    "last_success_ts": 1788564439.8961396,
-    "last_candidates": 60,
-    "last_published": 1,
+    "last_run_ts": 1788564560.8348749,
+    "last_success_ts": 1788564560.8348749,
+    "last_candidates": 0,
+    "last_published": 0,
     "queue_size": 2
   },
   "providers": {
@@ -504,13 +504,6 @@
     }
   },
   "stories": {
-    "473ac186862246016ae8692f92c3e083a3acd06a5e3de22005a1ddb1d0c31ad1": {
-      "time": 1788478075,
-      "title": "ReliaQuest Advances Agentic Cyber Defense for Enterprises with Anthropic’s Claude - The National Law Review",
-      "desc": "ReliaQuest Advances Agentic Cyber Defense for Enterprises with Anthropic’s Claude The National Law Review",
-      "source": "The National Law Review",
-      "region": "WORLD"
-    },
     "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": {
       "time": 1788478503,
       "title": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты - Overclockers.ru",
