@@ -282,7 +282,8 @@
     "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14": 1788538884,
     "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2": 1788539359,
     "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49": 1788539542,
-    "0e0e31ffc22483dcf4b6c522f6d119c19845360b273ce256fd697112ff34f844": 1788539781
+    "0e0e31ffc22483dcf4b6c522f6d119c19845360b273ce256fd697112ff34f844": 1788539781,
+    "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": 1788540022
   },
   "known": {
     "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788518901.903705,
@@ -629,22 +630,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Check Point expands OpenAI Daybreak use in security - IT Brief Asia",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdm00X3VfMzFCbUQ5aXNwZXJNMzhSU1ZfU2RjZWxuOFRncGFzSEZTTG90YkxfUnQyeEhneG1tRTRhZUxuNERudzhfbno3bEx4Snh3UFZEcTZBQmNfcEhqU0xtNzNWZEhPR0M4QUlmQjBIeEo3NVc5THhZdGZySVlYQ0xBY2w?oc=5",
-      "desc": "Check Point expands OpenAI Daybreak use in security IT Brief Asia",
-      "source": "IT Brief Asia",
-      "time": 1788539400.0,
-      "score": 70.5,
-      "key": "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ - MarketWatch",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbk5uUkNFdFhGTlpEckRaSUJvS1dUeUZyWVBrUGwwTm1VRjlmdGl1dmw0OTdhZ2x2bVRfdEQ3X1JCWDdIWm9MRTdRblBtb1dmaXI4UTk0SkNkakRkcnRWS0FQZFhiZ1NTVWZienJfM0VweVpUVzI0ekxpRnpKdXU4TzRtZ0ktQzNZQXcxZHk0elNocjVITXc2bzVaY09POG9keGtMY21qSEpfa0k4THNFSVdVYmsxV2U1cE81Vm1UZw?oc=5",
       "desc": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ MarketWatch",
@@ -824,20 +809,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788539960.9653587,
+    "last_start_ts": 1788540022.2498431,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788539960.9653587,
-    "last_success_ts": 1788539960.9653587,
-    "last_candidates": 113,
-    "last_published": 0,
-    "queue_size": 20
+    "last_run_ts": 1788540022.2498431,
+    "last_success_ts": 1788540022.2498431,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788539787.3648672
+      "updated_at": 1788540030.0560274
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2502,10 +2487,16 @@
       "desc": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ Runet.news",
       "source": "Runet.news",
       "region": "RUSSIA"
+    },
+    "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": {
+      "time": 1788540022,
+      "title": "Check Point expands OpenAI Daybreak use in security - IT Brief Asia",
+      "desc": "Check Point expands OpenAI Daybreak use in security IT Brief Asia",
+      "source": "IT Brief Asia",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2524,8 +2515,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788539960.9653587,
-  "last_publish_ts": 1788539781.2791307
+  "last_publish_ts": 1788540022.2498431
 }
