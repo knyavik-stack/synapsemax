@@ -181,7 +181,8 @@
     "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547,
     "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788497907,
     "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788499739,
-    "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": 1788505280
+    "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": 1788505280,
+    "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d": 1788505701
   },
   "known": {
     "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": 1788484314.51329,
@@ -279,7 +280,11 @@
         "business",
         "security_regulation"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788505701,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788506001
     },
     {
       "region": "RUSSIA",
@@ -311,23 +316,6 @@
       "importance": 72.5,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "GPT-6 Astra is OpenAI’s boldest model yet, and it’s rewriting what AI agents can actually do - Craving Tech",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMHFZdWxOQ0ZuSDRWOVg3MGpvRTZ1bmlmc1Z1NmY4bC0zYnAzZFNmU1NmTk5CVjY4X1d5aTVlTkNhdG12c1BnSUZ4T2x4WkRRWmtNMEdKWjlTVTkteDN2Y0s1V19KNV84c0RhWjl1VEt4MTdoVjBjVHhtSVVLN0ZlZDlUYXVKOFlyRVRFdUtaUW4yQ2xXT3phanlxZWdkSE1lWnlGVmVHa254LThWLTFrQl8za2J6M3dNeVVwLWtFaw?oc=5",
-      "desc": "GPT-6 Astra is OpenAI’s boldest model yet, and it’s rewriting what AI agents can actually do Craving Tech",
-      "source": "Craving Tech",
-      "time": 1788500926.0,
-      "score": 71.5,
-      "key": "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d",
-      "importance": 71.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "models"
-      ],
       "tier": "A"
     },
     {
@@ -511,9 +499,9 @@
       "desc": "How Anthropic Makes Money—and What Investors Should Know Ahead of Its IPO Filing global.morningstar.com",
       "source": "global.morningstar.com",
       "time": 1788502088.0,
-      "score": 66.5,
+      "score": 63.5,
       "key": "2b4b9c5e39afb80dbd506076a923a83b81acf6cd1889867b02ae374586ce298e",
-      "importance": 66.5,
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -550,20 +538,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788505407.896427,
+    "last_start_ts": 1788505701.808027,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788505407.896427,
-    "last_success_ts": 1788505407.896427,
+    "last_run_ts": 1788505701.808027,
+    "last_success_ts": 1788505701.808027,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788505304.2241247
+      "updated_at": 1788505712.5051472
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1850,12 +1838,18 @@
       "desc": "Meta's Hatch AI Agent Exposes Security Flaws in Testing 조선일보",
       "source": "조선일보",
       "region": "WORLD"
+    },
+    "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d": {
+      "time": 1788505701,
+      "title": "GPT-6 Astra is OpenAI’s boldest model yet, and it’s rewriting what AI agents can actually do - Craving Tech",
+      "desc": "GPT-6 Astra is OpenAI’s boldest model yet, and it’s rewriting what AI agents can actually do Craving Tech",
+      "source": "Craving Tech",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1871,9 +1865,10 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788505280.75571,
-  "last_publish_ts": 1788505280.75571
+  "last_publish_ts": 1788505701.808027
 }
