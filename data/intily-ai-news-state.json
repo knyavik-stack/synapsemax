@@ -736,13 +736,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788538884.0361676,
+    "last_start_ts": 1788538944.5689638,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788538884.0361676,
-    "last_success_ts": 1788538884.0361676,
+    "last_run_ts": 1788538944.5689638,
+    "last_success_ts": 1788538944.5689638,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 16
   },
   "providers": {
