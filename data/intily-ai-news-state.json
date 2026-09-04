@@ -582,21 +582,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах - BFM.ru",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBlblRsTmJXV0JoS0ZENmFKSlRBR1FmWHZCTVJ4dXJCSHE5NmpsOVRBZXQ5REFhcDIzMTJ4R0VFZnBTWHpO?oc=5",
-      "desc": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах BFM.ru",
-      "source": "BFM.ru",
-      "time": 1788542306.0,
-      "score": 71.6,
-      "russia_weight_bonus": 3.1,
-      "key": "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862",
-      "importance": 71.6,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONm43WlNueFl4bUFlUVhYS2E4RE55NkRWMUFOUzVVdTRzUGVidjYyS1p4M2tTSE96dkhaQ1p2VFZ6ZmZMck1XZTJwLUFyUDNjT0JyRXB5VkdwOUQzY2U5TFN2NU9VcWdzbUVkTWFsaFREYkFCbXBPNTAtdUhJMFh5d1FTVk40cGhhemxGWjFEbDZidDBXZmR6QklPb3hWa2ptSWZTQkdqd29aNk5jYjZjSHV5VU1ZaDBEMWtqTHFfbFlZaEEtSEVrcEgyN2NNcmhuU1VfWA?oc=5",
       "desc": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов prospect.com.ru",
@@ -659,6 +644,21 @@
       "russia_weight_bonus": 4.6,
       "key": "7bb9dfcaaac4e0f8e48cfb2e5bb0f4d4c30aa0e4c6e8c3a662807158f66ef256",
       "importance": 70.1,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах - BFM.ru",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBlblRsTmJXV0JoS0ZENmFKSlRBR1FmWHZCTVJ4dXJCSHE5NmpsOVRBZXQ5REFhcDIzMTJ4R0VFZnBTWHpO?oc=5",
+      "desc": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах BFM.ru",
+      "source": "BFM.ru",
+      "time": 1788542306.0,
+      "score": 68.6,
+      "russia_weight_bonus": 3.1,
+      "key": "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862",
+      "importance": 68.6,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -834,13 +834,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788545844.1562684,
+    "last_start_ts": 1788545959.718294,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788545844.1562684,
-    "last_success_ts": 1788545844.1562684,
-    "last_candidates": 107,
-    "last_published": 1,
+    "last_run_ts": 1788545959.718294,
+    "last_success_ts": 1788545959.718294,
+    "last_candidates": 0,
+    "last_published": 0,
     "queue_size": 19
   },
   "providers": {
@@ -861,13 +861,6 @@
     }
   },
   "stories": {
-    "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": {
-      "time": 1788459491,
-      "title": "OpenAI launches new Astra model amid growing scrutiny over agents' safety - Reuters",
-      "desc": "OpenAI launches new Astra model amid growing scrutiny over agents' safety Reuters",
-      "source": "Reuters",
-      "region": "WORLD"
-    },
     "7797bb888b670fe07d7150adfb6070b16ea6fc2890b17934ed1e9103b748502f": {
       "time": 1788459850,
       "title": "Nvidia buying AI startup that was hacked by rogue OpenAI agents - KRON4",
