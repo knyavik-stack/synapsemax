@@ -668,23 +668,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Контракт AI-агента: какие права доступа давать ИИ-агенту - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc3h2M2dMWDlvaldjZTdIQjZFaE1qUFRyai11cDNiM1dlUW1RZXBzQnFxeF9sc25rM1pjQllrdUhIa0pWQU1UdGQ3eWFwb01DVHEwVGFfbTRVTmlnZWpsd1diY0lGaklscHEtRjRSMU1oNEZ2REtkenFlTVlUcVFraVJpdkNqdXhfZ1pFT3FRZnhkRnJoZ2s2eXk3VHI?oc=5",
-      "desc": "Контракт AI-агента: какие права доступа давать ИИ-агенту companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788512147.0,
-      "score": 61.0,
-      "russia_weight_bonus": 5.0,
-      "key": "9ec2e3011c64c90afdfbd07ff35c9ab544469727de91cc7cf0e75ae17e4560d7",
-      "importance": 61.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "OpenAI запускает новую модель Astra - ProFinance",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNlJNOHBOSHRBS3VSendsVFk3MDJDLWE4TlJ4Uk1LOWxZTUZKdmVWMDRsMF95Z09ueGVLeE5kNUxmVWdwazhQX3ljMFJQRzIzWFZtaVVNTmRPTDEzUXdfNXY0VkQ4bk9vSzc3NTRydGlkOFBjOGpLU1NQUXB4YWlfemZSeWs4WnIyWTNCWU9USGhMUQ?oc=5",
       "desc": "OpenAI запускает новую модель Astra ProFinance",
@@ -783,14 +766,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788555262.9430716,
+    "last_start_ts": 1788555379.829754,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788555262.9430716,
-    "last_success_ts": 1788555262.9430716,
+    "last_run_ts": 1788555379.829754,
+    "last_success_ts": 1788555379.829754,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
