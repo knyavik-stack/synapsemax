@@ -220,7 +220,8 @@
     "fe86cfca7ddd06270ddf285fc073f6b22df01654ee5d696141c9164dce21ee1b": 1788518362,
     "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": 1788518901,
     "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": 1788519499,
-    "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788519980
+    "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788519980,
+    "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997": 1788520220
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -332,23 +333,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться - vc.ru",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONWxZX2xwUmNJb2JRR3E3b0FROWQ3b1ZjMEI0NjNyUE5qUkNwYmNoM0xNekRCZ2NkSmQ2TktXRWRaNDNQTXdSdlVoT0VZMC01TWFvYk80YmFnTVV1QkkyQlJRaG1fRzZNNnBKMmVSbVAxMFczVXg1WnJwMDMxNDVzdzBkUQ?oc=5",
-      "desc": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться vc.ru",
-      "source": "vc.ru",
-      "time": 1788512409.0,
-      "score": 70.0,
-      "russia_weight_bonus": 3.5,
-      "key": "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997",
-      "importance": 70.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Искусственный интеллект в 15-м пятилетнем плане Китая - Институт статистических исследований и экономики знаний",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TcWdPdkpiMHhHN3pldVhaT0VPUmlBd1ktUEhRNEdCV2ZLUUprc2w5QkZQQmNLUHQ4OGJMZzExd2xvV1ozNG1mNU02bEczMnF6Z2w4?oc=5",
       "desc": "Искусственный интеллект в 15-м пятилетнем плане Китая Институт статистических исследований и экономики знаний",
@@ -406,22 +390,6 @@
       "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "When Nvidia makes a move, Malaysia and Asean should pay attention, especially SMEs — Phar Kim Beng - Malay Mail",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRW5FaXVKaUdxWjM5c2FNb2pGU0NteUNrUWw4T2JqVDFEbFp5LThtZVpaQkZoMFV2SGlWTWxyVDlRWllmXy03OEI3eW1oZ2JRUl9ycVVvandCcjJRLWdiQmZBcTFvVG1UbnNiOE9qQTdfRFlkTGFhYzJFUGZiLUpaZGV0WHN3a2laMnVncXFlY1czaFpNZlkyWldxY2JmZUx6aGRfWmVwRGxsd2pjRkItTlYtaklsY041Sl95REhDQ1lONWtZblR6UnB3ZEJCTDZoeFY5ZlVxbHVMVXV1WW5QeUtPb3Q0MWpMZlQ3cXJXWDI5Tjh50gH0AUFVX3lxTE1FbkVpdUppR3FaMzlzYU1vakZTQ215Q2tRbDhPYmpUMURsWnktOG1lWlpCRmgwVXZIaVZNbHJUOVFaWWZfLTc4Qjd5bWhnYlFSX3JxVW9qd0JyMlEtZ2JCZkFxMW9UbVRuc2I4T2pBN19EWWRMYWFjMkVQZmItSlpkZXRYc3draVoydWdxcWVjVzNoWk1mWTJaV3FjYmZlTHpoZF9aZXBEbGx3amNGQi1OVi1qSWxjTjVKX3lESENDWU41a1luVHpScHdkQkJMNmh4VjlmVXFsdUxVdXVZblB5S09vdDQxakxmVDdxcldYMjlOOHk?oc=5",
-      "desc": "When Nvidia makes a move, Malaysia and Asean should pay attention, especially SMEs — Phar Kim Beng Malay Mail",
-      "source": "Malay Mail",
-      "time": 1788509317.0,
-      "score": 63.5,
-      "key": "e7a9cd21f6538c4a961d4a9a606588a5c1b39b6b1803a7cb2a5b81a69dc33d14",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
       "tier": "A"
     },
     {
@@ -535,20 +503,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788519980.5191407,
+    "last_start_ts": 1788520220.1955428,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788519980.5191407,
-    "last_success_ts": 1788519980.5191407,
+    "last_run_ts": 1788520220.1955428,
+    "last_success_ts": 1788520220.1955428,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788519982.417811
+      "updated_at": 1788520223.5251257
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2108,12 +2076,18 @@
       "desc": "Белоруссия создает закон об ИИ для ускорения разработки лекарств и диагностики Правда.Ру",
       "source": "Правда.Ру",
       "region": "RUSSIA"
+    },
+    "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997": {
+      "time": 1788520220,
+      "title": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться - vc.ru",
+      "desc": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться vc.ru",
+      "source": "vc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2130,8 +2104,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788518901.903705,
-  "last_publish_ts": 1788519980.5191407
+  "last_publish_ts": 1788520220.1955428
 }
