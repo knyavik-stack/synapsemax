@@ -162,7 +162,8 @@
     "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": 1788490858,
     "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333": 1788491156,
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788491395,
-    "7b24cc521ac29f0f89a2483856b7e7c32d220eb99b3dd3b52e04756cede09fcd": 1788491634
+    "7b24cc521ac29f0f89a2483856b7e7c32d220eb99b3dd3b52e04756cede09fcd": 1788491634,
+    "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491994
   },
   "known": {
     "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843.6931014,
@@ -256,39 +257,23 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Google has released the WeatherNext 3 AI model for high-precision weather forecasting - UA.NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRXdmRUFlWWdEMWpFejI3bUExaWFsRHhPTmo4dlByQWtMR181dEg1TkJjdUNrYkRlSlZjd3JDcTg1MmxtcDdtRlNKMldMVGFkZVVYS2RidE03UzIyM1VGcG11V2QxTTBuM0FwTlRnZXBhWGpKX0hkYWpXUE8zd1dBMmRrV1VHeG5uLUtmWmVlaUlFbkNsd19TWGZHLVFpX0pONmw3cktWdEZ3RmpTeU1FRFM3Yw?oc=5",
-      "desc": "Google has released the WeatherNext 3 AI model for high-precision weather forecasting UA.NEWS",
-      "source": "UA.NEWS",
-      "time": 1788461079.0,
-      "score": 64.0,
-      "key": "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217",
-      "importance": 64.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788491813.5677361,
+    "last_start_ts": 1788491994.5028749,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788491813.5677361,
-    "last_success_ts": 1788491813.5677361,
+    "last_run_ts": 1788491994.5028749,
+    "last_success_ts": 1788491994.5028749,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 2
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788491635.8498795
+      "updated_at": 1788491997.2415528
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1442,6 +1427,13 @@
       "desc": "Which investors will get rich from Anthropic's IPO? 36 Kr",
       "source": "36 Kr",
       "region": "WORLD"
+    },
+    "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": {
+      "time": 1788491994,
+      "title": "Google has released the WeatherNext 3 AI model for high-precision weather forecasting - UA.NEWS",
+      "desc": "Google has released the WeatherNext 3 AI model for high-precision weather forecasting UA.NEWS",
+      "source": "UA.NEWS",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1462,10 +1454,10 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788491755.7473595,
-  "last_publish_ts": 1788491634.025548
+  "last_publish_ts": 1788491994.5028749
 }
