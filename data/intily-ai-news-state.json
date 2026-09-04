@@ -228,7 +228,8 @@
     "014df9f2f492f0f6e7fe55eab5731f57b976a70bc0fb3350a2cd2f4c4ba2acd9": 1788521361,
     "cc0d8ba1979f2b627509070666ee20f2c1bb39f1a4592c662c00cf4d363765b9": 1788521901,
     "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85": 1788522321,
-    "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": 1788522561
+    "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": 1788522561,
+    "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522800
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -347,22 +348,6 @@
     "873757138a4e2ad16ebc0e74bf4e543d040382b75dcde3e24ceea6cb6f97befc": 1788522622.0770597
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Weekly Startup Funding Roundup: AI, Robotics, Deep Tech Draw Fresh Capital - Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMHc2bTUzNnRMekZOaVduLUcyUHN4SDVMZ1BLNWQtU1pXTlBqRk1QOXByYXZZZTR2WGNwOEJKY0s4OHJwZENMUVFPbmJXcm9nWmRxbGp5WGNIQTVWazlEUWN2YU1QQWUyUEVTMGNnbkJSS0pVQTFmTllUTmt3TVdmWVo1dXQ0Vm5vWUxERzhLc2FSTEhOdjVsXzdtVnVrWjNkak51QUFTYWw4a2NXa1HSAbsBQVVfeXFMUEJOeXpac2dnYXBURWkxSHRKMHoxN25manRpZ2RINEpoWlZMVzE4cG53dVlpQkpsUGk2bkxPSWFRemZtbllyckN1WHVNcEd4VGJzV2ZrTFpkTndycDV5RlBtcHphVDhlM0x0ZkNHUEJOc0kzSkEtcGFBNGVXN3VWem92d3RJdTlfeGNIWUZUeURack9rdjVkT0Z1TTA4NzFaeFZDNjFtRmhFUC1ZdkJCM0I1aG96YWFWZXpCRQ?oc=5",
-      "desc": "Weekly Startup Funding Roundup: AI, Robotics, Deep Tech Draw Fresh Capital Analytics Insight",
-      "source": "Analytics Insight",
-      "time": 1788519600.0,
-      "score": 78.5,
-      "key": "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d",
-      "importance": 78.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. - Vietnam.vn",
@@ -661,20 +646,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788522681.013047,
+    "last_start_ts": 1788522800.2273877,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788522681.013047,
-    "last_success_ts": 1788522681.013047,
+    "last_run_ts": 1788522800.2273877,
+    "last_success_ts": 1788522800.2273877,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 20
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788522564.368094
+      "updated_at": 1788522802.587571
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2290,10 +2275,16 @@
       "desc": "Россия серийно применяет дроны с ИИ, Украина отстает в масштабировании - \"Флеш\" Курс України",
       "source": "Курс України",
       "region": "RUSSIA"
+    },
+    "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": {
+      "time": 1788522800,
+      "title": "Weekly Startup Funding Roundup: AI, Robotics, Deep Tech Draw Fresh Capital - Analytics Insight",
+      "desc": "Weekly Startup Funding Roundup: AI, Robotics, Deep Tech Draw Fresh Capital Analytics Insight",
+      "source": "Analytics Insight",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2312,8 +2303,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788522622.0770597,
-  "last_publish_ts": 1788522561.6860137
+  "last_publish_ts": 1788522800.2273877
 }
