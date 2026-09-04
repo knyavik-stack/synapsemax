@@ -620,32 +620,17 @@
         "robotics"
       ],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Украинские инновации, которые заметили в Европе: от ИИ для покупок до новой энергетики - Вікна-новини",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVWlxS3lOM2NBS08xcjhvQi05NXVYcE5zX3dnQURlUTBMX3ljSmhKU2lUam5ZNkIxYWlULXdFbEY5WVo4N29FTERlejl1SHZZN1k2Y1VYbENhRWg4Z3I3ZnFxaTB3Z2I3TG4taWpYZENqMlljekJXOTgwdXVleWltcnNoaXlSMFRXTGVGdWFDMVVORm9PQnFSckVoZmNwbGJ3MFVuSnpVS1Fhd3o1NGlzYi1jMNIBuAFBVV95cUxNVDlxaFFXWG4ydHRYM2NHR2pTZk44UUFjWm5feGFLVHVkZS1LTUNDX1VBY2g4SW1EWE1wQ1lveEdtbDRocWpqbExTdjJTdVBwZmc4QjljNkJDTFJRaDlTRDFoUmdpMGlEd0J0emFqVXhpNUpkTjVvaHJsRGliWktMVlJhcjNXbmtqM3RPdl82eTBNNWVJakpWQzAzeVJGakhUa011SXJnek1tQThuTTBzZ3FJdXZ5bTRQ?oc=5",
-      "desc": "Украинские инновации, которые заметили в Европе: от ИИ для покупок до новой энергетики Вікна-новини",
-      "source": "Вікна-новини",
-      "time": 1788530592.0,
-      "score": 60.0,
-      "russia_weight_bonus": 4.0,
-      "key": "bd4a07288a11e7a70ad3226c73131449aa6ce736d82cb3fca077f45a9795cf03",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788552141.8972585,
+    "last_start_ts": 1788552200.2408595,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788552141.8972585,
-    "last_success_ts": 1788552141.8972585,
+    "last_run_ts": 1788552200.2408595,
+    "last_success_ts": 1788552200.2408595,
     "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 11
+    "last_published": 0,
+    "queue_size": 10
   },
   "providers": {
     "GEMINI": {
