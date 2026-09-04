@@ -142,7 +142,8 @@
     "d9b7d150995d7bc1b05f615816f31deebc35437cf67fe441d4605e189ddb21da": 1788483297,
     "4616dc0738994f399c5bb1db85d7d7e20cc792020039f18657665a8978fbc246": 1788483535,
     "dff5d6155d5233ffeae60a82978f46c87b6871221dfce93d941e3ccbc58e00a2": 1788483894,
-    "8fdb123c8d416a50f4e2e5d1895db00d628785a8fbb3a7de6a970363d581f11a": 1788484141
+    "8fdb123c8d416a50f4e2e5d1895db00d628785a8fbb3a7de6a970363d581f11a": 1788484141,
+    "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": 1788484674
   },
   "known": {
     "3c0587d665c8bf001b3baea6084d99ec71c9c242a57f4d19ee32c3c5b1d74065": 1788463269.910863,
@@ -276,21 +277,11 @@
       "topics": [
         "applications"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "AIX Deepens Anthropic Bet as AI Portfolio Nears 60% Deployment - TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGszWGRXUm05dllSQk1hUVg0SXgzQVkzTkRESFJjR0RpUjE3N19vc2NsbFNUNWJXSmR1eERYY3V1SXcwQU8wWEdKeVMzYmlhUVlKSDJyOXBDRkdvU0hON19XUHRvZkJ4VWw5MXRJeFhfc1pJQlgyQ1REOTgtaEEyY2tOZDdQOW1LbVNBcXJxOXhOUmNhSkZrWHdMZWRlRV8tWVpCaGJQeXdULU5JX3RhU3o3UQ?oc=5",
-      "desc": "AIX Deepens Anthropic Bet as AI Portfolio Nears 60% Deployment TipRanks",
-      "source": "TipRanks",
-      "time": 1788482474.0,
-      "score": 69.5,
-      "key": "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788484674,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788484974
     },
     {
       "region": "WORLD",
@@ -474,20 +465,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788484314.51329,
+    "last_start_ts": 1788484674.1509552,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788484314.51329,
-    "last_success_ts": 1788484314.51329,
-    "last_candidates": 69,
-    "last_published": 0,
-    "queue_size": 13
+    "last_run_ts": 1788484674.1509552,
+    "last_success_ts": 1788484674.1509552,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788484143.8601456
+      "updated_at": 1788484689.2685955
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1501,10 +1492,16 @@
       "desc": "Amazon (NASDAQ:AMZN) Ramps AI Spending As AWS Growth Accelerates Kalkine Media",
       "source": "Kalkine Media",
       "region": "WORLD"
+    },
+    "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": {
+      "time": 1788484674,
+      "title": "AIX Deepens Anthropic Bet as AI Portfolio Nears 60% Deployment - TipRanks",
+      "desc": "AIX Deepens Anthropic Bet as AI Portfolio Nears 60% Deployment TipRanks",
+      "source": "TipRanks",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1518,6 +1515,7 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1526,5 +1524,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788484314.51329,
-  "last_publish_ts": 1788484141.3092442
+  "last_publish_ts": 1788484674.1509552
 }
