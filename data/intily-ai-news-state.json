@@ -133,7 +133,8 @@
     "1767a453d9b6dbbd6ca0de62fc2369239a5bb7a9dbbc337b07995dddcec38799": 1788480596,
     "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9": 1788480894,
     "d22501a4517a2d77861cdc7840358d74b38ab9da51d553e00a8c077cb1e9ebe9": 1788481255,
-    "774b256f69c69dab8cfc74c8aa72023e9e7f82fa2d2ec9b61897310f6aacdba8": 1788481494
+    "774b256f69c69dab8cfc74c8aa72023e9e7f82fa2d2ec9b61897310f6aacdba8": 1788481494,
+    "c850ae2facf0311829a649fd7d19fe9c1bbbc542864c143eaa3056caa07cba0f": 1788481734
   },
   "known": {
     "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": 1788461293.6977568,
@@ -253,20 +254,6 @@
     "9f4000e8382fb2a9a54ede27d030a5934bf92af457dcbcf5f51951b3f00091b4": 1788480596.4989552
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF - Information Technology and Innovation Foundation",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdFh0V1ZOd3pya05fN1NDaUdUbUgtMDhLMVZRUE1ITDE1RHVfX1E5MVdyR3FPUVNtYUpnOFJNblQ3SDhyakhWQXdDRm9abmE3NUNOcjZFQ0xEdlhFSkxTSFZvSVFVTHNnRGhtWm5DUHVIdzJMWVh6VGY0WEttV1ZQLUJ0TnBtRnRMWWF6YVZmUzYzWFplNWF5SldDLTRKSGRQUEJGZmEycWhBeGw1a0dBN3JnVzA?oc=5",
-      "desc": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF Information Technology and Innovation Foundation",
-      "source": "Information Technology and Innovation Foundation",
-      "time": 1788475538.0,
-      "score": 63.5,
-      "key": "c850ae2facf0311829a649fd7d19fe9c1bbbc542864c143eaa3056caa07cba0f",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Xelta Unveils AI Creative Operating System for Long-Form Filmmaking – From One Prompt to Up to 60 Minutes - Carroll County Mirror-Democrat",
@@ -423,20 +410,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788481553.9852571,
+    "last_start_ts": 1788481734.4590914,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788481553.9852571,
-    "last_success_ts": 1788481553.9852571,
+    "last_run_ts": 1788481734.4590914,
+    "last_success_ts": 1788481734.4590914,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 10
+    "last_published": 1,
+    "queue_size": 9
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788481497.4014506
+      "updated_at": 1788481738.9401138
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1387,12 +1374,18 @@
       "desc": "В ЦИК ожидают провокаций от внешних агентов под видом кандидатов Ведомости",
       "source": "Ведомости",
       "region": "RUSSIA"
+    },
+    "c850ae2facf0311829a649fd7d19fe9c1bbbc542864c143eaa3056caa07cba0f": {
+      "time": 1788481734,
+      "title": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF - Information Technology and Innovation Foundation",
+      "desc": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF Information Technology and Innovation Foundation",
+      "source": "Information Technology and Innovation Foundation",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1409,8 +1402,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788480596.4989552,
-  "last_publish_ts": 1788481494.6844757
+  "last_publish_ts": 1788481734.4590914
 }
