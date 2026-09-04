@@ -218,10 +218,10 @@
     "769f8997081fc573476ce8fa7174453657c5b97055381a9a7ff235beef009858": 1788517820,
     "4e42209d83a119a961546d27e4cba53fceb61b8243ee44c508fddd5289d7fa6d": 1788518008,
     "fe86cfca7ddd06270ddf285fc073f6b22df01654ee5d696141c9164dce21ee1b": 1788518362,
-    "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": 1788518901
+    "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": 1788518901,
+    "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": 1788519499
   },
   "known": {
-    "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547.516139,
     "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788498274.389358,
     "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": 1788498274.389358,
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -343,10 +343,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788518901,
+      "last_failed_at": 1788519499,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 6,
-      "next_retry_at": 1788528501
+      "failure_count": 7,
+      "next_retry_at": 1788538699
     },
     {
       "region": "RUSSIA",
@@ -410,22 +410,6 @@
       "importance": 68.0,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Inside Claudeforce: Uniting Salesforce Data with Claude AI - AI Magazine",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQjNFdDhRNzg2SXBIbkFVbUpocnpOSExOZ3dFZXBMcHY0Y3pqei0zTFZfbGNQalR2UDhCVTcySGRFRWhRODhPMkxNaERUSzlYQlY4WXVPaEdHSTVfQXhxTmdqT0doNGFVVEp2UmpfczBmcko4Ylp2bW9nejk2T2hfOURRWUJTWVE?oc=5",
-      "desc": "Inside Claudeforce: Uniting Salesforce Data with Claude AI AI Magazine",
-      "source": "AI Magazine",
-      "time": 1788517130.0,
-      "score": 66.5,
-      "key": "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
       "tier": "A"
     },
     {
@@ -599,20 +583,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788519020.6478481,
+    "last_start_ts": 1788519499.289979,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788519020.6478481,
-    "last_success_ts": 1788519020.6478481,
+    "last_run_ts": 1788519499.289979,
+    "last_success_ts": 1788519499.289979,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788518927.2082686
+      "updated_at": 1788519508.8007445
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2158,10 +2142,16 @@
       "desc": "UK startup AI Score raises $5.4M to scale its enterprise AI governance platform Tech.eu",
       "source": "Tech.eu",
       "region": "WORLD"
+    },
+    "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": {
+      "time": 1788519499,
+      "title": "Inside Claudeforce: Uniting Salesforce Data with Claude AI - AI Magazine",
+      "desc": "Inside Claudeforce: Uniting Salesforce Data with Claude AI AI Magazine",
+      "source": "AI Magazine",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2179,9 +2169,10 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788518901.903705,
-  "last_publish_ts": 1788518901.903705
+  "last_publish_ts": 1788519499.289979
 }
