@@ -582,20 +582,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Samsung SDS stock gains as RX ART 2026 and AI partnership broaden growth story - AD HOC NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOamVmV0J0SWhmdkZ1bWtMSTgwbEdqVU9KYUlHaEpCbXhFejI5dkZXZ2V4SVdJZV9FNUhjMEdiaTJCQ0ZBYTdxTkpXVF9Ob3FZTzVuUGlEeE9BcHlXbFFrM2I4dmNvTDVIcDZ0TUdCM084XzJrZEs3dWRodEN3eGZib1lpc1dMSlF2ZnRXYjdxUVVBNGxoNXpWNmpfOFp5NUotWWYtdnRSNElvcC04LTJsR3Jha1BoOVJMdDVtbjI1ZkZ1SElWeEthU1ZGVQ?oc=5",
-      "desc": "Samsung SDS stock gains as RX ART 2026 and AI partnership broaden growth story AD HOC NEWS",
-      "source": "AD HOC NEWS",
-      "time": 1788544493.0,
-      "score": 66.5,
-      "key": "ddd326e4452ba6a9ab12c91527268bff972794f78aea0db8aba4e03f39ebdb38",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules - StreetInsider",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUFGMk5mSFhVY3VuMHFFWnN2VkZtc05mVm5UUGoyZXdxcmhzYzM2TWlmN1puUUpINzIyLXlNcjIzaGZSSEJIYUFBdjJFSTBoQ2NKeVEtazBBRjV6dHlUM2czTW1aLXlaY0F0dzVoWHdwSjRGNmF6QXY4WTN3a1JNS1FJRE9waE1uOWFyUmI2N1AzUUNfOWFxRHlYdE5jdE1xTXBpVDZVRndsU3hCTHFBYWNRR05LWWhDbDgzNk5sVTBYeHlRTk13ZXFkb2U?oc=5",
       "desc": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules StreetInsider",
@@ -675,6 +661,20 @@
       "topics": [
         "agents"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Samsung SDS stock gains as RX ART 2026 and AI partnership broaden growth story - AD HOC NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOamVmV0J0SWhmdkZ1bWtMSTgwbEdqVU9KYUlHaEpCbXhFejI5dkZXZ2V4SVdJZV9FNUhjMEdiaTJCQ0ZBYTdxTkpXVF9Ob3FZTzVuUGlEeE9BcHlXbFFrM2I4dmNvTDVIcDZ0TUdCM084XzJrZEs3dWRodEN3eGZib1lpc1dMSlF2ZnRXYjdxUVVBNGxoNXpWNmpfOFp5NUotWWYtdnRSNElvcC04LTJsR3Jha1BoOVJMdDVtbjI1ZkZ1SElWeEthU1ZGVQ?oc=5",
+      "desc": "Samsung SDS stock gains as RX ART 2026 and AI partnership broaden growth story AD HOC NEWS",
+      "source": "AD HOC NEWS",
+      "time": 1788544493.0,
+      "score": 63.5,
+      "key": "ddd326e4452ba6a9ab12c91527268bff972794f78aea0db8aba4e03f39ebdb38",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -775,13 +775,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788548001.5825136,
+    "last_start_ts": 1788548120.2911768,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788548001.5825136,
-    "last_success_ts": 1788548001.5825136,
+    "last_run_ts": 1788548120.2911768,
+    "last_success_ts": 1788548120.2911768,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 18
   },
   "providers": {
@@ -802,13 +802,6 @@
     }
   },
   "stories": {
-    "d9dde870ce0b915fcd2deb417cba169542659f50df388b026119b0f2b62c3430": {
-      "time": 1788461651,
-      "title": "20-ядерный процессор, графика на уровне GeForce RTX 5070 и 128 ГБ. Nvidia наконец-то полноценно представила платформу RTX Spark, первые Windows-ПК — уже в октябре - ixbt.com",
-      "desc": "20-ядерный процессор, графика на уровне GeForce RTX 5070 и 128 ГБ. Nvidia наконец-то полноценно представила платформу RTX Spark, первые Windows-ПК — уже в октябре ixbt.com",
-      "source": "ixbt.com",
-      "region": "RUSSIA"
-    },
     "df2e56da45776be34c67faa03c7de424e22477d15117439282c85495c97b20f8": {
       "time": 1788462010,
       "title": "OpenAI отложила разработку ИИ Astra после взлома Hugging Face их моделью - prospect.com.ru",
