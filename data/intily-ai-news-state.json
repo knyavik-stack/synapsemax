@@ -313,7 +313,8 @@
     "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": 1788549382,
     "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": 1788549621,
     "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": 1788550101,
-    "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": 1788550461
+    "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": 1788550461,
+    "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": 1788550825
   },
   "known": {
     "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": 1788530483.340653,
@@ -488,21 +489,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России - Национальная Служба Новостей",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1JfWXhIYUpPTnFxQUNZeVg1QjFwamdTOElNYWlrcllwdUV5MjBHYVNSYlVaZVlRYnJGMGJnWU9tX2JFemxvbjAtaEtPSDFDRTV4UmRGN0FoNXlnY3drWXhvUF9iWEVVZ3daRWxBbGhweFVkbFEzQkVaN1RsTHJrRE5qR1p5UEV4Q1lSUi12ZS1fOWRQNzJGcEtIZi02d9IBowFBVV95cUxNTmtNWWd2bTJ4UVpMZHk2YldESm5BNnQ1T1JzWVhVV2szNGFZZVpGcTQ2dW94c0wxQmNGSFZUNWpnVkM2Sk0xOElvS05Fam8tbW0xcFVWWWJkRnZ0RkNXSVEzNlJ3eWxiUEZfSWxNS2ViR0FDOS1XOU5rMUN0SFJjbEFMMU5TcjFtT2FFUGotMWN4bTdFVDVqSW52NkV5LTZKZDdZ?oc=5",
-      "desc": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России Национальная Служба Новостей",
-      "source": "Национальная Служба Новостей",
-      "time": 1788542062.0,
-      "score": 68.3,
-      "russia_weight_bonus": 2.8,
-      "key": "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5",
-      "importance": 68.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "WeatherNext 3: Google DeepMind Targets Renewable Grid Gap With Hourly Satellite Forecasts - Tech Times",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSEEza2pGUXRYMWVBRWplWVFPUnBYdlQ3SzBoYlk3Mi1mZEdZVTN2Vjd1WXlab2MzSXl0cGZpMGh0OGMtRGFRLWxSM0ZkZ2JCR3NIVXRqU3NUYXZmUHJmcmhUVGt5bC1wQkxNbzBLVFVGNFd2TkpyZF9UcW1FY1pFRHdTcUx1TzZtYWVERloxcDc1eldwOGhKaG8tQlR0ZjAtX2RITEZpV01wVEdWUC1EUFlVMVJCZzJBRUVaeldybFY2OTZNZTdobk12SmlsOVVmYUhzRg?oc=5",
@@ -528,22 +514,6 @@
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules - StreetInsider",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUFGMk5mSFhVY3VuMHFFWnN2VkZtc05mVm5UUGoyZXdxcmhzYzM2TWlmN1puUUpINzIyLXlNcjIzaGZSSEJIYUFBdjJFSTBoQ2NKeVEtazBBRjV6dHlUM2czTW1aLXlaY0F0dzVoWHdwSjRGNmF6QXY4WTN3a1JNS1FJRE9waE1uOWFyUmI2N1AzUUNfOWFxRHlYdE5jdE1xTXBpVDZVRndsU3hCTHFBYWNRR05LWWhDbDgzNk5sVTBYeHlRTk13ZXFkb2U?oc=5",
-      "desc": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules StreetInsider",
-      "source": "StreetInsider",
-      "time": 1788539766.0,
-      "score": 66.5,
-      "key": "b4d075f93594e2ff86cd2e366e6776d6bc68fcb9fe73d045d4d6b2480eb81fd3",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
       "tier": "A"
     },
     {
@@ -728,20 +698,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788550521.4882843,
+    "last_start_ts": 1788550825.2810774,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788550521.4882843,
-    "last_success_ts": 1788550521.4882843,
+    "last_run_ts": 1788550825.2810774,
+    "last_success_ts": 1788550825.2810774,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788550465.5990677
+      "updated_at": 1788550827.697073
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -755,20 +725,6 @@
     }
   },
   "stories": {
-    "c0236868babbe93a2fa7800b7dc1ddb1b6af0e9ffdaf4d5f16c860c00d838af8": {
-      "time": 1788464169,
-      "title": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. - Fortune",
-      "desc": "Google shipped four Gemini Flash models in 106 days. Yet its Gemini 3.5 Pro is still AWOL. Fortune",
-      "source": "Fortune",
-      "region": "WORLD"
-    },
-    "6b05f7462ceab4812366cf0b85fd6c63d4d920d853bed78fc91a196223fdd1a6": {
-      "time": 1788464351,
-      "title": "80 тысяч камер и штраф в 30 тысяч: нейросети начали генеральную уборку в Петербурге - gorodovoy.ru",
-      "desc": "80 тысяч камер и штраф в 30 тысяч: нейросети начали генеральную уборку в Петербурге gorodovoy.ru",
-      "source": "gorodovoy.ru",
-      "region": "RUSSIA"
-    },
     "ce3b396c32bfeaa77a079199697470add24d7d92fb772fc17454933c2dd2d7ef": {
       "time": 1788464710,
       "title": "Broadcom Tripled AI Chip Sales and the Stock Still Fell. Is AVGO the Nvidia Alternative Investors Missed? - 24/7 Wall St.",
@@ -2378,10 +2334,16 @@
       "desc": "Researchers Document OpenAI Agent Swarm That Repurposed German Wiki Unite.AI",
       "source": "Unite.AI",
       "region": "WORLD"
+    },
+    "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": {
+      "time": 1788550825,
+      "title": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России - Национальная Служба Новостей",
+      "desc": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России Национальная Служба Новостей",
+      "source": "Национальная Служба Новостей",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2400,8 +2362,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788549621.7329698,
-  "last_publish_ts": 1788550461.8303185
+  "last_publish_ts": 1788550825.2810774
 }
