@@ -352,7 +352,8 @@
     "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788563601,
     "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088": 1788563899,
     "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439,
-    "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564740
+    "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564740,
+    "5ed84a171b6d455194dd95e38cf8e6bd63e0b40735f51636e5da9c28aa67148f": 1788565099
   },
   "known": {
     "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788543864.4841003,
@@ -442,9 +443,105 @@
     "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788562402.0264504,
     "37c9fcad4c0c540dc1eb53f93d0429fb1fc7b277d7d80f8a2bab899787dca762": 1788562402.0264504,
     "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439.8961396,
-    "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564439.8961396
+    "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564439.8961396,
+    "5ed84a171b6d455194dd95e38cf8e6bd63e0b40735f51636e5da9c28aa67148f": 1788565099.8368926,
+    "4f6b86c987d4ee29e2db999ccd8976e16d0184d2d7dc866d3dfb95e7cd8d10b2": 1788565099.8368926,
+    "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f": 1788565099.8368926,
+    "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4": 1788565099.8368926,
+    "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": 1788565099.8368926,
+    "dd620816bce0dbd7f029ae7a7597c4a0e5f867145a1925a5773d1691d8163c93": 1788565099.8368926,
+    "f610db8fdb550a8b77976d10ddbcbef5329e17cb229fea2366ddf3ea622c6ee7": 1788565099.8368926,
+    "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff": 1788565099.8368926
   },
   "queue": [
+    {
+      "region": "WORLD",
+      "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd0dTWnZWcm1zc3pGR2l0R0c3YWhnUWFZa2JQeDFSeDA0OHNBdXlULTgya3ZKQ192OXI3NU0xZEEyRmdYb01zaHRQTEt6N01CNFZxU1NnOEZ3WVI0MGtkOUNQSmI3UTJyaWVVTE1hY19NOGJMOWJESVYycVpRU3NvaTdIamVWX2k4dXlIUXVhMUtzZXo4SWV6S01JblIwMGJ5UDF1VA?oc=5",
+      "desc": "EXCLUSIVE: US, China gear up for mid-September AI safety talks reuters.com",
+      "source": "reuters.com",
+      "time": 1788562652.0,
+      "score": 66.5,
+      "key": "4f6b86c987d4ee29e2db999ccd8976e16d0184d2d7dc866d3dfb95e7cd8d10b2",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "ChatGPT vs Claude vs Gemini: 5x File Upload Gap [2026] - tech-insider.org",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56Y1Nadjd6YUs2cXNOb20zOFljb0NpNjY1ZWJSZS1xZVNxaEkzeXlDaGhwRjZJQVFHSzByYUpYT3ZIanVsSjFmdzh5dVQ2eTJHZ0wxQ2dhYWVpLUhXRWk1REUxcGpydUR3Qlc1VW5GTjhxWGdwOFlwakFCcml6UQ?oc=5",
+      "desc": "ChatGPT vs Claude vs Gemini: 5x File Upload Gap [2026] tech-insider.org",
+      "source": "tech-insider.org",
+      "time": 1788557309.0,
+      "score": 63.5,
+      "key": "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "California’s Rob Bonta investigating OpenAI over Hugging Face hack - Politico",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdmhsWmFLekRLdU9CWHdHU1lOeTRQMVU1WnVCb0dXSm56MHFvWE5WQVl4NjFtX1VQcjhRSkF4WVlyb3N3bzlPMkh3Y3BIOWxzdTRjaHRYbXVFaUpKTVhrb2hyOTlzb0I3Y0hMS2EwQlhtVzUzSEF5LXE1SGJFWkI0Y3VqUng5VkVhVzQwMHg2cVRyMDRQdFNxT21HMTNydWpi?oc=5",
+      "desc": "California’s Rob Bonta investigating OpenAI over Hugging Face hack Politico",
+      "source": "Politico",
+      "time": 1788556380.0,
+      "score": 63.5,
+      "key": "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Will We Control AIor Will AI Control Us - Crude Oil Prices Today | OilPrice.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLTExT2FRRWVZTXVkQVJ6MHpncnNTT2V6YVl0OU04RmZNMWE2NUh2aG9ZY3VlNjlTaDI3bTBEcFY0ZE5WM05rYnV0cGlyVDZieVdNdWxuYXlCRkpjREhvUk5uTklCWlFUVzB3Mm1BUUxnTmRIWDJGZ1JnbHpPWGJvSHhCQVR2ZF9wcUpzSmJJN25tQXZoNmFrcE1lOVJ4UUY2VmJnbzR4TW9mWFVo0gGsAUFVX3lxTE0tMTFPYVFFZVlNdWRBUnowemdyc1NPZXphWXQ5TThGZk0xYTY1SHZob1ljdWU2OVNoMjdtMERwVjRkTlYzTmtidXRwaXJUNmJ5V011bG5heUJGSmNESG9STm5OSUJaUVRXMHcybUFRTGdOZEhYMkZnUmdsek9YYm9IeEJBVHZkX3BxSnNKYkk3bm1Bdmg2YWtwTWU5UnhRRjZWYmdvNHhNb2ZYVWg?oc=5",
+      "desc": "Will We Control AIor Will AI Control Us Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "time": 1788555600.0,
+      "score": 63.5,
+      "key": "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI Says Humans Need to Be Able to Monitor How AI 'Thinks.' Astra Makes That Much Harder - Gizmodo",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTmN0ZEVZRHZRZ0FKTGtuVFRwN094c3JzMGVBclNETUxpUDBEREFOYTU3R3dnNlpMd24tV2dTemtscDFtaGo0UWhzUFpPdnBvcXlLZ0NKMXNlMVFQWVJoY1BvTDRILXowLWxOOGEzOFJOR3RKQWNqbU4tYXUtSmdYeWFxSFoyRl9EWXNveGpqY3ZqZm8wa0ZmZG1vR3RLRkJuRk1UN3RMS08zTVhkaFdUM0otekJwT1JEamxBdVRzUldPcWFYRXpZa1psT05zdw?oc=5",
+      "desc": "OpenAI Says Humans Need to Be Able to Monitor How AI 'Thinks.' Astra Makes That Much Harder Gizmodo",
+      "source": "Gizmodo",
+      "time": 1788555319.0,
+      "score": 63.5,
+      "key": "dd620816bce0dbd7f029ae7a7597c4a0e5f867145a1925a5773d1691d8163c93",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Jensen Huang Said This Word Exactly 1 Time During Nvidia's Earnings Call, and That Was Enough to Put Artificial Intelligence (AI) Bubble Fears to Rest - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWlpWU2VJejYzMXVyNTIyYnhsVjFJNzdTeS1rZGVsQ2xwQ2tGWGxqUVpJUmJjTEc4RGQwNVhRWGtoNU9nQVZybFJqZF9CX055WTBfb1FBZ0RXNG01bFRvWUFTVHl6WFVwX2g4WkVHanV4WGhPTXB3QmxaSGRnVTRWZGJ3RlpfQjAzM2lnOVFfUTdkSVV2ZjBv?oc=5",
+      "desc": "Jensen Huang Said This Word Exactly 1 Time During Nvidia's Earnings Call, and That Was Enough to Put Artificial Intelligence (AI) Bubble Fears to Rest The Motley Fool",
+      "source": "The Motley Fool",
+      "time": 1788555011.0,
+      "score": 63.5,
+      "key": "f610db8fdb550a8b77976d10ddbcbef5329e17cb229fea2366ddf3ea622c6ee7",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
@@ -461,23 +558,37 @@
         "robotics"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Cloud Firm Nscale Seeking $3.5 Billion in Pre-IPO Financing - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdFFqUndTQ1FVNHdZSDk4TVk1My0wYkJYTExSSFd5VWFKbG1DeEI0Y2YySjF3UDRtUDR1eTlJcXlUd1hnbGpFNFNHU0Rrcm5UZHhUby1nVmdOeWMycE56QnBWY1hPY090T2Q0YnFKTlpVM1pWZ2d4MHVPemRBZU9tMXJTRFJHM0oySXdqWFU2QXM2b3VqdHBCYkVhYWN1RXRyYmpNYWNyQmJrN2piVU5wdTdR?oc=5",
+      "desc": "AI Cloud Firm Nscale Seeking $3.5 Billion in Pre-IPO Financing Bloomberg.com",
+      "source": "Bloomberg.com",
+      "time": 1788543708.0,
+      "score": 60.0,
+      "key": "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788564800.4279082,
+    "last_start_ts": 1788565099.8368926,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788564800.4279082,
-    "last_success_ts": 1788564800.4279082,
-    "last_candidates": 58,
-    "last_published": 0,
-    "queue_size": 1
+    "last_run_ts": 1788565099.8368926,
+    "last_success_ts": 1788565099.8368926,
+    "last_candidates": 64,
+    "last_published": 1,
+    "queue_size": 8
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788564747.577209
+      "updated_at": 1788565119.5671346
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -491,13 +602,6 @@
     }
   },
   "stories": {
-    "1b41cf3274f0b727c9259eea1331156fc69cf9c08fe4568d4ffee382684fdb2d": {
-      "time": 1788478503,
-      "title": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты - Overclockers.ru",
-      "desc": "OpenAI выпустила модель GPT-6 Astra с добавленными средствами киберзащиты Overclockers.ru",
-      "source": "Overclockers.ru",
-      "region": "RUSSIA"
-    },
     "87ca9ebb5ff06b05e98c471a6a682a1b64535c589edce50eb5279ae56272c87a": {
       "time": 1788478796,
       "title": "AI Tools for Software Development: The AWS List - aws.amazon.com",
@@ -2100,11 +2204,17 @@
       "desc": "ServiceNow Extends Israeli AI Buying Spree With Sweep Acquisition finance.biggo.com",
       "source": "finance.biggo.com",
       "region": "WORLD"
+    },
+    "5ed84a171b6d455194dd95e38cf8e6bd63e0b40735f51636e5da9c28aa67148f": {
+      "time": 1788565099,
+      "title": "Researcher who found OpenAI-linked rogue agent swarm says AI giants may hide future chaos - NBC News",
+      "desc": "Researcher who found OpenAI-linked rogue agent swarm says AI giants may hide future chaos NBC News",
+      "source": "NBC News",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2121,9 +2231,10 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788564800.4279082,
-  "last_publish_ts": 1788564740.8107126
+  "last_search_ts": 1788565099.8368926,
+  "last_publish_ts": 1788565099.8368926
 }
