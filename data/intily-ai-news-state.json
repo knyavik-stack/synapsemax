@@ -316,7 +316,8 @@
     "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": 1788550461,
     "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": 1788550825,
     "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": 1788551422,
-    "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": 1788551662
+    "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": 1788551662,
+    "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": 1788551902
   },
   "known": {
     "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": 1788530483.340653,
@@ -488,23 +489,6 @@
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры - CNews.ru",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ia01tRmstX0lDZmcwQ2wtakQyUzJkb3B5cTdmSEJYczQ3SmR6ZDgyU2gxY2JRdEt2X1Jqdi1VOFRsTEdQMlFWcGRFalJ5ZVRQU2g3LVJJaF91R3luUGdVUVJmc1cyWHFBTUgzSS14MVJ6cU5FS0dn?oc=5",
-      "desc": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры CNews.ru",
-      "source": "CNews.ru",
-      "time": 1788510065.0,
-      "score": 63.9,
-      "russia_weight_bonus": 4.9,
-      "key": "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48",
-      "importance": 63.9,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
       "tier": "A"
     },
     {
@@ -682,20 +666,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788551840.2042537,
+    "last_start_ts": 1788551902.9013429,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788551840.2042537,
-    "last_success_ts": 1788551840.2042537,
+    "last_run_ts": 1788551902.9013429,
+    "last_success_ts": 1788551902.9013429,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 13
+    "last_published": 1,
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788551664.1987498
+      "updated_at": 1788551906.6446338
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2318,10 +2302,16 @@
       "desc": "Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack Substack",
       "source": "Substack",
       "region": "WORLD"
+    },
+    "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": {
+      "time": 1788551902,
+      "title": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры - CNews.ru",
+      "desc": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры CNews.ru",
+      "source": "CNews.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2340,8 +2330,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788551422.751168,
-  "last_publish_ts": 1788551662.189239
+  "last_publish_ts": 1788551902.9013429
 }
