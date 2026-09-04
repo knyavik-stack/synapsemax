@@ -315,7 +315,8 @@
     "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": 1788550101,
     "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": 1788550461,
     "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": 1788550825,
-    "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": 1788551422
+    "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": 1788551422,
+    "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": 1788551662
   },
   "known": {
     "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": 1788530483.340653,
@@ -475,22 +476,6 @@
     "8a67d99b7b49043fe72889d3cccab53e53abdc35d5a66e843724831f08a779d8": 1788551422.751168
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack - Substack",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tMVo5Q21JeWlaZXU2Y2RidElSQmVaT1Y3N3h4MGRNbmhGWkh4UWQ4QlNVbnBNNlF3elQwRGJ3SkZrbzFWRFpkcTl0RlVHR1AtT2lUUmtLakZ1VmJxS1FLVjZyUnNGSjN6emNnTXZoS1JRd0t6ZFh2NFU2STk?oc=5",
-      "desc": "Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack Substack",
-      "source": "Substack",
-      "time": 1788543228.0,
-      "score": 67.5,
-      "key": "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "How Will AI and Autonomous Supply Chains Transform Logistics by 2030? - BBN Times",
@@ -697,20 +682,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788551601.1297047,
+    "last_start_ts": 1788551662.189239,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788551601.1297047,
-    "last_success_ts": 1788551601.1297047,
+    "last_run_ts": 1788551662.189239,
+    "last_success_ts": 1788551662.189239,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_published": 1,
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788551449.4239166
+      "updated_at": 1788551664.1987498
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -724,13 +709,6 @@
     }
   },
   "stories": {
-    "bdb764baada2c4ba65ac2dc92a4f984027ca58019717f958c0c51634a385a64c": {
-      "time": 1788465259,
-      "title": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере - Компьютерра",
-      "desc": "Школа «Летово» запустила ИИ-помощника для учителей на собственном суперкомпьютере Компьютерра",
-      "source": "Компьютерра",
-      "region": "RUSSIA"
-    },
     "b44520755e58ed7ab860834d44786714b3d882449542747ad7e92d170883745f": {
       "time": 1788465612,
       "title": "Яндекс привлечёт до 1000 специалистов по обучению ИИ до конца 2026 года - RB.ru",
@@ -2333,11 +2311,17 @@
       "desc": "Nvidia acquires leading AI platform AzerNews",
       "source": "AzerNews",
       "region": "WORLD"
+    },
+    "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": {
+      "time": 1788551662,
+      "title": "Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack - Substack",
+      "desc": "Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack Substack",
+      "source": "Substack",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2355,8 +2339,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788551422.751168,
-  "last_publish_ts": 1788551422.751168
+  "last_publish_ts": 1788551662.189239
 }
