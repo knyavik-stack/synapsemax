@@ -396,23 +396,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину - edinstvo-news.ru",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTU5kT24zMVdkd2dEWExINkVhaUpuZWFnaGxKZHNIZFZTZWRPZEN3aWJmdjRGV05Wc2NEZDMxS2hNZUhxaklHNmFMUU1fQ1YtR1prOHVjY0xpOVN0Sl9ISm5hTEJUMHNOMEhCamJycVBweVZfVmVuQ0pNdmR5WTJta1kxMEVSNTVvX3VNdXdDaGxhZzJheV9RaFVkUngxT2J5SUU0NmdQQk1sN0dkWThtd0ZWRVFpY3lLUDlr?oc=5",
-      "desc": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину edinstvo-news.ru",
-      "source": "edinstvo-news.ru",
-      "time": 1788510501.0,
-      "score": 72.5,
-      "russia_weight_bonus": 4.0,
-      "key": "0b35f7c2aceb2a382a3812fd8b1b1f453ded821b238b7596c77c617335a26a9a",
-      "importance": 72.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Без льгот и субсидий: правительство лишит господдержки компании за использование иностранного ИИ - MenToday",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYzNTZHNIQ212NGMtalJxUFZzUHYyOWw4TTdhRXAydE9ZRmduTzgzQ3p3QWFEVF82Z0ItajZjOVRIRk9RelRpWVNHdk14QVUzSjlxdTdtMTJ0ZWdfa3RZRkprWURTcEh3eF9oVmh4QVpZSzBVZ0wtbVBCR2ZhdVlhbDF2VVF4N05rYmxwbWdPLS1vR3B0andYUndwRTdIdXFJVkJ2QmwxMVhLTldVNk1ZVlVTaUdMNzJEajRjRUdXaVR0VllLS2FOOXBSQUZGbm4wVG9hRFR1OGhFN00?oc=5",
       "desc": "Без льгот и субсидий: правительство лишит господдержки компании за использование иностранного ИИ MenToday",
@@ -515,6 +498,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину - edinstvo-news.ru",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTU5kT24zMVdkd2dEWExINkVhaUpuZWFnaGxKZHNIZFZTZWRPZEN3aWJmdjRGV05Wc2NEZDMxS2hNZUhxaklHNmFMUU1fQ1YtR1prOHVjY0xpOVN0Sl9ISm5hTEJUMHNOMEhCamJycVBweVZfVmVuQ0pNdmR5WTJta1kxMEVSNTVvX3VNdXdDaGxhZzJheV9RaFVkUngxT2J5SUU0NmdQQk1sN0dkWThtd0ZWRVFpY3lLUDlr?oc=5",
+      "desc": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину edinstvo-news.ru",
+      "source": "edinstvo-news.ru",
+      "time": 1788510501.0,
+      "score": 63.0,
+      "russia_weight_bonus": 4.0,
+      "key": "0b35f7c2aceb2a382a3812fd8b1b1f453ded821b238b7596c77c617335a26a9a",
+      "importance": 63.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Закон об ИИ в России: новые возможности для Якутии - YakutiaMedia",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FUV9CSW1pT1hOWHNRZWNmVGM2dTVPdmRJcnBzcmI0TmJGc2VMc3VPTkN3dE8zZVdqVVRIR3J6dE11TGdVMDRnNXJyUFhGQQ?oc=5",
       "desc": "Закон об ИИ в России: новые возможности для Якутии YakutiaMedia",
@@ -596,13 +596,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788521180.5473936,
+    "last_start_ts": 1788521300.9743829,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788521180.5473936,
-    "last_success_ts": 1788521180.5473936,
+    "last_run_ts": 1788521300.9743829,
+    "last_success_ts": 1788521300.9743829,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 17
   },
   "providers": {
