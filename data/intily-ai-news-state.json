@@ -720,13 +720,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788537681.7904017,
+    "last_start_ts": 1788537801.0294228,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788537681.7904017,
-    "last_success_ts": 1788537681.7904017,
+    "last_run_ts": 1788537801.0294228,
+    "last_success_ts": 1788537801.0294228,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 16
   },
   "providers": {
@@ -747,13 +747,6 @@
     }
   },
   "stories": {
-    "2b963ce9d33fb9519fdd59ec27db31536cba6761636a0a144dc7bc7e0ecfacf2": {
-      "time": 1788451389,
-      "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella - TechCrunch",
-      "desc": "Google’s latest AI weather model gives you no excuse to forget your umbrella TechCrunch",
-      "source": "TechCrunch",
-      "region": "WORLD"
-    },
     "205a1b0093134f7eec550ce1166ed217999b29efe9829104ee64f833f92818e2": {
       "time": 1788451571,
       "title": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 - PR Newswire",
