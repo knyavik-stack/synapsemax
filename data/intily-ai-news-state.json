@@ -546,23 +546,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Samsung SDS строит глобальный альянс физического ИИ: роботы приходят на заводы и верфи - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY2dSVVoyMHEzR3NPSV92aU5iVWhjX0lKMkRaRkNkUmpmY2dqTjV5VTNSTFE1WWdEZW1lR09XampyMmFkYWt5YjZYU2EyZHo4YjM5S1ZXSjRMUkN3RUtBdWx2aG4zTXJHTy1rcTM3dGlpM2lrWG9obVdBSnlNUXV1bG1tSDg0Zzl3RThvNWNxRlZoRlFyLTU2ZEstZng1MEN0NFZoUmxmNDdaaHgzLWM4aU5yV29jaDJVSXdva0psem8zN1dDYzhv?oc=5",
-      "desc": "Samsung SDS строит глобальный альянс физического ИИ: роботы приходят на заводы и верфи prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788514328.0,
-      "score": 60.8,
-      "russia_weight_bonus": 4.8,
-      "key": "8a67d99b7b49043fe72889d3cccab53e53abdc35d5a66e843724831f08a779d8",
-      "importance": 60.8,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Как AI меняет фарму: опыт «АстраЗенека» в России и в мире - Хабр",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoNHdkRjdaM044RG50Y3RyaHZZMDVJcmU4MnlrVTY5by1IY1JHNGV0MVNybkVISURFdEtjR1h0cEVsUnR0QzBidzRUMGF2eUpPWlAxam9lcmNGdTR5cDVrXzFPc3hibjJGVjlR0gFYQVVfeXFMT2JkbFRQSHNYNG5xZFB3SVZ6Vy1qWC1RM3UtM1dEdTdjcnkyLWNTSHhpa2phUzhvZGh4RmFzWHVyZWhET3FhcEdCcU5EbWQ4QnhTeE05dWxjMQ?oc=5",
       "desc": "Как AI меняет фарму: опыт «АстраЗенека» в России и в мире Хабр",
@@ -595,14 +578,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788557480.933795,
+    "last_start_ts": 1788557539.5294914,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788557480.933795,
-    "last_success_ts": 1788557480.933795,
+    "last_run_ts": 1788557539.5294914,
+    "last_success_ts": 1788557539.5294914,
     "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 8
+    "last_published": 0,
+    "queue_size": 7
   },
   "providers": {
     "GEMINI": {
