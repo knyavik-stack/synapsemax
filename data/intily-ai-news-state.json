@@ -279,7 +279,8 @@
     "ff374a60e61b0ca84c654c0f578a972ee37931667d473c0f3f4305ec0f2398c6": 1788537920,
     "a934e0ca0a60f2fff4f1e42fef4b181b349cfa89b2e2bb8d6b4fd531a542c76f": 1788538102,
     "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": 1788538400,
-    "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14": 1788538884
+    "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14": 1788538884,
+    "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2": 1788539359
   },
   "known": {
     "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788518901.903705,
@@ -581,21 +582,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Люди бунтуют против ИИ и ЦОД — Альтман согласился, что отрасль сама в этом виновата - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZWptUDdfeVMyazFLYjVGY1FkVUg2VTAxNTR2ZEZGekJaS1QzcVZaS3RTb2tCUW9qQjVJaFkxOUMzSlJrZ2h5RG1neFY0WGxCbFRhc3JFOW13Q0hiWEgwVHVCY3RjUkZqX0NCaDl2OU1SR2NMekEzMFQxX3Bjd29PRjU5UEhSWWpLSkVMUDU0eGdhbmxWb2o3T3FFRlUyRzdkdGJkTUlPNThmbDlrTWlUX09YcXFNR1R6UnhTd19VY01LWFk?oc=5",
-      "desc": "Люди бунтуют против ИИ и ЦОД — Альтман согласился, что отрасль сама в этом виновата prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788528203.0,
-      "score": 68.2,
-      "russia_weight_bonus": 2.7,
-      "key": "f3278df92372d265adf6854044bd776d38e4d0948e12e3988f5b669946c2bfaa",
-      "importance": 68.2,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны - Life.ru",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2g3cmJzSDdqTll5NXdnQmpLQS1MM3d1bW9Pd0JkZW01QXBpc3haOXhfWkRwR1M5TTlQR3VxQWxsbkxEdF9MYzgweDFyQWJFaHJSbE1WSzBQXzhrR1dHS3FpVF9GVk0yWmxkWmxjeHlkN1pNNlY1OWpXWlVBaGx0NXhZY1dnSzZuV1JnTWJQQk5lVzJvSzNnX2dRNUswUQ?oc=5",
       "desc": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны Life.ru",
@@ -607,23 +593,6 @@
       "importance": 67.8,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 - Robotics Tomorrow",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVnpoT2lyMHgwOUo5c3JVVjFubWlmOHhXbWNjZUJQdzAwaHJWRE1Cc0RhYnZBWTMwZ3VUOEpFUUhfNGJrY3pJaXAtZm1TM2lrbC1ndUMteldFTUFhLTRsZUZYaWdFYWFtOXJfci1RODk5UlVwaWtlRDVIal9hRWN0Wml3NFcwaHZ2R1lVUjUtOWFqbXYtMmR6VXJ0c1lYQV9uX1lQX2NFaXFjV2FxNjJxWjBNbnFlVkNobGR2QkxvVENKU25mcjh0a3lIM3JqWHlWMVI3Zi11QQ?oc=5",
-      "desc": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 Robotics Tomorrow",
-      "source": "Robotics Tomorrow",
-      "time": 1788527710.0,
-      "score": 67.0,
-      "key": "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2",
-      "importance": 67.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications",
-        "robotics"
-      ],
       "tier": "A"
     },
     {
@@ -736,20 +705,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788538944.5689638,
+    "last_start_ts": 1788539359.8061073,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788538944.5689638,
-    "last_success_ts": 1788538944.5689638,
+    "last_run_ts": 1788539359.8061073,
+    "last_success_ts": 1788539359.8061073,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788538886.9361877
+      "updated_at": 1788539365.6273775
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -763,20 +732,6 @@
     }
   },
   "stories": {
-    "11c9400610e35397f4be118409236aa995cc5c2bd748bf6b585d444cdd527700": {
-      "time": 1788452649,
-      "title": "Модельный бизнес: «Яндекс» запустит ИИ-решение специально для корпоративного сектора - Forbes.ru",
-      "desc": "Модельный бизнес: «Яндекс» запустит ИИ-решение специально для корпоративного сектора Forbes.ru",
-      "source": "Forbes.ru",
-      "region": "RUSSIA"
-    },
-    "b8787c8126752eb4dbfdb543831727192e905480fab8515652b100b05dc2f7f7": {
-      "time": 1788452833,
-      "title": "Google says its AI weather model is getting better - The Verge",
-      "desc": "Google says its AI weather model is getting better The Verge",
-      "source": "The Verge",
-      "region": "WORLD"
-    },
     "e0a22d14628fe23455b724231422c45f7538fe680e53131f391b17d2d9fe5dd3": {
       "time": 1788453015,
       "title": "«Агентная революция превратила каждого из нас в супергероя» - kommersant.ru",
@@ -2428,11 +2383,17 @@
       "desc": "The National Beat: When to add AI agents The Business Journals",
       "source": "The Business Journals",
       "region": "WORLD"
+    },
+    "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2": {
+      "time": 1788539359,
+      "title": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 - Robotics Tomorrow",
+      "desc": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 Robotics Tomorrow",
+      "source": "Robotics Tomorrow",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2450,8 +2411,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788538102.15343,
-  "last_publish_ts": 1788538884.0361676
+  "last_publish_ts": 1788539359.8061073
 }
