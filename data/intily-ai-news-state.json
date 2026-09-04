@@ -272,7 +272,8 @@
     "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": 1788535341,
     "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": 1788535581,
     "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": 1788536002,
-    "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": 1788536242
+    "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": 1788536242,
+    "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536483
   },
   "known": {
     "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515000.8867981,
@@ -485,21 +486,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Разработчик показал симуляцию выживания на Unreal Engine с автономными ИИ-жителями - PlayGround.ru",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTFRHNElIZC1ZUm80RjJwSlVQRExxS09LckFweXp1Sng1SXFWSm9FbWxVNld5Zk9wSUxubXhCazV0cDJrNVBLdUk3dHJZcHNyUHQzNGdsTXpJTERkb25od0szbUgzakRpMmxoLXBnQVROLVh1LTZFV3lYWmlNZ1lBeUhSUFpoNEtFSHJaRnFJbktoMG1lUWdxZU5hMWxvUWpGUmxpUFR1VHByMkVwdzFCYjQ1cFM4Y1J3YjhFa0lzNXFOa0NZQko4Z3JGaUdXZmc?oc=5",
-      "desc": "Разработчик показал симуляцию выживания на Unreal Engine с автономными ИИ-жителями PlayGround.ru",
-      "source": "PlayGround.ru",
-      "time": 1788535175.0,
-      "score": 77.7,
-      "russia_weight_bonus": 2.2,
-      "key": "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d",
-      "importance": 77.7,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ - BeInCrypto",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zVS02RUdTWUZmR2pEb3pYZXhYY2tJYW5wLWpselMxZzZiN2JJelJRWTJENnZQXzhBcERqX0hVV21ZX1d4T3RDWW5Qb1R4YUtQc09XUlFMQXdSTlFRVjFWMmI0bjdJNkNITmd6SDh3TTctb2pUR3BMenotcFdDOGs?oc=5",
       "desc": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ BeInCrypto",
@@ -687,20 +673,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Broadcom Earnings: Can $58 Billion in AI Revenue Justify the Stock's Next Move? - equiti.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPTDlPbi1mYThyNGxrRWhVUElGMFhVTEpGLUNxYTVPTGtaenhnYUpxSC1RQkVrTGotNy05T0p5Ni1pSkx4M1dRTm1jR09RWUZmeE0zU2hwTXpEMVoteGU2SHlBb1ZGVTFNZHhCMEl6NVNKTnhOZVR4YmlMaV9tTXdpQzUyUDMtMG92Z1JCXzRVSXpZUzhtcWZaWW9xei1NS3F6YzBVSVN3S01SQWloTXdYT01CQ2JEZmhmbmRZSXFqSWZYUE1IWlFXNFJ5NTRNX3Q2My05TG1wN01teE9XVm1YcTUtaTNUdVZKN2dIOEd1X09rTk1uVk1jamxFRDY5WDItRjFRdjU0aWJrXzdMdWkzRWFTX0Q4TWxJZ0prbWk4MW8xWmhpcXZyeA?oc=5",
-      "desc": "Broadcom Earnings: Can $58 Billion in AI Revenue Justify the Stock's Next Move? equiti.com",
-      "source": "equiti.com",
-      "time": 1788525605.0,
-      "score": 67.5,
-      "key": "7e9f0b25d84b2376d5ee86a575d55c0fb74710837797c3ed9bad8ab0d1a5913b",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty - Tech Review Africa",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazBFLW1md3JhaS1iX2E3QXdsbVVXdktEVk4yS0lqV2dDX1haMWw4SzJjSllFUmY5MVcxTjhMNlMtamlTVmhLMnRTT1JGZWVYMlZvemdBSGNzZGlzLXUwYUYxdUZ3TW1EX0twLW9jR1JVcHNtZmlmWUI4YTMweERaY2hfZFNYREQ5U2c0WUdrV1R4VFBXaTlfRW5EZ1ljUmphRW5oZHdNblduWms0TlpIeGUtY3JzbDNNYkRkMWktOVRtTGs5ckJtOUhNUzYwUQ?oc=5",
       "desc": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty Tech Review Africa",
@@ -772,23 +744,37 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Broadcom Earnings: Can $58 Billion in AI Revenue Justify the Stock's Next Move? - equiti.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPTDlPbi1mYThyNGxrRWhVUElGMFhVTEpGLUNxYTVPTGtaenhnYUpxSC1RQkVrTGotNy05T0p5Ni1pSkx4M1dRTm1jR09RWUZmeE0zU2hwTXpEMVoteGU2SHlBb1ZGVTFNZHhCMEl6NVNKTnhOZVR4YmlMaV9tTXdpQzUyUDMtMG92Z1JCXzRVSXpZUzhtcWZaWW9xei1NS3F6YzBVSVN3S01SQWloTXdYT01CQ2JEZmhmbmRZSXFqSWZYUE1IWlFXNFJ5NTRNX3Q2My05TG1wN01teE9XVm1YcTUtaTNUdVZKN2dIOEd1X09rTk1uVk1jamxFRDY5WDItRjFRdjU0aWJrXzdMdWkzRWFTX0Q4TWxJZ0prbWk4MW8xWmhpcXZyeA?oc=5",
+      "desc": "Broadcom Earnings: Can $58 Billion in AI Revenue Justify the Stock's Next Move? equiti.com",
+      "source": "equiti.com",
+      "time": 1788525605.0,
+      "score": 60.0,
+      "key": "7e9f0b25d84b2376d5ee86a575d55c0fb74710837797c3ed9bad8ab0d1a5913b",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788536242.444593,
+    "last_start_ts": 1788536483.6339517,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788536242.444593,
-    "last_success_ts": 1788536242.444593,
-    "last_candidates": 109,
+    "last_run_ts": 1788536483.6339517,
+    "last_success_ts": 1788536483.6339517,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788536276.462449
+      "updated_at": 1788536489.1629589
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -802,13 +788,6 @@
     }
   },
   "stories": {
-    "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": {
-      "time": 1788449952,
-      "title": "Meta, Google join the AI launch party - The Rundown AI",
-      "desc": "Meta, Google join the AI launch party The Rundown AI",
-      "source": "The Rundown AI",
-      "region": "WORLD"
-    },
     "f81ee0206f38d4ee9ce2899c6ab2486b42aa951a2517b1b8c0137045b8104948": {
       "time": 1788450319,
       "title": "M1Cloud: прогноз трансформации от IaaS к AI-IaaS на российском облачном рынке до 2030 года - itweek.ru",
@@ -2488,11 +2467,17 @@
       "desc": "Leverage Code Review for Sustainable AI Coding Development Communications of the ACM",
       "source": "Communications of the ACM",
       "region": "WORLD"
+    },
+    "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": {
+      "time": 1788536483,
+      "title": "Разработчик показал симуляцию выживания на Unreal Engine с автономными ИИ-жителями - PlayGround.ru",
+      "desc": "Разработчик показал симуляцию выживания на Unreal Engine с автономными ИИ-жителями PlayGround.ru",
+      "source": "PlayGround.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2510,8 +2495,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788536242.444593,
-  "last_publish_ts": 1788536242.444593
+  "last_publish_ts": 1788536483.6339517
 }
