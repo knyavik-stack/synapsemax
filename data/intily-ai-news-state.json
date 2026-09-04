@@ -210,7 +210,8 @@
     "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515242,
     "4561ddad4735781d460af382c3d709b0c0e4eaf2d4c59ab3c8077599581d7bd1": 1788515542,
     "f5ca24235d447ba04a82e53aa554c0def9b9ee462a5f3bd37ca101283a748b24": 1788515961,
-    "6fde6c3b46c78c678e1b7791b92057c9bc65076555cc30774884b12958fb0645": 1788516141
+    "6fde6c3b46c78c678e1b7791b92057c9bc65076555cc30774884b12958fb0645": 1788516141,
+    "42aecec097316a0941c5bee3d313393e01425546af18c7d2ad917206a7e055b5": 1788516562
   },
   "known": {
     "3ee9a099aa9259fc0cbd48d24d4b344dc9737a04088b3aa820c9d952f17d9eae": 1788495069.2696536,
@@ -363,28 +364,14 @@
     },
     {
       "region": "WORLD",
-      "title": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House - TV News Check",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONVIxYXptTUZubXFKX2c2c0FVYWR0ejZybktyM3R0SktTUTF4OVkzd3lUY2h2c3daSnpzTTNhUzNSV1hKVGpGRnFCcHNDYUdBU3lrb3RMMXlNWGVYN2xaRHNCWmR6NlJoTUJjd3o1c2VzSzFYd0RsTExidEdHN2szQUtLMW5ReWh2bWhhbnVWOUNXZS10UDlPSW5QUDRvbF9MQ01HSWlyY0tLb1VVU1AwNU1zVmkwZDBnYWc?oc=5",
-      "desc": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House TV News Check",
-      "source": "TV News Check",
-      "time": 1788514296.0,
-      "score": 66.5,
-      "key": "42aecec097316a0941c5bee3d313393e01425546af18c7d2ad917206a7e055b5",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Google Says New AI Weather System Can Talk to Satellites for Hourly Forecasts - The Hans India",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWDNqcXg5ZGZ6bUZMa21FNmhXX3RXRm5yTGUxSTVxVXdfWE9iUHpGeGJVUmwwT3R4QVpnVHVrUWJZXzlIVWl1TUgtbG9OWkdyUzB0RnBCWHB0TUdlSHZFSzQwVVotUDhrQ3ZsYVotcHd5QnRNREpDNTBZNjFoeTlWYXZYdFdJMkRSeWZuOXZnMUhjamQ1Wmo0TmNFUmJaLWs1U0hGUm5nekFMN1J6MkQ3TzY2OXN1VnlJdjZr?oc=5",
       "desc": "Google Says New AI Weather System Can Talk to Satellites for Hourly Forecasts The Hans India",
       "source": "The Hans India",
       "time": 1788512928.0,
-      "score": 66.5,
+      "score": 63.5,
       "key": "fe86cfca7ddd06270ddf285fc073f6b22df01654ee5d696141c9164dce21ee1b",
-      "importance": 66.5,
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -396,9 +383,9 @@
       "desc": "SPARC AI (CN:SPAI) Gains Momentum as Defence AI Innovation and GPS-Denied Drone Technology Drive Investor Optimism kalkine.ca",
       "source": "kalkine.ca",
       "time": 1788512820.0,
-      "score": 66.5,
+      "score": 63.5,
       "key": "769f8997081fc573476ce8fa7174453657c5b97055381a9a7ff235beef009858",
-      "importance": 66.5,
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -530,20 +517,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788516268.2103333,
+    "last_start_ts": 1788516562.5338945,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788516268.2103333,
-    "last_success_ts": 1788516268.2103333,
+    "last_run_ts": 1788516562.5338945,
+    "last_success_ts": 1788516562.5338945,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 15
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788516143.4870086
+      "updated_at": 1788516565.7765768
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2033,10 +2020,16 @@
       "desc": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей companies.rbc.ru",
       "source": "companies.rbc.ru",
       "region": "RUSSIA"
+    },
+    "42aecec097316a0941c5bee3d313393e01425546af18c7d2ad917206a7e055b5": {
+      "time": 1788516562,
+      "title": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House - TV News Check",
+      "desc": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House TV News Check",
+      "source": "TV News Check",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2055,8 +2048,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788515000.8867981,
-  "last_publish_ts": 1788516141.3316338
+  "last_publish_ts": 1788516562.5338945
 }
