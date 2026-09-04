@@ -270,10 +270,10 @@
       "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» ICT-Online.ru",
       "source": "ICT-Online.ru",
       "time": 1788506778.0,
-      "score": 72.7,
+      "score": 73.7,
       "russia_weight_bonus": 4.2,
       "key": "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f",
-      "importance": 72.7,
+      "importance": 73.7,
       "editorial_value": 50.0,
       "topics": [
         "agents"
@@ -287,10 +287,10 @@
       "desc": "Закон об ИИ в России: новые возможности для Якутии YakutiaMedia",
       "source": "YakutiaMedia",
       "time": 1788505304.0,
-      "score": 70.6,
+      "score": 71.6,
       "russia_weight_bonus": 2.1,
       "key": "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc",
-      "importance": 70.6,
+      "importance": 71.6,
       "editorial_value": 50.0,
       "topics": [
         "security_regulation"
@@ -304,10 +304,10 @@
       "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
       "source": "Национальное аграрное агентство",
       "time": 1788504000.0,
-      "score": 69.9,
+      "score": 70.9,
       "russia_weight_bonus": 1.4,
       "key": "839b86977f8f0a32b5a6f233f60966e3af27d7d98e67bb27230f06c598a8fadc",
-      "importance": 69.9,
+      "importance": 70.9,
       "editorial_value": 50.0,
       "topics": [
         "agents"
@@ -321,10 +321,10 @@
       "desc": "Две трети россиян выступили за маркировку ИИ-контента techora.ru",
       "source": "techora.ru",
       "time": 1788503787.0,
-      "score": 69.5,
+      "score": 70.5,
       "russia_weight_bonus": 5.0,
       "key": "71d41715e545f03f5bad3358357dc61fa22cd009173ab81d3b73ae3746498994",
-      "importance": 69.5,
+      "importance": 70.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -336,10 +336,10 @@
       "desc": "Сбер поможет развивать цифровые решения в Еврейской автономной области prospect.com.ru",
       "source": "prospect.com.ru",
       "time": 1788501182.0,
-      "score": 68.9,
+      "score": 69.9,
       "russia_weight_bonus": 4.4,
       "key": "139b677c3a51bc40b5cbcc7218f61befce1b37585c1ea8882b5452b6ef1c6391",
-      "importance": 68.9,
+      "importance": 69.9,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -351,10 +351,10 @@
       "desc": "Правительство РФ: отечественные нейросети привлекут к образованию и проведению выборов TelecomDaily",
       "source": "TelecomDaily",
       "time": 1788501329.0,
-      "score": 68.7,
+      "score": 69.7,
       "russia_weight_bonus": 1.2,
       "key": "de2ba6b72d78be9ff809eb81321a3b139e7432ae40adfc430785b9541b915c76",
-      "importance": 68.7,
+      "importance": 69.7,
       "editorial_value": 50.0,
       "topics": [
         "applications"
@@ -368,10 +368,42 @@
       "desc": "Директор Президентской академии в Санкт-Петербурге Андрей Хлутков: «Искусственный интеллект должен освобождать педагога от рутины, а не заменять живой контакт» nia-rf.ru",
       "source": "nia-rf.ru",
       "time": 1788501490.0,
-      "score": 68.1,
+      "score": 69.1,
       "russia_weight_bonus": 3.6,
       "key": "4d08cfa99a52470fd98f35574f7435e4cdead3fb5b745f6f92dc66fb26b555f0",
-      "importance": 68.1,
+      "importance": 69.1,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть - cisoclub",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDRGeHVzc3d2X25oRHVXNElTRmhQdEVZR1dkTGVYU2RyelBhRU9vZGxlZmliUmFMZFJDR09VZnV2WUpHYVkzU2VSTkJQQVAwMVg3bHZqWGZOaVRtZjZMSnF2THpuRDZFRzF6aEFOTkNkeHNmQ2NMMjBNOHNvQ2lKWnV3aEpjUEhKcXk1RE1HZ3N1V2NXMFFLMFp2Qk5jdnpvQUV1QQ?oc=5",
+      "desc": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть cisoclub",
+      "source": "cisoclub",
+      "time": 1788506745.0,
+      "score": 67.6,
+      "russia_weight_bonus": 2.1,
+      "key": "806b1e556eb49ff75c31a89a52e7c734a0f584e1b9c388c74e6ab728d8ce01a5",
+      "importance": 67.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - cnews.ru",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UUUh3LTRDcXhzUnJMc1diZWYyYVgxVm5UYlQxeWwzOFRFak9kRTZKWjh3VEtXbWtWYzNaeHgyX0szZHBwalgtdGw2bGhKb29oMkhudDlPdkkyQ09tMUN1UkZjaW9Beks4dkhKMEZiVDVkdndHMEtMTQ?oc=5",
+      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности cnews.ru",
+      "source": "cnews.ru",
+      "time": 1788506262.0,
+      "score": 67.6,
+      "russia_weight_bonus": 2.1,
+      "key": "507d1aa7359e57203ae617caf7266d80de108ad6c1547dc1d71e70096b12af1c",
+      "importance": 67.6,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -423,38 +455,6 @@
       "topics": [
         "chips"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть - cisoclub",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDRGeHVzc3d2X25oRHVXNElTRmhQdEVZR1dkTGVYU2RyelBhRU9vZGxlZmliUmFMZFJDR09VZnV2WUpHYVkzU2VSTkJQQVAwMVg3bHZqWGZOaVRtZjZMSnF2THpuRDZFRzF6aEFOTkNkeHNmQ2NMMjBNOHNvQ2lKWnV3aEpjUEhKcXk1RE1HZ3N1V2NXMFFLMFp2Qk5jdnpvQUV1QQ?oc=5",
-      "desc": "Claude Mythos нашёл тысячи уязвимостей, но люди проверили лишь малую часть cisoclub",
-      "source": "cisoclub",
-      "time": 1788506745.0,
-      "score": 66.6,
-      "russia_weight_bonus": 2.1,
-      "key": "806b1e556eb49ff75c31a89a52e7c734a0f584e1b9c388c74e6ab728d8ce01a5",
-      "importance": 66.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - cnews.ru",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UUUh3LTRDcXhzUnJMc1diZWYyYVgxVm5UYlQxeWwzOFRFak9kRTZKWjh3VEtXbWtWYzNaeHgyX0szZHBwalgtdGw2bGhKb29oMkhudDlPdkkyQ09tMUN1UkZjaW9Beks4dkhKMEZiVDVkdndHMEtMTQ?oc=5",
-      "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности cnews.ru",
-      "source": "cnews.ru",
-      "time": 1788506262.0,
-      "score": 66.6,
-      "russia_weight_bonus": 2.1,
-      "key": "507d1aa7359e57203ae617caf7266d80de108ad6c1547dc1d71e70096b12af1c",
-      "importance": 66.6,
-      "editorial_value": 50.0,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -518,13 +518,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788510742.9793644,
+    "last_start_ts": 1788510808.1157372,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788510742.9793644,
-    "last_success_ts": 1788510742.9793644,
+    "last_run_ts": 1788510808.1157372,
+    "last_success_ts": 1788510808.1157372,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 16
   },
   "providers": {
