@@ -263,7 +263,8 @@
     "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136": 1788532764,
     "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": 1788533000,
     "89146aebec7fe909514a515faf742bed9616b0ad585fa51d22c3371bd9247f01": 1788533242,
-    "f11555b558f47a11304bb8b9357b6b61639bf48eac5b3eb7ed8de1240453815e": 1788533542
+    "f11555b558f47a11304bb8b9357b6b61639bf48eac5b3eb7ed8de1240453815e": 1788533542,
+    "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344": 1788533840
   },
   "known": {
     "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": 1788513026.6221929,
@@ -560,20 +561,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Anthropic Makes Stunning $15 Billion Move Before IPO - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZVJNMTMzbVNaYUVzQnJDSWVLdVkyZUViMmFyUDF6djU5QmV2UTF4WHNzZXJ6aElwOGlxYjVOamFJRG0yQTA4UGcwWXdpVTZxOE5pZ2JaTWNRSGNFVzE2Q0x2M2dPQm5DaVdmejcxQjEyODhIS0JvblZPbGJwZm96azJ3OE9qUy02NUxENzkzTE9rYTZKRllOR0wxdm5EUUY2ZWt2cjRNd3Y5UTJsdVJONw?oc=5",
-      "desc": "Anthropic Makes Stunning $15 Billion Move Before IPO TradingView",
-      "source": "TradingView",
-      "time": 1788529049.0,
-      "score": 67.5,
-      "key": "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters - officechai.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZyelliLVdsNldUdm5RUWlxdTNVaGx4OTJNSXdoVzlqOS1CSmo1NWUzTm80T1NFenFPdXhBLUZuajU4Z2RUdzVHYUZkYlh6eVBNejlLZ05jSmdfZ1VSWGs0R0h5VVo4d19TZkY4UHZ5T2lFT3V6WlNwSGJlV3h3cXRvdTd6R3h6Q0FIUmRkMEMxaVVaMGVPc3NfUGtScHpabldhNDBxa0V6OHliV0wzZVF3?oc=5",
       "desc": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters officechai.com",
@@ -678,20 +665,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788533542.037406,
+    "last_start_ts": 1788533840.521639,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788533542.037406,
-    "last_success_ts": 1788533542.037406,
+    "last_run_ts": 1788533840.521639,
+    "last_success_ts": 1788533840.521639,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 15
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788533544.849478
+      "updated_at": 1788533846.4594545
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -705,13 +692,6 @@
     }
   },
   "stories": {
-    "aabf5bac99063c23f48b23fe8ec64e44991fd530328a335036e2532e4a06c2ee": {
-      "time": 1788447250,
-      "title": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России - gosrf.ru",
-      "desc": "Ассоциация Финтех: 96% лидеров рынка используют ИИ в разработке ПО в России gosrf.ru",
-      "source": "gosrf.ru",
-      "region": "RUSSIA"
-    },
     "4784ee3b6fd1d878943e8ef61d7fba05b9ffc05460b4ce3d116481af5c42afbe": {
       "time": 1788447441,
       "title": "Google eyes coding comeback with new Gemini 3.8 Flash model - varindia.com",
@@ -2391,10 +2371,16 @@
       "desc": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters theins.ru",
       "source": "theins.ru",
       "region": "RUSSIA"
+    },
+    "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344": {
+      "time": 1788533840,
+      "title": "Anthropic Makes Stunning $15 Billion Move Before IPO - TradingView",
+      "desc": "Anthropic Makes Stunning $15 Billion Move Before IPO TradingView",
+      "source": "TradingView",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2413,8 +2399,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788532400.983643,
-  "last_publish_ts": 1788533542.037406
+  "last_publish_ts": 1788533840.521639
 }
