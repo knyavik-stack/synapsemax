@@ -247,7 +247,8 @@
     "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0": 1788527960,
     "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5": 1788528379,
     "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": 1788528562,
-    "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": 1788528862
+    "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": 1788528862,
+    "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8": 1788529102
   },
   "known": {
     "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": 1788509361.5282607,
@@ -438,24 +439,11 @@
       "importance": 83.9,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой - Sostav.ru",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSm5QUFZsempVcHFaMDFnQ2t0Nl9NdW40ZGlkcC01WEE3QVJZVmFka2JCdHFvZFBpNG9Md2ZvdmxLMzdEbUprRmJGY0R3VFRzaldtM1JmeGZkc2pCQ2w5WWRIVHVRTng5QkQ5d0ZTTllNcGU0Slc2dXFOOUZQMlpUSHg1T3NMb1NFMWs3V0JSWE1CX0k4RjVXRGRJdGZ0UlpQVjlOZGtZWVFKalFwWHk2Mm9HdTBJZ0U?oc=5",
-      "desc": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой Sostav.ru",
-      "source": "Sostav.ru",
-      "time": 1788528180.0,
-      "score": 75.9,
-      "russia_weight_bonus": 3.4,
-      "key": "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8",
-      "importance": 75.9,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788529102,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788529402
     },
     {
       "region": "WORLD",
@@ -720,20 +708,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788528980.172274,
+    "last_start_ts": 1788529102.7739463,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788528980.172274,
-    "last_success_ts": 1788528980.172274,
+    "last_run_ts": 1788529102.7739463,
+    "last_success_ts": 1788529102.7739463,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788528865.7068756
+      "updated_at": 1788529124.9220965
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2433,10 +2421,16 @@
       "desc": "SmallBiz.ai Launches to Help Small Businesses Turn AI Into More Sales, Lower Costs and Simpler Operations PR Newswire",
       "source": "PR Newswire",
       "region": "WORLD"
+    },
+    "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8": {
+      "time": 1788529102,
+      "title": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой - Sostav.ru",
+      "desc": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой Sostav.ru",
+      "source": "Sostav.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2455,8 +2449,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788528681.428885,
-  "last_publish_ts": 1788528862.1569233
+  "last_publish_ts": 1788529102.7739463
 }
