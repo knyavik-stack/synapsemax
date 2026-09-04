@@ -184,7 +184,8 @@
     "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": 1788505280,
     "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d": 1788505701,
     "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220": 1788506842,
-    "69f66e1dce7410a63189f8a91065208dcd28f2e035afca03bb728fb8fc72f14f": 1788507323
+    "69f66e1dce7410a63189f8a91065208dcd28f2e035afca03bb728fb8fc72f14f": 1788507323,
+    "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788507683
   },
   "known": {
     "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": 1788486174.074481,
@@ -260,21 +261,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Anthropic может стать лидером «осенней гонки ИИ»: новые модели разработчика обошли Google и OpenAI - RB.ru",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWXd0OWxNMlJFWVl1ejRwaER3dnJjS0tNc3ItT09JNE43YUFkb2l4a0pZVFZxN3NkMkxuQ3N2SUtzSWVVbVNjNS12c0ZfVFJIeTJfQjRiR1RfbjlnSWJOUUV5N2EySF9BTEhlMVBfS1JLRjI2bjlMVDJKNlNpVTZINXJSeXM0aHY5UkdHQnUzWTk1NHJQaXZsZUZ5dGdNU0JqVnZrSUc2WE82a0h2Q0R3SUlHcE12SU5i?oc=5",
-      "desc": "Anthropic может стать лидером «осенней гонки ИИ»: новые модели разработчика обошли Google и OpenAI RB.ru",
-      "source": "RB.ru",
-      "time": 1788501600.0,
-      "score": 79.7,
-      "russia_weight_bonus": 4.2,
-      "key": "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1",
-      "importance": 79.7,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Сбер представил видение будущего торговли: от платформ к ИИ-агентам - primpress.ru",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IMWw4Y2dCV3pyY2VfRWhSSnJLVTUyU01xdnhxd3BDOGY1VEw2U05vQllVUDJBMFV6aE1kYlBpSVRUa1VONXhqMkFnZw?oc=5",
       "desc": "Сбер представил видение будущего торговли: от платформ к ИИ-агентам primpress.ru",
@@ -322,23 +308,6 @@
       "editorial_value": 50.0,
       "topics": [
         "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
-      "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
-      "source": "Национальное аграрное агентство",
-      "time": 1788504000.0,
-      "score": 72.9,
-      "russia_weight_bonus": 1.4,
-      "key": "839b86977f8f0a32b5a6f233f60966e3af27d7d98e67bb27230f06c598a8fadc",
-      "importance": 72.9,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
       ],
       "tier": "A"
     },
@@ -399,6 +368,23 @@
       "score": 70.5,
       "key": "d39a7884e5d6a904c7b16ceb5b3cb8189f71d046e759f6fa4547b667bb7d9949",
       "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
+      "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
+      "source": "Национальное аграрное агентство",
+      "time": 1788504000.0,
+      "score": 69.9,
+      "russia_weight_bonus": 1.4,
+      "key": "839b86977f8f0a32b5a6f233f60966e3af27d7d98e67bb27230f06c598a8fadc",
+      "importance": 69.9,
       "editorial_value": 50.0,
       "topics": [
         "agents"
@@ -565,20 +551,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788507323.0378804,
+    "last_start_ts": 1788507683.3591444,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788507323.0378804,
-    "last_success_ts": 1788507323.0378804,
-    "last_candidates": 56,
+    "last_run_ts": 1788507683.3591444,
+    "last_success_ts": 1788507683.3591444,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788507388.635315
+      "updated_at": 1788507686.2595851
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1886,10 +1872,16 @@
       "desc": "Why Is Salesforce (NYSE:CRM) Stock In Focus As AI Agent Adoption Fuels A Sharp Rebound? Kalkine Media",
       "source": "Kalkine Media",
       "region": "WORLD"
+    },
+    "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": {
+      "time": 1788507683,
+      "title": "Anthropic может стать лидером «осенней гонки ИИ»: новые модели разработчика обошли Google и OpenAI - RB.ru",
+      "desc": "Anthropic может стать лидером «осенней гонки ИИ»: новые модели разработчика обошли Google и OpenAI RB.ru",
+      "source": "RB.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -1908,8 +1900,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788507323.0378804,
-  "last_publish_ts": 1788507323.0378804
+  "last_publish_ts": 1788507683.3591444
 }
