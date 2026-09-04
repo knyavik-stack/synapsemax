@@ -439,7 +439,24 @@
     "cf09c7b1a7a6d4bc45c322fe96279e8ef953fbcf63f689e8add16b121f52dd45": 1788530483.340653,
     "566f8c9d1d39a7ad3f3119737e95207346b5f1fd5aa44287f57e822c4f15923f": 1788530483.340653,
     "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc": 1788530483.340653,
-    "b0021c68138f41ea9c4b899c6a15ff61d83b0d9b6d9fff080ea52c18c8e6fe99": 1788530483.340653
+    "b0021c68138f41ea9c4b899c6a15ff61d83b0d9b6d9fff080ea52c18c8e6fe99": 1788530483.340653,
+    "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": 1788532400.983643,
+    "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a": 1788532400.983643,
+    "7c74a8361aab0e3a2e4ff3fc6ccba0196c06d2adec6396eb9c1cd09d6a5c6e3d": 1788532400.983643,
+    "35f517678443e7e00b0b3207afd3aa81e40259732e15602672ab22e57320da59": 1788532400.983643,
+    "89146aebec7fe909514a515faf742bed9616b0ad585fa51d22c3371bd9247f01": 1788532400.983643,
+    "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344": 1788532400.983643,
+    "84d68356b3274c1bf108c445ff31645659115c4ab74eced1a70996ea4edcf591": 1788532400.983643,
+    "49564a7d173dab6929645f2d246032f15982f2e4cfbef921cd79a32ae47c0c60": 1788532400.983643,
+    "f40db154071ab97261f8221694de020fb5108465717f3aac659d14b7d1a7345e": 1788532400.983643,
+    "8aee0620d08f84710bdb65cc20884d1b10f0046ed6d6edbd91650cb0b6373cb1": 1788532400.983643,
+    "1629a5dc13625ae381d68baaf4b5e9c2a3127a16f2944dd6873f51a5cd7b8db0": 1788532400.983643,
+    "fcd981b3f298c5abab2bf19cde8cb77e695600787d5d90af1bddb5eb029e1457": 1788532400.983643,
+    "c79b0aa2af38af29de6e5886747863d61f331510038c06c5e7fbd2f51c2cccb4": 1788532400.983643,
+    "91dfe793b6ed1d2bd2f17df5cd051acc69b80c2360cda0842ab65030aa69f9e4": 1788532400.983643,
+    "4caec12fe9d9c2fa1c8b0f743cdca6de282636e7076113f1569851bc9f654206": 1788532400.983643,
+    "633b5e0c75d86708a865a9a9a83372b3e46dc394e80e0ed97ee978b7c7f32ace": 1788532400.983643,
+    "998f0eab1710a01fbfd2436f3c3a1ef39f6e6605e34840cb11ce64f5e55e0893": 1788532400.983643
   },
   "queue": [
     {
@@ -465,6 +482,39 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI - expert.ru",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVm16ejNZY1o4cGZMYmxWRy1EcEJuQzFRRjN0eDhqLUh4Q3BXbUc4MXdYbUpUTTdsNXQxLXpXU0pOTkg4MXF4cmxRWUJNcTJySDJZbldJcFo3dDZYQzFlYTNYUzRiNGtGM01CSVBXTTJiRy03X2h6REpzbVRLTkRBYWl4dFh1OEM1SFM4?oc=5",
+      "desc": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI expert.ru",
+      "source": "expert.ru",
+      "time": 1788531780.0,
+      "score": 76.0,
+      "russia_weight_bonus": 3.5,
+      "key": "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee",
+      "importance": 76.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "ChatGPT model launched with extra 'safeguards' after bots hacked company - Metro.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNXzdBUVpkTUYwei1WVzA3X3VQQkR5a2RfNlQ1MjlOdGtySktTYWF1bzdGWWhtcE5iUXk3TTB2dGczSHJoUkhwdTRhcUhGWWZlb1pPNkw2VnNBaGxVYjRjUnV1QTR2blVzY3YtOWZlZUlqNFZtQ1NEelNJeDZUQm43OEx0SlBxblczeklRa2gtd01zb0NFdnNraV8tU1gwVE01VnfSAacBQVVfeXFMUDhoM2l4TE03OWpFNVdibWtseDQ5azZkZkc5NHJXOFpPZXE2c2pQR1hGaHg2MUtDbWtMcmxobVhmamNRRnRKTW1ZaVgtNHF1WWVnR0xHRFNLbDdVZ2hZbnJvWG1hVF9hWUt2WG5lYzMyT1NjSEx6QjBzZlAyR3JLb3VlVlM2TVVjNHA5X3VZSjNaVmpZdjNzVjNWbDNXYkQxQWpkTzJnZE0?oc=5",
+      "desc": "ChatGPT model launched with extra 'safeguards' after bots hacked company Metro.co.uk",
+      "source": "Metro.co.uk",
+      "time": 1788530400.0,
+      "score": 74.5,
+      "key": "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a",
+      "importance": 74.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters - theins.ru",
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1qUTFXVW1BVG1jeExMYTBGTkM0VHFtYWNkQWhfVTdtR2pYS3FMQVVmVzE4TlhaeU56aGd0bERYTUtTVlU?oc=5",
       "desc": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters theins.ru",
@@ -482,6 +532,36 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Как сэкономить 2 580 часов в год на подготовке сметы в ремонтной компании с помощью Битрикс24 и нейросетей - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON1l6cElaeWxDX2JQZnQwY1lIbTlCNktLTlB0dFQ5d1JPeE91WVNCMXg0TXZPczNKd0x3Y2lzUXZSVU1XcXdLc3RGMnpmLUFqb3Q4OEw3SmwtMjdSRTBlYmhKOThma1R5NS1ITE85R1pDU2VPM1JuY0stdlAxZU5KUjk1N1dtdC1UbXczUm1sZThoYUVySHd3Rg?oc=5",
+      "desc": "Как сэкономить 2 580 часов в год на подготовке сметы в ремонтной компании с помощью Битрикс24 и нейросетей VC.ru",
+      "source": "VC.ru",
+      "time": 1788532045.0,
+      "score": 71.7,
+      "russia_weight_bonus": 2.2,
+      "key": "7c74a8361aab0e3a2e4ff3fc6ccba0196c06d2adec6396eb9c1cd09d6a5c6e3d",
+      "importance": 71.7,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Не бояться нейросетей призвал учащихся глава Минцифры Новосибирской области - Горсайт",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONERNbGRsRkZ6T1NCZ0JlYXQ5amZJU2Q0c1BlTl9CdFBWN2UwekFha0tpWVNPVUJuenJmTzV2UTR4c01WYVMtNzJEbWNxN3c1T3U0Y2tUVGxFU0tuekg1NjVGMjlIeVFGUmR3Vy0tMUpHRnM4M0R4eTZueXhaUGZLbEJiQTQycWdGX1FaYVhfaVhNdTRZbUlHak1GVFJGS1AyZGdZNWJjZFdGbHo5N0VqWW5oRkdxV1RZNnVFeA?oc=5",
+      "desc": "Не бояться нейросетей призвал учащихся глава Минцифры Новосибирской области Горсайт",
+      "source": "Горсайт",
+      "time": 1788530384.0,
+      "score": 71.5,
+      "russia_weight_bonus": 3.0,
+      "key": "35f517678443e7e00b0b3207afd3aa81e40259732e15602672ab22e57320da59",
+      "importance": 71.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
       "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности prospect.com.ru",
@@ -491,6 +571,36 @@
       "russia_weight_bonus": 2.8,
       "key": "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6",
       "importance": 71.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Are our AI agents turning rogue? - SC Media",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsTXVDQU9HWXgxaEc2ZVU5MS1wS0RBeWpSNWxpQnhrZHhYUWd5akViNU9pUlZ3Ri1DMXUtbzZqMk1ac25zUXlJMGhkSEg2dkN2VXJWZ3FGTXlnU2M3VVZwaThuQklXem01dmtlRFo5Q0NtcmExd0E?oc=5",
+      "desc": "Are our AI agents turning rogue? SC Media",
+      "source": "SC Media",
+      "time": 1788532043.0,
+      "score": 70.5,
+      "key": "89146aebec7fe909514a515faf742bed9616b0ad585fa51d22c3371bd9247f01",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Anthropic Makes Stunning $15 Billion Move Before IPO - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZVJNMTMzbVNaYUVzQnJDSWVLdVkyZUViMmFyUDF6djU5QmV2UTF4WHNzZXJ6aElwOGlxYjVOamFJRG0yQTA4UGcwWXdpVTZxOE5pZ2JaTWNRSGNFVzE2Q0x2M2dPQm5DaVdmejcxQjEyODhIS0JvblZPbGJwZm96azJ3OE9qUy02NUxENzkzTE9rYTZKRllOR0wxdm5EUUY2ZWt2cjRNd3Y5UTJsdVJONw?oc=5",
+      "desc": "Anthropic Makes Stunning $15 Billion Move Before IPO TradingView",
+      "source": "TradingView",
+      "time": 1788529049.0,
+      "score": 70.5,
+      "key": "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344",
+      "importance": 70.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -541,6 +651,21 @@
       "tier": "A"
     },
     {
+      "region": "RUSSIA",
+      "title": "Сэм Альтман признал, что создатели нейросетей сами виноваты в глобальной панике вокруг искусственного интеллекта » Новости Кыргызстана, Бишкека и Оша — последние события на сегодня - open.kg",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMnh0MUhBb3ZDWWNMSDJsQ0VrTkRvTjZOek9aLXQxTVllMzREbkpWeGd2dU94VVJXNmxDUzhnLTZtUXVXdmxMbHhlclB6WU5QWlRZcnhLSXB5cEZwUkRpLXUwSmtxeUhqSi1KSmRFZHBCbXlFeThFZ0REaF9TOEVmZ3Eya0xSTFFVV1FQZ3lGR2tUaEE3M3RqamI1cEY4cFdtcjlJeXlfdGxnTjdpbm5pR0ZDNXFVU19Zcmxqd0QxbTdVT0EwQVAtWmZwcFktRHFmcVk0b3ZNSmN0YnNqalhMQmxJdGhKZnJfU3c?oc=5",
+      "desc": "Сэм Альтман признал, что создатели нейросетей сами виноваты в глобальной панике вокруг искусственного интеллекта » Новости Кыргызстана, Бишкека и Оша — последние события на сегодня open.kg",
+      "source": "open.kg",
+      "time": 1788527815.0,
+      "score": 67.6,
+      "russia_weight_bonus": 2.1,
+      "key": "84d68356b3274c1bf108c445ff31645659115c4ab74eced1a70996ea4edcf591",
+      "importance": 67.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters - officechai.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZyelliLVdsNldUdm5RUWlxdTNVaGx4OTJNSXdoVzlqOS1CSmo1NWUzTm80T1NFenFPdXhBLUZuajU4Z2RUdzVHYUZkYlh6eVBNejlLZ05jSmdfZ1VSWGs0R0h5VVo4d19TZkY4UHZ5T2lFT3V6WlNwSGJlV3h3cXRvdTd6R3h6Q0FIUmRkMEMxaVVaMGVPc3NfUGtScHpabldhNDBxa0V6OHliV0wzZVF3?oc=5",
@@ -572,13 +697,27 @@
     },
     {
       "region": "WORLD",
-      "title": "CX AI: Artificial Intelligence and the Future of CX - SNS Insider",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd0hVUUFzdGhaUGNQQ255MzkwX0ZRYUU4eEVFX250ZmhTM3NZSHd5ZW01YlhfSFhYZi1EQ3J3c05GaEZ4aG9kRFpFYWdjQ09VcEtjZ2xPTjJNUmxBaU8xYTZUV1NZVS1mUlVYZkxjWEI5TVJ4cnMzV2U5c0gyNjh2WTNmdlF1OTZDZFlzSVY3RlI0UERuSTVFdjd0UEo0eHZmbDlvNkQzcmlLQQ?oc=5",
-      "desc": "CX AI: Artificial Intelligence and the Future of CX SNS Insider",
-      "source": "SNS Insider",
-      "time": 1788529076.0,
+      "title": "ByteDance Secures $29.6 Billion Loan for AI Expansion - Whalesbook",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTDU3ZDYwSWxBTm9QXzYxQmotMkVvQnVReGFDQ1k5SzhoTTd1RHdJclpySFctUnBqVWQ1dDBMeGJQSWJNdUpKeXB5cE1HYjlaQkxjRHBVdENtcjRmSUliWUx5WVhBWE12dHliZkdfX18xQkpIUnhhaWhkcTZYdElsVlpfYXBjVm5lSkFGXzY5RXlLM1hDbk9lS1otbnBLMmlFMlp0MEhmWkpQQV9jbGR0OVdnNjNGak83V0F3dkxQY2NhM2ZjX25EQlVybFZWdw?oc=5",
+      "desc": "ByteDance Secures $29.6 Billion Loan for AI Expansion Whalesbook",
+      "source": "Whalesbook",
+      "time": 1788524490.0,
+      "score": 67.5,
+      "key": "49564a7d173dab6929645f2d246032f15982f2e4cfbef921cd79a32ae47c0c60",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Is Inventing Physics Experiments Humans Never Even Imagined - hothardware.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2VaZnh6WlBKNVR6UTZBeUh4R0JYNEloRnVVNzVnSXViczduN0xUOGdBOXV5N0hTamlEbDNmdk92UjNaVGhkZUpzVE85NDJzTzB5RWFndkw0WDF1TkJkRU8tUUdoUTljX25NYjFoY1hvSGFyeGc0Rkl0RG11ZDAxVTZoMzJUQ1dUM1JMYjByYmo1UjlQTWc?oc=5",
+      "desc": "AI Is Inventing Physics Experiments Humans Never Even Imagined hothardware.com",
+      "source": "hothardware.com",
+      "time": 1788531900.0,
       "score": 66.5,
-      "key": "c08a0908420dbd6df4fa9a4e81edf7f237a10ef566d17ef81ee75dc7f408a57c",
+      "key": "f40db154071ab97261f8221694de020fb5108465717f3aac659d14b7d1a7345e",
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -586,31 +725,32 @@
     },
     {
       "region": "WORLD",
-      "title": "G20 Backs U.S. Push to Avoid New AI Regulators - TechRepublic",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vTlZIRkRMUm1Qbl95QXYxa2FtU1RHMGZwYkY2a3FfTlNfOUlxU2pzVmtxMGNGc2U1a2lnSWdGSFdjTXFfeFc2T2N0RlZ1VkhZTk0zMU9sSDZzel96bEdVVDRTYTNieE9qZlNUeEUzUTd6SVozVlA3R1R6RFZab1k?oc=5",
-      "desc": "G20 Backs U.S. Push to Avoid New AI Regulators TechRepublic",
-      "source": "TechRepublic",
-      "time": 1788528787.0,
+      "title": "Vera Advances AI ROI Measurement With Evidence-Based Workforce Intelligence - HRTech Series",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTZSUVN3VHg1ZkdoYnE3OFV3dVdBbmVENDdIbHVKQUlJSm5qS1BrbGZnV1dwQ3YtWnQ5WWhINldya1F2cGhuWHZqZUN4dGIwZERDaXBua2tuam44cDk2OVFDUlFsTXRqcGNpMzQtQ2k0QVVkOVhqZnZ2bGh0NFh4bC1RSmZGeWpxMHlsajNZY1VaU0VUOFlmaTlJQ2lPSXdxdWxLUmd2bThYaVF4X0dzcHh3Ums0U004NUZNZg?oc=5",
+      "desc": "Vera Advances AI ROI Measurement With Evidence-Based Workforce Intelligence HRTech Series",
+      "source": "HRTech Series",
+      "time": 1788531382.0,
       "score": 66.5,
-      "key": "cf09c7b1a7a6d4bc45c322fe96279e8ef953fbcf63f689e8add16b121f52dd45",
+      "key": "8aee0620d08f84710bdb65cc20884d1b10f0046ed6d6edbd91650cb0b6373cb1",
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "The 40 jobs most under threat after ChatGPT and OpenAI level up overnight - ladbible.com",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRUVMZElzS0h5T05FanY5akMxWjg2UlVEcGNmeU5rU1dybjFUb25NVUdFMEtkUzNQQzZ3RXJYeGd4TjZWOVJQdlg3Z0s4OFdac0g0cUV4NzQ3T2RuNzJJd0pwaGd2dGU5X3dBNEtWdjZ0VlJHVlFNVFN1cUNPVkxveVYzWkRjRDV6QkE?oc=5",
-      "desc": "The 40 jobs most under threat after ChatGPT and OpenAI level up overnight ladbible.com",
-      "source": "ladbible.com",
-      "time": 1788528521.0,
-      "score": 63.5,
-      "key": "68aa693edf0b9bf531e07cfb34748d4e45580881d48ea01d4fa202c64e671797",
-      "importance": 63.5,
+      "region": "RUSSIA",
+      "title": "Rubetek выходит на рынок робототехники - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdjVKYm9od1ZpcDBzTkpIeDZyRkhXdksxUXd0M1k3NDFGenZjRHl6SDhnOUJxTFQ3OTZWbVhUUUFjS0VwOF9qOHdhVFJ2ZkVXVV9iUjI1QXpURzliZjg1Z3FWdGZkRm50V1gyNFprUjZaWUw4M2JCVDhkbkFkVFJRZ3ZFY1g1VGs?oc=5",
+      "desc": "Rubetek выходит на рынок робототехники prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788516658.0,
+      "score": 64.1,
+      "russia_weight_bonus": 4.1,
+      "key": "c79b0aa2af38af29de6e5886747863d61f331510038c06c5e7fbd2f51c2cccb4",
+      "importance": 64.1,
       "editorial_value": 50.0,
       "topics": [
-        "models"
+        "robotics"
       ],
       "tier": "A"
     },
@@ -628,32 +768,17 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Потенциал Дальнего Востока — основа успешной интеграции ИИ в ключевые процессы — Максим Орешкин - Национальный центр «Россия»",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWmgxTG5rVHptYk1MZWF0ZXhsaWY4a09TVTR4ckpSRFp4Ml81emRxbDl5Z0NkbGJLQTVHQ0pHR3NnUloyMHQtNFJ3MElob2FTSXNtb0NFRHJEQUgtZ2Rtd0tfSzBQd1VidXpScno5SVpua0dacGMtZWhya0lZWmRuekZYR0hlaXFETUd2T0M1bWxXSEJyY0pLb3RsZ3JQdl84VEw0XzN6NWlpZWhmY3FoMTlYVkdKVVFZZ2lBd3A0RWFfdw?oc=5",
-      "desc": "Потенциал Дальнего Востока — основа успешной интеграции ИИ в ключевые процессы — Максим Орешкин Национальный центр «Россия»",
-      "source": "Национальный центр «Россия»",
-      "time": 1788521098.0,
-      "score": 60.6,
-      "russia_weight_bonus": 4.6,
-      "key": "abbdd33314d5c9c0721ae0a8021808de497d3b3ef78d5ffb99f1c17a0f0cb0b7",
-      "importance": 60.6,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788532282.236923,
+    "last_start_ts": 1788532400.983643,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788532282.236923,
-    "last_success_ts": 1788532282.236923,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 13
+    "last_run_ts": 1788532400.983643,
+    "last_success_ts": 1788532400.983643,
+    "last_candidates": 117,
+    "last_published": 0,
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -673,13 +798,6 @@
     }
   },
   "stories": {
-    "0a1f72bc4ebf583df6d061f20d2f7aee635cc1ffb7dcc2ed662a5596bc1e53df": {
-      "time": 1788445991,
-      "title": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок - Московская газета",
-      "desc": "Названы основные уязвимости ИИ-агентов: что ждет ИТ-рынок Московская газета",
-      "source": "Московская газета",
-      "region": "RUSSIA"
-    },
     "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": {
       "time": 1788446171,
       "title": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming - Fast Company Middle East",
@@ -2383,6 +2501,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788530483.340653,
+  "last_search_ts": 1788532400.983643,
   "last_publish_ts": 1788532282.236923
 }
