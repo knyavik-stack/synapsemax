@@ -242,7 +242,8 @@
     "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9": 1788525800,
     "32e289a738a06bfbcbb144986e3d73ba81f94cd5ce66da64ec5b0efdca536589": 1788526162,
     "5d7e85b0ff52c44457f1e3c305b2221346b4cae64fbf26527ba1cb7252ed7011": 1788526401,
-    "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": 1788526822
+    "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": 1788526822,
+    "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788527599
   },
   "known": {
     "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": 1788507323.0378804,
@@ -418,23 +419,6 @@
     "cfb4913c4d4e3882dd1308d03b856760de06795398240de717c286f19452c3dc": 1788526822.0877657
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Сбер внедрил более 1000 ИИ-агентов для рабочих задач - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNVRjOUROYUsxNVNQRHFpSTc2RHZOWkpOaE5MNDRtMnlmZnprcmpoU194Zkd0TGpXUFY3TGpWNElQRE9EWGEyNGpST1RtSjNmNVVzSGlidDNXa204SWNzOTlPbFFfNTVhcE1VdjdpVWhNRjFMTHpzeDRnbWNBN0xqWWFvTFczSktoUHdPTXFsQkdDbFVHcFNfUDhzQzk?oc=5",
-      "desc": "Сбер внедрил более 1000 ИИ-агентов для рабочих задач prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788525163.0,
-      "score": 77.0,
-      "russia_weight_bonus": 4.5,
-      "key": "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08",
-      "importance": 77.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. - vietnam.vn",
@@ -712,20 +696,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788526881.9551044,
+    "last_start_ts": 1788527599.943768,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788526881.9551044,
-    "last_success_ts": 1788526881.9551044,
+    "last_run_ts": 1788527599.943768,
+    "last_success_ts": 1788527599.943768,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788526863.6764154
+      "updated_at": 1788527603.2282777
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2439,13 +2423,19 @@
       "desc": "US Tech Giants’ AI Boom Drives $223 Billion Bond Surge, Raising Inflation Concerns Free Press Journal",
       "source": "Free Press Journal",
       "region": "WORLD"
+    },
+    "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": {
+      "time": 1788527599,
+      "title": "Сбер внедрил более 1000 ИИ-агентов для рабочих задач - prospect.com.ru",
+      "desc": "Сбер внедрил более 1000 ИИ-агентов для рабочих задач prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2461,8 +2451,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788526822.0877657,
-  "last_publish_ts": 1788526822.0877657
+  "last_publish_ts": 1788527599.943768
 }
