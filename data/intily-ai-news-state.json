@@ -343,27 +343,10 @@
     "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24": 1788560122,
     "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703": 1788560360,
     "b80fcdd52900df1d8c88494062b7afd1365dbc6cdb2ce4e491c3b44860ddb957": 1788560781,
-    "9fb3c8868bf43c3fec578d0d453ba39f9fbe8dc17f2ace5c8c2b5150d89c7474": 1788561321
+    "9fb3c8868bf43c3fec578d0d453ba39f9fbe8dc17f2ace5c8c2b5150d89c7474": 1788561321,
+    "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8": 1788561862
   },
   "known": {
-    "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788539960.9653587,
-    "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": 1788539960.9653587,
-    "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": 1788539960.9653587,
-    "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4": 1788539960.9653587,
-    "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c": 1788539960.9653587,
-    "5e1b1e79a0181007049b591c5fe8cf02e1651a5b18ff7c53bd8a27e7a5609a24": 1788539960.9653587,
-    "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": 1788539960.9653587,
-    "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": 1788539960.9653587,
-    "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": 1788539960.9653587,
-    "b4d075f93594e2ff86cd2e366e6776d6bc68fcb9fe73d045d4d6b2480eb81fd3": 1788539960.9653587,
-    "972e1ae77954c1838c11da48683c48ae898cee3d064215e3777e89275890ed2f": 1788539960.9653587,
-    "5d92d6aa1b237c815e9c7d93df759e433e61d822a134dbe28a1f04ccad87da5d": 1788539960.9653587,
-    "60afd27fc584175d0ca99dceb65ca4587ec4145d553f7262281b837497c0366d": 1788539960.9653587,
-    "f6fda6f61048c8fbc188b25a36d0049c05701007e3cb3a18f68e658040d45c48": 1788539960.9653587,
-    "ac944b28799701e1ae349f261caaae57ddef51e60c4c58ae94915c336d74eb75": 1788539960.9653587,
-    "b1609aeb3f84e6e4b8dc7a1cb77b246a4072f83f3b71c6afc9876483ec064f34": 1788539960.9653587,
-    "5bd9bef301c5808b70bb280cca9a48dc80ed81a7e9ca86e5eb40e05c168e5c4f": 1788539960.9653587,
-    "cc2092572f8bda775a52b36203864cd6cc7049a25cf9466fdc7f2429fcab79c5": 1788539960.9653587,
     "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542062.023784,
     "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": 1788542062.023784,
     "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": 1788542062.023784,
@@ -480,20 +463,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Anthropic prepares to file IPO prospectus amid explosive AI revenue growth - Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EVlphOENMTTFhRnV5M1ZEN19KNzd6VG9HSE5ka3YwVE9hT0FMUkwtZnhXLXRJdzYzYVVoVjBTQ1dOMFhCTEstbzZmVHE1VkR6S1dLME96ZnZmdlN4WkxSdEdoMFoyM2pnYldZc2R0WQ?oc=5",
-      "desc": "Anthropic prepares to file IPO prospectus amid explosive AI revenue growth Crypto Briefing",
-      "source": "Crypto Briefing",
-      "time": 1788558614.0,
-      "score": 66.5,
-      "key": "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Leading AI journalist gives free UH talk on artificial intelligence - University of Hawaii System",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MVE9iNHkxaEcxVS1LMVVsWGhNWXdJTGdZM2pnT0NlOXRKWEtody1XU3Q1SzR1UEQ5UG84bDM5bDRUa0pnNzBaTkZTcXR3LXN4TlhyRmpFREJMOUdaZ01jU0UzTTZpU2dsT3RMbTlkakZlUjZEd0o2LTFJWQ?oc=5",
       "desc": "Leading AI journalist gives free UH talk on artificial intelligence University of Hawaii System",
@@ -539,20 +508,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788561321.8186421,
+    "last_start_ts": 1788561862.5653021,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788561321.8186421,
-    "last_success_ts": 1788561321.8186421,
+    "last_run_ts": 1788561862.5653021,
+    "last_success_ts": 1788561862.5653021,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 5
+    "queue_size": 4
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788561324.2343407
+      "updated_at": 1788561864.255398
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -566,20 +535,6 @@
     }
   },
   "stories": {
-    "dfdf294e195dc869f389cf36fc4cffe42aa748bd3a11c6b97ac3ec0aaee74037": {
-      "time": 1788475135,
-      "title": "OpenAI does a victory lap for its new AI model: 'Welcome to the AGI era' - Business Insider",
-      "desc": "OpenAI does a victory lap for its new AI model: 'Welcome to the AGI era' Business Insider",
-      "source": "Business Insider",
-      "region": "WORLD"
-    },
-    "3185d6116d8f9f55b2efbb78040155e0939073654fcc845233be2cd7286adbe0": {
-      "time": 1788475374,
-      "title": "Tenable Uses OpenAI GPT Cyber Models to Help Defenders Inspect Community-Built AI Components - manilatimes.net",
-      "desc": "Tenable Uses OpenAI GPT Cyber Models to Help Defenders Inspect Community-Built AI Components manilatimes.net",
-      "source": "manilatimes.net",
-      "region": "WORLD"
-    },
     "4b6ff069a667836c90c4059b994830f15f3e55faf1470c53b9c612429dcda102": {
       "time": 1788475554,
       "title": "Anthropic Wins Back Trump Administration’s Trust After Pentagon Fight - TechRepublic",
@@ -2175,12 +2130,18 @@
       "desc": "ByteDance borrows $30B to invest in AI infrastructure Crypto Briefing",
       "source": "Crypto Briefing",
       "region": "WORLD"
+    },
+    "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8": {
+      "time": 1788561862,
+      "title": "Anthropic prepares to file IPO prospectus amid explosive AI revenue growth - Crypto Briefing",
+      "desc": "Anthropic prepares to file IPO prospectus amid explosive AI revenue growth Crypto Briefing",
+      "source": "Crypto Briefing",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2195,10 +2156,11 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788560540.3142607,
-  "last_publish_ts": 1788561321.8186421
+  "last_publish_ts": 1788561862.5653021
 }
