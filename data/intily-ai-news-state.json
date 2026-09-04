@@ -756,13 +756,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788532522.1247811,
+    "last_start_ts": 1788532644.7515292,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788532522.1247811,
-    "last_success_ts": 1788532522.1247811,
+    "last_run_ts": 1788532644.7515292,
+    "last_success_ts": 1788532644.7515292,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 19
   },
   "providers": {
@@ -783,13 +783,6 @@
     }
   },
   "stories": {
-    "44ad4ae831c2d16c628f66cb5c65dab00284c6e6c3aceb0e3c50ce9f8e8bbd68": {
-      "time": 1788446171,
-      "title": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming - Fast Company Middle East",
-      "desc": "LEAP 2026 brings billions in Saudi tech investment across AI, infrastructure and gaming Fast Company Middle East",
-      "source": "Fast Company Middle East",
-      "region": "WORLD"
-    },
     "1ec145aa1aaedb78d678b8ede97f947426a47a517d4f411f85cdec55c219b03a": {
       "time": 1788446352,
       "title": "Nvidia купит Hugging Face за $12 930 300 000 - InvestFuture",
