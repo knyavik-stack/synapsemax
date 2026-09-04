@@ -344,7 +344,8 @@
     "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703": 1788560360,
     "b80fcdd52900df1d8c88494062b7afd1365dbc6cdb2ce4e491c3b44860ddb957": 1788560781,
     "9fb3c8868bf43c3fec578d0d453ba39f9fbe8dc17f2ace5c8c2b5150d89c7474": 1788561321,
-    "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8": 1788561862
+    "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8": 1788561862,
+    "7f69afc2696d0f9b48408e1626a0eee7e73dcc42c665dbdc98c9e3b924b1d290": 1788562282
   },
   "known": {
     "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542062.023784,
@@ -463,20 +464,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Leading AI journalist gives free UH talk on artificial intelligence - University of Hawaii System",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5MVE9iNHkxaEcxVS1LMVVsWGhNWXdJTGdZM2pnT0NlOXRKWEtody1XU3Q1SzR1UEQ5UG84bDM5bDRUa0pnNzBaTkZTcXR3LXN4TlhyRmpFREJMOUdaZ01jU0UzTTZpU2dsT3RMbTlkakZlUjZEd0o2LTFJWQ?oc=5",
-      "desc": "Leading AI journalist gives free UH talk on artificial intelligence University of Hawaii System",
-      "source": "University of Hawaii System",
-      "time": 1788557657.0,
-      "score": 63.5,
-      "key": "7f69afc2696d0f9b48408e1626a0eee7e73dcc42c665dbdc98c9e3b924b1d290",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "AI at work: Bosses are racing ahead of employees in the artificial intelligence revolution - Digital Journal",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1JMZTQyVHBIQVdNdEZ2aHN1bjBkcnZBTjJNR2xXbDF4cnhaVlRLMEptdFFtSzVrZmFNREpTV2c3YThhVEltcGppMkV0SWxYdlhUMmh6eThxa1dtemV0eTJoLVQ1U1o5a19ySGRJb1hocERuZnFMaWpKc09nUFc5Vm9ZQnhfVE5WUVU3WXJHdDJrOEVkWTg5ZGZqdGEwam1VYUZKVThXTVRocGg3XzFKQldDNElRSHI2R0xCOE5DSGt1ZzlFV3dnVw?oc=5",
       "desc": "AI at work: Bosses are racing ahead of employees in the artificial intelligence revolution Digital Journal",
@@ -508,20 +495,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788561979.660391,
+    "last_start_ts": 1788562282.1416705,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788561979.660391,
-    "last_success_ts": 1788561979.660391,
+    "last_run_ts": 1788562282.1416705,
+    "last_success_ts": 1788562282.1416705,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 4
+    "last_published": 1,
+    "queue_size": 3
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788561864.255398
+      "updated_at": 1788562285.5915105
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -535,13 +522,6 @@
     }
   },
   "stories": {
-    "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5": {
-      "time": 1788475856,
-      "title": "Новый ИИ от OpenAI может взламывать военные системы - Дзеркало тижня",
-      "desc": "Новый ИИ от OpenAI может взламывать военные системы Дзеркало тижня",
-      "source": "Дзеркало тижня",
-      "region": "RUSSIA"
-    },
     "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b": {
       "time": 1788476694,
       "title": "SDAIA President Dr. Abdullah Alghamdi to represent Saudi Arabia at India AI Impact Summit - newsonair.gov.in",
@@ -2130,11 +2110,17 @@
       "desc": "Anthropic prepares to file IPO prospectus amid explosive AI revenue growth Crypto Briefing",
       "source": "Crypto Briefing",
       "region": "WORLD"
+    },
+    "7f69afc2696d0f9b48408e1626a0eee7e73dcc42c665dbdc98c9e3b924b1d290": {
+      "time": 1788562282,
+      "title": "Leading AI journalist gives free UH talk on artificial intelligence - University of Hawaii System",
+      "desc": "Leading AI journalist gives free UH talk on artificial intelligence University of Hawaii System",
+      "source": "University of Hawaii System",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2149,11 +2135,12 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788560540.3142607,
-  "last_publish_ts": 1788561862.5653021
+  "last_publish_ts": 1788562282.1416705
 }
