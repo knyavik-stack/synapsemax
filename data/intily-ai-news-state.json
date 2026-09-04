@@ -309,7 +309,8 @@
     "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": 1788547820,
     "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": 1788548001,
     "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862": 1788548181,
-    "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": 1788548480
+    "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": 1788548480,
+    "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": 1788549382
   },
   "known": {
     "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788528681.428885,
@@ -473,23 +474,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONm43WlNueFl4bUFlUVhYS2E4RE55NkRWMUFOUzVVdTRzUGVidjYyS1p4M2tTSE96dkhaQ1p2VFZ6ZmZMck1XZTJwLUFyUDNjT0JyRXB5VkdwOUQzY2U5TFN2NU9VcWdzbUVkTWFsaFREYkFCbXBPNTAtdUhJMFh5d1FTVk40cGhhemxGWjFEbDZidDBXZmR6QklPb3hWa2ptSWZTQkdqd29aNk5jYjZjSHV5VU1ZaDBEMWtqTHFfbFlZaEEtSEVrcEgyN2NNcmhuU1VfWA?oc=5",
-      "desc": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788543156.0,
-      "score": 68.4,
-      "russia_weight_bonus": 2.9,
-      "key": "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946",
-      "importance": 68.4,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России - Национальная Служба Новостей",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT1JfWXhIYUpPTnFxQUNZeVg1QjFwamdTOElNYWlrcllwdUV5MjBHYVNSYlVaZVlRYnJGMGJnWU9tX2JFemxvbjAtaEtPSDFDRTV4UmRGN0FoNXlnY3drWXhvUF9iWEVVZ3daRWxBbGhweFVkbFEzQkVaN1RsTHJrRE5qR1p5UEV4Q1lSUi12ZS1fOWRQNzJGcEtIZi02d9IBowFBVV95cUxNTmtNWWd2bTJ4UVpMZHk2YldESm5BNnQ1T1JzWVhVV2szNGFZZVpGcTQ2dW94c0wxQmNGSFZUNWpnVkM2Sk0xOElvS05Fam8tbW0xcFVWWWJkRnZ0RkNXSVEzNlJ3eWxiUEZfSWxNS2ViR0FDOS1XOU5rMUN0SFJjbEFMMU5TcjFtT2FFUGotMWN4bTdFVDVqSW52NkV5LTZKZDdZ?oc=5",
       "desc": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России Национальная Служба Новостей",
@@ -499,34 +483,6 @@
       "russia_weight_bonus": 2.8,
       "key": "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5",
       "importance": 68.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "An atom-and-photon network just found a new way to store AI memories - The Brighter Side of News",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHEtLWc2bFZYVS1uTFVXdE1TSEY5em9sVDdrTEd6bzBGR3BwN2E2Q1FmaXNfNXpJOWhTSU9OQ3Q5Y1dULU9saUtvbnNBZUItdkk5MFRLb2h4emhFMUdtcWctNDI2TXRCby1QZzNTOFlMdHhzZnhkeHFpR3FsZFB5ak9lMGU3cnFYM0xDbTVwTFZRZ3Y2MmRqeWZmckJMTGs0WnphU3p0eG1VTHM?oc=5",
-      "desc": "An atom-and-photon network just found a new way to store AI memories The Brighter Side of News",
-      "source": "The Brighter Side of News",
-      "time": 1788545220.0,
-      "score": 66.5,
-      "key": "2b5854e7701d95bd884629d5eb0517f1c4381f2e60cf85fed860baf3707d81f4",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI Reshapes Technology Markets Seven Major Companies Emerge Key Players Artificial Intelligence Ecosystem - openpr.com",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR2dZcHk4eW5kYi1zRjhxV0drTjI1UXlDeFY5UUlXY2pYUzM2SlgyQ3N4UGFPR1hFLXBoU0hJQlFuVkxMZ2U5TEUySHBhdHRSM1IyS3UyUl9tMEo2UTJablJjdFFmamtNcGRtR1htbmF1VE5OQTB2eVZuRjFJb29zd05vY2JUbWdhWFh3MW5EeFp2SklkWnZZZk02bng1M0pM?oc=5",
-      "desc": "AI Reshapes Technology Markets Seven Major Companies Emerge Key Players Artificial Intelligence Ecosystem openpr.com",
-      "source": "openpr.com",
-      "time": 1788545165.0,
-      "score": 66.5,
-      "key": "957ce34df3510c6c05833acd189d773cd71a3980f02e09269e8a0768459d5d0f",
-      "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -544,22 +500,6 @@
       "editorial_value": 50.0,
       "topics": [
         "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "NFRA sets up advisory panel on audit quality, AI and technology risks - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTmhlUk12cFRZZ0ktLVNKdzZwdngxNXcyVTAzY3VvNkJDZlVtX05YY2JzS1VpVWN2d29rWmFHOVd4ZU4wUWd1ZHdXYWdfSWdIVzc1aXVGem9qVXZaaU8wRF8zdEdKX2gySHB4b2xLdGh5NEhMZVdtX20xWUc0VGhCVUJEUnFPZHpnaWZyZEd6UVRoTDd4VGdMbEFmeDZ2YUpOeVFxUjl6STBMaVdwX2tXT0plT1c0X2REQ05rQmZaTkhJTnltZHhGSnNjM050b1puWGNxWjgzZnhkZnQ5b2MtODk1QXZHeFR5SzdLaDk0SHNLaGfSAfMBQVVfeXFMT05oZVJNdnBUWWdJLS1TSnc2cHZ4MTV3MlUwM2N1bzZCQ2ZVbV9OWGNic0tVaVVjdndva1phRzlXeGVOMFFndWR3V2FnX0lnSFc3NWl1RnpvalV2WmlPMERfM3RHSl9oMkhweG9sS3RoeTRITGVXbV9tMVlHNFRoQlVCRFJxT2R6Z2lmcmRHelFUaEw3eFRnTGxBZng2dmFKTnlRcVI5ekkwTGlXcF9rV09KZU9XNF9kRENOa0JmWk5ISU55bWR4RkpzYzNOdG9ablhjcVo4M2Z4ZGZ0OW9jLTg5NUF2R3hUeUs3S2g5NEhzS2hn?oc=5",
-      "desc": "NFRA sets up advisory panel on audit quality, AI and technology risks Business Standard",
-      "source": "Business Standard",
-      "time": 1788538066.0,
-      "score": 66.5,
-      "key": "9c2adbe650e444d8f75cb57590d8b8d6701ef7f8c6c95b397707cf66ffc3cde2",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
       ],
       "tier": "A"
     },
@@ -612,6 +552,34 @@
       "topics": [
         "agents"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "An atom-and-photon network just found a new way to store AI memories - The Brighter Side of News",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHEtLWc2bFZYVS1uTFVXdE1TSEY5em9sVDdrTEd6bzBGR3BwN2E2Q1FmaXNfNXpJOWhTSU9OQ3Q5Y1dULU9saUtvbnNBZUItdkk5MFRLb2h4emhFMUdtcWctNDI2TXRCby1QZzNTOFlMdHhzZnhkeHFpR3FsZFB5ak9lMGU3cnFYM0xDbTVwTFZRZ3Y2MmRqeWZmckJMTGs0WnphU3p0eG1VTHM?oc=5",
+      "desc": "An atom-and-photon network just found a new way to store AI memories The Brighter Side of News",
+      "source": "The Brighter Side of News",
+      "time": 1788545220.0,
+      "score": 63.5,
+      "key": "2b5854e7701d95bd884629d5eb0517f1c4381f2e60cf85fed860baf3707d81f4",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Reshapes Technology Markets Seven Major Companies Emerge Key Players Artificial Intelligence Ecosystem - openpr.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR2dZcHk4eW5kYi1zRjhxV0drTjI1UXlDeFY5UUlXY2pYUzM2SlgyQ3N4UGFPR1hFLXBoU0hJQlFuVkxMZ2U5TEUySHBhdHRSM1IyS3UyUl9tMEo2UTJablJjdFFmamtNcGRtR1htbmF1VE5OQTB2eVZuRjFJb29zd05vY2JUbWdhWFh3MW5EeFp2SklkWnZZZk02bng1M0pM?oc=5",
+      "desc": "AI Reshapes Technology Markets Seven Major Companies Emerge Key Players Artificial Intelligence Ecosystem openpr.com",
+      "source": "openpr.com",
+      "time": 1788545165.0,
+      "score": 63.5,
+      "key": "957ce34df3510c6c05833acd189d773cd71a3980f02e09269e8a0768459d5d0f",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -726,20 +694,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788548480.3038936,
+    "last_start_ts": 1788549382.0451488,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788548480.3038936,
-    "last_success_ts": 1788548480.3038936,
+    "last_run_ts": 1788549382.0451488,
+    "last_success_ts": 1788549382.0451488,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788548486.887554
+      "updated_at": 1788549385.7510805
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -753,13 +721,6 @@
     }
   },
   "stories": {
-    "1eb4957568f8cb8ba9de6316982bd5810309ff7bc3148b19f0f86ed11cae71ba": {
-      "time": 1788462371,
-      "title": "Investors Believe AI Breakthrough Close – Survey - wealthbriefing.com",
-      "desc": "Investors Believe AI Breakthrough Close – Survey wealthbriefing.com",
-      "source": "wealthbriefing.com",
-      "region": "WORLD"
-    },
     "6553bf7c7e6efb40c58b62949972063b99f9e5da0e465dca07f45914b95406e5": {
       "time": 1788463089,
       "title": "Ведяхин: В ноябре пройдет конференция AI Journey с участием исследователей и бизнеса - Курс Дела",
@@ -2383,6 +2344,13 @@
       "desc": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? Kalkine Media",
       "source": "Kalkine Media",
       "region": "WORLD"
+    },
+    "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": {
+      "time": 1788549382,
+      "title": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов - prospect.com.ru",
+      "desc": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -2390,7 +2358,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2405,8 +2372,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788547820.6748672,
-  "last_publish_ts": 1788548480.3038936
+  "last_publish_ts": 1788549382.0451488
 }
