@@ -501,13 +501,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788559821.183149,
+    "last_start_ts": 1788559940.7771142,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788559821.183149,
-    "last_success_ts": 1788559821.183149,
+    "last_run_ts": 1788559940.7771142,
+    "last_success_ts": 1788559940.7771142,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 3
   },
   "providers": {
@@ -528,13 +528,6 @@
     }
   },
   "stories": {
-    "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def": {
-      "time": 1788473454,
-      "title": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared - newscord.org",
-      "desc": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared newscord.org",
-      "source": "newscord.org",
-      "region": "WORLD"
-    },
     "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76": {
       "time": 1788473754,
       "title": "AI’s market boom faces a rougher road ahead - weeklyblitz.net",
