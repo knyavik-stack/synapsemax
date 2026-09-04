@@ -255,7 +255,8 @@
     "5b833cd31d03646a4a5b9ec56e3b2d6830dbd104b9d6dd5e8346041692bb6a91": 1788530483,
     "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": 1788530719,
     "3faf9cf5e7652244dd8ef3826d25e3b19bd87eb8d16f56d16778156a5b16dbfe": 1788531022,
-    "627a77a5410410700ca2232fb4a328448417aa91d9a37e596cfa108fcd925e60": 1788531384
+    "627a77a5410410700ca2232fb4a328448417aa91d9a37e596cfa108fcd925e60": 1788531384,
+    "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": 1788531682
   },
   "known": {
     "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511223.1508448,
@@ -455,25 +456,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788531022,
+      "last_failed_at": 1788531682,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788531322
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Российские ИТ-компании выступили против компенсаций авторам за обучение ИИ на их контенте - RB.ru",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaHcxSmVwdlFZS3ZDeEs3TS11TUR6RWxwcVRqMkpUQ1FLSVBQWmFpLUx6QmlkcnJDXzE0UXNBaVdCMTA1elNibWpKTkV6SDRzVlBDVE16ekd0MDR0X2k4cWdxRmtXS01jRDNDWVlidzc3amlxT0ZHMndJeHd3SGxULXFtX0pDbFdBYkVRNzJPUjhXTVJMbVFfV2dXVmxXX2plQzlZNjVMVkRaVzU1dUhmaVQtNGEzRDEyc3VvWE96RFlhMkxnRXY3Y0RCMmYwZw?oc=5",
-      "desc": "Российские ИТ-компании выступили против компенсаций авторам за обучение ИИ на их контенте RB.ru",
-      "source": "RB.ru",
-      "time": 1788529200.0,
-      "score": 73.0,
-      "russia_weight_bonus": 4.5,
-      "key": "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35",
-      "importance": 73.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "failure_count": 2,
+      "next_retry_at": 1788532282
     },
     {
       "region": "RUSSIA",
@@ -509,21 +495,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "LLM в корпоративных процессах: как выбрать сценарий, который окупится - VC.ru",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSzVrR0lsTHM3LWRrLVBCMzQ5R3VHUnplRkZJV2V1ZzBabnJGUTJjeHJHek12RncyUHduTnRFYS1OM1NVaURCZFcwejNuQXY1NFp0Zk9FWFBObUhDZGxqdXpjdk1PQmhoRDBodVh4Um8zUXFsV1VwREFvRk1lcnRnbjQzMGd0b3hyMWJHcWxCeUZPX0E?oc=5",
-      "desc": "LLM в корпоративных процессах: как выбрать сценарий, который окупится VC.ru",
-      "source": "VC.ru",
-      "time": 1788520788.0,
-      "score": 71.5,
-      "russia_weight_bonus": 5.0,
-      "key": "c64a81495eb20f5fbf4d0b14980cdbfa1a550934464c68b28cb16d26db19611a",
-      "importance": 71.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
       "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности prospect.com.ru",
@@ -550,36 +521,6 @@
       "importance": 71.2,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live - techtimes.com",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbGhwTXYycWgzQnFLS3ZNRmZEX1lMdkthM2l6eDkzUXNlSjNXVF9NQ2Z0Y0RSRmxZdUE3ZTVxaUtxVU1XbkJ0M3d4RlVBU1JsXzlBQlVEdjZTMTRIdEpiNGVQZVF0cVA5RVgyWDkwNWxMdmJvZ3hMMXQ2MElEa252OHhFa1NiejcyOUVSUk8yc2hhYlB1Vk0taW5oU1NMcmJqQmU1aVRPbW1yRlBrUjFhcHhuM1p2V3MxX0VMWk1xaUdFQQ?oc=5",
-      "desc": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live techtimes.com",
-      "source": "techtimes.com",
-      "time": 1788528078.0,
-      "score": 70.5,
-      "key": "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters - officechai.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZyelliLVdsNldUdm5RUWlxdTNVaGx4OTJNSXdoVzlqOS1CSmo1NWUzTm80T1NFenFPdXhBLUZuajU4Z2RUdzVHYUZkYlh6eVBNejlLZ05jSmdfZ1VSWGs0R0h5VVo4d19TZkY4UHZ5T2lFT3V6WlNwSGJlV3h3cXRvdTd6R3h6Q0FIUmRkMEMxaVVaMGVPc3NfUGtScHpabldhNDBxa0V6OHliV0wzZVF3?oc=5",
-      "desc": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters officechai.com",
-      "source": "officechai.com",
-      "time": 1788527988.0,
-      "score": 70.5,
-      "key": "0dfab4d96cc15628c57e77f2904156ba78d491e544cbdcfd1ee67d323e082110",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
       "tier": "A"
     },
     {
@@ -625,6 +566,36 @@
       "importance": 70.1,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live - techtimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbGhwTXYycWgzQnFLS3ZNRmZEX1lMdkthM2l6eDkzUXNlSjNXVF9NQ2Z0Y0RSRmxZdUE3ZTVxaUtxVU1XbkJ0M3d4RlVBU1JsXzlBQlVEdjZTMTRIdEpiNGVQZVF0cVA5RVgyWDkwNWxMdmJvZ3hMMXQ2MElEa252OHhFa1NiejcyOUVSUk8yc2hhYlB1Vk0taW5oU1NMcmJqQmU1aVRPbW1yRlBrUjFhcHhuM1p2V3MxX0VMWk1xaUdFQQ?oc=5",
+      "desc": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live techtimes.com",
+      "source": "techtimes.com",
+      "time": 1788528078.0,
+      "score": 67.5,
+      "key": "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters - officechai.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZyelliLVdsNldUdm5RUWlxdTNVaGx4OTJNSXdoVzlqOS1CSmo1NWUzTm80T1NFenFPdXhBLUZuajU4Z2RUdzVHYUZkYlh6eVBNejlLZ05jSmdfZ1VSWGs0R0h5VVo4d19TZkY4UHZ5T2lFT3V6WlNwSGJlV3h3cXRvdTd6R3h6Q0FIUmRkMEMxaVVaMGVPc3NfUGtScHpabldhNDBxa0V6OHliV0wzZVF3?oc=5",
+      "desc": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters officechai.com",
+      "source": "officechai.com",
+      "time": 1788527988.0,
+      "score": 67.5,
+      "key": "0dfab4d96cc15628c57e77f2904156ba78d491e544cbdcfd1ee67d323e082110",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
       "tier": "A"
     },
     {
@@ -684,23 +655,38 @@
         "models"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "LLM в корпоративных процессах: как выбрать сценарий, который окупится - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSzVrR0lsTHM3LWRrLVBCMzQ5R3VHUnplRkZJV2V1ZzBabnJGUTJjeHJHek12RncyUHduTnRFYS1OM1NVaURCZFcwejNuQXY1NFp0Zk9FWFBObUhDZGxqdXpjdk1PQmhoRDBodVh4Um8zUXFsV1VwREFvRk1lcnRnbjQzMGd0b3hyMWJHcWxCeUZPX0E?oc=5",
+      "desc": "LLM в корпоративных процессах: как выбрать сценарий, который окупится VC.ru",
+      "source": "VC.ru",
+      "time": 1788520788.0,
+      "score": 62.0,
+      "russia_weight_bonus": 5.0,
+      "key": "c64a81495eb20f5fbf4d0b14980cdbfa1a550934464c68b28cb16d26db19611a",
+      "importance": 62.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788531384.1980784,
+    "last_start_ts": 1788531682.7921188,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788531384.1980784,
-    "last_success_ts": 1788531384.1980784,
+    "last_run_ts": 1788531682.7921188,
+    "last_success_ts": 1788531682.7921188,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788531386.4964104
+      "updated_at": 1788531693.1778586
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -714,13 +700,6 @@
     }
   },
   "stories": {
-    "067ff2b7858a511d74315299ab45a6b2036d1ad18d6106b4c3ccf846484de233": {
-      "time": 1788445273,
-      "title": "«Слетать.ру» запускает бизнес-подкаст «Прямым рейсом». Первый выпуск — про ИИ - Код.ру",
-      "desc": "«Слетать.ру» запускает бизнес-подкаст «Прямым рейсом». Первый выпуск — про ИИ Код.ру",
-      "source": "Код.ру",
-      "region": "RUSSIA"
-    },
     "570b54be4e560da272a60c59097bfe66916c4b162f3d49bcab0a36bd6df7fece": {
       "time": 1788445639,
       "title": "Broadcom Custom AI Chip Revenue Surges 221% to $16.7B, Q4 Guidance Disappoints - Tech Times",
@@ -2393,11 +2372,17 @@
       "desc": "Oh good, looks like yet another swarm of rogue AI agents from OpenAI The Verge",
       "source": "The Verge",
       "region": "WORLD"
+    },
+    "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": {
+      "time": 1788531682,
+      "title": "Российские ИТ-компании выступили против компенсаций авторам за обучение ИИ на их контенте - RB.ru",
+      "desc": "Российские ИТ-компании выступили против компенсаций авторам за обучение ИИ на их контенте RB.ru",
+      "source": "RB.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2415,8 +2400,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788530483.340653,
-  "last_publish_ts": 1788531384.1980784
+  "last_publish_ts": 1788531682.7921188
 }
