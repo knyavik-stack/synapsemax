@@ -136,7 +136,8 @@
     "774b256f69c69dab8cfc74c8aa72023e9e7f82fa2d2ec9b61897310f6aacdba8": 1788481494,
     "c850ae2facf0311829a649fd7d19fe9c1bbbc542864c143eaa3056caa07cba0f": 1788481734,
     "4110337c9b2c90c5bebad52851e25f3f5c5ab5975592dcac36d943d3db64142f": 1788481976,
-    "073837b040a96ddedcdb211ef92accd7f05eda357a64dd5514228c33818406e4": 1788482395
+    "073837b040a96ddedcdb211ef92accd7f05eda357a64dd5514228c33818406e4": 1788482395,
+    "4c9bb67e1d0c0762e9d064b69a9ec0f83e9f432d5a0aeaa816664d1307254797": 1788482816
   },
   "known": {
     "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": 1788461293.6977568,
@@ -266,22 +267,6 @@
     "8722e24132beb67d37198ba5f0a8d7b632f7cf8e7d06e439f5a3965ab76a973a": 1788482453.6053247
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Michelle Schmaderer Launches House of Profits™, a First-of-Its-Kind Business-Building Experience for the AI Economy - The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQX3hwTlVTMDRZYzF6VUtuYUIxekZuTmhfVFBlR25MQUxBd1RYbGRoRGxXMm0tTU04WnVtSjZHS3JMNEp4Q2VldkJCTEJKOXhydGtQUElKaHZvVmJzWlBDZWNhblZKRmxiRnVyeGZOSDN1T1VfcFVadVNWbVJkeHVsa3lXem1PQ0JvOE1ScnNKbmdkNHlBa2gtSXZrcEZXSmRwS2FWdGxmMEpaZXVzZXdRTXgzMkJYNGlsLU1HUUwyQXB6NEl4bmNOYWJUWFhEeW50b2h4YmY5dklsWlI2YnhYTE1BVDB2Vm4wOTFKYUdXcWpEN01XNXIwelRwRTJSR2s3RkxXR3VtYmVtNXVrT0tSTzhscVNKd9IBmwJBVV95cUxOcmxPc3F4eW01SE9ObzVyNFVscWxSSlhVWGNrMUJJeGdvUXhMRUpUMHlMaHFzV1ctclJ6Ykp0QVBuVVMzdDhpeERjVExWd0pIUllROHVwQmhPQzE1QzhhZjR4akJQNGQzaWQzeHdqbEFDZTQ0VWNZaFBzckNLU3p1aWh0cWkxcDhhQmJQVEVXSXZSUTB3YXBMMVU4R2I2U09aSDNFVTNNalRSVWFXRGNLWng0RGVtUXFOOWk5X2dFVUJCZk45U2Mwb255Z1UwcC1sMGdXNFV4Qzg3TG1PU0VTZ3BNeTR6VUhFSUdTTVNmc280LU1VUXdDcFRJSmJtOWtkOVNrYjZuaVFyQkdKeTRCWmVQZFhBZklKS3VN?oc=5",
-      "desc": "Michelle Schmaderer Launches House of Profits™, a First-of-Its-Kind Business-Building Experience for the AI Economy The Manila Times",
-      "source": "The Manila Times",
-      "time": 1788481664.0,
-      "score": 73.5,
-      "key": "4c9bb67e1d0c0762e9d064b69a9ec0f83e9f432d5a0aeaa816664d1307254797",
-      "importance": 73.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Robotaxis London, OpenAI humanoid plans, MIT AV insights - blockchain.news",
@@ -542,20 +527,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788482574.369246,
+    "last_start_ts": 1788482816.1043465,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788482574.369246,
-    "last_success_ts": 1788482574.369246,
+    "last_run_ts": 1788482816.1043465,
+    "last_success_ts": 1788482816.1043465,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788482398.471355
+      "updated_at": 1788482820.1941578
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1527,10 +1512,16 @@
       "desc": "Моделей больше недостаточно: зачем OpenAI запускает DeployCo с $4 млрд инвестиций Компьютерра",
       "source": "Компьютерра",
       "region": "RUSSIA"
+    },
+    "4c9bb67e1d0c0762e9d064b69a9ec0f83e9f432d5a0aeaa816664d1307254797": {
+      "time": 1788482816,
+      "title": "Michelle Schmaderer Launches House of Profits™, a First-of-Its-Kind Business-Building Experience for the AI Economy - The Manila Times",
+      "desc": "Michelle Schmaderer Launches House of Profits™, a First-of-Its-Kind Business-Building Experience for the AI Economy The Manila Times",
+      "source": "The Manila Times",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1549,8 +1540,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788482453.6053247,
-  "last_publish_ts": 1788482395.9490893
+  "last_publish_ts": 1788482816.1043465
 }
