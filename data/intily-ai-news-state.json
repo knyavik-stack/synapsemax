@@ -327,26 +327,10 @@
     "58d01e10ebec3f1da3abc748f4cc05fb04db8a94b7b3a42c77dc343c06534951": 1788554483,
     "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": 1788554782,
     "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": 1788555201,
-    "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555683
+    "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555683,
+    "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": 1788555921
   },
   "known": {
-    "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534259.6266851,
-    "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": 1788534259.6266851,
-    "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": 1788534259.6266851,
-    "ff374a60e61b0ca84c654c0f578a972ee37931667d473c0f3f4305ec0f2398c6": 1788534259.6266851,
-    "cfe31e748d32388727cbd6ec69c1cefe23bc5cc4fbe63e81904a06ccc397df5d": 1788534259.6266851,
-    "9b2411342d80e2c6b34fa3b3384bed016c552a3251af059423e5b63645928a1e": 1788534259.6266851,
-    "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": 1788534259.6266851,
-    "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": 1788534259.6266851,
-    "e29bb4b90bf5b83482e866f9cf7bd051c29af047aae6d8346b12e82a6ece4bc2": 1788534259.6266851,
-    "bb6a6151e8d3ac153a6f91bd83d5f6384b1422802d28e7e82ba08210ecde81b3": 1788534259.6266851,
-    "c6bf75808f90483403096c55061be775a63e7308bf61e77446a7b4663348c7a9": 1788534259.6266851,
-    "1d774f3fc5653b0664cce08d05e5a36dcc2537a25c34f94d5e5ff68f113b6258": 1788534259.6266851,
-    "6477bde6970d43bf503f9b678703510e6847316eb67804adea037d5bbe15e8c2": 1788534259.6266851,
-    "b67a49316d3f44a3f185ab265585a1d2dd990fbf6bc59fe894aca5c9318d2652": 1788534259.6266851,
-    "5835a362b5d986fac39912526eca0bd1be8521da821f61d5cc3caff65cfce5b3": 1788534259.6266851,
-    "4b08fe35c1ab0dbb1fc33c29f6034b14ef716c03527316f43a9a1cae747286bb": 1788534259.6266851,
-    "db6b215fa5de2b16d30f47c580e663b069efcf6ed3d5e5a172f0576ba443e873": 1788534259.6266851,
     "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536242.444593,
     "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38": 1788536242.444593,
     "9f0cd75655e15f8907a0d657ffa098e258a1501b643b428a16beea4c814ba67b": 1788536242.444593,
@@ -529,22 +513,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques - gbhackers.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tMlNsdkx4NE9mMEk0LUpwMnM2dVIzeHpla21waWN3bFBnYzJOeWRsNF9LUDBfTHZkNGx5UzRDX2E4STJxNmlSaENyOVNLZ3NmZU9UakR2WjdLeEhTcVNhMmhxT2FKTkVIbl9F0gFwQVVfeXFMUDM5MFFFNXZTRkxyZVR2UTRvMThfQTkyazV4ZTRyZDhiV2QtTHFUNHRzNTdwbTByNDFLRGdGb2NXQ2EzemozWlk2dnVKV3lzN0w4ZktVSy1pZk0yTzFja2ZTU1VPTjlGd0xDZkJPc2dwbw?oc=5",
-      "desc": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques gbhackers.com",
-      "source": "gbhackers.com",
-      "time": 1788545482.0,
-      "score": 67.5,
-      "key": "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFhKa01FUkJhUW94MVI3X3dWR29GdFY1UXd0UVFUT05SZVhjaDBKa1BoZlNIdFpfMVZORjgyX09XbUdraFBJby1iY2Fac3k3STN4WmlTdTBlNjc3SG9Xb0hlNkd2YS1zbWota2NHQml4N09fQ1ZaWi1mYlpzSDRIRkY0RjhpNzI4QjMzekJ3dF85VmRwTkxCclcybDFwYnpORjRpdzBVejdLRW1GMzdQYWlkQjloeGtRSGtYWUotRl9Idw?oc=5",
@@ -652,23 +620,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "OpenAI запускает новую модель Astra - ProFinance",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNlJNOHBOSHRBS3VSendsVFk3MDJDLWE4TlJ4Uk1LOWxZTUZKdmVWMDRsMF95Z09ueGVLeE5kNUxmVWdwazhQX3ljMFJQRzIzWFZtaVVNTmRPTDEzUXdfNXY0VkQ4bk9vSzc3NTRydGlkOFBjOGpLU1NQUXB4YWlfemZSeWs4WnIyWTNCWU9USGhMUQ?oc=5",
-      "desc": "OpenAI запускает новую модель Astra ProFinance",
-      "source": "ProFinance",
-      "time": 1788512602.0,
-      "score": 60.9,
-      "russia_weight_bonus": 4.9,
-      "key": "70158e64a0557b3958677488aa6de94d574984c903b5e296b015427b47422f94",
-      "importance": 60.9,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
       "desc": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности prospect.com.ru",
@@ -750,20 +701,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788555740.1444945,
+    "last_start_ts": 1788555921.2325368,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788555740.1444945,
-    "last_success_ts": 1788555740.1444945,
+    "last_run_ts": 1788555921.2325368,
+    "last_success_ts": 1788555921.2325368,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788555686.1715257
+      "updated_at": 1788555923.7840757
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -777,13 +728,6 @@
     }
   },
   "stories": {
-    "558675885987d82b720f2099d5945d2764134960531c6cb8590358018f46b494": {
-      "time": 1788469391,
-      "title": "OpenAI Unveils GPT-6 Astra: AI Agent Capabilities Upgraded, Priced at About 2.5 Times Previous Generation - TradingKey",
-      "desc": "OpenAI Unveils GPT-6 Astra: AI Agent Capabilities Upgraded, Priced at About 2.5 Times Previous Generation TradingKey",
-      "source": "TradingKey",
-      "region": "WORLD"
-    },
     "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532": {
       "time": 1788469751,
       "title": "Physics Breakthrough May Boost AI Memory, Learning - Mirage News",
@@ -2372,10 +2316,16 @@
       "desc": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? vc.ru",
       "source": "vc.ru",
       "region": "RUSSIA"
+    },
+    "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": {
+      "time": 1788555921,
+      "title": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques - gbhackers.com",
+      "desc": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques gbhackers.com",
+      "source": "gbhackers.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2394,8 +2344,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788555201.4978535,
-  "last_publish_ts": 1788555683.2555747
+  "last_publish_ts": 1788555921.2325368
 }
