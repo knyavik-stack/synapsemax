@@ -257,7 +257,8 @@
     "3faf9cf5e7652244dd8ef3826d25e3b19bd87eb8d16f56d16778156a5b16dbfe": 1788531022,
     "627a77a5410410700ca2232fb4a328448417aa91d9a37e596cfa108fcd925e60": 1788531384,
     "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": 1788531682,
-    "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be": 1788532040
+    "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be": 1788532040,
+    "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": 1788532282
   },
   "known": {
     "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511223.1508448,
@@ -457,25 +458,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788531682,
+      "last_failed_at": 1788532282,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 2,
-      "next_retry_at": 1788532282
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ИИ в медиа: не замена, а помощник человека - artmoskovia.ru",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yVGIxaGx4Z1FLMmNVa29hSzBHM0puYjJxTy1UVFVrQzJOcm5ubmVuTU9wOW5aSldmRHVNTTVWaDNtOW1jdHoxZldrNGdPN0RIaHVoMTNNcl9qb3VSb0RTam1lRHdYSjBQRzdlSlBCbGxnQmFwZ2p1by1sMA?oc=5",
-      "desc": "ИИ в медиа: не замена, а помощник человека artmoskovia.ru",
-      "source": "artmoskovia.ru",
-      "time": 1788529787.0,
-      "score": 72.6,
-      "russia_weight_bonus": 4.1,
-      "key": "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b",
-      "importance": 72.6,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "failure_count": 3,
+      "next_retry_at": 1788533482
     },
     {
       "region": "RUSSIA",
@@ -619,9 +605,9 @@
       "desc": "The 40 jobs most under threat after ChatGPT and OpenAI level up overnight ladbible.com",
       "source": "ladbible.com",
       "time": 1788528521.0,
-      "score": 66.5,
+      "score": 63.5,
       "key": "68aa693edf0b9bf531e07cfb34748d4e45580881d48ea01d4fa202c64e671797",
-      "importance": 66.5,
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [
         "models"
@@ -660,20 +646,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788532040.3776293,
+    "last_start_ts": 1788532282.236923,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788532040.3776293,
-    "last_success_ts": 1788532040.3776293,
+    "last_run_ts": 1788532282.236923,
+    "last_success_ts": 1788532282.236923,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788532043.597932
+      "updated_at": 1788532295.0769854
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2366,10 +2352,16 @@
       "desc": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live techtimes.com",
       "source": "techtimes.com",
       "region": "WORLD"
+    },
+    "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": {
+      "time": 1788532282,
+      "title": "ИИ в медиа: не замена, а помощник человека - artmoskovia.ru",
+      "desc": "ИИ в медиа: не замена, а помощник человека artmoskovia.ru",
+      "source": "artmoskovia.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2388,8 +2380,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788530483.340653,
-  "last_publish_ts": 1788532040.3776293
+  "last_publish_ts": 1788532282.236923
 }
