@@ -164,7 +164,8 @@
     "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788491395,
     "7b24cc521ac29f0f89a2483856b7e7c32d220eb99b3dd3b52e04756cede09fcd": 1788491634,
     "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491994,
-    "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492592
+    "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492592,
+    "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": 1788492773
   },
   "known": {
     "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": 1788472733.8932097,
@@ -265,45 +266,30 @@
       "desc": "Россиян могут уволить из-за загрузки рабочих документов в нейросети prospect.com.ru",
       "source": "prospect.com.ru",
       "time": 1788489137.0,
-      "score": 68.9,
+      "score": 65.9,
       "russia_weight_bonus": 1.4,
       "key": "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad",
-      "importance": 68.9,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Крупнейшая ИТ-компания России проводит курсы по ИИ для школьников Башкирии - Уфимские нивы",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU0JDTkRJSWliMmU1cjE2d2hNMUhVR1BtbUZKLVZiOXpkVlhQWjdJZ0RDWVNCWUJfZFR3NHRYdUpFTURmZzRuTDBtWGpMT0NMZG5NYVFsa3UxbzlVeGxDQTQ2ZE1WWWNjT1ktUFlZcnhaZGRQekMzVTc0RW85U2NycGhldTdGWUpZY2lGSXphS2Q5MTYybVVNN3JRYlZIdEtpb2FJSXdFcEc0bHFjZy10dzgwWk1Bak5yZUozS1dlb19oLUhkcEY5R2czRU9qa1lH?oc=5",
-      "desc": "Крупнейшая ИТ-компания России проводит курсы по ИИ для школьников Башкирии Уфимские нивы",
-      "source": "Уфимские нивы",
-      "time": 1788492000.0,
-      "score": 68.8,
-      "russia_weight_bonus": 1.3,
-      "key": "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98",
-      "importance": 68.8,
+      "importance": 65.9,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788492655.914861,
+    "last_start_ts": 1788492773.139948,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788492655.914861,
-    "last_success_ts": 1788492655.914861,
-    "last_candidates": 52,
-    "last_published": 0,
-    "queue_size": 3
+    "last_run_ts": 1788492773.139948,
+    "last_success_ts": 1788492773.139948,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788492596.3986638
+      "updated_at": 1788492774.7883952
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1471,6 +1457,13 @@
       "desc": "OpenAI launches Daybreak for frontline defenders IT Brief Asia",
       "source": "IT Brief Asia",
       "region": "WORLD"
+    },
+    "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": {
+      "time": 1788492773,
+      "title": "Крупнейшая ИТ-компания России проводит курсы по ИИ для школьников Башкирии - Уфимские нивы",
+      "desc": "Крупнейшая ИТ-компания России проводит курсы по ИИ для школьников Башкирии Уфимские нивы",
+      "source": "Уфимские нивы",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1489,12 +1482,12 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788492655.914861,
-  "last_publish_ts": 1788492592.8478572
+  "last_publish_ts": 1788492773.139948
 }
