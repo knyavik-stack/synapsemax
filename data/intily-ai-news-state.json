@@ -232,7 +232,8 @@
     "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522800,
     "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": 1788523099,
     "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42": 1788523400,
-    "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": 1788523761
+    "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": 1788523761,
+    "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15": 1788523941
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -399,10 +400,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788523400,
+      "last_failed_at": 1788523941,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788523700
+      "failure_count": 2,
+      "next_retry_at": 1788524541
     },
     {
       "region": "RUSSIA",
@@ -496,23 +497,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xY1VMRWpNNnF5TVZFV3I1c2pRVURDaEN6VERDQTctRXpsdWxQLUxqanlZUWhlTnl1ekRvNWUzdS0xMHl3dlBfVUdvcWFqSUw1RnBnTzdoMUtSV2ZBb3NCbTFUWmZXX2VnaGthTTFKTzN2UFVNS0lmNNIBfkFVX3lxTE5vS2VVMndVYUJ6SkU0aC14VzMwY3dKYkNTekowZnJZUW9zNllkeTg5d0kyNlk3Y0pNei1FOHNqZ2NKbFV1QWNrbWpocGRTLUpWTmZWR185dlh0S3VCdTd0Rjdpc1lSX1o0NDI0cTNDOThSMXVyRkxLMFpkZjl4QQ?oc=5",
-      "desc": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies CNBC",
-      "source": "CNBC",
-      "time": 1788509331.0,
-      "score": 68.0,
-      "key": "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15",
-      "importance": 68.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. - news.crunchbase.com",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcDlYejRsNWZhOUhVb00xNm9OaWVPel9WZnphXzliRDBrNGM5eE81Z2czZFdmYlBEbmtmdDFROXRKZldlZC1mVzAtTUgzYmY5ZV9MTFNpeGttUExiQnBYNkx3bnl4dzBHOW0xNGE3aXV0T2NvVUVsY3E4cDJrLVNWN0M2MHZtLUY4UWFJZE92VW9RTjdfN1NXd1lmUEgtakk?oc=5",
       "desc": "A Startup General Counsel Knew What Corporate Lawyers Needed From AI. So She Built It. news.crunchbase.com",
@@ -588,20 +572,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788523856.2675261,
+    "last_start_ts": 1788523941.923524,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788523856.2675261,
-    "last_success_ts": 1788523856.2675261,
+    "last_run_ts": 1788523941.923524,
+    "last_success_ts": 1788523941.923524,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 15
+    "last_published": 1,
+    "queue_size": 14
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788523765.2742689
+      "updated_at": 1788523984.8163931
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2245,12 +2229,18 @@
       "desc": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год abireg.ru",
       "source": "abireg.ru",
       "region": "RUSSIA"
+    },
+    "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15": {
+      "time": 1788523941,
+      "title": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies - CNBC",
+      "desc": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies CNBC",
+      "source": "CNBC",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2267,8 +2257,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788522622.0770597,
-  "last_publish_ts": 1788523761.8518865
+  "last_publish_ts": 1788523941.923524
 }
