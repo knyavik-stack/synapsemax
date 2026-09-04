@@ -778,13 +778,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788540261.0111675,
+    "last_start_ts": 1788540380.1605923,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788540261.0111675,
-    "last_success_ts": 1788540261.0111675,
+    "last_run_ts": 1788540380.1605923,
+    "last_success_ts": 1788540380.1605923,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 17
   },
   "providers": {
@@ -805,13 +805,6 @@
     }
   },
   "stories": {
-    "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": {
-      "time": 1788453913,
-      "title": "ИИ-агенты для бизнеса: как автоматизировать отчёты и работу в CRM без разработки - VC.ru",
-      "desc": "ИИ-агенты для бизнеса: как автоматизировать отчёты и работу в CRM без разработки VC.ru",
-      "source": "VC.ru",
-      "region": "RUSSIA"
-    },
     "fd700f2017564779e5b5f62708e2322272fd9e63b05613d91f2fe5e4cf8377f6": {
       "time": 1788454269,
       "title": "В работе ChatGPT, Claude и Grok произошёл сбой: пользователи не могут получить ответы на запросы - RB.ru",
