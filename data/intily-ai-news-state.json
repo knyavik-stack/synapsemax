@@ -231,7 +231,8 @@
     "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": 1788522561,
     "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522800,
     "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": 1788523099,
-    "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42": 1788523400
+    "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42": 1788523400,
+    "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": 1788523761
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -350,23 +351,6 @@
     "873757138a4e2ad16ebc0e74bf4e543d040382b75dcde3e24ceea6cb6f97befc": 1788522622.0770597
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год - abireg.ru",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBYd2hsRGdnQUhBeDRvVnNaWTI2aFpVYVRwT0VDOXBHWXhfMjBKZl82dFZydXJhd3ppVjladDVxSjBnQ1Z3cTB2amp3?oc=5",
-      "desc": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год abireg.ru",
-      "source": "abireg.ru",
-      "time": 1788521227.0,
-      "score": 76.5,
-      "russia_weight_bonus": 4.0,
-      "key": "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38",
-      "importance": 76.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "IT-бизнес выступил против платы за использование авторского контента для ИИ - новости Право.ру - ПРАВО.Ru",
@@ -604,20 +588,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788523463.1245432,
+    "last_start_ts": 1788523761.8518865,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788523463.1245432,
-    "last_success_ts": 1788523463.1245432,
+    "last_run_ts": 1788523761.8518865,
+    "last_success_ts": 1788523761.8518865,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788523416.175773
+      "updated_at": 1788523765.2742689
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2254,13 +2238,19 @@
       "desc": "OpenAI Agents Went Rogue, Hijacked German Wiki And Shared Bypass Tactics Times Now",
       "source": "Times Now",
       "region": "WORLD"
+    },
+    "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": {
+      "time": 1788523761,
+      "title": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год - abireg.ru",
+      "desc": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год abireg.ru",
+      "source": "abireg.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2276,8 +2266,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788522622.0770597,
-  "last_publish_ts": 1788523400.482785
+  "last_publish_ts": 1788523761.8518865
 }
