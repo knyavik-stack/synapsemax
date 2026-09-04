@@ -223,7 +223,8 @@
     "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788519980,
     "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997": 1788520220,
     "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11": 1788520521,
-    "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": 1788520820
+    "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": 1788520820,
+    "6c2c1d116f9b71f047019842d7ba791ca8369ba929f0f977eaa671b1d25c39a1": 1788521180
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -348,23 +349,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Почему AI-пилоты не масштабируются: проблема часто в самом процессе внедрения - vc.ru",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JcmhORVJGRnNqMnNDaFExQ2VubGduWEdIdWRra2otd3VJTFUwVVhtd2xLV2NVdEdUSDlhYzVWc2FXNjBxTVZNemRtT1NIaXFEQndDLUVVaklnYVd4WnlLUm4wYllPWkh5VVNaQnV5WQ?oc=5",
-      "desc": "Почему AI-пилоты не масштабируются: проблема часто в самом процессе внедрения vc.ru",
-      "source": "vc.ru",
-      "time": 1788516747.0,
-      "score": 76.7,
-      "russia_weight_bonus": 3.2,
-      "key": "6c2c1d116f9b71f047019842d7ba791ca8369ba929f0f977eaa671b1d25c39a1",
-      "importance": 76.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "ИСИЭЗ НИУ ВШЭ: Китай и Республика Корея делают ИИ частью инфраструктуры науки - itweek.ru",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByTkppTXdSUlYtUXdRdnA4VGhpVTlaaHVpODF5ZW9hY2NldzgxbU9GVC1SRmI2SC15dndBU2xweTVpeFFPci1rTGdvUVF2Zkt1REY3LUZiLXN3TnNWbFE?oc=5",
       "desc": "ИСИЭЗ НИУ ВШЭ: Китай и Республика Корея делают ИИ частью инфраструктуры науки itweek.ru",
@@ -389,21 +373,6 @@
       "russia_weight_bonus": 4.9,
       "key": "cc0d8ba1979f2b627509070666ee20f2c1bb39f1a4592c662c00cf4d363765b9",
       "importance": 73.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "AI в резюме больше не преимущество: что будет цениться вместо этого - vc.ru",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUUVkNWJvaTdDVGY4aTlCcUxOR0M3MF9jaXpTMTNzS3pPUHFFWHplTHZZSzFiWjh3X21qbFNqcEJ3M0tmYllmUDlMV0Q4dXRSYUUxc3ozWmNtNkEyUlY0aTlxSWhFclBJZWwxV1oyUTVpQ1RjdkpGR3MtQ2UzMUcwMnI1LXAzSE9ZQWdET0Y3Ymo?oc=5",
-      "desc": "AI в резюме больше не преимущество: что будет цениться вместо этого vc.ru",
-      "source": "vc.ru",
-      "time": 1788517386.0,
-      "score": 72.6,
-      "russia_weight_bonus": 3.1,
-      "key": "0aa7079147f7581f4424c8d0f8b08ef855bc61b837b99d200dd6a6d469e07c84",
-      "importance": 72.6,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -474,15 +443,15 @@
     },
     {
       "region": "RUSSIA",
-      "title": "В России начали внедрять нейросетевую расшифровку в журнал звонков - dg-yug.ru",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tT3VCWXdSWW9HVGZtcnVGdzNSNS1Bd1B5ckpWZGFFNFVJOEpEVVJwUjlnQ3FWMVVEV2hKZlhtVFVzT3FsbUJfR3BfWFFudTFvNVE?oc=5",
-      "desc": "В России начали внедрять нейросетевую расшифровку в журнал звонков dg-yug.ru",
-      "source": "dg-yug.ru",
-      "time": 1788510098.0,
-      "score": 68.5,
-      "russia_weight_bonus": 3.0,
-      "key": "9ccaa61d9072f176daa15ff3bbf976d19c43f155694233aca655e5a797f00a7b",
-      "importance": 68.5,
+      "title": "AI в резюме больше не преимущество: что будет цениться вместо этого - vc.ru",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUUVkNWJvaTdDVGY4aTlCcUxOR0M3MF9jaXpTMTNzS3pPUHFFWHplTHZZSzFiWjh3X21qbFNqcEJ3M0tmYllmUDlMV0Q4dXRSYUUxc3ozWmNtNkEyUlY0aTlxSWhFclBJZWwxV1oyUTVpQ1RjdkpGR3MtQ2UzMUcwMnI1LXAzSE9ZQWdET0Y3Ymo?oc=5",
+      "desc": "AI в резюме больше не преимущество: что будет цениться вместо этого vc.ru",
+      "source": "vc.ru",
+      "time": 1788517386.0,
+      "score": 69.6,
+      "russia_weight_bonus": 3.1,
+      "key": "0aa7079147f7581f4424c8d0f8b08ef855bc61b837b99d200dd6a6d469e07c84",
+      "importance": 69.6,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -627,20 +596,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788520880.6083283,
+    "last_start_ts": 1788521180.5473936,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788520880.6083283,
-    "last_success_ts": 1788520880.6083283,
+    "last_run_ts": 1788521180.5473936,
+    "last_success_ts": 1788521180.5473936,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788520843.7188873
+      "updated_at": 1788521183.550974
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2221,10 +2190,16 @@
       "desc": "Хакеры с ИИ против веб-сервисов: Solar 4RAYS представил отчет о расследовании сложных кибератак в 1 полугодии cisoclub",
       "source": "cisoclub",
       "region": "RUSSIA"
+    },
+    "6c2c1d116f9b71f047019842d7ba791ca8369ba929f0f977eaa671b1d25c39a1": {
+      "time": 1788521180,
+      "title": "Почему AI-пилоты не масштабируются: проблема часто в самом процессе внедрения - vc.ru",
+      "desc": "Почему AI-пилоты не масштабируются: проблема часто в самом процессе внедрения vc.ru",
+      "source": "vc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "RUSSIA",
@@ -2240,11 +2215,12 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788520820.733582,
-  "last_publish_ts": 1788520820.733582
+  "last_publish_ts": 1788521180.5473936
 }
