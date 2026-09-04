@@ -221,7 +221,8 @@
     "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": 1788518901,
     "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": 1788519499,
     "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788519980,
-    "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997": 1788520220
+    "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997": 1788520220,
+    "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11": 1788520521
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -330,23 +331,6 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 7,
       "next_retry_at": 1788538699
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Искусственный интеллект в 15-м пятилетнем плане Китая - Институт статистических исследований и экономики знаний",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TcWdPdkpiMHhHN3pldVhaT0VPUmlBd1ktUEhRNEdCV2ZLUUprc2w5QkZQQmNLUHQ4OGJMZzExd2xvV1ozNG1mNU02bEczMnF6Z2w4?oc=5",
-      "desc": "Искусственный интеллект в 15-м пятилетнем плане Китая Институт статистических исследований и экономики знаний",
-      "source": "Институт статистических исследований и экономики знаний",
-      "time": 1788509851.0,
-      "score": 69.7,
-      "russia_weight_bonus": 4.2,
-      "key": "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11",
-      "importance": 69.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "research"
-      ],
-      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -503,20 +487,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788520220.1955428,
+    "last_start_ts": 1788520521.961244,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788520220.1955428,
-    "last_success_ts": 1788520220.1955428,
+    "last_run_ts": 1788520521.961244,
+    "last_success_ts": 1788520521.961244,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 12
+    "queue_size": 11
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788520223.5251257
+      "updated_at": 1788520525.0044441
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2083,11 +2067,17 @@
       "desc": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться vc.ru",
       "source": "vc.ru",
       "region": "RUSSIA"
+    },
+    "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11": {
+      "time": 1788520521,
+      "title": "Искусственный интеллект в 15-м пятилетнем плане Китая - Институт статистических исследований и экономики знаний",
+      "desc": "Искусственный интеллект в 15-м пятилетнем плане Китая Институт статистических исследований и экономики знаний",
+      "source": "Институт статистических исследований и экономики знаний",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2104,9 +2094,10 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788518901.903705,
-  "last_publish_ts": 1788520220.1955428
+  "last_publish_ts": 1788520521.961244
 }
