@@ -452,9 +452,123 @@
     "91dfe793b6ed1d2bd2f17df5cd051acc69b80c2360cda0842ab65030aa69f9e4": 1788532400.983643,
     "4caec12fe9d9c2fa1c8b0f743cdca6de282636e7076113f1569851bc9f654206": 1788532400.983643,
     "633b5e0c75d86708a865a9a9a83372b3e46dc394e80e0ed97ee978b7c7f32ace": 1788532400.983643,
-    "998f0eab1710a01fbfd2436f3c3a1ef39f6e6605e34840cb11ce64f5e55e0893": 1788532400.983643
+    "998f0eab1710a01fbfd2436f3c3a1ef39f6e6605e34840cb11ce64f5e55e0893": 1788532400.983643,
+    "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": 1788534259.6266851,
+    "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": 1788534259.6266851,
+    "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": 1788534259.6266851,
+    "ff374a60e61b0ca84c654c0f578a972ee37931667d473c0f3f4305ec0f2398c6": 1788534259.6266851,
+    "cfe31e748d32388727cbd6ec69c1cefe23bc5cc4fbe63e81904a06ccc397df5d": 1788534259.6266851,
+    "9b2411342d80e2c6b34fa3b3384bed016c552a3251af059423e5b63645928a1e": 1788534259.6266851,
+    "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": 1788534259.6266851,
+    "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": 1788534259.6266851,
+    "e29bb4b90bf5b83482e866f9cf7bd051c29af047aae6d8346b12e82a6ece4bc2": 1788534259.6266851,
+    "bb6a6151e8d3ac153a6f91bd83d5f6384b1422802d28e7e82ba08210ecde81b3": 1788534259.6266851,
+    "c6bf75808f90483403096c55061be775a63e7308bf61e77446a7b4663348c7a9": 1788534259.6266851,
+    "1d774f3fc5653b0664cce08d05e5a36dcc2537a25c34f94d5e5ff68f113b6258": 1788534259.6266851,
+    "6477bde6970d43bf503f9b678703510e6847316eb67804adea037d5bbe15e8c2": 1788534259.6266851,
+    "b67a49316d3f44a3f185ab265585a1d2dd990fbf6bc59fe894aca5c9318d2652": 1788534259.6266851,
+    "5835a362b5d986fac39912526eca0bd1be8521da821f61d5cc3caff65cfce5b3": 1788534259.6266851,
+    "4b08fe35c1ab0dbb1fc33c29f6034b14ef716c03527316f43a9a1cae747286bb": 1788534259.6266851,
+    "db6b215fa5de2b16d30f47c580e663b069efcf6ed3d5e5a172f0576ba443e873": 1788534259.6266851
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI представила самый умный ИИ - Инвест-Форсайт",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZX3hHcWJQUGxxYS0zWjNOcXB6Sy1sS3dTVk9xMlpnQnRLb1pHOGZyLXJIRHlHc1dhYnpSNGFxUU9QZXJlMENCUHJDQzV1MFRjSVZvN1BwZC1oTEZ6ZmR1dVF0RGY?oc=5",
+      "desc": "OpenAI представила самый умный ИИ Инвест-Форсайт",
+      "source": "Инвест-Форсайт",
+      "time": 1788533460.0,
+      "score": 75.3,
+      "russia_weight_bonus": 2.8,
+      "key": "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b",
+      "importance": 75.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Минюст объявил «Новую газету» иноагентом - kommersant.ru",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5aRE03QlhCOXllYzJvTVk4dkJvb0N3dGZWaWFSYVVUNDczM3ZWdzM1ci1taWpjVzhiQ2Nzc3Jrd1FNRm54c1QzMFAwcnp1Zw?oc=5",
+      "desc": "Минюст объявил «Новую газету» иноагентом kommersant.ru",
+      "source": "kommersant.ru",
+      "time": 1788533495.0,
+      "score": 75.1,
+      "russia_weight_bonus": 2.6,
+      "key": "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5",
+      "importance": 75.1,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского - Gazeta.ua",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeTFCdlN6eFlITDhFVlNINDVLMFNvQzhJY2hFb3pOZkhjU1FEaF82eWl1TTl2OGhGV21jTnVCaWlDZlZnYWlWWGV0S3FmUGVSSWZ6d21VUEEwTFNvWVV3WUJxby05ZkRTQ1dQSTJmbnIxNmxhWmk1blI0Y1FGN2U4QXFKMUI0M3JfZGFsdUVkQ1FjVlk5bzlBemZ6cEpST083NlBvaFdSN2xfb081SGZCVzdHSVRZZzA4NUZsenRSY2dkclJoNThjS2t3?oc=5",
+      "desc": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского Gazeta.ua",
+      "source": "Gazeta.ua",
+      "time": 1788532349.0,
+      "score": 74.8,
+      "russia_weight_bonus": 3.3,
+      "key": "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884",
+      "importance": 74.8,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами - CNews.ru",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XcUxCWDFFUlUtUEhFbDJ3UlU3emF0NU9TRHlmVXFReXlRUjhMazQ2Vzh0elRzWDlLUnkwTG0xWjVwYWs2Tl9nc1I0SVJvWXk4dDcyVmdGVlhDTjhubW5DLU9iT1NUUHdZeGRPMk5WbERjWXJWeE80?oc=5",
+      "desc": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами CNews.ru",
+      "source": "CNews.ru",
+      "time": 1788532650.0,
+      "score": 74.6,
+      "russia_weight_bonus": 2.1,
+      "key": "ff374a60e61b0ca84c654c0f578a972ee37931667d473c0f3f4305ec0f2398c6",
+      "importance": 74.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны - Life.ru",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2g3cmJzSDdqTll5NXdnQmpLQS1MM3d1bW9Pd0JkZW01QXBpc3haOXhfWkRwR1M5TTlQR3VxQWxsbkxEdF9MYzgweDFyQWJFaHJSbE1WSzBQXzhrR1dHS3FpVF9GVk0yWmxkWmxjeHlkN1pNNlY1OWpXWlVBaGx0NXhZY1dnSzZuV1JnTWJQQk5lVzJvSzNnX2dRNUswUQ?oc=5",
+      "desc": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны Life.ru",
+      "source": "Life.ru",
+      "time": 1788533194.0,
+      "score": 70.8,
+      "russia_weight_bonus": 2.3,
+      "key": "cfe31e748d32388727cbd6ec69c1cefe23bc5cc4fbe63e81904a06ccc397df5d",
+      "importance": 70.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Experian expands into AI agents with ServiceNow partnership - SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWjR0Mm80Y0VEVzFwX3BFRjh1dTFKYm5LOHZYNTNwRWo4dDI3dHpGSk85RHJLQ091cUlKV1FERE54cjR0bW1OMnNSOG5oTnYxeUloTmRycjRWMEVNVkxxNXFGbUhITTVHQVVKQkRLVnNiRUlNeHoyNEx6MklCa2FjSGlxQ19NcTZxSkJXOTlGVWJfd2NnWU1PbEZpTVM?oc=5",
+      "desc": "Experian expands into AI agents with ServiceNow partnership SiliconANGLE",
+      "source": "SiliconANGLE",
+      "time": 1788533400.0,
+      "score": 70.5,
+      "key": "9b2411342d80e2c6b34fa3b3384bed016c552a3251af059423e5b63645928a1e",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "«Использовать ИИ только ради моды мы не будем» - kommersant.ru",
@@ -483,6 +597,22 @@
       "importance": 70.3,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Travel Technology Solutions Market: AI, Automation - openPR.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRDBCcUdIeE9LbzFoVHN1TlJaMFJZaklDTmJNeVBIN215QzBUMTJjSWFwR2wwMWkxV0ZJY1hhNXpJQWhORF9XakwzVmtMSjkxZWQtRFZXQ2VIZmlGWnNQRUttV2FuUEN1bGNjNW9FWnlLUjRQeVZYTEdZZ0hsQ3FhcDVlcnhlN05XVUpvcA?oc=5",
+      "desc": "Travel Technology Solutions Market: AI, Automation openPR.com",
+      "source": "openPR.com",
+      "time": 1788532091.0,
+      "score": 69.5,
+      "key": "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
       "tier": "A"
     },
     {
@@ -547,6 +677,23 @@
     },
     {
       "region": "WORLD",
+      "title": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI - SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObzRkVGpJUUx6N2JRa1B6RW41SDVjWHdSSVcyOWpUdERQVWtic2RZc2ctQ3UtOFJFckZoU21CVXd2SlhiOHpla0pTRFEzbG9wbmhUOC1KeHpJZnFkYktJRkFsSDlTb3Z6bTBjbkZfU1BVZFZ6MFJaRVZDdDNseVl3YU1GUXJxZEljOG5SOUdycUFDM2p5YjZvdlEtSkxEY3VfaVpfeXRXWVd1Q096ellKWnFhMU4tR1g1cTJTWQ?oc=5",
+      "desc": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI SiliconANGLE",
+      "source": "SiliconANGLE",
+      "time": 1788530460.0,
+      "score": 67.5,
+      "key": "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips",
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters - officechai.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZyelliLVdsNldUdm5RUWlxdTNVaGx4OTJNSXdoVzlqOS1CSmo1NWUzTm80T1NFenFPdXhBLUZuajU4Z2RUdzVHYUZkYlh6eVBNejlLZ05jSmdfZ1VSWGs0R0h5VVo4d19TZkY4UHZ5T2lFT3V6WlNwSGJlV3h3cXRvdTd6R3h6Q0FIUmRkMEMxaVVaMGVPc3NfUGtScHpabldhNDBxa0V6OHliV0wzZVF3?oc=5",
       "desc": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters officechai.com",
@@ -591,13 +738,13 @@
     },
     {
       "region": "WORLD",
-      "title": "AI Is Inventing Physics Experiments Humans Never Even Imagined - hothardware.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2VaZnh6WlBKNVR6UTZBeUh4R0JYNEloRnVVNzVnSXViczduN0xUOGdBOXV5N0hTamlEbDNmdk92UjNaVGhkZUpzVE85NDJzTzB5RWFndkw0WDF1TkJkRU8tUUdoUTljX25NYjFoY1hvSGFyeGc0Rkl0RG11ZDAxVTZoMzJUQ1dUM1JMYjByYmo1UjlQTWc?oc=5",
-      "desc": "AI Is Inventing Physics Experiments Humans Never Even Imagined hothardware.com",
-      "source": "hothardware.com",
-      "time": 1788531900.0,
+      "title": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty - Tech Review Africa",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazBFLW1md3JhaS1iX2E3QXdsbVVXdktEVk4yS0lqV2dDX1haMWw4SzJjSllFUmY5MVcxTjhMNlMtamlTVmhLMnRTT1JGZWVYMlZvemdBSGNzZGlzLXUwYUYxdUZ3TW1EX0twLW9jR1JVcHNtZmlmWUI4YTMweERaY2hfZFNYREQ5U2c0WUdrV1R4VFBXaTlfRW5EZ1ljUmphRW5oZHdNblduWms0TlpIeGUtY3JzbDNNYkRkMWktOVRtTGs5ckJtOUhNUzYwUQ?oc=5",
+      "desc": "Morocco’s Digital Transition Minister receives Africa Next Award for AI and Digital Sovereignty Tech Review Africa",
+      "source": "Tech Review Africa",
+      "time": 1788533539.0,
       "score": 66.5,
-      "key": "f40db154071ab97261f8221694de020fb5108465717f3aac659d14b7d1a7345e",
+      "key": "e29bb4b90bf5b83482e866f9cf7bd051c29af047aae6d8346b12e82a6ece4bc2",
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -605,13 +752,13 @@
     },
     {
       "region": "WORLD",
-      "title": "Vera Advances AI ROI Measurement With Evidence-Based Workforce Intelligence - HRTech Series",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZTZSUVN3VHg1ZkdoYnE3OFV3dVdBbmVENDdIbHVKQUlJSm5qS1BrbGZnV1dwQ3YtWnQ5WWhINldya1F2cGhuWHZqZUN4dGIwZERDaXBua2tuam44cDk2OVFDUlFsTXRqcGNpMzQtQ2k0QVVkOVhqZnZ2bGh0NFh4bC1RSmZGeWpxMHlsajNZY1VaU0VUOFlmaTlJQ2lPSXdxdWxLUmd2bThYaVF4X0dzcHh3Ums0U004NUZNZg?oc=5",
-      "desc": "Vera Advances AI ROI Measurement With Evidence-Based Workforce Intelligence HRTech Series",
-      "source": "HRTech Series",
-      "time": 1788531382.0,
+      "title": "Oracle (NYSE:ORCL) AI Bet Tests Its Cash-Flow Valuation - Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQW54bWRNYlM4a0x2clNQOWozSEduNnY2ZUNubmRSVVRQV0hmbnNMNzcyWkJOeXZWR0xvSW51WXpXbnM4UHpMejlzVzVFakFIT3RHemxZWTB5eG1JRF9KbURzZG0yMEVPWENWMGJVNk43WUtzUllPbE9ZNzJqQXRraWUxSmF4MEx6R0xoRWt1T1pCTnNxMnh3elMzU0hURDA?oc=5",
+      "desc": "Oracle (NYSE:ORCL) AI Bet Tests Its Cash-Flow Valuation Kalkine Media",
+      "source": "Kalkine Media",
+      "time": 1788532980.0,
       "score": 66.5,
-      "key": "8aee0620d08f84710bdb65cc20884d1b10f0046ed6d6edbd91650cb0b6373cb1",
+      "key": "bb6a6151e8d3ac153a6f91bd83d5f6384b1422802d28e7e82ba08210ecde81b3",
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
@@ -633,32 +780,17 @@
         "robotics"
       ],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "LLM в корпоративных процессах: как выбрать сценарий, который окупится - VC.ru",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSzVrR0lsTHM3LWRrLVBCMzQ5R3VHUnplRkZJV2V1ZzBabnJGUTJjeHJHek12RncyUHduTnRFYS1OM1NVaURCZFcwejNuQXY1NFp0Zk9FWFBObUhDZGxqdXpjdk1PQmhoRDBodVh4Um8zUXFsV1VwREFvRk1lcnRnbjQzMGd0b3hyMWJHcWxCeUZPX0E?oc=5",
-      "desc": "LLM в корпоративных процессах: как выбрать сценарий, который окупится VC.ru",
-      "source": "VC.ru",
-      "time": 1788520788.0,
-      "score": 62.0,
-      "russia_weight_bonus": 5.0,
-      "key": "c64a81495eb20f5fbf4d0b14980cdbfa1a550934464c68b28cb16d26db19611a",
-      "importance": 62.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788534140.3959239,
+    "last_start_ts": 1788534259.6266851,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788534140.3959239,
-    "last_success_ts": 1788534140.3959239,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 13
+    "last_run_ts": 1788534259.6266851,
+    "last_success_ts": 1788534259.6266851,
+    "last_candidates": 117,
+    "last_published": 0,
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -678,13 +810,6 @@
     }
   },
   "stories": {
-    "702664fe09face13404ad552609f7142ff4db8329c49f1ee004a17bc643bc084": {
-      "time": 1788447798,
-      "title": "Google launches Gemini 3.8 Flash coding model, dodges AdX breakup - qz.com",
-      "desc": "Google launches Gemini 3.8 Flash coding model, dodges AdX breakup qz.com",
-      "source": "qz.com",
-      "region": "WORLD"
-    },
     "999221733fd8a9c470f31aaf765ef602ad19195a15c730ac6edda703fb61560e": {
       "time": 1788448151,
       "title": "Исследование «КОРУС Консалтинг»: почти 70% компаний не могут оценить эффект от внедрения ИИ - ГлобалМСК.ру",
@@ -2388,6 +2513,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788532400.983643,
+  "last_search_ts": 1788534259.6266851,
   "last_publish_ts": 1788534140.3959239
 }
