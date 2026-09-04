@@ -460,20 +460,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies - moroccoworldnews.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjNBWjRjQWhobS11eUJkY2xTaGFhQTFSRjA1a2pjRmtHZXItVUFIUHlBSmo0WEVFZGRiZnpZNURzOXgzMTc3Y0lsY3FZYTZPMlNyRWlhTFM1aGVLVnlJX1BtZjB1SHQ1V0l0eFdnZFdwd1pSeV9BSmpWeU1hS0lBVklLcGh1S1FVTWJQZm54UFN6YnZiUnpqQ2tzZjRIVW05ZDNQbjhvaDRwMTlaSVkyZkhxRXc1Y1JqTy1EaA?oc=5",
-      "desc": "Ai Everything Abu Dhabi to Showcase Next Phase of AI With 350+ Companies moroccoworldnews.com",
-      "source": "moroccoworldnews.com",
-      "time": 1788547718.0,
-      "score": 63.5,
-      "key": "427464c2d896eadaf0b6adb0746de3869c66748ac0632f1b159768fdfedf1102",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Нейросети нашли замену жестким дискам и SSD. В мире бум спроса на технологию 100-летней давности - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZlVQQTY0RG1KWWc4YWNFaEZqZnM5ZUQyR1R0UFBKcFcxbzNNWS1CeWNBZ1dnMmQyUFZ1dF9tV0RkSHRLYlBsSzhmLUM4dG5xb2tveG5yUjhhNEhxUXhFM1JMaGZUOWdhX1d1X2d2RmZILTdaQUNkWDdLTDd3SnRRaURfUzdRUlVYUWthRGduU1h0NjN4ZXpoNjN4cVphRy1MZDNNcko3N2hfampBMGQ0Q3pteFhPUzhQTGotMjhIa3RPLWZUTGtnLUdscDcybU1XdEFrZw?oc=5",
@@ -522,14 +508,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788558501.77815,
+    "last_start_ts": 1788558559.6671824,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788558501.77815,
-    "last_success_ts": 1788558501.77815,
+    "last_run_ts": 1788558559.6671824,
+    "last_success_ts": 1788558559.6671824,
     "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 4
+    "last_published": 0,
+    "queue_size": 3
   },
   "providers": {
     "GEMINI": {
@@ -549,13 +535,6 @@
     }
   },
   "stories": {
-    "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": {
-      "time": 1788472149,
-      "title": "OpenAI Astra is a mysterious new quantum math-solving model - Mashable",
-      "desc": "OpenAI Astra is a mysterious new quantum math-solving model Mashable",
-      "source": "Mashable",
-      "region": "WORLD"
-    },
     "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895": {
       "time": 1788472493,
       "title": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences - PPC Land",
