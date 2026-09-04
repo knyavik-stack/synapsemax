@@ -166,7 +166,8 @@
     "25d32742e77ff0e02e46dcfaf84feafb7ebd8d239aee60632165fd4f32faf217": 1788491994,
     "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": 1788492592,
     "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": 1788492773,
-    "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788493015
+    "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": 1788493015,
+    "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19": 1788493614
   },
   "known": {
     "819f72c986a03f546bee5283414680529c4e4f29e03d98996f8aa0baf4fd4857": 1788472733.8932097,
@@ -261,22 +262,11 @@
       "importance": 81.8,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVU5GZS1uTWYxS2ZpamM0Uy1RbGt6aE14NE1WV0owaW9Bb204V255WTVxYU9meEFza2R5UFBDT1NlNU5jTEVSQ25GandkSHc2WHVYcHczQ2puY1Z4UEExV3pNbmJ5Zi1nRHFuNFdZMXR1RExpY1RFT3dpcGJsNmhabzhDWlZCSV82MmtrcXRVNDhGaXZpcDdSZmoyOEozWS1FaEFKNWF4eWhaejUxeENZcEw4aUJJeFk1U0ZWUkt1LUwtdzVV?oc=5",
-      "desc": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788492758.0,
-      "score": 78.8,
-      "russia_weight_bonus": 4.3,
-      "key": "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19",
-      "importance": 78.8,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788493614,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788493914
     },
     {
       "region": "RUSSIA",
@@ -329,20 +319,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788493136.260545,
+    "last_start_ts": 1788493614.8556986,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788493136.260545,
-    "last_success_ts": 1788493136.260545,
+    "last_run_ts": 1788493614.8556986,
+    "last_success_ts": 1788493614.8556986,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 5
+    "last_published": 1,
+    "queue_size": 4
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788493016.6672826
+      "updated_at": 1788493620.4302368
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1524,6 +1514,13 @@
       "desc": "AI Tennis Training Robots: ACEMATE Has Unveiled Its ACEMATE S10 Pro at IFA 2026 Trend Hunter",
       "source": "Trend Hunter",
       "region": "WORLD"
+    },
+    "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19": {
+      "time": 1788493614,
+      "title": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ - prospect.com.ru",
+      "desc": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1540,14 +1537,14 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788493074.7616563,
-  "last_publish_ts": 1788493015.0088618
+  "last_publish_ts": 1788493614.8556986
 }
