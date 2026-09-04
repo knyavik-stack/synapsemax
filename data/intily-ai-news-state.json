@@ -489,9 +489,112 @@
     "9fcb50daa509dbfadc69e806aa45829923676a4df24f22153cda20ce99f6a9fd": 1788538102.15343,
     "12ea18b9f3e15120f32c9e6c1f16c35bf8982acf17c624439c8266c5bc10a99d": 1788538102.15343,
     "ea43c46d5d67e331753fcc5695febc69aaace8ab317512c22e7710a8cc267164": 1788538102.15343,
-    "7d340526b36a697c5ff13c6ea9b832b677c1f538c5b7dddd65d35b0ad775c853": 1788538102.15343
+    "7d340526b36a697c5ff13c6ea9b832b677c1f538c5b7dddd65d35b0ad775c853": 1788538102.15343,
+    "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": 1788539960.9653587,
+    "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c": 1788539960.9653587,
+    "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": 1788539960.9653587,
+    "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4": 1788539960.9653587,
+    "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c": 1788539960.9653587,
+    "5e1b1e79a0181007049b591c5fe8cf02e1651a5b18ff7c53bd8a27e7a5609a24": 1788539960.9653587,
+    "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": 1788539960.9653587,
+    "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": 1788539960.9653587,
+    "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": 1788539960.9653587,
+    "b4d075f93594e2ff86cd2e366e6776d6bc68fcb9fe73d045d4d6b2480eb81fd3": 1788539960.9653587,
+    "972e1ae77954c1838c11da48683c48ae898cee3d064215e3777e89275890ed2f": 1788539960.9653587,
+    "5d92d6aa1b237c815e9c7d93df759e433e61d822a134dbe28a1f04ccad87da5d": 1788539960.9653587,
+    "60afd27fc584175d0ca99dceb65ca4587ec4145d553f7262281b837497c0366d": 1788539960.9653587,
+    "f6fda6f61048c8fbc188b25a36d0049c05701007e3cb3a18f68e658040d45c48": 1788539960.9653587,
+    "ac944b28799701e1ae349f261caaae57ddef51e60c4c58ae94915c336d74eb75": 1788539960.9653587,
+    "b1609aeb3f84e6e4b8dc7a1cb77b246a4072f83f3b71c6afc9876483ec064f34": 1788539960.9653587,
+    "5bd9bef301c5808b70bb280cca9a48dc80ed81a7e9ca86e5eb40e05c168e5c4f": 1788539960.9653587,
+    "cc2092572f8bda775a52b36203864cd6cc7049a25cf9466fdc7f2429fcab79c5": 1788539960.9653587
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Компания OpenAI инвестирует 1 миллиард долларов в поддержку важнейшей инфраструктуры для укрепления кибербезопасности. - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONDFDTWhQRFpqeUZXNlpKdDd2Sk1CaFhHX1ZrNEQ1V25TZWd3azZmVjFrV2Itd2doRVlqdkxwM1FqLXZNR2JmWWlwMDdFckliRWRDRDUySVB5WXVhUEpndWEtN3BDTWU3Q210bWs4UUlBbWRTTndaWGpYeEFTWVdLeTVIZi1EY3RsNk9BYTBmRGU1M2FmdlNNN3BFdw?oc=5",
+      "desc": "Компания OpenAI инвестирует 1 миллиард долларов в поддержку важнейшей инфраструктуры для укрепления кибербезопасности. Vietnam.vn",
+      "source": "Vietnam.vn",
+      "time": 1788539893.0,
+      "score": 83.9,
+      "russia_weight_bonus": 4.4,
+      "key": "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7",
+      "importance": 83.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Александр Ведяхин: Доступ ИИ-агентов к маркетплейсам поможет покупателям - Курс Дела",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaklUVEUxQUxFQ1V5T3l4Z0ZiOU01Y25MOUhFcUhMZjVPZ3lOTUtja2tQaTRxTV9hZjlRYkotVW1senVNa1NQYUxFbExhQ0hldkZfbFpXYVM5OWdSRjZsMWlSb2d0ZEJIbGxZX01zLUI4RzJBQ3dFeElHLXVObUthbjVwUEVHRmJHSGdBV0JLanlxSGlSNmZPSTJla2QtV2VySEhyclRkTzVaWDlOYWZ3di10aGdwcm5Zdm1N?oc=5",
+      "desc": "Александр Ведяхин: Доступ ИИ-агентов к маркетплейсам поможет покупателям Курс Дела",
+      "source": "Курс Дела",
+      "time": 1788538560.0,
+      "score": 77.2,
+      "russia_weight_bonus": 4.7,
+      "key": "1acaf89806181162b77c5346a133dce3dfe338faaaf1cb477891b3412d83853c",
+      "importance": 77.2,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ-агенты взломали сайт и сделали из него доску объявления для ИИ - Ruposters.ru",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONWZMUVhKN0drOWVRanpSWE80REVjdXJrVzlRZlpNT3NsQlFHWDg1Q0JTcmtvNGFJSGI3SlZhdWZOQWZFTFk5YU93YmpyX1VndzlHS1prQzI0YjQ5VXpXVlU2WG1pREdiODdfNHZoa1drRlRjcDRNUUlMcWdtLVpXM2tOLU1pLXM?oc=5",
+      "desc": "ИИ-агенты взломали сайт и сделали из него доску объявления для ИИ Ruposters.ru",
+      "source": "Ruposters.ru",
+      "time": 1788538860.0,
+      "score": 76.8,
+      "russia_weight_bonus": 4.3,
+      "key": "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d",
+      "importance": 76.8,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOURfNHRjVENzWGtqdkRtZVF6djAxS1ZlYlQ4T0ZlT0ViRUtlWjNNQVVKVmxtLTlQLV85OGZWUFl1LXJYTTVhb2tsd0lUa3VWUnhmd3VFbVlVd2VSSTBYOVNZTVN1ay1rRFU3NnpxTTdmUDEwUmtKRUdPWnVCUGExLXVxMENncmNrN1ppM1BKVF94V0ViSERKUlhWVTR6UW1Qd0NWWUdMQXZNNklWWkFTV0dGS1lBQ05GVkk5QTRKTEs?oc=5",
+      "desc": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам Восток-Медиа",
+      "source": "Восток-Медиа",
+      "time": 1788538260.0,
+      "score": 76.5,
+      "russia_weight_bonus": 4.0,
+      "key": "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4",
+      "importance": 76.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах - newkhakasiya.online",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOERic2ZXYjhTMHJNdjJMOF9IamhGVVRDeFJNbllKVGl6UWhNdmQyZ3g0RTVkMUY5eERJcWljREJMWmU1dG43QVlNZ3FtdS1SblBLOUc3Sm5rSExBQk1GWTBtVW8zbW1JZEFoQjEyZVM3MU9lNXJtSWJ2UVNGZ2ZlaHJ3T1RKMVBmRzZEa2hWdkVVN0NDbU5yeDdzTEZMclVUS2RKc2Jfa0ZrMzBkczJhZkVJOEVsT2pWcVEtTFk0cFQzbUVwX0E?oc=5",
+      "desc": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах newkhakasiya.online",
+      "source": "newkhakasiya.online",
+      "time": 1788539280.0,
+      "score": 75.6,
+      "russia_weight_bonus": 3.1,
+      "key": "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c",
+      "importance": 75.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Зачем внедрять ИИ, если он не удваивает выручку завтра - Forbes.ru",
@@ -505,6 +608,87 @@
       "importance": 73.1,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Как ИИ-агенты научились отравлять друг друга - lenta.profinansy.ru",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91cHpOQkFxTXgxX0w0eURaY0w4enJncDBYR2hDd2VGTi1yN2FPanpjSkNKNGZCLW9kNW1lZkF3YkFMNlc3bF94TzFWcWlCbUVJRDdn?oc=5",
+      "desc": "Как ИИ-агенты научились отравлять друг друга lenta.profinansy.ru",
+      "source": "lenta.profinansy.ru",
+      "time": 1788535200.0,
+      "score": 73.1,
+      "russia_weight_bonus": 3.6,
+      "key": "5e1b1e79a0181007049b591c5fe8cf02e1651a5b18ff7c53bd8a27e7a5609a24",
+      "importance": 73.1,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Check Point expands OpenAI Daybreak use in security - IT Brief Asia",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdm00X3VfMzFCbUQ5aXNwZXJNMzhSU1ZfU2RjZWxuOFRncGFzSEZTTG90YkxfUnQyeEhneG1tRTRhZUxuNERudzhfbno3bEx4Snh3UFZEcTZBQmNfcEhqU0xtNzNWZEhPR0M4QUlmQjBIeEo3NVc5THhZdGZySVlYQ0xBY2w?oc=5",
+      "desc": "Check Point expands OpenAI Daybreak use in security IT Brief Asia",
+      "source": "IT Brief Asia",
+      "time": 1788539400.0,
+      "score": 70.5,
+      "key": "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ - MarketWatch",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbk5uUkNFdFhGTlpEckRaSUJvS1dUeUZyWVBrUGwwTm1VRjlmdGl1dmw0OTdhZ2x2bVRfdEQ3X1JCWDdIWm9MRTdRblBtb1dmaXI4UTk0SkNkakRkcnRWS0FQZFhiZ1NTVWZienJfM0VweVpUVzI0ekxpRnpKdXU4TzRtZ0ktQzNZQXcxZHk0elNocjVITXc2bzVaY09POG9keGtMY21qSEpfa0k4THNFSVdVYmsxV2U1cE81Vm1UZw?oc=5",
+      "desc": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ MarketWatch",
+      "source": "MarketWatch",
+      "time": 1788538740.0,
+      "score": 70.5,
+      "key": "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth - Yahoo Tech",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLXZBMmlEQWtrSnllcnRqVmtmdndFX2V6RkxieFFwUndLRlllSHJHdXA5LUVTTHFHc1Rtc211X0Q3UEJRZU51MUVpZDFLdW9Id1h2dTU4U0JnSnBlTlpDdmRwMEZsdzBLWnF0S2VmdDJjRWtlU05NM2JUT09RREhVMU1VOUpQMEE5T3VjZzAtaDNEX2l2TnBLV21zdw?oc=5",
+      "desc": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth Yahoo Tech",
+      "source": "Yahoo Tech",
+      "time": 1788538641.0,
+      "score": 70.5,
+      "key": "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules - StreetInsider",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUFGMk5mSFhVY3VuMHFFWnN2VkZtc05mVm5UUGoyZXdxcmhzYzM2TWlmN1puUUpINzIyLXlNcjIzaGZSSEJIYUFBdjJFSTBoQ2NKeVEtazBBRjV6dHlUM2czTW1aLXlaY0F0dzVoWHdwSjRGNmF6QXY4WTN3a1JNS1FJRE9waE1uOWFyUmI2N1AzUUNfOWFxRHlYdE5jdE1xTXBpVDZVRndsU3hCTHFBYWNRR05LWWhDbDgzNk5sVTBYeHlRTk13ZXFkb2U?oc=5",
+      "desc": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules StreetInsider",
+      "source": "StreetInsider",
+      "time": 1788539766.0,
+      "score": 69.5,
+      "key": "b4d075f93594e2ff86cd2e366e6776d6bc68fcb9fe73d045d4d6b2480eb81fd3",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
       "tier": "A"
     },
     {
@@ -569,6 +753,34 @@
     },
     {
       "region": "WORLD",
+      "title": "Generative AI Jobs Are Growing Faster In New York City Than The Traditional Tech Hub - WNBF",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9panZINVRicmJpQV9lQ0JOcnRfRk93MS1Nelp0RDdxd0JIQVdEN0FKdGpKMzB6NkV6NTMzYTBNQ1FKdXhIOUcxdE13ekZ2VG1OSGQzNlI5WUI?oc=5",
+      "desc": "Generative AI Jobs Are Growing Faster In New York City Than The Traditional Tech Hub WNBF",
+      "source": "WNBF",
+      "time": 1788538680.0,
+      "score": 66.5,
+      "key": "972e1ae77954c1838c11da48683c48ae898cee3d064215e3777e89275890ed2f",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI's Greg Brockman says he ‘could not do it without his wife’; the woman helping him survive the worl - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxObHhFSkFRWDhDcVdFcGJuckFwWlNNdmtQQXMxMUF0RFBvYjZGNUllMnl3QVMySnRkaVVGTmx4QlAxeFZKYnN6Z2dNYjNKSHdVQ3BCWnQ4R3lLUnBDUVdNX0F6X0ZqVG1ValJ2U2Z0R0ZCV3ZXdDBCSUotbU5udzlCenJvQndxakFHU3hOWjUyNzRZdC1XMGpMNFUxb2U1WlNieXZaT0ZnOU56cXZSWHVxLXBka1g4cC1ONnpkbzlNeTR4RW50bWtzQnphbUJjOWM1TGtKNHY0SkdOcVg3VFVkQ1Vhc2EwMDVUMjlfd3J0MGcwMHN0TXd0MDg0V181WlplNjI2ZHFSV3FEUm9YLWxxOWVKNEZHNWlna05xSXVBSkFzM1JhaFIzMXB30gGvAkFVX3lxTE9jbFZ5dkNWaV83ZnBmM01RaU50anVNOFNJUlRHa0Rsa3JuRXVJSExTWmNzQ2hpTkVKbXZJU2pQSk8xZTRETzBnSlFGNlFncFN4NU1Zem9URDZpalJsd0V0VHkyVHRja2JlTjJ6VExUdlFOWlV6aXc5VU51ODRiMFNvdVdSclh3RWFiT3FuQXZWd0xBWEVKVllCRHNZc3VfemRYZFc4REUza0RhdHR1dnd2eU9sQVFydUd6Rk1BNXJVeV95VW56VXJiY0JaTTBxNEgwWUhuaVV5QkQ3blVRQjRBM2VaS3NiMmlBeVZHbXhxbVVJX2JkNEh3ajgtQkNINXJ2NkhUYW8zbXZ4Y0hTcFZjQW5veEFrdGh3dXAxQzg0RVp5Nm1WTmpzSU5RWWItWQ?oc=5",
+      "desc": "OpenAI's Greg Brockman says he ‘could not do it without his wife’; the woman helping him survive the worl The Times of India",
+      "source": "The Times of India",
+      "time": 1788538260.0,
+      "score": 66.5,
+      "key": "5d92d6aa1b237c815e9c7d93df759e433e61d822a134dbe28a1f04ccad87da5d",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Students Question the Long-Term Value of AI Degrees - GovTech",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeC1hQVFJcTVPUmZ5alBSRzE1VFppV3FvcmoxZG01b25aN3dheDF6c2R5MGZxTUYySnE0elpQNk5lNmk1VjZma1BrV3NPWTZWS1pGY3J1dTF1MHAxWlZDWXpxNjVMVHBobnR1Y2RWYTdYLUFCanpCWjRYWktvVXlBeFhmU0RUWFZGM041eFZkWHlnVGg0QlZIV0UwRQ?oc=5",
       "desc": "Students Question the Long-Term Value of AI Degrees GovTech",
@@ -596,95 +808,30 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Google’s Gemini Spark can now manage your Google Photos library - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjZydEpPN2s2Tm9YM1FuSkFqdWVLRUpZN3Job0drdldXVUw3RFl6YkswYVoySjVKOU9Cc1RwOUdsamxyRzN4QWlqd2VtbUtLcmxJc2RndzZEaHl6TVZmdGtHNy0xYW5fY1lzU003OTJtaEozOFZCa3Y3ckp6dlkyMF9KZ2hNZ01IbTdPNVA4akxIalEwaU1ELUJzeFFUdw?oc=5",
-      "desc": "Google’s Gemini Spark can now manage your Google Photos library TechCrunch",
-      "source": "TechCrunch",
-      "time": 1788533231.0,
-      "score": 66.5,
-      "key": "26609257eaac1fb0dd94ab8a777f26f580be7d10a7189e806e82a402b80dc551",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "What is AI Leadership? How Leaders Can Adapt to the AI Era - Analytics Insight",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkhEck1rVlFCT0QyckIyT0Fkb20tT1ZodzlSdTRvb0RQMFUwa19RcENhNkliY1UybTY5aUl4MmVJQnVTQWx2cFlXMUVCZXhJX1VoXy1BTElQdElpNXFzRTFHZ09faXY4ejlUMkxFSEMwN0dWNndHQTdCMkhZX0RtQnJ6emhIUndESXpTc3A3OGo0dmRpTUxNdGFYMndQUWMwc0pNc1dLRWN6YjdSV0Z3RFhnaHHSAcIBQVVfeXFMT1BjbndaOGJsR0UzMExrZmFBY213NEJ0SEVWQTRBQjZnMVl3QnM4WmEwd3FtM2FDUEloeVp3dktkdHZXcC1XNFJtR1BMLUNoaDhHUGRXaUI4ZnA4SGZscmR3TVZhSE9OOERwQTZUQ05OWEZfdVNzWHc0MmlaZWxxbVJWYmNGR284UE1DNmNDbzZYdi1iTEhOcEZraFV2U3luYVAxY3RhS1NpZmxpRHhMWUE2Z3BLLWxPRFNPZ2FzNE5QeFE?oc=5",
-      "desc": "What is AI Leadership? How Leaders Can Adapt to the AI Era Analytics Insight",
-      "source": "Analytics Insight",
-      "time": 1788535800.0,
-      "score": 63.5,
-      "key": "87208178c83cc7424c3e27f8b3042fc89c061e8000635668984d19dc3c7c013d",
-      "importance": 63.5,
+      "region": "RUSSIA",
+      "title": "Дмитрий Медников: «ИИ – это не конкуренция с людьми, а расширение возможностей» - Ведомости",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUJWdEZMLU9uYnE0UENpb1NtdU0wdndzT2YyU2ZPRHNUR3g4VmFySnRmYTFjYWEzVkNKeEN5LUVGaFhVTUxkRlBacVU1YTBMdU45SmE1VFdmV0ZYb09HZFVZV3RMLUo5NW93VzcxYWJkeHJiMTdMLUN5RDYtX01ya2x3SmtGVjBEVU5xT3I1emcwT1hpSWt3WVIwR2llZ1c5bTBDQjNsUjJZbUxRSnhFRmpTWGdDMDMyNWZod1FCZ09nd3VUc1MzUA?oc=5",
+      "desc": "Дмитрий Медников: «ИИ – это не конкуренция с людьми, а расширение возможностей» Ведомости",
+      "source": "Ведомости",
+      "time": 1788528795.0,
+      "score": 62.8,
+      "russia_weight_bonus": 3.8,
+      "key": "f6fda6f61048c8fbc188b25a36d0049c05701007e3cb3a18f68e658040d45c48",
+      "importance": 62.8,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Советник Зеленского признал отставание Украины от РФ в применении ИИ для дронов - gazeta.press",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uVzhNLXRCSlNaVVljVVFJcEp3dEw3Wjl0TnA2M184Y0NIMm9LRF91QnYyMG1LTk9haG5LQ3JwU3Y3Z3o5TzdjZlJ6bW5DSkYyOWZfdTgwZGVQTFFkZUpBemxwajhjZENfcTVSTNIBckFVX3lxTE05dWt1bWRIRDZJNG55UllteUJNNF9sdkxGdC14bmM0X25UVU13c3llVFJZOVJkLU5WS2FhZFFPRW9LLXY5Y3prd3BUT3lldnB6dGdFTzdWbW9fN1lPTURtZHQxS2FLeXU0N19LRV9pOVIydw?oc=5",
-      "desc": "Советник Зеленского признал отставание Украины от РФ в применении ИИ для дронов gazeta.press",
-      "source": "gazeta.press",
-      "time": 1788522597.0,
-      "score": 62.5,
-      "russia_weight_bonus": 3.5,
-      "key": "12ea18b9f3e15120f32c9e6c1f16c35bf8982acf17c624439c8266c5bc10a99d",
-      "importance": 62.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "PATH Q2 Deep Dive: AI Adoption, Platform Consolidation, and Execution Challenges Shape Outlook - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOT0x6Z2Z5NTVkRW01TVhkYmFGY3haaTdLNnZ1WkE2NXVpc19jeW5Vbk9vSHY3c0ZSQnBaMFEwV0lHT2VVNjhBeWVzRmhEbGNCZTItaWZpSXNSTkZjMjFsSlh5bUVLc0ZiX0RQUlkxR2M4RzhiOFpWU3hLa3ZOeGdjZ3ZZT3BYem1ld2ZkX09XbUdQVi0wd2FqMXp2X1JtLTN1YWhwenhlbVhEb3h5bV9OelF1NUt2NGN6ekJXRjQzMEtKTGY4TXZvTTRocjdFdWpXSGpORGVZV08zUG1lMUZXSy1QbWVEemM?oc=5",
-      "desc": "PATH Q2 Deep Dive: AI Adoption, Platform Consolidation, and Execution Challenges Shape Outlook TradingView",
-      "source": "TradingView",
-      "time": 1788528048.0,
-      "score": 62.0,
-      "key": "8bab8df9e210a33fcd744c3f4a0386d5b67070b029eea9f50f18dfb9c8da5c23",
-      "importance": 62.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Rubetek выходит на рынок робототехники - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdjVKYm9od1ZpcDBzTkpIeDZyRkhXdksxUXd0M1k3NDFGenZjRHl6SDhnOUJxTFQ3OTZWbVhUUUFjS0VwOF9qOHdhVFJ2ZkVXVV9iUjI1QXpURzliZjg1Z3FWdGZkRm50V1gyNFprUjZaWUw4M2JCVDhkbkFkVFJRZ3ZFY1g1VGs?oc=5",
-      "desc": "Rubetek выходит на рынок робототехники prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788516658.0,
-      "score": 60.1,
-      "russia_weight_bonus": 4.1,
-      "key": "c79b0aa2af38af29de6e5886747863d61f331510038c06c5e7fbd2f51c2cccb4",
-      "importance": 60.1,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
       "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788539781.2791307,
+    "last_start_ts": 1788539960.9653587,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788539781.2791307,
-    "last_success_ts": 1788539781.2791307,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 12
+    "last_run_ts": 1788539960.9653587,
+    "last_success_ts": 1788539960.9653587,
+    "last_candidates": 113,
+    "last_published": 0,
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -704,13 +851,6 @@
     }
   },
   "stories": {
-    "2f0573b75f76a7be7c6c6166774937bc02457c1836e4abc6cea6a2d971504b4b": {
-      "time": 1788453558,
-      "title": "Why Enterprises Are Rethinking Data Security in the Age of AI Agents - The American Reporter",
-      "desc": "Why Enterprises Are Rethinking Data Security in the Age of AI Agents The American Reporter",
-      "source": "The American Reporter",
-      "region": "WORLD"
-    },
     "962d13a64964678745b2f1d47dc770b963f6d26e20587d40110152e6ab4b02f9": {
       "time": 1788453913,
       "title": "ИИ-агенты для бизнеса: как автоматизировать отчёты и работу в CRM без разработки - VC.ru",
@@ -2386,6 +2526,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788538102.15343,
+  "last_search_ts": 1788539960.9653587,
   "last_publish_ts": 1788539781.2791307
 }
