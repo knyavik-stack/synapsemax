@@ -419,9 +419,87 @@
     "7db70f1fda92f4dc838f926adb348c504421df2da00f05f2320044fd3bb3899d": 1788526822.0877657,
     "dbb2889c0e7a943b25b02cc267ba0669c61853ca655b71e98d4a53c7fa0112b6": 1788526822.0877657,
     "62177a87621eab9ca71a241d2964b7ef5f0805ae37635cb33d2c4166da3e4952": 1788526822.0877657,
-    "cfb4913c4d4e3882dd1308d03b856760de06795398240de717c286f19452c3dc": 1788526822.0877657
+    "cfb4913c4d4e3882dd1308d03b856760de06795398240de717c286f19452c3dc": 1788526822.0877657,
+    "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": 1788528681.428885,
+    "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": 1788528681.428885,
+    "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8": 1788528681.428885,
+    "e6192db70cff1b34a0afa6085041c67f5442baf6632678df18288150751aa7ba": 1788528681.428885,
+    "da03656d8941d6ff82856c460a40324d58fb081826617b9cf6fcb6f3d57a2244": 1788528681.428885,
+    "f3278df92372d265adf6854044bd776d38e4d0948e12e3988f5b669946c2bfaa": 1788528681.428885,
+    "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be": 1788528681.428885,
+    "0dfab4d96cc15628c57e77f2904156ba78d491e544cbdcfd1ee67d323e082110": 1788528681.428885,
+    "abbdd33314d5c9c0721ae0a8021808de497d3b3ef78d5ffb99f1c17a0f0cb0b7": 1788528681.428885,
+    "68aa693edf0b9bf531e07cfb34748d4e45580881d48ea01d4fa202c64e671797": 1788528681.428885,
+    "a7696d85e8670443ed9a843eea7a3b56ef0ea6a8310fd29123c69ec925c092f3": 1788528681.428885,
+    "2c4e33bcc5814aeb0def03ff5861d159561fa4c1c3320244573667e942faaff3": 1788528681.428885,
+    "0e96fe393d4395e7c83b4c148ba7f61984bc2d7227a42e8a4a9e1cf951f46406": 1788528681.428885
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Microsoft представила Project Zenith — мощные Windows-системы без лишнего мусора для ИИ-разработчиков - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbFJ2UnYzb3d3Y3hnNmR1S2xqMnU3VkpKcVRPb2NXT2owaU00QWVQSUZSTlBvVE4xckRucF9hNzhVcjRGb3dlNkM0cEVoem9yVTIyZ1E2bDYyQU1xVlNvbnN1UG4zc2JFTFdUbkNRbl9FMWwwSGZnc0h6YWFNV2l1SUdsZW9DSWpYRHMyMXhzUDJ1bVp4bjdFcks2R3l2OTJ6bFRpTGMxS1FVaFJWSHNwX2FhblhvY3NvclFfSEZMbTJuNC1kSG16TnE4aEE3elhIdjROeDJmNzludw?oc=5",
+      "desc": "Microsoft представила Project Zenith — мощные Windows-системы без лишнего мусора для ИИ-разработчиков prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788528219.0,
+      "score": 83.9,
+      "russia_weight_bonus": 4.4,
+      "key": "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726",
+      "importance": 83.9,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "SmallBiz.ai Launches to Help Small Businesses Turn AI Into More Sales, Lower Costs and Simpler Operations - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMEZRZ1RuNDI5Z1gyc0tDT3R3Qmw2V3FBOGRjSGZ3a2tHdGJ5TG5qaHhLVV9Ld05XcTFGbUdOcnJlT1hUUHFkMXBDc0FkZXV0ZXpMTUdDVGZZZFQ5MXpMMHVyQ0pOR2pHY0xUS2Y4Y28zYjFCd2ZnemVZbVVUZnZUcVB1T0pncEdNYVhvUl9tOUZXd215cHZwTFVwN3RzTTJ1VUlMU3VJcnZyV2ZSeEZndU9sb3Fpb3dJTnFiVURuZnV1d1BvSFNLVHFicGNLZmxkVlJVdlNSTkxrdU5ic3NFUWxLa3BWaklsRTk4Y3d0TGI?oc=5",
+      "desc": "SmallBiz.ai Launches to Help Small Businesses Turn AI Into More Sales, Lower Costs and Simpler Operations PR Newswire",
+      "source": "PR Newswire",
+      "time": 1788527880.0,
+      "score": 76.5,
+      "key": "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4",
+      "importance": 76.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой - Sostav.ru",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSm5QUFZsempVcHFaMDFnQ2t0Nl9NdW40ZGlkcC01WEE3QVJZVmFka2JCdHFvZFBpNG9Md2ZvdmxLMzdEbUprRmJGY0R3VFRzaldtM1JmeGZkc2pCQ2w5WWRIVHVRTng5QkQ5d0ZTTllNcGU0Slc2dXFOOUZQMlpUSHg1T3NMb1NFMWs3V0JSWE1CX0k4RjVXRGRJdGZ0UlpQVjlOZGtZWVFKalFwWHk2Mm9HdTBJZ0U?oc=5",
+      "desc": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой Sostav.ru",
+      "source": "Sostav.ru",
+      "time": 1788528180.0,
+      "score": 75.9,
+      "russia_weight_bonus": 3.4,
+      "key": "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8",
+      "importance": 75.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Booz Allen Hacking Benchmark Ranked 18 AI Models; Scaffolding Software Erased Rankings - techtimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZnZyaF95eXRVZkp2NC1LLUpDYldVRnZLaXhfbHppZTF6SkhDenVvNVhqOHdKUkZLeEhmcWVhUUw1cGEyY2wzcm42U25fUHZYMXRuV3BLRnphektlbEJNbzRmZElrcTV5V3h3d0pJTkFBWG9nZmdGYWJscTNTbS1pTHRxR1VfVG0wd1JSel9sc01hZUt0Y3R0MXNvTUl2Mk5hS0wyOU9iaUF3TW5fLWZxcG5zdnN6dGhRSV9mUC1VV1hqWHg2ZFpUNFkzUzMxWndibDhBNWJMcw?oc=5",
+      "desc": "Booz Allen Hacking Benchmark Ranked 18 AI Models; Scaffolding Software Erased Rankings techtimes.com",
+      "source": "techtimes.com",
+      "time": 1788527780.0,
+      "score": 73.5,
+      "key": "e6192db70cff1b34a0afa6085041c67f5442baf6632678df18288150751aa7ba",
+      "importance": 73.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models",
+        "tools"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге - kommersant.ru",
@@ -473,6 +551,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Group-IB: BraZetsu с ИИ оценивает системы в Бразилии и продает доступ - Techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE90M0RINFlsNWpDY2xtMkRsekpoMkJfeEFhUEN6OS1sbURZdlhhUThVOGpGZ0ZkSnNZTXN1NUpkMFZ4WnM1RGZaTG1jQUdlN3VIa2Z0TjJDeTMzcDk4V014c2dvSWVaUTZLSml0cnRwQWtoN2FFa0xn?oc=5",
+      "desc": "Group-IB: BraZetsu с ИИ оценивает системы в Бразилии и продает доступ Techora.ru",
+      "source": "Techora.ru",
+      "time": 1788526827.0,
+      "score": 72.4,
+      "russia_weight_bonus": 3.9,
+      "key": "da03656d8941d6ff82856c460a40324d58fb081826617b9cf6fcb6f3d57a2244",
+      "importance": 72.4,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "LLM в корпоративных процессах: как выбрать сценарий, который окупится - VC.ru",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSzVrR0lsTHM3LWRrLVBCMzQ5R3VHUnplRkZJV2V1ZzBabnJGUTJjeHJHek12RncyUHduTnRFYS1OM1NVaURCZFcwejNuQXY1NFp0Zk9FWFBObUhDZGxqdXpjdk1PQmhoRDBodVh4Um8zUXFsV1VwREFvRk1lcnRnbjQzMGd0b3hyMWJHcWxCeUZPX0E?oc=5",
       "desc": "LLM в корпоративных процессах: как выбрать сценарий, который окупится VC.ru",
@@ -488,6 +581,51 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Люди бунтуют против ИИ и ЦОД — Альтман согласился, что отрасль сама в этом виновата - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZWptUDdfeVMyazFLYjVGY1FkVUg2VTAxNTR2ZEZGekJaS1QzcVZaS3RTb2tCUW9qQjVJaFkxOUMzSlJrZ2h5RG1neFY0WGxCbFRhc3JFOW13Q0hiWEgwVHVCY3RjUkZqX0NCaDl2OU1SR2NMekEzMFQxX3Bjd29PRjU5UEhSWWpLSkVMUDU0eGdhbmxWb2o3T3FFRlUyRzdkdGJkTUlPNThmbDlrTWlUX09YcXFNR1R6UnhTd19VY01LWFk?oc=5",
+      "desc": "Люди бунтуют против ИИ и ЦОД — Альтман согласился, что отрасль сама в этом виновата prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788528203.0,
+      "score": 71.2,
+      "russia_weight_bonus": 2.7,
+      "key": "f3278df92372d265adf6854044bd776d38e4d0948e12e3988f5b669946c2bfaa",
+      "importance": 71.2,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live - techtimes.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbGhwTXYycWgzQnFLS3ZNRmZEX1lMdkthM2l6eDkzUXNlSjNXVF9NQ2Z0Y0RSRmxZdUE3ZTVxaUtxVU1XbkJ0M3d4RlVBU1JsXzlBQlVEdjZTMTRIdEpiNGVQZVF0cVA5RVgyWDkwNWxMdmJvZ3hMMXQ2MElEa252OHhFa1NiejcyOUVSUk8yc2hhYlB1Vk0taW5oU1NMcmJqQmU1aVRPbW1yRlBrUjFhcHhuM1p2V3MxX0VMWk1xaUdFQQ?oc=5",
+      "desc": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live techtimes.com",
+      "source": "techtimes.com",
+      "time": 1788528078.0,
+      "score": 70.5,
+      "key": "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters - officechai.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORkZyelliLVdsNldUdm5RUWlxdTNVaGx4OTJNSXdoVzlqOS1CSmo1NWUzTm80T1NFenFPdXhBLUZuajU4Z2RUdzVHYUZkYlh6eVBNejlLZ05jSmdfZ1VSWGs0R0h5VVo4d19TZkY4UHZ5T2lFT3V6WlNwSGJlV3h3cXRvdTd6R3h6Q0FIUmRkMEMxaVVaMGVPc3NfUGtScHpabldhNDBxa0V6OHliV0wzZVF3?oc=5",
+      "desc": "OpenAI's AI Agents Hacked A German Website And Used It As A Message Board, Says Reuters officechai.com",
+      "source": "officechai.com",
+      "time": 1788527988.0,
+      "score": 70.5,
+      "key": "0dfab4d96cc15628c57e77f2904156ba78d491e544cbdcfd1ee67d323e082110",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Российский ИИ хотят внедрить в оборону, школы и выборы - BeInCrypto",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xUzZzU2owcUFobTZpZ0dOQTU1RWpubnFEaUNoWnhqeGpyT0RNemJUQ3FyMmFKallFeVNMcHEwX1BVc2E3UTBxVkdNWVhxeUlkbUp4YlZKTTZHXzJISkZObDFoRmNrWnVHb3N2eS1IUmV4b1pCeUE?oc=5",
       "desc": "Российский ИИ хотят внедрить в оборону, школы и выборы BeInCrypto",
@@ -497,6 +635,21 @@
       "russia_weight_bonus": 4.8,
       "key": "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f",
       "importance": 70.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Потенциал Дальнего Востока — основа успешной интеграции ИИ в ключевые процессы — Максим Орешкин - Национальный центр «Россия»",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWmgxTG5rVHptYk1MZWF0ZXhsaWY4a09TVTR4ckpSRFp4Ml81emRxbDl5Z0NkbGJLQTVHQ0pHR3NnUloyMHQtNFJ3MElob2FTSXNtb0NFRHJEQUgtZ2Rtd0tfSzBQd1VidXpScno5SVpua0dacGMtZWhya0lZWmRuekZYR0hlaXFETUd2T0M1bWxXSEJyY0pLb3RsZ3JQdl84VEw0XzN6NWlpZWhmY3FoMTlYVkdKVVFZZ2lBd3A0RWFfdw?oc=5",
+      "desc": "Потенциал Дальнего Востока — основа успешной интеграции ИИ в ключевые процессы — Максим Орешкин Национальный центр «Россия»",
+      "source": "Национальный центр «Россия»",
+      "time": 1788521098.0,
+      "score": 70.1,
+      "russia_weight_bonus": 4.6,
+      "key": "abbdd33314d5c9c0721ae0a8021808de497d3b3ef78d5ffb99f1c17a0f0cb0b7",
+      "importance": 70.1,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -549,6 +702,36 @@
     },
     {
       "region": "WORLD",
+      "title": "The 40 jobs most under threat after ChatGPT and OpenAI level up overnight - ladbible.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRUVMZElzS0h5T05FanY5akMxWjg2UlVEcGNmeU5rU1dybjFUb25NVUdFMEtkUzNQQzZ3RXJYeGd4TjZWOVJQdlg3Z0s4OFdac0g0cUV4NzQ3T2RuNzJJd0pwaGd2dGU5X3dBNEtWdjZ0VlJHVlFNVFN1cUNPVkxveVYzWkRjRDV6QkE?oc=5",
+      "desc": "The 40 jobs most under threat after ChatGPT and OpenAI level up overnight ladbible.com",
+      "source": "ladbible.com",
+      "time": 1788528521.0,
+      "score": 66.5,
+      "key": "68aa693edf0b9bf531e07cfb34748d4e45580881d48ea01d4fa202c64e671797",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Clooney Calls Government Unfit to Regulate AI, Warns Deepfakes Threaten Public Trust - northeasttimes.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbU82clBWaGh2NzhUaWNmMVJtQVVFeF9ac2NCTUxlemx6WWU0MWhwZFE3ck1WRDEzVkxYRGczQ012U1U1RGZvN2k1Sko4eXlTV0FHUGxINlNtQUFYZUFGS0Z6QW5oWTZYTFV6RjFkR1k1Sm9vWGJVQzVLVTgwNi1OUkxPYjF1V0ltUUFudEZTekxUM2o5d1lXeHNXMWtjejJIVTgwcHFUYW1DaG5lQVVwb0oxOC1aazQ?oc=5",
+      "desc": "Clooney Calls Government Unfit to Regulate AI, Warns Deepfakes Threaten Public Trust northeasttimes.com",
+      "source": "northeasttimes.com",
+      "time": 1788526689.0,
+      "score": 66.5,
+      "key": "a7696d85e8670443ed9a843eea7a3b56ef0ea6a8310fd29123c69ec925c092f3",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "'Find church-going Christians in Janesville, Wisconsin': AI Built a Detailed Dossier on a Stranger Using Data Anyone Can Buy - All About Cookies",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PMkVWQ3BWNzZGWnlFZWFNbzVWRVVUZmhoRUpKTTVYallpeDFPMDR6aHRxd1RfVVFUSlNLZU1uMnNUaWZJamZodE0tTVpuR2JwQU1OWTlIVjdUdmR1dnNZVW1iYzg2NlJCWmc?oc=5",
       "desc": "'Find church-going Christians in Janesville, Wisconsin': AI Built a Detailed Dossier on a Stranger Using Data Anyone Can Buy All About Cookies",
@@ -560,107 +743,17 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "George Clooney issues chilling AI warning as deepfakes threaten to blur fact and fiction - The Express Tribune",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRGVMYjdpSFYyeWhkemRHS05wWHdzLTFhUnlyUEw1ODdtR24tNXBiYm1WdjhxMUx5RjdROUpiVF84bzQ0NjFKSzk0SjNjTC1MUHNoQmtsRXJ2RTFDakllck9NNHJEUDduQ0lFdVAwX2pnRFVORmFJb2NGb1Jka21WSTlpT1VFOW1vVTJyZ1UxOUs1YkdzWlBpbEwxa2otNWs2YXFLMmJMR2ZEb3FIQUFIQUhuT3R4M0RLQnhtZG56ZlJZTFXSAcsBQVVfeXFMTXd5b19oODFvdng1UWM2cUFadzZSbVFJbDRQMWZwRm12b2RkZXBqM2FqQmJFTDBqaVVFbWdYWlNCZXpLT1A0emFJdXJDTk5QUFhrQU1DVnpqc3l2TmlGNDMwZ3BxZ3Z2Ukh4WTVxbzJ0VGZ0NWJhNnVlLUlnbm9GMWxxS1o0VzNBUUx1Rmk1VDJGQW9qcmk3MUpTblc2LUFCYmVDVWoxUVA0NnV2cUFIN2Jva3ZHRXppQmQzWjBjajQyNHZIRW1CWTM0YW8?oc=5",
-      "desc": "George Clooney issues chilling AI warning as deepfakes threaten to blur fact and fiction The Express Tribune",
-      "source": "The Express Tribune",
-      "time": 1788525812.0,
-      "score": 66.5,
-      "key": "9d53d3d2d6bb0eddb8a00dab95a033d89077f872422c0cdfb4678da2f155e48f",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "As the China-US AI race reaches Cairo, Egypt faces a strategic decision - Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRGNHNE9YLWhaMGFDT1VmT21wX2hGX2psTFBSSlVTWUY1aXlTenlDU0xYelEzTzE5b01nemtIN3Y2OURJUGpCTWFlTGVNS3JfS3JGQUl6OXZOLWVsdGFvcmRJUW5GekRPQTBaSGNfMzl5RXNKX256WjBzb0FEU0lfSEFEQmFoN0pYWFJmYkFDZEt6RFFHQXR5QjNnb0RnbDFGZXduT0N0UjlLR1ZZWm040gG0AUFVX3lxTFBGWWxicUFHOFd5QjJ3LTR1bVFiV2JtMWV3Ny1fQWp0U216eHQ1TExYM1pWWERUVnNxbWFqSWJEQVh3S0VFRUFsaFJRTml0TzZ2eXo5VkdDbGRhUlFSdEVnaHhOZDBhZXFtTWlTcU5Sbm5jTlFIYTNmXzR2enBQTVdhenhqaHVDcnhrbF9GRWtEWnBFTFp5MHVZSVR1aHlIQzAzTWJNT1lTZVZYNmNGelExZWdXSg?oc=5",
-      "desc": "As the China-US AI race reaches Cairo, Egypt faces a strategic decision Al Jazeera",
-      "source": "Al Jazeera",
-      "time": 1788525639.0,
-      "score": 66.5,
-      "key": "74d7b560fdfc0d104edfb27514aa1fff324885e83f13a05549c74d94ff465354",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "ABC Fitness Acquires FitMetrics, Expanding AI Push Into Coaching - Athletech News",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXlFTk00SnpIMnkwb2VNWTFVd3hDSElEaEMtdi1idTJNX3RwcEJwd3QtenJuRGJPM3AxLUlINmtzRlROV1lPMjliSmQ2bDFyT2NmR3lGaE85TVRvT1NXOUx5RE02djE2ZG10T05IMXNURkhrNDRoUGN1cjRyT1VQLUlWZ2JHNUhfVEIxazNBQzF4Y3dG?oc=5",
-      "desc": "ABC Fitness Acquires FitMetrics, Expanding AI Push Into Coaching Athletech News",
-      "source": "Athletech News",
-      "time": 1788525297.0,
-      "score": 66.5,
-      "key": "6579d4c2b3bf0a02afcfad3b1b27f265f1abed1486373f230d54fa5a821f9091",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "AI reshapes non-tech GCC jobs as routine roles see sharp declines: Report - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcVRlOW0yTzdwcXRNbzJVUlc1bEZJZ3lORkhpU2ZFSU01c1BVNmtSUms3SlhNNFF3S1RNSnVKeGJDRXQ5MDFXTDFGODlaLUVSbWNtZklXTHZXc2QxbElkVll1RlBYWGRkOHpkMmxsY3RmS1p1M0NJRTdtZlN3dHlYUUw1RjBZcTBIQVFqQlZpRS1TalBuXzN0N3kzSEwtNFR0czJjemNwdjNaVWhlTEJFWFZySzNEZmZZWHpaQ1RHcjBVZVFXeTBobjRoQ2hqOVhaOHdwN0pSc2pCM3M3eWUwSDdOZ3hwNE1qbzlybkU1X0tKUHPSAfgBQVVfeXFMUFQwM2J6X0JfeGRDT0RUSWhJMzNHRWtZUFBiR0RFcWxPZHA2SzJiOTNydXZVdUEtbFJLdWtFdzlUSU5UME1sQk9lZ0F4YUdKbnFtakdxelp3VWczR2JlaUVaVmxESE1Tb3c0WTctYmR0OVM4S3JUVFZ4OUNfdmZmcnZPV2lYNm9QMUY5WmxsZkhIdFF0bW1tRF9EdmRpYURTcFJ6TzVXR2UtaEpaUUFmQ0tmYXVsd01iR1A3OUl6TEU1amZWaEdLUjd5UC1JNTVHLWNMSzNfTU5SaHJFaTRKdjRSV1ZjWVBMamVxMzVYeFFVMF9remFCaS0?oc=5",
-      "desc": "AI reshapes non-tech GCC jobs as routine roles see sharp declines: Report Business Standard",
-      "source": "Business Standard",
-      "time": 1788523040.0,
-      "score": 66.5,
-      "key": "c7c57266dab412a2e6faaba7200b89694706bce75d01a22b06a1955a9def983a",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину - Твоя Свободная трибуна",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3AwdFl5MnFHYnBqVHMyMmpFOG1Kd1BzdXRjSGswM0NOQXN1blg3U2kyY2FhU3NHdWx0Y1R1SzdrbWlFRG5CTTlyNGtKZk9UQUVERlYtTGhiRVl6Tzd5cENRQTd2WVNsUDcxRkx3Ty1KbzJFWEd6RVRfTVRVR0ZSLXdYVjA5S1hjV1hHM3dKSlRqclFiSGg5bWVOZVFqN0xqUWh3VjVqRU5YMXJBdm83WjVpVXI4dw?oc=5",
-      "desc": "Советник Зеленского: по применению ИИ в дронах Россия опережает Украину Твоя Свободная трибуна",
-      "source": "Твоя Свободная трибуна",
-      "time": 1788517016.0,
-      "score": 63.2,
-      "russia_weight_bonus": 4.2,
-      "key": "0b4ad9982e2a74a07abed730de4e9dd57157550ffa56e65c92a949f0407cbf5d",
-      "importance": 63.2,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Школьникам Нью-Йорка запретят использовать нейросети на уроках - Дети Mail",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oZVhuaVBYYzdtSEYzbEZjN0pJaGxJWmczUTBHYkJsQ0dSOUlENlZkSUdYWGU5ajJNWnM5VU1rNWZVVnFBdG1Xd3NPNDRHM2VFYXppdTBpeDRZX09iMTZGS0hEclZoTlBkektUd3RONjFyQlN5UUZISktGenEzcnM?oc=5",
-      "desc": "Школьникам Нью-Йорка запретят использовать нейросети на уроках Дети Mail",
-      "source": "Дети Mail",
-      "time": 1788517564.0,
-      "score": 61.0,
-      "russia_weight_bonus": 5.0,
-      "key": "eb8790c8866722143b3e19867429d5fa2362d03f26f6f55f6e58b49c3856bafd",
-      "importance": 61.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788528562.611157,
+    "last_start_ts": 1788528681.428885,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788528562.611157,
-    "last_success_ts": 1788528562.611157,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 15
+    "last_run_ts": 1788528681.428885,
+    "last_success_ts": 1788528681.428885,
+    "last_candidates": 110,
+    "last_published": 0,
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -680,13 +773,6 @@
     }
   },
   "stories": {
-    "ec9b1250c09e6b481ba8a78270023b9769ee7a6408a79c431d8af9b39d162ef3": {
-      "time": 1788442220,
-      "title": "Автомакон Роботикс запустил сервисную модель роботизации складов - companies.rbc.ru",
-      "desc": "Автомакон Роботикс запустил сервисную модель роботизации складов companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "region": "RUSSIA"
-    },
     "4dee596c8ba2ad63231178d8e7130fc01088ec39c229d08feff3bfa178a18823": {
       "time": 1788442570,
       "title": "Cloud ERP Market to Reach USD 289.48 Billion by 2035 as AI-Enabled Enterprise Resource Planning Gains Adoption - openPR.com",
@@ -2397,6 +2483,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788526822.0877657,
+  "last_search_ts": 1788528681.428885,
   "last_publish_ts": 1788528562.611157
 }
