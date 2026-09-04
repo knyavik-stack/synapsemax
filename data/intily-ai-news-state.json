@@ -532,13 +532,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788563062.3132265,
+    "last_start_ts": 1788563179.784561,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788563062.3132265,
-    "last_success_ts": 1788563062.3132265,
+    "last_run_ts": 1788563179.784561,
+    "last_success_ts": 1788563179.784561,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 5
   },
   "providers": {
@@ -559,13 +559,6 @@
     }
   },
   "stories": {
-    "b9d3e750a8f6b14568798a80c1eeb3c1c0855dc692dc5278d03e85e80a6c4d7b": {
-      "time": 1788476694,
-      "title": "SDAIA President Dr. Abdullah Alghamdi to represent Saudi Arabia at India AI Impact Summit - newsonair.gov.in",
-      "desc": "SDAIA President Dr. Abdullah Alghamdi to represent Saudi Arabia at India AI Impact Summit newsonair.gov.in",
-      "source": "newsonair.gov.in",
-      "region": "WORLD"
-    },
     "102d427653a7b266af4d91b59442007f1d29e0897959d636c47384e858c2eb0c": {
       "time": 1788476993,
       "title": "Security industry core products see generational shift as AI-native push accelerates - 디지털투데이",
