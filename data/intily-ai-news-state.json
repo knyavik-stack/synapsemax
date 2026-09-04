@@ -209,7 +209,8 @@
     "2b760b8746d9b950a08d8d67a8d94529616c9f012c7d34a4a2429739579d310e": 1788515000,
     "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515242,
     "4561ddad4735781d460af382c3d709b0c0e4eaf2d4c59ab3c8077599581d7bd1": 1788515542,
-    "f5ca24235d447ba04a82e53aa554c0def9b9ee462a5f3bd37ca101283a748b24": 1788515961
+    "f5ca24235d447ba04a82e53aa554c0def9b9ee462a5f3bd37ca101283a748b24": 1788515961,
+    "6fde6c3b46c78c678e1b7791b92057c9bc65076555cc30774884b12958fb0645": 1788516141
   },
   "known": {
     "3ee9a099aa9259fc0cbd48d24d4b344dc9737a04088b3aa820c9d952f17d9eae": 1788495069.2696536,
@@ -296,40 +297,6 @@
     "4d0dba9a0128455f3737512d4003bd845270b9291b84f2bee1f3667fc1911bcd": 1788515000.8867981
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей - companies.rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQXFFc0lSVUlLQjh5NkJ6Mlp1OUppX1JCTDl2YVc0cHBBSWJBd09TWGtZZXBkZ1lndzdHY2lOekZUd2tCaEt1cDRXelBLallnQXk1a01vNEtXUkVyZGtndk1HX2RRZHZQcV9fLVdKWFEybDJuMjNXVXppMVVmQXBZRVdiR3d4amc1S1JvQ0xSbms5Y1piaXBmNXlaWDNrdTlYRlo0LXF2OFl1WWV5RDhmZmFhckZwZlk10gF7QVVfeXFMUFd3ZE9Ta1Z1RHp4YUVsdUoyQ1MzRHhRejR4eVZYZ2JkUHFwTzBCM0RYTFBOZ1FwUjNVNXlicXdPM0lxWGRfNHZRcmM1b1J0ckp0dWY3ckJxdTFyRTBDSjFISTh1OW92cTZydUoyM0JzUU9UU2Q2dmpLWUN3?oc=5",
-      "desc": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "time": 1788506123.0,
-      "score": 72.6,
-      "russia_weight_bonus": 4.1,
-      "key": "6fde6c3b46c78c678e1b7791b92057c9bc65076555cc30774884b12958fb0645",
-      "importance": 72.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Закон об ИИ в России: новые возможности для Якутии - YakutiaMedia",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FUV9CSW1pT1hOWHNRZWNmVGM2dTVPdmRJcnBzcmI0TmJGc2VMc3VPTkN3dE8zZVdqVVRIR3J6dE11TGdVMDRnNXJyUFhGQQ?oc=5",
-      "desc": "Закон об ИИ в России: новые возможности для Якутии YakutiaMedia",
-      "source": "YakutiaMedia",
-      "time": 1788505304.0,
-      "score": 71.6,
-      "russia_weight_bonus": 2.1,
-      "key": "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc",
-      "importance": 71.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться - vc.ru",
@@ -484,6 +451,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Закон об ИИ в России: новые возможности для Якутии - YakutiaMedia",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FUV9CSW1pT1hOWHNRZWNmVGM2dTVPdmRJcnBzcmI0TmJGc2VMc3VPTkN3dE8zZVdqVVRIR3J6dE11TGdVMDRnNXJyUFhGQQ?oc=5",
+      "desc": "Закон об ИИ в России: новые возможности для Якутии YakutiaMedia",
+      "source": "YakutiaMedia",
+      "time": 1788505304.0,
+      "score": 62.1,
+      "russia_weight_bonus": 2.1,
+      "key": "4593abe1ef0258c321849e5314449811f6631afed1c31094c4924d4a994c70cc",
+      "importance": 62.1,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
       "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
@@ -546,20 +530,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788516083.4152787,
+    "last_start_ts": 1788516141.3316338,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788516083.4152787,
-    "last_success_ts": 1788516083.4152787,
+    "last_run_ts": 1788516141.3316338,
+    "last_success_ts": 1788516141.3316338,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 16
+    "last_published": 1,
+    "queue_size": 15
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788515963.8155923
+      "updated_at": 1788516143.4870086
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2042,11 +2026,17 @@
       "desc": "ICE, corporations and AI pose imminent threat to U.S., CT senator says Hartford Courant",
       "source": "Hartford Courant",
       "region": "WORLD"
+    },
+    "6fde6c3b46c78c678e1b7791b92057c9bc65076555cc30774884b12958fb0645": {
+      "time": 1788516141,
+      "title": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей - companies.rbc.ru",
+      "desc": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2064,8 +2054,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788515000.8867981,
-  "last_publish_ts": 1788515961.1176157
+  "last_publish_ts": 1788516141.3316338
 }
