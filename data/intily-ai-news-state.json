@@ -297,7 +297,8 @@
     "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": 1788544041,
     "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788544437,
     "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": 1788544640,
-    "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": 1788545240
+    "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": 1788545240,
+    "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4": 1788545421
   },
   "known": {
     "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": 1788524605.2114382,
@@ -518,23 +519,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOURfNHRjVENzWGtqdkRtZVF6djAxS1ZlYlQ4T0ZlT0ViRUtlWjNNQVVKVmxtLTlQLV85OGZWUFl1LXJYTTVhb2tsd0lUa3VWUnhmd3VFbVlVd2VSSTBYOVNZTVN1ay1rRFU3NnpxTTdmUDEwUmtKRUdPWnVCUGExLXVxMENncmNrN1ppM1BKVF94V0ViSERKUlhWVTR6UW1Qd0NWWUdMQXZNNklWWkFTV0dGS1lBQ05GVkk5QTRKTEs?oc=5",
-      "desc": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам Восток-Медиа",
-      "source": "Восток-Медиа",
-      "time": 1788538260.0,
-      "score": 73.5,
-      "russia_weight_bonus": 4.0,
-      "key": "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4",
-      "importance": 73.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Как ИИ-агенты научились отравлять друг друга - lenta.profinansy.ru",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91cHpOQkFxTXgxX0w0eURaY0w4enJncDBYR2hDd2VGTi1yN2FPanpjSkNKNGZCLW9kNW1lZkF3YkFMNlc3bF94TzFWcWlCbUVJRDdn?oc=5",
       "desc": "Как ИИ-агенты научились отравлять друг друга lenta.profinansy.ru",
@@ -735,20 +719,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788545240.4790246,
+    "last_start_ts": 1788545421.457371,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788545240.4790246,
-    "last_success_ts": 1788545240.4790246,
+    "last_run_ts": 1788545421.457371,
+    "last_success_ts": 1788545421.457371,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 13
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788545244.8389733
+      "updated_at": 1788545434.6127968
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -762,13 +746,6 @@
     }
   },
   "stories": {
-    "3464e896396c00b7bee09bce547b901077c04ee7ad648ab1cc4acecc288ba88f": {
-      "time": 1788458959,
-      "title": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU - prospect.com.ru",
-      "desc": "Google ищет партнёров в Тайване для массового выпуска собственных AI-чипов TPU prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "52f72c407a587ff3ea4862745a2d63bf6e94b323d5bd20a7e75d27bd3b0a1890": {
       "time": 1788459309,
       "title": "Пользователи по всему миру сообщили о сбоях в работе нейросетей - Рамблер",
@@ -2392,10 +2369,16 @@
       "desc": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access Unite.AI",
       "source": "Unite.AI",
       "region": "WORLD"
+    },
+    "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4": {
+      "time": 1788545421,
+      "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
+      "desc": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам Восток-Медиа",
+      "source": "Восток-Медиа",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "RUSSIA",
@@ -2414,8 +2397,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788543864.4841003,
-  "last_publish_ts": 1788545240.4790246
+  "last_publish_ts": 1788545421.457371
 }
