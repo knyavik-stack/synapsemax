@@ -532,21 +532,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Российский ИИ хотят внедрить в оборону, школы и выборы - BeInCrypto",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xUzZzU2owcUFobTZpZ0dOQTU1RWpubnFEaUNoWnhqeGpyT0RNemJUQ3FyMmFKallFeVNMcHEwX1BVc2E3UTBxVkdNWVhxeUlkbUp4YlZKTTZHXzJISkZObDFoRmNrWnVHb3N2eS1IUmV4b1pCeUE?oc=5",
-      "desc": "Российский ИИ хотят внедрить в оборону, школы и выборы BeInCrypto",
-      "source": "BeInCrypto",
-      "time": 1788524400.0,
-      "score": 70.3,
-      "russia_weight_bonus": 4.8,
-      "key": "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f",
-      "importance": 70.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Travel Technology Solutions Market: AI, Automation - openPR.com",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRDBCcUdIeE9LbzFoVHN1TlJaMFJZaklDTmJNeVBIN215QzBUMTJjSWFwR2wwMWkxV0ZJY1hhNXpJQWhORF9XakwzVmtMSjkxZWQtRFZXQ2VIZmlGWnNQRUttV2FuUEN1bGNjNW9FWnlLUjRQeVZYTEdZZ0hsQ3FhcDVlcnhlN05XVUpvcA?oc=5",
@@ -727,16 +712,31 @@
         "robotics"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Российский ИИ хотят внедрить в оборону, школы и выборы - BeInCrypto",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5xUzZzU2owcUFobTZpZ0dOQTU1RWpubnFEaUNoWnhqeGpyT0RNemJUQ3FyMmFKallFeVNMcHEwX1BVc2E3UTBxVkdNWVhxeUlkbUp4YlZKTTZHXzJISkZObDFoRmNrWnVHb3N2eS1IUmV4b1pCeUE?oc=5",
+      "desc": "Российский ИИ хотят внедрить в оборону, школы и выборы BeInCrypto",
+      "source": "BeInCrypto",
+      "time": 1788524400.0,
+      "score": 60.8,
+      "russia_weight_bonus": 4.8,
+      "key": "8523fb2553eb30d2bd915233e77a7b7d69eec678d943ca162b63c25d758ef12f",
+      "importance": 60.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788535160.4870014,
+    "last_start_ts": 1788535222.4678707,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788535160.4870014,
-    "last_success_ts": 1788535160.4870014,
+    "last_run_ts": 1788535222.4678707,
+    "last_success_ts": 1788535222.4678707,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 17
   },
   "providers": {
