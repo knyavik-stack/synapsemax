@@ -529,13 +529,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788559580.9369266,
+    "last_start_ts": 1788559643.2217753,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788559580.9369266,
-    "last_success_ts": 1788559580.9369266,
+    "last_run_ts": 1788559643.2217753,
+    "last_success_ts": 1788559643.2217753,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 4
   },
   "providers": {
@@ -556,13 +556,6 @@
     }
   },
   "stories": {
-    "9f83e7c62a3530784b733e15f099461713c865711386a83123eccd90f2974859": {
-      "time": 1788473213,
-      "title": "Nvidia leads the AI rally among major tech companies again — MarketWatch - UA.NEWS",
-      "desc": "Nvidia leads the AI rally among major tech companies again — MarketWatch UA.NEWS",
-      "source": "UA.NEWS",
-      "region": "WORLD"
-    },
     "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def": {
       "time": 1788473454,
       "title": "Google DeepMind Unveils WeatherNext 3 With Hourly, Live Satellite Weather Forecasts: 10 outlets compared - newscord.org",
