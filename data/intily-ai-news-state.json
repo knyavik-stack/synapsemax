@@ -332,7 +332,8 @@
     "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": 1788556280,
     "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": 1788556522,
     "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": 1788556939,
-    "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179
+    "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179,
+    "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635": 1788557480
   },
   "known": {
     "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536242.444593,
@@ -470,21 +471,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Phind AI – Ответы по коду с актуальной документацией - quasa.io",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQl9wUDNwdmIwYUpDSU5ROEd1S3FrSGJLcm90emJrcUxOOGNaWFVZUlg3dWxpc2dHUGE0TFJvSFllSzNNSUtRU0JtVzExU3F5WUhEMm5zNG9XUU9Wb3ZKZi1mZ3QtaGx6d1JMMjdvMkFHYUNIZmRRUDB0a0lQaWhKdg?oc=5",
-      "desc": "Phind AI – Ответы по коду с актуальной документацией quasa.io",
-      "source": "quasa.io",
-      "time": 1788549780.0,
-      "score": 69.3,
-      "russia_weight_bonus": 3.8,
-      "key": "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635",
-      "importance": 69.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTFhKa01FUkJhUW94MVI3X3dWR29GdFY1UXd0UVFUT05SZVhjaDBKa1BoZlNIdFpfMVZORjgyX09XbUdraFBJby1iY2Fac3k3STN4WmlTdTBlNjc3SG9Xb0hlNkd2YS1zbWota2NHQml4N09fQ1ZaWi1mYlpzSDRIRkY0RjhpNzI4QjMzekJ3dF85VmRwTkxCclcybDFwYnpORjRpdzBVejdLRW1GMzdQYWlkQjloeGtRSGtYWUotRl9Idw?oc=5",
       "desc": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии prospect.com.ru",
@@ -609,20 +595,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788557179.8212974,
+    "last_start_ts": 1788557480.933795,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788557179.8212974,
-    "last_success_ts": 1788557179.8212974,
-    "last_candidates": 20,
+    "last_run_ts": 1788557480.933795,
+    "last_success_ts": 1788557480.933795,
+    "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 9
+    "queue_size": 8
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788557191.3808327
+      "updated_at": 1788557483.7757812
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -636,13 +622,6 @@
     }
   },
   "stories": {
-    "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": {
-      "time": 1788470843,
-      "title": "Intel Crescent Island AI GPU Slips, Nvidia Holds 80% [2026] - tech-insider.org",
-      "desc": "Intel Crescent Island AI GPU Slips, Nvidia Holds 80% [2026] tech-insider.org",
-      "source": "tech-insider.org",
-      "region": "WORLD"
-    },
     "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": {
       "time": 1788472149,
       "title": "OpenAI Astra is a mysterious new quantum math-solving model - Mashable",
@@ -2231,10 +2210,16 @@
       "desc": "Советник Зеленского признал отставание Украины от РФ в ИИ для БПЛА Techora.ru",
       "source": "Techora.ru",
       "region": "RUSSIA"
+    },
+    "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635": {
+      "time": 1788557480,
+      "title": "Phind AI – Ответы по коду с актуальной документацией - quasa.io",
+      "desc": "Phind AI – Ответы по коду с актуальной документацией quasa.io",
+      "source": "quasa.io",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2253,8 +2238,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788557179.8212974,
-  "last_publish_ts": 1788557179.8212974
+  "last_publish_ts": 1788557480.933795
 }
