@@ -158,7 +158,8 @@
     "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa": 1788488994,
     "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": 1788489294,
     "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": 1788489597,
-    "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": 1788490678
+    "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": 1788490678,
+    "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": 1788490858
   },
   "known": {
     "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843.6931014,
@@ -256,22 +257,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Hong Kong Polytechnic University Joins Hands with Diagens Tech to Propel Medical AI into the Age of AI Agents | Corporate - EQS News",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNV1NsYmxfYlJGR0hDaUl5bjB2b3VvUmtmRThHaUk3aVVQRG14emVaS2FpNF8zSHN4WUlZWUhDRHFaWWp5cG40WHdJcW8zcTdEbnI1TlVYVUJUXzFfanA5QlpnVmRoNy0yRzNqVkh1NUpmdy1pc3ZFSVJJSTBNdVN5UHhRWjNTdEIzdWg1QktYR1BhRHF5Uk8xN1RDRmJ2OUlsX3I0UVgxZFAtUTJCdDBIVUlSN0J3VXhGWUNkTDZXX2NfTzh4MnJBTUhGcS1VeHpZTTAwQ3FTTGlBWk1MRzVQQlhiWnNwWlIxbVI3WlhDUjdoYkhfNjdYRDEzYlctZlpoajYzV09MUnBraGZ0NmdiQnE4Wm9oSjk0UjA5RQ?oc=5",
-      "desc": "Hong Kong Polytechnic University Joins Hands with Diagens Tech to Propel Medical AI into the Age of AI Agents | Corporate EQS News",
-      "source": "EQS News",
-      "time": 1788488950.0,
-      "score": 70.5,
-      "key": "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "NVIDIA Unveils RTX Spark PCs and Local AI Tools at IFA 2026 - blockchain.news",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tY1o1dm5KRjdKcnQ0NS1zNU1MeDFMbDB0dUlsT0F1SXQ0MjUzWnB1TjBOY0RHTXRoZzdlbmNFcjJhSG5PVWdkaFFHMmJrR0pMRlZ3X3RNSlpCeFZTd0Zia1ZtZTRGVkFlVDNabE12ZEo?oc=5",
       "desc": "NVIDIA Unveils RTX Spark PCs and Local AI Tools at IFA 2026 blockchain.news",
@@ -352,39 +337,23 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 5,
       "next_retry_at": 1788484495
-    },
-    {
-      "region": "WORLD",
-      "title": "China drives robots as South Korea rolls out AI homes at Europe’s IFA - CHOSUNBIZ - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04TVl1OHFGV0F3WjVsbVlTZlJOelE5SDdIQ2VEM2VFTjNFVHhScl9qUTVldmRqaXZ1Q0EtbEtOSVdUd1A3SXV0S2ZhN3pkcTJiS0NzY3AzYkVYRW1ZY1c2SG84MjVVb2laUUlaVlBWYl9IbXNQcUFDT1N30gGOAUFVX3lxTFBuWnFHR05CUzA2UHU3QXNObWJDOE5HS1FhSjBuTHRUUHk0V3gxNlViR0Y5enIzc080cHg5MzhaM3RJVy04TG1SMThzSldSdXYxSF8zVVNvUWx0eVZUSXo4VWRqTzh2cWFLRko5bmZhUHVLZE1SRDMtVlhDMm1XckdhMnNTdFF2SHl1cEh5VXc?oc=5",
-      "desc": "China drives robots as South Korea rolls out AI homes at Europe’s IFA - CHOSUNBIZ Chosunbiz",
-      "source": "Chosunbiz",
-      "time": 1788469260.0,
-      "score": 60.0,
-      "key": "9f4000e8382fb2a9a54ede27d030a5934bf92af457dcbcf5f51951b3f00091b4",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788490794.628918,
+    "last_start_ts": 1788490858.5793571,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788490794.628918,
-    "last_success_ts": 1788490794.628918,
+    "last_run_ts": 1788490858.5793571,
+    "last_success_ts": 1788490858.5793571,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 8
+    "last_published": 1,
+    "queue_size": 6
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788490703.6679232
+      "updated_at": 1788490863.31758
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1510,6 +1479,13 @@
       "desc": "GitHub Copilot App Adds Parallel Agent Sessions for Developers blockchain.news",
       "source": "blockchain.news",
       "region": "WORLD"
+    },
+    "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": {
+      "time": 1788490858,
+      "title": "Hong Kong Polytechnic University Joins Hands with Diagens Tech to Propel Medical AI into the Age of AI Agents | Corporate - EQS News",
+      "desc": "Hong Kong Polytechnic University Joins Hands with Diagens Tech to Propel Medical AI into the Age of AI Agents | Corporate EQS News",
+      "source": "EQS News",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1535,5 +1511,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788490678.3778079,
-  "last_publish_ts": 1788490678.3778079
+  "last_publish_ts": 1788490858.5793571
 }
