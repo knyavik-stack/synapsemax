@@ -258,7 +258,8 @@
     "627a77a5410410700ca2232fb4a328448417aa91d9a37e596cfa108fcd925e60": 1788531384,
     "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": 1788531682,
     "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be": 1788532040,
-    "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": 1788532282
+    "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": 1788532282,
+    "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a": 1788532522
   },
   "known": {
     "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": 1788511223.1508448,
@@ -494,22 +495,6 @@
       "editorial_value": 50.0,
       "topics": [
         "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "ChatGPT model launched with extra 'safeguards' after bots hacked company - Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNXzdBUVpkTUYwei1WVzA3X3VQQkR5a2RfNlQ1MjlOdGtySktTYWF1bzdGWWhtcE5iUXk3TTB2dGczSHJoUkhwdTRhcUhGWWZlb1pPNkw2VnNBaGxVYjRjUnV1QTR2blVzY3YtOWZlZUlqNFZtQ1NEelNJeDZUQm43OEx0SlBxblczeklRa2gtd01zb0NFdnNraV8tU1gwVE01VnfSAacBQVVfeXFMUDhoM2l4TE03OWpFNVdibWtseDQ5azZkZkc5NHJXOFpPZXE2c2pQR1hGaHg2MUtDbWtMcmxobVhmamNRRnRKTW1ZaVgtNHF1WWVnR0xHRFNLbDdVZ2hZbnJvWG1hVF9hWUt2WG5lYzMyT1NjSEx6QjBzZlAyR3JLb3VlVlM2TVVjNHA5X3VZSjNaVmpZdjNzVjNWbDNXYkQxQWpkTzJnZE0?oc=5",
-      "desc": "ChatGPT model launched with extra 'safeguards' after bots hacked company Metro.co.uk",
-      "source": "Metro.co.uk",
-      "time": 1788530400.0,
-      "score": 74.5,
-      "key": "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a",
-      "importance": 74.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
       ],
       "tier": "A"
     },
@@ -771,20 +756,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788532400.983643,
+    "last_start_ts": 1788532522.1247811,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788532400.983643,
-    "last_success_ts": 1788532400.983643,
-    "last_candidates": 117,
-    "last_published": 0,
-    "queue_size": 20
+    "last_run_ts": 1788532522.1247811,
+    "last_success_ts": 1788532522.1247811,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788532295.0769854
+      "updated_at": 1788532524.9310637
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2477,10 +2462,16 @@
       "desc": "ИИ в медиа: не замена, а помощник человека artmoskovia.ru",
       "source": "artmoskovia.ru",
       "region": "RUSSIA"
+    },
+    "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a": {
+      "time": 1788532522,
+      "title": "ChatGPT model launched with extra 'safeguards' after bots hacked company - Metro.co.uk",
+      "desc": "ChatGPT model launched with extra 'safeguards' after bots hacked company Metro.co.uk",
+      "source": "Metro.co.uk",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2499,8 +2490,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788532400.983643,
-  "last_publish_ts": 1788532282.236923
+  "last_publish_ts": 1788532522.1247811
 }
