@@ -356,21 +356,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Две трети россиян выступили за маркировку ИИ-контента - techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOFRIQndZUVFvWS1GMWpPVDdnRVZXZWtBU2ZRdnpNTWRpWHlJMlNqUV93b3JaX3Vpc2tUOWhXcm56MU16WG5pSTZ4S2h2bHRyNEZxWGFraXJILWFKN3JlTGN3bndjOVZibzl0RGZLcXZGVWVfNGRtT2hieWFxd3kxdTJicw?oc=5",
-      "desc": "Две трети россиян выступили за маркировку ИИ-контента techora.ru",
-      "source": "techora.ru",
-      "time": 1788503787.0,
-      "score": 70.5,
-      "russia_weight_bonus": 5.0,
-      "key": "71d41715e545f03f5bad3358357dc61fa22cd009173ab81d3b73ae3746498994",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Искусственный интеллект в 15-м пятилетнем плане Китая - Институт статистических исследований и экономики знаний",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TcWdPdkpiMHhHN3pldVhaT0VPUmlBd1ktUEhRNEdCV2ZLUUprc2w5QkZQQmNLUHQ4OGJMZzExd2xvV1ozNG1mNU02bEczMnF6Z2w4?oc=5",
       "desc": "Искусственный интеллект в 15-м пятилетнем плане Китая Институт статистических исследований и экономики знаний",
@@ -447,6 +432,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Две трети россиян выступили за маркировку ИИ-контента - techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOFRIQndZUVFvWS1GMWpPVDdnRVZXZWtBU2ZRdnpNTWRpWHlJMlNqUV93b3JaX3Vpc2tUOWhXcm56MU16WG5pSTZ4S2h2bHRyNEZxWGFraXJILWFKN3JlTGN3bndjOVZibzl0RGZLcXZGVWVfNGRtT2hieWFxd3kxdTJicw?oc=5",
+      "desc": "Две трети россиян выступили за маркировку ИИ-контента techora.ru",
+      "source": "techora.ru",
+      "time": 1788503787.0,
+      "score": 61.0,
+      "russia_weight_bonus": 5.0,
+      "key": "71d41715e545f03f5bad3358357dc61fa22cd009173ab81d3b73ae3746498994",
+      "importance": 61.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Сбер поможет развивать цифровые решения в Еврейской автономной области - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRU80aEg5bXRHTXA2bm52czVGVDVEdWN1bk9qZ09tTVM0M3dISy14WTZDbG1GaUtyZnV1UnBRWkZ0UlB3ZzBJc2p1MDhJZ0RZWVBnVlVhOVhIeDBmRWtldWJoOEFFX1dSUmpBdXhuelgwMTVDT0F1SkxEaFB3QldNcVlQalBJelY3c3ZBRGZqVFo5dFRjRFY4RkJiT0J0Nk14dGdYUzI3ZDZ6VVJ2Q0N2TTRPUnc?oc=5",
       "desc": "Сбер поможет развивать цифровые решения в Еврейской автономной области prospect.com.ru",
@@ -511,11 +511,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788514581.1938393,
+    "last_start_ts": 1788514641.5316436,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788514581.1938393,
-    "last_success_ts": 1788514581.1938393,
+    "last_run_ts": 1788514641.5316436,
+    "last_success_ts": 1788514641.5316436,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 14
