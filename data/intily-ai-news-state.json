@@ -295,7 +295,8 @@
     "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde": 1788543562,
     "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315": 1788543759,
     "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": 1788544041,
-    "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788544437
+    "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": 1788544437,
+    "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": 1788544640
   },
   "known": {
     "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": 1788524605.2114382,
@@ -598,22 +599,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Broadcom predicts AI chip revenue to double in 2027 - Fierce Network",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZU5adGJhTEhpMkt6RVdkX2JSWUNLamhkallaUGgxOG1WQ19lR3pVYk9HQkppUW1YQ2RGVk5HVHEwTFZhMzFVMDlPLVp2d28xRXdfZlpxa2Nady1JYjk4dmFBTXJJOWx3UXpWZGVlUDdnUldIZ0ZwekdvTmdiS0ZJVGNCcFg2SkJSWHltZ3BMRQ?oc=5",
-      "desc": "Broadcom predicts AI chip revenue to double in 2027 Fierce Network",
-      "source": "Fierce Network",
-      "time": 1788543650.0,
-      "score": 70.5,
-      "key": "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова - Smart-Lab",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hbWsyUmtBUzV4LWtLSnhyWXFkU3dvRU9kUHZZX0F0MDk4aDNTMThVckpLZjUxNUVnX0ltc1FHRDBrR2U4QUVsNU84LTE4dw?oc=5",
@@ -704,20 +689,6 @@
     },
     {
       "region": "WORLD",
-      "title": "AI's 'warning shot': Tech companies, experts raise fears of more rogue swarms after alarming Hugging Face hack - cbc.ca",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaDdhcHZUbDVJb0lDMkoyUURhWHVCUnp1R1FSR3R4bmtrUVQxZVdlWURvM3I3Z05fcEZmSzg4RUpZU0U5QkFrazI5SnNPQTQ1WE90YU9sb0FoYzhFa1lxX0FaTXQxWHEtN09aMW1RY21kZjJvVjdRNWFydk9yYVdJVDF5cXU?oc=5",
-      "desc": "AI's 'warning shot': Tech companies, experts raise fears of more rogue swarms after alarming Hugging Face hack cbc.ca",
-      "source": "cbc.ca",
-      "time": 1788541035.0,
-      "score": 66.5,
-      "key": "e192c96ae786c7a4ccb4b23a46cee4b0d68c35c043c3217f0d8ab2aacaac4875",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules - StreetInsider",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQUFGMk5mSFhVY3VuMHFFWnN2VkZtc05mVm5UUGoyZXdxcmhzYzM2TWlmN1puUUpINzIyLXlNcjIzaGZSSEJIYUFBdjJFSTBoQ2NKeVEtazBBRjV6dHlUM2czTW1aLXlaY0F0dzVoWHdwSjRGNmF6QXY4WTN3a1JNS1FJRE9waE1uOWFyUmI2N1AzUUNfOWFxRHlYdE5jdE1xTXBpVDZVRndsU3hCTHFBYWNRR05LWWhDbDgzNk5sVTBYeHlRTk13ZXFkb2U?oc=5",
       "desc": "BTI, Cornell Develop AI Tool to Map Hidden Universe of Small Molecules StreetInsider",
@@ -751,6 +722,20 @@
     },
     {
       "region": "WORLD",
+      "title": "AI's 'warning shot': Tech companies, experts raise fears of more rogue swarms after alarming Hugging Face hack - cbc.ca",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaDdhcHZUbDVJb0lDMkoyUURhWHVCUnp1R1FSR3R4bmtrUVQxZVdlWURvM3I3Z05fcEZmSzg4RUpZU0U5QkFrazI5SnNPQTQ1WE90YU9sb0FoYzhFa1lxX0FaTXQxWHEtN09aMW1RY21kZjJvVjdRNWFydk9yYVdJVDF5cXU?oc=5",
+      "desc": "AI's 'warning shot': Tech companies, experts raise fears of more rogue swarms after alarming Hugging Face hack cbc.ca",
+      "source": "cbc.ca",
+      "time": 1788541035.0,
+      "score": 63.5,
+      "key": "e192c96ae786c7a4ccb4b23a46cee4b0d68c35c043c3217f0d8ab2aacaac4875",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Artificial Intelligence - AI Update, September 4, 2026: AI News and Views From the Past Week - MarketingProfs",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZ3hqWHVjcE4xSUs3SjZWMnR3TEhGYjkwZE0tZlp5UlViRmtsQ1FEbk8xV2dOZUppQUJiOUFYN1lHbTBQbVRrTGduTWdsNVZmSDBhR3UzZl9rTHl1UXZXdm5LalZsTkRzY01hNktITVUydWJIamlNRjJ3T2VxcmVIR1VlTElYcTJ0ZmdzZEtRM3ZzcjZoSHo2M0M3cmd3ZFNfQ04wODVwbnI0enFBbU5PT3lRWU8?oc=5",
       "desc": "Artificial Intelligence - AI Update, September 4, 2026: AI News and Views From the Past Week MarketingProfs",
@@ -780,20 +765,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788544437.461219,
+    "last_start_ts": 1788544640.9905672,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788544437.461219,
-    "last_success_ts": 1788544437.461219,
+    "last_run_ts": 1788544640.9905672,
+    "last_success_ts": 1788544640.9905672,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 17
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788544440.4148915
+      "updated_at": 1788544644.7621381
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -807,13 +792,6 @@
     }
   },
   "stories": {
-    "9cebbaecf41e4899a575148e63f8fd1005a8c5c576c94698d1ec19145e7a83e6": {
-      "time": 1788458239,
-      "title": "В России скрестили ДНК человека и комара для обучения нейросетей - The World Inform",
-      "desc": "В России скрестили ДНК человека и комара для обучения нейросетей The World Inform",
-      "source": "The World Inform",
-      "region": "RUSSIA"
-    },
     "f08e8fe5014a0c0332ffefa656d2d584f811c731ab1fa40c00b949e9196b9acd": {
       "time": 1788458590,
       "title": "Gemini Survived When ChatGPT, Claude, and Grok Collapsed: Azure Is at Fault - Tech Times",
@@ -2444,10 +2422,16 @@
       "desc": "Орешкин предостерег от преждевременного регулирования ИИ prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": {
+      "time": 1788544640,
+      "title": "Broadcom predicts AI chip revenue to double in 2027 - Fierce Network",
+      "desc": "Broadcom predicts AI chip revenue to double in 2027 Fierce Network",
+      "source": "Fierce Network",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2466,8 +2450,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788543864.4841003,
-  "last_publish_ts": 1788544437.461219
+  "last_publish_ts": 1788544640.9905672
 }
