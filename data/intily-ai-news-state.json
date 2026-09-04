@@ -271,7 +271,8 @@
     "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": 1788535160,
     "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": 1788535341,
     "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": 1788535581,
-    "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": 1788536002
+    "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": 1788536002,
+    "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": 1788536242
   },
   "known": {
     "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515000.8867981,
@@ -467,9 +468,68 @@
     "b67a49316d3f44a3f185ab265585a1d2dd990fbf6bc59fe894aca5c9318d2652": 1788534259.6266851,
     "5835a362b5d986fac39912526eca0bd1be8521da821f61d5cc3caff65cfce5b3": 1788534259.6266851,
     "4b08fe35c1ab0dbb1fc33c29f6034b14ef716c03527316f43a9a1cae747286bb": 1788534259.6266851,
-    "db6b215fa5de2b16d30f47c580e663b069efcf6ed3d5e5a172f0576ba443e873": 1788534259.6266851
+    "db6b215fa5de2b16d30f47c580e663b069efcf6ed3d5e5a172f0576ba443e873": 1788534259.6266851,
+    "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": 1788536242.444593,
+    "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38": 1788536242.444593,
+    "9f0cd75655e15f8907a0d657ffa098e258a1501b643b428a16beea4c814ba67b": 1788536242.444593,
+    "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": 1788536242.444593,
+    "26609257eaac1fb0dd94ab8a777f26f580be7d10a7189e806e82a402b80dc551": 1788536242.444593,
+    "caebf8e5c4108ece88bcb734a753495350551b908e7d92b35e580aead369cc4b": 1788536242.444593,
+    "e65d10ff6eba2c5d0c2c9302b80a85fea00cb4a05dc892f4980aa5b6035da455": 1788536242.444593,
+    "30bfa35117952bd0556af8dc65f48790cc0b2e8a8a0a34ac5bab081ac503f465": 1788536242.444593,
+    "1a2b1a15aeb061c86d96bce852a3f9659b2eac9d0b6bdde396beb0c4a4b61483": 1788536242.444593,
+    "d69cefcb049bfde0bfb13cf330344153031bf7b63657ce256572054ff1e99be9": 1788536242.444593,
+    "6bea8d36b6f4db66e4ace627cc36e10c698d3dd87dee210930dc4ad4e9ca1606": 1788536242.444593,
+    "85bf9684101a01f4891b52d6231e0dcea6ae0f2f3eb10c714aecae425d318652": 1788536242.444593
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Разработчик показал симуляцию выживания на Unreal Engine с автономными ИИ-жителями - PlayGround.ru",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTFRHNElIZC1ZUm80RjJwSlVQRExxS09LckFweXp1Sng1SXFWSm9FbWxVNld5Zk9wSUxubXhCazV0cDJrNVBLdUk3dHJZcHNyUHQzNGdsTXpJTERkb25od0szbUgzakRpMmxoLXBnQVROLVh1LTZFV3lYWmlNZ1lBeUhSUFpoNEtFSHJaRnFJbktoMG1lUWdxZU5hMWxvUWpGUmxpUFR1VHByMkVwdzFCYjQ1cFM4Y1J3YjhFa0lzNXFOa0NZQko4Z3JGaUdXZmc?oc=5",
+      "desc": "Разработчик показал симуляцию выживания на Unreal Engine с автономными ИИ-жителями PlayGround.ru",
+      "source": "PlayGround.ru",
+      "time": 1788535175.0,
+      "score": 77.7,
+      "russia_weight_bonus": 2.2,
+      "key": "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d",
+      "importance": 77.7,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ - BeInCrypto",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zVS02RUdTWUZmR2pEb3pYZXhYY2tJYW5wLWpselMxZzZiN2JJelJRWTJENnZQXzhBcERqX0hVV21ZX1d4T3RDWW5Qb1R4YUtQc09XUlFMQXdSTlFRVjFWMmI0bjdJNkNITmd6SDh3TTctb2pUR3BMenotcFdDOGs?oc=5",
+      "desc": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ BeInCrypto",
+      "source": "BeInCrypto",
+      "time": 1788535200.0,
+      "score": 75.9,
+      "russia_weight_bonus": 3.4,
+      "key": "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38",
+      "importance": 75.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину - Korrespondent.net",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeUE0dnN2ejQtbjNneG5BYmNjSjdOLVpmdjI3RzR2Mk5GZ194RlJHNUpQaU01aEdJYXJKbjNrZXFLV2dGdkFqcjJZdkE1RnN0eE9wLTdiLV9MUUxIMkVxS1c5blRqS280ZElxMUpjVkpmUUQ4MndleGNkR2R5MEE5QjE2UzVnRmFZbDRpSENmcUxPdzAyWGI5ekZhUFUxaVZ6NWfSAZwBQVVfeXFMUC1VaFZqMlFZS3FmZjdmSkxpUTZuWG1jZ1BETUhmUlhOdlNaVWs5Y2RhbE9BcVc2WjRKWHAyOXh6YU9HZ2hoUy1aLXFQU3I3dmFxUWxPeTVWb0VQODZRakFlZWhSeDlqbE5iNzE2VjFKVjVRQndNRnlpcHdwTnlFY1FfbFpkbGdhYXZEVnFJWVB0Nnpib1F1R2FPYVhi?oc=5",
+      "desc": "ИИ на борту дронов: \"Флеш\" заявил, что РФ опередила Украину Korrespondent.net",
+      "source": "Korrespondent.net",
+      "time": 1788534240.0,
+      "score": 71.8,
+      "russia_weight_bonus": 3.3,
+      "key": "9f0cd75655e15f8907a0d657ffa098e258a1501b643b428a16beea4c814ba67b",
+      "importance": 71.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами - CNews.ru",
@@ -477,10 +537,10 @@
       "desc": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами CNews.ru",
       "source": "CNews.ru",
       "time": 1788532650.0,
-      "score": 74.6,
+      "score": 71.6,
       "russia_weight_bonus": 2.1,
       "key": "ff374a60e61b0ca84c654c0f578a972ee37931667d473c0f3f4305ec0f2398c6",
-      "importance": 74.6,
+      "importance": 71.6,
       "editorial_value": 50.0,
       "topics": [
         "models"
@@ -515,6 +575,38 @@
       "importance": 70.4,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google’s Gemini Spark can now manage your Google Photos library - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjZydEpPN2s2Tm9YM1FuSkFqdWVLRUpZN3Job0drdldXVUw3RFl6YkswYVoySjVKOU9Cc1RwOUdsamxyRzN4QWlqd2VtbUtLcmxJc2RndzZEaHl6TVZmdGtHNy0xYW5fY1lzU003OTJtaEozOFZCa3Y3ckp6dlkyMF9KZ2hNZ01IbTdPNVA4akxIalEwaU1ELUJzeFFUdw?oc=5",
+      "desc": "Google’s Gemini Spark can now manage your Google Photos library TechCrunch",
+      "source": "TechCrunch",
+      "time": 1788533231.0,
+      "score": 69.5,
+      "key": "26609257eaac1fb0dd94ab8a777f26f580be7d10a7189e806e82a402b80dc551",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Creatio Partners With Innowise to Expand AI-Native CRM and Workflow Automation - citybiz.co",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU2l5clVha0xpclFWbW5SeVFKZVRqc2daVG4yV0J4bk5WZ1k2SU9zN0p6emxCOG4yVlRYMEVfMDlzcW9DVmluSWZLRWlkMUNMMVYyQ2wwUFk2Slo3bUtOcVE0MVk5dk0tUEJkMnZRdU5mWlRwbWp2UEFLaV9PZGVUbzQtTEFIS3RDMFQ3LUNYZndtUFhaSmJJajU5VzVMWHh6dnJEaERkUWdrUHVpQXF4S2dHOVltMGJS?oc=5",
+      "desc": "Creatio Partners With Innowise to Expand AI-Native CRM and Workflow Automation citybiz.co",
+      "source": "citybiz.co",
+      "time": 1788525758.0,
+      "score": 69.5,
+      "key": "caebf8e5c4108ece88bcb734a753495350551b908e7d92b35e580aead369cc4b",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
       "tier": "A"
     },
     {
@@ -636,6 +728,20 @@
       "tier": "A"
     },
     {
+      "region": "WORLD",
+      "title": "3 Insurers to Add to Portfolio as AI Transforms Insurance Operations - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQczJjekpKTEZGaUFqMWpaUl9ONjNhXzFlTjQ1Unh5UVpUallndGVVbE9LMjJOYWw0WFhrc2RVX016bUt6ZHZaQVBWa0lFOWt4MmFoTWlmR0Mtb0JucEpaaVB4VFhFbDV2UTQtaGFNckpCdDhuTnZQWHliekktZGxaNTh0Z0JrMHZxNmNiVnZWS0tDREYzQkMyaU9QN3U4MGNPRlFDZlljam5ndklMR0VOR3k3MDQyVG9UbmZNbjJ3aldBUQ?oc=5",
+      "desc": "3 Insurers to Add to Portfolio as AI Transforms Insurance Operations TradingView",
+      "source": "TradingView",
+      "time": 1788528720.0,
+      "score": 66.5,
+      "key": "e65d10ff6eba2c5d0c2c9302b80a85fea00cb4a05dc892f4980aa5b6035da455",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
       "region": "RUSSIA",
       "title": "Rubetek выходит на рынок робототехники - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdjVKYm9od1ZpcDBzTkpIeDZyRkhXdksxUXd0M1k3NDFGenZjRHl6SDhnOUJxTFQ3OTZWbVhUUUFjS0VwOF9qOHdhVFJ2ZkVXVV9iUjI1QXpURzliZjg1Z3FWdGZkRm50V1gyNFprUjZaWUw4M2JCVDhkbkFkVFJRZ3ZFY1g1VGs?oc=5",
@@ -666,37 +772,23 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "ByteDance Secures $29.6 Billion Loan for AI Expansion - Whalesbook",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTDU3ZDYwSWxBTm9QXzYxQmotMkVvQnVReGFDQ1k5SzhoTTd1RHdJclpySFctUnBqVWQ1dDBMeGJQSWJNdUpKeXB5cE1HYjlaQkxjRHBVdENtcjRmSUliWUx5WVhBWE12dHliZkdfX18xQkpIUnhhaWhkcTZYdElsVlpfYXBjVm5lSkFGXzY5RXlLM1hDbk9lS1otbnBLMmlFMlp0MEhmWkpQQV9jbGR0OVdnNjNGak83V0F3dkxQY2NhM2ZjX25EQlVybFZWdw?oc=5",
-      "desc": "ByteDance Secures $29.6 Billion Loan for AI Expansion Whalesbook",
-      "source": "Whalesbook",
-      "time": 1788524490.0,
-      "score": 60.0,
-      "key": "49564a7d173dab6929645f2d246032f15982f2e4cfbef921cd79a32ae47c0c60",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788536002.229109,
+    "last_start_ts": 1788536242.444593,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788536002.229109,
-    "last_success_ts": 1788536002.229109,
-    "last_candidates": 0,
+    "last_run_ts": 1788536242.444593,
+    "last_success_ts": 1788536242.444593,
+    "last_candidates": 109,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788536007.2704246
+      "updated_at": 1788536276.462449
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -710,13 +802,6 @@
     }
   },
   "stories": {
-    "8a87db111d9dedb93125e654ecf933de8d3e5a25cb6e69404b8a1624d0c3df0c": {
-      "time": 1788449769,
-      "title": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики - gosrf.ru",
-      "desc": "В ОЭЗ «Технополис Москва» запущен робот для автоматизации внутренней логистики gosrf.ru",
-      "source": "gosrf.ru",
-      "region": "RUSSIA"
-    },
     "74d74d69c108b5634236ce971afa340eae00ed47cbac4a1656630e599edfba5a": {
       "time": 1788449952,
       "title": "Meta, Google join the AI launch party - The Rundown AI",
@@ -2396,10 +2481,16 @@
       "desc": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI SiliconANGLE",
       "source": "SiliconANGLE",
       "region": "WORLD"
+    },
+    "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": {
+      "time": 1788536242,
+      "title": "Leverage Code Review for Sustainable AI Coding Development - Communications of the ACM",
+      "desc": "Leverage Code Review for Sustainable AI Coding Development Communications of the ACM",
+      "source": "Communications of the ACM",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2418,8 +2509,9 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788534259.6266851,
-  "last_publish_ts": 1788536002.229109
+  "last_search_ts": 1788536242.444593,
+  "last_publish_ts": 1788536242.444593
 }
