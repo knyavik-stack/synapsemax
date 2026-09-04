@@ -723,13 +723,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788530719.7746053,
+    "last_start_ts": 1788530843.502533,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788530719.7746053,
-    "last_success_ts": 1788530719.7746053,
+    "last_run_ts": 1788530843.502533,
+    "last_success_ts": 1788530843.502533,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 18
   },
   "providers": {
@@ -750,13 +750,6 @@
     }
   },
   "stories": {
-    "2689984026d15ede5f6086be6f49c9550073e96213d85691ba0dcf99adde380d": {
-      "time": 1788444372,
-      "title": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC - CNBC",
-      "desc": "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC CNBC",
-      "source": "CNBC",
-      "region": "WORLD"
-    },
     "cdddf4448d7e43c71c094360e964bdff4cc24ee1517712e1d36477dfdd9313eb": {
       "time": 1788444560,
       "title": "Нейросети для работы: топ ИИ-сервисов - rbc.ru",
