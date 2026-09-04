@@ -157,23 +157,10 @@
     "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": 1788488697,
     "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa": 1788488994,
     "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": 1788489294,
-    "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": 1788489597
+    "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": 1788489597,
+    "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": 1788490678
   },
   "known": {
-    "34bbf729581048212635f6e7f492289ff0db1d156c92ac71d9496823aaa8dc6f": 1788468853.2378092,
-    "37e5968466a93a75428b1a41b34893e2b97891aa722b2e19202dbafe83019aa7": 1788468853.2378092,
-    "558675885987d82b720f2099d5945d2764134960531c6cb8590358018f46b494": 1788468853.2378092,
-    "d393e1b408ffac475de5264450032f40f8f264a8d1ba405a759b884bb51f3ae5": 1788468853.2378092,
-    "9d9c1293613f9953833b517a0d0718c910d778006bbf8a00e1c2b6c7cbb11532": 1788468853.2378092,
-    "b82db89157ab3c6a560ae70b12b6d0afc978f492e063ae39ce1781c158cc1255": 1788468853.2378092,
-    "f41942365b0a62cc954bad659c008e9ac3b0ccc375ce521b29636391f6b62def": 1788468853.2378092,
-    "7f2a4a06667e45b888e17b13bbcb0fc9f02caf80644a1f1ca0c74c317ad11b8c": 1788468853.2378092,
-    "c5faea22860b19df573ae69d409c792e195085e393b3e6faddbed576d5644d76": 1788468853.2378092,
-    "0270b5211c72732ae1cbcba6a5e0ab9bcbff4563c836e9065a5719803b82fcf1": 1788468853.2378092,
-    "cae231d9e4334f2c91ac8104e1e46ce7bf72a6dc83c3d1302d74ed177c8fd1ce": 1788468853.2378092,
-    "a5b2b94c80e33fb9bee15520081e8ec54903a79ce3e53bfc2278fee762cf6ec1": 1788468853.2378092,
-    "c93c881cebbd7935ad30730c20aae61463516e682302f63ab06c7dc06e2ee105": 1788468853.2378092,
-    "f138f0ca0ff65d654573c5dabccddbf34c17988202bce14882d3efacd4ea4daf": 1788468853.2378092,
     "bea1b9b034115a69da594ec1b71297a214600f211bfd990d65a7bc105fb818e6": 1788470843.6931014,
     "c6c2be57b3e1e60022cd1ef7923586c5133979656861d1c58fb6f680223e63a7": 1788470843.6931014,
     "f0924663130b46bcdb638813f40193354635aff949cc5239366c5a43cac9c895": 1788470843.6931014,
@@ -241,9 +228,94 @@
     "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": 1788487975.2950916,
     "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": 1788487975.2950916,
     "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": 1788487975.2950916,
-    "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166": 1788487975.2950916
+    "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166": 1788487975.2950916,
+    "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57": 1788490678.3778079,
+    "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": 1788490678.3778079,
+    "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": 1788490678.3778079,
+    "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333": 1788490678.3778079,
+    "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": 1788490678.3778079,
+    "7b24cc521ac29f0f89a2483856b7e7c32d220eb99b3dd3b52e04756cede09fcd": 1788490678.3778079
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI представила GPT-6 Astra с контекстом на 1,05 млн токенов - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaEIwRk9OUXVNdEhvLUp0alRfNGtFc3A4TWZsQTl6MndkMWNZQVR3cWxlN0doZGpGUno1b3BGOXlzTDhtbEp2Vm1PTTF4QnBQUUxRczdMazJENmh4TldqejBOYktweENLYXlmNnF5MElpdzdibWdJSzM0MlNaYUVuMEhKRnQza0FMX1pVWVBITE1UUWwzb09GZ0ZCc2txTHdmQnZRU1NB?oc=5",
+      "desc": "OpenAI представила GPT-6 Astra с контекстом на 1,05 млн токенов prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788490342.0,
+      "score": 74.3,
+      "russia_weight_bonus": 2.8,
+      "key": "16d2e88522e8e96da705b165e50b0c4845158f798a680823cea6348b84be4c57",
+      "importance": 74.3,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Hong Kong Polytechnic University Joins Hands with Diagens Tech to Propel Medical AI into the Age of AI Agents | Corporate - EQS News",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNV1NsYmxfYlJGR0hDaUl5bjB2b3VvUmtmRThHaUk3aVVQRG14emVaS2FpNF8zSHN4WUlZWUhDRHFaWWp5cG40WHdJcW8zcTdEbnI1TlVYVUJUXzFfanA5QlpnVmRoNy0yRzNqVkh1NUpmdy1pc3ZFSVJJSTBNdVN5UHhRWjNTdEIzdWg1QktYR1BhRHF5Uk8xN1RDRmJ2OUlsX3I0UVgxZFAtUTJCdDBIVUlSN0J3VXhGWUNkTDZXX2NfTzh4MnJBTUhGcS1VeHpZTTAwQ3FTTGlBWk1MRzVQQlhiWnNwWlIxbVI3WlhDUjdoYkhfNjdYRDEzYlctZlpoajYzV09MUnBraGZ0NmdiQnE4Wm9oSjk0UjA5RQ?oc=5",
+      "desc": "Hong Kong Polytechnic University Joins Hands with Diagens Tech to Propel Medical AI into the Age of AI Agents | Corporate EQS News",
+      "source": "EQS News",
+      "time": 1788488950.0,
+      "score": 70.5,
+      "key": "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "NVIDIA Unveils RTX Spark PCs and Local AI Tools at IFA 2026 - blockchain.news",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tY1o1dm5KRjdKcnQ0NS1zNU1MeDFMbDB0dUlsT0F1SXQ0MjUzWnB1TjBOY0RHTXRoZzdlbmNFcjJhSG5PVWdkaFFHMmJrR0pMRlZ3X3RNSlpCeFZTd0Zia1ZtZTRGVkFlVDNabE12ZEo?oc=5",
+      "desc": "NVIDIA Unveils RTX Spark PCs and Local AI Tools at IFA 2026 blockchain.news",
+      "source": "blockchain.news",
+      "time": 1788489231.0,
+      "score": 69.5,
+      "key": "ee8b2077407b72b6fc1068285656e88b675b8cfb7707cd61f22100a797104333",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUm5reVdteHFBdF94NTYzZkVETWZXZjh3cTVNTTF6YU5sMXhQZ2dSYnhTSThiU1VBcXpnaWZuMzRteXdTUVg1WjZFV24wOEprUjVNNzlhanIteUpJTmxLTjQ3ai1GRFBNeFBfX09FZ0pIbkNtM1U5MWRPVDkxcG4zVFlOQUVzYlo4MWtWRWlEWGtudnVfOEMxU1hCdUE4WVRsTDg2b1JYcl9pVWR0X3c?oc=5",
+      "desc": "Россиян могут уволить из-за загрузки рабочих документов в нейросети prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788489137.0,
+      "score": 68.9,
+      "russia_weight_bonus": 1.4,
+      "key": "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad",
+      "importance": 68.9,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Which investors will get rich from Anthropic's IPO? - 36 Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PeVFpVGE2RHB2bVNyWHlqM29SMm9IT01nLUY4Q0J3bDdrcGVMM2VCa0ZPc25aMFhRbzBxNHB2S0pnZGdoS2pNNllmN0o4R0RSN3ZR?oc=5",
+      "desc": "Which investors will get rich from Anthropic's IPO? 36 Kr",
+      "source": "36 Kr",
+      "time": 1788489799.0,
+      "score": 66.5,
+      "key": "7b24cc521ac29f0f89a2483856b7e7c32d220eb99b3dd3b52e04756cede09fcd",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Nightfood Holdings сообщила о прогрессе в робототехнике и новом соглашении - Techora.ru",
@@ -259,21 +331,6 @@
       "topics": [
         "robotics"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "«Одноклассники» запустили ИИ‑сервис для обработки фото и создания виртуальных подарков - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeTdIOE1EcGllZmpIa1J6aVFaUDlabUREVUtoblFEbjFzT0ZsNThNeUxhYkNIYjFocVFqbVZvUktSalg0aUlWNkJPVUR4S2xaT3pCcWxHYklheGcybWxCQ0JHaEg1Z3R4OEhubFlCdTRnV0o5VFQwVm5mV2twb3ByX2VrWF9fRndVNjFtVTE3dS02ZFFCek1QdWJjSHFaTTR2UWRrQm9vMjloRldCbmhrSkx3Q2xlbmk5T0FFVm9fVHFjYmpB?oc=5",
-      "desc": "«Одноклассники» запустили ИИ‑сервис для обработки фото и создания виртуальных подарков prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788447032.0,
-      "score": 60.5,
-      "russia_weight_bonus": 4.5,
-      "key": "0af86b1fc61774c83483b1e77b64698382b00476d5755dfc6c0a48f8b5eb3166",
-      "importance": 60.5,
-      "editorial_value": 50.0,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -314,20 +371,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788489656.0440412,
+    "last_start_ts": 1788490678.3778079,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788489656.0440412,
-    "last_success_ts": 1788489656.0440412,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 4
+    "last_run_ts": 1788490678.3778079,
+    "last_success_ts": 1788490678.3778079,
+    "last_candidates": 58,
+    "last_published": 1,
+    "queue_size": 8
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788489599.1631675
+      "updated_at": 1788490703.6679232
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1446,6 +1503,13 @@
       "desc": "LG Opens Spark 2026 With Nvidia, Google businesskorea.co.kr",
       "source": "businesskorea.co.kr",
       "region": "WORLD"
+    },
+    "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": {
+      "time": 1788490678,
+      "title": "GitHub Copilot App Adds Parallel Agent Sessions for Developers - blockchain.news",
+      "desc": "GitHub Copilot App Adds Parallel Agent Sessions for Developers blockchain.news",
+      "source": "blockchain.news",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1470,6 +1534,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788487975.2950916,
-  "last_publish_ts": 1788489597.0437422
+  "last_search_ts": 1788490678.3778079,
+  "last_publish_ts": 1788490678.3778079
 }
