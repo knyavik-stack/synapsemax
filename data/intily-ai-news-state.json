@@ -130,7 +130,8 @@
     "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": 1788479936,
     "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe": 1788480175,
     "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27": 1788480413,
-    "1767a453d9b6dbbd6ca0de62fc2369239a5bb7a9dbbc337b07995dddcec38799": 1788480596
+    "1767a453d9b6dbbd6ca0de62fc2369239a5bb7a9dbbc337b07995dddcec38799": 1788480596,
+    "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9": 1788480894
   },
   "known": {
     "8ef0a13882c46453ffbb65e86075d743aa679a9c65b75401c87727ed8908a1bc": 1788459491.2056582,
@@ -284,22 +285,6 @@
     "9f4000e8382fb2a9a54ede27d030a5934bf92af457dcbcf5f51951b3f00091b4": 1788480596.4989552
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "GPT-6 Astra Reaches Human-Level Computer Use — and OpenAI Locks the Cyber Door Behind It - techi.com",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5vT1FadHZJVzFWRWZFX1h5S0VtSzFxNjhjUkczemZFYzdNY1B4YTZXRGpMSFBNb1Vjd3p4czIwQ1VaNnNPc2R4dXQyUWYyUHk1YXRabDB3cmhLR1lvTGt2cTBnUHI?oc=5",
-      "desc": "GPT-6 Astra Reaches Human-Level Computer Use — and OpenAI Locks the Cyber Door Behind It techi.com",
-      "source": "techi.com",
-      "time": 1788479368.0,
-      "score": 66.5,
-      "key": "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "OpenAI’s president claims AI is as capable as humans now - The Washington Post",
@@ -501,20 +486,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788480655.868687,
+    "last_start_ts": 1788480894.2168894,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788480655.868687,
-    "last_success_ts": 1788480655.868687,
+    "last_run_ts": 1788480894.2168894,
+    "last_success_ts": 1788480894.2168894,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 13
+    "last_published": 1,
+    "queue_size": 12
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788480618.5349958
+      "updated_at": 1788480907.142584
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1444,6 +1429,13 @@
       "desc": "AI Model Detects Solar Storm Warning Signs Hours in Advance ColombiaOne.com",
       "source": "ColombiaOne.com",
       "region": "WORLD"
+    },
+    "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9": {
+      "time": 1788480894,
+      "title": "GPT-6 Astra Reaches Human-Level Computer Use — and OpenAI Locks the Cyber Door Behind It - techi.com",
+      "desc": "GPT-6 Astra Reaches Human-Level Computer Use — and OpenAI Locks the Cyber Door Behind It techi.com",
+      "source": "techi.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1452,7 +1444,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1466,8 +1457,9 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788480596.4989552,
-  "last_publish_ts": 1788480596.4989552
+  "last_publish_ts": 1788480894.2168894
 }
