@@ -449,22 +449,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Google Transforms Gemini Into Autonomous AI: Explained - JournalArta",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55cTh2WjFmdHA5eWJ3a3ZzLXFaVml4eXpvMDhTNnZKdmtPVmdvT1JleG45LWV6NG1hRW1EcDFmTWtES0dDVzN2Y3Q4b1ZQQU02aUk0UkwtWUtNMGxLWWNjb3BaVktubURCNmstXzFuNkNEZ2pldHpn?oc=5",
-      "desc": "Google Transforms Gemini Into Autonomous AI: Explained JournalArta",
-      "source": "JournalArta",
-      "time": 1788509469.0,
-      "score": 66.5,
-      "key": "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance - TradingKey",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhNHBBaDZFT0ZfWnVPR0ZuYXRNOGtJRFZtLXNvcXRpeDB5TFprRDZ2bENQeXRIOWdPbE5WRzFUekhZLWVBZU9MYTBiVzJ3ckpCbEZhVGx3QmJrVzBNdER6NWltNTZGOEMtV1U4emhrNDZ3dw?oc=5",
       "desc": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance TradingKey",
@@ -475,6 +459,22 @@
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google Transforms Gemini Into Autonomous AI: Explained - JournalArta",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55cTh2WjFmdHA5eWJ3a3ZzLXFaVml4eXpvMDhTNnZKdmtPVmdvT1JleG45LWV6NG1hRW1EcDFmTWtES0dDVzN2Y3Q4b1ZQQU02aUk0UkwtWUtNMGxLWWNjb3BaVktubURCNmstXzFuNkNEZ2pldHpn?oc=5",
+      "desc": "Google Transforms Gemini Into Autonomous AI: Explained JournalArta",
+      "source": "JournalArta",
+      "time": 1788509469.0,
+      "score": 63.5,
+      "key": "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
       "tier": "A"
     },
     {
@@ -587,13 +587,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788513026.6221929,
+    "last_start_ts": 1788513079.9422019,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788513026.6221929,
-    "last_success_ts": 1788513026.6221929,
-    "last_candidates": 59,
-    "last_published": 1,
+    "last_run_ts": 1788513079.9422019,
+    "last_success_ts": 1788513079.9422019,
+    "last_candidates": 0,
+    "last_published": 0,
     "queue_size": 19
   },
   "providers": {
