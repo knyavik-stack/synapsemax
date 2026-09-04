@@ -293,7 +293,8 @@
     "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": 1788542721,
     "99a25380363ba1eb219482d6ad67126606f4fdccbfecab420e6c3f0b2bff3722": 1788543380,
     "f8a1b7fca2f4797a4a6ff4eb1d7cb51f7ba9094d279126b016314722ba854fde": 1788543562,
-    "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315": 1788543759
+    "e9e9de201de2742dec1fa96faecb4246f39b5899c59e2fcb10f05f4b94d7f315": 1788543759,
+    "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": 1788544041
   },
   "known": {
     "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522622.0770597,
@@ -548,23 +549,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "‘Artificial Gooner Intelligence’: Claude AI Coding Agent Lands on Adult Website During Debugging - LatestLY",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRk9mNWZCX3c3d0hjLXo2akFqcUpUX1Jhdjh6OFBUQ2gwTFB2Q01XZ25IY1FNbnV5V3JJb0NfVXpLemthbk02THdZU2VQZGQwOU9adUdzNExRUkxpTU4tYjJ0MTczVmxWSXVDQWJOazNtWGNVQVNnZThhb1ExU3lMaEZWbmc1U01HZml4M2JhcU0zV1FjZHk3Nm5oSnNIa21YUWQxZ1hadVNfRVFtd043WEZCS05mZlpJaC1vMjczUGlIZ1hBSmI2YzZmcW9LMnVBMzVRRlRZbWFNQdIB3wFBVV95cUxObklORXgtVjJJcV9vMm1tSldkRXNma0FGUEFTWllJZVd4SmZ0U29sb2dEU092cGtfRXdlZDF4X2hvX1UwX29EVHRoajJnVEl6Nkh3NVZCbkpDWWFNTDRzZjF5TVNpZ1F5TnV5czJNVVJ2SVFrOGtWeHEtUUNUWkpjZU9CUmJsMTcyNjF5TEtqU1ZpRGhJVzhDRFRCMUpzNmhRZDY5c1BucV9IOUUyRXNEUFVvQ0lZTmxqZC0xSFBVZWY4cTVMeGJGdVFiNlZxb0FZS1ViV1VqNEFIVjZBcWRn?oc=5",
-      "desc": "‘Artificial Gooner Intelligence’: Claude AI Coding Agent Lands on Adult Website During Debugging LatestLY",
-      "source": "LatestLY",
-      "time": 1788542078.0,
-      "score": 73.5,
-      "key": "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1",
-      "importance": 73.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOURfNHRjVENzWGtqdkRtZVF6djAxS1ZlYlQ4T0ZlT0ViRUtlWjNNQVVKVmxtLTlQLV85OGZWUFl1LXJYTTVhb2tsd0lUa3VWUnhmd3VFbVlVd2VSSTBYOVNZTVN1ay1rRFU3NnpxTTdmUDEwUmtKRUdPWnVCUGExLXVxMENncmNrN1ppM1BKVF94V0ViSERKUlhWVTR6UW1Qd0NWWUdMQXZNNklWWkFTV0dGS1lBQ05GVkk5QTRKTEs?oc=5",
@@ -579,21 +563,6 @@
       "topics": [
         "agents"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова - Smart-Lab",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hbWsyUmtBUzV4LWtLSnhyWXFkU3dvRU9kUHZZX0F0MDk4aDNTMThVckpLZjUxNUVnX0ltc1FHRDBrR2U4QUVsNU84LTE4dw?oc=5",
-      "desc": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова Smart-Lab",
-      "source": "Smart-Lab",
-      "time": 1788540415.0,
-      "score": 73.4,
-      "russia_weight_bonus": 4.9,
-      "key": "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580",
-      "importance": 73.4,
-      "editorial_value": 50.0,
-      "topics": [],
       "tier": "A"
     },
     {
@@ -680,6 +649,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова - Smart-Lab",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1hbWsyUmtBUzV4LWtLSnhyWXFkU3dvRU9kUHZZX0F0MDk4aDNTMThVckpLZjUxNUVnX0ltc1FHRDBrR2U4QUVsNU84LTE4dw?oc=5",
+      "desc": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова Smart-Lab",
+      "source": "Smart-Lab",
+      "time": 1788540415.0,
+      "score": 70.4,
+      "russia_weight_bonus": 4.9,
+      "key": "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580",
+      "importance": 70.4,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Зачем внедрять ИИ, если он не удваивает выручку завтра - Forbes.ru",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaEJjYjBycHp4enhxYmNXcG9BbjVnaUlteXhtdk9BNm5qYW5CanlidWlLeXZENTRZMGpvTVB1emZDRk56Q1RRdzlIQ1VXcXFoQ1l6WHU0Z2tOWEIwWXhfQ1dtTXlrRlJCLXF1SThRRU0tcU5sNkh4T2xGdVpRVUY3anN4MDd0SjhWYjFzb2JCTQ?oc=5",
       "desc": "Зачем внедрять ИИ, если он не удваивает выручку завтра Forbes.ru",
@@ -704,21 +688,6 @@
       "russia_weight_bonus": 3.3,
       "key": "9f0cd75655e15f8907a0d657ffa098e258a1501b643b428a16beea4c814ba67b",
       "importance": 68.8,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны - Life.ru",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc2g3cmJzSDdqTll5NXdnQmpLQS1MM3d1bW9Pd0JkZW01QXBpc3haOXhfWkRwR1M5TTlQR3VxQWxsbkxEdF9MYzgweDFyQWJFaHJSbE1WSzBQXzhrR1dHS3FpVF9GVk0yWmxkWmxjeHlkN1pNNlY1OWpXWlVBaGx0NXhZY1dnSzZuV1JnTWJQQk5lVzJvSzNnX2dRNUswUQ?oc=5",
-      "desc": "Названа самая востребованная ИИ-профессия в России: без этих людей нейросети бесполезны Life.ru",
-      "source": "Life.ru",
-      "time": 1788533194.0,
-      "score": 67.8,
-      "russia_weight_bonus": 2.3,
-      "key": "cfe31e748d32388727cbd6ec69c1cefe23bc5cc4fbe63e81904a06ccc397df5d",
-      "importance": 67.8,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -845,20 +814,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788543864.4841003,
+    "last_start_ts": 1788544041.7385817,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788543864.4841003,
-    "last_success_ts": 1788543864.4841003,
-    "last_candidates": 111,
-    "last_published": 0,
-    "queue_size": 20
+    "last_run_ts": 1788544041.7385817,
+    "last_success_ts": 1788544041.7385817,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788543762.7984955
+      "updated_at": 1788544048.2449243
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -872,13 +841,6 @@
     }
   },
   "stories": {
-    "8863f4adc9909941be37d8b471e1c98116f2f6b7d5bb57582a140d18f93062ef": {
-      "time": 1788457511,
-      "title": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков - companies.rbc.ru",
-      "desc": "Скорозвон запустил голосового ИИ-робота для обработки входящих звонков companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "region": "RUSSIA"
-    },
     "29e1cc8446e0a9b7c4d453899cb9dcf8e08454364cbe968acdfb0bf9901780f5": {
       "time": 1788457878,
       "title": "Главный организационный вопрос внедрения AI - VC.ru",
@@ -2509,10 +2471,16 @@
       "desc": "In age of AI, robots move into heart of home Daily Sabah",
       "source": "Daily Sabah",
       "region": "WORLD"
+    },
+    "0214525c898dc5b02eeb27855d3df98237367748ccd606e4f64fd81bd2fee1a1": {
+      "time": 1788544041,
+      "title": "‘Artificial Gooner Intelligence’: Claude AI Coding Agent Lands on Adult Website During Debugging - LatestLY",
+      "desc": "‘Artificial Gooner Intelligence’: Claude AI Coding Agent Lands on Adult Website During Debugging LatestLY",
+      "source": "LatestLY",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2527,6 +2495,7 @@
     "RUSSIA",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2534,5 +2503,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788543864.4841003,
-  "last_publish_ts": 1788543759.8662026
+  "last_publish_ts": 1788544041.7385817
 }
