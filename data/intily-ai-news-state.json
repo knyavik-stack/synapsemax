@@ -205,7 +205,8 @@
     "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae": 1788513685,
     "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75": 1788513982,
     "fb2dd6a91e29517a82641d9f295791035a1709a500341624f02f924a21808218": 1788514283,
-    "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82": 1788514521
+    "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82": 1788514521,
+    "2b760b8746d9b950a08d8d67a8d94529616c9f012c7d34a4a2429739579d310e": 1788515000
   },
   "known": {
     "3ee9a099aa9259fc0cbd48d24d4b344dc9737a04088b3aa820c9d952f17d9eae": 1788495069.2696536,
@@ -279,9 +280,34 @@
     "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336": 1788513026.6221929,
     "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae": 1788513026.6221929,
     "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75": 1788513026.6221929,
-    "e9ae58f0a606e5a34ef25b670d3c76c94d3f6fd00e2c0e803b0a86cca572b71f": 1788513026.6221929
+    "e9ae58f0a606e5a34ef25b670d3c76c94d3f6fd00e2c0e803b0a86cca572b71f": 1788513026.6221929,
+    "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": 1788515000.8867981,
+    "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997": 1788515000.8867981,
+    "c7a98515a555854c4c56dfc17ac1a5124bb8e7f0bd4f666bafdeced988c226da": 1788515000.8867981,
+    "2b760b8746d9b950a08d8d67a8d94529616c9f012c7d34a4a2429739579d310e": 1788515000.8867981,
+    "f5ca24235d447ba04a82e53aa554c0def9b9ee462a5f3bd37ca101283a748b24": 1788515000.8867981,
+    "42aecec097316a0941c5bee3d313393e01425546af18c7d2ad917206a7e055b5": 1788515000.8867981,
+    "fe86cfca7ddd06270ddf285fc073f6b22df01654ee5d696141c9164dce21ee1b": 1788515000.8867981,
+    "769f8997081fc573476ce8fa7174453657c5b97055381a9a7ff235beef009858": 1788515000.8867981,
+    "e7a9cd21f6538c4a961d4a9a606588a5c1b39b6b1803a7cb2a5b81a69dc33d14": 1788515000.8867981,
+    "4d0dba9a0128455f3737512d4003bd845270b9291b84f2bee1f3667fc1911bcd": 1788515000.8867981
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "«Очень некомфортно»: глава OpenAI объяснил, почему компания не выпустит умные очки - RuNews24",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSzZ5MVBCRGh6QVpUVGRnZm1BSHA4dFJraEhZM2lGMFpxY0pJbl8yN095eWNTV1VPRHVnUEYwdHIxM2EyT2JtZTVJUXM5c3Z3bDZ5THE2QXdDNVNYaXgtU2g5T08yd0lBd0Nxa0RrdW5ObnRoOEU2cG5NZFN3YmVUYUZkRmxIWk5aa2VGRDJhczBOQ3NhWFBPOGVBRktIVDFTdXBDMmxOSW5OVGRDVE5fd1RVT3hZQ2M1SHAxWlFnemgtZ00?oc=5",
+      "desc": "«Очень некомфортно»: глава OpenAI объяснил, почему компания не выпустит умные очки RuNews24",
+      "source": "RuNews24",
+      "time": 1788513960.0,
+      "score": 75.6,
+      "russia_weight_bonus": 3.1,
+      "key": "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179",
+      "importance": 75.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "Сбер: Будущее – за генеративным ИИ, помогающим бизнесу решать задачи развития - prospect.com.ru",
@@ -296,6 +322,23 @@
       "editorial_value": 50.0,
       "topics": [
         "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться - vc.ru",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONWxZX2xwUmNJb2JRR3E3b0FROWQ3b1ZjMEI0NjNyUE5qUkNwYmNoM0xNekRCZ2NkSmQ2TktXRWRaNDNQTXdSdlVoT0VZMC01TWFvYk80YmFnTVV1QkkyQlJRaG1fRzZNNnBKMmVSbVAxMFczVXg1WnJwMDMxNDVzdzBkUQ?oc=5",
+      "desc": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться vc.ru",
+      "source": "vc.ru",
+      "time": 1788512409.0,
+      "score": 73.0,
+      "russia_weight_bonus": 3.5,
+      "key": "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997",
+      "importance": 73.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
       ],
       "tier": "A"
     },
@@ -335,19 +378,17 @@
     },
     {
       "region": "RUSSIA",
-      "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
-      "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
-      "source": "Национальное аграрное агентство",
-      "time": 1788504000.0,
-      "score": 70.9,
-      "russia_weight_bonus": 1.4,
-      "key": "839b86977f8f0a32b5a6f233f60966e3af27d7d98e67bb27230f06c598a8fadc",
-      "importance": 70.9,
+      "title": "Юрист: почему за слепое доверие к нейросетям в суде придется платить рублем - ВФокусе Mail",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTkd6MXhwRUFsNzZRS0xLdnZjN1p4clZTLVplRVF5NTRwa1EzUy1JU0MyRmNhQmlCeUNoZWpPYlJsTGkxRGxpYmxDRi1VbkVKRTlyc05BdWJxUWlYVng4aUZVU3A2bHRjdUhJajNqOVN4WU5mWWNWRjJHaGFweGdyZWs3ZF94a2VMV3hEYmxsTWxPRGZ1dXhfOEJjTzJhQkRBYWp3bXFJUF84MzdnRU1BbHZqMEZIaWc5Uk1yTg?oc=5",
+      "desc": "Юрист: почему за слепое доверие к нейросетям в суде придется платить рублем ВФокусе Mail",
+      "source": "ВФокусе Mail",
+      "time": 1788512474.0,
+      "score": 71.0,
+      "russia_weight_bonus": 2.5,
+      "key": "c7a98515a555854c4c56dfc17ac1a5124bb8e7f0bd4f666bafdeced988c226da",
+      "importance": 71.0,
       "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
+      "topics": [],
       "tier": "A"
     },
     {
@@ -384,6 +425,78 @@
     },
     {
       "region": "WORLD",
+      "title": "ICE, corporations and AI pose imminent threat to U.S., CT senator says - Hartford Courant",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWHFUOElqbGgxVHFEQ2JISm9vdUpUdFVmbHdnZF90ZGlzMU13dTVyRmV4dWgtR1VwS3VMVndEUTBpUDZvdGFMT0tGbW1ZdmlsYngtcUNnMTdaSzNRWHU5dXJWcHdmam5fSHJWQUhmX2JKM0FfelZmai0wd0ozajBOZ21ueXNWQ2FFWE9HaDB5RE9LcVVRVWl1QnpKbkMxR201YXVnai1B?oc=5",
+      "desc": "ICE, corporations and AI pose imminent threat to U.S., CT senator says Hartford Courant",
+      "source": "Hartford Courant",
+      "time": 1788514441.0,
+      "score": 66.5,
+      "key": "f5ca24235d447ba04a82e53aa554c0def9b9ee462a5f3bd37ca101283a748b24",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House - TV News Check",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONVIxYXptTUZubXFKX2c2c0FVYWR0ejZybktyM3R0SktTUTF4OVkzd3lUY2h2c3daSnpzTTNhUzNSV1hKVGpGRnFCcHNDYUdBU3lrb3RMMXlNWGVYN2xaRHNCWmR6NlJoTUJjd3o1c2VzSzFYd0RsTExidEdHN2szQUtLMW5ReWh2bWhhbnVWOUNXZS10UDlPSW5QUDRvbF9MQ01HSWlyY0tLb1VVU1AwNU1zVmkwZDBnYWc?oc=5",
+      "desc": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House TV News Check",
+      "source": "TV News Check",
+      "time": 1788514296.0,
+      "score": 66.5,
+      "key": "42aecec097316a0941c5bee3d313393e01425546af18c7d2ad917206a7e055b5",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Google Says New AI Weather System Can Talk to Satellites for Hourly Forecasts - The Hans India",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWDNqcXg5ZGZ6bUZMa21FNmhXX3RXRm5yTGUxSTVxVXdfWE9iUHpGeGJVUmwwT3R4QVpnVHVrUWJZXzlIVWl1TUgtbG9OWkdyUzB0RnBCWHB0TUdlSHZFSzQwVVotUDhrQ3ZsYVotcHd5QnRNREpDNTBZNjFoeTlWYXZYdFdJMkRSeWZuOXZnMUhjamQ1Wmo0TmNFUmJaLWs1U0hGUm5nekFMN1J6MkQ3TzY2OXN1VnlJdjZr?oc=5",
+      "desc": "Google Says New AI Weather System Can Talk to Satellites for Hourly Forecasts The Hans India",
+      "source": "The Hans India",
+      "time": 1788512928.0,
+      "score": 66.5,
+      "key": "fe86cfca7ddd06270ddf285fc073f6b22df01654ee5d696141c9164dce21ee1b",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "SPARC AI (CN:SPAI) Gains Momentum as Defence AI Innovation and GPS-Denied Drone Technology Drive Investor Optimism - kalkine.ca",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOY2RTbHlVVS1neEI3MXZBU3FlbHU0anBzaUZfLWVmTTQ4cmNrQ2NwR0ptdks4WHNOMzhlNEFaS0JSb0w4Z2k2RHJzMlkxN1ZXclJKbWZnZmZtR0xnWDM2TmYzX09nQ1FmMDVDVzdQdWY3bnZuTExldThKZTRDUFgtSDJQMEtWS1BEMVRHdjA0ZmExYzhlNU5LYTAxazhjQ1htUHF1Zm1oUUsza0gwWGR2b1BnLXdERU0tVUZYdHd3X3NxcTl5WG8yNTFCMWlpaDdoaXlmTHQwUEFfU1RKMkVYTnVhMzYwY01PUTVwQl9wYVE?oc=5",
+      "desc": "SPARC AI (CN:SPAI) Gains Momentum as Defence AI Innovation and GPS-Denied Drone Technology Drive Investor Optimism kalkine.ca",
+      "source": "kalkine.ca",
+      "time": 1788512820.0,
+      "score": 66.5,
+      "key": "769f8997081fc573476ce8fa7174453657c5b97055381a9a7ff235beef009858",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "When Nvidia makes a move, Malaysia and Asean should pay attention, especially SMEs — Phar Kim Beng - Malay Mail",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRW5FaXVKaUdxWjM5c2FNb2pGU0NteUNrUWw4T2JqVDFEbFp5LThtZVpaQkZoMFV2SGlWTWxyVDlRWllmXy03OEI3eW1oZ2JRUl9ycVVvandCcjJRLWdiQmZBcTFvVG1UbnNiOE9qQTdfRFlkTGFhYzJFUGZiLUpaZGV0WHN3a2laMnVncXFlY1czaFpNZlkyWldxY2JmZUx6aGRfWmVwRGxsd2pjRkItTlYtaklsY041Sl95REhDQ1lONWtZblR6UnB3ZEJCTDZoeFY5ZlVxbHVMVXV1WW5QeUtPb3Q0MWpMZlQ3cXJXWDI5Tjh50gH0AUFVX3lxTE1FbkVpdUppR3FaMzlzYU1vakZTQ215Q2tRbDhPYmpUMURsWnktOG1lWlpCRmgwVXZIaVZNbHJUOVFaWWZfLTc4Qjd5bWhnYlFSX3JxVW9qd0JyMlEtZ2JCZkFxMW9UbVRuc2I4T2pBN19EWWRMYWFjMkVQZmItSlpkZXRYc3draVoydWdxcWVjVzNoWk1mWTJaV3FjYmZlTHpoZF9aZXBEbGx3amNGQi1OVi1qSWxjTjVKX3lESENDWU41a1luVHpScHdkQkJMNmh4VjlmVXFsdUxVdXVZblB5S09vdDQxakxmVDdxcldYMjlOOHk?oc=5",
+      "desc": "When Nvidia makes a move, Malaysia and Asean should pay attention, especially SMEs — Phar Kim Beng Malay Mail",
+      "source": "Malay Mail",
+      "time": 1788509317.0,
+      "score": 63.5,
+      "key": "e7a9cd21f6538c4a961d4a9a606588a5c1b39b6b1803a7cb2a5b81a69dc33d14",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Catholic colleges and universities jumping into quick-moving AI field - ncronline.org",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM2lSSDJpTzlidUY5MWoyNW9jaXpHVGRuNElySXZfTUZ0Y3Nmc1BnMGx2VllBNEVqaXVWYVJzU082Qi1ZY0M2RVRPaDJwblZQWXFSMTFJRy12RlBrSXA3d3Z6ZUEyaWxuLWdxcWQ1Mng2WXByUzIyZzlvdy0zU3gxalZITUR0Q1hFTjJ0blVFTUxlaG9JTU1aWU1GQQ?oc=5",
       "desc": "Catholic colleges and universities jumping into quick-moving AI field ncronline.org",
@@ -413,17 +526,20 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Sber plans three-day AI Journey conference in Moscow - CFOtech Asia",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNnVWNTdIbVgyeS1NVUNfSDFCTDRuMWJLUzdfaTV0VzBNVENjZG5VV0R5WEdzdUt1ZFhhTEdlMWFlRDhqNTF3aldKRF9ENlhvOVl0b1VvRVFabndtTGNxOWZtXzA1SEZFd2NqT2R0MUpmRFZrZ0NPTk1WN0RNOUlyVWctbFJIQQ?oc=5",
-      "desc": "Sber plans three-day AI Journey conference in Moscow CFOtech Asia",
-      "source": "CFOtech Asia",
-      "time": 1788507000.0,
-      "score": 63.5,
-      "key": "e9ae58f0a606e5a34ef25b670d3c76c94d3f6fd00e2c0e803b0a86cca572b71f",
-      "importance": 63.5,
+      "region": "RUSSIA",
+      "title": "В России откроют сеть полигонов для испытаний агродронов - Национальное аграрное агентство",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczZYM3NsbUY4a0h6V0UzRVZwbmlIV3hSbFhha3dWTF83a1JkcHZaTXliMVFwMlIwcmVYekQybFNxSnRuZUhPSDlGNUxuYjdFVjl0OWRNdm1pZGlpMFRhcDhEZ0kyTTE1X1FVVk9lRjFlZFpGYnlWUHNpNURKVWFFVHg3czZlaUc0?oc=5",
+      "desc": "В России откроют сеть полигонов для испытаний агродронов Национальное аграрное агентство",
+      "source": "Национальное аграрное агентство",
+      "time": 1788504000.0,
+      "score": 61.4,
+      "russia_weight_bonus": 1.4,
+      "key": "839b86977f8f0a32b5a6f233f60966e3af27d7d98e67bb27230f06c598a8fadc",
+      "importance": 61.4,
       "editorial_value": 50.0,
-      "topics": [],
+      "topics": [
+        "agents"
+      ],
       "tier": "A"
     },
     {
@@ -443,6 +559,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "ИИ стал центральной темой G20: позиция России, слова Шадаева, итоги встречи в США - finance.mail.ru",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYjgySU45NFIxRU1qTHFvZllOZ3hyVnNDeUIyWVpYNW50cWRjWUdYUkNpZnNyWWhGS2pfeW5GZl9XMEkzTXF1Z3dRaHpRZmVESDNVZnJVWFBMWEpGNEtYRmg1dWdPTW9VTklURnczc2oxeEdUbTNGQk44eXNENUlWRGJyR2Vfdjd3dmpjOHFzeVRodm1xeU4wTUpCc2tJSGhseHEwV1ktX3dfUzQ?oc=5",
+      "desc": "ИИ стал центральной темой G20: позиция России, слова Шадаева, итоги встречи в США finance.mail.ru",
+      "source": "finance.mail.ru",
+      "time": 1788503522.0,
+      "score": 60.6,
+      "russia_weight_bonus": 4.6,
+      "key": "4d0dba9a0128455f3737512d4003bd845270b9291b84f2bee1f3667fc1911bcd",
+      "importance": 60.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Сбер поможет развивать цифровые решения в Еврейской автономной области - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRU80aEg5bXRHTXA2bm52czVGVDVEdWN1bk9qZ09tTVM0M3dISy14WTZDbG1GaUtyZnV1UnBRWkZ0UlB3ZzBJc2p1MDhJZ0RZWVBnVlVhOVhIeDBmRWtldWJoOEFFX1dSUmpBdXhuelgwMTVDT0F1SkxEaFB3QldNcVlQalBJelY3c3ZBRGZqVFo5dFRjRFY4RkJiT0J0Nk14dGdYUzI3ZDZ6VVJ2Q0N2TTRPUnc?oc=5",
       "desc": "Сбер поможет развивать цифровые решения в Еврейской автономной области prospect.com.ru",
@@ -455,72 +586,23 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Правительство РФ: отечественные нейросети привлекут к образованию и проведению выборов - TelecomDaily",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaE5kSUlwdW5jb0FhaHVTSldZb2g2Q2VjcHN0MUItTzJHS3Q5UFVZMzBFUC0yZW82bDZfaW9yR3QtTFI5MVA5RXVzTlVuT1gtaHhPTW5fMlpKakdGTlA5d3p6YWNIVWFKa1NvLXpRYzBSX2pIRFRiU3V6bUJLdE94TmY4cGhhMkZkdEJOLWlRcjdRYkpXeDZoU1ZjMzNSM05sQnBqeUowQUpNZnNITmZES2V4aFhPdV9IU0FwTDRhSUwyYlpNd0E?oc=5",
-      "desc": "Правительство РФ: отечественные нейросети привлекут к образованию и проведению выборов TelecomDaily",
-      "source": "TelecomDaily",
-      "time": 1788501329.0,
-      "score": 60.2,
-      "russia_weight_bonus": 1.2,
-      "key": "de2ba6b72d78be9ff809eb81321a3b139e7432ae40adfc430785b9541b915c76",
-      "importance": 60.2,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Siemens Healthineers pushes AI-led care model for Southeast Asia - ET CIO SEA",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYmJEMjI5ZkY4UGFBd0E0UUc3dFFKcVEwZ0xMM0w1X0t3SEM5SVJCWHUwdDAwX3RqM1hkVnFNX1ljbzhhZ1lVRzJITTZ3WHhmOWtlVlpURFpyQm1SUTlnV2ktOThmNHlmdWdZcHdybnVCQ2RWSlZMSDZhRkE2eEo1QktIeXhwSF9yUnJiVkZxMkt2bS00MFZtMy10WjBBN1ROYUw1MThFckJWRU82dTNWbDY3dlJPQWgxQlo5T2Nrb3hoUlJDSl9DRTJoTU1iRU5pejNhZ3VFTXVwUQ?oc=5",
-      "desc": "Siemens Healthineers pushes AI-led care model for Southeast Asia ET CIO SEA",
-      "source": "ET CIO SEA",
-      "time": 1788501769.0,
-      "score": 60.0,
-      "key": "be07a966517c9547a689ec7865aa49cb214df21b4eb6fd89c01e2510733d23ad",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia - Martin Cid Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFZjQTJ6MlJYTndtS01SanphT1I2a1VKVTdZYmxaWXFDNWdyT1YwS2JldEV5bnZPczkxSlJSdW53cFJJWTJfVEtVWS1rZDk2ZXNoU05kNUlvcjhxRHVrMFM1ZjRqcmMxQXV3RUJqSGhpUzNyU1FGMDRwYmtuYmZWNy0zTW12ZVBzNVUw?oc=5",
-      "desc": "Broadcom’s AI chip revenue triples to $16.7B — custom silicon now undercuts Nvidia Martin Cid Magazine",
-      "source": "Martin Cid Magazine",
-      "time": 1788501600.0,
-      "score": 60.0,
-      "key": "3135200125418d0515b1af56831afc72d93ecb1ca685f0d8bf5578192865d6f6",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788514699.775954,
+    "last_start_ts": 1788515000.8867981,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788514699.775954,
-    "last_success_ts": 1788514699.775954,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 14
+    "last_run_ts": 1788515000.8867981,
+    "last_success_ts": 1788515000.8867981,
+    "last_candidates": 68,
+    "last_published": 1,
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788514524.4884412
+      "updated_at": 1788515020.1669917
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1975,10 +2057,16 @@
       "desc": "Google Transforms Gemini Into Autonomous AI: Explained JournalArta",
       "source": "JournalArta",
       "region": "WORLD"
+    },
+    "2b760b8746d9b950a08d8d67a8d94529616c9f012c7d34a4a2429739579d310e": {
+      "time": 1788515000,
+      "title": "GPT-6 Astra vs Gemini vs Claude: Which AI agent is best? - Moneycontrol.com",
+      "desc": "GPT-6 Astra vs Gemini vs Claude: Which AI agent is best? Moneycontrol.com",
+      "source": "Moneycontrol.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1997,8 +2085,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788513026.6221929,
-  "last_publish_ts": 1788514521.2756462
+  "last_search_ts": 1788515000.8867981,
+  "last_publish_ts": 1788515000.8867981
 }
