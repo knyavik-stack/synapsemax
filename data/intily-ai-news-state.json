@@ -790,13 +790,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788542721.9183173,
+    "last_start_ts": 1788542844.5984743,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788542721.9183173,
-    "last_success_ts": 1788542721.9183173,
+    "last_run_ts": 1788542844.5984743,
+    "last_success_ts": 1788542844.5984743,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 18
   },
   "providers": {
@@ -817,13 +817,6 @@
     }
   },
   "stories": {
-    "c7d9a5651e2c23378a44bb65ee2c48de840c907e2fa2a7ba512a49113b6a6ad5": {
-      "time": 1788456431,
-      "title": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд - theins.ru",
-      "desc": "Nvidia покупает крупнейший в мире репозиторий открытых ИИ-моделей Hugging Face за $12,93 млрд theins.ru",
-      "source": "theins.ru",
-      "region": "RUSSIA"
-    },
     "0f8c7e484f71a8e50457f8d3ded009d59c4e556824002857c7ffff4bfb09081f": {
       "time": 1788456611,
       "title": "Nvidia is spending $12 billion on Hugging Face, the world's biggest repository of AI models, and the comp - The Times of India",
