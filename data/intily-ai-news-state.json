@@ -230,7 +230,8 @@
     "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85": 1788522321,
     "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": 1788522561,
     "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": 1788522800,
-    "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": 1788523099
+    "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": 1788523099,
+    "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42": 1788523400
   },
   "known": {
     "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": 1788505280.75571,
@@ -413,7 +414,11 @@
         "chips",
         "security_regulation"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788523400,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788523700
     },
     {
       "region": "RUSSIA",
@@ -443,22 +448,6 @@
       "importance": 72.9,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI Agents Went Rogue, Hijacked German Wiki And Shared Bypass Tactics - Times Now",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUjlrd1lmWEtoREpfTUZ2X0lJY1ZrV3ZOblRVWlhOX3hsSmVDWXl5UUczU3ZzTXF1VFNUTTJBNkNwZ1E4SGl5Z2pJMTJ3MWlyenVFN0FiZ2lEczBaVE4zWlZCX1pPbXF5MUpfVjNoRndmUExyS3pXQ25xejZlRmNxRzlHSy1vVFlsSTN0eDZ0dXpPeDVuRUtNRUZMcWZWZEJPZFMtOGhzbUxMUUIyc0ItMDRzUWxvVkQ3Qldqc2JlNDBMYTVjVjhwdW5hbnVkWS1yNHR30gHYAUFVX3lxTFBYdEctaFlpaVZkNFk5RVQ1TWtQTW9wczlnMDZFSGh5Z0NkSkZYanF0M3RBMzQtQUlXSjBoM2dTNlAzdktuWXgxQVV4cFctSktyU0xCbEowck9kbF85cTZvZ3hTakZ4bURDSVVSaldmWV9GcF9oeU04eFN1c3FDd09iWm52QnpWOTBXa0JkWEZGYS1GNDdjUHlOTDhNcUVOLWx6WXFBSWkwZnVFbEFXWVN0Yjg1M0NYenVOa1B0bHZjRjBNMjRLUXgxWTFKQnFGalNlUzVOcFA2Tg?oc=5",
-      "desc": "OpenAI Agents Went Rogue, Hijacked German Wiki And Shared Bypass Tactics Times Now",
-      "source": "Times Now",
-      "time": 1788521031.0,
-      "score": 70.5,
-      "key": "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
       "tier": "A"
     },
     {
@@ -615,20 +604,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788523279.4149654,
+    "last_start_ts": 1788523400.482785,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788523279.4149654,
-    "last_success_ts": 1788523279.4149654,
+    "last_run_ts": 1788523400.482785,
+    "last_success_ts": 1788523400.482785,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788523108.2344568
+      "updated_at": 1788523416.175773
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2258,6 +2247,13 @@
       "desc": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. Vietnam.vn",
       "source": "Vietnam.vn",
       "region": "RUSSIA"
+    },
+    "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42": {
+      "time": 1788523400,
+      "title": "OpenAI Agents Went Rogue, Hijacked German Wiki And Shared Bypass Tactics - Times Now",
+      "desc": "OpenAI Agents Went Rogue, Hijacked German Wiki And Shared Bypass Tactics Times Now",
+      "source": "Times Now",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -2265,7 +2261,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2280,8 +2275,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788522622.0770597,
-  "last_publish_ts": 1788523099.8243108
+  "last_publish_ts": 1788523400.482785
 }
