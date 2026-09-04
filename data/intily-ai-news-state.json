@@ -542,20 +542,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Pirkx joins Pri0r1ty Intelligence as AI company expands into employee wellbeing and benefits - EU-Startups",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSnR0dHJTbHV4cDYzdWo3em5kNkh6ZFM2RGVIR0FyMlBnTkV0RFE4cW9FQmZIMHZhMFA1YTZMeWtSQUVCd24yaTZNbEN0T2szb3g2MXR1T1FTRkM5UFpMNWRIbzN3b2RuSmQwblktVFFtZWg4YUVGSi1NVFMyX3k1bzNRdFdvN1ZsaEZjYkktVTFJNW1HeU1PM01jUEdENmhld0FMN0JWR3RoRk5xbVV6TkVhNDk3aEQ4TnNkRGtCTjNOLXAxOEFJRg?oc=5",
-      "desc": "Pirkx joins Pri0r1ty Intelligence as AI company expands into employee wellbeing and benefits EU-Startups",
-      "source": "EU-Startups",
-      "time": 1788520190.0,
-      "score": 66.5,
-      "key": "c6258bef9ce9b820282e96a2bd60cb7acf0aefdeb9ad655360f365216b665ec9",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры - CNews.ru",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ia01tRmstX0lDZmcwQ2wtakQyUzJkb3B5cTdmSEJYczQ3SmR6ZDgyU2gxY2JRdEt2X1Jqdi1VOFRsTEdQMlFWcGRFalJ5ZVRQU2g3LVJJaF91R3luUGdVUVJmc1cyWHFBTUgzSS14MVJ6cU5FS0dn?oc=5",
@@ -574,6 +560,20 @@
     },
     {
       "region": "WORLD",
+      "title": "Pirkx joins Pri0r1ty Intelligence as AI company expands into employee wellbeing and benefits - EU-Startups",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSnR0dHJTbHV4cDYzdWo3em5kNkh6ZFM2RGVIR0FyMlBnTkV0RFE4cW9FQmZIMHZhMFA1YTZMeWtSQUVCd24yaTZNbEN0T2szb3g2MXR1T1FTRkM5UFpMNWRIbzN3b2RuSmQwblktVFFtZWg4YUVGSi1NVFMyX3k1bzNRdFdvN1ZsaEZjYkktVTFJNW1HeU1PM01jUEdENmhld0FMN0JWR3RoRk5xbVV6TkVhNDk3aEQ4TnNkRGtCTjNOLXAxOEFJRg?oc=5",
+      "desc": "Pirkx joins Pri0r1ty Intelligence as AI company expands into employee wellbeing and benefits EU-Startups",
+      "source": "EU-Startups",
+      "time": 1788520190.0,
+      "score": 63.5,
+      "key": "c6258bef9ce9b820282e96a2bd60cb7acf0aefdeb9ad655360f365216b665ec9",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Think AI: how to really use artificial intelligence - Royal Gazette | Bermuda",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcW0yLUF3NlpLcllQMTZWcTJMRTdMUzN3NDg5SlM1VnFnSUpsYnV5X0xtbHNiZTM0RWZSODdwd3F6YzlFdkVqNkktSjZ4Y3g1cXItaVVtaHBnN05vd2lVTFFOOXBQNXVpLTE1YUVIYU1tYXI1SkwzcnlQeFg0cWdnejdLd2RfMWpUQS1hQjEwMFUyaHJiV090N3VRdEpMMU1HWFNuSXI4Rmd2MjZnbmtzVTZmc3M2eEM5LVNkTw?oc=5",
       "desc": "Think AI: how to really use artificial intelligence Royal Gazette | Bermuda",
@@ -588,13 +588,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788523761.8518865,
+    "last_start_ts": 1788523856.2675261,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788523761.8518865,
-    "last_success_ts": 1788523761.8518865,
+    "last_run_ts": 1788523856.2675261,
+    "last_success_ts": 1788523856.2675261,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 15
   },
   "providers": {
