@@ -217,10 +217,10 @@
     "9d87a8747dc6693005081ae60f6b257c1ba723b6153d6b865266ecbe51854d30": 1788517581,
     "769f8997081fc573476ce8fa7174453657c5b97055381a9a7ff235beef009858": 1788517820,
     "4e42209d83a119a961546d27e4cba53fceb61b8243ee44c508fddd5289d7fa6d": 1788518008,
-    "fe86cfca7ddd06270ddf285fc073f6b22df01654ee5d696141c9164dce21ee1b": 1788518362
+    "fe86cfca7ddd06270ddf285fc073f6b22df01654ee5d696141c9164dce21ee1b": 1788518362,
+    "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": 1788518901
   },
   "known": {
-    "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": 1788497156.5978644,
     "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": 1788497547.516139,
     "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": 1788498274.389358,
     "49bb583f5f9359fee7545d480bf3b750e1dc23ca29e761620a9d805b04b3cac3": 1788498274.389358,
@@ -301,9 +301,31 @@
     "ae1123f04f0d2af7558c6dfaf0dfbb074317aa1551e93a48d7eaa80cfcf82f2e": 1788516980.4948416,
     "bc392752bd357c584e788e1e0810dbb0ab793e9f0c9449070923d0e80ae77026": 1788516980.4948416,
     "9d87a8747dc6693005081ae60f6b257c1ba723b6153d6b865266ecbe51854d30": 1788516980.4948416,
-    "5de816a7f4b09832f878d437f99e8a77fc32a971c35a1f9fba19f8955d60c0ae": 1788516980.4948416
+    "5de816a7f4b09832f878d437f99e8a77fc32a971c35a1f9fba19f8955d60c0ae": 1788516980.4948416,
+    "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788518901.903705,
+    "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": 1788518901.903705,
+    "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": 1788518901.903705,
+    "911183e2ccda7315fa519e2cfb48899a3919b6cfc5ea402341923a3b6e587f97": 1788518901.903705,
+    "f4a74aab6a9464b4a4b06ad639aa6aa4b6696a6fd606b73f015e6eef9d9726de": 1788518901.903705
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Белоруссия создает закон об ИИ для ускорения разработки лекарств и диагностики - Правда.Ру",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ta00zSEdieExDWlI3WHlScUJrSmExUFRBN0FNbFh2OTg1ZkRHcUpZMHVpSlZ2R185blc2ZkVsZ0JsMi1LSWlRYjB1UmN6TW1iakxKNm1pby13aHZrYkFhd2p6UkpZVXdILWNhLWd3?oc=5",
+      "desc": "Белоруссия создает закон об ИИ для ускорения разработки лекарств и диагностики Правда.Ру",
+      "source": "Правда.Ру",
+      "time": 1788517380.0,
+      "score": 83.4,
+      "russia_weight_bonus": 3.9,
+      "key": "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e",
+      "importance": 83.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "Bodhan AI releases open-weight Indian-language AI models for education - Business Standard",
@@ -311,9 +333,9 @@
       "desc": "Bodhan AI releases open-weight Indian-language AI models for education Business Standard",
       "source": "Business Standard",
       "time": 1788514990.0,
-      "score": 80.5,
+      "score": 77.5,
       "key": "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85",
-      "importance": 80.5,
+      "importance": 77.5,
       "editorial_value": 50.0,
       "topics": [
         "applications",
@@ -321,10 +343,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788518362,
+      "last_failed_at": 1788518901,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 5,
-      "next_retry_at": 1788523162
+      "failure_count": 6,
+      "next_retry_at": 1788528501
     },
     {
       "region": "RUSSIA",
@@ -386,6 +408,36 @@
       "russia_weight_bonus": 2.5,
       "key": "c7a98515a555854c4c56dfc17ac1a5124bb8e7f0bd4f666bafdeced988c226da",
       "importance": 68.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Inside Claudeforce: Uniting Salesforce Data with Claude AI - AI Magazine",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQjNFdDhRNzg2SXBIbkFVbUpocnpOSExOZ3dFZXBMcHY0Y3pqei0zTFZfbGNQalR2UDhCVTcySGRFRWhRODhPMkxNaERUSzlYQlY4WXVPaEdHSTVfQXhxTmdqT0doNGFVVEp2UmpfczBmcko4Ylp2bW9nejk2T2hfOURRWUJTWVE?oc=5",
+      "desc": "Inside Claudeforce: Uniting Salesforce Data with Claude AI AI Magazine",
+      "source": "AI Magazine",
+      "time": 1788517130.0,
+      "score": 66.5,
+      "key": "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "John Ternus takes the helm at Apple, as AI pressure hits - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORUN0bEJpUFI2QVpWWnNnblcxdFlqRnN6WU1FM0Z4M1NDZGwzZUVJRVRTN1lfUEFUT3liNnRxYmpyeTRvZm9tWVJPemNlT09yRldxQ09JSUJTQkxxeWU3ZzFpX1dDQ2s4R1lzX25zSU9GZ3dRcVR2XzFFT0IzRWhWaXFYZw?oc=5",
+      "desc": "John Ternus takes the helm at Apple, as AI pressure hits Fortune",
+      "source": "Fortune",
+      "time": 1788514560.0,
+      "score": 63.5,
+      "key": "911183e2ccda7315fa519e2cfb48899a3919b6cfc5ea402341923a3b6e587f97",
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -530,23 +582,37 @@
         "models"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "SoftBank pays double the market rate to raise $6.3 billion for its AI bets - Startup Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcDhKVmdGTEhLanBFTTYxVDk3aThfQk8yUHU0QzNMckFuSTVpNFhlSWdRYTJpRU1nVF9FYWRrT3E3czU3aXJRdm5acnl5ZngyVnpXS1JubHBiaFVzaEJ1bVBkRkZyQk85b2dCTW9BZkRkaXJyZ3h4WTN0T0VDWFFKQTd0bUJEa0RKZEo4SXhIc3lyaWRWZ1pDN0ZRZlhxNk1UOVE?oc=5",
+      "desc": "SoftBank pays double the market rate to raise $6.3 billion for its AI bets Startup Fortune",
+      "source": "Startup Fortune",
+      "time": 1788501885.0,
+      "score": 60.0,
+      "key": "f4a74aab6a9464b4a4b06ad639aa6aa4b6696a6fd606b73f015e6eef9d9726de",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788518362.7912688,
+    "last_start_ts": 1788518901.903705,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788518362.7912688,
-    "last_success_ts": 1788518362.7912688,
-    "last_candidates": 0,
+    "last_run_ts": 1788518901.903705,
+    "last_success_ts": 1788518901.903705,
+    "last_candidates": 76,
     "last_published": 1,
-    "queue_size": 14
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788518376.327503
+      "updated_at": 1788518927.2082686
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2085,10 +2151,16 @@
       "desc": "Google Says New AI Weather System Can Talk to Satellites for Hourly Forecasts The Hans India",
       "source": "The Hans India",
       "region": "WORLD"
+    },
+    "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": {
+      "time": 1788518901,
+      "title": "UK startup AI Score raises $5.4M to scale its enterprise AI governance platform - Tech.eu",
+      "desc": "UK startup AI Score raises $5.4M to scale its enterprise AI governance platform Tech.eu",
+      "source": "Tech.eu",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2107,8 +2179,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788516980.4948416,
-  "last_publish_ts": 1788518362.7912688
+  "last_search_ts": 1788518901.903705,
+  "last_publish_ts": 1788518901.903705
 }
