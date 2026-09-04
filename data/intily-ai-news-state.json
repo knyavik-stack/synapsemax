@@ -305,7 +305,8 @@
     "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6": 1788546800,
     "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580": 1788547040,
     "7aa23d58e47724aef9d4f26f919711eeffc3ba4ca18f58abbc83fbaa0f236a06": 1788547339,
-    "7bb9dfcaaac4e0f8e48cfb2e5bb0f4d4c30aa0e4c6e8c3a662807158f66ef256": 1788547579
+    "7bb9dfcaaac4e0f8e48cfb2e5bb0f4d4c30aa0e4c6e8c3a662807158f66ef256": 1788547579,
+    "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": 1788547820
   },
   "known": {
     "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": 1788526822.0877657,
@@ -472,9 +473,36 @@
     "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": 1788545844.1562684,
     "5980279efed550aa8c5ce70ff1299a594a4b3fdc46e013c601a9f40ef54a7265": 1788545844.1562684,
     "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3": 1788545844.1562684,
-    "271f8b82696c7385dd06e6bae858f6a3e8f79f33a40b4fd43d8a8099e48cdb92": 1788545844.1562684
+    "271f8b82696c7385dd06e6bae858f6a3e8f79f33a40b4fd43d8a8099e48cdb92": 1788545844.1562684,
+    "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": 1788547820.6748672,
+    "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": 1788547820.6748672,
+    "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": 1788547820.6748672,
+    "2b5854e7701d95bd884629d5eb0517f1c4381f2e60cf85fed860baf3707d81f4": 1788547820.6748672,
+    "957ce34df3510c6c05833acd189d773cd71a3980f02e09269e8a0768459d5d0f": 1788547820.6748672,
+    "00f7c386956ffd821634bd9d6c2667eb9623f9230b04add2214fefb96ccdd7bb": 1788547820.6748672,
+    "389e1d4bda3b97abbf48b9f55d4aa3977734430d12387488c84da309e6ec6785": 1788547820.6748672,
+    "db10def415b2ca336ac3631eddf05a0087b2b3b895c34d0f42bb6edaac02937d": 1788547820.6748672,
+    "41ad6018e6f976ad0b3e212fa200b7333d8958173638dd273d826511f7af1c8f": 1788547820.6748672,
+    "70158e64a0557b3958677488aa6de94d574984c903b5e296b015427b47422f94": 1788547820.6748672,
+    "bd4a07288a11e7a70ad3226c73131449aa6ce736d82cb3fca077f45a9795cf03": 1788547820.6748672,
+    "33da60480e96e75a4272a1f422f2bd000b5470aade1372e7f82b520b7dc639af": 1788547820.6748672
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Потапов о посте Кравцова: «Не понял, что он хотел сказать после слов «Леха». Будто искусственный интеллект накидал каких-то рандомных фраз» - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVHZvd0ZlWVRYdkVpTGNvVldzeEwzbWpObTBwWjRwS28yQlN5VDVScmZXSTNhd1h1dUQwMVVIcjdlNnhYRzBFcTNtcHAxczIxY0RNV25fZlhESWM2RmZSa0FmSkV1akhPOXVZVXcyNGRJekIzVnNoWElSNHRyUWhFa05Qd0RIUHFLSFliU056VmxRX2ZhckgzQmhMR2FXWG51djFJR0tDV2tzMjAzQTg3YjhaT3VwSUFtMU0wNzRWNWlhTHp4ZlUyMHdxclhqVi1YajV3ald5Q2NEdw?oc=5",
+      "desc": "Потапов о посте Кравцова: «Не понял, что он хотел сказать после слов «Леха». Будто искусственный интеллект накидал каких-то рандомных фраз» prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788547366.0,
+      "score": 72.1,
+      "russia_weight_bonus": 3.6,
+      "key": "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee",
+      "importance": 72.1,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах - BFM.ru",
@@ -518,6 +546,50 @@
       "russia_weight_bonus": 2.8,
       "key": "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5",
       "importance": 68.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? - Kalkine Media",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTjQ4SHY2Tm5VM0RXQ2NJQkZPZk5rRzdCRUJ2Q2kzYzZqLWt1dE9hSUJJR2dXOG41ekZ5aXdaTE1MY2x3cnVMWWYxa1EtZ1dHNXZIMWFlQndpaHBsbmhuSjU3TVhLenozQTZRajZhdmhDd2RnanJYOHh3eXc0Z2ZUNTZfeVAybHozQTE0eXVsUzdnUC1xd3ZGUEhKVTFzWEhYQS1n?oc=5",
+      "desc": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? Kalkine Media",
+      "source": "Kalkine Media",
+      "time": 1788546240.0,
+      "score": 66.5,
+      "key": "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "An atom-and-photon network just found a new way to store AI memories - The Brighter Side of News",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHEtLWc2bFZYVS1uTFVXdE1TSEY5em9sVDdrTEd6bzBGR3BwN2E2Q1FmaXNfNXpJOWhTSU9OQ3Q5Y1dULU9saUtvbnNBZUItdkk5MFRLb2h4emhFMUdtcWctNDI2TXRCby1QZzNTOFlMdHhzZnhkeHFpR3FsZFB5ak9lMGU3cnFYM0xDbTVwTFZRZ3Y2MmRqeWZmckJMTGs0WnphU3p0eG1VTHM?oc=5",
+      "desc": "An atom-and-photon network just found a new way to store AI memories The Brighter Side of News",
+      "source": "The Brighter Side of News",
+      "time": 1788545220.0,
+      "score": 66.5,
+      "key": "2b5854e7701d95bd884629d5eb0517f1c4381f2e60cf85fed860baf3707d81f4",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Reshapes Technology Markets Seven Major Companies Emerge Key Players Artificial Intelligence Ecosystem - openpr.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR2dZcHk4eW5kYi1zRjhxV0drTjI1UXlDeFY5UUlXY2pYUzM2SlgyQ3N4UGFPR1hFLXBoU0hJQlFuVkxMZ2U5TEUySHBhdHRSM1IyS3UyUl9tMEo2UTJablJjdFFmamtNcGRtR1htbmF1VE5OQTB2eVZuRjFJb29zd05vY2JUbWdhWFh3MW5EeFp2SklkWnZZZk02bng1M0pM?oc=5",
+      "desc": "AI Reshapes Technology Markets Seven Major Companies Emerge Key Players Artificial Intelligence Ecosystem openpr.com",
+      "source": "openpr.com",
+      "time": 1788545165.0,
+      "score": 66.5,
+      "key": "957ce34df3510c6c05833acd189d773cd71a3980f02e09269e8a0768459d5d0f",
+      "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -634,20 +706,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Is AI Just Giving Customers More to Ignore? - Newsweek",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNdUx0SlltWDBXdWVyVkxpdno1Q2xIVzNnS05FR1REdEpKQnVtWjBUSHZrb2w5OWF3NVBBWWVMLTlxN0o4cHVZQlBOR3JmaHBybzEzM1ozczRGYjNvMVFHSk5VRWMxb0hCYmdmQXBR?oc=5",
-      "desc": "Is AI Just Giving Customers More to Ignore? Newsweek",
-      "source": "Newsweek",
-      "time": 1788541260.0,
-      "score": 63.5,
-      "key": "551425382814f2a2906aca732654655d152a3f4bbb1292811f4ec43b986f8c75",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Дмитрий Медников: «ИИ – это не конкуренция с людьми, а расширение возможностей» - Ведомости",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbUJWdEZMLU9uYnE0UENpb1NtdU0wdndzT2YyU2ZPRHNUR3g4VmFySnRmYTFjYWEzVkNKeEN5LUVGaFhVTUxkRlBacVU1YTBMdU45SmE1VFdmV0ZYb09HZFVZV3RMLUo5NW93VzcxYWJkeHJiMTdMLUN5RDYtX01ya2x3SmtGVjBEVU5xT3I1emcwT1hpSWt3WVIwR2llZ1c5bTBDQjNsUjJZbUxRSnhFRmpTWGdDMDMyNWZod1FCZ09nd3VUc1MzUA?oc=5",
@@ -678,23 +736,73 @@
         "business"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Банкротство контрагента: как застраховать риск для бизнеса - companies.rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVTJKRFg0OFJESE41NFRKdWd1WWhwSUhtTDZkeTZXRW9OV241eGFrd1FRSm1haWZvQVFMRkNvZVdkSEU2bzJtOXI2eERHZnhkdHZMSV95R045VW4xazBJNVF4SlkxMUJqVFd0VURuQW1LaDM1dFVzUHE4WkpvZUNLZ2E5ZkVnMFRlV2luUTN5U0JGN19UQ2liV1czLVV1Wm0z0gF7QVVfeXFMT196YXI3akpvVjBJc1RyVG5fTDBMamhyVzdGS3lmcGQ3N0JucjI1R2dldERVbUNFbWVQMTlQZGlPNGVhSTlCUDhBV3lHbUNRcXZoYjNCejFabXREOUNHX21XeUZtQUw2Zm0wbklXRkpYdEc3Ri1WLVd2SkVF?oc=5",
+      "desc": "Банкротство контрагента: как застраховать риск для бизнеса companies.rbc.ru",
+      "source": "companies.rbc.ru",
+      "time": 1788508349.0,
+      "score": 61.5,
+      "russia_weight_bonus": 2.5,
+      "key": "41ad6018e6f976ad0b3e212fa200b7333d8958173638dd273d826511f7af1c8f",
+      "importance": 61.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI запускает новую модель Astra - ProFinance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNlJNOHBOSHRBS3VSendsVFk3MDJDLWE4TlJ4Uk1LOWxZTUZKdmVWMDRsMF95Z09ueGVLeE5kNUxmVWdwazhQX3ljMFJQRzIzWFZtaVVNTmRPTDEzUXdfNXY0VkQ4bk9vSzc3NTRydGlkOFBjOGpLU1NQUXB4YWlfemZSeWs4WnIyWTNCWU9USGhMUQ?oc=5",
+      "desc": "OpenAI запускает новую модель Astra ProFinance",
+      "source": "ProFinance",
+      "time": 1788512602.0,
+      "score": 60.9,
+      "russia_weight_bonus": 4.9,
+      "key": "70158e64a0557b3958677488aa6de94d574984c903b5e296b015427b47422f94",
+      "importance": 60.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Украинские инновации, которые заметили в Европе: от ИИ для покупок до новой энергетики - Вікна-новини",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVWlxS3lOM2NBS08xcjhvQi05NXVYcE5zX3dnQURlUTBMX3ljSmhKU2lUam5ZNkIxYWlULXdFbEY5WVo4N29FTERlejl1SHZZN1k2Y1VYbENhRWg4Z3I3ZnFxaTB3Z2I3TG4taWpYZENqMlljekJXOTgwdXVleWltcnNoaXlSMFRXTGVGdWFDMVVORm9PQnFSckVoZmNwbGJ3MFVuSnpVS1Fhd3o1NGlzYi1jMNIBuAFBVV95cUxNVDlxaFFXWG4ydHRYM2NHR2pTZk44UUFjWm5feGFLVHVkZS1LTUNDX1VBY2g4SW1EWE1wQ1lveEdtbDRocWpqbExTdjJTdVBwZmc4QjljNkJDTFJRaDlTRDFoUmdpMGlEd0J0emFqVXhpNUpkTjVvaHJsRGliWktMVlJhcjNXbmtqM3RPdl82eTBNNWVJakpWQzAzeVJGakhUa011SXJnek1tQThuTTBzZ3FJdXZ5bTRQ?oc=5",
+      "desc": "Украинские инновации, которые заметили в Европе: от ИИ для покупок до новой энергетики Вікна-новини",
+      "source": "Вікна-новини",
+      "time": 1788530592.0,
+      "score": 60.0,
+      "russia_weight_bonus": 4.0,
+      "key": "bd4a07288a11e7a70ad3226c73131449aa6ce736d82cb3fca077f45a9795cf03",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788547579.6474726,
+    "last_start_ts": 1788547820.6748672,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788547579.6474726,
-    "last_success_ts": 1788547579.6474726,
-    "last_candidates": 0,
+    "last_run_ts": 1788547820.6748672,
+    "last_success_ts": 1788547820.6748672,
+    "last_candidates": 102,
     "last_published": 1,
-    "queue_size": 13
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788547583.6653104
+      "updated_at": 1788547852.5076225
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -708,13 +816,6 @@
     }
   },
   "stories": {
-    "44966cf7099a0afadbd3d3eef4a5ed935f55f4548c8642cfae7c255719051cac": {
-      "time": 1788461293,
-      "title": "OpenAI claims it has overtaken Anthropic with latest AI model - Crypto Briefing",
-      "desc": "OpenAI claims it has overtaken Anthropic with latest AI model Crypto Briefing",
-      "source": "Crypto Briefing",
-      "region": "WORLD"
-    },
     "d9dde870ce0b915fcd2deb417cba169542659f50df388b026119b0f2b62c3430": {
       "time": 1788461651,
       "title": "20-ядерный процессор, графика на уровне GeForce RTX 5070 и 128 ГБ. Nvidia наконец-то полноценно представила платформу RTX Spark, первые Windows-ПК — уже в октябре - ixbt.com",
@@ -2331,10 +2432,16 @@
       "desc": "Зачем внедрять ИИ, если он не удваивает выручку завтра Forbes.ru",
       "source": "Forbes.ru",
       "region": "RUSSIA"
+    },
+    "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": {
+      "time": 1788547820,
+      "title": "RIAs Using AI Boosted Hiring, Productivity: Study - ThinkAdvisor",
+      "desc": "RIAs Using AI Boosted Hiring, Productivity: Study ThinkAdvisor",
+      "source": "ThinkAdvisor",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "WORLD",
@@ -2353,8 +2460,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788545844.1562684,
-  "last_publish_ts": 1788547579.6474726
+  "last_search_ts": 1788547820.6748672,
+  "last_publish_ts": 1788547820.6748672
 }
