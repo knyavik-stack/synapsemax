@@ -511,23 +511,6 @@
     },
     {
       "region": "WORLD",
-      "title": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 - Robotics Tomorrow",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVnpoT2lyMHgwOUo5c3JVVjFubWlmOHhXbWNjZUJQdzAwaHJWRE1Cc0RhYnZBWTMwZ3VUOEpFUUhfNGJrY3pJaXAtZm1TM2lrbC1ndUMteldFTUFhLTRsZUZYaWdFYWFtOXJfci1RODk5UlVwaWtlRDVIal9hRWN0Wml3NFcwaHZ2R1lVUjUtOWFqbXYtMmR6VXJ0c1lYQV9uX1lQX2NFaXFjV2FxNjJxWjBNbnFlVkNobGR2QkxvVENKU25mcjh0a3lIM3JqWHlWMVI3Zi11QQ?oc=5",
-      "desc": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 Robotics Tomorrow",
-      "source": "Robotics Tomorrow",
-      "time": 1788527710.0,
-      "score": 74.5,
-      "key": "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2",
-      "importance": 74.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications",
-        "robotics"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "The National Beat: When to add AI agents - The Business Journals",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQREg0U0xsS0RvOTFNc1ZHem1NMVlTNUduMnJ6YlpmODVJUV9sa3FDeDdCdl9UcjFWOTBPZUhhRE9fWEhHblZPUlQ4TjJiMzJvLVk5dDkwUlE4RUh2R1lnWF85enZ3MTVpcWpIZVZYRWR5NXQxemhWUXlaVUtxcy1sNFFhdmFnbzU2TmZES1dGamUtX0dJT0N6dg?oc=5",
       "desc": "The National Beat: When to add AI agents The Business Journals",
@@ -681,6 +664,23 @@
     },
     {
       "region": "WORLD",
+      "title": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 - Robotics Tomorrow",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVnpoT2lyMHgwOUo5c3JVVjFubWlmOHhXbWNjZUJQdzAwaHJWRE1Cc0RhYnZBWTMwZ3VUOEpFUUhfNGJrY3pJaXAtZm1TM2lrbC1ndUMteldFTUFhLTRsZUZYaWdFYWFtOXJfci1RODk5UlVwaWtlRDVIal9hRWN0Wml3NFcwaHZ2R1lVUjUtOWFqbXYtMmR6VXJ0c1lYQV9uX1lQX2NFaXFjV2FxNjJxWjBNbnFlVkNobGR2QkxvVENKU25mcjh0a3lIM3JqWHlWMVI3Zi11QQ?oc=5",
+      "desc": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 Robotics Tomorrow",
+      "source": "Robotics Tomorrow",
+      "time": 1788527710.0,
+      "score": 67.0,
+      "key": "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2",
+      "importance": 67.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications",
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "Students Question the Long-Term Value of AI Degrees - GovTech",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeC1hQVFJcTVPUmZ5alBSRzE1VFppV3FvcmoxZG01b25aN3dheDF6c2R5MGZxTUYySnE0elpQNk5lNmk1VjZma1BrV3NPWTZWS1pGY3J1dTF1MHAxWlZDWXpxNjVMVHBobnR1Y2RWYTdYLUFCanpCWjRYWktvVXlBeFhmU0RUWFZGM041eFZkWHlnVGg0QlZIV0UwRQ?oc=5",
       "desc": "Students Question the Long-Term Value of AI Degrees GovTech",
@@ -773,11 +773,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788538471.3863168,
+    "last_start_ts": 1788538521.8206093,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788538471.3863168,
-    "last_success_ts": 1788538471.3863168,
+    "last_run_ts": 1788538521.8206093,
+    "last_success_ts": 1788538521.8206093,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 18
@@ -800,13 +800,6 @@
     }
   },
   "stories": {
-    "f3f9df884412cb4ac8bc9860916ed0bc515f96527dcc45f01ccdfd1dff66ba2c": {
-      "time": 1788452113,
-      "title": "CEO Nvidia призвал G20 не регулировать «теоретические угрозы» ИИ - prospect.com.ru",
-      "desc": "CEO Nvidia призвал G20 не регулировать «теоретические угрозы» ИИ prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "d3be58b2f693946a67cf1edf60b8f6d53fa1b8ca998a9913be4c9c04d5245b8c": {
       "time": 1788452296,
       "title": "Agentic AI in Cybersecurity - Security Boulevard",
