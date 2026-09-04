@@ -150,7 +150,8 @@
     "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": 1788486534,
     "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": 1788487050,
     "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": 1788487314,
-    "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": 1788487613
+    "ee4387b6b35464c5e46183b3b2b9e237057034c9ef35fd39bd17c85571e82671": 1788487613,
+    "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": 1788487794
   },
   "known": {
     "4946cfa7975f8b6dd123dadedb8a91dd044b79039c834832bf34cbc363c8ba64": 1788467049.748359,
@@ -243,20 +244,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
-      "desc": "The turbulent AI era is here. The choices we make now are critical. Gates Notes",
-      "source": "Gates Notes",
-      "time": 1788478449.0,
-      "score": 63.5,
-      "key": "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Боится солнца и любит морщины: как живет блондинка из «Детективного агентства ''Лунный свет''» - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYmE4cVNxVVBwcVpKSGJ3ZWFRNTQ1Y0VycUhvYXYyS0lDdVN0U2hnemZGS0k2RU9QajVhOFdLQlZ4Q0lhTUdRZDlocHZvRWpMQVdaZ2E2cU5WaDkwYnRVUDdvZC1sTVpuSzNqdzBvWEhMT3FLamRMTVRtLVc4aTZWMlhwR0RBNFJuM09iNldHZmRVckt5V1JsNWs5ZXZ5Z0RmdFNvMjZ3Q25nam9tRHM0aUxYd2xKWDdVOWZtN3NZN1R0cEpkZU96QWZ5cFZWaUk?oc=5",
@@ -345,20 +332,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788487613.2269282,
+    "last_start_ts": 1788487794.6979592,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788487613.2269282,
-    "last_success_ts": 1788487613.2269282,
+    "last_run_ts": 1788487794.6979592,
+    "last_success_ts": 1788487794.6979592,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 6
+    "queue_size": 5
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788487615.5233042
+      "updated_at": 1788487797.216543
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1428,15 +1415,22 @@
       "desc": "ICRISAT unveils AI-Pangenetics framework to accelerate climate-resilient crop breeding AgroSpectrum India",
       "source": "AgroSpectrum India",
       "region": "WORLD"
+    },
+    "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": {
+      "time": 1788487794,
+      "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
+      "desc": "The turbulent AI era is here. The choices we make now are critical. Gates Notes",
+      "source": "Gates Notes",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1453,5 +1447,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788486174.074481,
-  "last_publish_ts": 1788487613.2269282
+  "last_publish_ts": 1788487794.6979592
 }
