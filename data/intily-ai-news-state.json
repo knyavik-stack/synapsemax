@@ -357,7 +357,8 @@
     "4f6b86c987d4ee29e2db999ccd8976e16d0184d2d7dc866d3dfb95e7cd8d10b2": 1788565283,
     "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f": 1788565579,
     "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4": 1788565761,
-    "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": 1788566004
+    "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": 1788566004,
+    "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba": 1788566300
   },
   "known": {
     "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788545844.1562684,
@@ -445,40 +446,22 @@
     "f610db8fdb550a8b77976d10ddbcbef5329e17cb229fea2366ddf3ea622c6ee7": 1788565099.8368926,
     "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff": 1788565099.8368926
   },
-  "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2twcWNCWjc3MmNfRG9aUDB2anhneExlRTVhRkdzOGJzaF9vZUxyc1V3VFlxaTRyZW5lSmxyNExOMzBsYWN4S2xydTBMQWlFby1BeWhkdTlQSXdJTWFTZjFlUXlYMHZBTEQteWxEVWpXbUdZTFdtbFg0UHdHem5vdDRQVmwtVk5VbEJzaEI1MjZORmVVRW93a192czJ6SG4td2Nob0xNYXJaS3BaSlByV0Q5SlAxY0tGcWRRTHVZSi1taFZtSXkyYmloZzJISmJxMVU0?oc=5",
-      "desc": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788528130.0,
-      "score": 60.3,
-      "russia_weight_bonus": 4.3,
-      "key": "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba",
-      "importance": 60.3,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A"
-    }
-  ],
+  "queue": [],
   "health": {
-    "last_start_ts": 1788566120.9747338,
+    "last_start_ts": 1788566300.563336,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788566120.9747338,
-    "last_success_ts": 1788566120.9747338,
-    "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 1
+    "last_run_ts": 1788566300.563336,
+    "last_success_ts": 1788566300.563336,
+    "last_candidates": 47,
+    "last_published": 1,
+    "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788566008.13776
+      "updated_at": 1788566321.2528765
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2108,11 +2091,17 @@
       "desc": "Will We Control AIor Will AI Control Us Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "region": "WORLD"
+    },
+    "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba": {
+      "time": 1788566300,
+      "title": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого - prospect.com.ru",
+      "desc": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2130,8 +2119,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
-  "last_search_ts": 1788565099.8368926,
-  "last_publish_ts": 1788566004.0387816
+  "last_search_ts": 1788566300.563336,
+  "last_publish_ts": 1788566300.563336
 }
