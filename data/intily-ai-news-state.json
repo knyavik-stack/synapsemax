@@ -278,15 +278,10 @@
     "0dfab4d96cc15628c57e77f2904156ba78d491e544cbdcfd1ee67d323e082110": 1788537681,
     "ff374a60e61b0ca84c654c0f578a972ee37931667d473c0f3f4305ec0f2398c6": 1788537920,
     "a934e0ca0a60f2fff4f1e42fef4b181b349cfa89b2e2bb8d6b4fd531a542c76f": 1788538102,
-    "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": 1788538400
+    "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": 1788538400,
+    "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14": 1788538884
   },
   "known": {
-    "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85": 1788516980.4948416,
-    "4e42209d83a119a961546d27e4cba53fceb61b8243ee44c508fddd5289d7fa6d": 1788516980.4948416,
-    "ae1123f04f0d2af7558c6dfaf0dfbb074317aa1551e93a48d7eaa80cfcf82f2e": 1788516980.4948416,
-    "bc392752bd357c584e788e1e0810dbb0ab793e9f0c9449070923d0e80ae77026": 1788516980.4948416,
-    "9d87a8747dc6693005081ae60f6b257c1ba723b6153d6b865266ecbe51854d30": 1788516980.4948416,
-    "5de816a7f4b09832f878d437f99e8a77fc32a971c35a1f9fba19f8955d60c0ae": 1788516980.4948416,
     "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": 1788518901.903705,
     "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": 1788518901.903705,
     "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": 1788518901.903705,
@@ -510,23 +505,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "The National Beat: When to add AI agents - The Business Journals",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQREg0U0xsS0RvOTFNc1ZHem1NMVlTNUduMnJ6YlpmODVJUV9sa3FDeDdCdl9UcjFWOTBPZUhhRE9fWEhHblZPUlQ4TjJiMzJvLVk5dDkwUlE4RUh2R1lnWF85enZ3MTVpcWpIZVZYRWR5NXQxemhWUXlaVUtxcy1sNFFhdmFnbzU2TmZES1dGamUtX0dJT0N6dg?oc=5",
-      "desc": "The National Beat: When to add AI agents The Business Journals",
-      "source": "The Business Journals",
-      "time": 1788536640.0,
-      "score": 73.5,
-      "key": "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14",
-      "importance": 73.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "business"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ - Runet.news",
       "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XQ1hPTFdvZEhmU2dKNGRNc2pKRFlJUnFoVk5WalZsOGJwM1VoQmJld01CN1dHTXNwVi1TaElhTXlNUTg?oc=5",
@@ -554,22 +532,6 @@
       "importance": 73.1,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "PATH Q2 Deep Dive: AI Adoption, Platform Consolidation, and Execution Challenges Shape Outlook - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOT0x6Z2Z5NTVkRW01TVhkYmFGY3haaTdLNnZ1WkE2NXVpc19jeW5Vbk9vSHY3c0ZSQnBaMFEwV0lHT2VVNjhBeWVzRmhEbGNCZTItaWZpSXNSTkZjMjFsSlh5bUVLc0ZiX0RQUlkxR2M4RzhiOFpWU3hLa3ZOeGdjZ3ZZT3BYem1ld2ZkX09XbUdQVi0wd2FqMXp2X1JtLTN1YWhwenhlbVhEb3h5bV9OelF1NUt2NGN6ekJXRjQzMEtKTGY4TXZvTTRocjdFdWpXSGpORGVZV08zUG1lMUZXSy1QbWVEemM?oc=5",
-      "desc": "PATH Q2 Deep Dive: AI Adoption, Platform Consolidation, and Execution Challenges Shape Outlook TradingView",
-      "source": "TradingView",
-      "time": 1788528048.0,
-      "score": 69.5,
-      "key": "8bab8df9e210a33fcd744c3f4a0386d5b67070b029eea9f50f18dfb9c8da5c23",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
       "tier": "A"
     },
     {
@@ -643,21 +605,6 @@
       "russia_weight_bonus": 2.3,
       "key": "cfe31e748d32388727cbd6ec69c1cefe23bc5cc4fbe63e81904a06ccc397df5d",
       "importance": 67.8,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Сэм Альтман признал, что создатели нейросетей сами виноваты в глобальной панике вокруг искусственного интеллекта » Новости Кыргызстана, Бишкека и Оша — последние события на сегодня - open.kg",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMnh0MUhBb3ZDWWNMSDJsQ0VrTkRvTjZOek9aLXQxTVllMzREbkpWeGd2dU94VVJXNmxDUzhnLTZtUXVXdmxMbHhlclB6WU5QWlRZcnhLSXB5cEZwUkRpLXUwSmtxeUhqSi1KSmRFZHBCbXlFeThFZ0REaF9TOEVmZ3Eya0xSTFFVV1FQZ3lGR2tUaEE3M3RqamI1cEY4cFdtcjlJeXlfdGxnTjdpbm5pR0ZDNXFVU19Zcmxqd0QxbTdVT0EwQVAtWmZwcFktRHFmcVk0b3ZNSmN0YnNqalhMQmxJdGhKZnJfU3c?oc=5",
-      "desc": "Сэм Альтман признал, что создатели нейросетей сами виноваты в глобальной панике вокруг искусственного интеллекта » Новости Кыргызстана, Бишкека и Оша — последние события на сегодня open.kg",
-      "source": "open.kg",
-      "time": 1788527815.0,
-      "score": 67.6,
-      "russia_weight_bonus": 2.1,
-      "key": "84d68356b3274c1bf108c445ff31645659115c4ab74eced1a70996ea4edcf591",
-      "importance": 67.6,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -755,6 +702,22 @@
       "tier": "A"
     },
     {
+      "region": "WORLD",
+      "title": "PATH Q2 Deep Dive: AI Adoption, Platform Consolidation, and Execution Challenges Shape Outlook - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOT0x6Z2Z5NTVkRW01TVhkYmFGY3haaTdLNnZ1WkE2NXVpc19jeW5Vbk9vSHY3c0ZSQnBaMFEwV0lHT2VVNjhBeWVzRmhEbGNCZTItaWZpSXNSTkZjMjFsSlh5bUVLc0ZiX0RQUlkxR2M4RzhiOFpWU3hLa3ZOeGdjZ3ZZT3BYem1ld2ZkX09XbUdQVi0wd2FqMXp2X1JtLTN1YWhwenhlbVhEb3h5bV9OelF1NUt2NGN6ekJXRjQzMEtKTGY4TXZvTTRocjdFdWpXSGpORGVZV08zUG1lMUZXSy1QbWVEemM?oc=5",
+      "desc": "PATH Q2 Deep Dive: AI Adoption, Platform Consolidation, and Execution Challenges Shape Outlook TradingView",
+      "source": "TradingView",
+      "time": 1788528048.0,
+      "score": 62.0,
+      "key": "8bab8df9e210a33fcd744c3f4a0386d5b67070b029eea9f50f18dfb9c8da5c23",
+      "importance": 62.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "RUSSIA",
       "title": "Rubetek выходит на рынок робототехники - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdjVKYm9od1ZpcDBzTkpIeDZyRkhXdksxUXd0M1k3NDFGenZjRHl6SDhnOUJxTFQ3OTZWbVhUUUFjS0VwOF9qOHdhVFJ2ZkVXVV9iUjI1QXpURzliZjg1Z3FWdGZkRm50V1gyNFprUjZaWUw4M2JCVDhkbkFkVFJRZ3ZFY1g1VGs?oc=5",
@@ -773,20 +736,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788538521.8206093,
+    "last_start_ts": 1788538884.0361676,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788538521.8206093,
-    "last_success_ts": 1788538521.8206093,
+    "last_run_ts": 1788538884.0361676,
+    "last_success_ts": 1788538884.0361676,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788538406.6138878
+      "updated_at": 1788538886.9361877
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -800,13 +763,6 @@
     }
   },
   "stories": {
-    "d3be58b2f693946a67cf1edf60b8f6d53fa1b8ca998a9913be4c9c04d5245b8c": {
-      "time": 1788452296,
-      "title": "Agentic AI in Cybersecurity - Security Boulevard",
-      "desc": "Agentic AI in Cybersecurity Security Boulevard",
-      "source": "Security Boulevard",
-      "region": "WORLD"
-    },
     "11c9400610e35397f4be118409236aa995cc5c2bd748bf6b585d444cdd527700": {
       "time": 1788452649,
       "title": "Модельный бизнес: «Яндекс» запустит ИИ-решение специально для корпоративного сектора - Forbes.ru",
@@ -2465,10 +2421,16 @@
       "desc": "Орешкин назвал самую востребованную специальность из-за внедрения ИИ БИЗНЕС Online",
       "source": "БИЗНЕС Online",
       "region": "RUSSIA"
+    },
+    "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14": {
+      "time": 1788538884,
+      "title": "The National Beat: When to add AI agents - The Business Journals",
+      "desc": "The National Beat: When to add AI agents The Business Journals",
+      "source": "The Business Journals",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2487,8 +2449,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788538102.15343,
-  "last_publish_ts": 1788538400.1864502
+  "last_publish_ts": 1788538884.0361676
 }
