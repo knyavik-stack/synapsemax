@@ -505,26 +505,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEpGRDlTNGJuSVd0STFvOEFpN0Nrd3l4Y3dZbEo0Q0NSTXh1ZHZVNDJJZENSOTNMb0ZDaWN4X1ZLRGw5RFZDX2J1Z3pKWF83TjdKcjdoajhKM1JLV3ZWZ01yUXd3QWZVaGFLY08xVGNJaDhGVDcweDMzZmJDTXN6NGxTOGRoMjlXSk84Q21FQlN5R2hPY2ZB?oc=5",
-      "desc": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors Yahoo Finance",
-      "source": "Yahoo Finance",
-      "time": 1788620848.0,
-      "score": 70.5,
-      "key": "0ec49241e04799dc3f8b07d58b7a378d58b2ee16b3d0beedd73f2c9bfa683ac1",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788624387,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788626787
-    },
-    {
-      "region": "WORLD",
       "title": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase - TipRanks",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORENKOXRUSFRfWFJXZ2ZiQk9yYmRzb210OUpKY0gxVGtaZDlENkxyWk5kY1VLMWw3ZGNJdlAzZncyX0x6bHZXSDZ4Tm5ESDZrUHZodTNMZTRIQmxaYVFoTkJ4ZGhqck1NczJoc2pFVGxGNmM0NWFvUlFDYTcxSGZpRVJobUYtNmZlblZfeDBteHRrNDUxcEFnNldkUy0tMnRKVndFWlgyaFdWdzEyOUhsQVE5RmpHTlZ1aWxyZlpEWFJKUTFfVDM1SkdqTzJmTy1VMzhRdXVHMFpTUQ?oc=5",
       "desc": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase TipRanks",
@@ -539,10 +519,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788624387,
+      "last_failed_at": 1788624565,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788626787
+      "failure_count": 5,
+      "next_retry_at": 1788629365
     },
     {
       "region": "RUSSIA",
@@ -599,10 +579,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788624387,
+      "last_failed_at": 1788624565,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788626787
+      "failure_count": 5,
+      "next_retry_at": 1788629365
     },
     {
       "region": "RUSSIA",
@@ -644,6 +624,26 @@
     },
     {
       "region": "WORLD",
+      "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEpGRDlTNGJuSVd0STFvOEFpN0Nrd3l4Y3dZbEo0Q0NSTXh1ZHZVNDJJZENSOTNMb0ZDaWN4X1ZLRGw5RFZDX2J1Z3pKWF83TjdKcjdoajhKM1JLV3ZWZ01yUXd3QWZVaGFLY08xVGNJaDhGVDcweDMzZmJDTXN6NGxTOGRoMjlXSk84Q21FQlN5R2hPY2ZB?oc=5",
+      "desc": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors Yahoo Finance",
+      "source": "Yahoo Finance",
+      "time": 1788620848.0,
+      "score": 67.5,
+      "key": "0ec49241e04799dc3f8b07d58b7a378d58b2ee16b3d0beedd73f2c9bfa683ac1",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788624565,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 5,
+      "next_retry_at": 1788629365
+    },
+    {
+      "region": "WORLD",
       "title": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. - MarketScale",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmhSYUZUVDJCVkZUSDVCZlBaUW1TcEhmRmVZZ3JmTWFXTlhOYk9SY0xnMVNFZ251alhZLUxZVG9xU09RTm9vSHVMUGVsSzdZUVJqZkdnTUwyOVNZRDFVa0poMHNManZpMkYyRGJ4VTgyLXZseXR3NXFEaTlrOWRUSHZObVdzNzh0YjZF?oc=5",
       "desc": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. MarketScale",
@@ -657,10 +657,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788624387,
+      "last_failed_at": 1788624565,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788626787
+      "failure_count": 5,
+      "next_retry_at": 1788629365
     },
     {
       "region": "WORLD",
@@ -677,10 +677,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788624387,
+      "last_failed_at": 1788624565,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788626787
+      "failure_count": 5,
+      "next_retry_at": 1788629365
     },
     {
       "region": "WORLD",
@@ -697,10 +697,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624387,
+      "last_failed_at": 1788624565,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788626787
+      "failure_count": 5,
+      "next_retry_at": 1788629365
     },
     {
       "region": "WORLD",
@@ -717,10 +717,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624387,
+      "last_failed_at": 1788624565,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788626787
+      "failure_count": 5,
+      "next_retry_at": 1788629365
     },
     {
       "region": "WORLD",
@@ -735,10 +735,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788624387,
+      "last_failed_at": 1788624565,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788626787
+      "failure_count": 5,
+      "next_retry_at": 1788629365
     },
     {
       "region": "RUSSIA",
@@ -852,11 +852,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788624387.7410564,
+    "last_start_ts": 1788624565.7905343,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788624387.7410564,
-    "last_success_ts": 1788624387.7410564,
+    "last_run_ts": 1788624565.7905343,
+    "last_success_ts": 1788624565.7905343,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -879,13 +879,6 @@
     }
   },
   "stories": {
-    "a934e0ca0a60f2fff4f1e42fef4b181b349cfa89b2e2bb8d6b4fd531a542c76f": {
-      "time": 1788538102,
-      "title": "NVIDIA Is Reportedly Giving Up On China As A Lost Cause Amid An Unassailable Lead From Huawei, As DeepSeek Snubs H20 GPUs For 160,000 Units Of Huawei’s Ascend 950DT Chips - Wccftech",
-      "desc": "NVIDIA Is Reportedly Giving Up On China As A Lost Cause Amid An Unassailable Lead From Huawei, As DeepSeek Snubs H20 GPUs For 160,000 Units Of Huawei’s Ascend 950DT Chips Wccftech",
-      "source": "Wccftech",
-      "region": "WORLD"
-    },
     "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": {
       "time": 1788538400,
       "title": "Орешкин назвал самую востребованную специальность из-за внедрения ИИ - БИЗНЕС Online",
