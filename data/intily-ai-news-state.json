@@ -360,7 +360,8 @@
     "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": 1788566004,
     "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba": 1788566300,
     "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981,
-    "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641
+    "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641,
+    "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": 1788569600
   },
   "known": {
     "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": 1788549621.7329698,
@@ -425,24 +426,25 @@
     "f610db8fdb550a8b77976d10ddbcbef5329e17cb229fea2366ddf3ea622c6ee7": 1788565099.8368926,
     "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff": 1788565099.8368926,
     "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981.3549268,
-    "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641.0768464
+    "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641.0768464,
+    "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": 1788569600.1822982
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788569541.240097,
+    "last_start_ts": 1788569600.1822982,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788569541.240097,
-    "last_success_ts": 1788569541.240097,
-    "last_candidates": 40,
-    "last_published": 0,
+    "last_run_ts": 1788569600.1822982,
+    "last_success_ts": 1788569600.1822982,
+    "last_candidates": 43,
+    "last_published": 1,
     "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788568658.8029964
+      "updated_at": 1788569616.414574
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2009,6 +2011,13 @@
       "desc": "Российский производитель чипов заложил сотни установок, в том числе и системы ASML — деньги могут пойти на новый завод по производству 28-нанометровых микросхем prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": {
+      "time": 1788569600,
+      "title": "Заменит ли ИИ на работе офисного сотрудника - порассуждали на форуме в Хабаровске - Новости Хабаровска",
+      "desc": "Заменит ли ИИ на работе офисного сотрудника - порассуждали на форуме в Хабаровске Новости Хабаровска",
+      "source": "Новости Хабаровска",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -2019,7 +2028,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2031,8 +2039,9 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788569541.240097,
-  "last_publish_ts": 1788568641.0768464
+  "last_search_ts": 1788569600.1822982,
+  "last_publish_ts": 1788569600.1822982
 }
