@@ -569,10 +569,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788632262,
+      "last_failed_at": 1788632527,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788634662
+      "failure_count": 5,
+      "next_retry_at": 1788637327
     },
     {
       "region": "WORLD",
@@ -589,10 +589,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788632262,
+      "last_failed_at": 1788632527,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 16,
-      "next_retry_at": 1788653862
+      "failure_count": 17,
+      "next_retry_at": 1788654127
     },
     {
       "region": "RUSSIA",
@@ -670,24 +670,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests - calcalistech.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00dTRBYnJjWl84cHMzbC1QZWVlb0ZUd0JKMnVVX1kyQ191NlR2UXFDLUdWVGt2WW9TS1JkODNKVW5hSVFfNU0xYVZDcWxLUTMxRXFwalpoMGZua09KYmhXZkxVR21JXzA?oc=5",
-      "desc": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests calcalistech.com",
-      "source": "calcalistech.com",
-      "time": 1788628740.0,
-      "score": 66.5,
-      "key": "886f32f84186d99f0ce5cb201fe683338087fb095b133eab2cafcc0d585aea50",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788632262,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788653862
-    },
-    {
-      "region": "WORLD",
       "title": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation - IBTimes India",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQmJuT1NXbjhDaS1NZl9jVC1xd3dlZVV5ZHEyV0xhcFVsSFM1dnpKYlFDeGhobUU3bmw4V003UnByYzVzVGFscFdBYm81YVd4a1NvZHkydmtVUWtySDF5NnlFM0dmQmR2MmhMMkNiT3dlY0F2b2dXR0VUS1M0VEJ1RjNUaUFNRHlGZmctNE0wWi1FQmRmb1pta2tRMFAyOEs2SWJkQkdOalZsTHFld3Q1c2lUeF9jVjlz?oc=5",
       "desc": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation IBTimes India",
@@ -701,10 +683,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788632262,
+      "last_failed_at": 1788632527,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 35,
-      "next_retry_at": 1788653862
+      "failure_count": 36,
+      "next_retry_at": 1788654127
     },
     {
       "region": "RUSSIA",
@@ -742,10 +724,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788632262,
+      "last_failed_at": 1788632527,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788653862
+      "failure_count": 9,
+      "next_retry_at": 1788654127
     },
     {
       "region": "RUSSIA",
@@ -770,6 +752,24 @@
     },
     {
       "region": "WORLD",
+      "title": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests - calcalistech.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00dTRBYnJjWl84cHMzbC1QZWVlb0ZUd0JKMnVVX1kyQ191NlR2UXFDLUdWVGt2WW9TS1JkODNKVW5hSVFfNU0xYVZDcWxLUTMxRXFwalpoMGZua09KYmhXZkxVR21JXzA?oc=5",
+      "desc": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests calcalistech.com",
+      "source": "calcalistech.com",
+      "time": 1788628740.0,
+      "score": 63.5,
+      "key": "886f32f84186d99f0ce5cb201fe683338087fb095b133eab2cafcc0d585aea50",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788632527,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 9,
+      "next_retry_at": 1788654127
+    },
+    {
+      "region": "WORLD",
       "title": "SPX37P Builds a Futuristic Crypto Narrative Around AI, Blockchain and Space Technology - TechBullion",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0tYWnowaEtnMmFqUVhjMVJPMzdMMFBDUnRnYVZyWk9iLUhzMGs4d01lN3FZR0tPc1ZDLTFiYTZsS0F6TE5vWTlwMU1hc1lGbnd6U1VnOF82RWJWeHlYY0ZBSVh1UkUwNzFVaUcwNzRpWVZoWW45SHJLWkU5RTN2VlhCbHBLVk5PalRybVRGbV9HakJHeWkwQzN5bEpvNUprZ0pEcnpJOGk5c2NhQWxJ?oc=5",
       "desc": "SPX37P Builds a Futuristic Crypto Narrative Around AI, Blockchain and Space Technology TechBullion",
@@ -781,10 +781,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632262,
+      "last_failed_at": 1788632527,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 16,
-      "next_retry_at": 1788653862
+      "failure_count": 17,
+      "next_retry_at": 1788654127
     },
     {
       "region": "WORLD",
@@ -799,10 +799,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632262,
+      "last_failed_at": 1788632527,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 16,
-      "next_retry_at": 1788653862
+      "failure_count": 17,
+      "next_retry_at": 1788654127
     },
     {
       "region": "WORLD",
@@ -817,10 +817,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632262,
+      "last_failed_at": 1788632527,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 26,
-      "next_retry_at": 1788653862
+      "failure_count": 27,
+      "next_retry_at": 1788654127
     },
     {
       "region": "RUSSIA",
@@ -856,18 +856,18 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788632262,
+      "last_failed_at": 1788632527,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 35,
-      "next_retry_at": 1788653862
+      "failure_count": 36,
+      "next_retry_at": 1788654127
     }
   ],
   "health": {
-    "last_start_ts": 1788632262.4644713,
+    "last_start_ts": 1788632527.1471992,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788632262.4644713,
-    "last_success_ts": 1788632262.4644713,
+    "last_run_ts": 1788632527.1471992,
+    "last_success_ts": 1788632527.1471992,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
