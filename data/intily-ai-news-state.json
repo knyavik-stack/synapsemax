@@ -386,7 +386,8 @@
     "c6249a7b1df7dec20503678ad1a83e14a52d68c5974c74f66ec44aef86528b46": 1788620235,
     "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620438,
     "7fd658b47ad140b1a6eb75a2809de729b91d0a99423eb6b4b69c944940f06ea6": 1788620965,
-    "24979a47bbefac5c35b362d47bb28dbff0292d3bd3c7fcb7a0b12a3f9ca262c8": 1788621205
+    "24979a47bbefac5c35b362d47bb28dbff0292d3bd3c7fcb7a0b12a3f9ca262c8": 1788621205,
+    "77b59093be0f67183aa204158094db9fe371c38545d823ba056798c9856a37a8": 1788622047
   },
   "known": {
     "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620235.9616497,
@@ -443,7 +444,13 @@
     "5919ff523c42f1d1cca820662fbb053caaf5da3796f0b5d1d5ce73ecb47e9ad7": 1788620235.9616497,
     "3ecaa75cc7b8c25675ea4879782292506d14922b888d3daa5d1eae642cc4f34d": 1788620235.9616497,
     "b0fe501f8ec136564285ef5a67699e0e08f5c4973c523878833406479597030e": 1788620235.9616497,
-    "5d51e0d76dfdbadd127786084d7efa42f22f60d3249cadd9a1815505b4d3d216": 1788620235.9616497
+    "5d51e0d76dfdbadd127786084d7efa42f22f60d3249cadd9a1815505b4d3d216": 1788620235.9616497,
+    "65f34bcc7a3d5c7075bc5f958ebf2362ea00f8f2cbb9f0ad5e1f82f44963496c": 1788622047.4913738,
+    "28190a778b0a94446a6aa1cbddfa3880b61ea8eb7c748adc43d478cad11b1878": 1788622047.4913738,
+    "e5016b4e98d88336bc627e8500676d6590824f6a4bdcf66c85dc28f061ff1b63": 1788622047.4913738,
+    "efd444a3307ecb1d7e05797b8a49b088a2590b7ecd905e0b72f5f695289cc3fa": 1788622047.4913738,
+    "80ef25e961b213ad0881f1ffea450dd572361ec89cd6e924f1666a5f4d12a72b": 1788622047.4913738,
+    "086e33eaff1fcbe3463d4e8ca806f56ee3bedf8d82ffaca4a5b2fb32cf762412": 1788622047.4913738
   },
   "queue": [
     {
@@ -461,6 +468,21 @@
       "topics": [
         "applications"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNZWEVEdW9ZUElwS1pHRjdrenI2N2QxcTNuUERNSnZ3a3lFOVhyTU1lOEJsaWxudDZQWGdPLUhqUzdkVHQzYnZyalZFcWpjY2pnRDBGdnNSM3VyMzhRdGI1bFNPcXFQeWxZQmpHYW5VWUk1UHVwSEVybUMzbmhyMmFhZFkzMG53SkRCN0Z1UEl1VGR1RUZxanlfTDFQXzJPeFhR?oc=5",
+      "desc": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788620545.0,
+      "score": 73.1,
+      "russia_weight_bonus": 4.6,
+      "key": "65f34bcc7a3d5c7075bc5f958ebf2362ea00f8f2cbb9f0ad5e1f82f44963496c",
+      "importance": 73.1,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -497,21 +519,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Вместо кешбэка и бесплатного Wi-Fi: в Китае начали повсюду раздавать ИИ-токены - 3DNews",
-      "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBSdk1mNjFfajdRQnhRX3k4aTFXVV96TFEzODVHcGttSXpwU0o3Znk4SEplXzFTUmhuYm02LURR0gGrAUFVX3lxTE8tUG9ack14VU9hbktQWlMxQ29yM1pOanZMbkxIUEgwdWJYMUxYbmE4MlZrWVZyTi0zeHJiaTA5UXRoOXVjRmFSSjhHME8tcW1YX1MtT1NjcWhhQklhRUw5UktQZ2RHZ3hjbms4b3RFa3Y2bmFoWHlnczFIaUFJQmpHbkFfcnJKS0JZdzByNVR3VVZrajJZYUVKc09ORmZLbnBRUjdacFhJa1d5MA?oc=5",
-      "desc": "Вместо кешбэка и бесплатного Wi-Fi: в Китае начали повсюду раздавать ИИ-токены 3DNews",
-      "source": "3DNews",
-      "time": 1788618000.0,
-      "score": 72.1,
-      "russia_weight_bonus": 3.6,
-      "key": "41eeaaac2a384ed86d6852fca81b29659c8deb9aaccb76f4120d55adbdf75a54",
-      "importance": 72.1,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVVlTS3ZUM2c1NkFnYUFOYVVPLXZ3alRzbUF1SFQ4bmRLem1keDNlVFJ0NFV3MHVIQWNuODFXc0k2c3pqVnVKOER0cExqTU5LdjZfSi1NWTc4bndZQ0ZBQVJ1LURhelRtUWVIVkxjT0prLV9jRF9CTndzTUtmRXFsVld6em5UbDBOdG9ONVoyaEJqcHZTd3hsM1p5YzVIUVEtOXRsbjRWUDNPelVIYVY2RFdzUTB6OUs3YS1UNy1RbXVaVU1jaGRVTjQzM2NPWEE?oc=5",
       "desc": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения prospect.com.ru",
@@ -524,22 +531,6 @@
       "editorial_value": 50.0,
       "topics": [
         "robotics"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Nvidia Announces $12.9 Billion Hugging Face Acquisition to Expand Open Source AI - mezha.net",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5yZVZ6U0lRTmgxQ3RtYlFaekpEQ3Y5N3FZanlTcXVleEVud0VHeTNXUktEaDNScU5zSXByZG1VOXBTa2hEQ3daM1I1YTN4a2tFZklHREthdmE4OXpVMEpxZ2JNbTdQMk5CRFVJ?oc=5",
-      "desc": "Nvidia Announces $12.9 Billion Hugging Face Acquisition to Expand Open Source AI mezha.net",
-      "source": "mezha.net",
-      "time": 1788615662.0,
-      "score": 71.5,
-      "key": "77b59093be0f67183aa204158094db9fe371c38545d823ba056798c9856a37a8",
-      "importance": 71.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
       ],
       "tier": "A"
     },
@@ -610,6 +601,52 @@
       "tier": "A"
     },
     {
+      "region": "RUSSIA",
+      "title": "Нейросеть будет помогать выносить решения российким судам - Life.ru",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtX2JCWUw5bFloSGF2NmpiVzNiRGNhV3RYZnJCZzd0c2FTX2dHMXNFTFNfSVNUNjJ2MzdOYXIxRTdDaGxDSlhxaWN3OXlSbEctTmlvWGJlSm9QOEpNMUNpcGExR1NtUGJETUN4ZllXY1JTSnhVQWF5Y3NIWVptUHc?oc=5",
+      "desc": "Нейросеть будет помогать выносить решения российким судам Life.ru",
+      "source": "Life.ru",
+      "time": 1788615277.0,
+      "score": 69.2,
+      "russia_weight_bonus": 3.7,
+      "key": "28190a778b0a94446a6aa1cbddfa3880b61ea8eb7c748adc43d478cad11b1878",
+      "importance": 69.2,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Вместо кешбэка и бесплатного Wi-Fi: в Китае начали повсюду раздавать ИИ-токены - 3DNews",
+      "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBSdk1mNjFfajdRQnhRX3k4aTFXVV96TFEzODVHcGttSXpwU0o3Znk4SEplXzFTUmhuYm02LURR0gGrAUFVX3lxTE8tUG9ack14VU9hbktQWlMxQ29yM1pOanZMbkxIUEgwdWJYMUxYbmE4MlZrWVZyTi0zeHJiaTA5UXRoOXVjRmFSSjhHME8tcW1YX1MtT1NjcWhhQklhRUw5UktQZ2RHZ3hjbms4b3RFa3Y2bmFoWHlnczFIaUFJQmpHbkFfcnJKS0JZdzByNVR3VVZrajJZYUVKc09ORmZLbnBRUjdacFhJa1d5MA?oc=5",
+      "desc": "Вместо кешбэка и бесплатного Wi-Fi: в Китае начали повсюду раздавать ИИ-токены 3DNews",
+      "source": "3DNews",
+      "time": 1788618000.0,
+      "score": 69.1,
+      "russia_weight_bonus": 3.6,
+      "key": "41eeaaac2a384ed86d6852fca81b29659c8deb9aaccb76f4120d55adbdf75a54",
+      "importance": 69.1,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. - MarketScale",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmhSYUZUVDJCVkZUSDVCZlBaUW1TcEhmRmVZZ3JmTWFXTlhOYk9SY0xnMVNFZ251alhZLUxZVG9xU09RTm9vSHVMUGVsSzdZUVJqZkdnTUwyOVNZRDFVa0poMHNManZpMkYyRGJ4VTgyLXZseXR3NXFEaTlrOWRUSHZObVdzNzh0YjZF?oc=5",
+      "desc": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. MarketScale",
+      "source": "MarketScale",
+      "time": 1788617279.0,
+      "score": 67.5,
+      "key": "e5016b4e98d88336bc627e8500676d6590824f6a4bdcf66c85dc28f061ff1b63",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "ECCV 2026 Preview: Computer Vision Converges on World Models and Embodied AI - Tech Times",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbzc0NG5rdnA1SXBibTVTbkpsWUlpVS1EVnVRZmo5R19IZ3RQb1VrTW9vSlZMZFJIbEFQaGo2bzJMdk40UlYtVG10RkowWHdqTWRLcGFYQU1nNGo3Z2dnNXU1X1NWM0R1cWkxRVMtNFNKZl9VNEpuaHJkWFZiV0FSRkJNWFc4UmQtY0dRQ296cEN6Y00wYmRrQmRvLVF2Wm5lVFRDMVFBUmhGMElGUFNiU09lU19PQlJYTnhVazM1U20?oc=5",
@@ -675,6 +712,20 @@
       "tier": "A"
     },
     {
+      "region": "WORLD",
+      "title": "OpenAI admits it needs new rules for rogue AI incidents - thenews.com.pk",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdV9BQ3dzeTM0QWxxSmNUNTRSWTVPYXdoQUU3TXVYWl92TTczdV9veWpUa2UyYm5KdC1YR0tDaDBkb3JNOWJ1UXpWRC1JWURlWE1vdkgtZEpSMFhSd2doZkxYOURJX0VicWtJUmFuY0RtOVBCVjdiTmNqLUNXVWxXUHl2WDZXTkhJZGZVbkMyNFlSSmh2dlFuNXpwbjZCd9IBmgFBVV95cUxOUXVWM0pnRFFBbllCekFJazJOUk5zTmI4ZEp6VmN3OXJsY3dvYUVzS2pBVmM3d2J5Z21HRWtvLXNYWm83SHgyWGtWZGNFUzR6YVdfVllTNnNmV3JBTzNQVDYyWjFyVHpZVi1yOHpkTWtJa2kzbXhjczhDaUt1T2E0QWd2aWlTRnVfYU0ybUZjQWF2b0RwUUs2dnZR?oc=5",
+      "desc": "OpenAI admits it needs new rules for rogue AI incidents thenews.com.pk",
+      "source": "thenews.com.pk",
+      "time": 1788613830.0,
+      "score": 63.5,
+      "key": "efd444a3307ecb1d7e05797b8a49b088a2590b7ecd905e0b72f5f695289cc3fa",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
       "region": "RUSSIA",
       "title": "ИИ-ограничения. От вседозволенности к регулированию - Финам",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaU5tekNMdlpmTGZVSHdGRDhIdFRhcVhXU1F6anBPRGUzV3hzUkJZWkt2SzFNZ0RPcVR1QmtMU3FrMktMUWFEN1dvTHUyai0zTzhfdHpvbFJ1WlhTWGRSMFUwUjFIbGs4MmJiMGZEcXViRXY1Q3FFV19INXFwZm9sYllERWtpdzRINC04NnJVVHJyWG52b3RjU1VPaGhxeEhvVE45bEpGTDFVMUk?oc=5",
@@ -708,20 +759,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788621205.2677135,
+    "last_start_ts": 1788622047.4913738,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788621205.2677135,
-    "last_success_ts": 1788621205.2677135,
-    "last_candidates": 0,
+    "last_run_ts": 1788622047.4913738,
+    "last_success_ts": 1788622047.4913738,
+    "last_candidates": 50,
     "last_published": 1,
-    "queue_size": 16
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788621209.5714524
+      "updated_at": 1788622066.9063497
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -735,27 +786,6 @@
     }
   },
   "stories": {
-    "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": {
-      "time": 1788535160,
-      "title": "Минюст объявил «Новую газету» иноагентом - kommersant.ru",
-      "desc": "Минюст объявил «Новую газету» иноагентом kommersant.ru",
-      "source": "kommersant.ru",
-      "region": "RUSSIA"
-    },
-    "65072c82f6ca13dc9667bbed7997e2ac5013fa7e349bad0ad5388c1fc04406a4": {
-      "time": 1788535341,
-      "title": "Travel Technology Solutions Market: AI, Automation - openPR.com",
-      "desc": "Travel Technology Solutions Market: AI, Automation openPR.com",
-      "source": "openPR.com",
-      "region": "WORLD"
-    },
-    "95c1b6ee8578a71269551228aff2438db995de69773a5655a206ad73fbc00884": {
-      "time": 1788535581,
-      "title": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского - Gazeta.ua",
-      "desc": "Россия опередила нас в массовом применении ИИ на борту дронов - советник Зеленского Gazeta.ua",
-      "source": "Gazeta.ua",
-      "region": "RUSSIA"
-    },
     "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": {
       "time": 1788536002,
       "title": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI - SiliconANGLE",
@@ -1567,6 +1597,13 @@
       "desc": "Platform risk 2.0: Why AI application builders must own their model weights Substack",
       "source": "Substack",
       "region": "WORLD"
+    },
+    "77b59093be0f67183aa204158094db9fe371c38545d823ba056798c9856a37a8": {
+      "time": 1788622047,
+      "title": "Nvidia Announces $12.9 Billion Hugging Face Acquisition to Expand Open Source AI - mezha.net",
+      "desc": "Nvidia Announces $12.9 Billion Hugging Face Acquisition to Expand Open Source AI mezha.net",
+      "source": "mezha.net",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -1576,7 +1613,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1589,8 +1625,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788620235.9616497,
-  "last_publish_ts": 1788621205.2677135
+  "last_search_ts": 1788622047.4913738,
+  "last_publish_ts": 1788622047.4913738
 }
