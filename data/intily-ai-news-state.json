@@ -391,13 +391,6 @@
     "98f4c1d1d28db779fb983fc0fcd9ca4f400ce9c5f1b11aebeb861f20d5b87a2a": 1788622283
   },
   "known": {
-    "0ec49241e04799dc3f8b07d58b7a378d58b2ee16b3d0beedd73f2c9bfa683ac1": 1788623907.335521,
-    "1bd094dfdcd6a7dde15e7d069536dfb2b209c2e029bd7e8c82d8450d7bc9a31e": 1788623907.335521,
-    "d78a20f877efd2fe444aa0279c0502213a05a9afed6182b8b42c077ba8bd9ed9": 1788623907.335521,
-    "e8be978f746aec4772c07ed9cf5cadcf2591fb6c2eef84e2ebf792c9b66fe44c": 1788623907.335521,
-    "eb584ab9e787138d4e4c4c324765f81d2ba73df831cc7b3a91ce78130a4281b6": 1788623907.335521,
-    "2ac7bae426f9b416b9bb444124b401a2e0a5ac58e8d8faa3049c93eeda0a4a7c": 1788623907.335521,
-    "69a9f57d973d9a9bc893903ec9b2dbb89924e8d1ceb6e35f25dab98301f293ff": 1788623907.335521,
     "4de0ca8a7dcf932a0d4b54c1d523e7bac2ef6368ce369f944ba2cea0f82669ed": 1788625828.8542562,
     "38fd77970d0781c7e94ecaf3bf75ac05fac50831ca9a822a9557656427e54dd7": 1788625828.8542562,
     "0b461112fa873f396ace12ebbcfa95d992d12fd8f8e56803f8cb9e9c223ffabe": 1788625828.8542562,
@@ -468,10 +461,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788646062
+      "failure_count": 3,
+      "next_retry_at": 1788646783
     },
     {
       "region": "WORLD",
@@ -489,10 +482,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788667062
+      "failure_count": 15,
+      "next_retry_at": 1788667183
     },
     {
       "region": "WORLD",
@@ -510,10 +503,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788646062
+      "failure_count": 3,
+      "next_retry_at": 1788646783
     },
     {
       "region": "WORLD",
@@ -531,10 +524,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788667062
+      "failure_count": 15,
+      "next_retry_at": 1788667183
     },
     {
       "region": "RUSSIA",
@@ -572,10 +565,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 45,
-      "next_retry_at": 1788667062
+      "failure_count": 46,
+      "next_retry_at": 1788667183
     },
     {
       "region": "WORLD",
@@ -590,10 +583,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 45,
-      "next_retry_at": 1788667062
+      "failure_count": 46,
+      "next_retry_at": 1788667183
     },
     {
       "region": "RUSSIA",
@@ -651,10 +644,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788667062
+      "failure_count": 15,
+      "next_retry_at": 1788667183
     },
     {
       "region": "RUSSIA",
@@ -734,10 +727,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 79,
-      "next_retry_at": 1788667062
+      "failure_count": 80,
+      "next_retry_at": 1788667183
     },
     {
       "region": "WORLD",
@@ -754,10 +747,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 58,
-      "next_retry_at": 1788667062
+      "failure_count": 59,
+      "next_retry_at": 1788667183
     },
     {
       "region": "WORLD",
@@ -774,10 +767,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788645462,
+      "last_failed_at": 1788645583,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 45,
-      "next_retry_at": 1788667062
+      "failure_count": 46,
+      "next_retry_at": 1788667183
     },
     {
       "region": "RUSSIA",
@@ -849,11 +842,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788645462.747107,
+    "last_start_ts": 1788645583.0506341,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788645462.747107,
-    "last_success_ts": 1788645462.747107,
+    "last_run_ts": 1788645583.0506341,
+    "last_success_ts": 1788645583.0506341,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
