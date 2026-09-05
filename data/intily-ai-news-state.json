@@ -579,26 +579,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts - ednews.africa",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KVS1BU0J1WGgwUzVmbTE0TjBZaFBUY3NtVFdLMlQ2R1hBMlJxVGRPSXNWUzB4TFVZbWlMaHZ6RFpnVGtDa2hyUDRvUVFGT3o2SGNOVzFDN2J1OUhTR01xOTVYRG55Z2lBdml3cDJJaw?oc=5",
-      "desc": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts ednews.africa",
-      "source": "ednews.africa",
-      "time": 1788630614.0,
-      "score": 70.5,
-      "key": "818a13c78713b132d49f0b50c9072b6d0cd18a8eac538280fcbc5473cbf7ac6d",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "research"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788634206,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 17,
-      "next_retry_at": 1788655806
-    },
-    {
-      "region": "WORLD",
       "title": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work - AI Insider",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONG0xZHRoTGJmcEc2Z3hqUkpkM3ZPNEF2ajRFYll3UmNDMGdvTjJVY0d1NUM5bFpnUnVGZ3pnblJEeEk5V1FONW8yLWs1R2liRUpGSnhvWS1uVjVhdU5QMldXQXowZXM0VDRDN2hWRjcxcXFoZFNKSGhKOC1YQjIxUHF5Tm9INExsMmx2ZXdRSHdHQmVYUV9MOUZtQWoxQW1kRVB4UXJGT0t3TlNOYkE3S25lUUFLd2M?oc=5",
       "desc": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work AI Insider",
@@ -612,10 +592,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788634206,
+      "last_failed_at": 1788634267,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 29,
-      "next_retry_at": 1788655806
+      "failure_count": 30,
+      "next_retry_at": 1788655867
     },
     {
       "region": "WORLD",
@@ -632,10 +612,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788634206,
+      "last_failed_at": 1788634267,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788655806
+      "failure_count": 9,
+      "next_retry_at": 1788655867
     },
     {
       "region": "RUSSIA",
@@ -689,6 +669,26 @@
         "security_regulation"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts - ednews.africa",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KVS1BU0J1WGgwUzVmbTE0TjBZaFBUY3NtVFdLMlQ2R1hBMlJxVGRPSXNWUzB4TFVZbWlMaHZ6RFpnVGtDa2hyUDRvUVFGT3o2SGNOVzFDN2J1OUhTR01xOTVYRG55Z2lBdml3cDJJaw?oc=5",
+      "desc": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts ednews.africa",
+      "source": "ednews.africa",
+      "time": 1788630614.0,
+      "score": 67.5,
+      "key": "818a13c78713b132d49f0b50c9072b6d0cd18a8eac538280fcbc5473cbf7ac6d",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "research"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788634267,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 18,
+      "next_retry_at": 1788655867
     },
     {
       "region": "RUSSIA",
@@ -779,10 +779,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634206,
+      "last_failed_at": 1788634267,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 21,
-      "next_retry_at": 1788655806
+      "failure_count": 22,
+      "next_retry_at": 1788655867
     },
     {
       "region": "WORLD",
@@ -797,10 +797,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634206,
+      "last_failed_at": 1788634267,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 29,
-      "next_retry_at": 1788655806
+      "failure_count": 30,
+      "next_retry_at": 1788655867
     },
     {
       "region": "WORLD",
@@ -815,10 +815,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634206,
+      "last_failed_at": 1788634267,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 29,
-      "next_retry_at": 1788655806
+      "failure_count": 30,
+      "next_retry_at": 1788655867
     },
     {
       "region": "WORLD",
@@ -833,10 +833,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634206,
+      "last_failed_at": 1788634267,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 39,
-      "next_retry_at": 1788655806
+      "failure_count": 40,
+      "next_retry_at": 1788655867
     },
     {
       "region": "WORLD",
@@ -851,18 +851,18 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634206,
+      "last_failed_at": 1788634267,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788655806
+      "failure_count": 9,
+      "next_retry_at": 1788655867
     }
   ],
   "health": {
-    "last_start_ts": 1788634206.6484973,
+    "last_start_ts": 1788634267.056525,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788634206.6484973,
-    "last_success_ts": 1788634206.6484973,
+    "last_run_ts": 1788634267.056525,
+    "last_success_ts": 1788634267.056525,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -885,13 +885,6 @@
     }
   },
   "stories": {
-    "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": {
-      "time": 1788547820,
-      "title": "RIAs Using AI Boosted Hiring, Productivity: Study - ThinkAdvisor",
-      "desc": "RIAs Using AI Boosted Hiring, Productivity: Study ThinkAdvisor",
-      "source": "ThinkAdvisor",
-      "region": "WORLD"
-    },
     "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": {
       "time": 1788548001,
       "title": "Потапов о посте Кравцова: «Не понял, что он хотел сказать после слов «Леха». Будто искусственный интеллект накидал каких-то рандомных фраз» - prospect.com.ru",
