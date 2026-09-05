@@ -519,10 +519,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788624565,
+      "last_failed_at": 1788625232,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788629365
+      "failure_count": 6,
+      "next_retry_at": 1788634832
     },
     {
       "region": "RUSSIA",
@@ -579,10 +579,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788624565,
+      "last_failed_at": 1788625232,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788629365
+      "failure_count": 6,
+      "next_retry_at": 1788634832
     },
     {
       "region": "RUSSIA",
@@ -637,10 +637,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624565,
+      "last_failed_at": 1788625232,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788629365
+      "failure_count": 6,
+      "next_retry_at": 1788634832
     },
     {
       "region": "WORLD",
@@ -657,10 +657,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788624565,
+      "last_failed_at": 1788625232,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788629365
+      "failure_count": 6,
+      "next_retry_at": 1788634832
     },
     {
       "region": "WORLD",
@@ -677,10 +677,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788624565,
+      "last_failed_at": 1788625232,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788629365
+      "failure_count": 6,
+      "next_retry_at": 1788634832
     },
     {
       "region": "WORLD",
@@ -697,10 +697,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624565,
+      "last_failed_at": 1788625232,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788629365
+      "failure_count": 6,
+      "next_retry_at": 1788634832
     },
     {
       "region": "WORLD",
@@ -717,10 +717,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624565,
+      "last_failed_at": 1788625232,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788629365
+      "failure_count": 6,
+      "next_retry_at": 1788634832
     },
     {
       "region": "WORLD",
@@ -735,10 +735,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788624565,
+      "last_failed_at": 1788625232,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788629365
+      "failure_count": 6,
+      "next_retry_at": 1788634832
     },
     {
       "region": "RUSSIA",
@@ -852,11 +852,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788624565.7905343,
+    "last_start_ts": 1788625232.0996525,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788624565.7905343,
-    "last_success_ts": 1788624565.7905343,
+    "last_run_ts": 1788625232.0996525,
+    "last_success_ts": 1788625232.0996525,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -879,13 +879,6 @@
     }
   },
   "stories": {
-    "821bd3bae268d745ac742c2044488f977a217c94a800d220635cf34e839288a6": {
-      "time": 1788538400,
-      "title": "Орешкин назвал самую востребованную специальность из-за внедрения ИИ - БИЗНЕС Online",
-      "desc": "Орешкин назвал самую востребованную специальность из-за внедрения ИИ БИЗНЕС Online",
-      "source": "БИЗНЕС Online",
-      "region": "RUSSIA"
-    },
     "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14": {
       "time": 1788538884,
       "title": "The National Beat: When to add AI agents - The Business Journals",
