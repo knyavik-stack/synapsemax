@@ -487,10 +487,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788642463,
+      "last_failed_at": 1788643001,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 28,
-      "next_retry_at": 1788664063
+      "failure_count": 29,
+      "next_retry_at": 1788664601
     },
     {
       "region": "WORLD",
@@ -505,10 +505,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788642463,
+      "last_failed_at": 1788643001,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 28,
-      "next_retry_at": 1788664063
+      "failure_count": 29,
+      "next_retry_at": 1788664601
     },
     {
       "region": "RUSSIA",
@@ -608,10 +608,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788642463,
+      "last_failed_at": 1788643001,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 22,
-      "next_retry_at": 1788664063
+      "failure_count": 23,
+      "next_retry_at": 1788664601
     },
     {
       "region": "RUSSIA",
@@ -649,10 +649,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788642463,
+      "last_failed_at": 1788643001,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 62,
-      "next_retry_at": 1788664063
+      "failure_count": 63,
+      "next_retry_at": 1788664601
     },
     {
       "region": "RUSSIA",
@@ -686,10 +686,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788642463,
+      "last_failed_at": 1788643001,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 41,
-      "next_retry_at": 1788664063
+      "failure_count": 42,
+      "next_retry_at": 1788664601
     },
     {
       "region": "WORLD",
@@ -706,10 +706,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788642463,
+      "last_failed_at": 1788643001,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 28,
-      "next_retry_at": 1788664063
+      "failure_count": 29,
+      "next_retry_at": 1788664601
     },
     {
       "region": "RUSSIA",
@@ -762,10 +762,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788642463,
+      "last_failed_at": 1788643001,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 50,
-      "next_retry_at": 1788664063
+      "failure_count": 51,
+      "next_retry_at": 1788664601
     },
     {
       "region": "WORLD",
@@ -782,10 +782,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788642463,
+      "last_failed_at": 1788643001,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788664063
+      "failure_count": 14,
+      "next_retry_at": 1788664601
     },
     {
       "region": "WORLD",
@@ -803,18 +803,18 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788642463,
+      "last_failed_at": 1788643001,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788664063
+      "failure_count": 10,
+      "next_retry_at": 1788664601
     }
   ],
   "health": {
-    "last_start_ts": 1788642463.3879967,
+    "last_start_ts": 1788643001.746248,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788642463.3879967,
-    "last_success_ts": 1788642463.3879967,
+    "last_run_ts": 1788643001.746248,
+    "last_success_ts": 1788643001.746248,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 18
@@ -837,20 +837,6 @@
     }
   },
   "stories": {
-    "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": {
-      "time": 1788556280,
-      "title": "Surfer – SEO-платформа для контента с поддержкой ИИ - quasa.io",
-      "desc": "Surfer – SEO-платформа для контента с поддержкой ИИ quasa.io",
-      "source": "quasa.io",
-      "region": "RUSSIA"
-    },
-    "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": {
-      "time": 1788556522,
-      "title": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА - Общественная служба новостей",
-      "desc": "Советник Бескрестнов признался в отставании Украины от РФ в применении ИИ на БПЛА Общественная служба новостей",
-      "source": "Общественная служба новостей",
-      "region": "RUSSIA"
-    },
     "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": {
       "time": 1788556939,
       "title": "Why Did Nvidia Acquire Hugging Face? - Semiecosystem",
