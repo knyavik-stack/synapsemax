@@ -467,22 +467,11 @@
       "importance": 73.1,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Навести порядок в российских судах призваны четыре ИИ-модели - Вечерний Санкт-Петербург",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQThIUjVTSkVIWC1kTG1MMEljUHZObmxmZU1mVVFMUXFWV012aWVRMndGbXVWZV8tYVUwaWtrUUF6U0dTMDFwdldtUFFmSG81RnZuT2NMVkVSTmVFcFc2TjlLNUNhSkNvLVh0WXRFVHZvaEtZV0NDXzBRclItdTJESWpEQm1YV0RvZ0Q3dkpBY21NUFF6RzFtX1JGTmFnUTA?oc=5",
-      "desc": "Навести порядок в российских судах призваны четыре ИИ-модели Вечерний Санкт-Петербург",
-      "source": "Вечерний Санкт-Петербург",
-      "time": 1788611525.0,
-      "score": 72.2,
-      "russia_weight_bonus": 2.7,
-      "key": "14f56fa1180967dda4406b45692e99a58f8c7e77a903653c1b50f2057becca33",
-      "importance": 72.2,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
     },
     {
       "region": "RUSSIA",
@@ -499,7 +488,11 @@
       "topics": [
         "robotics"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
     },
     {
       "region": "RUSSIA",
@@ -516,7 +509,11 @@
       "topics": [
         "business"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
     },
     {
       "region": "WORLD",
@@ -537,21 +534,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии - РАПСИ",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82elhJcDdqZU01Vng4dnBQazJxQjV2c1lSZ0xQZVBvUDVsNU00X1NETDQyT0J3MjVoNVplZmt2a255WW1fRmk3TjJUZlUwMEczaElESF80X1JwNjNqR1NyQ05nSm05Q1E2UGNWcHFR?oc=5",
-      "desc": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии РАПСИ",
-      "source": "РАПСИ",
-      "time": 1788611717.0,
-      "score": 70.0,
-      "russia_weight_bonus": 4.5,
-      "key": "b3b6836201cc8ad894e112b74458265a29c9784ce394b690822113d540a8b868",
-      "importance": 70.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Краснов рассказал о планах по внедрению ИИ на всех этапах судопроизводства - РАПСИ",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEOEh5UXBNSnA3Szh0R1VoMmd5aXFCZTVCUktqYjZJUmVKX3BYM2Z2dWhKWlhvbUgxT0lxSy02a2g3eVM1NXVGRlN1YjF5b2hqUFhGS3JuQmpzcWlBa3lxVmx4R1pPczQxZkhIWnhDcw?oc=5",
       "desc": "Краснов рассказал о планах по внедрению ИИ на всех этапах судопроизводства РАПСИ",
@@ -565,7 +547,11 @@
       "topics": [
         "business"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
     },
     {
       "region": "RUSSIA",
@@ -580,7 +566,11 @@
       "importance": 69.2,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
     },
     {
       "region": "RUSSIA",
@@ -595,7 +585,11 @@
       "importance": 69.1,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
     },
     {
       "region": "WORLD",
@@ -693,7 +687,11 @@
       "topics": [
         "applications"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
     },
     {
       "region": "WORLD",
@@ -724,7 +722,49 @@
       "topics": [
         "security_regulation"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Навести порядок в российских судах призваны четыре ИИ-модели - Вечерний Санкт-Петербург",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQThIUjVTSkVIWC1kTG1MMEljUHZObmxmZU1mVVFMUXFWV012aWVRMndGbXVWZV8tYVUwaWtrUUF6U0dTMDFwdldtUFFmSG81RnZuT2NMVkVSTmVFcFc2TjlLNUNhSkNvLVh0WXRFVHZvaEtZV0NDXzBRclItdTJESWpEQm1YV0RvZ0Q3dkpBY21NUFF6RzFtX1JGTmFnUTA?oc=5",
+      "desc": "Навести порядок в российских судах призваны четыре ИИ-модели Вечерний Санкт-Петербург",
+      "source": "Вечерний Санкт-Петербург",
+      "time": 1788611525.0,
+      "score": 62.7,
+      "russia_weight_bonus": 2.7,
+      "key": "14f56fa1180967dda4406b45692e99a58f8c7e77a903653c1b50f2057becca33",
+      "importance": 62.7,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии - РАПСИ",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82elhJcDdqZU01Vng4dnBQazJxQjV2c1lSZ0xQZVBvUDVsNU00X1NETDQyT0J3MjVoNVplZmt2a255WW1fRmk3TjJUZlUwMEczaElESF80X1JwNjNqR1NyQ05nSm05Q1E2UGNWcHFR?oc=5",
+      "desc": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии РАПСИ",
+      "source": "РАПСИ",
+      "time": 1788611717.0,
+      "score": 60.5,
+      "russia_weight_bonus": 4.5,
+      "key": "b3b6836201cc8ad894e112b74458265a29c9784ce394b690822113d540a8b868",
+      "importance": 60.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788622532,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788622832
     },
     {
       "region": "RUSSIA",
@@ -743,13 +783,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788622283.4029808,
+    "last_start_ts": 1788622532.078751,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788622283.4029808,
-    "last_success_ts": 1788622283.4029808,
+    "last_run_ts": 1788622532.078751,
+    "last_success_ts": 1788622532.078751,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 18
   },
   "providers": {
@@ -770,13 +810,6 @@
     }
   },
   "stories": {
-    "8cb0892ff77f3f329f4832857ca6bdcf5a4cd9dc83ed5509c34ada4e1cfc8f49": {
-      "time": 1788536002,
-      "title": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI - SiliconANGLE",
-      "desc": "Nvidia bags Hugging Face, AI models play leapfrog and CrowdStrike doubles down on AI SiliconANGLE",
-      "source": "SiliconANGLE",
-      "region": "WORLD"
-    },
     "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": {
       "time": 1788536242,
       "title": "Leverage Code Review for Sustainable AI Coding Development - Communications of the ACM",
