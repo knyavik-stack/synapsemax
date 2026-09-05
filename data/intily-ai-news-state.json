@@ -416,18 +416,37 @@
     "2db40d27a64066d80b975c5109bb10656e5e310290342b3d787f1f1eb4631e9d": 1788584060.6424463,
     "9e7070d0147534981c73eba65a7c321394b1b4b061bd03dca94f539027ee7033": 1788584960.6717732,
     "27e26009c8d7ce65dae61697e1970fd8ffc17194630027c08b21161de1953d50": 1788585919.7689903,
-    "af283c388663a3692b55edb83c284c919aa87ff6b0f1714e9038c74c570af1ef": 1788586940.2832234
+    "af283c388663a3692b55edb83c284c919aa87ff6b0f1714e9038c74c570af1ef": 1788586940.2832234,
+    "464bd3f511ffe6725fb481f295fc98659d576ba53eec02f533067ef0972edabc": 1788587001.323733
   },
-  "queue": [],
+  "queue": [
+    {
+      "region": "WORLD",
+      "title": "OpenAI says new GPT-6 Astra model can detect high-severity security flaws - The Nation (Pakistan )",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMk5vNzl3d0ZMaWx0WEZhdU13VWRINkZuVFJ1Sl93d1FOWm9ENnRqeUFMR0lZMFF3ak1IR2QxNzdhbXZuLVVuLVpZS0tNbnBaLUI1aDJham1CdkkyRW5JUF9TQ1JVSXVKenJHLUI5cmNuZ0xvbjVJWFVSdWpycUdDdU9GemN3bzJlLWdRcmVaNDdWaVdzVTNnMWhPTTExa3B0WXdlMnlqZUpmeFdRUHgybA?oc=5",
+      "desc": "OpenAI says new GPT-6 Astra model can detect high-severity security flaws The Nation (Pakistan )",
+      "source": "The Nation (Pakistan )",
+      "time": 1788586943.0,
+      "score": 78.5,
+      "key": "464bd3f511ffe6725fb481f295fc98659d576ba53eec02f533067ef0972edabc",
+      "importance": 78.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models",
+        "security_regulation"
+      ],
+      "tier": "A"
+    }
+  ],
   "health": {
-    "last_start_ts": 1788586940.2832234,
+    "last_start_ts": 1788587001.323733,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788586940.2832234,
-    "last_success_ts": 1788586940.2832234,
+    "last_run_ts": 1788587001.323733,
+    "last_success_ts": 1788587001.323733,
     "last_candidates": 28,
-    "last_published": 1,
-    "queue_size": 0
+    "last_published": 0,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
@@ -1912,6 +1931,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788586940.2832234,
+  "last_search_ts": 1788587001.323733,
   "last_publish_ts": 1788586940.2832234
 }
