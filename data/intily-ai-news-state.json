@@ -384,7 +384,8 @@
     "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": 1788584060,
     "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584361,
     "c6249a7b1df7dec20503678ad1a83e14a52d68c5974c74f66ec44aef86528b46": 1788620235,
-    "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620438
+    "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620438,
+    "7fd658b47ad140b1a6eb75a2809de729b91d0a99423eb6b4b69c944940f06ea6": 1788620965
   },
   "known": {
     "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620235.9616497,
@@ -444,41 +445,6 @@
     "5d51e0d76dfdbadd127786084d7efa42f22f60d3249cadd9a1815505b4d3d216": 1788620235.9616497
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "ИИ-агент GPT-6 Astra создал симуляцию внутри Unreal Engine - techora.ru",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93TU9pa1l3aVNJazQydWtnemN2MWtILVUtY3VhajhpMGpZc1daYm5NVWFNZ3ladS1FVDFYWmtyLV85YTFPamxTekV1QnE5dll1b2ItVEp6UmFLeC1tMXppcmphMjY0SlFGWVc5dmtGRQ?oc=5",
-      "desc": "ИИ-агент GPT-6 Astra создал симуляцию внутри Unreal Engine techora.ru",
-      "source": "techora.ru",
-      "time": 1788618217.0,
-      "score": 76.5,
-      "russia_weight_bonus": 4.0,
-      "key": "7fd658b47ad140b1a6eb75a2809de729b91d0a99423eb6b4b69c944940f06ea6",
-      "importance": 76.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase - TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORENKOXRUSFRfWFJXZ2ZiQk9yYmRzb210OUpKY0gxVGtaZDlENkxyWk5kY1VLMWw3ZGNJdlAzZncyX0x6bHZXSDZ4Tm5ESDZrUHZodTNMZTRIQmxaYVFoTkJ4ZGhqck1NczJoc2pFVGxGNmM0NWFvUlFDYTcxSGZpRVJobUYtNmZlblZfeDBteHRrNDUxcEFnNldkUy0tMnRKVndFWlgyaFdWdzEyOUhsQVE5RmpHTlZ1aWxyZlpEWFJKUTFfVDM1SkdqTzJmTy1VMzhRdXVHMFpTUQ?oc=5",
-      "desc": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase TipRanks",
-      "source": "TipRanks",
-      "time": 1788617161.0,
-      "score": 73.5,
-      "key": "f3eb071c214a3eaf74a19dc8ca0b339782b35a4716f396fcfb757a126988c9dd",
-      "importance": 73.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "tools"
-      ],
-      "tier": "A"
-    },
     {
       "region": "WORLD",
       "title": "Platform risk 2.0: Why AI application builders must own their model weights - Substack",
@@ -595,23 +561,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "The First Agentic Attack: How AI Is Reshaping the Economics of Cybersecurity - forkast.news",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUVRNXpwSHh3NFdjbjIxZEw0c2NQYnVRTVVFR2ZZc1duenIxcnItcmRlS2ExWUtRZ3phRDEzd2VIWUZFeW9rNWMzaUtSUlVLWXppSWVJRS1WVmJOdzAybXJ4ZnVZeHBLeDFVMmJDTkpkbVF6cEJmNDl3U1V4UXVEbGhKYjdGQlpBR1lRak11aEJjbGtGYS1idmF2U2Fqdw?oc=5",
-      "desc": "The First Agentic Attack: How AI Is Reshaping the Economics of Cybersecurity forkast.news",
-      "source": "forkast.news",
-      "time": 1788609876.0,
-      "score": 71.5,
-      "key": "74b83e15197d6abbd18ad6a09f71775a1585077c537b9fefaded97f4c7af0e04",
-      "importance": 71.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ - Интерфакс",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QdIBS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QQ?oc=5",
@@ -629,6 +578,23 @@
       "tier": "A"
     },
     {
+      "region": "WORLD",
+      "title": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase - TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORENKOXRUSFRfWFJXZ2ZiQk9yYmRzb210OUpKY0gxVGtaZDlENkxyWk5kY1VLMWw3ZGNJdlAzZncyX0x6bHZXSDZ4Tm5ESDZrUHZodTNMZTRIQmxaYVFoTkJ4ZGhqck1NczJoc2pFVGxGNmM0NWFvUlFDYTcxSGZpRVJobUYtNmZlblZfeDBteHRrNDUxcEFnNldkUy0tMnRKVndFWlgyaFdWdzEyOUhsQVE5RmpHTlZ1aWxyZlpEWFJKUTFfVDM1SkdqTzJmTy1VMzhRdXVHMFpTUQ?oc=5",
+      "desc": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase TipRanks",
+      "source": "TipRanks",
+      "time": 1788617161.0,
+      "score": 70.5,
+      "key": "f3eb071c214a3eaf74a19dc8ca0b339782b35a4716f396fcfb757a126988c9dd",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "RUSSIA",
       "title": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии - РАПСИ",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82elhJcDdqZU01Vng4dnBQazJxQjV2c1lSZ0xQZVBvUDVsNU00X1NETDQyT0J3MjVoNVplZmt2a255WW1fRmk3TjJUZlUwMEczaElESF80X1JwNjNqR1NyQ05nSm05Q1E2UGNWcHFR?oc=5",
@@ -639,21 +605,6 @@
       "russia_weight_bonus": 4.5,
       "key": "b3b6836201cc8ad894e112b74458265a29c9784ce394b690822113d540a8b868",
       "importance": 70.0,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "В российских судах начали применять искусственный интеллект в пилотном режиме - Краснов (версия 3) - lenta.profinansy.ru",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SzU0UzhHR3JvT3g2UkdleHJ0VmRXUVRjSWRYWGFrX251RG8yS1kxWlFCbFVGMDRYcTdMSXJGYWh0U2xjNm12bERQSGp2a1EzUFpv?oc=5",
-      "desc": "В российских судах начали применять искусственный интеллект в пилотном режиме - Краснов (версия 3) lenta.profinansy.ru",
-      "source": "lenta.profinansy.ru",
-      "time": 1788609841.0,
-      "score": 69.9,
-      "russia_weight_bonus": 4.4,
-      "key": "833cc4f26b34cbc96df2136a8c066b7bf5e1a5be3d7a44b61af11954d18a4699",
-      "importance": 69.9,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
@@ -724,6 +675,23 @@
       "tier": "A"
     },
     {
+      "region": "WORLD",
+      "title": "The First Agentic Attack: How AI Is Reshaping the Economics of Cybersecurity - forkast.news",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUVRNXpwSHh3NFdjbjIxZEw0c2NQYnVRTVVFR2ZZc1duenIxcnItcmRlS2ExWUtRZ3phRDEzd2VIWUZFeW9rNWMzaUtSUlVLWXppSWVJRS1WVmJOdzAybXJ4ZnVZeHBLeDFVMmJDTkpkbVF6cEJmNDl3U1V4UXVEbGhKYjdGQlpBR1lRak11aEJjbGtGYS1idmF2U2Fqdw?oc=5",
+      "desc": "The First Agentic Attack: How AI Is Reshaping the Economics of Cybersecurity forkast.news",
+      "source": "forkast.news",
+      "time": 1788609876.0,
+      "score": 64.0,
+      "key": "74b83e15197d6abbd18ad6a09f71775a1585077c537b9fefaded97f4c7af0e04",
+      "importance": 64.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "RUSSIA",
       "title": "ИИ-ограничения. От вседозволенности к регулированию - Финам",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaU5tekNMdlpmTGZVSHdGRDhIdFRhcVhXU1F6anBPRGUzV3hzUkJZWkt2SzFNZ0RPcVR1QmtMU3FrMktMUWFEN1dvTHUyai0zTzhfdHpvbFJ1WlhTWGRSMFUwUjFIbGs4MmJiMGZEcXViRXY1Q3FFV19INXFwZm9sYllERWtpdzRINC04NnJVVHJyWG52b3RjU1VPaGhxeEhvVE45bEpGTDFVMUk?oc=5",
@@ -739,23 +707,38 @@
         "security_regulation"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В российских судах начали применять искусственный интеллект в пилотном режиме - Краснов (версия 3) - lenta.profinansy.ru",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SzU0UzhHR3JvT3g2UkdleHJ0VmRXUVRjSWRYWGFrX251RG8yS1kxWlFCbFVGMDRYcTdMSXJGYWh0U2xjNm12bERQSGp2a1EzUFpv?oc=5",
+      "desc": "В российских судах начали применять искусственный интеллект в пилотном режиме - Краснов (версия 3) lenta.profinansy.ru",
+      "source": "lenta.profinansy.ru",
+      "time": 1788609841.0,
+      "score": 60.4,
+      "russia_weight_bonus": 4.4,
+      "key": "833cc4f26b34cbc96df2136a8c066b7bf5e1a5be3d7a44b61af11954d18a4699",
+      "importance": 60.4,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788620607.454929,
+    "last_start_ts": 1788620965.1787994,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788620607.454929,
-    "last_success_ts": 1788620607.454929,
+    "last_run_ts": 1788620965.1787994,
+    "last_success_ts": 1788620965.1787994,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 18
+    "last_published": 1,
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788620440.5617661
+      "updated_at": 1788620969.0808449
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -769,13 +752,6 @@
     }
   },
   "stories": {
-    "9b2411342d80e2c6b34fa3b3384bed016c552a3251af059423e5b63645928a1e": {
-      "time": 1788534381,
-      "title": "Experian expands into AI agents with ServiceNow partnership - SiliconANGLE",
-      "desc": "Experian expands into AI agents with ServiceNow partnership SiliconANGLE",
-      "source": "SiliconANGLE",
-      "region": "WORLD"
-    },
     "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": {
       "time": 1788534801,
       "title": "OpenAI представила самый умный ИИ - Инвест-Форсайт",
@@ -1601,10 +1577,16 @@
       "desc": "В российских судах запустили пилотный проект по внедрению ИИ Эксперт",
       "source": "Эксперт",
       "region": "RUSSIA"
+    },
+    "7fd658b47ad140b1a6eb75a2809de729b91d0a99423eb6b4b69c944940f06ea6": {
+      "time": 1788620965,
+      "title": "ИИ-агент GPT-6 Astra создал симуляцию внутри Unreal Engine - techora.ru",
+      "desc": "ИИ-агент GPT-6 Astra создал симуляцию внутри Unreal Engine techora.ru",
+      "source": "techora.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1623,8 +1605,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
   "last_search_ts": 1788620235.9616497,
-  "last_publish_ts": 1788620438.7264376
+  "last_publish_ts": 1788620965.1787994
 }
