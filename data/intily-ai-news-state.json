@@ -501,7 +501,9 @@
     "063958d13e05ca1228714350922ba1216a783937319f64efb34260944274a04e": 1788637627.3012326,
     "94b61390f19d3414592066617159bcf89e5c01433a8eb6509b81c9c4ffb97424": 1788637627.3012326,
     "aa2a57894836b6e9b4a3d6190584e81bf83db11d985e26e87cf30b6b84e4cdb7": 1788637627.3012326,
-    "20d21b8c2a01793e804c7e48f4b323f7fff7aa71581fbb81882c0dfc99a005a6": 1788637627.3012326
+    "20d21b8c2a01793e804c7e48f4b323f7fff7aa71581fbb81882c0dfc99a005a6": 1788637627.3012326,
+    "435c53d86686d290ea251bfe50dfaa4501d27c703395b6e672204cbc0073fdb9": 1788639545.8335474,
+    "24c60b30e7d59ba1ee3a0bafd8ef9829550be12b5a64001aa33d1aa959b3c695": 1788639545.8335474
   },
   "queue": [
     {
@@ -522,26 +524,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 1,
       "next_retry_at": 1788634986
-    },
-    {
-      "region": "WORLD",
-      "title": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on AMD's flagship Ryzen AI Halo platform - Tom's Hardware",
-      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPcWhMVnBRa0ZYYXd2b3FjRHpfckpPVTlWR1M2SWVjNnI1ZkhpcDVrRGpzNDh1SzhQWExrZ0tzdUpXSXBNUm9pYnB5UVhjdFA2VDlDUTVYcGFzakNHUFpSUDBzdHp5akRpYkV3c29OYmMweWhvQzVxTnBKeWtHRk5LckRuc3ZHR2lTZlE2Wl9FMHdJZWc4VEFlMG5ITUFtb21VcTNFYmc3NUc2NHpPQmpGRl9xRW1zNVF1M21qV2N0MDdKSHltbnZiejd3QWw2djFDSlV6RTdmaE5EWE9faVJYTEw0SDZZM1pBVnF2VlB2V2xzd293T2FSR2FGT0FHZjNSUGhja2pzMm5HS1VYdmJDQWltVGs0RDBXVG1PeWxNUDd2SzlnYm0tOA?oc=5",
-      "desc": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on AMD's flagship Ryzen AI Halo platform Tom's Hardware",
-      "source": "Tom's Hardware",
-      "time": 1788628737.0,
-      "score": 69.5,
-      "key": "6edcaa4427f2de66fa197b348dc4d700c2a3ada87c9fbe9f2f9e9acbb982b4dc",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788639306,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 28,
-      "next_retry_at": 1788660906
     },
     {
       "region": "RUSSIA",
@@ -579,10 +561,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788639306,
+      "last_failed_at": 1788639545,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788660906
+      "failure_count": 16,
+      "next_retry_at": 1788661145
     },
     {
       "region": "WORLD",
@@ -597,10 +579,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639306,
+      "last_failed_at": 1788639545,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788660906
+      "failure_count": 16,
+      "next_retry_at": 1788661145
     },
     {
       "region": "WORLD",
@@ -617,10 +599,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788639306,
+      "last_failed_at": 1788639545,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 37,
-      "next_retry_at": 1788660906
+      "failure_count": 38,
+      "next_retry_at": 1788661145
     },
     {
       "region": "RUSSIA",
@@ -720,10 +702,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639306,
+      "last_failed_at": 1788639545,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788660906
+      "failure_count": 10,
+      "next_retry_at": 1788661145
     },
     {
       "region": "WORLD",
@@ -738,28 +720,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639306,
+      "last_failed_at": 1788639545,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788660906
-    },
-    {
-      "region": "WORLD",
-      "title": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests - calcalistech.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00dTRBYnJjWl84cHMzbC1QZWVlb0ZUd0JKMnVVX1kyQ191NlR2UXFDLUdWVGt2WW9TS1JkODNKVW5hSVFfNU0xYVZDcWxLUTMxRXFwalpoMGZua09KYmhXZkxVR21JXzA?oc=5",
-      "desc": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests calcalistech.com",
-      "source": "calcalistech.com",
-      "time": 1788628740.0,
-      "score": 63.5,
-      "key": "886f32f84186d99f0ce5cb201fe683338087fb095b133eab2cafcc0d585aea50",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788639306,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 41,
-      "next_retry_at": 1788660906
+      "failure_count": 16,
+      "next_retry_at": 1788661145
     },
     {
       "region": "RUSSIA",
@@ -797,10 +761,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788639306,
+      "last_failed_at": 1788639545,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 49,
-      "next_retry_at": 1788660906
+      "failure_count": 50,
+      "next_retry_at": 1788661145
     },
     {
       "region": "RUSSIA",
@@ -821,6 +785,26 @@
     },
     {
       "region": "WORLD",
+      "title": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on AMD's flagship Ryzen AI Halo platform - Tom's Hardware",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPcWhMVnBRa0ZYYXd2b3FjRHpfckpPVTlWR1M2SWVjNnI1ZkhpcDVrRGpzNDh1SzhQWExrZ0tzdUpXSXBNUm9pYnB5UVhjdFA2VDlDUTVYcGFzakNHUFpSUDBzdHp5akRpYkV3c29OYmMweWhvQzVxTnBKeWtHRk5LckRuc3ZHR2lTZlE2Wl9FMHdJZWc4VEFlMG5ITUFtb21VcTNFYmc3NUc2NHpPQmpGRl9xRW1zNVF1M21qV2N0MDdKSHltbnZiejd3QWw2djFDSlV6RTdmaE5EWE9faVJYTEw0SDZZM1pBVnF2VlB2V2xzd293T2FSR2FGT0FHZjNSUGhja2pzMm5HS1VYdmJDQWltVGs0RDBXVG1PeWxNUDd2SzlnYm0tOA?oc=5",
+      "desc": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on AMD's flagship Ryzen AI Halo platform Tom's Hardware",
+      "source": "Tom's Hardware",
+      "time": 1788628737.0,
+      "score": 62.0,
+      "key": "6edcaa4427f2de66fa197b348dc4d700c2a3ada87c9fbe9f2f9e9acbb982b4dc",
+      "importance": 62.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788639545,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 29,
+      "next_retry_at": 1788661145
+    },
+    {
+      "region": "WORLD",
       "title": "Is Gartner’s (IT) Profitability Boost Masking a Deeper Challenge in Enterprise AI Adoption? - simplywall.st",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdEl5MVIzWEk3dTdMS2J3UTl0blZZV3FZekFaOGs5NkZsc0pvWlRnMTdfWFZFbFJiODVBa3VHeWIxVmIwd1ZmMkU3VzM3ZE5RY2E1dHdzV1Y1a29jY0w5NnJxcVF0UDN5UUdXSUFLa3o5RnNncEx6YWhhQVFoajQxOTRxWEt3OGstanRhak85a1Q0Y2ZjUEVfcDBfVE1NMXJYc1hPMTRlWHZGQVIwRUkyTnhxS0dLY1hwT2IwdUZhQ3hjRUhv0gHEAUFVX3lxTE10SXkxUjNYSTd1N0xLYndROXRuVllXcVl6QVo4azk2RmxzSm9aVGcxN19YVkVsUmI4NUFrdUd5YjFWYjB3VmYyRTdXMzdkTlFjYTV0d3NXVjVrb2NjTDk2cnFxUXRQM3lRR1dJQUtrejlGc2dwTHphaGFBUWhqNDE5NHFYS3c4ay1qdGFqTzlrVDRjZmNQRV9wMF9UTU0xclhzWE8xNGVYdkZBUjBFSTJOeHFLR0tjWHBPYjB1RmFDeGNFSG8?oc=5",
       "desc": "Is Gartner’s (IT) Profitability Boost Masking a Deeper Challenge in Enterprise AI Adoption? simplywall.st",
@@ -834,10 +818,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788639306,
+      "last_failed_at": 1788639545,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788660906
+      "failure_count": 16,
+      "next_retry_at": 1788661145
     },
     {
       "region": "WORLD",
@@ -854,10 +838,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788639306,
+      "last_failed_at": 1788639545,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788660906
+      "failure_count": 10,
+      "next_retry_at": 1788661145
     },
     {
       "region": "RUSSIA",
@@ -875,17 +859,54 @@
         "agents"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI launches GPT-6 Astra, the AI model built to do more than answer questions - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSmZCNl9FQ0RXNmJTemhxVmxOdFV2TFJ1bGN3TUdTeGpiN3QwRUNVbUNJRjBqY2NCQVFuNEdUNzRqT2hQTTVsQkliZHFNemdKRC1kYVBWRkotaXRIRWhWNVR2U3pSRTlHbERRVkl3aV9MSUJGNmp4cHdQU09rak5LTjZCMU05Z3A3b1hKajU4UzJ1RXhZb19JYjltZEFBSzFiMWJFSkRQRmFZdFZ2X0NSbEZFb0V2aUJUb01DMkV1QXnSAccBQVVfeXFMT1FqNzYtOVVoTnZ4c2tjT09fRl9SeE9MMFZrUllzdVA2NVBpcUE4VjE5YjJfTElzR1Z1WDdvSzhPT0NWQ1JaVHE2YnpleUFjMTB4LTlUNndsN2cwOVdqTERSeElMaDYyQl80VEJub1FTU1VoNld1TTZjaUdIOXkzQUhzMzJxckhVS0pHWHVfVzdCR29BbENOUUpCQm9BM25FZVkyYTFYZmxUdXhrQ3c4eXNldWdUUVZMeV9Rc0tLTHpFTEYzcWFMTQ?oc=5",
+      "desc": "OpenAI launches GPT-6 Astra, the AI model built to do more than answer questions The Indian Express",
+      "source": "The Indian Express",
+      "time": 1788610500.0,
+      "score": 60.0,
+      "key": "435c53d86686d290ea251bfe50dfaa4501d27c703395b6e672204cbc0073fdb9",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788639545,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788639845
+    },
+    {
+      "region": "WORLD",
+      "title": "US Reportedly Working On Draft Regulations For Power Over Nvidia, AMD Chip Exports - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMHRyaUo2b2Y2YVVPQXp3NjNmX3NEVUE0UEMwUnZjTUp1bFo4d0NGVVVUQS1USTZ3bFVoUVQxbTF1V1lKUXNudFFBRDd0WkNubGlLM0xaWDIxTXYyY0xiOGtXM01jZmlkb3JYQTBJb05mdVJQVmJDZkcwNWRCY2hQcnBjOVNXUGZ4UUdJdGRNN1c4Vmtuc3RHV0dRYUQxVmRTSm9XOG1NV09ERVA2dDlveTJvdHIxMm4zMWNqd0pZV1J2MGh3TEpXRVZQUjV1SW9CZ3FWTEgwNU44aloxQXc?oc=5",
+      "desc": "US Reportedly Working On Draft Regulations For Power Over Nvidia, AMD Chip Exports Stocktwits",
+      "source": "Stocktwits",
+      "time": 1788602307.0,
+      "score": 60.0,
+      "key": "24c60b30e7d59ba1ee3a0bafd8ef9829550be12b5a64001aa33d1aa959b3c695",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips",
+        "security_regulation"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788639306.3986237,
+    "last_start_ts": 1788639545.8335474,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788639306.3986237,
-    "last_success_ts": 1788639306.3986237,
-    "last_candidates": 0,
+    "last_run_ts": 1788639545.8335474,
+    "last_success_ts": 1788639545.8335474,
+    "last_candidates": 33,
     "last_published": 0,
-    "queue_size": 19
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -1404,6 +1425,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788637627.3012326,
+  "last_search_ts": 1788639545.8335474,
   "last_publish_ts": 1788622283.4029808
 }
