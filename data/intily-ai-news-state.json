@@ -459,13 +459,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788575002.0918076,
+    "last_start_ts": 1788575122.184807,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788575002.0918076,
-    "last_success_ts": 1788575002.0918076,
+    "last_run_ts": 1788575122.184807,
+    "last_success_ts": 1788575122.184807,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 2
   },
   "providers": {
@@ -486,13 +486,6 @@
     }
   },
   "stories": {
-    "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": {
-      "time": 1788488697,
-      "title": "Major AI platforms suffer outages - The Express Tribune",
-      "desc": "Major AI platforms suffer outages The Express Tribune",
-      "source": "The Express Tribune",
-      "region": "WORLD"
-    },
     "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa": {
       "time": 1788488994,
       "title": "UCL and AIMS release free AI teaching toolkit for universities | ETIH EdTech News - edtechinnovationhub.com",
