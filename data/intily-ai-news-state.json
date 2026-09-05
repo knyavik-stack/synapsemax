@@ -509,7 +509,11 @@
         "agents",
         "security_regulation"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "RUSSIA",
@@ -526,7 +530,11 @@
       "topics": [
         "agents"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "RUSSIA",
@@ -541,7 +549,11 @@
       "importance": 73.2,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "RUSSIA",
@@ -558,7 +570,11 @@
       "topics": [
         "agents"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "WORLD",
@@ -613,7 +629,11 @@
       "importance": 68.3,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "RUSSIA",
@@ -631,10 +651,10 @@
         "robotics"
       ],
       "tier": "A",
-      "last_failed_at": 1788623846,
+      "last_failed_at": 1788634686,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
+      "failure_count": 7,
+      "next_retry_at": 1788653886
     },
     {
       "region": "RUSSIA",
@@ -651,7 +671,11 @@
       "topics": [
         "security_regulation"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "WORLD",
@@ -689,10 +713,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788623846,
+      "last_failed_at": 1788634686,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
+      "failure_count": 7,
+      "next_retry_at": 1788653886
     },
     {
       "region": "RUSSIA",
@@ -710,10 +734,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788623846,
+      "last_failed_at": 1788634686,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
+      "failure_count": 7,
+      "next_retry_at": 1788653886
     },
     {
       "region": "RUSSIA",
@@ -730,7 +754,11 @@
       "topics": [
         "applications"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "WORLD",
@@ -805,24 +833,6 @@
       "next_retry_at": 1788656108
     },
     {
-      "region": "WORLD",
-      "title": "Maryam Nawaz inaugurates intelligence fusion centre and AI hub in Lahore - Minute Mirror",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMUpsNTZpWmt1RVBvczBxaTE3OHFHUkc0OHo2WlpLR0NJSnA2RHhfbjVhMnN4ZlBqZzEyY19LSHVsNFpISUY3aDA0dGFydlVUV2FEYTJvSjJHZFJaNjJrUHVOc0t3cG51bkJyN2hxWVpKaVFoUDQ5WnViWVNJTGxwX1JNMVFUOFFkbEJ3WS1ydGlTSDBmSWFRUnUtTnFwbEFHd094bl9zX1hOUy1f?oc=5",
-      "desc": "Maryam Nawaz inaugurates intelligence fusion centre and AI hub in Lahore Minute Mirror",
-      "source": "Minute Mirror",
-      "time": 1788623746.0,
-      "score": 63.5,
-      "key": "ac05292d67dc63b1d84da616db1e36124e465d3451fffe739e177683db584d67",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788634508,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788656108
-    },
-    {
       "region": "RUSSIA",
       "title": "Нейросети в подборе персонала: 10 инструментов для HR — от скрининга резюме до онбординга - VC.ru",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ29xdnRfdU9xaE5fMmdFMHBPMTI2TVJyRk1oN3RZRXU0Tm5jS2hPM013Vk5ya180OVdLeVB6LWExMndJQWMtNXFFbWxkWjJNaVM5Wm1DTExHTnhoY19kbkZsaHNsTkxuaTE1ZFFtNHBoY1JKNTQ5V3ktMS11TTJ0NzB3VXhFVm9ILW1LZDFoTVMxYkF1RVZ4MlVn?oc=5",
@@ -841,14 +851,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788634508.2850435,
+    "last_start_ts": 1788634686.1256237,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788634508.2850435,
-    "last_success_ts": 1788634508.2850435,
+    "last_run_ts": 1788634686.1256237,
+    "last_success_ts": 1788634686.1256237,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
@@ -868,13 +878,6 @@
     }
   },
   "stories": {
-    "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862": {
-      "time": 1788548181,
-      "title": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах - BFM.ru",
-      "desc": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах BFM.ru",
-      "source": "BFM.ru",
-      "region": "RUSSIA"
-    },
     "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": {
       "time": 1788548480,
       "title": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? - Kalkine Media",
