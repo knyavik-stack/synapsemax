@@ -453,25 +453,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "В НовГУ объяснили вред нейросетей для критического мышления школьников - Новгородские ведомости",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XQjNySnNHa0JiSkpYaFlucVZrdlJoZ3R1aTJmREVXa0QtTzZmRGplNFExNmxUUHhiXzZvN2J5OHVsUUZzWnJSai1pak9oV3h2cDNfc05QUlF1QQ?oc=5",
-      "desc": "В НовГУ объяснили вред нейросетей для критического мышления школьников Новгородские ведомости",
-      "source": "Новгородские ведомости",
-      "time": 1788631200.0,
-      "score": 70.2,
-      "russia_weight_bonus": 4.7,
-      "key": "1ea303ab8ec210bb89b428b7d6dd4f49ac10ea9fb0d8762edde56dab3d962dd2",
-      "importance": 70.2,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788634686,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788634986
-    },
-    {
-      "region": "RUSSIA",
       "title": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVVlTS3ZUM2c1NkFnYUFOYVVPLXZ3alRzbUF1SFQ4bmRLem1keDNlVFJ0NFV3MHVIQWNuODFXc0k2c3pqVnVKOER0cExqTU5LdjZfSi1NWTc4bndZQ0ZBQVJ1LURhelRtUWVIVkxjT0prLV9jRF9CTndzTUtmRXFsVld6em5UbDBOdG9ONVoyaEJqcHZTd3hsM1p5YzVIUVEtOXRsbjRWUDNPelVIYVY2RFdzUTB6OUs3YS1UNy1RbXVaVU1jaGRVTjQzM2NPWEE?oc=5",
       "desc": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения prospect.com.ru",
@@ -506,10 +487,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788641863,
+      "last_failed_at": 1788642049,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788663463
+      "failure_count": 25,
+      "next_retry_at": 1788663649
     },
     {
       "region": "WORLD",
@@ -524,10 +505,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788641863,
+      "last_failed_at": 1788642049,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788663463
+      "failure_count": 25,
+      "next_retry_at": 1788663649
     },
     {
       "region": "RUSSIA",
@@ -627,10 +608,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788641863,
+      "last_failed_at": 1788642049,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 18,
-      "next_retry_at": 1788663463
+      "failure_count": 19,
+      "next_retry_at": 1788663649
     },
     {
       "region": "RUSSIA",
@@ -668,10 +649,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788641863,
+      "last_failed_at": 1788642049,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 58,
-      "next_retry_at": 1788663463
+      "failure_count": 59,
+      "next_retry_at": 1788663649
     },
     {
       "region": "RUSSIA",
@@ -705,10 +686,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788641863,
+      "last_failed_at": 1788642049,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 37,
-      "next_retry_at": 1788663463
+      "failure_count": 38,
+      "next_retry_at": 1788663649
     },
     {
       "region": "WORLD",
@@ -725,10 +706,29 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788641863,
+      "last_failed_at": 1788642049,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788663463
+      "failure_count": 25,
+      "next_retry_at": 1788663649
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В НовГУ объяснили вред нейросетей для критического мышления школьников - Новгородские ведомости",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XQjNySnNHa0JiSkpYaFlucVZrdlJoZ3R1aTJmREVXa0QtTzZmRGplNFExNmxUUHhiXzZvN2J5OHVsUUZzWnJSai1pak9oV3h2cDNfc05QUlF1QQ?oc=5",
+      "desc": "В НовГУ объяснили вред нейросетей для критического мышления школьников Новгородские ведомости",
+      "source": "Новгородские ведомости",
+      "time": 1788631200.0,
+      "score": 60.7,
+      "russia_weight_bonus": 4.7,
+      "key": "1ea303ab8ec210bb89b428b7d6dd4f49ac10ea9fb0d8762edde56dab3d962dd2",
+      "importance": 60.7,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "RUSSIA",
@@ -762,10 +762,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788641863,
+      "last_failed_at": 1788642049,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 46,
-      "next_retry_at": 1788663463
+      "failure_count": 47,
+      "next_retry_at": 1788663649
     },
     {
       "region": "WORLD",
@@ -782,10 +782,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788641863,
+      "last_failed_at": 1788642049,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788663463
+      "failure_count": 10,
+      "next_retry_at": 1788663649
     },
     {
       "region": "WORLD",
@@ -803,18 +803,18 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788641863,
+      "last_failed_at": 1788642049,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788646663
+      "failure_count": 6,
+      "next_retry_at": 1788651649
     }
   ],
   "health": {
-    "last_start_ts": 1788641863.4978373,
+    "last_start_ts": 1788642049.4319575,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788641863.4978373,
-    "last_success_ts": 1788641863.4978373,
+    "last_run_ts": 1788642049.4319575,
+    "last_success_ts": 1788642049.4319575,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 18
