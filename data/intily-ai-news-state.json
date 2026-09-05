@@ -454,18 +454,18 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788577042,
+      "last_failed_at": 1788577100,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 7,
-      "next_retry_at": 1788596242
+      "failure_count": 8,
+      "next_retry_at": 1788598700
     }
   ],
   "health": {
-    "last_start_ts": 1788577042.6445642,
+    "last_start_ts": 1788577100.5805051,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788577042.6445642,
-    "last_success_ts": 1788577042.6445642,
+    "last_run_ts": 1788577100.5805051,
+    "last_success_ts": 1788577100.5805051,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 2
@@ -474,7 +474,7 @@
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788577046.050938
+      "updated_at": 1788577103.4354987
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -488,13 +488,6 @@
     }
   },
   "stories": {
-    "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": {
-      "time": 1788490678,
-      "title": "GitHub Copilot App Adds Parallel Agent Sessions for Developers - blockchain.news",
-      "desc": "GitHub Copilot App Adds Parallel Agent Sessions for Developers blockchain.news",
-      "source": "blockchain.news",
-      "region": "WORLD"
-    },
     "f5fff7434e3f589eeebc93c9587258ff21edd05e0611e13078c94bc8070fd5e2": {
       "time": 1788490858,
       "title": "Hong Kong Polytechnic University Joins Hands with Diagens Tech to Propel Medical AI into the Age of AI Agents | Corporate - EQS News",
