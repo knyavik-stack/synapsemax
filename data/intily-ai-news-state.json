@@ -490,7 +490,14 @@
     "ac05292d67dc63b1d84da616db1e36124e465d3451fffe739e177683db584d67": 1788633667.3137622,
     "0fc87a416d453ac6562573865d2d8a5523874a634f27e904fc0ccb2e34875fbd": 1788633667.3137622,
     "6d1852dd05921e9c756449a6be684625fff970ca106803c4acd3a83d178edf17": 1788633667.3137622,
-    "6bc3379b500bf0a2f5080c5dcfe07c9b3e53ef7f7d1499a4360ddb19a45920b4": 1788633667.3137622
+    "6bc3379b500bf0a2f5080c5dcfe07c9b3e53ef7f7d1499a4360ddb19a45920b4": 1788633667.3137622,
+    "4a30001e2548fa26871459059f14ca29be95b71d626d130f0fd0f98591136545": 1788635766.10693,
+    "794772b61d9fe5282d3bcaf0344d0e78f59ca75935995ff0b983bedfcbf18413": 1788635766.10693,
+    "e37c6e857e86f9eaabb06bb2c927f5c07f63f580734dad1f0879149b6cbf0eec": 1788635766.10693,
+    "0ccfb2ca57fc62e7bedbb506e805519723c272f28362aa75543dad734dd4c470": 1788635766.10693,
+    "061353ee60fa16461e11eeaa12df6d10d2635e7b0809460ae52894221fcf4b44": 1788635766.10693,
+    "599d52174c9ef591541d71c42a0166857ae9e5b30aa3b41d8f95fc05df8e7fef": 1788635766.10693,
+    "3d02de43adbffedec88859b74e2bdda427b7793ec5027dac220920de4452b52d": 1788635766.10693
   },
   "queue": [
     {
@@ -538,6 +545,44 @@
     },
     {
       "region": "WORLD",
+      "title": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbkZ2VWc0U3JGWm1aN09Tb2dMTEh4cnY1c0hsUzM2WmlNMHlPTkN6OUxsTkZSLWdaVGhJS0ltRVFVbWwxQU10dTRJMFp0WHdjUTVMUEsyUGxDcnFPblZRdXRjbm0tYjlPTmxUT1MyU3l3UFlweDc1Z25rU1hCUXlnMjRQYV9GdGRMRzVtWmluUVhQT0VOclRrNQ?oc=5",
+      "desc": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings The Motley Fool",
+      "source": "The Motley Fool",
+      "time": 1788635058.0,
+      "score": 70.5,
+      "key": "4a30001e2548fa26871459059f14ca29be95b71d626d130f0fd0f98591136545",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788635766,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788636066
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 - INDIA New England News",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2N2QUNkQkFnODd3Q2FENHVSUERPOGh0b190d3U5RTRaUUFwMFFJWWlFZDNQWEhQM2ljWW44YnJxTVFIdWc4QUljN0pRM05FZ1VUYXNpTUJVZUFiaWo1ZHJyaWRrTlJGU3J3Y0tCMVpoMHlUbXBQWEN1RnVSTDFkbFY0ZWtVWVVwR0gySXJzenUwV0FSYi0zQ253OUxIRXB2eVhN?oc=5",
+      "desc": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 INDIA New England News",
+      "source": "INDIA New England News",
+      "time": 1788634839.0,
+      "score": 70.5,
+      "key": "794772b61d9fe5282d3bcaf0344d0e78f59ca75935995ff0b983bedfcbf18413",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788635766,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788636066
+    },
+    {
+      "region": "WORLD",
       "title": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work - AI Insider",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONG0xZHRoTGJmcEc2Z3hqUkpkM3ZPNEF2ajRFYll3UmNDMGdvTjJVY0d1NUM5bFpnUnVGZ3pnblJEeEk5V1FONW8yLWs1R2liRUpGSnhvWS1uVjVhdU5QMldXQXowZXM0VDRDN2hWRjcxcXFoZFNKSGhKOC1YQjIxUHF5Tm9INExsMmx2ZXdRSHdHQmVYUV9MOUZtQWoxQW1kRVB4UXJGT0t3TlNOYkE3S25lUUFLd2M?oc=5",
       "desc": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work AI Insider",
@@ -551,10 +596,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788635409,
+      "last_failed_at": 1788635766,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 34,
-      "next_retry_at": 1788657009
+      "failure_count": 35,
+      "next_retry_at": 1788657366
     },
     {
       "region": "RUSSIA",
@@ -590,10 +635,30 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788635409,
+      "last_failed_at": 1788635766,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788657009
+      "failure_count": 14,
+      "next_retry_at": 1788657366
+    },
+    {
+      "region": "WORLD",
+      "title": "Is Gartner’s (IT) Profitability Boost Masking a Deeper Challenge in Enterprise AI Adoption? - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdEl5MVIzWEk3dTdMS2J3UTl0blZZV3FZekFaOGs5NkZsc0pvWlRnMTdfWFZFbFJiODVBa3VHeWIxVmIwd1ZmMkU3VzM3ZE5RY2E1dHdzV1Y1a29jY0w5NnJxcVF0UDN5UUdXSUFLa3o5RnNncEx6YWhhQVFoajQxOTRxWEt3OGstanRhak85a1Q0Y2ZjUEVfcDBfVE1NMXJYc1hPMTRlWHZGQVIwRUkyTnhxS0dLY1hwT2IwdUZhQ3hjRUhv0gHEAUFVX3lxTE10SXkxUjNYSTd1N0xLYndROXRuVllXcVl6QVo4azk2RmxzSm9aVGcxN19YVkVsUmI4NUFrdUd5YjFWYjB3VmYyRTdXMzdkTlFjYTV0d3NXVjVrb2NjTDk2cnFxUXRQM3lRR1dJQUtrejlGc2dwTHphaGFBUWhqNDE5NHFYS3c4ay1qdGFqTzlrVDRjZmNQRV9wMF9UTU0xclhzWE8xNGVYdkZBUjBFSTJOeHFLR0tjWHBPYjB1RmFDeGNFSG8?oc=5",
+      "desc": "Is Gartner’s (IT) Profitability Boost Masking a Deeper Challenge in Enterprise AI Adoption? simplywall.st",
+      "source": "simplywall.st",
+      "time": 1788625911.0,
+      "score": 69.5,
+      "key": "e37c6e857e86f9eaabb06bb2c927f5c07f63f580734dad1f0879149b6cbf0eec",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788635766,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788636066
     },
     {
       "region": "RUSSIA",
@@ -650,10 +715,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788635409,
+      "last_failed_at": 1788635766,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 22,
-      "next_retry_at": 1788657009
+      "failure_count": 23,
+      "next_retry_at": 1788657366
     },
     {
       "region": "RUSSIA",
@@ -720,6 +785,24 @@
     },
     {
       "region": "WORLD",
+      "title": "AI Week in Review 26.09.05 - Substack",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40aEV5VGNMYmo2V1Bqb2xvLUlMYi1RRVlaZVdOTElxcDg0bDJ3LVBpNUdyREJEZEw1MnlMODlwVEgweXRpT0Vqd1JHZzluQmR3LTlmaG0tZTQxLUhtZWNhbld1cjQxOGMwcVVTdmJB?oc=5",
+      "desc": "AI Week in Review 26.09.05 Substack",
+      "source": "Substack",
+      "time": 1788629886.0,
+      "score": 63.5,
+      "key": "0ccfb2ca57fc62e7bedbb506e805519723c272f28362aa75543dad734dd4c470",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788635766,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788636066
+    },
+    {
+      "region": "WORLD",
       "title": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests - calcalistech.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00dTRBYnJjWl84cHMzbC1QZWVlb0ZUd0JKMnVVX1kyQ191NlR2UXFDLUdWVGt2WW9TS1JkODNKVW5hSVFfNU0xYVZDcWxLUTMxRXFwalpoMGZua09KYmhXZkxVR21JXzA?oc=5",
       "desc": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests calcalistech.com",
@@ -731,10 +814,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788635409,
+      "last_failed_at": 1788635766,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 26,
-      "next_retry_at": 1788657009
+      "failure_count": 27,
+      "next_retry_at": 1788657366
     },
     {
       "region": "WORLD",
@@ -749,46 +832,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788635409,
+      "last_failed_at": 1788635766,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 34,
-      "next_retry_at": 1788657009
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI Acknowledges ‘Wiki Incident’ and Need for More Transparency Around Unintended AI Behavior - ASHARQ AL-AWSAT English",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUVlyaHB2RHZmQzAwY1Z3UVppNVRvZ2tNQnIzaktyRXZGTFQ1MzBoejRsMkVoTkJoTE1Qb0xZd3hPaUZEVjloTHJyVkJxVWk2RG5iN1ZoQmlQZ2tYOFpIVHpmdGMxSl83S1c1a2NnTmFhck9nTGdYR28yOU96TXAwMG9qMkY4bmJHRnBnRTk3X1ZhQ0FEejJSbU80UGVqTUlUZmEwVHNLYWNpckJPYTlSVTVqM1NYc3BNZFBYTTBJN3J3eS1MRkY2ejBwZHNGbC1Ub2hpamM0MlhUZw?oc=5",
-      "desc": "OpenAI Acknowledges ‘Wiki Incident’ and Need for More Transparency Around Unintended AI Behavior ASHARQ AL-AWSAT English",
-      "source": "ASHARQ AL-AWSAT English",
-      "time": 1788625888.0,
-      "score": 63.5,
-      "key": "955d10be991a9a209be8707b4c0f96e62b97867bf0242334fbc7f5feded27cdb",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788635409,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 34,
-      "next_retry_at": 1788657009
-    },
-    {
-      "region": "WORLD",
-      "title": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' - ibtimes.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbTgtTjU3dFFFbHhWcEVyalVEMHdZbm5QXzFkMkU2NzNDYklRNWlKSTk4Y2dLVy1KVEVLaWE3TUtETFRhVVFDdnVGN2paV05jX0hCNWsyUEdNa3dvZjJGejlxcURjVUVwZ0hjQ0Vzb1BXNGVEZDhCb2Y0RExtaGRRcWM1aUJKbE9MeVNUTWFWMTQ?oc=5",
-      "desc": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' ibtimes.co.uk",
-      "source": "ibtimes.co.uk",
-      "time": 1788625192.0,
-      "score": 63.5,
-      "key": "6ac8c4d61036cd51a1483feef3256e95b8482d735585304952c3ac974361e41d",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788635409,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 44,
-      "next_retry_at": 1788657009
+      "failure_count": 35,
+      "next_retry_at": 1788657366
     },
     {
       "region": "RUSSIA",
@@ -827,17 +874,34 @@
         "tools"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "OpenAI признала сокрытие атаки ИИ-агентов на немецкую вики - Techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQnJvVlpWbVMtMXcwZXFoSXZEUm12dVF0Y1pfb3dHQ0FFaUFDMlg1TElVaXc4QVRnbjZ5ZVZkaWs1dHJEaXdmcVY4VFVIeEp0OGdUVTR2T2RhblNldDlmTUVuVmV6OXktbHl0eTlYNmlQWnVRUkl0dHczUE1tdnM0Rk5n?oc=5",
+      "desc": "OpenAI признала сокрытие атаки ИИ-агентов на немецкую вики Techora.ru",
+      "source": "Techora.ru",
+      "time": 1788606990.0,
+      "score": 60.4,
+      "russia_weight_bonus": 4.4,
+      "key": "061353ee60fa16461e11eeaa12df6d10d2635e7b0809460ae52894221fcf4b44",
+      "importance": 60.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788635409.006729,
+    "last_start_ts": 1788635766.10693,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788635409.006729,
-    "last_success_ts": 1788635409.006729,
-    "last_candidates": 0,
+    "last_run_ts": 1788635766.10693,
+    "last_success_ts": 1788635766.10693,
+    "last_candidates": 49,
     "last_published": 0,
-    "queue_size": 17
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -1433,6 +1497,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788633667.3137622,
+  "last_search_ts": 1788635766.10693,
   "last_publish_ts": 1788622283.4029808
 }
