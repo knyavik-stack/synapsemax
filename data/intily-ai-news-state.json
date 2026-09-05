@@ -448,13 +448,13 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788566300.563336,
+    "last_start_ts": 1788566541.4166481,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788566300.563336,
-    "last_success_ts": 1788566300.563336,
-    "last_candidates": 47,
-    "last_published": 1,
+    "last_run_ts": 1788566541.4166481,
+    "last_success_ts": 1788566541.4166481,
+    "last_candidates": 45,
+    "last_published": 0,
     "queue_size": 0
   },
   "providers": {
@@ -475,13 +475,6 @@
     }
   },
   "stories": {
-    "801262f495ed2be25b8db633c08731173098631426d08860a31c7c8d8fab48e3": {
-      "time": 1788479936,
-      "title": "Внедрение ИИ в бизнес: почему умной модели недостаточно - Т-Бизнес секреты",
-      "desc": "Внедрение ИИ в бизнес: почему умной модели недостаточно Т-Бизнес секреты",
-      "source": "Т-Бизнес секреты",
-      "region": "RUSSIA"
-    },
     "d6a950eb103966e7a422854ecefb489df73e1e073af8e4d9f37963a0dcf1dafe": {
       "time": 1788480175,
       "title": "Сбер объединил российские и индийские агентства на одной платформе - Muksun.fm",
@@ -2122,6 +2115,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788566300.563336,
+  "last_search_ts": 1788566541.4166481,
   "last_publish_ts": 1788566300.563336
 }
