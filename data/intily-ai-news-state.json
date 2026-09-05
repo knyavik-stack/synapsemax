@@ -558,10 +558,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788635766,
+      "last_failed_at": 1788635946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788636066
+      "failure_count": 2,
+      "next_retry_at": 1788636546
     },
     {
       "region": "WORLD",
@@ -576,10 +576,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788635766,
+      "last_failed_at": 1788635946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788636066
+      "failure_count": 2,
+      "next_retry_at": 1788636546
     },
     {
       "region": "WORLD",
@@ -596,10 +596,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788635766,
+      "last_failed_at": 1788635946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 35,
-      "next_retry_at": 1788657366
+      "failure_count": 36,
+      "next_retry_at": 1788657546
     },
     {
       "region": "RUSSIA",
@@ -635,10 +635,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788635766,
+      "last_failed_at": 1788635946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788657366
+      "failure_count": 15,
+      "next_retry_at": 1788657546
     },
     {
       "region": "WORLD",
@@ -655,10 +655,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788635766,
+      "last_failed_at": 1788635946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788636066
+      "failure_count": 2,
+      "next_retry_at": 1788636546
     },
     {
       "region": "RUSSIA",
@@ -715,10 +715,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788635766,
+      "last_failed_at": 1788635946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788657366
+      "failure_count": 24,
+      "next_retry_at": 1788657546
     },
     {
       "region": "RUSSIA",
@@ -796,10 +796,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788635766,
+      "last_failed_at": 1788635946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788636066
+      "failure_count": 2,
+      "next_retry_at": 1788636546
     },
     {
       "region": "WORLD",
@@ -814,10 +814,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788635766,
+      "last_failed_at": 1788635946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 27,
-      "next_retry_at": 1788657366
+      "failure_count": 28,
+      "next_retry_at": 1788657546
     },
     {
       "region": "WORLD",
@@ -832,10 +832,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788635766,
+      "last_failed_at": 1788635946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 35,
-      "next_retry_at": 1788657366
+      "failure_count": 36,
+      "next_retry_at": 1788657546
     },
     {
       "region": "RUSSIA",
@@ -894,12 +894,12 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788635766.10693,
+    "last_start_ts": 1788635946.9466186,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788635766.10693,
-    "last_success_ts": 1788635766.10693,
-    "last_candidates": 49,
+    "last_run_ts": 1788635946.9466186,
+    "last_success_ts": 1788635946.9466186,
+    "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
   },
@@ -921,13 +921,6 @@
     }
   },
   "stories": {
-    "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": {
-      "time": 1788549382,
-      "title": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов - prospect.com.ru",
-      "desc": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": {
       "time": 1788549621,
       "title": "Google launches Lyria 3.5: Everything you need to know about its AI music model - The News International",
