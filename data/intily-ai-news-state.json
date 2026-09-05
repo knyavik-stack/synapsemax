@@ -487,10 +487,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788642049,
+      "last_failed_at": 1788642103,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 25,
-      "next_retry_at": 1788663649
+      "failure_count": 26,
+      "next_retry_at": 1788663703
     },
     {
       "region": "WORLD",
@@ -505,10 +505,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788642049,
+      "last_failed_at": 1788642103,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 25,
-      "next_retry_at": 1788663649
+      "failure_count": 26,
+      "next_retry_at": 1788663703
     },
     {
       "region": "RUSSIA",
@@ -608,10 +608,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788642049,
+      "last_failed_at": 1788642103,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788663649
+      "failure_count": 20,
+      "next_retry_at": 1788663703
     },
     {
       "region": "RUSSIA",
@@ -649,10 +649,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788642049,
+      "last_failed_at": 1788642103,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 59,
-      "next_retry_at": 1788663649
+      "failure_count": 60,
+      "next_retry_at": 1788663703
     },
     {
       "region": "RUSSIA",
@@ -686,10 +686,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788642049,
+      "last_failed_at": 1788642103,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 38,
-      "next_retry_at": 1788663649
+      "failure_count": 39,
+      "next_retry_at": 1788663703
     },
     {
       "region": "WORLD",
@@ -706,10 +706,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788642049,
+      "last_failed_at": 1788642103,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 25,
-      "next_retry_at": 1788663649
+      "failure_count": 26,
+      "next_retry_at": 1788663703
     },
     {
       "region": "RUSSIA",
@@ -762,10 +762,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788642049,
+      "last_failed_at": 1788642103,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 47,
-      "next_retry_at": 1788663649
+      "failure_count": 48,
+      "next_retry_at": 1788663703
     },
     {
       "region": "WORLD",
@@ -782,10 +782,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788642049,
+      "last_failed_at": 1788642103,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788663649
+      "failure_count": 11,
+      "next_retry_at": 1788663703
     },
     {
       "region": "WORLD",
@@ -803,18 +803,18 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788642049,
+      "last_failed_at": 1788642103,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788651649
+      "failure_count": 7,
+      "next_retry_at": 1788661303
     }
   ],
   "health": {
-    "last_start_ts": 1788642049.4319575,
+    "last_start_ts": 1788642103.1203077,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788642049.4319575,
-    "last_success_ts": 1788642049.4319575,
+    "last_run_ts": 1788642103.1203077,
+    "last_success_ts": 1788642103.1203077,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 18
@@ -837,13 +837,6 @@
     }
   },
   "stories": {
-    "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": {
-      "time": 1788555683,
-      "title": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? - vc.ru",
-      "desc": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? vc.ru",
-      "source": "vc.ru",
-      "region": "RUSSIA"
-    },
     "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": {
       "time": 1788555921,
       "title": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques - gbhackers.com",
