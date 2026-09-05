@@ -372,7 +372,8 @@
     "e09b60566453a7067efb0b2b0a3fe97bc9abd851b9f8d21aef0aaf57b0977f75": 1788575002,
     "2aae95a84de08071c1a6a2de00c7835643a83b085e69ce509e3461a7ff433af8": 1788575419,
     "f62ba81d899bb70f8dd0fc978f2a399c4ea00ac03de55fd6192ad3c3755bdc0a": 1788575604,
-    "561f95128b977429fbb46addbb77a2acafa171f044b370066b5cef57c272adc5": 1788575900
+    "561f95128b977429fbb46addbb77a2acafa171f044b370066b5cef57c272adc5": 1788575900,
+    "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f": 1788576139
   },
   "known": {
     "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555201.4978535,
@@ -464,41 +465,27 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788575900,
+      "last_failed_at": 1788576139,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 2,
-      "next_retry_at": 1788576500
-    },
-    {
-      "region": "WORLD",
-      "title": "Hollywood told director Maggie Gyllenhaal to use AI to imagine Marilyn Monroe at 100 — it didn’t work - Newswav",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbXFQSjF3czVPOWE1bTZodXNZVnJ6MUN3ZXZhT3ZON2N6aThHZ1I2bHEtbFVySjhva0tYZFh4Mmt5Q2QyQkNhSDVEVEVFekJTOGhobjlpa1BiNDA5S3VWcTNoNVB1dC1oUVZ3ZEN2cnJMeHN4dDRXX1JVZHI0ZFdLWUthMlUwa0VTbzV6b3pFbXBXZHh1R3FadGxnTXBJRmpTdEIybHhJNXhFOGNrenpEMjR4X1ZRUjg?oc=5",
-      "desc": "Hollywood told director Maggie Gyllenhaal to use AI to imagine Marilyn Monroe at 100 — it didn’t work Newswav",
-      "source": "Newswav",
-      "time": 1788572395.0,
-      "score": 66.5,
-      "key": "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
+      "failure_count": 3,
+      "next_retry_at": 1788577339
     }
   ],
   "health": {
-    "last_start_ts": 1788575962.18556,
+    "last_start_ts": 1788576139.984264,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788575962.18556,
-    "last_success_ts": 1788575962.18556,
+    "last_run_ts": 1788576139.984264,
+    "last_success_ts": 1788576139.984264,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 3
+    "last_published": 1,
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788575908.066702
+      "updated_at": 1788576145.4883983
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -512,13 +499,6 @@
     }
   },
   "stories": {
-    "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": {
-      "time": 1788489597,
-      "title": "LG Opens Spark 2026 With Nvidia, Google - businesskorea.co.kr",
-      "desc": "LG Opens Spark 2026 With Nvidia, Google businesskorea.co.kr",
-      "source": "businesskorea.co.kr",
-      "region": "WORLD"
-    },
     "a1c581330ab4567352ba776d3e6b318410ce13e56baa57883df74e4bce26cbf9": {
       "time": 1788490678,
       "title": "GitHub Copilot App Adds Parallel Agent Sessions for Developers - blockchain.news",
@@ -2023,6 +2003,13 @@
       "desc": "AI Push in Assam Schools: SSA Signs Six MoUs for Technology-Enabled Learning The Sentinel - of this Land, for its People",
       "source": "The Sentinel - of this Land, for its People",
       "region": "WORLD"
+    },
+    "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f": {
+      "time": 1788576139,
+      "title": "Hollywood told director Maggie Gyllenhaal to use AI to imagine Marilyn Monroe at 100 — it didn’t work - Newswav",
+      "desc": "Hollywood told director Maggie Gyllenhaal to use AI to imagine Marilyn Monroe at 100 — it didn’t work Newswav",
+      "source": "Newswav",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -2030,7 +2017,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2040,6 +2026,7 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2048,5 +2035,5 @@
     "WORLD"
   ],
   "last_search_ts": 1788575539.6039212,
-  "last_publish_ts": 1788575900.3809376
+  "last_publish_ts": 1788576139.984264
 }
