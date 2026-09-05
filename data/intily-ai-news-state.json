@@ -363,18 +363,6 @@
     "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641
   },
   "known": {
-    "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": 1788547820.6748672,
-    "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": 1788547820.6748672,
-    "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": 1788547820.6748672,
-    "2b5854e7701d95bd884629d5eb0517f1c4381f2e60cf85fed860baf3707d81f4": 1788547820.6748672,
-    "957ce34df3510c6c05833acd189d773cd71a3980f02e09269e8a0768459d5d0f": 1788547820.6748672,
-    "00f7c386956ffd821634bd9d6c2667eb9623f9230b04add2214fefb96ccdd7bb": 1788547820.6748672,
-    "389e1d4bda3b97abbf48b9f55d4aa3977734430d12387488c84da309e6ec6785": 1788547820.6748672,
-    "db10def415b2ca336ac3631eddf05a0087b2b3b895c34d0f42bb6edaac02937d": 1788547820.6748672,
-    "41ad6018e6f976ad0b3e212fa200b7333d8958173638dd273d826511f7af1c8f": 1788547820.6748672,
-    "70158e64a0557b3958677488aa6de94d574984c903b5e296b015427b47422f94": 1788547820.6748672,
-    "bd4a07288a11e7a70ad3226c73131449aa6ce736d82cb3fca077f45a9795cf03": 1788547820.6748672,
-    "33da60480e96e75a4272a1f422f2bd000b5470aade1372e7f82b520b7dc639af": 1788547820.6748672,
     "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": 1788549621.7329698,
     "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": 1788549621.7329698,
     "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": 1788549621.7329698,
@@ -441,12 +429,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788569420.1182516,
+    "last_start_ts": 1788569541.240097,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788569420.1182516,
-    "last_success_ts": 1788569420.1182516,
-    "last_candidates": 37,
+    "last_run_ts": 1788569541.240097,
+    "last_success_ts": 1788569541.240097,
+    "last_candidates": 40,
     "last_published": 0,
     "queue_size": 0
   },
@@ -468,13 +456,6 @@
     }
   },
   "stories": {
-    "eda7f1adf120bc9056f8b8cc828697a48f03bce7af09324c90a54ff88ee25b85": {
-      "time": 1788483115,
-      "title": "Robotaxis London, OpenAI humanoid plans, MIT AV insights - blockchain.news",
-      "desc": "Robotaxis London, OpenAI humanoid plans, MIT AV insights blockchain.news",
-      "source": "blockchain.news",
-      "region": "WORLD"
-    },
     "d9b7d150995d7bc1b05f615816f31deebc35437cf67fe441d4605e189ddb21da": {
       "time": 1788483297,
       "title": "OpenAI GPT6 Astra demo sparks 2026 hype - blockchain.news",
@@ -2052,6 +2033,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788569420.1182516,
+  "last_search_ts": 1788569541.240097,
   "last_publish_ts": 1788568641.0768464
 }
