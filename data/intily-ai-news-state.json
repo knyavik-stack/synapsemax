@@ -536,10 +536,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788636847,
+      "last_failed_at": 1788637026,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788641647
+      "failure_count": 6,
+      "next_retry_at": 1788646626
     },
     {
       "region": "WORLD",
@@ -554,10 +554,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636847,
+      "last_failed_at": 1788637026,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788641647
+      "failure_count": 6,
+      "next_retry_at": 1788646626
     },
     {
       "region": "RUSSIA",
@@ -593,10 +593,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788636847,
+      "last_failed_at": 1788637026,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 18,
-      "next_retry_at": 1788658447
+      "failure_count": 19,
+      "next_retry_at": 1788658626
     },
     {
       "region": "RUSSIA",
@@ -634,10 +634,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788636847,
+      "last_failed_at": 1788637026,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 27,
-      "next_retry_at": 1788658447
+      "failure_count": 28,
+      "next_retry_at": 1788658626
     },
     {
       "region": "RUSSIA",
@@ -716,10 +716,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636847,
+      "last_failed_at": 1788637026,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788641647
+      "failure_count": 6,
+      "next_retry_at": 1788646626
     },
     {
       "region": "WORLD",
@@ -734,10 +734,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636847,
+      "last_failed_at": 1788637026,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 31,
-      "next_retry_at": 1788658447
+      "failure_count": 32,
+      "next_retry_at": 1788658626
     },
     {
       "region": "WORLD",
@@ -752,10 +752,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636847,
+      "last_failed_at": 1788637026,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 39,
-      "next_retry_at": 1788658447
+      "failure_count": 40,
+      "next_retry_at": 1788658626
     },
     {
       "region": "RUSSIA",
@@ -793,10 +793,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788636847,
+      "last_failed_at": 1788637026,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 39,
-      "next_retry_at": 1788658447
+      "failure_count": 40,
+      "next_retry_at": 1788658626
     },
     {
       "region": "RUSSIA",
@@ -830,10 +830,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788636847,
+      "last_failed_at": 1788637026,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788641647
+      "failure_count": 6,
+      "next_retry_at": 1788646626
     },
     {
       "region": "RUSSIA",
@@ -854,11 +854,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788636847.0403113,
+    "last_start_ts": 1788637026.141189,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788636847.0403113,
-    "last_success_ts": 1788636847.0403113,
+    "last_run_ts": 1788637026.141189,
+    "last_success_ts": 1788637026.141189,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 18
@@ -881,13 +881,6 @@
     }
   },
   "stories": {
-    "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": {
-      "time": 1788550461,
-      "title": "Researchers Document OpenAI Agent Swarm That Repurposed German Wiki - Unite.AI",
-      "desc": "Researchers Document OpenAI Agent Swarm That Repurposed German Wiki Unite.AI",
-      "source": "Unite.AI",
-      "region": "WORLD"
-    },
     "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": {
       "time": 1788550825,
       "title": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России - Национальная Служба Новостей",
