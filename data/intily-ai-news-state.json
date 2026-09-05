@@ -427,12 +427,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788579081.35473,
+    "last_start_ts": 1788579380.9271595,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788579081.35473,
-    "last_success_ts": 1788579081.35473,
-    "last_candidates": 33,
+    "last_run_ts": 1788579380.9271595,
+    "last_success_ts": 1788579380.9271595,
+    "last_candidates": 31,
     "last_published": 0,
     "queue_size": 0
   },
@@ -454,13 +454,6 @@
     }
   },
   "stories": {
-    "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": {
-      "time": 1788492773,
-      "title": "Крупнейшая ИТ-компания России проводит курсы по ИИ для школьников Башкирии - Уфимские нивы",
-      "desc": "Крупнейшая ИТ-компания России проводит курсы по ИИ для школьников Башкирии Уфимские нивы",
-      "source": "Уфимские нивы",
-      "region": "RUSSIA"
-    },
     "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": {
       "time": 1788493015,
       "title": "AI Tennis Training Robots: ACEMATE Has Unveiled Its ACEMATE S10 Pro at IFA 2026 - Trend Hunter",
@@ -1968,6 +1961,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788579081.35473,
+  "last_search_ts": 1788579380.9271595,
   "last_publish_ts": 1788578780.5315773
 }
