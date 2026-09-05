@@ -463,13 +463,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788573439.7071924,
+    "last_start_ts": 1788573566.3419464,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788573439.7071924,
-    "last_success_ts": 1788573439.7071924,
+    "last_run_ts": 1788573566.3419464,
+    "last_success_ts": 1788573566.3419464,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 2
   },
   "providers": {
@@ -490,13 +490,6 @@
     }
   },
   "stories": {
-    "0b9dc7966f57b4ce77a54ac9a6402e6524f49cab5e4480073c3e934df7cc2b85": {
-      "time": 1788487050,
-      "title": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data - retailnews.asia",
-      "desc": "Retail Asia Summit 2026 Sets Singapore Agenda for Responsible AI and Unified Data retailnews.asia",
-      "source": "retailnews.asia",
-      "region": "WORLD"
-    },
     "0722a4908e982aac04a2c0756d8ebff6b41d27641977c1dedda247a9e9871501": {
       "time": 1788487314,
       "title": "OpenAI Video unveils creation tools - blockchain.news",
