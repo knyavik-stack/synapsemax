@@ -561,10 +561,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788662563
+      "failure_count": 21,
+      "next_retry_at": 1788662862
     },
     {
       "region": "WORLD",
@@ -579,10 +579,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788662563
+      "failure_count": 21,
+      "next_retry_at": 1788662862
     },
     {
       "region": "WORLD",
@@ -599,10 +599,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 42,
-      "next_retry_at": 1788662563
+      "failure_count": 43,
+      "next_retry_at": 1788662862
     },
     {
       "region": "RUSSIA",
@@ -702,10 +702,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788662563
+      "failure_count": 15,
+      "next_retry_at": 1788662862
     },
     {
       "region": "RUSSIA",
@@ -743,10 +743,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 54,
-      "next_retry_at": 1788662563
+      "failure_count": 55,
+      "next_retry_at": 1788662862
     },
     {
       "region": "RUSSIA",
@@ -780,10 +780,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 33,
-      "next_retry_at": 1788662563
+      "failure_count": 34,
+      "next_retry_at": 1788662862
     },
     {
       "region": "WORLD",
@@ -800,10 +800,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788662563
+      "failure_count": 21,
+      "next_retry_at": 1788662862
     },
     {
       "region": "WORLD",
@@ -820,10 +820,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788662563
+      "failure_count": 15,
+      "next_retry_at": 1788662862
     },
     {
       "region": "RUSSIA",
@@ -857,10 +857,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788645763
+      "failure_count": 6,
+      "next_retry_at": 1788650862
     },
     {
       "region": "WORLD",
@@ -878,18 +878,18 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788640963,
+      "last_failed_at": 1788641262,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788641263
+      "failure_count": 2,
+      "next_retry_at": 1788641862
     }
   ],
   "health": {
-    "last_start_ts": 1788640963.391648,
+    "last_start_ts": 1788641262.0871935,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788640963.391648,
-    "last_success_ts": 1788640963.391648,
+    "last_run_ts": 1788641262.0871935,
+    "last_success_ts": 1788641262.0871935,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 19
@@ -912,13 +912,6 @@
     }
   },
   "stories": {
-    "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": {
-      "time": 1788554782,
-      "title": "Sanders Calls for Lifelong US AI Ban and 20-Year Prison Terms - RS Web Solutions",
-      "desc": "Sanders Calls for Lifelong US AI Ban and 20-Year Prison Terms RS Web Solutions",
-      "source": "RS Web Solutions",
-      "region": "WORLD"
-    },
     "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": {
       "time": 1788555201,
       "title": "Accrual To Acquire Puzzle To Expand AI Platform Into Client Accounting Services - Pulse 2.0",
