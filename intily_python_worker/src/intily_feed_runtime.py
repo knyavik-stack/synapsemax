@@ -78,38 +78,39 @@ async def _fetch_bytes(url, timeout=6, headers=None):
     return (await response.text()).encode('utf-8')
 
 
-async def _google_fetch(url, timeout=6, browser_binding=None):
+async def _google_fetch(url, timeout=12, browser_binding=None):
     await asyncio.sleep(random.uniform(GOOGLE_MIN_DELAY, GOOGLE_MAX_DELAY))
-    try:
-        return await _fetch_bytes(url, timeout=min(timeout, 6), headers=GOOGLE_HEADERS)
-    except Exception as direct_error:
-        if browser_binding is None:
-            raise direct_error
-        message = str(direct_error)
-        if not any(code in message for code in ('HTTP_503', 'HTTP_429', 'HTTP_403', 'TimeoutError', 'timeout')):
-            raise
-        print('GOOGLE_BROWSER_FALLBACK', message[:160])
+
+    # Real Chromium is the preferred Google transport. This is the browser
+    # emulation path requested for INTILY; direct RSS remains a fast fallback.
+    if browser_binding is not None:
+        print('GOOGLE_BROWSER_ATTEMPT')
         try:
             rendered = await browser_binding.quickAction('content', {
                 'url': url,
                 'userAgent': GOOGLE_UA,
-                'waitForTimeout': 500,
+                'cacheTTL': 0,
+                'actionTimeout': 10000,
+                'waitForTimeout': 800,
                 'rejectResourceTypes': ['image', 'stylesheet', 'font', 'media'],
             })
-            if hasattr(rendered, 'text'):
-                rendered_text = await rendered.text()
-            else:
-                rendered_text = str(rendered)
-            # Browser Run /content returns rendered HTML. Google RSS is an XML
-            # document, so recover the XML tree even when Chrome HTML-escapes it.
+            rendered_text = await rendered.text() if hasattr(rendered, 'text') else str(rendered)
             decoded = html.unescape(rendered_text)
             match = re.search(r'(?is)(<\?xml[^>]*>.*?</rss>|<rss\b.*?</rss>)', decoded)
             if not match:
                 raise RuntimeError('GOOGLE_BROWSER_NO_RSS_XML')
-            return match.group(1).encode('utf-8')
+            payload = match.group(1).encode('utf-8')
+            print('GOOGLE_BROWSER_OK', len(payload))
+            return payload
         except Exception as browser_error:
             print('GOOGLE_BROWSER_ERROR', str(browser_error)[:180])
-            raise direct_error
+
+    # Fast non-browser attempt is retained for continuity if Browser Run is
+    # temporarily unavailable or exhausted.
+    try:
+        return await _fetch_bytes(url, timeout=min(timeout, 6), headers=GOOGLE_HEADERS)
+    except Exception:
+        raise
 
 
 def _parse_items(data, region, source_hint, cutoff):
