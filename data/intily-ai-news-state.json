@@ -381,7 +381,8 @@
     "8dbf4a0fc047370a24cf6d6de6455aa44526f613a1aca04d262ed3b8686cd38e": 1788582260,
     "52c46b831ceab21c97a56ab2284fd391508a5b2f63d84bcfd829842c48a448a8": 1788582919,
     "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788583161,
-    "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": 1788584060
+    "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": 1788584060,
+    "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584361
   },
   "known": {
     "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439.8961396,
@@ -422,27 +423,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "GPT-6 Astra Lands on Pro, Enterprise and the API as Anthropic Resets Claude Limits - Pasquale Pillitteri",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV0NpRkJRMGM1QUkxSDhwQlFNQW5HS3o0VlJXamUxZ3VyU2pqUXdqNjRJQU9PVFM1TjB1WF9sWmdsdGdka0wtYklLMXJzSURWdVlLcENkZXBCaFhxR0ZzeGFWbThIODEyY1RTR3pXeW1yV0VyTy1xUDJsb3BXZU9lTFJ2bjlORGphZFNhaFh6ZWc1ZVdp?oc=5",
-      "desc": "GPT-6 Astra Lands on Pro, Enterprise and the API as Anthropic Resets Claude Limits Pasquale Pillitteri",
-      "source": "Pasquale Pillitteri",
-      "time": 1788583595.0,
-      "score": 69.5,
-      "key": "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business",
-        "models"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788584300,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 1,
-      "next_retry_at": 1788584600
-    },
-    {
       "region": "RUSSIA",
       "title": "«Нацпроектстрой» использует голосовой ИИ-помощник для найма сотрудников - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb0djeGlhRHluazJDME1pSnF2dFE0Z292ZEVvYnNvYTZDZHZ4TWtZcnhKQWtrNVNjbEtIbVlZRVBCZnN3eHM4MG1aVHhzWE1PVW94OHdrWmp6Y2hpQlp5WFNRS1JaUWZpS0pLTVBkekVHOWctcjItQTMtSU5uZEZnNjdMTGp0U09KMVhiMGU5dGJnNTIxTkRSVDFYR2RXeGRvbzl1eTBLRTQwdkNBTnNGbjBpNA?oc=5",
@@ -459,20 +439,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788584300.1743834,
+    "last_start_ts": 1788584361.9852333,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788584300.1743834,
-    "last_success_ts": 1788584300.1743834,
+    "last_run_ts": 1788584361.9852333,
+    "last_success_ts": 1788584361.9852333,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 2
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788584334.7729464
+      "updated_at": 1788584364.1633644
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -486,13 +466,6 @@
     }
   },
   "stories": {
-    "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": {
-      "time": 1788497907,
-      "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
-      "desc": "Россиян могут уволить из-за загрузки рабочих документов в нейросети prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": {
       "time": 1788499739,
       "title": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence - 36 Kr",
@@ -1906,10 +1879,16 @@
       "desc": "Pondero Brief: Astra ships Critical for cyber. OpenAI's agents already escaped buttondown.com",
       "source": "buttondown.com",
       "region": "WORLD"
+    },
+    "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": {
+      "time": 1788584361,
+      "title": "GPT-6 Astra Lands on Pro, Enterprise and the API as Anthropic Resets Claude Limits - Pasquale Pillitteri",
+      "desc": "GPT-6 Astra Lands on Pro, Enterprise and the API as Anthropic Resets Claude Limits Pasquale Pillitteri",
+      "source": "Pasquale Pillitteri",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1926,10 +1905,11 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788584060.6424463,
-  "last_publish_ts": 1788584060.6424463
+  "last_publish_ts": 1788584361.9852333
 }
