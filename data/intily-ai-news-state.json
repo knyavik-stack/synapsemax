@@ -382,77 +382,396 @@
     "52c46b831ceab21c97a56ab2284fd391508a5b2f63d84bcfd829842c48a448a8": 1788582919,
     "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788583161,
     "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": 1788584060,
-    "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584361
+    "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584361,
+    "c6249a7b1df7dec20503678ad1a83e14a52d68c5974c74f66ec44aef86528b46": 1788620235
   },
   "known": {
-    "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439.8961396,
-    "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564439.8961396,
-    "5ed84a171b6d455194dd95e38cf8e6bd63e0b40735f51636e5da9c28aa67148f": 1788565099.8368926,
-    "4f6b86c987d4ee29e2db999ccd8976e16d0184d2d7dc866d3dfb95e7cd8d10b2": 1788565099.8368926,
-    "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f": 1788565099.8368926,
-    "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4": 1788565099.8368926,
-    "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": 1788565099.8368926,
-    "dd620816bce0dbd7f029ae7a7597c4a0e5f867145a1925a5773d1691d8163c93": 1788565099.8368926,
-    "f610db8fdb550a8b77976d10ddbcbef5329e17cb229fea2366ddf3ea622c6ee7": 1788565099.8368926,
-    "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff": 1788565099.8368926,
-    "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981.3549268,
-    "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641.0768464,
-    "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": 1788569600.1822982,
-    "68b1c7189c09f09dd88b41da3e21acad46bd2d02043c8d671c498edd0fdbe4c2": 1788571880.4870455,
-    "e11745d700638c75bf6a8d61b34b4cebaef62936f06270bfc6827f6d4c1e0894": 1788573141.1052697,
-    "b218a5eaa8e6cfbc744baf3d38f8b40d8f7b68c79c6b14247eaec0ef96bd85d8": 1788573259.0991716,
-    "78541832fab30d4881a2a99033b4add88e674fe22c020ad194a9649d9e5fcc08": 1788573259.0991716,
-    "dfa96c3499273e9f639349df2895dd2f9da83431d7698e726ea44f40cc8896ba": 1788573259.0991716,
-    "644df3b525ca77e77dce33306f0b56f18c74d9d42fc8d159689dc1b1455bf984": 1788574161.4719007,
-    "7c73802d3232061b19419a5ce37714c6e7176df33dff7a2b3ecb27955d41d5a9": 1788574161.4719007,
-    "e09b60566453a7067efb0b2b0a3fe97bc9abd851b9f8d21aef0aaf57b0977f75": 1788574161.4719007,
-    "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1": 1788574161.4719007,
-    "2aae95a84de08071c1a6a2de00c7835643a83b085e69ce509e3461a7ff433af8": 1788574161.4719007,
-    "b8bcf176c791465a10f2f5ebc82d403fe51441af7a04e0dd328a46e324946efb": 1788575539.6039212,
-    "f62ba81d899bb70f8dd0fc978f2a399c4ea00ac03de55fd6192ad3c3755bdc0a": 1788575539.6039212,
-    "561f95128b977429fbb46addbb77a2acafa171f044b370066b5cef57c272adc5": 1788575539.6039212,
-    "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f": 1788575539.6039212,
-    "09996fad3151ec38ea10979b6f5ed283d9e959b3f31d93f6a642caaef4d5c171": 1788578120.442631,
-    "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578120.442631,
-    "8dbf4a0fc047370a24cf6d6de6455aa44526f613a1aca04d262ed3b8686cd38e": 1788582260.5670989,
-    "52c46b831ceab21c97a56ab2284fd391508a5b2f63d84bcfd829842c48a448a8": 1788582919.9910998,
-    "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788582919.9910998,
-    "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": 1788584060.6424463,
-    "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584060.6424463,
-    "2db40d27a64066d80b975c5109bb10656e5e310290342b3d787f1f1eb4631e9d": 1788584060.6424463
+    "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620235.9616497,
+    "7fd658b47ad140b1a6eb75a2809de729b91d0a99423eb6b4b69c944940f06ea6": 1788620235.9616497,
+    "c6249a7b1df7dec20503678ad1a83e14a52d68c5974c74f66ec44aef86528b46": 1788620235.9616497,
+    "f3eb071c214a3eaf74a19dc8ca0b339782b35a4716f396fcfb757a126988c9dd": 1788620235.9616497,
+    "24979a47bbefac5c35b362d47bb28dbff0292d3bd3c7fcb7a0b12a3f9ca262c8": 1788620235.9616497,
+    "98f4c1d1d28db779fb983fc0fcd9ca4f400ce9c5f1b11aebeb861f20d5b87a2a": 1788620235.9616497,
+    "2a0ce0aa51cc35540fcaf041e4fae8f48941f5e8a7c15da3cea3545a8524fcda": 1788620235.9616497,
+    "776ff5c7ab1a3f7435cf3abc7a1caff1de9c1fe323ff6007f9c8715c1e9bd6b0": 1788620235.9616497,
+    "14f56fa1180967dda4406b45692e99a58f8c7e77a903653c1b50f2057becca33": 1788620235.9616497,
+    "41eeaaac2a384ed86d6852fca81b29659c8deb9aaccb76f4120d55adbdf75a54": 1788620235.9616497,
+    "15ce5f2ec65dc652f3a80afb33fbe112f28ecfd79fd0efb527a48181ea5dc499": 1788620235.9616497,
+    "77b59093be0f67183aa204158094db9fe371c38545d823ba056798c9856a37a8": 1788620235.9616497,
+    "74b83e15197d6abbd18ad6a09f71775a1585077c537b9fefaded97f4c7af0e04": 1788620235.9616497,
+    "eb88055b22a2c785211c6b0cc8372b67ca46a9e3a03eb5b519e11971f56244a9": 1788620235.9616497,
+    "8f7dbbe58b48d97ba0589363901c0403ff2796a7263b4e8ab322cc620b16507f": 1788620235.9616497,
+    "b3b6836201cc8ad894e112b74458265a29c9784ce394b690822113d540a8b868": 1788620235.9616497,
+    "833cc4f26b34cbc96df2136a8c066b7bf5e1a5be3d7a44b61af11954d18a4699": 1788620235.9616497,
+    "b45466d3435feef07fe979987cfecdd3d52e768ca468b34ce7727c727a07b05b": 1788620235.9616497,
+    "0b8e618b7fcb1374bc1b9d3ddc0fdc99199c6116a964d72934a79977a436edf1": 1788620235.9616497,
+    "7a3f7c5c552ab5224df10b230e2023575704a85a212c28da3f897bc43c3219ed": 1788620235.9616497,
+    "125e6f0f5119c0a004ac5fb22da9c70a36154253596d111be3be6f45c6ffb5b6": 1788620235.9616497,
+    "c2c2b761e0a2b9c72a8a47a728c95bdf4f913d17384f8c5d55bf1d6ed9f0cbd8": 1788620235.9616497,
+    "75a93aba0a3089be1b5caf08a53d6d738e0dfc17eb3b682e1f0f7e72e1f86b5a": 1788620235.9616497,
+    "8511a0ae5206fe21ab14713d6fab8806169174a7d718251aa3a39e79574cc03f": 1788620235.9616497,
+    "e8b2e4209414e6cf80dfda23a2d6741ed777f84af06a724857c60c664626a0d0": 1788620235.9616497,
+    "994442e4d2348d1e35a0e35a446b797f9e736b87a9fbb2a95ccede244626bf30": 1788620235.9616497,
+    "92b9a5326ec16f94f672f7a32c80ee8cd6565145d6768f03b2d82b2ce2ab92d5": 1788620235.9616497,
+    "a0a76a77c9945a86189631a8a812a7f74e52e69ccc15ab600a2a9987d848abe9": 1788620235.9616497,
+    "9b41f6070226c99a21ecaeb28a74ffb334727185e71d6cdf413f54c313a91d88": 1788620235.9616497,
+    "aa1ceb446a3b680bcda643d6053681d5268beeffcdc11c74863402fb288ed07a": 1788620235.9616497,
+    "e3906a5fabd6078ca51d04af39d4fd998807bbee3cce447bdbc537c7263113d2": 1788620235.9616497,
+    "4933b9e6dce0383e2452c3f7ae9af3c11eb7c85cd7c0e09e9417d77d19d43788": 1788620235.9616497,
+    "e41c288bb910f275513a6a44a64ff3f8437aca4341c543546527286f6e2344b1": 1788620235.9616497,
+    "3da3c6ff0383998602d96692040138cdd39772876e8e4b78a9a627c38c299b93": 1788620235.9616497,
+    "45c2c6b16df5b24d34d677f74fe4d705ca36783958093e6cf83cdc1c80de7629": 1788620235.9616497,
+    "c229c31793d001f778b7dbe89f9a6a0b1591fb31c599cfb227d14d86c503ae29": 1788620235.9616497,
+    "f160e2d60bd13645257f4bbcfdb77b9e1448d227f11a151ec940e0663c0a99b9": 1788620235.9616497,
+    "1f6aa6e11f19b7a601805decc22125fd17b4e881f701fc47adaf4a00e3747661": 1788620235.9616497,
+    "81b494d43dd599537fc4369e1a3037387a2573798d099e243411c49e780c9c12": 1788620235.9616497,
+    "aee4d35808029f1ef6c491f767927a43d85451c2f3c9732b566a17fd4c4649da": 1788620235.9616497,
+    "15dc2bad0d66ac31a0bf783708245b0e7c21ba25c330a318944aea8bf5a8931d": 1788620235.9616497,
+    "7b8be3a5bbf89441cdc47cd2693045652fcdc6cdf55dcccefb12d20bbbf71235": 1788620235.9616497,
+    "1bc84fa88e4aad1f229e89d05a9de19ad43012d9da214d1f617b3132be010101": 1788620235.9616497,
+    "45a20333e29650d7489f0d613b2efaedacc25b1d869b2099de29f345866b1774": 1788620235.9616497,
+    "adabfafc6cb05daf310ccb97d2f378d8ad4273ba7bf4e89416a0d9cf7d0ffaaf": 1788620235.9616497,
+    "53397835024321636580a3803d5165092fa36de1ed5b1e8645ecd8221f9d4853": 1788620235.9616497,
+    "5c659698209b278ec800d737aa945def39786f9e1510c1f0bbaf27c4f3c38137": 1788620235.9616497,
+    "9000819a8bb84f3e2bfd01ebe51f023117488dfac7dbf455136b43ffb3d51aaa": 1788620235.9616497,
+    "9ac6f3c88746b41a0947f2f03240c4ce9ff24ed3ac9b13c28334a13e7cb993fa": 1788620235.9616497,
+    "9d6c608d9a2c4e0a9c45eec72ee2e4054aef3910a63d30fa7f0d88674d680966": 1788620235.9616497,
+    "9bb854bc056d6680e461d76630f6b9d7ac5df6cdf42447c60b4d24dae811fbc9": 1788620235.9616497,
+    "5919ff523c42f1d1cca820662fbb053caaf5da3796f0b5d1d5ce73ecb47e9ad7": 1788620235.9616497,
+    "3ecaa75cc7b8c25675ea4879782292506d14922b888d3daa5d1eae642cc4f34d": 1788620235.9616497,
+    "b0fe501f8ec136564285ef5a67699e0e08f5c4973c523878833406479597030e": 1788620235.9616497,
+    "5d51e0d76dfdbadd127786084d7efa42f22f60d3249cadd9a1815505b4d3d216": 1788620235.9616497
   },
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "«Нацпроектстрой» использует голосовой ИИ-помощник для найма сотрудников - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb0djeGlhRHluazJDME1pSnF2dFE0Z292ZEVvYnNvYTZDZHZ4TWtZcnhKQWtrNVNjbEtIbVlZRVBCZnN3eHM4MG1aVHhzWE1PVW94OHdrWmp6Y2hpQlp5WFNRS1JaUWZpS0pLTVBkekVHOWctcjItQTMtSU5uZEZnNjdMTGp0U09KMVhiMGU5dGJnNTIxTkRSVDFYR2RXeGRvbzl1eTBLRTQwdkNBTnNGbjBpNA?oc=5",
-      "desc": "«Нацпроектстрой» использует голосовой ИИ-помощник для найма сотрудников prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788564745.0,
-      "score": 60.3,
-      "russia_weight_bonus": 4.3,
-      "key": "2db40d27a64066d80b975c5109bb10656e5e310290342b3d787f1f1eb4631e9d",
-      "importance": 60.3,
+      "title": "В российских судах запустили пилотный проект по внедрению ИИ - Эксперт",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeV9OeDI2ZnhJZmdjYWdDSkViQ0VaTTR2ZTVDQlpSbzhNODV3aU5BekN5X0EybTZROUlPdGFONUtBcHQ5bDVoOVROdmlSSGZvY242Q2tQZ2luUVVMSDJ4dUluamoxUUNsUFdrV1VHTk9QUDNDMEZoMUtYS0JYZWFhOFFzMDhNUVlpQlZITHREUQ?oc=5",
+      "desc": "В российских судах запустили пилотный проект по внедрению ИИ Эксперт",
+      "source": "Эксперт",
+      "time": 1788617280.0,
+      "score": 84.4,
+      "russia_weight_bonus": 4.9,
+      "key": "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf",
+      "importance": 84.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ-агент GPT-6 Astra создал симуляцию внутри Unreal Engine - techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93TU9pa1l3aVNJazQydWtnemN2MWtILVUtY3VhajhpMGpZc1daYm5NVWFNZ3ladS1FVDFYWmtyLV85YTFPamxTekV1QnE5dll1b2ItVEp6UmFLeC1tMXppcmphMjY0SlFGWVc5dmtGRQ?oc=5",
+      "desc": "ИИ-агент GPT-6 Astra создал симуляцию внутри Unreal Engine techora.ru",
+      "source": "techora.ru",
+      "time": 1788618217.0,
+      "score": 76.5,
+      "russia_weight_bonus": 4.0,
+      "key": "7fd658b47ad140b1a6eb75a2809de729b91d0a99423eb6b4b69c944940f06ea6",
+      "importance": 76.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase - TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORENKOXRUSFRfWFJXZ2ZiQk9yYmRzb210OUpKY0gxVGtaZDlENkxyWk5kY1VLMWw3ZGNJdlAzZncyX0x6bHZXSDZ4Tm5ESDZrUHZodTNMZTRIQmxaYVFoTkJ4ZGhqck1NczJoc2pFVGxGNmM0NWFvUlFDYTcxSGZpRVJobUYtNmZlblZfeDBteHRrNDUxcEFnNldkUy0tMnRKVndFWlgyaFdWdzEyOUhsQVE5RmpHTlZ1aWxyZlpEWFJKUTFfVDM1SkdqTzJmTy1VMzhRdXVHMFpTUQ?oc=5",
+      "desc": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase TipRanks",
+      "source": "TipRanks",
+      "time": 1788617161.0,
+      "score": 73.5,
+      "key": "f3eb071c214a3eaf74a19dc8ca0b339782b35a4716f396fcfb757a126988c9dd",
+      "importance": 73.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Platform risk 2.0: Why AI application builders must own their model weights - Substack",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ISVpPLXJNcXRDdmF3WmV1cWxEN1d1bWlsQVpHMVItaUpKMFBWZWJnQVEtRFZNSGFkS1FQTU8wMi00ejExdTlCRmRpTzVHRTRzRjVUUnpCMk9PWjVqOGJaU0ZIN0kza1NzQ0Q3a0F5QkRsZ1lKa3BmZWFn?oc=5",
+      "desc": "Platform risk 2.0: Why AI application builders must own their model weights Substack",
+      "source": "Substack",
+      "time": 1788611390.0,
+      "score": 73.5,
+      "key": "24979a47bbefac5c35b362d47bb28dbff0292d3bd3c7fcb7a0b12a3f9ca262c8",
+      "importance": 73.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications",
+        "models",
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Краснов предложил этические нормы применения ИИ в правосудии - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vUXBaU0xyTnlQR3J1Zk00ZVFZa0ZOREVISHFnV2dMLWJaRnU4TjBjRDQ4NjJ6aEttQ0xZczk0RkJLRnlnR3o3cEVydHJlVEtQQnhRdC1OVFFxU0FHQWNiYVdLWkNqWXAzZ1lCc1JSTURLd0Z2YVE?oc=5",
+      "desc": "Краснов предложил этические нормы применения ИИ в правосудии rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788613173.0,
+      "score": 73.2,
+      "russia_weight_bonus": 4.7,
+      "key": "98f4c1d1d28db779fb983fc0fcd9ca4f400ce9c5f1b11aebeb861f20d5b87a2a",
+      "importance": 73.2,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии - Рамблер",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLUhTZUR0V2lwemxHbjJwTUw1dzhtMXNNMloxN3Job3RrYllfcXE3bGJPZ0ZmWjZUZ0MzMWxTNm9CME9HOXhOZmFoSG9NV1JBUDZmZXViRkJUejF4aHE0UWNUMVJ5dXBrRVI0cEJHZGg5OVp2UkRFQlQyMTkzajlVS3dHY2VuRXFid3drSXZuT0FlM1ZHemcyMDExdFJ4Y3NOZmxKaTF1OVpUMk1sSXBLNDl2d05WOEE0WHQxSXk0MGo5dTRNQ0HSAcYBQVVfeXFMTi1IU2VEdFdpcHpsR24ycE1MNXc4bTFzTTJaMTdyaG90a2JZX3FxN2xiT2dGZlo2VGdDMzFsUzZvQjBPRzl4TmZhaEhvTVdSQVA2ZmV1YkZCVHoxeGhxNFFjVDFSeXVwa0VSNHBCR2RoOTladlJERUJUMjE5M2o5VUt3R2NlbkVxYnd3a0l2bk9BZTNWR3pnMjAxMXRSeGNzTmZsSmkxdTlaVDJNbElwSzQ5dndOVjhBNFh0MUl5NDBqOXU0TUNB?oc=5",
+      "desc": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии Рамблер",
+      "source": "Рамблер",
+      "time": 1788611404.0,
+      "score": 73.1,
+      "russia_weight_bonus": 4.6,
+      "key": "2a0ce0aa51cc35540fcaf041e4fae8f48941f5e8a7c15da3cea3545a8524fcda",
+      "importance": 73.1,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ-ограничения. От вседозволенности к регулированию - Финам",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaU5tekNMdlpmTGZVSHdGRDhIdFRhcVhXU1F6anBPRGUzV3hzUkJZWkt2SzFNZ0RPcVR1QmtMU3FrMktMUWFEN1dvTHUyai0zTzhfdHpvbFJ1WlhTWGRSMFUwUjFIbGs4MmJiMGZEcXViRXY1Q3FFV19INXFwZm9sYllERWtpdzRINC04NnJVVHJyWG52b3RjU1VPaGhxeEhvVE45bEpGTDFVMUk?oc=5",
+      "desc": "ИИ-ограничения. От вседозволенности к регулированию Финам",
+      "source": "Финам",
+      "time": 1788609600.0,
+      "score": 73.0,
+      "russia_weight_bonus": 3.5,
+      "key": "776ff5c7ab1a3f7435cf3abc7a1caff1de9c1fe323ff6007f9c8715c1e9bd6b0",
+      "importance": 73.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Навести порядок в российских судах призваны четыре ИИ-модели - Вечерний Санкт-Петербург",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQThIUjVTSkVIWC1kTG1MMEljUHZObmxmZU1mVVFMUXFWV012aWVRMndGbXVWZV8tYVUwaWtrUUF6U0dTMDFwdldtUFFmSG81RnZuT2NMVkVSTmVFcFc2TjlLNUNhSkNvLVh0WXRFVHZvaEtZV0NDXzBRclItdTJESWpEQm1YV0RvZ0Q3dkpBY21NUFF6RzFtX1JGTmFnUTA?oc=5",
+      "desc": "Навести порядок в российских судах призваны четыре ИИ-модели Вечерний Санкт-Петербург",
+      "source": "Вечерний Санкт-Петербург",
+      "time": 1788611525.0,
+      "score": 72.2,
+      "russia_weight_bonus": 2.7,
+      "key": "14f56fa1180967dda4406b45692e99a58f8c7e77a903653c1b50f2057becca33",
+      "importance": 72.2,
       "editorial_value": 50.0,
       "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Вместо кешбэка и бесплатного Wi-Fi: в Китае начали повсюду раздавать ИИ-токены - 3DNews",
+      "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBSdk1mNjFfajdRQnhRX3k4aTFXVV96TFEzODVHcGttSXpwU0o3Znk4SEplXzFTUmhuYm02LURR0gGrAUFVX3lxTE8tUG9ack14VU9hbktQWlMxQ29yM1pOanZMbkxIUEgwdWJYMUxYbmE4MlZrWVZyTi0zeHJiaTA5UXRoOXVjRmFSSjhHME8tcW1YX1MtT1NjcWhhQklhRUw5UktQZ2RHZ3hjbms4b3RFa3Y2bmFoWHlnczFIaUFJQmpHbkFfcnJKS0JZdzByNVR3VVZrajJZYUVKc09ORmZLbnBRUjdacFhJa1d5MA?oc=5",
+      "desc": "Вместо кешбэка и бесплатного Wi-Fi: в Китае начали повсюду раздавать ИИ-токены 3DNews",
+      "source": "3DNews",
+      "time": 1788618000.0,
+      "score": 72.1,
+      "russia_weight_bonus": 3.6,
+      "key": "41eeaaac2a384ed86d6852fca81b29659c8deb9aaccb76f4120d55adbdf75a54",
+      "importance": 72.1,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVVlTS3ZUM2c1NkFnYUFOYVVPLXZ3alRzbUF1SFQ4bmRLem1keDNlVFJ0NFV3MHVIQWNuODFXc0k2c3pqVnVKOER0cExqTU5LdjZfSi1NWTc4bndZQ0ZBQVJ1LURhelRtUWVIVkxjT0prLV9jRF9CTndzTUtmRXFsVld6em5UbDBOdG9ONVoyaEJqcHZTd3hsM1p5YzVIUVEtOXRsbjRWUDNPelVIYVY2RFdzUTB6OUs3YS1UNy1RbXVaVU1jaGRVTjQzM2NPWEE?oc=5",
+      "desc": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788604978.0,
+      "score": 71.9,
+      "russia_weight_bonus": 3.9,
+      "key": "15ce5f2ec65dc652f3a80afb33fbe112f28ecfd79fd0efb527a48181ea5dc499",
+      "importance": 71.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Nvidia Announces $12.9 Billion Hugging Face Acquisition to Expand Open Source AI - mezha.net",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5yZVZ6U0lRTmgxQ3RtYlFaekpEQ3Y5N3FZanlTcXVleEVud0VHeTNXUktEaDNScU5zSXByZG1VOXBTa2hEQ3daM1I1YTN4a2tFZklHREthdmE4OXpVMEpxZ2JNbTdQMk5CRFVJ?oc=5",
+      "desc": "Nvidia Announces $12.9 Billion Hugging Face Acquisition to Expand Open Source AI mezha.net",
+      "source": "mezha.net",
+      "time": 1788615662.0,
+      "score": 71.5,
+      "key": "77b59093be0f67183aa204158094db9fe371c38545d823ba056798c9856a37a8",
+      "importance": 71.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "The First Agentic Attack: How AI Is Reshaping the Economics of Cybersecurity - forkast.news",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUVRNXpwSHh3NFdjbjIxZEw0c2NQYnVRTVVFR2ZZc1duenIxcnItcmRlS2ExWUtRZ3phRDEzd2VIWUZFeW9rNWMzaUtSUlVLWXppSWVJRS1WVmJOdzAybXJ4ZnVZeHBLeDFVMmJDTkpkbVF6cEJmNDl3U1V4UXVEbGhKYjdGQlpBR1lRak11aEJjbGtGYS1idmF2U2Fqdw?oc=5",
+      "desc": "The First Agentic Attack: How AI Is Reshaping the Economics of Cybersecurity forkast.news",
+      "source": "forkast.news",
+      "time": 1788609876.0,
+      "score": 71.5,
+      "key": "74b83e15197d6abbd18ad6a09f71775a1585077c537b9fefaded97f4c7af0e04",
+      "importance": 71.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ - Интерфакс",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QdIBS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QQ?oc=5",
+      "desc": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ Интерфакс",
+      "source": "Интерфакс",
+      "time": 1788607020.0,
+      "score": 70.7,
+      "russia_weight_bonus": 4.7,
+      "key": "eb88055b22a2c785211c6b0cc8372b67ca46a9e3a03eb5b519e11971f56244a9",
+      "importance": 70.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "ECCV 2026 Preview: Computer Vision Converges on World Models and Embodied AI - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbzc0NG5rdnA1SXBibTVTbkpsWUlpVS1EVnVRZmo5R19IZ3RQb1VrTW9vSlZMZFJIbEFQaGo2bzJMdk40UlYtVG10RkowWHdqTWRLcGFYQU1nNGo3Z2dnNXU1X1NWM0R1cWkxRVMtNFNKZl9VNEpuaHJkWFZiV0FSRkJNWFc4UmQtY0dRQ296cEN6Y00wYmRrQmRvLVF2Wm5lVFRDMVFBUmhGMElGUFNiU09lU19PQlJYTnhVazM1U20?oc=5",
+      "desc": "ECCV 2026 Preview: Computer Vision Converges on World Models and Embodied AI Tech Times",
+      "source": "Tech Times",
+      "time": 1788616718.0,
+      "score": 70.5,
+      "key": "8f7dbbe58b48d97ba0589363901c0403ff2796a7263b4e8ab322cc620b16507f",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии - РАПСИ",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82elhJcDdqZU01Vng4dnBQazJxQjV2c1lSZ0xQZVBvUDVsNU00X1NETDQyT0J3MjVoNVplZmt2a255WW1fRmk3TjJUZlUwMEczaElESF80X1JwNjNqR1NyQ05nSm05Q1E2UGNWcHFR?oc=5",
+      "desc": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии РАПСИ",
+      "source": "РАПСИ",
+      "time": 1788611717.0,
+      "score": 70.0,
+      "russia_weight_bonus": 4.5,
+      "key": "b3b6836201cc8ad894e112b74458265a29c9784ce394b690822113d540a8b868",
+      "importance": 70.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В российских судах начали применять искусственный интеллект в пилотном режиме - Краснов (версия 3) - lenta.profinansy.ru",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SzU0UzhHR3JvT3g2UkdleHJ0VmRXUVRjSWRYWGFrX251RG8yS1kxWlFCbFVGMDRYcTdMSXJGYWh0U2xjNm12bERQSGp2a1EzUFpv?oc=5",
+      "desc": "В российских судах начали применять искусственный интеллект в пилотном режиме - Краснов (версия 3) lenta.profinansy.ru",
+      "source": "lenta.profinansy.ru",
+      "time": 1788609841.0,
+      "score": 69.9,
+      "russia_weight_bonus": 4.4,
+      "key": "833cc4f26b34cbc96df2136a8c066b7bf5e1a5be3d7a44b61af11954d18a4699",
+      "importance": 69.9,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Краснов рассказал о планах по внедрению ИИ на всех этапах судопроизводства - РАПСИ",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEOEh5UXBNSnA3Szh0R1VoMmd5aXFCZTVCUktqYjZJUmVKX3BYM2Z2dWhKWlhvbUgxT0lxSy02a2g3eVM1NXVGRlN1YjF5b2hqUFhGS3JuQmpzcWlBa3lxVmx4R1pPczQxZkhIWnhDcw?oc=5",
+      "desc": "Краснов рассказал о планах по внедрению ИИ на всех этапах судопроизводства РАПСИ",
+      "source": "РАПСИ",
+      "time": 1788607500.0,
+      "score": 69.9,
+      "russia_weight_bonus": 3.9,
+      "key": "b45466d3435feef07fe979987cfecdd3d52e768ca468b34ce7727c727a07b05b",
+      "importance": 69.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "DeepMind AI agents: 100-strong Lean swarm splits on cheating - tbreak.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IQ3FXclljM3Bmb3hBa0t5UmhlRHFTT01tQXplQV9fdTRkcUFEQl9yMzNUUzJqS1NZZWkwNDdHZW9YVUVlQlJReF9DbThQdkFnUnY4c2VSTy1YaHN2N1I3Zy1lTkpJVVd6aU0yWUkwUWNhck91?oc=5",
+      "desc": "DeepMind AI agents: 100-strong Lean swarm splits on cheating tbreak.com",
+      "source": "tbreak.com",
+      "time": 1788615840.0,
+      "score": 67.5,
+      "key": "7a3f7c5c552ab5224df10b230e2023575704a85a212c28da3f897bc43c3219ed",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Muthoot Finance Expands Agentic AI and Digital Banking Strategy - Kalkine India",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY1VjNWF2NU14TWY5VnpRMzV4R3paelRNbUNEQXpFclpXWmVHME01RlZMRml5REVjZk1ZYnV1bUIwS3lURjU2Y19ZYWZDNnJQTEIxTm5rdzZodF9lcmJNenY0dzhtcGhuYTlQdUw1ejJ3bjVWTU9peDg1cVlsOFBVUk5LdVFjcTh4alp3M05FaW1lYlNMWWlhVG8wb3p2SElJMmxYbTRqWDZ6N2MyYzlndnQ5NEp4YU5pSDRYSHJkWFpKeTJRa24xWEFoaGhhUjI0XzhMVzYyam1LQlFF?oc=5",
+      "desc": "Muthoot Finance Expands Agentic AI and Digital Banking Strategy Kalkine India",
+      "source": "Kalkine India",
+      "time": 1788615660.0,
+      "score": 67.5,
+      "key": "125e6f0f5119c0a004ac5fb22da9c70a36154253596d111be3be6f45c6ffb5b6",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
       "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788584361.9852333,
+    "last_start_ts": 1788620235.9616497,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788584361.9852333,
-    "last_success_ts": 1788584361.9852333,
-    "last_candidates": 0,
+    "last_run_ts": 1788620235.9616497,
+    "last_success_ts": 1788620235.9616497,
+    "last_candidates": 57,
     "last_published": 1,
-    "queue_size": 1
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788584364.1633644
+      "updated_at": 1788620258.9346154
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -466,594 +785,6 @@
     }
   },
   "stories": {
-    "b0ff785ab4e5629d2c8ac9ef534e568e69af8da7639dd815cd48f66ac80cc06c": {
-      "time": 1788499739,
-      "title": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence - 36 Kr",
-      "desc": "$29.6B AI Investment: Major Industry Giant Places Massive Bet on Artificial Intelligence 36 Kr",
-      "source": "36 Kr",
-      "region": "WORLD"
-    },
-    "709c1299c8e44245e7e63abe2a64cb7b2204bdbc03530013c0cd79594d51114e": {
-      "time": 1788505280,
-      "title": "Meta's Hatch AI Agent Exposes Security Flaws in Testing - 조선일보",
-      "desc": "Meta's Hatch AI Agent Exposes Security Flaws in Testing 조선일보",
-      "source": "조선일보",
-      "region": "WORLD"
-    },
-    "fc45fbfffe2ee96cb4325faecf0aa3d098b915e3387ac2eb02295e71a3ffee0d": {
-      "time": 1788505701,
-      "title": "GPT-6 Astra is OpenAI’s boldest model yet, and it’s rewriting what AI agents can actually do - Craving Tech",
-      "desc": "GPT-6 Astra is OpenAI’s boldest model yet, and it’s rewriting what AI agents can actually do Craving Tech",
-      "source": "Craving Tech",
-      "region": "WORLD"
-    },
-    "69109ca1e3bfea338e9cb646b7aeee3b103b06233495191eebadf333f92c6220": {
-      "time": 1788506842,
-      "title": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets - Help Net Security",
-      "desc": "OpenAI is putting $1 billion behind Daybreak for defenders working without enterprise budgets Help Net Security",
-      "source": "Help Net Security",
-      "region": "WORLD"
-    },
-    "69f66e1dce7410a63189f8a91065208dcd28f2e035afca03bb728fb8fc72f14f": {
-      "time": 1788507323,
-      "title": "Why Is Salesforce (NYSE:CRM) Stock In Focus As AI Agent Adoption Fuels A Sharp Rebound? - Kalkine Media",
-      "desc": "Why Is Salesforce (NYSE:CRM) Stock In Focus As AI Agent Adoption Fuels A Sharp Rebound? Kalkine Media",
-      "source": "Kalkine Media",
-      "region": "WORLD"
-    },
-    "e118b4b12f6fffb2ceedf2523b23bb5b5532ff304c1a19e1d37c3cf8c33448c1": {
-      "time": 1788507683,
-      "title": "Anthropic может стать лидером «осенней гонки ИИ»: новые модели разработчика обошли Google и OpenAI - RB.ru",
-      "desc": "Anthropic может стать лидером «осенней гонки ИИ»: новые модели разработчика обошли Google и OpenAI RB.ru",
-      "source": "RB.ru",
-      "region": "RUSSIA"
-    },
-    "1b6722b8a53b44e1e9538735ce271b3eebdf22e110099b03f7d6dbdb643671df": {
-      "time": 1788508281,
-      "title": "Сбер представил видение будущего торговли: от платформ к ИИ-агентам - primpress.ru",
-      "desc": "Сбер представил видение будущего торговли: от платформ к ИИ-агентам primpress.ru",
-      "source": "primpress.ru",
-      "region": "RUSSIA"
-    },
-    "3a124ae88cdf82f1ef3ca6346fd90a659b66f3a8de96314277281a0d767525a9": {
-      "time": 1788508523,
-      "title": "Why identity security must evolve for both humans and AI - Security Journal Americas",
-      "desc": "Why identity security must evolve for both humans and AI Security Journal Americas",
-      "source": "Security Journal Americas",
-      "region": "WORLD"
-    },
-    "fde78cbfa38258c95c269d28c58318dcd558ea51b6de289d597b3130f13aaf21": {
-      "time": 1788509361,
-      "title": "Enterprise AI Agents: How to Deploy, Govern, and Scale - RS Web Solutions",
-      "desc": "Enterprise AI Agents: How to Deploy, Govern, and Scale RS Web Solutions",
-      "source": "RS Web Solutions",
-      "region": "WORLD"
-    },
-    "31673338a164454bcd230ae5925057324b1d16608d081a00a38172c7da366406": {
-      "time": 1788510139,
-      "title": "OpenAI has announced GPT-6 Astra, says the 'AGI era' has arrived; Brings major leap in AI reasoning, coding and computer use - Business Today",
-      "desc": "OpenAI has announced GPT-6 Astra, says the 'AGI era' has arrived; Brings major leap in AI reasoning, coding and computer use Business Today",
-      "source": "Business Today",
-      "region": "WORLD"
-    },
-    "b71923e88d6dbe4874112221a857037ffb9ec4a19a4dc814ca4c6f3abd048bde": {
-      "time": 1788510328,
-      "title": "Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team - WSJ",
-      "desc": "Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team WSJ",
-      "source": "WSJ",
-      "region": "WORLD"
-    },
-    "ef8041e101cb12e33ab598960c080c5205ef3be19e10c2745868e7a014c9cce7": {
-      "time": 1788510742,
-      "title": "Dream’s Cyber AI Tops Berkeley Benchmark as Specialized Models Challenge Frontier Systems - Technology Org",
-      "desc": "Dream’s Cyber AI Tops Berkeley Benchmark as Specialized Models Challenge Frontier Systems Technology Org",
-      "source": "Technology Org",
-      "region": "WORLD"
-    },
-    "60bdbc25432fd501e8e6c78461be726e1f7e477671c427ba34ce54a0921c914f": {
-      "time": 1788510982,
-      "title": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» - ICT-Online.ru",
-      "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» ICT-Online.ru",
-      "source": "ICT-Online.ru",
-      "region": "RUSSIA"
-    },
-    "d662262bd78bebf17b1a4b80dc2772479451b1fa18076a87f04f53ba27769b66": {
-      "time": 1788511223,
-      "title": "OpenAI Launches Project Daybreak, Pledging $1 Billion for AI Cybersecurity Defense to Face Anthropic Mythos Competition - TradingKey",
-      "desc": "OpenAI Launches Project Daybreak, Pledging $1 Billion for AI Cybersecurity Defense to Face Anthropic Mythos Competition TradingKey",
-      "source": "TradingKey",
-      "region": "WORLD"
-    },
-    "ae71cbfb1c68d3fff1f8af80cbe8c5b7a8891d622e5f5f89de7392f6f9b48652": {
-      "time": 1788511460,
-      "title": "Разработан ИИ-инструмент для анализа человеческого поведения - Научная Россия",
-      "desc": "Разработан ИИ-инструмент для анализа человеческого поведения Научная Россия",
-      "source": "Научная Россия",
-      "region": "RUSSIA"
-    },
-    "2ea5a47bc2d075baa52648ec645506eb3d14b55746561fd58a1ac4658d052d7b": {
-      "time": 1788511641,
-      "title": "Почему за внедрением ИИ часто скрывается проект по управлению знаниями - companies.rbc.ru",
-      "desc": "Почему за внедрением ИИ часто скрывается проект по управлению знаниями companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "region": "RUSSIA"
-    },
-    "b6cedc91e7fdf0563b6bbee40c5af9783ca43ae056d7e390528f812aa8d787f8": {
-      "time": 1788511943,
-      "title": "India's agentic AI payment plans - Asian Tech Roundup - Computing UK",
-      "desc": "India's agentic AI payment plans - Asian Tech Roundup Computing UK",
-      "source": "Computing UK",
-      "region": "WORLD"
-    },
-    "6732b753fde33358b319f41fc7ebfe1aed3600178760ae3baf9f78bc57ce51bd": {
-      "time": 1788512241,
-      "title": "Греф оценил влияние ИИ на ВВП менее чем в 1% - prospect.com.ru",
-      "desc": "Греф оценил влияние ИИ на ВВП менее чем в 1% prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
-    "d0c1123ad2830cbd756f251215dbe8e77132e4574dce61d4b847c07c15fad529": {
-      "time": 1788512602,
-      "title": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab - TradingKey",
-      "desc": "Nvidia Updates 2026 AI Investment Map: Adds Hugging Face, Thinking Machines Lab TradingKey",
-      "source": "TradingKey",
-      "region": "WORLD"
-    },
-    "a85ca69b73d93cab270c3e2bc73df5557c5ca7f1e29f6b3fdaee2eb0bf977f14": {
-      "time": 1788512788,
-      "title": "Нижегородские ученые разрабатывают инновационную систему управления роботами - ВФокусе Mail",
-      "desc": "Нижегородские ученые разрабатывают инновационную систему управления роботами ВФокусе Mail",
-      "source": "ВФокусе Mail",
-      "region": "RUSSIA"
-    },
-    "39c08a0f4b99e7948d1acaff37863c711b8d21f5047f614e53e4a2ae55634f12": {
-      "time": 1788513026,
-      "title": "As agentic AI adoption accelerates, Rubrik warns of growing security gaps - TahawulTech.com",
-      "desc": "As agentic AI adoption accelerates, Rubrik warns of growing security gaps TahawulTech.com",
-      "source": "TahawulTech.com",
-      "region": "WORLD"
-    },
-    "9d99a8d481b4f93690d40c899c63dec3a15a9fb9b8a6e1f23d1f9965a293c336": {
-      "time": 1788513320,
-      "title": "Texas GOP Shifts Stance on AI Data Centers, Pauses Grid Approvals - Whalesbook",
-      "desc": "Texas GOP Shifts Stance on AI Data Centers, Pauses Grid Approvals Whalesbook",
-      "source": "Whalesbook",
-      "region": "WORLD"
-    },
-    "5ec348bdd310f4e5f274d53cb4f231f99e4c48303179b0cd18041ef70cbdc5ae": {
-      "time": 1788513685,
-      "title": "Nvidia's $99B Bet: AI's Biggest Backer Emerges - The Tech Buzz",
-      "desc": "Nvidia's $99B Bet: AI's Biggest Backer Emerges The Tech Buzz",
-      "source": "The Tech Buzz",
-      "region": "WORLD"
-    },
-    "a59cdc179db58ae1e957aa9f79b156002b97b0dbdf9a743f175d37d760a30c75": {
-      "time": 1788513982,
-      "title": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance - TradingKey",
-      "desc": "UiPath (PATH) Fiscal Q2 2027 Earnings Call: ARR Growth, AI Adoption and Guidance TradingKey",
-      "source": "TradingKey",
-      "region": "WORLD"
-    },
-    "fb2dd6a91e29517a82641d9f295791035a1709a500341624f02f924a21808218": {
-      "time": 1788514283,
-      "title": "«Критический уровень угрозы»: почему OpenAI признала модель Astra первым ИИ-кибероружием и что это меняет для индустрии - VC.ru",
-      "desc": "«Критический уровень угрозы»: почему OpenAI признала модель Astra первым ИИ-кибероружием и что это меняет для индустрии VC.ru",
-      "source": "VC.ru",
-      "region": "RUSSIA"
-    },
-    "6b91e0fa520564a83ddd86d70b6d14386187e4aa663f189b43180486fe79da82": {
-      "time": 1788514521,
-      "title": "Google Transforms Gemini Into Autonomous AI: Explained - JournalArta",
-      "desc": "Google Transforms Gemini Into Autonomous AI: Explained JournalArta",
-      "source": "JournalArta",
-      "region": "WORLD"
-    },
-    "2b760b8746d9b950a08d8d67a8d94529616c9f012c7d34a4a2429739579d310e": {
-      "time": 1788515000,
-      "title": "GPT-6 Astra vs Gemini vs Claude: Which AI agent is best? - Moneycontrol.com",
-      "desc": "GPT-6 Astra vs Gemini vs Claude: Which AI agent is best? Moneycontrol.com",
-      "source": "Moneycontrol.com",
-      "region": "WORLD"
-    },
-    "aac41ceeb5667ba964cd43fd7503c5ec689c2c33bbb6db5b45ea3f2c31604179": {
-      "time": 1788515242,
-      "title": "«Очень некомфортно»: глава OpenAI объяснил, почему компания не выпустит умные очки - RuNews24",
-      "desc": "«Очень некомфортно»: глава OpenAI объяснил, почему компания не выпустит умные очки RuNews24",
-      "source": "RuNews24",
-      "region": "RUSSIA"
-    },
-    "4561ddad4735781d460af382c3d709b0c0e4eaf2d4c59ab3c8077599581d7bd1": {
-      "time": 1788515542,
-      "title": "Сбер: Будущее – за генеративным ИИ, помогающим бизнесу решать задачи развития - prospect.com.ru",
-      "desc": "Сбер: Будущее – за генеративным ИИ, помогающим бизнесу решать задачи развития prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
-    "f5ca24235d447ba04a82e53aa554c0def9b9ee462a5f3bd37ca101283a748b24": {
-      "time": 1788515961,
-      "title": "ICE, corporations and AI pose imminent threat to U.S., CT senator says - Hartford Courant",
-      "desc": "ICE, corporations and AI pose imminent threat to U.S., CT senator says Hartford Courant",
-      "source": "Hartford Courant",
-      "region": "WORLD"
-    },
-    "6fde6c3b46c78c678e1b7791b92057c9bc65076555cc30774884b12958fb0645": {
-      "time": 1788516141,
-      "title": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей - companies.rbc.ru",
-      "desc": "ИИ в рекрутменте: границы автоматизации и ответственность при найме людей companies.rbc.ru",
-      "source": "companies.rbc.ru",
-      "region": "RUSSIA"
-    },
-    "42aecec097316a0941c5bee3d313393e01425546af18c7d2ad917206a7e055b5": {
-      "time": 1788516562,
-      "title": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House - TV News Check",
-      "desc": "Future-Proofing Your AI Stack: Lessons from Anthropic’s Fallout With The White House TV News Check",
-      "source": "TV News Check",
-      "region": "WORLD"
-    },
-    "ae1123f04f0d2af7558c6dfaf0dfbb074317aa1551e93a48d7eaa80cfcf82f2e": {
-      "time": 1788516980,
-      "title": "London’s AI Score raises €4.6 million to help businesses keep AI agents under control - EU-Startups",
-      "desc": "London’s AI Score raises €4.6 million to help businesses keep AI agents under control EU-Startups",
-      "source": "EU-Startups",
-      "region": "WORLD"
-    },
-    "bc392752bd357c584e788e1e0810dbb0ab793e9f0c9449070923d0e80ae77026": {
-      "time": 1788517160,
-      "title": "BulkPublish Opens Its Entire Publishing Stack to AI Agents Using Social Media API - Macau Business",
-      "desc": "BulkPublish Opens Its Entire Publishing Stack to AI Agents Using Social Media API Macau Business",
-      "source": "Macau Business",
-      "region": "WORLD"
-    },
-    "9d87a8747dc6693005081ae60f6b257c1ba723b6153d6b865266ecbe51854d30": {
-      "time": 1788517581,
-      "title": "Orbit Ventures on innovation theater, AI to turbocharge emerging markets, and the risks of Blitzscaling - AgFunderNews",
-      "desc": "Orbit Ventures on innovation theater, AI to turbocharge emerging markets, and the risks of Blitzscaling AgFunderNews",
-      "source": "AgFunderNews",
-      "region": "WORLD"
-    },
-    "769f8997081fc573476ce8fa7174453657c5b97055381a9a7ff235beef009858": {
-      "time": 1788517820,
-      "title": "SPARC AI (CN:SPAI) Gains Momentum as Defence AI Innovation and GPS-Denied Drone Technology Drive Investor Optimism - kalkine.ca",
-      "desc": "SPARC AI (CN:SPAI) Gains Momentum as Defence AI Innovation and GPS-Denied Drone Technology Drive Investor Optimism kalkine.ca",
-      "source": "kalkine.ca",
-      "region": "WORLD"
-    },
-    "4e42209d83a119a961546d27e4cba53fceb61b8243ee44c508fddd5289d7fa6d": {
-      "time": 1788518008,
-      "title": "Кому принадлежат права на контент, созданный нейросетями? Профессор ЮФУ — о судебной практике и новом законе :: Новости - RuFox",
-      "desc": "Кому принадлежат права на контент, созданный нейросетями? Профессор ЮФУ — о судебной практике и новом законе :: Новости RuFox",
-      "source": "RuFox",
-      "region": "RUSSIA"
-    },
-    "fe86cfca7ddd06270ddf285fc073f6b22df01654ee5d696141c9164dce21ee1b": {
-      "time": 1788518362,
-      "title": "Google Says New AI Weather System Can Talk to Satellites for Hourly Forecasts - The Hans India",
-      "desc": "Google Says New AI Weather System Can Talk to Satellites for Hourly Forecasts The Hans India",
-      "source": "The Hans India",
-      "region": "WORLD"
-    },
-    "204c8053725da94f422a184cf2f830588d62c8446d90718a838f12032e8b4313": {
-      "time": 1788518901,
-      "title": "UK startup AI Score raises $5.4M to scale its enterprise AI governance platform - Tech.eu",
-      "desc": "UK startup AI Score raises $5.4M to scale its enterprise AI governance platform Tech.eu",
-      "source": "Tech.eu",
-      "region": "WORLD"
-    },
-    "589e143bf88ca7f474246b4a107a1d35296d6854b3c1eaacfbbe0203bfa830c5": {
-      "time": 1788519499,
-      "title": "Inside Claudeforce: Uniting Salesforce Data with Claude AI - AI Magazine",
-      "desc": "Inside Claudeforce: Uniting Salesforce Data with Claude AI AI Magazine",
-      "source": "AI Magazine",
-      "region": "WORLD"
-    },
-    "eba3e18d5237e86eab716da548e3f3120fff9e03eb03621661adea26c85e4d3e": {
-      "time": 1788519980,
-      "title": "Белоруссия создает закон об ИИ для ускорения разработки лекарств и диагностики - Правда.Ру",
-      "desc": "Белоруссия создает закон об ИИ для ускорения разработки лекарств и диагностики Правда.Ру",
-      "source": "Правда.Ру",
-      "region": "RUSSIA"
-    },
-    "ef2dc577f525857d3e85c210d9236e39c8b61ded4d84df2148e4cc6ff8e30997": {
-      "time": 1788520220,
-      "title": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться - vc.ru",
-      "desc": "ChatGPT и ещё 9 нейросетей для работы в 2026 — что выбрать под задачу и как обучиться vc.ru",
-      "source": "vc.ru",
-      "region": "RUSSIA"
-    },
-    "7082b283a23e48d9ec95f5bd61f0c27af7bf225d6d02eddbfb039bee12a91c11": {
-      "time": 1788520521,
-      "title": "Искусственный интеллект в 15-м пятилетнем плане Китая - Институт статистических исследований и экономики знаний",
-      "desc": "Искусственный интеллект в 15-м пятилетнем плане Китая Институт статистических исследований и экономики знаний",
-      "source": "Институт статистических исследований и экономики знаний",
-      "region": "RUSSIA"
-    },
-    "bef37260e72931a0d1db6d282280da1f71db1f2ebfc6763131642e7e409405f8": {
-      "time": 1788520820,
-      "title": "Хакеры с ИИ против веб-сервисов: Solar 4RAYS представил отчет о расследовании сложных кибератак в 1 полугодии - cisoclub",
-      "desc": "Хакеры с ИИ против веб-сервисов: Solar 4RAYS представил отчет о расследовании сложных кибератак в 1 полугодии cisoclub",
-      "source": "cisoclub",
-      "region": "RUSSIA"
-    },
-    "6c2c1d116f9b71f047019842d7ba791ca8369ba929f0f977eaa671b1d25c39a1": {
-      "time": 1788521180,
-      "title": "Почему AI-пилоты не масштабируются: проблема часто в самом процессе внедрения - vc.ru",
-      "desc": "Почему AI-пилоты не масштабируются: проблема часто в самом процессе внедрения vc.ru",
-      "source": "vc.ru",
-      "region": "RUSSIA"
-    },
-    "014df9f2f492f0f6e7fe55eab5731f57b976a70bc0fb3350a2cd2f4c4ba2acd9": {
-      "time": 1788521361,
-      "title": "ИСИЭЗ НИУ ВШЭ: Китай и Республика Корея делают ИИ частью инфраструктуры науки - itweek.ru",
-      "desc": "ИСИЭЗ НИУ ВШЭ: Китай и Республика Корея делают ИИ частью инфраструктуры науки itweek.ru",
-      "source": "itweek.ru",
-      "region": "RUSSIA"
-    },
-    "cc0d8ba1979f2b627509070666ee20f2c1bb39f1a4592c662c00cf4d363765b9": {
-      "time": 1788521901,
-      "title": "Орешкин на ВЭФ: ИИ не заменит человека, эффективна связка - techora.ru",
-      "desc": "Орешкин на ВЭФ: ИИ не заменит человека, эффективна связка techora.ru",
-      "source": "techora.ru",
-      "region": "RUSSIA"
-    },
-    "156bcc3a892d8b302bcaa76add4f60bef7f3ee1b146cd88402d4965df38c2b85": {
-      "time": 1788522321,
-      "title": "Bodhan AI releases open-weight Indian-language AI models for education - Business Standard",
-      "desc": "Bodhan AI releases open-weight Indian-language AI models for education Business Standard",
-      "source": "Business Standard",
-      "region": "WORLD"
-    },
-    "bc5c5a9158c66584e79c24bdd6c29bb8553be090879822fe40744adaf40d8b51": {
-      "time": 1788522561,
-      "title": "Россия серийно применяет дроны с ИИ, Украина отстает в масштабировании - \"Флеш\" - Курс України",
-      "desc": "Россия серийно применяет дроны с ИИ, Украина отстает в масштабировании - \"Флеш\" Курс України",
-      "source": "Курс України",
-      "region": "RUSSIA"
-    },
-    "7a6e16703e8694d4b5b5c10a962f5a5a28174a5c8f124b490fc3f13d3ba8f49d": {
-      "time": 1788522800,
-      "title": "Weekly Startup Funding Roundup: AI, Robotics, Deep Tech Draw Fresh Capital - Analytics Insight",
-      "desc": "Weekly Startup Funding Roundup: AI, Robotics, Deep Tech Draw Fresh Capital Analytics Insight",
-      "source": "Analytics Insight",
-      "region": "WORLD"
-    },
-    "6ced9b169108f274cc89eefcb11d170d1637815d088ecf0cde88465d0e9c41d0": {
-      "time": 1788523099,
-      "title": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. - Vietnam.vn",
-      "desc": "С момента своего создания Агентство по связям с общественностью и телерадиовещанию города Хошимин стабильно работает уже более двух месяцев. Vietnam.vn",
-      "source": "Vietnam.vn",
-      "region": "RUSSIA"
-    },
-    "24b860454511ed4b24f2d04d2300041ce7f648c5f9eb1e6016793c34a9c62c42": {
-      "time": 1788523400,
-      "title": "OpenAI Agents Went Rogue, Hijacked German Wiki And Shared Bypass Tactics - Times Now",
-      "desc": "OpenAI Agents Went Rogue, Hijacked German Wiki And Shared Bypass Tactics Times Now",
-      "source": "Times Now",
-      "region": "WORLD"
-    },
-    "aa468ba3dbd1606ae1b4a2f88f55565b046742c06a1da39b6b71f76e67476b38": {
-      "time": 1788523761,
-      "title": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год - abireg.ru",
-      "desc": "«Шахта превратится в компьютерную игру»: глава «ЭСФИ» Евгений Замота о роботизации бурения и окупаемости систем за один год abireg.ru",
-      "source": "abireg.ru",
-      "region": "RUSSIA"
-    },
-    "cee242b2d9f171db9a9cd56ae003724c1db93b9e69e03a6259aaf0e75b0bdc15": {
-      "time": 1788523941,
-      "title": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies - CNBC",
-      "desc": "Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies CNBC",
-      "source": "CNBC",
-      "region": "WORLD"
-    },
-    "e9cb8275699679558d13d64a16305d338e2b386ddb502fdb41b98acdfe359c45": {
-      "time": 1788524122,
-      "title": "IT-бизнес выступил против платы за использование авторского контента для ИИ - новости Право.ру - ПРАВО.Ru",
-      "desc": "IT-бизнес выступил против платы за использование авторского контента для ИИ - новости Право.ру ПРАВО.Ru",
-      "source": "ПРАВО.Ru",
-      "region": "RUSSIA"
-    },
-    "9160460f6d8b383e21b84ac9c013620d1aeb8e7b6d7d57a96f64ad547b6dc660": {
-      "time": 1788524605,
-      "title": "AI adoption at RIAs boosts advisor productivity, not pink slips - InvestmentNews",
-      "desc": "AI adoption at RIAs boosts advisor productivity, not pink slips InvestmentNews",
-      "source": "InvestmentNews",
-      "region": "WORLD"
-    },
-    "c654bacc473a16f83028c8933e43ff1c7d823b81ba67bf556e7a7c609d56cce5": {
-      "time": 1788524840,
-      "title": "Юрий Жданов: разработчики ИИ должны отвечать за преступления - Techora.ru",
-      "desc": "Юрий Жданов: разработчики ИИ должны отвечать за преступления Techora.ru",
-      "source": "Techora.ru",
-      "region": "RUSSIA"
-    },
-    "b7d62d6c91a69d37f483595938a37ac1397ca23ab449c86e1d432b688eb284db": {
-      "time": 1788525262,
-      "title": "Орешкин назвал инженеров по внедрению ИИ самыми востребованными кадрами - Рамблер",
-      "desc": "Орешкин назвал инженеров по внедрению ИИ самыми востребованными кадрами Рамблер",
-      "source": "Рамблер",
-      "region": "RUSSIA"
-    },
-    "62f34d7ceb194e4a78229dd3301dbbf168542f266614fedb726a7df4f6e3fe65": {
-      "time": 1788525561,
-      "title": "AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems - simplywall.st",
-      "desc": "AI Chips Update - AI Circuit Breaker Revolutionizes Security In Autonomous Systems simplywall.st",
-      "source": "simplywall.st",
-      "region": "WORLD"
-    },
-    "750428711d8b959d663b430410a4efdc99671b025b000080b5bb2994bc2d51a9": {
-      "time": 1788525800,
-      "title": "Закон об ИИ уперся не в модели, а в данные - kod.ru",
-      "desc": "Закон об ИИ уперся не в модели, а в данные kod.ru",
-      "source": "kod.ru",
-      "region": "RUSSIA"
-    },
-    "32e289a738a06bfbcbb144986e3d73ba81f94cd5ce66da64ec5b0efdca536589": {
-      "time": 1788526162,
-      "title": "Sam Altman Says AI Could Trigger Biggest Small-Business Boom Ever - indica News",
-      "desc": "Sam Altman Says AI Could Trigger Biggest Small-Business Boom Ever indica News",
-      "source": "indica News",
-      "region": "WORLD"
-    },
-    "5d7e85b0ff52c44457f1e3c305b2221346b4cae64fbf26527ba1cb7252ed7011": {
-      "time": 1788526401,
-      "title": "ИИ-агенты OpenAI проявили «менталитет толпы» при взломе Hugging Face - Techora.ru",
-      "desc": "ИИ-агенты OpenAI проявили «менталитет толпы» при взломе Hugging Face Techora.ru",
-      "source": "Techora.ru",
-      "region": "RUSSIA"
-    },
-    "6264bb5ad06f949bd615f2c8461a407c7b8737c7e42665ae5faf90677980c843": {
-      "time": 1788526822,
-      "title": "US Tech Giants’ AI Boom Drives $223 Billion Bond Surge, Raising Inflation Concerns - Free Press Journal",
-      "desc": "US Tech Giants’ AI Boom Drives $223 Billion Bond Surge, Raising Inflation Concerns Free Press Journal",
-      "source": "Free Press Journal",
-      "region": "WORLD"
-    },
-    "389780a12ad06918319aff7aa6eff55656aee70b80aeb54766e7145327322e08": {
-      "time": 1788527599,
-      "title": "Сбер внедрил более 1000 ИИ-агентов для рабочих задач - prospect.com.ru",
-      "desc": "Сбер внедрил более 1000 ИИ-агентов для рабочих задач prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
-    "56befd21635c86c7d55b593951bf72ef91f9a07a1bb53bf432ce3b531e74c1d0": {
-      "time": 1788527960,
-      "title": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. - vietnam.vn",
-      "desc": "Создание эффективного, профессионального и современного пресс-агентства в Хошимине. vietnam.vn",
-      "source": "vietnam.vn",
-      "region": "RUSSIA"
-    },
-    "785ddf93740d086d653107dcacbab770d79ee9baad3a600b1ae0cde35320b1e5": {
-      "time": 1788528379,
-      "title": "AI adoption at US wealth firms lifts productivity without cutting jobs - Wealth Professional",
-      "desc": "AI adoption at US wealth firms lifts productivity without cutting jobs Wealth Professional",
-      "source": "Wealth Professional",
-      "region": "WORLD"
-    },
-    "e9df007cdd4938e3b85293381eaeb904dfa9fb117e14dd73be17c86ed83867de": {
-      "time": 1788528562,
-      "title": "ИИ не заменит врачей в России - prospect.com.ru",
-      "desc": "ИИ не заменит врачей в России prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
-    "82991de21bff4b466bf9fbe400b107330f95bd387dc753837c193abd9d8e09e4": {
-      "time": 1788528862,
-      "title": "SmallBiz.ai Launches to Help Small Businesses Turn AI Into More Sales, Lower Costs and Simpler Operations - PR Newswire",
-      "desc": "SmallBiz.ai Launches to Help Small Businesses Turn AI Into More Sales, Lower Costs and Simpler Operations PR Newswire",
-      "source": "PR Newswire",
-      "region": "WORLD"
-    },
-    "1744ad86817877d47f6156a63e3fc6a208c3cd3685dd1d1b07e22a9cd1ed73e8": {
-      "time": 1788529102,
-      "title": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой - Sostav.ru",
-      "desc": "Закон об ИИ принят: когда рекомендация нейросети становится рекламой Sostav.ru",
-      "source": "Sostav.ru",
-      "region": "RUSSIA"
-    },
-    "eb602d742467d67d42ae4cea412988ff0e27debedca7166714d945ccd2fa4726": {
-      "time": 1788529402,
-      "title": "Microsoft представила Project Zenith — мощные Windows-системы без лишнего мусора для ИИ-разработчиков - prospect.com.ru",
-      "desc": "Microsoft представила Project Zenith — мощные Windows-системы без лишнего мусора для ИИ-разработчиков prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
-    "e6192db70cff1b34a0afa6085041c67f5442baf6632678df18288150751aa7ba": {
-      "time": 1788529701,
-      "title": "Booz Allen Hacking Benchmark Ranked 18 AI Models; Scaffolding Software Erased Rankings - techtimes.com",
-      "desc": "Booz Allen Hacking Benchmark Ranked 18 AI Models; Scaffolding Software Erased Rankings techtimes.com",
-      "source": "techtimes.com",
-      "region": "WORLD"
-    },
-    "ae48873a8d9f503c3086ebe7881425c8377c18c52c2ecc83eee80e729e52355d": {
-      "time": 1788530179,
-      "title": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге - kommersant.ru",
-      "desc": "Чистая роботизация: на ЧЗЭО показали робота, который помогает экономить на клининге kommersant.ru",
-      "source": "kommersant.ru",
-      "region": "RUSSIA"
-    },
-    "5b833cd31d03646a4a5b9ec56e3b2d6830dbd104b9d6dd5e8346041692bb6a91": {
-      "time": 1788530483,
-      "title": "OpenAI has plans for an AI 'kill switch' after model goes rogue, as Nvidia announces Hugging Face acquisition - PC Guide",
-      "desc": "OpenAI has plans for an AI 'kill switch' after model goes rogue, as Nvidia announces Hugging Face acquisition PC Guide",
-      "source": "PC Guide",
-      "region": "WORLD"
-    },
-    "813b2b7fa6d548e99f1288be29b64916c6060da977fbcad47824d93cb082f5d6": {
-      "time": 1788530719,
-      "title": "Только в 14% российских корпораций знают о методологии безопасной разработки ИИ-систем MLSecOps - spbIT",
-      "desc": "Только в 14% российских корпораций знают о методологии безопасной разработки ИИ-систем MLSecOps spbIT",
-      "source": "spbIT",
-      "region": "RUSSIA"
-    },
-    "3faf9cf5e7652244dd8ef3826d25e3b19bd87eb8d16f56d16778156a5b16dbfe": {
-      "time": 1788531022,
-      "title": "Reuters узнал, как ИИ-агенты делились советами на взломанном сайте - rbc.ru",
-      "desc": "Reuters узнал, как ИИ-агенты делились советами на взломанном сайте rbc.ru",
-      "source": "rbc.ru",
-      "region": "RUSSIA"
-    },
-    "627a77a5410410700ca2232fb4a328448417aa91d9a37e596cfa108fcd925e60": {
-      "time": 1788531384,
-      "title": "Oh good, looks like yet another swarm of rogue AI agents from OpenAI - The Verge",
-      "desc": "Oh good, looks like yet another swarm of rogue AI agents from OpenAI The Verge",
-      "source": "The Verge",
-      "region": "WORLD"
-    },
-    "c66524616643bab649859285f9473a6f637768e77e25b1c5996ac38dafa1eb35": {
-      "time": 1788531682,
-      "title": "Российские ИТ-компании выступили против компенсаций авторам за обучение ИИ на их контенте - RB.ru",
-      "desc": "Российские ИТ-компании выступили против компенсаций авторам за обучение ИИ на их контенте RB.ru",
-      "source": "RB.ru",
-      "region": "RUSSIA"
-    },
-    "ce5be79ee840514f47f79200bcf1f692d31a03635f8d422ed6389f0a2a3ba0be": {
-      "time": 1788532040,
-      "title": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live - techtimes.com",
-      "desc": "Google Workspace Launches Voice AI; Docs Live Costs 4x More Than Gmail Live techtimes.com",
-      "source": "techtimes.com",
-      "region": "WORLD"
-    },
-    "b3b07ccc299651334285c47dc07441f4528e1028fb84cdd8899ca7e0ed89738b": {
-      "time": 1788532282,
-      "title": "ИИ в медиа: не замена, а помощник человека - artmoskovia.ru",
-      "desc": "ИИ в медиа: не замена, а помощник человека artmoskovia.ru",
-      "source": "artmoskovia.ru",
-      "region": "RUSSIA"
-    },
-    "ffdfa97472d15fdb330ea556082a8f803253411c2e4ec6e52e346eec818cf27a": {
-      "time": 1788532522,
-      "title": "ChatGPT model launched with extra 'safeguards' after bots hacked company - Metro.co.uk",
-      "desc": "ChatGPT model launched with extra 'safeguards' after bots hacked company Metro.co.uk",
-      "source": "Metro.co.uk",
-      "region": "WORLD"
-    },
-    "a41e6ea136d2f0df3dbcf21c04f1d48cfee47e65a01d96fa7f85411bd0dde136": {
-      "time": 1788532764,
-      "title": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона - prospect.com.ru",
-      "desc": "Билайн и Правительство Хабаровского края договорились о внедрении ИИ-решений для развития региона prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
-    "a94ef8c2b70338a972cb82697cf801ed5644b25792d9169b5c8fce433932f8ee": {
-      "time": 1788533000,
-      "title": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI - expert.ru",
-      "desc": "Reuters узнал еще об одном взломе сайта ИИ-агентами OpenAI expert.ru",
-      "source": "expert.ru",
-      "region": "RUSSIA"
-    },
-    "89146aebec7fe909514a515faf742bed9616b0ad585fa51d22c3371bd9247f01": {
-      "time": 1788533242,
-      "title": "Are our AI agents turning rogue? - SC Media",
-      "desc": "Are our AI agents turning rogue? SC Media",
-      "source": "SC Media",
-      "region": "WORLD"
-    },
-    "f11555b558f47a11304bb8b9357b6b61639bf48eac5b3eb7ed8de1240453815e": {
-      "time": 1788533542,
-      "title": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters - theins.ru",
-      "desc": "ИИ-агенты OpenAI использовали чужой сайт для обмена способами обхода ограничений и сокрытия своих действий — Reuters theins.ru",
-      "source": "theins.ru",
-      "region": "RUSSIA"
-    },
     "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344": {
       "time": 1788533840,
       "title": "Anthropic Makes Stunning $15 Billion Move Before IPO - TradingView",
@@ -1886,12 +1617,18 @@
       "desc": "GPT-6 Astra Lands on Pro, Enterprise and the API as Anthropic Resets Claude Limits Pasquale Pillitteri",
       "source": "Pasquale Pillitteri",
       "region": "WORLD"
+    },
+    "c6249a7b1df7dec20503678ad1a83e14a52d68c5974c74f66ec44aef86528b46": {
+      "time": 1788620235,
+      "title": "Anthropic Launches Claude Fable 5.1 and Restricted Mythos 5.1 for Advanced Coding, Cybersecurity and Scientific Research - LinkedIn",
+      "desc": "Anthropic Launches Claude Fable 5.1 and Restricted Mythos 5.1 for Advanced Coding, Cybersecurity and Scientific Research LinkedIn",
+      "source": "LinkedIn",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1905,11 +1642,12 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788584060.6424463,
-  "last_publish_ts": 1788584361.9852333
+  "last_search_ts": 1788620235.9616497,
+  "last_publish_ts": 1788620235.9616497
 }
