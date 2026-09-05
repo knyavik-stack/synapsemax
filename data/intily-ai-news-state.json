@@ -461,10 +461,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788668144
+      "failure_count": 13,
+      "next_retry_at": 1788668323
     },
     {
       "region": "WORLD",
@@ -482,10 +482,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788668144
+      "failure_count": 25,
+      "next_retry_at": 1788668323
     },
     {
       "region": "WORLD",
@@ -503,10 +503,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788668144
+      "failure_count": 13,
+      "next_retry_at": 1788668323
     },
     {
       "region": "WORLD",
@@ -524,10 +524,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788668144
+      "failure_count": 25,
+      "next_retry_at": 1788668323
     },
     {
       "region": "RUSSIA",
@@ -648,10 +648,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788668144
+      "failure_count": 25,
+      "next_retry_at": 1788668323
     },
     {
       "region": "WORLD",
@@ -668,10 +668,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 89,
-      "next_retry_at": 1788668144
+      "failure_count": 90,
+      "next_retry_at": 1788668323
     },
     {
       "region": "WORLD",
@@ -688,10 +688,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 68,
-      "next_retry_at": 1788668144
+      "failure_count": 69,
+      "next_retry_at": 1788668323
     },
     {
       "region": "WORLD",
@@ -708,10 +708,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 55,
-      "next_retry_at": 1788668144
+      "failure_count": 56,
+      "next_retry_at": 1788668323
     },
     {
       "region": "RUSSIA",
@@ -796,10 +796,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 55,
-      "next_retry_at": 1788668144
+      "failure_count": 56,
+      "next_retry_at": 1788668323
     },
     {
       "region": "WORLD",
@@ -814,18 +814,18 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788646544,
+      "last_failed_at": 1788646723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 55,
-      "next_retry_at": 1788668144
+      "failure_count": 56,
+      "next_retry_at": 1788668323
     }
   ],
   "health": {
-    "last_start_ts": 1788646544.856858,
+    "last_start_ts": 1788646723.6329544,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788646544.856858,
-    "last_success_ts": 1788646544.856858,
+    "last_run_ts": 1788646723.6329544,
+    "last_success_ts": 1788646723.6329544,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 19
