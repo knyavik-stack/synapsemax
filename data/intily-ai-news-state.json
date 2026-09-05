@@ -461,10 +461,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788646723,
+      "last_failed_at": 1788647144,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788668323
+      "failure_count": 14,
+      "next_retry_at": 1788668744
     },
     {
       "region": "WORLD",
@@ -482,10 +482,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788646723,
+      "last_failed_at": 1788647144,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 25,
-      "next_retry_at": 1788668323
+      "failure_count": 26,
+      "next_retry_at": 1788668744
     },
     {
       "region": "WORLD",
@@ -503,31 +503,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788646723,
+      "last_failed_at": 1788647144,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788668323
-    },
-    {
-      "region": "WORLD",
-      "title": "Adobe Acquires Indian AI Startup Rilo to Accelerate Agentic Marketing Automation - konsulteer.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdVZhVFBHRm1oUXg2N2E5Y29mbDJ5NmltcDFGWmZDSGNhWEhwd0tBRTZHbEgxZjBmZXhZMGJfOGVadktvbFpucXgya042MzZNdjRTTHViRnR2UUppVHdkYkx2UF81UFB3TmlHenBjUXlITU5kajVIbXE4Sy1IUmNhcllvX1NURGNMREVpOTRPM3FsLUZ3eW03dFZneGliSmJjYm1SUGZPN1pYV0w1TG5F?oc=5",
-      "desc": "Adobe Acquires Indian AI Startup Rilo to Accelerate Agentic Marketing Automation konsulteer.com",
-      "source": "konsulteer.com",
-      "time": 1788636195.0,
-      "score": 70.5,
-      "key": "00470e27d42dbb11ee94f134f2f871ec0cfa525dbf5d115975e86d9f64f5885a",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "applications"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788646723,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 25,
-      "next_retry_at": 1788668323
+      "failure_count": 14,
+      "next_retry_at": 1788668744
     },
     {
       "region": "RUSSIA",
@@ -549,28 +528,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 7,
       "next_retry_at": 1788653886
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVBBOGp2UWtzT1MwQkhnTzFTQmV0OUdqcGw5ZDFUMGY2N3ROQWdnX2ZnV25nd1UwOEtTRVJqNHNrU2c0ZFVuR1pScEQ4bVZqUVhXYkJITHgxS0pSbXdUSEZ0ODVqTzd0d1B4WVhWTVJpZVQyVlNaM3dHT1lvRFZIemhYVDNmSE0wWDQ0TU1zaGNFOE1vSE55M01lemF3TkcwX0JPenVMSnZjMWQ1WmREUE5pNVcxU3FFcjMydXFtcG5VYzY1TEw0bzdObnNLOHljVU9sSEU5dlh6UQ?oc=5",
-      "desc": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788625347.0,
-      "score": 66.9,
-      "russia_weight_bonus": 2.9,
-      "key": "4de0ca8a7dcf932a0d4b54c1d523e7bac2ef6368ce369f944ba2cea0f82669ed",
-      "importance": 66.9,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "security_regulation"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788634686,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788634986
     },
     {
       "region": "RUSSIA",
@@ -648,10 +605,31 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788646723,
+      "last_failed_at": 1788647144,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 25,
-      "next_retry_at": 1788668323
+      "failure_count": 26,
+      "next_retry_at": 1788668744
+    },
+    {
+      "region": "WORLD",
+      "title": "Adobe Acquires Indian AI Startup Rilo to Accelerate Agentic Marketing Automation - konsulteer.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdVZhVFBHRm1oUXg2N2E5Y29mbDJ5NmltcDFGWmZDSGNhWEhwd0tBRTZHbEgxZjBmZXhZMGJfOGVadktvbFpucXgya042MzZNdjRTTHViRnR2UUppVHdkYkx2UF81UFB3TmlHenBjUXlITU5kajVIbXE4Sy1IUmNhcllvX1NURGNMREVpOTRPM3FsLUZ3eW03dFZneGliSmJjYm1SUGZPN1pYV0w1TG5F?oc=5",
+      "desc": "Adobe Acquires Indian AI Startup Rilo to Accelerate Agentic Marketing Automation konsulteer.com",
+      "source": "konsulteer.com",
+      "time": 1788636195.0,
+      "score": 63.0,
+      "key": "00470e27d42dbb11ee94f134f2f871ec0cfa525dbf5d115975e86d9f64f5885a",
+      "importance": 63.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "applications"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788647144,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 26,
+      "next_retry_at": 1788668744
     },
     {
       "region": "WORLD",
@@ -668,10 +646,32 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788646723,
+      "last_failed_at": 1788647144,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 90,
-      "next_retry_at": 1788668323
+      "failure_count": 91,
+      "next_retry_at": 1788668744
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVBBOGp2UWtzT1MwQkhnTzFTQmV0OUdqcGw5ZDFUMGY2N3ROQWdnX2ZnV25nd1UwOEtTRVJqNHNrU2c0ZFVuR1pScEQ4bVZqUVhXYkJITHgxS0pSbXdUSEZ0ODVqTzd0d1B4WVhWTVJpZVQyVlNaM3dHT1lvRFZIemhYVDNmSE0wWDQ0TU1zaGNFOE1vSE55M01lemF3TkcwX0JPenVMSnZjMWQ1WmREUE5pNVcxU3FFcjMydXFtcG5VYzY1TEw0bzdObnNLOHljVU9sSEU5dlh6UQ?oc=5",
+      "desc": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788625347.0,
+      "score": 62.9,
+      "russia_weight_bonus": 2.9,
+      "key": "4de0ca8a7dcf932a0d4b54c1d523e7bac2ef6368ce369f944ba2cea0f82669ed",
+      "importance": 62.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "security_regulation"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "WORLD",
@@ -688,10 +688,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788646723,
+      "last_failed_at": 1788647144,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 69,
-      "next_retry_at": 1788668323
+      "failure_count": 70,
+      "next_retry_at": 1788668744
     },
     {
       "region": "WORLD",
@@ -708,10 +708,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788646723,
+      "last_failed_at": 1788647144,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 56,
-      "next_retry_at": 1788668323
+      "failure_count": 57,
+      "next_retry_at": 1788668744
     },
     {
       "region": "RUSSIA",
@@ -796,10 +796,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788646723,
+      "last_failed_at": 1788647144,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 56,
-      "next_retry_at": 1788668323
+      "failure_count": 57,
+      "next_retry_at": 1788668744
     },
     {
       "region": "WORLD",
@@ -814,18 +814,18 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788646723,
+      "last_failed_at": 1788647144,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 56,
-      "next_retry_at": 1788668323
+      "failure_count": 57,
+      "next_retry_at": 1788668744
     }
   ],
   "health": {
-    "last_start_ts": 1788646723.6329544,
+    "last_start_ts": 1788647144.3330197,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788646723.6329544,
-    "last_success_ts": 1788646723.6329544,
+    "last_run_ts": 1788647144.3330197,
+    "last_success_ts": 1788647144.3330197,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 19
@@ -848,13 +848,6 @@
     }
   },
   "stories": {
-    "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703": {
-      "time": 1788560360,
-      "title": "Insurers Search for Answers to Rein in Rogue AI - Dark Reading",
-      "desc": "Insurers Search for Answers to Rein in Rogue AI Dark Reading",
-      "source": "Dark Reading",
-      "region": "WORLD"
-    },
     "b80fcdd52900df1d8c88494062b7afd1365dbc6cdb2ce4e491c3b44860ddb957": {
       "time": 1788560781,
       "title": "Nvidia’s $99 Billion Investment Portfolio Turns Chip Giant Into AI Industry Power Broker - Tekedia",
