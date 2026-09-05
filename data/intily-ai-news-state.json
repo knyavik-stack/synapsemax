@@ -358,20 +358,10 @@
     "a7254044d82b6713bd87e1bc04203e6dab8a98ca618ee2448b9e8f31beb0177f": 1788565579,
     "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4": 1788565761,
     "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": 1788566004,
-    "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba": 1788566300
+    "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba": 1788566300,
+    "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981
   },
   "known": {
-    "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": 1788545844.1562684,
-    "7aa23d58e47724aef9d4f26f919711eeffc3ba4ca18f58abbc83fbaa0f236a06": 1788545844.1562684,
-    "2a2856322c9e70f34ed769b8c77547c9e0994a988c35c240374232882c85dd93": 1788545844.1562684,
-    "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": 1788545844.1562684,
-    "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6": 1788545844.1562684,
-    "ddd326e4452ba6a9ab12c91527268bff972794f78aea0db8aba4e03f39ebdb38": 1788545844.1562684,
-    "9c2adbe650e444d8f75cb57590d8b8d6701ef7f8c6c95b397707cf66ffc3cde2": 1788545844.1562684,
-    "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": 1788545844.1562684,
-    "5980279efed550aa8c5ce70ff1299a594a4b3fdc46e013c601a9f40ef54a7265": 1788545844.1562684,
-    "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3": 1788545844.1562684,
-    "271f8b82696c7385dd06e6bae858f6a3e8f79f33a40b4fd43d8a8099e48cdb92": 1788545844.1562684,
     "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": 1788547820.6748672,
     "59d8d61b26d09ca4c6ea432480e584235d08848b79c1dfb0f201f7f4de44a877": 1788547820.6748672,
     "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": 1788547820.6748672,
@@ -444,24 +434,25 @@
     "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": 1788565099.8368926,
     "dd620816bce0dbd7f029ae7a7597c4a0e5f867145a1925a5773d1691d8163c93": 1788565099.8368926,
     "f610db8fdb550a8b77976d10ddbcbef5329e17cb229fea2366ddf3ea622c6ee7": 1788565099.8368926,
-    "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff": 1788565099.8368926
+    "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff": 1788565099.8368926,
+    "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981.3549268
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788567319.8272228,
+    "last_start_ts": 1788567981.3549268,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788567319.8272228,
-    "last_success_ts": 1788567319.8272228,
-    "last_candidates": 42,
-    "last_published": 0,
+    "last_run_ts": 1788567981.3549268,
+    "last_success_ts": 1788567981.3549268,
+    "last_candidates": 43,
+    "last_published": 1,
     "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788566321.2528765
+      "updated_at": 1788568002.2234306
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -475,20 +466,6 @@
     }
   },
   "stories": {
-    "d22501a4517a2d77861cdc7840358d74b38ab9da51d553e00a8c077cb1e9ebe9": {
-      "time": 1788481255,
-      "title": "OpenAI’s president claims AI is as capable as humans now - The Washington Post",
-      "desc": "OpenAI’s president claims AI is as capable as humans now The Washington Post",
-      "source": "The Washington Post",
-      "region": "WORLD"
-    },
-    "774b256f69c69dab8cfc74c8aa72023e9e7f82fa2d2ec9b61897310f6aacdba8": {
-      "time": 1788481494,
-      "title": "В ЦИК ожидают провокаций от внешних агентов под видом кандидатов - Ведомости",
-      "desc": "В ЦИК ожидают провокаций от внешних агентов под видом кандидатов Ведомости",
-      "source": "Ведомости",
-      "region": "RUSSIA"
-    },
     "c850ae2facf0311829a649fd7d19fe9c1bbbc542864c143eaa3056caa07cba0f": {
       "time": 1788481734,
       "title": "Sanders-Casar AI Ban Would Sacrifice American Innovation and Competitiveness, Says ITIF - Information Technology and Innovation Foundation",
@@ -2063,10 +2040,16 @@
       "desc": "OpenAI взялась за создание собственного робота — Альтман уверен, что однажды такой будет у каждого prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": {
+      "time": 1788567981,
+      "title": "Tech expert says AI needs safety overhaul after rogue AI swarms hack Hugging Face - CHCH",
+      "desc": "Tech expert says AI needs safety overhaul after rogue AI swarms hack Hugging Face CHCH",
+      "source": "CHCH",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -2085,8 +2068,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
-  "last_search_ts": 1788567319.8272228,
-  "last_publish_ts": 1788566300.563336
+  "last_search_ts": 1788567981.3549268,
+  "last_publish_ts": 1788567981.3549268
 }
