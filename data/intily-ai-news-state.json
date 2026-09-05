@@ -527,10 +527,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788627930,
+      "last_failed_at": 1788628045,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788629130
+      "failure_count": 4,
+      "next_retry_at": 1788630445
     },
     {
       "region": "RUSSIA",
@@ -601,27 +601,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
-    },
-    {
-      "region": "WORLD",
-      "title": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase - TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORENKOXRUSFRfWFJXZ2ZiQk9yYmRzb210OUpKY0gxVGtaZDlENkxyWk5kY1VLMWw3ZGNJdlAzZncyX0x6bHZXSDZ4Tm5ESDZrUHZodTNMZTRIQmxaYVFoTkJ4ZGhqck1NczJoc2pFVGxGNmM0NWFvUlFDYTcxSGZpRVJobUYtNmZlblZfeDBteHRrNDUxcEFnNldkUy0tMnRKVndFWlgyaFdWdzEyOUhsQVE5RmpHTlZ1aWxyZlpEWFJKUTFfVDM1SkdqTzJmTy1VMzhRdXVHMFpTUQ?oc=5",
-      "desc": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase TipRanks",
-      "source": "TipRanks",
-      "time": 1788617161.0,
-      "score": 70.5,
-      "key": "f3eb071c214a3eaf74a19dc8ca0b339782b35a4716f396fcfb757a126988c9dd",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "tools"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788627930,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 22,
-      "next_retry_at": 1788649530
     },
     {
       "region": "RUSSIA",
@@ -735,10 +714,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788627930,
+      "last_failed_at": 1788628045,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 22,
-      "next_retry_at": 1788649530
+      "failure_count": 23,
+      "next_retry_at": 1788649645
     },
     {
       "region": "WORLD",
@@ -755,10 +734,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788627930,
+      "last_failed_at": 1788628045,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 22,
-      "next_retry_at": 1788649530
+      "failure_count": 23,
+      "next_retry_at": 1788649645
     },
     {
       "region": "WORLD",
@@ -773,10 +752,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788627930,
+      "last_failed_at": 1788628045,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788629130
+      "failure_count": 4,
+      "next_retry_at": 1788630445
     },
     {
       "region": "WORLD",
@@ -791,10 +770,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788627930,
+      "last_failed_at": 1788628045,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788629130
+      "failure_count": 4,
+      "next_retry_at": 1788630445
     },
     {
       "region": "WORLD",
@@ -809,10 +788,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788627930,
+      "last_failed_at": 1788628045,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788649530
+      "failure_count": 14,
+      "next_retry_at": 1788649645
     },
     {
       "region": "WORLD",
@@ -829,10 +808,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788627930,
+      "last_failed_at": 1788628045,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 22,
-      "next_retry_at": 1788649530
+      "failure_count": 23,
+      "next_retry_at": 1788649645
     },
     {
       "region": "RUSSIA",
@@ -854,14 +833,35 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
+    },
+    {
+      "region": "WORLD",
+      "title": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase - TipRanks",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORENKOXRUSFRfWFJXZ2ZiQk9yYmRzb210OUpKY0gxVGtaZDlENkxyWk5kY1VLMWw3ZGNJdlAzZncyX0x6bHZXSDZ4Tm5ESDZrUHZodTNMZTRIQmxaYVFoTkJ4ZGhqck1NczJoc2pFVGxGNmM0NWFvUlFDYTcxSGZpRVJobUYtNmZlblZfeDBteHRrNDUxcEFnNldkUy0tMnRKVndFWlgyaFdWdzEyOUhsQVE5RmpHTlZ1aWxyZlpEWFJKUTFfVDM1SkdqTzJmTy1VMzhRdXVHMFpTUQ?oc=5",
+      "desc": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase TipRanks",
+      "source": "TipRanks",
+      "time": 1788617161.0,
+      "score": 63.0,
+      "key": "f3eb071c214a3eaf74a19dc8ca0b339782b35a4716f396fcfb757a126988c9dd",
+      "importance": 63.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "tools"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788628045,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 23,
+      "next_retry_at": 1788649645
     }
   ],
   "health": {
-    "last_start_ts": 1788627930.1110778,
+    "last_start_ts": 1788628045.2742014,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788627930.1110778,
-    "last_success_ts": 1788627930.1110778,
+    "last_run_ts": 1788628045.2742014,
+    "last_success_ts": 1788628045.2742014,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
