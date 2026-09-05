@@ -35,8 +35,9 @@ class Default(WorkerEntrypoint):
             })
         return Response('Not found', status=404)
 
-    async def scheduled(self, controller, env, ctx):
-        existing = await env.STATE.get(LOCK_KEY)
+    async def scheduled(self, controller, env=None, ctx=None):
+        runtime_env = self.env
+        existing = await runtime_env.STATE.get(LOCK_KEY)
         if existing:
             try:
                 if __import__('time').time() * 1000 - float(existing) < LOCK_TTL * 1000:
@@ -44,14 +45,14 @@ class Default(WorkerEntrypoint):
                     return
             except Exception:
                 pass
-        await env.STATE.put(LOCK_KEY, str(__import__('time').time() * 1000), {'expirationTtl': LOCK_TTL})
+        await runtime_env.STATE.put(LOCK_KEY, str(__import__('time').time() * 1000), {'expirationTtl': LOCK_TTL})
         try:
             for name in ('TELEGRAM_BOT_TOKEN', 'GITHUB_DISPATCH_TOKEN', 'GEMINI_API_KEY', 'OPENAI_API_KEY', 'GROQ_API_KEY'):
-                value = _env_text(env, name)
+                value = _env_text(runtime_env, name)
                 if value:
                     os.environ[name] = value
             async def load_state():
-                raw = await env.STATE.get(STATE_KEY)
+                raw = await runtime_env.STATE.get(STATE_KEY)
                 default = {
                     'queue': [], 'published': {}, 'known': {}, 'stories': {},
                     'last_search_ts': 0, 'last_publish_ts': 0,
@@ -75,7 +76,7 @@ class Default(WorkerEntrypoint):
                     print('STATE_JSON_INVALID')
                     return default
             async def save_state(state):
-                await env.STATE.put(STATE_KEY, json.dumps(state, ensure_ascii=False, separators=(',', ':')))
-            await run_engine(load_state_fn=load_state, save_state_fn=save_state, ai_binding=env.AI)
+                await runtime_env.STATE.put(STATE_KEY, json.dumps(state, ensure_ascii=False, separators=(',', ':')))
+            await run_engine(load_state_fn=load_state, save_state_fn=save_state, ai_binding=runtime_env.AI)
         finally:
-            await env.STATE.delete(LOCK_KEY)
+            await runtime_env.STATE.delete(LOCK_KEY)
