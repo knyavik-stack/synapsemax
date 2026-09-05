@@ -502,13 +502,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788574341.276047,
+    "last_start_ts": 1788574399.8303742,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788574341.276047,
-    "last_success_ts": 1788574341.276047,
+    "last_run_ts": 1788574399.8303742,
+    "last_success_ts": 1788574399.8303742,
     "last_candidates": 0,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 4
   },
   "providers": {
@@ -529,13 +529,6 @@
     }
   },
   "stories": {
-    "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": {
-      "time": 1788487975,
-      "title": "Nvidia’s next AI play: own the platform where open models are built, shared and deployed - Ynetnews",
-      "desc": "Nvidia’s next AI play: own the platform where open models are built, shared and deployed Ynetnews",
-      "source": "Ynetnews",
-      "region": "WORLD"
-    },
     "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": {
       "time": 1788488334,
       "title": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding - IDC | Trusted Tech Intelligence",
