@@ -367,7 +367,8 @@
     "78541832fab30d4881a2a99033b4add88e674fe22c020ad194a9649d9e5fcc08": 1788573439,
     "dfa96c3499273e9f639349df2895dd2f9da83431d7698e726ea44f40cc8896ba": 1788573740,
     "b218a5eaa8e6cfbc744baf3d38f8b40d8f7b68c79c6b14247eaec0ef96bd85d8": 1788574041,
-    "644df3b525ca77e77dce33306f0b56f18c74d9d42fc8d159689dc1b1455bf984": 1788574341
+    "644df3b525ca77e77dce33306f0b56f18c74d9d42fc8d159689dc1b1455bf984": 1788574341,
+    "7c73802d3232061b19419a5ce37714c6e7176df33dff7a2b3ecb27955d41d5a9": 1788574736
   },
   "known": {
     "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": 1788553285.8830574,
@@ -437,22 +438,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "Snowflake Rose 22% After Its AI Coding Agent Drove a Third Straight Quarter of Accelerating Growth - The Eastern Herald",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaXdvS1pUVThGUkVJQS1naVNJeUh4Wkd4NmV5bzl2N2V6OFZQeDR2TllPRGl3aU0wcjdiSmFxX3ZNOGRyWjJzSjZJZEJMb0xYNUFPb3oteWlRWndpVFJVXzZFbTNrUjBFYzBjY0h2azFvMnNMdDNwcFF3MVd5Z1hmY3Q5QTgxV255UG9QMTRoRDduUWc0?oc=5",
-      "desc": "Snowflake Rose 22% After Its AI Coding Agent Drove a Third Straight Quarter of Accelerating Growth The Eastern Herald",
-      "source": "The Eastern Herald",
-      "time": 1788567072.0,
-      "score": 70.5,
-      "key": "7c73802d3232061b19419a5ce37714c6e7176df33dff7a2b3ecb27955d41d5a9",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "OpenAI, Anthropic, Google and Meta All Ship New Models — With the Same Catch - Wowtale",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HYlI1cEJkYW11ZzNSNEpaUkhQaWR6NVBkdll5WElvZ2ZCeTkzVng3OE1jamx5RnBXSkVmVzlWVkNKMmZBTXJ3MFc4dnFnVjRZSzBR?oc=5",
       "desc": "OpenAI, Anthropic, Google and Meta All Ship New Models — With the Same Catch Wowtale",
@@ -502,20 +487,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788574462.2928975,
+    "last_start_ts": 1788574736.8575807,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788574462.2928975,
-    "last_success_ts": 1788574462.2928975,
+    "last_run_ts": 1788574736.8575807,
+    "last_success_ts": 1788574736.8575807,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 4
+    "last_published": 1,
+    "queue_size": 3
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788574344.586609
+      "updated_at": 1788574738.522246
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -529,13 +514,6 @@
     }
   },
   "stories": {
-    "50a29494c271e24eebce3a25703c2ae4ff73ede59ee49d44be3f99263e47737e": {
-      "time": 1788488334,
-      "title": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding - IDC | Trusted Tech Intelligence",
-      "desc": "OpenAI’s Cursor Withdrawal Heats Up the Battle for Agentic Coding IDC | Trusted Tech Intelligence",
-      "source": "IDC | Trusted Tech Intelligence",
-      "region": "WORLD"
-    },
     "f78a923d4ceb7a3c15bfcd90b61f2febd94269b9dd2751ee84176acc445e1fc9": {
       "time": 1788488697,
       "title": "Major AI platforms suffer outages - The Express Tribune",
@@ -2033,10 +2011,16 @@
       "desc": "Nvidia Invests $3.5 Billion in MediaTek: What Is Jensen Huang Eyeing? tradingkey.com",
       "source": "tradingkey.com",
       "region": "WORLD"
+    },
+    "7c73802d3232061b19419a5ce37714c6e7176df33dff7a2b3ecb27955d41d5a9": {
+      "time": 1788574736,
+      "title": "Snowflake Rose 22% After Its AI Coding Agent Drove a Third Straight Quarter of Accelerating Growth - The Eastern Herald",
+      "desc": "Snowflake Rose 22% After Its AI Coding Agent Drove a Third Straight Quarter of Accelerating Growth The Eastern Herald",
+      "source": "The Eastern Herald",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2055,8 +2039,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788574161.4719007,
-  "last_publish_ts": 1788574341.276047
+  "last_publish_ts": 1788574736.8575807
 }
