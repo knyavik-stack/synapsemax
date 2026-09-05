@@ -497,30 +497,13 @@
     "0ccfb2ca57fc62e7bedbb506e805519723c272f28362aa75543dad734dd4c470": 1788635766.10693,
     "061353ee60fa16461e11eeaa12df6d10d2635e7b0809460ae52894221fcf4b44": 1788635766.10693,
     "599d52174c9ef591541d71c42a0166857ae9e5b30aa3b41d8f95fc05df8e7fef": 1788635766.10693,
-    "3d02de43adbffedec88859b74e2bdda427b7793ec5027dac220920de4452b52d": 1788635766.10693
+    "3d02de43adbffedec88859b74e2bdda427b7793ec5027dac220920de4452b52d": 1788635766.10693,
+    "063958d13e05ca1228714350922ba1216a783937319f64efb34260944274a04e": 1788637627.3012326,
+    "94b61390f19d3414592066617159bcf89e5c01433a8eb6509b81c9c4ffb97424": 1788637627.3012326,
+    "aa2a57894836b6e9b4a3d6190584e81bf83db11d985e26e87cf30b6b84e4cdb7": 1788637627.3012326,
+    "20d21b8c2a01793e804c7e48f4b323f7fff7aa71581fbb81882c0dfc99a005a6": 1788637627.3012326
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObl9iWXdvd0RheFctYndQMjI5RU9QMlFtMmpfa21fMFBKMVg4a0U3ZF82a3NKTUxuY2p5UEFuUFRMbDAwWFN1Z2F2Z3I0a3BQWEJKdndsZHljNGNyUTJlVldZVmZLNEIwclNvQ0ZZMktxU1BqX1h6RzlIQ19zUnJrT1JjNTVyVDBwalZoZzhNMHVJWV81OW1jUTRYNGFBNGNWcjdrWWpMOXFZZHNzb0VodUlWTmpndmxuUzE5RVJHRWhGcFpmUXBqcWY2bTEzYnYwc3IxbjBlY0toUQ?oc=5",
-      "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788626547.0,
-      "score": 73.7,
-      "russia_weight_bonus": 4.2,
-      "key": "90f32234779dc5fba43a012179f24eb6f91ebcb8803ae27d2b9b77ba320a4e4d",
-      "importance": 73.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788634686,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788634986
-    },
     {
       "region": "WORLD",
       "title": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings - The Motley Fool",
@@ -536,10 +519,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788637026,
+      "last_failed_at": 1788637627,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788646626
+      "failure_count": 7,
+      "next_retry_at": 1788656827
     },
     {
       "region": "WORLD",
@@ -554,10 +537,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788637026,
+      "last_failed_at": 1788637627,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788646626
+      "failure_count": 7,
+      "next_retry_at": 1788656827
     },
     {
       "region": "RUSSIA",
@@ -593,10 +576,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788637026,
+      "last_failed_at": 1788637627,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788658626
+      "failure_count": 20,
+      "next_retry_at": 1788659227
     },
     {
       "region": "RUSSIA",
@@ -634,10 +617,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788637026,
+      "last_failed_at": 1788637627,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 28,
-      "next_retry_at": 1788658626
+      "failure_count": 29,
+      "next_retry_at": 1788659227
     },
     {
       "region": "RUSSIA",
@@ -704,6 +687,45 @@
       "next_retry_at": 1788653886
     },
     {
+      "region": "RUSSIA",
+      "title": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObl9iWXdvd0RheFctYndQMjI5RU9QMlFtMmpfa21fMFBKMVg4a0U3ZF82a3NKTUxuY2p5UEFuUFRMbDAwWFN1Z2F2Z3I0a3BQWEJKdndsZHljNGNyUTJlVldZVmZLNEIwclNvQ0ZZMktxU1BqX1h6RzlIQ19zUnJrT1JjNTVyVDBwalZoZzhNMHVJWV81OW1jUTRYNGFBNGNWcjdrWWpMOXFZZHNzb0VodUlWTmpndmxuUzE5RVJHRWhGcFpmUXBqcWY2bTEzYnYwc3IxbjBlY0toUQ?oc=5",
+      "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788626547.0,
+      "score": 64.2,
+      "russia_weight_bonus": 4.2,
+      "key": "90f32234779dc5fba43a012179f24eb6f91ebcb8803ae27d2b9b77ba320a4e4d",
+      "importance": 64.2,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
+    },
+    {
+      "region": "WORLD",
+      "title": "NOK Stock Faces Worst Week In 5 Years – But Retail Traders Are Not Giving Up On Nokia’s 'AI RAN Technology' Push - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPalRaWDM2Q216VHFBV1MydzRYRmNiNXBZa1dsbThGUUtPZ3dlWTM5SmJvY2hZMVBLYjJvc2kyY3JYcGo1SXlPZktOZm43cHlfYVl5VlNEelV0UmtqeXJLc1EtQUNxVC1fdHFlaVpDeGg5UlJCTXRPejV1SmZOck5tRnhPS3ZuOXhEUGJob29BSGFCLUlMakRIc0hEME15M0RSWEdodTJvcmlxSjEwbVQ0X21GTDRWR2xKSWRBaU52NXh2cG8wNER4V2ZNLTJwMDVjUzNxd2N1YVI5VUtLUkVtcms5NXBBenRISTFsbEZOWVcybDZaQzQxc3hTdGNmOTMxWFE?oc=5",
+      "desc": "NOK Stock Faces Worst Week In 5 Years – But Retail Traders Are Not Giving Up On Nokia’s 'AI RAN Technology' Push Stocktwits",
+      "source": "Stocktwits",
+      "time": 1788632717.0,
+      "score": 63.5,
+      "key": "063958d13e05ca1228714350922ba1216a783937319f64efb34260944274a04e",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788637627,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788637927
+    },
+    {
       "region": "WORLD",
       "title": "AI Week in Review 26.09.05 - Substack",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40aEV5VGNMYmo2V1Bqb2xvLUlMYi1RRVlaZVdOTElxcDg0bDJ3LVBpNUdyREJEZEw1MnlMODlwVEgweXRpT0Vqd1JHZzluQmR3LTlmaG0tZTQxLUhtZWNhbld1cjQxOGMwcVVTdmJB?oc=5",
@@ -716,10 +738,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788637026,
+      "last_failed_at": 1788637627,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788646626
+      "failure_count": 7,
+      "next_retry_at": 1788656827
     },
     {
       "region": "WORLD",
@@ -734,28 +756,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788637026,
+      "last_failed_at": 1788637627,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 32,
-      "next_retry_at": 1788658626
-    },
-    {
-      "region": "WORLD",
-      "title": "SPX37P Builds a Futuristic Crypto Narrative Around AI, Blockchain and Space Technology - TechBullion",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0tYWnowaEtnMmFqUVhjMVJPMzdMMFBDUnRnYVZyWk9iLUhzMGs4d01lN3FZR0tPc1ZDLTFiYTZsS0F6TE5vWTlwMU1hc1lGbnd6U1VnOF82RWJWeHlYY0ZBSVh1UkUwNzFVaUcwNzRpWVZoWW45SHJLWkU5RTN2VlhCbHBLVk5PalRybVRGbV9HakJHeWkwQzN5bEpvNUprZ0pEcnpJOGk5c2NhQWxJ?oc=5",
-      "desc": "SPX37P Builds a Futuristic Crypto Narrative Around AI, Blockchain and Space Technology TechBullion",
-      "source": "TechBullion",
-      "time": 1788626526.0,
-      "score": 63.5,
-      "key": "ed2e7927d405fb8cb772ffb1a151731fcec229a896ec455e91a34d04e2fff44d",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788637026,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 40,
-      "next_retry_at": 1788658626
+      "failure_count": 33,
+      "next_retry_at": 1788659227
     },
     {
       "region": "RUSSIA",
@@ -793,10 +797,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788637026,
+      "last_failed_at": 1788637627,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 40,
-      "next_retry_at": 1788658626
+      "failure_count": 41,
+      "next_retry_at": 1788659227
     },
     {
       "region": "RUSSIA",
@@ -830,10 +834,45 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788637026,
+      "last_failed_at": 1788637627,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788646626
+      "failure_count": 7,
+      "next_retry_at": 1788656827
+    },
+    {
+      "region": "WORLD",
+      "title": "Bihar's Education Overhaul: AI Integration and New Institutions Announced - devdiscourse.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWS0wdS02aXV5VGhUZEpUMzdHWEx2MGxfRFNOMFgtNmZIUHRYWHVsYVNRaElOYUVDUDhWT29kUmg0ckxEUWhIbXVwZktPc0MwLU9sVWVDWmFncDJackQ1VEw2ekFOeGhTSDRxaTNfTDlmZHpOOHJYV2lEX0JWRS10WU5TbWVYa1Nfdl9BeVp4elk5WWRFU3czSC1aNzNyWnp2MWVFeGJKc182TE1wS1JSMmNuZWpoVVFnR1hQaXF3dHk4WjU4eFRmbtIByAFBVV95cUxOWS0wdS02aXV5VGhUZEpUMzdHWEx2MGxfRFNOMFgtNmZIUHRYWHVsYVNRaElOYUVDUDhWT29kUmg0ckxEUWhIbXVwZktPc0MwLU9sVWVDWmFncDJackQ1VEw2ekFOeGhTSDRxaTNfTDlmZHpOOHJYV2lEX0JWRS10WU5TbWVYa1Nfdl9BeVp4elk5WWRFU3czSC1aNzNyWnp2MWVFeGJKc182TE1wS1JSMmNuZWpoVVFnR1hQaXF3dHk4WjU4eFRmbg?oc=5",
+      "desc": "Bihar's Education Overhaul: AI Integration and New Institutions Announced devdiscourse.com",
+      "source": "devdiscourse.com",
+      "time": 1788619746.0,
+      "score": 62.0,
+      "key": "94b61390f19d3414592066617159bcf89e5c01433a8eb6509b81c9c4ffb97424",
+      "importance": 62.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788637627,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788637927
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Примечания | В российских судах в пилотном режиме применяют нейросети - Примечания.ру",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTXNzOEVYUzdzWVRSOC0wQmdvYzBDc1BkdkZzUm81a1NfUmxiSGhLR19NSWs1MGJKWmpmdW1IeThaQUVoTFcyRHE1R1hqcGRWcF9kRmZ2Tmg1dWV5MzVUWi1mWXNfaWJaT2hwQ2piaVRSQkMyT04tNk9VYmh2Vm02MjIxSjVqUmozeE5lNA?oc=5",
+      "desc": "Примечания | В российских судах в пилотном режиме применяют нейросети Примечания.ру",
+      "source": "Примечания.ру",
+      "time": 1788616080.0,
+      "score": 60.8,
+      "russia_weight_bonus": 4.8,
+      "key": "aa2a57894836b6e9b4a3d6190584e81bf83db11d985e26e87cf30b6b84e4cdb7",
+      "importance": 60.8,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -854,14 +893,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788637026.141189,
+    "last_start_ts": 1788637627.3012326,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788637026.141189,
-    "last_success_ts": 1788637026.141189,
-    "last_candidates": 0,
+    "last_run_ts": 1788637627.3012326,
+    "last_success_ts": 1788637627.3012326,
+    "last_candidates": 39,
     "last_published": 0,
-    "queue_size": 18
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -881,13 +920,6 @@
     }
   },
   "stories": {
-    "12ac7c6daab5aaa913fbec04fd82309e3b8738d2403b63d307bf5ac3f82805c5": {
-      "time": 1788550825,
-      "title": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России - Национальная Служба Новостей",
-      "desc": "«Посмотрите на Запад»: Чего не хватает для развития ИИ в России Национальная Служба Новостей",
-      "source": "Национальная Служба Новостей",
-      "region": "RUSSIA"
-    },
     "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": {
       "time": 1788551422,
       "title": "Nvidia acquires leading AI platform - AzerNews",
@@ -1429,6 +1461,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788635766.10693,
+  "last_search_ts": 1788637627.3012326,
   "last_publish_ts": 1788622283.4029808
 }
