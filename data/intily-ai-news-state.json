@@ -422,12 +422,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788580939.763414,
+    "last_start_ts": 1788581240.5675597,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788580939.763414,
-    "last_success_ts": 1788580939.763414,
-    "last_candidates": 29,
+    "last_run_ts": 1788581240.5675597,
+    "last_success_ts": 1788581240.5675597,
+    "last_candidates": 26,
     "last_published": 0,
     "queue_size": 0
   },
@@ -449,13 +449,6 @@
     }
   },
   "stories": {
-    "e80a338557efe54d1813b0625979c371ef702ab017dae3c04071c01540af4a43": {
-      "time": 1788494694,
-      "title": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко - prospect.com.ru",
-      "desc": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "3ee9a099aa9259fc0cbd48d24d4b344dc9737a04088b3aa820c9d952f17d9eae": {
       "time": 1788495069,
       "title": "AI-Written Papers Outperform 99% of Human Manuscripts: Chen Yongchao’s 4 Unanswered Questions - 36 Kr",
@@ -1928,6 +1921,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788580939.763414,
+  "last_search_ts": 1788581240.5675597,
   "last_publish_ts": 1788578780.5315773
 }
