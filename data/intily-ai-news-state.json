@@ -518,10 +518,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624206,
+      "last_failed_at": 1788624387,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788625406
+      "failure_count": 4,
+      "next_retry_at": 1788626787
     },
     {
       "region": "WORLD",
@@ -539,10 +539,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788624206,
+      "last_failed_at": 1788624387,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788625406
+      "failure_count": 4,
+      "next_retry_at": 1788626787
     },
     {
       "region": "RUSSIA",
@@ -599,10 +599,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788624206,
+      "last_failed_at": 1788624387,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788625406
+      "failure_count": 4,
+      "next_retry_at": 1788626787
     },
     {
       "region": "RUSSIA",
@@ -657,10 +657,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788624206,
+      "last_failed_at": 1788624387,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788625406
+      "failure_count": 4,
+      "next_retry_at": 1788626787
     },
     {
       "region": "WORLD",
@@ -677,10 +677,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788624206,
+      "last_failed_at": 1788624387,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788625406
+      "failure_count": 4,
+      "next_retry_at": 1788626787
     },
     {
       "region": "WORLD",
@@ -697,10 +697,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624206,
+      "last_failed_at": 1788624387,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788625406
+      "failure_count": 4,
+      "next_retry_at": 1788626787
     },
     {
       "region": "WORLD",
@@ -717,10 +717,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624206,
+      "last_failed_at": 1788624387,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788625406
+      "failure_count": 4,
+      "next_retry_at": 1788626787
     },
     {
       "region": "WORLD",
@@ -735,10 +735,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788624206,
+      "last_failed_at": 1788624387,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788625406
+      "failure_count": 4,
+      "next_retry_at": 1788626787
     },
     {
       "region": "RUSSIA",
@@ -852,11 +852,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788624206.1795337,
+    "last_start_ts": 1788624387.7410564,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788624206.1795337,
-    "last_success_ts": 1788624206.1795337,
+    "last_run_ts": 1788624387.7410564,
+    "last_success_ts": 1788624387.7410564,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -879,13 +879,6 @@
     }
   },
   "stories": {
-    "ff374a60e61b0ca84c654c0f578a972ee37931667d473c0f3f4305ec0f2398c6": {
-      "time": 1788537920,
-      "title": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами - CNews.ru",
-      "desc": "ИИ-модели ChatGPT взломали сайт и превратили его в свой форум для обмена вредными советами CNews.ru",
-      "source": "CNews.ru",
-      "region": "RUSSIA"
-    },
     "a934e0ca0a60f2fff4f1e42fef4b181b349cfa89b2e2bb8d6b4fd531a542c76f": {
       "time": 1788538102,
       "title": "NVIDIA Is Reportedly Giving Up On China As A Lost Cause Amid An Unassailable Lead From Huawei, As DeepSeek Snubs H20 GPUs For 160,000 Units Of Huawei’s Ascend 950DT Chips - Wccftech",
