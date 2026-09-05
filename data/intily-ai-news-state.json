@@ -364,14 +364,6 @@
     "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": 1788569600
   },
   "known": {
-    "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": 1788549621.7329698,
-    "763255015c00c1929adcb9edce7ea95db374804bc6ed3057d5eb9f293e2fd753": 1788549621.7329698,
-    "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": 1788549621.7329698,
-    "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": 1788549621.7329698,
-    "079470c614a435d5e0b7ea8e7b9ff7504b896b66f3e883d7d637e772ce525aac": 1788549621.7329698,
-    "427464c2d896eadaf0b6adb0746de3869c66748ac0632f1b159768fdfedf1102": 1788549621.7329698,
-    "6b1150f98028c85b3f856340ec728d9459724323e38e925f58456a309d93d6f3": 1788549621.7329698,
-    "9ec2e3011c64c90afdfbd07ff35c9ab544469727de91cc7cf0e75ae17e4560d7": 1788549621.7329698,
     "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": 1788551422.751168,
     "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad": 1788551422.751168,
     "8a67d99b7b49043fe72889d3cccab53e53abdc35d5a66e843724831f08a779d8": 1788551422.751168,
@@ -431,12 +423,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788571159.6948237,
+    "last_start_ts": 1788571281.693142,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788571159.6948237,
-    "last_success_ts": 1788571159.6948237,
-    "last_candidates": 29,
+    "last_run_ts": 1788571281.693142,
+    "last_success_ts": 1788571281.693142,
+    "last_candidates": 33,
     "last_published": 0,
     "queue_size": 0
   },
@@ -458,13 +450,6 @@
     }
   },
   "stories": {
-    "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": {
-      "time": 1788484855,
-      "title": "Comcast Unveils Next-Gen Video AI Applications - Content + Technology",
-      "desc": "Comcast Unveils Next-Gen Video AI Applications Content + Technology",
-      "source": "Content + Technology",
-      "region": "WORLD"
-    },
     "086a636642af95c36d7890b0d15ba5ee3aa1010959312ca907e529c708271d72": {
       "time": 1788485577,
       "title": "Anthropic Chief Commercial Officer: No Price War—Focus on Enterprise Value and Pre-IPO Financing - finance.biggo.com",
@@ -2007,6 +1992,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788571159.6948237,
+  "last_search_ts": 1788571281.693142,
   "last_publish_ts": 1788569600.1822982
 }
