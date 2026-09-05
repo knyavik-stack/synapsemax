@@ -465,7 +465,16 @@
     "6ac8c4d61036cd51a1483feef3256e95b8482d735585304952c3ac974361e41d": 1788625828.8542562,
     "4d1465178cd1f1deb832c2d219c58849f12870e803b166d2b3b17ac82b4ed445": 1788625828.8542562,
     "a166fb5ef8a3a3306096183548cc313c12a602a3e650c706fa681a8d5ef70b3a": 1788625828.8542562,
-    "51584d6f8f69988e0c7b81451fd0d13c5a3081ba160960226b5e4152bd3193bc": 1788625828.8542562
+    "51584d6f8f69988e0c7b81451fd0d13c5a3081ba160960226b5e4152bd3193bc": 1788625828.8542562,
+    "90f32234779dc5fba43a012179f24eb6f91ebcb8803ae27d2b9b77ba320a4e4d": 1788627687.125582,
+    "dd0a00da399ffb806db1bbaa93ec3842e76e3b652476c7ab39c5d02a93b5dab9": 1788627687.125582,
+    "7e0ce2e64f8956466eb060eac39a60c2457b75bf129acd6e3d8515a582c28d80": 1788627687.125582,
+    "97f55c4a378e01d0bcbb8f82c5e8154c14fb518e308c084311d93159c09f703f": 1788627687.125582,
+    "ed2e7927d405fb8cb772ffb1a151731fcec229a896ec455e91a34d04e2fff44d": 1788627687.125582,
+    "955d10be991a9a209be8707b4c0f96e62b97867bf0242334fbc7f5feded27cdb": 1788627687.125582,
+    "b40e34d4b1b0b7b8a7d7f903a858fa04a58cfc6852214dfed71bd30246caf2c7": 1788627687.125582,
+    "a1eda5d02e073b81f4a476a0be4ebbcd37c7fd8290d600857a5e208d835a4bef": 1788627687.125582,
+    "3397360b22fd347fe7730eda666db8e728c0b06fbefbb97145c42a8ec561de72": 1788627687.125582
   },
   "queue": [
     {
@@ -488,6 +497,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObl9iWXdvd0RheFctYndQMjI5RU9QMlFtMmpfa21fMFBKMVg4a0U3ZF82a3NKTUxuY2p5UEFuUFRMbDAwWFN1Z2F2Z3I0a3BQWEJKdndsZHljNGNyUTJlVldZVmZLNEIwclNvQ0ZZMktxU1BqX1h6RzlIQ19zUnJrT1JjNTVyVDBwalZoZzhNMHVJWV81OW1jUTRYNGFBNGNWcjdrWWpMOXFZZHNzb0VodUlWTmpndmxuUzE5RVJHRWhGcFpmUXBqcWY2bTEzYnYwc3IxbjBlY0toUQ?oc=5",
+      "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788626547.0,
+      "score": 76.7,
+      "russia_weight_bonus": 4.2,
+      "key": "90f32234779dc5fba43a012179f24eb6f91ebcb8803ae27d2b9b77ba320a4e4d",
+      "importance": 76.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Adobe купила индийский стартап Rilo для AI-агентов - Techora.ru",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcHFhZTBsc0FodmotdFZkamw5dWdxQ3VFRGktNGFMOC1kZk9aVkFSZ2lBYmZ4eDZpenhtMHhSV2JvbkFGczJoTlpJRTZrUkE5UXRUQ3o5MDR3cGF6WWpTcGRNckF6MUxXcjh3R2RDd0pCTjhOaVpYd3lINlBmVHBSMw?oc=5",
       "desc": "Adobe купила индийский стартап Rilo для AI-агентов Techora.ru",
@@ -504,20 +530,55 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды - 24 Канал",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYnl5aVdFWnJFdnFvQjhtZWh5U19RSi1FTWNfcVI3anV4b2xKREkyajAyeG9YMEJHdzNXcUxVSXM5N2NaeEdGSk54SHlkQjVDMDNvVnE4eHpmcV9LMy1DemJyclpGVjZwTDhLSGVNd2lZbzE4WHBzTEJVRjB3VDRxVTRXRW94MEtjdzg5MEV6R1l0ZTdiZ2xJU0dldTI5Qmc1SDJZU0JqbXVoMGRjQ1piSE5zOW5udHfSAbwBQVVfeXFMTXVFU0JTbmt0S1FxUmJlNm1XbDlKREJ3Tzk3cnY5TjhvRnhBcFU5NGpwYjZlUFZETU9MTUs5dkU3N2V5MlItbDNFSGlja0RoRldFSFB0RDQ0TEhHQXhTUFFoYTRsMHNYLW1PbVgxdUtkaXFRQV9JT0c1akZwaGNxUzgtX09uanNod0pkWEtYa0VuYlRDX3lvZWtzdENHYzJHN21tTHFQUHdDY2s3cWRLRU5CTGt6VXVMQUk5blc?oc=5",
-      "desc": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды 24 Канал",
-      "source": "24 Канал",
-      "time": 1788624060.0,
-      "score": 70.7,
-      "russia_weight_bonus": 2.2,
-      "key": "0b461112fa873f396ace12ebbcfa95d992d12fd8f8e56803f8cb9e9c223ffabe",
-      "importance": 70.7,
+      "region": "WORLD",
+      "title": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work - AI Insider",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONG0xZHRoTGJmcEc2Z3hqUkpkM3ZPNEF2ajRFYll3UmNDMGdvTjJVY0d1NUM5bFpnUnVGZ3pnblJEeEk5V1FONW8yLWs1R2liRUpGSnhvWS1uVjVhdU5QMldXQXowZXM0VDRDN2hWRjcxcXFoZFNKSGhKOC1YQjIxUHF5Tm9INExsMmx2ZXdRSHdHQmVYUV9MOUZtQWoxQW1kRVB4UXJGT0t3TlNOYkE3S25lUUFLd2M?oc=5",
+      "desc": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work AI Insider",
+      "source": "AI Insider",
+      "time": 1788625574.0,
+      "score": 73.5,
+      "key": "dd0a00da399ffb806db1bbaa93ec3842e76e3b652476c7ab39c5d02a93b5dab9",
+      "importance": 73.5,
       "editorial_value": 50.0,
       "topics": [
-        "security_regulation"
+        "tools"
       ],
+      "tier": "A",
+      "last_failed_at": 1788627687,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788627987
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Нейросети в подборе персонала: 10 инструментов для HR — от скрининга резюме до онбординга - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ29xdnRfdU9xaE5fMmdFMHBPMTI2TVJyRk1oN3RZRXU0Tm5jS2hPM013Vk5ya180OVdLeVB6LWExMndJQWMtNXFFbWxkWjJNaVM5Wm1DTExHTnhoY19kbkZsaHNsTkxuaTE1ZFFtNHBoY1JKNTQ5V3ktMS11TTJ0NzB3VXhFVm9ILW1LZDFoTVMxYkF1RVZ4MlVn?oc=5",
+      "desc": "Нейросети в подборе персонала: 10 инструментов для HR — от скрининга резюме до онбординга VC.ru",
+      "source": "VC.ru",
+      "time": 1788623703.0,
+      "score": 71.8,
+      "russia_weight_bonus": 2.3,
+      "key": "7e0ce2e64f8956466eb060eac39a60c2457b75bf129acd6e3d8515a582c28d80",
+      "importance": 71.8,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Голос уже не гарантирует подлинность: мошенники активно используют нейросети - АБН24",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNel9IRFhXZ3ItZnhoYzJ5U1NhYmVBWnhqLWZvTmdSanJla2VWZGU5dTk0bnJPUUFacmxUUzBBSHlIVWNBa0xqRER5ejdOcVBUWThpTW5TSXV5bkVGQzFYUUl3WURCSUlvRlBReEVEN19QU19mY01OR2ppaFpRcGkyWDFUcjdkd0k4aG5hY2pDd1RtMlI3U0RFeGVzc2VxanBDZFFhdTdNWVJuQzlU?oc=5",
+      "desc": "Голос уже не гарантирует подлинность: мошенники активно используют нейросети АБН24",
+      "source": "АБН24",
+      "time": 1788625881.0,
+      "score": 71.3,
+      "russia_weight_bonus": 2.8,
+      "key": "97f55c4a378e01d0bcbb8f82c5e8154c14fb518e308c084311d93159c09f703f",
+      "importance": 71.3,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -557,10 +618,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788627508,
+      "last_failed_at": 1788627687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788649108
+      "failure_count": 20,
+      "next_retry_at": 1788649287
     },
     {
       "region": "RUSSIA",
@@ -643,6 +704,23 @@
       "next_retry_at": 1788633446
     },
     {
+      "region": "RUSSIA",
+      "title": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды - 24 Канал",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYnl5aVdFWnJFdnFvQjhtZWh5U19RSi1FTWNfcVI3anV4b2xKREkyajAyeG9YMEJHdzNXcUxVSXM5N2NaeEdGSk54SHlkQjVDMDNvVnE4eHpmcV9LMy1DemJyclpGVjZwTDhLSGVNd2lZbzE4WHBzTEJVRjB3VDRxVTRXRW94MEtjdzg5MEV6R1l0ZTdiZ2xJU0dldTI5Qmc1SDJZU0JqbXVoMGRjQ1piSE5zOW5udHfSAbwBQVVfeXFMTXVFU0JTbmt0S1FxUmJlNm1XbDlKREJ3Tzk3cnY5TjhvRnhBcFU5NGpwYjZlUFZETU9MTUs5dkU3N2V5MlItbDNFSGlja0RoRldFSFB0RDQ0TEhHQXhTUFFoYTRsMHNYLW1PbVgxdUtkaXFRQV9JT0c1akZwaGNxUzgtX09uanNod0pkWEtYa0VuYlRDX3lvZWtzdENHYzJHN21tTHFQUHdDY2s3cWRLRU5CTGt6VXVMQUk5blc?oc=5",
+      "desc": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды 24 Канал",
+      "source": "24 Канал",
+      "time": 1788624060.0,
+      "score": 67.7,
+      "russia_weight_bonus": 2.2,
+      "key": "0b461112fa873f396ace12ebbcfa95d992d12fd8f8e56803f8cb9e9c223ffabe",
+      "importance": 67.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEpGRDlTNGJuSVd0STFvOEFpN0Nrd3l4Y3dZbEo0Q0NSTXh1ZHZVNDJJZENSOTNMb0ZDaWN4X1ZLRGw5RFZDX2J1Z3pKWF83TjdKcjdoajhKM1JLV3ZWZ01yUXd3QWZVaGFLY08xVGNJaDhGVDcweDMzZmJDTXN6NGxTOGRoMjlXSk84Q21FQlN5R2hPY2ZB?oc=5",
@@ -657,10 +735,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788627508,
+      "last_failed_at": 1788627687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788649108
+      "failure_count": 20,
+      "next_retry_at": 1788649287
     },
     {
       "region": "WORLD",
@@ -677,30 +755,46 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788627508,
+      "last_failed_at": 1788627687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788649108
+      "failure_count": 20,
+      "next_retry_at": 1788649287
     },
     {
       "region": "WORLD",
-      "title": "ECCV 2026 Preview: Computer Vision Converges on World Models and Embodied AI - Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbzc0NG5rdnA1SXBibTVTbkpsWUlpVS1EVnVRZmo5R19IZ3RQb1VrTW9vSlZMZFJIbEFQaGo2bzJMdk40UlYtVG10RkowWHdqTWRLcGFYQU1nNGo3Z2dnNXU1X1NWM0R1cWkxRVMtNFNKZl9VNEpuaHJkWFZiV0FSRkJNWFc4UmQtY0dRQ296cEN6Y00wYmRrQmRvLVF2Wm5lVFRDMVFBUmhGMElGUFNiU09lU19PQlJYTnhVazM1U20?oc=5",
-      "desc": "ECCV 2026 Preview: Computer Vision Converges on World Models and Embodied AI Tech Times",
-      "source": "Tech Times",
-      "time": 1788616718.0,
-      "score": 67.5,
-      "key": "8f7dbbe58b48d97ba0589363901c0403ff2796a7263b4e8ab322cc620b16507f",
-      "importance": 67.5,
+      "title": "SPX37P Builds a Futuristic Crypto Narrative Around AI, Blockchain and Space Technology - TechBullion",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0tYWnowaEtnMmFqUVhjMVJPMzdMMFBDUnRnYVZyWk9iLUhzMGs4d01lN3FZR0tPc1ZDLTFiYTZsS0F6TE5vWTlwMU1hc1lGbnd6U1VnOF82RWJWeHlYY0ZBSVh1UkUwNzFVaUcwNzRpWVZoWW45SHJLWkU5RTN2VlhCbHBLVk5PalRybVRGbV9HakJHeWkwQzN5bEpvNUprZ0pEcnpJOGk5c2NhQWxJ?oc=5",
+      "desc": "SPX37P Builds a Futuristic Crypto Narrative Around AI, Blockchain and Space Technology TechBullion",
+      "source": "TechBullion",
+      "time": 1788626526.0,
+      "score": 66.5,
+      "key": "ed2e7927d405fb8cb772ffb1a151731fcec229a896ec455e91a34d04e2fff44d",
+      "importance": 66.5,
       "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
+      "topics": [],
       "tier": "A",
-      "last_failed_at": 1788627508,
+      "last_failed_at": 1788627687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788649108
+      "failure_count": 1,
+      "next_retry_at": 1788627987
+    },
+    {
+      "region": "WORLD",
+      "title": "OpenAI Acknowledges ‘Wiki Incident’ and Need for More Transparency Around Unintended AI Behavior - ASHARQ AL-AWSAT English",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUVlyaHB2RHZmQzAwY1Z3UVppNVRvZ2tNQnIzaktyRXZGTFQ1MzBoejRsMkVoTkJoTE1Qb0xZd3hPaUZEVjloTHJyVkJxVWk2RG5iN1ZoQmlQZ2tYOFpIVHpmdGMxSl83S1c1a2NnTmFhck9nTGdYR28yOU96TXAwMG9qMkY4bmJHRnBnRTk3X1ZhQ0FEejJSbU80UGVqTUlUZmEwVHNLYWNpckJPYTlSVTVqM1NYc3BNZFBYTTBJN3J3eS1MRkY2ejBwZHNGbC1Ub2hpamM0MlhUZw?oc=5",
+      "desc": "OpenAI Acknowledges ‘Wiki Incident’ and Need for More Transparency Around Unintended AI Behavior ASHARQ AL-AWSAT English",
+      "source": "ASHARQ AL-AWSAT English",
+      "time": 1788625888.0,
+      "score": 66.5,
+      "key": "955d10be991a9a209be8707b4c0f96e62b97867bf0242334fbc7f5feded27cdb",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788627687,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788627987
     },
     {
       "region": "WORLD",
@@ -715,10 +809,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788627508,
+      "last_failed_at": 1788627687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788649108
+      "failure_count": 11,
+      "next_retry_at": 1788649287
     },
     {
       "region": "WORLD",
@@ -735,10 +829,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788627508,
+      "last_failed_at": 1788627687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788649108
+      "failure_count": 20,
+      "next_retry_at": 1788649287
     },
     {
       "region": "RUSSIA",
@@ -760,97 +854,17 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ИИ-ограничения. От вседозволенности к регулированию - Финам",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaU5tekNMdlpmTGZVSHdGRDhIdFRhcVhXU1F6anBPRGUzV3hzUkJZWkt2SzFNZ0RPcVR1QmtMU3FrMktMUWFEN1dvTHUyai0zTzhfdHpvbFJ1WlhTWGRSMFUwUjFIbGs4MmJiMGZEcXViRXY1Q3FFV19INXFwZm9sYllERWtpdzRINC04NnJVVHJyWG52b3RjU1VPaGhxeEhvVE45bEpGTDFVMUk?oc=5",
-      "desc": "ИИ-ограничения. От вседозволенности к регулированию Финам",
-      "source": "Финам",
-      "time": 1788609600.0,
-      "score": 63.5,
-      "russia_weight_bonus": 3.5,
-      "key": "776ff5c7ab1a3f7435cf3abc7a1caff1de9c1fe323ff6007f9c8715c1e9bd6b0",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Навести порядок в российских судах призваны четыре ИИ-модели - Вечерний Санкт-Петербург",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQThIUjVTSkVIWC1kTG1MMEljUHZObmxmZU1mVVFMUXFWV012aWVRMndGbXVWZV8tYVUwaWtrUUF6U0dTMDFwdldtUFFmSG81RnZuT2NMVkVSTmVFcFc2TjlLNUNhSkNvLVh0WXRFVHZvaEtZV0NDXzBRclItdTJESWpEQm1YV0RvZ0Q3dkpBY21NUFF6RzFtX1JGTmFnUTA?oc=5",
-      "desc": "Навести порядок в российских судах призваны четыре ИИ-модели Вечерний Санкт-Петербург",
-      "source": "Вечерний Санкт-Петербург",
-      "time": 1788611525.0,
-      "score": 62.7,
-      "russia_weight_bonus": 2.7,
-      "key": "14f56fa1180967dda4406b45692e99a58f8c7e77a903653c1b50f2057becca33",
-      "importance": 62.7,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
-      "region": "WORLD",
-      "title": "DeepMind AI agents: 100-strong Lean swarm splits on cheating - tbreak.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IQ3FXclljM3Bmb3hBa0t5UmhlRHFTT01tQXplQV9fdTRkcUFEQl9yMzNUUzJqS1NZZWkwNDdHZW9YVUVlQlJReF9DbThQdkFnUnY4c2VSTy1YaHN2N1I3Zy1lTkpJVVd6aU0yWUkwUWNhck91?oc=5",
-      "desc": "DeepMind AI agents: 100-strong Lean swarm splits on cheating tbreak.com",
-      "source": "tbreak.com",
-      "time": 1788615840.0,
-      "score": 60.0,
-      "key": "7a3f7c5c552ab5224df10b230e2023575704a85a212c28da3f897bc43c3219ed",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788627508,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788649108
-    },
-    {
-      "region": "WORLD",
-      "title": "Muthoot Finance Expands Agentic AI and Digital Banking Strategy - Kalkine India",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY1VjNWF2NU14TWY5VnpRMzV4R3paelRNbUNEQXpFclpXWmVHME01RlZMRml5REVjZk1ZYnV1bUIwS3lURjU2Y19ZYWZDNnJQTEIxTm5rdzZodF9lcmJNenY0dzhtcGhuYTlQdUw1ejJ3bjVWTU9peDg1cVlsOFBVUk5LdVFjcTh4alp3M05FaW1lYlNMWWlhVG8wb3p2SElJMmxYbTRqWDZ6N2MyYzlndnQ5NEp4YU5pSDRYSHJkWFpKeTJRa24xWEFoaGhhUjI0XzhMVzYyam1LQlFF?oc=5",
-      "desc": "Muthoot Finance Expands Agentic AI and Digital Banking Strategy Kalkine India",
-      "source": "Kalkine India",
-      "time": 1788615660.0,
-      "score": 60.0,
-      "key": "125e6f0f5119c0a004ac5fb22da9c70a36154253596d111be3be6f45c6ffb5b6",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788627508,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788649108
     }
   ],
   "health": {
-    "last_start_ts": 1788627508.6506753,
+    "last_start_ts": 1788627687.125582,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788627508.6506753,
-    "last_success_ts": 1788627508.6506753,
-    "last_candidates": 0,
+    "last_run_ts": 1788627687.125582,
+    "last_success_ts": 1788627687.125582,
+    "last_candidates": 51,
     "last_published": 0,
-    "queue_size": 19
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -1607,6 +1621,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788625828.8542562,
+  "last_search_ts": 1788627687.125582,
   "last_publish_ts": 1788622283.4029808
 }
