@@ -519,10 +519,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788625232,
+      "last_failed_at": 1788625286,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788634832
+      "failure_count": 7,
+      "next_retry_at": 1788644486
     },
     {
       "region": "RUSSIA",
@@ -579,10 +579,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788625232,
+      "last_failed_at": 1788625286,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788634832
+      "failure_count": 7,
+      "next_retry_at": 1788644486
     },
     {
       "region": "RUSSIA",
@@ -637,10 +637,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788625232,
+      "last_failed_at": 1788625286,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788634832
+      "failure_count": 7,
+      "next_retry_at": 1788644486
     },
     {
       "region": "WORLD",
@@ -657,10 +657,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788625232,
+      "last_failed_at": 1788625286,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788634832
+      "failure_count": 7,
+      "next_retry_at": 1788644486
     },
     {
       "region": "WORLD",
@@ -677,10 +677,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788625232,
+      "last_failed_at": 1788625286,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788634832
+      "failure_count": 7,
+      "next_retry_at": 1788644486
     },
     {
       "region": "WORLD",
@@ -697,10 +697,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788625232,
+      "last_failed_at": 1788625286,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788634832
+      "failure_count": 7,
+      "next_retry_at": 1788644486
     },
     {
       "region": "WORLD",
@@ -717,10 +717,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788625232,
+      "last_failed_at": 1788625286,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788634832
+      "failure_count": 7,
+      "next_retry_at": 1788644486
     },
     {
       "region": "WORLD",
@@ -735,10 +735,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788625232,
+      "last_failed_at": 1788625286,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788634832
+      "failure_count": 7,
+      "next_retry_at": 1788644486
     },
     {
       "region": "RUSSIA",
@@ -852,11 +852,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788625232.0996525,
+    "last_start_ts": 1788625286.4551911,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788625232.0996525,
-    "last_success_ts": 1788625232.0996525,
+    "last_run_ts": 1788625286.4551911,
+    "last_success_ts": 1788625286.4551911,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -879,13 +879,6 @@
     }
   },
   "stories": {
-    "dec7ff6c1c75370524bacea55dafd548596761e37ea49b37ec5e986efa651c14": {
-      "time": 1788538884,
-      "title": "The National Beat: When to add AI agents - The Business Journals",
-      "desc": "The National Beat: When to add AI agents The Business Journals",
-      "source": "The Business Journals",
-      "region": "WORLD"
-    },
     "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2": {
       "time": 1788539359,
       "title": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 - Robotics Tomorrow",
