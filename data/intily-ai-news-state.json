@@ -441,12 +441,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788569179.411325,
+    "last_start_ts": 1788569242.3399308,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788569179.411325,
-    "last_success_ts": 1788569179.411325,
-    "last_candidates": 42,
+    "last_run_ts": 1788569242.3399308,
+    "last_success_ts": 1788569242.3399308,
+    "last_candidates": 41,
     "last_published": 0,
     "queue_size": 0
   },
@@ -468,13 +468,6 @@
     }
   },
   "stories": {
-    "4c9bb67e1d0c0762e9d064b69a9ec0f83e9f432d5a0aeaa816664d1307254797": {
-      "time": 1788482816,
-      "title": "Michelle Schmaderer Launches House of Profits™, a First-of-Its-Kind Business-Building Experience for the AI Economy - The Manila Times",
-      "desc": "Michelle Schmaderer Launches House of Profits™, a First-of-Its-Kind Business-Building Experience for the AI Economy The Manila Times",
-      "source": "The Manila Times",
-      "region": "WORLD"
-    },
     "eda7f1adf120bc9056f8b8cc828697a48f03bce7af09324c90a54ff88ee25b85": {
       "time": 1788483115,
       "title": "Robotaxis London, OpenAI humanoid plans, MIT AV insights - blockchain.news",
@@ -2059,6 +2052,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788569179.411325,
+  "last_search_ts": 1788569242.3399308,
   "last_publish_ts": 1788568641.0768464
 }
