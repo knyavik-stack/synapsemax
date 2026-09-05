@@ -505,27 +505,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVVlTS3ZUM2c1NkFnYUFOYVVPLXZ3alRzbUF1SFQ4bmRLem1keDNlVFJ0NFV3MHVIQWNuODFXc0k2c3pqVnVKOER0cExqTU5LdjZfSi1NWTc4bndZQ0ZBQVJ1LURhelRtUWVIVkxjT0prLV9jRF9CTndzTUtmRXFsVld6em5UbDBOdG9ONVoyaEJqcHZTd3hsM1p5YzVIUVEtOXRsbjRWUDNPelVIYVY2RFdzUTB6OUs3YS1UNy1RbXVaVU1jaGRVTjQzM2NPWEE?oc=5",
-      "desc": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788604978.0,
-      "score": 71.9,
-      "russia_weight_bonus": 3.9,
-      "key": "15ce5f2ec65dc652f3a80afb33fbe112f28ecfd79fd0efb527a48181ea5dc499",
-      "importance": 71.9,
-      "editorial_value": 50.0,
-      "topics": [
-        "robotics"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
-      "region": "RUSSIA",
       "title": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды - 24 Канал",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYnl5aVdFWnJFdnFvQjhtZWh5U19RSi1FTWNfcVI3anV4b2xKREkyajAyeG9YMEJHdzNXcUxVSXM5N2NaeEdGSk54SHlkQjVDMDNvVnE4eHpmcV9LMy1DemJyclpGVjZwTDhLSGVNd2lZbzE4WHBzTEJVRjB3VDRxVTRXRW94MEtjdzg5MEV6R1l0ZTdiZ2xJU0dldTI5Qmc1SDJZU0JqbXVoMGRjQ1piSE5zOW5udHfSAbwBQVVfeXFMTXVFU0JTbmt0S1FxUmJlNm1XbDlKREJ3Tzk3cnY5TjhvRnhBcFU5NGpwYjZlUFZETU9MTUs5dkU3N2V5MlItbDNFSGlja0RoRldFSFB0RDQ0TEhHQXhTUFFoYTRsMHNYLW1PbVgxdUtkaXFRQV9JT0c1akZwaGNxUzgtX09uanNod0pkWEtYa0VuYlRDX3lvZWtzdENHYzJHN21tTHFQUHdDY2s3cWRLRU5CTGt6VXVMQUk5blc?oc=5",
       "desc": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды 24 Канал",
@@ -578,10 +557,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788626245,
+      "last_failed_at": 1788626727,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788647845
+      "failure_count": 14,
+      "next_retry_at": 1788648327
     },
     {
       "region": "RUSSIA",
@@ -643,6 +622,27 @@
       "next_retry_at": 1788633446
     },
     {
+      "region": "RUSSIA",
+      "title": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVVlTS3ZUM2c1NkFnYUFOYVVPLXZ3alRzbUF1SFQ4bmRLem1keDNlVFJ0NFV3MHVIQWNuODFXc0k2c3pqVnVKOER0cExqTU5LdjZfSi1NWTc4bndZQ0ZBQVJ1LURhelRtUWVIVkxjT0prLV9jRF9CTndzTUtmRXFsVld6em5UbDBOdG9ONVoyaEJqcHZTd3hsM1p5YzVIUVEtOXRsbjRWUDNPelVIYVY2RFdzUTB6OUs3YS1UNy1RbXVaVU1jaGRVTjQzM2NPWEE?oc=5",
+      "desc": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788604978.0,
+      "score": 67.9,
+      "russia_weight_bonus": 3.9,
+      "key": "15ce5f2ec65dc652f3a80afb33fbe112f28ecfd79fd0efb527a48181ea5dc499",
+      "importance": 67.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "robotics"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788623846,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 6,
+      "next_retry_at": 1788633446
+    },
+    {
       "region": "WORLD",
       "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors - Yahoo Finance",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEpGRDlTNGJuSVd0STFvOEFpN0Nrd3l4Y3dZbEo0Q0NSTXh1ZHZVNDJJZENSOTNMb0ZDaWN4X1ZLRGw5RFZDX2J1Z3pKWF83TjdKcjdoajhKM1JLV3ZWZ01yUXd3QWZVaGFLY08xVGNJaDhGVDcweDMzZmJDTXN6NGxTOGRoMjlXSk84Q21FQlN5R2hPY2ZB?oc=5",
@@ -657,10 +657,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788626245,
+      "last_failed_at": 1788626727,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788647845
+      "failure_count": 14,
+      "next_retry_at": 1788648327
     },
     {
       "region": "WORLD",
@@ -677,10 +677,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788626245,
+      "last_failed_at": 1788626727,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788647845
+      "failure_count": 14,
+      "next_retry_at": 1788648327
     },
     {
       "region": "WORLD",
@@ -697,50 +697,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788626245,
+      "last_failed_at": 1788626727,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788647845
-    },
-    {
-      "region": "WORLD",
-      "title": "DeepMind AI agents: 100-strong Lean swarm splits on cheating - tbreak.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IQ3FXclljM3Bmb3hBa0t5UmhlRHFTT01tQXplQV9fdTRkcUFEQl9yMzNUUzJqS1NZZWkwNDdHZW9YVUVlQlJReF9DbThQdkFnUnY4c2VSTy1YaHN2N1I3Zy1lTkpJVVd6aU0yWUkwUWNhck91?oc=5",
-      "desc": "DeepMind AI agents: 100-strong Lean swarm splits on cheating tbreak.com",
-      "source": "tbreak.com",
-      "time": 1788615840.0,
-      "score": 67.5,
-      "key": "7a3f7c5c552ab5224df10b230e2023575704a85a212c28da3f897bc43c3219ed",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788626245,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788647845
-    },
-    {
-      "region": "WORLD",
-      "title": "Muthoot Finance Expands Agentic AI and Digital Banking Strategy - Kalkine India",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY1VjNWF2NU14TWY5VnpRMzV4R3paelRNbUNEQXpFclpXWmVHME01RlZMRml5REVjZk1ZYnV1bUIwS3lURjU2Y19ZYWZDNnJQTEIxTm5rdzZodF9lcmJNenY0dzhtcGhuYTlQdUw1ejJ3bjVWTU9peDg1cVlsOFBVUk5LdVFjcTh4alp3M05FaW1lYlNMWWlhVG8wb3p2SElJMmxYbTRqWDZ6N2MyYzlndnQ5NEp4YU5pSDRYSHJkWFpKeTJRa24xWEFoaGhhUjI0XzhMVzYyam1LQlFF?oc=5",
-      "desc": "Muthoot Finance Expands Agentic AI and Digital Banking Strategy Kalkine India",
-      "source": "Kalkine India",
-      "time": 1788615660.0,
-      "score": 67.5,
-      "key": "125e6f0f5119c0a004ac5fb22da9c70a36154253596d111be3be6f45c6ffb5b6",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788626245,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788647845
+      "failure_count": 14,
+      "next_retry_at": 1788648327
     },
     {
       "region": "WORLD",
@@ -755,10 +715,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788626245,
+      "last_failed_at": 1788626727,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788628645
+      "failure_count": 5,
+      "next_retry_at": 1788631527
     },
     {
       "region": "WORLD",
@@ -775,10 +735,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788626245,
+      "last_failed_at": 1788626727,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788647845
+      "failure_count": 14,
+      "next_retry_at": 1788648327
     },
     {
       "region": "RUSSIA",
@@ -840,14 +800,54 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
+    },
+    {
+      "region": "WORLD",
+      "title": "DeepMind AI agents: 100-strong Lean swarm splits on cheating - tbreak.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IQ3FXclljM3Bmb3hBa0t5UmhlRHFTT01tQXplQV9fdTRkcUFEQl9yMzNUUzJqS1NZZWkwNDdHZW9YVUVlQlJReF9DbThQdkFnUnY4c2VSTy1YaHN2N1I3Zy1lTkpJVVd6aU0yWUkwUWNhck91?oc=5",
+      "desc": "DeepMind AI agents: 100-strong Lean swarm splits on cheating tbreak.com",
+      "source": "tbreak.com",
+      "time": 1788615840.0,
+      "score": 60.0,
+      "key": "7a3f7c5c552ab5224df10b230e2023575704a85a212c28da3f897bc43c3219ed",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788626727,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 14,
+      "next_retry_at": 1788648327
+    },
+    {
+      "region": "WORLD",
+      "title": "Muthoot Finance Expands Agentic AI and Digital Banking Strategy - Kalkine India",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY1VjNWF2NU14TWY5VnpRMzV4R3paelRNbUNEQXpFclpXWmVHME01RlZMRml5REVjZk1ZYnV1bUIwS3lURjU2Y19ZYWZDNnJQTEIxTm5rdzZodF9lcmJNenY0dzhtcGhuYTlQdUw1ejJ3bjVWTU9peDg1cVlsOFBVUk5LdVFjcTh4alp3M05FaW1lYlNMWWlhVG8wb3p2SElJMmxYbTRqWDZ6N2MyYzlndnQ5NEp4YU5pSDRYSHJkWFpKeTJRa24xWEFoaGhhUjI0XzhMVzYyam1LQlFF?oc=5",
+      "desc": "Muthoot Finance Expands Agentic AI and Digital Banking Strategy Kalkine India",
+      "source": "Kalkine India",
+      "time": 1788615660.0,
+      "score": 60.0,
+      "key": "125e6f0f5119c0a004ac5fb22da9c70a36154253596d111be3be6f45c6ffb5b6",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788626727,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 14,
+      "next_retry_at": 1788648327
     }
   ],
   "health": {
-    "last_start_ts": 1788626245.6314783,
+    "last_start_ts": 1788626727.436928,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788626245.6314783,
-    "last_success_ts": 1788626245.6314783,
+    "last_run_ts": 1788626727.436928,
+    "last_success_ts": 1788626727.436928,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 19
@@ -870,20 +870,6 @@
     }
   },
   "stories": {
-    "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": {
-      "time": 1788540022,
-      "title": "Check Point expands OpenAI Daybreak use in security - IT Brief Asia",
-      "desc": "Check Point expands OpenAI Daybreak use in security IT Brief Asia",
-      "source": "IT Brief Asia",
-      "region": "WORLD"
-    },
-    "5732c0ad492096dbf092ca7a23153bb1b30649d62aecb904a7008cadc54fabc7": {
-      "time": 1788540261,
-      "title": "Компания OpenAI инвестирует 1 миллиард долларов в поддержку важнейшей инфраструктуры для укрепления кибербезопасности. - Vietnam.vn",
-      "desc": "Компания OpenAI инвестирует 1 миллиард долларов в поддержку важнейшей инфраструктуры для укрепления кибербезопасности. Vietnam.vn",
-      "source": "Vietnam.vn",
-      "region": "RUSSIA"
-    },
     "bd1b16ac3d7979e646aea726cb62fb825ac80d17619edc426c5abf1471c2f457": {
       "time": 1788540501,
       "title": "Think of Nvidia’s $13 billion deal for Hugging Face as a form of ‘health insurance’ - MarketWatch",
