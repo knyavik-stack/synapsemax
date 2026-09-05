@@ -382,7 +382,8 @@
     "52c46b831ceab21c97a56ab2284fd391508a5b2f63d84bcfd829842c48a448a8": 1788582919,
     "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788583161,
     "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": 1788584060,
-    "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584361
+    "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584361,
+    "2db40d27a64066d80b975c5109bb10656e5e310290342b3d787f1f1eb4631e9d": 1788584599
   },
   "known": {
     "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439.8961396,
@@ -421,38 +422,22 @@
     "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584060.6424463,
     "2db40d27a64066d80b975c5109bb10656e5e310290342b3d787f1f1eb4631e9d": 1788584060.6424463
   },
-  "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "«Нацпроектстрой» использует голосовой ИИ-помощник для найма сотрудников - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb0djeGlhRHluazJDME1pSnF2dFE0Z292ZEVvYnNvYTZDZHZ4TWtZcnhKQWtrNVNjbEtIbVlZRVBCZnN3eHM4MG1aVHhzWE1PVW94OHdrWmp6Y2hpQlp5WFNRS1JaUWZpS0pLTVBkekVHOWctcjItQTMtSU5uZEZnNjdMTGp0U09KMVhiMGU5dGJnNTIxTkRSVDFYR2RXeGRvbzl1eTBLRTQwdkNBTnNGbjBpNA?oc=5",
-      "desc": "«Нацпроектстрой» использует голосовой ИИ-помощник для найма сотрудников prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788564745.0,
-      "score": 60.3,
-      "russia_weight_bonus": 4.3,
-      "key": "2db40d27a64066d80b975c5109bb10656e5e310290342b3d787f1f1eb4631e9d",
-      "importance": 60.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    }
-  ],
+  "queue": [],
   "health": {
-    "last_start_ts": 1788584361.9852333,
+    "last_start_ts": 1788584599.74627,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788584361.9852333,
-    "last_success_ts": 1788584361.9852333,
-    "last_candidates": 0,
+    "last_run_ts": 1788584599.74627,
+    "last_success_ts": 1788584599.74627,
+    "last_candidates": 24,
     "last_published": 1,
-    "queue_size": 1
+    "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788584364.1633644
+      "updated_at": 1788584616.809175
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1886,12 +1871,18 @@
       "desc": "GPT-6 Astra Lands on Pro, Enterprise and the API as Anthropic Resets Claude Limits Pasquale Pillitteri",
       "source": "Pasquale Pillitteri",
       "region": "WORLD"
+    },
+    "2db40d27a64066d80b975c5109bb10656e5e310290342b3d787f1f1eb4631e9d": {
+      "time": 1788584599,
+      "title": "«Нацпроектстрой» использует голосовой ИИ-помощник для найма сотрудников - prospect.com.ru",
+      "desc": "«Нацпроектстрой» использует голосовой ИИ-помощник для найма сотрудников prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1908,8 +1899,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
-  "last_search_ts": 1788584060.6424463,
-  "last_publish_ts": 1788584361.9852333
+  "last_search_ts": 1788584599.74627,
+  "last_publish_ts": 1788584599.74627
 }
