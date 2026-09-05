@@ -561,10 +561,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 18,
-      "next_retry_at": 1788661722
+      "failure_count": 19,
+      "next_retry_at": 1788661849
     },
     {
       "region": "WORLD",
@@ -579,10 +579,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 18,
-      "next_retry_at": 1788661722
+      "failure_count": 19,
+      "next_retry_at": 1788661849
     },
     {
       "region": "WORLD",
@@ -599,10 +599,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 40,
-      "next_retry_at": 1788661722
+      "failure_count": 41,
+      "next_retry_at": 1788661849
     },
     {
       "region": "RUSSIA",
@@ -702,10 +702,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788661722
+      "failure_count": 13,
+      "next_retry_at": 1788661849
     },
     {
       "region": "WORLD",
@@ -720,10 +720,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 18,
-      "next_retry_at": 1788661722
+      "failure_count": 19,
+      "next_retry_at": 1788661849
     },
     {
       "region": "RUSSIA",
@@ -761,10 +761,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 52,
-      "next_retry_at": 1788661722
+      "failure_count": 53,
+      "next_retry_at": 1788661849
     },
     {
       "region": "RUSSIA",
@@ -798,10 +798,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 31,
-      "next_retry_at": 1788661722
+      "failure_count": 32,
+      "next_retry_at": 1788661849
     },
     {
       "region": "WORLD",
@@ -818,10 +818,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 18,
-      "next_retry_at": 1788661722
+      "failure_count": 19,
+      "next_retry_at": 1788661849
     },
     {
       "region": "WORLD",
@@ -838,10 +838,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788661722
+      "failure_count": 13,
+      "next_retry_at": 1788661849
     },
     {
       "region": "RUSSIA",
@@ -875,10 +875,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788640122,
+      "last_failed_at": 1788640249,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788641322
+      "failure_count": 4,
+      "next_retry_at": 1788642649
     },
     {
       "region": "WORLD",
@@ -899,11 +899,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788640122.1268473,
+    "last_start_ts": 1788640249.4727204,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788640122.1268473,
-    "last_success_ts": 1788640122.1268473,
+    "last_run_ts": 1788640249.4727204,
+    "last_success_ts": 1788640249.4727204,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
