@@ -448,12 +448,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788567263.3331947,
+    "last_start_ts": 1788567319.8272228,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788567263.3331947,
-    "last_success_ts": 1788567263.3331947,
-    "last_candidates": 41,
+    "last_run_ts": 1788567319.8272228,
+    "last_success_ts": 1788567319.8272228,
+    "last_candidates": 42,
     "last_published": 0,
     "queue_size": 0
   },
@@ -475,13 +475,6 @@
     }
   },
   "stories": {
-    "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9": {
-      "time": 1788480894,
-      "title": "GPT-6 Astra Reaches Human-Level Computer Use — and OpenAI Locks the Cyber Door Behind It - techi.com",
-      "desc": "GPT-6 Astra Reaches Human-Level Computer Use — and OpenAI Locks the Cyber Door Behind It techi.com",
-      "source": "techi.com",
-      "region": "WORLD"
-    },
     "d22501a4517a2d77861cdc7840358d74b38ab9da51d553e00a8c077cb1e9ebe9": {
       "time": 1788481255,
       "title": "OpenAI’s president claims AI is as capable as humans now - The Washington Post",
@@ -2094,6 +2087,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788567263.3331947,
+  "last_search_ts": 1788567319.8272228,
   "last_publish_ts": 1788566300.563336
 }
