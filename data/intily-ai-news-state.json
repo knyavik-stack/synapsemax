@@ -375,7 +375,8 @@
     "561f95128b977429fbb46addbb77a2acafa171f044b370066b5cef57c272adc5": 1788575900,
     "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f": 1788576139,
     "09996fad3151ec38ea10979b6f5ed283d9e959b3f31d93f6a642caaef4d5c171": 1788578120,
-    "b8bcf176c791465a10f2f5ebc82d403fe51441af7a04e0dd328a46e324946efb": 1788578301
+    "b8bcf176c791465a10f2f5ebc82d403fe51441af7a04e0dd328a46e324946efb": 1788578301,
+    "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1": 1788578482
   },
   "known": {
     "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179.8212974,
@@ -426,27 +427,6 @@
   },
   "queue": [
     {
-      "region": "WORLD",
-      "title": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay - Stocktwits",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT09KdTcxbHhTNU14dW11NmxWQ1ppOGV5Y0g5UTJBQzVwdl9jOGFxU1kwQXZUblU3MC1obnNYaXVsU2NRem44M2p4OWVpWUU4VlV2a1JEMTlTSng5dFU1aXd5VnAzb0V2VWN4dS15MUlFMF82TDFQaUtEYldEUll2OGFpUE84LVVRQXJpeXhQSXpldlZ6dXl4Tk50RjVMNnh0aWxuLWlVam0xTVE5RkJRZzlJRnlRZWJzeUdIUEdFTjhQNUNFb3FRb2oyV2pnNGVuZlpDQ0k4SlNIQnBhZFdVSHFR?oc=5",
-      "desc": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay Stocktwits",
-      "source": "Stocktwits",
-      "time": 1788563250.0,
-      "score": 67.0,
-      "key": "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1",
-      "importance": 67.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "tools"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788577100,
-      "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 8,
-      "next_retry_at": 1788598700
-    },
-    {
       "region": "RUSSIA",
       "title": "OpenAI выпустила GPT-6 Astra - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82akNvYmRVeDVyRlpaS0dNWDJhd3NUQm1xVmN4SVc1OUZkTnR5YVhoVUViTTJZcEpISkZXMFFUb3RwQUdyNkhyR183SUpIcHVqcVQwMXdheGFFc19uWGp2MWdoZ2pCQ19NR3M4MnVxNktQMzkzTFM0UQ?oc=5",
@@ -465,20 +445,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788578422.6882877,
+    "last_start_ts": 1788578482.3204536,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788578422.6882877,
-    "last_success_ts": 1788578422.6882877,
+    "last_run_ts": 1788578482.3204536,
+    "last_success_ts": 1788578482.3204536,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 2
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788578305.023972
+      "updated_at": 1788578488.2725322
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1975,11 +1955,17 @@
       "desc": "WSJ узнала, как США склонили Баку и Ереван к миру «чиповой дипломатией» rbc.ru",
       "source": "rbc.ru",
       "region": "RUSSIA"
+    },
+    "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1": {
+      "time": 1788578482,
+      "title": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay - Stocktwits",
+      "desc": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay Stocktwits",
+      "source": "Stocktwits",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1997,8 +1983,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788578120.442631,
-  "last_publish_ts": 1788578301.5275135
+  "last_publish_ts": 1788578482.3204536
 }
