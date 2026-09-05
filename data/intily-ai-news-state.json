@@ -538,10 +538,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 27,
-      "next_retry_at": 1788660847
+      "failure_count": 28,
+      "next_retry_at": 1788660906
     },
     {
       "region": "RUSSIA",
@@ -579,10 +579,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788660847
+      "failure_count": 15,
+      "next_retry_at": 1788660906
     },
     {
       "region": "WORLD",
@@ -597,10 +597,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788660847
+      "failure_count": 15,
+      "next_retry_at": 1788660906
     },
     {
       "region": "WORLD",
@@ -617,10 +617,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 36,
-      "next_retry_at": 1788660847
+      "failure_count": 37,
+      "next_retry_at": 1788660906
     },
     {
       "region": "RUSSIA",
@@ -720,10 +720,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788660847
+      "failure_count": 9,
+      "next_retry_at": 1788660906
     },
     {
       "region": "WORLD",
@@ -738,10 +738,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788660847
+      "failure_count": 15,
+      "next_retry_at": 1788660906
     },
     {
       "region": "WORLD",
@@ -756,10 +756,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 40,
-      "next_retry_at": 1788660847
+      "failure_count": 41,
+      "next_retry_at": 1788660906
     },
     {
       "region": "RUSSIA",
@@ -797,10 +797,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 48,
-      "next_retry_at": 1788660847
+      "failure_count": 49,
+      "next_retry_at": 1788660906
     },
     {
       "region": "RUSSIA",
@@ -834,10 +834,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788660847
+      "failure_count": 15,
+      "next_retry_at": 1788660906
     },
     {
       "region": "WORLD",
@@ -854,10 +854,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788639247,
+      "last_failed_at": 1788639306,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788660847
+      "failure_count": 9,
+      "next_retry_at": 1788660906
     },
     {
       "region": "RUSSIA",
@@ -878,11 +878,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788639247.2007043,
+    "last_start_ts": 1788639306.3986237,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788639247.2007043,
-    "last_success_ts": 1788639247.2007043,
+    "last_run_ts": 1788639306.3986237,
+    "last_success_ts": 1788639306.3986237,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 19
@@ -905,13 +905,6 @@
     }
   },
   "stories": {
-    "5e1b1e79a0181007049b591c5fe8cf02e1651a5b18ff7c53bd8a27e7a5609a24": {
-      "time": 1788552861,
-      "title": "Как ИИ-агенты научились отравлять друг друга - lenta.profinansy.ru",
-      "desc": "Как ИИ-агенты научились отравлять друг друга lenta.profinansy.ru",
-      "source": "lenta.profinansy.ru",
-      "region": "RUSSIA"
-    },
     "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3": {
       "time": 1788553166,
       "title": "Как аналитика и нейросети помогают бизнесу привлекать аудиторию в Сочи - kommersant.ru",
