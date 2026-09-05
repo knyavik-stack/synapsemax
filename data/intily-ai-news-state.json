@@ -422,12 +422,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788580699.0326774,
+    "last_start_ts": 1788580939.763414,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788580699.0326774,
-    "last_success_ts": 1788580699.0326774,
-    "last_candidates": 28,
+    "last_run_ts": 1788580939.763414,
+    "last_success_ts": 1788580939.763414,
+    "last_candidates": 29,
     "last_published": 0,
     "queue_size": 0
   },
@@ -449,13 +449,6 @@
     }
   },
   "stories": {
-    "5965008d45ca01bc50d42c2fc6e939e4cd5b674acd5c73eaf9d0b1d7ea5a8c6f": {
-      "time": 1788494461,
-      "title": "«Яндекс» разработает оркестратор для ИИ-моделей - prospect.com.ru",
-      "desc": "«Яндекс» разработает оркестратор для ИИ-моделей prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "e80a338557efe54d1813b0625979c371ef702ab017dae3c04071c01540af4a43": {
       "time": 1788494694,
       "title": "США, Китай и ещё 18 стран неожиданно договорились о правилах для ИИ — но до настоящего регулирования далеко - prospect.com.ru",
@@ -1935,6 +1928,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788580699.0326774,
+  "last_search_ts": 1788580939.763414,
   "last_publish_ts": 1788578780.5315773
 }
