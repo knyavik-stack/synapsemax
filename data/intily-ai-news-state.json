@@ -448,12 +448,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788566721.1086657,
+    "last_start_ts": 1788566901.9663649,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788566721.1086657,
-    "last_success_ts": 1788566721.1086657,
-    "last_candidates": 45,
+    "last_run_ts": 1788566901.9663649,
+    "last_success_ts": 1788566901.9663649,
+    "last_candidates": 47,
     "last_published": 0,
     "queue_size": 0
   },
@@ -475,13 +475,6 @@
     }
   },
   "stories": {
-    "66cdb74832b0fdd69fe021eb17b094e90616e9e9da7ddadbb5472dbc524a3b27": {
-      "time": 1788480413,
-      "title": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями - prospect.com.ru",
-      "desc": "«Газпром нефть» и УГНТУ создадут технологии для автономного управления месторождениями prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "1767a453d9b6dbbd6ca0de62fc2369239a5bb7a9dbbc337b07995dddcec38799": {
       "time": 1788480596,
       "title": "AI Model Detects Solar Storm Warning Signs Hours in Advance - ColombiaOne.com",
@@ -2108,6 +2101,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788566721.1086657,
+  "last_search_ts": 1788566901.9663649,
   "last_publish_ts": 1788566300.563336
 }
