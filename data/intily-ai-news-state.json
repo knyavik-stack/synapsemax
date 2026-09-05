@@ -363,7 +363,8 @@
     "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641,
     "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": 1788569600,
     "68b1c7189c09f09dd88b41da3e21acad46bd2d02043c8d671c498edd0fdbe4c2": 1788571880,
-    "e11745d700638c75bf6a8d61b34b4cebaef62936f06270bfc6827f6d4c1e0894": 1788573141
+    "e11745d700638c75bf6a8d61b34b4cebaef62936f06270bfc6827f6d4c1e0894": 1788573141,
+    "78541832fab30d4881a2a99033b4add88e674fe22c020ad194a9649d9e5fcc08": 1788573439
   },
   "known": {
     "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": 1788553285.8830574,
@@ -445,22 +446,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Microsoft releases 2026 Responsible AI Transparency Report with focus on agentic systems - Crypto Briefing",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYnlVQVRNZ2w2Zlh5SWRDWExMNGd5cWxsUENsV2JNNWltYXYzYU1Qd2hTLW9DYWM1dWNXUmJQelpKcklqZmQ5Q2VPZmpTeTRPRl90UG05ZUNvSC1SQ194dGpvM25FeTVzQXVDXzJta1h4SUt3Q0kxLUFFVmJYellKY3Nlaw?oc=5",
-      "desc": "Microsoft releases 2026 Responsible AI Transparency Report with focus on agentic systems Crypto Briefing",
-      "source": "Crypto Briefing",
-      "time": 1788550448.0,
-      "score": 60.0,
-      "key": "78541832fab30d4881a2a99033b4add88e674fe22c020ad194a9649d9e5fcc08",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Nvidia bets $13 billion on open AI models with Hugging Face deal - electronics.economictimes.indiatimes.com",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTS1lZ0xDeVVrLWcyX1Q1ckhmY0dxbjhrelNvaG5JQk1SWW8zWlRpMlVfSEhoMnA0RHIzYWw3SnIzYXZvVEE1UUQ3VUs0aHcyYWNUdXFMMGZNaF9BRkQzcTN0cmRZRjNzLU1xYUhaMEFTSnp1dW9rZlpDODZER05jLXoxN1Y3Z1dxV3RLX3dBX0JqalZ0WENFNHRwTlFyZW9PSlJ3aWZBRGNfR005SFltejdRRTdZb1hDZTRaMUR3RDBrX016alpQcVh5UEVYU3dORkFfMERqMUQ?oc=5",
       "desc": "Nvidia bets $13 billion on open AI models with Hugging Face deal electronics.economictimes.indiatimes.com",
@@ -478,20 +463,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788573259.0991716,
+    "last_start_ts": 1788573439.7071924,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788573259.0991716,
-    "last_success_ts": 1788573259.0991716,
-    "last_candidates": 31,
-    "last_published": 0,
-    "queue_size": 3
+    "last_run_ts": 1788573439.7071924,
+    "last_success_ts": 1788573439.7071924,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788573158.0094
+      "updated_at": 1788573442.9554014
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2016,6 +2001,13 @@
       "desc": "Saudi Arabia tech deals near $15bn as AWS, Microsoft and major AI investments revealed Arabian Business",
       "source": "Arabian Business",
       "region": "WORLD"
+    },
+    "78541832fab30d4881a2a99033b4add88e674fe22c020ad194a9649d9e5fcc08": {
+      "time": 1788573439,
+      "title": "Microsoft releases 2026 Responsible AI Transparency Report with focus on agentic systems - Crypto Briefing",
+      "desc": "Microsoft releases 2026 Responsible AI Transparency Report with focus on agentic systems Crypto Briefing",
+      "source": "Crypto Briefing",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -2023,7 +2015,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2038,8 +2029,9 @@
     "RUSSIA",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788573259.0991716,
-  "last_publish_ts": 1788573141.1052697
+  "last_publish_ts": 1788573439.7071924
 }
