@@ -568,29 +568,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788630847,
+      "last_failed_at": 1788631447,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 11,
-      "next_retry_at": 1788652447
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNZWEVEdW9ZUElwS1pHRjdrenI2N2QxcTNuUERNSnZ3a3lFOVhyTU1lOEJsaWxudDZQWGdPLUhqUzdkVHQzYnZyalZFcWpjY2pnRDBGdnNSM3VyMzhRdGI1bFNPcXFQeWxZQmpHYW5VWUk1UHVwSEVybUMzbmhyMmFhZFkzMG53SkRCN0Z1UEl1VGR1RUZxanlfTDFQXzJPeFhR?oc=5",
-      "desc": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788620545.0,
-      "score": 70.1,
-      "russia_weight_bonus": 4.6,
-      "key": "65f34bcc7a3d5c7075bc5f958ebf2362ea00f8f2cbb9f0ad5e1f82f44963496c",
-      "importance": 70.1,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
+      "failure_count": 12,
+      "next_retry_at": 1788653047
     },
     {
       "region": "RUSSIA",
@@ -660,10 +641,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788630847,
+      "last_failed_at": 1788631447,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 30,
-      "next_retry_at": 1788652447
+      "failure_count": 31,
+      "next_retry_at": 1788653047
     },
     {
       "region": "RUSSIA",
@@ -699,10 +680,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788630847,
+      "last_failed_at": 1788631447,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788632047
+      "failure_count": 4,
+      "next_retry_at": 1788633847
     },
     {
       "region": "WORLD",
@@ -719,10 +700,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788630847,
+      "last_failed_at": 1788631447,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 30,
-      "next_retry_at": 1788652447
+      "failure_count": 31,
+      "next_retry_at": 1788653047
     },
     {
       "region": "RUSSIA",
@@ -760,10 +741,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788630847,
+      "last_failed_at": 1788631447,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788632047
+      "failure_count": 4,
+      "next_retry_at": 1788633847
     },
     {
       "region": "RUSSIA",
@@ -799,10 +780,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788630847,
+      "last_failed_at": 1788631447,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 11,
-      "next_retry_at": 1788652447
+      "failure_count": 12,
+      "next_retry_at": 1788653047
     },
     {
       "region": "WORLD",
@@ -817,10 +798,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788630847,
+      "last_failed_at": 1788631447,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 11,
-      "next_retry_at": 1788652447
+      "failure_count": 12,
+      "next_retry_at": 1788653047
     },
     {
       "region": "WORLD",
@@ -835,10 +816,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788630847,
+      "last_failed_at": 1788631447,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 21,
-      "next_retry_at": 1788652447
+      "failure_count": 22,
+      "next_retry_at": 1788653047
     },
     {
       "region": "RUSSIA",
@@ -854,14 +835,33 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNZWEVEdW9ZUElwS1pHRjdrenI2N2QxcTNuUERNSnZ3a3lFOVhyTU1lOEJsaWxudDZQWGdPLUhqUzdkVHQzYnZyalZFcWpjY2pnRDBGdnNSM3VyMzhRdGI1bFNPcXFQeWxZQmpHYW5VWUk1UHVwSEVybUMzbmhyMmFhZFkzMG53SkRCN0Z1UEl1VGR1RUZxanlfTDFQXzJPeFhR?oc=5",
+      "desc": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788620545.0,
+      "score": 60.6,
+      "russia_weight_bonus": 4.6,
+      "key": "65f34bcc7a3d5c7075bc5f958ebf2362ea00f8f2cbb9f0ad5e1f82f44963496c",
+      "importance": 60.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788623846,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 6,
+      "next_retry_at": 1788633446
     }
   ],
   "health": {
-    "last_start_ts": 1788630847.8422403,
+    "last_start_ts": 1788631447.3474028,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788630847.8422403,
-    "last_success_ts": 1788630847.8422403,
+    "last_run_ts": 1788631447.3474028,
+    "last_success_ts": 1788631447.3474028,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -884,13 +884,6 @@
     }
   },
   "stories": {
-    "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": {
-      "time": 1788544640,
-      "title": "Broadcom predicts AI chip revenue to double in 2027 - Fierce Network",
-      "desc": "Broadcom predicts AI chip revenue to double in 2027 Fierce Network",
-      "source": "Fierce Network",
-      "region": "WORLD"
-    },
     "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": {
       "time": 1788545240,
       "title": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access - Unite.AI",
