@@ -377,15 +377,10 @@
     "09996fad3151ec38ea10979b6f5ed283d9e959b3f31d93f6a642caaef4d5c171": 1788578120,
     "b8bcf176c791465a10f2f5ebc82d403fe51441af7a04e0dd328a46e324946efb": 1788578301,
     "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1": 1788578482,
-    "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578780
+    "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578780,
+    "8dbf4a0fc047370a24cf6d6de6455aa44526f613a1aca04d262ed3b8686cd38e": 1788582260
   },
   "known": {
-    "5638e10d36e67b22169e6a972679e949f127f2e86ff729baf810d7d12844c088": 1788560540.3142607,
-    "b80fcdd52900df1d8c88494062b7afd1365dbc6cdb2ce4e491c3b44860ddb957": 1788560540.3142607,
-    "9fb3c8868bf43c3fec578d0d453ba39f9fbe8dc17f2ace5c8c2b5150d89c7474": 1788560540.3142607,
-    "5721b4a70f810059fc2f39c1543871e4070600926ea8c02af56b48b8cf4dace8": 1788560540.3142607,
-    "7f69afc2696d0f9b48408e1626a0eee7e73dcc42c665dbdc98c9e3b924b1d290": 1788560540.3142607,
-    "9ebfcaa26d334c0ad8db29bb25fd2ab70d4decb9e4f247e46c8aa195230d4456": 1788560540.3142607,
     "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393": 1788562402.0264504,
     "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": 1788562402.0264504,
     "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788562402.0264504,
@@ -418,24 +413,25 @@
     "561f95128b977429fbb46addbb77a2acafa171f044b370066b5cef57c272adc5": 1788575539.6039212,
     "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f": 1788575539.6039212,
     "09996fad3151ec38ea10979b6f5ed283d9e959b3f31d93f6a642caaef4d5c171": 1788578120.442631,
-    "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578120.442631
+    "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578120.442631,
+    "8dbf4a0fc047370a24cf6d6de6455aa44526f613a1aca04d262ed3b8686cd38e": 1788582260.5670989
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788581542.1053255,
+    "last_start_ts": 1788582260.5670989,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788581542.1053255,
-    "last_success_ts": 1788581542.1053255,
-    "last_candidates": 25,
-    "last_published": 0,
+    "last_run_ts": 1788582260.5670989,
+    "last_success_ts": 1788582260.5670989,
+    "last_candidates": 27,
+    "last_published": 1,
     "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788578800.300548
+      "updated_at": 1788582279.6002872
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -449,20 +445,6 @@
     }
   },
   "stories": {
-    "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": {
-      "time": 1788495354,
-      "title": "NYC schools ban AI for students through eighth grade under new Mamdani policy - ABC7 New York",
-      "desc": "NYC schools ban AI for students through eighth grade under new Mamdani policy ABC7 New York",
-      "source": "ABC7 New York",
-      "region": "WORLD"
-    },
-    "d797361e8127c5aa099c9d0253a16feea017a5e105ac8b34f0521f817f9535ee": {
-      "time": 1788495600,
-      "title": "AI boom testing climate pledges as top tech firms see emissions rise 240% in four years - IOL",
-      "desc": "AI boom testing climate pledges as top tech firms see emissions rise 240% in four years IOL",
-      "source": "IOL",
-      "region": "WORLD"
-    },
     "bf00ab760e727011b3c20f125efa35b4e33c26cf432dc6ed461de6ce9754f13a": {
       "time": 1788496135,
       "title": "Georgia Tech Researchers Share AI Cyber Challenge Lessons at USENIX Security 2026 - Georgia Institute of Technology",
@@ -1890,10 +1872,16 @@
       "desc": "OpenAI выпустила GPT-6 Astra prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "8dbf4a0fc047370a24cf6d6de6455aa44526f613a1aca04d262ed3b8686cd38e": {
+      "time": 1788582260,
+      "title": "Опрос: 77% россиян предпочитают рекламу без участия нейросетей - prospect.com.ru",
+      "desc": "Опрос: 77% россиян предпочитают рекламу без участия нейросетей prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "RUSSIA",
     "RUSSIA",
@@ -1912,8 +1900,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788581542.1053255,
-  "last_publish_ts": 1788578780.5315773
+  "last_search_ts": 1788582260.5670989,
+  "last_publish_ts": 1788582260.5670989
 }
