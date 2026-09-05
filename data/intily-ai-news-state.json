@@ -498,11 +498,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788575660.371502,
+    "last_start_ts": 1788575720.628723,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788575660.371502,
-    "last_success_ts": 1788575660.371502,
+    "last_run_ts": 1788575720.628723,
+    "last_success_ts": 1788575720.628723,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 4
@@ -525,13 +525,6 @@
     }
   },
   "stories": {
-    "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": {
-      "time": 1788489294,
-      "title": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump - Українські Національні Новини (УНН)",
-      "desc": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump Українські Національні Новини (УНН)",
-      "source": "Українські Національні Новини (УНН)",
-      "region": "WORLD"
-    },
     "330fdbe2a1200a7ec5ea459a751e9e3c04d806e0db083e41689c936faa2bad13": {
       "time": 1788489597,
       "title": "LG Opens Spark 2026 With Nvidia, Google - businesskorea.co.kr",
