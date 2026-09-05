@@ -461,10 +461,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788646183,
+      "last_failed_at": 1788646243,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788667783
+      "failure_count": 9,
+      "next_retry_at": 1788667843
     },
     {
       "region": "WORLD",
@@ -482,10 +482,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788646183,
+      "last_failed_at": 1788646243,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788667783
+      "failure_count": 21,
+      "next_retry_at": 1788667843
     },
     {
       "region": "WORLD",
@@ -503,10 +503,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788646183,
+      "last_failed_at": 1788646243,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788667783
+      "failure_count": 9,
+      "next_retry_at": 1788667843
     },
     {
       "region": "WORLD",
@@ -524,10 +524,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788646183,
+      "last_failed_at": 1788646243,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788667783
+      "failure_count": 21,
+      "next_retry_at": 1788667843
     },
     {
       "region": "RUSSIA",
@@ -594,24 +594,6 @@
       "next_retry_at": 1788653886
     },
     {
-      "region": "WORLD",
-      "title": "AMD’s Threadripper Halo Station & Ryzen AI MAX PCs Take The Spotlight at IFA, As They Bring Powerful & Local AI Capabilities Close To Everyone - Wccftech",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVJka0k0MFhZVzFLWVlJSjlJb0FuUlhzaXJnTDlvYVFySnZGNEJQS1B6b0thRDVTMUl3b1RsTVBiMW5sMFVwWVhNenBaMlRTZVgxODA2RkFWWU1lUDBxQjlTTS1RekowWC1ZYnQyWS1rd0x3SlZraDZYRF9wZkNRNTNBU2RyanMxT0E3RkJldmw0Q0lFX2pqM190bF9mRjQ4WThHSU9EblXSAa4BQVVfeXFMT3A5NkVES2pXNlhrQkp6TWdMUEVsX3E0UGl1bGtWUXNOcXI4bFdPQmFwYi1FNjBydmw5aU96WHU3MDFOMDFrcS02cHY2cnR1eGlHSUdWOXd6UWFraDVYTU41c3ZJd0dvTnZJN0VCX3pBaU5ZSkhJZGNkV3J6NlV5dzZVMmZVTlVpbmxwcXhkNlZYZHFJNTA3Z20zUjV2bnJ3LW5yV2FRR1AzQ1dzcm9B?oc=5",
-      "desc": "AMD’s Threadripper Halo Station & Ryzen AI MAX PCs Take The Spotlight at IFA, As They Bring Powerful & Local AI Capabilities Close To Everyone Wccftech",
-      "source": "Wccftech",
-      "time": 1788642615.0,
-      "score": 66.5,
-      "key": "e7ece0c5de35360dcd4bc57aab922d9841c1404774276ae7d63f9c4c7b8d78f4",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788646183,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788667783
-    },
-    {
       "region": "RUSSIA",
       "title": "Краснов рассказал о планах по внедрению ИИ на всех этапах судопроизводства - РАПСИ",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEOEh5UXBNSnA3Szh0R1VoMmd5aXFCZTVCUktqYjZJUmVKX3BYM2Z2dWhKWlhvbUgxT0lxSy02a2g3eVM1NXVGRlN1YjF5b2hqUFhGS3JuQmpzcWlBa3lxVmx4R1pPczQxZkhIWnhDcw?oc=5",
@@ -655,6 +637,24 @@
     },
     {
       "region": "WORLD",
+      "title": "AMD’s Threadripper Halo Station & Ryzen AI MAX PCs Take The Spotlight at IFA, As They Bring Powerful & Local AI Capabilities Close To Everyone - Wccftech",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVJka0k0MFhZVzFLWVlJSjlJb0FuUlhzaXJnTDlvYVFySnZGNEJQS1B6b0thRDVTMUl3b1RsTVBiMW5sMFVwWVhNenBaMlRTZVgxODA2RkFWWU1lUDBxQjlTTS1RekowWC1ZYnQyWS1rd0x3SlZraDZYRF9wZkNRNTNBU2RyanMxT0E3RkJldmw0Q0lFX2pqM190bF9mRjQ4WThHSU9EblXSAa4BQVVfeXFMT3A5NkVES2pXNlhrQkp6TWdMUEVsX3E0UGl1bGtWUXNOcXI4bFdPQmFwYi1FNjBydmw5aU96WHU3MDFOMDFrcS02cHY2cnR1eGlHSUdWOXd6UWFraDVYTU41c3ZJd0dvTnZJN0VCX3pBaU5ZSkhJZGNkV3J6NlV5dzZVMmZVTlVpbmxwcXhkNlZYZHFJNTA3Z20zUjV2bnJ3LW5yV2FRR1AzQ1dzcm9B?oc=5",
+      "desc": "AMD’s Threadripper Halo Station & Ryzen AI MAX PCs Take The Spotlight at IFA, As They Bring Powerful & Local AI Capabilities Close To Everyone Wccftech",
+      "source": "Wccftech",
+      "time": 1788642615.0,
+      "score": 63.5,
+      "key": "e7ece0c5de35360dcd4bc57aab922d9841c1404774276ae7d63f9c4c7b8d78f4",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788646243,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 21,
+      "next_retry_at": 1788667843
+    },
+    {
+      "region": "WORLD",
       "title": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work - AI Insider",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONG0xZHRoTGJmcEc2Z3hqUkpkM3ZPNEF2ajRFYll3UmNDMGdvTjJVY0d1NUM5bFpnUnVGZ3pnblJEeEk5V1FONW8yLWs1R2liRUpGSnhvWS1uVjVhdU5QMldXQXowZXM0VDRDN2hWRjcxcXFoZFNKSGhKOC1YQjIxUHF5Tm9INExsMmx2ZXdRSHdHQmVYUV9MOUZtQWoxQW1kRVB4UXJGT0t3TlNOYkE3S25lUUFLd2M?oc=5",
       "desc": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work AI Insider",
@@ -668,10 +668,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788646183,
+      "last_failed_at": 1788646243,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 85,
-      "next_retry_at": 1788667783
+      "failure_count": 86,
+      "next_retry_at": 1788667843
     },
     {
       "region": "WORLD",
@@ -688,10 +688,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788646183,
+      "last_failed_at": 1788646243,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 64,
-      "next_retry_at": 1788667783
+      "failure_count": 65,
+      "next_retry_at": 1788667843
     },
     {
       "region": "WORLD",
@@ -708,10 +708,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788646183,
+      "last_failed_at": 1788646243,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 51,
-      "next_retry_at": 1788667783
+      "failure_count": 52,
+      "next_retry_at": 1788667843
     },
     {
       "region": "RUSSIA",
@@ -796,10 +796,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788646183,
+      "last_failed_at": 1788646243,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 51,
-      "next_retry_at": 1788667783
+      "failure_count": 52,
+      "next_retry_at": 1788667843
     },
     {
       "region": "WORLD",
@@ -814,18 +814,18 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788646183,
+      "last_failed_at": 1788646243,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 51,
-      "next_retry_at": 1788667783
+      "failure_count": 52,
+      "next_retry_at": 1788667843
     }
   ],
   "health": {
-    "last_start_ts": 1788646183.6818955,
+    "last_start_ts": 1788646243.4097724,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788646183.6818955,
-    "last_success_ts": 1788646183.6818955,
+    "last_run_ts": 1788646243.4097724,
+    "last_success_ts": 1788646243.4097724,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 19
@@ -848,13 +848,6 @@
     }
   },
   "stories": {
-    "838b2b00ff8e1859c613e22dc8a083abe8c17e9a0813ca8ae66b2e592de21a14": {
-      "time": 1788559821,
-      "title": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot - Unite.AI",
-      "desc": "OpenAI Commits $1B to Frontline Cyber Defense, Launches MS-ISAC Pilot Unite.AI",
-      "source": "Unite.AI",
-      "region": "WORLD"
-    },
     "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24": {
       "time": 1788560122,
       "title": "Автор OilPrice о влиянии ИИ на работу и человеческое мышление - UA.NEWS",
