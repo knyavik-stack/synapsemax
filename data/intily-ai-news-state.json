@@ -369,7 +369,8 @@
     "b218a5eaa8e6cfbc744baf3d38f8b40d8f7b68c79c6b14247eaec0ef96bd85d8": 1788574041,
     "644df3b525ca77e77dce33306f0b56f18c74d9d42fc8d159689dc1b1455bf984": 1788574341,
     "7c73802d3232061b19419a5ce37714c6e7176df33dff7a2b3ecb27955d41d5a9": 1788574736,
-    "e09b60566453a7067efb0b2b0a3fe97bc9abd851b9f8d21aef0aaf57b0977f75": 1788575002
+    "e09b60566453a7067efb0b2b0a3fe97bc9abd851b9f8d21aef0aaf57b0977f75": 1788575002,
+    "2aae95a84de08071c1a6a2de00c7835643a83b085e69ce509e3461a7ff433af8": 1788575419
   },
   "known": {
     "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555201.4978535,
@@ -439,40 +440,28 @@
         "agents",
         "tools"
       ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
-      "title": "Is your cybersecurity ready for frontier AI? - NTT Data",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpZ254QWNqOG1DMWk3Yl94ZFd6NVg4UWdkcU1OMmZrWk92dlB1UzVDcDZTTXRxTEpuenJfeEtxMUxTMjFxT3RDWFhDNjFfTXVqc2FSYldQNW02Vk95WFk5Q0lDMTlXZHFq?oc=5",
-      "desc": "Is your cybersecurity ready for frontier AI? NTT Data",
-      "source": "NTT Data",
-      "time": 1788560494.0,
-      "score": 60.0,
-      "key": "2aae95a84de08071c1a6a2de00c7835643a83b085e69ce509e3461a7ff433af8",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788575419,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788575719
     }
   ],
   "health": {
-    "last_start_ts": 1788575122.184807,
+    "last_start_ts": 1788575419.7543972,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788575122.184807,
-    "last_success_ts": 1788575122.184807,
+    "last_run_ts": 1788575419.7543972,
+    "last_success_ts": 1788575419.7543972,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 2
+    "last_published": 1,
+    "queue_size": 1
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788575006.0399573
+      "updated_at": 1788575425.268937
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -486,13 +475,6 @@
     }
   },
   "stories": {
-    "f8d3e7693c624c87adead3882f40e80f890ca375cb7f69b3745bee45d08b20aa": {
-      "time": 1788488994,
-      "title": "UCL and AIMS release free AI teaching toolkit for universities | ETIH EdTech News - edtechinnovationhub.com",
-      "desc": "UCL and AIMS release free AI teaching toolkit for universities | ETIH EdTech News edtechinnovationhub.com",
-      "source": "edtechinnovationhub.com",
-      "region": "WORLD"
-    },
     "e90afac6f93322e3255969a52314e42f293ad4b15b8cc38481c19790f4b5ff67": {
       "time": 1788489294,
       "title": "Zuckerberg opposed the creation of a single AI regulator in the US during a secret conversation with Trump - Українські Національні Новини (УНН)",
@@ -1990,10 +1972,16 @@
       "desc": "OpenAI, Anthropic, Google and Meta All Ship New Models — With the Same Catch Wowtale",
       "source": "Wowtale",
       "region": "WORLD"
+    },
+    "2aae95a84de08071c1a6a2de00c7835643a83b085e69ce509e3461a7ff433af8": {
+      "time": 1788575419,
+      "title": "Is your cybersecurity ready for frontier AI? - NTT Data",
+      "desc": "Is your cybersecurity ready for frontier AI? NTT Data",
+      "source": "NTT Data",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2010,10 +1998,11 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788574161.4719007,
-  "last_publish_ts": 1788575002.0918076
+  "last_publish_ts": 1788575419.7543972
 }
