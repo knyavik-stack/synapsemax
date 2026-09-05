@@ -561,23 +561,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Нейросети в подборе персонала: 10 инструментов для HR — от скрининга резюме до онбординга - VC.ru",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ29xdnRfdU9xaE5fMmdFMHBPMTI2TVJyRk1oN3RZRXU0Tm5jS2hPM013Vk5ya180OVdLeVB6LWExMndJQWMtNXFFbWxkWjJNaVM5Wm1DTExHTnhoY19kbkZsaHNsTkxuaTE1ZFFtNHBoY1JKNTQ5V3ktMS11TTJ0NzB3VXhFVm9ILW1LZDFoTVMxYkF1RVZ4MlVn?oc=5",
-      "desc": "Нейросети в подборе персонала: 10 инструментов для HR — от скрининга резюме до онбординга VC.ru",
-      "source": "VC.ru",
-      "time": 1788623703.0,
-      "score": 71.8,
-      "russia_weight_bonus": 2.3,
-      "key": "7e0ce2e64f8956466eb060eac39a60c2457b75bf129acd6e3d8515a582c28d80",
-      "importance": 71.8,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work - AI Insider",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONG0xZHRoTGJmcEc2Z3hqUkpkM3ZPNEF2ajRFYll3UmNDMGdvTjJVY0d1NUM5bFpnUnVGZ3pnblJEeEk5V1FONW8yLWs1R2liRUpGSnhvWS1uVjVhdU5QMldXQXowZXM0VDRDN2hWRjcxcXFoZFNKSGhKOC1YQjIxUHF5Tm9INExsMmx2ZXdRSHdHQmVYUV9MOUZtQWoxQW1kRVB4UXJGT0t3TlNOYkE3S25lUUFLd2M?oc=5",
@@ -592,10 +575,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788634267,
+      "last_failed_at": 1788634508,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 30,
-      "next_retry_at": 1788655867
+      "failure_count": 31,
+      "next_retry_at": 1788656108
     },
     {
       "region": "WORLD",
@@ -612,10 +595,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788634267,
+      "last_failed_at": 1788634508,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788655867
+      "failure_count": 10,
+      "next_retry_at": 1788656108
     },
     {
       "region": "RUSSIA",
@@ -685,27 +668,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788634267,
+      "last_failed_at": 1788634508,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 18,
-      "next_retry_at": 1788655867
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Claude формализовал доказательство Великой теоремы Ферма за 11 дней - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQW5CNkN0cHdSVmgyVlZtbTNRUXpKVTM3S1R0eTNYZ1ZFbFRIdnFLbzdJUHc0U0RPR20zV0lYUHY4S25TM0hrNWxZUVNCV3R6dURYdW55WlhpdFFrRExjVHdILUZsMFlhQ2EzeExfVFB2ZGtZbWJpdEpKakZGdzMtdTdydVZlcjlTZWNvWktSX3YxN2h0WmNqTDdmSXdkTE1fWUpHaWw0U3RyQnU5?oc=5",
-      "desc": "Claude формализовал доказательство Великой теоремы Ферма за 11 дней prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788623547.0,
-      "score": 67.5,
-      "russia_weight_bonus": 2.0,
-      "key": "63b3fc7f343fe0874e597c5f6f56de320f71d8d76c28d13357004465adadc518",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
+      "failure_count": 19,
+      "next_retry_at": 1788656108
     },
     {
       "region": "RUSSIA",
@@ -779,10 +745,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634267,
+      "last_failed_at": 1788634508,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 22,
-      "next_retry_at": 1788655867
+      "failure_count": 23,
+      "next_retry_at": 1788656108
     },
     {
       "region": "WORLD",
@@ -797,10 +763,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634267,
+      "last_failed_at": 1788634508,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 30,
-      "next_retry_at": 1788655867
+      "failure_count": 31,
+      "next_retry_at": 1788656108
     },
     {
       "region": "WORLD",
@@ -815,10 +781,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634267,
+      "last_failed_at": 1788634508,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 30,
-      "next_retry_at": 1788655867
+      "failure_count": 31,
+      "next_retry_at": 1788656108
     },
     {
       "region": "WORLD",
@@ -833,10 +799,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634267,
+      "last_failed_at": 1788634508,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 40,
-      "next_retry_at": 1788655867
+      "failure_count": 41,
+      "next_retry_at": 1788656108
     },
     {
       "region": "WORLD",
@@ -851,21 +817,38 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634267,
+      "last_failed_at": 1788634508,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788655867
+      "failure_count": 10,
+      "next_retry_at": 1788656108
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Нейросети в подборе персонала: 10 инструментов для HR — от скрининга резюме до онбординга - VC.ru",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ29xdnRfdU9xaE5fMmdFMHBPMTI2TVJyRk1oN3RZRXU0Tm5jS2hPM013Vk5ya180OVdLeVB6LWExMndJQWMtNXFFbWxkWjJNaVM5Wm1DTExHTnhoY19kbkZsaHNsTkxuaTE1ZFFtNHBoY1JKNTQ5V3ktMS11TTJ0NzB3VXhFVm9ILW1LZDFoTVMxYkF1RVZ4MlVn?oc=5",
+      "desc": "Нейросети в подборе персонала: 10 инструментов для HR — от скрининга резюме до онбординга VC.ru",
+      "source": "VC.ru",
+      "time": 1788623703.0,
+      "score": 62.3,
+      "russia_weight_bonus": 2.3,
+      "key": "7e0ce2e64f8956466eb060eac39a60c2457b75bf129acd6e3d8515a582c28d80",
+      "importance": 62.3,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788634267.056525,
+    "last_start_ts": 1788634508.2850435,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788634267.056525,
-    "last_success_ts": 1788634267.056525,
+    "last_run_ts": 1788634508.2850435,
+    "last_success_ts": 1788634508.2850435,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 20
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
@@ -885,13 +868,6 @@
     }
   },
   "stories": {
-    "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": {
-      "time": 1788548001,
-      "title": "Потапов о посте Кравцова: «Не понял, что он хотел сказать после слов «Леха». Будто искусственный интеллект накидал каких-то рандомных фраз» - prospect.com.ru",
-      "desc": "Потапов о посте Кравцова: «Не понял, что он хотел сказать после слов «Леха». Будто искусственный интеллект накидал каких-то рандомных фраз» prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "d18c5205c92d50709a42ef57ff2ac98242d438419e4008191521c7a2bc464862": {
       "time": 1788548181,
       "title": "В Киеве заявили о технологическом преимуществе России в ИИ-дронах - BFM.ru",
