@@ -578,10 +578,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788625828,
+      "last_failed_at": 1788625946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788647428
+      "failure_count": 11,
+      "next_retry_at": 1788647546
     },
     {
       "region": "RUSSIA",
@@ -638,10 +638,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788625828,
+      "last_failed_at": 1788625946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788647428
+      "failure_count": 11,
+      "next_retry_at": 1788647546
     },
     {
       "region": "RUSSIA",
@@ -696,10 +696,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788625828,
+      "last_failed_at": 1788625946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788647428
+      "failure_count": 11,
+      "next_retry_at": 1788647546
     },
     {
       "region": "WORLD",
@@ -716,10 +716,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788625828,
+      "last_failed_at": 1788625946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788647428
+      "failure_count": 11,
+      "next_retry_at": 1788647546
     },
     {
       "region": "WORLD",
@@ -736,10 +736,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788625828,
+      "last_failed_at": 1788625946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788647428
+      "failure_count": 11,
+      "next_retry_at": 1788647546
     },
     {
       "region": "WORLD",
@@ -756,10 +756,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788625828,
+      "last_failed_at": 1788625946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788647428
+      "failure_count": 11,
+      "next_retry_at": 1788647546
     },
     {
       "region": "WORLD",
@@ -776,10 +776,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788625828,
+      "last_failed_at": 1788625946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788647428
+      "failure_count": 11,
+      "next_retry_at": 1788647546
     },
     {
       "region": "WORLD",
@@ -794,10 +794,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788625828,
+      "last_failed_at": 1788625946,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788626128
+      "failure_count": 2,
+      "next_retry_at": 1788626546
     },
     {
       "region": "RUSSIA",
@@ -862,12 +862,12 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788625828.8542562,
+    "last_start_ts": 1788625946.5701027,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788625828.8542562,
-    "last_success_ts": 1788625828.8542562,
-    "last_candidates": 52,
+    "last_run_ts": 1788625946.5701027,
+    "last_success_ts": 1788625946.5701027,
+    "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
   },
@@ -889,13 +889,6 @@
     }
   },
   "stories": {
-    "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49": {
-      "time": 1788539542,
-      "title": "Математики научили ИИ-модели общаться без слов - forklog.com",
-      "desc": "Математики научили ИИ-модели общаться без слов forklog.com",
-      "source": "forklog.com",
-      "region": "RUSSIA"
-    },
     "0e0e31ffc22483dcf4b6c522f6d119c19845360b273ce256fd697112ff34f844": {
       "time": 1788539781,
       "title": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ - Runet.news",
