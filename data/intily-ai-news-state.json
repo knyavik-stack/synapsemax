@@ -569,10 +569,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788632887,
+      "last_failed_at": 1788633247,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 7,
-      "next_retry_at": 1788652087
+      "failure_count": 8,
+      "next_retry_at": 1788654847
     },
     {
       "region": "WORLD",
@@ -589,10 +589,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788632887,
+      "last_failed_at": 1788633247,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788654487
+      "failure_count": 20,
+      "next_retry_at": 1788654847
     },
     {
       "region": "RUSSIA",
@@ -683,10 +683,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788632887,
+      "last_failed_at": 1788633247,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 38,
-      "next_retry_at": 1788654487
+      "failure_count": 39,
+      "next_retry_at": 1788654847
     },
     {
       "region": "RUSSIA",
@@ -711,47 +711,6 @@
     },
     {
       "region": "WORLD",
-      "title": "Google launches WeatherNext 3, its most advanced AI weather model yet - timesofindia.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNR3RwNV9ET0RIaENFUUpZY3o3Y2I2Rm5XZ0pkOWlOck02RTFuWHFITHV6dHFjN08yeFdncUhaLWtJM3pqdmJLdE9rMnAtcUtVR2VTOUlteUtzd253ZGY5dXRqdkpXd29HcDlsTVp0bm1NVVZaalRNMzNyVkRGWjJKdjdQVVVwX3djelkxb0ZzRUFYNHZxYklSVjRibWdHSjlvcmZELW1fdnFUSUNOdFF5TnAxNnFidDZpdjRFUUVsdWFPamlRUEEtZEZCME9FLUtwYWpuenpSZk9FalNYNWExMWdhNTRRZ9IB6wFBVV95cUxPOC1TT1VKdjZETXJ1UFRqcHVDRW1Xem9xU0Q2aHVwWGNoLXYwR25md3lJQ250WUxtTnNieFlESUlrMDU5RC1aUlZRbGlGYTdpdGR3Zzl1QkRzc1lxQ0RQR1FFOG42c3RNLXFUMGVZUERHN2c2azhvUUJUYWtpb0MwS1JsT29ZS0kxWjJDbEpRYWI0QjNzcXVmWXBiZXJXLW5Dc2dOMEkzODRWT1JMZ1pzci16MkZOWnQ3ZFdFOTdNdGp2TkR2djNWaXZ3VU1fS05MWmZfS0pJM1B3eXZaRDNzR0tEWFlhOXNKLVFv?oc=5",
-      "desc": "Google launches WeatherNext 3, its most advanced AI weather model yet timesofindia.indiatimes.com",
-      "source": "timesofindia.indiatimes.com",
-      "time": 1788611340.0,
-      "score": 64.0,
-      "key": "2b16486cdafa787832d6b4674bc5dc4ee5cbddbc9679967870e73357d8dce047",
-      "importance": 64.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788632887,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 11,
-      "next_retry_at": 1788654487
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии - Рамблер",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLUhTZUR0V2lwemxHbjJwTUw1dzhtMXNNMloxN3Job3RrYllfcXE3bGJPZ0ZmWjZUZ0MzMWxTNm9CME9HOXhOZmFoSG9NV1JBUDZmZXViRkJUejF4aHE0UWNUMVJ5dXBrRVI0cEJHZGg5OVp2UkRFQlQyMTkzajlVS3dHY2VuRXFid3drSXZuT0FlM1ZHemcyMDExdFJ4Y3NOZmxKaTF1OVpUMk1sSXBLNDl2d05WOEE0WHQxSXk0MGo5dTRNQ0HSAcYBQVVfeXFMTi1IU2VEdFdpcHpsR24ycE1MNXc4bTFzTTJaMTdyaG90a2JZX3FxN2xiT2dGZlo2VGdDMzFsUzZvQjBPRzl4TmZhaEhvTVdSQVA2ZmV1YkZCVHoxeGhxNFFjVDFSeXVwa0VSNHBCR2RoOTladlJERUJUMjE5M2o5VUt3R2NlbkVxYnd3a0l2bk9BZTNWR3pnMjAxMXRSeGNzTmZsSmkxdTlaVDJNbElwSzQ5dndOVjhBNFh0MUl5NDBqOXU0TUNB?oc=5",
-      "desc": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии Рамблер",
-      "source": "Рамблер",
-      "time": 1788611404.0,
-      "score": 63.6,
-      "russia_weight_bonus": 4.6,
-      "key": "2a0ce0aa51cc35540fcaf041e4fae8f48941f5e8a7c15da3cea3545a8524fcda",
-      "importance": 63.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
-      "region": "WORLD",
       "title": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests - calcalistech.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00dTRBYnJjWl84cHMzbC1QZWVlb0ZUd0JKMnVVX1kyQ191NlR2UXFDLUdWVGt2WW9TS1JkODNKVW5hSVFfNU0xYVZDcWxLUTMxRXFwalpoMGZua09KYmhXZkxVR21JXzA?oc=5",
       "desc": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests calcalistech.com",
@@ -763,10 +722,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632887,
+      "last_failed_at": 1788633247,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 11,
-      "next_retry_at": 1788654487
+      "failure_count": 12,
+      "next_retry_at": 1788654847
     },
     {
       "region": "WORLD",
@@ -781,10 +740,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632887,
+      "last_failed_at": 1788633247,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788654487
+      "failure_count": 20,
+      "next_retry_at": 1788654847
     },
     {
       "region": "WORLD",
@@ -799,10 +758,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632887,
+      "last_failed_at": 1788633247,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788654487
+      "failure_count": 20,
+      "next_retry_at": 1788654847
     },
     {
       "region": "WORLD",
@@ -817,10 +776,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632887,
+      "last_failed_at": 1788633247,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 29,
-      "next_retry_at": 1788654487
+      "failure_count": 30,
+      "next_retry_at": 1788654847
     },
     {
       "region": "RUSSIA",
@@ -856,21 +815,41 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788632887,
+      "last_failed_at": 1788633247,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 38,
-      "next_retry_at": 1788654487
+      "failure_count": 39,
+      "next_retry_at": 1788654847
+    },
+    {
+      "region": "WORLD",
+      "title": "Google launches WeatherNext 3, its most advanced AI weather model yet - timesofindia.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNR3RwNV9ET0RIaENFUUpZY3o3Y2I2Rm5XZ0pkOWlOck02RTFuWHFITHV6dHFjN08yeFdncUhaLWtJM3pqdmJLdE9rMnAtcUtVR2VTOUlteUtzd253ZGY5dXRqdkpXd29HcDlsTVp0bm1NVVZaalRNMzNyVkRGWjJKdjdQVVVwX3djelkxb0ZzRUFYNHZxYklSVjRibWdHSjlvcmZELW1fdnFUSUNOdFF5TnAxNnFidDZpdjRFUUVsdWFPamlRUEEtZEZCME9FLUtwYWpuenpSZk9FalNYNWExMWdhNTRRZ9IB6wFBVV95cUxPOC1TT1VKdjZETXJ1UFRqcHVDRW1Xem9xU0Q2aHVwWGNoLXYwR25md3lJQ250WUxtTnNieFlESUlrMDU5RC1aUlZRbGlGYTdpdGR3Zzl1QkRzc1lxQ0RQR1FFOG42c3RNLXFUMGVZUERHN2c2azhvUUJUYWtpb0MwS1JsT29ZS0kxWjJDbEpRYWI0QjNzcXVmWXBiZXJXLW5Dc2dOMEkzODRWT1JMZ1pzci16MkZOWnQ3ZFdFOTdNdGp2TkR2djNWaXZ3VU1fS05MWmZfS0pJM1B3eXZaRDNzR0tEWFlhOXNKLVFv?oc=5",
+      "desc": "Google launches WeatherNext 3, its most advanced AI weather model yet timesofindia.indiatimes.com",
+      "source": "timesofindia.indiatimes.com",
+      "time": 1788611340.0,
+      "score": 60.0,
+      "key": "2b16486cdafa787832d6b4674bc5dc4ee5cbddbc9679967870e73357d8dce047",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788633247,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 12,
+      "next_retry_at": 1788654847
     }
   ],
   "health": {
-    "last_start_ts": 1788632887.6698291,
+    "last_start_ts": 1788633247.1792464,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788632887.6698291,
-    "last_success_ts": 1788632887.6698291,
+    "last_run_ts": 1788633247.1792464,
+    "last_success_ts": 1788633247.1792464,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 20
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
@@ -890,20 +869,6 @@
     }
   },
   "stories": {
-    "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c": {
-      "time": 1788546620,
-      "title": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах - newkhakasiya.online",
-      "desc": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах newkhakasiya.online",
-      "source": "newkhakasiya.online",
-      "region": "RUSSIA"
-    },
-    "c458a731c298edb67e9217bedc7b7466e3e9a46b633e66bef25f8af3da6868a6": {
-      "time": 1788546800,
-      "title": "Technology in Trading | Meaning, History, Innovation, & AI - Britannica",
-      "desc": "Technology in Trading | Meaning, History, Innovation, & AI Britannica",
-      "source": "Britannica",
-      "region": "WORLD"
-    },
     "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580": {
       "time": 1788547040,
       "title": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова - Smart-Lab",
