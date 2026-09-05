@@ -435,16 +435,20 @@
         "models",
         "security_regulation"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788587301,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788587601
     }
   ],
   "health": {
-    "last_start_ts": 1788587001.323733,
+    "last_start_ts": 1788587301.8710797,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788587001.323733,
-    "last_success_ts": 1788587001.323733,
-    "last_candidates": 28,
+    "last_run_ts": 1788587301.8710797,
+    "last_success_ts": 1788587301.8710797,
+    "last_candidates": 26,
     "last_published": 0,
     "queue_size": 1
   },
@@ -452,7 +456,7 @@
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788586962.479238
+      "updated_at": 1788587318.8091085
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1931,6 +1935,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788587001.323733,
+  "last_search_ts": 1788587301.8710797,
   "last_publish_ts": 1788586940.2832234
 }
