@@ -379,7 +379,8 @@
     "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1": 1788578482,
     "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578780,
     "8dbf4a0fc047370a24cf6d6de6455aa44526f613a1aca04d262ed3b8686cd38e": 1788582260,
-    "52c46b831ceab21c97a56ab2284fd391508a5b2f63d84bcfd829842c48a448a8": 1788582919
+    "52c46b831ceab21c97a56ab2284fd391508a5b2f63d84bcfd829842c48a448a8": 1788582919,
+    "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788583161
   },
   "known": {
     "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393": 1788562402.0264504,
@@ -419,39 +420,22 @@
     "52c46b831ceab21c97a56ab2284fd391508a5b2f63d84bcfd829842c48a448a8": 1788582919.9910998,
     "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788582919.9910998
   },
-  "queue": [
-    {
-      "region": "WORLD",
-      "title": "Booz Allen: AI models approaching autonomous cyberattack capability as critical infrastructure response windows narrow - industrialcyber.co",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQcUpRUG1PZERTc21FT2V4a1V3SmhHLUhWRWUxWEtrNU5kalVZdUZZaVByeFZYNFJJY2VNQTlPdWJfQWRVcEZGSjJ0VWFZc0lxZUNNVHdMRFJNbkl4c2szVVZfSWpoV1l4Vlc4ekRyR0lRRFJFSmY2OFlYNFE3MWlKRjlHcXk5anpUX2IwZzJNTVVjdGllLW9GZmh6b0VVbHpQc2JxeTJSQzFYVHU4YVNrdTMtOUNVVXE0ZlRRSWFfX2ZCTzJVckdsSzNHOFFVWjFLVXZSNGYtd0lHeWtsdUlyOS1KRVk0QUhL?oc=5",
-      "desc": "Booz Allen: AI models approaching autonomous cyberattack capability as critical infrastructure response windows narrow industrialcyber.co",
-      "source": "industrialcyber.co",
-      "time": 1788578411.0,
-      "score": 70.5,
-      "key": "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    }
-  ],
+  "queue": [],
   "health": {
-    "last_start_ts": 1788583041.0464795,
+    "last_start_ts": 1788583161.811226,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788583041.0464795,
-    "last_success_ts": 1788583041.0464795,
+    "last_run_ts": 1788583161.811226,
+    "last_success_ts": 1788583161.811226,
     "last_candidates": 27,
-    "last_published": 0,
-    "queue_size": 1
+    "last_published": 1,
+    "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788582934.2735937
+      "updated_at": 1788583176.5026948
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1892,12 +1876,18 @@
       "desc": "When AI Agents Form a Community La Voce di New York",
       "source": "La Voce di New York",
       "region": "WORLD"
+    },
+    "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": {
+      "time": 1788583161,
+      "title": "Booz Allen: AI models approaching autonomous cyberattack capability as critical infrastructure response windows narrow - industrialcyber.co",
+      "desc": "Booz Allen: AI models approaching autonomous cyberattack capability as critical infrastructure response windows narrow industrialcyber.co",
+      "source": "industrialcyber.co",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1914,8 +1904,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788583041.0464795,
-  "last_publish_ts": 1788582919.9910998
+  "last_search_ts": 1788583161.811226,
+  "last_publish_ts": 1788583161.811226
 }
