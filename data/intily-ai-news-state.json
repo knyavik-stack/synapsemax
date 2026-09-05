@@ -561,10 +561,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 16,
-      "next_retry_at": 1788661145
+      "failure_count": 17,
+      "next_retry_at": 1788661698
     },
     {
       "region": "WORLD",
@@ -579,10 +579,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 16,
-      "next_retry_at": 1788661145
+      "failure_count": 17,
+      "next_retry_at": 1788661698
     },
     {
       "region": "WORLD",
@@ -599,10 +599,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 38,
-      "next_retry_at": 1788661145
+      "failure_count": 39,
+      "next_retry_at": 1788661698
     },
     {
       "region": "RUSSIA",
@@ -702,10 +702,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788661145
+      "failure_count": 11,
+      "next_retry_at": 1788661698
     },
     {
       "region": "WORLD",
@@ -720,10 +720,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 16,
-      "next_retry_at": 1788661145
+      "failure_count": 17,
+      "next_retry_at": 1788661698
     },
     {
       "region": "RUSSIA",
@@ -761,10 +761,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 50,
-      "next_retry_at": 1788661145
+      "failure_count": 51,
+      "next_retry_at": 1788661698
     },
     {
       "region": "RUSSIA",
@@ -798,10 +798,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 29,
-      "next_retry_at": 1788661145
+      "failure_count": 30,
+      "next_retry_at": 1788661698
     },
     {
       "region": "WORLD",
@@ -818,10 +818,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 16,
-      "next_retry_at": 1788661145
+      "failure_count": 17,
+      "next_retry_at": 1788661698
     },
     {
       "region": "WORLD",
@@ -838,10 +838,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788661145
+      "failure_count": 11,
+      "next_retry_at": 1788661698
     },
     {
       "region": "RUSSIA",
@@ -875,10 +875,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788639545,
+      "last_failed_at": 1788640098,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788639845
+      "failure_count": 2,
+      "next_retry_at": 1788640698
     },
     {
       "region": "WORLD",
@@ -899,12 +899,12 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788639545.8335474,
+    "last_start_ts": 1788640098.3735986,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788639545.8335474,
-    "last_success_ts": 1788639545.8335474,
-    "last_candidates": 33,
+    "last_run_ts": 1788640098.3735986,
+    "last_success_ts": 1788640098.3735986,
+    "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
   },
@@ -926,13 +926,6 @@
     }
   },
   "stories": {
-    "dcabe9ee75fd5ff36c8b99fc2b116d0b79076ace2a7c1eb6c850b51a94dbe0a3": {
-      "time": 1788553166,
-      "title": "Как аналитика и нейросети помогают бизнесу привлекать аудиторию в Сочи - kommersant.ru",
-      "desc": "Как аналитика и нейросети помогают бизнесу привлекать аудиторию в Сочи kommersant.ru",
-      "source": "kommersant.ru",
-      "region": "RUSSIA"
-    },
     "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": {
       "time": 1788553703,
       "title": "NVIDIA NemoClaw Powers Memory-Driven AI Agents for Enterprise - blockchain.news",
