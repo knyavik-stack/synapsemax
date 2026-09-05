@@ -482,7 +482,15 @@
     "71ab3535636c311a49b697f43ca0cb48e294ef34723aada90356295bfc12913a": 1788629708.784156,
     "dafef4c290cdd4342d9dc696533a8fe5fbf269b013c19c385761e5b052b56a70": 1788629708.784156,
     "1dff7c75d0dfae1ad284f11d646b31d65bb5579d1b61ebfb10da07d075074cd2": 1788629708.784156,
-    "818a13c78713b132d49f0b50c9072b6d0cd18a8eac538280fcbc5473cbf7ac6d": 1788631627.609198
+    "818a13c78713b132d49f0b50c9072b6d0cd18a8eac538280fcbc5473cbf7ac6d": 1788631627.609198,
+    "1ea303ab8ec210bb89b428b7d6dd4f49ac10ea9fb0d8762edde56dab3d962dd2": 1788633667.3137622,
+    "6edcaa4427f2de66fa197b348dc4d700c2a3ada87c9fbe9f2f9e9acbb982b4dc": 1788633667.3137622,
+    "63b3fc7f343fe0874e597c5f6f56de320f71d8d76c28d13357004465adadc518": 1788633667.3137622,
+    "f2ad176f86ea3db2842ee87216e9722316f88d1015c5bff9d3a68a056acbb6ba": 1788633667.3137622,
+    "ac05292d67dc63b1d84da616db1e36124e465d3451fffe739e177683db584d67": 1788633667.3137622,
+    "0fc87a416d453ac6562573865d2d8a5523874a634f27e904fc0ccb2e34875fbd": 1788633667.3137622,
+    "6d1852dd05921e9c756449a6be684625fff970ca106803c4acd3a83d178edf17": 1788633667.3137622,
+    "6bc3379b500bf0a2f5080c5dcfe07c9b3e53ef7f7d1499a4360ddb19a45920b4": 1788633667.3137622
   },
   "queue": [
     {
@@ -518,6 +526,21 @@
       "topics": [
         "agents"
       ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В НовГУ объяснили вред нейросетей для критического мышления школьников - Новгородские ведомости",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XQjNySnNHa0JiSkpYaFlucVZrdlJoZ3R1aTJmREVXa0QtTzZmRGplNFExNmxUUHhiXzZvN2J5OHVsUUZzWnJSai1pak9oV3h2cDNfc05QUlF1QQ?oc=5",
+      "desc": "В НовГУ объяснили вред нейросетей для критического мышления школьников Новгородские ведомости",
+      "source": "Новгородские ведомости",
+      "time": 1788631200.0,
+      "score": 73.2,
+      "russia_weight_bonus": 4.7,
+      "key": "1ea303ab8ec210bb89b428b7d6dd4f49ac10ea9fb0d8762edde56dab3d962dd2",
+      "importance": 73.2,
+      "editorial_value": 50.0,
+      "topics": [],
       "tier": "A"
     },
     {
@@ -569,10 +592,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788633306,
+      "last_failed_at": 1788633667,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788654906
+      "failure_count": 10,
+      "next_retry_at": 1788655267
     },
     {
       "region": "WORLD",
@@ -589,10 +612,30 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788633306,
+      "last_failed_at": 1788633667,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 21,
-      "next_retry_at": 1788654906
+      "failure_count": 22,
+      "next_retry_at": 1788655267
+    },
+    {
+      "region": "WORLD",
+      "title": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on AMD's flagship Ryzen AI Halo platform - Tom's Hardware",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPcWhMVnBRa0ZYYXd2b3FjRHpfckpPVTlWR1M2SWVjNnI1ZkhpcDVrRGpzNDh1SzhQWExrZ0tzdUpXSXBNUm9pYnB5UVhjdFA2VDlDUTVYcGFzakNHUFpSUDBzdHp5akRpYkV3c29OYmMweWhvQzVxTnBKeWtHRk5LckRuc3ZHR2lTZlE2Wl9FMHdJZWc4VEFlMG5ITUFtb21VcTNFYmc3NUc2NHpPQmpGRl9xRW1zNVF1M21qV2N0MDdKSHltbnZiejd3QWw2djFDSlV6RTdmaE5EWE9faVJYTEw0SDZZM1pBVnF2VlB2V2xzd293T2FSR2FGT0FHZjNSUGhja2pzMm5HS1VYdmJDQWltVGs0RDBXVG1PeWxNUDd2SzlnYm0tOA?oc=5",
+      "desc": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on AMD's flagship Ryzen AI Halo platform Tom's Hardware",
+      "source": "Tom's Hardware",
+      "time": 1788628737.0,
+      "score": 69.5,
+      "key": "6edcaa4427f2de66fa197b348dc4d700c2a3ada87c9fbe9f2f9e9acbb982b4dc",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788633667,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788633967
     },
     {
       "region": "RUSSIA",
@@ -649,6 +692,23 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Claude формализовал доказательство Великой теоремы Ферма за 11 дней - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQW5CNkN0cHdSVmgyVlZtbTNRUXpKVTM3S1R0eTNYZ1ZFbFRIdnFLbzdJUHc0U0RPR20zV0lYUHY4S25TM0hrNWxZUVNCV3R6dURYdW55WlhpdFFrRExjVHdILUZsMFlhQ2EzeExfVFB2ZGtZbWJpdEpKakZGdzMtdTdydVZlcjlTZWNvWktSX3YxN2h0WmNqTDdmSXdkTE1fWUpHaWw0U3RyQnU5?oc=5",
+      "desc": "Claude формализовал доказательство Великой теоремы Ферма за 11 дней prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788623547.0,
+      "score": 67.5,
+      "russia_weight_bonus": 2.0,
+      "key": "63b3fc7f343fe0874e597c5f6f56de320f71d8d76c28d13357004465adadc518",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ - Интерфакс",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QdIBS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QQ?oc=5",
       "desc": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ Интерфакс",
@@ -667,26 +727,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
-    },
-    {
-      "region": "WORLD",
-      "title": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation - IBTimes India",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQmJuT1NXbjhDaS1NZl9jVC1xd3dlZVV5ZHEyV0xhcFVsSFM1dnpKYlFDeGhobUU3bmw4V003UnByYzVzVGFscFdBYm81YVd4a1NvZHkydmtVUWtySDF5NnlFM0dmQmR2MmhMMkNiT3dlY0F2b2dXR0VUS1M0VEJ1RjNUaUFNRHlGZmctNE0wWi1FQmRmb1pta2tRMFAyOEs2SWJkQkdOalZsTHFld3Q1c2lUeF9jVjlz?oc=5",
-      "desc": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation IBTimes India",
-      "source": "IBTimes India",
-      "time": 1788622557.0,
-      "score": 66.5,
-      "key": "1bd094dfdcd6a7dde15e7d069536dfb2b209c2e029bd7e8c82d8450d7bc9a31e",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788633306,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 40,
-      "next_retry_at": 1788654906
     },
     {
       "region": "RUSSIA",
@@ -710,6 +750,23 @@
       "next_retry_at": 1788633446
     },
     {
+      "region": "RUSSIA",
+      "title": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии - ВФокусе Mail",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORHc5OGRJVjV3NTFFOXVQdWY3Q1dGUG0ySGdianUxUXBwNF8xQmVOa3pEZHd6cjdHS3M0Z3hVajhsNkpLQnR5MmMtZF9yZldNNUVYRjA3bEc4dF9kTmtWZUkyZXQzaUROLVJOOGNIV3l4Rll5S1BmWVlJRUhWN0lCOGt1bnFFaFQ1cnNMYklDbEJLa1Z2aEhBYmYwUnlncDJJLUdxeVZYTlE4LUI4aHJEX1ZZblhKXzVSYWRDdVotTUszQQ?oc=5",
+      "desc": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии ВФокусе Mail",
+      "source": "ВФокусе Mail",
+      "time": 1788614652.0,
+      "score": 63.6,
+      "russia_weight_bonus": 4.6,
+      "key": "f2ad176f86ea3db2842ee87216e9722316f88d1015c5bff9d3a68a056acbb6ba",
+      "importance": 63.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests - calcalistech.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00dTRBYnJjWl84cHMzbC1QZWVlb0ZUd0JKMnVVX1kyQ191NlR2UXFDLUdWVGt2WW9TS1JkODNKVW5hSVFfNU0xYVZDcWxLUTMxRXFwalpoMGZua09KYmhXZkxVR21JXzA?oc=5",
@@ -722,10 +779,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788633306,
+      "last_failed_at": 1788633667,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788654906
+      "failure_count": 14,
+      "next_retry_at": 1788655267
     },
     {
       "region": "WORLD",
@@ -740,10 +797,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788633306,
+      "last_failed_at": 1788633667,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 21,
-      "next_retry_at": 1788654906
+      "failure_count": 22,
+      "next_retry_at": 1788655267
     },
     {
       "region": "WORLD",
@@ -758,10 +815,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788633306,
+      "last_failed_at": 1788633667,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 21,
-      "next_retry_at": 1788654906
+      "failure_count": 22,
+      "next_retry_at": 1788655267
     },
     {
       "region": "WORLD",
@@ -776,80 +833,39 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788633306,
+      "last_failed_at": 1788633667,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 31,
-      "next_retry_at": 1788654906
+      "failure_count": 32,
+      "next_retry_at": 1788655267
     },
     {
-      "region": "RUSSIA",
-      "title": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNZWEVEdW9ZUElwS1pHRjdrenI2N2QxcTNuUERNSnZ3a3lFOVhyTU1lOEJsaWxudDZQWGdPLUhqUzdkVHQzYnZyalZFcWpjY2pnRDBGdnNSM3VyMzhRdGI1bFNPcXFQeWxZQmpHYW5VWUk1UHVwSEVybUMzbmhyMmFhZFkzMG53SkRCN0Z1UEl1VGR1RUZxanlfTDFQXzJPeFhR?oc=5",
-      "desc": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788620545.0,
-      "score": 60.6,
-      "russia_weight_bonus": 4.6,
-      "key": "65f34bcc7a3d5c7075bc5f958ebf2362ea00f8f2cbb9f0ad5e1f82f44963496c",
-      "importance": 60.6,
+      "region": "WORLD",
+      "title": "Maryam Nawaz inaugurates intelligence fusion centre and AI hub in Lahore - Minute Mirror",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMUpsNTZpWmt1RVBvczBxaTE3OHFHUkc0OHo2WlpLR0NJSnA2RHhfbjVhMnN4ZlBqZzEyY19LSHVsNFpISUY3aDA0dGFydlVUV2FEYTJvSjJHZFJaNjJrUHVOc0t3cG51bkJyN2hxWVpKaVFoUDQ5WnViWVNJTGxwX1JNMVFUOFFkbEJ3WS1ydGlTSDBmSWFRUnUtTnFwbEFHd094bl9zX1hOUy1f?oc=5",
+      "desc": "Maryam Nawaz inaugurates intelligence fusion centre and AI hub in Lahore Minute Mirror",
+      "source": "Minute Mirror",
+      "time": 1788623746.0,
+      "score": 63.5,
+      "key": "ac05292d67dc63b1d84da616db1e36124e465d3451fffe739e177683db584d67",
+      "importance": 63.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788623846,
+      "last_failed_at": 1788633667,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
-      "region": "WORLD",
-      "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEpGRDlTNGJuSVd0STFvOEFpN0Nrd3l4Y3dZbEo0Q0NSTXh1ZHZVNDJJZENSOTNMb0ZDaWN4X1ZLRGw5RFZDX2J1Z3pKWF83TjdKcjdoajhKM1JLV3ZWZ01yUXd3QWZVaGFLY08xVGNJaDhGVDcweDMzZmJDTXN6NGxTOGRoMjlXSk84Q21FQlN5R2hPY2ZB?oc=5",
-      "desc": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors Yahoo Finance",
-      "source": "Yahoo Finance",
-      "time": 1788620848.0,
-      "score": 60.0,
-      "key": "0ec49241e04799dc3f8b07d58b7a378d58b2ee16b3d0beedd73f2c9bfa683ac1",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788633306,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 40,
-      "next_retry_at": 1788654906
-    },
-    {
-      "region": "WORLD",
-      "title": "Google launches WeatherNext 3, its most advanced AI weather model yet - timesofindia.indiatimes.com",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNR3RwNV9ET0RIaENFUUpZY3o3Y2I2Rm5XZ0pkOWlOck02RTFuWHFITHV6dHFjN08yeFdncUhaLWtJM3pqdmJLdE9rMnAtcUtVR2VTOUlteUtzd253ZGY5dXRqdkpXd29HcDlsTVp0bm1NVVZaalRNMzNyVkRGWjJKdjdQVVVwX3djelkxb0ZzRUFYNHZxYklSVjRibWdHSjlvcmZELW1fdnFUSUNOdFF5TnAxNnFidDZpdjRFUUVsdWFPamlRUEEtZEZCME9FLUtwYWpuenpSZk9FalNYNWExMWdhNTRRZ9IB6wFBVV95cUxPOC1TT1VKdjZETXJ1UFRqcHVDRW1Xem9xU0Q2aHVwWGNoLXYwR25md3lJQ250WUxtTnNieFlESUlrMDU5RC1aUlZRbGlGYTdpdGR3Zzl1QkRzc1lxQ0RQR1FFOG42c3RNLXFUMGVZUERHN2c2azhvUUJUYWtpb0MwS1JsT29ZS0kxWjJDbEpRYWI0QjNzcXVmWXBiZXJXLW5Dc2dOMEkzODRWT1JMZ1pzci16MkZOWnQ3ZFdFOTdNdGp2TkR2djNWaXZ3VU1fS05MWmZfS0pJM1B3eXZaRDNzR0tEWFlhOXNKLVFv?oc=5",
-      "desc": "Google launches WeatherNext 3, its most advanced AI weather model yet timesofindia.indiatimes.com",
-      "source": "timesofindia.indiatimes.com",
-      "time": 1788611340.0,
-      "score": 60.0,
-      "key": "2b16486cdafa787832d6b4674bc5dc4ee5cbddbc9679967870e73357d8dce047",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788633306,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788654906
+      "failure_count": 1,
+      "next_retry_at": 1788633967
     }
   ],
   "health": {
-    "last_start_ts": 1788633306.8990147,
+    "last_start_ts": 1788633667.3137622,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788633306.8990147,
-    "last_success_ts": 1788633306.8990147,
-    "last_candidates": 0,
+    "last_run_ts": 1788633667.3137622,
+    "last_success_ts": 1788633667.3137622,
+    "last_candidates": 48,
     "last_published": 0,
-    "queue_size": 19
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -869,13 +885,6 @@
     }
   },
   "stories": {
-    "082f8d755d597d12f453e4912b5c69215532c106fff9e7b24ac96af86f980580": {
-      "time": 1788547040,
-      "title": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова - Smart-Lab",
-      "desc": "💬 Монетизация Алисы, новый B2B-продукт и экономика ИИ: главное из интервью CEO Алисы Валерия Стромова Smart-Lab",
-      "source": "Smart-Lab",
-      "region": "RUSSIA"
-    },
     "7aa23d58e47724aef9d4f26f919711eeffc3ba4ca18f58abbc83fbaa0f236a06": {
       "time": 1788547339,
       "title": "Claude Fable 5.1 achieves 8x improvement in robotic task performance - Crypto Briefing",
@@ -1494,6 +1503,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788631627.609198,
+  "last_search_ts": 1788633667.3137622,
   "last_publish_ts": 1788622283.4029808
 }
