@@ -569,10 +569,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788632527,
+      "last_failed_at": 1788632647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788637327
+      "failure_count": 6,
+      "next_retry_at": 1788642247
     },
     {
       "region": "WORLD",
@@ -589,10 +589,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788632527,
+      "last_failed_at": 1788632647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 17,
-      "next_retry_at": 1788654127
+      "failure_count": 18,
+      "next_retry_at": 1788654247
     },
     {
       "region": "RUSSIA",
@@ -683,10 +683,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788632527,
+      "last_failed_at": 1788632647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 36,
-      "next_retry_at": 1788654127
+      "failure_count": 37,
+      "next_retry_at": 1788654247
     },
     {
       "region": "RUSSIA",
@@ -724,10 +724,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788632527,
+      "last_failed_at": 1788632647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788654127
+      "failure_count": 10,
+      "next_retry_at": 1788654247
     },
     {
       "region": "RUSSIA",
@@ -763,10 +763,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632527,
+      "last_failed_at": 1788632647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788654127
+      "failure_count": 10,
+      "next_retry_at": 1788654247
     },
     {
       "region": "WORLD",
@@ -781,10 +781,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632527,
+      "last_failed_at": 1788632647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 17,
-      "next_retry_at": 1788654127
+      "failure_count": 18,
+      "next_retry_at": 1788654247
     },
     {
       "region": "WORLD",
@@ -799,10 +799,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632527,
+      "last_failed_at": 1788632647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 17,
-      "next_retry_at": 1788654127
+      "failure_count": 18,
+      "next_retry_at": 1788654247
     },
     {
       "region": "WORLD",
@@ -817,10 +817,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788632527,
+      "last_failed_at": 1788632647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 27,
-      "next_retry_at": 1788654127
+      "failure_count": 28,
+      "next_retry_at": 1788654247
     },
     {
       "region": "RUSSIA",
@@ -856,18 +856,18 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788632527,
+      "last_failed_at": 1788632647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 36,
-      "next_retry_at": 1788654127
+      "failure_count": 37,
+      "next_retry_at": 1788654247
     }
   ],
   "health": {
-    "last_start_ts": 1788632527.1471992,
+    "last_start_ts": 1788632647.7721841,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788632527.1471992,
-    "last_success_ts": 1788632527.1471992,
+    "last_run_ts": 1788632647.7721841,
+    "last_success_ts": 1788632647.7721841,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -890,13 +890,6 @@
     }
   },
   "stories": {
-    "f8a09416a3426774662561e739d35675adc209ddc7399e5b18ec5878643ae628": {
-      "time": 1788546144,
-      "title": "OpenAI представила новую ИИ-модель и провозгласила эру общего искусственного интеллекта - The World Inform",
-      "desc": "OpenAI представила новую ИИ-модель и провозгласила эру общего искусственного интеллекта The World Inform",
-      "source": "The World Inform",
-      "region": "RUSSIA"
-    },
     "03033744b9d6b1332802f47f99d97de852481843457e0fd72fc3b0b98916f62c": {
       "time": 1788546620,
       "title": "Ведяхин рассказал о необходимости доступа для ИИ‑агентов на маркетплейсах - newkhakasiya.online",
