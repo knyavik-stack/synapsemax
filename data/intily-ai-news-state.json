@@ -436,7 +436,11 @@
         "business",
         "models"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788584300,
+      "last_failure": "RU_QA_FORBIDDEN_STYLE",
+      "failure_count": 1,
+      "next_retry_at": 1788584600
     },
     {
       "region": "RUSSIA",
@@ -455,20 +459,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788584060.6424463,
+    "last_start_ts": 1788584300.1743834,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788584060.6424463,
-    "last_success_ts": 1788584060.6424463,
-    "last_candidates": 26,
-    "last_published": 1,
+    "last_run_ts": 1788584300.1743834,
+    "last_success_ts": 1788584300.1743834,
+    "last_candidates": 0,
+    "last_published": 0,
     "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788584080.2818801
+      "updated_at": 1788584334.7729464
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
