@@ -427,12 +427,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788578964.1712973,
+    "last_start_ts": 1788579081.35473,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788578964.1712973,
-    "last_success_ts": 1788578964.1712973,
-    "last_candidates": 32,
+    "last_run_ts": 1788579081.35473,
+    "last_success_ts": 1788579081.35473,
+    "last_candidates": 33,
     "last_published": 0,
     "queue_size": 0
   },
@@ -454,13 +454,6 @@
     }
   },
   "stories": {
-    "0cf030716ac3edd01508dbd6b49cc97e66bb9ca4ebb0d18ca782b6d160406533": {
-      "time": 1788492592,
-      "title": "OpenAI launches Daybreak for frontline defenders - IT Brief Asia",
-      "desc": "OpenAI launches Daybreak for frontline defenders IT Brief Asia",
-      "source": "IT Brief Asia",
-      "region": "WORLD"
-    },
     "0a6917d5bf2d9b336cb18dc66082f0a05d4ad3bd1a7924ef84988ebe8fdb9b98": {
       "time": 1788492773,
       "title": "Крупнейшая ИТ-компания России проводит курсы по ИИ для школьников Башкирии - Уфимские нивы",
@@ -1975,6 +1968,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788578964.1712973,
+  "last_search_ts": 1788579081.35473,
   "last_publish_ts": 1788578780.5315773
 }
