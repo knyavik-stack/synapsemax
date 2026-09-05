@@ -29,10 +29,10 @@ GOOGLE_HEADERS = {
     'Sec-Fetch-Site': 'none',
     'Upgrade-Insecure-Requests': '1',
 }
-GOOGLE_MIN_DELAY = 1.8
-GOOGLE_MAX_DELAY = 3.2
-GOOGLE_RETRY_MIN = 4.0
-GOOGLE_RETRY_MAX = 7.0
+GOOGLE_MIN_DELAY = 1.5
+GOOGLE_MAX_DELAY = 2.3
+GOOGLE_RETRY_MIN = 2.5
+GOOGLE_RETRY_MAX = 4.0
 
 # Four broad searches replace the former burst of ~30 narrow searches.
 # The existing editorial AI relevance gate remains the final authority.
@@ -77,7 +77,7 @@ DIRECT_FEEDS = {
 }
 
 
-async def _fetch_bytes(url, timeout=8, headers=None):
+async def _fetch_bytes(url, timeout=6, headers=None):
     response = await asyncio.wait_for(
         fetch(url, headers=headers or {'User-Agent': 'IntilyAI-News/7.1 RSS fallback'}),
         timeout=timeout,
@@ -85,10 +85,12 @@ async def _fetch_bytes(url, timeout=8, headers=None):
     if not response.ok:
         body = await response.text()
         raise RuntimeError(f'HTTP_{int(response.status)}: {body[:160]}')
-    return bytes(await response.arrayBuffer())
+    # Python Workers' Response exposes text()/json() reliably; the JS-only
+    # arrayBuffer() method is not available on this Pyodide Response wrapper.
+    return (await response.text()).encode('utf-8')
 
 
-async def _google_fetch(url, timeout=12):
+async def _google_fetch(url, timeout=6):
     # Spread requests in wall-clock time.  This is intentionally serial: parallel
     # Google requests recreate the exact burst pattern that caused the 503s.
     await asyncio.sleep(random.uniform(GOOGLE_MIN_DELAY, GOOGLE_MAX_DELAY))
