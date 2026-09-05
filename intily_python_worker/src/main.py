@@ -2,7 +2,8 @@ import json
 import os
 from urllib.parse import urlparse
 from workers import WorkerEntrypoint, Response
-from intily_ai_news_core import main as run_engine
+import intily_ai_news_core as engine
+from intily_feed_runtime import install_runtime_rss
 
 STATE_KEY = 'intily:publisher:v1'
 LOCK_KEY = 'intily:publisher:lock:v1'
@@ -51,6 +52,7 @@ class Default(WorkerEntrypoint):
                 value = _env_text(runtime_env, name)
                 if value:
                     os.environ[name] = value
+            install_runtime_rss(engine)
             async def load_state():
                 raw = await runtime_env.STATE.get(STATE_KEY)
                 default = {
@@ -77,6 +79,6 @@ class Default(WorkerEntrypoint):
                     return default
             async def save_state(state):
                 await runtime_env.STATE.put(STATE_KEY, json.dumps(state, ensure_ascii=False, separators=(',', ':')))
-            await run_engine(load_state_fn=load_state, save_state_fn=save_state, ai_binding=runtime_env.AI)
+            await engine.main(load_state_fn=load_state, save_state_fn=save_state, ai_binding=runtime_env.AI)
         finally:
             await runtime_env.STATE.delete(LOCK_KEY)
