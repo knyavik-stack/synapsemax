@@ -361,7 +361,8 @@
     "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba": 1788566300,
     "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981,
     "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641,
-    "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": 1788569600
+    "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": 1788569600,
+    "68b1c7189c09f09dd88b41da3e21acad46bd2d02043c8d671c498edd0fdbe4c2": 1788571880
   },
   "known": {
     "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": 1788551422.751168,
@@ -419,24 +420,25 @@
     "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff": 1788565099.8368926,
     "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981.3549268,
     "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641.0768464,
-    "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": 1788569600.1822982
+    "b56483423587a9574d56eeeb3f913d63c9830f6b9ce2f74789b2f4cc0e603e68": 1788569600.1822982,
+    "68b1c7189c09f09dd88b41da3e21acad46bd2d02043c8d671c498edd0fdbe4c2": 1788571880.4870455
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788571640.6582966,
+    "last_start_ts": 1788571880.4870455,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788571640.6582966,
-    "last_success_ts": 1788571640.6582966,
+    "last_run_ts": 1788571880.4870455,
+    "last_success_ts": 1788571880.4870455,
     "last_candidates": 34,
-    "last_published": 0,
+    "last_published": 1,
     "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788569616.414574
+      "updated_at": 1788571895.514777
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1968,6 +1970,13 @@
       "desc": "Заменит ли ИИ на работе офисного сотрудника - порассуждали на форуме в Хабаровске Новости Хабаровска",
       "source": "Новости Хабаровска",
       "region": "RUSSIA"
+    },
+    "68b1c7189c09f09dd88b41da3e21acad46bd2d02043c8d671c498edd0fdbe4c2": {
+      "time": 1788571880,
+      "title": "ИИ-агент Claude вместо выполнения задания пользователя открыл страницу с порно - prospect.com.ru",
+      "desc": "ИИ-агент Claude вместо выполнения задания пользователя открыл страницу с порно prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1977,7 +1986,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1989,9 +1997,10 @@
     "WORLD",
     "RUSSIA",
     "WORLD",
+    "RUSSIA",
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788571640.6582966,
-  "last_publish_ts": 1788569600.1822982
+  "last_search_ts": 1788571880.4870455,
+  "last_publish_ts": 1788571880.4870455
 }
