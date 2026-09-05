@@ -461,10 +461,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788645705,
+      "last_failed_at": 1788645882,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788650505
+      "failure_count": 6,
+      "next_retry_at": 1788655482
     },
     {
       "region": "WORLD",
@@ -473,19 +473,19 @@
       "desc": "AI Agents Sound Cybersecurity Alarm: Which Has More Upside Potential Among PANW, CRWD, OKTA, and ZS? TradingKey",
       "source": "TradingKey",
       "time": 1788642262.0,
-      "score": 74.5,
+      "score": 71.5,
       "key": "d6dc4d7664f40cf611eea61f0d87e16c501700dc35ce4f5afb6977988bc1c37b",
-      "importance": 74.5,
+      "importance": 71.5,
       "editorial_value": 50.0,
       "topics": [
         "agents",
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788645705,
+      "last_failed_at": 1788645882,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 17,
-      "next_retry_at": 1788667305
+      "failure_count": 18,
+      "next_retry_at": 1788667482
     },
     {
       "region": "WORLD",
@@ -503,10 +503,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788645705,
+      "last_failed_at": 1788645882,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788650505
+      "failure_count": 6,
+      "next_retry_at": 1788655482
     },
     {
       "region": "WORLD",
@@ -524,10 +524,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788645705,
+      "last_failed_at": 1788645882,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 17,
-      "next_retry_at": 1788667305
+      "failure_count": 18,
+      "next_retry_at": 1788667482
     },
     {
       "region": "RUSSIA",
@@ -549,26 +549,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 7,
       "next_retry_at": 1788653886
-    },
-    {
-      "region": "WORLD",
-      "title": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings - The Motley Fool",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbkZ2VWc0U3JGWm1aN09Tb2dMTEh4cnY1c0hsUzM2WmlNMHlPTkN6OUxsTkZSLWdaVGhJS0ltRVFVbWwxQU10dTRJMFp0WHdjUTVMUEsyUGxDcnFPblZRdXRjbm0tYjlPTmxUT1MyU3l3UFlweDc1Z25rU1hCUXlnMjRQYV9GdGRMRzVtWmluUVhQT0VOclRrNQ?oc=5",
-      "desc": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings The Motley Fool",
-      "source": "The Motley Fool",
-      "time": 1788635058.0,
-      "score": 67.5,
-      "key": "4a30001e2548fa26871459059f14ca29be95b71d626d130f0fd0f98591136545",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788645705,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 48,
-      "next_retry_at": 1788667305
     },
     {
       "region": "RUSSIA",
@@ -626,10 +606,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788645705,
+      "last_failed_at": 1788645882,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 17,
-      "next_retry_at": 1788667305
+      "failure_count": 18,
+      "next_retry_at": 1788667482
     },
     {
       "region": "RUSSIA",
@@ -709,10 +689,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788645705,
+      "last_failed_at": 1788645882,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 82,
-      "next_retry_at": 1788667305
+      "failure_count": 83,
+      "next_retry_at": 1788667482
     },
     {
       "region": "WORLD",
@@ -729,10 +709,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788645705,
+      "last_failed_at": 1788645882,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 61,
-      "next_retry_at": 1788667305
+      "failure_count": 62,
+      "next_retry_at": 1788667482
     },
     {
       "region": "WORLD",
@@ -749,10 +729,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788645705,
+      "last_failed_at": 1788645882,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 48,
-      "next_retry_at": 1788667305
+      "failure_count": 49,
+      "next_retry_at": 1788667482
     },
     {
       "region": "RUSSIA",
@@ -824,6 +804,26 @@
     },
     {
       "region": "WORLD",
+      "title": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbkZ2VWc0U3JGWm1aN09Tb2dMTEh4cnY1c0hsUzM2WmlNMHlPTkN6OUxsTkZSLWdaVGhJS0ltRVFVbWwxQU10dTRJMFp0WHdjUTVMUEsyUGxDcnFPblZRdXRjbm0tYjlPTmxUT1MyU3l3UFlweDc1Z25rU1hCUXlnMjRQYV9GdGRMRzVtWmluUVhQT0VOclRrNQ?oc=5",
+      "desc": "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings The Motley Fool",
+      "source": "The Motley Fool",
+      "time": 1788635058.0,
+      "score": 60.0,
+      "key": "4a30001e2548fa26871459059f14ca29be95b71d626d130f0fd0f98591136545",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788645882,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 49,
+      "next_retry_at": 1788667482
+    },
+    {
+      "region": "WORLD",
       "title": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 - INDIA New England News",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2N2QUNkQkFnODd3Q2FENHVSUERPOGh0b190d3U5RTRaUUFwMFFJWWlFZDNQWEhQM2ljWW44YnJxTVFIdWc4QUljN0pRM05FZ1VUYXNpTUJVZUFiaWo1ZHJyaWRrTlJGU3J3Y0tCMVpoMHlUbXBQWEN1RnVSTDFkbFY0ZWtVWVVwR0gySXJzenUwV0FSYi0zQ253OUxIRXB2eVhN?oc=5",
       "desc": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 INDIA New England News",
@@ -835,18 +835,18 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788645705,
+      "last_failed_at": 1788645882,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 48,
-      "next_retry_at": 1788667305
+      "failure_count": 49,
+      "next_retry_at": 1788667482
     }
   ],
   "health": {
-    "last_start_ts": 1788645705.3054695,
+    "last_start_ts": 1788645882.9455557,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788645705.3054695,
-    "last_success_ts": 1788645705.3054695,
+    "last_run_ts": 1788645882.9455557,
+    "last_success_ts": 1788645882.9455557,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
