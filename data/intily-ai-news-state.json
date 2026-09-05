@@ -568,10 +568,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788630788,
+      "last_failed_at": 1788630847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788652388
+      "failure_count": 11,
+      "next_retry_at": 1788652447
     },
     {
       "region": "RUSSIA",
@@ -660,10 +660,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788630788,
+      "last_failed_at": 1788630847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 29,
-      "next_retry_at": 1788652388
+      "failure_count": 30,
+      "next_retry_at": 1788652447
     },
     {
       "region": "RUSSIA",
@@ -699,10 +699,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788630788,
+      "last_failed_at": 1788630847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788631388
+      "failure_count": 3,
+      "next_retry_at": 1788632047
     },
     {
       "region": "WORLD",
@@ -719,10 +719,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788630788,
+      "last_failed_at": 1788630847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 29,
-      "next_retry_at": 1788652388
+      "failure_count": 30,
+      "next_retry_at": 1788652447
     },
     {
       "region": "RUSSIA",
@@ -760,10 +760,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788630788,
+      "last_failed_at": 1788630847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788631388
+      "failure_count": 3,
+      "next_retry_at": 1788632047
     },
     {
       "region": "RUSSIA",
@@ -799,10 +799,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788630788,
+      "last_failed_at": 1788630847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788652388
+      "failure_count": 11,
+      "next_retry_at": 1788652447
     },
     {
       "region": "WORLD",
@@ -817,10 +817,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788630788,
+      "last_failed_at": 1788630847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788652388
+      "failure_count": 11,
+      "next_retry_at": 1788652447
     },
     {
       "region": "WORLD",
@@ -835,10 +835,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788630788,
+      "last_failed_at": 1788630847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788652388
+      "failure_count": 21,
+      "next_retry_at": 1788652447
     },
     {
       "region": "RUSSIA",
@@ -857,11 +857,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788630788.0249062,
+    "last_start_ts": 1788630847.8422403,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788630788.0249062,
-    "last_success_ts": 1788630788.0249062,
+    "last_run_ts": 1788630847.8422403,
+    "last_success_ts": 1788630847.8422403,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -884,13 +884,6 @@
     }
   },
   "stories": {
-    "c76171841c7e9c500434b0cb54ebb8d048bb1bb9c6a6a9ff7c39a1f1f84e600f": {
-      "time": 1788544437,
-      "title": "Орешкин предостерег от преждевременного регулирования ИИ - prospect.com.ru",
-      "desc": "Орешкин предостерег от преждевременного регулирования ИИ prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "c3d13a9d622464b2f778b4eff4d05f3b970b0de1539053f644a1458fb2b94858": {
       "time": 1788544640,
       "title": "Broadcom predicts AI chip revenue to double in 2027 - Fierce Network",
