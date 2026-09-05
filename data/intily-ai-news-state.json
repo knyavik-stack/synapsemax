@@ -544,10 +544,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788627687,
+      "last_failed_at": 1788627805,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788627987
+      "failure_count": 2,
+      "next_retry_at": 1788628405
     },
     {
       "region": "RUSSIA",
@@ -618,10 +618,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788627687,
+      "last_failed_at": 1788627805,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788649287
+      "failure_count": 21,
+      "next_retry_at": 1788649405
     },
     {
       "region": "RUSSIA",
@@ -735,10 +735,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788627687,
+      "last_failed_at": 1788627805,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788649287
+      "failure_count": 21,
+      "next_retry_at": 1788649405
     },
     {
       "region": "WORLD",
@@ -755,10 +755,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788627687,
+      "last_failed_at": 1788627805,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788649287
+      "failure_count": 21,
+      "next_retry_at": 1788649405
     },
     {
       "region": "WORLD",
@@ -773,10 +773,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788627687,
+      "last_failed_at": 1788627805,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788627987
+      "failure_count": 2,
+      "next_retry_at": 1788628405
     },
     {
       "region": "WORLD",
@@ -791,10 +791,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788627687,
+      "last_failed_at": 1788627805,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788627987
+      "failure_count": 2,
+      "next_retry_at": 1788628405
     },
     {
       "region": "WORLD",
@@ -809,10 +809,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788627687,
+      "last_failed_at": 1788627805,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 11,
-      "next_retry_at": 1788649287
+      "failure_count": 12,
+      "next_retry_at": 1788649405
     },
     {
       "region": "WORLD",
@@ -829,10 +829,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788627687,
+      "last_failed_at": 1788627805,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 20,
-      "next_retry_at": 1788649287
+      "failure_count": 21,
+      "next_retry_at": 1788649405
     },
     {
       "region": "RUSSIA",
@@ -857,12 +857,12 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788627687.125582,
+    "last_start_ts": 1788627805.6231816,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788627687.125582,
-    "last_success_ts": 1788627687.125582,
-    "last_candidates": 51,
+    "last_run_ts": 1788627805.6231816,
+    "last_success_ts": 1788627805.6231816,
+    "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
   },
@@ -884,13 +884,6 @@
     }
   },
   "stories": {
-    "4777d323c081f17e6dc88d7ee3e6de88bb5158ebab4cfd4066aac3c9840fe8ce": {
-      "time": 1788541339,
-      "title": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth - Yahoo Tech",
-      "desc": "Google DeepMind’s WeatherNext 3 Outranks Every Physics Model on Earth Yahoo Tech",
-      "source": "Yahoo Tech",
-      "region": "WORLD"
-    },
     "5e3580b59befb493154d978dfb3e6535a9974996e88031ff318976264719507d": {
       "time": 1788541520,
       "title": "ИИ-агенты взломали сайт и сделали из него доску объявления для ИИ - Ruposters.ru",
