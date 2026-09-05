@@ -366,7 +366,8 @@
     "e11745d700638c75bf6a8d61b34b4cebaef62936f06270bfc6827f6d4c1e0894": 1788573141,
     "78541832fab30d4881a2a99033b4add88e674fe22c020ad194a9649d9e5fcc08": 1788573439,
     "dfa96c3499273e9f639349df2895dd2f9da83431d7698e726ea44f40cc8896ba": 1788573740,
-    "b218a5eaa8e6cfbc744baf3d38f8b40d8f7b68c79c6b14247eaec0ef96bd85d8": 1788574041
+    "b218a5eaa8e6cfbc744baf3d38f8b40d8f7b68c79c6b14247eaec0ef96bd85d8": 1788574041,
+    "644df3b525ca77e77dce33306f0b56f18c74d9d42fc8d159689dc1b1455bf984": 1788574341
   },
   "known": {
     "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": 1788553285.8830574,
@@ -436,22 +437,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "Nvidia Invests $3.5 Billion in MediaTek: What Is Jensen Huang Eyeing? - tradingkey.com",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdklORzVYUHBPUVpPVHBXc1lsV09mNjB2RlNiWmo0QnJvLXpiLXg2QmphQlNoTkJjNFNyYnNCVTdhRjNkTEFLMExsdWlvdnF3WGNpak9IbXFXLTgyVTU5V05HWjIzZGFxYll6ZER5ZmkxTnBhRmtZREpkR1FhbWhlMEZoX1RhQU4tUEFyMzh6NzB2ZDZoWlQ3SHVkSDI4UVRIMFhNV0c0UkJwS1FqZ2xvaDVEVDROb0lRTm1VWFF1RDdXaTA?oc=5",
-      "desc": "Nvidia Invests $3.5 Billion in MediaTek: What Is Jensen Huang Eyeing? tradingkey.com",
-      "source": "tradingkey.com",
-      "time": 1788573867.0,
-      "score": 70.5,
-      "key": "644df3b525ca77e77dce33306f0b56f18c74d9d42fc8d159689dc1b1455bf984",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "chips"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "Snowflake Rose 22% After Its AI Coding Agent Drove a Third Straight Quarter of Accelerating Growth - The Eastern Herald",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaXdvS1pUVThGUkVJQS1naVNJeUh4Wkd4NmV5bzl2N2V6OFZQeDR2TllPRGl3aU0wcjdiSmFxX3ZNOGRyWjJzSjZJZEJMb0xYNUFPb3oteWlRWndpVFJVXzZFbTNrUjBFYzBjY0h2azFvMnNMdDNwcFF3MVd5Z1hmY3Q5QTgxV255UG9QMTRoRDduUWc0?oc=5",
       "desc": "Snowflake Rose 22% After Its AI Coding Agent Drove a Third Straight Quarter of Accelerating Growth The Eastern Herald",
@@ -517,20 +502,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788574161.4719007,
+    "last_start_ts": 1788574341.276047,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788574161.4719007,
-    "last_success_ts": 1788574161.4719007,
-    "last_candidates": 37,
-    "last_published": 0,
-    "queue_size": 5
+    "last_run_ts": 1788574341.276047,
+    "last_success_ts": 1788574341.276047,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 4
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788574056.5333858
+      "updated_at": 1788574344.586609
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -544,13 +529,6 @@
     }
   },
   "stories": {
-    "30875d07e6f8478de105c20c899f12ab6bf313be5cfd681d2291e45829b15f6b": {
-      "time": 1788487794,
-      "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
-      "desc": "The turbulent AI era is here. The choices we make now are critical. Gates Notes",
-      "source": "Gates Notes",
-      "region": "WORLD"
-    },
     "81f410ff8bb254a743e6554dcc520ba5cb766fbb423e54281f85c2f26be440fe": {
       "time": 1788487975,
       "title": "Nvidia’s next AI play: own the platform where open models are built, shared and deployed - Ynetnews",
@@ -2055,11 +2033,17 @@
       "desc": "ИИ-агент M**a во время тестов начал самовольничать — менял пароли и отправлял письма от имени пользователей prospect.com.ru",
       "source": "prospect.com.ru",
       "region": "RUSSIA"
+    },
+    "644df3b525ca77e77dce33306f0b56f18c74d9d42fc8d159689dc1b1455bf984": {
+      "time": 1788574341,
+      "title": "Nvidia Invests $3.5 Billion in MediaTek: What Is Jensen Huang Eyeing? - tradingkey.com",
+      "desc": "Nvidia Invests $3.5 Billion in MediaTek: What Is Jensen Huang Eyeing? tradingkey.com",
+      "source": "tradingkey.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -2077,8 +2061,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788574161.4719007,
-  "last_publish_ts": 1788574041.600475
+  "last_publish_ts": 1788574341.276047
 }
