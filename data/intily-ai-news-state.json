@@ -441,13 +441,13 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788568641.0768464,
+    "last_start_ts": 1788568940.2922204,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788568641.0768464,
-    "last_success_ts": 1788568641.0768464,
+    "last_run_ts": 1788568940.2922204,
+    "last_success_ts": 1788568940.2922204,
     "last_candidates": 41,
-    "last_published": 1,
+    "last_published": 0,
     "queue_size": 0
   },
   "providers": {
@@ -468,13 +468,6 @@
     }
   },
   "stories": {
-    "073837b040a96ddedcdb211ef92accd7f05eda357a64dd5514228c33818406e4": {
-      "time": 1788482395,
-      "title": "Моделей больше недостаточно: зачем OpenAI запускает DeployCo с $4 млрд инвестиций - Компьютерра",
-      "desc": "Моделей больше недостаточно: зачем OpenAI запускает DeployCo с $4 млрд инвестиций Компьютерра",
-      "source": "Компьютерра",
-      "region": "RUSSIA"
-    },
     "4c9bb67e1d0c0762e9d064b69a9ec0f83e9f432d5a0aeaa816664d1307254797": {
       "time": 1788482816,
       "title": "Michelle Schmaderer Launches House of Profits™, a First-of-Its-Kind Business-Building Experience for the AI Economy - The Manila Times",
@@ -2066,6 +2059,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788568641.0768464,
+  "last_search_ts": 1788568940.2922204,
   "last_publish_ts": 1788568641.0768464
 }
