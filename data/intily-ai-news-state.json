@@ -376,10 +376,10 @@
     "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f": 1788576139,
     "09996fad3151ec38ea10979b6f5ed283d9e959b3f31d93f6a642caaef4d5c171": 1788578120,
     "b8bcf176c791465a10f2f5ebc82d403fe51441af7a04e0dd328a46e324946efb": 1788578301,
-    "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1": 1788578482
+    "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1": 1788578482,
+    "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578780
   },
   "known": {
-    "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179.8212974,
     "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867": 1788558920.9899461,
     "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf": 1788558920.9899461,
     "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24": 1788558920.9899461,
@@ -425,40 +425,22 @@
     "09996fad3151ec38ea10979b6f5ed283d9e959b3f31d93f6a642caaef4d5c171": 1788578120.442631,
     "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578120.442631
   },
-  "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "OpenAI выпустила GPT-6 Astra - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82akNvYmRVeDVyRlpaS0dNWDJhd3NUQm1xVmN4SVc1OUZkTnR5YVhoVUViTTJZcEpISkZXMFFUb3RwQUdyNkhyR183SUpIcHVqcVQwMXdheGFFc19uWGp2MWdoZ2pCQ19NR3M4MnVxNktQMzkzTFM0UQ?oc=5",
-      "desc": "OpenAI выпустила GPT-6 Astra prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788562441.0,
-      "score": 63.2,
-      "russia_weight_bonus": 3.2,
-      "key": "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2",
-      "importance": 63.2,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    }
-  ],
+  "queue": [],
   "health": {
-    "last_start_ts": 1788578482.3204536,
+    "last_start_ts": 1788578780.5315773,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788578482.3204536,
-    "last_success_ts": 1788578482.3204536,
-    "last_candidates": 0,
+    "last_run_ts": 1788578780.5315773,
+    "last_success_ts": 1788578780.5315773,
+    "last_candidates": 32,
     "last_published": 1,
-    "queue_size": 1
+    "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788578488.2725322
+      "updated_at": 1788578800.300548
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1962,10 +1944,16 @@
       "desc": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay Stocktwits",
       "source": "Stocktwits",
       "region": "WORLD"
+    },
+    "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": {
+      "time": 1788578780,
+      "title": "OpenAI выпустила GPT-6 Astra - prospect.com.ru",
+      "desc": "OpenAI выпустила GPT-6 Astra prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -1984,8 +1972,9 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
-  "last_search_ts": 1788578120.442631,
-  "last_publish_ts": 1788578482.3204536
+  "last_search_ts": 1788578780.5315773,
+  "last_publish_ts": 1788578780.5315773
 }
