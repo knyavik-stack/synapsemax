@@ -376,17 +376,6 @@
     "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f": 1788576139
   },
   "known": {
-    "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555201.4978535,
-    "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": 1788555201.4978535,
-    "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": 1788555201.4978535,
-    "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": 1788555201.4978535,
-    "0dfdee4a2ad0789d427b36862b05a1ac9361a3fba4a91a71ef85b5a1a7a9806f": 1788555201.4978535,
-    "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b": 1788555201.4978535,
-    "ea3d875187dbdfb9deb43f3274c44a647b5f868676f3480594430c099527c221": 1788555201.4978535,
-    "4411b5f988e06926bb75db0606fe42c6b1c0264e2eafcb321d1a1cea3f0925ec": 1788555201.4978535,
-    "2aac3a0aa380862b307624c370cbacddd320c66d6594f6490bbe6607b5ec9fb6": 1788555201.4978535,
-    "6348a21480241bcc69eaef3417adaff8901538a5a6555bd9ccd51441d36e043f": 1788555201.4978535,
-    "5c23257e87e7a366c8295f49712982df7bcebe4ad08b13090ef991ea59a82147": 1788555201.4978535,
     "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": 1788557179.8212974,
     "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867": 1788558920.9899461,
     "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf": 1788558920.9899461,
@@ -465,18 +454,18 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788576740,
+      "last_failed_at": 1788576859,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 5,
-      "next_retry_at": 1788581540
+      "failure_count": 6,
+      "next_retry_at": 1788586459
     }
   ],
   "health": {
-    "last_start_ts": 1788576740.8048308,
+    "last_start_ts": 1788576859.8764865,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788576740.8048308,
-    "last_success_ts": 1788576740.8048308,
+    "last_run_ts": 1788576859.8764865,
+    "last_success_ts": 1788576859.8764865,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 2
@@ -485,7 +474,7 @@
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788576745.0003028
+      "updated_at": 1788576866.3868518
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
