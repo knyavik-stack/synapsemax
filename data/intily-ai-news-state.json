@@ -538,25 +538,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "В НовГУ объяснили вред нейросетей для критического мышления школьников - Новгородские ведомости",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XQjNySnNHa0JiSkpYaFlucVZrdlJoZ3R1aTJmREVXa0QtTzZmRGplNFExNmxUUHhiXzZvN2J5OHVsUUZzWnJSai1pak9oV3h2cDNfc05QUlF1QQ?oc=5",
-      "desc": "В НовГУ объяснили вред нейросетей для критического мышления школьников Новгородские ведомости",
-      "source": "Новгородские ведомости",
-      "time": 1788631200.0,
-      "score": 73.2,
-      "russia_weight_bonus": 4.7,
-      "key": "1ea303ab8ec210bb89b428b7d6dd4f49ac10ea9fb0d8762edde56dab3d962dd2",
-      "importance": 73.2,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788634686,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788634986
-    },
-    {
-      "region": "RUSSIA",
       "title": "Adobe купила индийский стартап Rilo для AI-агентов - Techora.ru",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcHFhZTBsc0FodmotdFZkamw5dWdxQ3VFRGktNGFMOC1kZk9aVkFSZ2lBYmZ4eDZpenhtMHhSV2JvbkFGczJoTlpJRTZrUkE5UXRUQ3o5MDR3cGF6WWpTcGRNckF6MUxXcjh3R2RDd0pCTjhOaVpYd3lINlBmVHBSMw?oc=5",
       "desc": "Adobe купила индийский стартап Rilo для AI-агентов Techora.ru",
@@ -591,10 +572,29 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788634508,
+      "last_failed_at": 1788634989,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 31,
-      "next_retry_at": 1788656108
+      "failure_count": 32,
+      "next_retry_at": 1788656589
+    },
+    {
+      "region": "RUSSIA",
+      "title": "В НовГУ объяснили вред нейросетей для критического мышления школьников - Новгородские ведомости",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XQjNySnNHa0JiSkpYaFlucVZrdlJoZ3R1aTJmREVXa0QtTzZmRGplNFExNmxUUHhiXzZvN2J5OHVsUUZzWnJSai1pak9oV3h2cDNfc05QUlF1QQ?oc=5",
+      "desc": "В НовГУ объяснили вред нейросетей для критического мышления школьников Новгородские ведомости",
+      "source": "Новгородские ведомости",
+      "time": 1788631200.0,
+      "score": 70.2,
+      "russia_weight_bonus": 4.7,
+      "key": "1ea303ab8ec210bb89b428b7d6dd4f49ac10ea9fb0d8762edde56dab3d962dd2",
+      "importance": 70.2,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "WORLD",
@@ -611,10 +611,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788634508,
+      "last_failed_at": 1788634989,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 10,
-      "next_retry_at": 1788656108
+      "failure_count": 11,
+      "next_retry_at": 1788656589
     },
     {
       "region": "RUSSIA",
@@ -657,27 +657,6 @@
       "next_retry_at": 1788653886
     },
     {
-      "region": "RUSSIA",
-      "title": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды - 24 Канал",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYnl5aVdFWnJFdnFvQjhtZWh5U19RSi1FTWNfcVI3anV4b2xKREkyajAyeG9YMEJHdzNXcUxVSXM5N2NaeEdGSk54SHlkQjVDMDNvVnE4eHpmcV9LMy1DemJyclpGVjZwTDhLSGVNd2lZbzE4WHBzTEJVRjB3VDRxVTRXRW94MEtjdzg5MEV6R1l0ZTdiZ2xJU0dldTI5Qmc1SDJZU0JqbXVoMGRjQ1piSE5zOW5udHfSAbwBQVVfeXFMTXVFU0JTbmt0S1FxUmJlNm1XbDlKREJ3Tzk3cnY5TjhvRnhBcFU5NGpwYjZlUFZETU9MTUs5dkU3N2V5MlItbDNFSGlja0RoRldFSFB0RDQ0TEhHQXhTUFFoYTRsMHNYLW1PbVgxdUtkaXFRQV9JT0c1akZwaGNxUzgtX09uanNod0pkWEtYa0VuYlRDX3lvZWtzdENHYzJHN21tTHFQUHdDY2s3cWRLRU5CTGt6VXVMQUk5blc?oc=5",
-      "desc": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды 24 Канал",
-      "source": "24 Канал",
-      "time": 1788624060.0,
-      "score": 67.7,
-      "russia_weight_bonus": 2.2,
-      "key": "0b461112fa873f396ace12ebbcfa95d992d12fd8f8e56803f8cb9e9c223ffabe",
-      "importance": 67.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788634686,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788634986
-    },
-    {
       "region": "WORLD",
       "title": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts - ednews.africa",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KVS1BU0J1WGgwUzVmbTE0TjBZaFBUY3NtVFdLMlQ2R1hBMlJxVGRPSXNWUzB4TFVZbWlMaHZ6RFpnVGtDa2hyUDRvUVFGT3o2SGNOVzFDN2J1OUhTR01xOTVYRG55Z2lBdml3cDJJaw?oc=5",
@@ -692,10 +671,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788634508,
+      "last_failed_at": 1788634989,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 19,
-      "next_retry_at": 1788656108
+      "failure_count": 20,
+      "next_retry_at": 1788656589
     },
     {
       "region": "RUSSIA",
@@ -773,10 +752,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634508,
+      "last_failed_at": 1788634989,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788656108
+      "failure_count": 24,
+      "next_retry_at": 1788656589
     },
     {
       "region": "WORLD",
@@ -791,10 +770,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634508,
+      "last_failed_at": 1788634989,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 31,
-      "next_retry_at": 1788656108
+      "failure_count": 32,
+      "next_retry_at": 1788656589
     },
     {
       "region": "WORLD",
@@ -809,10 +788,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634508,
+      "last_failed_at": 1788634989,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 31,
-      "next_retry_at": 1788656108
+      "failure_count": 32,
+      "next_retry_at": 1788656589
     },
     {
       "region": "WORLD",
@@ -827,10 +806,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788634508,
+      "last_failed_at": 1788634989,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 41,
-      "next_retry_at": 1788656108
+      "failure_count": 42,
+      "next_retry_at": 1788656589
     },
     {
       "region": "RUSSIA",
@@ -851,14 +830,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788634686.1256237,
+    "last_start_ts": 1788634989.8773537,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788634686.1256237,
-    "last_success_ts": 1788634686.1256237,
+    "last_run_ts": 1788634989.8773537,
+    "last_success_ts": 1788634989.8773537,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 18
+    "queue_size": 17
   },
   "providers": {
     "GEMINI": {
@@ -878,13 +857,6 @@
     }
   },
   "stories": {
-    "8636b5fca928b8b7e16e17bcd30fdcf923fe0acf613b936831b60a4fc3ad69fd": {
-      "time": 1788548480,
-      "title": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? - Kalkine Media",
-      "desc": "NVIDIA (NASDAQ:NVDA): Is Its AI Dominance Facing A New Test? Kalkine Media",
-      "source": "Kalkine Media",
-      "region": "WORLD"
-    },
     "c585e32a8ae3c2d48ae9ff9c488144f8d0d166b9258109f73a333b8a72aad946": {
       "time": 1788549382,
       "title": "Росатом освоил технологию получения ультрачистого германия — для полупроводниковых детекторов - prospect.com.ru",
