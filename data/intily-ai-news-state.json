@@ -461,10 +461,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 11,
-      "next_retry_at": 1788668083
+      "failure_count": 12,
+      "next_retry_at": 1788668144
     },
     {
       "region": "WORLD",
@@ -482,10 +482,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788668083
+      "failure_count": 24,
+      "next_retry_at": 1788668144
     },
     {
       "region": "WORLD",
@@ -503,10 +503,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 11,
-      "next_retry_at": 1788668083
+      "failure_count": 12,
+      "next_retry_at": 1788668144
     },
     {
       "region": "WORLD",
@@ -524,10 +524,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788668083
+      "failure_count": 24,
+      "next_retry_at": 1788668144
     },
     {
       "region": "RUSSIA",
@@ -648,10 +648,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788668083
+      "failure_count": 24,
+      "next_retry_at": 1788668144
     },
     {
       "region": "WORLD",
@@ -668,10 +668,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 88,
-      "next_retry_at": 1788668083
+      "failure_count": 89,
+      "next_retry_at": 1788668144
     },
     {
       "region": "WORLD",
@@ -688,10 +688,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 67,
-      "next_retry_at": 1788668083
+      "failure_count": 68,
+      "next_retry_at": 1788668144
     },
     {
       "region": "WORLD",
@@ -708,10 +708,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 54,
-      "next_retry_at": 1788668083
+      "failure_count": 55,
+      "next_retry_at": 1788668144
     },
     {
       "region": "RUSSIA",
@@ -796,10 +796,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 54,
-      "next_retry_at": 1788668083
+      "failure_count": 55,
+      "next_retry_at": 1788668144
     },
     {
       "region": "WORLD",
@@ -814,18 +814,18 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788646483,
+      "last_failed_at": 1788646544,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 54,
-      "next_retry_at": 1788668083
+      "failure_count": 55,
+      "next_retry_at": 1788668144
     }
   ],
   "health": {
-    "last_start_ts": 1788646483.0871367,
+    "last_start_ts": 1788646544.856858,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788646483.0871367,
-    "last_success_ts": 1788646483.0871367,
+    "last_run_ts": 1788646544.856858,
+    "last_success_ts": 1788646544.856858,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 19
@@ -848,13 +848,6 @@
     }
   },
   "stories": {
-    "f9b5954ce6110c45b5760228a131298a18d6d67738a55d557e315aa27c17bc24": {
-      "time": 1788560122,
-      "title": "Автор OilPrice о влиянии ИИ на работу и человеческое мышление - UA.NEWS",
-      "desc": "Автор OilPrice о влиянии ИИ на работу и человеческое мышление UA.NEWS",
-      "source": "UA.NEWS",
-      "region": "RUSSIA"
-    },
     "b0b67ec6fbe2be50f1e3a4e54c4c34221d0e2e2436fe7960aa22c32fd434d703": {
       "time": 1788560360,
       "title": "Insurers Search for Answers to Rein in Rogue AI - Dark Reading",
