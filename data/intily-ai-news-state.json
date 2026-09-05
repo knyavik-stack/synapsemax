@@ -370,7 +370,8 @@
     "644df3b525ca77e77dce33306f0b56f18c74d9d42fc8d159689dc1b1455bf984": 1788574341,
     "7c73802d3232061b19419a5ce37714c6e7176df33dff7a2b3ecb27955d41d5a9": 1788574736,
     "e09b60566453a7067efb0b2b0a3fe97bc9abd851b9f8d21aef0aaf57b0977f75": 1788575002,
-    "2aae95a84de08071c1a6a2de00c7835643a83b085e69ce509e3461a7ff433af8": 1788575419
+    "2aae95a84de08071c1a6a2de00c7835643a83b085e69ce509e3461a7ff433af8": 1788575419,
+    "f62ba81d899bb70f8dd0fc978f2a399c4ea00ac03de55fd6192ad3c3755bdc0a": 1788575604
   },
   "known": {
     "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555201.4978535,
@@ -448,20 +449,6 @@
     },
     {
       "region": "WORLD",
-      "title": "DYFI all set to launch statewide\nAI training programme ‘Hello2AI’ - The New Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS0pyMkFCcVVFb1c1Q19TVllIOWpWdDhHSW11V3VzX2JleFE1RzZZNXQ2RFNaMl8yeUIxUlRsa1YwMU0yWjZEUS1fbXkzdHA0cTQ1RmNodDV6dFVNZWIxZG96Mlp5c3N4b2tidVFGOGlxbnpFa3VwTkxEdkR1cVhrU2h0blExVFFlMlR2dzhILVE5N3MwdE5ncklnTFdrVmlpRjFpUzlNcF9BdzlrMGdyZTJPWTBOTjV6VndSNjAtNNIBzAFBVV95cUxQWVJKQmlvWW5SeWEwMHl1X0FnNG5OSTZzR3ZDWUJnYXRuVWFBanhQc3RnQlBPMUJKUS1oNGE1N0pZRWhwT0cwLVFPWEs1Q1B3UnBEdE43eE1FUXZpZHFCaDZrS09XQV9INnBDZzZZbDd6Uy1RaV8zYS1uZ1Uxd0w4ZzlNOERyZnI0dmdVRzBpZXBkdkFvVUpGQzN4NHlTcldvT1VxbUpRLU10U0s4Z2ZxQ1dvWWkyc1ZPY3FPaVJ4QkdQOWV3cDMwbEZlbko?oc=5",
-      "desc": "DYFI all set to launch statewide AI training programme ‘Hello2AI’ The New Indian Express",
-      "source": "The New Indian Express",
-      "time": 1788574701.0,
-      "score": 70.5,
-      "key": "f62ba81d899bb70f8dd0fc978f2a399c4ea00ac03de55fd6192ad3c3755bdc0a",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay - Stocktwits",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT09KdTcxbHhTNU14dW11NmxWQ1ppOGV5Y0g5UTJBQzVwdl9jOGFxU1kwQXZUblU3MC1obnNYaXVsU2NRem44M2p4OWVpWUU4VlV2a1JEMTlTSng5dFU1aXd5VnAzb0V2VWN4dS15MUlFMF82TDFQaUtEYldEUll2OGFpUE84LVVRQXJpeXhQSXpldlZ6dXl4Tk50RjVMNnh0aWxuLWlVam0xTVE5RkJRZzlJRnlRZWJzeUdIUEdFTjhQNUNFb3FRb2oyV2pnNGVuZlpDQ0k4SlNIQnBhZFdVSHFR?oc=5",
       "desc": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay Stocktwits",
@@ -511,20 +498,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788575539.6039212,
+    "last_start_ts": 1788575604.3538668,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788575539.6039212,
-    "last_success_ts": 1788575539.6039212,
-    "last_candidates": 33,
-    "last_published": 0,
-    "queue_size": 5
+    "last_run_ts": 1788575604.3538668,
+    "last_success_ts": 1788575604.3538668,
+    "last_candidates": 0,
+    "last_published": 1,
+    "queue_size": 4
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788575425.268937
+      "updated_at": 1788575606.6116414
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2042,6 +2029,13 @@
       "desc": "Is your cybersecurity ready for frontier AI? NTT Data",
       "source": "NTT Data",
       "region": "WORLD"
+    },
+    "f62ba81d899bb70f8dd0fc978f2a399c4ea00ac03de55fd6192ad3c3755bdc0a": {
+      "time": 1788575604,
+      "title": "DYFI all set to launch statewide\nAI training programme ‘Hello2AI’ - The New Indian Express",
+      "desc": "DYFI all set to launch statewide AI training programme ‘Hello2AI’ The New Indian Express",
+      "source": "The New Indian Express",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
@@ -2051,7 +2045,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "RUSSIA",
@@ -2061,11 +2054,12 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788575539.6039212,
-  "last_publish_ts": 1788575419.7543972
+  "last_publish_ts": 1788575604.3538668
 }
