@@ -391,12 +391,6 @@
     "98f4c1d1d28db779fb983fc0fcd9ca4f400ce9c5f1b11aebeb861f20d5b87a2a": 1788622283
   },
   "known": {
-    "65f34bcc7a3d5c7075bc5f958ebf2362ea00f8f2cbb9f0ad5e1f82f44963496c": 1788622047.4913738,
-    "28190a778b0a94446a6aa1cbddfa3880b61ea8eb7c748adc43d478cad11b1878": 1788622047.4913738,
-    "e5016b4e98d88336bc627e8500676d6590824f6a4bdcf66c85dc28f061ff1b63": 1788622047.4913738,
-    "efd444a3307ecb1d7e05797b8a49b088a2590b7ecd905e0b72f5f695289cc3fa": 1788622047.4913738,
-    "80ef25e961b213ad0881f1ffea450dd572361ec89cd6e924f1666a5f4d12a72b": 1788622047.4913738,
-    "086e33eaff1fcbe3463d4e8ca806f56ee3bedf8d82ffaca4a5b2fb32cf762412": 1788622047.4913738,
     "0ec49241e04799dc3f8b07d58b7a378d58b2ee16b3d0beedd73f2c9bfa683ac1": 1788623907.335521,
     "1bd094dfdcd6a7dde15e7d069536dfb2b209c2e029bd7e8c82d8450d7bc9a31e": 1788623907.335521,
     "d78a20f877efd2fe444aa0279c0502213a05a9afed6182b8b42c077ba8bd9ed9": 1788623907.335521,
@@ -473,10 +467,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788643544,
+      "last_failed_at": 1788643723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788643844
+      "failure_count": 2,
+      "next_retry_at": 1788644323
     },
     {
       "region": "WORLD",
@@ -494,10 +488,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788643544,
+      "last_failed_at": 1788643723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788643844
+      "failure_count": 2,
+      "next_retry_at": 1788644323
     },
     {
       "region": "RUSSIA",
@@ -535,10 +529,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788643544,
+      "last_failed_at": 1788643723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 32,
-      "next_retry_at": 1788665144
+      "failure_count": 33,
+      "next_retry_at": 1788665323
     },
     {
       "region": "WORLD",
@@ -553,10 +547,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788643544,
+      "last_failed_at": 1788643723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 32,
-      "next_retry_at": 1788665144
+      "failure_count": 33,
+      "next_retry_at": 1788665323
     },
     {
       "region": "RUSSIA",
@@ -614,10 +608,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788643544,
+      "last_failed_at": 1788643723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788643844
+      "failure_count": 2,
+      "next_retry_at": 1788644323
     },
     {
       "region": "RUSSIA",
@@ -697,10 +691,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788643544,
+      "last_failed_at": 1788643723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 66,
-      "next_retry_at": 1788665144
+      "failure_count": 67,
+      "next_retry_at": 1788665323
     },
     {
       "region": "RUSSIA",
@@ -734,10 +728,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788643544,
+      "last_failed_at": 1788643723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 45,
-      "next_retry_at": 1788665144
+      "failure_count": 46,
+      "next_retry_at": 1788665323
     },
     {
       "region": "WORLD",
@@ -754,10 +748,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788643544,
+      "last_failed_at": 1788643723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 32,
-      "next_retry_at": 1788665144
+      "failure_count": 33,
+      "next_retry_at": 1788665323
     },
     {
       "region": "RUSSIA",
@@ -842,19 +836,19 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788643544,
+      "last_failed_at": 1788643723,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 54,
-      "next_retry_at": 1788665144
+      "failure_count": 55,
+      "next_retry_at": 1788665323
     }
   ],
   "health": {
-    "last_start_ts": 1788643544.9084454,
+    "last_start_ts": 1788643723.9912667,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788643544.9084454,
-    "last_success_ts": 1788643544.9084454,
-    "last_candidates": 29,
+    "last_run_ts": 1788643723.9912667,
+    "last_success_ts": 1788643723.9912667,
+    "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
   },
@@ -876,13 +870,6 @@
     }
   },
   "stories": {
-    "7d6faeafefe7d2aac3709952861c7e7d377ca7bfde620c62d1937a880da2b098": {
-      "time": 1788557179,
-      "title": "Советник Зеленского признал отставание Украины от РФ в ИИ для БПЛА - Techora.ru",
-      "desc": "Советник Зеленского признал отставание Украины от РФ в ИИ для БПЛА Techora.ru",
-      "source": "Techora.ru",
-      "region": "RUSSIA"
-    },
     "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635": {
       "time": 1788557480,
       "title": "Phind AI – Ответы по коду с актуальной документацией - quasa.io",
