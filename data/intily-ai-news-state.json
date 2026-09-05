@@ -519,28 +519,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788637746,
+      "last_failed_at": 1788638467,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788659346
-    },
-    {
-      "region": "WORLD",
-      "title": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 - INDIA New England News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2N2QUNkQkFnODd3Q2FENHVSUERPOGh0b190d3U5RTRaUUFwMFFJWWlFZDNQWEhQM2ljWW44YnJxTVFIdWc4QUljN0pRM05FZ1VUYXNpTUJVZUFiaWo1ZHJyaWRrTlJGU3J3Y0tCMVpoMHlUbXBQWEN1RnVSTDFkbFY0ZWtVWVVwR0gySXJzenUwV0FSYi0zQ253OUxIRXB2eVhN?oc=5",
-      "desc": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 INDIA New England News",
-      "source": "INDIA New England News",
-      "time": 1788634839.0,
-      "score": 70.5,
-      "key": "794772b61d9fe5282d3bcaf0344d0e78f59ca75935995ff0b983bedfcbf18413",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788637746,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788659346
+      "failure_count": 9,
+      "next_retry_at": 1788660067
     },
     {
       "region": "RUSSIA",
@@ -576,10 +558,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788637746,
+      "last_failed_at": 1788638467,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 21,
-      "next_retry_at": 1788659346
+      "failure_count": 22,
+      "next_retry_at": 1788660067
     },
     {
       "region": "RUSSIA",
@@ -604,6 +586,24 @@
     },
     {
       "region": "WORLD",
+      "title": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 - INDIA New England News",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2N2QUNkQkFnODd3Q2FENHVSUERPOGh0b190d3U5RTRaUUFwMFFJWWlFZDNQWEhQM2ljWW44YnJxTVFIdWc4QUljN0pRM05FZ1VUYXNpTUJVZUFiaWo1ZHJyaWRrTlJGU3J3Y0tCMVpoMHlUbXBQWEN1RnVSTDFkbFY0ZWtVWVVwR0gySXJzenUwV0FSYi0zQ253OUxIRXB2eVhN?oc=5",
+      "desc": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 INDIA New England News",
+      "source": "INDIA New England News",
+      "time": 1788634839.0,
+      "score": 67.5,
+      "key": "794772b61d9fe5282d3bcaf0344d0e78f59ca75935995ff0b983bedfcbf18413",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788638467,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 9,
+      "next_retry_at": 1788660067
+    },
+    {
+      "region": "WORLD",
       "title": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts - ednews.africa",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KVS1BU0J1WGgwUzVmbTE0TjBZaFBUY3NtVFdLMlQ2R1hBMlJxVGRPSXNWUzB4TFVZbWlMaHZ6RFpnVGtDa2hyUDRvUVFGT3o2SGNOVzFDN2J1OUhTR01xOTVYRG55Z2lBdml3cDJJaw?oc=5",
       "desc": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts ednews.africa",
@@ -617,10 +617,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788637746,
+      "last_failed_at": 1788638467,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 30,
-      "next_retry_at": 1788659346
+      "failure_count": 31,
+      "next_retry_at": 1788660067
     },
     {
       "region": "RUSSIA",
@@ -720,10 +720,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788637746,
+      "last_failed_at": 1788638467,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788638346
+      "failure_count": 3,
+      "next_retry_at": 1788639667
     },
     {
       "region": "WORLD",
@@ -738,10 +738,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788637746,
+      "last_failed_at": 1788638467,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788659346
+      "failure_count": 9,
+      "next_retry_at": 1788660067
     },
     {
       "region": "WORLD",
@@ -756,10 +756,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788637746,
+      "last_failed_at": 1788638467,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 34,
-      "next_retry_at": 1788659346
+      "failure_count": 35,
+      "next_retry_at": 1788660067
     },
     {
       "region": "RUSSIA",
@@ -797,10 +797,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788637746,
+      "last_failed_at": 1788638467,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 42,
-      "next_retry_at": 1788659346
+      "failure_count": 43,
+      "next_retry_at": 1788660067
     },
     {
       "region": "RUSSIA",
@@ -834,10 +834,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788637746,
+      "last_failed_at": 1788638467,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788659346
+      "failure_count": 9,
+      "next_retry_at": 1788660067
     },
     {
       "region": "WORLD",
@@ -854,10 +854,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788637746,
+      "last_failed_at": 1788638467,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788638346
+      "failure_count": 3,
+      "next_retry_at": 1788639667
     },
     {
       "region": "RUSSIA",
@@ -878,11 +878,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788637746.7163594,
+    "last_start_ts": 1788638467.1492693,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788637746.7163594,
-    "last_success_ts": 1788637746.7163594,
+    "last_run_ts": 1788638467.1492693,
+    "last_success_ts": 1788638467.1492693,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 19
@@ -905,27 +905,6 @@
     }
   },
   "stories": {
-    "1dc713f2fa06ef0bd1bbd6f85277acbe02bb55f236a324888cbd1f8852ae4fba": {
-      "time": 1788551422,
-      "title": "Nvidia acquires leading AI platform - AzerNews",
-      "desc": "Nvidia acquires leading AI platform AzerNews",
-      "source": "AzerNews",
-      "region": "WORLD"
-    },
-    "00871aa436f4e32ca1e0878b8ae1ea3899b9ec344b76910317a16981fe588605": {
-      "time": 1788551662,
-      "title": "Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack - Substack",
-      "desc": "Claude Fable 5.1, GPT-6 Astra, and the New AI Model Stack Substack",
-      "source": "Substack",
-      "region": "WORLD"
-    },
-    "c29752779ecc1c81fe831e55d321fe6edca2f48a08cfb7f56d266b56ff18bb48": {
-      "time": 1788551902,
-      "title": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры - CNews.ru",
-      "desc": "Среди российских компаний растет спрос на ИИ‑агентов для защиты инфраструктуры CNews.ru",
-      "source": "CNews.ru",
-      "region": "RUSSIA"
-    },
     "be79a3218eab8489f7475c2e9f7f3e2406ceaf88f64dee0d42a2b80dd2670cad": {
       "time": 1788552141,
       "title": "How Will AI and Autonomous Supply Chains Transform Logistics by 2030? - BBN Times",
