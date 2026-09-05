@@ -502,11 +502,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788574399.8303742,
+    "last_start_ts": 1788574462.2928975,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788574399.8303742,
-    "last_success_ts": 1788574399.8303742,
+    "last_run_ts": 1788574462.2928975,
+    "last_success_ts": 1788574462.2928975,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 4
