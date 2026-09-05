@@ -463,25 +463,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNZWEVEdW9ZUElwS1pHRjdrenI2N2QxcTNuUERNSnZ3a3lFOVhyTU1lOEJsaWxudDZQWGdPLUhqUzdkVHQzYnZyalZFcWpjY2pnRDBGdnNSM3VyMzhRdGI1bFNPcXFQeWxZQmpHYW5VWUk1UHVwSEVybUMzbmhyMmFhZFkzMG53SkRCN0Z1UEl1VGR1RUZxanlfTDFQXzJPeFhR?oc=5",
-      "desc": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788620545.0,
-      "score": 73.1,
-      "russia_weight_bonus": 4.6,
-      "key": "65f34bcc7a3d5c7075bc5f958ebf2362ea00f8f2cbb9f0ad5e1f82f44963496c",
-      "importance": 73.1,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
-      "region": "RUSSIA",
       "title": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVVlTS3ZUM2c1NkFnYUFOYVVPLXZ3alRzbUF1SFQ4bmRLem1keDNlVFJ0NFV3MHVIQWNuODFXc0k2c3pqVnVKOER0cExqTU5LdjZfSi1NWTc4bndZQ0ZBQVJ1LURhelRtUWVIVkxjT0prLV9jRF9CTndzTUtmRXFsVld6em5UbDBOdG9ONVoyaEJqcHZTd3hsM1p5YzVIUVEtOXRsbjRWUDNPelVIYVY2RFdzUTB6OUs3YS1UNy1RbXVaVU1jaGRVTjQzM2NPWEE?oc=5",
       "desc": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения prospect.com.ru",
@@ -537,10 +518,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624084,
+      "last_failed_at": 1788624206,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788624684
+      "failure_count": 3,
+      "next_retry_at": 1788625406
     },
     {
       "region": "WORLD",
@@ -558,10 +539,29 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788624084,
+      "last_failed_at": 1788624206,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788624684
+      "failure_count": 3,
+      "next_retry_at": 1788625406
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNZWEVEdW9ZUElwS1pHRjdrenI2N2QxcTNuUERNSnZ3a3lFOVhyTU1lOEJsaWxudDZQWGdPLUhqUzdkVHQzYnZyalZFcWpjY2pnRDBGdnNSM3VyMzhRdGI1bFNPcXFQeWxZQmpHYW5VWUk1UHVwSEVybUMzbmhyMmFhZFkzMG53SkRCN0Z1UEl1VGR1RUZxanlfTDFQXzJPeFhR?oc=5",
+      "desc": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788620545.0,
+      "score": 70.1,
+      "russia_weight_bonus": 4.6,
+      "key": "65f34bcc7a3d5c7075bc5f958ebf2362ea00f8f2cbb9f0ad5e1f82f44963496c",
+      "importance": 70.1,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788623846,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 6,
+      "next_retry_at": 1788633446
     },
     {
       "region": "RUSSIA",
@@ -599,10 +599,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788624084,
+      "last_failed_at": 1788624206,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788624684
+      "failure_count": 3,
+      "next_retry_at": 1788625406
     },
     {
       "region": "RUSSIA",
@@ -657,10 +657,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788624084,
+      "last_failed_at": 1788624206,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788624684
+      "failure_count": 3,
+      "next_retry_at": 1788625406
     },
     {
       "region": "WORLD",
@@ -677,10 +677,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788624084,
+      "last_failed_at": 1788624206,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788624684
+      "failure_count": 3,
+      "next_retry_at": 1788625406
     },
     {
       "region": "WORLD",
@@ -697,10 +697,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624084,
+      "last_failed_at": 1788624206,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788624684
+      "failure_count": 3,
+      "next_retry_at": 1788625406
     },
     {
       "region": "WORLD",
@@ -717,10 +717,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788624084,
+      "last_failed_at": 1788624206,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788624684
+      "failure_count": 3,
+      "next_retry_at": 1788625406
     },
     {
       "region": "WORLD",
@@ -735,10 +735,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788624084,
+      "last_failed_at": 1788624206,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788624684
+      "failure_count": 3,
+      "next_retry_at": 1788625406
     },
     {
       "region": "RUSSIA",
@@ -852,11 +852,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788624084.539065,
+    "last_start_ts": 1788624206.1795337,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788624084.539065,
-    "last_success_ts": 1788624084.539065,
+    "last_run_ts": 1788624206.1795337,
+    "last_success_ts": 1788624206.1795337,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
