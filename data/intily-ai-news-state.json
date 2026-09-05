@@ -536,10 +536,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788636188,
+      "last_failed_at": 1788636847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788638588
+      "failure_count": 5,
+      "next_retry_at": 1788641647
     },
     {
       "region": "WORLD",
@@ -554,30 +554,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636188,
+      "last_failed_at": 1788636847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788638588
-    },
-    {
-      "region": "WORLD",
-      "title": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work - AI Insider",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONG0xZHRoTGJmcEc2Z3hqUkpkM3ZPNEF2ajRFYll3UmNDMGdvTjJVY0d1NUM5bFpnUnVGZ3pnblJEeEk5V1FONW8yLWs1R2liRUpGSnhvWS1uVjVhdU5QMldXQXowZXM0VDRDN2hWRjcxcXFoZFNKSGhKOC1YQjIxUHF5Tm9INExsMmx2ZXdRSHdHQmVYUV9MOUZtQWoxQW1kRVB4UXJGT0t3TlNOYkE3S25lUUFLd2M?oc=5",
-      "desc": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work AI Insider",
-      "source": "AI Insider",
-      "time": 1788625574.0,
-      "score": 70.5,
-      "key": "dd0a00da399ffb806db1bbaa93ec3842e76e3b652476c7ab39c5d02a93b5dab9",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "tools"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788636188,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 38,
-      "next_retry_at": 1788657788
+      "failure_count": 5,
+      "next_retry_at": 1788641647
     },
     {
       "region": "RUSSIA",
@@ -613,49 +593,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788636188,
+      "last_failed_at": 1788636847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 17,
-      "next_retry_at": 1788657788
-    },
-    {
-      "region": "WORLD",
-      "title": "Is Gartner’s (IT) Profitability Boost Masking a Deeper Challenge in Enterprise AI Adoption? - simplywall.st",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdEl5MVIzWEk3dTdMS2J3UTl0blZZV3FZekFaOGs5NkZsc0pvWlRnMTdfWFZFbFJiODVBa3VHeWIxVmIwd1ZmMkU3VzM3ZE5RY2E1dHdzV1Y1a29jY0w5NnJxcVF0UDN5UUdXSUFLa3o5RnNncEx6YWhhQVFoajQxOTRxWEt3OGstanRhak85a1Q0Y2ZjUEVfcDBfVE1NMXJYc1hPMTRlWHZGQVIwRUkyTnhxS0dLY1hwT2IwdUZhQ3hjRUhv0gHEAUFVX3lxTE10SXkxUjNYSTd1N0xLYndROXRuVllXcVl6QVo4azk2RmxzSm9aVGcxN19YVkVsUmI4NUFrdUd5YjFWYjB3VmYyRTdXMzdkTlFjYTV0d3NXVjVrb2NjTDk2cnFxUXRQM3lRR1dJQUtrejlGc2dwTHphaGFBUWhqNDE5NHFYS3c4ay1qdGFqTzlrVDRjZmNQRV9wMF9UTU0xclhzWE8xNGVYdkZBUjBFSTJOeHFLR0tjWHBPYjB1RmFDeGNFSG8?oc=5",
-      "desc": "Is Gartner’s (IT) Profitability Boost Masking a Deeper Challenge in Enterprise AI Adoption? simplywall.st",
-      "source": "simplywall.st",
-      "time": 1788625911.0,
-      "score": 69.5,
-      "key": "e37c6e857e86f9eaabb06bb2c927f5c07f63f580734dad1f0879149b6cbf0eec",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788636188,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788638588
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Голос уже не гарантирует подлинность: мошенники активно используют нейросети - АБН24",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNel9IRFhXZ3ItZnhoYzJ5U1NhYmVBWnhqLWZvTmdSanJla2VWZGU5dTk0bnJPUUFacmxUUzBBSHlIVWNBa0xqRER5ejdOcVBUWThpTW5TSXV5bkVGQzFYUUl3WURCSUlvRlBReEVEN19QU19mY01OR2ppaFpRcGkyWDFUcjdkd0k4aG5hY2pDd1RtMlI3U0RFeGVzc2VxanBDZFFhdTdNWVJuQzlU?oc=5",
-      "desc": "Голос уже не гарантирует подлинность: мошенники активно используют нейросети АБН24",
-      "source": "АБН24",
-      "time": 1788625881.0,
-      "score": 68.3,
-      "russia_weight_bonus": 2.8,
-      "key": "97f55c4a378e01d0bcbb8f82c5e8154c14fb518e308c084311d93159c09f703f",
-      "importance": 68.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788634686,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788634986
+      "failure_count": 18,
+      "next_retry_at": 1788658447
     },
     {
       "region": "RUSSIA",
@@ -693,10 +634,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788636188,
+      "last_failed_at": 1788636847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 26,
-      "next_retry_at": 1788657788
+      "failure_count": 27,
+      "next_retry_at": 1788658447
     },
     {
       "region": "RUSSIA",
@@ -763,27 +704,6 @@
       "next_retry_at": 1788653886
     },
     {
-      "region": "RUSSIA",
-      "title": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии - ВФокусе Mail",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORHc5OGRJVjV3NTFFOXVQdWY3Q1dGUG0ySGdianUxUXBwNF8xQmVOa3pEZHd6cjdHS3M0Z3hVajhsNkpLQnR5MmMtZF9yZldNNUVYRjA3bEc4dF9kTmtWZUkyZXQzaUROLVJOOGNIV3l4Rll5S1BmWVlJRUhWN0lCOGt1bnFFaFQ1cnNMYklDbEJLa1Z2aEhBYmYwUnlncDJJLUdxeVZYTlE4LUI4aHJEX1ZZblhKXzVSYWRDdVotTUszQQ?oc=5",
-      "desc": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии ВФокусе Mail",
-      "source": "ВФокусе Mail",
-      "time": 1788614652.0,
-      "score": 63.6,
-      "russia_weight_bonus": 4.6,
-      "key": "f2ad176f86ea3db2842ee87216e9722316f88d1015c5bff9d3a68a056acbb6ba",
-      "importance": 63.6,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788634686,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788634986
-    },
-    {
       "region": "WORLD",
       "title": "AI Week in Review 26.09.05 - Substack",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40aEV5VGNMYmo2V1Bqb2xvLUlMYi1RRVlaZVdOTElxcDg0bDJ3LVBpNUdyREJEZEw1MnlMODlwVEgweXRpT0Vqd1JHZzluQmR3LTlmaG0tZTQxLUhtZWNhbld1cjQxOGMwcVVTdmJB?oc=5",
@@ -796,10 +716,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636188,
+      "last_failed_at": 1788636847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788638588
+      "failure_count": 5,
+      "next_retry_at": 1788641647
     },
     {
       "region": "WORLD",
@@ -814,10 +734,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636188,
+      "last_failed_at": 1788636847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 30,
-      "next_retry_at": 1788657788
+      "failure_count": 31,
+      "next_retry_at": 1788658447
     },
     {
       "region": "WORLD",
@@ -832,10 +752,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636188,
+      "last_failed_at": 1788636847,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 38,
-      "next_retry_at": 1788657788
+      "failure_count": 39,
+      "next_retry_at": 1788658447
     },
     {
       "region": "RUSSIA",
@@ -859,6 +779,26 @@
       "next_retry_at": 1788634986
     },
     {
+      "region": "WORLD",
+      "title": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work - AI Insider",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONG0xZHRoTGJmcEc2Z3hqUkpkM3ZPNEF2ajRFYll3UmNDMGdvTjJVY0d1NUM5bFpnUnVGZ3pnblJEeEk5V1FONW8yLWs1R2liRUpGSnhvWS1uVjVhdU5QMldXQXowZXM0VDRDN2hWRjcxcXFoZFNKSGhKOC1YQjIxUHF5Tm9INExsMmx2ZXdRSHdHQmVYUV9MOUZtQWoxQW1kRVB4UXJGT0t3TlNOYkE3S25lUUFLd2M?oc=5",
+      "desc": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work AI Insider",
+      "source": "AI Insider",
+      "time": 1788625574.0,
+      "score": 63.0,
+      "key": "dd0a00da399ffb806db1bbaa93ec3842e76e3b652476c7ab39c5d02a93b5dab9",
+      "importance": 63.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "tools"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788636847,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 39,
+      "next_retry_at": 1788658447
+    },
+    {
       "region": "RUSSIA",
       "title": "Нейросети в подборе персонала: 10 инструментов для HR — от скрининга резюме до онбординга - VC.ru",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ29xdnRfdU9xaE5fMmdFMHBPMTI2TVJyRk1oN3RZRXU0Tm5jS2hPM013Vk5ya180OVdLeVB6LWExMndJQWMtNXFFbWxkWjJNaVM5Wm1DTExHTnhoY19kbkZsaHNsTkxuaTE1ZFFtNHBoY1JKNTQ5V3ktMS11TTJ0NzB3VXhFVm9ILW1LZDFoTVMxYkF1RVZ4MlVn?oc=5",
@@ -874,6 +814,26 @@
         "tools"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Is Gartner’s (IT) Profitability Boost Masking a Deeper Challenge in Enterprise AI Adoption? - simplywall.st",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdEl5MVIzWEk3dTdMS2J3UTl0blZZV3FZekFaOGs5NkZsc0pvWlRnMTdfWFZFbFJiODVBa3VHeWIxVmIwd1ZmMkU3VzM3ZE5RY2E1dHdzV1Y1a29jY0w5NnJxcVF0UDN5UUdXSUFLa3o5RnNncEx6YWhhQVFoajQxOTRxWEt3OGstanRhak85a1Q0Y2ZjUEVfcDBfVE1NMXJYc1hPMTRlWHZGQVIwRUkyTnhxS0dLY1hwT2IwdUZhQ3hjRUhv0gHEAUFVX3lxTE10SXkxUjNYSTd1N0xLYndROXRuVllXcVl6QVo4azk2RmxzSm9aVGcxN19YVkVsUmI4NUFrdUd5YjFWYjB3VmYyRTdXMzdkTlFjYTV0d3NXVjVrb2NjTDk2cnFxUXRQM3lRR1dJQUtrejlGc2dwTHphaGFBUWhqNDE5NHFYS3c4ay1qdGFqTzlrVDRjZmNQRV9wMF9UTU0xclhzWE8xNGVYdkZBUjBFSTJOeHFLR0tjWHBPYjB1RmFDeGNFSG8?oc=5",
+      "desc": "Is Gartner’s (IT) Profitability Boost Masking a Deeper Challenge in Enterprise AI Adoption? simplywall.st",
+      "source": "simplywall.st",
+      "time": 1788625911.0,
+      "score": 62.0,
+      "key": "e37c6e857e86f9eaabb06bb2c927f5c07f63f580734dad1f0879149b6cbf0eec",
+      "importance": 62.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788636847,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 5,
+      "next_retry_at": 1788641647
     },
     {
       "region": "RUSSIA",
@@ -894,14 +854,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788636188.0713367,
+    "last_start_ts": 1788636847.0403113,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788636188.0713367,
-    "last_success_ts": 1788636188.0713367,
+    "last_run_ts": 1788636847.0403113,
+    "last_success_ts": 1788636847.0403113,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 20
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
@@ -921,13 +881,6 @@
     }
   },
   "stories": {
-    "4169b853b359bb1df3cba879e109428eb7eb59e2a0daeec1085982ca60b691ee": {
-      "time": 1788550101,
-      "title": "NVIDIA выпустила софт для локальной работы с ИИ - prospect.com.ru",
-      "desc": "NVIDIA выпустила софт для локальной работы с ИИ prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "cc3554c9d3b9bfdf7946b495c97f09333de3087e36eb88b3091ce52fd9c09241": {
       "time": 1788550461,
       "title": "Researchers Document OpenAI Agent Swarm That Repurposed German Wiki - Unite.AI",
