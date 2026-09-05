@@ -578,10 +578,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788626068,
+      "last_failed_at": 1788626245,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788647668
+      "failure_count": 13,
+      "next_retry_at": 1788647845
     },
     {
       "region": "RUSSIA",
@@ -624,45 +624,6 @@
       "next_retry_at": 1788633446
     },
     {
-      "region": "WORLD",
-      "title": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation - IBTimes India",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQmJuT1NXbjhDaS1NZl9jVC1xd3dlZVV5ZHEyV0xhcFVsSFM1dnpKYlFDeGhobUU3bmw4V003UnByYzVzVGFscFdBYm81YVd4a1NvZHkydmtVUWtySDF5NnlFM0dmQmR2MmhMMkNiT3dlY0F2b2dXR0VUS1M0VEJ1RjNUaUFNRHlGZmctNE0wWi1FQmRmb1pta2tRMFAyOEs2SWJkQkdOalZsTHFld3Q1c2lUeF9jVjlz?oc=5",
-      "desc": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation IBTimes India",
-      "source": "IBTimes India",
-      "time": 1788622557.0,
-      "score": 69.5,
-      "key": "1bd094dfdcd6a7dde15e7d069536dfb2b209c2e029bd7e8c82d8450d7bc9a31e",
-      "importance": 69.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788626068,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788647668
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Нейросеть будет помогать выносить решения российким судам - Life.ru",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtX2JCWUw5bFloSGF2NmpiVzNiRGNhV3RYZnJCZzd0c2FTX2dHMXNFTFNfSVNUNjJ2MzdOYXIxRTdDaGxDSlhxaWN3OXlSbEctTmlvWGJlSm9QOEpNMUNpcGExR1NtUGJETUN4ZllXY1JTSnhVQWF5Y3NIWVptUHc?oc=5",
-      "desc": "Нейросеть будет помогать выносить решения российким судам Life.ru",
-      "source": "Life.ru",
-      "time": 1788615277.0,
-      "score": 69.2,
-      "russia_weight_bonus": 3.7,
-      "key": "28190a778b0a94446a6aa1cbddfa3880b61ea8eb7c748adc43d478cad11b1878",
-      "importance": 69.2,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
       "region": "RUSSIA",
       "title": "Вместо кешбэка и бесплатного Wi-Fi: в Китае начали повсюду раздавать ИИ-токены - 3DNews",
       "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBSdk1mNjFfajdRQnhRX3k4aTFXVV96TFEzODVHcGttSXpwU0o3Znk4SEplXzFTUmhuYm02LURR0gGrAUFVX3lxTE8tUG9ack14VU9hbktQWlMxQ29yM1pOanZMbkxIUEgwdWJYMUxYbmE4MlZrWVZyTi0zeHJiaTA5UXRoOXVjRmFSSjhHME8tcW1YX1MtT1NjcWhhQklhRUw5UktQZ2RHZ3hjbms4b3RFa3Y2bmFoWHlnczFIaUFJQmpHbkFfcnJKS0JZdzByNVR3VVZrajJZYUVKc09ORmZLbnBRUjdacFhJa1d5MA?oc=5",
@@ -696,10 +657,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788626068,
+      "last_failed_at": 1788626245,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788647668
+      "failure_count": 13,
+      "next_retry_at": 1788647845
     },
     {
       "region": "WORLD",
@@ -716,10 +677,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788626068,
+      "last_failed_at": 1788626245,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788647668
+      "failure_count": 13,
+      "next_retry_at": 1788647845
     },
     {
       "region": "WORLD",
@@ -736,10 +697,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788626068,
+      "last_failed_at": 1788626245,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788647668
+      "failure_count": 13,
+      "next_retry_at": 1788647845
     },
     {
       "region": "WORLD",
@@ -756,10 +717,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788626068,
+      "last_failed_at": 1788626245,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788647668
+      "failure_count": 13,
+      "next_retry_at": 1788647845
     },
     {
       "region": "WORLD",
@@ -776,10 +737,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788626068,
+      "last_failed_at": 1788626245,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 12,
-      "next_retry_at": 1788647668
+      "failure_count": 13,
+      "next_retry_at": 1788647845
     },
     {
       "region": "WORLD",
@@ -794,10 +755,30 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788626068,
+      "last_failed_at": 1788626245,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788627268
+      "failure_count": 4,
+      "next_retry_at": 1788628645
+    },
+    {
+      "region": "WORLD",
+      "title": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation - IBTimes India",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQmJuT1NXbjhDaS1NZl9jVC1xd3dlZVV5ZHEyV0xhcFVsSFM1dnpKYlFDeGhobUU3bmw4V003UnByYzVzVGFscFdBYm81YVd4a1NvZHkydmtVUWtySDF5NnlFM0dmQmR2MmhMMkNiT3dlY0F2b2dXR0VUS1M0VEJ1RjNUaUFNRHlGZmctNE0wWi1FQmRmb1pta2tRMFAyOEs2SWJkQkdOalZsTHFld3Q1c2lUeF9jVjlz?oc=5",
+      "desc": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation IBTimes India",
+      "source": "IBTimes India",
+      "time": 1788622557.0,
+      "score": 66.5,
+      "key": "1bd094dfdcd6a7dde15e7d069536dfb2b209c2e029bd7e8c82d8450d7bc9a31e",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788626245,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 13,
+      "next_retry_at": 1788647845
     },
     {
       "region": "RUSSIA",
@@ -862,14 +843,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788626068.704761,
+    "last_start_ts": 1788626245.6314783,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788626068.704761,
-    "last_success_ts": 1788626068.704761,
+    "last_run_ts": 1788626245.6314783,
+    "last_success_ts": 1788626245.6314783,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 20
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
@@ -889,13 +870,6 @@
     }
   },
   "stories": {
-    "0e0e31ffc22483dcf4b6c522f6d119c19845360b273ce256fd697112ff34f844": {
-      "time": 1788539781,
-      "title": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ - Runet.news",
-      "desc": "NYT рассказала о «менталитете толпы» у вышедшего из-под контроля ИИ Runet.news",
-      "source": "Runet.news",
-      "region": "RUSSIA"
-    },
     "22be505db0d05b7a90dcbfc873003ea041e2b964741efbc4a71a728202856879": {
       "time": 1788540022,
       "title": "Check Point expands OpenAI Daybreak use in security - IT Brief Asia",
