@@ -758,13 +758,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788620235.9616497,
+    "last_start_ts": 1788620309.6726482,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788620235.9616497,
-    "last_success_ts": 1788620235.9616497,
-    "last_candidates": 57,
-    "last_published": 1,
+    "last_run_ts": 1788620309.6726482,
+    "last_success_ts": 1788620309.6726482,
+    "last_candidates": 0,
+    "last_published": 0,
     "queue_size": 19
   },
   "providers": {
@@ -785,13 +785,6 @@
     }
   },
   "stories": {
-    "a1d2cc70eac08316cfcea7b909f2229eb326f9a3db682ba5705a679eac557344": {
-      "time": 1788533840,
-      "title": "Anthropic Makes Stunning $15 Billion Move Before IPO - TradingView",
-      "desc": "Anthropic Makes Stunning $15 Billion Move Before IPO TradingView",
-      "source": "TradingView",
-      "region": "WORLD"
-    },
     "7c74a8361aab0e3a2e4ff3fc6ccba0196c06d2adec6396eb9c1cd09d6a5c6e3d": {
       "time": 1788534140,
       "title": "Как сэкономить 2 580 часов в год на подготовке сметы в ремонтной компании с помощью Битрикс24 и нейросетей - VC.ru",
