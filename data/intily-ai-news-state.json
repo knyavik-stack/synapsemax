@@ -561,10 +561,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788641262,
+      "last_failed_at": 1788641622,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 21,
-      "next_retry_at": 1788662862
+      "failure_count": 22,
+      "next_retry_at": 1788663222
     },
     {
       "region": "WORLD",
@@ -579,30 +579,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788641262,
+      "last_failed_at": 1788641622,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 21,
-      "next_retry_at": 1788662862
-    },
-    {
-      "region": "WORLD",
-      "title": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts - ednews.africa",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KVS1BU0J1WGgwUzVmbTE0TjBZaFBUY3NtVFdLMlQ2R1hBMlJxVGRPSXNWUzB4TFVZbWlMaHZ6RFpnVGtDa2hyUDRvUVFGT3o2SGNOVzFDN2J1OUhTR01xOTVYRG55Z2lBdml3cDJJaw?oc=5",
-      "desc": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts ednews.africa",
-      "source": "ednews.africa",
-      "time": 1788630614.0,
-      "score": 67.5,
-      "key": "818a13c78713b132d49f0b50c9072b6d0cd18a8eac538280fcbc5473cbf7ac6d",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "research"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788641262,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 43,
-      "next_retry_at": 1788662862
+      "failure_count": 22,
+      "next_retry_at": 1788663222
     },
     {
       "region": "RUSSIA",
@@ -702,10 +682,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788641262,
+      "last_failed_at": 1788641622,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788662862
+      "failure_count": 16,
+      "next_retry_at": 1788663222
     },
     {
       "region": "RUSSIA",
@@ -743,10 +723,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788641262,
+      "last_failed_at": 1788641622,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 55,
-      "next_retry_at": 1788662862
+      "failure_count": 56,
+      "next_retry_at": 1788663222
     },
     {
       "region": "RUSSIA",
@@ -780,10 +760,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788641262,
+      "last_failed_at": 1788641622,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 34,
-      "next_retry_at": 1788662862
+      "failure_count": 35,
+      "next_retry_at": 1788663222
     },
     {
       "region": "WORLD",
@@ -800,30 +780,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788641262,
+      "last_failed_at": 1788641622,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 21,
-      "next_retry_at": 1788662862
-    },
-    {
-      "region": "WORLD",
-      "title": "Bihar's Education Overhaul: AI Integration and New Institutions Announced - devdiscourse.com",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWS0wdS02aXV5VGhUZEpUMzdHWEx2MGxfRFNOMFgtNmZIUHRYWHVsYVNRaElOYUVDUDhWT29kUmg0ckxEUWhIbXVwZktPc0MwLU9sVWVDWmFncDJackQ1VEw2ekFOeGhTSDRxaTNfTDlmZHpOOHJYV2lEX0JWRS10WU5TbWVYa1Nfdl9BeVp4elk5WWRFU3czSC1aNzNyWnp2MWVFeGJKc182TE1wS1JSMmNuZWpoVVFnR1hQaXF3dHk4WjU4eFRmbtIByAFBVV95cUxOWS0wdS02aXV5VGhUZEpUMzdHWEx2MGxfRFNOMFgtNmZIUHRYWHVsYVNRaElOYUVDUDhWT29kUmg0ckxEUWhIbXVwZktPc0MwLU9sVWVDWmFncDJackQ1VEw2ekFOeGhTSDRxaTNfTDlmZHpOOHJYV2lEX0JWRS10WU5TbWVYa1Nfdl9BeVp4elk5WWRFU3czSC1aNzNyWnp2MWVFeGJKc182TE1wS1JSMmNuZWpoVVFnR1hQaXF3dHk4WjU4eFRmbg?oc=5",
-      "desc": "Bihar's Education Overhaul: AI Integration and New Institutions Announced devdiscourse.com",
-      "source": "devdiscourse.com",
-      "time": 1788619746.0,
-      "score": 62.0,
-      "key": "94b61390f19d3414592066617159bcf89e5c01433a8eb6509b81c9c4ffb97424",
-      "importance": 62.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788641262,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788662862
+      "failure_count": 22,
+      "next_retry_at": 1788663222
     },
     {
       "region": "RUSSIA",
@@ -844,6 +804,26 @@
     },
     {
       "region": "WORLD",
+      "title": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts - ednews.africa",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KVS1BU0J1WGgwUzVmbTE0TjBZaFBUY3NtVFdLMlQ2R1hBMlJxVGRPSXNWUzB4TFVZbWlMaHZ6RFpnVGtDa2hyUDRvUVFGT3o2SGNOVzFDN2J1OUhTR01xOTVYRG55Z2lBdml3cDJJaw?oc=5",
+      "desc": "Machine Learning Breakthrough from UP PhD Graduate Promises More Accurate Construction Cost Forecasts ednews.africa",
+      "source": "ednews.africa",
+      "time": 1788630614.0,
+      "score": 60.0,
+      "key": "818a13c78713b132d49f0b50c9072b6d0cd18a8eac538280fcbc5473cbf7ac6d",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "research"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788641622,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 44,
+      "next_retry_at": 1788663222
+    },
+    {
+      "region": "WORLD",
       "title": "OpenAI launches GPT-6 Astra, the AI model built to do more than answer questions - The Indian Express",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSmZCNl9FQ0RXNmJTemhxVmxOdFV2TFJ1bGN3TUdTeGpiN3QwRUNVbUNJRjBqY2NCQVFuNEdUNzRqT2hQTTVsQkliZHFNemdKRC1kYVBWRkotaXRIRWhWNVR2U3pSRTlHbERRVkl3aV9MSUJGNmp4cHdQU09rak5LTjZCMU05Z3A3b1hKajU4UzJ1RXhZb19JYjltZEFBSzFiMWJFSkRQRmFZdFZ2X0NSbEZFb0V2aUJUb01DMkV1QXnSAccBQVVfeXFMT1FqNzYtOVVoTnZ4c2tjT09fRl9SeE9MMFZrUllzdVA2NVBpcUE4VjE5YjJfTElzR1Z1WDdvSzhPT0NWQ1JaVHE2YnpleUFjMTB4LTlUNndsN2cwOVdqTERSeElMaDYyQl80VEJub1FTU1VoNld1TTZjaUdIOXkzQUhzMzJxckhVS0pHWHVfVzdCR29BbENOUUpCQm9BM25FZVkyYTFYZmxUdXhrQ3c4eXNldWdUUVZMeV9Rc0tLTHpFTEYzcWFMTQ?oc=5",
       "desc": "OpenAI launches GPT-6 Astra, the AI model built to do more than answer questions The Indian Express",
@@ -857,10 +837,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788641262,
+      "last_failed_at": 1788641622,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788650862
+      "failure_count": 7,
+      "next_retry_at": 1788660822
     },
     {
       "region": "WORLD",
@@ -878,21 +858,21 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788641262,
+      "last_failed_at": 1788641622,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 2,
-      "next_retry_at": 1788641862
+      "failure_count": 3,
+      "next_retry_at": 1788642822
     }
   ],
   "health": {
-    "last_start_ts": 1788641262.0871935,
+    "last_start_ts": 1788641622.3253975,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788641262.0871935,
-    "last_success_ts": 1788641262.0871935,
-    "last_candidates": 0,
+    "last_run_ts": 1788641622.3253975,
+    "last_success_ts": 1788641622.3253975,
+    "last_candidates": 30,
     "last_published": 0,
-    "queue_size": 19
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
@@ -912,13 +892,6 @@
     }
   },
   "stories": {
-    "3f9e7dc92e8f6fc2d784b6da32b05c541b6495951c1b8ad141b1cb48712164b7": {
-      "time": 1788555201,
-      "title": "Accrual To Acquire Puzzle To Expand AI Platform Into Client Accounting Services - Pulse 2.0",
-      "desc": "Accrual To Acquire Puzzle To Expand AI Platform Into Client Accounting Services Pulse 2.0",
-      "source": "Pulse 2.0",
-      "region": "WORLD"
-    },
     "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": {
       "time": 1788555683,
       "title": "Можно скачать сто промптов бесплатно. Зачем руководителю тогда курс по ИИ для бизнеса? - vc.ru",
@@ -1376,6 +1349,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788639545.8335474,
+  "last_search_ts": 1788641622.3253975,
   "last_publish_ts": 1788622283.4029808
 }
