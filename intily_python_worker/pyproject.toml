@@ -1,0 +1,11 @@
+[project]
+name = "intily-ai-news-worker"
+version = "0.1.0"
+description = "INTILY Telegram AI news publisher on Cloudflare Python Workers"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "workers-py>=1.17",
+]
