@@ -380,13 +380,10 @@
     "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578780,
     "8dbf4a0fc047370a24cf6d6de6455aa44526f613a1aca04d262ed3b8686cd38e": 1788582260,
     "52c46b831ceab21c97a56ab2284fd391508a5b2f63d84bcfd829842c48a448a8": 1788582919,
-    "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788583161
+    "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788583161,
+    "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": 1788584060
   },
   "known": {
-    "e41199083c069efa5498682d94a896e377936544a04498bf3d47be6e9843a393": 1788562402.0264504,
-    "59728be27659a6d23a198c4cff017251e8c86b212d587d2e8fab9b9b6025764c": 1788562402.0264504,
-    "0be7cd18aa2fbd168b4c19bdf9a5ed74edbd18ba7fb5b9903e1ba1237237cd85": 1788562402.0264504,
-    "37c9fcad4c0c540dc1eb53f93d0429fb1fc7b277d7d80f8a2bab899787dca762": 1788562402.0264504,
     "d3d217e662f9169ca1760e3bdf09913be74412fcc1f3f1b9c4d09a94e56f30de": 1788564439.8961396,
     "02a8734d12122fa4d3486e424c4d5bf728716c6ec714b3da73f3504b283089a9": 1788564439.8961396,
     "5ed84a171b6d455194dd95e38cf8e6bd63e0b40735f51636e5da9c28aa67148f": 1788565099.8368926,
@@ -418,24 +415,60 @@
     "7b1f64039dd8a58335f07d20c51af81a4175a47edd6e0f47bb96d38834919da2": 1788578120.442631,
     "8dbf4a0fc047370a24cf6d6de6455aa44526f613a1aca04d262ed3b8686cd38e": 1788582260.5670989,
     "52c46b831ceab21c97a56ab2284fd391508a5b2f63d84bcfd829842c48a448a8": 1788582919.9910998,
-    "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788582919.9910998
+    "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788582919.9910998,
+    "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": 1788584060.6424463,
+    "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584060.6424463,
+    "2db40d27a64066d80b975c5109bb10656e5e310290342b3d787f1f1eb4631e9d": 1788584060.6424463
   },
-  "queue": [],
+  "queue": [
+    {
+      "region": "WORLD",
+      "title": "GPT-6 Astra Lands on Pro, Enterprise and the API as Anthropic Resets Claude Limits - Pasquale Pillitteri",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV0NpRkJRMGM1QUkxSDhwQlFNQW5HS3o0VlJXamUxZ3VyU2pqUXdqNjRJQU9PVFM1TjB1WF9sWmdsdGdka0wtYklLMXJzSURWdVlLcENkZXBCaFhxR0ZzeGFWbThIODEyY1RTR3pXeW1yV0VyTy1xUDJsb3BXZU9lTFJ2bjlORGphZFNhaFh6ZWc1ZVdp?oc=5",
+      "desc": "GPT-6 Astra Lands on Pro, Enterprise and the API as Anthropic Resets Claude Limits Pasquale Pillitteri",
+      "source": "Pasquale Pillitteri",
+      "time": 1788583595.0,
+      "score": 69.5,
+      "key": "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business",
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "«Нацпроектстрой» использует голосовой ИИ-помощник для найма сотрудников - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb0djeGlhRHluazJDME1pSnF2dFE0Z292ZEVvYnNvYTZDZHZ4TWtZcnhKQWtrNVNjbEtIbVlZRVBCZnN3eHM4MG1aVHhzWE1PVW94OHdrWmp6Y2hpQlp5WFNRS1JaUWZpS0pLTVBkekVHOWctcjItQTMtSU5uZEZnNjdMTGp0U09KMVhiMGU5dGJnNTIxTkRSVDFYR2RXeGRvbzl1eTBLRTQwdkNBTnNGbjBpNA?oc=5",
+      "desc": "«Нацпроектстрой» использует голосовой ИИ-помощник для найма сотрудников prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788564745.0,
+      "score": 60.3,
+      "russia_weight_bonus": 4.3,
+      "key": "2db40d27a64066d80b975c5109bb10656e5e310290342b3d787f1f1eb4631e9d",
+      "importance": 60.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    }
+  ],
   "health": {
-    "last_start_ts": 1788583161.811226,
+    "last_start_ts": 1788584060.6424463,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788583161.811226,
-    "last_success_ts": 1788583161.811226,
-    "last_candidates": 27,
+    "last_run_ts": 1788584060.6424463,
+    "last_success_ts": 1788584060.6424463,
+    "last_candidates": 26,
     "last_published": 1,
-    "queue_size": 0
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788583176.5026948
+      "updated_at": 1788584080.2818801
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -449,27 +482,6 @@
     }
   },
   "stories": {
-    "bbda7b47e2667c383d19afaaad5f5acfb535ecae50fb19aad2625a48c18862b6": {
-      "time": 1788496854,
-      "title": "ИИ невозможно качественно обучить на катастрофах, происходящих раз в полвека - Вечерняя Казань",
-      "desc": "ИИ невозможно качественно обучить на катастрофах, происходящих раз в полвека Вечерняя Казань",
-      "source": "Вечерняя Казань",
-      "region": "RUSSIA"
-    },
-    "d96cbe7187bf7f2c9adf1f9c42bd4fa23b66859f9379da3a9d26e29a04751038": {
-      "time": 1788497156,
-      "title": "SpaceX Stock Could Nearly Double — Analyst Says Nvidia Rubin Chips Could Fuel One-Year Payback - Stocktwits",
-      "desc": "SpaceX Stock Could Nearly Double — Analyst Says Nvidia Rubin Chips Could Fuel One-Year Payback Stocktwits",
-      "source": "Stocktwits",
-      "region": "WORLD"
-    },
-    "fee239cf6c71d2009cc1ea32f69063d8cf5873ef5b412e5b5873d51c9333d6c7": {
-      "time": 1788497547,
-      "title": "Дайджест ИИ: Сделка Nvidia и Hugging Face на $13 млрд, защита от вышедших из-под контроля агентов от Abnormal и OpenAI, кризис SEO и ИИ в Wealth Management - VC.ru",
-      "desc": "Дайджест ИИ: Сделка Nvidia и Hugging Face на $13 млрд, защита от вышедших из-под контроля агентов от Abnormal и OpenAI, кризис SEO и ИИ в Wealth Management VC.ru",
-      "source": "VC.ru",
-      "region": "RUSSIA"
-    },
     "9750af6ecfbde4729fe1bd17317feb40dfd01cd97c3c2a5a5d521e82a64df5ad": {
       "time": 1788497907,
       "title": "Россиян могут уволить из-за загрузки рабочих документов в нейросети - prospect.com.ru",
@@ -1883,11 +1895,17 @@
       "desc": "Booz Allen: AI models approaching autonomous cyberattack capability as critical infrastructure response windows narrow industrialcyber.co",
       "source": "industrialcyber.co",
       "region": "WORLD"
+    },
+    "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": {
+      "time": 1788584060,
+      "title": "Pondero Brief: Astra ships Critical for cyber. OpenAI's agents already escaped - buttondown.com",
+      "desc": "Pondero Brief: Astra ships Critical for cyber. OpenAI's agents already escaped buttondown.com",
+      "source": "buttondown.com",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1904,9 +1922,10 @@
     "WORLD",
     "RUSSIA",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788583161.811226,
-  "last_publish_ts": 1788583161.811226
+  "last_search_ts": 1788584060.6424463,
+  "last_publish_ts": 1788584060.6424463
 }
