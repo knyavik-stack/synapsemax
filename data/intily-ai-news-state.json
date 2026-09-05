@@ -383,7 +383,8 @@
     "10834966d82f11ea00872ee07294ead5e00c9d935cdf2496cae9f9df4fab4cb9": 1788583161,
     "7a33a77a735ac022ded6f6b915e0d0f178d3c83ee862e576743a10ac608d7fc1": 1788584060,
     "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584361,
-    "c6249a7b1df7dec20503678ad1a83e14a52d68c5974c74f66ec44aef86528b46": 1788620235
+    "c6249a7b1df7dec20503678ad1a83e14a52d68c5974c74f66ec44aef86528b46": 1788620235,
+    "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620438
   },
   "known": {
     "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620235.9616497,
@@ -443,23 +444,6 @@
     "5d51e0d76dfdbadd127786084d7efa42f22f60d3249cadd9a1815505b4d3d216": 1788620235.9616497
   },
   "queue": [
-    {
-      "region": "RUSSIA",
-      "title": "В российских судах запустили пилотный проект по внедрению ИИ - Эксперт",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeV9OeDI2ZnhJZmdjYWdDSkViQ0VaTTR2ZTVDQlpSbzhNODV3aU5BekN5X0EybTZROUlPdGFONUtBcHQ5bDVoOVROdmlSSGZvY242Q2tQZ2luUVVMSDJ4dUluamoxUUNsUFdrV1VHTk9QUDNDMEZoMUtYS0JYZWFhOFFzMDhNUVlpQlZITHREUQ?oc=5",
-      "desc": "В российских судах запустили пилотный проект по внедрению ИИ Эксперт",
-      "source": "Эксперт",
-      "time": 1788617280.0,
-      "score": 84.4,
-      "russia_weight_bonus": 4.9,
-      "key": "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf",
-      "importance": 84.4,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "ИИ-агент GPT-6 Astra создал симуляцию внутри Unreal Engine - techora.ru",
@@ -544,23 +528,6 @@
       "editorial_value": 50.0,
       "topics": [
         "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "ИИ-ограничения. От вседозволенности к регулированию - Финам",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaU5tekNMdlpmTGZVSHdGRDhIdFRhcVhXU1F6anBPRGUzV3hzUkJZWkt2SzFNZ0RPcVR1QmtMU3FrMktMUWFEN1dvTHUyai0zTzhfdHpvbFJ1WlhTWGRSMFUwUjFIbGs4MmJiMGZEcXViRXY1Q3FFV19INXFwZm9sYllERWtpdzRINC04NnJVVHJyWG52b3RjU1VPaGhxeEhvVE45bEpGTDFVMUk?oc=5",
-      "desc": "ИИ-ограничения. От вседозволенности к регулированию Финам",
-      "source": "Финам",
-      "time": 1788609600.0,
-      "score": 73.0,
-      "russia_weight_bonus": 3.5,
-      "key": "776ff5c7ab1a3f7435cf3abc7a1caff1de9c1fe323ff6007f9c8715c1e9bd6b0",
-      "importance": 73.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "security_regulation"
       ],
       "tier": "A"
     },
@@ -662,22 +629,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "ECCV 2026 Preview: Computer Vision Converges on World Models and Embodied AI - Tech Times",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbzc0NG5rdnA1SXBibTVTbkpsWUlpVS1EVnVRZmo5R19IZ3RQb1VrTW9vSlZMZFJIbEFQaGo2bzJMdk40UlYtVG10RkowWHdqTWRLcGFYQU1nNGo3Z2dnNXU1X1NWM0R1cWkxRVMtNFNKZl9VNEpuaHJkWFZiV0FSRkJNWFc4UmQtY0dRQ296cEN6Y00wYmRrQmRvLVF2Wm5lVFRDMVFBUmhGMElGUFNiU09lU19PQlJYTnhVazM1U20?oc=5",
-      "desc": "ECCV 2026 Preview: Computer Vision Converges on World Models and Embodied AI Tech Times",
-      "source": "Tech Times",
-      "time": 1788616718.0,
-      "score": 70.5,
-      "key": "8f7dbbe58b48d97ba0589363901c0403ff2796a7263b4e8ab322cc620b16507f",
-      "importance": 70.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
       "region": "RUSSIA",
       "title": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии - РАПСИ",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82elhJcDdqZU01Vng4dnBQazJxQjV2c1lSZ0xQZVBvUDVsNU00X1NETDQyT0J3MjVoNVplZmt2a255WW1fRmk3TjJUZlUwMEczaElESF80X1JwNjNqR1NyQ05nSm05Q1E2UGNWcHFR?oc=5",
@@ -726,6 +677,22 @@
     },
     {
       "region": "WORLD",
+      "title": "ECCV 2026 Preview: Computer Vision Converges on World Models and Embodied AI - Tech Times",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbzc0NG5rdnA1SXBibTVTbkpsWUlpVS1EVnVRZmo5R19IZ3RQb1VrTW9vSlZMZFJIbEFQaGo2bzJMdk40UlYtVG10RkowWHdqTWRLcGFYQU1nNGo3Z2dnNXU1X1NWM0R1cWkxRVMtNFNKZl9VNEpuaHJkWFZiV0FSRkJNWFc4UmQtY0dRQ296cEN6Y00wYmRrQmRvLVF2Wm5lVFRDMVFBUmhGMElGUFNiU09lU19PQlJYTnhVazM1U20?oc=5",
+      "desc": "ECCV 2026 Preview: Computer Vision Converges on World Models and Embodied AI Tech Times",
+      "source": "Tech Times",
+      "time": 1788616718.0,
+      "score": 67.5,
+      "key": "8f7dbbe58b48d97ba0589363901c0403ff2796a7263b4e8ab322cc620b16507f",
+      "importance": 67.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
       "title": "DeepMind AI agents: 100-strong Lean swarm splits on cheating - tbreak.com",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IQ3FXclljM3Bmb3hBa0t5UmhlRHFTT01tQXplQV9fdTRkcUFEQl9yMzNUUzJqS1NZZWkwNDdHZW9YVUVlQlJReF9DbThQdkFnUnY4c2VSTy1YaHN2N1I3Zy1lTkpJVVd6aU0yWUkwUWNhck91?oc=5",
       "desc": "DeepMind AI agents: 100-strong Lean swarm splits on cheating tbreak.com",
@@ -755,23 +722,40 @@
         "agents"
       ],
       "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "ИИ-ограничения. От вседозволенности к регулированию - Финам",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaU5tekNMdlpmTGZVSHdGRDhIdFRhcVhXU1F6anBPRGUzV3hzUkJZWkt2SzFNZ0RPcVR1QmtMU3FrMktMUWFEN1dvTHUyai0zTzhfdHpvbFJ1WlhTWGRSMFUwUjFIbGs4MmJiMGZEcXViRXY1Q3FFV19INXFwZm9sYllERWtpdzRINC04NnJVVHJyWG52b3RjU1VPaGhxeEhvVE45bEpGTDFVMUk?oc=5",
+      "desc": "ИИ-ограничения. От вседозволенности к регулированию Финам",
+      "source": "Финам",
+      "time": 1788609600.0,
+      "score": 63.5,
+      "russia_weight_bonus": 3.5,
+      "key": "776ff5c7ab1a3f7435cf3abc7a1caff1de9c1fe323ff6007f9c8715c1e9bd6b0",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788620309.6726482,
+    "last_start_ts": 1788620438.7264376,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788620309.6726482,
-    "last_success_ts": 1788620309.6726482,
+    "last_run_ts": 1788620438.7264376,
+    "last_success_ts": 1788620438.7264376,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788620258.9346154
+      "updated_at": 1788620440.5617661
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1617,11 +1601,17 @@
       "desc": "Anthropic Launches Claude Fable 5.1 and Restricted Mythos 5.1 for Advanced Coding, Cybersecurity and Scientific Research LinkedIn",
       "source": "LinkedIn",
       "region": "WORLD"
+    },
+    "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": {
+      "time": 1788620438,
+      "title": "В российских судах запустили пилотный проект по внедрению ИИ - Эксперт",
+      "desc": "В российских судах запустили пилотный проект по внедрению ИИ Эксперт",
+      "source": "Эксперт",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "WORLD",
     "WORLD",
@@ -1639,8 +1629,9 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788620235.9616497,
-  "last_publish_ts": 1788620235.9616497
+  "last_publish_ts": 1788620438.7264376
 }
