@@ -422,12 +422,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788581300.5975032,
+    "last_start_ts": 1788581542.1053255,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788581300.5975032,
-    "last_success_ts": 1788581300.5975032,
-    "last_candidates": 28,
+    "last_run_ts": 1788581542.1053255,
+    "last_success_ts": 1788581542.1053255,
+    "last_candidates": 25,
     "last_published": 0,
     "queue_size": 0
   },
@@ -449,13 +449,6 @@
     }
   },
   "stories": {
-    "3ee9a099aa9259fc0cbd48d24d4b344dc9737a04088b3aa820c9d952f17d9eae": {
-      "time": 1788495069,
-      "title": "AI-Written Papers Outperform 99% of Human Manuscripts: Chen Yongchao’s 4 Unanswered Questions - 36 Kr",
-      "desc": "AI-Written Papers Outperform 99% of Human Manuscripts: Chen Yongchao’s 4 Unanswered Questions 36 Kr",
-      "source": "36 Kr",
-      "region": "WORLD"
-    },
     "7d01aa5d79fce2d1de67789d44b0d6ea7d85433074ffb403095c0c65e6a7c60c": {
       "time": 1788495354,
       "title": "NYC schools ban AI for students through eighth grade under new Mamdani policy - ABC7 New York",
@@ -1921,6 +1914,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788581300.5975032,
+  "last_search_ts": 1788581542.1053255,
   "last_publish_ts": 1788578780.5315773
 }
