@@ -31,7 +31,7 @@ class Default(WorkerEntrypoint):
                 'runtime': 'cloudflare-python-workers',
                 'cron': '* * * * *',
                 'queue': len(state.get('queue', [])) if isinstance(state, dict) else 0,
-                'last_run': state.get('last_run_ts', state.get('lastRun', 0)) if isinstance(state, dict) else 0,
+                'last_run': (state.get('health', {}).get('last_run_ts', 0) if isinstance(state.get('health', {}), dict) else 0) if isinstance(state, dict) else 0,
             })
         return Response('Not found', status=404)
 

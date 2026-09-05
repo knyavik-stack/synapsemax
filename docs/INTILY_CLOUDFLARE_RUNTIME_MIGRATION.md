@@ -2,42 +2,32 @@
 
 Date: 2026-09-05
 
-## Decision
-Production news execution is being moved from GitHub Actions to Cloudflare Python Workers. GitHub remains source control and emergency/manual CI; it is no longer the production scheduler/runtime.
+Production news execution is moving from GitHub Actions to Cloudflare Python Workers. GitHub remains source control and emergency/manual CI; it is no longer the production scheduler/runtime.
 
-## Production topology
-Cloudflare Cron (`* * * * *`) -> Python Worker `intily-ai-news` -> KV `STATE` -> RSS/AI -> Telegram.
-
-## Why
-GitHub Actions private-repository quota reached 100%, blocking scheduled runs. Cloudflare Python Workers support the existing Python engine and Cloudflare-native bindings, avoiding a risky JS rewrite.
+## Verified deployment
+- Worker: `intily-ai-news`
+- Active version after successful Python build: `8d949726-33ef-4854-be2a-3242c2738719`
+- Cron: `* * * * *`
+- Runtime bindings observed by Wrangler: `STATE` KV and `AI`
+- GitHub source: `knyavik-stack/synapsemax`
+- Workers Builds production trigger: `ff76ed68-6958-4209-bad1-620580f9fcdd`
 
 ## Runtime policy preserved
 - search every 30 minutes; immediate search when queue <= 1;
 - publish no more than once every 3 minutes;
 - maximum queue 20;
 - importance threshold 60.0;
-- Russian queue target 60% when sufficient candidates exist;
-- Russian weight bonus 2.0–5.0 with one decimal;
-- freshness: <3h => RU +2.5, WORLD +1.5; >3h => -2.0 for both;
+- Russian queue target 60%;
+- one-decimal Russian bonus and dynamic freshness adjustments;
 - semantic/URL/title duplicate protection;
 - 90% joke target only for suitable non-serious stories;
-- Telegram editorial QA and AI failover retained.
+- Telegram editorial QA and AI failover.
 
-## Safe rollout
-1. Existing production Worker remains unchanged until the new runtime is validated.
-2. Python Worker project is committed under `intily_python_worker/`.
-3. Cloudflare Workers Builds is connected to GitHub repository `knyavik-stack/synapsemax`.
-4. Production trigger is configured for `main`, root `/intily_python_worker`, using `uvx --from workers-py pywrangler deploy --yes`.
-5. The production Worker cron remains `* * * * *`; the old random 1..3 dispatch gate is no longer needed after runtime cutover.
-6. The GitHub Actions workflow is retained as an emergency/manual path until sustained green validation is complete.
+## State migration
+The current GitHub state file was copied into KV under `intily:publisher:v1`. The new Python runtime treats this KV key as canonical; GitHub state persistence is no longer required for production execution.
 
-## Current validation status
-- Cloudflare MCP connection: ACTIVE.
-- GitHub repository connection in Workers Builds: ACTIVE.
-- Production build trigger: CREATED.
-- Python source: `py_compile` PASS.
-- Cloudflare Python runtime deployment: PENDING canary build result.
-- Existing production Worker: unchanged.
+## Build incident
+The first build failed because Wrangler received unsupported `--yes`. The retry succeeded after removing it. A subsequent config-path retry initially pointed to a duplicated nested path; the final command uses `--config wrangler.toml` from the Workers Builds root directory and succeeded.
 
 ## Rollback
-If the Python build or runtime validation fails, do not promote it; keep the current production Worker and GitHub workflow path intact.
+The old verified Worker version remains available in deployment history. During validation, the mistaken root SynapseMax bundle was immediately rolled back to the verified version before the final Python deployment.
