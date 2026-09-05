@@ -447,13 +447,13 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788573740.0840414,
+    "last_start_ts": 1788573800.572658,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788573740.0840414,
-    "last_success_ts": 1788573740.0840414,
-    "last_candidates": 0,
-    "last_published": 1,
+    "last_run_ts": 1788573800.572658,
+    "last_success_ts": 1788573800.572658,
+    "last_candidates": 29,
+    "last_published": 0,
     "queue_size": 1
   },
   "providers": {
@@ -2009,6 +2009,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788573259.0991716,
+  "last_search_ts": 1788573800.572658,
   "last_publish_ts": 1788573740.0840414
 }
