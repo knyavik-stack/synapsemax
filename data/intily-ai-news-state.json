@@ -474,7 +474,14 @@
     "955d10be991a9a209be8707b4c0f96e62b97867bf0242334fbc7f5feded27cdb": 1788627687.125582,
     "b40e34d4b1b0b7b8a7d7f903a858fa04a58cfc6852214dfed71bd30246caf2c7": 1788627687.125582,
     "a1eda5d02e073b81f4a476a0be4ebbcd37c7fd8290d600857a5e208d835a4bef": 1788627687.125582,
-    "3397360b22fd347fe7730eda666db8e728c0b06fbefbb97145c42a8ec561de72": 1788627687.125582
+    "3397360b22fd347fe7730eda666db8e728c0b06fbefbb97145c42a8ec561de72": 1788627687.125582,
+    "886f32f84186d99f0ce5cb201fe683338087fb095b133eab2cafcc0d585aea50": 1788629708.784156,
+    "2b16486cdafa787832d6b4674bc5dc4ee5cbddbc9679967870e73357d8dce047": 1788629708.784156,
+    "075d6eabd0536984d30dc3dd025f57a42b97abe63673a3099e9695225ae0fe11": 1788629708.784156,
+    "5dbc8fcc285e2874122479a1de1ab7de3a2a3d90db9a83c895ab7165316ec213": 1788629708.784156,
+    "71ab3535636c311a49b697f43ca0cb48e294ef34723aada90356295bfc12913a": 1788629708.784156,
+    "dafef4c290cdd4342d9dc696533a8fe5fbf269b013c19c385761e5b052b56a70": 1788629708.784156,
+    "1dff7c75d0dfae1ad284f11d646b31d65bb5579d1b61ebfb10da07d075074cd2": 1788629708.784156
   },
   "queue": [
     {
@@ -547,21 +554,6 @@
       "tier": "A"
     },
     {
-      "region": "RUSSIA",
-      "title": "Голос уже не гарантирует подлинность: мошенники активно используют нейросети - АБН24",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNel9IRFhXZ3ItZnhoYzJ5U1NhYmVBWnhqLWZvTmdSanJla2VWZGU5dTk0bnJPUUFacmxUUzBBSHlIVWNBa0xqRER5ejdOcVBUWThpTW5TSXV5bkVGQzFYUUl3WURCSUlvRlBReEVEN19QU19mY01OR2ppaFpRcGkyWDFUcjdkd0k4aG5hY2pDd1RtMlI3U0RFeGVzc2VxanBDZFFhdTdNWVJuQzlU?oc=5",
-      "desc": "Голос уже не гарантирует подлинность: мошенники активно используют нейросети АБН24",
-      "source": "АБН24",
-      "time": 1788625881.0,
-      "score": 71.3,
-      "russia_weight_bonus": 2.8,
-      "key": "97f55c4a378e01d0bcbb8f82c5e8154c14fb518e308c084311d93159c09f703f",
-      "importance": 71.3,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
       "region": "WORLD",
       "title": "Guild Introduces Software Factory, an Autonomous AI System for Engineering Work - AI Insider",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONG0xZHRoTGJmcEc2Z3hqUkpkM3ZPNEF2ajRFYll3UmNDMGdvTjJVY0d1NUM5bFpnUnVGZ3pnblJEeEk5V1FONW8yLWs1R2liRUpGSnhvWS1uVjVhdU5QMldXQXowZXM0VDRDN2hWRjcxcXFoZFNKSGhKOC1YQjIxUHF5Tm9INExsMmx2ZXdRSHdHQmVYUV9MOUZtQWoxQW1kRVB4UXJGT0t3TlNOYkE3S25lUUFLd2M?oc=5",
@@ -576,10 +568,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788629467,
+      "last_failed_at": 1788629708,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788651067
+      "failure_count": 9,
+      "next_retry_at": 1788651308
     },
     {
       "region": "RUSSIA",
@@ -599,6 +591,21 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Голос уже не гарантирует подлинность: мошенники активно используют нейросети - АБН24",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNel9IRFhXZ3ItZnhoYzJ5U1NhYmVBWnhqLWZvTmdSanJla2VWZGU5dTk0bnJPUUFacmxUUzBBSHlIVWNBa0xqRER5ejdOcVBUWThpTW5TSXV5bkVGQzFYUUl3WURCSUlvRlBReEVEN19QU19mY01OR2ppaFpRcGkyWDFUcjdkd0k4aG5hY2pDd1RtMlI3U0RFeGVzc2VxanBDZFFhdTdNWVJuQzlU?oc=5",
+      "desc": "Голос уже не гарантирует подлинность: мошенники активно используют нейросети АБН24",
+      "source": "АБН24",
+      "time": 1788625881.0,
+      "score": 68.3,
+      "russia_weight_bonus": 2.8,
+      "key": "97f55c4a378e01d0bcbb8f82c5e8154c14fb518e308c084311d93159c09f703f",
+      "importance": 68.3,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -653,10 +660,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788629467,
+      "last_failed_at": 1788629708,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 27,
-      "next_retry_at": 1788651067
+      "failure_count": 28,
+      "next_retry_at": 1788651308
     },
     {
       "region": "RUSSIA",
@@ -681,6 +688,24 @@
     },
     {
       "region": "WORLD",
+      "title": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests - calcalistech.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00dTRBYnJjWl84cHMzbC1QZWVlb0ZUd0JKMnVVX1kyQ191NlR2UXFDLUdWVGt2WW9TS1JkODNKVW5hSVFfNU0xYVZDcWxLUTMxRXFwalpoMGZua09KYmhXZkxVR21JXzA?oc=5",
+      "desc": "Anthropic pushes back IPO as investors await one of AI’s biggest public-market tests calcalistech.com",
+      "source": "calcalistech.com",
+      "time": 1788628740.0,
+      "score": 66.5,
+      "key": "886f32f84186d99f0ce5cb201fe683338087fb095b133eab2cafcc0d585aea50",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788629708,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788630008
+    },
+    {
+      "region": "WORLD",
       "title": "SPX37P Builds a Futuristic Crypto Narrative Around AI, Blockchain and Space Technology - TechBullion",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOS0tYWnowaEtnMmFqUVhjMVJPMzdMMFBDUnRnYVZyWk9iLUhzMGs4d01lN3FZR0tPc1ZDLTFiYTZsS0F6TE5vWTlwMU1hc1lGbnd6U1VnOF82RWJWeHlYY0ZBSVh1UkUwNzFVaUcwNzRpWVZoWW45SHJLWkU5RTN2VlhCbHBLVk5PalRybVRGbV9HakJHeWkwQzN5bEpvNUprZ0pEcnpJOGk5c2NhQWxJ?oc=5",
       "desc": "SPX37P Builds a Futuristic Crypto Narrative Around AI, Blockchain and Space Technology TechBullion",
@@ -692,28 +717,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788629467,
+      "last_failed_at": 1788629708,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788651067
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI Acknowledges ‘Wiki Incident’ and Need for More Transparency Around Unintended AI Behavior - ASHARQ AL-AWSAT English",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUVlyaHB2RHZmQzAwY1Z3UVppNVRvZ2tNQnIzaktyRXZGTFQ1MzBoejRsMkVoTkJoTE1Qb0xZd3hPaUZEVjloTHJyVkJxVWk2RG5iN1ZoQmlQZ2tYOFpIVHpmdGMxSl83S1c1a2NnTmFhck9nTGdYR28yOU96TXAwMG9qMkY4bmJHRnBnRTk3X1ZhQ0FEejJSbU80UGVqTUlUZmEwVHNLYWNpckJPYTlSVTVqM1NYc3BNZFBYTTBJN3J3eS1MRkY2ejBwZHNGbC1Ub2hpamM0MlhUZw?oc=5",
-      "desc": "OpenAI Acknowledges ‘Wiki Incident’ and Need for More Transparency Around Unintended AI Behavior ASHARQ AL-AWSAT English",
-      "source": "ASHARQ AL-AWSAT English",
-      "time": 1788625888.0,
-      "score": 66.5,
-      "key": "955d10be991a9a209be8707b4c0f96e62b97867bf0242334fbc7f5feded27cdb",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788629467,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 8,
-      "next_retry_at": 1788651067
+      "failure_count": 9,
+      "next_retry_at": 1788651308
     },
     {
       "region": "WORLD",
@@ -730,10 +737,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788629467,
+      "last_failed_at": 1788629708,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 27,
-      "next_retry_at": 1788651067
+      "failure_count": 28,
+      "next_retry_at": 1788651308
     },
     {
       "region": "RUSSIA",
@@ -755,6 +762,26 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
+    },
+    {
+      "region": "WORLD",
+      "title": "Google launches WeatherNext 3, its most advanced AI weather model yet - timesofindia.indiatimes.com",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNR3RwNV9ET0RIaENFUUpZY3o3Y2I2Rm5XZ0pkOWlOck02RTFuWHFITHV6dHFjN08yeFdncUhaLWtJM3pqdmJLdE9rMnAtcUtVR2VTOUlteUtzd253ZGY5dXRqdkpXd29HcDlsTVp0bm1NVVZaalRNMzNyVkRGWjJKdjdQVVVwX3djelkxb0ZzRUFYNHZxYklSVjRibWdHSjlvcmZELW1fdnFUSUNOdFF5TnAxNnFidDZpdjRFUUVsdWFPamlRUEEtZEZCME9FLUtwYWpuenpSZk9FalNYNWExMWdhNTRRZ9IB6wFBVV95cUxPOC1TT1VKdjZETXJ1UFRqcHVDRW1Xem9xU0Q2aHVwWGNoLXYwR25md3lJQ250WUxtTnNieFlESUlrMDU5RC1aUlZRbGlGYTdpdGR3Zzl1QkRzc1lxQ0RQR1FFOG42c3RNLXFUMGVZUERHN2c2azhvUUJUYWtpb0MwS1JsT29ZS0kxWjJDbEpRYWI0QjNzcXVmWXBiZXJXLW5Dc2dOMEkzODRWT1JMZ1pzci16MkZOWnQ3ZFdFOTdNdGp2TkR2djNWaXZ3VU1fS05MWmZfS0pJM1B3eXZaRDNzR0tEWFlhOXNKLVFv?oc=5",
+      "desc": "Google launches WeatherNext 3, its most advanced AI weather model yet timesofindia.indiatimes.com",
+      "source": "timesofindia.indiatimes.com",
+      "time": 1788611340.0,
+      "score": 64.0,
+      "key": "2b16486cdafa787832d6b4674bc5dc4ee5cbddbc9679967870e73357d8dce047",
+      "importance": 64.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788629708,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788630008
     },
     {
       "region": "RUSSIA",
@@ -779,6 +806,24 @@
     },
     {
       "region": "WORLD",
+      "title": "OpenAI Acknowledges ‘Wiki Incident’ and Need for More Transparency Around Unintended AI Behavior - ASHARQ AL-AWSAT English",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUVlyaHB2RHZmQzAwY1Z3UVppNVRvZ2tNQnIzaktyRXZGTFQ1MzBoejRsMkVoTkJoTE1Qb0xZd3hPaUZEVjloTHJyVkJxVWk2RG5iN1ZoQmlQZ2tYOFpIVHpmdGMxSl83S1c1a2NnTmFhck9nTGdYR28yOU96TXAwMG9qMkY4bmJHRnBnRTk3X1ZhQ0FEejJSbU80UGVqTUlUZmEwVHNLYWNpckJPYTlSVTVqM1NYc3BNZFBYTTBJN3J3eS1MRkY2ejBwZHNGbC1Ub2hpamM0MlhUZw?oc=5",
+      "desc": "OpenAI Acknowledges ‘Wiki Incident’ and Need for More Transparency Around Unintended AI Behavior ASHARQ AL-AWSAT English",
+      "source": "ASHARQ AL-AWSAT English",
+      "time": 1788625888.0,
+      "score": 63.5,
+      "key": "955d10be991a9a209be8707b4c0f96e62b97867bf0242334fbc7f5feded27cdb",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788629708,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 9,
+      "next_retry_at": 1788651308
+    },
+    {
+      "region": "WORLD",
       "title": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' - ibtimes.co.uk",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbTgtTjU3dFFFbHhWcEVyalVEMHdZbm5QXzFkMkU2NzNDYklRNWlKSTk4Y2dLVy1KVEVLaWE3TUtETFRhVVFDdnVGN2paV05jX0hCNWsyUEdNa3dvZjJGejlxcURjVUVwZ0hjQ0Vzb1BXNGVEZDhCb2Y0RExtaGRRcWM1aUJKbE9MeVNUTWFWMTQ?oc=5",
       "desc": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' ibtimes.co.uk",
@@ -790,62 +835,36 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788629467,
+      "last_failed_at": 1788629708,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 18,
-      "next_retry_at": 1788651067
+      "failure_count": 19,
+      "next_retry_at": 1788651308
     },
     {
-      "region": "WORLD",
-      "title": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase - TipRanks",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORENKOXRUSFRfWFJXZ2ZiQk9yYmRzb210OUpKY0gxVGtaZDlENkxyWk5kY1VLMWw3ZGNJdlAzZncyX0x6bHZXSDZ4Tm5ESDZrUHZodTNMZTRIQmxaYVFoTkJ4ZGhqck1NczJoc2pFVGxGNmM0NWFvUlFDYTcxSGZpRVJobUYtNmZlblZfeDBteHRrNDUxcEFnNldkUy0tMnRKVndFWlgyaFdWdzEyOUhsQVE5RmpHTlZ1aWxyZlpEWFJKUTFfVDM1SkdqTzJmTy1VMzhRdXVHMFpTUQ?oc=5",
-      "desc": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase TipRanks",
-      "source": "TipRanks",
-      "time": 1788617161.0,
-      "score": 63.0,
-      "key": "f3eb071c214a3eaf74a19dc8ca0b339782b35a4716f396fcfb757a126988c9dd",
-      "importance": 63.0,
+      "region": "RUSSIA",
+      "title": "В российских судах тестируют искусственный интеллект - URA.RU",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAzWWx5N3JCaTFwU1pDdEFKNm5FeW5rVkFXNVR5YU1xX0FpMlNfXzl0MGlVTVlpREt6QmZwcHBJR0k4RkRqdU5j?oc=5",
+      "desc": "В российских судах тестируют искусственный интеллект URA.RU",
+      "source": "URA.RU",
+      "time": 1788610020.0,
+      "score": 60.9,
+      "russia_weight_bonus": 4.9,
+      "key": "5dbc8fcc285e2874122479a1de1ab7de3a2a3d90db9a83c895ab7165316ec213",
+      "importance": 60.9,
       "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "tools"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788629467,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 27,
-      "next_retry_at": 1788651067
-    },
-    {
-      "region": "WORLD",
-      "title": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. - MarketScale",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmhSYUZUVDJCVkZUSDVCZlBaUW1TcEhmRmVZZ3JmTWFXTlhOYk9SY0xnMVNFZ251alhZLUxZVG9xU09RTm9vSHVMUGVsSzdZUVJqZkdnTUwyOVNZRDFVa0poMHNManZpMkYyRGJ4VTgyLXZseXR3NXFEaTlrOWRUSHZObVdzNzh0YjZF?oc=5",
-      "desc": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. MarketScale",
-      "source": "MarketScale",
-      "time": 1788617279.0,
-      "score": 60.0,
-      "key": "e5016b4e98d88336bc627e8500676d6590824f6a4bdcf66c85dc28f061ff1b63",
-      "importance": 60.0,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788629467,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 27,
-      "next_retry_at": 1788651067
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788629467.796261,
+    "last_start_ts": 1788629708.784156,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788629467.796261,
-    "last_success_ts": 1788629467.796261,
-    "last_candidates": 0,
+    "last_run_ts": 1788629708.784156,
+    "last_success_ts": 1788629708.784156,
+    "last_candidates": 53,
     "last_published": 0,
-    "queue_size": 19
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -1574,6 +1593,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788627687.125582,
+  "last_search_ts": 1788629708.784156,
   "last_publish_ts": 1788622283.4029808
 }
