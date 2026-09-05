@@ -427,12 +427,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788580101.5042384,
+    "last_start_ts": 1788580460.464815,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788580101.5042384,
-    "last_success_ts": 1788580101.5042384,
-    "last_candidates": 33,
+    "last_run_ts": 1788580460.464815,
+    "last_success_ts": 1788580460.464815,
+    "last_candidates": 34,
     "last_published": 0,
     "queue_size": 0
   },
@@ -1947,6 +1947,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788580101.5042384,
+  "last_search_ts": 1788580460.464815,
   "last_publish_ts": 1788578780.5315773
 }
