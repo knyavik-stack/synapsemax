@@ -502,28 +502,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVBBOGp2UWtzT1MwQkhnTzFTQmV0OUdqcGw5ZDFUMGY2N3ROQWdnX2ZnV25nd1UwOEtTRVJqNHNrU2c0ZFVuR1pScEQ4bVZqUVhXYkJITHgxS0pSbXdUSEZ0ODVqTzd0d1B4WVhWTVJpZVQyVlNaM3dHT1lvRFZIemhYVDNmSE0wWDQ0TU1zaGNFOE1vSE55M01lemF3TkcwX0JPenVMSnZjMWQ1WmREUE5pNVcxU3FFcjMydXFtcG5VYzY1TEw0bzdObnNLOHljVU9sSEU5dlh6UQ?oc=5",
-      "desc": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788625347.0,
-      "score": 76.4,
-      "russia_weight_bonus": 2.9,
-      "key": "4de0ca8a7dcf932a0d4b54c1d523e7bac2ef6368ce369f944ba2cea0f82669ed",
-      "importance": 76.4,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "security_regulation"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788634686,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788634986
-    },
-    {
-      "region": "RUSSIA",
       "title": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObl9iWXdvd0RheFctYndQMjI5RU9QMlFtMmpfa21fMFBKMVg4a0U3ZF82a3NKTUxuY2p5UEFuUFRMbDAwWFN1Z2F2Z3I0a3BQWEJKdndsZHljNGNyUTJlVldZVmZLNEIwclNvQ0ZZMktxU1BqX1h6RzlIQ19zUnJrT1JjNTVyVDBwalZoZzhNMHVJWV81OW1jUTRYNGFBNGNWcjdrWWpMOXFZZHNzb0VodUlWTmpndmxuUzE5RVJHRWhGcFpmUXBqcWY2bTEzYnYwc3IxbjBlY0toUQ?oc=5",
       "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» prospect.com.ru",
@@ -558,10 +536,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788636128,
+      "last_failed_at": 1788636188,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788637328
+      "failure_count": 4,
+      "next_retry_at": 1788638588
     },
     {
       "region": "WORLD",
@@ -576,10 +554,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636128,
+      "last_failed_at": 1788636188,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788637328
+      "failure_count": 4,
+      "next_retry_at": 1788638588
     },
     {
       "region": "WORLD",
@@ -596,10 +574,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788636128,
+      "last_failed_at": 1788636188,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 37,
-      "next_retry_at": 1788657728
+      "failure_count": 38,
+      "next_retry_at": 1788657788
     },
     {
       "region": "RUSSIA",
@@ -635,10 +613,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788636128,
+      "last_failed_at": 1788636188,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 16,
-      "next_retry_at": 1788657728
+      "failure_count": 17,
+      "next_retry_at": 1788657788
     },
     {
       "region": "WORLD",
@@ -655,10 +633,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788636128,
+      "last_failed_at": 1788636188,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788637328
+      "failure_count": 4,
+      "next_retry_at": 1788638588
     },
     {
       "region": "RUSSIA",
@@ -715,10 +693,32 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788636128,
+      "last_failed_at": 1788636188,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 25,
-      "next_retry_at": 1788657728
+      "failure_count": 26,
+      "next_retry_at": 1788657788
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVBBOGp2UWtzT1MwQkhnTzFTQmV0OUdqcGw5ZDFUMGY2N3ROQWdnX2ZnV25nd1UwOEtTRVJqNHNrU2c0ZFVuR1pScEQ4bVZqUVhXYkJITHgxS0pSbXdUSEZ0ODVqTzd0d1B4WVhWTVJpZVQyVlNaM3dHT1lvRFZIemhYVDNmSE0wWDQ0TU1zaGNFOE1vSE55M01lemF3TkcwX0JPenVMSnZjMWQ1WmREUE5pNVcxU3FFcjMydXFtcG5VYzY1TEw0bzdObnNLOHljVU9sSEU5dlh6UQ?oc=5",
+      "desc": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788625347.0,
+      "score": 66.9,
+      "russia_weight_bonus": 2.9,
+      "key": "4de0ca8a7dcf932a0d4b54c1d523e7bac2ef6368ce369f944ba2cea0f82669ed",
+      "importance": 66.9,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "security_regulation"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788634686,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788634986
     },
     {
       "region": "RUSSIA",
@@ -796,10 +796,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636128,
+      "last_failed_at": 1788636188,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788637328
+      "failure_count": 4,
+      "next_retry_at": 1788638588
     },
     {
       "region": "WORLD",
@@ -814,10 +814,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636128,
+      "last_failed_at": 1788636188,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 29,
-      "next_retry_at": 1788657728
+      "failure_count": 30,
+      "next_retry_at": 1788657788
     },
     {
       "region": "WORLD",
@@ -832,10 +832,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788636128,
+      "last_failed_at": 1788636188,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 37,
-      "next_retry_at": 1788657728
+      "failure_count": 38,
+      "next_retry_at": 1788657788
     },
     {
       "region": "RUSSIA",
@@ -894,11 +894,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788636128.630595,
+    "last_start_ts": 1788636188.0713367,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788636128.630595,
-    "last_success_ts": 1788636128.630595,
+    "last_run_ts": 1788636188.0713367,
+    "last_success_ts": 1788636188.0713367,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
