@@ -467,10 +467,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788644264,
+      "last_failed_at": 1788644683,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788653864
+      "failure_count": 7,
+      "next_retry_at": 1788663883
     },
     {
       "region": "WORLD",
@@ -488,10 +488,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788644264,
+      "last_failed_at": 1788644683,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788653864
+      "failure_count": 7,
+      "next_retry_at": 1788663883
     },
     {
       "region": "RUSSIA",
@@ -529,10 +529,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788644264,
+      "last_failed_at": 1788644683,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 37,
-      "next_retry_at": 1788665864
+      "failure_count": 38,
+      "next_retry_at": 1788666283
     },
     {
       "region": "WORLD",
@@ -547,10 +547,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788644264,
+      "last_failed_at": 1788644683,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 37,
-      "next_retry_at": 1788665864
+      "failure_count": 38,
+      "next_retry_at": 1788666283
     },
     {
       "region": "RUSSIA",
@@ -608,10 +608,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788644264,
+      "last_failed_at": 1788644683,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788653864
+      "failure_count": 7,
+      "next_retry_at": 1788663883
     },
     {
       "region": "RUSSIA",
@@ -691,10 +691,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788644264,
+      "last_failed_at": 1788644683,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 71,
-      "next_retry_at": 1788665864
+      "failure_count": 72,
+      "next_retry_at": 1788666283
     },
     {
       "region": "RUSSIA",
@@ -728,10 +728,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788644264,
+      "last_failed_at": 1788644683,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 50,
-      "next_retry_at": 1788665864
+      "failure_count": 51,
+      "next_retry_at": 1788666283
     },
     {
       "region": "WORLD",
@@ -748,10 +748,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788644264,
+      "last_failed_at": 1788644683,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 37,
-      "next_retry_at": 1788665864
+      "failure_count": 38,
+      "next_retry_at": 1788666283
     },
     {
       "region": "RUSSIA",
@@ -836,18 +836,18 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788644264,
+      "last_failed_at": 1788644683,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 59,
-      "next_retry_at": 1788665864
+      "failure_count": 60,
+      "next_retry_at": 1788666283
     }
   ],
   "health": {
-    "last_start_ts": 1788644264.239032,
+    "last_start_ts": 1788644683.2619736,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788644264.239032,
-    "last_success_ts": 1788644264.239032,
+    "last_run_ts": 1788644683.2619736,
+    "last_success_ts": 1788644683.2619736,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -870,13 +870,6 @@
     }
   },
   "stories": {
-    "f2953297c978b1dbbb456894e357f8942974f95bf08127c81c867d20c841fe3b": {
-      "time": 1788558140,
-      "title": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии - prospect.com.ru",
-      "desc": "Официально подтверждено внедрение внедрение NVIDIA DLSS 5 на GeForce RTX 40-й серии prospect.com.ru",
-      "source": "prospect.com.ru",
-      "region": "RUSSIA"
-    },
     "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81": {
       "time": 1788558501,
       "title": "KRAFTON To Invest $250 Mn In Indian AI & Deeptech Startups - Inc42",
