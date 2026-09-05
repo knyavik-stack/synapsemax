@@ -468,10 +468,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "RUSSIA",
@@ -489,10 +489,10 @@
         "robotics"
       ],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "RUSSIA",
@@ -510,10 +510,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "WORLD",
@@ -548,10 +548,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "RUSSIA",
@@ -567,10 +567,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "RUSSIA",
@@ -586,10 +586,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "WORLD",
@@ -688,10 +688,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "WORLD",
@@ -723,10 +723,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "RUSSIA",
@@ -742,10 +742,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "RUSSIA",
@@ -761,10 +761,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788622532,
+      "last_failed_at": 1788622949,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788622832
+      "failure_count": 2,
+      "next_retry_at": 1788623549
     },
     {
       "region": "RUSSIA",
@@ -783,11 +783,11 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788622532.078751,
+    "last_start_ts": 1788622949.580342,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788622532.078751,
-    "last_success_ts": 1788622532.078751,
+    "last_run_ts": 1788622949.580342,
+    "last_success_ts": 1788622949.580342,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 18
@@ -810,20 +810,6 @@
     }
   },
   "stories": {
-    "76e8956ead79b97c27da0237993ca0f48e5bbbccb90d1517e9ac069e2f26160b": {
-      "time": 1788536242,
-      "title": "Leverage Code Review for Sustainable AI Coding Development - Communications of the ACM",
-      "desc": "Leverage Code Review for Sustainable AI Coding Development Communications of the ACM",
-      "source": "Communications of the ACM",
-      "region": "WORLD"
-    },
-    "db4413cc4ac7871a5504ec46837edc3bdf77c88e7bb9e77c1a29d6a0100e724d": {
-      "time": 1788536483,
-      "title": "Разработчик показал симуляцию выживания на Unreal Engine с автономными ИИ-жителями - PlayGround.ru",
-      "desc": "Разработчик показал симуляцию выживания на Unreal Engine с автономными ИИ-жителями PlayGround.ru",
-      "source": "PlayGround.ru",
-      "region": "RUSSIA"
-    },
     "d114edd927c95e1f882834a248ff4da0389ad774a17636050c4fdf1abe59de38": {
       "time": 1788537142,
       "title": "Цукерберг и Сандерс схлестнулись из-за регулирования ИИ - BeInCrypto",
