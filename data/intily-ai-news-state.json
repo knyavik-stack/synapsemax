@@ -385,7 +385,8 @@
     "fa914522576831c4720b2d9a972e0917f5db330afba16100ff3147d933493700": 1788584361,
     "c6249a7b1df7dec20503678ad1a83e14a52d68c5974c74f66ec44aef86528b46": 1788620235,
     "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620438,
-    "7fd658b47ad140b1a6eb75a2809de729b91d0a99423eb6b4b69c944940f06ea6": 1788620965
+    "7fd658b47ad140b1a6eb75a2809de729b91d0a99423eb6b4b69c944940f06ea6": 1788620965,
+    "24979a47bbefac5c35b362d47bb28dbff0292d3bd3c7fcb7a0b12a3f9ca262c8": 1788621205
   },
   "known": {
     "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620235.9616497,
@@ -445,24 +446,6 @@
     "5d51e0d76dfdbadd127786084d7efa42f22f60d3249cadd9a1815505b4d3d216": 1788620235.9616497
   },
   "queue": [
-    {
-      "region": "WORLD",
-      "title": "Platform risk 2.0: Why AI application builders must own their model weights - Substack",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ISVpPLXJNcXRDdmF3WmV1cWxEN1d1bWlsQVpHMVItaUpKMFBWZWJnQVEtRFZNSGFkS1FQTU8wMi00ejExdTlCRmRpTzVHRTRzRjVUUnpCMk9PWjVqOGJaU0ZIN0kza1NzQ0Q3a0F5QkRsZ1lKa3BmZWFn?oc=5",
-      "desc": "Platform risk 2.0: Why AI application builders must own their model weights Substack",
-      "source": "Substack",
-      "time": 1788611390.0,
-      "score": 73.5,
-      "key": "24979a47bbefac5c35b362d47bb28dbff0292d3bd3c7fcb7a0b12a3f9ca262c8",
-      "importance": 73.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications",
-        "models",
-        "tools"
-      ],
-      "tier": "A"
-    },
     {
       "region": "RUSSIA",
       "title": "Краснов предложил этические нормы применения ИИ в правосудии - rbc.ru",
@@ -725,20 +708,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788621042.7839186,
+    "last_start_ts": 1788621205.2677135,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788621042.7839186,
-    "last_success_ts": 1788621042.7839186,
+    "last_run_ts": 1788621205.2677135,
+    "last_success_ts": 1788621205.2677135,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 17
+    "last_published": 1,
+    "queue_size": 16
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788620969.0808449
+      "updated_at": 1788621209.5714524
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -752,13 +735,6 @@
     }
   },
   "stories": {
-    "d3fe2a28e3fff23030326a4e89969455b18e7a79ffb2446401c206dbabbbe97b": {
-      "time": 1788534801,
-      "title": "OpenAI представила самый умный ИИ - Инвест-Форсайт",
-      "desc": "OpenAI представила самый умный ИИ Инвест-Форсайт",
-      "source": "Инвест-Форсайт",
-      "region": "RUSSIA"
-    },
     "487a2d150d2ef897295990d3bc87512c8f620bd7563486698ae6af3edc639bc5": {
       "time": 1788535160,
       "title": "Минюст объявил «Новую газету» иноагентом - kommersant.ru",
@@ -1584,10 +1560,16 @@
       "desc": "ИИ-агент GPT-6 Astra создал симуляцию внутри Unreal Engine techora.ru",
       "source": "techora.ru",
       "region": "RUSSIA"
+    },
+    "24979a47bbefac5c35b362d47bb28dbff0292d3bd3c7fcb7a0b12a3f9ca262c8": {
+      "time": 1788621205,
+      "title": "Platform risk 2.0: Why AI application builders must own their model weights - Substack",
+      "desc": "Platform risk 2.0: Why AI application builders must own their model weights Substack",
+      "source": "Substack",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -1606,8 +1588,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "RUSSIA"
+    "RUSSIA",
+    "WORLD"
   ],
   "last_search_ts": 1788620235.9616497,
-  "last_publish_ts": 1788620965.1787994
+  "last_publish_ts": 1788621205.2677135
 }
