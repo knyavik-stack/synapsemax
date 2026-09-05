@@ -569,10 +569,10 @@
         "research"
       ],
       "tier": "A",
-      "last_failed_at": 1788631627,
+      "last_failed_at": 1788631687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 1,
-      "next_retry_at": 1788631927
+      "failure_count": 2,
+      "next_retry_at": 1788632287
     },
     {
       "region": "WORLD",
@@ -589,10 +589,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788631627,
+      "last_failed_at": 1788631687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788653227
+      "failure_count": 14,
+      "next_retry_at": 1788653287
     },
     {
       "region": "RUSSIA",
@@ -648,26 +648,6 @@
       "tier": "A"
     },
     {
-      "region": "WORLD",
-      "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEpGRDlTNGJuSVd0STFvOEFpN0Nrd3l4Y3dZbEo0Q0NSTXh1ZHZVNDJJZENSOTNMb0ZDaWN4X1ZLRGw5RFZDX2J1Z3pKWF83TjdKcjdoajhKM1JLV3ZWZ01yUXd3QWZVaGFLY08xVGNJaDhGVDcweDMzZmJDTXN6NGxTOGRoMjlXSk84Q21FQlN5R2hPY2ZB?oc=5",
-      "desc": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors Yahoo Finance",
-      "source": "Yahoo Finance",
-      "time": 1788620848.0,
-      "score": 67.5,
-      "key": "0ec49241e04799dc3f8b07d58b7a378d58b2ee16b3d0beedd73f2c9bfa683ac1",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788631627,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 32,
-      "next_retry_at": 1788653227
-    },
-    {
       "region": "RUSSIA",
       "title": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ - Интерфакс",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QdIBS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QQ?oc=5",
@@ -701,10 +681,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788631627,
+      "last_failed_at": 1788631687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788636427
+      "failure_count": 6,
+      "next_retry_at": 1788641287
     },
     {
       "region": "WORLD",
@@ -721,10 +701,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788631627,
+      "last_failed_at": 1788631687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 32,
-      "next_retry_at": 1788653227
+      "failure_count": 33,
+      "next_retry_at": 1788653287
     },
     {
       "region": "RUSSIA",
@@ -762,10 +742,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788631627,
+      "last_failed_at": 1788631687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788636427
+      "failure_count": 6,
+      "next_retry_at": 1788641287
     },
     {
       "region": "RUSSIA",
@@ -801,10 +781,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788631627,
+      "last_failed_at": 1788631687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788653227
+      "failure_count": 14,
+      "next_retry_at": 1788653287
     },
     {
       "region": "WORLD",
@@ -819,10 +799,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788631627,
+      "last_failed_at": 1788631687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 13,
-      "next_retry_at": 1788653227
+      "failure_count": 14,
+      "next_retry_at": 1788653287
     },
     {
       "region": "WORLD",
@@ -837,10 +817,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788631627,
+      "last_failed_at": 1788631687,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788653227
+      "failure_count": 24,
+      "next_retry_at": 1788653287
     },
     {
       "region": "RUSSIA",
@@ -860,15 +840,35 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
+    },
+    {
+      "region": "WORLD",
+      "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEpGRDlTNGJuSVd0STFvOEFpN0Nrd3l4Y3dZbEo0Q0NSTXh1ZHZVNDJJZENSOTNMb0ZDaWN4X1ZLRGw5RFZDX2J1Z3pKWF83TjdKcjdoajhKM1JLV3ZWZ01yUXd3QWZVaGFLY08xVGNJaDhGVDcweDMzZmJDTXN6NGxTOGRoMjlXSk84Q21FQlN5R2hPY2ZB?oc=5",
+      "desc": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors Yahoo Finance",
+      "source": "Yahoo Finance",
+      "time": 1788620848.0,
+      "score": 60.0,
+      "key": "0ec49241e04799dc3f8b07d58b7a378d58b2ee16b3d0beedd73f2c9bfa683ac1",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788631687,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 33,
+      "next_retry_at": 1788653287
     }
   ],
   "health": {
-    "last_start_ts": 1788631627.609198,
+    "last_start_ts": 1788631687.3370638,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788631627.609198,
-    "last_success_ts": 1788631627.609198,
-    "last_candidates": 50,
+    "last_run_ts": 1788631687.3370638,
+    "last_success_ts": 1788631687.3370638,
+    "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
   },
@@ -890,13 +890,6 @@
     }
   },
   "stories": {
-    "e3a3252cfb6071adec53dfc3276875fdabc25d913c1ce657c3d7037c9d20cb14": {
-      "time": 1788545240,
-      "title": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access - Unite.AI",
-      "desc": "Microsoft Brings OpenAI’s GPT-6 Astra to Foundry With Limited Access Unite.AI",
-      "source": "Unite.AI",
-      "region": "WORLD"
-    },
     "99abb3bbb48e1116bd0813e4288f5cba52f74c23aa0508c7544d6c5c6a5188c4": {
       "time": 1788545421,
       "title": "Ведяхин рассказал, зачем ИИ-агентам нужно получать доступ к маркетплейсам - Восток-Медиа",
