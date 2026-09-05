@@ -461,10 +461,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788645583,
+      "last_failed_at": 1788645647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788646783
+      "failure_count": 4,
+      "next_retry_at": 1788648047
     },
     {
       "region": "WORLD",
@@ -482,10 +482,10 @@
         "security_regulation"
       ],
       "tier": "A",
-      "last_failed_at": 1788645583,
+      "last_failed_at": 1788645647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788667183
+      "failure_count": 16,
+      "next_retry_at": 1788667247
     },
     {
       "region": "WORLD",
@@ -503,10 +503,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788645583,
+      "last_failed_at": 1788645647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 3,
-      "next_retry_at": 1788646783
+      "failure_count": 4,
+      "next_retry_at": 1788648047
     },
     {
       "region": "WORLD",
@@ -524,10 +524,10 @@
         "applications"
       ],
       "tier": "A",
-      "last_failed_at": 1788645583,
+      "last_failed_at": 1788645647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788667183
+      "failure_count": 16,
+      "next_retry_at": 1788667247
     },
     {
       "region": "RUSSIA",
@@ -565,28 +565,10 @@
         "chips"
       ],
       "tier": "A",
-      "last_failed_at": 1788645583,
+      "last_failed_at": 1788645647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 46,
-      "next_retry_at": 1788667183
-    },
-    {
-      "region": "WORLD",
-      "title": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 - INDIA New England News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2N2QUNkQkFnODd3Q2FENHVSUERPOGh0b190d3U5RTRaUUFwMFFJWWlFZDNQWEhQM2ljWW44YnJxTVFIdWc4QUljN0pRM05FZ1VUYXNpTUJVZUFiaWo1ZHJyaWRrTlJGU3J3Y0tCMVpoMHlUbXBQWEN1RnVSTDFkbFY0ZWtVWVVwR0gySXJzenUwV0FSYi0zQ253OUxIRXB2eVhN?oc=5",
-      "desc": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 INDIA New England News",
-      "source": "INDIA New England News",
-      "time": 1788634839.0,
-      "score": 67.5,
-      "key": "794772b61d9fe5282d3bcaf0344d0e78f59ca75935995ff0b983bedfcbf18413",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788645583,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 46,
-      "next_retry_at": 1788667183
+      "failure_count": 47,
+      "next_retry_at": 1788667247
     },
     {
       "region": "RUSSIA",
@@ -644,10 +626,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788645583,
+      "last_failed_at": 1788645647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788667183
+      "failure_count": 16,
+      "next_retry_at": 1788667247
     },
     {
       "region": "RUSSIA",
@@ -727,10 +709,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788645583,
+      "last_failed_at": 1788645647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 80,
-      "next_retry_at": 1788667183
+      "failure_count": 81,
+      "next_retry_at": 1788667247
     },
     {
       "region": "WORLD",
@@ -747,10 +729,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788645583,
+      "last_failed_at": 1788645647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 59,
-      "next_retry_at": 1788667183
+      "failure_count": 60,
+      "next_retry_at": 1788667247
     },
     {
       "region": "WORLD",
@@ -767,10 +749,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788645583,
+      "last_failed_at": 1788645647,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 46,
-      "next_retry_at": 1788667183
+      "failure_count": 47,
+      "next_retry_at": 1788667247
     },
     {
       "region": "RUSSIA",
@@ -839,14 +821,32 @@
         "agents"
       ],
       "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 - INDIA New England News",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2N2QUNkQkFnODd3Q2FENHVSUERPOGh0b190d3U5RTRaUUFwMFFJWWlFZDNQWEhQM2ljWW44YnJxTVFIdWc4QUljN0pRM05FZ1VUYXNpTUJVZUFiaWo1ZHJyaWRrTlJGU3J3Y0tCMVpoMHlUbXBQWEN1RnVSTDFkbFY0ZWtVWVVwR0gySXJzenUwV0FSYi0zQ253OUxIRXB2eVhN?oc=5",
+      "desc": "AI Boom Pushes Global Billionaire Wealth to Record $15.1 Trillion in 2025 INDIA New England News",
+      "source": "INDIA New England News",
+      "time": 1788634839.0,
+      "score": 60.0,
+      "key": "794772b61d9fe5282d3bcaf0344d0e78f59ca75935995ff0b983bedfcbf18413",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788645647,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 47,
+      "next_retry_at": 1788667247
     }
   ],
   "health": {
-    "last_start_ts": 1788645583.0506341,
+    "last_start_ts": 1788645647.0595973,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788645583.0506341,
-    "last_success_ts": 1788645583.0506341,
+    "last_run_ts": 1788645647.0595973,
+    "last_success_ts": 1788645647.0595973,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
@@ -869,13 +869,6 @@
     }
   },
   "stories": {
-    "c6f1cef7a02a85ceb9d80cff1796597bed6f59d2d1e66bd962f4142a002c3867": {
-      "time": 1788559220,
-      "title": "Rhombus Systems' AI security robot will be able to roam sites autonomously - The Business Journals",
-      "desc": "Rhombus Systems' AI security robot will be able to roam sites autonomously The Business Journals",
-      "source": "The Business Journals",
-      "region": "WORLD"
-    },
     "8586e2cc6243051ecdf5a47ce01f4e7099bd8ecdfe018d964f84799bf4cd62bf": {
       "time": 1788559580,
       "title": "The rise of AI agents: Why businesses still need to keep a hand on the wheel - digitaljournal.com",
