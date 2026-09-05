@@ -425,12 +425,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788572540.2372556,
+    "last_start_ts": 1788572601.0978394,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788572540.2372556,
-    "last_success_ts": 1788572540.2372556,
-    "last_candidates": 32,
+    "last_run_ts": 1788572601.0978394,
+    "last_success_ts": 1788572601.0978394,
+    "last_candidates": 29,
     "last_published": 0,
     "queue_size": 0
   },
@@ -452,13 +452,6 @@
     }
   },
   "stories": {
-    "8ab6e2194ea3ae9f95ff616b9e71811366464517625c0c64eed02c151928666f": {
-      "time": 1788486174,
-      "title": "Alcatraz AI Names Bobby Louissaint Head of Business Development - 01net",
-      "desc": "Alcatraz AI Names Bobby Louissaint Head of Business Development 01net",
-      "source": "01net",
-      "region": "WORLD"
-    },
     "e693f2755b7c5afbcba14373f2f6085f134d98fbd61d8086d2dbadff7af46b62": {
       "time": 1788486534,
       "title": "Telestream AI-Boosted Resolution Upscaling Powered by NVIDIA - Content + Technology",
@@ -1994,6 +1987,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788572540.2372556,
+  "last_search_ts": 1788572601.0978394,
   "last_publish_ts": 1788571880.4870455
 }
