@@ -368,22 +368,10 @@
     "dfa96c3499273e9f639349df2895dd2f9da83431d7698e726ea44f40cc8896ba": 1788573740,
     "b218a5eaa8e6cfbc744baf3d38f8b40d8f7b68c79c6b14247eaec0ef96bd85d8": 1788574041,
     "644df3b525ca77e77dce33306f0b56f18c74d9d42fc8d159689dc1b1455bf984": 1788574341,
-    "7c73802d3232061b19419a5ce37714c6e7176df33dff7a2b3ecb27955d41d5a9": 1788574736
+    "7c73802d3232061b19419a5ce37714c6e7176df33dff7a2b3ecb27955d41d5a9": 1788574736,
+    "e09b60566453a7067efb0b2b0a3fe97bc9abd851b9f8d21aef0aaf57b0977f75": 1788575002
   },
   "known": {
-    "d6d88b51197a988e70f14d627b53f939ff259974c89e27b638669c80fb1ad00a": 1788553285.8830574,
-    "58dc8c7b474f471d4cd4701b52f9a1259e10dc5c5bf560c66a86ecbfd1fed635": 1788553285.8830574,
-    "199606eef8582172d1e0b3dbf5a8053215387134932fa244e519a1676a5abb3c": 1788553285.8830574,
-    "3aa25e19eaee63047048e09e88965256851aa4c3ad4ff386d2298b17d511bf57": 1788553285.8830574,
-    "58d01e10ebec3f1da3abc748f4cc05fb04db8a94b7b3a42c77dc343c06534951": 1788553285.8830574,
-    "b8907cffad891a9006bb9f5c8a9a0583a3d012f2c4f2667b832af62861499397": 1788553285.8830574,
-    "0b75e7e8de78027bc82575f1492aed1acdfa13db5fd666f6debae7ccf521fb81": 1788553285.8830574,
-    "ba5af473673dd5069afdef4b21734adb66c1b3e782747c0988ae0d79c343d6d9": 1788553285.8830574,
-    "f1d68c5a39ac54ad38f4db346552ef4470478645e082fa73efb3dd758c5430e9": 1788553285.8830574,
-    "3e01b9bf881dd2e687a5c867366c37063bc8094fdec0cc0d33d546afdb1cbd5e": 1788553285.8830574,
-    "da7f988c3a3d7642c71b349fb681d8faeaa99b5950e89b1ab21b44a0f898002b": 1788553285.8830574,
-    "bde0ab7781e0a9407490f90df3f6b773dba81768c43b9f2e1f4dac824c05cdf9": 1788553285.8830574,
-    "8e81f28ea242f0d464992aff79db83bfe0fb480dd67fb4b47038de60d9939365": 1788553285.8830574,
     "de5e5b31d88dfb5bf9a798fa4c250f1d37c02694e8e201bfeac4bc375a12b449": 1788555201.4978535,
     "e96380c0541ad6e114116f966ad2eedb4341fbf53edf249504764646d60fef7c": 1788555201.4978535,
     "39d161467fd8c9b040065ad6da5d208eb18f82c8eb605b44a752a915644cf1c3": 1788555201.4978535,
@@ -438,22 +426,6 @@
   "queue": [
     {
       "region": "WORLD",
-      "title": "OpenAI, Anthropic, Google and Meta All Ship New Models — With the Same Catch - Wowtale",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HYlI1cEJkYW11ZzNSNEpaUkhQaWR6NVBkdll5WElvZ2ZCeTkzVng3OE1jamx5RnBXSkVmVzlWVkNKMmZBTXJ3MFc4dnFnVjRZSzBR?oc=5",
-      "desc": "OpenAI, Anthropic, Google and Meta All Ship New Models — With the Same Catch Wowtale",
-      "source": "Wowtale",
-      "time": 1788565814.0,
-      "score": 67.5,
-      "key": "e09b60566453a7067efb0b2b0a3fe97bc9abd851b9f8d21aef0aaf57b0977f75",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "WORLD",
       "title": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay - Stocktwits",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT09KdTcxbHhTNU14dW11NmxWQ1ppOGV5Y0g5UTJBQzVwdl9jOGFxU1kwQXZUblU3MC1obnNYaXVsU2NRem44M2p4OWVpWUU4VlV2a1JEMTlTSng5dFU1aXd5VnAzb0V2VWN4dS15MUlFMF82TDFQaUtEYldEUll2OGFpUE84LVVRQXJpeXhQSXpldlZ6dXl4Tk50RjVMNnh0aWxuLWlVam0xTVE5RkJRZzlJRnlRZWJzeUdIUEdFTjhQNUNFb3FRb2oyV2pnNGVuZlpDQ0k4SlNIQnBhZFdVSHFR?oc=5",
       "desc": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay Stocktwits",
@@ -487,20 +459,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788574736.8575807,
+    "last_start_ts": 1788575002.0918076,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788574736.8575807,
-    "last_success_ts": 1788574736.8575807,
+    "last_run_ts": 1788575002.0918076,
+    "last_success_ts": 1788575002.0918076,
     "last_candidates": 0,
     "last_published": 1,
-    "queue_size": 3
+    "queue_size": 2
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788574738.522246
+      "updated_at": 1788575006.0399573
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2018,11 +1990,17 @@
       "desc": "Snowflake Rose 22% After Its AI Coding Agent Drove a Third Straight Quarter of Accelerating Growth The Eastern Herald",
       "source": "The Eastern Herald",
       "region": "WORLD"
+    },
+    "e09b60566453a7067efb0b2b0a3fe97bc9abd851b9f8d21aef0aaf57b0977f75": {
+      "time": 1788575002,
+      "title": "OpenAI, Anthropic, Google and Meta All Ship New Models — With the Same Catch - Wowtale",
+      "desc": "OpenAI, Anthropic, Google and Meta All Ship New Models — With the Same Catch Wowtale",
+      "source": "Wowtale",
+      "region": "WORLD"
     }
   },
   "publication_regions": [
     "RUSSIA",
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2039,9 +2017,10 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
+    "WORLD",
     "WORLD",
     "WORLD"
   ],
   "last_search_ts": 1788574161.4719007,
-  "last_publish_ts": 1788574736.8575807
+  "last_publish_ts": 1788575002.0918076
 }
