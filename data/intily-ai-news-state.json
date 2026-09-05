@@ -458,9 +458,51 @@
     "e8be978f746aec4772c07ed9cf5cadcf2591fb6c2eef84e2ebf792c9b66fe44c": 1788623907.335521,
     "eb584ab9e787138d4e4c4c324765f81d2ba73df831cc7b3a91ce78130a4281b6": 1788623907.335521,
     "2ac7bae426f9b416b9bb444124b401a2e0a5ac58e8d8faa3049c93eeda0a4a7c": 1788623907.335521,
-    "69a9f57d973d9a9bc893903ec9b2dbb89924e8d1ceb6e35f25dab98301f293ff": 1788623907.335521
+    "69a9f57d973d9a9bc893903ec9b2dbb89924e8d1ceb6e35f25dab98301f293ff": 1788623907.335521,
+    "4de0ca8a7dcf932a0d4b54c1d523e7bac2ef6368ce369f944ba2cea0f82669ed": 1788625828.8542562,
+    "38fd77970d0781c7e94ecaf3bf75ac05fac50831ca9a822a9557656427e54dd7": 1788625828.8542562,
+    "0b461112fa873f396ace12ebbcfa95d992d12fd8f8e56803f8cb9e9c223ffabe": 1788625828.8542562,
+    "6ac8c4d61036cd51a1483feef3256e95b8482d735585304952c3ac974361e41d": 1788625828.8542562,
+    "4d1465178cd1f1deb832c2d219c58849f12870e803b166d2b3b17ac82b4ed445": 1788625828.8542562,
+    "a166fb5ef8a3a3306096183548cc313c12a602a3e650c706fa681a8d5ef70b3a": 1788625828.8542562,
+    "51584d6f8f69988e0c7b81451fd0d13c5a3081ba160960226b5e4152bd3193bc": 1788625828.8542562
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVBBOGp2UWtzT1MwQkhnTzFTQmV0OUdqcGw5ZDFUMGY2N3ROQWdnX2ZnV25nd1UwOEtTRVJqNHNrU2c0ZFVuR1pScEQ4bVZqUVhXYkJITHgxS0pSbXdUSEZ0ODVqTzd0d1B4WVhWTVJpZVQyVlNaM3dHT1lvRFZIemhYVDNmSE0wWDQ0TU1zaGNFOE1vSE55M01lemF3TkcwX0JPenVMSnZjMWQ1WmREUE5pNVcxU3FFcjMydXFtcG5VYzY1TEw0bzdObnNLOHljVU9sSEU5dlh6UQ?oc=5",
+      "desc": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788625347.0,
+      "score": 79.4,
+      "russia_weight_bonus": 2.9,
+      "key": "4de0ca8a7dcf932a0d4b54c1d523e7bac2ef6368ce369f944ba2cea0f82669ed",
+      "importance": 79.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "security_regulation"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Adobe купила индийский стартап Rilo для AI-агентов - Techora.ru",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcHFhZTBsc0FodmotdFZkamw5dWdxQ3VFRGktNGFMOC1kZk9aVkFSZ2lBYmZ4eDZpenhtMHhSV2JvbkFGczJoTlpJRTZrUkE5UXRUQ3o5MDR3cGF6WWpTcGRNckF6MUxXcjh3R2RDd0pCTjhOaVpYd3lINlBmVHBSMw?oc=5",
+      "desc": "Adobe купила индийский стартап Rilo для AI-агентов Techora.ru",
+      "source": "Techora.ru",
+      "time": 1788624288.0,
+      "score": 75.7,
+      "russia_weight_bonus": 3.2,
+      "key": "38fd77970d0781c7e94ecaf3bf75ac05fac50831ca9a822a9557656427e54dd7",
+      "importance": 75.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A"
+    },
     {
       "region": "RUSSIA",
       "title": "NEURA Robotics и Qualcomm объединяют «мозг и нервную систему» для роботов нового поколения - prospect.com.ru",
@@ -481,6 +523,23 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды - 24 Канал",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYnl5aVdFWnJFdnFvQjhtZWh5U19RSi1FTWNfcVI3anV4b2xKREkyajAyeG9YMEJHdzNXcUxVSXM5N2NaeEdGSk54SHlkQjVDMDNvVnE4eHpmcV9LMy1DemJyclpGVjZwTDhLSGVNd2lZbzE4WHBzTEJVRjB3VDRxVTRXRW94MEtjdzg5MEV6R1l0ZTdiZ2xJU0dldTI5Qmc1SDJZU0JqbXVoMGRjQ1piSE5zOW5udHfSAbwBQVVfeXFMTXVFU0JTbmt0S1FxUmJlNm1XbDlKREJ3Tzk3cnY5TjhvRnhBcFU5NGpwYjZlUFZETU9MTUs5dkU3N2V5MlItbDNFSGlja0RoRldFSFB0RDQ0TEhHQXhTUFFoYTRsMHNYLW1PbVgxdUtkaXFRQV9JT0c1akZwaGNxUzgtX09uanNod0pkWEtYa0VuYlRDX3lvZWtzdENHYzJHN21tTHFQUHdDY2s3cWRLRU5CTGt6VXVMQUk5blc?oc=5",
+      "desc": "Кибербезопасность в эпоху ИИ: как жить и пользоваться интернетом, когда всё ломают за секунды 24 Канал",
+      "source": "24 Канал",
+      "time": 1788624060.0,
+      "score": 70.7,
+      "russia_weight_bonus": 2.2,
+      "key": "0b461112fa873f396ace12ebbcfa95d992d12fd8f8e56803f8cb9e9c223ffabe",
+      "importance": 70.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "security_regulation"
+      ],
+      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -519,10 +578,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788625532,
+      "last_failed_at": 1788625828,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788647132
+      "failure_count": 10,
+      "next_retry_at": 1788647428
     },
     {
       "region": "RUSSIA",
@@ -579,10 +638,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788625532,
+      "last_failed_at": 1788625828,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788647132
+      "failure_count": 10,
+      "next_retry_at": 1788647428
     },
     {
       "region": "RUSSIA",
@@ -637,10 +696,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788625532,
+      "last_failed_at": 1788625828,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788647132
+      "failure_count": 10,
+      "next_retry_at": 1788647428
     },
     {
       "region": "WORLD",
@@ -657,10 +716,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788625532,
+      "last_failed_at": 1788625828,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788647132
+      "failure_count": 10,
+      "next_retry_at": 1788647428
     },
     {
       "region": "WORLD",
@@ -677,10 +736,10 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788625532,
+      "last_failed_at": 1788625828,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788647132
+      "failure_count": 10,
+      "next_retry_at": 1788647428
     },
     {
       "region": "WORLD",
@@ -697,10 +756,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788625532,
+      "last_failed_at": 1788625828,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788647132
+      "failure_count": 10,
+      "next_retry_at": 1788647428
     },
     {
       "region": "WORLD",
@@ -717,28 +776,28 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788625532,
+      "last_failed_at": 1788625828,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788647132
+      "failure_count": 10,
+      "next_retry_at": 1788647428
     },
     {
       "region": "WORLD",
-      "title": "Haier Showcases AI-Powered Smart Home Ecosystem at IFA 2026 - The Malaysian Reserve",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa3p5RTJlVG5GS2xabDUzZ0N0VmxwTEhJWElRemExem1jdy1XbHZhTG9iSXR6S0tmdjgxMWQwd0xIWDFFSC1LX1dMWHR0UEc4bkVGUGdGTTJ0eTl5NUVxY3ZiajRCWGF1Y3lmWnVPVUF3bmhHTTIxeE9aRk5wTlUzSVNTdzJnaVU0YnkzcEdFVzlWTlhERUU0LWJ3NWY3Qk1GSE5xdTlR?oc=5",
-      "desc": "Haier Showcases AI-Powered Smart Home Ecosystem at IFA 2026 The Malaysian Reserve",
-      "source": "The Malaysian Reserve",
-      "time": 1788622842.0,
+      "title": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' - ibtimes.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbTgtTjU3dFFFbHhWcEVyalVEMHdZbm5QXzFkMkU2NzNDYklRNWlKSTk4Y2dLVy1KVEVLaWE3TUtETFRhVVFDdnVGN2paV05jX0hCNWsyUEdNa3dvZjJGejlxcURjVUVwZ0hjQ0Vzb1BXNGVEZDhCb2Y0RExtaGRRcWM1aUJKbE9MeVNUTWFWMTQ?oc=5",
+      "desc": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' ibtimes.co.uk",
+      "source": "ibtimes.co.uk",
+      "time": 1788625192.0,
       "score": 66.5,
-      "key": "d78a20f877efd2fe444aa0279c0502213a05a9afed6182b8b42c077ba8bd9ed9",
+      "key": "6ac8c4d61036cd51a1483feef3256e95b8482d735585304952c3ac974361e41d",
       "importance": 66.5,
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788625532,
+      "last_failed_at": 1788625828,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 9,
-      "next_retry_at": 1788647132
+      "failure_count": 1,
+      "next_retry_at": 1788626128
     },
     {
       "region": "RUSSIA",
@@ -800,64 +859,15 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Суды не допустят делегирования итогового решения ИИ — Краснов - РАПСИ",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nNVdnN3VPRTR1aUI5MFBlS2VuTVZWdUh1SEZvUWRrX18zc2dOOF9vc0FXY05IbjFqLXJBSklSZDFMZTN3SWhtZjlFcHhyYnc5TnJzd3BfMDlVOTYyUDRhSWlnS1BEZV95aHc?oc=5",
-      "desc": "Суды не допустят делегирования итогового решения ИИ — Краснов РАПСИ",
-      "source": "РАПСИ",
-      "time": 1788606321.0,
-      "score": 60.6,
-      "russia_weight_bonus": 4.6,
-      "key": "eb584ab9e787138d4e4c4c324765f81d2ba73df831cc7b3a91ce78130a4281b6",
-      "importance": 60.6,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии - РАПСИ",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82elhJcDdqZU01Vng4dnBQazJxQjV2c1lSZ0xQZVBvUDVsNU00X1NETDQyT0J3MjVoNVplZmt2a255WW1fRmk3TjJUZlUwMEczaElESF80X1JwNjNqR1NyQ05nSm05Q1E2UGNWcHFR?oc=5",
-      "desc": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии РАПСИ",
-      "source": "РАПСИ",
-      "time": 1788611717.0,
-      "score": 60.5,
-      "russia_weight_bonus": 4.5,
-      "key": "b3b6836201cc8ad894e112b74458265a29c9784ce394b690822113d540a8b868",
-      "importance": 60.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
-      "region": "RUSSIA",
-      "title": "В российских судах начали применять искусственный интеллект в пилотном режиме - Краснов (версия 3) - lenta.profinansy.ru",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SzU0UzhHR3JvT3g2UkdleHJ0VmRXUVRjSWRYWGFrX251RG8yS1kxWlFCbFVGMDRYcTdMSXJGYWh0U2xjNm12bERQSGp2a1EzUFpv?oc=5",
-      "desc": "В российских судах начали применять искусственный интеллект в пилотном режиме - Краснов (версия 3) lenta.profinansy.ru",
-      "source": "lenta.profinansy.ru",
-      "time": 1788609841.0,
-      "score": 60.4,
-      "russia_weight_bonus": 4.4,
-      "key": "833cc4f26b34cbc96df2136a8c066b7bf5e1a5be3d7a44b61af11954d18a4699",
-      "importance": 60.4,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788625532.2513442,
+    "last_start_ts": 1788625828.8542562,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788625532.2513442,
-    "last_success_ts": 1788625532.2513442,
-    "last_candidates": 0,
+    "last_run_ts": 1788625828.8542562,
+    "last_success_ts": 1788625828.8542562,
+    "last_candidates": 52,
     "last_published": 0,
     "queue_size": 20
   },
@@ -879,13 +889,6 @@
     }
   },
   "stories": {
-    "5ee64de67eadf32c1ba1c91a6744973604152f6a8f5d56c26b2cb8d365b058d2": {
-      "time": 1788539359,
-      "title": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 - Robotics Tomorrow",
-      "desc": "FANUC America Brings Robotics, Automation, Physical AI and CNC Innovation to IMTS 2026 Robotics Tomorrow",
-      "source": "Robotics Tomorrow",
-      "region": "WORLD"
-    },
     "20865dfbf32c7a2c0462c9d16c52ea9e781e9667fa278418d423d1480ada6e49": {
       "time": 1788539542,
       "title": "Математики научили ИИ-модели общаться без слов - forklog.com",
@@ -1665,6 +1668,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788623907.335521,
+  "last_search_ts": 1788625828.8542562,
   "last_publish_ts": 1788622283.4029808
 }
