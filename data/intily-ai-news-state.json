@@ -431,12 +431,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788570979.5044467,
+    "last_start_ts": 1788571159.6948237,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788570979.5044467,
-    "last_success_ts": 1788570979.5044467,
-    "last_candidates": 34,
+    "last_run_ts": 1788571159.6948237,
+    "last_success_ts": 1788571159.6948237,
+    "last_candidates": 29,
     "last_published": 0,
     "queue_size": 0
   },
@@ -458,13 +458,6 @@
     }
   },
   "stories": {
-    "2273deb82329da6dfac084adcffa116204106d0e535c99ca85687ee8e73cbf03": {
-      "time": 1788484674,
-      "title": "AIX Deepens Anthropic Bet as AI Portfolio Nears 60% Deployment - TipRanks",
-      "desc": "AIX Deepens Anthropic Bet as AI Portfolio Nears 60% Deployment TipRanks",
-      "source": "TipRanks",
-      "region": "WORLD"
-    },
     "24b009e57e6b2a72e40695ceab24fbba467c1b4e49dfbadfa9e729fa55942d06": {
       "time": 1788484855,
       "title": "Comcast Unveils Next-Gen Video AI Applications - Content + Technology",
@@ -2014,6 +2007,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788570979.5044467,
+  "last_search_ts": 1788571159.6948237,
   "last_publish_ts": 1788569600.1822982
 }
