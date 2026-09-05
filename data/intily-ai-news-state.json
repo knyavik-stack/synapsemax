@@ -448,12 +448,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788566961.5872576,
+    "last_start_ts": 1788567020.8959968,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788566961.5872576,
-    "last_success_ts": 1788566961.5872576,
-    "last_candidates": 47,
+    "last_run_ts": 1788567020.8959968,
+    "last_success_ts": 1788567020.8959968,
+    "last_candidates": 40,
     "last_published": 0,
     "queue_size": 0
   },
@@ -475,13 +475,6 @@
     }
   },
   "stories": {
-    "1767a453d9b6dbbd6ca0de62fc2369239a5bb7a9dbbc337b07995dddcec38799": {
-      "time": 1788480596,
-      "title": "AI Model Detects Solar Storm Warning Signs Hours in Advance - ColombiaOne.com",
-      "desc": "AI Model Detects Solar Storm Warning Signs Hours in Advance ColombiaOne.com",
-      "source": "ColombiaOne.com",
-      "region": "WORLD"
-    },
     "edd3e76256db96ef7bed1b58bfde8f6adea573cc427cce3456a5e9bb12f28dc9": {
       "time": 1788480894,
       "title": "GPT-6 Astra Reaches Human-Level Computer Use — and OpenAI Locks the Cyber Door Behind It - techi.com",
@@ -2101,6 +2094,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788566961.5872576,
+  "last_search_ts": 1788567020.8959968,
   "last_publish_ts": 1788566300.563336
 }
