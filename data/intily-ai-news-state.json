@@ -418,12 +418,12 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788582439.6470113,
+    "last_start_ts": 1788582560.1555014,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788582439.6470113,
-    "last_success_ts": 1788582439.6470113,
-    "last_candidates": 22,
+    "last_run_ts": 1788582560.1555014,
+    "last_success_ts": 1788582560.1555014,
+    "last_candidates": 26,
     "last_published": 0,
     "queue_size": 0
   },
@@ -445,13 +445,6 @@
     }
   },
   "stories": {
-    "bf00ab760e727011b3c20f125efa35b4e33c26cf432dc6ed461de6ce9754f13a": {
-      "time": 1788496135,
-      "title": "Georgia Tech Researchers Share AI Cyber Challenge Lessons at USENIX Security 2026 - Georgia Institute of Technology",
-      "desc": "Georgia Tech Researchers Share AI Cyber Challenge Lessons at USENIX Security 2026 Georgia Institute of Technology",
-      "source": "Georgia Institute of Technology",
-      "region": "WORLD"
-    },
     "67556d08be870b8c71623c41701d28db2500ff38087cc1faf41be2bf3c643c12": {
       "time": 1788496374,
       "title": "Where Does $100 of AI Capex Flow? Unpack Full AI Infrastructure Cost Chain - Moomoo",
@@ -1903,6 +1896,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788582439.6470113,
+  "last_search_ts": 1788582560.1555014,
   "last_publish_ts": 1788582260.5670989
 }
