@@ -387,7 +387,8 @@
     "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620438,
     "7fd658b47ad140b1a6eb75a2809de729b91d0a99423eb6b4b69c944940f06ea6": 1788620965,
     "24979a47bbefac5c35b362d47bb28dbff0292d3bd3c7fcb7a0b12a3f9ca262c8": 1788621205,
-    "77b59093be0f67183aa204158094db9fe371c38545d823ba056798c9856a37a8": 1788622047
+    "77b59093be0f67183aa204158094db9fe371c38545d823ba056798c9856a37a8": 1788622047,
+    "98f4c1d1d28db779fb983fc0fcd9ca4f400ce9c5f1b11aebeb861f20d5b87a2a": 1788622283
   },
   "known": {
     "0e3f2c82d27a589a64b9447f6695f98ac99bad03330a69d0e90c6051060c4ddf": 1788620235.9616497,
@@ -455,23 +456,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Краснов предложил этические нормы применения ИИ в правосудии - rbc.ru",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vUXBaU0xyTnlQR3J1Zk00ZVFZa0ZOREVISHFnV2dMLWJaRnU4TjBjRDQ4NjJ6aEttQ0xZczk0RkJLRnlnR3o3cEVydHJlVEtQQnhRdC1OVFFxU0FHQWNiYVdLWkNqWXAzZ1lCc1JSTURLd0Z2YVE?oc=5",
-      "desc": "Краснов предложил этические нормы применения ИИ в правосудии rbc.ru",
-      "source": "rbc.ru",
-      "time": 1788613173.0,
-      "score": 73.2,
-      "russia_weight_bonus": 4.7,
-      "key": "98f4c1d1d28db779fb983fc0fcd9ca4f400ce9c5f1b11aebeb861f20d5b87a2a",
-      "importance": 73.2,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNZWEVEdW9ZUElwS1pHRjdrenI2N2QxcTNuUERNSnZ3a3lFOVhyTU1lOEJsaWxudDZQWGdPLUhqUzdkVHQzYnZyalZFcWpjY2pnRDBGdnNSM3VyMzhRdGI1bFNPcXFQeWxZQmpHYW5VWUk1UHVwSEVybUMzbmhyMmFhZFkzMG53SkRCN0Z1UEl1VGR1RUZxanlfTDFQXzJPeFhR?oc=5",
       "desc": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома prospect.com.ru",
@@ -483,23 +467,6 @@
       "importance": 73.1,
       "editorial_value": 50.0,
       "topics": [],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии - Рамблер",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLUhTZUR0V2lwemxHbjJwTUw1dzhtMXNNMloxN3Job3RrYllfcXE3bGJPZ0ZmWjZUZ0MzMWxTNm9CME9HOXhOZmFoSG9NV1JBUDZmZXViRkJUejF4aHE0UWNUMVJ5dXBrRVI0cEJHZGg5OVp2UkRFQlQyMTkzajlVS3dHY2VuRXFid3drSXZuT0FlM1ZHemcyMDExdFJ4Y3NOZmxKaTF1OVpUMk1sSXBLNDl2d05WOEE0WHQxSXk0MGo5dTRNQ0HSAcYBQVVfeXFMTi1IU2VEdFdpcHpsR24ycE1MNXc4bTFzTTJaMTdyaG90a2JZX3FxN2xiT2dGZlo2VGdDMzFsUzZvQjBPRzl4TmZhaEhvTVdSQVA2ZmV1YkZCVHoxeGhxNFFjVDFSeXVwa0VSNHBCR2RoOTladlJERUJUMjE5M2o5VUt3R2NlbkVxYnd3a0l2bk9BZTNWR3pnMjAxMXRSeGNzTmZsSmkxdTlaVDJNbElwSzQ5dndOVjhBNFh0MUl5NDBqOXU0TUNB?oc=5",
-      "desc": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии Рамблер",
-      "source": "Рамблер",
-      "time": 1788611404.0,
-      "score": 73.1,
-      "russia_weight_bonus": 4.6,
-      "key": "2a0ce0aa51cc35540fcaf041e4fae8f48941f5e8a7c15da3cea3545a8524fcda",
-      "importance": 73.1,
-      "editorial_value": 50.0,
-      "topics": [
-        "applications"
-      ],
       "tier": "A"
     },
     {
@@ -712,6 +679,23 @@
       "tier": "A"
     },
     {
+      "region": "RUSSIA",
+      "title": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии - Рамблер",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLUhTZUR0V2lwemxHbjJwTUw1dzhtMXNNMloxN3Job3RrYllfcXE3bGJPZ0ZmWjZUZ0MzMWxTNm9CME9HOXhOZmFoSG9NV1JBUDZmZXViRkJUejF4aHE0UWNUMVJ5dXBrRVI0cEJHZGg5OVp2UkRFQlQyMTkzajlVS3dHY2VuRXFid3drSXZuT0FlM1ZHemcyMDExdFJ4Y3NOZmxKaTF1OVpUMk1sSXBLNDl2d05WOEE0WHQxSXk0MGo5dTRNQ0HSAcYBQVVfeXFMTi1IU2VEdFdpcHpsR24ycE1MNXc4bTFzTTJaMTdyaG90a2JZX3FxN2xiT2dGZlo2VGdDMzFsUzZvQjBPRzl4TmZhaEhvTVdSQVA2ZmV1YkZCVHoxeGhxNFFjVDFSeXVwa0VSNHBCR2RoOTladlJERUJUMjE5M2o5VUt3R2NlbkVxYnd3a0l2bk9BZTNWR3pnMjAxMXRSeGNzTmZsSmkxdTlaVDJNbElwSzQ5dndOVjhBNFh0MUl5NDBqOXU0TUNB?oc=5",
+      "desc": "Игорь Краснов сообщил о выработке этических принципов применения ИИ в правосудии Рамблер",
+      "source": "Рамблер",
+      "time": 1788611404.0,
+      "score": 63.6,
+      "russia_weight_bonus": 4.6,
+      "key": "2a0ce0aa51cc35540fcaf041e4fae8f48941f5e8a7c15da3cea3545a8524fcda",
+      "importance": 63.6,
+      "editorial_value": 50.0,
+      "topics": [
+        "applications"
+      ],
+      "tier": "A"
+    },
+    {
       "region": "WORLD",
       "title": "OpenAI admits it needs new rules for rogue AI incidents - thenews.com.pk",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdV9BQ3dzeTM0QWxxSmNUNTRSWTVPYXdoQUU3TXVYWl92TTczdV9veWpUa2UyYm5KdC1YR0tDaDBkb3JNOWJ1UXpWRC1JWURlWE1vdkgtZEpSMFhSd2doZkxYOURJX0VicWtJUmFuY0RtOVBCVjdiTmNqLUNXVWxXUHl2WDZXTkhJZGZVbkMyNFlSSmh2dlFuNXpwbjZCd9IBmgFBVV95cUxOUXVWM0pnRFFBbllCekFJazJOUk5zTmI4ZEp6VmN3OXJsY3dvYUVzS2pBVmM3d2J5Z21HRWtvLXNYWm83SHgyWGtWZGNFUzR6YVdfVllTNnNmV3JBTzNQVDYyWjFyVHpZVi1yOHpkTWtJa2kzbXhjczhDaUt1T2E0QWd2aWlTRnVfYU0ybUZjQWF2b0RwUUs2dnZR?oc=5",
@@ -759,20 +743,20 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788622165.6359153,
+    "last_start_ts": 1788622283.4029808,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788622165.6359153,
-    "last_success_ts": 1788622165.6359153,
+    "last_run_ts": 1788622283.4029808,
+    "last_success_ts": 1788622283.4029808,
     "last_candidates": 0,
-    "last_published": 0,
-    "queue_size": 19
+    "last_published": 1,
+    "queue_size": 18
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788622066.9063497
+      "updated_at": 1788622285.2693064
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -1604,6 +1588,13 @@
       "desc": "Nvidia Announces $12.9 Billion Hugging Face Acquisition to Expand Open Source AI mezha.net",
       "source": "mezha.net",
       "region": "WORLD"
+    },
+    "98f4c1d1d28db779fb983fc0fcd9ca4f400ce9c5f1b11aebeb861f20d5b87a2a": {
+      "time": 1788622283,
+      "title": "Краснов предложил этические нормы применения ИИ в правосудии - rbc.ru",
+      "desc": "Краснов предложил этические нормы применения ИИ в правосудии rbc.ru",
+      "source": "rbc.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
@@ -1612,7 +1603,6 @@
     "WORLD",
     "WORLD",
     "WORLD",
-    "WORLD",
     "RUSSIA",
     "RUSSIA",
     "WORLD",
@@ -1626,8 +1616,9 @@
     "RUSSIA",
     "RUSSIA",
     "WORLD",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
   "last_search_ts": 1788622047.4913738,
-  "last_publish_ts": 1788622047.4913738
+  "last_publish_ts": 1788622283.4029808
 }
