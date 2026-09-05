@@ -454,18 +454,18 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788576859,
+      "last_failed_at": 1788577042,
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
-      "failure_count": 6,
-      "next_retry_at": 1788586459
+      "failure_count": 7,
+      "next_retry_at": 1788596242
     }
   ],
   "health": {
-    "last_start_ts": 1788576859.8764865,
+    "last_start_ts": 1788577042.6445642,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788576859.8764865,
-    "last_success_ts": 1788576859.8764865,
+    "last_run_ts": 1788577042.6445642,
+    "last_success_ts": 1788577042.6445642,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 2
@@ -474,7 +474,7 @@
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788576866.3868518
+      "updated_at": 1788577046.050938
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
