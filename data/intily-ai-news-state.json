@@ -451,7 +451,14 @@
     "e5016b4e98d88336bc627e8500676d6590824f6a4bdcf66c85dc28f061ff1b63": 1788622047.4913738,
     "efd444a3307ecb1d7e05797b8a49b088a2590b7ecd905e0b72f5f695289cc3fa": 1788622047.4913738,
     "80ef25e961b213ad0881f1ffea450dd572361ec89cd6e924f1666a5f4d12a72b": 1788622047.4913738,
-    "086e33eaff1fcbe3463d4e8ca806f56ee3bedf8d82ffaca4a5b2fb32cf762412": 1788622047.4913738
+    "086e33eaff1fcbe3463d4e8ca806f56ee3bedf8d82ffaca4a5b2fb32cf762412": 1788622047.4913738,
+    "0ec49241e04799dc3f8b07d58b7a378d58b2ee16b3d0beedd73f2c9bfa683ac1": 1788623907.335521,
+    "1bd094dfdcd6a7dde15e7d069536dfb2b209c2e029bd7e8c82d8450d7bc9a31e": 1788623907.335521,
+    "d78a20f877efd2fe444aa0279c0502213a05a9afed6182b8b42c077ba8bd9ed9": 1788623907.335521,
+    "e8be978f746aec4772c07ed9cf5cadcf2591fb6c2eef84e2ebf792c9b66fe44c": 1788623907.335521,
+    "eb584ab9e787138d4e4c4c324765f81d2ba73df831cc7b3a91ce78130a4281b6": 1788623907.335521,
+    "2ac7bae426f9b416b9bb444124b401a2e0a5ac58e8d8faa3049c93eeda0a4a7c": 1788623907.335521,
+    "69a9f57d973d9a9bc893903ec9b2dbb89924e8d1ceb6e35f25dab98301f293ff": 1788623907.335521
   },
   "queue": [
     {
@@ -517,6 +524,26 @@
     },
     {
       "region": "WORLD",
+      "title": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEpGRDlTNGJuSVd0STFvOEFpN0Nrd3l4Y3dZbEo0Q0NSTXh1ZHZVNDJJZENSOTNMb0ZDaWN4X1ZLRGw5RFZDX2J1Z3pKWF83TjdKcjdoajhKM1JLV3ZWZ01yUXd3QWZVaGFLY08xVGNJaDhGVDcweDMzZmJDTXN6NGxTOGRoMjlXSk84Q21FQlN5R2hPY2ZB?oc=5",
+      "desc": "Adobe Inc. (ADBE) Acquires Rilo to Accelerate Agentic AI — What It Means for Investors Yahoo Finance",
+      "source": "Yahoo Finance",
+      "time": 1788620848.0,
+      "score": 70.5,
+      "key": "0ec49241e04799dc3f8b07d58b7a378d58b2ee16b3d0beedd73f2c9bfa683ac1",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788623907,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788624207
+    },
+    {
+      "region": "WORLD",
       "title": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase - TipRanks",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORENKOXRUSFRfWFJXZ2ZiQk9yYmRzb210OUpKY0gxVGtaZDlENkxyWk5kY1VLMWw3ZGNJdlAzZncyX0x6bHZXSDZ4Tm5ESDZrUHZodTNMZTRIQmxaYVFoTkJ4ZGhqck1NczJoc2pFVGxGNmM0NWFvUlFDYTcxSGZpRVJobUYtNmZlblZfeDBteHRrNDUxcEFnNldkUy0tMnRKVndFWlgyaFdWdzEyOUhsQVE5RmpHTlZ1aWxyZlpEWFJKUTFfVDM1SkdqTzJmTy1VMzhRdXVHMFpTUQ?oc=5",
       "desc": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase TipRanks",
@@ -530,7 +557,11 @@
         "agents",
         "tools"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788623907,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788624207
     },
     {
       "region": "RUSSIA",
@@ -552,6 +583,26 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
+    },
+    {
+      "region": "WORLD",
+      "title": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation - IBTimes India",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQmJuT1NXbjhDaS1NZl9jVC1xd3dlZVV5ZHEyV0xhcFVsSFM1dnpKYlFDeGhobUU3bmw4V003UnByYzVzVGFscFdBYm81YVd4a1NvZHkydmtVUWtySDF5NnlFM0dmQmR2MmhMMkNiT3dlY0F2b2dXR0VUS1M0VEJ1RjNUaUFNRHlGZmctNE0wWi1FQmRmb1pta2tRMFAyOEs2SWJkQkdOalZsTHFld3Q1c2lUeF9jVjlz?oc=5",
+      "desc": "How Deepak T. Bahuleyan Is Helping Shape the Future of AI-Enabled Enterprise CRM Transformation IBTimes India",
+      "source": "IBTimes India",
+      "time": 1788622557.0,
+      "score": 69.5,
+      "key": "1bd094dfdcd6a7dde15e7d069536dfb2b209c2e029bd7e8c82d8450d7bc9a31e",
+      "importance": 69.5,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788623907,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788624207
     },
     {
       "region": "RUSSIA",
@@ -605,7 +656,11 @@
       "topics": [
         "models"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788623907,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788624207
     },
     {
       "region": "WORLD",
@@ -621,7 +676,11 @@
       "topics": [
         "models"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788623907,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788624207
     },
     {
       "region": "WORLD",
@@ -637,7 +696,11 @@
       "topics": [
         "agents"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788623907,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788624207
     },
     {
       "region": "WORLD",
@@ -653,24 +716,29 @@
       "topics": [
         "agents"
       ],
-      "tier": "A"
+      "tier": "A",
+      "last_failed_at": 1788623907,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788624207
     },
     {
       "region": "WORLD",
-      "title": "The First Agentic Attack: How AI Is Reshaping the Economics of Cybersecurity - forkast.news",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUVRNXpwSHh3NFdjbjIxZEw0c2NQYnVRTVVFR2ZZc1duenIxcnItcmRlS2ExWUtRZ3phRDEzd2VIWUZFeW9rNWMzaUtSUlVLWXppSWVJRS1WVmJOdzAybXJ4ZnVZeHBLeDFVMmJDTkpkbVF6cEJmNDl3U1V4UXVEbGhKYjdGQlpBR1lRak11aEJjbGtGYS1idmF2U2Fqdw?oc=5",
-      "desc": "The First Agentic Attack: How AI Is Reshaping the Economics of Cybersecurity forkast.news",
-      "source": "forkast.news",
-      "time": 1788609876.0,
-      "score": 64.0,
-      "key": "74b83e15197d6abbd18ad6a09f71775a1585077c537b9fefaded97f4c7af0e04",
-      "importance": 64.0,
+      "title": "Haier Showcases AI-Powered Smart Home Ecosystem at IFA 2026 - The Malaysian Reserve",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa3p5RTJlVG5GS2xabDUzZ0N0VmxwTEhJWElRemExem1jdy1XbHZhTG9iSXR6S0tmdjgxMWQwd0xIWDFFSC1LX1dMWHR0UEc4bkVGUGdGTTJ0eTl5NUVxY3ZiajRCWGF1Y3lmWnVPVUF3bmhHTTIxeE9aRk5wTlUzSVNTdzJnaVU0YnkzcEdFVzlWTlhERUU0LWJ3NWY3Qk1GSE5xdTlR?oc=5",
+      "desc": "Haier Showcases AI-Powered Smart Home Ecosystem at IFA 2026 The Malaysian Reserve",
+      "source": "The Malaysian Reserve",
+      "time": 1788622842.0,
+      "score": 66.5,
+      "key": "d78a20f877efd2fe444aa0279c0502213a05a9afed6182b8b42c077ba8bd9ed9",
+      "importance": 66.5,
       "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "security_regulation"
-      ],
-      "tier": "A"
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788623907,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 1,
+      "next_retry_at": 1788624207
     },
     {
       "region": "RUSSIA",
@@ -692,20 +760,6 @@
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
       "failure_count": 6,
       "next_retry_at": 1788633446
-    },
-    {
-      "region": "WORLD",
-      "title": "OpenAI admits it needs new rules for rogue AI incidents - thenews.com.pk",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdV9BQ3dzeTM0QWxxSmNUNTRSWTVPYXdoQUU3TXVYWl92TTczdV9veWpUa2UyYm5KdC1YR0tDaDBkb3JNOWJ1UXpWRC1JWURlWE1vdkgtZEpSMFhSd2doZkxYOURJX0VicWtJUmFuY0RtOVBCVjdiTmNqLUNXVWxXUHl2WDZXTkhJZGZVbkMyNFlSSmh2dlFuNXpwbjZCd9IBmgFBVV95cUxOUXVWM0pnRFFBbllCekFJazJOUk5zTmI4ZEp6VmN3OXJsY3dvYUVzS2pBVmM3d2J5Z21HRWtvLXNYWm83SHgyWGtWZGNFUzR6YVdfVllTNnNmV3JBTzNQVDYyWjFyVHpZVi1yOHpkTWtJa2kzbXhjczhDaUt1T2E0QWd2aWlTRnVfYU0ybUZjQWF2b0RwUUs2dnZR?oc=5",
-      "desc": "OpenAI admits it needs new rules for rogue AI incidents thenews.com.pk",
-      "source": "thenews.com.pk",
-      "time": 1788613830.0,
-      "score": 63.5,
-      "key": "efd444a3307ecb1d7e05797b8a49b088a2590b7ecd905e0b72f5f695289cc3fa",
-      "importance": 63.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A"
     },
     {
       "region": "RUSSIA",
@@ -749,6 +803,21 @@
     },
     {
       "region": "RUSSIA",
+      "title": "Суды не допустят делегирования итогового решения ИИ — Краснов - РАПСИ",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nNVdnN3VPRTR1aUI5MFBlS2VuTVZWdUh1SEZvUWRrX18zc2dOOF9vc0FXY05IbjFqLXJBSklSZDFMZTN3SWhtZjlFcHhyYnc5TnJzd3BfMDlVOTYyUDRhSWlnS1BEZV95aHc?oc=5",
+      "desc": "Суды не допустят делегирования итогового решения ИИ — Краснов РАПСИ",
+      "source": "РАПСИ",
+      "time": 1788606321.0,
+      "score": 60.6,
+      "russia_weight_bonus": 4.6,
+      "key": "eb584ab9e787138d4e4c4c324765f81d2ba73df831cc7b3a91ce78130a4281b6",
+      "importance": 60.6,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
       "title": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии - РАПСИ",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82elhJcDdqZU01Vng4dnBQazJxQjV2c1lSZ0xQZVBvUDVsNU00X1NETDQyT0J3MjVoNVplZmt2a255WW1fRmk3TjJUZlUwMEczaElESF80X1JwNjNqR1NyQ05nSm05Q1E2UGNWcHFR?oc=5",
       "desc": "Краснов предложил создать рабочую группу БРИКС по вопросам ИИ в правосудии РАПСИ",
@@ -783,14 +852,14 @@
     }
   ],
   "health": {
-    "last_start_ts": 1788623846.1846478,
+    "last_start_ts": 1788623907.335521,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788623846.1846478,
-    "last_success_ts": 1788623846.1846478,
-    "last_candidates": 0,
+    "last_run_ts": 1788623907.335521,
+    "last_success_ts": 1788623907.335521,
+    "last_candidates": 49,
     "last_published": 0,
-    "queue_size": 18
+    "queue_size": 20
   },
   "providers": {
     "GEMINI": {
@@ -1631,6 +1700,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788622047.4913738,
+  "last_search_ts": 1788623907.335521,
   "last_publish_ts": 1788622283.4029808
 }
