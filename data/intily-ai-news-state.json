@@ -359,7 +359,8 @@
     "bfa9490b08a4416231159daaefdc4d55d529e9194f1a86d2f2fd9e9e65d08db4": 1788565761,
     "970350f569ecdcbc58a6338f317c896077b704075bcdc9f5b4af8a91a23356b4": 1788566004,
     "9f6bf9f5188375a973bdcfffee7b5962eca9cab580226624973ed2e79279d8ba": 1788566300,
-    "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981
+    "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981,
+    "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641
   },
   "known": {
     "ddaabb9e0a52d34004383248d570f034164fa487298562005db32646dc2e76ee": 1788547820.6748672,
@@ -435,24 +436,25 @@
     "dd620816bce0dbd7f029ae7a7597c4a0e5f867145a1925a5773d1691d8163c93": 1788565099.8368926,
     "f610db8fdb550a8b77976d10ddbcbef5329e17cb229fea2366ddf3ea622c6ee7": 1788565099.8368926,
     "1ffebaa7ddcd9fa180bf99fd496f2201dfd1260b6f1267a85707cc343340cbff": 1788565099.8368926,
-    "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981.3549268
+    "691331936ab92fbaf90829b72a1783e3fdb7b2078549982587faa6f3353347db": 1788567981.3549268,
+    "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": 1788568641.0768464
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788568459.9159734,
+    "last_start_ts": 1788568641.0768464,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788568459.9159734,
-    "last_success_ts": 1788568459.9159734,
-    "last_candidates": 44,
-    "last_published": 0,
+    "last_run_ts": 1788568641.0768464,
+    "last_success_ts": 1788568641.0768464,
+    "last_candidates": 41,
+    "last_published": 1,
     "queue_size": 0
   },
   "providers": {
     "GEMINI": {
       "disabled_until": 0,
       "reason": "",
-      "updated_at": 1788568002.2234306
+      "updated_at": 1788568658.8029964
     },
     "GROQ": {
       "disabled_until": 1788499524.6517646,
@@ -2033,10 +2035,16 @@
       "desc": "Tech expert says AI needs safety overhaul after rogue AI swarms hack Hugging Face CHCH",
       "source": "CHCH",
       "region": "WORLD"
+    },
+    "4c993c51b502166306ca8d1cfa75c0e199e84c0b3cb4b6eda708754ea1bad5c7": {
+      "time": 1788568641,
+      "title": "Российский производитель чипов заложил сотни установок, в том числе и системы ASML — деньги могут пойти на новый завод по производству 28-нанометровых микросхем - prospect.com.ru",
+      "desc": "Российский производитель чипов заложил сотни установок, в том числе и системы ASML — деньги могут пойти на новый завод по производству 28-нанометровых микросхем prospect.com.ru",
+      "source": "prospect.com.ru",
+      "region": "RUSSIA"
     }
   },
   "publication_regions": [
-    "RUSSIA",
     "WORLD",
     "WORLD",
     "WORLD",
@@ -2055,8 +2063,9 @@
     "WORLD",
     "WORLD",
     "RUSSIA",
-    "WORLD"
+    "WORLD",
+    "RUSSIA"
   ],
-  "last_search_ts": 1788568459.9159734,
-  "last_publish_ts": 1788567981.3549268
+  "last_search_ts": 1788568641.0768464,
+  "last_publish_ts": 1788568641.0768464
 }
