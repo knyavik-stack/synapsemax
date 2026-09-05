@@ -479,24 +479,6 @@
   "queue": [
     {
       "region": "RUSSIA",
-      "title": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента - prospect.com.ru",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVBBOGp2UWtzT1MwQkhnTzFTQmV0OUdqcGw5ZDFUMGY2N3ROQWdnX2ZnV25nd1UwOEtTRVJqNHNrU2c0ZFVuR1pScEQ4bVZqUVhXYkJITHgxS0pSbXdUSEZ0ODVqTzd0d1B4WVhWTVJpZVQyVlNaM3dHT1lvRFZIemhYVDNmSE0wWDQ0TU1zaGNFOE1vSE55M01lemF3TkcwX0JPenVMSnZjMWQ1WmREUE5pNVcxU3FFcjMydXFtcG5VYzY1TEw0bzdObnNLOHljVU9sSEU5dlh6UQ?oc=5",
-      "desc": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента prospect.com.ru",
-      "source": "prospect.com.ru",
-      "time": 1788625347.0,
-      "score": 79.4,
-      "russia_weight_bonus": 2.9,
-      "key": "4de0ca8a7dcf932a0d4b54c1d523e7bac2ef6368ce369f944ba2cea0f82669ed",
-      "importance": 79.4,
-      "editorial_value": 50.0,
-      "topics": [
-        "agents",
-        "security_regulation"
-      ],
-      "tier": "A"
-    },
-    {
-      "region": "RUSSIA",
       "title": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObl9iWXdvd0RheFctYndQMjI5RU9QMlFtMmpfa21fMFBKMVg4a0U3ZF82a3NKTUxuY2p5UEFuUFRMbDAwWFN1Z2F2Z3I0a3BQWEJKdndsZHljNGNyUTJlVldZVmZLNEIwclNvQ0ZZMktxU1BqX1h6RzlIQ19zUnJrT1JjNTVyVDBwalZoZzhNMHVJWV81OW1jUTRYNGFBNGNWcjdrWWpMOXFZZHNzb0VodUlWTmpndmxuUzE5RVJHRWhGcFpmUXBqcWY2bTEzYnYwc3IxbjBlY0toUQ?oc=5",
       "desc": "Роман Венедиктов («Эмерджентные мультиагентные системы»): «Сегодня сам факт использования ИИ стал обычной частью корпоративной ИТ-среды» prospect.com.ru",
@@ -509,6 +491,24 @@
       "editorial_value": 50.0,
       "topics": [
         "agents"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента - prospect.com.ru",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVBBOGp2UWtzT1MwQkhnTzFTQmV0OUdqcGw5ZDFUMGY2N3ROQWdnX2ZnV25nd1UwOEtTRVJqNHNrU2c0ZFVuR1pScEQ4bVZqUVhXYkJITHgxS0pSbXdUSEZ0ODVqTzd0d1B4WVhWTVJpZVQyVlNaM3dHT1lvRFZIemhYVDNmSE0wWDQ0TU1zaGNFOE1vSE55M01lemF3TkcwX0JPenVMSnZjMWQ1WmREUE5pNVcxU3FFcjMydXFtcG5VYzY1TEw0bzdObnNLOHljVU9sSEU5dlh6UQ?oc=5",
+      "desc": "Законопроект, обязывающий иностранные IT-компании открывать филиалы в России, может превратить 'Википедию' в иноагента prospect.com.ru",
+      "source": "prospect.com.ru",
+      "time": 1788625347.0,
+      "score": 76.4,
+      "russia_weight_bonus": 2.9,
+      "key": "4de0ca8a7dcf932a0d4b54c1d523e7bac2ef6368ce369f944ba2cea0f82669ed",
+      "importance": 76.4,
+      "editorial_value": 50.0,
+      "topics": [
+        "agents",
+        "security_regulation"
       ],
       "tier": "A"
     },
@@ -527,10 +527,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788628347,
+      "last_failed_at": 1788628986,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788633147
+      "failure_count": 6,
+      "next_retry_at": 1788638586
     },
     {
       "region": "RUSSIA",
@@ -583,27 +583,6 @@
     },
     {
       "region": "RUSSIA",
-      "title": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ - Интерфакс",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QdIBS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QQ?oc=5",
-      "desc": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ Интерфакс",
-      "source": "Интерфакс",
-      "time": 1788607020.0,
-      "score": 70.7,
-      "russia_weight_bonus": 4.7,
-      "key": "eb88055b22a2c785211c6b0cc8372b67ca46a9e3a03eb5b519e11971f56244a9",
-      "importance": 70.7,
-      "editorial_value": 50.0,
-      "topics": [
-        "business"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
-      "region": "RUSSIA",
       "title": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома - prospect.com.ru",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnNZWEVEdW9ZUElwS1pHRjdrenI2N2QxcTNuUERNSnZ3a3lFOVhyTU1lOEJsaWxudDZQWGdPLUhqUzdkVHQzYnZyalZFcWpjY2pnRDBGdnNSM3VyMzhRdGI1bFNPcXFQeWxZQmpHYW5VWUk1UHVwSEVybUMzbmhyMmFhZFkzMG53SkRCN0Z1UEl1VGR1RUZxanlfTDFQXzJPeFhR?oc=5",
       "desc": "Ugreen объединила NAS и локальный ИИ в одном хабе умного дома prospect.com.ru",
@@ -636,25 +615,6 @@
       "topics": [
         "business"
       ],
-      "tier": "A",
-      "last_failed_at": 1788623846,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 6,
-      "next_retry_at": 1788633446
-    },
-    {
-      "region": "RUSSIA",
-      "title": "Вместо кешбэка и бесплатного Wi-Fi: в Китае начали повсюду раздавать ИИ-токены - 3DNews",
-      "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBSdk1mNjFfajdRQnhRX3k4aTFXVV96TFEzODVHcGttSXpwU0o3Znk4SEplXzFTUmhuYm02LURR0gGrAUFVX3lxTE8tUG9ack14VU9hbktQWlMxQ29yM1pOanZMbkxIUEgwdWJYMUxYbmE4MlZrWVZyTi0zeHJiaTA5UXRoOXVjRmFSSjhHME8tcW1YX1MtT1NjcWhhQklhRUw5UktQZ2RHZ3hjbms4b3RFa3Y2bmFoWHlnczFIaUFJQmpHbkFfcnJKS0JZdzByNVR3VVZrajJZYUVKc09ORmZLbnBRUjdacFhJa1d5MA?oc=5",
-      "desc": "Вместо кешбэка и бесплатного Wi-Fi: в Китае начали повсюду раздавать ИИ-токены 3DNews",
-      "source": "3DNews",
-      "time": 1788618000.0,
-      "score": 69.1,
-      "russia_weight_bonus": 3.6,
-      "key": "41eeaaac2a384ed86d6852fca81b29659c8deb9aaccb76f4120d55adbdf75a54",
-      "importance": 69.1,
-      "editorial_value": 50.0,
-      "topics": [],
       "tier": "A",
       "last_failed_at": 1788623846,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
@@ -714,10 +674,31 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788628347,
+      "last_failed_at": 1788628986,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788649947
+      "failure_count": 25,
+      "next_retry_at": 1788650586
+    },
+    {
+      "region": "RUSSIA",
+      "title": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ - Интерфакс",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QdIBS0FVX3lxTE1ob1Y1MVY4dEhuSGtUUHYwRWtCM0VqLWo0elZ1Wi1LODlaTDJyaW9Vdm03NkFFMFlzdnd1WnoycWhCQUlVQ0pPOFY5QQ?oc=5",
+      "desc": "Краснов назвал амбициозной задачей внедрение технологий ИИ во все этапы судопроизводства в РФ Интерфакс",
+      "source": "Интерфакс",
+      "time": 1788607020.0,
+      "score": 66.7,
+      "russia_weight_bonus": 4.7,
+      "key": "eb88055b22a2c785211c6b0cc8372b67ca46a9e3a03eb5b519e11971f56244a9",
+      "importance": 66.7,
+      "editorial_value": 50.0,
+      "topics": [
+        "business"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788623846,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 6,
+      "next_retry_at": 1788633446
     },
     {
       "region": "WORLD",
@@ -732,10 +713,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788628347,
+      "last_failed_at": 1788628986,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788633147
+      "failure_count": 6,
+      "next_retry_at": 1788638586
     },
     {
       "region": "WORLD",
@@ -750,28 +731,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788628347,
+      "last_failed_at": 1788628986,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 5,
-      "next_retry_at": 1788633147
-    },
-    {
-      "region": "WORLD",
-      "title": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' - ibtimes.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbTgtTjU3dFFFbHhWcEVyalVEMHdZbm5QXzFkMkU2NzNDYklRNWlKSTk4Y2dLVy1KVEVLaWE3TUtETFRhVVFDdnVGN2paV05jX0hCNWsyUEdNa3dvZjJGejlxcURjVUVwZ0hjQ0Vzb1BXNGVEZDhCb2Y0RExtaGRRcWM1aUJKbE9MeVNUTWFWMTQ?oc=5",
-      "desc": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' ibtimes.co.uk",
-      "source": "ibtimes.co.uk",
-      "time": 1788625192.0,
-      "score": 66.5,
-      "key": "6ac8c4d61036cd51a1483feef3256e95b8482d735585304952c3ac974361e41d",
-      "importance": 66.5,
-      "editorial_value": 50.0,
-      "topics": [],
-      "tier": "A",
-      "last_failed_at": 1788628347,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 15,
-      "next_retry_at": 1788649947
+      "failure_count": 6,
+      "next_retry_at": 1788638586
     },
     {
       "region": "WORLD",
@@ -788,10 +751,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788628347,
+      "last_failed_at": 1788628986,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788649947
+      "failure_count": 25,
+      "next_retry_at": 1788650586
     },
     {
       "region": "RUSSIA",
@@ -816,6 +779,24 @@
     },
     {
       "region": "WORLD",
+      "title": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' - ibtimes.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbTgtTjU3dFFFbHhWcEVyalVEMHdZbm5QXzFkMkU2NzNDYklRNWlKSTk4Y2dLVy1KVEVLaWE3TUtETFRhVVFDdnVGN2paV05jX0hCNWsyUEdNa3dvZjJGejlxcURjVUVwZ0hjQ0Vzb1BXNGVEZDhCb2Y0RExtaGRRcWM1aUJKbE9MeVNUTWFWMTQ?oc=5",
+      "desc": "Experts Warn Artificial Intelligence Systems Are 'Plausibly Close To Crossing the Line' to 'Explosion' ibtimes.co.uk",
+      "source": "ibtimes.co.uk",
+      "time": 1788625192.0,
+      "score": 63.5,
+      "key": "6ac8c4d61036cd51a1483feef3256e95b8482d735585304952c3ac974361e41d",
+      "importance": 63.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A",
+      "last_failed_at": 1788628986,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 16,
+      "next_retry_at": 1788650586
+    },
+    {
+      "region": "WORLD",
       "title": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase - TipRanks",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORENKOXRUSFRfWFJXZ2ZiQk9yYmRzb210OUpKY0gxVGtaZDlENkxyWk5kY1VLMWw3ZGNJdlAzZncyX0x6bHZXSDZ4Tm5ESDZrUHZodTNMZTRIQmxaYVFoTkJ4ZGhqck1NczJoc2pFVGxGNmM0NWFvUlFDYTcxSGZpRVJobUYtNmZlblZfeDBteHRrNDUxcEFnNldkUy0tMnRKVndFWlgyaFdWdzEyOUhsQVE5RmpHTlZ1aWxyZlpEWFJKUTFfVDM1SkdqTzJmTy1VMzhRdXVHMFpTUQ?oc=5",
       "desc": "Trunk Tools Deepens AI Construction Push With Expanded Agents and Autodesk University Showcase TipRanks",
@@ -830,10 +811,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788628347,
+      "last_failed_at": 1788628986,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788649947
+      "failure_count": 25,
+      "next_retry_at": 1788650586
     },
     {
       "region": "WORLD",
@@ -850,21 +831,21 @@
         "models"
       ],
       "tier": "A",
-      "last_failed_at": 1788628347,
+      "last_failed_at": 1788628986,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 24,
-      "next_retry_at": 1788649947
+      "failure_count": 25,
+      "next_retry_at": 1788650586
     }
   ],
   "health": {
-    "last_start_ts": 1788628347.9691136,
+    "last_start_ts": 1788628986.7712057,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788628347.9691136,
-    "last_success_ts": 1788628347.9691136,
+    "last_run_ts": 1788628986.7712057,
+    "last_success_ts": 1788628986.7712057,
     "last_candidates": 0,
     "last_published": 0,
-    "queue_size": 20
+    "queue_size": 19
   },
   "providers": {
     "GEMINI": {
@@ -884,13 +865,6 @@
     }
   },
   "stories": {
-    "3b64e9675cf78102066a9ffa7702c651464ffc17bb4b1487c56ad6065c0c241b": {
-      "time": 1788542062,
-      "title": "Vietnam targets American technology investments to expand domestic semiconductor and artificial intelligence workforce - EdexLive",
-      "desc": "Vietnam targets American technology investments to expand domestic semiconductor and artificial intelligence workforce EdexLive",
-      "source": "EdexLive",
-      "region": "WORLD"
-    },
     "24cbe1e07db7c859c0134b94bfdb05f1c6a5330c3149c35b85e485db7580ee23": {
       "time": 1788542721,
       "title": "Google DeepMind Releases WeatherNext 3, Its Most Accurate AI Weather Forecasting Model Yet - AI Insider",
