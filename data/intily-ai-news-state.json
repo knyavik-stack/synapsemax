@@ -427,11 +427,11 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788579380.9271595,
+    "last_start_ts": 1788579619.8775308,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788579380.9271595,
-    "last_success_ts": 1788579380.9271595,
+    "last_run_ts": 1788579619.8775308,
+    "last_success_ts": 1788579619.8775308,
     "last_candidates": 31,
     "last_published": 0,
     "queue_size": 0
@@ -454,13 +454,6 @@
     }
   },
   "stories": {
-    "dc8bfcd578d9f86bd57ad957d39312176d30db72447da77386a028921ae2e1ca": {
-      "time": 1788493015,
-      "title": "AI Tennis Training Robots: ACEMATE Has Unveiled Its ACEMATE S10 Pro at IFA 2026 - Trend Hunter",
-      "desc": "AI Tennis Training Robots: ACEMATE Has Unveiled Its ACEMATE S10 Pro at IFA 2026 Trend Hunter",
-      "source": "Trend Hunter",
-      "region": "WORLD"
-    },
     "b87a1c5af65a987e1c07c395b4de7df6d88f663818802e44c05fd6abc8061e19": {
       "time": 1788493614,
       "title": "OpenAI сообщила о разработке системы «автоматического экстренного отключения» ИИ - prospect.com.ru",
@@ -1961,6 +1954,6 @@
     "WORLD",
     "RUSSIA"
   ],
-  "last_search_ts": 1788579380.9271595,
+  "last_search_ts": 1788579619.8775308,
   "last_publish_ts": 1788578780.5315773
 }
