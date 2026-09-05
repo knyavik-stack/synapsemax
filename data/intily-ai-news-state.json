@@ -431,13 +431,13 @@
   },
   "queue": [],
   "health": {
-    "last_start_ts": 1788569600.1822982,
+    "last_start_ts": 1788569961.0786748,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788569600.1822982,
-    "last_success_ts": 1788569600.1822982,
-    "last_candidates": 43,
-    "last_published": 1,
+    "last_run_ts": 1788569961.0786748,
+    "last_success_ts": 1788569961.0786748,
+    "last_candidates": 40,
+    "last_published": 0,
     "queue_size": 0
   },
   "providers": {
@@ -458,20 +458,6 @@
     }
   },
   "stories": {
-    "d9b7d150995d7bc1b05f615816f31deebc35437cf67fe441d4605e189ddb21da": {
-      "time": 1788483297,
-      "title": "OpenAI GPT6 Astra demo sparks 2026 hype - blockchain.news",
-      "desc": "OpenAI GPT6 Astra demo sparks 2026 hype blockchain.news",
-      "source": "blockchain.news",
-      "region": "WORLD"
-    },
-    "4616dc0738994f399c5bb1db85d7d7e20cc792020039f18657665a8978fbc246": {
-      "time": 1788483535,
-      "title": "Gemini 3.8 Flash edges DeepSWE win - blockchain.news",
-      "desc": "Gemini 3.8 Flash edges DeepSWE win blockchain.news",
-      "source": "blockchain.news",
-      "region": "WORLD"
-    },
     "dff5d6155d5233ffeae60a82978f46c87b6871221dfce93d941e3ccbc58e00a2": {
       "time": 1788483894,
       "title": "10 ways ChatGPT’s GPT-6 Astra could change how you work - The Tech Revolutionist",
@@ -2042,6 +2028,6 @@
     "RUSSIA",
     "RUSSIA"
   ],
-  "last_search_ts": 1788569600.1822982,
+  "last_search_ts": 1788569961.0786748,
   "last_publish_ts": 1788569600.1822982
 }
