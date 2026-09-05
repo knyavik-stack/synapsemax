@@ -39,25 +39,13 @@ GOOGLE_RETRY_MAX = 4.0
 GOOGLE_QUERIES = [
     (
         'WORLD',
-        '((OpenAI OR Anthropic OR "Google DeepMind" OR Gemini OR Microsoft OR Meta OR Nvidia) '
-        '(AI OR "artificial intelligence" OR agent OR model OR robotics)) when:12h',
-    ),
-    (
-        'WORLD',
-        '((AI OR "artificial intelligence") '
-        '(research OR breakthrough OR enterprise OR automation OR security OR funding OR acquisition '
-        'OR product OR developer OR deployment OR application)) when:12h',
+        '((OpenAI OR Anthropic OR "Google DeepMind" OR Gemini OR Microsoft OR Meta OR Nvidia OR AI) '
+        '(artificial intelligence OR agent OR model OR robotics OR research OR product OR security)) when:12h',
     ),
     (
         'RUSSIA',
         '((ИИ OR "искусственный интеллект" OR нейросети) '
-        '(Россия OR российский OR Яндекс OR Сбер OR VK)) when:12h',
-    ),
-    (
-        'RUSSIA',
-        '((ИИ OR нейросети) '
-        '(внедрение OR бизнес OR регулирование OR инвестиции OR безопасность OR разработка '
-        'OR робототехника OR промышленность OR медицина)) when:12h',
+        '(Россия OR российский OR Яндекс OR Сбер OR VK OR бизнес OR регулирование OR безопасность)) when:12h',
     ),
 ]
 
@@ -90,22 +78,38 @@ async def _fetch_bytes(url, timeout=6, headers=None):
     return (await response.text()).encode('utf-8')
 
 
-async def _google_fetch(url, timeout=6):
-    # Spread requests in wall-clock time.  This is intentionally serial: parallel
-    # Google requests recreate the exact burst pattern that caused the 503s.
+async def _google_fetch(url, timeout=6, browser_binding=None):
     await asyncio.sleep(random.uniform(GOOGLE_MIN_DELAY, GOOGLE_MAX_DELAY))
-    last_error = None
-    for attempt in range(2):
+    try:
+        return await _fetch_bytes(url, timeout=min(timeout, 6), headers=GOOGLE_HEADERS)
+    except Exception as direct_error:
+        if browser_binding is None:
+            raise direct_error
+        message = str(direct_error)
+        if not any(code in message for code in ('HTTP_503', 'HTTP_429', 'HTTP_403', 'TimeoutError', 'timeout')):
+            raise
+        print('GOOGLE_BROWSER_FALLBACK', message[:160])
         try:
-            return await _fetch_bytes(url, timeout=timeout, headers=GOOGLE_HEADERS)
-        except Exception as exc:
-            last_error = exc
-            msg = str(exc)
-            if not any(code in msg for code in ('HTTP_503', 'HTTP_429', 'HTTP_403', 'TimeoutError', 'timeout')):
-                raise
-            if attempt == 0:
-                await asyncio.sleep(random.uniform(GOOGLE_RETRY_MIN, GOOGLE_RETRY_MAX))
-    raise last_error
+            rendered = await browser_binding.quickAction('content', {
+                'url': url,
+                'userAgent': GOOGLE_UA,
+                'waitForTimeout': 500,
+                'rejectResourceTypes': ['image', 'stylesheet', 'font', 'media'],
+            })
+            if hasattr(rendered, 'text'):
+                rendered_text = await rendered.text()
+            else:
+                rendered_text = str(rendered)
+            # Browser Run /content returns rendered HTML. Google RSS is an XML
+            # document, so recover the XML tree even when Chrome HTML-escapes it.
+            decoded = html.unescape(rendered_text)
+            match = re.search(r'(?is)(<\?xml[^>]*>.*?</rss>|<rss\b.*?</rss>)', decoded)
+            if not match:
+                raise RuntimeError('GOOGLE_BROWSER_NO_RSS_XML')
+            return match.group(1).encode('utf-8')
+        except Exception as browser_error:
+            print('GOOGLE_BROWSER_ERROR', str(browser_error)[:180])
+            raise direct_error
 
 
 def _parse_items(data, region, source_hint, cutoff):
@@ -157,7 +161,7 @@ async def direct_rss(region, lookback_hours=48):
     return merged
 
 
-def install_runtime_rss(engine):
+def install_runtime_rss(engine, browser_binding=None):
     # Python Worker isolates can survive multiple Cron invocations. Never stack
     # another wrapper around an already wrapped engine.
     if getattr(engine, '_intily_google_resilience', False):
@@ -193,5 +197,5 @@ def install_runtime_rss(engine):
     engine.QUERIES = list(GOOGLE_QUERIES)
     engine._intily_google_resilience = True
     engine._intily_fallback_active = fallback_active
-    print('GOOGLE_RUNTIME_READY', 'queries', len(engine.QUERIES), 'browser_profile', True)
+    print('GOOGLE_RUNTIME_READY', 'queries', len(engine.QUERIES), 'browser_profile', True, 'browser_run', browser_binding is not None)
     return fallback_active

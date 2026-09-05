@@ -52,7 +52,7 @@ class Default(WorkerEntrypoint):
                 value = _env_text(runtime_env, name)
                 if value:
                     os.environ[name] = value
-            install_runtime_rss(engine)
+            install_runtime_rss(engine, getattr(runtime_env, 'BROWSER', None))
             async def load_state():
                 raw = await runtime_env.STATE.get(STATE_KEY)
                 default = {
