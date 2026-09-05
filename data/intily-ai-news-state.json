@@ -527,10 +527,10 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788628045,
+      "last_failed_at": 1788628347,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788630445
+      "failure_count": 5,
+      "next_retry_at": 1788633147
     },
     {
       "region": "RUSSIA",
@@ -714,30 +714,10 @@
         "agents"
       ],
       "tier": "A",
-      "last_failed_at": 1788628045,
+      "last_failed_at": 1788628347,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788649645
-    },
-    {
-      "region": "WORLD",
-      "title": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. - MarketScale",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmhSYUZUVDJCVkZUSDVCZlBaUW1TcEhmRmVZZ3JmTWFXTlhOYk9SY0xnMVNFZ251alhZLUxZVG9xU09RTm9vSHVMUGVsSzdZUVJqZkdnTUwyOVNZRDFVa0poMHNManZpMkYyRGJ4VTgyLXZseXR3NXFEaTlrOWRUSHZObVdzNzh0YjZF?oc=5",
-      "desc": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. MarketScale",
-      "source": "MarketScale",
-      "time": 1788617279.0,
-      "score": 67.5,
-      "key": "e5016b4e98d88336bc627e8500676d6590824f6a4bdcf66c85dc28f061ff1b63",
-      "importance": 67.5,
-      "editorial_value": 50.0,
-      "topics": [
-        "models"
-      ],
-      "tier": "A",
-      "last_failed_at": 1788628045,
-      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788649645
+      "failure_count": 24,
+      "next_retry_at": 1788649947
     },
     {
       "region": "WORLD",
@@ -752,10 +732,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788628045,
+      "last_failed_at": 1788628347,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788630445
+      "failure_count": 5,
+      "next_retry_at": 1788633147
     },
     {
       "region": "WORLD",
@@ -770,10 +750,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788628045,
+      "last_failed_at": 1788628347,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 4,
-      "next_retry_at": 1788630445
+      "failure_count": 5,
+      "next_retry_at": 1788633147
     },
     {
       "region": "WORLD",
@@ -788,10 +768,10 @@
       "editorial_value": 50.0,
       "topics": [],
       "tier": "A",
-      "last_failed_at": 1788628045,
+      "last_failed_at": 1788628347,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 14,
-      "next_retry_at": 1788649645
+      "failure_count": 15,
+      "next_retry_at": 1788649947
     },
     {
       "region": "WORLD",
@@ -808,10 +788,10 @@
         "business"
       ],
       "tier": "A",
-      "last_failed_at": 1788628045,
+      "last_failed_at": 1788628347,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788649645
+      "failure_count": 24,
+      "next_retry_at": 1788649947
     },
     {
       "region": "RUSSIA",
@@ -850,18 +830,38 @@
         "tools"
       ],
       "tier": "A",
-      "last_failed_at": 1788628045,
+      "last_failed_at": 1788628347,
       "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
-      "failure_count": 23,
-      "next_retry_at": 1788649645
+      "failure_count": 24,
+      "next_retry_at": 1788649947
+    },
+    {
+      "region": "WORLD",
+      "title": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. - MarketScale",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQmhSYUZUVDJCVkZUSDVCZlBaUW1TcEhmRmVZZ3JmTWFXTlhOYk9SY0xnMVNFZ251alhZLUxZVG9xU09RTm9vSHVMUGVsSzdZUVJqZkdnTUwyOVNZRDFVa0poMHNManZpMkYyRGJ4VTgyLXZseXR3NXFEaTlrOWRUSHZObVdzNzh0YjZF?oc=5",
+      "desc": "The Early Scale: CNBC reports OpenAI's 'Astra' model highlights AI's potential, and risks. MarketScale",
+      "source": "MarketScale",
+      "time": 1788617279.0,
+      "score": 60.0,
+      "key": "e5016b4e98d88336bc627e8500676d6590824f6a4bdcf66c85dc28f061ff1b63",
+      "importance": 60.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "models"
+      ],
+      "tier": "A",
+      "last_failed_at": 1788628347,
+      "last_failure": "AI_PROVIDERS_UNAVAILABLE | ",
+      "failure_count": 24,
+      "next_retry_at": 1788649947
     }
   ],
   "health": {
-    "last_start_ts": 1788628045.2742014,
+    "last_start_ts": 1788628347.9691136,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788628045.2742014,
-    "last_success_ts": 1788628045.2742014,
+    "last_run_ts": 1788628347.9691136,
+    "last_success_ts": 1788628347.9691136,
     "last_candidates": 0,
     "last_published": 0,
     "queue_size": 20
