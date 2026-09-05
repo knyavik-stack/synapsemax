@@ -422,9 +422,44 @@
     "7c73802d3232061b19419a5ce37714c6e7176df33dff7a2b3ecb27955d41d5a9": 1788574161.4719007,
     "e09b60566453a7067efb0b2b0a3fe97bc9abd851b9f8d21aef0aaf57b0977f75": 1788574161.4719007,
     "6f530ac7237c5bae054ef38d4d9640215672ef595376e86b2c598d139fc54fe1": 1788574161.4719007,
-    "2aae95a84de08071c1a6a2de00c7835643a83b085e69ce509e3461a7ff433af8": 1788574161.4719007
+    "2aae95a84de08071c1a6a2de00c7835643a83b085e69ce509e3461a7ff433af8": 1788574161.4719007,
+    "b8bcf176c791465a10f2f5ebc82d403fe51441af7a04e0dd328a46e324946efb": 1788575539.6039212,
+    "f62ba81d899bb70f8dd0fc978f2a399c4ea00ac03de55fd6192ad3c3755bdc0a": 1788575539.6039212,
+    "561f95128b977429fbb46addbb77a2acafa171f044b370066b5cef57c272adc5": 1788575539.6039212,
+    "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f": 1788575539.6039212
   },
   "queue": [
+    {
+      "region": "RUSSIA",
+      "title": "WSJ узнала, как США склонили Баку и Ереван к миру «чиповой дипломатией» - rbc.ru",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9YbkFhTll2TGpqY3VOMzkwWXpQN3N6WmpMaktuQVY3VHJhMFZPeFE4bGgwWWFfaGxSMm1HV3dILUpvR1QtYXJEUl80czlZTEkyM0ZDM2VXWVJwb19uMXlXbkxPX3UyZ1BxT2h3aE9hdWPSAXtBVV95cUxObFRBbE5BWW5RZG5TY0IzbVZGanFjbUNnUHJuT2VUYnZqd0cwQmp0QVFkVVREYURYVEszTktucGluTmMxc05YWWRpVUFXYVoyRndiQ2ZJalNMdGxmVlZFRXdCZDVEWjhtdm81M2xpSldtQzJZeFNvdmNMdHM?oc=5",
+      "desc": "WSJ узнала, как США склонили Баку и Ереван к миру «чиповой дипломатией» rbc.ru",
+      "source": "rbc.ru",
+      "time": 1788574060.0,
+      "score": 75.0,
+      "russia_weight_bonus": 2.5,
+      "key": "b8bcf176c791465a10f2f5ebc82d403fe51441af7a04e0dd328a46e324946efb",
+      "importance": 75.0,
+      "editorial_value": 50.0,
+      "topics": [
+        "chips"
+      ],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "DYFI all set to launch statewide\nAI training programme ‘Hello2AI’ - The New Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS0pyMkFCcVVFb1c1Q19TVllIOWpWdDhHSW11V3VzX2JleFE1RzZZNXQ2RFNaMl8yeUIxUlRsa1YwMU0yWjZEUS1fbXkzdHA0cTQ1RmNodDV6dFVNZWIxZG96Mlp5c3N4b2tidVFGOGlxbnpFa3VwTkxEdkR1cVhrU2h0blExVFFlMlR2dzhILVE5N3MwdE5ncklnTFdrVmlpRjFpUzlNcF9BdzlrMGdyZTJPWTBOTjV6VndSNjAtNNIBzAFBVV95cUxQWVJKQmlvWW5SeWEwMHl1X0FnNG5OSTZzR3ZDWUJnYXRuVWFBanhQc3RnQlBPMUJKUS1oNGE1N0pZRWhwT0cwLVFPWEs1Q1B3UnBEdE43eE1FUXZpZHFCaDZrS09XQV9INnBDZzZZbDd6Uy1RaV8zYS1uZ1Uxd0w4ZzlNOERyZnI0dmdVRzBpZXBkdkFvVUpGQzN4NHlTcldvT1VxbUpRLU10U0s4Z2ZxQ1dvWWkyc1ZPY3FPaVJ4QkdQOWV3cDMwbEZlbko?oc=5",
+      "desc": "DYFI all set to launch statewide AI training programme ‘Hello2AI’ The New Indian Express",
+      "source": "The New Indian Express",
+      "time": 1788574701.0,
+      "score": 70.5,
+      "key": "f62ba81d899bb70f8dd0fc978f2a399c4ea00ac03de55fd6192ad3c3755bdc0a",
+      "importance": 70.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
     {
       "region": "WORLD",
       "title": "COIN Stock Gains Over 3% — Coinbase Launches Platform For AI Agents To Buy, Sell And Pay - Stocktwits",
@@ -445,17 +480,45 @@
       "last_failure": "RU_QA_FORBIDDEN_STYLE",
       "failure_count": 1,
       "next_retry_at": 1788575719
+    },
+    {
+      "region": "WORLD",
+      "title": "AI Push in Assam Schools: SSA Signs Six MoUs for Technology-Enabled Learning - The Sentinel - of this Land, for its People",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT0FKc1RmSV9FcDNjbVViLV95bTNDUGxYcHJiR0RkTExsNXE1Zk1qSWMyS2lJcU9YdkhMTV9CTmJPU0RQOFQ1UUFqeEVmRkRfZ3BpcFFtS0lNc2p4T2JQcW1BcllDV2JZdmVHSWNuMmJZc0tZLUJfLWIwNE5Kb04zb08yMERGYTc1MWhMcmVFV2Q4WThsSVp2MGR1MnMwd2lIbFM2SmoyT0Q3RzlmbkYwYnFTcFowXzVIVFHSAccBQVVfeXFMTW1ZOUVuRGZ4bDVLOW4zcjJwVkNQSmJkeFJta2tYY1MtVEhpdVlwQXBETWNZbWhjYVlRbzRQQmFJMVRIbU5LbmprNHMzQkVta1hldjk4dmZ5Y05CVnIwQW9ySWxodXpRN1hqeW9Mbm1kWGVqNWxMMjdSZ1BTYkNXRkJLVWY5bVlMYzExQ3ZQS1JEWFp0R2p1am5yWnR6NzR6SElGNjExOFVZUGhXWWF0U21lMkUwSHFwam9jRnlkQlZodkRxczRNRQ?oc=5",
+      "desc": "AI Push in Assam Schools: SSA Signs Six MoUs for Technology-Enabled Learning The Sentinel - of this Land, for its People",
+      "source": "The Sentinel - of this Land, for its People",
+      "time": 1788574429.0,
+      "score": 66.5,
+      "key": "561f95128b977429fbb46addbb77a2acafa171f044b370066b5cef57c272adc5",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
+    },
+    {
+      "region": "WORLD",
+      "title": "Hollywood told director Maggie Gyllenhaal to use AI to imagine Marilyn Monroe at 100 — it didn’t work - Newswav",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbXFQSjF3czVPOWE1bTZodXNZVnJ6MUN3ZXZhT3ZON2N6aThHZ1I2bHEtbFVySjhva0tYZFh4Mmt5Q2QyQkNhSDVEVEVFekJTOGhobjlpa1BiNDA5S3VWcTNoNVB1dC1oUVZ3ZEN2cnJMeHN4dDRXX1JVZHI0ZFdLWUthMlUwa0VTbzV6b3pFbXBXZHh1R3FadGxnTXBJRmpTdEIybHhJNXhFOGNrenpEMjR4X1ZRUjg?oc=5",
+      "desc": "Hollywood told director Maggie Gyllenhaal to use AI to imagine Marilyn Monroe at 100 — it didn’t work Newswav",
+      "source": "Newswav",
+      "time": 1788572395.0,
+      "score": 66.5,
+      "key": "e286e20de4cc3fd866b70c2ea84cac002bf46c015f846e3a3abdebfd9060483f",
+      "importance": 66.5,
+      "editorial_value": 50.0,
+      "topics": [],
+      "tier": "A"
     }
   ],
   "health": {
-    "last_start_ts": 1788575419.7543972,
+    "last_start_ts": 1788575539.6039212,
     "last_status": "OK",
     "last_error": "",
-    "last_run_ts": 1788575419.7543972,
-    "last_success_ts": 1788575419.7543972,
-    "last_candidates": 0,
-    "last_published": 1,
-    "queue_size": 1
+    "last_run_ts": 1788575539.6039212,
+    "last_success_ts": 1788575539.6039212,
+    "last_candidates": 33,
+    "last_published": 0,
+    "queue_size": 5
   },
   "providers": {
     "GEMINI": {
@@ -2003,6 +2066,6 @@
     "WORLD",
     "WORLD"
   ],
-  "last_search_ts": 1788574161.4719007,
+  "last_search_ts": 1788575539.6039212,
   "last_publish_ts": 1788575419.7543972
 }
