@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SynapseMax — DEX Card Preview</title>
+  <link rel="stylesheet" href="../src/design/tokens.css">
+  <link rel="stylesheet" href="../src/design/hud-primitives.css">
+  <link rel="stylesheet" href="../src/components/hud-card.css">
+  <style>
+    /* Preview-only shell: this page isolates the component from legacy CSS. */
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; color: var(--sm-text); background: radial-gradient(circle at 50% 0%, rgba(0,215,255,.08), transparent 34%), var(--sm-bg); font-family: Inter, system-ui, sans-serif; }
+    main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 72px 0; }
+    .preview-head { display:flex; justify-content:space-between; gap:24px; align-items:end; margin-bottom:32px; }
+    .preview-head h1 { margin:8px 0 0; font-size:clamp(30px,5vw,54px); letter-spacing:-.04em; }
+    .preview-head p { max-width:560px; color:var(--sm-text-soft); line-height:1.6; margin:0; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+    .sm-card { min-height:236px; }
+    @media (max-width:800px) { .preview-head { display:block; } .preview-head p { margin-top:16px; } .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="preview-head">
+      <div>
+        <div class="sm-hud-kicker">DEX / FOUNDATION / CARD</div>
+        <h1>SynapseMax UI primitive</h1>
+      </div>
+      <p>Изолированный preview нового карточного компонента. Он не подключён к production: здесь проверяется геометрия, типографика, hover, glow, responsive и reduced-motion до миграции legacy `.card`.</p>
+    </header>
+
+    <section class="grid" aria-label="Предпросмотр карточек">
+      <article class="sm-card">
+        <div class="sm-card__icon" aria-hidden="true"><span class="sm-neural-node"></span></div>
+        <h2 class="sm-card__title">AI-архитектура</h2>
+        <p class="sm-card__text">Модели, данные и бизнес-процессы объединяются в единый контур.</p>
+        <span class="sm-card__arrow" aria-hidden="true">↗</span>
+      </article>
+      <article class="sm-card">
+        <div class="sm-card__icon" aria-hidden="true"><span class="sm-neural-node"></span></div>
+        <h2 class="sm-card__title">Автоматизация</h2>
+        <p class="sm-card__text">Рутинные операции превращаются в управляемые цифровые цепочки.</p>
+        <span class="sm-card__arrow" aria-hidden="true">↗</span>
+      </article>
+      <article class="sm-card">
+        <div class="sm-card__icon" aria-hidden="true"><span class="sm-neural-node"></span></div>
+        <h2 class="sm-card__title">Интеллект данных</h2>
+        <p class="sm-card__text">Сигналы из разрозненных источников собираются в решения.</p>
+        <span class="sm-card__arrow" aria-hidden="true">↗</span>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
