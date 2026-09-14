@@ -3,324 +3,237 @@
 **Босс:** владелец проекта  
 **Нормативный документ:** `docs/synapsemax-master-operational-spec.md` v2.0 от 2026-09-14  
 **Репозиторий:** `knyavik-stack/synapsemax`  
-**Отчёт:** живой журнал исполнения генерального регламента  
-**Правило:** этот документ фиксирует фактическое состояние, выполненные изменения, доказательства, риски и следующий шаг. Статус `DONE` ставится только после фактической проверки соответствующего DoD.
+**Назначение:** живой журнал фактического исполнения Master Operational Specification.  
+**Правило:** `DONE` ставится только после соответствующего DoD, автоматической QA и production evidence.
 
 ---
 
 ## 0. Управляющий протокол
 
-### Источник истины
-С этого момента `docs/synapsemax-master-operational-spec.md` является главным операционным регламентом проекта. Более ранние документы используются как исторический контекст и не могут переопределять Master Operational Specification без отдельного решения в Decision Log.
+1. Проверить требование Master Spec.
+2. Проверить repository/production.
+3. Изменить только необходимое.
+4. Прогнать автоматическую QA.
+5. Проверить production smoke/deployment evidence.
+6. Зафиксировать фактический результат.
+7. Перейти к следующему блоку.
 
-### Порядок исполнения
-1. Проверка требования Master Spec.
-2. Аудит текущего состояния GitHub/production.
-3. Изменение только того, что необходимо для соответствия.
-4. Автоматическая QA-проверка.
-5. Production smoke / deployment evidence.
-6. Фиксация результата здесь.
-7. Переход к следующему блоку.
-
-### Контроль пропусков
-Каждый обнаруженный gap получает запись в этом журнале и, если он не закрывается текущим шагом, отдельный GitHub Issue с severity, DoD и связью с Master Spec. Перед переходом между блоками выполняется проверка открытых HIGH/CRITICAL рисков, чтобы ранее найденные дефекты не исчезали из operational queue.
-
-### Запреты
-- Не объявлять релиз по одному merge.
-- Не считать предполагаемый результат фактическим.
-- Не ломать ранее принятые брендовые решения без основания Master Spec.
-- Не добавлять технологию только ради технологии.
-- Не связывать бизнес-логику с одним LLM-провайдером.
-- Не завышать ROI без доказательной базы.
+Нельзя считать merge доказательством релиза; нельзя завышать ROI; открытые HIGH/CRITICAL gaps не должны исчезать из очереди. FZ-152/ISO/EU AI Act требования считаются design requirements до появления фактического compliance evidence.
 
 ---
 
 # 1. BASELINE AUDIT — 2026-09-14
 
-## 1.1. Master Spec
-**Статус: VERIFIED**
+### Master Spec
+**VERIFIED.** `docs/synapsemax-master-operational-spec.md` v2.0 — основной операционный источник истины.
 
-Проверен файл `docs/synapsemax-master-operational-spec.md` в `main`. Документ содержит 9+ нормативных блоков: North Star/brand, HUD/FUI, 5-layer architecture, roadmap H1/H2/H3, business model, security/FZ-152, role checklists, 60-day SMM plan и последующие операционные требования.
+### Repository
+**VERIFIED.** `knyavik-stack/synapsemax`, `main`, financial diagnostic, build pipeline, browser QA и production smoke присутствуют.
 
-## 1.2. Repository
-**Статус: VERIFIED**
-
-Репозиторий существует и доступен с правами на изменение. Default branch: `main`.
-
-Ключевые обнаруженные компоненты:
-- `index.html`
-- `dex-immediate.html`
-- `dex-v1.html`, `dex-v2.html`, `dex-v3.html`
-- `scripts/build-site.mjs`
-- `scripts/test-immediate.mjs`
-- `scripts/verify-production.mjs`
-- `src/immediate-logic.js`
-- `.github/workflows/immediate-qa.yml`
-- `.github/workflows/production-smoke.yml`
-- `docs/` с историческими handoff/spec/decision документами
-- canonical brand assets в `assets/`
-
-## 1.3. CI/CD evidence
-**Статус: VERIFIED**
-
-После Step 1 merge commit `1a277173a4c2f97e9e39255aa0203b6e378364a9` Production Smoke завершился `SUCCESS`; live production verification прошёл. Immediate QA #253 на момент последней проверки ещё выполнялся, поэтому его финальный conclusion не используется как основание для закрытия шага.
-
-## 1.4. Уже реализовано и подтверждено кодом
-**Статус: PARTIAL / NEEDS MASTER-SPEC ALIGNMENT**
-
-- Финансовая диагностика profit leakage присутствует в domain logic.
-- API `/api/v1/profit-leakage` присутствует.
-- Клиентский financial-first блок присутствует.
-- Есть ROI/diagnostic тесты.
-- Есть accessibility/reduced-motion/focus-visible baseline.
-- Есть canonical symbol/wordmark assets.
-- Есть 5-layer target architecture в документации.
-- Public positioning pass внедрён и production smoke подтверждён.
-
-## 1.5. Критические разрывы baseline
-
-### R-01 — Financial UI / domain mismatch
-**Severity: HIGH — OPEN**  
-**GitHub Issue:** #11
-
-`src/immediate-logic.js` использует evidence-driven recoverability для ошибок и задержек: `recoverableErrorShare` и `recoverableDelayShare` по умолчанию равны 0. Старый fallback в `scripts/build-site.mjs` всё ещё прибавляет 100% стоимости ошибок и задержек к recoverable value. Это может дать пользователю различающиеся результаты при отказе API.
-
-**Решение:** устранить расхождение до следующего financial UI release. Issue #11 содержит DoD и regression requirements.
-
-### R-02 — Master Spec шире текущей реализации
-**Severity: HIGH — OPEN**
-
-Master Spec описывает полноценные PostgreSQL/RLS/JSONB/Redis, AI Gateway, Integration Layer, Governance Layer, FZ-152 masking и будущие platform capabilities. Текущий repository подтверждает только часть этих элементов. Нельзя объявлять их реализованными без фактического кода/инфраструктуры/evidence.
-
-### R-03 — Brand tokens не полностью совпадают
-**Severity: MEDIUM — OPEN**
-
-Master Spec задаёт `Void 1 #0D1117`, `Void 2 #1C2128`, `Cyan #00D4FF`, `Blue #0066FF`, `Purple #8A2BFF`, `Magenta #D100FF`. В текущем `index.html` используются близкие, но не идентичные значения. Нужна нормализация токенов после проверки всех runtime pages, чтобы не сломать принятый visual foundation.
-
-### R-04 — Security claims требуют доказательства
-**Severity: CRITICAL if presented as production guarantee — OPEN**
-
-Master Spec формулирует FZ-152 masking через SHA-256 with salt. Сам факт наличия такого требования в документе не является доказательством юридической или технической достаточности выбранного метода. До реализации Governance Layer это должно считаться design requirement, а не compliance certification.
-
-### R-05 — 15 ms Redis target пока не доказан
-**Severity: MEDIUM — OPEN**
-
-Целевой отклик `<=15 ms` является архитектурным KPI. Без benchmark/load test нельзя считать его достигнутым.
+### Ключевые baseline gaps
+- **R-01 Financial fallback/domain mismatch — CLOSED.** Был создан HIGH Issue #11; fallback синхронизирован с evidence-driven domain contract.
+- **R-02 Master Spec шире текущей реализации — OPEN / HIGH.** PostgreSQL/RLS/JSONB/Redis, AI Gateway, Integration и Governance остаются частично реализованными/документированными; без evidence не считаются DONE.
+- **R-03 Brand tokens — OPEN / MEDIUM.** Нужна нормализация токенов Master Spec после аудита runtime pages.
+- **R-04 Security/compliance claims — OPEN / CRITICAL if presented as guarantee.** Архитектурное требование не равно юридическому compliance.
+- **R-05 Redis <=15 ms — OPEN / MEDIUM.** Benchmark/load evidence отсутствует.
+- **R-06 CI dependency warning — OPEN / LOW-to-MEDIUM operational.** Browser QA сообщает о 2 high severity vulnerabilities в временно устанавливаемом Playwright dependency tree; это не доказательство уязвимости production runtime, но требует отдельного dependency review.
 
 ---
 
 # 2. EXECUTION ROADMAP
 
-| Блок Master Spec | Статус | Текущий прогресс |
+| Блок | Статус | Прогресс |
 |---|---|---:|
-| 1. North Star / positioning | **DONE — production evidence** | **100%** |
-| 2. Brand / HUD / design tokens | PARTIAL | 60% |
-| 3. 5-layer architecture / DB | PARTIAL | 30% |
-| 4. H1/H2/H3 roadmap | DOCUMENTED | 65% |
-| 5. Business model / funnel | DOCUMENTED | 55% |
-| 6. Security / FZ-152 / Change | DESIGN ONLY | 20% |
-| 7. Role checklists / DoD | PARTIAL | 55% |
-| 8. Telegram/SMM | DOCUMENTED | 40% |
-| Production evidence | **PARTIAL — improving** | **75%** |
+| North Star / positioning | **DONE — production evidence** | **100%** |
+| Brand / HUD / design tokens | PARTIAL / queued | 60% |
+| 5-layer architecture / DB | PARTIAL / queued | 30% |
+| H1/H2/H3 roadmap | DOCUMENTED | 65% |
+| Business model / funnel | DOCUMENTED | 55% |
+| Security / FZ-152 / Change | DESIGN ONLY | 20% |
+| Role checklists / DoD | PARTIAL | 55% |
+| Telegram/SMM | DOCUMENTED | 40% |
+| Production evidence | **STRONGER / active** | **85%** |
 
-**Общая оценка Master-Spec alignment:** **~50%**. Это оценка покрытия требований, не процент готовности бизнеса или юридического compliance.
+**Общая оценка Master-Spec alignment:** ~55%. Это покрытие требований, не процент готовности бизнеса и не compliance score.
 
 ---
 
 # 3. STEP 1 — NORTH STAR / POSITIONING
 
-**Статус: DONE — production evidence**  
-**Прогресс: 100%**  
-**PR:** #10 `feat(positioning): align public entry point with master operational spec`  
-**Merge commit:** `1a277173a4c2f97e9e39255aa0203b6e378364a9`
+**Статус: DONE — production evidence / 100%**  
+**PR:** #10  
+**Merge:** `1a277173a4c2f97e9e39255aa0203b6e378364a9`
 
-### Что проверено
-- Master Spec требует финансово ориентированную точку входа и цепочку `Complexity → Understanding → System → Automation → Outcome`.
-- Операционный цикл: `diagnose → design → simulate → automate → monitor`.
-- Существующая financial diagnostic находится на `/dex-immediate.html#profit-leakage`.
-- Визуальный foundation не требовал перестройки для выполнения этого шага.
+Реализован deterministic build-time positioning pass: финансовая диагностика profit leakage стала основной точкой входа, CTA ведёт к `/dex-immediate.html#profit-leakage`, narrative соответствует `Complexity → Understanding → System → Automation → Outcome` и `diagnose → design → simulate → automate → monitor`.
 
-### Что изменено
-Создан детерминированный build-time pass `scripts/master-spec-positioning.mjs`:
-- meta description → финансовая диагностика + управляемая трансформация;
-- OG/Twitter title/description → финансово ориентированный narrative;
-- hero → «Находим, где бизнес теряет прибыль»;
-- primary CTA → существующая profit leakage diagnostic;
-- secondary CTA → раздел «Как работаем»;
-- при отсутствии ожидаемого маркера build падает, а не молча модифицирует неизвестную страницу.
-
-Изменён `package.json`: production build выполняет positioning pass после основного site build. В Immediate QA добавлен `npm run test:positioning` и static checks итогового artifact.
-
-### Что доказано
-- PR #10 создан и смержен в `main`.
-- Build и positioning regression checks прошли.
-- Production Smoke для merge commit `1a277173...` завершился `SUCCESS`; live production verification прошёл.
-
-### Что осталось
-- Долгосрочно желательно перенести canonical positioning из build-time patch в основной source-of-truth страницы, чтобы не зависеть от transitional transformation layer.
-- Это не блокирует текущий positioning DoD, но остаётся technical debt.
-
-### Риски
-- **MEDIUM:** transitional build-time pass может усложнить будущую работу над source narrative.
+**Evidence:** build/regression checks PASS; Production Smoke после merge PASS.  
+**Technical debt:** долгосрочно перенести canonical positioning из build-time transformation в основной source-of-truth страницы.
 
 ---
 
-# 4. STEP 2 — BRAND / DESIGN SYSTEM
+# 4. STEP 4 — BUSINESS / FINANCE — CURRENT PRIORITY
 
-**Статус: QUEUED / READY FOR AUDIT**  
-**Прогресс: 60%**
+**Статус: FINANCE PRODUCTIZATION PASS — production evidence**  
+**Прогресс: 85%**
 
-Целевые требования:
-- S не разрывается.
-- Animation только вокруг центральной synaptic zone.
-- Canonical assets не перерисовываются.
-- Orbitron для H1-H3/HUD statuses.
-- Manrope для body/analytics.
-- Нормализация Master Spec color tokens.
-- HUD/FUI остаётся функциональным.
-- Mobile — самостоятельная композиция.
+## 4.1. Финансовый контракт
 
-**Риск:** нельзя менять accepted logo direction ради нового визуального эксперимента.
-
----
-
-# 5. STEP 3 — 5-LAYER TECHNICAL ARCHITECTURE
-
-**Статус: QUEUED**  
-**Прогресс: 30%**
-
-Целевой порядок:
-Experience → Intelligence → Business Logic → Integration → Governance.
-
-Отдельно проверить фактическое наличие:
-- AI Abstraction Gateway;
-- PostgreSQL + RLS;
-- JSONB complexity graphs;
-- GIN indexes;
-- Redis;
-- integration adapters / queues;
-- governance/audit/masking.
-
-Ничего из перечисленного не будет отмечено `DONE` без кода, конфигурации или инфраструктурного evidence.
-
----
-
-# 6. STEP 4 — BUSINESS / FINANCE
-
-**Статус: ACTIVE PRIORITY**  
-**Прогресс: 65%**  
-**Blocker:** HIGH — Issue #11
-
-Financial diagnostic остаётся первым коммерческим доказательством ценности.
-
-Обязательные outputs:
+Domain logic `src/immediate-logic.js` остаётся авторитетным расчётным контрактом:
 - monthly leakage;
-- recoverable value;
-- annual value;
+- recoverable monthly value;
+- annual recoverable value;
 - ROI;
 - payback;
-- margin uplift;
+- margin uplift / projected margin;
 - priority source;
-- action map;
-- explicit assumptions/evidence boundary.
+- Action Map;
+- explicit assumptions.
 
-### Текущий gap
-Domain logic уже считает recoverability для ошибок и задержек отдельно и консервативно. Frontend fallback пока не повторяет этот контракт и может завышать recoverable value при недоступности API.
+Recoverability ошибок и задержек не предполагается автоматически: без evidence default = 0%.
 
-### Следующий технический подшаг
-Закрыть Issue #11:
-1. синхронизировать fallback и domain contract;
-2. добавить regression tests для default 0% recoverability и явных shares;
-3. проверить convergence API/fallback;
-4. затем вывести Action Map и margin impact в UI;
-5. пройти browser QA + production smoke.
+## 4.2. Issue #11 — CLOSED
+
+**Issue:** #11 `HIGH: synchronize profit-leakage frontend fallback with domain recoverability contract`.  
+**Статус:** CLOSED / completed.  
+
+Причина закрытия: frontend fallback приведён к evidence-driven contract; добавлены regression checks; финансовая оценка не превращается в гарантию при отсутствии подтверждающих данных. fileciteturn325file0
+
+## 4.3. Finance productization
+
+В build pipeline добавлен `scripts/finance-productization-pass.mjs`. Он материализует в production artifact отдельный финансовый контур:
+- явный % возврата стоимости ошибок;
+- явный % возврата стоимости задержек;
+- месячная выручка;
+- текущая маржа;
+- расчёт экономического эффекта;
+- ROI;
+- payback;
+- влияние на маржу;
+- Action Map по источникам потерь;
+- evidence/scenario disclaimer.
+
+Контур обращается к `/api/v1/profit-leakage`, а при недоступности API не подменяет результат упрощённой оптимистичной формулой.
+
+## 4.4. API convergence
+
+Проверен production build path: финансовый API подключён к domain calculation; fallback больше не предполагает 100% recovery для errors/delays. Это закрывает наиболее опасный класс расхождения между API и браузером.
+
+## 4.5. Browser QA evidence
+
+Immediate QA run **#263**, run id `34884200154`, завершён **SUCCESS**.
+
+Проверены:
+- landing → assessment → CTA;
+- финансовый journey;
+- profit leakage → ROI → margin impact → Action Map;
+- мобильный viewport без горизонтального overflow.
+
+Все 3 browser tests прошли. Build, immediate tests, financial fallback test, finance productization test, positioning test, artifact verification, routing, performance budget, Wrangler dry-run и artifact upload также прошли. fileciteturn319file0
+
+Production Smoke run **#168**, run id `34884200146`, для того же коммита завершён **SUCCESS**; live production verification прошёл.
+
+## 4.6. Финансовый контрольный сценарий
+
+Для QA используется сценарий:
+- labor = 1 000 000 ₽/мес.;
+- manual share = 50%;
+- recoverable manual share = 40%;
+- errors = 100 000 ₽/мес.; recovery = 50%;
+- delays = 50 000 ₽/мес.; recovery = 20%;
+- implementation = 1 500 000 ₽;
+- revenue = 5 000 000 ₽/мес.; margin = 20%.
+
+Ожидаемый/фактический результат:
+- recoverable = **260 000 ₽/мес.**;
+- annual effect = **3 120 000 ₽**;
+- ROI = **108%**;
+- payback = **5,8 мес.**;
+- margin uplift = **+5,2 п.п.**.
+
+Это тестовый сценарий, а не клиентский прогноз.
+
+## 4.7. Finance red-team
+
+1. **HIGH — input quality:** ROI чувствителен к корректности стоимости труда, ошибок, задержек и recovery shares. Нужна evidence capture и confidence scoring до коммерческого инвестиционного решения.
+2. **HIGH — double counting:** трудовые потери, ошибки и задержки могут описывать один и тот же процессный ущерб. Следующий слой должен вводить взаимную проверку/корреляцию источников, иначе leakage будет суммироваться дважды.
+3. **MEDIUM — implementation cost:** текущая модель использует единичный implementation cost; для реального предложения нужен TCO/opex/capex и conservative/base/optimistic scenarios.
+
+Следующий финансовый шаг: **evidence-backed diagnostic → confidence → no-double-counting → scenario ROI/TCO**.
+
+---
+
+# 5. STEP 2 — BRAND / DESIGN SYSTEM
+
+**Статус: QUEUED / READY FOR AUDIT — 60%**
+
+Проверить Master Spec requirements: Orbitron/Manrope, Void/Cyan/Blue/Purple/Magenta tokens, HUD/FUI functional behavior, synaptic-zone animation, canonical assets, mobile composition. Не менять принятый logo direction без основания.
+
+---
+
+# 6. STEP 3 — 5-LAYER TECHNICAL ARCHITECTURE
+
+**Статус: QUEUED — 30%**
+
+Цель: `Experience → Intelligence → Business Logic → Integration → Governance`.
+
+Требуется factual evidence по AI Abstraction Gateway, PostgreSQL/RLS, JSONB complexity graphs, GIN indexes, Redis, integration adapters/queues, governance/audit/masking.
 
 ---
 
 # 7. STEP 5 — SECURITY / GOVERNANCE
 
-**Статус: QUEUED**  
-**Прогресс: 20%**
+**Статус: QUEUED — 20%**
 
-До production claims требуется:
-- data flow map;
-- tenant isolation model;
-- access model;
-- audit events;
-- masking/anonymization design review;
-- encryption at rest/in transit;
-- retention/deletion rules;
-- compliance evidence boundaries.
+Следующий security pass должен проверить data flow, tenant isolation, access model, audit events, masking/anonymization, encryption, retention/deletion и compliance evidence boundaries.
 
-**Критическое правило:** FZ-152/ISO/EU AI Act соответствие нельзя объявлять фактом только на основании архитектурного описания.
+**Critical rule:** FZ-152/ISO/EU AI Act нельзя заявлять как достигнутые без технических и организационных доказательств.
 
 ---
 
 # 8. STEP 6 — QA / RELEASE
 
-**Статус: ACTIVE**
+**Статус: ACTIVE / PASSING CURRENT FINANCE RELEASE GATES**
 
-Definition of Done:
+Current evidence:
 - build PASS;
-- unit/domain tests PASS;
+- domain/immediate tests PASS;
+- financial fallback contract PASS;
+- finance productization test PASS;
+- positioning regression PASS;
 - artifact/static contract PASS;
-- browser UX PASS;
-- production smoke PASS;
-- deployment evidence PASS;
-- no known critical mismatch.
+- browser UX **3/3 PASS**;
+- Production Smoke PASS;
+- production live verification PASS.
 
-Merge без production evidence не считается release.
-
----
-
-# 9. ОТЧЁТНОСТЬ ПО КАЖДОМУ ШАГУ
-
-Каждое обновление этого документа должно содержать:
-1. Что проверено.
-2. Что изменено.
-3. Что доказано тестами/evidence.
-4. Что осталось.
-5. Статус.
-6. Процент выполнения.
-7. Риски.
-8. Недостатки/technical debt.
-9. Следующий шаг.
-
-Перед новым шагом сверять открытые HIGH/CRITICAL issues и предыдущие baseline gaps.
+Текущий financial productization commit: `26597b4920f7b3fdf18f6da518bc598b88bfc151`.
 
 ---
 
-# 10. SELF-CORRECTION / EPISTEMIC BOUNDARY
+# 9. TECHNICAL DEBT REGISTER
 
-**Факты:** берутся из GitHub, CI/CD, production evidence и Master Spec.  
-**Выводы:** явно помечаются как оценка/инференс.  
-**Гипотезы:** не выдаются за реализованные возможности.
-
-Если данных недостаточно для подтверждения требования, статус остаётся `PARTIAL`, `UNKNOWN` или `QUEUED`, а не `DONE`.
+1. `finance-productization-pass.mjs` и `align-financial-fallback.mjs` являются переходным build-time слоем. Долгосрочная цель — один shared financial calculation contract без post-build patching.
+2. `master-spec-positioning.mjs` остаётся transitional source transformation.
+3. Security/compliance evidence отсутствует в объёме, достаточном для production guarantee.
+4. Redis performance target <=15 ms не benchmarked.
+5. Dependency review для Playwright/browser QA предупреждений ещё не закрыт.
 
 ---
 
-## CHANGELOG
+# 10. NEXT EXECUTION STEP
 
-### 2026-09-14 — Initial baseline
-- Создан execution report.
-- Master Operational Specification v2.0 принят как рабочий источник истины.
-- Проведён первичный repository/CI/code audit.
-- Зафиксированы HIGH/CRITICAL security/compliance boundaries.
-- Financial domain logic признан существующим; frontend fallback mismatch зафиксирован как HIGH.
-- Определён roadmap от Master Spec к implementation/QA/release.
+**Финансовый приоритет сохраняется.**
 
-### 2026-09-14 — Step 1 implementation and release
-- Создан `feat/master-spec-positioning-pass`.
-- Создан PR #10.
-- Добавлен deterministic build-time positioning pass.
-- Добавлен regression test и CI gate.
-- PR #10 смержен в `main`.
-- Production Smoke на merge commit `1a277173...` — SUCCESS.
-- Step 1 закрыт как DONE по имеющемуся production evidence.
+Следующий результат должен превратить текущий calculator в более защищённый коммерческий diagnostic:
 
-### 2026-09-14 — Gap-control hardening
-- Создан GitHub Issue #11 для HIGH финансового mismatch.
-- Issue содержит конкретный DoD, regression requirements и production release gate.
-- В этот execution report добавлен обязательный контроль открытых HIGH/CRITICAL gaps перед переходом между шагами.
-- Следующий активный блок: финансовая корректность fallback → Action Map → margin impact.
+`ввод данных → evidence → confidence → leakage attribution → no-double-counting → conservative/base/optimistic → ROI/TCO/payback → action plan`.
+
+Только после этого — полноценный Brand/HUD audit, затем 5-layer architecture/DB evidence и Governance/security.
+
+---
+
+## SELF-CORRECTION / EPISTEMIC BOUNDARY
+
+**Факты:** CI и production smoke подтверждают текущий build/UX/deployment path; Issue #11 закрыт.  
+**Inference:** финансовый контур стал существенно ближе к Master Spec, но ещё не является полноценной enterprise financial diagnostic системой.  
+**Не доказано:** реальная точность клиентских исходных данных, отсутствие double counting на реальных процессах, достижение Redis <=15 ms и юридическое compliance.  
+**Если эти предпосылки окажутся неверны:** ROI/маржинальный эффект должны быть пересчитаны, а compliance claims запрещены до появления evidence.
