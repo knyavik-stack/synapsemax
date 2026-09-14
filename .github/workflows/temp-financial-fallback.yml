@@ -1,0 +1,39 @@
+name: Temporary financial fallback patch
+on:
+  push:
+    branches:
+      - fix/financial-ui-fallback
+permissions:
+  contents: write
+jobs:
+  patch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Align financial fallback with conservative domain model
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/build-site.mjs')
+          s = p.read_text()
+          old = "recoverableMonthlyValue: Math.round(recoverableManualLeakage + input.monthlyErrorCost + input.monthlyDelayCost),"
+          new = "recoverableMonthlyValue: Math.round(recoverableManualLeakage),"
+          if old not in s:
+              raise SystemExit('Expected financial fallback expression not found')
+          s = s.replace(old, new, 1)
+          old2 = "annualRecoverableValue: Math.round((recoverableManualLeakage + input.monthlyErrorCost + input.monthlyDelayCost) * 12)"
+          new2 = "annualRecoverableValue: Math.round(recoverableManualLeakage * 12)"
+          if old2 not in s:
+              raise SystemExit('Expected annual fallback expression not found')
+          s = s.replace(old2, new2, 1)
+          p.write_text(s)
+          PY
+      - name: Commit patch and remove temporary workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/build-site.mjs
+          git rm .github/workflows/temp-financial-fallback.yml
+          git commit -m "fix(finance): align client fallback with conservative recovery"
+          git push
