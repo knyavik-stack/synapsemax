@@ -26,7 +26,7 @@ const replacements = [
   ],
   [
     '<meta property="og:description" content="Соединяем технологии, интеллект и бизнес в единый цифровой контур.">',
-    '<meta property="og:description" content="Диагностика потерь прибыли → архитектура → симуляция → автоматизация → измеримый результат."​>'
+    '<meta property="og:description" content="Диагностика потерь прибыли → архитектура → симуляция → автоматизация → измеримый результат.">'
   ],
   [
     '<meta name="twitter:title" content="SynapseMax — Automation · Digital Transformation · AI">',
