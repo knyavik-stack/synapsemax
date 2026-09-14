@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { assess, calculateRoi } from '../src/immediate-logic.js';
+import { assess, calculateRoi, diagnoseProfitLeakage } from '../src/immediate-logic.js';
 
 const root = process.cwd();
 
@@ -35,8 +35,40 @@ const roiZeroSaving = calculateRoi({ monthlyCost: 100000, automationShare: 0, ex
 assert.equal(roiZeroSaving.monthlySaving, 0);
 assert.equal(roiZeroSaving.annualSaving, 0);
 assert.equal(roiZeroSaving.roiPercent, -100);
-// No savings means payback is undefined, not zero months.
 assert.equal(roiZeroSaving.paybackMonths, null);
+
+// Profit Leakage: explicit recoverability prevents overclaiming savings.
+const leakage = diagnoseProfitLeakage({
+  monthlyLaborCost: 1000000,
+  manualWorkShare: 50,
+  recoverableManualShare: 40,
+  monthlyErrorCost: 100000,
+  recoverableErrorShare: 50,
+  monthlyDelayCost: 50000,
+  recoverableDelayShare: 20,
+  implementationCost: 1500000,
+  monthlyRevenue: 5000000,
+  baselineMarginPercent: 20
+});
+assert.equal(leakage.manualLeakage, 500000);
+assert.equal(leakage.recoverableManualLeakage, 200000);
+assert.equal(leakage.recoverableErrorLeakage, 50000);
+assert.equal(leakage.recoverableDelayLeakage, 10000);
+assert.equal(leakage.totalMonthlyLeakage, 650000);
+assert.equal(leakage.recoverableMonthlyValue, 260000);
+assert.equal(leakage.annualRecoverableValue, 3120000);
+assert.equal(leakage.roiPercent, 108);
+assert.equal(leakage.paybackMonths, 5.8);
+assert.equal(leakage.marginUpliftPoints, 5.2);
+assert.equal(leakage.projectedMarginPercent, 25.2);
+assert.equal(leakage.prioritySource, 'manual');
+assert.equal(leakage.actionMap[0].key, 'manual');
+
+// Conservative default: error/delay recovery is zero until evidence supports it.
+const conservative = diagnoseProfitLeakage({ monthlyErrorCost: 100000, monthlyDelayCost: 100000 });
+assert.equal(conservative.recoverableMonthlyValue, 0);
+assert.equal(conservative.roiPercent, null);
+assert.equal(conservative.paybackMonths, null);
 
 // Production artifact contract. Build first, then validate the actual dist output.
 const artifact = resolve(root, 'dist/dex-immediate.html');
@@ -53,59 +85,34 @@ for (const text of [
   'hello@synapsemax.ru',
   'Данные → интеллект → действие → результат.',
   'ТРАНСФОРМАЦИЯ // ГОТОВА'
-]) {
-  assert.ok(html.includes(text), `Missing production content: ${text}`);
-}
+]) assert.ok(html.includes(text), `Missing production content: ${text}`);
 
-
-// Build-runtime fallback must remain formula-equivalent to the canonical domain logic.
 for (const snippet of [
   'input.manualWork * .42 + input.dataFragmentation * .18 + input.errorRate * .22 + input.complexity * .18',
   '(100 - input.dataFragmentation) * .25 + (100 - input.manualWork) * .2 + (100 - input.errorRate) * .15 + input.complexity * .4',
   "localAutomationPotential >= 70 ? 'Высокий' : localAutomationPotential >= 45 ? 'Средний' : 'Низкий'",
-]) {
-  assert.ok(html.includes(snippet), 'Assessment resilience fallback drifted from domain contract: ' + snippet);
-}
+]) assert.ok(html.includes(snippet), 'Assessment resilience fallback drifted from domain contract: ' + snippet);
 
-// Static UX/accessibility contract: cheap checks that belong in every CI run.
-assert.match(html, /<html[^>]+lang=["']ru["']/i, 'Document language must be Russian');
-assert.match(html, /:focus-visible\s*\{/i, 'Keyboard focus-visible contract missing');
-assert.match(html, /prefers-reduced-motion\s*:\s*reduce/i, 'Reduced-motion contract missing');
-
-// Accept both valid native label associations: explicit for/id or a wrapping label.
+assert.match(html, /<html[^>]+lang=["']ru["']/i);
+assert.match(html, /:focus-visible\s*\{/i);
+assert.match(html, /prefers-reduced-motion\s*:\s*reduce/i);
 for (const field of ['complexity', 'manualWork', 'dataFragmentation', 'errorRate']) {
   const explicit = new RegExp(`<label[^>]*for=["']${field}["']`, 'i');
   const wrapped = new RegExp(`<label[^>]*>[\\s\\S]{0,1200}<input[^>]*id=["']${field}["']`, 'i');
   assert.ok(explicit.test(html) || wrapped.test(html), `Missing accessible label association for ${field}`);
 }
-
-// Pointer enhancement may be implemented in CSS, JS, or both. Verify the
-// actual capability boundary instead of prescribing one implementation.
 const hasFinePointerCss = /@media\s*\(\s*pointer\s*:\s*fine\s*\)/i.test(html);
 const hasFinePointerJs = /matchMedia\(\s*['"]\(pointer:fine\)['"]\s*\)/i.test(html);
 const hasCoarsePointerCss = /@media\s*\(\s*pointer\s*:\s*coarse\s*\)/i.test(html);
-assert.ok(hasFinePointerCss || hasFinePointerJs, 'Fine-pointer enhancement boundary missing');
-assert.ok(hasCoarsePointerCss || hasFinePointerJs, 'Pointer capability boundary missing');
-
-assert.match(html, /aria-(?:label|describedby|live|atomic)\s*=/i, 'No ARIA attribute found in production artifact');
-
+assert.ok(hasFinePointerCss || hasFinePointerJs);
+assert.ok(hasCoarsePointerCss || hasFinePointerJs);
+assert.match(html, /aria-(?:label|describedby|live|atomic)\s*=/i);
 assert.match(html, /sm-footer/);
 assert.match(html, /synapsemax-symbol\.png/);
 assert.match(html, /synapsemax-wordmark\.png/);
 assert.match(html, /Asset boundary: PASS|synapsemax-wordmark\.png/);
-
-const leakageModule = await import('../src/immediate-logic.js');
-const diagnostic = leakageModule.diagnoseProfitLeakage({ monthlyLaborCost: 1000000, manualWorkShare: 50, recoverableManualShare: 40, monthlyErrorCost: 100000, monthlyDelayCost: 50000, implementationCost: 1500000 });
-assert.equal(diagnostic.manualLeakage, 500000);
-assert.equal(diagnostic.recoverableManualLeakage, 200000);
-assert.equal(diagnostic.totalMonthlyLeakage, 650000);
-assert.equal(diagnostic.recoverableMonthlyValue, 350000);
-assert.equal(diagnostic.annualRecoverableValue, 4200000);
-assert.equal(diagnostic.paybackMonths, 4.3);
-assert.equal(diagnostic.roiPercent, 180);
-
 assert.ok(html.includes('profit-leakage-btn'), 'Profit leakage diagnostic control missing from production artifact');
 assert.ok(html.includes('/api/v1/profit-leakage'), 'Profit leakage API contract missing from production artifact');
 assert.ok(html.includes('Сначала — где теряется прибыль'), 'Financial-first positioning missing from production artifact');
 
-console.log('Immediate smoke + artifact + static UX contract: PASS');
+console.log('Immediate smoke + artifact + financial diagnostic contract: PASS');
