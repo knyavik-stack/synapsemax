@@ -58,6 +58,7 @@ assert.equal(conservative.paybackMonths, null);
 const artifact = resolve(root, 'dist/dex-immediate.html');
 assert.ok(existsSync(artifact), 'dist/dex-immediate.html must exist; run npm run build first');
 const html = readFileSync(artifact, 'utf8');
+const workerSource = readFileSync(resolve(root, 'src/index.js'), 'utf8');
 
 for (const id of ['assessment', 'approach', 'architecture', 'contact', 'top']) assert.match(html, new RegExp(`id=["']${id}["']`));
 for (const text of ['Диагностика', 'Получить карту трансформации', 'ИИ-консультант', 'hello@synapsemax.ru', 'Данные → интеллект → действие → результат.', 'ТРАНСФОРМАЦИЯ // ГОТОВА']) assert.ok(html.includes(text), `Missing production content: ${text}`);
@@ -83,5 +84,7 @@ assert.match(html, /Asset boundary: PASS|synapsemax-wordmark\.png/);
 assert.ok(html.includes('profit-leakage-btn'));
 assert.ok(html.includes('/api/v1/profit-leakage'));
 assert.ok(html.includes('Сначала — где теряется прибыль'));
+assert.match(workerSource, /request\.method === 'POST' && url\.pathname === '\/api\/v1\/profit-leakage'/);
+assert.match(workerSource, /diagnoseProfitLeakage\(await request\.json\(\)\)/);
 
 console.log('Immediate smoke + artifact + financial diagnostic contract: PASS');
