@@ -18,6 +18,7 @@ jobs:
 
       - run: npm run build
       - run: npm run test:immediate
+      - run: npm run test:positioning
 
       - name: Verify production artifact
         run: |
@@ -31,6 +32,9 @@ jobs:
           grep -q 'sm-footer' dist/dex-immediate.html
           grep -q 'hello@synapsemax.ru' dist/dex-immediate.html
           grep -q 'Данные → интеллект → действие → результат' dist/dex-immediate.html
+          grep -q 'Находим, где бизнес' dist/index.html
+          grep -q '/dex-immediate.html#profit-leakage' dist/index.html
+          grep -q 'диагностика потерь прибыли' dist/index.html
           echo 'Production artifact verification: PASS'
 
       - name: Validate root routing contract
