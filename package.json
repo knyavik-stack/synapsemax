@@ -3,8 +3,9 @@
   "private":true,
   "type":"module",
   "scripts":{
-    "build":"node scripts/build-site.mjs",
+    "build":"node scripts/build-site.mjs && node scripts/master-spec-positioning.mjs",
     "test:immediate":"node scripts/test-immediate.mjs",
+    "test:positioning":"node scripts/test-positioning-pass.mjs",
     "verify:production":"node scripts/verify-production.mjs",
     "deploy:cloudflare":"npm run build && npx wrangler deploy",
     "preview:cloudflare":"npm run build && npx wrangler versions upload"
