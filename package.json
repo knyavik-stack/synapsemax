@@ -3,7 +3,7 @@
   "private":true,
   "type":"module",
   "scripts":{
-    "build":"node scripts/build-site.mjs && node scripts/master-spec-positioning.mjs",
+    "build":"node scripts/build-site.mjs && node scripts/align-financial-fallback.mjs && node scripts/master-spec-positioning.mjs",
     "test:immediate":"node scripts/test-immediate.mjs",
     "test:positioning":"node scripts/test-positioning-pass.mjs",
     "verify:production":"node scripts/verify-production.mjs",
