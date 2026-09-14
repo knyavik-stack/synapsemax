@@ -18,7 +18,7 @@
 6. Зафиксировать фактический результат.
 7. Перейти к следующему блоку.
 
-Нельзя считать merge доказательством релиза; нельзя завышать ROI; открытые HIGH/CRITICAL gaps не должны исчезать из очереди. FZ-152/ISO/EU AI Act требования считаются design requirements до появления фактического compliance evidence.
+Merge не является доказательством релиза; ROI нельзя завышать; открытые HIGH/CRITICAL gaps не должны исчезать из очереди. FZ-152/ISO/EU AI Act требования считаются design requirements до появления фактического compliance evidence.
 
 ---
 
@@ -31,12 +31,12 @@
 **VERIFIED.** `knyavik-stack/synapsemax`, `main`, financial diagnostic, build pipeline, browser QA и production smoke присутствуют.
 
 ### Ключевые baseline gaps
-- **R-01 Financial fallback/domain mismatch — CLOSED.** Был создан HIGH Issue #11; fallback синхронизирован с evidence-driven domain contract.
+- **R-01 Financial fallback/domain mismatch — CLOSED.** HIGH Issue #11 закрыт; fallback синхронизирован с evidence-driven domain contract.
 - **R-02 Master Spec шире текущей реализации — OPEN / HIGH.** PostgreSQL/RLS/JSONB/Redis, AI Gateway, Integration и Governance остаются частично реализованными/документированными; без evidence не считаются DONE.
 - **R-03 Brand tokens — OPEN / MEDIUM.** Нужна нормализация токенов Master Spec после аудита runtime pages.
 - **R-04 Security/compliance claims — OPEN / CRITICAL if presented as guarantee.** Архитектурное требование не равно юридическому compliance.
 - **R-05 Redis <=15 ms — OPEN / MEDIUM.** Benchmark/load evidence отсутствует.
-- **R-06 CI dependency warning — OPEN / LOW-to-MEDIUM operational.** Browser QA сообщает о 2 high severity vulnerabilities в временно устанавливаемом Playwright dependency tree; это не доказательство уязвимости production runtime, но требует отдельного dependency review.
+- **R-06 CI dependency warning — OPEN / LOW-to-MEDIUM operational.** Browser QA сообщает о 2 high severity vulnerabilities во временно устанавливаемом Playwright dependency tree; это не доказательство уязвимости production runtime, но требует отдельного dependency review.
 
 ---
 
@@ -52,9 +52,9 @@
 | Security / FZ-152 / Change | DESIGN ONLY | 20% |
 | Role checklists / DoD | PARTIAL | 55% |
 | Telegram/SMM | DOCUMENTED | 40% |
-| Production evidence | **STRONGER / active** | **85%** |
+| Production evidence | **STRONG** | **90%** |
 
-**Общая оценка Master-Spec alignment:** ~55%. Это покрытие требований, не процент готовности бизнеса и не compliance score.
+**Общая оценка Master-Spec alignment:** ~60%. Это покрытие требований, не процент готовности бизнеса и не compliance score.
 
 ---
 
@@ -73,8 +73,8 @@
 
 # 4. STEP 4 — BUSINESS / FINANCE — CURRENT PRIORITY
 
-**Статус: FINANCE PRODUCTIZATION PASS — production evidence**  
-**Прогресс: 85%**
+**Статус: FINANCE PRODUCTIZATION V2 — DONE FOR CURRENT SCOPE / production evidence**  
+**Прогресс: 95% текущего H1 финансового контура**
 
 ## 4.1. Финансовый контракт
 
@@ -82,59 +82,88 @@ Domain logic `src/immediate-logic.js` остаётся авторитетным 
 - monthly leakage;
 - recoverable monthly value;
 - annual recoverable value;
+- annual net value;
 - ROI;
 - payback;
 - margin uplift / projected margin;
 - priority source;
 - Action Map;
+- evidence/data quality;
+- conservative/base/optimistic scenarios;
+- overlap adjustment;
+- upfront investment / OPEX-aware economics;
 - explicit assumptions.
 
 Recoverability ошибок и задержек не предполагается автоматически: без evidence default = 0%.
 
 ## 4.2. Issue #11 — CLOSED
 
-**Issue:** #11 `HIGH: synchronize profit-leakage frontend fallback with domain recoverability contract`.  
-**Статус:** CLOSED / completed.  
+HIGH Issue #11 `synchronize profit-leakage frontend fallback with domain recoverability contract` закрыт. Frontend fallback приведён к evidence-driven contract; regression checks подтверждают, что отсутствие подтверждающих данных не превращается в 100% recovery.
 
-Причина закрытия: frontend fallback приведён к evidence-driven contract; добавлены regression checks; финансовая оценка не превращается в гарантию при отсутствии подтверждающих данных. fileciteturn325file0
+## 4.3. Issue #13 — CLOSED
 
-## 4.3. Finance productization
+Issue #13 `feat(finance): add evidence confidence, scenarios and double-counting controls` закрыт через PR #14.
 
-В build pipeline добавлен `scripts/finance-productization-pass.mjs`. Он материализует в production artifact отдельный финансовый контур:
-- явный % возврата стоимости ошибок;
-- явный % возврата стоимости задержек;
-- месячная выручка;
-- текущая маржа;
-- расчёт экономического эффекта;
-- ROI;
-- payback;
-- влияние на маржу;
-- Action Map по источникам потерь;
-- evidence/scenario disclaimer.
+**Merge:** `9a957531599b341efeb34017a6e758ee50042c55`.
 
-Контур обращается к `/api/v1/profit-leakage`, а при недоступности API не подменяет результат упрощённой оптимистичной формулой.
+Реализовано:
+- evidence quality / confidence signal;
+- conservative / base / optimistic scenarios;
+- явные overlap controls между manual/errors/delays;
+- CAPEX/OPEX-aware ROI и payback;
+- regression + real-browser QA coverage.
 
-## 4.4. API convergence
+## 4.4. No-double-counting control
 
-Проверен production build path: финансовый API подключён к domain calculation; fallback больше не предполагает 100% recovery для errors/delays. Это закрывает наиболее опасный класс расхождения между API и браузером.
+Модель различает gross recoverable value и очищенный recoverable value. Для errors/delays доступны явные overlap shares; модель вычитает только заявленное пересечение и не делает скрытых корреляционных предположений.
 
-## 4.5. Browser QA evidence
+Это сознательно консервативный дизайн: автоматическая «умная» корреляция без доказательств была бы красивее, но финансово опаснее.
 
-Immediate QA run **#263**, run id `34884200154`, завершён **SUCCESS**.
+## 4.5. Scenario economics
+
+По умолчанию:
+- **conservative:** 70% очищенного net monthly value;
+- **base:** 100%;
+- **optimistic:** 115%.
+
+Коэффициенты являются сценарными допущениями, а не вероятностями и не гарантией. Каждый сценарий показывает annual value, ROI и payback.
+
+## 4.6. TCO / OPEX / CAPEX
+
+Финансовый расчёт теперь учитывает:
+- `implementationCost` + `oneTimeCapex` как upfront investment;
+- `monthlyOpex` + `annualOpex / 12` как ongoing cost;
+- annual net value после ongoing costs;
+- ROI и payback по net economics.
+
+Это устраняет слабое место старой модели, где единичный implementation cost не отражал эксплуатационную стоимость решения.
+
+## 4.7. Evidence quality
+
+`evidenceQuality` отображается как `Низкая / Средняя / Высокая`. Значение не изменяет математический результат автоматически: оно является явным сигналом качества исходных данных и не превращается в скрытый multiplier ROI.
+
+Это сделано намеренно: confidence должен сначала стать governance/evidence механизмом, а не произвольным коэффициентом, который может незаметно менять деньги.
+
+## 4.8. Browser QA evidence
+
+Immediate QA **#269**, run id `34886432033`, завершён **SUCCESS**.
 
 Проверены:
 - landing → assessment → CTA;
-- финансовый journey;
-- profit leakage → ROI → margin impact → Action Map;
-- мобильный viewport без горизонтального overflow.
+- profit leakage → economic effect;
+- ROI / payback / margin impact;
+- conservative/base/optimistic scenario cards;
+- evidence quality display;
+- Action Map;
+- mobile viewport без горизонтального overflow.
 
-Все 3 browser tests прошли. Build, immediate tests, financial fallback test, finance productization test, positioning test, artifact verification, routing, performance budget, Wrangler dry-run и artifact upload также прошли. fileciteturn319file0
+Все build, immediate/financial regression, positioning, artifact, routing, performance budget, Wrangler validation/dry-run, local Worker и 3 browser tests прошли.
 
-Production Smoke run **#168**, run id `34884200146`, для того же коммита завершён **SUCCESS**; live production verification прошёл.
+Production Smoke **#170**, run id `34886568180`, для merge commit `9a957531599b341efeb34017a6e758ee50042c55` завершён **SUCCESS**; production deployment/smoke verification прошёл.
 
-## 4.6. Финансовый контрольный сценарий
+## 4.9. Финансовый контрольный сценарий
 
-Для QA используется сценарий:
+QA scenario:
 - labor = 1 000 000 ₽/мес.;
 - manual share = 50%;
 - recoverable manual share = 40%;
@@ -143,22 +172,26 @@ Production Smoke run **#168**, run id `34884200146`, для того же ком
 - implementation = 1 500 000 ₽;
 - revenue = 5 000 000 ₽/мес.; margin = 20%.
 
-Ожидаемый/фактический результат:
+Expected/factual base result:
 - recoverable = **260 000 ₽/мес.**;
-- annual effect = **3 120 000 ₽**;
+- annual net effect = **3 120 000 ₽**;
 - ROI = **108%**;
 - payback = **5,8 мес.**;
 - margin uplift = **+5,2 п.п.**.
 
+Scenario cards:
+- conservative = **2 184 000 ₽/год**;
+- base = **3 120 000 ₽/год**;
+- optimistic = **3 588 000 ₽/год**.
+
 Это тестовый сценарий, а не клиентский прогноз.
 
-## 4.7. Finance red-team
+## 4.10. Finance red-team — current
 
-1. **HIGH — input quality:** ROI чувствителен к корректности стоимости труда, ошибок, задержек и recovery shares. Нужна evidence capture и confidence scoring до коммерческого инвестиционного решения.
-2. **HIGH — double counting:** трудовые потери, ошибки и задержки могут описывать один и тот же процессный ущерб. Следующий слой должен вводить взаимную проверку/корреляцию источников, иначе leakage будет суммироваться дважды.
-3. **MEDIUM — implementation cost:** текущая модель использует единичный implementation cost; для реального предложения нужен TCO/opex/capex и conservative/base/optimistic scenarios.
-
-Следующий финансовый шаг: **evidence-backed diagnostic → confidence → no-double-counting → scenario ROI/TCO**.
+1. **HIGH — evidence quality:** confidence пока является signal, а не автоматически вычисляемой доказательной оценкой. Следующий enterprise layer должен связывать evidence с конкретными источниками и audit trail.
+2. **MEDIUM/HIGH — overlap attribution:** текущий контроль использует явные пользовательские overlap shares. Реальная process graph correlation ещё не доказана.
+3. **MEDIUM — scenario factors:** 70/100/115% — продуктовые допущения, не статистически калиброванные вероятности.
+4. **MEDIUM — TCO horizon:** текущий TCO покрывает upfront + recurring costs, но ещё не является полноценной 5-летней моделью NPV/TCO.
 
 ---
 
@@ -192,20 +225,20 @@ Production Smoke run **#168**, run id `34884200146`, для того же ком
 
 # 8. STEP 6 — QA / RELEASE
 
-**Статус: ACTIVE / PASSING CURRENT FINANCE RELEASE GATES**
+**Статус: PASSING — current finance scope released**
 
 Current evidence:
 - build PASS;
 - domain/immediate tests PASS;
 - financial fallback contract PASS;
-- finance productization test PASS;
+- finance productization V2 test PASS;
 - positioning regression PASS;
 - artifact/static contract PASS;
 - browser UX **3/3 PASS**;
-- Production Smoke PASS;
-- production live verification PASS.
+- Production Smoke **PASS**;
+- production live verification **PASS**.
 
-Текущий financial productization commit: `26597b4920f7b3fdf18f6da518bc598b88bfc151`.
+Current production merge commit: `9a957531599b341efeb34017a6e758ee50042c55`.
 
 ---
 
@@ -213,27 +246,28 @@ Current evidence:
 
 1. `finance-productization-pass.mjs` и `align-financial-fallback.mjs` являются переходным build-time слоем. Долгосрочная цель — один shared financial calculation contract без post-build patching.
 2. `master-spec-positioning.mjs` остаётся transitional source transformation.
-3. Security/compliance evidence отсутствует в объёме, достаточном для production guarantee.
-4. Redis performance target <=15 ms не benchmarked.
-5. Dependency review для Playwright/browser QA предупреждений ещё не закрыт.
+3. Evidence provenance/audit trail ещё не реализован на enterprise уровне.
+4. Автоматическая process correlation для no-double-counting отсутствует; пока используется explicit overlap input.
+5. Полный 5-year TCO/NPV ещё не реализован.
+6. Security/compliance evidence отсутствует в объёме, достаточном для production guarantee.
+7. Redis performance target <=15 ms не benchmarked.
+8. Dependency review для Playwright/browser QA предупреждений ещё не закрыт.
 
 ---
 
 # 10. NEXT EXECUTION STEP
 
-**Финансовый приоритет сохраняется.**
+Финансовый H1-контур текущей итерации закрыт по DoD. Следующий результат — **evidence-backed diagnostic layer**:
 
-Следующий результат должен превратить текущий calculator в более защищённый коммерческий diagnostic:
+`источник данных → evidence provenance → confidence model → leakage attribution → correlation/no-double-counting → scenario calibration → 5-year TCO/NPV → ROI/payback → action plan`.
 
-`ввод данных → evidence → confidence → leakage attribution → no-double-counting → conservative/base/optimistic → ROI/TCO/payback → action plan`.
-
-Только после этого — полноценный Brand/HUD audit, затем 5-layer architecture/DB evidence и Governance/security.
+После этого — полноценный Brand/HUD audit, затем 5-layer architecture/DB evidence и Governance/security.
 
 ---
 
 ## SELF-CORRECTION / EPISTEMIC BOUNDARY
 
-**Факты:** CI и production smoke подтверждают текущий build/UX/deployment path; Issue #11 закрыт.  
-**Inference:** финансовый контур стал существенно ближе к Master Spec, но ещё не является полноценной enterprise financial diagnostic системой.  
-**Не доказано:** реальная точность клиентских исходных данных, отсутствие double counting на реальных процессах, достижение Redis <=15 ms и юридическое compliance.  
+**Факты:** PR #14 merged; Immediate QA #269 PASS; Production Smoke #170 PASS; Issue #13 CLOSED.  
+**Inference:** финансовый контур теперь существенно ближе к decision-grade diagnostic и коммерческому ROI language, чем baseline.  
+**Не доказано:** точность клиентских исходных данных, фактическая process-level correlation, статистическая калибровка scenario factors, 5-year NPV/TCO, Redis <=15 ms и юридическое compliance.  
 **Если эти предпосылки окажутся неверны:** ROI/маржинальный эффект должны быть пересчитаны, а compliance claims запрещены до появления evidence.
