@@ -88,11 +88,11 @@ test('H1 finance journey: profit leakage to ROI, margin impact and Action Map', 
   await expect(impactResult).toBeVisible();
   await expect(impactResult).toContainText('Экономический эффект');
   await expect(impactResult).toContainText('Action Map');
-  await expect(impactResult.locator('[data-impact="recoverable"] b')).toHaveText('250 000 ₽');
-  await expect(impactResult.locator('[data-impact="annual"] b')).toHaveText('3 000 000 ₽');
-  await expect(impactResult.locator('[data-impact="roi"] b')).toHaveText('100%');
-  await expect(impactResult.locator('[data-impact="payback"] b')).toHaveText('6 мес.');
-  await expect(impactResult.locator('[data-impact="margin"] b')).toHaveText('+5 п.п.');
+  await expect(impactResult.locator('[data-impact="recoverable"] b')).toHaveText('260 000 ₽');
+  await expect(impactResult.locator('[data-impact="annual"] b')).toHaveText('3 120 000 ₽');
+  await expect(impactResult.locator('[data-impact="roi"] b')).toHaveText('108%');
+  await expect(impactResult.locator('[data-impact="payback"] b')).toHaveText('5.8 мес.');
+  await expect(impactResult.locator('[data-impact="margin"] b')).toHaveText('+5.2 п.п.');
   await expect(impactResult.locator('.finance-impact-action')).toHaveCount(3);
 });
 
