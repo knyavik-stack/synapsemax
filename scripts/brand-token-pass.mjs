@@ -12,14 +12,14 @@ const replacements = new Map([
   ['#1970ff', '#0066FF'],
   ['#8a2cff', '#8A2BFF'],
   ['#d744ff', '#D100FF'],
-  ['#8a2cff', '#8A2BFF'],
 ]);
 for (const [from, to] of replacements) html = html.split(from).join(to);
 
 // Make the Master Spec palette explicit without forcing a source rewrite during this transitional build phase.
+html = html.replaceAll('--violet', '--purple');
 html = html.replace(
   /:root\{\n  --bg:/,
-  ':root{\n  --void-1:#0D1117; --void-2:#1C2128; --purple:#8A2BFF;\n  --bg:'
+  ':root{\n  --void-1:#0D1117; --void-2:#1C2128;\n  --bg:'
 );
 
 fs.writeFileSync(file, html);
