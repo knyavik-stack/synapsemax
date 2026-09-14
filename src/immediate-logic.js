@@ -23,24 +23,43 @@ export function diagnoseProfitLeakage(input = {}) {
   const monthlyDelayCost = money(input.monthlyDelayCost ?? 0);
   const manualWorkShare = percent(input.manualWorkShare ?? input.automationShare ?? 0);
   const recoverableManualShare = percent(input.recoverableManualShare ?? input.expectedEfficiency ?? 0);
+  const recoverableErrorShare = percent(input.recoverableErrorShare ?? 0);
+  const recoverableDelayShare = percent(input.recoverableDelayShare ?? 0);
   const implementationCost = money(input.implementationCost ?? 0);
+  const monthlyRevenue = money(input.monthlyRevenue ?? 0);
+  const baselineMarginPercent = percent(input.baselineMarginPercent ?? 0);
   const manualLeakage = monthlyLaborCost * manualWorkShare;
   const recoverableManualLeakage = manualLeakage * recoverableManualShare;
+  const recoverableErrorLeakage = monthlyErrorCost * recoverableErrorShare;
+  const recoverableDelayLeakage = monthlyDelayCost * recoverableDelayShare;
   const totalMonthlyLeakage = manualLeakage + monthlyErrorCost + monthlyDelayCost;
-  const recoverableMonthlyValue = recoverableManualLeakage + monthlyErrorCost + monthlyDelayCost;
+  const recoverableMonthlyValue = recoverableManualLeakage + recoverableErrorLeakage + recoverableDelayLeakage;
   const annualRecoverableValue = recoverableMonthlyValue * 12;
   const roiPercent = implementationCost ? ((annualRecoverableValue - implementationCost) / implementationCost) * 100 : null;
   const paybackMonths = recoverableMonthlyValue ? implementationCost / recoverableMonthlyValue : null;
+  const marginUpliftPoints = monthlyRevenue ? (recoverableMonthlyValue / monthlyRevenue) * 100 : null;
+  const projectedMarginPercent = monthlyRevenue ? baselineMarginPercent * 100 + (recoverableMonthlyValue / monthlyRevenue) * 100 : null;
+  const sources = [
+    { key: 'manual', leakage: manualLeakage, recoverable: recoverableManualLeakage, action: 'Оптимизация процесса / автоматизация ручных операций' },
+    { key: 'errors', leakage: monthlyErrorCost, recoverable: recoverableErrorLeakage, action: 'Контроли, валидация и устранение первопричин ошибок' },
+    { key: 'delays', leakage: monthlyDelayCost, recoverable: recoverableDelayLeakage, action: 'Устранение bottleneck и redesign процесса' }
+  ].sort((a, b) => b.leakage - a.leakage);
   return {
     manualLeakage: Math.round(manualLeakage),
     recoverableManualLeakage: Math.round(recoverableManualLeakage),
     errorLeakage: Math.round(monthlyErrorCost),
+    recoverableErrorLeakage: Math.round(recoverableErrorLeakage),
     delayLeakage: Math.round(monthlyDelayCost),
+    recoverableDelayLeakage: Math.round(recoverableDelayLeakage),
     totalMonthlyLeakage: Math.round(totalMonthlyLeakage),
     recoverableMonthlyValue: Math.round(recoverableMonthlyValue),
     annualRecoverableValue: Math.round(annualRecoverableValue),
     roiPercent: roiPercent == null ? null : Math.round(roiPercent),
     paybackMonths: paybackMonths == null ? null : Math.round(paybackMonths * 10) / 10,
-    assumptions: ['Ошибки и задержки считаются полностью устранимыми только как сценарная гипотеза; перед инвестиционным решением требуется верификация по данным клиента.']
+    marginUpliftPoints: marginUpliftPoints == null ? null : Math.round(marginUpliftPoints * 10) / 10,
+    projectedMarginPercent: projectedMarginPercent == null ? null : Math.round(projectedMarginPercent * 10) / 10,
+    prioritySource: sources[0]?.key ?? null,
+    actionMap: sources.map(({ key, leakage, recoverable, action }) => ({ key, leakage: Math.round(leakage), recoverable: Math.round(recoverable), action })),
+    assumptions: ['Доля возврата для ошибок и задержек задаётся отдельно; по умолчанию 0, чтобы не приписывать клиенту гарантированный эффект.', 'Эффект и ROI являются сценарной оценкой до верификации исходных данных клиента.']
   };
 }
