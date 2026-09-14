@@ -68,9 +68,9 @@ assert.equal(overlap.dataQuality.label, 'Высокая');
 const tco = diagnoseProfitLeakage({ monthlyLaborCost: 1000000, manualWorkShare: 50, recoverableManualShare: 40, implementationCost: 1000000, oneTimeCapex: 500000, monthlyOpex: 10000, annualOpex: 60000 });
 assert.equal(tco.upfrontInvestment, 1500000);
 assert.equal(tco.monthlyOngoingCost, 15000);
-assert.equal(tco.annualNetValue, 2340000);
-assert.equal(tco.roiPercent, 56);
-assert.equal(tco.paybackMonths, 100);
+assert.equal(tco.annualNetValue, 2220000);
+assert.equal(tco.roiPercent, 48);
+assert.equal(tco.paybackMonths, 8.1);
 
 const conservative = diagnoseProfitLeakage({ monthlyErrorCost: 100000, monthlyDelayCost: 100000 });
 assert.equal(conservative.recoverableMonthlyValue, 0);
