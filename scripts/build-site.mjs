@@ -213,8 +213,8 @@ console.log('[SynapseMax] assessment runtime injected');
         const recoverableManualLeakage = manualLeakage * input.recoverableManualShare / 100;
         const fallback = {
           totalMonthlyLeakage: Math.round(manualLeakage + input.monthlyErrorCost + input.monthlyDelayCost),
-          recoverableMonthlyValue: Math.round(recoverableManualLeakage + input.monthlyErrorCost + input.monthlyDelayCost),
-          annualRecoverableValue: Math.round((recoverableManualLeakage + input.monthlyErrorCost + input.monthlyDelayCost) * 12)
+          recoverableMonthlyValue: Math.round(recoverableManualLeakage),
+          annualRecoverableValue: Math.round(recoverableManualLeakage * 12)
         };
         fallback.roiPercent = input.implementationCost ? Math.round(((fallback.annualRecoverableValue - input.implementationCost) / input.implementationCost) * 100) : null;
         fallback.paybackMonths = fallback.recoverableMonthlyValue ? Math.round(input.implementationCost / fallback.recoverableMonthlyValue * 10) / 10 : null;
