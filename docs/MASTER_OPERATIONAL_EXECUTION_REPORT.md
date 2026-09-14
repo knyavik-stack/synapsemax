@@ -22,6 +22,9 @@
 6. Фиксация результата здесь.
 7. Переход к следующему блоку.
 
+### Контроль пропусков
+Каждый обнаруженный gap получает запись в этом журнале и, если он не закрывается текущим шагом, отдельный GitHub Issue с severity, DoD и связью с Master Spec. Перед переходом между блоками выполняется проверка открытых HIGH/CRITICAL рисков, чтобы ранее найденные дефекты не исчезали из operational queue.
+
 ### Запреты
 - Не объявлять релиз по одному merge.
 - Не считать предполагаемый результат фактическим.
@@ -60,7 +63,7 @@
 ## 1.3. CI/CD evidence
 **Статус: VERIFIED**
 
-На момент аудита последний `main` commit имеет успешные GitHub Actions `Immediate QA` и `Production Smoke`. Это подтверждает работоспособность текущего CI smoke-контура, но не подтверждает соответствие всего Master Spec.
+После Step 1 merge commit `1a277173a4c2f97e9e39255aa0203b6e378364a9` Production Smoke завершился `SUCCESS`; live production verification прошёл. Immediate QA #253 на момент последней проверки ещё выполнялся, поэтому его финальный conclusion не используется как основание для закрытия шага.
 
 ## 1.4. Уже реализовано и подтверждено кодом
 **Статус: PARTIAL / NEEDS MASTER-SPEC ALIGNMENT**
@@ -72,33 +75,35 @@
 - Есть accessibility/reduced-motion/focus-visible baseline.
 - Есть canonical symbol/wordmark assets.
 - Есть 5-layer target architecture в документации.
+- Public positioning pass внедрён и production smoke подтверждён.
 
 ## 1.5. Критические разрывы baseline
 
 ### R-01 — Financial UI / domain mismatch
-**Severity: HIGH**
+**Severity: HIGH — OPEN**  
+**GitHub Issue:** #11
 
-`src/immediate-logic.js` уже использует evidence-driven recoverability для ошибок и задержек (по умолчанию 0), однако старый fallback в `scripts/build-site.mjs` всё ещё прибавляет 100% стоимости ошибок и задержек к recoverable value. Это может дать пользователю различающиеся результаты при отказе API.
+`src/immediate-logic.js` использует evidence-driven recoverability для ошибок и задержек: `recoverableErrorShare` и `recoverableDelayShare` по умолчанию равны 0. Старый fallback в `scripts/build-site.mjs` всё ещё прибавляет 100% стоимости ошибок и задержек к recoverable value. Это может дать пользователю различающиеся результаты при отказе API.
 
-**Решение:** устранить расхождение до следующего financial UI release.
+**Решение:** устранить расхождение до следующего financial UI release. Issue #11 содержит DoD и regression requirements.
 
 ### R-02 — Master Spec шире текущей реализации
-**Severity: HIGH**
+**Severity: HIGH — OPEN**
 
 Master Spec описывает полноценные PostgreSQL/RLS/JSONB/Redis, AI Gateway, Integration Layer, Governance Layer, FZ-152 masking и будущие platform capabilities. Текущий repository подтверждает только часть этих элементов. Нельзя объявлять их реализованными без фактического кода/инфраструктуры/evidence.
 
 ### R-03 — Brand tokens не полностью совпадают
-**Severity: MEDIUM**
+**Severity: MEDIUM — OPEN**
 
 Master Spec задаёт `Void 1 #0D1117`, `Void 2 #1C2128`, `Cyan #00D4FF`, `Blue #0066FF`, `Purple #8A2BFF`, `Magenta #D100FF`. В текущем `index.html` используются близкие, но не идентичные значения. Нужна нормализация токенов после проверки всех runtime pages, чтобы не сломать принятый visual foundation.
 
 ### R-04 — Security claims требуют доказательства
-**Severity: CRITICAL if presented as production guarantee**
+**Severity: CRITICAL if presented as production guarantee — OPEN**
 
 Master Spec формулирует FZ-152 masking через SHA-256 with salt. Сам факт наличия такого требования в документе не является доказательством юридической или технической достаточности выбранного метода. До реализации Governance Layer это должно считаться design requirement, а не compliance certification.
 
 ### R-05 — 15 ms Redis target пока не доказан
-**Severity: MEDIUM**
+**Severity: MEDIUM — OPEN**
 
 Целевой отклик `<=15 ms` является архитектурным KPI. Без benchmark/load test нельзя считать его достигнутым.
 
@@ -108,7 +113,7 @@ Master Spec формулирует FZ-152 masking через SHA-256 with salt. 
 
 | Блок Master Spec | Статус | Текущий прогресс |
 |---|---|---:|
-| 1. North Star / positioning | IMPLEMENTED — QA PENDING | 75% |
+| 1. North Star / positioning | **DONE — production evidence** | **100%** |
 | 2. Brand / HUD / design tokens | PARTIAL | 60% |
 | 3. 5-layer architecture / DB | PARTIAL | 30% |
 | 4. H1/H2/H3 roadmap | DOCUMENTED | 65% |
@@ -116,26 +121,24 @@ Master Spec формулирует FZ-152 masking через SHA-256 with salt. 
 | 6. Security / FZ-152 / Change | DESIGN ONLY | 20% |
 | 7. Role checklists / DoD | PARTIAL | 55% |
 | 8. Telegram/SMM | DOCUMENTED | 40% |
-| Production evidence | PARTIAL | 70% |
+| Production evidence | **PARTIAL — improving** | **75%** |
 
-**Общая оценка Master-Spec alignment на старте:** **~49%**.
-
-Текущая оценка после Step 1 implementation остаётся консервативной: новый код ещё не прошёл полный QA/release cycle.
+**Общая оценка Master-Spec alignment:** **~50%**. Это оценка покрытия требований, не процент готовности бизнеса или юридического compliance.
 
 ---
 
 # 3. STEP 1 — NORTH STAR / POSITIONING
 
-**Статус: IMPLEMENTED — QA PENDING**  
-**Текущий прогресс: 75%**  
-**PR:** #10 `feat(positioning): align public entry point with master operational spec`
+**Статус: DONE — production evidence**  
+**Прогресс: 100%**  
+**PR:** #10 `feat(positioning): align public entry point with master operational spec`  
+**Merge commit:** `1a277173a4c2f97e9e39255aa0203b6e378364a9`
 
 ### Что проверено
 - Master Spec требует финансово ориентированную точку входа и цепочку `Complexity → Understanding → System → Automation → Outcome`.
 - Операционный цикл: `diagnose → design → simulate → automate → monitor`.
-- Текущий `index.html` до изменения позиционировал продукт преимущественно через automation / digital transformation / AI и отправлял основной CTA в contact.
 - Существующая financial diagnostic находится на `/dex-immediate.html#profit-leakage`.
-- `dex-v3.html` уже содержит близкий к Master Spec narrative и поэтому визуальный foundation не требовалось переделывать.
+- Визуальный foundation не требовал перестройки для выполнения этого шага.
 
 ### Что изменено
 Создан детерминированный build-time pass `scripts/master-spec-positioning.mjs`:
@@ -146,28 +149,26 @@ Master Spec формулирует FZ-152 masking через SHA-256 with salt. 
 - secondary CTA → раздел «Как работаем»;
 - при отсутствии ожидаемого маркера build падает, а не молча модифицирует неизвестную страницу.
 
-Изменён `package.json`: production build теперь выполняет positioning pass после основного site build.
+Изменён `package.json`: production build выполняет positioning pass после основного site build. В Immediate QA добавлен `npm run test:positioning` и static checks итогового artifact.
 
-В `Immediate QA` добавлен отдельный `npm run test:positioning` и static checks для `dist/index.html`.
-
-### Что доказано на текущем этапе
-- PR #10 создан от `main`.
-- GitHub Actions `Immediate QA` автоматически запущен для PR #10; на момент записи он выполняется.
-- В job уже успешно завершены `npm run build`, `npm run test:immediate`, Verify production artifact, routing/performance/Wrangler validation до browser stage.
-- Это ещё не production evidence.
+### Что доказано
+- PR #10 создан и смержен в `main`.
+- Build и positioning regression checks прошли.
+- Production Smoke для merge commit `1a277173...` завершился `SUCCESS`; live production verification прошёл.
 
 ### Что осталось
-1. Дождаться полного Immediate QA, включая browser UX gate.
-2. При PASS — merge PR #10.
-3. Проверить Production Smoke на merge commit.
-4. Только после smoke считать Step 1 `DONE`.
-5. Отдельно решить source-of-truth cleanup: текущий `index.html` остаётся историческим исходником, а canonical narrative применяется на build-time. Это допустимый переходный механизм, но не идеальная долгосрочная архитектура.
+- Долгосрочно желательно перенести canonical positioning из build-time patch в основной source-of-truth страницы, чтобы не зависеть от transitional transformation layer.
+- Это не блокирует текущий positioning DoD, но остаётся technical debt.
+
+### Риски
+- **MEDIUM:** transitional build-time pass может усложнить будущую работу над source narrative.
 
 ---
 
 # 4. STEP 2 — BRAND / DESIGN SYSTEM
 
-**Статус: QUEUED**
+**Статус: QUEUED / READY FOR AUDIT**  
+**Прогресс: 60%**
 
 Целевые требования:
 - S не разрывается.
@@ -185,7 +186,8 @@ Master Spec формулирует FZ-152 masking через SHA-256 with salt. 
 
 # 5. STEP 3 — 5-LAYER TECHNICAL ARCHITECTURE
 
-**Статус: QUEUED**
+**Статус: QUEUED**  
+**Прогресс: 30%**
 
 Целевой порядок:
 Experience → Intelligence → Business Logic → Integration → Governance.
@@ -205,7 +207,9 @@ Experience → Intelligence → Business Logic → Integration → Governance.
 
 # 6. STEP 4 — BUSINESS / FINANCE
 
-**Статус: ACTIVE PRIORITY**
+**Статус: ACTIVE PRIORITY**  
+**Прогресс: 65%**  
+**Blocker:** HIGH — Issue #11
 
 Financial diagnostic остаётся первым коммерческим доказательством ценности.
 
@@ -220,13 +224,23 @@ Financial diagnostic остаётся первым коммерческим до
 - action map;
 - explicit assumptions/evidence boundary.
 
-Следующий технический подшаг: синхронизировать frontend fallback с domain logic и вывести Action Map без необоснованного recovery.
+### Текущий gap
+Domain logic уже считает recoverability для ошибок и задержек отдельно и консервативно. Frontend fallback пока не повторяет этот контракт и может завышать recoverable value при недоступности API.
+
+### Следующий технический подшаг
+Закрыть Issue #11:
+1. синхронизировать fallback и domain contract;
+2. добавить regression tests для default 0% recoverability и явных shares;
+3. проверить convergence API/fallback;
+4. затем вывести Action Map и margin impact в UI;
+5. пройти browser QA + production smoke.
 
 ---
 
 # 7. STEP 5 — SECURITY / GOVERNANCE
 
-**Статус: QUEUED**
+**Статус: QUEUED**  
+**Прогресс: 20%**
 
 До production claims требуется:
 - data flow map;
@@ -272,6 +286,8 @@ Merge без production evidence не считается release.
 8. Недостатки/technical debt.
 9. Следующий шаг.
 
+Перед новым шагом сверять открытые HIGH/CRITICAL issues и предыдущие baseline gaps.
+
 ---
 
 # 10. SELF-CORRECTION / EPISTEMIC BOUNDARY
@@ -287,17 +303,24 @@ Merge без production evidence не считается release.
 ## CHANGELOG
 
 ### 2026-09-14 — Initial baseline
-- Создан этот execution report.
+- Создан execution report.
 - Master Operational Specification v2.0 принят как рабочий источник истины.
 - Проведён первичный repository/CI/code audit.
-- Зафиксированы 5 ключевых рисков, включая HIGH/CRITICAL security/compliance boundaries.
+- Зафиксированы HIGH/CRITICAL security/compliance boundaries.
 - Financial domain logic признан существующим; frontend fallback mismatch зафиксирован как HIGH.
-- Определён последовательный roadmap от Master Spec к implementation/QA/release.
+- Определён roadmap от Master Spec к implementation/QA/release.
 
-### 2026-09-14 — Step 1 implementation
+### 2026-09-14 — Step 1 implementation and release
 - Создан `feat/master-spec-positioning-pass`.
 - Создан PR #10.
 - Добавлен deterministic build-time positioning pass.
-- Добавлен regression test.
-- Immediate QA расширен проверкой позиционирования production artifact.
-- На момент записи QA #250 выполняется; production release не заявлен.
+- Добавлен regression test и CI gate.
+- PR #10 смержен в `main`.
+- Production Smoke на merge commit `1a277173...` — SUCCESS.
+- Step 1 закрыт как DONE по имеющемуся production evidence.
+
+### 2026-09-14 — Gap-control hardening
+- Создан GitHub Issue #11 для HIGH финансового mismatch.
+- Issue содержит конкретный DoD, regression requirements и production release gate.
+- В этот execution report добавлен обязательный контроль открытых HIGH/CRITICAL gaps перед переходом между шагами.
+- Следующий активный блок: финансовая корректность fallback → Action Map → margin impact.
