@@ -108,7 +108,7 @@ Master Spec формулирует FZ-152 masking через SHA-256 with salt. 
 
 | Блок Master Spec | Статус | Текущий прогресс |
 |---|---|---:|
-| 1. North Star / positioning | IN ALIGNMENT | 70% |
+| 1. North Star / positioning | IMPLEMENTED — QA PENDING | 75% |
 | 2. Brand / HUD / design tokens | PARTIAL | 60% |
 | 3. 5-layer architecture / DB | PARTIAL | 30% |
 | 4. H1/H2/H3 roadmap | DOCUMENTED | 65% |
@@ -120,29 +120,48 @@ Master Spec формулирует FZ-152 masking через SHA-256 with salt. 
 
 **Общая оценка Master-Spec alignment на старте:** **~49%**.
 
-Это оценка покрытия требований, а не процент написанного кода. Она не означает «49% готовности бизнеса».
+Текущая оценка после Step 1 implementation остаётся консервативной: новый код ещё не прошёл полный QA/release cycle.
 
 ---
 
 # 3. STEP 1 — NORTH STAR / POSITIONING
 
-**Статус: IN PROGRESS**  
-**Цель:** привести публичный продуктовый narrative в прямое соответствие Master Spec, не разрушая принятый visual foundation.
+**Статус: IMPLEMENTED — QA PENDING**  
+**Текущий прогресс: 75%**  
+**PR:** #10 `feat(positioning): align public entry point with master operational spec`
 
-### Проверено
-- Complexity → Understanding → System → Automation → Outcome зафиксировано в Master Spec.
-- diagnose → design → simulate → automate → monitor зафиксировано.
-- В текущем сайте уже присутствуют диагностика, архитектура, AI и ROI-related journeys.
-- Financial-first diagnostic уже существует и является правильным направлением.
+### Что проверено
+- Master Spec требует финансово ориентированную точку входа и цепочку `Complexity → Understanding → System → Automation → Outcome`.
+- Операционный цикл: `diagnose → design → simulate → automate → monitor`.
+- Текущий `index.html` до изменения позиционировал продукт преимущественно через automation / digital transformation / AI и отправлял основной CTA в contact.
+- Существующая financial diagnostic находится на `/dex-immediate.html#profit-leakage`.
+- `dex-v3.html` уже содержит близкий к Master Spec narrative и поэтому визуальный foundation не требовалось переделывать.
 
-### Требуется
-1. Проверить hero и основные section narratives на соответствие формуле Master Spec.
-2. Убрать/не допускать неподтверждённых количественных обещаний как фактов.
-3. Увязать CTA с диагностикой/экспресс-аудитом.
-4. Затем перейти к canonical design tokens.
+### Что изменено
+Создан детерминированный build-time pass `scripts/master-spec-positioning.mjs`:
+- meta description → финансовая диагностика + управляемая трансформация;
+- OG/Twitter title/description → финансово ориентированный narrative;
+- hero → «Находим, где бизнес теряет прибыль»;
+- primary CTA → существующая profit leakage diagnostic;
+- secondary CTA → раздел «Как работаем»;
+- при отсутствии ожидаемого маркера build падает, а не молча модифицирует неизвестную страницу.
 
-### Статус шага
-**60%** — baseline подтверждён, целевые расхождения определены; изменения ещё не завершены.
+Изменён `package.json`: production build теперь выполняет positioning pass после основного site build.
+
+В `Immediate QA` добавлен отдельный `npm run test:positioning` и static checks для `dist/index.html`.
+
+### Что доказано на текущем этапе
+- PR #10 создан от `main`.
+- GitHub Actions `Immediate QA` автоматически запущен для PR #10; на момент записи он выполняется.
+- В job уже успешно завершены `npm run build`, `npm run test:immediate`, Verify production artifact, routing/performance/Wrangler validation до browser stage.
+- Это ещё не production evidence.
+
+### Что осталось
+1. Дождаться полного Immediate QA, включая browser UX gate.
+2. При PASS — merge PR #10.
+3. Проверить Production Smoke на merge commit.
+4. Только после smoke считать Step 1 `DONE`.
+5. Отдельно решить source-of-truth cleanup: текущий `index.html` остаётся историческим исходником, а canonical narrative применяется на build-time. Это допустимый переходный механизм, но не идеальная долгосрочная архитектура.
 
 ---
 
@@ -274,3 +293,11 @@ Merge без production evidence не считается release.
 - Зафиксированы 5 ключевых рисков, включая HIGH/CRITICAL security/compliance boundaries.
 - Financial domain logic признан существующим; frontend fallback mismatch зафиксирован как HIGH.
 - Определён последовательный roadmap от Master Spec к implementation/QA/release.
+
+### 2026-09-14 — Step 1 implementation
+- Создан `feat/master-spec-positioning-pass`.
+- Создан PR #10.
+- Добавлен deterministic build-time positioning pass.
+- Добавлен regression test.
+- Immediate QA расширен проверкой позиционирования production artifact.
+- На момент записи QA #250 выполняется; production release не заявлен.
