@@ -43,12 +43,34 @@ assert.equal(leakage.recoverableDelayLeakage, 10000);
 assert.equal(leakage.totalMonthlyLeakage, 650000);
 assert.equal(leakage.recoverableMonthlyValue, 260000);
 assert.equal(leakage.annualRecoverableValue, 3120000);
+assert.equal(leakage.annualNetValue, 3120000);
+assert.equal(leakage.upfrontInvestment, 1500000);
+assert.equal(leakage.monthlyOngoingCost, 0);
 assert.equal(leakage.roiPercent, 108);
 assert.equal(leakage.paybackMonths, 5.8);
 assert.equal(leakage.marginUpliftPoints, 5.2);
 assert.equal(leakage.projectedMarginPercent, 25.2);
 assert.equal(leakage.prioritySource, 'manual');
 assert.equal(leakage.actionMap[0].key, 'manual');
+assert.equal(leakage.overlapAdjustment, 0);
+assert.equal(leakage.dataQuality.evidenceQuality, 0);
+assert.equal(leakage.dataQuality.label, 'Низкая');
+assert.equal(leakage.scenarios.conservative.monthlyValue, 182000);
+assert.equal(leakage.scenarios.base.monthlyValue, 260000);
+assert.equal(leakage.scenarios.optimistic.monthlyValue, 299000);
+
+const overlap = diagnoseProfitLeakage({ monthlyLaborCost: 1000000, manualWorkShare: 50, recoverableManualShare: 40, monthlyErrorCost: 100000, recoverableErrorShare: 50, monthlyDelayCost: 50000, recoverableDelayShare: 20, errorOverlapShare: 100, delayOverlapShare: 50, evidenceQuality: 80 });
+assert.equal(overlap.grossRecoverableMonthlyValue, 260000);
+assert.equal(overlap.recoverableMonthlyValue, 205000);
+assert.equal(overlap.overlapAdjustment, 55000);
+assert.equal(overlap.dataQuality.label, 'Высокая');
+
+const tco = diagnoseProfitLeakage({ monthlyLaborCost: 1000000, manualWorkShare: 50, recoverableManualShare: 40, implementationCost: 1000000, oneTimeCapex: 500000, monthlyOpex: 10000, annualOpex: 60000 });
+assert.equal(tco.upfrontInvestment, 1500000);
+assert.equal(tco.monthlyOngoingCost, 15000);
+assert.equal(tco.annualNetValue, 2220000);
+assert.equal(tco.roiPercent, 48);
+assert.equal(tco.paybackMonths, 8.1);
 
 const conservative = diagnoseProfitLeakage({ monthlyErrorCost: 100000, monthlyDelayCost: 100000 });
 assert.equal(conservative.recoverableMonthlyValue, 0);

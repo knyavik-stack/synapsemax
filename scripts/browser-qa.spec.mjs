@@ -57,7 +57,7 @@ test('H1 critical journey: landing to assessment result and CTA', async ({ page 
   expect(focusRing).toBeTruthy();
 });
 
-test('H1 finance journey: profit leakage to ROI, margin impact and Action Map', async ({ page }) => {
+test('H1 finance journey: profit leakage to ROI, scenarios, margin impact and Action Map', async ({ page }) => {
   const pageErrors = [];
   page.on('pageerror', error => pageErrors.push(error.message));
   await page.goto('/', { waitUntil: 'networkidle' });
@@ -78,8 +78,12 @@ test('H1 finance journey: profit leakage to ROI, margin impact and Action Map', 
 
   const impact = page.locator('#finance-impact');
   await impact.scrollIntoViewIfNeeded();
+  for (const id of ['impact-error-recovery', 'impact-delay-recovery', 'impact-error-overlap', 'impact-delay-overlap', 'impact-error-delay-overlap', 'impact-evidence', 'impact-revenue', 'impact-margin', 'impact-capex', 'impact-opex', 'impact-annual-opex']) {
+    await expect(page.locator(`#${id}`)).toBeVisible();
+  }
   await page.locator('#impact-error-recovery').fill('50');
   await page.locator('#impact-delay-recovery').fill('20');
+  await page.locator('#impact-evidence').fill('80');
   await page.locator('#impact-revenue').fill('5000000');
   await page.locator('#impact-margin').fill('20');
   await page.locator('#finance-impact-button').click();
@@ -93,6 +97,10 @@ test('H1 finance journey: profit leakage to ROI, margin impact and Action Map', 
   await expect(impactResult.locator('[data-impact="roi"] b')).toHaveText('108%');
   await expect(impactResult.locator('[data-impact="payback"] b')).toHaveText('5.8 мес.');
   await expect(impactResult.locator('[data-impact="margin"] b')).toHaveText('+5.2 п.п.');
+  await expect(impactResult.locator('[data-scenario="conservative"] strong')).toHaveText('2 184 000 ₽');
+  await expect(impactResult.locator('[data-scenario="base"] strong')).toHaveText('3 120 000 ₽');
+  await expect(impactResult.locator('[data-scenario="optimistic"] strong')).toHaveText('3 588 000 ₽');
+  await expect(impactResult).toContainText('Качество evidence: Высокая');
   await expect(impactResult.locator('.finance-impact-action')).toHaveCount(3);
 });
 
