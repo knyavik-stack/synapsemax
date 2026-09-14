@@ -41,6 +41,10 @@ export default {
       try { return json({ ok: true, result: calculateRoi(await request.json()) }); }
       catch { return json({ ok: false, error: 'Invalid JSON' }, 400); }
     }
+    if (request.method === 'POST' && url.pathname === '/api/v1/profit-leakage') {
+      try { return json({ ok: true, result: diagnoseProfitLeakage(await request.json()) }); }
+      catch { return json({ ok: false, error: 'Invalid JSON' }, 400); }
+    }
     if (url.pathname === '/' || url.pathname === '/index.html') return immediateAsset(env, request);
     return withSecurityHeaders(await env.ASSETS.fetch(request));
   },
