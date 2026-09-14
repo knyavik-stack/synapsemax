@@ -38,9 +38,6 @@ test('H1 critical journey: landing to assessment result and CTA', async ({ page 
   const cta = page.getByRole('link', { name: /обсудить результат|получить карту трансформации/i }).first();
   await expect(cta).toBeVisible();
 
-  // Verify the real keyboard path rather than programmatic focus().
-  // focus-visible intentionally follows keyboard modality and is not
-  // guaranteed to match after HTMLElement.focus().
   await page.evaluate(() => {
     if (document.activeElement instanceof HTMLElement) document.activeElement.blur();
   });
@@ -58,6 +55,45 @@ test('H1 critical journey: landing to assessment result and CTA', async ({ page 
     return s.outlineStyle !== 'none' || s.boxShadow !== 'none';
   });
   expect(focusRing).toBeTruthy();
+});
+
+test('H1 finance journey: profit leakage to ROI, margin impact and Action Map', async ({ page }) => {
+  const pageErrors = [];
+  page.on('pageerror', error => pageErrors.push(error.message));
+  await page.goto('/', { waitUntil: 'networkidle' });
+  expect(pageErrors).toEqual([]);
+
+  const finance = page.locator('#profit-leakage');
+  await finance.scrollIntoViewIfNeeded();
+  for (const id of ['leak-labor', 'leak-manual', 'leak-recoverable', 'leak-errors', 'leak-delays', 'leak-impl']) {
+    await expect(page.locator(`#${id}`)).toBeVisible();
+  }
+
+  await page.locator('#leak-labor').fill('1000000');
+  await page.locator('#leak-manual').fill('50');
+  await page.locator('#leak-recoverable').fill('40');
+  await page.locator('#leak-errors').fill('100000');
+  await page.locator('#leak-delays').fill('50000');
+  await page.locator('#leak-impl').fill('1500000');
+
+  const impact = page.locator('#finance-impact');
+  await impact.scrollIntoViewIfNeeded();
+  await page.locator('#impact-error-recovery').fill('50');
+  await page.locator('#impact-delay-recovery').fill('20');
+  await page.locator('#impact-revenue').fill('5000000');
+  await page.locator('#impact-margin').fill('20');
+  await page.locator('#finance-impact-button').click();
+
+  const impactResult = page.locator('#finance-impact-result');
+  await expect(impactResult).toBeVisible();
+  await expect(impactResult).toContainText('Экономический эффект');
+  await expect(impactResult).toContainText('Action Map');
+  await expect(impactResult.locator('[data-impact="recoverable"] b')).toHaveText('250 000 ₽');
+  await expect(impactResult.locator('[data-impact="annual"] b')).toHaveText('3 000 000 ₽');
+  await expect(impactResult.locator('[data-impact="roi"] b')).toHaveText('100%');
+  await expect(impactResult.locator('[data-impact="payback"] b')).toHaveText('6 мес.');
+  await expect(impactResult.locator('[data-impact="margin"] b')).toHaveText('+5 п.п.');
+  await expect(impactResult.locator('.finance-impact-action')).toHaveCount(3);
 });
 
 test('H1 mobile remains usable and does not overflow horizontally', async ({ browser }) => {
