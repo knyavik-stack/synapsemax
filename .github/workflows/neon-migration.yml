@@ -1,0 +1,68 @@
+name: SynapseMax Neon Migration
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type APPLY_NEON_PRODUCTION to mutate the configured Neon database'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  migrate:
+    if: ${{ inputs.confirm == 'APPLY_NEON_PRODUCTION' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify PostgreSQL client
+        run: psql --version
+
+      - name: Apply SynapseMax persistence migration
+        env:
+          NEON_DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
+        run: |
+          test -n "$NEON_DATABASE_URL"
+          psql "$NEON_DATABASE_URL" -v ON_ERROR_STOP=1 -f database/migrations/20260916150000_synapsemax_persistence.sql
+
+      - name: Verify schema invariants
+        env:
+          NEON_DATABASE_URL: ${{ secrets.NEON_DATABASE_URL }}
+        run: |
+          psql "$NEON_DATABASE_URL" -v ON_ERROR_STOP=1 <<'SQL'
+          select count(*) = 10 as expected_runtime_tables
+          from information_schema.tables
+          where table_schema = 'public'
+            and table_name in (
+              'retention_policies','tenants','tenant_memberships','tenant_legal_holds',
+              'diagnostic_sessions','evidence_items','diagnostic_input_snapshots',
+              'calculation_results','calculation_result_lineage','audit_events','idempotency_keys'
+            );
+
+          select count(*) = 10 as expected_rls_tables
+          from pg_class c
+          join pg_namespace n on n.oid = c.relnamespace
+          where n.nspname = 'public'
+            and c.relname in (
+              'tenants','tenant_memberships','tenant_legal_holds','diagnostic_sessions',
+              'evidence_items','diagnostic_input_snapshots','calculation_results',
+              'calculation_result_lineage','audit_events','idempotency_keys'
+            )
+            and c.relrowsecurity;
+
+          select count(*) = 10 as expected_force_rls_tables
+          from pg_class c
+          join pg_namespace n on n.oid = c.relnamespace
+          where n.nspname = 'public'
+            and c.relname in (
+              'tenants','tenant_memberships','tenant_legal_holds','diagnostic_sessions',
+              'evidence_items','diagnostic_input_snapshots','calculation_results',
+              'calculation_result_lineage','audit_events','idempotency_keys'
+            )
+            and c.relforcerowsecurity;
+          SQL
