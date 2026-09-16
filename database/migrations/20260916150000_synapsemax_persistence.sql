@@ -272,18 +272,8 @@ create policy idempotency_keys_isolation on public.idempotency_keys for all
   using (tenant_id = public.current_tenant_id())
   with check (tenant_id = public.current_tenant_id());
 
-revoke all on table
-  public.tenants,
-  public.tenant_memberships,
-  public.tenant_legal_holds,
-  public.diagnostic_sessions,
-  public.evidence_items,
-  public.diagnostic_input_snapshots,
-  public.calculation_results,
-  public.calculation_result_lineage,
-  public.audit_events,
-  public.idempotency_keys
-from anon, authenticated;
+-- Grants are intentionally absent. They must be finalized only after the
+-- authenticated application path and least-privilege runtime role are defined.
 
 revoke all on function public.current_tenant_id() from public;
 revoke all on function public.enforce_append_only() from public;
