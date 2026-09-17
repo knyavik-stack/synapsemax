@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>SynapseMax — RLS smoke</title>
+<style>body{margin:0;min-height:100vh;background:#07101b;color:#edf6ff;font:15px/1.5 system-ui;padding:32px;display:grid;place-items:center}main{width:min(720px,100%);background:#0c1725;border:1px solid #1c3148;border-radius:16px;padding:28px}h1{margin-top:0}.muted{color:#8da0b6}.ok{color:#55f5c0}.bad{color:#ff7b8d}button{padding:12px 16px;border:0;border-radius:9px;background:#00e1ff;color:#031019;font-weight:800;cursor:pointer}.status{margin-top:18px;padding:16px;border:1px solid #1c3148;border-radius:10px;white-space:pre-wrap}code{word-break:break-all}</style>
+</head>
+<body><main>
+<h1>Neon Auth → JWT → RLS</h1>
+<p class="muted">CRITICAL runtime smoke test. Страница ничего не меняет в БД: только читает tenant-контекст через Neon Data API.</p>
+<button id="run">Проверить RLS</button>
+<div id="status" class="status">Нажмите кнопку после входа на /auth.html.</div>
+<script type="module">
+import { createClient } from 'https://esm.sh/@neondatabase/neon-js@0.7.0-beta';
+const AUTH='https://ep-lively-bread-b1ewktwx.neonauth.c-5.eu-central-1.aws.neon.tech/neondb/auth';
+const DATA='https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1';
+const client=createClient({auth:{url:AUTH},dataApi:{url:DATA}});
+const status=document.querySelector('#status');
+const show=(s,c='')=>{status.className='status '+c;status.textContent=s};
+document.querySelector('#run').onclick=async()=>{
+  const b=document.querySelector('#run');b.disabled=true;show('Получаю authenticated JWT и запрашиваю public.tenants…');
+  try{
+    const session=await client.auth.getSession();
+    const user=session?.data?.user;
+    if(!user) throw new Error('Нет authenticated session. Сначала войдите через /auth.html.');
+    const {data,error}=await client.from('tenants').select('id,status');
+    if(error) throw new Error(error.message||JSON.stringify(error));
+    const ids=(data||[]).map(x=>x.id);
+    const expected='11111111-1111-1111-1111-111111111111';
+    const forbidden=['22222222-2222-2222-2222-222222222222','33333333-3333-3333-3333-333333333333'];
+    const pass=ids.length===1&&ids[0]===expected&&!ids.some(id=>forbidden.includes(id));
+    show(`USER: ${user.name||'-'} / ${user.email||'-'}\nEMAIL VERIFIED: ${user.emailVerified?'yes':'no'}\nROWS RETURNED: ${ids.length}\nVISIBLE TENANT: ${ids.join(', ')||'(none)'}\n\n${pass?'RLS PASS — пользователь видит только свой tenant.':'RLS FAIL — результат не соответствует ожидаемой tenant isolation.'}`,pass?'ok':'bad');
+  }catch(e){show(`RLS TEST ERROR\n${e?.message||e}`,'bad')}finally{b.disabled=false}
+};
+</script></main></body></html>
