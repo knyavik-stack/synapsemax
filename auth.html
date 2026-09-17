@@ -1,106 +1,48 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow">
   <title>SynapseMax — вход</title>
   <style>
     :root{color-scheme:dark;--bg:#07101b;--panel:#0c1725;--line:#1c3148;--text:#edf6ff;--muted:#8da0b6;--accent:#00e1ff;--ok:#55f5c0;--danger:#ff7b8d}
     *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 50% 0,#10253b 0,#07101b 48%,#050b12 100%);font:15px/1.5 Inter,system-ui,sans-serif;color:var(--text);display:grid;place-items:center;padding:24px}
-    main{width:min(480px,100%);background:rgba(12,23,37,.94);border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:0 24px 80px #0008}
-    .brand{font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-size:13px}.eyebrow{margin-top:8px;color:var(--muted);font-size:12px}.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:24px 0}.tabs button{background:#0a1421;border:1px solid var(--line);color:var(--muted);padding:11px;border-radius:10px;cursor:pointer}.tabs button.active{color:var(--text);border-color:#26718a;background:#102438}.field{margin:14px 0}.field label{display:block;color:#b7c7d9;font-size:12px;margin-bottom:6px}.field input{width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--line);background:#07111d;color:var(--text);outline:none}.field input:focus{border-color:var(--accent)}.hint{font-size:11px;color:var(--muted);margin-top:5px}.actions{display:flex;gap:10px;margin-top:20px}.actions button{flex:1;padding:13px;border:0;border-radius:10px;background:var(--accent);color:#031019;font-weight:800;cursor:pointer}.status{margin-top:18px;padding:12px;border-radius:10px;background:#07111d;border:1px solid var(--line);white-space:pre-wrap;font-size:13px}.status.ok{border-color:#27765f;color:var(--ok)}.status.error{border-color:#7a3040;color:var(--danger)}.session{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}.session button{background:transparent;border:1px solid var(--line);color:var(--text);padding:9px 12px;border-radius:9px;cursor:pointer}a{color:var(--accent)}
+    main{width:min(480px,100%);background:rgba(12,23,37,.94);border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:0 24px 80px #0008}.brand{font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-size:13px}.eyebrow{margin-top:8px;color:var(--muted);font-size:12px}.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:24px 0}.tabs button{background:#0a1421;border:1px solid var(--line);color:var(--muted);padding:11px;border-radius:10px;cursor:pointer}.tabs button.active{color:var(--text);border-color:#26718a;background:#102438}.field{margin:14px 0}.field label{display:block;color:#b7c7d9;font-size:12px;margin-bottom:6px}.field input{width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--line);background:#07111d;color:var(--text);outline:none}.field input:focus{border-color:var(--accent)}.hint{font-size:11px;color:var(--muted);margin-top:5px}.actions{display:flex;gap:10px;margin-top:20px}.actions button{flex:1;padding:13px;border:0;border-radius:10px;background:var(--accent);color:#031019;font-weight:800;cursor:pointer}.status{margin-top:18px;padding:12px;border-radius:10px;background:#07111d;border:1px solid var(--line);white-space:pre-wrap;font-size:13px}.status.ok{border-color:#27765f;color:var(--ok)}.status.error{border-color:#7a3040;color:var(--danger)}.session{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}.session button{background:transparent;border:1px solid var(--line);color:var(--text);padding:9px 12px;border-radius:9px;cursor:pointer}a{color:var(--accent)}
   </style>
 </head>
-<body>
-<main>
-  <div class="brand">SynapseMax</div>
-  <div class="eyebrow">Neon Auth / production smoke test</div>
+<body><main>
+  <div class="brand">SynapseMax</div><div class="eyebrow">Neon Auth / production smoke test</div>
   <div class="tabs"><button id="signInTab" class="active" type="button">Вход</button><button id="signUpTab" type="button">Регистрация</button></div>
   <form id="authForm">
     <div class="field" id="nameField" hidden><label for="name">Имя</label><input id="name" autocomplete="name"></div>
     <div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required></div>
     <div class="field"><label for="password">Пароль</label><input id="password" type="password" autocomplete="current-password" required><div class="hint">Минимум 8 символов: латинская A–Z, a–z и цифра 0–9.</div></div>
+    <div id="otpField" class="field" hidden><label for="otp">Код из email</label><input id="otp" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{6}"><div class="hint">Введите 6-значный код из письма Neon Auth.</div></div>
     <div class="actions"><button id="submit" type="submit">Войти</button></div>
   </form>
   <div id="status" class="status" hidden></div>
   <div id="session" class="session" hidden><strong>Сессия получена.</strong><div id="sessionText" class="hint"></div><button id="signOut" type="button">Выйти</button></div>
-  <p class="hint" style="margin-top:22px">Эта страница предназначена для проверки реального production Auth-контура. Она не является клиентским кабинетом.</p>
-  <a href="/">← Вернуться на SynapseMax</a>
+  <p class="hint" style="margin-top:22px">Эта страница предназначена для проверки реального production Auth-контура. Она не является клиентским кабинетом.</p><a href="/">← Вернуться на SynapseMax</a>
 </main>
 <script>
 (() => {
-  const AUTH = 'https://ep-lively-bread-b1ewktwx.neonauth.c-5.eu-central-1.aws.neon.tech/neondb/auth';
-  const form = document.querySelector('#authForm');
-  const nameField = document.querySelector('#nameField');
-  const name = document.querySelector('#name');
-  const email = document.querySelector('#email');
-  const password = document.querySelector('#password');
-  const submit = document.querySelector('#submit');
-  const status = document.querySelector('#status');
-  const session = document.querySelector('#session');
-  const sessionText = document.querySelector('#sessionText');
-  let mode = 'sign-in';
-
-  const show = (text, type='') => { status.hidden=false; status.className='status '+type; status.textContent=text; };
-  const setMode = (next) => {
-    mode = next;
-    const signup = next === 'sign-up';
-    document.querySelector('#signInTab').classList.toggle('active', !signup);
-    document.querySelector('#signUpTab').classList.toggle('active', signup);
-    nameField.hidden = !signup;
-    name.required = signup;
-    password.autocomplete = signup ? 'new-password' : 'current-password';
-    submit.textContent = signup ? 'Создать аккаунт' : 'Войти';
-    status.hidden = true;
-  };
-  document.querySelector('#signInTab').onclick = () => setMode('sign-in');
-  document.querySelector('#signUpTab').onclick = () => setMode('sign-up');
-
-  const passwordValid = (value) => value.length >= 8 && /[A-Z]/.test(value) && /[a-z]/.test(value) && /[0-9]/.test(value);
-
-  async function authCall(path, body) {
-    const response = await fetch(AUTH + path, {
-      method: 'POST', credentials: 'include', headers: {'content-type':'application/json'},
-      body: JSON.stringify(body)
-    });
-    let payload = null; try { payload = await response.json(); } catch {}
-    if (!response.ok) throw new Error(payload?.message || payload?.error?.message || `Auth HTTP ${response.status}`);
-    return payload;
-  }
-
-  async function loadSession() {
-    try {
-      const response = await fetch(AUTH + '/get-session', {credentials:'include'});
-      if (!response.ok) return;
-      const data = await response.json();
-      const user = data?.user || data?.data?.user;
-      if (!user) return;
-      session.hidden = false;
-      sessionText.textContent = `${user.name || 'Пользователь'} · ${user.email || ''}`;
-    } catch {}
-  }
-
-  form.addEventListener('submit', async (event) => {
-    event.preventDefault();
-    if (!passwordValid(password.value)) { show('Пароль не соответствует политике: минимум 8 символов, A–Z, a–z и 0–9.', 'error'); return; }
-    if (mode === 'sign-up' && !name.value.trim()) { show('Укажите имя.', 'error'); return; }
-    submit.disabled = true; submit.textContent = mode === 'sign-up' ? 'Создание…' : 'Вход…'; status.hidden = true;
-    try {
-      const body = mode === 'sign-up' ? {name:name.value.trim(), email:email.value.trim(), password:password.value} : {email:email.value.trim(), password:password.value};
-      await authCall(mode === 'sign-up' ? '/sign-up/email' : '/sign-in/email', body);
-      show(mode === 'sign-up' ? 'Аккаунт создан. Neon Auth должен отправить OTP для подтверждения email. После подтверждения выполните вход.' : 'Вход выполнен. Проверяю сессию…', 'ok');
-      await loadSession();
-    } catch (error) { show(error.message || 'Ошибка авторизации.', 'error'); }
-    finally { submit.disabled=false; submit.textContent=mode === 'sign-up' ? 'Создать аккаунт' : 'Войти'; }
+  const AUTH='https://ep-lively-bread-b1ewktwx.neonauth.c-5.eu-central-1.aws.neon.tech/neondb/auth';
+  const form=document.querySelector('#authForm'),nameField=document.querySelector('#nameField'),name=document.querySelector('#name'),email=document.querySelector('#email'),password=document.querySelector('#password'),otpField=document.querySelector('#otpField'),otp=document.querySelector('#otp'),submit=document.querySelector('#submit'),status=document.querySelector('#status'),session=document.querySelector('#session'),sessionText=document.querySelector('#sessionText');
+  let mode='sign-in',step='credentials';
+  const show=(text,type='')=>{status.hidden=false;status.className='status '+type;status.textContent=text};
+  const setMode=(next)=>{mode=next;step='credentials';document.querySelector('#signInTab').classList.toggle('active',next==='sign-in');document.querySelector('#signUpTab').classList.toggle('active',next==='sign-up');nameField.hidden=next!=='sign-up';name.required=next==='sign-up';otpField.hidden=true;otp.required=false;password.autocomplete=next==='sign-up'?'new-password':'current-password';submit.textContent=next==='sign-up'?'Создать аккаунт':'Войти';status.hidden=true};
+  document.querySelector('#signInTab').onclick=()=>setMode('sign-in');document.querySelector('#signUpTab').onclick=()=>setMode('sign-up');
+  const passwordValid=v=>v.length>=8&&/[A-Z]/.test(v)&&/[a-z]/.test(v)&&/[0-9]/.test(v);
+  async function authCall(path,body){const r=await fetch(AUTH+path,{method:'POST',credentials:'include',headers:{'content-type':'application/json'},body:JSON.stringify(body)});let p=null;try{p=await r.json()}catch{}if(!r.ok)throw new Error(p?.message||p?.error?.message||`Auth HTTP ${r.status}`);return p}
+  async function loadSession(){try{const r=await fetch(AUTH+'/get-session',{credentials:'include'});if(!r.ok)return;const d=await r.json(),u=d?.user||d?.data?.user;if(!u)return;session.hidden=false;sessionText.textContent=`${u.name||'Пользователь'} · ${u.email||''}`}catch{}}
+  function showOtp(){step='otp';otpField.hidden=false;otp.required=true;submit.textContent='Подтвердить email';show('Код отправлен на email. Введите его здесь.','ok');otp.focus()}
+  form.addEventListener('submit',async e=>{e.preventDefault();
+    if(step==='otp'){if(!/^\d{6}$/.test(otp.value.trim())){show('Введите 6-значный код из email.','error');return}submit.disabled=true;submit.textContent='Проверка…';try{await authCall('/verify-email-otp',{email:email.value.trim(),otp:otp.value.trim()});show('Email подтверждён. Теперь можно войти.','ok');otpField.hidden=true;otp.required=false;step='credentials';mode='sign-in';document.querySelector('#signInTab').classList.add('active');document.querySelector('#signUpTab').classList.remove('active');nameField.hidden=true;name.required=false;submit.textContent='Войти';await loadSession()}catch(err){show(err.message||'Не удалось подтвердить код.','error')}finally{submit.disabled=false}return}
+    if(!passwordValid(password.value)){show('Пароль не соответствует политике: минимум 8 символов, A–Z, a–z и 0–9.','error');return}
+    if(mode==='sign-up'&&!name.value.trim()){show('Укажите имя.','error');return}
+    submit.disabled=true;submit.textContent=mode==='sign-up'?'Создание…':'Вход…';status.hidden=true;
+    try{const body=mode==='sign-up'?{name:name.value.trim(),email:email.value.trim(),password:password.value}:{email:email.value.trim(),password:password.value};const p=await authCall(mode==='sign-up'?'/sign-up/email':'/sign-in/email',body);if(mode==='sign-up'){showOtp();}else{show('Вход выполнен. Проверяю сессию…','ok');await loadSession()}}
+    catch(err){show(err.message||'Ошибка авторизации.','error')}finally{submit.disabled=false;if(step!=='otp')submit.textContent=mode==='sign-up'?'Создать аккаунт':'Войти'}
   });
-
-  document.querySelector('#signOut').onclick = async () => {
-    try { await authCall('/sign-out', {}); } catch {}
-    session.hidden=true; show('Сессия завершена.', 'ok');
-  };
-  loadSession();
+  document.querySelector('#signOut').onclick=async()=>{try{await authCall('/sign-out',{})}catch{}session.hidden=true;show('Сессия завершена.','ok')};loadSession();
 })();
-</script>
-</body>
-</html>
+</script></body></html>
