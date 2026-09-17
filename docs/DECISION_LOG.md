@@ -45,6 +45,7 @@
 | D-044 | Accepted | `tenant_id` is never an authorization source. `current_tenant_id()` resolves the authenticated principal through active tenant membership and optional Neon Auth organization context; ambiguous membership fails closed. |
 | D-045 | Accepted | Password policy target is at least 8 characters plus uppercase Latin, lowercase Latin and digit. Because managed Neon Auth does not expose a custom password regex hook in the available configuration interface, exact composition must be enforced server-side at the SynapseMax auth boundary; client-only validation is insufficient. |
 | D-046 | Accepted | The Neon production persistence contract is deployed with 11 tables, tenant-scoped RLS, explicit authenticated grants, 9 indexes and 5 append-only triggers. The deployment is documented in `neon/migrations/20260917190000_synapsemax_persistence_auth_rls.sql`. |
+| D-047 | Accepted | The production runtime security gate uses the real Neon Auth session and Neon Data API, not the privileged SQL owner connection. `/rls-smoke.html` is a no-write browser test that must observe exactly one authorized tenant and no unassigned tenants before the CRITICAL tenant-isolation gate can be closed. |
 
 ## Revisit rule
 
