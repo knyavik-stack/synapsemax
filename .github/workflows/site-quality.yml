@@ -1,0 +1,17 @@
+name: SynapseMax Site Quality
+
+on:
+  push:
+    branches: [main, docs/project-operating-system-v1]
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate canonical identity and local assets
+        run: node scripts/validate-site.mjs
