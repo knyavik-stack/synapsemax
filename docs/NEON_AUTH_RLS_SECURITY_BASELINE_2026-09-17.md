@@ -9,7 +9,7 @@
 
 Supabase is not a SynapseMax runtime dependency. It was planned historically, but no SynapseMax persistence/auth deployment was made there; therefore the production architecture is now explicitly Neon-native.
 
-Authentication is provided by **Neon Auth / Better Auth**, with identity stored in the `neon_auth` schema. Neon documents that current Neon Auth is branchable, stores users/sessions/organizations in Neon, and integrates its JWTs with Postgres RLS/Data API. cite-neon-auth
+Authentication is provided by **Neon Auth / Better Auth**, with identity stored in the `neon_auth` schema. Neon documents that current Neon Auth is branchable, stores users/sessions/organizations in Neon, and integrates its JWTs with Postgres RLS/Data API.
 
 ## Authentication policy
 
@@ -22,10 +22,12 @@ Production configuration now has:
 - verification email sent on signup;
 - verification email sent on sign-in;
 - automatic sign-in after successful verification;
+- localhost auth origins disabled;
+- trusted production origin restricted to `https://synapsemax.ru`;
 - password minimum length target: 8 characters;
 - password hashing delegated to Better Auth/Neon Auth rather than application code.
 
-Better Auth documents 8 characters as the default minimum password length and supports explicit `minPasswordLength`. It uses `scrypt` for password hashing by default. cite-better-auth-options cite-better-auth-password
+Better Auth documents 8 characters as the default minimum password length and supports explicit `minPasswordLength`. It uses `scrypt` for password hashing by default.
 
 ### Password complexity requirement
 
@@ -51,7 +53,7 @@ The following are explicit design rules:
 8. `calculation_results`, evidence, input snapshots, lineage and audit events are append-only at the database trigger layer.
 9. Privileged owner/service access is never treated as proof of tenant isolation.
 
-Neon documents the Data API as the recommended client-side RLS path: JWTs are validated by the Data API and `auth.user_id()` is available to RLS policies. cite-neon-rls
+Neon documents the Data API as the recommended client-side RLS path: JWTs are validated by the Data API and `auth.user_id()` is available to RLS policies.
 
 ## Current live state
 
@@ -61,6 +63,7 @@ Neon documents the Data API as the recommended client-side RLS path: JWTs are va
 - Production tenant RLS: deployed.
 - Production application role: `authenticated`, `rolbypassrls = false`.
 - Production database owner: `neondb_owner`, `rolbypassrls = true`; this role remains an administrative role and is not an application principal.
+- Production auth origin: `https://synapsemax.ru` only; localhost disabled.
 
 ## Security gates
 
@@ -69,6 +72,8 @@ Neon documents the Data API as the recommended client-side RLS path: JWTs are va
 - Authentication authority selected: Neon Auth.
 - Email verification requirement configured.
 - OTP verification method configured.
+- Localhost auth origin disabled in production.
+- Trusted production origin configured.
 - Data API/JWT/RLS integration provisioned.
 - Persistence tables deployed.
 - Strict tenant RLS policies deployed.
@@ -109,8 +114,3 @@ Retention executor, legal-hold execution, API idempotency/lineage integration, a
 - Neon RLS documentation: https://neon.com/docs/guides/row-level-security
 - Better Auth options: https://better-auth.com/docs/reference/options
 - Better Auth email/password: https://better-auth.com/docs/1.6/authentication/email-password
-
-<!-- cite-neon-auth: current Neon Auth architecture verified against official Neon documentation on 2026-09-17. -->
-<!-- cite-better-auth-options: Better Auth official options documentation verified on 2026-09-17. -->
-<!-- cite-better-auth-password: Better Auth official email/password documentation verified on 2026-09-17. -->
-<!-- cite-neon-rls: Neon official RLS documentation verified on 2026-09-17. -->
