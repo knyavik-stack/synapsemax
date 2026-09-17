@@ -7,125 +7,150 @@
 **Database:** `neondb`
 **PostgreSQL:** 18.6
 
-## Purpose
+## Decision update
 
-Validate the persistence contract against a real SynapseMax Neon database without applying unverified schema changes directly to production.
+Supabase is not a runtime dependency for SynapseMax. It was planned historically, but no SynapseMax persistence/auth deployment was made there. Production persistence and authentication are therefore implemented in Neon.
 
-## Baseline
+Authentication authority: **Neon Auth / Better Auth**.
 
-The repository persistence execution report explicitly stated that the persistence migration had been prepared but not deployed, and that real authorization-boundary smoke remained open.
+Authorization boundary: **Neon Data API + PostgreSQL RLS + non-bypass `authenticated` role**.
 
 ## Live access
 
-**PASS.** Neon MCP access is live. The SynapseMax project and production branch were resolved successfully. The production database was inspected before any schema write.
+**PASS.** Neon MCP access is live. Production was inspected before schema deployment.
 
-Initial public schema inspection showed only the existing `neon_auth` tables; the SynapseMax persistence tables were absent.
+Initial inspection showed only `neon_auth.*`; no SynapseMax persistence tables existed.
 
 ## Controlled validation branch
 
-Created temporary Neon branch:
+Temporary branch:
 
 `br-blue-brook-b1yxut9f` — `synapsemax-persistence-qa-20260917`
 
-The branch was created from production HEAD and used exclusively for persistence validation.
+It was used to validate the persistence contract and Neon Data API/RLS integration before production deployment.
 
-## Schema deployment to QA branch
+QA branch structural result:
 
-The minimal persistence contract was applied to the temporary branch in a transaction. The contract contains:
+- **11/11** required persistence tables;
+- **10/10** tenant RLS policies;
+- **9** persistence indexes;
+- **5/5** append-only triggers.
 
-- retention policies;
-- tenants;
-- tenant memberships;
-- legal holds;
-- diagnostic sessions;
-- evidence items;
-- immutable input snapshots;
-- calculation results;
-- result lineage;
-- audit events;
-- idempotency keys;
-- tenant-scoped RLS policies;
-- indexes;
-- append-only triggers.
+Append-only and idempotency behavior were proven against real PostgreSQL on the QA branch.
 
-The canonical repository migration remains the source of truth. The Supabase-specific `anon`/`authenticated` revoke statements were not replayed because those roles do not exist in the live Neon environment.
+## Neon Auth
 
-## Structural verification
+Production Neon Auth was already present with provider `better_auth` and is now configured for:
 
-Live QA branch returned:
+- email/password sign-up;
+- OTP email verification;
+- required email verification;
+- verification email on signup;
+- verification email on sign-in;
+- automatic sign-in after verification.
 
-- **11/11** required persistence tables present;
-- **10/10** tenant RLS policies present;
-- **9** persistence indexes present;
-- **5/5** append-only triggers present.
+Current production configuration was verified directly from `neon_auth.project_config`.
 
-`pg_class` confirmed RLS enabled on the tested tenant tables. `FORCE ROW LEVEL SECURITY` was temporarily enabled during a diagnostic experiment and then reverted.
+The business password requirement is:
 
-## Append-only verification
+`>= 8 characters AND at least one uppercase Latin letter AND one lowercase Latin letter AND one digit.`
 
-A real `calculation_results` row was present on the QA branch.
+Neon/Better Auth provides the 8-character minimum, but the managed Neon Auth configuration does not expose a custom server-side regex hook through the available project interface. Therefore the exact composition rule remains an **application-layer implementation gate**; it is not being falsely claimed as database-enforced.
 
-An attempted update of that row was rejected by PostgreSQL with:
+## Neon Data API + RLS
 
-`APPEND_ONLY_RESOURCE: calculation_results cannot be updated or deleted`
+Production Neon Data API was provisioned with Neon Auth as the authentication provider.
 
-**Result: PASS.** Database-level immutability is proven on the real PostgreSQL instance.
+The Data API created the `authenticated` Postgres role. Live role inspection shows:
 
-## Idempotency verification
+- `authenticated`: `rolbypassrls = false`;
+- `neondb_owner`: `rolbypassrls = true` and remains administrative only.
 
-A real `(tenant_id, request_id, operation)` key was inserted into `public.idempotency_keys`.
+The production persistence migration now:
 
-A second insert using the same composite key was rejected by PostgreSQL with the primary-key violation on `idempotency_keys_pkey`.
+- enables RLS on all tenant persistence tables;
+- uses restrictive policies for `authenticated`;
+- revokes public table privileges;
+- grants only explicit `SELECT`/`INSERT` privileges;
+- grants execution of `current_tenant_id()` only to `authenticated`;
+- resolves tenant context from Neon Auth `auth.user_id()` plus active `tenant_memberships`;
+- optionally binds membership to `auth.organization_id()`;
+- fails closed when zero or multiple applicable memberships exist;
+- never treats client-supplied `tenant_id` as authorization.
 
-**Result: PASS.** Database-level uniqueness for the idempotency contract is proven on the QA branch.
+This matches Neon's documented model in which Data API JWT validation supplies authenticated identity to RLS through `auth.user_id()`.
 
-## Tenant isolation verification
+## Production deployment
 
-The SQL connection available through the Neon validation interface uses `neondb_owner`. Live role inspection showed:
+**PASS — production persistence deployed.**
 
-- `neondb_owner`: `rolbypassrls = true`;
-- API-created QA roles also defaulted to `rolbypassrls = true`;
-- a SQL-created login role could be created with `rolbypassrls = false`, but the available owner connection was not permitted to switch session authorization to it or grant membership for `SET ROLE` testing.
+Production now contains the SynapseMax persistence contract:
 
-As a result, owner-context queries cannot prove runtime RLS isolation. A temporary `FORCE ROW LEVEL SECURITY` experiment was also insufficient because the active owner role has `BYPASSRLS`.
+1. retention policies;
+2. tenants;
+3. tenant memberships;
+4. legal holds;
+5. diagnostic sessions;
+6. evidence items;
+7. input snapshots;
+8. calculation results;
+9. result lineage;
+10. audit events;
+11. idempotency keys.
 
-**Result: NOT PROVEN.** Cross-tenant negative authorization testing against a genuine non-owner application principal remains an explicit production gate.
+Production also contains the required indexes, RLS policies and append-only triggers.
 
-This is a deliberate non-claim: existence of RLS policies is not equivalent to proving runtime tenant isolation.
+No client/test tenant data was seeded into production.
 
-## Environment finding — Neon vs Supabase grants
+## What is proven vs not proven
 
-The canonical repository migration contains explicit revokes for Supabase `anon` and `authenticated`. The live Neon database does not contain those roles.
+### Proven
 
-Blindly replaying those statements would fail migration execution. Production deployment therefore needs an environment-specific privilege layer tied to the real application authentication architecture rather than silently altering the canonical persistence semantics.
+- live Neon access;
+- dedicated SynapseMax Neon project;
+- Neon Auth provider and current configuration;
+- Neon Data API provisioned with Neon Auth;
+- non-bypass `authenticated` role exists;
+- production persistence schema deployed;
+- production RLS policies deployed;
+- public grants revoked on persistence tables;
+- append-only triggers deployed;
+- QA append-only rejection proven;
+- QA idempotency uniqueness proven.
 
-## Production status
+### Not yet proven
 
-**Production branch was not modified.**
+- real browser/API authenticated cross-tenant negative test with two real principals;
+- password composition rule at the application auth boundary;
+- Worker -> Data API persistence smoke;
+- retention executor and legal-hold execution;
+- full API idempotency/lineage flow;
+- Redis latency/load evidence;
+- 5-year TCO/NPV model.
 
-No production migration was applied. No production data was changed.
+The first item is the remaining **CRITICAL security gate**. Structural RLS presence is not treated as proof of runtime tenant isolation.
 
 ## Security red-team
 
-### CRITICAL — tenant escape
+### CRITICAL — runtime tenant escape
 
-Still open until a real non-owner application principal is authenticated, mapped to tenant membership, and demonstrated unable to read/write another tenant's records.
+The administrative SQL connection is `neondb_owner` and bypasses RLS. It cannot prove application isolation. The required proof is an authenticated non-owner integration test using real Neon Auth JWTs.
 
-### HIGH — service-role bypass
+### HIGH — privileged service path
 
-The migration's RLS model cannot protect a deliberately privileged bypass path. Any service credential must remain server-only and authorization must execute before privileged database access.
+Any server-side privileged credential can bypass RLS if deliberately configured that way. Such credentials must never reach the browser and every privileged operation must perform explicit authorization plus audit logging.
 
-### HIGH — grants / authentication integration
+### HIGH — password composition
 
-The repository migration was designed around Supabase roles (`anon`, `authenticated`), while the live Neon database currently does not expose those roles. Production grants must be designed against the actual application authentication architecture before deployment.
+The exact uppercase/lowercase/digit requirement is not exposed as a managed Neon Auth regex setting. It must be enforced server-side in the SynapseMax auth boundary; client validation alone is rejected.
 
-### HIGH — Neon role defaults
+### MEDIUM — test branch lifecycle
 
-Neon-created database roles observed in this validation have `rolbypassrls = true`. This is unacceptable as evidence of application-level tenant isolation. Production application roles must be explicitly validated for non-bypass behavior before they are treated as tenant principals.
+The QA branch contains only validation data. It should be retained only while needed for the next integration test and then deleted after evidence is captured.
 
 ## Finance impact
 
-This validation does not claim direct revenue uplift. Its financial purpose is to establish a defensible persistence boundary for future evidence-backed diagnostics: reproducible inputs, immutable ROI history and tenant separation.
+This is infrastructure risk control, not a direct revenue claim. The economic objective is to make every future leakage/ROI calculation attributable to a tenant, evidence set, calculation contract and immutable result history, reducing the risk of non-defensible financial conclusions and rework.
 
 ## Gate status
 
@@ -133,26 +158,38 @@ This validation does not claim direct revenue uplift. Its financial purpose is t
 |---|---|
 | Live Neon MCP access | PASS |
 | Correct dedicated DB | PASS |
-| QA schema deployment | PASS |
-| Structural schema validation | PASS |
-| Append-only DB enforcement | PASS |
-| Idempotency uniqueness | PASS |
-| Cross-tenant runtime isolation | **OPEN** |
-| Production migration | **NOT APPLIED** |
-| Worker integration | **OPEN** |
+| Neon Auth | PASS |
+| Email OTP verification | PASS |
+| Required email verification | PASS |
+| Neon Data API | PASS |
+| Non-bypass application DB role | PASS |
+| Production persistence schema | PASS |
+| Production RLS deployment | PASS |
+| Public privilege revocation | PASS |
+| QA append-only enforcement | PASS |
+| QA idempotency uniqueness | PASS |
+| Runtime cross-tenant isolation | **CRITICAL OPEN** |
+| Password composition enforcement | **HIGH OPEN** |
+| Worker integration | OPEN |
+| Retention/legal-hold execution | OPEN |
+| Redis performance evidence | OPEN |
+| 5-year TCO/NPV | OPEN |
 
-## Next gate
+## Next execution gate
 
-1. Define the real authenticated application principal/role mapping.
-2. Ensure the application database role does not bypass RLS.
-3. Grant only the required database privileges.
-4. Run cross-tenant positive/negative integration tests using non-owner principals.
-5. Verify idempotency and evidence lineage through the API boundary.
-6. Run retention/legal-hold tests.
-7. Only after PASS prepare/apply the production migration.
+1. Implement the SynapseMax application auth boundary against Neon Auth.
+2. Enforce the exact password composition rule server-side.
+3. Create two real QA principals and two tenant memberships through the real auth path.
+4. Execute Data API positive/negative cross-tenant tests.
+5. Capture authenticated audit/idempotency/lineage evidence.
+6. Connect the Cloudflare Worker to the authenticated persistence path.
+7. Run retention/legal-hold tests.
+8. Close the critical RLS gate only after runtime evidence passes.
 
-## Evidence boundary
+## Repository source of truth
 
-**Facts:** live Neon project access, PostgreSQL 18.6, empty SynapseMax persistence baseline, temporary branch creation, 11 tables, 10 RLS policies, 9 indexes, 5 append-only triggers, successful append-only rejection, successful idempotency uniqueness rejection, and observed Neon role/RLS behavior.
-
-**Not proven:** authenticated tenant isolation, application authorization, production grants, Worker persistence integration, retention executor, 5-year TCO/NPV, Redis performance.
+- `neon/migrations/20260917190000_synapsemax_persistence_auth_rls.sql`
+- `docs/NEON_AUTH_RLS_SECURITY_BASELINE_2026-09-17.md`
+- `docs/PERSISTENCE_EXECUTION_REPORT_2026-09-14.md`
+- `docs/PERSISTENCE_RLS_ARCHITECTURE_2026-09-14.md`
+- `docs/MASTER_OPERATIONAL_EXECUTION_REPORT.md`
