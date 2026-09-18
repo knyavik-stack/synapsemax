@@ -7,9 +7,10 @@ const SECURITY_HEADERS = {
   'x-frame-options': 'DENY',
 };
 
-function withSecurityHeaders(response) {
+function withSecurityHeaders(response, extraHeaders = {}) {
   const headers = new Headers(response.headers);
   for (const [name, value] of Object.entries(SECURITY_HEADERS)) headers.set(name, value);
+  for (const [name, value] of Object.entries(extraHeaders)) headers.set(name, value);
   return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
 }
 
@@ -29,6 +30,15 @@ async function immediateAsset(env, request) {
   return new Response(asset.body, { status: asset.status, statusText: asset.statusText, headers });
 }
 
+async function diagnosticAsset(env, request) {
+  const asset = await env.ASSETS.fetch(new Request(new URL('/rls-smoke.html', request.url), request));
+  return withSecurityHeaders(asset, {
+    'cache-control': 'no-store, no-cache, must-revalidate, max-age=0',
+    'pragma': 'no-cache',
+    'x-synapsemax-rls-smoke': '2026-09-18-2',
+  });
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -45,7 +55,9 @@ export default {
       try { return json({ ok: true, result: diagnoseProfitLeakage(await request.json()) }); }
       catch { return json({ ok: false, error: 'Invalid JSON' }, 400); }
     }
-    if (url.pathname === '/' || url.pathname === '/index.html') return immediateAsset(env, request);
+    if (url.pathname === '/') return immediateAsset(env, request);
+    if (url.pathname === '/index.html') return immediateAsset(env, request);
+    if (url.pathname === '/rls-smoke.html') return diagnosticAsset(env, request);
     return withSecurityHeaders(await env.ASSETS.fetch(request));
   },
 };
