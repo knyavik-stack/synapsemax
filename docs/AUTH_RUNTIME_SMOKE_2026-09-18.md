@@ -8,7 +8,7 @@
 
 **CRITICAL gate remains OPEN.**
 
-The reported **HTTP 404** is now treated as a real Data API/runtime symptom, not as evidence of PostgreSQL RLS failure. The earlier classification of the 404 as merely a smoke-harness defect was too strong and is superseded by this record.
+The reported **HTTP 404** is now treated as a real Data API/runtime symptom, not as evidence of PostgreSQL RLS failure. Additionally, the exact text still reported by the browser matches the pre-remediation smoke page, so stale asset delivery/cache is itself now a confirmed suspect. The earlier classification of the 404 as merely a smoke-harness defect was too strong and is superseded by this record.
 
 Live Neon management state was verified:
 - Neon Auth: active, Better Auth.
