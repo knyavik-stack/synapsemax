@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
 <title>SynapseMax — RLS smoke</title>
-<style>body{margin:0;min-height:100vh;background:#07101b;color:#edf6ff;font:15px/1.5 system-ui;padding:32px;display:grid;place-items:center}main{width:min(760px,100%);background:#0c1725;border:1px solid #1c3148;border-radius:16px;padding:28px}h1{margin-top:0}.muted{color:#8da0b6}.ok{color:#55f5c0}.bad{color:#ff7b8d}button{padding:12px 16px;border:0;border-radius:9px;background:#00e1ff;color:#031019;font-weight:800;cursor:pointer}.status{margin-top:18px;padding:16px;border:1px solid #1c3148;border-radius:10px;white-space:pre-wrap}code{word-break:break-all}</style>
+<style>body{margin:0;min-height:100vh;background:#07101b;color:#edf6ff;font:15px/1.5 system-ui;padding:32px;display:grid;place-items:center}main{width:min(780px,100%);background:#0c1725;border:1px solid #1c3148;border-radius:16px;padding:28px}h1{margin-top:0}.muted{color:#8da0b6}.ok{color:#55f5c0}.bad{color:#ff7b8d}button{padding:12px 16px;border:0;border-radius:9px;background:#00e1ff;color:#031019;font-weight:800;cursor:pointer}.status{margin-top:18px;padding:16px;border:1px solid #1c3148;border-radius:10px;white-space:pre-wrap;overflow-wrap:anywhere}code{word-break:break-all}</style>
 </head>
 <body><main>
 <h1>Neon Auth → JWT → RLS</h1>
-<p class="muted">CRITICAL runtime smoke test. Страница ничего не меняет в БД: получает JWT Neon Auth и читает public.tenants через Neon Data API.</p>
+<p class="muted">CRITICAL runtime smoke test. Страница ничего не меняет в БД: получает JWT Neon Auth и читает public.tenants через реальный Neon Data API endpoint.</p>
 <button id="run">Проверить RLS</button>
 <div id="status" class="status">Нажмите кнопку после входа на /auth.html.</div>
 <script type="module">
@@ -23,29 +23,37 @@ document.querySelector('#run').onclick=async()=>{
     const session=await client.auth.getSession();
     const user=session?.data?.user;
     if(!user) throw new Error('Нет authenticated session. Сначала войдите через /auth.html.');
+    if(user.emailVerified!==true) throw new Error('Email пользователя не подтверждён.');
 
     const token=await client.auth.getJWTToken();
     if(!token) throw new Error('Neon Auth session есть, но JWT не получен. Это блокирует Data API/RLS.');
 
-    // Authoritative runtime path: NeonJS sends the authenticated JWT to the Data API.
-    // Do not manually construct REST requests here: a 404 from a hand-built URL is a harness error,
-    // not evidence of PostgreSQL RLS behavior.
-    const result=await client.from('tenants').select('id,status');
-    if(result.error) throw new Error(`Data API SDK error: ${result.error.message||JSON.stringify(result.error)}`);
-    const data=result.data||[];
+    // Use the exact Data API URL returned by Neon management config.
+    // Explicit Accept-Profile makes the target schema unambiguous.
+    const response=await fetch(DATA+'/tenants?select=id,status',{
+      method:'GET',
+      cache:'no-store',
+      headers:{
+        Authorization:'Bearer '+token,
+        Accept:'application/json',
+        'Accept-Profile':'public'
+      }
+    });
+    const body=await response.text();
+    if(!response.ok){
+      throw new Error('Data API HTTP '+response.status+' '+response.statusText+'\n'+body.slice(0,1000));
+    }
+    let data;
+    try{data=JSON.parse(body)}catch{throw new Error('Data API returned non-JSON response: '+body.slice(0,500));}
 
-    const ids=data.map(x=>x.id);
+    const ids=(data||[]).map(x=>x.id);
     const expected='11111111-1111-1111-1111-111111111111';
-    const forbidden=['22222222-22222222-2222-2222-2222-222222222222','33333333-3333-3333-3333-333333333333'];
+    const forbidden=['22222222-2222-2222-2222-222222222222','33333333-3333-3333-3333-333333333333'];
     const pass=ids.length===1&&ids[0]===expected&&!ids.some(id=>forbidden.includes(id));
-    show(`USER: ${user.name||'-'} / ${user.email||'-'}
-EMAIL VERIFIED: ${user.emailVerified?'yes':'no'}
-JWT ACQUIRED: yes (${token.length} chars; value hidden)
-SDK QUERY: ok
-ROWS RETURNED: ${ids.length}
-VISIBLE TENANT: ${ids.join(', ')||'(none)'}
 
-${pass?'RLS PASS — пользователь видит только свой tenant.':'RLS FAIL — SDK Data API вернул результат, не соответствующий ожидаемой tenant isolation.'}`,pass?'ok':'bad');
-  }catch(e){show(`RLS TEST ERROR\n${e?.message||e}`,'bad')}finally{b.disabled=false}
+    show('USER: '+(user.name||'-')+' / '+(user.email||'-')+'\nEMAIL VERIFIED: yes\nJWT ACQUIRED: yes ('+token.length+' chars; value hidden)\nDATA API HTTP: '+response.status+'\nROWS RETURNED: '+ids.length+'\nVISIBLE TENANT: '+(ids.join(', ')||'(none)')+'\n\n'+(pass?'RLS PASS — пользователь видит только свой tenant.':'RLS FAIL — JWT дошёл до Data API, но результат не соответствует ожидаемой tenant isolation.'),pass?'ok':'bad');
+  }catch(e){
+    show('RLS TEST ERROR\n'+(e?.message||String(e))+'\n\nDATA API: '+DATA,'bad');
+  }finally{b.disabled=false}
 };
 </script></main></body></html>
