@@ -25,6 +25,18 @@ for (const marker of ['Диагностика', 'hello@synapsemax.ru', 'sm-foote
 const health = await check('/api/v1/health');
 require(health.response.status === 200, `Health status ${health.response.status}`);
 const healthJson = JSON.parse(health.text);
+require(healthJson.release === '2026-09-18-3', `Health release ${healthJson.release}, expected 2026-09-18-3`);
+
+const version = await check('/__synapsemax/version');
+require(version.response.status === 200, `Version status ${version.response.status}`);
+const versionJson = JSON.parse(version.text);
+require(versionJson.ok === true && versionJson.release === '2026-09-18-3' && versionJson.rlsSmoke === '2026-09-18-3', 'Version contract mismatch');
+
+const rlsSmoke = await check('/rls-smoke.html');
+require(rlsSmoke.response.status === 200, `RLS smoke status ${rlsSmoke.response.status}`);
+require(rlsSmoke.response.headers.get('cache-control')?.includes('no-store'), 'RLS smoke must use no-store');
+require(rlsSmoke.response.headers.get('x-synapsemax-rls-smoke') === '2026-09-18-3', 'RLS smoke revision header mismatch');
+require(rlsSmoke.text.includes('2026-09-18-3'), 'RLS smoke asset revision mismatch');
 require(healthJson.ok === true && healthJson.service === 'synapsemax-immediate' && healthJson.version === 'h1', 'Health contract mismatch');
 
 const assessment = await check('/api/v1/assessment', {
@@ -54,4 +66,4 @@ for (const [name, expected] of [
 }
 
 console.log(`Production smoke: PASS — ${base}`);
-console.log('Root + health + assessment + ROI + security headers verified.');
+console.log('Root + health + version + RLS smoke delivery + assessment + ROI + security headers verified.');
