@@ -60,3 +60,18 @@ This is an inference, not a confirmed root cause.
 ## Change
 
 Updated `rls-smoke.html` in commit `4fed0aae3ef998952161ac4f8fd9806a573f9fe7`.
+
+
+## Delivery-control remediation — 2026-09-18
+
+The repeated browser output was compared against the repository source. The reported two-line error format corresponds to the older smoke asset, while the repository already contained a newer diagnostic implementation. This makes **production asset/revision mismatch** the leading delivery hypothesis; the database/RLS model is not changed by this remediation.
+
+Implemented in the repository:
+- Worker release marker: `2026-09-18-3`.
+- `/__synapsemax/version` endpoint exposes release and RLS smoke revision with `no-store`.
+- `/rls-smoke.html` remains Worker-first and now returns an explicit revision header `x-synapsemax-rls-smoke: 2026-09-18-3` plus no-cache semantics.
+- Browser smoke page visibly identifies its revision.
+- Production smoke now verifies the version endpoint and the actual delivered RLS smoke asset before running functional checks.
+- Health contract now includes the release marker.
+
+**Release gate:** the CRITICAL tenant-isolation gate remains OPEN until the delivered revision is confirmed and the authenticated Data API test returns tenant A only, followed by the two-user negative isolation test.
