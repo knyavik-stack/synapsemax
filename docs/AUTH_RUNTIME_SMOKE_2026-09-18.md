@@ -8,23 +8,55 @@
 
 **CRITICAL gate remains OPEN.**
 
-The previous manual REST diagnostic returned **HTTP 404**. This was a defect in the smoke harness: the test constructed the Data API request URL manually. The 404 is **not evidence of a PostgreSQL RLS failure**.
+The reported **HTTP 404** is now treated as a real Data API/runtime symptom, not as evidence of PostgreSQL RLS failure. The earlier classification of the 404 as merely a smoke-harness defect was too strong and is superseded by this record.
 
-The smoke test is now restored to the official NeonJS runtime path:
+Live Neon management state was verified:
+- Neon Auth: active, Better Auth.
+- Neon Data API: active.
+- Data API endpoint: the endpoint returned by Neon management configuration.
+- exposed schema: `public`.
+- `public.tenants`: exists.
+- `authenticated` has SELECT on `public.tenants`.
+- RLS and FORCE RLS are enabled on `public.tenants`.
+- production membership for the test identity exists and is active for tenant A.
 
-1. `client.auth.getSession()` confirms the authenticated session.
-2. `client.auth.getJWTToken()` confirms a JWT can be obtained.
-3. `client.from('tenants').select('id,status')` performs the Data API query through the NeonJS SDK.
-4. NeonJS is responsible for the authenticated JWT injection into the Data API request.
-5. Only the expected tenant A is accepted; tenant B/C are forbidden.
-6. The JWT value is never rendered or logged; only acquisition and character count are displayed.
+The Data API configuration was refreshed without changing the security model:
+- `db_schemas=[public]`
+- `db_anon_role=anonymous`
+- `jwt_role_claim_key=.role`
+- CORS origin `https://synapsemax.ru`
+- schema/config reload notifications issued via PostgreSQL.
 
-This is the authoritative browser smoke path for SynapseMax.
+## Smoke harness change
+
+`rls-smoke.html` now:
+1. obtains the authenticated Neon Auth session;
+2. requires verified email;
+3. obtains the JWT without rendering its value;
+4. calls the exact Data API endpoint returned by Neon management configuration;
+5. explicitly sends `Accept-Profile: public`;
+6. reports the HTTP status and response body prefix when the Data API fails;
+7. checks tenant A as the only allowed result and tenant B/C as forbidden.
+
+The previous malformed forbidden-tenant UUID was also corrected.
 
 ## Security non-claims
 
-This single-user smoke does **not** prove cross-user isolation. Final CRITICAL closure requires two real Neon Auth identities with separate tenant memberships and negative reads/writes in both directions, plus unauthenticated and ambiguous-membership fail-closed checks.
+The CRITICAL tenant-isolation gate is **not closed**.
+
+Even after the Data API 404 is resolved, final closure requires:
+- two real Neon Auth identities;
+- separate active tenant memberships;
+- negative reads/writes in both directions;
+- unauthenticated fail-closed behavior;
+- ambiguous-membership fail-closed behavior.
+
+## Current hypothesis
+
+The database/RLS layer currently has the expected grants and policies. The remaining failure point is most likely the **Neon Data API request/schema-cache/runtime boundary**, because the observed symptom is HTTP 404 rather than an RLS-denial response.
+
+This is an inference, not a confirmed root cause.
 
 ## Change
 
-`rls-smoke.html` updated in commits `73b32e35e5c7d55a5cfb0ace62b1bf4a7c0c09d8` and `b094bd6e0bc7c6f0770d36b70362d320d785e22f`.
+Updated `rls-smoke.html` in commit `4fed0aae3ef998952161ac4f8fd9806a573f9fe7`.
