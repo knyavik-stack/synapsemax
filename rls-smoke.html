@@ -27,20 +27,25 @@ document.querySelector('#run').onclick=async()=>{
     const token=await client.auth.getJWTToken();
     if(!token) throw new Error('Neon Auth session есть, но JWT не получен. Это блокирует Data API/RLS.');
 
-    // Diagnostic path: explicit Bearer header. Token value is never rendered or logged.
-    const response=await fetch(`${DATA}/tenants?select=id,status`,{
-      method:'GET',
-      headers:{Authorization:`Bearer ${token}`,Accept:'application/json'}
-    });
-    const body=await response.text();
-    if(!response.ok) throw new Error(`Data API HTTP ${response.status}: ${body.slice(0,500)}`);
-    let data=[]; try{data=JSON.parse(body)}catch{throw new Error('Data API returned non-JSON response.')} 
+    // Authoritative runtime path: NeonJS sends the authenticated JWT to the Data API.
+    // Do not manually construct REST requests here: a 404 from a hand-built URL is a harness error,
+    // not evidence of PostgreSQL RLS behavior.
+    const result=await client.from('tenants').select('id,status');
+    if(result.error) throw new Error(`Data API SDK error: ${result.error.message||JSON.stringify(result.error)}`);
+    const data=result.data||[];
 
-    const ids=(data||[]).map(x=>x.id);
+    const ids=data.map(x=>x.id);
     const expected='11111111-1111-1111-1111-111111111111';
-    const forbidden=['22222222-2222-2222-2222-222222222222','33333333-3333-3333-3333-333333333333'];
+    const forbidden=['22222222-22222222-2222-2222-222222222222','33333333-3333-3333-3333-333333333333'];
     const pass=ids.length===1&&ids[0]===expected&&!ids.some(id=>forbidden.includes(id));
-    show(`USER: ${user.name||'-'} / ${user.email||'-'}\nEMAIL VERIFIED: ${user.emailVerified?'yes':'no'}\nJWT ACQUIRED: yes (${token.length} chars; value hidden)\nDATA API HTTP: ${response.status}\nROWS RETURNED: ${ids.length}\nVISIBLE TENANT: ${ids.join(', ')||'(none)'}\n\n${pass?'RLS PASS — пользователь видит только свой tenant.':'RLS FAIL — JWT дошёл до Data API, но результат не соответствует ожидаемой tenant isolation.'}`,pass?'ok':'bad');
+    show(`USER: ${user.name||'-'} / ${user.email||'-'}
+EMAIL VERIFIED: ${user.emailVerified?'yes':'no'}
+JWT ACQUIRED: yes (${token.length} chars; value hidden)
+SDK QUERY: ok
+ROWS RETURNED: ${ids.length}
+VISIBLE TENANT: ${ids.join(', ')||'(none)'}
+
+${pass?'RLS PASS — пользователь видит только свой tenant.':'RLS FAIL — SDK Data API вернул результат, не соответствующий ожидаемой tenant isolation.'}`,pass?'ok':'bad');
   }catch(e){show(`RLS TEST ERROR\n${e?.message||e}`,'bad')}finally{b.disabled=false}
 };
 </script></main></body></html>
