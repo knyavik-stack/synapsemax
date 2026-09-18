@@ -1,5 +1,7 @@
 import { assess, calculateRoi, diagnoseProfitLeakage } from './immediate-logic.js';
 
+const RELEASE_MARKER = '2026-09-18-3';
+
 const SECURITY_HEADERS = {
   'x-content-type-options': 'nosniff',
   'referrer-policy': 'strict-origin-when-cross-origin',
@@ -35,14 +37,15 @@ async function diagnosticAsset(env, request) {
   return withSecurityHeaders(asset, {
     'cache-control': 'no-store, no-cache, must-revalidate, max-age=0',
     'pragma': 'no-cache',
-    'x-synapsemax-rls-smoke': '2026-09-18-2',
+    'x-synapsemax-rls-smoke': RELEASE_MARKER,
   });
 }
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (url.pathname === '/api/v1/health') return json({ ok: true, service: 'synapsemax-immediate', version: 'h1' });
+    if (url.pathname === '/api/v1/health') return json({ ok: true, service: 'synapsemax-immediate', version: 'h1', release: RELEASE_MARKER });
+    if (url.pathname === '/__synapsemax/version') return json({ ok: true, service: 'synapsemax', release: RELEASE_MARKER, rlsSmoke: RELEASE_MARKER, deployedAt: '2026-09-18' });
     if (request.method === 'POST' && url.pathname === '/api/v1/assessment') {
       try { return json({ ok: true, result: assess(await request.json()) }); }
       catch { return json({ ok: false, error: 'Invalid JSON' }, 400); }
