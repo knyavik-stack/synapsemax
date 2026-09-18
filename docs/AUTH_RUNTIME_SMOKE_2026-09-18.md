@@ -8,32 +8,18 @@
 
 **CRITICAL gate remains OPEN.**
 
-The first browser smoke established that Neon Auth session exists and email is verified, but `public.tenants` returned zero rows. That result was not sufficient to distinguish an RLS denial from a missing JWT on the Data API request.
+The previous manual REST diagnostic returned **HTTP 404**. This was a defect in the smoke harness: the test constructed the Data API request URL manually. The 404 is **not evidence of a PostgreSQL RLS failure**.
 
-The smoke test was therefore changed to explicitly verify the runtime chain:
+The smoke test is now restored to the official NeonJS runtime path:
 
 1. `client.auth.getSession()` confirms the authenticated session.
-2. `client.auth.getJWTToken()` explicitly obtains the Neon Auth JWT.
-3. The JWT is sent as an `Authorization: Bearer` header to the Neon Data API.
-4. The response status/body are checked.
+2. `client.auth.getJWTToken()` confirms a JWT can be obtained.
+3. `client.from('tenants').select('id,status')` performs the Data API query through the NeonJS SDK.
+4. NeonJS is responsible for the authenticated JWT injection into the Data API request.
 5. Only the expected tenant A is accepted; tenant B/C are forbidden.
 6. The JWT value is never rendered or logged; only acquisition and character count are displayed.
 
-## Why this change
-
-The official `@neondatabase/neon-js` contract exposes `auth.getJWTToken()` and documents automatic token injection for Data API queries. The diagnostic path now makes the authorization boundary observable instead of treating an empty result as a generic RLS failure.
-
-## Current production smoke contract
-
-For user `Семен / spamir@yandex.ru`:
-
-- authenticated session: expected `yes`;
-- email verification: expected `yes`;
-- JWT acquisition: expected `yes`;
-- Data API response: must be HTTP 200;
-- visible tenant: exactly `11111111-1111-1111-1111-111111111111`;
-- tenant B `22222222-2222-2222-2222-222222222222`: must not be visible;
-- tenant C `33333333-3333-3333-3333-333333333333`: must not be visible.
+This is the authoritative browser smoke path for SynapseMax.
 
 ## Security non-claims
 
@@ -41,4 +27,4 @@ This single-user smoke does **not** prove cross-user isolation. Final CRITICAL c
 
 ## Change
 
-`rls-smoke.html` updated in commit `be83168c8237ef08932bac77e0ebde963e7068ce`.
+`rls-smoke.html` updated in commits `73b32e35e5c7d55a5cfb0ace62b1bf4a7c0c09d8` and `b094bd6e0bc7c6f0770d36b70362d320d785e22f`.
