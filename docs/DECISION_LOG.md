@@ -47,6 +47,8 @@
 | D-046 | Accepted | The Neon production persistence contract is deployed with 11 tables, tenant-scoped RLS, explicit authenticated grants, 9 indexes and 5 append-only triggers. The deployment is documented in `neon/migrations/20260917190000_synapsemax_persistence_auth_rls.sql`. |
 | D-047 | Accepted | The production runtime security gate uses the real Neon Auth session and Neon Data API, not the privileged SQL owner connection. `/rls-smoke.html` is a no-write browser test that must observe exactly one authorized tenant and no unassigned tenants before the CRITICAL tenant-isolation gate can be closed. |
 
+| D-048 | Accepted | The RLS browser smoke must use the official NeonJS `client.from()` Data API path with automatic JWT injection. The HTTP 404 produced by the prior hand-built REST diagnostic is classified as a smoke-harness defect and is not evidence of PostgreSQL RLS behavior. The CRITICAL tenant-isolation gate remains OPEN until the corrected SDK path and two-user cross-tenant negative tests pass. |
+
 ## Revisit rule
 
 A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
