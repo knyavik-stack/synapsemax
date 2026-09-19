@@ -1,6 +1,7 @@
 import { assess, calculateRoi, diagnoseProfitLeakage } from './immediate-logic.js';
+import { RELEASE } from './release.generated.js';
 
-const RELEASE_MARKER = '2026-09-18-3';
+const RELEASE_MARKER = RELEASE;
 
 const SECURITY_HEADERS = {
   'x-content-type-options': 'nosniff',
@@ -34,7 +35,9 @@ async function immediateAsset(env, request) {
 
 async function diagnosticAsset(env, request) {
   const asset = await env.ASSETS.fetch(new Request(new URL('/rls-smoke.html', request.url), request));
-  return withSecurityHeaders(asset, {
+  const body = await asset.text();
+  const hydrated = body.replaceAll('__SYNAPSEMAX_RELEASE__', RELEASE_MARKER);
+  return withSecurityHeaders(new Response(hydrated, { status: asset.status, statusText: asset.statusText, headers: asset.headers }), {
     'cache-control': 'no-store, no-cache, must-revalidate, max-age=0',
     'pragma': 'no-cache',
     'x-synapsemax-rls-smoke': RELEASE_MARKER,
