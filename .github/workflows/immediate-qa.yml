@@ -55,6 +55,13 @@ jobs:
           test "$html_kb" -le 512
           echo 'Performance budget: PASS'
 
+      - name: Validate JavaScript syntax
+        run: |
+          node --check src/index.js
+          node --check scripts/verify-production.mjs
+          node --check scripts/generate-release-marker.mjs
+          echo 'JavaScript syntax: PASS'
+
       - name: Validate Wrangler configuration
         run: npx --yes wrangler@4.126.0 check
 
@@ -63,7 +70,7 @@ jobs:
 
       - name: Start local Worker for browser QA
         run: |
-          nohup npx --yes wrangler@4 dev --local --port 8788 > /tmp/synapsemax-worker.log 2>&1 &
+          nohup npx --yes wrangler@4.126.0 dev --local --port 8788 > /tmp/synapsemax-worker.log 2>&1 &
           for i in $(seq 1 30); do
             if curl -fsS http://127.0.0.1:8788/ >/dev/null; then break; fi
             sleep 1
