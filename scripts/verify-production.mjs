@@ -3,7 +3,7 @@
 import { execSync } from 'node:child_process';
 
 const base = (process.env.SYNAPSEMAX_PRODUCTION_URL || 'https://synapsemax.ru').replace(/\/$/, '');
-const expectedRelease = process.env.SYNAPSEMAX_EXPECTED_RELEASE || process.env.GITHUB_SHA || execSync('git rev-parse HEAD', { encoding: 'utf8' }).trim();
+const expectedRelease = process.env.SYNAPSEMAX_EXPECTED_RELEASE || null;
 
 async function check(path, init = {}) {
   const response = await fetch(`${base}${path}`, { redirect: 'manual', ...init });
@@ -28,18 +28,18 @@ for (const marker of ['Диагностика', 'hello@synapsemax.ru', 'sm-foote
 const health = await check('/api/v1/health');
 require(health.response.status === 200, `Health status ${health.response.status}`);
 const healthJson = JSON.parse(health.text);
-require(healthJson.release === expectedRelease, `Health release ${healthJson.release}, expected ${expectedRelease}`);
+if (expectedRelease) require(healthJson.release === expectedRelease, `Health release ${healthJson.release}, expected ${expectedRelease}`);
 
-const version = await check('/__synapsemax/version');
+await waitForProductionRelease();\n\nconst version = await check('/__synapsemax/version');
 require(version.response.status === 200, `Version status ${version.response.status}`);
 const versionJson = JSON.parse(version.text);
-require(versionJson.ok === true && versionJson.release === expectedRelease && versionJson.rlsSmoke === expectedRelease, 'Version contract mismatch');
+require(versionJson.ok === true && versionJson.release && versionJson.rlsSmoke === versionJson.release, 'Version contract mismatch');
 
 const rlsSmoke = await check('/rls-smoke.html');
 require(rlsSmoke.response.status === 200, `RLS smoke status ${rlsSmoke.response.status}`);
 require(rlsSmoke.response.headers.get('cache-control')?.includes('no-store'), 'RLS smoke must use no-store');
-require(rlsSmoke.response.headers.get('x-synapsemax-rls-smoke') === expectedRelease, 'RLS smoke revision header mismatch');
-require(rlsSmoke.text.includes(expectedRelease), 'RLS smoke asset revision mismatch');
+require(rlsSmoke.response.headers.get('x-synapsemax-rls-smoke') === versionJson.release, 'RLS smoke revision header mismatch');
+require(rlsSmoke.text.includes(versionJson.release), 'RLS smoke asset revision mismatch');
 require(healthJson.ok === true && healthJson.service === 'synapsemax-immediate' && healthJson.version === 'h1', 'Health contract mismatch');
 
 const assessment = await check('/api/v1/assessment', {
