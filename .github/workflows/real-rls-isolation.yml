@@ -1,0 +1,26 @@
+name: Real RLS Isolation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 5 * * *'
+
+jobs:
+  rls:
+    if: ${{ secrets.SYNAPSEMAX_RLS_A_EMAIL != '' && secrets.SYNAPSEMAX_RLS_A_PASSWORD != '' && secrets.SYNAPSEMAX_RLS_B_EMAIL != '' && secrets.SYNAPSEMAX_RLS_B_PASSWORD != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - run: npm install --ignore-scripts
+      - name: Real two-principal RLS smoke
+        env:
+          NEON_AUTH_URL: https://ep-lively-bread-b1ewktwx.neonauth.c-5.eu-central-1.aws.neon.tech/neondb/auth
+          NEON_DATA_API_URL: https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1
+          SYNAPSEMAX_RLS_A_EMAIL: ${{ secrets.SYNAPSEMAX_RLS_A_EMAIL }}
+          SYNAPSEMAX_RLS_A_PASSWORD: ${{ secrets.SYNAPSEMAX_RLS_A_PASSWORD }}
+          SYNAPSEMAX_RLS_B_EMAIL: ${{ secrets.SYNAPSEMAX_RLS_B_EMAIL }}
+          SYNAPSEMAX_RLS_B_PASSWORD: ${{ secrets.SYNAPSEMAX_RLS_B_PASSWORD }}
+        run: npm run test:rls-runtime
