@@ -65,3 +65,6 @@
 A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
 
 | D-059 | Accepted | P1 evidence-backed financial diagnostic is implemented as a deterministic contract layer: source/provenance/quality → weighted evidence aggregation → leakage calculation → explicit no-double-counting → evidence-calibrated scenarios → 5-year NPV → persisted session/snapshot/evidence/result/lineage. Scenario factors are uncertainty bands, not probabilities. |
+
+
+| D-060 | Accepted | Verified production persistence schema against Neon on 2026-09-19. `diagnostic_sessions.input_snapshot_id` exists and is now populated at session creation so the session↔snapshot relationship is complete from the first write. Multi-step Data API persistence remains non-atomic; transactional RPC/migration is a separate security/integrity hardening item and is not claimed as solved by this change. |
