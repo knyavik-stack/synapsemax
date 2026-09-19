@@ -1,6 +1,7 @@
 import { assess, calculateRoi, diagnoseProfitLeakage } from './immediate-logic.js';
 import { RELEASE } from './release.generated.js';
 import { resolveTenantContext, tenantContextResponse } from './tenant-context.js';
+import { persistEvidenceDiagnostic } from './evidence-persistence.js';
 
 const RELEASE_MARKER = RELEASE;
 
@@ -55,6 +56,20 @@ export default {
     if (request.method === 'GET' && url.pathname === '/api/v1/tenant-context') {
       const context = await resolveTenantContext(request);
       return tenantContextResponse(context);
+    }
+    if (request.method === 'POST' && url.pathname === '/api/v1/financial-diagnostic') {
+      const context = await resolveTenantContext(request);
+      if (context?.response) return context.response;
+      try {
+        const input = await request.json();
+        if (!Array.isArray(input?.evidence) || input.evidence.length < 1 || input.evidence.length > 100) {
+          return json({ ok: false, error: 'evidence must contain 1..100 items' }, 400);
+        }
+        const persisted = await persistEvidenceDiagnostic({ request, tenantContext: context, input });
+        return json({ ok: true, result: persisted }, 201);
+      } catch (error) {
+        return json({ ok: false, error: error instanceof Error ? error.message : 'Financial diagnostic failed' }, 400);
+      }
     }
     if (request.method === 'POST' && url.pathname === '/api/v1/assessment') {
       try { return json({ ok: true, result: assess(await request.json()) }); }
