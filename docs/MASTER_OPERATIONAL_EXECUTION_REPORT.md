@@ -419,3 +419,25 @@ Production Neon Auth currently contains exactly **1 user / 1 active principal**.
 `SYNAPSEMAX_RLS_A_EMAIL`, `SYNAPSEMAX_RLS_A_PASSWORD`, `SYNAPSEMAX_RLS_B_EMAIL`, `SYNAPSEMAX_RLS_B_PASSWORD`.
 
 Секреты не запрашиваются через код и не логируются. До появления второго production principal CRITICAL gate остаётся OPEN.
+
+
+# 12. P1 — EVIDENCE-BACKED FINANCIAL DIAGNOSTIC — 2026-09-19
+
+**Status: IMPLEMENTED IN CODE / QA GATE PENDING**
+
+Implemented on branch `p1-evidence-backed-financial-diagnostic`:
+- `src/evidence-diagnostic.js` — source/provenance/quality model, weighted evidence aggregation, leakage attribution through the existing financial contract, explicit overlap/no-double-counting control, evidence-calibrated scenarios, five-year NPV.
+- `src/evidence-persistence.js` — authenticated Neon Data API persistence for diagnostic session, immutable input snapshot, evidence items, calculation results and calculation lineage.
+- `POST /api/v1/financial-diagnostic` — requires the resolved Neon tenant context; rejects missing/invalid evidence cardinality and persists the calculation under the authenticated tenant.
+- `scripts/test-evidence-diagnostic.mjs` — regression coverage for contract version, evidence quality, five-year horizon, scenario ordering and no-double-counting semantics.
+
+**Financial principle:** evidence quality is not a hidden ROI multiplier. It controls scenario uncertainty while the base economic calculation remains traceable to source evidence and explicit assumptions.
+
+**Persistence principle:** the request never supplies `tenant_id` as an authorization source; tenant identity comes from the authenticated Neon Data API/RLS context. Lineage connects every persisted scenario result to the input snapshot and evidence rows.
+
+**Open gate:** runtime two-principal RLS proof remains separate and is not falsely marked closed. P1 code must pass Immediate QA before merge/production smoke.
+
+**Red-team:**
+1. HIGH — persistence is multi-step over Data API rather than a single database transaction; partial failure can leave an incomplete session. Follow-up: add transactional RPC/job orchestration if the platform exposes a safe transactional boundary.
+2. MEDIUM — scenario calibration is deterministic and evidence-quality driven, not statistically calibrated from historical client outcomes.
+3. MEDIUM — process correlation remains explicit-overlap based; causal graph correlation is not yet implemented.

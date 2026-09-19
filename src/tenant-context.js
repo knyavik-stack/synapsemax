@@ -38,7 +38,7 @@ export async function resolveTenantContext(request) {
 
   const [tenantsResponse, membershipsResponse] = await Promise.all([
     fetch(DATA_API_URL + '/tenants?select=id,status&limit=2', { method: 'GET', headers, cf: { cacheTtl: 0 } }),
-    fetch(DATA_API_URL + '/tenant_memberships?select=tenant_id,status&status=eq.active&limit=2', { method: 'GET', headers, cf: { cacheTtl: 0 } }),
+    fetch(DATA_API_URL + '/tenant_memberships?select=tenant_id,status,principal_id&status=eq.active&limit=2', { method: 'GET', headers, cf: { cacheTtl: 0 } }),
   ]);
 
   if (tenantsResponse.status === 401 || membershipsResponse.status === 401) return { response: unauthorized('Invalid or expired authentication token') };
@@ -63,6 +63,7 @@ export async function resolveTenantContext(request) {
   return {
     tenantId: tenantIds[0],
     status: tenantRows[0]?.status ?? null,
+    principalId: membershipRows[0]?.principal_id ?? null,
   };
 }
 
