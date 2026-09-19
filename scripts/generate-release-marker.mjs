@@ -1,4 +1,4 @@
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { execSync } from 'node:child_process';
 
 function detectCommit() {
@@ -8,5 +8,18 @@ function detectCommit() {
 }
 
 const commit = detectCommit();
-await writeFile('src/release.generated.js', `export const RELEASE = ${JSON.stringify(commit)};\n`);
+const target = 'src/release.generated.js';
+const content = `export const RELEASE = ${JSON.stringify(commit)};\n`;
+
+let current = null;
+try {
+  current = await readFile(target, 'utf8');
+} catch {
+  // The generated marker may not exist on a clean checkout.
+}
+
+if (current !== content) {
+  await writeFile(target, content);
+}
+
 console.log(`SynapseMax release marker: ${commit}`);
