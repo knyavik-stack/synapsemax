@@ -56,6 +56,7 @@ export async function persistEvidenceDiagnostic({ request, tenantContext, input 
     status: 'created',
     created_by: tenantContext.principalId ?? 'authenticated-principal',
     calculation_contract_version: FINANCIAL_DIAGNOSTIC_CONTRACT,
+    input_snapshot_id: snapshotId,
     evidence_set_id: payloadHash,
   }, authorization);
 
