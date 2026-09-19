@@ -58,6 +58,8 @@
 
 | D-057 | Accepted | P0 runtime tenant boundary is now implemented in production code via /api/v1/tenant-context: Bearer JWT is mandatory; tenant resolution requires exactly one RLS-visible tenant and exactly one matching active membership; missing, ambiguous or mismatched context fails closed. PR #20 merged after Immediate QA #348 passed all build, regression, Wrangler and Chromium gates. This closes the new application boundary but does not close the CRITICAL two-user production isolation proof until two real Neon Auth sessions perform cross-tenant negative tests without owner/bypass credentials. |
 
+| D-058 | Accepted | Real-session RLS harness merged in PR #21. It uses @neondatabase/auth sign-in and getJWTToken(), then verifies distinct principals, one tenant per principal, matching memberships, cross-tenant result invisibility, own-tenant visibility, unauthenticated rejection and Worker tenant-context consistency. Immediate QA passed. Production proof remains OPEN because current Neon Auth has exactly one user/active principal; manual-only workflow is ready and intentionally does not fabricate a second identity. |
+
 ## Revisit rule
 
 A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
