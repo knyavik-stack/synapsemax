@@ -71,11 +71,21 @@ jobs:
       - name: Start local Worker for browser QA
         run: |
           nohup npx --yes wrangler@4.126.0 dev --local --port 8788 > /tmp/synapsemax-worker.log 2>&1 &
+          worker_pid=$!
+          ready=0
           for i in $(seq 1 30); do
-            if curl -fsS http://127.0.0.1:8788/ >/dev/null; then break; fi
+            if curl --fail --silent --show-error --max-time 3 http://127.0.0.1:8788/ >/dev/null; then
+              ready=1
+              break
+            fi
             sleep 1
           done
-          curl -fsS http://127.0.0.1:8788/ >/dev/null
+          if [ "$ready" -ne 1 ]; then
+            echo 'Local Worker did not become ready within 30 seconds.'
+            cat /tmp/synapsemax-worker.log || true
+            kill "$worker_pid" 2>/dev/null || true
+            exit 1
+          fi
 
       - name: Install browser test runner
         run: npm install --no-save --ignore-scripts @playwright/test@1.55.0
