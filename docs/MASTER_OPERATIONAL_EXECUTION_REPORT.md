@@ -265,6 +265,85 @@ Current production merge commit: `9a957531599b341efeb34017a6e758ee50042c55`.
 
 ---
 
+# 11. STATUS UPDATE — 2026-09-19
+
+## 11.1 Current readiness, separated by scope
+
+Percentages below are engineering readiness estimates against the documented DoD, not subjective quality scores and not compliance scores.
+
+| Контур | Текущий статус | Готовность |
+|---|---|---:|
+| Commercial / financial diagnostic core | production evidence, H1 finance scope complete | **95%** |
+| Public frontend / Immediate experience | production + browser QA | **90%** |
+| CI / release / deployment control | Immediate QA + Production Smoke green on current main | **100%** |
+| Neon Auth | configured and real login verified; server-side password-composition gate remains | **85%** |
+| Persistence / tenant RLS | schema + policies deployed; real two-user runtime isolation still open | **75%** |
+| Security / governance | architecture and controls documented, runtime authorization proof incomplete | **45%** |
+| 5-layer platform architecture | foundation documented, major integration/AI/governance layers not evidenced | **35%** |
+| Brand / HUD / design system | accepted foundation, normalization/audit remains | **60%** |
+| Business model / funnel | documented, not fully operationalized | **55%** |
+| Telegram / SMM | documented plan, execution remains | **40%** |
+
+### 11.2 Three project-level percentages
+
+- Commercial MVP / client-facing diagnostic readiness: **~80%**.
+- Enterprise platform readiness: **~55%**.
+- Master-Spec alignment: **~62%**.
+
+Important: the project is **not enterprise-ready despite green CI**. The CRITICAL tenant-isolation gate remains open.
+
+## 11.3 Release state
+
+Current main CI evidence on 2026-09-19:
+- Immediate QA: **SUCCESS**
+- Production Smoke: **SUCCESS**
+- production deployment path: Cloudflare Workers Builds
+- current main release passed syntax, build, deployment graph, browser UX and production smoke gates.
+
+This closes the current CI/release incident. It does not close security authorization.
+
+## 11.4 Updated execution order
+
+### NEXT — P0 / CRITICAL
+**Close runtime tenant isolation.**
+
+Proof required:
+1. real Neon Auth user A -> tenant A only;
+2. real Neon Auth user B -> tenant B only;
+3. A cannot read/write B;
+4. B cannot read/write A;
+5. unauthenticated request returns no tenant data;
+6. ambiguous membership fails closed;
+7. no privileged owner credential participates in the proof.
+
+### P1
+**Evidence-backed financial diagnostic layer.**
+
+Target chain:
+source -> evidence provenance -> confidence model -> leakage attribution -> correlation/no-double-counting -> scenario calibration -> 5-year TCO/NPV -> ROI/payback -> action plan.
+
+### P2
+**Brand/HUD audit and canonical token normalization.**
+
+### P3
+**5-layer architecture evidence:** PostgreSQL/RLS/JSONB, integration adapters/queues, AI abstraction gateway, Redis benchmark and governance/audit.
+
+### P4
+**Commercial operating layer:** funnel instrumentation, SMM execution, client portal and rentable feature boundaries.
+
+## 11.5 Red-team update
+
+1. **CRITICAL:** green CI can create false confidence if authorization is inferred from owner SQL access. It must not be.
+2. **HIGH:** evidence quality is still a signal, not a provenance-backed confidence model.
+3. **HIGH:** the current product can calculate ROI, but client-grade attribution remains dependent on evidence quality and explicit overlap assumptions.
+4. **MEDIUM:** Master Spec remains broader than current runtime; percentages must not be interpreted as feature completion of the future SaaS platform.
+
+## 11.6 Self-correction
+
+**Assumed:** the documented DoD remains the source of truth and no undocumented requirement has been added after the latest Master Spec.
+**If false:** the affected percentage must be recalculated against the changed DoD.
+**Not yet evidenced:** real two-user cross-tenant runtime isolation, full 5-year NPV/TCO, Redis latency target, complete governance/compliance evidence and production-grade process correlation.
+
 ## SELF-CORRECTION / EPISTEMIC BOUNDARY
 
 **Факты:** PR #14 merged; Immediate QA #269 PASS; Production Smoke #170 PASS; Issue #13 CLOSED.  
