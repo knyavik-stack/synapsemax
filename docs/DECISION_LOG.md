@@ -48,6 +48,7 @@
 | D-047 | Accepted | The production runtime security gate uses the real Neon Auth session and Neon Data API, not the privileged SQL owner connection. `/rls-smoke.html` is a no-write browser test that must observe exactly one authorized tenant and no unassigned tenants before the CRITICAL tenant-isolation gate can be closed. |
 | D-048 | Superseded | The RLS browser smoke was required to use the official NeonJS `client.from()` path. The earlier assumption that the observed HTTP 404 was only a smoke-harness defect is superseded because the same symptom is still reported after the SDK-path correction. |
 | D-049 | Accepted | The RLS smoke now uses the exact Data API endpoint returned by Neon management configuration, explicitly targets schema `public` with `Accept-Profile`, exposes the Data API HTTP status/body prefix for diagnosis, and corrects the forbidden tenant fixture. Neon Data API configuration was refreshed and PostgreSQL schema/config reload notifications were issued. The CRITICAL tenant-isolation gate remains OPEN until the browser test returns the expected tenant result and two-user negative tests pass. |
+| D-050 | Accepted | Cloudflare Workers Builds is confirmed by the project owner as successfully delivering the current main revision. Release identity is therefore derived from `WORKERS_CI_COMMIT_SHA` instead of a hard-coded marker. The Worker strips any stale `content-length` header when hydrating the diagnostic HTML so replacement of the release token cannot produce a mismatched body length. |
 
 ## Revisit rule
 
