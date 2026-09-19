@@ -56,10 +56,10 @@ jobs:
           echo 'Performance budget: PASS'
 
       - name: Validate Wrangler configuration
-        run: npx --yes wrangler@4 check
+        run: npx --yes wrangler@4.126.0 check
 
       - name: Validate deployment graph
-        run: npx --yes wrangler@4 deploy --dry-run
+        run: npx --yes wrangler@4.126.0 deploy --dry-run --outdir /tmp/synapsemax-wrangler-dry-run
 
       - name: Start local Worker for browser QA
         run: |
