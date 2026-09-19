@@ -56,6 +56,8 @@
 | D-055 | Accepted | Local Wrangler development exposed a build-loop defect: the release-marker generator rewrote `src/release.generated.js` on every build even when content was unchanged, causing Wrangler to detect a file change and restart the custom build indefinitely. The generator is now content-idempotent and writes only when the generated content differs. |
 | D-056 | Accepted | Readiness reporting is now split into three scopes: commercial MVP/client-facing diagnostic (~80%), enterprise platform (~55%), and Master-Spec alignment (~62%). Green CI is treated as release evidence only; the CRITICAL tenant-isolation gate remains open until real two-user runtime negative tests pass. |
 
+| D-057 | Accepted | P0 runtime tenant boundary is now implemented in production code via /api/v1/tenant-context: Bearer JWT is mandatory; tenant resolution requires exactly one RLS-visible tenant and exactly one matching active membership; missing, ambiguous or mismatched context fails closed. PR #20 merged after Immediate QA #348 passed all build, regression, Wrangler and Chromium gates. This closes the new application boundary but does not close the CRITICAL two-user production isolation proof until two real Neon Auth sessions perform cross-tenant negative tests without owner/bypass credentials. |
+
 ## Revisit rule
 
 A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
