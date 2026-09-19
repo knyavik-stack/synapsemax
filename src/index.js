@@ -34,7 +34,7 @@ async function immediateAsset(env, request) {
 }
 
 async function diagnosticAsset(env, request) {
-  const asset = await env.ASSETS.fetch(new Request(new URL('/rls-smoke.html', request.url), request));
+  const asset = await env.ASSETS.fetch(new Request(new URL('/rls-smoke.html', request.url), { method: 'GET', headers: request.headers, redirect: 'follow' }));
   const body = await asset.text();
   const hydrated = body.replaceAll('__SYNAPSEMAX_RELEASE__', RELEASE_MARKER);
   const headers = new Headers(asset.headers);
