@@ -13,6 +13,6 @@
     "preview:cloudflare":"npm run build && npx wrangler versions upload"
   },
   "devDependencies":{
-    "wrangler":"^4.126.0"
+    "wrangler":"4.126.0"
   }
 }
