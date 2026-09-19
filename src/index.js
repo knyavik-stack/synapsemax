@@ -37,7 +37,7 @@ async function diagnosticAsset(env, request) {
   const asset = await env.ASSETS.fetch(new Request(new URL('/rls-smoke.html', request.url), request));
   const body = await asset.text();
   const hydrated = body.replaceAll('__SYNAPSEMAX_RELEASE__', RELEASE_MARKER);
-  return withSecurityHeaders(new Response(hydrated, { status: asset.status, statusText: asset.statusText, headers: asset.headers }), {
+  const headers = new Headers(asset.headers);\n  headers.delete('content-length');\n  return withSecurityHeaders(new Response(hydrated, { status: asset.status, statusText: asset.statusText, headers }), {
     'cache-control': 'no-store, no-cache, must-revalidate, max-age=0',
     'pragma': 'no-cache',
     'x-synapsemax-rls-smoke': RELEASE_MARKER,
