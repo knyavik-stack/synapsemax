@@ -393,3 +393,29 @@ CRITICAL proof of real tenant isolation remains OPEN until two real verified Neo
 ## 11.8 Immediate next execution
 
 Следующий технический результат — real-session RLS harness: автоматизированный production smoke, который получает два реальных Neon Auth JWT и выполняет положительные/отрицательные read/write checks без privileged DB credentials. Если тестовые principals/credentials отсутствуют в доступном execution environment, этот единственный внешний prerequisite будет зафиксирован как blocker, а не замаскирован псевдо-тестом.
+
+
+## 11.9 P0 REAL-SESSION HARNESS — 2026-09-19
+
+PR #21 merged: 8523cb2188c96710433a09044398e7a2a33a43d6.
+
+В репозиторий добавлен production-grade real-session RLS harness:
+- `@neondatabase/auth` используется для реального email/password sign-in;
+- JWT получается через официальный `auth.getJWTToken()`;
+- A и B обязаны быть разными principals;
+- каждый principal должен видеть ровно один tenant и одну matching active membership;
+- cross-tenant `calculation_results` read проверяется на нулевую выдачу;
+- own-tenant visibility проверяется отдельно;
+- unauthenticated Data API request должен быть отвергнут;
+- `/api/v1/tenant-context` проверяется против RLS-visible tenant;
+- privileged DB credentials в тесте не используются.
+
+Immediate QA #352 for PR #21: SUCCESS.
+
+### Current external blocker
+Production Neon Auth currently contains exactly **1 user / 1 active principal**. Поэтому реальный A↔B isolation proof физически не может быть выполнен: второго независимого principal нет.
+
+Вместо фиктивного теста создан manual-only GitHub workflow `.github/workflows/real-rls-isolation.yml`. Он запускается только после добавления четырех repository secrets:
+`SYNAPSEMAX_RLS_A_EMAIL`, `SYNAPSEMAX_RLS_A_PASSWORD`, `SYNAPSEMAX_RLS_B_EMAIL`, `SYNAPSEMAX_RLS_B_PASSWORD`.
+
+Секреты не запрашиваются через код и не логируются. До появления второго production principal CRITICAL gate остаётся OPEN.
