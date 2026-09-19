@@ -53,6 +53,7 @@
 | D-052 | Accepted | CI incident 2026-09-19: two malformed literal `\\n` sequences were committed into `src/index.js` and `scripts/verify-production.mjs`, causing Wrangler bundling and Node module parsing failures. The fix is to keep generated/source files as real newline-delimited JavaScript and add an explicit `node --check` gate for critical JS files before Wrangler validation. Local browser QA also pins Wrangler to 4.126.0 for deterministic toolchain behavior. |
 | D-053 | Accepted | Production Smoke exposed a real runtime routing defect after release convergence: `/rls-smoke.html` returned HTTP 307 because the Worker-to-static-asset fetch inherited manual redirect semantics. The diagnostic asset fetch now explicitly uses a GET request with `redirect: 'follow'`; the smoke gate remains strict and still requires HTTP 200 plus revision/header/body consistency. |
 | D-054 | Accepted | Immediate QA local Worker readiness is bounded: the startup probe uses `curl --max-time 3`, a 30-second readiness window, captures the Worker log on failure and terminates the background process. This prevents an unresponsive local server from hanging CI indefinitely. |
+| D-055 | Accepted | Local Wrangler development exposed a build-loop defect: the release-marker generator rewrote `src/release.generated.js` on every build even when content was unchanged, causing Wrangler to detect a file change and restart the custom build indefinitely. The generator is now content-idempotent and writes only when the generated content differs. |
 
 ## Revisit rule
 
