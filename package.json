@@ -11,9 +11,11 @@
     "verify:production": "node scripts/verify-production.mjs",
     "deploy:cloudflare": "npm run build && npx wrangler deploy",
     "preview:cloudflare": "npm run build && npx wrangler versions upload",
-    "test:tenant-context": "node scripts/test-tenant-context.mjs"
+    "test:tenant-context": "node scripts/test-tenant-context.mjs",
+    "test:rls-runtime": "node scripts/rls-runtime-smoke.mjs"
   },
   "devDependencies": {
-    "wrangler": "4.126.0"
+    "wrangler": "4.126.0",
+    "@neondatabase/auth": "0.5.0-beta"
   }
 }
