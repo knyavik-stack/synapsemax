@@ -1,18 +1,19 @@
 {
-  "name":"synapsemax",
-  "private":true,
-  "type":"module",
-  "scripts":{
-    "build":"node scripts/generate-release-marker.mjs && node scripts/build-site.mjs && node scripts/copy-auth-page.mjs && node scripts/align-financial-fallback.mjs && node scripts/finance-productization-pass.mjs && node scripts/master-spec-positioning.mjs && node scripts/brand-token-pass.mjs",
-    "test:immediate":"node scripts/test-immediate.mjs && node scripts/test-financial-fallback.mjs && node scripts/test-finance-productization.mjs && node scripts/test-brand-token-pass.mjs && node scripts/test-governance-contract.mjs",
-    "test:positioning":"node scripts/test-positioning-pass.mjs",
-    "test:brand":"node scripts/test-brand-token-pass.mjs",
-    "test:governance":"node scripts/test-governance-contract.mjs",
-    "verify:production":"node scripts/verify-production.mjs",
-    "deploy:cloudflare":"npm run build && npx wrangler deploy",
-    "preview:cloudflare":"npm run build && npx wrangler versions upload"
+  "name": "synapsemax",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate-release-marker.mjs && node scripts/build-site.mjs && node scripts/copy-auth-page.mjs && node scripts/align-financial-fallback.mjs && node scripts/finance-productization-pass.mjs && node scripts/master-spec-positioning.mjs && node scripts/brand-token-pass.mjs",
+    "test:immediate": "node scripts/test-immediate.mjs && node scripts/test-financial-fallback.mjs && node scripts/test-finance-productization.mjs && node scripts/test-brand-token-pass.mjs && node scripts/test-governance-contract.mjs && npm run test:tenant-context",
+    "test:positioning": "node scripts/test-positioning-pass.mjs",
+    "test:brand": "node scripts/test-brand-token-pass.mjs",
+    "test:governance": "node scripts/test-governance-contract.mjs",
+    "verify:production": "node scripts/verify-production.mjs",
+    "deploy:cloudflare": "npm run build && npx wrangler deploy",
+    "preview:cloudflare": "npm run build && npx wrangler versions upload",
+    "test:tenant-context": "node scripts/test-tenant-context.mjs"
   },
-  "devDependencies":{
-    "wrangler":"4.126.0"
+  "devDependencies": {
+    "wrangler": "4.126.0"
   }
 }

@@ -1,5 +1,6 @@
 import { assess, calculateRoi, diagnoseProfitLeakage } from './immediate-logic.js';
 import { RELEASE } from './release.generated.js';
+import { resolveTenantContext, tenantContextResponse } from './tenant-context.js';
 
 const RELEASE_MARKER = RELEASE;
 
@@ -51,6 +52,10 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === '/api/v1/health') return json({ ok: true, service: 'synapsemax-immediate', version: 'h1', release: RELEASE_MARKER });
     if (url.pathname === '/__synapsemax/version') return json({ ok: true, service: 'synapsemax', release: RELEASE_MARKER, rlsSmoke: RELEASE_MARKER, deployedAt: '2026-09-18' });
+    if (request.method === 'GET' && url.pathname === '/api/v1/tenant-context') {
+      const context = await resolveTenantContext(request);
+      return tenantContextResponse(context);
+    }
     if (request.method === 'POST' && url.pathname === '/api/v1/assessment') {
       try { return json({ ok: true, result: assess(await request.json()) }); }
       catch { return json({ ok: false, error: 'Invalid JSON' }, 400); }
