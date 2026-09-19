@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-import { execSync } from 'node:child_process';
-
 const base = (process.env.SYNAPSEMAX_PRODUCTION_URL || 'https://synapsemax.ru').replace(/\/$/, '');
 const expectedRelease = process.env.SYNAPSEMAX_EXPECTED_RELEASE || null;
 
@@ -14,6 +12,41 @@ async function check(path, init = {}) {
 function require(condition, message) {
   if (!condition) throw new Error(message);
 }
+
+async function waitForProductionRelease() {
+  if (!expectedRelease) return;
+
+  const maxAttempts = 40;
+  const intervalMs = 15000;
+  let lastRelease = 'unavailable';
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    const version = await check('/__synapsemax/version');
+    if (version.response.status === 200) {
+      try {
+        const versionJson = JSON.parse(version.text);
+        lastRelease = versionJson.release || 'missing';
+        if (lastRelease === expectedRelease) {
+          console.log(`Production release converged: ${expectedRelease} (attempt ${attempt}/${maxAttempts})`);
+          return;
+        }
+      } catch {
+        lastRelease = 'invalid-json';
+      }
+    } else {
+      lastRelease = `HTTP ${version.response.status}`;
+    }
+
+    if (attempt < maxAttempts) {
+      console.log(`Waiting for production release ${expectedRelease}; observed ${lastRelease} (attempt ${attempt}/${maxAttempts})`);
+      await new Promise((resolve) => setTimeout(resolve, intervalMs));
+    }
+  }
+
+  throw new Error(`Production release did not converge to ${expectedRelease} within 10 minutes; last observed release: ${lastRelease}`);
+}
+
+await waitForProductionRelease();
 
 const root = await check('/');
 require(root.response.status === 200, `Root status ${root.response.status}, expected 200`);
@@ -30,7 +63,7 @@ require(health.response.status === 200, `Health status ${health.response.status}
 const healthJson = JSON.parse(health.text);
 if (expectedRelease) require(healthJson.release === expectedRelease, `Health release ${healthJson.release}, expected ${expectedRelease}`);
 
-await waitForProductionRelease();\n\nconst version = await check('/__synapsemax/version');
+const version = await check('/__synapsemax/version');
 require(version.response.status === 200, `Version status ${version.response.status}`);
 const versionJson = JSON.parse(version.text);
 require(versionJson.ok === true && versionJson.release && versionJson.rlsSmoke === versionJson.release, 'Version contract mismatch');
