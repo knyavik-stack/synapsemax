@@ -75,3 +75,10 @@ Implemented in the repository:
 - Health contract now includes the release marker.
 
 **Release gate:** the CRITICAL tenant-isolation gate remains OPEN until the delivered revision is confirmed and the authenticated Data API test returns tenant A only, followed by the two-user negative isolation test.
+
+
+## Dynamic revision control — follow-up
+
+The temporary fixed marker was replaced with a deterministic build-time release identity. `scripts/generate-release-marker.mjs` uses Cloudflare Workers Builds' `WORKERS_CI_COMMIT_SHA`, falling back to `GITHUB_SHA` and finally the local Git SHA. The Worker imports the generated marker, `/__synapsemax/version` and the RLS header expose that commit SHA, and the smoke test derives its expected revision from the checked-out commit.
+
+This removes the operational defect where a future deployment could require manual editing of a hard-coded release marker.
