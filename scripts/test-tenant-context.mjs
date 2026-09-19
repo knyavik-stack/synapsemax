@@ -1,5 +1,5 @@
 import { strict as assert } from 'node:assert';
-import { resolveTenantContext } from './tenant-context.mjs';
+import { resolveTenantContext } from '../src/tenant-context.js';
 
 const request = (authorization) => new Request('https://synapsemax.test/api/v1/tenant-context', {
   headers: authorization ? { authorization } : {},
