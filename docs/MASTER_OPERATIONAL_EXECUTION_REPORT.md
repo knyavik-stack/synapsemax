@@ -350,3 +350,46 @@ source -> evidence provenance -> confidence model -> leakage attribution -> corr
 **Inference:** финансовый контур теперь существенно ближе к decision-grade diagnostic и коммерческому ROI language, чем baseline.  
 **Не доказано:** точность клиентских исходных данных, фактическая process-level correlation, статистическая калибровка scenario factors, 5-year NPV/TCO, Redis <=15 ms и юридическое compliance.  
 **Если эти предпосылки окажутся неверны:** ROI/маржинальный эффект должны быть пересчитаны, а compliance claims запрещены до появления evidence.
+
+
+## 11.7 P0 EXECUTION — 2026-09-19
+
+Реализован и в main смержен PR #20 (2db8387675cad0aa94c041124aaa1457deb72c2e).
+
+### Что реально внедрено
+- новый server-side endpoint GET /api/v1/tenant-context;
+- запрос без Bearer JWT получает HTTP 401;
+- malformed/non-Bearer authorization получает HTTP 401;
+- tenant не принимается из URL/body/JWT claim как самостоятельный источник авторизации;
+- tenant определяется только через RLS-visible public.tenants + active public.tenant_memberships одного и того же tenant;
+- 0 или >1 видимых tenant/membership, либо рассинхронизация tenant ↔ membership, дают fail-closed HTTP 403;
+- добавлен автоматический QA gate test:tenant-context.
+
+### Verification
+PR #20 Immediate QA run #348 / 35464131899 — SUCCESS:
+- build PASS;
+- financial/immediate regression PASS;
+- tenant-context unit gate PASS;
+- artifact/routing/budget PASS;
+- Wrangler check/dry-run PASS;
+- local Worker PASS;
+- Chromium browser QA PASS.
+
+### Что это закрывает
+Кодовый runtime boundary: CLOSED for the newly introduced endpoint.
+
+### Что НЕ закрывает
+CRITICAL proof of real tenant isolation remains OPEN until two real verified Neon Auth sessions are exercised against production Data API:
+- User A → tenant A only;
+- User B → tenant B only;
+- A ↛ B read/write;
+- B ↛ A read/write;
+- unauthenticated → no tenant data;
+- ambiguous membership → fail closed;
+- no owner/bypass role in evidence.
+
+Это не косметический gap: без двух реальных principals нельзя честно объявлять enterprise tenant isolation proven.
+
+## 11.8 Immediate next execution
+
+Следующий технический результат — real-session RLS harness: автоматизированный production smoke, который получает два реальных Neon Auth JWT и выполняет положительные/отрицательные read/write checks без privileged DB credentials. Если тестовые principals/credentials отсутствуют в доступном execution environment, этот единственный внешний prerequisite будет зафиксирован как blocker, а не замаскирован псевдо-тестом.
