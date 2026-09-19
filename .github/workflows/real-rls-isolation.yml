@@ -2,12 +2,9 @@ name: Real RLS Isolation
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '47 5 * * *'
 
 jobs:
   rls:
-    if: ${{ secrets.SYNAPSEMAX_RLS_A_EMAIL != '' && secrets.SYNAPSEMAX_RLS_A_PASSWORD != '' && secrets.SYNAPSEMAX_RLS_B_EMAIL != '' && secrets.SYNAPSEMAX_RLS_B_PASSWORD != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
