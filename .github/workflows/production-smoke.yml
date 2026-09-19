@@ -19,4 +19,6 @@ jobs:
           node-version: 22
 
       - name: Verify live production
+        env:
+          SYNAPSEMAX_EXPECTED_RELEASE: ${{ github.event_name == 'push' && github.sha || '' }}
         run: npm run verify:production
