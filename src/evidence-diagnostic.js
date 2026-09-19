@@ -114,7 +114,8 @@ export function runEvidenceBackedDiagnostic(input = {}) {
   const factors = calibrateScenarios(result, model.evidenceQuality);
   const recalibratedScenarios = Object.fromEntries(SCENARIOS.map((scenario) => {
     const factor = factors[scenario];
-    const monthlyValue = Math.max(0, (result.netMonthlyValue ?? 0) * factor);
+    const netMonthlyValue = Math.max(0, Number(result.recoverableMonthlyValue ?? 0) - Number(result.monthlyOngoingCost ?? 0));
+    const monthlyValue = Math.max(0, netMonthlyValue * factor);
     const annualValue = monthlyValue * 12;
     const roi = result.upfrontInvestment ? ((annualValue - result.upfrontInvestment) / result.upfrontInvestment) * 100 : null;
     const payback = monthlyValue ? result.upfrontInvestment / monthlyValue : null;
