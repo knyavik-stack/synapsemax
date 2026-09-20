@@ -11,6 +11,9 @@
     "binding": "ASSETS",
     "run_worker_first": true
   },
+  "vars": {
+    "NEON_AUTH_URL": "https://ep-lively-bread-b1ewktwx.neonauth.c-5.eu-central-1.aws.neon.tech/neondb/auth"
+  },
   "observability": {
     "enabled": true
   }
