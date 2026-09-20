@@ -441,3 +441,8 @@ Implemented on branch `p1-evidence-backed-financial-diagnostic`:
 1. HIGH — persistence is multi-step over Data API rather than a single database transaction; partial failure can leave an incomplete session. Follow-up: add transactional RPC/job orchestration if the platform exposes a safe transactional boundary.
 2. MEDIUM — scenario calibration is deterministic and evidence-quality driven, not statistically calibrated from historical client outcomes.
 3. MEDIUM — process correlation remains explicit-overlap based; causal graph correlation is not yet implemented.
+
+
+## P2 Financial Decision Engine — 2026-09-20
+
+Implemented `financial-decision-v1`: recoverable value, CAPEX, recurring OPEX/support/infrastructure, 5-year TCO, undiscounted net cash benefit, NPV, ROI, payback, margin uplift, projected margin and scenario sensitivity. Inputs are explicitly separated into facts, assumptions and scenario-dependent values. Edge-case regression coverage added for zero benefit/investment and invalid negative/rate inputs.
