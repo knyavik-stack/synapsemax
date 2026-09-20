@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import { createAiGateway } from '../src/ai-gateway.js';
+let captured;
+const gateway=createAiGateway({baseUrl:'https://gateway.example.com',defaultModel:'model-a',apiKey:'test',fetchImpl:async(u,o)=>{captured={u:String(u),o};return new Response(JSON.stringify({choices:[{message:{content:'ok'}}]}),{status:200,headers:{'content-type':'application/json'}})}});
+const out=await gateway.chat({messages:[{role:'user',content:'test'}]});
+assert.equal(out.response.choices[0].message.content,'ok');
+assert.equal(captured.o.headers.authorization,'Bearer test');
+assert.equal(JSON.parse(captured.o.body).model,'model-a');
+assert.throws(()=>createAiGateway({baseUrl:'file:///tmp',defaultModel:'x'}),/HTTP/);
+console.log('ai-gateway: PASS');
