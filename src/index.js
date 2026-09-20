@@ -139,8 +139,11 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (request.method === 'GET' && url.pathname === '/api/v1/portal/summary') return portalSummary(request);
-    if (request.method === 'POST' && url.pathname === '/api/v1/portal/funnel') {\n      const context = await resolveTenantContext(request);\n      if (context?.response) return context.response;
-      return recordFunnelEvent(request, context);\n    }
+    if (request.method === 'POST' && url.pathname === '/api/v1/portal/funnel') {
+      const context = await resolveTenantContext(request);
+      if (context?.response) return context.response;
+      return recordFunnelEvent(request, context);
+    }
     if (url.pathname === '/api/v1/health') return json({ ok: true, service: 'synapsemax-immediate', version: 'h1', release: RELEASE_MARKER });
     if (url.pathname === '/__synapsemax/version') return json({ ok: true, service: 'synapsemax', release: RELEASE_MARKER, rlsSmoke: RELEASE_MARKER, deployedAt: '2026-09-18' });
     if (url.pathname.startsWith('/api/auth/')) return proxyNeonAuth(request, env.NEON_AUTH_URL);
