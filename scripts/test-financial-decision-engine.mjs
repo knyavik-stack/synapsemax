@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import { calculateFinancialDecision } from '../src/financial-decision-engine.js';
+const x=calculateFinancialDecision({recoverableMonthlyValue:260000,upfrontInvestment:1500000,annualOpex:240000,monthlyRevenue:5000000,baselineMarginPercent:20});
+assert.equal(x.contractVersion,'financial-decision-v1');
+assert.equal(x.economics.baseNetMonthlyBenefit,240000);
+assert(x.economics.npv>0); assert(x.economics.totalTco>1500000);
+assert(x.scenarios.conservative.npv<x.scenarios.base.npv && x.scenarios.base.npv<x.scenarios.optimistic.npv);
+assert.equal(calculateFinancialDecision({recoverableMonthlyValue:0,upfrontInvestment:0}).economics.paybackMonths,null);
+assert.throws(()=>calculateFinancialDecision({recoverableMonthlyValue:-1}));
+assert.throws(()=>calculateFinancialDecision({recoverableMonthlyValue:1,discountRate:1}));
+console.log('FINANCIAL DECISION ENGINE: PASS');
