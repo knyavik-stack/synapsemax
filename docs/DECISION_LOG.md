@@ -88,3 +88,6 @@ A major decision can be reopened only when new evidence, a material business req
 Client Portal V1 merged after full Immediate QA including browser UX gate. Portal exposes finance-first tenant-scoped KPIs: annual net effect, ROI, payback, margin uplift and evidence quality. Commercial funnel telemetry is implemented on the portal branch with an append-only tenant-scoped ledger; production migration remains a separate gate and must not be treated as deployed until its database migration is applied and verified.
 
 **Security:** two-principal production RLS isolation proof remains deferred by D-068 and is not replaced by portal QA.
+
+
+| D-070 | Accepted | Applied and verified production `commercial_funnel_events` ledger on 2026-09-20. The table is append-only, tenant-scoped through RLS, indexed by tenant/time, and protected by an append-only trigger. End-to-end Worker deployment convergence remains a separate verification step; two-principal RLS proof remains deferred by D-068. |
