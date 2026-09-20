@@ -1,4 +1,5 @@
 import { diagnoseProfitLeakage } from './immediate-logic.js';
+import { calculateFinancialDecision } from './financial-decision-engine.js';
 
 export const FINANCIAL_DIAGNOSTIC_CONTRACT = 'p1-evidence-backed-v1';
 
@@ -85,7 +86,6 @@ export function buildEvidenceModel(input = {}) {
 
 export function calibrateScenarios(result, evidenceQuality) {
   const quality = Math.max(0, Math.min(100, Number(evidenceQuality) || 0));
-  // Scenario spread narrows as evidence quality rises; no scenario becomes a probability.
   const uncertainty = (100 - quality) / 100;
   return {
     conservative: Math.max(0.5, 0.7 - 0.1 * uncertainty),
@@ -142,6 +142,20 @@ export function runEvidenceBackedDiagnostic(input = {}) {
     };
   }
 
+  const decision = calculateFinancialDecision({
+    recoverableMonthlyValue: Number(result.recoverableMonthlyValue ?? 0),
+    upfrontInvestment: Number(result.upfrontInvestment ?? 0),
+    monthlyOpex: Number(explicit.monthlyOpex ?? 0),
+    annualOpex: Number(explicit.annualOpex ?? 0),
+    monthlySupport: Number(explicit.monthlySupport ?? 0),
+    monthlyInfrastructure: Number(explicit.monthlyInfrastructure ?? 0),
+    monthlyRevenue: Number(result.monthlyRevenue ?? explicit.monthlyRevenue ?? 0),
+    baselineMarginPercent: Number(result.baselineMarginPercent ?? explicit.baselineMarginPercent ?? 0),
+    discountRate: Number(input.discountRate ?? 0.12),
+    horizonYears: Number(input.horizonYears ?? 5),
+    scenarioFactors: factors,
+  });
+
   return {
     contractVersion: FINANCIAL_DIAGNOSTIC_CONTRACT,
     result,
@@ -153,6 +167,7 @@ export function runEvidenceBackedDiagnostic(input = {}) {
     },
     scenarios: recalibratedScenarios,
     fiveYear,
+    decision,
     lineage: {
       sourceRefs: model.evidence.map((row) => row.sourceRef),
       metrics: model.evidence.map((row) => row.metric),

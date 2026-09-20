@@ -68,3 +68,6 @@ A major decision can be reopened only when new evidence, a material business req
 
 
 | D-060 | Accepted | Verified production persistence schema against Neon on 2026-09-19. `diagnostic_sessions.input_snapshot_id` exists and is now populated at session creation so the session↔snapshot relationship is complete from the first write. Multi-step Data API persistence remains non-atomic; transactional RPC/migration is a separate security/integrity hardening item and is not claimed as solved by this change. |
+
+| D-061 | Accepted | P2 financial decision engine is integrated into the evidence-backed diagnostic. The diagnostic now produces a single financial-decision-v1 output covering TCO, NPV, ROI, payback, margin impact and sensitivity; the same decision object is persisted in each scenario's assumptions for traceability. |
+| D-062 | Accepted | Diagnostic persistence now uses tenant-scoped idempotency keys, explicit session states (persisting/completed/failed) and audit events for start/completion/failure. This reduces duplicate writes and makes partial failures observable, but does not replace a database transaction; transactional RPC remains the final atomicity hardening step. |
