@@ -27,6 +27,24 @@ function json(data, status = 200) {
   }));
 }
 
+async function portalSummary(request) {
+  const authorization = request.headers.get('authorization');
+  if (!authorization) return json({ ok:false, error:'Authentication required' },401);
+  const response = await fetch('https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1/diagnostic_sessions?select=id,created_at&order=created_at.desc&limit=100', {
+    headers: { Authorization: authorization, Accept:'application/json', 'Accept-Profile':'public', 'Content-Profile':'public' },
+    cf:{cacheTtl:0},
+  });
+  if(!response.ok) return json({ok:false,error:'Portal data unavailable'},response.status);
+  const sessions=await response.json();
+  const results=await fetch('https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1/calculation_results?select=session_id,scenario,net_recoverable_monthly,roi_percent,payback_months&scenario=eq.base&order=created_at.desc&limit=100', {
+    headers:{Authorization:authorization,Accept:'application/json','Accept-Profile':'public','Content-Profile':'public'},cf:{cacheTtl:0},
+  });
+  if(!results.ok) return json({ok:false,error:'Portal results unavailable'},results.status);
+  const rows=await results.json();
+  const latest=rows[0]??null;
+  return json({ok:true,result:{sessionCount:sessions.length,baseMonthlyValue:latest?.net_recoverable_monthly??0,latestRoi:latest?.roi_percent??null,latestPayback:latest?.payback_months??null}});
+}
+
 async function immediateAsset(env, request) {
   const asset = await env.ASSETS.fetch(new Request(new URL('/dex-immediate', request.url), request));
   const headers = new Headers(asset.headers);
@@ -52,6 +70,7 @@ async function diagnosticAsset(env, request) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (request.method === 'GET' && url.pathname === '/api/v1/portal/summary') return portalSummary(request);
     if (url.pathname === '/api/v1/health') return json({ ok: true, service: 'synapsemax-immediate', version: 'h1', release: RELEASE_MARKER });
     if (url.pathname === '/__synapsemax/version') return json({ ok: true, service: 'synapsemax', release: RELEASE_MARKER, rlsSmoke: RELEASE_MARKER, deployedAt: '2026-09-18' });
     if (url.pathname.startsWith('/api/auth/')) return proxyNeonAuth(request, env.NEON_AUTH_URL);
@@ -88,6 +107,7 @@ export default {
     if (url.pathname === '/') return immediateAsset(env, request);
     if (url.pathname === '/index.html') return immediateAsset(env, request);
     if (url.pathname === '/rls-smoke.html') return diagnosticAsset(env, request);
+    if (url.pathname === '/portal.html') return withSecurityHeaders(await env.ASSETS.fetch(new Request(new URL('/portal.html', request.url), request)));
     return withSecurityHeaders(await env.ASSETS.fetch(request));
   },
 };
