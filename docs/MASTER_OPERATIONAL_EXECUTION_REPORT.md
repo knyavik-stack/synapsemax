@@ -446,3 +446,37 @@ Implemented on branch `p1-evidence-backed-financial-diagnostic`:
 ## P2 Financial Decision Engine — 2026-09-20
 
 Implemented `financial-decision-v1`: recoverable value, CAPEX, recurring OPEX/support/infrastructure, 5-year TCO, undiscounted net cash benefit, NPV, ROI, payback, margin uplift, projected margin and scenario sensitivity. Inputs are explicitly separated into facts, assumptions and scenario-dependent values. Edge-case regression coverage added for zero benefit/investment and invalid negative/rate inputs.
+
+
+## P2.1 — FINANCIAL DECISION ENGINE INTEGRATION + PERSISTENCE HARDENING — 2026-09-20
+
+**Status: CODE COMPLETE / QA IN PROGRESS**
+
+The standalone `financial-decision-v1` engine is now wired into `runEvidenceBackedDiagnostic()`. One decision object is derived from the evidence-backed recoverable value and explicit CAPEX/OPEX/support/infrastructure assumptions and exposes:
+- 5-year TCO;
+- undiscounted net cash benefit;
+- NPV;
+- ROI;
+- payback;
+- margin uplift / projected margin;
+- conservative/base/optimistic scenario economics;
+- sensitivity to recoverable value and recurring cost.
+
+The decision object is persisted into every calculation-result assumption envelope, preserving the link between the evidence diagnostic and the financial decision layer.
+
+Persistence hardening added without changing the tenant authorization model:
+- tenant-scoped `x-idempotency-key` / `idempotencyKey` support;
+- duplicate requests resolve to the existing session instead of creating a second calculation;
+- session lifecycle is explicit: `persisting → completed` or `persisting → failed`;
+- audit events record start, completion and failure;
+- failed sessions retain a visible failure state instead of silently disappearing.
+
+**Atomicity boundary:** the Data API still executes multiple HTTP writes. The new lifecycle/idempotency controls mitigate duplicate/partial-write risk and make it observable, but they do **not** claim ACID atomicity. A transactional Neon RPC remains the final hardening step; introducing that database function requires a reviewed schema migration rather than an unreviewed production DDL mutation.
+
+### Red-team
+1. **HIGH — atomicity remains open:** a network/process failure can still occur between two Data API writes.
+2. **MEDIUM — decision engine inputs:** client-supplied operating-cost assumptions remain assumptions until tied to source evidence.
+3. **MEDIUM — scenario calibration:** factors remain uncertainty bands, not empirically estimated probabilities.
+
+### QA gate
+Immediate QA must prove the integrated finance regression and existing runtime/browser gates before merge. Production deployment evidence remains separate from GitHub merge evidence.
