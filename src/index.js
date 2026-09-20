@@ -27,6 +27,92 @@ function json(data, status = 200) {
   }));
 }
 
+const NEON_DATA_API_URL = 'https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1';
+
+async function portalSummary(request) {
+  const authorization = request.headers.get('authorization');
+  if (!authorization || !/^Bearer\s+\S+$/i.test(authorization)) {
+    return json({ ok: false, error: 'Authentication required' }, 401);
+  }
+
+  const baseHeaders = {
+    Authorization: authorization,
+    Accept: 'application/json',
+    'Accept-Profile': 'public',
+    'Content-Profile': 'public',
+  };
+
+  const sessionsResponse = await fetch(
+    `${NEON_DATA_API_URL}/diagnostic_sessions?select=id&limit=1`,
+    { headers: { ...baseHeaders, Prefer: 'count=exact' }, cf: { cacheTtl: 0 } },
+  );
+  if (!sessionsResponse.ok) return json({ ok: false, error: 'Portal data unavailable' }, sessionsResponse.status);
+
+  const contentRange = sessionsResponse.headers.get('content-range');
+  const sessionCount = contentRange?.match(/\/(\d+)$/)?.[1] ? Number(contentRange.match(/\/(\d+)$/)[1]) : null;
+
+  const resultsResponse = await fetch(
+    `${NEON_DATA_API_URL}/calculation_results?select=session_id,scenario,net_recoverable_monthly,annual_net_value,roi_percent,payback_months,margin_uplift_points,evidence_quality&scenario=eq.base&order=created_at.desc&limit=1`,
+    { headers: baseHeaders, cf: { cacheTtl: 0 } },
+  );
+  if (!resultsResponse.ok) return json({ ok: false, error: 'Portal results unavailable' }, resultsResponse.status);
+
+  const rows = await resultsResponse.json();
+  const latest = rows[0] ?? null;
+
+  return json({
+    ok: true,
+    result: {
+      sessionCount: sessionCount ?? 0,
+      baseMonthlyValue: latest?.net_recoverable_monthly ?? 0,
+      annualNetValue: latest?.annual_net_value ?? 0,
+      latestRoi: latest?.roi_percent ?? null,
+      latestPayback: latest?.payback_months ?? null,
+      marginUpliftPoints: latest?.margin_uplift_points ?? null,
+      evidenceQuality: latest?.evidence_quality ?? null,
+    },
+  });
+}
+
+async function recordFunnelEvent(request, context) {
+  try {
+    const input = await request.json();
+    const allowedEvents = new Set(['portal_view', 'diagnostic_start', 'diagnostic_complete', 'cta_click', 'conversion']);
+    if (!allowedEvents.has(input?.eventName)) return json({ ok: false, error: 'Unsupported funnel event' }, 400);
+
+    const requestId = crypto.randomUUID();
+    const payload = {
+      tenant_id: context.tenantId,
+      actor_type: 'principal',
+      actor_id: context.principalId ?? 'authenticated',
+      event_name: input.eventName,
+      request_id: requestId,
+      resource_type: typeof input.resourceType === 'string' ? input.resourceType.slice(0, 80) : 'portal',
+      resource_id: typeof input.resourceId === 'string' ? input.resourceId.slice(0, 120) : requestId,
+      metadata: input.metadata && typeof input.metadata === 'object' ? input.metadata : {},
+    };
+
+    const response = await fetch(`${NEON_DATA_API_URL}/commercial_funnel_events`, {
+      method: 'POST',
+      headers: {
+        Authorization: request.headers.get('authorization'),
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+        'Accept-Profile': 'public',
+        'Content-Profile': 'public',
+        Prefer: 'return=minimal',
+      },
+      body: JSON.stringify(payload),
+      cf: { cacheTtl: 0 },
+    });
+
+    if (!response.ok) return json({ ok: false, error: 'Funnel event persistence failed' }, response.status);
+    return json({ ok: true, event: input.eventName, requestId }, 201);
+  } catch {
+    return json({ ok: false, error: 'Invalid funnel event payload' }, 400);
+  }
+}
+
 async function immediateAsset(env, request) {
   const asset = await env.ASSETS.fetch(new Request(new URL('/dex-immediate', request.url), request));
   const headers = new Headers(asset.headers);
@@ -52,6 +138,12 @@ async function diagnosticAsset(env, request) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (request.method === 'GET' && url.pathname === '/api/v1/portal/summary') return portalSummary(request);
+    if (request.method === 'POST' && url.pathname === '/api/v1/portal/funnel') {
+      const context = await resolveTenantContext(request);
+      if (context?.response) return context.response;
+      return recordFunnelEvent(request, context);
+    }
     if (url.pathname === '/api/v1/health') return json({ ok: true, service: 'synapsemax-immediate', version: 'h1', release: RELEASE_MARKER });
     if (url.pathname === '/__synapsemax/version') return json({ ok: true, service: 'synapsemax', release: RELEASE_MARKER, rlsSmoke: RELEASE_MARKER, deployedAt: '2026-09-18' });
     if (url.pathname.startsWith('/api/auth/')) return proxyNeonAuth(request, env.NEON_AUTH_URL);
@@ -88,6 +180,7 @@ export default {
     if (url.pathname === '/') return immediateAsset(env, request);
     if (url.pathname === '/index.html') return immediateAsset(env, request);
     if (url.pathname === '/rls-smoke.html') return diagnosticAsset(env, request);
+    if (url.pathname === '/portal.html') return withSecurityHeaders(await env.ASSETS.fetch(new Request(new URL('/portal.html', request.url), request)));
     return withSecurityHeaders(await env.ASSETS.fetch(request));
   },
 };

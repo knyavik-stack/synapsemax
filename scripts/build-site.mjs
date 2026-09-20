@@ -11,7 +11,7 @@ import { resolve } from 'node:path';
 const root = process.cwd();
 const dist = resolve(root, 'dist');
 const runtimeAssets = ['synapsemax-symbol.png', 'synapsemax-wordmark.png'];
-const pages = ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'dex-immediate.html'];
+const pages = ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'dex-immediate.html', 'portal.html'];
 
 const missing = pages.filter((file) => !existsSync(resolve(root, file)));
 const missingAssets = runtimeAssets.filter((file) => !existsSync(resolve(root, 'assets', file)));

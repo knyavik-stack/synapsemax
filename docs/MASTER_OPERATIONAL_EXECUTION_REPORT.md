@@ -635,3 +635,61 @@ The platform work is now structured so that RLS proof can be executed later with
 **Fact:** code/CI evidence now exists for the completed items above.  
 **Inference:** these layers can progress independently of the deferred RLS proof.  
 **Not proven:** real external integration interoperability, production AI inference latency/cost, production Redis need, commercial conversion metrics and tenant isolation.
+
+
+## 12.7 — CLIENT PORTAL V1 — 2026-09-20
+
+Added a tenant-scoped read-only financial portal:
+- `/portal.html` — client-facing financial summary;
+- `GET /api/v1/portal/summary` — reads diagnostic sessions and base scenario results through the authenticated Neon Data API;
+- no tenant_id is accepted from the browser;
+- no demo economics are injected into the API response;
+- build pipeline materializes the portal as a production artifact.
+
+The portal intentionally exposes only a narrow financial view in V1. It is not yet the complete rentable SaaS dashboard or commercial analytics suite.
+
+
+---
+
+# 12.8 — CLIENT PORTAL V1 HARDENING — 2026-09-20
+
+**Статус: IMPLEMENTED / QA RUNNING**
+
+Portal V1 remains finance-first and read-only. The tenant identifier is never accepted from the browser; the API requires a Bearer token and delegates tenant scoping to Neon Data API + PostgreSQL RLS.
+
+Implemented on feat/client-portal-v1:
+- centralized Neon Data API base URL within Worker code;
+- strict Bearer authorization shape check;
+- exact diagnostic-session count via PostgREST Prefer: count=exact instead of a hard 100-row client-visible cap;
+- latest base-scenario financial result query reduced to one row;
+- annual net effect, margin uplift and evidence quality exposed to the portal;
+- dedicated portal contract test wired into test:immediate.
+
+**Important boundary:** this hardening improves API correctness and portal economics visibility. It does **not** constitute the deferred two-principal runtime RLS proof.
+
+### Portal red-team
+1. **HIGH — RLS dependency:** portal isolation remains only as strong as the authenticated Neon JWT → PostgreSQL RLS chain; two-principal production proof is still open.
+2. **MEDIUM — environment coupling:** the production Neon Data API endpoint is currently an application constant; move to an environment binding when a second runtime environment is introduced.
+3. **MEDIUM — funnel telemetry:** portal currently reads diagnostic outcomes but does not yet persist commercial funnel events (view, CTA, diagnostic start, completion, conversion).
+
+### Next commercial execution
+Instrument durable funnel events and expose ROI / payback / annual net effect / margin impact as the primary commercial language. Automation/agents remain implementation mechanisms, not the product narrative.
+
+
+# 12.9 — COMMERCIAL FUNNEL LEDGER — 2026-09-20
+
+**Статус: IMPLEMENTED ON QA BRANCH / PRODUCTION MIGRATION PENDING**
+
+Добавлен append-only `commercial_funnel_events` для измерения коммерческого пути без хранения tenant_id, пришедшего от браузера. Worker сначала разрешает tenant context через authenticated Neon Data API, после чего пишет событие с серверным tenant_id и principal_id.
+
+Разрешённые события: `portal_view`, `diagnostic_start`, `diagnostic_complete`, `cta_click`, `conversion`.
+
+Портал уже отправляет `portal_view` и `cta_click`. События `diagnostic_start`, `diagnostic_complete` и `conversion` оставлены для следующих точек интеграции, чтобы не создавать фиктивную конверсию.
+
+### Finance KPI language
+Первичный коммерческий контур: `annual_net_value`, `ROI`, `payback_months`, `margin_uplift_points`, `evidence_quality`. Funnel telemetry измеряет путь до этих экономических результатов, а не подменяет их vanity metrics.
+
+### Security / red-team
+- HIGH: production migration должна быть применена только после QA; RLS policy на новую таблицу обязательна.
+- MEDIUM: metadata ограничивается JSON-объектом, но размер payload следует дополнительно ограничить перед production.
+- MEDIUM: `conversion` пока не генерируется автоматически — намеренно, чтобы не подделывать бизнес-конверсию без подтверждённого события.
