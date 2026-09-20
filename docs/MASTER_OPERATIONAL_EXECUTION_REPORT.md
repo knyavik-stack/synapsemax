@@ -498,7 +498,7 @@ Immediate QA #366 for PR #26: **SUCCESS**. Build, financial regression, position
 
 The migration `neon/migrations/20260920103000_transactional_financial_diagnostic_rpc.sql` was applied and syntax-tested on an isolated Neon branch `synapsemax-tx-rpc-qa`. The function is `SECURITY INVOKER`, requires `current_tenant_id()`, grants EXECUTE only to `authenticated`, and owner execution without authenticated tenant context correctly fails closed.
 
-**Production DDL is intentionally not claimed as applied.** Applying the migration changes the production database and is therefore a controlled database-change gate. Until it is applied, the Worker remains backward-compatible through the 404 fallback path.
+**Production DDL is applied and verified.** The function is present on the production branch, `SECURITY INVOKER` is confirmed, and `authenticated` has EXECUTE. The database-owner execution path was tested and correctly failed closed because no authenticated tenant context was present. The Worker remains backward-compatible through the 404 fallback path as a defensive compatibility mechanism.
 
 ### Updated readiness — engineering scope
 
