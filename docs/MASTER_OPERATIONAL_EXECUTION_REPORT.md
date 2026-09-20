@@ -674,3 +674,22 @@ Implemented on feat/client-portal-v1:
 
 ### Next commercial execution
 Instrument durable funnel events and expose ROI / payback / annual net effect / margin impact as the primary commercial language. Automation/agents remain implementation mechanisms, not the product narrative.
+
+
+# 12.9 — COMMERCIAL FUNNEL LEDGER — 2026-09-20
+
+**Статус: IMPLEMENTED ON QA BRANCH / PRODUCTION MIGRATION PENDING**
+
+Добавлен append-only `commercial_funnel_events` для измерения коммерческого пути без хранения tenant_id, пришедшего от браузера. Worker сначала разрешает tenant context через authenticated Neon Data API, после чего пишет событие с серверным tenant_id и principal_id.
+
+Разрешённые события: `portal_view`, `diagnostic_start`, `diagnostic_complete`, `cta_click`, `conversion`.
+
+Портал уже отправляет `portal_view` и `cta_click`. События `diagnostic_start`, `diagnostic_complete` и `conversion` оставлены для следующих точек интеграции, чтобы не создавать фиктивную конверсию.
+
+### Finance KPI language
+Первичный коммерческий контур: `annual_net_value`, `ROI`, `payback_months`, `margin_uplift_points`, `evidence_quality`. Funnel telemetry измеряет путь до этих экономических результатов, а не подменяет их vanity metrics.
+
+### Security / red-team
+- HIGH: production migration должна быть применена только после QA; RLS policy на новую таблицу обязательна.
+- MEDIUM: metadata ограничивается JSON-объектом, но размер payload следует дополнительно ограничить перед production.
+- MEDIUM: `conversion` пока не генерируется автоматически — намеренно, чтобы не подделывать бизнес-конверсию без подтверждённого события.
