@@ -64,7 +64,7 @@
 
 | D-065 | Accepted | Governance retention layer starts with a non-destructive decision contract. It evaluates explicit retention policy, resource status, due date and active legal holds; it never deletes data. With no configured retention policy in production, no retention period is invented. Runtime deletion/executor evidence remains open. |
 
-| D-066 | Accepted | P3 platform foundation: use an LLM-agnostic AI gateway and transport-neutral integration adapter contracts. Redis is not introduced until measured workload justifies its operational cost; latency evidence must be measured rather than inferred. |
+| D-067 | Accepted | Password composition is enforced at the SynapseMax Worker auth boundary before requests reach managed Neon Auth. Password hashing remains delegated to Neon Auth/Better Auth; the Worker never stores passwords. |
 
 ## Revisit rule
 
