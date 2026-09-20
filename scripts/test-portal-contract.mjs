@@ -11,7 +11,9 @@ const requiredIndex = [
   'scenario=eq.base',
   'annual_net_value',
   'margin_uplift_points',
-  'evidence_quality',\n  '/api/v1/portal/funnel',\n  'commercial_funnel_events',
+  'evidence_quality',
+  '/api/v1/portal/funnel',
+  'commercial_funnel_events',
 ];
 
 for (const fragment of requiredIndex) {
