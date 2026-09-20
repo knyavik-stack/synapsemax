@@ -62,6 +62,8 @@
 
 | D-064 | Accepted | 2026-09-20 verification: transactional financial diagnostic RPC is present on the production Neon branch, is `SECURITY INVOKER`, and `authenticated` has EXECUTE; owner invocation without authenticated tenant context fails closed. Documentation is updated to remove the stale "production migration pending" state. This does not close the CRITICAL two-principal tenant-isolation proof or the server-side password-composition gap. |
 
+| D-065 | Accepted | Governance retention layer starts with a non-destructive decision contract. It evaluates explicit retention policy, resource status, due date and active legal holds; it never deletes data. With no configured retention policy in production, no retention period is invented. Runtime deletion/executor evidence remains open. |
+
 ## Revisit rule
 
 A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
