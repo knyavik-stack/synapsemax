@@ -36,4 +36,4 @@ function createAiGateway({ baseUrl, apiKey, defaultModel, fetchImpl = fetch } = 
   };
 }
 
-export { AI_GATEWAY_CONTRACT };
+export { AI_GATEWAY_CONTRACT, createAiGateway };
