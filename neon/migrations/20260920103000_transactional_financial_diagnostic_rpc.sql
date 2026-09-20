@@ -182,7 +182,9 @@ begin
     'idempotentReplay', false,
     'sessionId', v_session_id,
     'inputSnapshotId', v_snapshot_id,
-    'requestId', v_request_id
+    'requestId', v_request_id,
+    'evidenceItemIds', coalesce((select jsonb_agg(x->>'id') from jsonb_array_elements(coalesce(p_payload->'evidence_rows','[]'::jsonb)) x), '[]'::jsonb),
+    'calculationResultIds', coalesce((select jsonb_agg(x->>'id') from jsonb_array_elements(coalesce(p_payload->'result_rows','[]'::jsonb)) x), '[]'::jsonb)
   );
 end;
 $$;
