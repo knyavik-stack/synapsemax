@@ -607,3 +607,31 @@ This closes the previous **application-boundary password composition gap** witho
 1. **HIGH:** the proxy becomes part of the authentication critical path; regression coverage and production smoke are mandatory.
 2. **MEDIUM:** proxy cookie/redirect behavior must be verified against the real production auth flow after deployment.
 3. **MEDIUM:** OAuth and non-password auth flows must continue to bypass password validation while still traversing the proxy safely.
+
+
+## 12.6 — EXECUTION PRIORITY UPDATE — 2026-09-20
+
+**Boss directive:** real two-principal RLS isolation proof is intentionally moved to a later gate. It remains **OPEN / CRITICAL**, but it is no longer the immediate execution priority.
+
+Completed since the previous readiness snapshot:
+- transactional diagnostic persistence production verification;
+- non-destructive retention/legal-hold decision contract;
+- LLM-agnostic AI Gateway abstraction;
+- secure generic integration adapter contract;
+- configurable latency benchmark gate;
+- server-side password composition enforcement at the SynapseMax Worker auth boundary.
+
+The platform work is now structured so that RLS proof can be executed later without blocking the independent finance, governance, platform and auth workstreams.
+
+### Remaining evidence gaps, ordered by execution priority
+1. **RLS — DEFERRED:** two real production principals and bidirectional cross-tenant negative tests.
+2. **AI Gateway runtime call evidence:** abstraction exists and Neon AI Gateway is enabled; representative authenticated inference call still needs runtime evidence.
+3. **Concrete integration adapter:** generic adapter exists; at least one real 1C/ERP/CRM/SAP integration remains to be exercised.
+4. **Latency:** benchmark harness exists; representative production endpoint/load measurement is still required before claiming <=15 ms.
+5. **Commercial portal/funnel:** production client portal and durable funnel event storage are not yet implemented.
+6. **Governance executor:** retention policy assignment and destructive executor remain intentionally unimplemented until legal/business retention values are supplied.
+
+### Self-correction
+**Fact:** code/CI evidence now exists for the completed items above.  
+**Inference:** these layers can progress independently of the deferred RLS proof.  
+**Not proven:** real external integration interoperability, production AI inference latency/cost, production Redis need, commercial conversion metrics and tenant isolation.
