@@ -585,44 +585,25 @@ This is a governance control primitive, not compliance evidence. A production ex
 3. **MEDIUM:** retention periods are business/legal inputs, not engineering defaults.
 
 
-## 12.4 — P3 PLATFORM FOUNDATION — 2026-09-20
+## 12.5 — SERVER-SIDE AUTH PASSWORD BOUNDARY — 2026-09-20
 
-**Status: CODE COMPLETE / RUNTIME EVIDENCE IN PROGRESS**
+**Status: CODE COMPLETE / QA PENDING**
 
-### AI Abstraction Gateway
-Added `src/ai-gateway.js` with contract `ai-gateway-v1`.
+The browser no longer talks directly to the Neon Auth endpoint. Auth traffic is routed through the SynapseMax Worker at `/api/auth/*`.
 
-Properties:
-- provider/model agnostic request envelope;
-- runtime model override;
-- configurable endpoint and credential;
-- bounded temperature/token inputs;
-- response/error normalization;
-- no provider-specific business logic in financial calculations.
+For `POST /sign-up/email`, the Worker enforces:
+- minimum 8 characters;
+- at least one uppercase Latin letter;
+- at least one lowercase Latin letter;
+- at least one digit.
 
-Production infrastructure fact: Neon AI Gateway is enabled on the production Neon branch and exposes a branch-scoped gateway base URL. The application abstraction deliberately does not hard-code a provider or model.
+Invalid composition is rejected before the request reaches Neon Auth.
 
-### Integration adapters
-Added `src/integration-adapter.js` with contract `integration-adapter-v1`.
+Other Better Auth endpoints are transparently proxied. The browser SDK uses the same-origin Worker proxy, preserving the managed Neon Auth backend while adding an application-controlled validation boundary.
 
-Properties:
-- HTTP/HTTPS adapter boundary;
-- bearer credential injection;
-- timeout/cancellation;
-- JSON request/response handling;
-- rejection of credential-bearing URLs;
-- rejection of localhost/private-local endpoints.
-
-The adapter is deliberately transport-oriented. 1C/ERP/CRM/SAP-specific mapping remains configuration/domain work and is not falsely claimed as implemented.
-
-### Performance gate
-Added `scripts/benchmark-latency.mjs`.
-
-The benchmark is opt-in through `SYNAPSEMAX_BENCHMARK_URL`, measures p50/p95/max and evaluates the existing <=15 ms target. Without a configured benchmark endpoint it reports `not-run`; it does not fabricate a PASS.
-
-**Important:** Redis is not introduced merely to satisfy an architecture diagram. It should enter runtime only when measured workload demonstrates a cache/queue/latency requirement that justifies its operational cost.
+This closes the previous **application-boundary password composition gap** without moving password hashing into SynapseMax. Password handling remains delegated to Neon Auth/Better Auth.
 
 ### Red-team
-1. **HIGH:** an abstraction layer without a real provider call is architecture evidence, not production AI inference evidence.
-2. **HIGH:** generic integration adapters do not prove 1C/ERP/CRM/SAP interoperability until concrete adapters are exercised.
-3. **MEDIUM:** Redis cannot honestly be marked latency-proven until a representative endpoint/workload is benchmarked.
+1. **HIGH:** the proxy becomes part of the authentication critical path; regression coverage and production smoke are mandatory.
+2. **MEDIUM:** proxy cookie/redirect behavior must be verified against the real production auth flow after deployment.
+3. **MEDIUM:** OAuth and non-password auth flows must continue to bypass password validation while still traversing the proxy safely.
