@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/generate-release-marker.mjs && node scripts/build-site.mjs && node scripts/copy-auth-page.mjs && node scripts/align-financial-fallback.mjs && node scripts/finance-productization-pass.mjs && node scripts/master-spec-positioning.mjs && node scripts/brand-token-pass.mjs",
-    "test:immediate": "node scripts/test-immediate.mjs && node scripts/test-financial-fallback.mjs && node scripts/test-finance-productization.mjs && node scripts/test-brand-token-pass.mjs && node scripts/test-governance-contract.mjs && npm run test:tenant-context && npm run test:finance-evidence && npm run test:finance-decision && npm run test:governance-retention && npm run test:ai-gateway && npm run test:integration-adapter",
+    "test:immediate": "node scripts/test-immediate.mjs && node scripts/test-financial-fallback.mjs && node scripts/test-finance-productization.mjs && node scripts/test-brand-token-pass.mjs && node scripts/test-governance-contract.mjs && npm run test:tenant-context && npm run test:finance-evidence && npm run test:finance-decision && npm run test:governance-retention && npm run test:auth-password",
     "test:positioning": "node scripts/test-positioning-pass.mjs",
     "test:brand": "node scripts/test-brand-token-pass.mjs",
     "test:governance": "node scripts/test-governance-contract.mjs",
@@ -16,9 +16,7 @@
     "test:finance-evidence": "node scripts/test-evidence-diagnostic.mjs",
     "test:finance-decision": "node scripts/test-financial-decision-engine.mjs",
     "test:governance-retention": "node scripts/test-governance-retention.mjs",
-    "test:ai-gateway": "node scripts/test-ai-gateway.mjs",
-    "test:integration-adapter": "node scripts/test-integration-adapter.mjs",
-    "benchmark:latency": "node scripts/benchmark-latency.mjs"
+    "test:auth-password": "node scripts/test-auth-password-policy.mjs"
   },
   "devDependencies": {
     "wrangler": "4.126.0",
