@@ -556,3 +556,30 @@ Production Neon verification confirms:
 - Do not turn scenario factors into probabilities without empirical calibration.
 - Do not present FZ-152/ISO/EU AI Act as achieved compliance without evidence.
 
+
+
+## 12.3 — GOVERNANCE RETENTION DECISION CONTRACT — 2026-09-20
+
+**Status: CODE COMPLETE / RUNTIME EXECUTOR OPEN**
+
+Added `src/governance-retention.js` with contract `governance-retention-v1` and regression coverage in `scripts/test-governance-retention.mjs`.
+
+The contract evaluates:
+- explicit retention period in days;
+- resource status eligibility;
+- retention due date;
+- active legal holds;
+- deterministic reason codes.
+
+Safety boundary:
+- it performs **no destructive action**;
+- a retention-due resource is returned as `eligible_for_review`, not deleted;
+- an active legal hold always blocks retention expiry;
+- if production has no configured retention policy, the system does not invent a legal/business retention period.
+
+This is a governance control primitive, not compliance evidence. A production executor, retention policy assignment, legal-hold lifecycle tests and deletion/audit evidence remain open.
+
+### Red-team
+1. **HIGH:** deletion without an explicit tenant policy would create legal/data-loss risk; therefore the contract is intentionally fail-safe and non-destructive.
+2. **MEDIUM:** legal-hold scope semantics require a formal policy before resource-specific deletion can be automated.
+3. **MEDIUM:** retention periods are business/legal inputs, not engineering defaults.
