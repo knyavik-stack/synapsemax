@@ -11,14 +11,14 @@ const requiredIndex = [
   'scenario=eq.base',
   'annual_net_value',
   'margin_uplift_points',
-  'evidence_quality',
+  'evidence_quality',\n  '/api/v1/portal/funnel',\n  'commercial_funnel_events',
 ];
 
 for (const fragment of requiredIndex) {
   if (!index.includes(fragment)) throw new Error(`portal API contract missing: ${fragment}`);
 }
 
-for (const fragment of ['annualNetValue', 'marginUpliftPoints', 'evidenceQuality', 'tenant-scoped diagnostic results']) {
+for (const fragment of ['annualNetValue', 'marginUpliftPoints', 'evidenceQuality', 'tenant-scoped diagnostic results', "track('portal_view')"]) {
   if (!portal.includes(fragment)) throw new Error(`portal UI contract missing: ${fragment}`);
 }
 
