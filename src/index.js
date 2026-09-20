@@ -74,6 +74,45 @@ async function portalSummary(request) {
   });
 }
 
+async function recordFunnelEvent(request, context) {
+  try {
+    const input = await request.json();
+    const allowedEvents = new Set(['portal_view', 'diagnostic_start', 'diagnostic_complete', 'cta_click', 'conversion']);
+    if (!allowedEvents.has(input?.eventName)) return json({ ok: false, error: 'Unsupported funnel event' }, 400);
+
+    const requestId = crypto.randomUUID();
+    const payload = {
+      tenant_id: context.tenantId,
+      actor_type: 'principal',
+      actor_id: context.principalId ?? 'authenticated',
+      event_name: input.eventName,
+      request_id: requestId,
+      resource_type: typeof input.resourceType === 'string' ? input.resourceType.slice(0, 80) : 'portal',
+      resource_id: typeof input.resourceId === 'string' ? input.resourceId.slice(0, 120) : requestId,
+      metadata: input.metadata && typeof input.metadata === 'object' ? input.metadata : {},
+    };
+
+    const response = await fetch(`${NEON_DATA_API_URL}/commercial_funnel_events`, {
+      method: 'POST',
+      headers: {
+        Authorization: request.headers.get('authorization'),
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+        'Accept-Profile': 'public',
+        'Content-Profile': 'public',
+        Prefer: 'return=minimal',
+      },
+      body: JSON.stringify(payload),
+      cf: { cacheTtl: 0 },
+    });
+
+    if (!response.ok) return json({ ok: false, error: 'Funnel event persistence failed' }, response.status);
+    return json({ ok: true, event: input.eventName, requestId }, 201);
+  } catch {
+    return json({ ok: false, error: 'Invalid funnel event payload' }, 400);
+  }
+}
+
 async function immediateAsset(env, request) {
   const asset = await env.ASSETS.fetch(new Request(new URL('/dex-immediate', request.url), request));
   const headers = new Headers(asset.headers);
@@ -99,7 +138,7 @@ async function diagnosticAsset(env, request) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (request.method === 'GET' && url.pathname === '/api/v1/portal/summary') return portalSummary(request);
+    if (request.method === 'GET' && url.pathname === '/api/v1/portal/summary') return portalSummary(request);\n    if (request.method === 'POST' && url.pathname === '/api/v1/portal/funnel') {\n      const context = await resolveTenantContext(request);\n      if (context?.response) return context.response;\n      return recordFunnelEvent(request, context);\n    }
     if (url.pathname === '/api/v1/health') return json({ ok: true, service: 'synapsemax-immediate', version: 'h1', release: RELEASE_MARKER });
     if (url.pathname === '/__synapsemax/version') return json({ ok: true, service: 'synapsemax', release: RELEASE_MARKER, rlsSmoke: RELEASE_MARKER, deployedAt: '2026-09-18' });
     if (url.pathname.startsWith('/api/auth/')) return proxyNeonAuth(request, env.NEON_AUTH_URL);
