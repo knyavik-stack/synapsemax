@@ -81,3 +81,10 @@ A major decision can be reopened only when new evidence, a material business req
 | D-062 | Accepted | Diagnostic persistence now uses tenant-scoped idempotency keys, explicit session states (persisting/completed/failed) and audit events for start/completion/failure. This reduces duplicate writes and makes partial failures observable, but does not replace a database transaction; transactional RPC remains the final atomicity hardening step. |
 
 | D-063 | Accepted | Transactional diagnostic persistence is now implemented as a reviewed migration + Worker RPC-first path. The RPC was syntax-tested on an isolated Neon branch and correctly fails closed without authenticated tenant context. Production application of this DDL remains a controlled migration gate; until applied, the Worker falls back only on HTTP 404 to the idempotent multi-write path. |
+
+
+## D-069 — Client Portal V1 and commercial funnel boundary — 2026-09-20
+
+Client Portal V1 merged after full Immediate QA including browser UX gate. Portal exposes finance-first tenant-scoped KPIs: annual net effect, ROI, payback, margin uplift and evidence quality. Commercial funnel telemetry is implemented on the portal branch with an append-only tenant-scoped ledger; production migration remains a separate gate and must not be treated as deployed until its database migration is applied and verified.
+
+**Security:** two-principal production RLS isolation proof remains deferred by D-068 and is not replaced by portal QA.
