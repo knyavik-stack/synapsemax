@@ -635,3 +635,15 @@ The platform work is now structured so that RLS proof can be executed later with
 **Fact:** code/CI evidence now exists for the completed items above.  
 **Inference:** these layers can progress independently of the deferred RLS proof.  
 **Not proven:** real external integration interoperability, production AI inference latency/cost, production Redis need, commercial conversion metrics and tenant isolation.
+
+
+## 12.7 — CLIENT PORTAL V1 — 2026-09-20
+
+Added a tenant-scoped read-only financial portal:
+- `/portal.html` — client-facing financial summary;
+- `GET /api/v1/portal/summary` — reads diagnostic sessions and base scenario results through the authenticated Neon Data API;
+- no tenant_id is accepted from the browser;
+- no demo economics are injected into the API response;
+- build pipeline materializes the portal as a production artifact.
+
+The portal intentionally exposes only a narrow financial view in V1. It is not yet the complete rentable SaaS dashboard or commercial analytics suite.
