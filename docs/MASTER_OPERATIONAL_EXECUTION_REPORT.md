@@ -505,7 +505,7 @@ The migration `neon/migrations/20260920103000_transactional_financial_diagnostic
 | Контур | Status | Readiness |
 |---|---|---:|
 | Financial diagnostic + decision engine | QA verified / merged | **98%** |
-| Diagnostic persistence integrity | RPC ready; production migration pending | **90%** |
+| Diagnostic persistence integrity | RPC applied + production verified | **98%** |
 | Public frontend / Immediate | production + browser QA | **90%** |
 | CI / release control | green on current changes | **100%** |
 | Neon Auth | configured; password composition + two-user proof open | **85%** |
@@ -520,13 +520,34 @@ The migration `neon/migrations/20260920103000_transactional_financial_diagnostic
 ### Remaining blockers to 100%
 
 1. **CRITICAL:** two real production Neon Auth principals with independent tenant memberships and bidirectional negative read/write proof.
-2. **CONTROLLED DB CHANGE:** apply and production-verify the transactional diagnostic RPC migration.
 3. **HIGH:** server-side password composition enforcement at the application auth boundary.
 4. **HIGH:** retention executor/legal-hold runtime evidence and complete governance controls.
 5. **MEDIUM:** Redis latency benchmark and integration-layer evidence.
 6. **MEDIUM:** LLM-agnostic AI Gateway and integration adapter runtime evidence.
 7. **MEDIUM:** process-level correlation beyond explicit overlap assumptions.
 8. **MEDIUM:** production client portal/dashboard and full commercial funnel instrumentation.
+
+## 12.2 — PRODUCTION RPC VERIFICATION — 2026-09-20
+
+**Status: VERIFIED**
+
+Production Neon verification confirms:
+- `public.persist_financial_diagnostic(jsonb)` exists on the production branch;
+- function security mode is `SECURITY INVOKER` (`prosecdef=false`);
+- role `authenticated` has EXECUTE;
+- execution without an authenticated tenant context fails closed with `FINANCIAL_DIAGNOSTIC_TENANT_CONTEXT_REQUIRED`;
+- the Worker uses RPC-first persistence and only falls back on HTTP 404 as a compatibility path.
+
+**Correction:** the earlier readiness table entry saying "production migration pending" was stale. The migration is applied; the remaining integrity/security gate is the real two-principal tenant-isolation proof.
+
+### Current blockers after this verification
+1. **CRITICAL:** two real production Neon Auth principals and bidirectional cross-tenant negative tests.
+2. **HIGH:** server-side password-composition enforcement at the application auth boundary.
+3. **HIGH:** retention executor/legal-hold runtime evidence and governance controls.
+4. **MEDIUM:** Redis latency benchmark/integration evidence.
+5. **MEDIUM:** LLM-agnostic AI Gateway and integration adapter runtime evidence.
+6. **MEDIUM:** process-level correlation beyond explicit overlap assumptions.
+7. **MEDIUM:** client portal/dashboard and full commercial funnel instrumentation.
 
 ### Red-team
 
