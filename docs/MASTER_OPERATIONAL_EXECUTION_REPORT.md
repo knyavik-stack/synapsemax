@@ -583,3 +583,46 @@ This is a governance control primitive, not compliance evidence. A production ex
 1. **HIGH:** deletion without an explicit tenant policy would create legal/data-loss risk; therefore the contract is intentionally fail-safe and non-destructive.
 2. **MEDIUM:** legal-hold scope semantics require a formal policy before resource-specific deletion can be automated.
 3. **MEDIUM:** retention periods are business/legal inputs, not engineering defaults.
+
+
+## 12.4 — P3 PLATFORM FOUNDATION — 2026-09-20
+
+**Status: CODE COMPLETE / RUNTIME EVIDENCE IN PROGRESS**
+
+### AI Abstraction Gateway
+Added `src/ai-gateway.js` with contract `ai-gateway-v1`.
+
+Properties:
+- provider/model agnostic request envelope;
+- runtime model override;
+- configurable endpoint and credential;
+- bounded temperature/token inputs;
+- response/error normalization;
+- no provider-specific business logic in financial calculations.
+
+Production infrastructure fact: Neon AI Gateway is enabled on the production Neon branch and exposes a branch-scoped gateway base URL. The application abstraction deliberately does not hard-code a provider or model.
+
+### Integration adapters
+Added `src/integration-adapter.js` with contract `integration-adapter-v1`.
+
+Properties:
+- HTTP/HTTPS adapter boundary;
+- bearer credential injection;
+- timeout/cancellation;
+- JSON request/response handling;
+- rejection of credential-bearing URLs;
+- rejection of localhost/private-local endpoints.
+
+The adapter is deliberately transport-oriented. 1C/ERP/CRM/SAP-specific mapping remains configuration/domain work and is not falsely claimed as implemented.
+
+### Performance gate
+Added `scripts/benchmark-latency.mjs`.
+
+The benchmark is opt-in through `SYNAPSEMAX_BENCHMARK_URL`, measures p50/p95/max and evaluates the existing <=15 ms target. Without a configured benchmark endpoint it reports `not-run`; it does not fabricate a PASS.
+
+**Important:** Redis is not introduced merely to satisfy an architecture diagram. It should enter runtime only when measured workload demonstrates a cache/queue/latency requirement that justifies its operational cost.
+
+### Red-team
+1. **HIGH:** an abstraction layer without a real provider call is architecture evidence, not production AI inference evidence.
+2. **HIGH:** generic integration adapters do not prove 1C/ERP/CRM/SAP interoperability until concrete adapters are exercised.
+3. **MEDIUM:** Redis cannot honestly be marked latency-proven until a representative endpoint/workload is benchmarked.
