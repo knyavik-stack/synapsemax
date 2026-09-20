@@ -23,7 +23,7 @@ assert.ok(diagnostic.evidenceModel.evidenceQuality >= 80);
 assert.ok(diagnostic.result.recoverableMonthlyValue > 0);
 assert.equal(diagnostic.decision.contractVersion, 'financial-decision-v1');
 assert.ok(diagnostic.decision.economics.totalTco >= diagnostic.decision.facts.upfrontInvestment);
-assert.ok(diagnostic.decision.economics.npv > 0);
+assert.equal(diagnostic.decision.economics.npv, diagnostic.fiveYear.base.npv);
 assert.equal(diagnostic.fiveYear.base.horizonYears, 5);
 assert.equal(diagnostic.lineage.noDoubleCounting.method, 'explicit-overlap-only');
 assert.ok(diagnostic.scenarios.base.annualValue >= diagnostic.scenarios.conservative.annualValue);
