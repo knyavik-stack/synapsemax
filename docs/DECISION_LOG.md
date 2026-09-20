@@ -64,6 +64,8 @@
 
 | D-065 | Accepted | Governance retention layer starts with a non-destructive decision contract. It evaluates explicit retention policy, resource status, due date and active legal holds; it never deletes data. With no configured retention policy in production, no retention period is invented. Runtime deletion/executor evidence remains open. |
 
+| D-067 | Accepted | Password composition is enforced at the SynapseMax Worker auth boundary before requests reach managed Neon Auth. Password hashing remains delegated to Neon Auth/Better Auth; the Worker never stores passwords. |
+
 ## Revisit rule
 
 A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
