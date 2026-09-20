@@ -60,6 +60,8 @@
 
 | D-058 | Accepted | Real-session RLS harness merged in PR #21. It uses @neondatabase/auth sign-in and getJWTToken(), then verifies distinct principals, one tenant per principal, matching memberships, cross-tenant result invisibility, own-tenant visibility, unauthenticated rejection and Worker tenant-context consistency. Immediate QA passed. Production proof remains OPEN because current Neon Auth has exactly one user/active principal; manual-only workflow is ready and intentionally does not fabricate a second identity. |
 
+| D-064 | Accepted | 2026-09-20 verification: transactional financial diagnostic RPC is present on the production Neon branch, is `SECURITY INVOKER`, and `authenticated` has EXECUTE; owner invocation without authenticated tenant context fails closed. Documentation is updated to remove the stale "production migration pending" state. This does not close the CRITICAL two-principal tenant-isolation proof or the server-side password-composition gap. |
+
 ## Revisit rule
 
 A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
