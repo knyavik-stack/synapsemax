@@ -647,3 +647,30 @@ Added a tenant-scoped read-only financial portal:
 - build pipeline materializes the portal as a production artifact.
 
 The portal intentionally exposes only a narrow financial view in V1. It is not yet the complete rentable SaaS dashboard or commercial analytics suite.
+
+
+---
+
+# 12.8 — CLIENT PORTAL V1 HARDENING — 2026-09-20
+
+**Статус: IMPLEMENTED / QA RUNNING**
+
+Portal V1 remains finance-first and read-only. The tenant identifier is never accepted from the browser; the API requires a Bearer token and delegates tenant scoping to Neon Data API + PostgreSQL RLS.
+
+Implemented on feat/client-portal-v1:
+- centralized Neon Data API base URL within Worker code;
+- strict Bearer authorization shape check;
+- exact diagnostic-session count via PostgREST Prefer: count=exact instead of a hard 100-row client-visible cap;
+- latest base-scenario financial result query reduced to one row;
+- annual net effect, margin uplift and evidence quality exposed to the portal;
+- dedicated portal contract test wired into test:immediate.
+
+**Important boundary:** this hardening improves API correctness and portal economics visibility. It does **not** constitute the deferred two-principal runtime RLS proof.
+
+### Portal red-team
+1. **HIGH — RLS dependency:** portal isolation remains only as strong as the authenticated Neon JWT → PostgreSQL RLS chain; two-principal production proof is still open.
+2. **MEDIUM — environment coupling:** the production Neon Data API endpoint is currently an application constant; move to an environment binding when a second runtime environment is introduced.
+3. **MEDIUM — funnel telemetry:** portal currently reads diagnostic outcomes but does not yet persist commercial funnel events (view, CTA, diagnostic start, completion, conversion).
+
+### Next commercial execution
+Instrument durable funnel events and expose ROI / payback / annual net effect / margin impact as the primary commercial language. Automation/agents remain implementation mechanisms, not the product narrative.
