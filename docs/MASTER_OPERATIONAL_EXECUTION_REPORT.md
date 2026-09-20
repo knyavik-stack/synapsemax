@@ -583,3 +583,27 @@ This is a governance control primitive, not compliance evidence. A production ex
 1. **HIGH:** deletion without an explicit tenant policy would create legal/data-loss risk; therefore the contract is intentionally fail-safe and non-destructive.
 2. **MEDIUM:** legal-hold scope semantics require a formal policy before resource-specific deletion can be automated.
 3. **MEDIUM:** retention periods are business/legal inputs, not engineering defaults.
+
+
+## 12.5 — SERVER-SIDE AUTH PASSWORD BOUNDARY — 2026-09-20
+
+**Status: CODE COMPLETE / QA PENDING**
+
+The browser no longer talks directly to the Neon Auth endpoint. Auth traffic is routed through the SynapseMax Worker at `/api/auth/*`.
+
+For `POST /sign-up/email`, the Worker enforces:
+- minimum 8 characters;
+- at least one uppercase Latin letter;
+- at least one lowercase Latin letter;
+- at least one digit.
+
+Invalid composition is rejected before the request reaches Neon Auth.
+
+Other Better Auth endpoints are transparently proxied. The browser SDK uses the same-origin Worker proxy, preserving the managed Neon Auth backend while adding an application-controlled validation boundary.
+
+This closes the previous **application-boundary password composition gap** without moving password hashing into SynapseMax. Password handling remains delegated to Neon Auth/Better Auth.
+
+### Red-team
+1. **HIGH:** the proxy becomes part of the authentication critical path; regression coverage and production smoke are mandatory.
+2. **MEDIUM:** proxy cookie/redirect behavior must be verified against the real production auth flow after deployment.
+3. **MEDIUM:** OAuth and non-password auth flows must continue to bypass password validation while still traversing the proxy safely.
