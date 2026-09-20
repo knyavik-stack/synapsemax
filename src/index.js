@@ -2,6 +2,7 @@ import { assess, calculateRoi, diagnoseProfitLeakage } from './immediate-logic.j
 import { RELEASE } from './release.generated.js';
 import { resolveTenantContext, tenantContextResponse } from './tenant-context.js';
 import { persistEvidenceDiagnostic } from './evidence-persistence.js';
+import { proxyNeonAuth } from './auth-proxy.js';
 
 const RELEASE_MARKER = RELEASE;
 
@@ -53,6 +54,7 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === '/api/v1/health') return json({ ok: true, service: 'synapsemax-immediate', version: 'h1', release: RELEASE_MARKER });
     if (url.pathname === '/__synapsemax/version') return json({ ok: true, service: 'synapsemax', release: RELEASE_MARKER, rlsSmoke: RELEASE_MARKER, deployedAt: '2026-09-18' });
+    if (url.pathname.startsWith('/api/auth/')) return proxyNeonAuth(request, env.NEON_AUTH_URL);
     if (request.method === 'GET' && url.pathname === '/api/v1/tenant-context') {
       const context = await resolveTenantContext(request);
       return tenantContextResponse(context);
