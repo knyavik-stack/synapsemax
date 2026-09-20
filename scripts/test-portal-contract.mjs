@@ -5,7 +5,7 @@ const portal = fs.readFileSync('portal.html', 'utf8');
 
 const requiredIndex = [
   "const NEON_DATA_API_URL = 'https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1';",
-  "if (!authorization || !/^Bearer\\s+\\S+$/.test(authorization))",
+  "if (!authorization ||",\n  "Bearer\\s+\\S+$",
   "Prefer: 'count=exact'",
   'scenario=eq.base',
   'annual_net_value',
