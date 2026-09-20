@@ -66,6 +66,8 @@
 
 | D-067 | Accepted | Password composition is enforced at the SynapseMax Worker auth boundary before requests reach managed Neon Auth. Password hashing remains delegated to Neon Auth/Better Auth; the Worker never stores passwords. |
 
+| D-068 | Accepted | 2026-09-20: defer the real two-principal RLS isolation proof to a later execution gate. It remains a critical security gate and is not reclassified as complete; independent finance, governance, platform and auth work may proceed in parallel. |
+
 ## Revisit rule
 
 A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
