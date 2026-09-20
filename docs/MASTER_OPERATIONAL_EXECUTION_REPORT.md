@@ -480,3 +480,58 @@ Persistence hardening added without changing the tenant authorization model:
 
 ### QA gate
 Immediate QA must prove the integrated finance regression and existing runtime/browser gates before merge. Production deployment evidence remains separate from GitHub merge evidence.
+
+
+## 12.1 P2 INTEGRATION — 2026-09-20
+
+**Status: MERGED / QA VERIFIED**
+
+PR #24 merged as `74913f448fb9f69882cef50ea869e67954dffe4f`; PR #25 merged as `fdb656148dcb33076ef51a21b823a2bb7dc98845`.
+
+The evidence-backed diagnostic now consumes `financial-decision-v1` and exposes one decision envelope covering TCO, NPV, ROI, payback, margin impact and sensitivity. The same decision object is persisted with each scenario result, preserving calculation traceability.
+
+Persistence hardening is also live in code: tenant-scoped idempotency keys, explicit session states, and audit events. PR #26 then added a transactional Postgres RPC migration plus an RPC-first Worker path with HTTP-404-only fallback to the legacy multi-write path.
+
+Immediate QA #366 for PR #26: **SUCCESS**. Build, financial regression, positioning, artifact, routing, Wrangler, local Worker and Chromium browser gates all passed.
+
+### Transactional persistence gate
+
+The migration `neon/migrations/20260920103000_transactional_financial_diagnostic_rpc.sql` was applied and syntax-tested on an isolated Neon branch `synapsemax-tx-rpc-qa`. The function is `SECURITY INVOKER`, requires `current_tenant_id()`, grants EXECUTE only to `authenticated`, and owner execution without authenticated tenant context correctly fails closed.
+
+**Production DDL is intentionally not claimed as applied.** Applying the migration changes the production database and is therefore a controlled database-change gate. Until it is applied, the Worker remains backward-compatible through the 404 fallback path.
+
+### Updated readiness — engineering scope
+
+| Контур | Status | Readiness |
+|---|---|---:|
+| Financial diagnostic + decision engine | QA verified / merged | **98%** |
+| Diagnostic persistence integrity | RPC ready; production migration pending | **90%** |
+| Public frontend / Immediate | production + browser QA | **90%** |
+| CI / release control | green on current changes | **100%** |
+| Neon Auth | configured; password composition + two-user proof open | **85%** |
+| Tenant authorization | runtime boundary implemented; two-user proof open | **80%** |
+| Security / governance | audit/idempotency improved; retention/compliance evidence open | **55%** |
+| 5-layer platform | foundation only; AI gateway/integration/Redis evidence open | **40%** |
+| Brand / HUD | accepted foundation; normalization/audit remains | **60%** |
+| Commercial operating layer | documented, not fully operationalized | **55%** |
+
+**Project engineering readiness: ~72%.** This is not a compliance score and does not treat future SaaS capabilities as complete.
+
+### Remaining blockers to 100%
+
+1. **CRITICAL:** two real production Neon Auth principals with independent tenant memberships and bidirectional negative read/write proof.
+2. **CONTROLLED DB CHANGE:** apply and production-verify the transactional diagnostic RPC migration.
+3. **HIGH:** server-side password composition enforcement at the application auth boundary.
+4. **HIGH:** retention executor/legal-hold runtime evidence and complete governance controls.
+5. **MEDIUM:** Redis latency benchmark and integration-layer evidence.
+6. **MEDIUM:** LLM-agnostic AI Gateway and integration adapter runtime evidence.
+7. **MEDIUM:** process-level correlation beyond explicit overlap assumptions.
+8. **MEDIUM:** production client portal/dashboard and full commercial funnel instrumentation.
+
+### Red-team
+
+- Do not call the project enterprise-ready while item 1 is open.
+- Do not call diagnostic persistence ACID in production until item 2 is applied and production-verified.
+- Do not turn scenario factors into probabilities without empirical calibration.
+- Do not present FZ-152/ISO/EU AI Act as achieved compliance without evidence.
+
