@@ -27,22 +27,51 @@ function json(data, status = 200) {
   }));
 }
 
+const NEON_DATA_API_URL = 'https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1';
+
 async function portalSummary(request) {
   const authorization = request.headers.get('authorization');
-  if (!authorization) return json({ ok:false, error:'Authentication required' },401);
-  const response = await fetch('https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1/diagnostic_sessions?select=id,created_at&order=created_at.desc&limit=100', {
-    headers: { Authorization: authorization, Accept:'application/json', 'Accept-Profile':'public', 'Content-Profile':'public' },
-    cf:{cacheTtl:0},
+  if (!authorization || !/^Bearer\s+\S+$/i.test(authorization)) {
+    return json({ ok: false, error: 'Authentication required' }, 401);
+  }
+
+  const baseHeaders = {
+    Authorization: authorization,
+    Accept: 'application/json',
+    'Accept-Profile': 'public',
+    'Content-Profile': 'public',
+  };
+
+  const sessionsResponse = await fetch(
+    `${NEON_DATA_API_URL}/diagnostic_sessions?select=id&limit=1`,
+    { headers: { ...baseHeaders, Prefer: 'count=exact' }, cf: { cacheTtl: 0 } },
+  );
+  if (!sessionsResponse.ok) return json({ ok: false, error: 'Portal data unavailable' }, sessionsResponse.status);
+
+  const contentRange = sessionsResponse.headers.get('content-range');
+  const sessionCount = contentRange?.match(/\/(\d+)$/)?.[1] ? Number(contentRange.match(/\/(\d+)$/)[1]) : null;
+
+  const resultsResponse = await fetch(
+    `${NEON_DATA_API_URL}/calculation_results?select=session_id,scenario,net_recoverable_monthly,annual_net_value,roi_percent,payback_months,margin_uplift_points,evidence_quality&scenario=eq.base&order=created_at.desc&limit=1`,
+    { headers: baseHeaders, cf: { cacheTtl: 0 } },
+  );
+  if (!resultsResponse.ok) return json({ ok: false, error: 'Portal results unavailable' }, resultsResponse.status);
+
+  const rows = await resultsResponse.json();
+  const latest = rows[0] ?? null;
+
+  return json({
+    ok: true,
+    result: {
+      sessionCount: sessionCount ?? 0,
+      baseMonthlyValue: latest?.net_recoverable_monthly ?? 0,
+      annualNetValue: latest?.annual_net_value ?? 0,
+      latestRoi: latest?.roi_percent ?? null,
+      latestPayback: latest?.payback_months ?? null,
+      marginUpliftPoints: latest?.margin_uplift_points ?? null,
+      evidenceQuality: latest?.evidence_quality ?? null,
+    },
   });
-  if(!response.ok) return json({ok:false,error:'Portal data unavailable'},response.status);
-  const sessions=await response.json();
-  const results=await fetch('https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1/calculation_results?select=session_id,scenario,net_recoverable_monthly,roi_percent,payback_months&scenario=eq.base&order=created_at.desc&limit=100', {
-    headers:{Authorization:authorization,Accept:'application/json','Accept-Profile':'public','Content-Profile':'public'},cf:{cacheTtl:0},
-  });
-  if(!results.ok) return json({ok:false,error:'Portal results unavailable'},results.status);
-  const rows=await results.json();
-  const latest=rows[0]??null;
-  return json({ok:true,result:{sessionCount:sessions.length,baseMonthlyValue:latest?.net_recoverable_monthly??0,latestRoi:latest?.roi_percent??null,latestPayback:latest?.payback_months??null}});
 }
 
 async function immediateAsset(env, request) {
