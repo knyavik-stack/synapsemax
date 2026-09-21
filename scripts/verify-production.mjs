@@ -58,6 +58,16 @@ for (const marker of ['Диагностика', 'hello@synapsemax.ru', 'sm-foote
   require(root.text.includes(marker), `Root missing production marker: ${marker}`);
 }
 
+const portal = await check('/portal.html');
+require(portal.response.status === 200, `Portal status ${portal.response.status}`);
+require(portal.response.headers.get('content-type')?.includes('text/html'), 'Portal must return HTML');
+require(portal.text.includes('Финансовый контур'), 'Portal marker missing');
+
+const auth = await check('/auth.html');
+require(auth.response.status === 200, `Auth status ${auth.response.status}`);
+require(auth.response.headers.get('content-type')?.includes('text/html'), 'Auth must return HTML');
+require(auth.text.includes('Neon Auth / production smoke test'), 'Auth marker missing');
+
 const health = await check('/api/v1/health');
 require(health.response.status === 200, `Health status ${health.response.status}`);
 const healthJson = JSON.parse(health.text);
