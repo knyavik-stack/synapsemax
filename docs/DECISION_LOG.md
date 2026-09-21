@@ -119,3 +119,13 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **QA requirement:** a green Immediate QA run is mandatory before treating the current main revision as releasable. Production Smoke must then pass against the same release.
 
 **Lesson:** source-level syntax gates must run before artifact-only tests, and generated/build validation must not be treated as proof that Worker entrypoint syntax is valid.
+
+## D-073 — 2026-09-21 — Portal JWT extraction corrected
+
+**Problem:** `portal.html` called `auth.getJWTToken?.()` on the value returned by `createAuthClient()`. The current Neon Auth API exposes the Better Auth adapter as the return value of `createAuthClient`; the documented `getJWTToken` helper belongs to the internal NeonAuth wrapper, not the public `createAuthClient` return in the current source. This made the portal fail authentication-token acquisition and prevented tenant-scoped API calls.
+
+**Correction:** portal now calls `auth.getSession()` and takes the JWT from `session.token`, which the Neon Auth adapter injects from the `set-auth-jwt` response header. Contract test was updated to require `getSession` + session token extraction.
+
+**Security:** no tenant identifier is accepted from the browser; the JWT remains the sole authorization credential and downstream Data API RLS remains authoritative.
+
+**Verification gate:** Immediate QA + Production Smoke must pass for the fix commit before treating the portal fix as releasable. Authenticated production portal UX still requires a real signed-in browser session for final end-to-end proof.
