@@ -154,7 +154,8 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (request.method === 'GET' && url.pathname === '/api/v1/portal/summary') return portalSummary(request);
-    if (request.method === 'GET' && url.pathname === '/api/v1/portal/funnel-summary') return portalFunnelSummary(request);\n    if (request.method === 'POST' && url.pathname === '/api/v1/portal/funnel') {
+    if (request.method === 'GET' && url.pathname === '/api/v1/portal/funnel-summary') return portalFunnelSummary(request);
+    if (request.method === 'POST' && url.pathname === '/api/v1/portal/funnel') {
       const context = await resolveTenantContext(request);
       if (context?.response) return context.response;
       return recordFunnelEvent(request, context);
