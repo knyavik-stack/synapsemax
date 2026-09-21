@@ -77,6 +77,17 @@ assert.equal(conservative.recoverableMonthlyValue, 0);
 assert.equal(conservative.roiPercent, null);
 assert.equal(conservative.paybackMonths, null);
 
+const authArtifact = resolve(root, 'dist/auth.html');
+assert.ok(existsSync(authArtifact), 'dist/auth.html must exist; production authentication route');
+const authHtml = readFileSync(authArtifact, 'utf8');
+assert.match(authHtml, /SynapseMax — вход/);
+assert.ok(authHtml.includes('/api/auth'));
+
+const rlsArtifact = resolve(root, 'dist/rls-smoke.html');
+assert.ok(existsSync(rlsArtifact), 'dist/rls-smoke.html must exist; production RLS smoke route');
+const rlsHtml = readFileSync(rlsArtifact, 'utf8');
+assert.match(rlsHtml, /SynapseMax — RLS smoke/);
+
 const portalArtifact = resolve(root, 'dist/portal.html');
 assert.ok(existsSync(portalArtifact), 'dist/portal.html must exist; client portal is a production route');
 const portalHtml = readFileSync(portalArtifact, 'utf8');
