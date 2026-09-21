@@ -105,3 +105,17 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **QA:** added deterministic target-path regression coverage to `scripts/test-auth-password-policy.mjs`. Production HTTP verification remains required after Cloudflare Workers Builds deploys the new commit.
 
 **Sources:** `src/auth-proxy.js`, `scripts/test-auth-password-policy.mjs`.
+
+
+## D-072 — Immediate QA syntax gate failure — 2026-09-21
+
+**Status:** FIXED  
+**Root cause:** `src/index.js` contained a literal `\\n` sequence inside the Worker routing statement. The application test suite/build did not exercise `node --check src/index.js`, so the dedicated syntax gate caught it first.
+
+**Impact:** HIGH for release pipeline. Immediate QA failed at JavaScript syntax validation; subsequent Wrangler/deployment/browser gates were skipped. Production Smoke also failed because its release convergence/production verification could not establish a valid post-fix release.
+
+**Correction:** replaced the literal escape with an actual newline in `src/index.js`.
+
+**QA requirement:** a green Immediate QA run is mandatory before treating the current main revision as releasable. Production Smoke must then pass against the same release.
+
+**Lesson:** source-level syntax gates must run before artifact-only tests, and generated/build validation must not be treated as proof that Worker entrypoint syntax is valid.
