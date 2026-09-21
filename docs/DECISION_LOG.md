@@ -129,3 +129,15 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **Security:** no tenant identifier is accepted from the browser; the JWT remains the sole authorization credential and downstream Data API RLS remains authoritative.
 
 **Verification gate:** Immediate QA + Production Smoke must pass for the fix commit before treating the portal fix as releasable. Authenticated production portal UX still requires a real signed-in browser session for final end-to-end proof.
+
+## D-074 — 2026-09-22 — Client Portal production artifact omission
+
+**Status:** FIXED
+
+**Problem:** `portal.html` was included in the build input validation list but was not copied into `dist/`. The Cloudflare Worker serves static assets from `dist`, so the committed portal source could be correct while the deployed artifact had no current `/portal.html` page. This explains the browser UX gate failure independently of the JWT acquisition correction.
+
+**Correction:** `scripts/build-site.mjs` now copies `portal.html` into `dist/`. `scripts/test-immediate.mjs` now fails closed if `dist/portal.html` is absent and verifies the portal title, financial-contour marker, summary API contract and JWT acquisition path.
+
+**QA:** the next Immediate QA run must pass the browser portal gate on the same commit. Production Smoke must then converge to that commit. Authenticated tenant-scoped financial data remains unproven until a real signed-in browser session is exercised; production currently has no diagnostic result rows.
+
+**Lesson:** source-page presence is not deployment-artifact presence. Every user-facing route must have an explicit build-artifact assertion.
