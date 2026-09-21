@@ -77,6 +77,14 @@ assert.equal(conservative.recoverableMonthlyValue, 0);
 assert.equal(conservative.roiPercent, null);
 assert.equal(conservative.paybackMonths, null);
 
+const portalArtifact = resolve(root, 'dist/portal.html');
+assert.ok(existsSync(portalArtifact), 'dist/portal.html must exist; client portal is a production route');
+const portalHtml = readFileSync(portalArtifact, 'utf8');
+assert.match(portalHtml, /<title>SynapseMax — Client Portal<\/title>/);
+assert.ok(portalHtml.includes('Финансовый контур'));
+assert.ok(portalHtml.includes('/api/v1/portal/summary'));
+assert.ok(portalHtml.includes('getJWTToken'));
+
 const artifact = resolve(root, 'dist/dex-immediate.html');
 assert.ok(existsSync(artifact), 'dist/dex-immediate.html must exist; run npm run build first');
 const html = readFileSync(artifact, 'utf8');
