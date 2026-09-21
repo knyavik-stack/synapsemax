@@ -693,3 +693,19 @@ Instrument durable funnel events and expose ROI / payback / annual net effect / 
 - HIGH: production migration должна быть применена только после QA; RLS policy на новую таблицу обязательна.
 - MEDIUM: metadata ограничивается JSON-объектом, но размер payload следует дополнительно ограничить перед production.
 - MEDIUM: `conversion` пока не генерируется автоматически — намеренно, чтобы не подделывать бизнес-конверсию без подтверждённого события.
+
+
+# 12.11 — COMMERCIAL FUNNEL SUMMARY API — 2026-09-21
+
+**Статус: CODE COMPLETE / QA GATE**
+
+Добавлен `GET /api/v1/portal/funnel-summary`. Endpoint требует Bearer authentication, не принимает tenant_id от клиента и читает только `commercial_funnel_events` через authenticated Neon Data API, поэтому итоговые counts ограничиваются текущим tenant-контекстом RLS.
+
+Возвращаемые события: `portal_view`, `diagnostic_start`, `diagnostic_complete`, `cta_click`, `conversion`.
+
+**Ограничение:** endpoint считает максимум 1000 последних событий и маркирует `sampledRows`; это аналитический V1, а не финальный warehouse/BI слой. Для enterprise analytics следующим шагом нужен SQL-side aggregation по времени, а не передача сырых событий в Worker.
+
+### Red-team
+- HIGH: tenant isolation всё ещё зависит от deferred two-principal RLS proof.
+- MEDIUM: limit=1000 означает sampling при большом объёме; нельзя использовать как финансовую отчётность без SQL aggregation.
+- MEDIUM: funnel events пока не связываются автоматически с conversion value; связь с экономическим результатом остаётся отдельным product analytics шагом.
