@@ -23,6 +23,9 @@ jobs:
       - name: Verify production artifact
         run: |
           test -f dist/dex-immediate.html
+          test -f dist/portal.html
+          test -f dist/auth.html
+          test -f dist/rls-smoke.html
           test -d dist/assets
           test -f dist/assets/synapsemax-symbol.png
           test -f dist/assets/synapsemax-wordmark.png
