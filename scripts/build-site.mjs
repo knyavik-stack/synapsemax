@@ -275,7 +275,7 @@ console.log('[SynapseMax] assessment runtime injected');
 
 rmSync(dist, { recursive: true, force: true });
 mkdirSync(resolve(dist, 'assets'), { recursive: true });
-for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html']) cpSync(resolve(root, file), resolve(dist, file));
+for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'portal.html']) cpSync(resolve(root, file), resolve(dist, file));
 
 let immediate = readFileSync(resolve(root, 'dex-immediate.html'), 'utf8')
   .replaceAll('Transformation Assessment', 'Диагностика трансформации')
