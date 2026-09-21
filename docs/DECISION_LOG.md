@@ -120,15 +120,19 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 
 **Lesson:** source-level syntax gates must run before artifact-only tests, and generated/build validation must not be treated as proof that Worker entrypoint syntax is valid.
 
-## D-073 — 2026-09-21 — Portal JWT extraction corrected
+## D-073 — 2026-09-21 — Portal JWT acquisition correction
 
-**Problem:** `portal.html` called `auth.getJWTToken?.()` on the value returned by `createAuthClient()`. The current Neon Auth API exposes the Better Auth adapter as the return value of `createAuthClient`; the documented `getJWTToken` helper belongs to the internal NeonAuth wrapper, not the public `createAuthClient` return in the current source. This made the portal fail authentication-token acquisition and prevented tenant-scoped API calls.
+**Status:** SUPERSEDED BY D-074 FOR THE PRIMARY FAILURE; JWT PATH RETAINED
 
-**Correction:** portal now calls `auth.getSession()` and takes the JWT from `session.token`, which the Neon Auth adapter injects from the `set-auth-jwt` response header. Contract test was updated to require `getSession` + session token extraction.
+**Problem:** the portal authentication path was changed during debugging without a successful end-to-end browser proof. The official Neon Auth adapter source confirms that `getJWTToken(allowAnonymous)` is available on the auth client and that authenticated mode is explicit.
 
-**Security:** no tenant identifier is accepted from the browser; the JWT remains the sole authorization credential and downstream Data API RLS remains authoritative.
+**Correction:** portal uses `auth.getJWTToken?.(false)` so tenant-scoped API calls require an authenticated JWT. No browser-supplied `tenant_id` is accepted.
 
-**Verification gate:** Immediate QA + Production Smoke must pass for the fix commit before treating the portal fix as releasable. Authenticated production portal UX still requires a real signed-in browser session for final end-to-end proof.
+**Primary defect subsequently found:** `portal.html` itself was not copied into `dist/` by the production build. That artifact omission is recorded and fixed by D-074.
+
+**Security:** JWT remains the authorization credential; Neon Data API + PostgreSQL RLS remain authoritative.
+
+**Verification gate:** Immediate QA + Production Smoke must pass on the repaired artifact. Authenticated tenant-scoped financial data remains an open end-to-end proof until a real signed-in browser session exercises the portal.
 
 ## D-074 — 2026-09-22 — Client Portal production artifact omission
 
