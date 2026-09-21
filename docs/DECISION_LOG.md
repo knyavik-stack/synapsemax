@@ -91,3 +91,17 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 
 
 | D-070 | Accepted | Applied and verified production `commercial_funnel_events` ledger on 2026-09-20. The table is append-only, tenant-scoped through RLS, indexed by tenant/time, and protected by an append-only trigger. End-to-end Worker deployment convergence remains a separate verification step; two-principal RLS proof remains deferred by D-068. |
+
+
+## D-071 — Auth proxy path/origin correction — 2026-09-21
+
+**Status:** IMPLEMENTED  
+**Problem:** the Worker auth proxy constructed the upstream URL from the request root path, which dropped the configured Neon Auth base path `/neondb/auth`. It also replaced the browser's public `Origin` with the Neon Auth origin, which is incompatible with the configured public trusted origin boundary.
+
+**Correction:** preserve the configured Neon Auth base path when joining proxied routes; preserve the incoming public origin for Better Auth origin/CSRF validation; remove the manually supplied `Host` header.
+
+**Security impact:** HIGH. This was an authentication-path correctness defect. A successful browser auth flow could not be assumed until this boundary is deployed and production-smoked.
+
+**QA:** added deterministic target-path regression coverage to `scripts/test-auth-password-policy.mjs`. Production HTTP verification remains required after Cloudflare Workers Builds deploys the new commit.
+
+**Sources:** `src/auth-proxy.js`, `scripts/test-auth-password-policy.mjs`.
