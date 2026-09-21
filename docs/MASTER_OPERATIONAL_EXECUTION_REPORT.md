@@ -709,3 +709,14 @@ Instrument durable funnel events and expose ROI / payback / annual net effect / 
 - HIGH: tenant isolation всё ещё зависит от deferred two-principal RLS proof.
 - MEDIUM: limit=1000 означает sampling при большом объёме; нельзя использовать как финансовую отчётность без SQL aggregation.
 - MEDIUM: funnel events пока не связываются автоматически с conversion value; связь с экономическим результатом остаётся отдельным product analytics шагом.
+
+
+# 12.12 — CLIENT TESTABILITY AUTH FIX — 2026-09-21
+
+**Статус: IMPLEMENTED / QA**
+
+Обнаружен критический UX/integration defect перед передачей проекта на пользовательское тестирование: `portal.html` запрашивал tenant-scoped API без Bearer JWT, поэтому авторизованный пользователь не мог фактически получить portal data. Исправлено: portal создаёт Neon Auth client через same-origin `/api/auth`, получает `getJWTToken()` и прикладывает JWT к portal summary/funnel requests.
+
+Также `auth.html` переведён на same-origin `/api/auth`, чтобы production Auth проходил через Worker boundary, включая серверную password policy.
+
+Это исправление является обязательным pre-demo gate: без него Portal V1 был визуально готов, но не был реально тестируемым пользователем.
