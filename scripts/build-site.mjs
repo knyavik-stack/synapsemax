@@ -11,7 +11,7 @@ import { resolve } from 'node:path';
 const root = process.cwd();
 const dist = resolve(root, 'dist');
 const runtimeAssets = ['synapsemax-symbol.png', 'synapsemax-wordmark.png'];
-const pages = ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'dex-immediate.html', 'portal.html'];
+const pages = ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'dex-immediate.html', 'portal.html', 'auth.html', 'rls-smoke.html'];
 
 const missing = pages.filter((file) => !existsSync(resolve(root, file)));
 const missingAssets = runtimeAssets.filter((file) => !existsSync(resolve(root, 'assets', file)));
@@ -275,7 +275,7 @@ console.log('[SynapseMax] assessment runtime injected');
 
 rmSync(dist, { recursive: true, force: true });
 mkdirSync(resolve(dist, 'assets'), { recursive: true });
-for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'portal.html']) cpSync(resolve(root, file), resolve(dist, file));
+for (const file of ['index.html', 'dex-v1.html', 'dex-v2.html', 'dex-v3.html', 'portal.html', 'auth.html', 'rls-smoke.html']) cpSync(resolve(root, file), resolve(dist, file));
 
 let immediate = readFileSync(resolve(root, 'dex-immediate.html'), 'utf8')
   .replaceAll('Transformation Assessment', 'Диагностика трансформации')
