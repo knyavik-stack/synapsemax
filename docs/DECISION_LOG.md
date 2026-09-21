@@ -145,3 +145,13 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **QA:** the next Immediate QA run must pass the browser portal gate on the same commit. Production Smoke must then converge to that commit. Authenticated tenant-scoped financial data remains unproven until a real signed-in browser session is exercised; production currently has no diagnostic result rows.
 
 **Lesson:** source-page presence is not deployment-artifact presence. Every user-facing route must have an explicit build-artifact assertion.
+
+## D-075 — 2026-09-22 — Production artifact completeness
+
+**Status:** FIXED
+
+**Finding:** `auth.html` and `rls-smoke.html` were valid source routes but were not explicit members of the production `dist/` copy set. The portal omission was already fixed by D-074; this extends the same artifact-boundary control to every operational page used by production smoke/security validation.
+
+**Correction:** build now validates and copies `portal.html`, `auth.html`, and `rls-smoke.html`. Immediate QA asserts their presence; production smoke asserts live HTTP 200 + HTML markers for portal and auth.
+
+**Reason:** a route existing in Git is not sufficient evidence that Cloudflare Workers receives the route in its asset bundle. Artifact completeness is now tested before deployment.
