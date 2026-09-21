@@ -74,6 +74,21 @@ async function portalSummary(request) {
   });
 }
 
+async function portalFunnelSummary(request) {
+  const authorization = request.headers.get('authorization');
+  if (!authorization || !/^Bearer\s+\S+$/i.test(authorization)) return json({ ok: false, error: 'Authentication required' }, 401);
+  const headers = { Authorization: authorization, Accept: 'application/json', 'Accept-Profile': 'public', 'Content-Profile': 'public' };
+  const response = await fetch(
+    `${NEON_DATA_API_URL}/commercial_funnel_events?select=event_name&limit=1000`,
+    { headers, cf: { cacheTtl: 0 } },
+  );
+  if (!response.ok) return json({ ok: false, error: 'Funnel data unavailable' }, response.status);
+  const rows = await response.json();
+  const counts = Object.fromEntries(['portal_view','diagnostic_start','diagnostic_complete','cta_click','conversion'].map((name) => [name, 0]));
+  for (const row of rows) if (row?.event_name in counts) counts[row.event_name] += 1;
+  return json({ ok: true, result: { counts, sampledRows: rows.length, scope: 'tenant' } });
+}
+
 async function recordFunnelEvent(request, context) {
   try {
     const input = await request.json();
@@ -139,7 +154,7 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (request.method === 'GET' && url.pathname === '/api/v1/portal/summary') return portalSummary(request);
-    if (request.method === 'POST' && url.pathname === '/api/v1/portal/funnel') {
+    if (request.method === 'GET' && url.pathname === '/api/v1/portal/funnel-summary') return portalFunnelSummary(request);\n    if (request.method === 'POST' && url.pathname === '/api/v1/portal/funnel') {
       const context = await resolveTenantContext(request);
       if (context?.response) return context.response;
       return recordFunnelEvent(request, context);
