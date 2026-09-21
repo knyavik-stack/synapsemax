@@ -14,6 +14,7 @@ const requiredIndex = [
   'evidence_quality',
   '/api/v1/portal/funnel',
   'commercial_funnel_events',
+  '/api/v1/portal/funnel-summary',
 ];
 
 for (const fragment of requiredIndex) {
