@@ -4,14 +4,26 @@ export function validatePasswordPolicy(password) {
   return typeof password === 'string' && PASSWORD_POLICY.test(password);
 }
 
+export function buildNeonAuthTarget(requestUrl, neonAuthUrl) {
+  const incoming = new URL(requestUrl);
+  const base = new URL(neonAuthUrl);
+  const route = incoming.pathname.replace(/^\/api\/auth/, '') || '/';
+  const basePath = base.pathname.replace(/\/$/, '');
+  return new URL(basePath + (route.startsWith('/') ? route : `/${route}`) + incoming.search, base.origin);
+}
+
 export async function proxyNeonAuth(request, neonAuthUrl) {
   if (!neonAuthUrl) throw new Error('NEON_AUTH_URL is not configured');
   const incoming = new URL(request.url);
-  const base = new URL(neonAuthUrl);
-  const target = new URL(incoming.pathname.replace(/^\/api\/auth/, '') + incoming.search, base);
+  const target = buildNeonAuthTarget(request.url, neonAuthUrl);
   const headers = new Headers(request.headers);
-  headers.set('origin', base.origin);
-  headers.set('host', base.host);
+
+  // Keep the public SynapseMax origin for Better Auth trusted-origin/CSRF checks.
+  // The upstream URL is only the transport destination.
+  headers.set('origin', incoming.origin);
+  headers.delete('host');
+  headers.delete('content-length');
+  headers.delete('content-encoding');
 
   if (request.method === 'POST' && target.pathname.endsWith('/sign-up/email')) {
     let body;
