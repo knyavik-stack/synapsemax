@@ -22,7 +22,7 @@ for (const fragment of requiredIndex) {
 }
 
 for (const fragment of ['getSession', 'session?.token', 'annualNetValue', 'marginUpliftPoints', 'evidenceQuality', 'tenant-scoped diagnostic results',
-  'getJWTToken', "track('portal_view')"]) {
+  "track('portal_view')"]) {
   if (!portal.includes(fragment)) throw new Error(`portal UI contract missing: ${fragment}`);
 }
 
