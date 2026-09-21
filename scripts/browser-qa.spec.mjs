@@ -114,3 +114,20 @@ test('H1 mobile remains usable and does not overflow horizontally', async ({ bro
   await expect(page.locator('#contact')).toBeVisible();
   await context.close();
 });
+
+test('Client portal auth boundary is wired', async ({ page }) => {
+  const pageErrors = [];
+  page.on('pageerror', error => pageErrors.push(error.message));
+  await page.goto('/portal.html', { waitUntil: 'networkidle' });
+  await expect(page).toHaveTitle(/Client Portal/i);
+  await expect(page.getByText('Финансовый контур')).toBeVisible();
+  await expect(page.locator('#status')).toContainText(/Войти|данные/i);
+  expect(pageErrors).toEqual([]);
+  const authApi = await page.evaluate(async () => {
+    const module = await import('https://esm.sh/@neondatabase/auth@0.5.0-beta');
+    const client = module.createAuthClient(location.origin + '/api/auth');
+    return { hasGetJWTToken: typeof client.getJWTToken === 'function', hasGetSession: typeof client.getSession === 'function' };
+  });
+  expect(authApi.hasGetJWTToken).toBeTruthy();
+  expect(authApi.hasGetSession).toBeTruthy();
+});
