@@ -155,3 +155,15 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **Correction:** build now validates and copies `portal.html`, `auth.html`, and `rls-smoke.html`. Immediate QA asserts their presence; production smoke asserts live HTTP 200 + HTML markers for portal and auth.
 
 **Reason:** a route existing in Git is not sufficient evidence that Cloudflare Workers receives the route in its asset bundle. Artifact completeness is now tested before deployment.
+
+## D-076 — 2026-09-22 — Auth page browser runtime gate
+
+**Status:** IMPLEMENTED
+
+**Finding:** production smoke verified that `/auth.html` is delivered as an HTML artifact, but the browser QA suite did not previously execute the page's module initialization against the same local Worker route. That left a runtime-error gap around the Neon Auth client bootstrap and the public same-origin `/api/auth` boundary.
+
+**Correction:** added a Playwright browser smoke that opens `/auth.html`, waits for network idle, verifies the production auth marker and credential controls, and fails on page-level JavaScript errors. The test does not submit credentials and therefore does not create or mutate production identity data.
+
+**Security:** this closes only the page-runtime regression gap. It does **not** close the CRITICAL two-principal RLS isolation proof or prove an authenticated production portal session.
+
+**QA:** Immediate QA must pass this browser gate on the new revision; Production Smoke must then converge to the same release.
