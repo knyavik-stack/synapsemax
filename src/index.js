@@ -129,7 +129,7 @@ async function recordFunnelEvent(request, context) {
 }
 
 async function immediateAsset(env, request) {
-  const asset = await env.ASSETS.fetch(new Request(new URL('/dex-immediate', request.url), request));
+  const asset = await env.ASSETS.fetch(new Request(new URL('/dex-immediate.html', request.url), request));
   const headers = new Headers(asset.headers);
   headers.set('cache-control', 'no-store');
   headers.set('x-synapsemax-experience', 'immediate');
