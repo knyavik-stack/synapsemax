@@ -126,3 +126,15 @@ test('Client portal page loads without runtime errors', async ({ page }) => {
   await expect(page.locator('#status')).toContainText(/Войти|данные/i);
   expect(pageErrors).toEqual([]);
 });
+
+test('Auth page loads without runtime errors', async ({ page }) => {
+  const pageErrors = [];
+  page.on('pageerror', error => pageErrors.push(error.message));
+  await page.goto('/auth.html', { waitUntil: 'networkidle' });
+  await expect(page).toHaveTitle(/SynapseMax.*вход/i);
+  await expect(page.getByText('Neon Auth / production smoke test')).toBeVisible();
+  await expect(page.locator('#email')).toBeVisible();
+  await expect(page.locator('#password')).toBeVisible();
+  await expect(page.locator('#submit')).toHaveText('Войти');
+  expect(pageErrors).toEqual([]);
+});
