@@ -55,33 +55,17 @@
 | D-054 | Accepted | Immediate QA local Worker readiness is bounded: the startup probe uses `curl --max-time 3`, a 30-second readiness window, captures the Worker log on failure and terminates the background process. This prevents an unresponsive local server from hanging CI indefinitely. |
 | D-055 | Accepted | Local Wrangler development exposed a build-loop defect: the release-marker generator rewrote `src/release.generated.js` on every build even when content was unchanged, causing Wrangler to detect a file change and restart the custom build indefinitely. The generator is now content-idempotent and writes only when the generated content differs. |
 | D-056 | Accepted | Readiness reporting is now split into three scopes: commercial MVP/client-facing diagnostic (~80%), enterprise platform (~55%), and Master-Spec alignment (~62%). Green CI is treated as release evidence only; the CRITICAL tenant-isolation gate remains open until real two-user runtime negative tests pass. |
-
 | D-057 | Accepted | P0 runtime tenant boundary is now implemented in production code via /api/v1/tenant-context: Bearer JWT is mandatory; tenant resolution requires exactly one RLS-visible tenant and exactly one matching active membership; missing, ambiguous or mismatched context fails closed. PR #20 merged after Immediate QA #348 passed all build, regression, Wrangler and Chromium gates. This closes the new application boundary but does not close the CRITICAL two-user production isolation proof until two real Neon Auth sessions perform cross-tenant negative tests without owner/bypass credentials. |
-
 | D-058 | Accepted | Real-session RLS harness merged in PR #21. It uses @neondatabase/auth sign-in and getJWTToken(), then verifies distinct principals, one tenant per principal, matching memberships, cross-tenant result invisibility, own-tenant visibility, unauthenticated rejection and Worker tenant-context consistency. Immediate QA passed. Production proof remains OPEN because current Neon Auth has exactly one user/active principal; manual-only workflow is ready and intentionally does not fabricate a second identity. |
-
 | D-064 | Accepted | 2026-09-20 verification: transactional financial diagnostic RPC is present on the production Neon branch, is `SECURITY INVOKER`, and `authenticated` has EXECUTE; owner invocation without authenticated tenant context fails closed. Documentation is updated to remove the stale "production migration pending" state. This does not close the CRITICAL two-principal tenant-isolation proof or the server-side password-composition gap. |
-
 | D-065 | Accepted | Governance retention layer starts with a non-destructive decision contract. It evaluates explicit retention policy, resource status, due date and active legal holds; it never deletes data. With no configured retention policy in production, no retention period is invented. Runtime deletion/executor evidence remains open. |
-
 | D-067 | Accepted | Password composition is enforced at the SynapseMax Worker auth boundary before requests reach managed Neon Auth. Password hashing remains delegated to Neon Auth/Better Auth; the Worker never stores passwords. |
-
 | D-068 | Accepted | 2026-09-20: defer the real two-principal RLS isolation proof to a later execution gate. It remains a critical security gate and is not reclassified as complete; independent finance, governance, platform and auth work may proceed in parallel. |
-
-## Revisit rule
-
-A major decision can be reopened only when new evidence, a material business requirement, a technical constraint, or a measurable UX problem justifies the change. Reopening a decision requires recording the reason and consequences here.
-
 | D-059 | Accepted | P1 evidence-backed financial diagnostic is implemented as a deterministic contract layer: source/provenance/quality → weighted evidence aggregation → leakage calculation → explicit no-double-counting → evidence-calibrated scenarios → 5-year NPV → persisted session/snapshot/evidence/result/lineage. Scenario factors are uncertainty bands, not probabilities. |
-
-
 | D-060 | Accepted | Verified production persistence schema against Neon on 2026-09-19. `diagnostic_sessions.input_snapshot_id` exists and is now populated at session creation so the session↔snapshot relationship is complete from the first write. Multi-step Data API persistence remains non-atomic; transactional RPC/migration is a separate security/integrity hardening item and is not claimed as solved by this change. |
-
 | D-061 | Accepted | P2 financial decision engine is integrated into the evidence-backed diagnostic. The diagnostic now produces a single financial-decision-v1 output covering TCO, NPV, ROI, payback, margin impact and sensitivity; the same decision object is persisted in each scenario's assumptions for traceability. |
 | D-062 | Accepted | Diagnostic persistence now uses tenant-scoped idempotency keys, explicit session states (persisting/completed/failed) and audit events for start/completion/failure. This reduces duplicate writes and makes partial failures observable, but does not replace a database transaction; transactional RPC remains the final atomicity hardening step. |
-
 | D-063 | Accepted | Transactional diagnostic persistence is now implemented as a reviewed migration + Worker RPC-first path. The RPC was syntax-tested on an isolated Neon branch and correctly fails closed without authenticated tenant context. Production application of this DDL remains a controlled migration gate; until applied, the Worker falls back only on HTTP 404 to the idempotent multi-write path. |
-
 
 ## D-069 — Client Portal V1 and commercial funnel boundary — 2026-09-20
 
@@ -89,9 +73,7 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 
 **Security:** two-principal production RLS isolation proof remains deferred by D-068 and is not replaced by portal QA.
 
-
 | D-070 | Accepted | Applied and verified production `commercial_funnel_events` ledger on 2026-09-20. The table is append-only, tenant-scoped through RLS, indexed by tenant/time, and protected by an append-only trigger. End-to-end Worker deployment convergence remains a separate verification step; two-principal RLS proof remains deferred by D-068. |
-
 
 ## D-071 — Auth proxy path/origin correction — 2026-09-21
 
@@ -105,7 +87,6 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **QA:** added deterministic target-path regression coverage to `scripts/test-auth-password-policy.mjs`. Production HTTP verification remains required after Cloudflare Workers Builds deploys the new commit.
 
 **Sources:** `src/auth-proxy.js`, `scripts/test-auth-password-policy.mjs`.
-
 
 ## D-072 — Immediate QA syntax gate failure — 2026-09-21
 
@@ -179,3 +160,15 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **Security impact:** strengthens the application authorization boundary and reduces reliance on downstream rejection for malformed/ambiguous identity. This does not replace PostgreSQL RLS and does not close the two-principal isolation proof.
 
 **Next gate:** Immediate QA + Production Smoke on the new revision, followed by authenticated Portal E2E when a real signed-in browser session is available.
+
+## D-078 — 2026-09-22 — Preserve explicit .html production routes
+
+**Status:** IMPLEMENTED
+
+**Finding:** Production Smoke converged to release `9d57b42`, but failed on `/portal.html` with HTTP 307. Cloudflare Workers Static Assets defaults to `html_handling: "auto-trailing-slash"`, where explicit `.html` requests are redirected to canonical extensionless paths; this is expected platform behavior, not a missing portal artifact.
+
+**Correction:** set `assets.html_handling` to `"none"` in `wrangler.jsonc`, preserving explicit `.html` routes for `portal.html`, `auth.html` and `rls-smoke.html`. This matches the production smoke contract and avoids unnecessary redirects on operational routes.
+
+**QA:** Immediate QA must validate Wrangler configuration and browser delivery after the config change. Production Smoke must converge to the new revision and verify HTTP 200 for the explicit operational pages.
+
+**Source:** Cloudflare Workers Static Assets HTML handling documentation (current as of 2026-04-23).
