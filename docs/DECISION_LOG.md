@@ -167,3 +167,15 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **Security:** this closes only the page-runtime regression gap. It does **not** close the CRITICAL two-principal RLS isolation proof or prove an authenticated production portal session.
 
 **QA:** Immediate QA must pass this browser gate on the new revision; Production Smoke must then converge to the same release.
+
+## D-077 — 2026-09-22 — Portal read boundary requires resolved tenant context
+
+**Status:** IMPLEMENTED
+
+**Finding:** Portal summary and funnel-summary previously checked only for the syntactic presence of a Bearer header before calling the Neon Data API. RLS remains authoritative, but allowing malformed/unknown principals to reach the data boundary makes the Worker contract weaker and less explicit than the tenant-context boundary already used by write paths.
+
+**Correction:** both read endpoints now resolve the authenticated tenant context first and fail closed before any tenant-scoped Data API read. The portal contract test locks this requirement into CI.
+
+**Security impact:** strengthens the application authorization boundary and reduces reliance on downstream rejection for malformed/ambiguous identity. This does not replace PostgreSQL RLS and does not close the two-principal isolation proof.
+
+**Next gate:** Immediate QA + Production Smoke on the new revision, followed by authenticated Portal E2E when a real signed-in browser session is available.
