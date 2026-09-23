@@ -128,4 +128,8 @@ assert.ok(html.includes('Сначала — где теряется прибыл
 assert.match(workerSource, /request\.method === 'POST' && url\.pathname === '\/api\/v1\/profit-leakage'/);
 assert.match(workerSource, /diagnoseProfitLeakage\(await request\.json\(\)\)/);
 
+const routingContract = readFileSync(resolve(root, 'src/index.js'), 'utf8');
+assert.match(routingContract, /new Request\(new URL\('\/dex-immediate\.html', request\.url\)/);
+assert.doesNotMatch(routingContract, /new Request\(new URL\('\/dex-immediate', request\.url\)/);
+
 console.log('Immediate smoke + artifact + financial diagnostic contract: PASS');
