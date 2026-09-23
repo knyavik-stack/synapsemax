@@ -139,7 +139,7 @@ function buildPersistencePayload({ diagnostic, tenantContext, input, sessionId, 
     audit_events: [
       {
         id: crypto.randomUUID(),
-        actor_type: 'principal',
+        actor_type: 'user',
         actor_id: tenantContext.principalId ?? 'authenticated-principal',
         action: 'financial_diagnostic.started',
         resource_type: 'diagnostic_session',
