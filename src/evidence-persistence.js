@@ -151,7 +151,7 @@ function buildPersistencePayload({ diagnostic, tenantContext, input, sessionId, 
       },
       {
         id: crypto.randomUUID(),
-        actor_type: 'principal',
+        actor_type: 'user',
         actor_id: tenantContext.principalId ?? 'authenticated-principal',
         action: 'financial_diagnostic.completed',
         resource_type: 'diagnostic_session',
@@ -205,7 +205,7 @@ async function persistLegacy({ authorization, tenantContext, input, diagnostic, 
     }, authorization);
 
     await apiWrite('/audit_events', {
-      id: crypto.randomUUID(), tenant_id: tenantContext.tenantId, actor_type: 'principal',
+      id: crypto.randomUUID(), tenant_id: tenantContext.tenantId, actor_type: 'user',
       actor_id: tenantContext.principalId ?? 'authenticated-principal', action: 'financial_diagnostic.started',
       resource_type: 'diagnostic_session', resource_id: sessionId, occurred_at: now,
       request_id: requestId, result: 'started',
@@ -257,7 +257,7 @@ async function persistLegacy({ authorization, tenantContext, input, diagnostic, 
 
     await apiRequest('/diagnostic_sessions?id=eq.' + encodeURIComponent(sessionId), { method: 'PATCH', body: { status: 'completed' }, authorization });
     await apiWrite('/audit_events', {
-      id: crypto.randomUUID(), tenant_id: tenantContext.tenantId, actor_type: 'principal',
+      id: crypto.randomUUID(), tenant_id: tenantContext.tenantId, actor_type: 'user',
       actor_id: tenantContext.principalId ?? 'authenticated-principal', action: 'financial_diagnostic.completed',
       resource_type: 'diagnostic_session', resource_id: sessionId, occurred_at: new Date().toISOString(),
       request_id: requestId, result: 'success',
@@ -269,7 +269,7 @@ async function persistLegacy({ authorization, tenantContext, input, diagnostic, 
     try {
       await apiRequest('/diagnostic_sessions?id=eq.' + encodeURIComponent(sessionId), { method: 'PATCH', body: { status: 'failed' }, authorization });
       await apiWrite('/audit_events', {
-        id: crypto.randomUUID(), tenant_id: tenantContext.tenantId, actor_type: 'principal',
+        id: crypto.randomUUID(), tenant_id: tenantContext.tenantId, actor_type: 'user',
         actor_id: tenantContext.principalId ?? 'authenticated-principal', action: 'financial_diagnostic.failed',
         resource_type: 'diagnostic_session', resource_id: sessionId, occurred_at: new Date().toISOString(),
         request_id: requestId, result: 'failure', reason_code: error instanceof Error ? error.constructor.name : 'UnknownError',
