@@ -15,6 +15,7 @@ const requiredIndex = [
   '/api/v1/portal/funnel',
   'commercial_funnel_events',
   '/api/v1/portal/funnel-summary',
+  "actor_type: 'user'",
 ];
 
 for (const fragment of requiredIndex) {

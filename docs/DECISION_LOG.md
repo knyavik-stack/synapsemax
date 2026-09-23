@@ -186,6 +186,18 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **Root cause class:** Worker → Static Assets route mismatch introduced/left inconsistent with the explicit `.html` asset handling policy recorded in D-078.
 
 
+## D-081 — 2026-09-23 — Audit actor type aligned with governance contract
+
+**Status:** IMPLEMENTED
+
+**Finding:** authenticated diagnostic and commercial-funnel write paths emitted `actor_type: 'principal'`, while the production audit schema and governance data contract explicitly permit only `user | service | connector | system`. This mismatch was not exercised by the public smoke because those authenticated write paths require a real tenant principal.
+
+**Correction:** authenticated Neon Auth principals are recorded as `actor_type: 'user'`; the stable principal identifier remains in `actor_id`. Portal contract regression now locks this value into CI.
+
+**Security / data impact:** this is a correctness fix at the audit persistence boundary. It does not weaken RLS, change tenant resolution, or broaden grants. It prevents authenticated financial-diagnostic/funnel writes from failing at the database CHECK constraint when real user traffic reaches the persistence layer.
+
+**QA:** Immediate QA must pass on the branch; Production Smoke must converge to the merged release. The two-principal RLS gate remains separately open until real authenticated production identities are exercised.
+
 ## D-080 — 2026-09-23 — Immediate QA root-routing contract aligned with explicit HTML assets
 
 **Status:** IMPLEMENTED
