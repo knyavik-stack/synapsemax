@@ -44,10 +44,9 @@ jobs:
         run: |
           grep -q 'run_worker_first' wrangler.jsonc
           grep -q '"run_worker_first": true' wrangler.jsonc
-          grep -q "new Request(new URL('/dex-immediate'," src/index.js
-          ! grep -q 'ASSETS.fetch.*dex-immediate.html' src/index.js
+          grep -q "new Request(new URL('/dex-immediate.html'," src/index.js
+          ! grep -q "new Request(new URL('/dex-immediate'," src/index.js
           echo 'Root routing contract: PASS'
-
       - name: Check artifact size budget
         run: |
           total_kb=$(du -sk dist | cut -f1)
