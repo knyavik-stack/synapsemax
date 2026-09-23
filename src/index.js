@@ -98,7 +98,7 @@ async function recordFunnelEvent(request, context) {
     const requestId = crypto.randomUUID();
     const payload = {
       tenant_id: context.tenantId,
-      actor_type: 'principal',
+      actor_type: 'user',
       actor_id: context.principalId ?? 'authenticated',
       event_name: input.eventName,
       request_id: requestId,
