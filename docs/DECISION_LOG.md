@@ -172,3 +172,16 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **QA:** Immediate QA must validate Wrangler configuration and browser delivery after the config change. Production Smoke must converge to the new revision and verify HTTP 200 for the explicit operational pages.
 
 **Source:** Cloudflare Workers Static Assets HTML handling documentation (current as of 2026-04-23).
+
+## D-079 — 2026-09-22 — Immediate root must fetch the explicit HTML asset
+
+**Status:** IMPLEMENTED
+
+**Finding:** Latest main release `ab0ffd97` failed both Immediate QA and Production Smoke because the Worker returned HTTP 404 for `/`. The failure reproduces locally: `immediateAsset()` requested `/dex-immediate` while `wrangler.jsonc` explicitly sets `assets.html_handling` to `"none"`, so the extensionless asset path is not canonicalized to `dex-immediate.html`.
+
+**Correction:** `src/index.js` now requests `/dex-immediate.html` for the root Immediate experience. No production data, identity state, database schema, or security boundary is changed.
+
+**QA expectation:** Immediate QA must complete the local Worker/browser gate; Production Smoke must converge to the new release and verify `/` returns HTTP 200 with the Immediate experience headers and markers.
+
+**Root cause class:** Worker → Static Assets route mismatch introduced/left inconsistent with the explicit `.html` asset handling policy recorded in D-078.
+
