@@ -185,3 +185,18 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 
 **Root cause class:** Worker → Static Assets route mismatch introduced/left inconsistent with the explicit `.html` asset handling policy recorded in D-078.
 
+
+## D-080 — 2026-09-23 — Immediate QA root-routing contract aligned with explicit HTML assets
+
+**Status:** IMPLEMENTED
+
+**Finding:** Production Smoke on the repaired release passed the live `/` check, but Immediate QA remained red because its root-routing assertion still required the pre-D-079 implementation (`/dex-immediate`) and explicitly rejected `dex-immediate.html`. The test contract had become stale relative to the accepted runtime correction in D-079.
+
+**Correction:** Immediate QA now asserts that the Worker requests `/dex-immediate.html` and explicitly rejects the obsolete extensionless request. This restores consistency between runtime code, `assets.html_handling: "none"`, D-079 and the CI release gate.
+
+**Security / data impact:** none. No database, identity, tenant-isolation, authorization or production data state changed.
+
+**QA:** rerun Immediate QA and require the same commit to pass before considering the release gate green. Production Smoke already passed for the corresponding release.
+
+**Root cause class:** stale CI contract after an intentional production routing correction.
+
