@@ -212,3 +212,15 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 
 **Root cause class:** stale CI contract after an intentional production routing correction.
 
+
+## D-082 — 2026-09-25 — RLS runtime gate supports verified JWT injection
+
+**Status:** IMPLEMENTED
+
+**Finding:** The production RLS isolation harness depended exclusively on email/password sign-in. Production Neon Auth requires verified email/OTP, so a CI run cannot safely manufacture a second identity without introducing an invalid test shortcut.
+
+**Correction:** `scripts/rls-runtime-smoke.mjs` accepts a verified Neon Auth JWT for each principal through GitHub Actions secrets, while retaining email/password as a fallback. JWT claims are used only to correlate the principal; tenant authorization remains fully exercised by the real Neon Data API + PostgreSQL RLS path.
+
+**Security boundary:** no direct mutation of `neon_auth.user`, `session` or verification state is permitted as test evidence. Owner/bypass connections remain excluded from isolation proof.
+
+**Remaining gate:** two independent verified principals with distinct tenant memberships must execute the workflow and produce the bidirectional negative-read proof plus Worker tenant-context consistency. Until that run succeeds, the CRITICAL tenant-isolation gate remains OPEN.
