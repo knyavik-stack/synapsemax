@@ -19,10 +19,12 @@ if ((!A_JWT && (!A_EMAIL || !A_PASSWORD)) || (!B_JWT && (!B_EMAIL || !B_PASSWORD
 async function login(email, password, jwt) {
   const auth = createAuthClient(AUTH_URL);
   if (jwt) {
-    const result = await auth.getSession();
-    const user = result?.data?.user || result?.user;
-    if (!user?.id) throw new Error(`JWT mode requires a valid authenticated Neon Auth client session for ${email || 'principal'}`);
-    return { email: email || user.email, userId: user.id, token: jwt, auth };
+    const payload = jwt.split('.')[1];
+    if (!payload) throw new Error(`Invalid JWT format for ${email || 'principal'}`);
+    const claims = JSON.parse(Buffer.from(payload, 'base64url').toString('utf8'));
+    const userId = claims.sub || claims.user_id || claims.userId;
+    if (!userId) throw new Error(`JWT mode requires a subject claim for ${email || 'principal'}`);
+    return { email: email || claims.email || 'jwt-principal', userId, token: jwt, auth };
   }
   const result = await auth.signIn.email({ email, password });
   if (result?.error) throw new Error(`sign-in failed for ${email}: ${result.error.message || 'unknown error'}`);
