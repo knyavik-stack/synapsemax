@@ -212,3 +212,20 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 
 **Root cause class:** stale CI contract after an intentional production routing correction.
 
+
+
+## D-083 — 2026-09-25 — Five-year financial economics contract
+
+**Status:** IMPLEMENTED on branch `feat/5y-financial-economics`
+
+**Problem:** H1 financial diagnostics already expose annual net value, ROI, payback and OPEX-aware economics, but the documented enterprise gap remained a transparent 5-year TCO/NPV horizon. Without an explicit horizon contract, long-term economics would remain an informal spreadsheet exercise and could hide the effect of OPEX escalation, value growth or discount rate.
+
+**Correction:** added `src/financial-horizon.js` with contract `financial-horizon-v1` and regression coverage in `scripts/test-financial-horizon.mjs`. The model independently projects annual recoverable value and OPEX, discounts net cash flow, reports nominal TCO, NPV, five-year ROI and discounted payback year.
+
+**Financial boundary:** the model is a planning/sensitivity instrument, not a forecast. Growth, OPEX escalation and discount rate are explicit assumptions; no hidden probability or confidence multiplier changes the result.
+
+**Security / governance:** the module is pure calculation logic and performs no persistence, identity, tenant mutation or destructive action.
+
+**QA acceptance:** contract test covers five-year horizon length, deterministic year-over-year growth, OPEX calculation, positive NPV/payback under the controlled fixture and invalid-rate/negative-value rejection. It is registered as `npm run test:finance-horizon`.
+
+**Next finance gate:** connect this contract to the evidence-backed diagnostic/decision object and expose conservative/base/optimistic horizon assumptions without duplicating the financial calculation contract.

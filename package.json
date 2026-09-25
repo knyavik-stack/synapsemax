@@ -17,7 +17,8 @@
     "test:finance-decision": "node scripts/test-financial-decision-engine.mjs",
     "test:governance-retention": "node scripts/test-governance-retention.mjs",
     "test:auth-password": "node scripts/test-auth-password-policy.mjs",
-    "test:portal": "node scripts/test-portal-contract.mjs"
+    "test:portal": "node scripts/test-portal-contract.mjs",
+    "test:finance-horizon": "node scripts/test-financial-horizon.mjs"
   },
   "devDependencies": {
     "wrangler": "4.126.0",
