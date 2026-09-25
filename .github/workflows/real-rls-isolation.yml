@@ -18,6 +18,8 @@ jobs:
           NEON_DATA_API_URL: https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1
           SYNAPSEMAX_RLS_A_EMAIL: ${{ secrets.SYNAPSEMAX_RLS_A_EMAIL }}
           SYNAPSEMAX_RLS_A_PASSWORD: ${{ secrets.SYNAPSEMAX_RLS_A_PASSWORD }}
+          SYNAPSEMAX_RLS_A_JWT: ${{ secrets.SYNAPSEMAX_RLS_A_JWT }}
           SYNAPSEMAX_RLS_B_EMAIL: ${{ secrets.SYNAPSEMAX_RLS_B_EMAIL }}
           SYNAPSEMAX_RLS_B_PASSWORD: ${{ secrets.SYNAPSEMAX_RLS_B_PASSWORD }}
+          SYNAPSEMAX_RLS_B_JWT: ${{ secrets.SYNAPSEMAX_RLS_B_JWT }}
         run: npm run test:rls-runtime
