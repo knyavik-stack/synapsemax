@@ -4,15 +4,26 @@ const AUTH_URL = process.env.NEON_AUTH_URL;
 const DATA_API_URL = process.env.NEON_DATA_API_URL;
 const A_EMAIL = process.env.SYNAPSEMAX_RLS_A_EMAIL;
 const A_PASSWORD = process.env.SYNAPSEMAX_RLS_A_PASSWORD;
+const A_JWT = process.env.SYNAPSEMAX_RLS_A_JWT;
 const B_EMAIL = process.env.SYNAPSEMAX_RLS_B_EMAIL;
 const B_PASSWORD = process.env.SYNAPSEMAX_RLS_B_PASSWORD;
+const B_JWT = process.env.SYNAPSEMAX_RLS_B_JWT;
 
-for (const [name, value] of Object.entries({NEON_AUTH_URL:AUTH_URL,NEON_DATA_API_URL:DATA_API_URL,A_EMAIL,B_EMAIL,A_PASSWORD,B_PASSWORD})) {
+for (const [name, value] of Object.entries({NEON_AUTH_URL:AUTH_URL,NEON_DATA_API_URL:DATA_API_URL})) {
   if (!value) throw new Error(`Missing required test secret/env: ${name}`);
 }
+if ((!A_JWT && (!A_EMAIL || !A_PASSWORD)) || (!B_JWT && (!B_EMAIL || !B_PASSWORD))) {
+  throw new Error('Each principal requires either a verified-session JWT or an email/password pair');
+}
 
-async function login(email, password) {
+async function login(email, password, jwt) {
   const auth = createAuthClient(AUTH_URL);
+  if (jwt) {
+    const result = await auth.getSession();
+    const user = result?.data?.user || result?.user;
+    if (!user?.id) throw new Error(`JWT mode requires a valid authenticated Neon Auth client session for ${email || 'principal'}`);
+    return { email: email || user.email, userId: user.id, token: jwt, auth };
+  }
   const result = await auth.signIn.email({ email, password });
   if (result?.error) throw new Error(`sign-in failed for ${email}: ${result.error.message || 'unknown error'}`);
   const session = await auth.getSession();
@@ -44,8 +55,8 @@ function assertStatus(label, actual, expected) {
   console.log(`PASS ${label}: HTTP ${actual}`);
 }
 
-const A = await login(A_EMAIL, A_PASSWORD);
-const B = await login(B_EMAIL, B_PASSWORD);
+const A = await login(A_EMAIL, A_PASSWORD, A_JWT);
+const B = await login(B_EMAIL, B_PASSWORD, B_JWT);
 
 console.log(`Authenticated A user=${A.userId}`);
 console.log(`Authenticated B user=${B.userId}`);
