@@ -1,5 +1,6 @@
 import { diagnoseProfitLeakage } from './immediate-logic.js';
 import { calculateFinancialDecision } from './financial-decision-engine.js';
+import { calculateFinancialHorizon } from './financial-horizon.js';
 
 export const FINANCIAL_DIAGNOSTIC_CONTRACT = 'p1-evidence-backed-v1';
 
@@ -128,19 +129,29 @@ export function runEvidenceBackedDiagnostic(input = {}) {
     }];
   }));
 
-  const fiveYear = {};
-  for (const scenario of SCENARIOS) {
+  const horizonYears = Number(input.horizonYears ?? 5);
+  const discountRate = Math.max(0, Math.min(0.5, Number(input.discountRate ?? 0.12)));
+  const valueGrowthRate = Math.max(-0.99, Math.min(2, Number(input.valueGrowthRate ?? 0)));
+  const fiveYear = Object.fromEntries(SCENARIOS.map((scenario) => {
     const annualNet = recalibratedScenarios[scenario].annualValue;
-    const discountRate = Math.max(0, Math.min(0.5, Number(input.discountRate ?? 0.12)));
-    let npv = -Number(result.upfrontInvestment ?? 0);
-    for (let year = 1; year <= 5; year += 1) npv += annualNet / ((1 + discountRate) ** year);
-    fiveYear[scenario] = {
-      undiscountedValue: Math.round(annualNet * 5 - Number(result.upfrontInvestment ?? 0)),
-      npv: Math.round(npv),
+    const horizon = calculateFinancialHorizon({
+      annualRecoverableValue: annualNet,
+      upfrontInvestment: Number(result.upfrontInvestment ?? 0),
+      annualOpex: 0,
+      valueGrowthRate,
+      opexEscalationRate: 0,
       discountRate,
-      horizonYears: 5,
-    };
-  }
+      years: horizonYears,
+    });
+    return [scenario, {
+      undiscountedValue: horizon.totals.nominalNetValue - Number(result.upfrontInvestment ?? 0),
+      npv: horizon.totals.npv,
+      discountRate,
+      valueGrowthRate,
+      horizonYears,
+      cashFlows: horizon.cashFlows,
+    }];
+  }));
 
   const decision = calculateFinancialDecision({
     recoverableMonthlyValue: Number(result.recoverableMonthlyValue ?? 0),
