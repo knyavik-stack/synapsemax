@@ -720,3 +720,28 @@ Instrument durable funnel events and expose ROI / payback / annual net effect / 
 Также `auth.html` переведён на same-origin `/api/auth`, чтобы production Auth проходил через Worker boundary, включая серверную password policy.
 
 Это исправление является обязательным pre-demo gate: без него Portal V1 был визуально готов, но не был реально тестируемым пользователем.
+
+
+## 12.13 — FIVE-YEAR FINANCIAL HORIZON — 2026-09-28
+
+**Status: MERGED / IMMEDIATE QA VERIFIED**
+
+PR #35 merged as `302781984254d8699b3124f397d2794d2f720fdf`.
+
+The canonical `financial-horizon-v1` contract is now integrated into both `financial-decision-v1` and evidence-backed scenario economics. The same horizon math supplies yearly cash flows and NPV, preventing duplicated long-horizon calculations across the finance layer.
+
+Immediate QA run `36408639589` completed **SUCCESS**, including Chromium browser UX gate. Cloudflare Workers preview deployment also reported successful deployment for the PR head before merge.
+
+Financial boundary remains explicit: five-year growth, OPEX escalation and discount rate are planning assumptions, not forecasts or probabilities.
+
+## 12.14 — GOVERNANCE RETENTION EXECUTOR SAFETY BOUNDARY — 2026-09-28
+
+**Status: IMPLEMENTED / DRY-RUN ONLY**
+
+Added `src/governance-retention-executor.js` and `scripts/test-governance-retention-executor.mjs`.
+
+The executor converts `governance-retention-v1` decisions into auditable execution plans and deliberately supports only `dry-run`. It requires a request ID, reuses legal-hold blocking, emits an audit-event envelope and rejects any live/destructive execution mode.
+
+**Why no DELETE was added:** the current production schema contains append-only resources and no configured production retention policy/legal deletion semantics. Implementing deletion now would either violate append-only invariants or invent business/legal rules.
+
+**Next gate:** a true destructive executor requires an explicit retention policy assignment plus reviewed transactional SQL semantics for each resource type, dependency ordering, legal-hold re-check, idempotency, tenant/RLS enforcement and post-action audit evidence.

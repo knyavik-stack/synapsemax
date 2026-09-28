@@ -229,3 +229,21 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 **QA acceptance:** contract test covers five-year horizon length, deterministic year-over-year growth, OPEX calculation, positive NPV/payback under the controlled fixture and invalid-rate/negative-value rejection. It is registered as `npm run test:finance-horizon`.
 
 **Next finance gate:** connect this contract to the evidence-backed diagnostic/decision object and expose conservative/base/optimistic horizon assumptions without duplicating the financial calculation contract. The integration is now implemented in `src/evidence-diagnostic.js`: each scenario uses `calculateFinancialHorizon()` as the canonical five-year cash-flow/NPV calculation and exposes annual cash-flow rows. Existing `financial-decision-v1` remains the broader TCO/margin decision contract.
+
+
+## D-084 — 2026-09-28 — Retention executor safety boundary
+
+**Status:** IMPLEMENTED / NON-DESTRUCTIVE
+
+Added `src/governance-retention-executor.js` with contract `governance-retention-executor-v1`.
+
+The executor currently supports **dry-run only** and converts the existing `governance-retention-v1` decision into an auditable execution plan:
+- explicit `requestId` is mandatory;
+- active legal holds remain blocking;
+- `eligible_for_review` never becomes an implicit delete;
+- every plan contains an audit-event envelope;
+- any live/destructive execution mode is rejected until a reviewed database executor exists.
+
+**Security decision:** no DELETE/UPDATE path was introduced. This is intentional because the current production schema marks evidence, snapshots, calculation results, lineage and audit events append-only, while retention policy assignment is not configured as a production legal/business rule.
+
+**Next gate:** if/when an explicit retention policy and legally approved deletion semantics are supplied, implement a transactionally reviewed resource-specific executor with dependency ordering, legal-hold re-check, tenant/RLS enforcement, idempotency and post-action audit evidence.
