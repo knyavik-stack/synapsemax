@@ -752,3 +752,12 @@ The executor converts `governance-retention-v1` decisions into auditable executi
 **Status: ACCEPTED / CLOSED FOR CURRENT EXECUTION**
 
 Historical R-02/D-068 language about the deferred two-principal RLS proof is retained as historical context, but the operational roadmap now reflects the project owner's explicit acceptance of the RLS boundary and instruction to proceed. This is not a claim that an additional synthetic-principal production test was executed. It is an execution-status decision. Any future modification to tenant identity, membership resolution or RLS policy reopens the runtime security gate.
+
+
+## 12.16 — INTEGRATION ADAPTER SECURITY HARDENING — 2026-09-28
+
+**Status: IMPLEMENTED / REGRESSION COVERAGE ADDED**
+
+The generic HTTP integration adapter was hardened before allowing it to become a production integration foundation. The adapter now rejects private/local endpoint ranges, requires same-origin relative request paths, disables automatic redirects so Bearer credentials cannot be forwarded to another origin, and enforces a bounded response size. Regression tests cover private IPs, metadata/link-local address space, external URL injection, redirect handling and oversized responses.
+
+**Security boundary:** this closes adapter-level SSRF/credential-forwarding classes covered by the contract. It does not prove interoperability with a real 1C/ERP/CRM/SAP endpoint; that requires a controlled external test environment and real integration credentials.
