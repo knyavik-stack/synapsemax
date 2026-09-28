@@ -745,3 +745,10 @@ The executor converts `governance-retention-v1` decisions into auditable executi
 **Why no DELETE was added:** the current production schema contains append-only resources and no configured production retention policy/legal deletion semantics. Implementing deletion now would either violate append-only invariants or invent business/legal rules.
 
 **Next gate:** a true destructive executor requires an explicit retention policy assignment plus reviewed transactional SQL semantics for each resource type, dependency ordering, legal-hold re-check, idempotency, tenant/RLS enforcement and post-action audit evidence.
+
+
+## 12.15 — RLS STATUS RECONCILIATION — 2026-09-28
+
+**Status: ACCEPTED / CLOSED FOR CURRENT EXECUTION**
+
+Historical R-02/D-068 language about the deferred two-principal RLS proof is retained as historical context, but the operational roadmap now reflects the project owner's explicit acceptance of the RLS boundary and instruction to proceed. This is not a claim that an additional synthetic-principal production test was executed. It is an execution-status decision. Any future modification to tenant identity, membership resolution or RLS policy reopens the runtime security gate.
