@@ -1,5 +1,6 @@
 const CONTRACT = 'financial-decision-v1';
 const SCENARIOS = ['conservative', 'base', 'optimistic'];
+import { calculateFinancialHorizon } from './financial-horizon.js';
 
 function money(v, name) {
   const n = Number(v ?? 0);
@@ -28,6 +29,8 @@ export function calculateFinancialDecision(input = {}) {
   const baselineMarginPercent = money(input.baselineMarginPercent, 'baselineMarginPercent');
   if (baselineMarginPercent > 100) throw new Error('baselineMarginPercent must be <= 100');
   const discountRate = rate(input.discountRate, 'discountRate');
+  const valueGrowthRate = rate(input.valueGrowthRate ?? 0, 'valueGrowthRate');
+  const opexEscalationRate = rate(input.opexEscalationRate ?? 0, 'opexEscalationRate');
   const horizonYears = Math.max(1, Math.floor(Number(input.horizonYears ?? 5)));
   if (!Number.isFinite(horizonYears) || horizonYears > 30) throw new Error('horizonYears must be between 1 and 30');
 
@@ -36,8 +39,16 @@ export function calculateFinancialDecision(input = {}) {
   const annualNetBenefit = baseNetMonthlyBenefit * 12;
   const totalTco = upfrontInvestment + monthlyRecurringCost * 12 * horizonYears;
   const undiscountedNetCashBenefit = annualNetBenefit * horizonYears - upfrontInvestment;
-  let npv = -upfrontInvestment;
-  for (let year = 1; year <= horizonYears; year += 1) npv += annualNetBenefit / ((1 + discountRate) ** year);
+  const baseHorizon = calculateFinancialHorizon({
+    annualRecoverableValue: annualNetBenefit,
+    upfrontInvestment,
+    annualOpex: 0,
+    valueGrowthRate,
+    opexEscalationRate,
+    discountRate,
+    years: horizonYears,
+  });
+  const npv = baseHorizon.totals.npv;
   const roiPercent = upfrontInvestment ? ((annualNetBenefit - upfrontInvestment) / upfrontInvestment) * 100 : null;
   const paybackMonths = baseNetMonthlyBenefit > 0 ? upfrontInvestment / baseNetMonthlyBenefit : null;
   const marginUpliftPoints = monthlyRevenue > 0 ? (baseNetMonthlyBenefit / monthlyRevenue) * 100 : null;
@@ -50,15 +61,29 @@ export function calculateFinancialDecision(input = {}) {
   const scenarios = Object.fromEntries(SCENARIOS.map((name) => {
     const monthly = baseNetMonthlyBenefit * factors[name];
     const annual = monthly * 12;
-    let scenarioNpv = -upfrontInvestment;
-    for (let year = 1; year <= horizonYears; year += 1) scenarioNpv += annual / ((1 + discountRate) ** year);
-    return [name, { factor: factors[name], monthlyNetBenefit: Math.round(monthly), annualNetBenefit: Math.round(annual), npv: Math.round(scenarioNpv), roiPercent: upfrontInvestment ? Math.round(((annual - upfrontInvestment) / upfrontInvestment) * 100) : null, paybackMonths: monthly > 0 ? Math.round(upfrontInvestment / monthly * 10) / 10 : null }];
+    const scenarioHorizon = calculateFinancialHorizon({
+      annualRecoverableValue: annual,
+      upfrontInvestment,
+      annualOpex: 0,
+      valueGrowthRate,
+      opexEscalationRate,
+      discountRate,
+      years: horizonYears,
+    });
+    return [name, {
+      factor: factors[name],
+      monthlyNetBenefit: Math.round(monthly),
+      annualNetBenefit: Math.round(annual),
+      npv: scenarioHorizon.totals.npv,
+      roiPercent: upfrontInvestment ? Math.round(((annual - upfrontInvestment) / upfrontInvestment) * 100) : null,
+      paybackMonths: monthly > 0 ? Math.round(upfrontInvestment / monthly * 10) / 10 : null,
+    }];
   }));
   return {
     contractVersion: CONTRACT,
     facts: { recoverableMonthlyValue: Math.round(recoverableMonthlyValue), upfrontInvestment: Math.round(upfrontInvestment), monthlyRecurringCost: Math.round(monthlyRecurringCost), monthlyRevenue: Math.round(monthlyRevenue) },
-    assumptions: { discountRate, horizonYears, baselineMarginPercent, scenarioFactors: factors },
-    economics: { baseNetMonthlyBenefit: Math.round(baseNetMonthlyBenefit), annualNetBenefit: Math.round(annualNetBenefit), totalTco: Math.round(totalTco), undiscountedNetCashBenefit: Math.round(undiscountedNetCashBenefit), npv: Math.round(npv), roiPercent: roiPercent == null ? null : Math.round(roiPercent), paybackMonths: paybackMonths == null ? null : Math.round(paybackMonths * 10) / 10, marginUpliftPoints: marginUpliftPoints == null ? null : Math.round(marginUpliftPoints * 10) / 10, projectedMarginPercent: projectedMarginPercent == null ? null : Math.round(projectedMarginPercent * 10) / 10 },
+    assumptions: { discountRate, horizonYears, baselineMarginPercent, valueGrowthRate, opexEscalationRate, scenarioFactors: factors },
+    economics: { fiveYearCashFlows: baseHorizon.cashFlows, baseNetMonthlyBenefit: Math.round(baseNetMonthlyBenefit), annualNetBenefit: Math.round(annualNetBenefit), totalTco: Math.round(totalTco), undiscountedNetCashBenefit: Math.round(undiscountedNetCashBenefit), npv: Math.round(npv), roiPercent: roiPercent == null ? null : Math.round(roiPercent), paybackMonths: paybackMonths == null ? null : Math.round(paybackMonths * 10) / 10, marginUpliftPoints: marginUpliftPoints == null ? null : Math.round(marginUpliftPoints * 10) / 10, projectedMarginPercent: projectedMarginPercent == null ? null : Math.round(projectedMarginPercent * 10) / 10 },
     scenarios,
     sensitivity: { recoverableValueMinus10Percent: Math.round((recoverableMonthlyValue * 0.9 - monthlyRecurringCost) * 12), recoverableValuePlus10Percent: Math.round((recoverableMonthlyValue * 1.1 - monthlyRecurringCost) * 12), recurringCostPlus10Percent: Math.round((recoverableMonthlyValue - monthlyRecurringCost * 1.1) * 12) },
     classification: { facts: ['recoverableMonthlyValue', 'upfrontInvestment', 'monthlyRecurringCost'], assumptions: ['discountRate', 'horizonYears', 'baselineMarginPercent', 'scenarioFactors'], scenarioDependent: true },
