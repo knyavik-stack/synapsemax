@@ -228,4 +228,4 @@ Client Portal V1 merged after full Immediate QA including browser UX gate. Porta
 
 **QA acceptance:** contract test covers five-year horizon length, deterministic year-over-year growth, OPEX calculation, positive NPV/payback under the controlled fixture and invalid-rate/negative-value rejection. It is registered as `npm run test:finance-horizon`.
 
-**Next finance gate:** connect this contract to the evidence-backed diagnostic/decision object and expose conservative/base/optimistic horizon assumptions without duplicating the financial calculation contract.
+**Next finance gate:** connect this contract to the evidence-backed diagnostic/decision object and expose conservative/base/optimistic horizon assumptions without duplicating the financial calculation contract. The integration is now implemented in `src/evidence-diagnostic.js`: each scenario uses `calculateFinancialHorizon()` as the canonical five-year cash-flow/NPV calculation and exposes annual cash-flow rows. Existing `financial-decision-v1` remains the broader TCO/margin decision contract.
