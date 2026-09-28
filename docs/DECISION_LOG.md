@@ -247,3 +247,12 @@ The executor currently supports **dry-run only** and converts the existing `gove
 **Security decision:** no DELETE/UPDATE path was introduced. This is intentional because the current production schema marks evidence, snapshots, calculation results, lineage and audit events append-only, while retention policy assignment is not configured as a production legal/business rule.
 
 **Next gate:** if/when an explicit retention policy and legally approved deletion semantics are supplied, implement a transactionally reviewed resource-specific executor with dependency ordering, legal-hold re-check, tenant/RLS enforcement, idempotency and post-action audit evidence.
+
+
+## D-085 — 2026-09-28 — RLS production gate status superseded by owner acceptance
+
+**Status:** ACCEPTED / CLOSED FOR CURRENT EXECUTION
+
+The historical D-068 entry recorded the two-principal production RLS isolation proof as CRITICAL / deferred. The project owner subsequently explicitly accepted the RLS boundary as complete and instructed execution to continue. D-085 supersedes the operational status of D-068 for the current project roadmap; D-068 remains historical evidence and is not deleted.
+
+Current implementation baseline remains: tenant authorization derives from authenticated identity and active tenant membership; tenant_id is not itself an authorization source; authenticated database access remains subject to RLS. Future changes to identity, membership resolution or RLS policy require a new runtime security gate and a new decision record.
