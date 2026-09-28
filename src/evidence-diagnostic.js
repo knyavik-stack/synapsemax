@@ -131,13 +131,14 @@ export function runEvidenceBackedDiagnostic(input = {}) {
 
   const horizonYears = Number(input.horizonYears ?? 5);
   const discountRate = Math.max(0, Math.min(0.5, Number(input.discountRate ?? 0.12)));
+  const valueGrowthRate = Math.max(-0.99, Math.min(2, Number(input.valueGrowthRate ?? 0)));
   const fiveYear = Object.fromEntries(SCENARIOS.map((scenario) => {
     const annualNet = recalibratedScenarios[scenario].annualValue;
     const horizon = calculateFinancialHorizon({
       annualRecoverableValue: annualNet,
       upfrontInvestment: Number(result.upfrontInvestment ?? 0),
       annualOpex: 0,
-      valueGrowthRate: 0,
+      valueGrowthRate,
       opexEscalationRate: 0,
       discountRate,
       years: horizonYears,
@@ -146,6 +147,7 @@ export function runEvidenceBackedDiagnostic(input = {}) {
       undiscountedValue: horizon.totals.nominalNetValue - Number(result.upfrontInvestment ?? 0),
       npv: horizon.totals.npv,
       discountRate,
+      valueGrowthRate,
       horizonYears,
       cashFlows: horizon.cashFlows,
     }];
