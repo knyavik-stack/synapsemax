@@ -25,6 +25,8 @@ assert.equal(diagnostic.decision.contractVersion, 'financial-decision-v1');
 assert.ok(diagnostic.decision.economics.totalTco >= diagnostic.decision.facts.upfrontInvestment);
 assert.equal(diagnostic.decision.economics.npv, diagnostic.fiveYear.base.npv);
 assert.equal(diagnostic.fiveYear.base.horizonYears, 5);
+assert.equal(diagnostic.fiveYear.base.cashFlows.length, 5);
+assert.equal(diagnostic.fiveYear.base.npv, diagnostic.decision.economics.npv);
 assert.equal(diagnostic.lineage.noDoubleCounting.method, 'explicit-overlap-only');
 assert.ok(diagnostic.scenarios.base.annualValue >= diagnostic.scenarios.conservative.annualValue);
 assert.ok(diagnostic.scenarios.optimistic.annualValue >= diagnostic.scenarios.base.annualValue);
