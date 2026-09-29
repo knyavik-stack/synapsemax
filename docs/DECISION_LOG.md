@@ -259,3 +259,14 @@ Current implementation baseline remains: tenant authorization derives from authe
 
 
 | D-086 | Accepted | 2026-09-28: Integration adapter security boundary hardened. Adapter endpoints reject private/local IP ranges, request paths must remain same-origin relative paths, redirects are disabled/rejected to prevent credential forwarding, and response size is bounded. This is an integration safety contract, not proof of interoperability with a real ERP/CRM/SAP endpoint. |
+
+
+## D-087 — SQL-side commercial funnel aggregation — 2026-09-29
+
+| Status | Decision |
+|---|---|
+| Accepted | `GET /api/v1/portal/funnel-summary` now uses `public.summarize_commercial_funnel()` through the authenticated Neon Data API instead of transferring up to 1000 raw events into the Worker. The function is `SECURITY INVOKER` and filters by `current_tenant_id()`. Funnel metadata is additionally bounded to 8192 UTF-8 bytes at the Worker boundary. |
+
+**Rationale:** commercial analytics must remain correct as event volume grows; Worker-side sampling was not suitable as a durable KPI source.
+
+**Boundary:** the migration must be applied to production before the SQL aggregation endpoint is considered production-complete. The existing raw-event endpoint is not used as a silent fallback, because a sampled fallback would hide an incomplete deployment.
