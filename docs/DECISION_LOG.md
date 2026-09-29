@@ -270,3 +270,6 @@ Current implementation baseline remains: tenant authorization derives from authe
 **Rationale:** commercial analytics must remain correct as event volume grows; Worker-side sampling was not suitable as a durable KPI source.
 
 **Boundary:** the migration must be applied to production before the SQL aggregation endpoint is considered production-complete. The existing raw-event endpoint is not used as a silent fallback, because a sampled fallback would hide an incomplete deployment.
+
+
+| D-088 | Accepted | Evidence provenance hash is derived server-side from source type/reference, timestamps, metric, value and unit before transactional persistence. Client-supplied provenance hashes are not trusted. |
