@@ -15,6 +15,9 @@ const requiredIndex = [
   '/api/v1/portal/funnel',
   'commercial_funnel_events',
   '/api/v1/portal/funnel-summary',
+  '/rpc/summarize_commercial_funnel',
+  "aggregation: 'sql'",
+  'metadata exceeds 8192 bytes',
   "actor_type: 'user'",
 ];
 
