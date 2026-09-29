@@ -295,3 +295,21 @@ The financial diagnostic `payload_hash` is derived from the same canonical norma
 **Reason:** hashing a raw client payload while persisting a normalized payload creates a false integrity boundary: semantically identical inputs can produce different hashes, and the stored snapshot is not the exact object represented by its hash.
 
 **Security boundary:** canonicalization provides deterministic integrity for the application payload; it does not establish authenticity of external source data.
+
+
+## D-091 — Portal financial summary explicit tenant scoping — 2026-09-29
+
+**Status: IMPLEMENTED / QA PENDING**  
+
+`GET /api/v1/portal/summary` now receives the already-resolved server-side tenant context and explicitly filters both diagnostic session count and latest base calculation result by that tenant ID. The tenant ID is derived from authenticated Neon membership context; it is never accepted from the browser.
+
+**Security effect:** defense-in-depth for tenant-scoped financial reporting. PostgreSQL RLS remains the authorization boundary; the Worker query now independently expresses the intended tenant scope so a future query/RLS regression cannot silently broaden the financial summary contract.
+
+**Finance effect:** portal KPIs (annual net value, ROI, payback, margin uplift, evidence quality) are explicitly bound to the authenticated tenant's financial records.
+
+**Red-team:**
+1. **HIGH:** this is not a replacement for RLS; a broken/changed authorization context would still require separate security review.
+2. **MEDIUM:** tenant IDs appear in internal Data API query URLs; they are server-generated UUIDs and are not exposed as a client-controlled authorization parameter.
+3. **MEDIUM:** latest-result semantics remain V1 (`scenario=base`, newest `created_at`); period/cohort reporting remains a later analytics layer.
+
+**QA:** portal contract coverage requires the explicit `tenant_id=eq.${encodeURIComponent(tenantContext.tenantId)}` filter.

@@ -8,6 +8,7 @@ const requiredIndex = [
   "if (!authorization ||",
   "Bearer\\s+\\S+$",
   "Prefer: 'count=exact'",
+  'tenant_id=eq.${encodeURIComponent(tenantContext.tenantId)}',
   'scenario=eq.base',
   'annual_net_value',
   'margin_uplift_points',

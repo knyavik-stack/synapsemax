@@ -822,3 +822,27 @@ The diagnostic persistence layer now builds one canonical normalized payload bef
 
 ### QA
 Regression coverage verifies that two diagnostic inputs differing only in client-supplied provenanceHash produce identical canonical payloads and that the canonical payload contains no provenanceHash field.
+
+
+## 12.21 — PORTAL FINANCIAL SUMMARY TENANT SCOPE — 2026-09-29
+
+**Status: IMPLEMENTED / QA PENDING**
+
+Hardened `GET /api/v1/portal/summary` so the Worker passes the server-resolved tenant context into the summary function and explicitly filters both financial data reads by `tenant_id`.
+
+Changed queries:
+- `diagnostic_sessions`: explicit authenticated tenant filter plus exact count;
+- `calculation_results`: explicit authenticated tenant filter plus `scenario=base` and newest-result selection.
+
+The browser still cannot supply `tenant_id`. The value comes from `resolveTenantContext(request)`, whose authority is the authenticated Neon membership/RLS boundary.
+
+### Financial impact
+The portal's core economics — annual net value, ROI, payback, margin uplift and evidence quality — are now contractually scoped to the authenticated tenant at both the authorization layer and the Worker query layer. This is defense-in-depth rather than a new source of financial truth.
+
+### Red-team
+1. **HIGH:** explicit query filtering does not replace PostgreSQL RLS; any future tenant-context/auth change must preserve the existing authorization boundary.
+2. **MEDIUM:** V1 still exposes only the latest base scenario, not periodized/cohort economics.
+3. **MEDIUM:** the Data API query contains the server-derived tenant UUID internally; it is not accepted from client input.
+
+### QA
+`test-portal-contract.mjs` now requires the explicit tenant filter expression. Full Immediate QA, including Chromium, remains the release gate before merge.
