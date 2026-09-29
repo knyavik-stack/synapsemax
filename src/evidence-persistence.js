@@ -132,7 +132,7 @@ async function buildPersistencePayload({ diagnostic, tenantContext, input, sessi
       normalized_payload: {
         contractVersion: FINANCIAL_DIAGNOSTIC_CONTRACT,
         calculationInput: input.calculationInput ?? {},
-        evidence: input.evidence ?? [],
+        evidence: diagnostic.evidenceModel.evidence.map(({ metric, sourceType, sourceRef, observedAt, collectedAt, value, unit, quality, metadata }) => ({ metric, sourceType, sourceRef, observedAt, collectedAt, value, unit, quality, metadata })),
         discountRate: input.discountRate ?? 0.12,
         horizonYears: input.horizonYears ?? 5,
       },
@@ -232,7 +232,7 @@ async function persistLegacy({ authorization, tenantContext, input, diagnostic, 
         id: crypto.randomUUID(), tenant_id: tenantContext.tenantId, source_type: item.sourceType,
         source_ref: item.sourceRef, observed_at: item.observedAt, collected_at: item.collectedAt,
         metric: item.metric, value: item.value, unit: item.unit, quality: item.quality,
-        provenance_hash: item.provenanceHash || await sha256(JSON.stringify(item.value)), metadata: item.metadata,
+        provenance_hash: await sha256(JSON.stringify({ sourceType: item.sourceType, sourceRef: item.sourceRef, observedAt: item.observedAt, collectedAt: item.collectedAt, metric: item.metric, value: item.value, unit: item.unit })), metadata: item.metadata,
       }, authorization);
       evidenceRows.push({ id: row?.id, metric: item.metric });
     }
