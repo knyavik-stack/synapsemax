@@ -59,7 +59,7 @@ function requestIdFrom(input, request) {
   return value;
 }
 
-function buildNormalizedPayload({ diagnostic, input }) {
+export function buildNormalizedPayload({ diagnostic, input }) {
   return {
     contractVersion: FINANCIAL_DIAGNOSTIC_CONTRACT,
     calculationInput: input.calculationInput ?? {},
