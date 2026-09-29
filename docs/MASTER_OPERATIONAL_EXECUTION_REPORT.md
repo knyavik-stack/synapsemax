@@ -807,3 +807,18 @@ The fallback now derives the same canonical SHA-256 fingerprint from source type
 
 ### QA
 Static regression coverage rejects reintroduction of client-supplied provenance hashes in both fallback persistence and normalized snapshots.
+
+
+# 12.20 — FINANCIAL DIAGNOSTIC PAYLOAD CANONICALIZATION — 2026-09-29
+
+**Status: IMPLEMENTED / QA CONTRACT ADDED**
+
+The diagnostic persistence layer now builds one canonical normalized payload before hashing. The payload hash and persisted snapshot therefore refer to the same representation. Client-provided `provenanceHash` values are excluded from that representation, so changing an untrusted hash cannot alter the integrity identifier of an otherwise identical financial input.
+
+### Red-team
+1. **HIGH:** hash-before-normalization created a mismatch between the claimed integrity object and the persisted object; closed by hashing the canonical snapshot representation.
+2. **MEDIUM:** atomic RPC and legacy fallback could drift; both now consume the same normalized payload object.
+3. **MEDIUM:** canonical hashing is not source authenticity; connector/source verification remains separate.
+
+### QA
+Regression coverage verifies that two diagnostic inputs differing only in client-supplied provenanceHash produce identical canonical payloads and that the canonical payload contains no provenanceHash field.
