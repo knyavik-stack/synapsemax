@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import { runEvidenceBackedDiagnostic, calibrateScenarios, FINANCIAL_DIAGNOSTIC_CONTRACT } from '../src/evidence-diagnostic.js';
 
 const diagnostic = runEvidenceBackedDiagnostic({
@@ -37,7 +38,7 @@ assert.ok(low.optimistic > high.optimistic);
 console.log('Evidence-backed diagnostic: PASS');
 
 
-const persistenceSource = require('node:fs').readFileSync('src/evidence-persistence.js', 'utf8');
+const persistenceSource = fs.readFileSync('src/evidence-persistence.js', 'utf8');
 if (!persistenceSource.includes('provenance_hash: await sha256(JSON.stringify({')) {
   throw new Error('server-side provenance hash derivation missing');
 }
