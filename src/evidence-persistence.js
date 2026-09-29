@@ -59,8 +59,8 @@ function requestIdFrom(input, request) {
   return value;
 }
 
-function buildPersistencePayload({ diagnostic, tenantContext, input, sessionId, snapshotId, requestId, payloadHash, now }) {
-  const evidenceRows = diagnostic.evidenceModel.evidence.map((item) => ({
+async function buildPersistencePayload({ diagnostic, tenantContext, input, sessionId, snapshotId, requestId, payloadHash, now }) {
+  const evidenceRows = await Promise.all(diagnostic.evidenceModel.evidence.map(async (item) => ({
     id: crypto.randomUUID(),
     supersedes_evidence_id: null,
     source_type: item.sourceType,
@@ -71,9 +71,17 @@ function buildPersistencePayload({ diagnostic, tenantContext, input, sessionId, 
     value: item.value,
     unit: item.unit,
     quality: item.quality,
-    provenance_hash: item.provenanceHash,
+    provenance_hash: await sha256(JSON.stringify({
+      sourceType: item.sourceType,
+      sourceRef: item.sourceRef,
+      observedAt: item.observedAt,
+      collectedAt: item.collectedAt,
+      metric: item.metric,
+      value: item.value,
+      unit: item.unit,
+    })),
     metadata: item.metadata,
-  }));
+  })));
 
   const resultRows = ['conservative', 'base', 'optimistic'].map((scenario) => {
     const s = diagnostic.scenarios[scenario];
@@ -297,7 +305,7 @@ export async function persistEvidenceDiagnostic({ request, tenantContext, input 
     horizonYears: input.horizonYears ?? 5,
   };
   const payloadHash = await sha256(JSON.stringify(normalizedPayload));
-  const persistencePayload = buildPersistencePayload({ diagnostic, tenantContext, input, sessionId, snapshotId, requestId, payloadHash, now });
+  const persistencePayload = await buildPersistencePayload({ diagnostic, tenantContext, input, sessionId, snapshotId, requestId, payloadHash, now });
 
   try {
     const atomic = await apiRequest('/rpc/persist_financial_diagnostic', {
