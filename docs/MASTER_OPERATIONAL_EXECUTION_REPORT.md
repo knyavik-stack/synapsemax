@@ -779,3 +779,14 @@ Funnel event metadata is bounded to **8192 UTF-8 bytes** before persistence.
 1. **HIGH:** production migration is not yet evidenced; code and database deployment must remain separate states.
 2. **MEDIUM:** aggregation is all-time in V1; periodized cohort/conversion analytics remains a later BI layer.
 3. **MEDIUM:** conversion events are still intentionally not fabricated by the portal; only confirmed business events should emit `conversion`.
+
+
+# 12.18 — EVIDENCE PROVENANCE INTEGRITY — 2026-09-29
+
+**Status: IMPLEMENTED / QA CONTRACT ADDED**
+
+The transactional financial-diagnostic persistence path now derives `provenance_hash` server-side from the evidence source/type, source reference, observed/collected timestamps, metric, value and unit. A client-provided provenance hash is no longer trusted as authoritative evidence metadata.
+
+**Security effect:** closes a provenance-integrity gap where an omitted client hash could previously reach the transactional payload as an empty value. The hash is an integrity fingerprint, not proof that the external source itself is truthful.
+
+**Red-team:** source authenticity still requires connector/source verification; hash integrity alone cannot establish that a CSV, ERP export or manual entry is factually correct.
