@@ -35,3 +35,13 @@ const high = calibrateScenarios({}, 100);
 assert.ok(low.conservative < high.conservative);
 assert.ok(low.optimistic > high.optimistic);
 console.log('Evidence-backed diagnostic: PASS');
+
+
+const persistenceSource = require('node:fs').readFileSync('src/evidence-persistence.js', 'utf8');
+if (!persistenceSource.includes('provenance_hash: await sha256(JSON.stringify({')) {
+  throw new Error('server-side provenance hash derivation missing');
+}
+if (persistenceSource.includes('provenance_hash: item.provenanceHash,')) {
+  throw new Error('client-supplied provenance hash must not be trusted');
+}
+console.log('PROVENANCE INTEGRITY: PASS');
