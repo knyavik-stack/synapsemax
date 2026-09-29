@@ -29,7 +29,7 @@ function json(data, status = 200) {
 
 const NEON_DATA_API_URL = 'https://ep-lively-bread-b1ewktwx.apirest.c-5.eu-central-1.aws.neon.tech/neondb/rest/v1';
 
-async function portalSummary(request) {
+async function portalSummary(request, tenantContext) {
   const authorization = request.headers.get('authorization');
   if (!authorization || !/^Bearer\s+\S+$/i.test(authorization)) {
     return json({ ok: false, error: 'Authentication required' }, 401);
@@ -43,7 +43,7 @@ async function portalSummary(request) {
   };
 
   const sessionsResponse = await fetch(
-    `${NEON_DATA_API_URL}/diagnostic_sessions?select=id&limit=1`,
+    `${NEON_DATA_API_URL}/diagnostic_sessions?select=id&tenant_id=eq.${encodeURIComponent(tenantContext.tenantId)}&limit=1`,
     { headers: { ...baseHeaders, Prefer: 'count=exact' }, cf: { cacheTtl: 0 } },
   );
   if (!sessionsResponse.ok) return json({ ok: false, error: 'Portal data unavailable' }, sessionsResponse.status);
@@ -52,7 +52,7 @@ async function portalSummary(request) {
   const sessionCount = contentRange?.match(/\/(\d+)$/)?.[1] ? Number(contentRange.match(/\/(\d+)$/)[1]) : null;
 
   const resultsResponse = await fetch(
-    `${NEON_DATA_API_URL}/calculation_results?select=session_id,scenario,net_recoverable_monthly,annual_net_value,roi_percent,payback_months,margin_uplift_points,evidence_quality&scenario=eq.base&order=created_at.desc&limit=1`,
+    `${NEON_DATA_API_URL}/calculation_results?select=session_id,scenario,net_recoverable_monthly,annual_net_value,roi_percent,payback_months,margin_uplift_points,evidence_quality&tenant_id=eq.${encodeURIComponent(tenantContext.tenantId)}&scenario=eq.base&order=created_at.desc&limit=1`,
     { headers: baseHeaders, cf: { cacheTtl: 0 } },
   );
   if (!resultsResponse.ok) return json({ ok: false, error: 'Portal results unavailable' }, resultsResponse.status);
@@ -163,7 +163,7 @@ export default {
     if (request.method === 'GET' && url.pathname === '/api/v1/portal/summary') {
       const context = await resolveTenantContext(request);
       if (context?.response) return context.response;
-      return portalSummary(request);
+      return portalSummary(request, context);
     }
     if (request.method === 'GET' && url.pathname === '/api/v1/portal/funnel-summary') {
       const context = await resolveTenantContext(request);
