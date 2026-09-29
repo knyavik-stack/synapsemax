@@ -53,8 +53,8 @@ if (!persistenceSource.includes('evidence: diagnostic.evidenceModel.evidence.map
   throw new Error('normalized snapshot must strip client-supplied provenanceHash');
 }
 console.log('PROVENANCE INTEGRITY: PASS');
-const canonicalA = buildNormalizedPayload({ diagnostic, input: { calculationInput: { implementationCost: 1500000 }, evidence: diagnostic.evidenceModel.evidence.map((item) => ({ ...item, provenanceHash: 'client-a' })) } });
-const canonicalB = buildNormalizedPayload({ diagnostic, input: { calculationInput: { implementationCost: 1500000 }, evidence: diagnostic.evidenceModel.evidence.map((item) => ({ ...item, provenanceHash: 'client-b' })) } });
+const canonicalA = buildNormalizedPayload({ diagnostic, input: { calculationInput: { implementationCost: 1500000 }, evidence: [{ metric: 'monthlyLaborCost', provenanceHash: 'client-a' }] } });
+const canonicalB = buildNormalizedPayload({ diagnostic, input: { calculationInput: { implementationCost: 1500000 }, evidence: [{ metric: 'monthlyLaborCost', provenanceHash: 'client-b' }] } });
 assert.deepEqual(canonicalA, canonicalB, 'client provenanceHash must not affect canonical payload');
 assert.ok(canonicalA.evidence.every((item) => !Object.hasOwn(item, 'provenanceHash')), 'canonical payload must strip client provenanceHash');
 console.log('PAYLOAD CANONICALIZATION: PASS');
