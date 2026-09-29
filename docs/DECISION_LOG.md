@@ -256,3 +256,6 @@ The executor currently supports **dry-run only** and converts the existing `gove
 The historical D-068 entry recorded the two-principal production RLS isolation proof as CRITICAL / deferred. The project owner subsequently explicitly accepted the RLS boundary as complete and instructed execution to continue. D-085 supersedes the operational status of D-068 for the current project roadmap; D-068 remains historical evidence and is not deleted.
 
 Current implementation baseline remains: tenant authorization derives from authenticated identity and active tenant membership; tenant_id is not itself an authorization source; authenticated database access remains subject to RLS. Future changes to identity, membership resolution or RLS policy require a new runtime security gate and a new decision record.
+
+
+| D-086 | Accepted | 2026-09-28: Integration adapter security boundary hardened. Adapter endpoints reject private/local IP ranges, request paths must remain same-origin relative paths, redirects are disabled/rejected to prevent credential forwarding, and response size is bounded. This is an integration safety contract, not proof of interoperability with a real ERP/CRM/SAP endpoint. |

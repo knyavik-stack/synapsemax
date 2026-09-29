@@ -19,7 +19,8 @@
     "test:governance-retention-executor": "node scripts/test-governance-retention-executor.mjs",
     "test:auth-password": "node scripts/test-auth-password-policy.mjs",
     "test:portal": "node scripts/test-portal-contract.mjs",
-    "test:finance-horizon": "node scripts/test-financial-horizon.mjs"
+    "test:finance-horizon": "node scripts/test-financial-horizon.mjs",
+    "test:integration-adapter": "node scripts/test-integration-adapter.mjs"
   },
   "devDependencies": {
     "wrangler": "4.126.0",
