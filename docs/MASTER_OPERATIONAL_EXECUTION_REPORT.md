@@ -761,3 +761,21 @@ Historical R-02/D-068 language about the deferred two-principal RLS proof is ret
 The generic HTTP integration adapter was hardened before allowing it to become a production integration foundation. The adapter now rejects private/local endpoint ranges, requires same-origin relative request paths, disables automatic redirects so Bearer credentials cannot be forwarded to another origin, and enforces a bounded response size. Regression tests cover private IPs, metadata/link-local address space, external URL injection, redirect handling and oversized responses.
 
 **Security boundary:** this closes adapter-level SSRF/credential-forwarding classes covered by the contract. It does not prove interoperability with a real 1C/ERP/CRM/SAP endpoint; that requires a controlled external test environment and real integration credentials.
+
+
+# 12.17 — COMMERCIAL FUNNEL SQL AGGREGATION — 2026-09-29
+
+**Status: CODE COMPLETE / MIGRATION PENDING**
+
+The funnel summary path was changed from Worker-side retrieval of up to 1000 raw events to SQL-side aggregation via `public.summarize_commercial_funnel()`. The function is `SECURITY INVOKER` and scopes rows through `current_tenant_id()`; the Worker now receives only the five KPI counters.
+
+Funnel event metadata is bounded to **8192 UTF-8 bytes** before persistence.
+
+**Business effect:** funnel KPIs no longer degrade into sampled counts as the event ledger grows. This makes the commercial funnel suitable as a tenant-scoped operational KPI source without moving raw event volume through the Worker.
+
+**Release boundary:** migration `20260929090000_commercial_funnel_summary_rpc.sql` must be applied and verified in production before this block is marked production-complete.
+
+**Red-team**
+1. **HIGH:** production migration is not yet evidenced; code and database deployment must remain separate states.
+2. **MEDIUM:** aggregation is all-time in V1; periodized cohort/conversion analytics remains a later BI layer.
+3. **MEDIUM:** conversion events are still intentionally not fabricated by the portal; only confirmed business events should emit `conversion`.

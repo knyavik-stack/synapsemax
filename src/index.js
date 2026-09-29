@@ -76,17 +76,21 @@ async function portalSummary(request) {
 
 async function portalFunnelSummary(request) {
   const authorization = request.headers.get('authorization');
-  if (!authorization || !/^Bearer\s+\S+$/i.test(authorization)) return json({ ok: false, error: 'Authentication required' }, 401);
-  const headers = { Authorization: authorization, Accept: 'application/json', 'Accept-Profile': 'public', 'Content-Profile': 'public' };
+  if (!authorization || !/^Bearer\\s+\\S+$/i.test(authorization)) return json({ ok: false, error: 'Authentication required' }, 401);
+  const headers = {
+    Authorization: authorization,
+    Accept: 'application/json',
+    'Accept-Profile': 'public',
+    'Content-Profile': 'public',
+    'Content-Type': 'application/json',
+  };
   const response = await fetch(
-    `${NEON_DATA_API_URL}/commercial_funnel_events?select=event_name&limit=1000`,
-    { headers, cf: { cacheTtl: 0 } },
+    `${NEON_DATA_API_URL}/rpc/summarize_commercial_funnel`,
+    { method: 'POST', headers, body: '{}', cf: { cacheTtl: 0 } },
   );
   if (!response.ok) return json({ ok: false, error: 'Funnel data unavailable' }, response.status);
-  const rows = await response.json();
-  const counts = Object.fromEntries(['portal_view','diagnostic_start','diagnostic_complete','cta_click','conversion'].map((name) => [name, 0]));
-  for (const row of rows) if (row?.event_name in counts) counts[row.event_name] += 1;
-  return json({ ok: true, result: { counts, sampledRows: rows.length, scope: 'tenant' } });
+  const counts = await response.json();
+  return json({ ok: true, result: { counts: counts ?? {}, sampledRows: null, scope: 'tenant', aggregation: 'sql' } });
 }
 
 async function recordFunnelEvent(request, context) {
@@ -96,6 +100,9 @@ async function recordFunnelEvent(request, context) {
     if (!allowedEvents.has(input?.eventName)) return json({ ok: false, error: 'Unsupported funnel event' }, 400);
 
     const requestId = crypto.randomUUID();
+    const metadata = input.metadata && typeof input.metadata === 'object' && !Array.isArray(input.metadata) ? input.metadata : {};
+    const metadataBytes = new TextEncoder().encode(JSON.stringify(metadata)).byteLength;
+    if (metadataBytes > 8192) return json({ ok: false, error: 'metadata exceeds 8192 bytes' }, 413);
     const payload = {
       tenant_id: context.tenantId,
       actor_type: 'user',
@@ -104,7 +111,7 @@ async function recordFunnelEvent(request, context) {
       request_id: requestId,
       resource_type: typeof input.resourceType === 'string' ? input.resourceType.slice(0, 80) : 'portal',
       resource_id: typeof input.resourceId === 'string' ? input.resourceId.slice(0, 120) : requestId,
-      metadata: input.metadata && typeof input.metadata === 'object' ? input.metadata : {},
+      metadata,
     };
 
     const response = await fetch(`${NEON_DATA_API_URL}/commercial_funnel_events`, {
