@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { runEvidenceBackedDiagnostic, calibrateScenarios, FINANCIAL_DIAGNOSTIC_CONTRACT } from '../src/evidence-diagnostic.js';
+import { buildNormalizedPayload } from '../src/evidence-persistence.js';
 
 const diagnostic = runEvidenceBackedDiagnostic({
   evidence: [
@@ -52,3 +53,9 @@ if (!persistenceSource.includes('evidence: diagnostic.evidenceModel.evidence.map
   throw new Error('normalized snapshot must strip client-supplied provenanceHash');
 }
 console.log('PROVENANCE INTEGRITY: PASS');
+const canonicalA = buildNormalizedPayload({ diagnostic, input: { calculationInput: { implementationCost: 1500000 }, evidence: diagnostic.evidenceModel.evidence.map((item) => ({ ...item, provenanceHash: 'client-a' })) } });
+const canonicalB = buildNormalizedPayload({ diagnostic, input: { calculationInput: { implementationCost: 1500000 }, evidence: diagnostic.evidenceModel.evidence.map((item) => ({ ...item, provenanceHash: 'client-b' })) } });
+assert.deepEqual(canonicalA, canonicalB, 'client provenanceHash must not affect canonical payload');
+assert.ok(canonicalA.evidence.every((item) => !Object.hasOwn(item, 'provenanceHash')), 'canonical payload must strip client provenanceHash');
+console.log('PAYLOAD CANONICALIZATION: PASS');
+
