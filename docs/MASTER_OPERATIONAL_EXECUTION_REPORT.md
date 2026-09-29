@@ -790,3 +790,20 @@ The transactional financial-diagnostic persistence path now derives `provenance_
 **Security effect:** closes a provenance-integrity gap where an omitted client hash could previously reach the transactional payload as an empty value. The hash is an integrity fingerprint, not proof that the external source itself is truthful.
 
 **Red-team:** source authenticity still requires connector/source verification; hash integrity alone cannot establish that a CSV, ERP export or manual entry is factually correct.
+
+
+# 12.19 — EVIDENCE PROVENANCE FALLBACK HARDENING — 2026-09-29
+
+**Status: IMPLEMENTED / QA CONTRACT ADDED**
+
+Closed a residual provenance-integrity bypass in the legacy financial-diagnostic persistence path. The primary RPC path already derived evidence hashes server-side, but the 404 compatibility fallback still had a code path that could use `item.provenanceHash` supplied by the client.
+
+The fallback now derives the same canonical SHA-256 fingerprint from source type/reference, observed/collected timestamps, metric, value and unit. The normalized diagnostic snapshot also removes the client-supplied provenance hash before persistence, keeping the calculation snapshot consistent with the authoritative server-side evidence record.
+
+### Red-team
+1. **HIGH:** compatibility fallbacks can silently bypass controls implemented only in the primary path; both paths now share the same provenance rule.
+2. **MEDIUM:** provenance hash still does not establish truthfulness of an ERP/CSV/manual source; source authenticity requires connector-level verification.
+3. **MEDIUM:** future persistence paths must reuse the canonical provenance derivation rather than accept client-provided hashes.
+
+### QA
+Static regression coverage rejects reintroduction of client-supplied provenance hashes in both fallback persistence and normalized snapshots.

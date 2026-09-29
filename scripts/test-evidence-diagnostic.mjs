@@ -45,4 +45,10 @@ if (!persistenceSource.includes('provenance_hash: await sha256(JSON.stringify({'
 if (persistenceSource.includes('provenance_hash: item.provenanceHash,')) {
   throw new Error('client-supplied provenance hash must not be trusted');
 }
+if (persistenceSource.includes('provenance_hash: item.provenanceHash ||')) {
+  throw new Error('legacy fallback must not trust client-supplied provenance hash');
+}
+if (!persistenceSource.includes('evidence: diagnostic.evidenceModel.evidence.map(({ metric, sourceType, sourceRef')) {
+  throw new Error('normalized snapshot must strip client-supplied provenanceHash');
+}
 console.log('PROVENANCE INTEGRITY: PASS');
