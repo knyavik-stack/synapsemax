@@ -273,3 +273,14 @@ Current implementation baseline remains: tenant authorization derives from authe
 
 
 | D-088 | Accepted | Evidence provenance hash is derived server-side from source type/reference, timestamps, metric, value and unit before transactional persistence. Client-supplied provenance hashes are not trusted. |
+
+
+## D-089 — Evidence provenance integrity must cover fallback persistence paths — 2026-09-29
+
+**Status:** IMPLEMENTED / QA CONTRACT ADDED
+
+The server-side provenance-hash control is authoritative across both transactional RPC persistence and the legacy HTTP fallback. The fallback no longer accepts a client-supplied `provenanceHash`; the persisted hash is derived from source type/reference, observed/collected timestamps, metric, value and unit. Normalized diagnostic snapshots also strip the client-supplied provenance hash so the stored snapshot cannot contradict the persisted evidence record.
+
+**Reason:** a security control that protects only the primary path is incomplete because a compatibility fallback can become an unintended bypass when the primary RPC is unavailable.
+
+**Boundary:** this proves hash derivation/integrity handling, not source authenticity. External-source verification remains a connector/integration responsibility.
