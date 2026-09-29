@@ -59,7 +59,19 @@ function requestIdFrom(input, request) {
   return value;
 }
 
-async function buildPersistencePayload({ diagnostic, tenantContext, input, sessionId, snapshotId, requestId, payloadHash, now }) {
+export function buildNormalizedPayload({ diagnostic, input }) {
+  return {
+    contractVersion: FINANCIAL_DIAGNOSTIC_CONTRACT,
+    calculationInput: input.calculationInput ?? {},
+    evidence: diagnostic.evidenceModel.evidence.map(({ metric, sourceType, sourceRef, observedAt, collectedAt, value, unit, quality, metadata }) => ({
+      metric, sourceType, sourceRef, observedAt, collectedAt, value, unit, quality, metadata,
+    })),
+    discountRate: input.discountRate ?? 0.12,
+    horizonYears: input.horizonYears ?? 5,
+  };
+}
+
+async function buildPersistencePayload({ diagnostic, tenantContext, input, normalizedPayload, sessionId, snapshotId, requestId, payloadHash, now }) {
   const evidenceRows = await Promise.all(diagnostic.evidenceModel.evidence.map(async (item) => ({
     id: crypto.randomUUID(),
     supersedes_evidence_id: null,
@@ -129,13 +141,7 @@ async function buildPersistencePayload({ diagnostic, tenantContext, input, sessi
       session_id: sessionId,
       schema_version: FINANCIAL_DIAGNOSTIC_CONTRACT,
       payload_hash: payloadHash,
-      normalized_payload: {
-        contractVersion: FINANCIAL_DIAGNOSTIC_CONTRACT,
-        calculationInput: input.calculationInput ?? {},
-        evidence: diagnostic.evidenceModel.evidence.map(({ metric, sourceType, sourceRef, observedAt, collectedAt, value, unit, quality, metadata }) => ({ metric, sourceType, sourceRef, observedAt, collectedAt, value, unit, quality, metadata })),
-        discountRate: input.discountRate ?? 0.12,
-        horizonYears: input.horizonYears ?? 5,
-      },
+      normalized_payload: normalizedPayload,
     },
     evidence_rows: evidenceRows,
     result_rows: resultRows,
@@ -185,7 +191,7 @@ function atomicResult(data, diagnostic, requestId) {
   };
 }
 
-async function persistLegacy({ authorization, tenantContext, input, diagnostic, sessionId, snapshotId, requestId, payloadHash, now }) {
+async function persistLegacy({ authorization, tenantContext, input, diagnostic, normalizedPayload, sessionId, snapshotId, requestId, payloadHash, now }) {
   const idem = await apiRequest('/idempotency_keys', {
     body: { tenant_id: tenantContext.tenantId, request_id: requestId, operation: 'financial-diagnostic', resource_id: sessionId, response_hash: payloadHash },
     authorization,
@@ -223,7 +229,7 @@ async function persistLegacy({ authorization, tenantContext, input, diagnostic, 
     await apiWrite('/diagnostic_input_snapshots', {
       id: snapshotId, tenant_id: tenantContext.tenantId, session_id: sessionId,
       schema_version: FINANCIAL_DIAGNOSTIC_CONTRACT, payload_hash: payloadHash,
-      normalized_payload: { contractVersion: FINANCIAL_DIAGNOSTIC_CONTRACT, calculationInput: input.calculationInput ?? {}, evidence: input.evidence ?? [], discountRate: input.discountRate ?? 0.12, horizonYears: input.horizonYears ?? 5 },
+      normalized_payload: normalizedPayload,
     }, authorization);
 
     const evidenceRows = [];
@@ -297,15 +303,9 @@ export async function persistEvidenceDiagnostic({ request, tenantContext, input 
   const snapshotId = crypto.randomUUID();
   const requestId = requestIdFrom(input, request);
   const now = new Date().toISOString();
-  const normalizedPayload = {
-    contractVersion: FINANCIAL_DIAGNOSTIC_CONTRACT,
-    calculationInput: input.calculationInput ?? {},
-    evidence: input.evidence ?? [],
-    discountRate: input.discountRate ?? 0.12,
-    horizonYears: input.horizonYears ?? 5,
-  };
+  const normalizedPayload = buildNormalizedPayload({ diagnostic, input });
   const payloadHash = await sha256(JSON.stringify(normalizedPayload));
-  const persistencePayload = await buildPersistencePayload({ diagnostic, tenantContext, input, sessionId, snapshotId, requestId, payloadHash, now });
+  const persistencePayload = await buildPersistencePayload({ diagnostic, tenantContext, input, normalizedPayload, sessionId, snapshotId, requestId, payloadHash, now });
 
   try {
     const atomic = await apiRequest('/rpc/persist_financial_diagnostic', {
@@ -317,6 +317,6 @@ export async function persistEvidenceDiagnostic({ request, tenantContext, input 
     return atomicResult(data, diagnostic, requestId);
   } catch (error) {
     if (!(error instanceof DataApiError) || error.status !== 404) throw error;
-    return persistLegacy({ authorization, tenantContext, input, diagnostic, sessionId, snapshotId, requestId, payloadHash, now });
+    return persistLegacy({ authorization, tenantContext, input, diagnostic, normalizedPayload, sessionId, snapshotId, requestId, payloadHash, now });
   }
 }

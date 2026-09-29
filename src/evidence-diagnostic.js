@@ -171,6 +171,7 @@ export function runEvidenceBackedDiagnostic(input = {}) {
     contractVersion: FINANCIAL_DIAGNOSTIC_CONTRACT,
     result,
     evidenceModel: {
+      evidence: model.evidence,
       evidenceCount: model.evidence.length,
       evidenceQuality: model.evidenceQuality,
       aggregates: model.aggregates,

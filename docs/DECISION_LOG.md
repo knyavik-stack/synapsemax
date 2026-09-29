@@ -284,3 +284,14 @@ The server-side provenance-hash control is authoritative across both transaction
 **Reason:** a security control that protects only the primary path is incomplete because a compatibility fallback can become an unintended bypass when the primary RPC is unavailable.
 
 **Boundary:** this proves hash derivation/integrity handling, not source authenticity. External-source verification remains a connector/integration responsibility.
+
+
+## D-090 — Canonical financial diagnostic payload hashing — 2026-09-29
+
+**Status:** IMPLEMENTED / QA CONTRACT ADDED
+
+The financial diagnostic `payload_hash` is derived from the same canonical normalized payload that is persisted as the diagnostic snapshot. Client-supplied `provenanceHash` values are excluded before hashing. The same canonical payload is reused by the atomic persistence contract and the legacy fallback.
+
+**Reason:** hashing a raw client payload while persisting a normalized payload creates a false integrity boundary: semantically identical inputs can produce different hashes, and the stored snapshot is not the exact object represented by its hash.
+
+**Security boundary:** canonicalization provides deterministic integrity for the application payload; it does not establish authenticity of external source data.
