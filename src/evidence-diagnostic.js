@@ -129,9 +129,10 @@ export function runEvidenceBackedDiagnostic(input = {}) {
     }];
   }));
 
-  const horizonYears = Number(input.horizonYears ?? 5);
+  const horizonYears = Math.max(1, Math.min(30, Math.floor(Number(input.horizonYears ?? 5))));
   const discountRate = Math.max(0, Math.min(0.5, Number(input.discountRate ?? 0.12)));
-  const valueGrowthRate = Math.max(-0.99, Math.min(2, Number(input.valueGrowthRate ?? 0)));
+  // Keep evidence-backed assumptions aligned with financial-decision-v1: growth is capped below 100%.
+  const valueGrowthRate = Math.max(0, Math.min(0.99, Number(input.valueGrowthRate ?? 0)));
   const fiveYear = Object.fromEntries(SCENARIOS.map((scenario) => {
     const annualNet = recalibratedScenarios[scenario].annualValue;
     const horizon = calculateFinancialHorizon({

@@ -313,3 +313,23 @@ The financial diagnostic `payload_hash` is derived from the same canonical norma
 3. **MEDIUM:** latest-result semantics remain V1 (`scenario=base`, newest `created_at`); period/cohort reporting remains a later analytics layer.
 
 **QA:** portal contract coverage requires the explicit `tenant_id=eq.${encodeURIComponent(tenantContext.tenantId)}` filter.
+
+
+## D-092 — 2026-10-01 — Financial diagnostic assumption bounds aligned
+
+**Status:** IMPLEMENTED / QA CONTRACT ADDED
+
+The evidence-backed financial diagnostic now uses the same bounded assumption contract as `financial-decision-v1`: horizon is normalized to an integer range of 1–30 years and value growth is bounded to 0–99% before both five-year economics and the decision engine consume it.
+
+**Finding:** the diagnostic layer previously allowed value growth up to 200% and passed fractional/non-integer horizons through to the canonical horizon calculation, while `financial-decision-v1` independently rejected growth at 100% or above and required a 1–30 integer horizon. This could make an otherwise accepted diagnostic input fail later in the decision stage.
+
+**Correction:** the diagnostic now normalizes the assumptions once and passes the bounded values consistently to the horizon and decision calculations. The regression fixture also now uses the public UI contract for recoverable manual share (40%, not 0.4).
+
+**Financial effect:** this is a consistency/control fix, not an artificial improvement of ROI. It prevents invalid or differently interpreted assumptions from producing partial or contradictory financial outputs.
+
+**Red-team:**
+1. **HIGH:** inconsistent assumption validation could create endpoint failures or divergent economics; closed.
+2. **MEDIUM:** bounding growth at 99% is a planning-model guardrail, not evidence that such growth is achievable.
+3. **MEDIUM:** the 1–30 year horizon remains a product contract; longer enterprise models require an explicit contract change rather than silent acceptance.
+
+**QA:** evidence-diagnostic regression now verifies 150% growth is bounded to 99% and a 35-year request is normalized to 30 years.
