@@ -12,7 +12,7 @@ const diagnostic = runEvidenceBackedDiagnostic({
     { metric: 'baselineMarginPercent', sourceType: 'erp', sourceRef: 'erp://margin/2026-08', value: 20, unit: '%', quality: 'high', provenanceHash: 'e' },
   ],
   calculationInput: {
-    recoverableManualShare: 0.4,
+    recoverableManualShare: 40,
     recoverableErrorShare: 0.5,
     recoverableDelayShare: 0.2,
     implementationCost: 1500000,
@@ -28,6 +28,9 @@ assert.ok(diagnostic.decision.economics.totalTco >= diagnostic.decision.facts.up
 assert.equal(diagnostic.decision.economics.npv, diagnostic.fiveYear.base.npv);
 assert.equal(diagnostic.fiveYear.base.horizonYears, 5);
 assert.equal(diagnostic.fiveYear.base.cashFlows.length, 5);
+const boundedGrowth = runEvidenceBackedDiagnostic({ evidence: diagnostic.evidenceModel.evidence, valueGrowthRate: 1.5, horizonYears: 35 });
+assert.equal(boundedGrowth.fiveYear.base.valueGrowthRate, 0.99);
+assert.equal(boundedGrowth.fiveYear.base.horizonYears, 30);
 assert.equal(diagnostic.fiveYear.base.npv, diagnostic.decision.economics.npv);
 assert.equal(diagnostic.lineage.noDoubleCounting.method, 'explicit-overlap-only');
 assert.ok(diagnostic.scenarios.base.annualValue >= diagnostic.scenarios.conservative.annualValue);
