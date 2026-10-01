@@ -846,3 +846,25 @@ The portal's core economics — annual net value, ROI, payback, margin uplift an
 
 ### QA
 `test-portal-contract.mjs` now requires the explicit tenant filter expression. Full Immediate QA, including Chromium, remains the release gate before merge.
+
+
+# 12.22 — FINANCIAL DIAGNOSTIC ASSUMPTION CONTRACT — 2026-10-01
+
+**Status: IMPLEMENTED / QA GATE**
+
+The evidence-backed diagnostic assumption layer was aligned with the canonical `financial-decision-v1` contract. Horizon years are normalized to integer 1–30; value growth is bounded to 0–99% before the horizon model and decision engine consume it.
+
+A concrete inconsistency was closed: the diagnostic previously permitted growth values up to 200%, while `financial-decision-v1` rejected growth at 100% or above. Non-integer/out-of-range horizons could also reach the canonical horizon function and fail after earlier validation had accepted them.
+
+The financial fixture was additionally corrected to use the public percentage convention for `recoverableManualShare`: `40` means 40%, consistent with the Immediate UI contract.
+
+### Financial impact
+No ROI uplift was manufactured. The change makes invalid/ambiguous assumptions fail or normalize at one boundary instead of producing divergent financial calculations downstream.
+
+### Red-team
+- **HIGH:** inconsistent validation between diagnostic and decision layers — closed.
+- **MEDIUM:** growth/horizon bounds are model guardrails, not forecasts or guarantees.
+- **MEDIUM:** extending the horizon beyond 30 years requires an explicit contract and new QA rather than silent expansion.
+
+### QA
+Regression coverage verifies 150% requested growth is normalized to 99% and a 35-year request is normalized to 30 years.
